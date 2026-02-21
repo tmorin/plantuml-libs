@@ -1,10 +1,13 @@
 # How to upgrade the Simple Icons package
 
-This guide provides concrete, step-by-step instructions to upgrade the Simple Icons package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and assumes you have already installed the required tools.
+This guide provides concrete, step-by-step instructions to upgrade the Simple Icons package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and is designed for AI agents to execute.
 
-## Prerequisites
-- [gh](https://cli.github.com/) (GitHub CLI) is installed and authenticated
-- [Node.js 22+](https://nodejs.org/) is installed
+## Prerequisites & Tool Selection
+
+This guide assumes an AI agent has access to:
+- **Primary**: GitHub MCP server (via `github-mcp-server-*` tools) - **Use this when available**
+- **Fallback**: GitHub CLI `gh` command (when MCP is unavailable)
+- **Required**: [Node.js 22+](https://nodejs.org/) is installed
 
 ## Notes
 
@@ -16,86 +19,102 @@ This guide provides concrete, step-by-step instructions to upgrade the Simple Ic
 ## Steps
 
 ### 1. Check the Simple Icons source
-- Visit [Simple Icons](https://github.com/simple-icons/simple-icons/releases) to check for the latest release.
+- Visit [Simple Icons Releases](https://github.com/simple-icons/simple-icons/releases) to check for the latest release.
 - The Simple Icons package fetches from GitHub releases: `https://github.com/simple-icons/simple-icons/archive/{VERSION}.zip`
 - Note the latest version number (e.g., `8.16.0`).
 
-### 2. Identify the TypeScript class
-- Locate the Simple Icons package source: `source/library/packages/simpleicons-14`.
-- The main entry point is `index.ts` in that folder.
+### 2. Create a new branch
+**Primary (MCP)**: Use `github-mcp-server-create_branch`
+```
+create_branch(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-simpleicons-<new-version>", from_branch="master")
+```
 
-### 3. Create a new branch
+**Fallback (CLI)**:
 ```bash
 git checkout master
 git pull
 git checkout -b feat/upgrade-simpleicons-<new-version>
 ```
 
-### 4. Update the Simple Icons package factory
+### 3. Update the Simple Icons package
 - Open `source/library/packages/simpleicons-14/index.ts`.
-- Update the `ICONS_VERSION` constant to the new version:
-  ```typescript
-  const ICONS_VERSION = "<new-version>"
-  ```
+- Update the `ICONS_VERSION` constant to the new version.
 - The `ICONS_URL` will automatically use the new version from the constant.
-- No other changes to the factory logic are typically needed unless the icon directory structure in the Simple Icons repository has changed.
+- No other changes to factory logic typically needed unless the icon directory structure has changed.
+- Review `source/templates/simpleicons-14/bootstrap.tera` to ensure compatibility with current Simple Icons.
+- Note: Simple Icons package does **not** use example templates, so there is no `examples/` directory for this package.
 
-### 5. Update templates in `source/templates/simpleicons-14` (if needed)
-- Review `source/templates/simpleicons-14/bootstrap.tera` to ensure it's compatible with the current Simple Icons.
-- The Simple Icons package does **not** use example templates (unlike some other packages such as AWS or GCP), so there is no `examples/` directory for this package.
-
-### 6. Generate the work directory
+### 4. Generate the work directory
+### 4. Generate the work directory
 ```bash
 npm run generate:workdir -- -p simpleicons-14
 ```
-
-### 7. Validate the work directory
 - Check `.workdir/library.yaml` and ensure the Simple Icons package appears with correct modules and items.
 - Inspect `.workdir/.cache/simpleicons-14` to ensure all expected icons are present.
-- Verify the number of items in the modules against the previous version (changes indicate new/updated icons).
+- Verify the number of items in the modules against the previous version.
 
-### 8. Commit and push the branch
+### 5. Commit and push the branch
+**Primary (MCP)**: Use `github-mcp-server-push_files`
+```
+push_files(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-simpleicons-<new-version>", 
+  files=[...], message="feat(simpleicons): upgrade to <new-version> icons\n\nUpdated Simple Icons package with latest icons from the official repository.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>")
+```
+
+**Fallback (CLI)**:
 ```bash
 git add .
 git commit -m "feat(simpleicons): upgrade to <new-version> icons
 
-Updated Simple Icons package with latest icons from the official repository.
-
-Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
+Updated Simple Icons package with latest icons from the official repository."
 git push --set-upstream origin feat/upgrade-simpleicons-<new-version>
 ```
 
-### 9. Trigger the Package Builder pipeline
-- Use the GitHub CLI to trigger the workflow on your branch:
+### 6. Trigger the Package Builder pipeline
 ```bash
-gh workflow run package-builder.yaml -f pkgName=simpleicons-14 -f pkgVersion=<new-version> --ref <your-branch>
+gh workflow run package-builder.yaml -f pkgName=simpleicons-14 -f pkgVersion=<new-version> --ref feat/upgrade-simpleicons-<new-version>
 ```
-- The pipeline will:
-  1. Generate the work directory
-  2. Render all PlantUML diagrams and examples
-  3. Push generated distribution files back to the branch
-- The processing can take several minutes, a looping status check is recommended.
 
-### 10. Review the pipeline output and logs
+The pipeline will:
+1. Generate the work directory
+2. Render all PlantUML diagrams and examples
+3. Push generated distribution files back to the branch
+
+Processing can take several minutes.
+
+### 7. Review the pipeline output and logs
 - Ensure the pipeline completes without errors.
-- If the pipeline fails or does not produce the expected outcome, fix the issues locally and use `git push --force` to update the branch (the pipeline may create a commit).
+- If the pipeline fails, fix issues locally and use `git push --force` to update the branch.
 
-### 11. Pull the branch locally
+### 8. Pull the branch locally
+**Primary (MCP)**: Verify changes via `github-mcp-server-get_commit`
+
+**Fallback (CLI)**:
 ```bash
 git pull origin feat/upgrade-simpleicons-<new-version>
 ```
-If the pull fails due to conflicts, perform a rebase and resolve any conflicts.
+If the pull fails due to conflicts, perform a rebase and resolve conflicts.
 
-### 12. Check the samples have been properly rendered
+### 9. Verify rendered outputs
 - Inspect the generated files in `distribution/simpleicons-14`.
 - Open the images and PlantUML files to verify correct rendering.
 
-### 13. Adapt `README.md`
+### 10. Update README
 - Update `distribution/simpleicons-14/README.md` to reflect any changes to the icon library.
 
-### 14. Create a pull request
-- If not already done, open a PR from your branch to `master`.
-- Request review and address any feedback.
+### 11. Create a pull request
+**Primary (MCP)**: Use `github-mcp-server-create_pull_request`
+```
+create_pull_request(owner="tmorin", repo="plantuml-libs", 
+  title="feat(simpleicons): upgrade to <new-version>", 
+  head="feat/upgrade-simpleicons-<new-version>", 
+  base="master",
+  body="...")
+```
+
+**Fallback (CLI)**:
+```bash
+gh pr create --title "feat(simpleicons): upgrade to <new-version>" --base master
+```
 
 ---
 

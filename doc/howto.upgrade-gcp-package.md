@@ -1,10 +1,13 @@
 # How to upgrade the GCP package
 
-This guide provides concrete, step-by-step instructions to upgrade the GCP package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and assumes you have already installed the required tools.
+This guide provides concrete, step-by-step instructions to upgrade the GCP package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and is designed for AI agents to execute.
 
-## Prerequisites
-- [gh](https://cli.github.com/) (GitHub CLI) is installed and authenticated
-- [Node.js 22+](https://nodejs.org/) is installed
+## Prerequisites & Tool Selection
+
+This guide assumes an AI agent has access to:
+- **Primary**: GitHub MCP server (via `github-mcp-server-*` tools) - **Use this when available**
+- **Fallback**: GitHub CLI `gh` command (when MCP is unavailable)
+- **Required**: [Node.js 22+](https://nodejs.org/) is installed
 
 ## Notes
 
@@ -20,58 +23,45 @@ This guide provides concrete, step-by-step instructions to upgrade the GCP packa
 - The GCP package uses a fixed URL: `https://cloud.google.com/icons/files/google-cloud-icons.zip`
 - Verify if Google has released a new version by downloading and comparing the archive.
 
-### 2. Identify the TypeScript class
-- Locate the GCP package source: `source/library/packages/gcp`.
-- The main entry point is `index.ts` in that folder.
+### 2. Create a new branch
+**Primary (MCP)**: Use `github-mcp-server-create_branch`
+```
+create_branch(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-gcp-icons", from_branch="master")
+```
 
-### 3. Create a new branch
+**Fallback (CLI)**:
 ```bash
 git checkout master
 git pull
 git checkout -b feat/upgrade-gcp-icons
 ```
 
-### 4. Update the GCP package factory (if needed)
+### 3. Update the GCP package and templates
 - Review `source/library/packages/gcp/index.ts` to ensure the `ICONS_URL` is still correct.
-- If Google has updated the URL or structure, update the URL constant:
-  ```typescript
-  const ICONS_URL = "https://cloud.google.com/icons/files/google-cloud-icons.zip"
-  ```
+- If Google has updated the URL or structure, update the URL constant.
 - If the icon directory structure has changed, update the `discover()` method's glob pattern or the `getItemUrn()` method's path parsing logic.
-
-### 5. Update the GCP groups (if needed)
-- Review `source/library/packages/gcp/groups.csv` to check if any custom groups need to be added or modified.
-- This file defines custom groupings and styling for GCP concepts (e.g., Zone, Kubernetes cluster, Pod).
-- Add new rows for new group concepts if applicable, following the existing format:
-  ```csv
-  name,front_color,background_color,border_thick,border_style,border_color,icon_reference
-  ```
-
-### 6. Update templates in `source/templates/gcp` (if needed)
-- Review `source/templates/gcp/bootstrap.tera` to ensure it's compatible with the current GCP icons.
+- Review `source/library/packages/gcp/groups.csv` and check if any custom groups need to be added or modified.
+- Review `source/templates/gcp/bootstrap.tera` to ensure compatibility with current GCP icons.
 - Check `source/templates/gcp/examples/` for any example templates that reference outdated icons or concepts.
-- If the icon paths or category structure has changed significantly, update the example templates accordingly.
-- **Important**: Example templates are located in `source/templates/gcp/examples/`. Ensure they render correctly with the new icons, as missing or broken references will cause the pipeline to fail.
+- **Important**: Ensure `source/templates/gcp/examples/` folder and its `.tera` files render correctly with new icons.
 
-### 7. Replace all references to the old GCP version (if applicable)
-- If you made changes to the package factory class or structure, perform a global search and replace:
-  - All files and subfolders under `./doc`
-  - All files and subfolders under `./source`
-  - All files and subfolders under `./test`
-  - The file `./README.md`
-- **Note**: The GCP package does not use versioning like AWS packages (e.g., `aws-q1-2024`). If you do rename the class (e.g., `GcpFactory` → `GcpFactoryV2`), update `source/library/index.ts` accordingly.
-
-### 8. Generate the work directory
+### 4. Generate the work directory
+### 4. Generate the work directory
 ```bash
 npm run generate:workdir -- -p gcp
 ```
-
-### 9. Validate the work directory
 - Check `.workdir/library.yaml` and ensure the GCP package appears with correct modules and examples.
 - Inspect `.workdir/.cache/gcp` to ensure all expected elements are present.
 - Verify the number of items in the `gcp/Item` module against the previous version (changes indicate new/updated icons).
 
-### 10. Commit and push the branch
+### 5. Commit and push the branch
+**Primary (MCP)**: Use `github-mcp-server-push_files`
+```
+push_files(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-gcp-icons", 
+  files=[...], message="feat(gcp): update icons from Google Cloud Icons\n\nUpdated GCP package with latest available icons from Google Cloud's official icon library.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>")
+```
+
+**Fallback (CLI)**:
 ```bash
 git add .
 git commit -m "feat(gcp): update icons from Google Cloud Icons
@@ -80,43 +70,58 @@ Updated GCP package with latest available icons from Google Cloud's official ico
 git push --set-upstream origin feat/upgrade-gcp-icons
 ```
 
-### 11. Trigger the Package Builder pipeline
-- Use the GitHub CLI to trigger the workflow on your branch:
+### 6. Trigger the Package Builder pipeline
 ```bash
-gh workflow run package-builder.yaml -f pkgName=gcp -f pkgVersion=latest --ref <your-branch>
+gh workflow run package-builder.yaml -f pkgName=gcp -f pkgVersion=latest --ref feat/upgrade-gcp-icons
 ```
-- The pipeline will:
-  1. Generate the work directory
-  2. Render all PlantUML diagrams and examples
-  3. Push generated distribution files back to the branch
-- The processing can take several minutes, a looping status check is recommended.
 
-### 12. Review the pipeline output and logs
+The pipeline will:
+1. Generate the work directory
+2. Render all PlantUML diagrams and examples
+3. Push generated distribution files back to the branch
+
+Processing can take several minutes.
+
+### 7. Review the pipeline output and logs
 - Ensure the pipeline completes without errors.
 - Check the generated manifests and ensure the item count makes sense.
-- If the pipeline fails or does not produce the expected outcome, fix the issues locally and use `git push --force` to update the branch (the pipeline may create a commit).
+- If the pipeline fails, fix issues locally and use `git push --force` to update the branch.
 
-### 13. Pull the branch locally
+### 8. Pull the branch locally
+**Primary (MCP)**: Verify changes via `github-mcp-server-get_commit`
+
+**Fallback (CLI)**:
 ```bash
 git pull origin feat/upgrade-gcp-icons
 ```
 If the pull fails due to conflicts, perform a rebase and resolve any conflicts.
 
-### 14. Check the samples have been properly rendered
+### 9. Verify rendered outputs
 - Inspect the generated files in `distribution/gcp`.
 - Open the images and PlantUML files to verify correct rendering.
 - Verify that all items in `distribution/gcp/Item/` render correctly.
 - Check that all groups in `distribution/gcp/Group/` are properly styled.
 
-### 15. Adapt `README.md`
+### 10. Update README
 - Update `distribution/gcp/README.md` to reflect any changes:
   - Update the item count in the modules section if the number of items has changed
   - Update the examples list if new examples have been added
   - Add any notes about breaking changes or new features
 
-### 16. Create a pull request
-- If not already done, open a PR from your branch to `master`.
-- Request review and address any feedback.
+### 11. Create a pull request
+**Primary (MCP)**: Use `github-mcp-server-create_pull_request`
+```
+create_pull_request(owner="tmorin", repo="plantuml-libs", 
+  title="feat(gcp): update icons", 
+  head="feat/upgrade-gcp-icons", 
+  base="master",
+  body="...")
+```
+
+**Fallback (CLI)**:
+```bash
+gh pr create --title "feat(gcp): update icons" --base master
+```
 
 ---
 

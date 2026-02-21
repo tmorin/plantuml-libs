@@ -1,10 +1,13 @@
 # How to upgrade the Azure package
 
-This guide provides concrete, step-by-step instructions to upgrade the Azure package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and assumes you have already installed the required tools.
+This guide provides concrete, step-by-step instructions to upgrade the Azure package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and is designed for AI agents to execute.
 
-## Prerequisites
-- [gh](https://cli.github.com/) (GitHub CLI) is installed and authenticated
-- [Node.js 22+](https://nodejs.org/) is installed
+## Prerequisites & Tool Selection
+
+This guide assumes an AI agent has access to:
+- **Primary**: GitHub MCP server (via `github-mcp-server-*` tools) - **Use this when available**
+- **Fallback**: GitHub CLI `gh` command (when MCP is unavailable)
+- **Required**: [Node.js 22+](https://nodejs.org/) is installed
 
 ## Notes
 
@@ -18,60 +21,52 @@ This guide provides concrete, step-by-step instructions to upgrade the Azure pac
 ### 1. Discover the latest published Azure icons
 - Run [resolve-azure-icons.mjs](../scripts/resolve-azure-icons.mjs) to get the latest Azure icons version and URL.
 - The script fetches the Microsoft Azure Icons page and extracts the latest version number and download URL.
-- Compare the returned version with the current `ICONS_VERSION` in `source/library/packages/azure-{VERSION}/index.ts` to determine if an upgrade is needed.
+- Compare the returned version with the current `ICONS_VERSION` in `source/library/packages/azure-{VERSION}/index.ts`.
 
-### 2. Identify the TypeScript class
-- Locate the Azure package source: `source/library/packages/azure-{VERSION}` (e.g., `azure-20`).
-- The main entry point is `index.ts` in that folder.
-- The factory class is named `AzureV{VERSION}Factory` (e.g., `AzureV20Factory`).
+### 2. Create a new branch
+**Primary (MCP)**: Use `github-mcp-server-create_branch`
+```
+create_branch(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-azure-<new-version>", from_branch="master")
+```
 
-### 3. Create a new branch
+**Fallback (CLI)**:
 ```bash
 git checkout master
 git pull
 git checkout -b feat/upgrade-azure-<new-version>
 ```
 
-### 4. Create a new Azure package version folder
-- If upgrading to a new version, create a new folder: `source/library/packages/azure-{NEW_VERSION}` (e.g., `azure-21`).
-- Rename the contents from the previous version folder (e.g., `azure-20`) as a starting point.
-- Update the `ICONS_VERSION` constant in the new folder's `index.ts` to match the new version number.
+### 3. Create and update the Azure package folder
+- Create a new folder: `source/library/packages/azure-{NEW_VERSION}` (e.g., `azure-21`).
+- Copy contents from the previous version folder (e.g., `azure-20`) as a starting point.
+- Update the `ICONS_VERSION` constant in the new folder's `index.ts` to match the new version.
 - Update the factory class name from `AzureV{OLD_VERSION}Factory` to `AzureV{NEW_VERSION}Factory` (e.g., `AzureV20Factory` → `AzureV21Factory`).
-
-### 5. Update the Azure groups (if needed)
-- Review `source/library/packages/azure-{NEW_VERSION}/groups.csv` to check if any custom groups need to be added or modified.
-- This file defines custom groupings and styling for Azure concepts.
-- Add new rows for new group concepts if applicable, following the existing format:
-  ```csv
-  name,front_color,background_color,border_thick,border_style,border_color,icon_reference
-  ```
-
-### 6. Update templates in `source/templates/azure-{NEW_VERSION}` (if needed)
-- Rename the templates folder from the old version: `source/templates/azure-{OLD_VERSION}` → `source/templates/azure-{NEW_VERSION}`.
-- Review `source/templates/azure-{NEW_VERSION}/bootstrap.tera` to ensure it's compatible with the current Azure icons.
-- Check `source/templates/azure-{NEW_VERSION}/examples/` for any example templates that reference outdated icons or concepts.
-- If the icon paths or category structure has changed significantly, update the example templates accordingly.
-- **Important**: Example templates are located in `source/templates/azure-{NEW_VERSION}/examples/`. Ensure they render correctly with the new icons, as missing or broken references will cause the pipeline to fail.
-
-### 7. Replace all references to the old Azure version
-- Perform a global search and replace: change all occurrences of `azure-{OLD_VERSION}` to `azure-{NEW_VERSION}` in the following locations:
-  - All files and subfolders under `./doc`
-  - All files and subfolders under `./source` (including the library index)
-  - All files and subfolders under `./test`
+- Review and update `source/library/packages/azure-{NEW_VERSION}/groups.csv` if needed (custom groupings and styling).
+- Review and update templates in `source/templates/azure-{NEW_VERSION}/` if the icon structure has changed.
+- **Important**: Ensure `source/templates/azure-{NEW_VERSION}/examples/` folder and its `.tera` files render correctly with new icons.
+- Perform a global search and replace for all occurrences of `azure-{OLD_VERSION}` to `azure-{NEW_VERSION}` in:
+  - All files under `./doc`
+  - All files under `./source` (including library index)
+  - All files under `./test`
   - The file `./README.md`
-- **Note**: Update the factory class name (e.g., `AzureV20Factory` → `AzureV21Factory`) and the corresponding import in `source/library/index.ts`.
 
-### 8. Generate the work directory
+### 4. Generate the work directory
+### 4. Generate the work directory
 ```bash
 npm run generate:workdir -- -p azure-<new-version>
 ```
-
-### 9. Validate the work directory
 - Check `.workdir/library.yaml` and ensure the Azure package appears with correct modules and examples.
-- Inspect `.workdir/.cache/azure-<new-version>` to ensure all expected elements are present.
-- Verify the number of items in the `azure-<new-version>/Item` module against the previous version (changes indicate new/updated icons).
+- Inspect `.workdir/.cache/azure-<new-version>` to verify all expected elements are present.
+- Verify the number of items in the `azure-<new-version>/Item` module against the previous version.
 
-### 10. Commit and push the branch
+### 5. Commit and push the branch
+**Primary (MCP)**: Use `github-mcp-server-push_files`
+```
+push_files(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-azure-<new-version>", 
+  files=[...], message="feat(azure): upgrade to <new-version> icons\n\nBREAKING CHANGE: azure-<old-version> is replaced by azure-<new-version>\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>")
+```
+
+**Fallback (CLI)**:
 ```bash
 git add .
 git commit -m "feat(azure): upgrade to <new-version> icons
@@ -80,40 +75,55 @@ BREAKING CHANGE: azure-<old-version> is replaced by azure-<new-version>"
 git push --set-upstream origin feat/upgrade-azure-<new-version>
 ```
 
-### 11. Trigger the Package Builder pipeline
-- Use the GitHub CLI to trigger the workflow on your branch:
+### 6. Trigger the Package Builder pipeline
 ```bash
-gh workflow run package-builder.yaml -f pkgName=azure-<new-version> -f pkgVersion=<new-version> --ref <your-branch>
+gh workflow run package-builder.yaml -f pkgName=azure-<new-version> -f pkgVersion=<new-version> --ref feat/upgrade-azure-<new-version>
 ```
-- The pipeline will:
-  1. Generate the work directory
-  2. Render all PlantUML diagrams and examples
-  3. Push generated distribution files back to the branch
-- The processing can take several minutes, a looping status check is recommended.
 
-### 12. Review the pipeline output and logs
+The pipeline will:
+1. Generate the work directory
+2. Render all PlantUML diagrams and examples
+3. Push generated distribution files back to the branch
+
+Processing can take several minutes.
+
+### 7. Review the pipeline output and logs
 - Ensure the pipeline completes without errors.
 - Check the generated manifests and ensure the item count makes sense.
-- If the pipeline fails or does not produce the expected outcome, fix the issues locally and use `git push --force` to update the branch (the pipeline may create a commit).
+- If the pipeline fails, fix issues locally and use `git push --force` to update the branch.
 
-### 13. Pull the branch locally
+### 8. Pull the branch locally
+**Primary (MCP)**: Verify changes via `github-mcp-server-get_commit`
+
+**Fallback (CLI)**:
 ```bash
 git pull origin feat/upgrade-azure-<new-version>
 ```
-If the pull fails due to conflicts, perform a rebase and resolve any conflicts.
+If pull fails due to conflicts, perform a rebase and resolve conflicts.
 
-### 14. Check the samples have been properly rendered
-- Inspect the generated files in `distribution/azure-<new-version>`.
-- Open the images and PlantUML files to verify correct rendering.
-- Verify that all items in `distribution/azure-<new-version>/Item/` render correctly.
-- Check that all groups in `distribution/azure-<new-version>/Group/` are properly styled.
+### 9. Verify rendered outputs
+- Inspect generated files in `distribution/azure-<new-version>`.
+- Open images and PlantUML files to verify rendering.
+- Verify all items in `distribution/azure-<new-version>/Item/` render correctly.
+- Check all groups in `distribution/azure-<new-version>/Group/` are properly styled.
 
-### 15. Adapt `README.md`
+### 10. Update README
 - Update `distribution/azure-<new-version>/README.md` to reflect new icons, modules, and examples.
 
-### 16. Create a pull request
-- If not already done, open a PR from your branch to `master`.
-- Request review and address any feedback.
+### 11. Create a pull request
+**Primary (MCP)**: Use `github-mcp-server-create_pull_request`
+```
+create_pull_request(owner="tmorin", repo="plantuml-libs", 
+  title="feat(azure): upgrade to <new-version>", 
+  head="feat/upgrade-azure-<new-version>", 
+  base="master",
+  body="...")
+```
+
+**Fallback (CLI)**:
+```bash
+gh pr create --title "feat(azure): upgrade to <new-version>" --base master
+```
 
 ---
 

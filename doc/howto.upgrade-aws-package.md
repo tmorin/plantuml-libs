@@ -1,10 +1,13 @@
 # How to upgrade the AWS package
 
-This guide provides concrete, step-by-step instructions to upgrade the AWS package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and assumes you have already installed the required tools.
+This guide provides concrete, step-by-step instructions to upgrade the AWS package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and is designed for AI agents to execute.
 
-## Prerequisites
-- [gh](https://cli.github.com/) (GitHub CLI) is installed and authenticated
-- [Node.js 22+](https://nodejs.org/) is installed
+## Prerequisites & Tool Selection
+
+This guide assumes an AI agent has access to:
+- **Primary**: GitHub MCP server (via `github-mcp-server-*` tools) - **Use this when available**
+- **Fallback**: GitHub CLI `gh` command (when MCP is unavailable)
+- **Required**: [Node.js 22+](https://nodejs.org/) is installed
 
 ## Notes
 
@@ -16,51 +19,51 @@ This guide provides concrete, step-by-step instructions to upgrade the AWS packa
 ## Steps
 
 ### 1. Discover the latest published AWS icons
-- Run [resolve-aws-icons.mjs](../scripts/resolve-aws-icons.mjs) to get the latest AWS 
-  icons version and URL.
+- Run [resolve-aws-icons.mjs](../scripts/resolve-aws-icons.mjs) to get the latest AWS icons version and URL.
 
-### 2. Identify the TypeScript class
-- Locate the AWS package source: `source/library/packages/aws-<old>` (e.g., `aws-q1-2024`).
-- The main entry point is typically `index.ts` in that folder.
+### 2. Create a new branch
+**Primary (MCP)**: Use `github-mcp-server-create_branch` to create the branch
+```
+create_branch(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-aws-<new-version>", from_branch="master")
+```
 
-### 3. Create a new branch
+**Fallback (CLI)**:
 ```bash
 git checkout master
 git pull
 git checkout -b feat/upgrade-aws-<new-version>
 ```
 
-### 4. Rename the sources in `source/library/packages`
-- Rename the existing AWS package folder to the new versioned folder (e.g., rename `aws-<old>` to `aws-<new>`).
+### 3. Update package sources and references
+- Locate the AWS package source: `source/library/packages/aws-<old>` (e.g., `aws-q1-2024`).
+- Rename the existing AWS package folder to the new versioned folder (e.g., `aws-<old>` → `aws-<new>`).
 - Update all references in the renamed folder from the old version to the new version (folder names, file names, and inside files).
-- **Important**: If there are nested folders with the old version name (e.g., `aws-<new>/aws-<old>`), flatten the structure by moving contents up and removing empty directories.
-
-### 5. Rename and update templates in `source/library/templates`
-- Rename the AWS-specific templates folder from the old version: `source/templates/aws-<old>` → `source/templates/aws-<new>`.
-- Update all references inside the renamed templates from `aws-<old>` to `aws-<new>`.
-- **Critical**: Example templates are located here (e.g., `source/templates/aws-<version>/examples/`). Ensure they are copied and updated correctly, as missing examples will cause the pipeline to fail with template rendering errors.
-
-### 6. Replace all references to the old AWS version
-- Perform a global search and replace: change all occurrences of `aws-<old-version>` to `aws-<new-version>` in the following locations:
+- **Important**: If there are nested folders with the old version name (e.g., `aws-<new>/aws-<old>`), flatten the structure.
+- Rename and update templates in `source/library/templates`: `source/templates/aws-<old>` → `source/templates/aws-<new>`.
+- Perform a global search and replace for all occurrences of `aws-<old-version>` to `aws-<new-version>` in:
   - All files and subfolders under `./doc`
-  - All files and subfolders under `./source` (including the library index)
+  - All files and subfolders under `./source` (including library index)
   - All files and subfolders under `./test`
   - The file `./README.md`
-- **Note**: Do not forget to update the class name in the factory (e.g., `AwsQ12024Factory` → `AwsQ32025Factory`) and the corresponding import in `source/library/index.ts`.
+- **Critical**: Update the factory class name (e.g., `AwsQ12024Factory` → `AwsQ32025Factory`) and the corresponding import in `source/library/index.ts`.
+- In the new package's `index.ts`, ensure `FOLDER_DATE` and `ICONS_URL` constants are accurate.
 
-### 7. Ensure `FOLDER_DATE` and `ICONS_URL` are accurate
-- In the new package's `index.ts`, update any constants or metadata for the release date and the official AWS icons URL.
-
-### 8. Generate the work directory
+### 4. Generate the work directory
+### 4. Generate the work directory
 ```bash
 npm run generate:workdir -- -p aws-<new-version>
 ```
-
-### 9. Validate the work directory
 - Check `.workdir/library.yaml` and ensure the new AWS package appears with correct modules and examples.
 - Inspect `.workdir/.cache/aws-<new-version>` to ensure all expected elements are present.
 
-### 10. Commit and push the branch
+### 5. Commit and push the branch
+**Primary (MCP)**: Use `github-mcp-server-push_files` to commit changes
+```
+push_files(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-aws-<new-version>", 
+  files=[...], message="feat(aws): upgrade to <new-version> icons\n\nBREAKING CHANGE: aws-<old-version> is replaced by aws-<new-version>\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>")
+```
+
+**Fallback (CLI)**:
 ```bash
 git add .
 git commit -m "feat(aws): upgrade to <new-version> icons
@@ -69,37 +72,54 @@ BREAKING CHANGE: aws-<old-version> is replaced by aws-<new-version>"
 git push --set-upstream origin feat/upgrade-aws-<new-version>
 ```
 
-### 11. Trigger the Package Builder pipeline
-- Use the GitHub CLI to trigger the workflow on your branch:
+### 6. Trigger the Package Builder pipeline
+**Primary (MCP)**: Use GitHub CLI wrapped by agent to trigger workflow
 ```bash
-gh workflow run package-builder.yaml -f pkgName=aws-<new-version> -f pkgVersion=<new-version> --ref <your-branch>
+gh workflow run package-builder.yaml -f pkgName=aws-<new-version> -f pkgVersion=<new-version> --ref feat/upgrade-aws-<new-version>
 ```
-- The pipeline will:
-  1. Generate the work directory
-  2. Render all PlantUML diagrams and examples
-  3. Push generated distribution files back to the branch
-- The processing can take several minutes, a looping status check is recommended.
 
-### 12. Review the pipeline output and logs
+The pipeline will:
+1. Generate the work directory
+2. Render all PlantUML diagrams and examples
+3. Push generated distribution files back to the branch
+
+Processing can take several minutes.
+
+### 7. Review the pipeline output and logs
 - Ensure the pipeline completes without errors.
-- If the pipeline fails or does not produce the expected outcome, fix the issues locally and use `git push --force` to update the branch (the pipeline may create a commit).
+- If the pipeline fails or does not produce the expected outcome, fix the issues locally and use `git push --force` to update the branch.
 
-### 13. Pull the branch locally
+### 8. Pull the branch locally
+**Primary (MCP)**: Use `github-mcp-server-get_commit` or similar to verify changes
+
+**Fallback (CLI)**:
 ```bash
 git pull origin feat/upgrade-aws-<new-version>
 ```
-If the pull fails due to conflicts, perform a rebase and resolve any conflicts.
+If the pull fails due to conflicts, perform a rebase and resolve conflicts.
 
-### 14. Check the samples have been properly rendered
+### 9. Verify rendered outputs
 - Inspect the generated files in `distribution/aws-<new-version>`.
 - Open the images and PlantUML files to verify correct rendering.
+- Ensure samples have been properly rendered.
 
-### 15. Adapt `README.md`
+### 10. Update README
 - Update `distribution/aws-<new-version>/README.md` to reflect new icons, modules, and examples.
 
-### 16. Create a pull request
-- If not already done, open a PR from your branch to `master`.
-- Request review and address any feedback.
+### 11. Create a pull request
+**Primary (MCP)**: Use `github-mcp-server-create_pull_request`
+```
+create_pull_request(owner="tmorin", repo="plantuml-libs", 
+  title="feat(aws): upgrade to <new-version>", 
+  head="feat/upgrade-aws-<new-version>", 
+  base="master",
+  body="...")
+```
+
+**Fallback (CLI)**:
+```bash
+gh pr create --title "feat(aws): upgrade to <new-version>" --base master
+```
 
 ---
 
