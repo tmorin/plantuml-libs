@@ -5,6 +5,11 @@ This guide provides concrete, step-by-step instructions to upgrade the Simple Ic
 ## Prerequisites
 - [gh](https://cli.github.com/) (GitHub CLI) is installed and authenticated
 - [Node.js 22+](https://nodejs.org/) is installed
+- A Personal Access Token (classic) with the **`repo`** scope must be stored as the repository
+  secret **`GH_WORKFLOW_TOKEN`** (Settings → Secrets and variables → Actions). This is required
+  because `GITHUB_TOKEN` cannot trigger `workflow_dispatch` events on the same repository
+  (a GitHub platform limitation). The `copilot-setup-steps.yml` workflow exposes this secret as
+  `GH_TOKEN` so the `gh` CLI can use it to trigger the Package Builder.
 
 ## Notes
 
@@ -66,10 +71,15 @@ git push --set-upstream origin feat/upgrade-simpleicons-<new-version>
 ```
 
 ### 9. Trigger the Package Builder pipeline
-- Use the GitHub CLI to trigger the workflow on your branch:
+- Use the GitHub CLI to trigger the workflow on your branch via the REST API:
 ```bash
-gh workflow run package-builder.yaml -f pkgName=simpleicons-14 -f pkgVersion=<new-version> --ref <your-branch>
+gh api --method POST /repos/tmorin/plantuml-libs/actions/workflows/package-builder.yaml/dispatches \
+  -f ref=<your-branch> \
+  -F 'inputs[pkgName]=simpleicons-14' \
+  -F 'inputs[pkgVersion]=<new-version>'
 ```
+  > **Note**: Use `gh api --method POST ...` (REST) rather than `gh workflow run` (GraphQL).
+  > See Prerequisites for the required `GH_WORKFLOW_TOKEN` secret setup.
 - The pipeline will:
   1. Generate the work directory
   2. Render all PlantUML diagrams and examples
@@ -128,6 +138,19 @@ If the pull fails due to conflicts, perform a rebase and resolve any conflicts.
 ---
 
 ## Troubleshooting
+
+### `gh workflow run` fails with HTTP 403 on `api.github.com/graphql`
+- **Cause**: `gh workflow run` uses the GitHub GraphQL API to resolve the workflow name. `GITHUB_TOKEN`
+  (even with `actions: write`) cannot trigger `workflow_dispatch` on the same repository — this is a
+  deliberate GitHub platform security restriction to prevent recursive workflow loops. The Copilot
+  agent's token has the same constraint.
+- **Solution**:
+  1. Create a Personal Access Token (classic) with the **`repo`** scope at
+     <https://github.com/settings/tokens>.
+  2. Store it as the repository secret **`GH_WORKFLOW_TOKEN`**
+     (Settings → Secrets and variables → Actions → New repository secret).
+  3. The `copilot-setup-steps.yml` setup step will automatically expose it as `GH_TOKEN`.
+  4. Use `gh api --method POST` with the REST endpoint (see step 9) instead of `gh workflow run`.
 
 ### Pipeline fails with "unable to render" error
 - **Cause**: For the Simple Icons package, this error is usually **not** caused by example templates, because the factory returns `examples: []` and no example templates are used. The error may instead come from another package in the pipeline, or from invalid PlantUML generated for Simple Icons.

@@ -11,20 +11,32 @@ on:
     paths:
       - .github/workflows/copilot-setup-steps.yml
 
+# Permissions for Copilot skills that perform package upgrades.
+# Copilot uses these to: create branches, commit changes, trigger workflows, and create PRs.
+# See: doc/howto.upgrade-simpleicons-package.md for workflow operations.
+# NOTE: GITHUB_TOKEN cannot trigger workflow_dispatch on the same repo (GitHub platform
+# limitation). To allow the Copilot agent to trigger the package-builder workflow, create a
+# Personal Access Token (classic) with the `repo` scope, store it as the repository secret
+# GH_WORKFLOW_TOKEN, and the setup step below will expose it as GH_TOKEN for the gh CLI.
+permissions:
+  contents: write        # Create branches and push commits
+  actions: write         # Read workflow metadata (insufficient alone to dispatch workflows)
+  pull-requests: write   # Create pull requests
+
 jobs:
   # The job MUST be called `copilot-setup-steps` or it will not be picked up by Copilot.
   copilot-setup-steps:
     runs-on: ubuntu-22.04
 
-    # Permissions for Copilot skills that perform package upgrades.
-    # Copilot uses these to: create branches, commit changes, trigger workflows, and create PRs.
-    # See: doc/howto.upgrade-simpleicons-package.md for workflow operations.
-    permissions:
-      contents: write        # Step 3, 8: Create branches and push commits
-      actions: write         # Step 9: Trigger package-builder workflow
-      pull-requests: write   # Step 14: Create pull requests
-
     steps:
+      - name: Configure workflow token for gh CLI
+        # Expose GH_WORKFLOW_TOKEN as GH_TOKEN so the Copilot agent can trigger
+        # workflow_dispatch via 'gh api'. GITHUB_TOKEN alone cannot trigger new workflow
+        # runs on the same repo; a PAT with 'repo' scope is required.
+        # Create the secret at: Settings → Secrets and variables → Actions → GH_WORKFLOW_TOKEN
+        if: ${{ secrets.GH_WORKFLOW_TOKEN != '' }}
+        run: echo "GH_TOKEN=${{ secrets.GH_WORKFLOW_TOKEN }}" >> "$GITHUB_ENV"
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
