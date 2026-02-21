@@ -4,7 +4,7 @@ This guide provides concrete, step-by-step instructions to upgrade the AWS packa
 
 ## Prerequisites
 - [gh](https://cli.github.com/) (GitHub CLI) is installed and authenticated
-- [Node.js](https://nodejs.org/) is installed
+- [Node.js 22+](https://nodejs.org/) is installed
 
 ## Notes
 
