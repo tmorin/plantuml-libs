@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Coolermaster
+
+sprite $CoolermasterXs [10x10/16z] LOQ30G0n00ElThF_j6-6nq-cdLyH89ogN4HXYgvgDXhorWTojauAajqNjlQDB1GIrZjUhG
+
+sprite $CoolermasterSm [12x12/16z] TOcr0KD15CDqx1myxpzje0jzDGPnpKmDgbuDarDHbBMY8qRHyl9P8ucbxEoXoWrL2Ti1tS-svZhHPdxrfysS5LRk6KWxaJUVF
+
+sprite $CoolermasterMd [16x16/16z] {
+ZOX5WaL1309f5zBX_hUTvvlvLj42ln3PY_NRPa4IV7lQPXQWf1aSybXQBTQ2AxNDmHdbY72Ll7ddsjQMDHFaSdQeecPWe6_KpQrnLR5k2mnmSowpXX4a2hbq
+IXXzyyHK4MU0MV8HLep43WiA0cR7ms33I_u
+}
+
+sprite $CoolermasterLg [20x20/16z] {
+bOs7RKL120GNU5m-flzkBMTR-OyIOfDUnCPk_nw-cadcSzhNvon982GvAMasYPsx31bbiJo2MiQArTv_IchVS4C_FtBYXE8OVLrx_odh_U2ABKem8GU6FSsV
+HzarHexX8uo0FEKGHQVbulrN2O6vOvm4Ez5dNdHAxxzutrLN93nQv_rtS_YLxPJwe9TZnsrrlJElr96v7aBV-5uHRG-zn1i
+}
+
+!procedure Coolermaster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Coolermaster', $name, $tech, $desc)
+!endprocedure

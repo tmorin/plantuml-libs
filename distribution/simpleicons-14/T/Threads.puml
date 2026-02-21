@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/T/Threads
+
+sprite $ThreadsXs [10x10/16z] JOl50K0n2CM-IotxRrjoeZXFjeYVRpCwCMWENwU58o6RsgbUOTnBwihgtNPuD4y
+
+sprite $ThreadsSm [12x12/16z] 9Sq5WSC0002nbBddN-t35WC1LoUWzlaeQ0Lh3F7qqA3Hijk3ODk2kBhkGeI6U1TtMuSGup4GtXTywxlUElW5
+
+sprite $ThreadsMd [16x16/16z] {
+JKw50GGn2EFgGid-spufRy4TkIW7MkG31M0kEq93lRR2Q0Ra0mogxlC0VBv3v759qAR88lklNSCv5Zk1YCquWxrZXQYzMmSMJNErwM0B9Yqbni-Xhwxop9z_
+7bG9SFukikGc6MXkHu3-2m
+}
+
+sprite $ThreadsLg [20x20/16z] {
+JO_L5S0W301nXzj_spOyx3xYgXPvq9DwS6pS3dKeqwZGLXjTtNHM0gp0TVgKXJM0iJC8qng_q7E2ZRz8_58ms7VOn6BM6O9-Oa0jNUI9EUPVCF1xNa92ch96
+KaLWb1E_SPPb12-tIopEgtJ8_Zb7BjW4whgQi489bgK1SiZhuviNrhyV
+}
+
+!procedure Threads($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Threads', $name, $tech, $desc)
+!endprocedure

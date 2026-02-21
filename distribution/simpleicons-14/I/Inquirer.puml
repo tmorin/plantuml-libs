@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/I/Inquirer
+
+sprite $InquirerXs [10x10/16z] Oy02M5XOe9YVWO6VYm58WZ0N0uo5IR2pCp20411Z0W
+
+sprite $InquirerSm [12x12/16z] Oo02yFFpCx2122OW0UI3C1y30pE81ZFXR229mOO3PfXka3cux08
+
+sprite $InquirerMd [16x16/16z] Ow0Gy0C10mCVaEHWO09nc462F422ZmL4GFWCI7oOHcu621_EHUKpuE2pCZA26122aGza9KoU2SGc4G
+
+sprite $InquirerLg [20x20/16z] hOi55eGm34JJx4AzlVzjUH7SvIFpCW8VyoSMMWa0pse0MGErHIWaKI_9DVM2coRa2LWgB3oiOaszdrYddd6ZbwsrxEdVsigCMvJpMpe
+
+!procedure Inquirer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/I/Inquirer', $name, $tech, $desc)
+!endprocedure

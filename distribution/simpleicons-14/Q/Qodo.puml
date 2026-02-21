@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/Q/Qodo
+
+sprite $QodoXs [10x10/16z] JOk55S0W4CLIzsR_RNauEPVFY4faddHE_Jx17Ri3CC9FPcQDPGAM8Zu_IxSHMRrY2G
+
+sprite $QodoSm [12x12/16z] NSg50GCX44JHZplJVxN9kJrabO-cUcHJgxwbEONKj8qS5YXTi6rgOGoJKrhE9R3mJIaw6Wc25Wu7qUpfuKZ-
+
+sprite $QodoMd [16x16/16z] {
+XSc5SGKW44NHYpkl_supo-Ix7LZdDwSZ_OzrRAbsQM7IY2MbD2HrcqkinOfj00__l6yD5YPBLQjrsF_7ynjqxjN_6dAk7g2H0LyaJPzz5YRe23Y7HPM9_3lZ
+uAq_
+}
+
+sprite $QodoLg [20x20/16z] {
+bSn50aCn24NH6y-tlFsljW9rxvdWy8-YeushgBFvqjh2Aib7E9NGIY4iryrMbz20FdDPJ90neSLL6z0mLIuBs72IWjHQ0WQu20I80LRkM3FVv2xv3UHSKods
+ZPNkGvdErYMikQnooMwzALSuQxNfQ0Hkv4sQ-6GF
+}
+
+!procedure Qodo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Q/Qodo', $name, $tech, $desc)
+!endprocedure

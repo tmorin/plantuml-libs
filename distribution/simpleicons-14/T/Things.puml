@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Things
+
+sprite $ThingsXs [10x10/16z] DOh50S1048I8U-Y_slFbDGASLXPmS2ADrv6cOoJPMrBOucKjwMkU9LLAEChS8GC
+
+sprite $ThingsSm [12x12/16z] DSlL0SKm5CDGFMZ3qVxJ5WBdwu8DT5yL-Bk17aFmm0Q3OSyD8wE4O1gp0kOn4m3Bc0TFclQKWWg76kCvPjou0G
+
+sprite $ThingsMd [16x16/16z] HSm55e0W00JHiINt_hTLOXzZVWgugaQPbhGAjeDR0TVywC0LmMk7IExUEm_H7PfV4CEnkLOTqwcvdzJ-8MYZPPyAvbO5w6yB8VGV-tzEBUVdUQga0fnQmGS
+
+sprite $ThingsLg [20x20/16z] {
+RT250O0m34JH1A_U_jFM3__umokb8uBvMMgAHw4QNXtTOc3rAUrMkUL_x7XRLDbVvgDqcq0xwivscTz4eKzRSS1Asw5nypIsyBrl4o0i5DtHhJQRaaQKFEr0
+IL7RQLPBVLVxKnznA6vD8Xa
+}
+
+!procedure Things($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Things', $name, $tech, $desc)
+!endprocedure

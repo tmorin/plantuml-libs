@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/R/Roll20
+
+sprite $Roll20Xs [10x10/16z] 9SU54K0n3CDGVOQ2zj-svyiBcjWfceRJigCsiyaJWCxpE9su-Hj84OpFf7Tw00i
+
+sprite $Roll20Sm [12x12/16z] BSt50S0m40Cmboc9zf-shD-Xy-hpwnZ8OnogudX6CEfHKZXeI7gsoT9__SKyLWXLn51Qn2Sb_U6rUw9gnIIlfHYUg0i
+
+sprite $Roll20Md [16x16/16z] {
+JS-rWGKn04D16PRNdlwhFVmqcPIz_5jhFYmqodFDeoVfz_nxoZufRiQQv8OvDP1KgDWWQJXXXvA9laH6vUXnsqYNYrgZsMMzjqEr9QDN3_CQoRMrvIcIZExX
+lFOanJh1Uj-FW6sWpvANsoFu6m
+}
+
+sprite $Roll20Lg [20x20/16z] {
+LSc55GCW40JHFPn3flzkyo3-yK5l7gB-TOYGzEL0kNkKBkinvH7ox25crv4MHo5oU90Ybq7VN98uvW3qtoB0xW1LQW1ZVdzawXdGCfjHkm15Qe8AMsb74gmj
+nGg9QRDtGQ8XHQR1SiU1HhpDEbywBQ0_6Kbr6nzUbexD9_P6qnMsBOxiGnyjR21E_NE2NXu
+}
+
+!procedure Roll20($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Roll20', $name, $tech, $desc)
+!endprocedure

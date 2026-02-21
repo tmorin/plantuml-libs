@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/M/Mpv
+
+sprite $MpvXs [10x10/16z] 5S450SG0000Xvhxhd_O5u6W5qUCW_OqBQypb43n9H5O358icPN1Wdy3oukOB
+
+sprite $MpvSm [12x12/16z] DSY5OS0030F12tD-_sdBjSNWQWVipACL9dtVCV1wwwdc0mry3ox3QqJ9S1WRbPt-TwjrHzzBp5Li17XyoxVU6vy
+
+sprite $MpvMd [16x16/16z] {
+BS65WGGn30GmBKDYJ__LFfu479Mn09WBS0A39pzk5nJvS55qqfKVRJ4i2Ln9t0SZm9kyYfxqYwI5-T2P9CDWRmfBibbkie1E78Aig8HoFkZyA4xK2Sk2_OHP
+W742I_evdsxu1W
+}
+
+sprite $MpvLg [20x20/16z] {
+HSu5SYKX60R0XjbHvBl_QJS9zQJBu7Slzqm_-DgV0ifPl0HQCYgtPM0aItL2a8zgPz-PIUR8eX2EfC6_97cS7fB7KfF4VcyasBrMAREoEZCB9Gcfv4OoaOI-
+aOuShotAyL3Y9Sdb4lHfEPBGZ1t9XYIXr5VZdQKXwmlgTMqmmPFYPTsxx9aiFJwkPFIHKS4F
+}
+
+!procedure Mpv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mpv', $name, $tech, $desc)
+!endprocedure

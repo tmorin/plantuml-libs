@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Trimble
+
+sprite $TrimbleXs [10x10/16z] LSor0SG030D0FOJXzfysZ6uiJfNp6XVAvsz3WrOsYByYlqJx8I7-3LsRvDl3tiLxRmO
+
+sprite $TrimbleSm [12x12/16z] LOo30G0n5CLUxMR_QS_CD_M3ykR9z3V7n76c0nGgTi-fU8-ctohKWDujJI00aoK5pnPArOu1k1vDfQmBTBC2
+
+sprite $TrimbleMd [16x16/16z] NSgr0S0m00D1cJ7-_QSDytK2oUiB_ZdehMjLo_lWXgPtDYI3rwu9XXgopcwP2A6ec18iPd-tmahMWXKKiL7qLLB05_KnejQqmK3F6LqQcpjZ4f1rWQ4tqZij
+
+sprite $TrimbleLg [20x20/16z] {
+PT2rWSL00CHGBTdBwh_QWy-Wy6KpSF9TitwR-cqfr57U3L8WQuPdkcfdXV2GbRHt6zk7MTHGii5mezEeXgndQTG4C4IFKeaWqHLWUlOHL6KJLUWANcfv93CG
+DTCkDkY5IugL42D7ubQiqrk1Mm5lFJUtatsXoDFScTlMftsVsYOV_G8
+}
+
+!procedure Trimble($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Trimble', $name, $tech, $desc)
+!endprocedure

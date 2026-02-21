@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/F/Frontify
+
+sprite $FrontifyXs [10x10/16z] Oq01_FpyS2QKPeEn-648mM61i5WP-40q6CCCOEHWu6NWuGVn-G4
+
+sprite $FrontifySm [12x12/16z] PSY50GCn30F0UwOasd_QCjSM-xsMF6F4_f_dIPGU6e8EUN3ws8jnf7QcXJsc6PHUgkT5woDzrURr3
+
+sprite $FrontifyMd [16x16/16z] TSYt0GCn5CKmN0wI_jj_MvVEx40_cvBnmkKGB-CcrlykmWcuRmIrW1i2-UdBg_U1fPPWYZQXPbmDP-Wxe9_awW38sZfpTTH0IErKdVIwFG
+
+sprite $FrontifyLg [20x20/16z] {
+bL050aCX5CBuje_xdtQ1wvxjIm0VXfji3wP1C33UsIf0hPjHVhEby6Xpiq86FJJySkiCFDUwsl2VBQxBADzc05QhDXqYum9XWiS0UIYU19obgnODA0JddMOi
+XUQEiBqCgf09cu2DGeVAo0B7V6mqdEf70Ml07W
+}
+
+!procedure Frontify($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Frontify', $name, $tech, $desc)
+!endprocedure

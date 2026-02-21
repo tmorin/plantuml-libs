@@ -1,0 +1,74 @@
+# Sage
+
+
+```text
+simpleicons-14/S/Sage
+```
+
+```text
+include('simpleicons-14/S/Sage')
+```
+
+
+
+| Illustration | Sage |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons-14/S/Sage.png) | ![illustration for Sage](../../simpleicons-14/S/Sage.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$SageXs>`
+- `<$SageSm>`
+- `<$SageMd>`
+- `<$SageLg>`
+
+
+
+
+
+## Sage
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Sage
+include('simpleicons-14/S/Sage')
+
+' renders the element
+Sage('Sage', 'Sage', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Sage
+include('simpleicons-14/S/Sage')
+
+' renders the element
+Sage('Sage', 'Sage', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/Q/Quicktype
+
+sprite $QuicktypeXs [10x10/16z] DSYr0S104CH0cTdglzhdcsI1udAdihd0OSDmkO5WWTuMkmUiuncuei0sIWO
+
+sprite $QuicktypeSm [12x12/16z] JSZL0K9H50Emud3bPFzfyIVvgUIZk-V7pwwogsRGg2gwoepBvGgNvju4TvMM4WGr2yJgbl1JUPlB-m8
+
+sprite $QuicktypeMd [16x16/16z] LS_50S0W0C30rBtPVziAVcX-m6-wF3gIos09QNQtgITSrZfiJIemoKkzjEiKlMy3zdyDiwz3UxmnTgTsl9mtNzYucPkcVT3CwsporLM_UG
+
+sprite $QuicktypeLg [20x20/16z] {
+PSl50GCn00Cm7rCIxJzjcQkd8GzRK-Pyc3pKBWy-RFyH-t_4b4n-9VwiWQFlLwRX0ZPCIPTEhg0X0qSQ0myjEx8JDmNfsUELpLXoCOslB527AmvGK_tgq_cL
+PFkFaltdUJFnafVLJUrpTGO
+}
+
+!procedure Quicktype($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Q/Quicktype', $name, $tech, $desc)
+!endprocedure

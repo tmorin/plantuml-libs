@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/F/Forgejo
+
+sprite $ForgejoXs [10x10/16z] Ou00VYZ5pmzX0cacVeGCXCKA5EM6oBBmeSaYMBpyZ70XNZ0D
+
+sprite $ForgejoSm [12x12/16z] VKgr0S1027ntOFzfOrWNz2n8GLP058WXqTx0kF5Z-SKu13yLG76fn45vVpYkxJgYW1i
+
+sprite $ForgejoMd [16x16/16z] XSr50e0W54NHRojrzxzQEaS-yf3IitCC70PUjaPYdDYzKwUEoXibSrpPk9g9lXyitUszuNE7iM_JCFqk8_z-iSncbyKNk8u
+
+sprite $ForgejoLg [20x20/16z] {
+dSq5ZWGn30NHtnYINVS_xUvW519DYLzYMss9GstRSJZMuWR0BgFI0G1b9rK39EtWbMxGc94r1l7ptLkx098erJwTSc_Dpzq1DHOawKnROxww-wiPi0t69VFH
+ah310g2cVm
+}
+
+!procedure Forgejo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Forgejo', $name, $tech, $desc)
+!endprocedure

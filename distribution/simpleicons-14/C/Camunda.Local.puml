@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Camunda
+include('simpleicons-14/C/Camunda')
+
+' renders the element
+Camunda('Camunda', 'Camunda', 'an optional tech label', 'an optional description')
+@enduml

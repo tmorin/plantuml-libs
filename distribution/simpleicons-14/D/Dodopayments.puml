@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/D/Dodopayments
+
+sprite $DodopaymentsXs [10x10/16z] 7SY50OG030J1ULVO_gj5afp3foTexZDXxY4oQnEeaISzWvBYMkNJbmgFch03
+
+sprite $DodopaymentsSm [12x12/16z] FOc55O105CE2mrdstvPtcgzjgKHVEdRwkuGPIFNFUAEX2cEDKDZLZQ05y3LJkMRCemOPkVhKSns7tI8xt1y
+
+sprite $DodopaymentsMd [16x16/16z] {
+LO-55S0m20K_TIEt_xPzGFMYE2WPdTrqunHpYJoqMxmvmdaAxK5Y0ibmRIHZoCqxjavT0q-P7PweAwU2C4GZDcRn3WEFtvJ9TaGv37T7qw-jwdwiXrzh9GRs
+cUO4
+}
+
+sprite $DodopaymentsLg [20x20/16z] {
+POo5aGHH508P-IwTVxGdRpZTBgCmcRQPMRz8c7N8y8lsQa5_jI35LvmS4oD1bLJ9wlQgO4Y5jL7jCym6bmGw0T_ly0eRcB89tO9iRtfozJ5lUpcyO3qR4DWi
+13ShqlFJEp6d3c3x2BngSME1ZpemFfXU1eaVz4qbM4_f7G
+}
+
+!procedure Dodopayments($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/D/Dodopayments', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Metasploit
+
+sprite $MetasploitXs [10x10/16z] LSQn0K0040Im002t_xJWAwa2MrQGejvQW4Pj7CNwBRy56PEQlAWUk04
+
+sprite $MetasploitSm [12x12/16z] DSV50SC05CKmjM5y-qyR_Zx9qAvP_Y0L5ly7Zn7b1gF7qijQtigRCf6hzRV1_ZZ0xPsQ6Ku
+
+sprite $MetasploitMd [16x16/16z] TSct0GD1449HpdlelrijCsiY_Um1t7HHtu7iriZciRs1VQUj2RZo-vfnccbEcE36_wwn3mkG_fXpD-rtBxulMt0gTjF6yCBqBcIp8g9dVi28EX7z
+
+sprite $MetasploitLg [20x20/16z] {
+fSgr5SG00CDGXJdQVzeZXzjJv_zCQYTTnfgzVlLiZdil1kHQmt0QNogv6xCLJwFWRcsTxyri0ONnjCm_pJNMq9h0WM-jfusIXhKpzRBtfSHP6Lcu5Neqsq1w
+0m
+}
+
+!procedure Metasploit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Metasploit', $name, $tech, $desc)
+!endprocedure

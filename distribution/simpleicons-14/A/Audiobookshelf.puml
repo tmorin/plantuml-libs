@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/A/Audiobookshelf
+
+sprite $AudiobookshelfXs [10x10/16z] BSR50G0W302nmvtkFotQlC9HHkIgD0cKcma80JnVOPZHkq17l1oJ26yycdAY3NmR
+
+sprite $AudiobookshelfSm [12x12/16z] 9SQr0GH100GWpjUd_sfVYG1z5W1xuG4cOeE0fc4VTzOnwMJKCKeOjgoQr53ulm7Vdt0pd-JWPYlrQtkWW9it
+
+sprite $AudiobookshelfMd [16x16/16z] {
+FSU5bG0X3431MS7XfVzgJzO-aeohjDROl3LtsTLcYrdMfDxS9mZQTSDTPyDsIjAM12Nz-umU8qnCKhG_zx__TbmUV__Ee7p6Xb8kdzxEoz1b756YXhiYdWu9
+YhUBR1bq-0K
+}
+
+sprite $AudiobookshelfLg [20x20/16z] {
+RSg5SS0m40315Pk__sg3ieCxV7EczJoFZaSjG1h9j66FY8PrNemhOxamvjKlGA1H4QQwKIZKnIqmOCyYpbZZSAAjEAzqdFkn7djSI0SYwkTtHdJyRjS_RKM7
+usaP6J0R6CQVbgNPzkYnmuQLAsv51aDwo1beoMtr63KXZmnU0G
+}
+
+!procedure Audiobookshelf($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Audiobookshelf', $name, $tech, $desc)
+!endprocedure

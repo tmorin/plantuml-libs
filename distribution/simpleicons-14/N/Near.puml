@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/N/Near
+
+sprite $NearXs [10x10/16z] 9SR50S1G3CDGbOwDzf-sy1Mm7zACHZNMFsz-uK2wF4YxfbNuav-E4by
+
+sprite $NearSm [12x12/16z] BSk50GDH309GQC-D_QUDVtqnV1jwhVSdTK3LOheKR_1zb_GlBa-KSUGpngUttOFhE8zOdieMrfrcGaAjNN8
+
+sprite $NearMd [16x16/16z] LSw54GKX4C3Gd3lflzelsCun-e8jbyHokjIWQeIdEMLEfen9hxzzoERG7T99DO-EBD2C2k4MmgZXGIQzcqSXVr8ykqFvv3MlsXXXohD5-08
+
+sprite $NearLg [20x20/16z] {
+PT254OKm00JHG-FP_glzUlYECO-uLehEvVuXu4GTLtTQsOjok0uiLsBCUCc5flOtDUE7TXFG9Q9EPjJ5HY3TJ0imtKpPNuSDem3EjkAh7XO9laMrpSNd683K
+SCzNOP7B-wCWvns4oG7j3G
+}
+
+!procedure Near($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Near', $name, $tech, $desc)
+!endprocedure

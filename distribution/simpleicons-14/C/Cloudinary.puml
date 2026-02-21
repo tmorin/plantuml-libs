@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Cloudinary
+
+sprite $CloudinaryXs [10x10/16z] Oy01-Fdv8Gns40U4sS5SNWOM21z8yW4n1p-OnmuaGP0N90w6I
+
+sprite $CloudinarySm [12x12/16z] VSR50S0m34FH7sPh_sdBr-OP97PYTRo2tWEySTDzdiSmecCc7j9zNMG88I0beKb3N-znykC4
+
+sprite $CloudinaryMd [16x16/16z] dOW55aGX3CI2Knvqxd_QzI_FrbBDy1T3yiH6KeFWQtCzpvZSMKhdN9aDavCNJD-IB8yWXI68W6QvEwvGPU1eywO1mlpaAW3DOhA66P-v0W
+
+sprite $CloudinaryLg [20x20/16z] {
+hOn5bWKn4CCgJS6Axd_RSJDivpki-Cb-aH2-n44P7cIa1JKpvMR4yvAEIw9UKeu_uiFhgrEEHwQAsuHkZGUckceBCcOksFEc71DWaOt5lZEjFCBs4hsObaoE
+ZGmlrWZg1kkuLjSRM-nV-GC
+}
+
+!procedure Cloudinary($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Cloudinary', $name, $tech, $desc)
+!endprocedure

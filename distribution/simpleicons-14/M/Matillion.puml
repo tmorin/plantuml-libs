@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Matillion
+
+sprite $MatillionXs [10x10/16z] FSZ50S0m30GmvLNkxJzj8IIp_QB9vyQHflZxR7gFZN-4yhUqQ9yqiBRv0W
+
+sprite $MatillionSm [12x12/16z] DSk50O0m4CNGu4xstnP-vLNF8AJpzn2trGR6NakvmSWz87lzhxp0a__9DU18_inIPtZjLXYj80vr13u
+
+sprite $MatillionMd [16x16/16z] JSw54S0W40NHZNj-_zKcS3Bmq1qzt2ewWohIAtTQdMeMU6HsVmRy9Tw3o4bNwm44H_Pg2O_tOJa-OFt2E_cVsW-tHbJCQ6TLpuTFDsQH6qXrbedg1m
+
+sprite $MatillionLg [20x20/16z] {
+NSY5aSLG5CKmXVcT_gjTl9-Y8OyfUqQVfYHfdPSXfIdTbPSL7FdKCLLUQmhdixQgNZsqsqCEw_lhE1gErvlP0gxKsnY3Xde7qd4c-7zqltzBSh6cjsULn99V
+XvPEbvi6-R03VPvEJsij7uuaI_Kt
+}
+
+!procedure Matillion($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Matillion', $name, $tech, $desc)
+!endprocedure

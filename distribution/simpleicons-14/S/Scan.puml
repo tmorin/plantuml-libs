@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Scan
+
+sprite $ScanXs [10x10/16z] Oq02_6302M5n0Z6OmS048bdv-NaX2lY0c1ai0-73M61jd11J85n6A0C
+
+sprite $ScanSm [12x12/16z] LOk50SDG50AlZIlxJnk17xld0byKqeO5McdD9gdIJmU35vs_rYBpJkP7wU7790qMpzMQpqNX3p2xRM07
+
+sprite $ScanMd [16x16/16z] ROw54GH0309pxaV_tVx4tdSi2j0VO4nldSLj1tF0-3eGKTB11L0fBLr4MyFPhfCWN9q-VHACGKC4PPsvt_8Ps9pFWmNGg6b1Z6rWa0L-R-tJJ1y
+
+sprite $ScanLg [20x20/16z] {
+TOu52WH130HxnnZF_tzxn8xLGYh4yKKZOqSOTA9fgjEPuzIssj9nI_d8v301WHW0mUkcBhRpDUkoowMj0bEkEOgSF3GkzAVwMwRpmO6iGcs7vM3EOBQ_7_LM
+Y-tqmg8p4Vh1YGtbkAQCs0VJ0fWV
+}
+
+!procedure Scan($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Scan', $name, $tech, $desc)
+!endprocedure

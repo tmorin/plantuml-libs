@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Dinersclub
+include('simpleicons-14/D/Dinersclub')
+
+' renders the element
+Dinersclub('Dinersclub', 'Dinersclub', 'an optional tech label', 'an optional description')
+@enduml

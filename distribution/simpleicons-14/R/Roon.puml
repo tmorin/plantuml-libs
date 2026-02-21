@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/R/Roon
+
+sprite $RoonXs [10x10/16z] Oo0Ii33mC33mCp3p0Wa64EO5aNoi3DpC1FK2
+
+sprite $RoonSm [12x12/16z] Oo0LC298JWPk8Cd1m0RayJEmCJ2m0hdC83OhaE9Zu06oIGK
+
+sprite $RoonMd [16x16/16z] jSS50GCn00F0-pBNlzg1XoqS_yPCkOsWrV7OTHyY5Nh01I7WYNp_OAlixrzVzsyCmU_n1W
+
+sprite $RoonLg [20x20/16z] pSZ50GCn0C0m7OHf_sdBtI7-oNRgBEG2eHmenNtIgIpYPJ3Mnym0wyIvQ1yL61UEHO1olZd_punXqlArV9wDUW8
+
+!procedure Roon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Roon', $name, $tech, $desc)
+!endprocedure

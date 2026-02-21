@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Pixelfed
+
+sprite $PixelfedXs [10x10/16z] Om02Jdus1X3W1mDE80CAM44i5cOUa2WGGvN0MMmW5WUO3yHG6Kw44bOe0m
+
+sprite $PixelfedSm [12x12/16z] Om01RduE1WZWXm084yxXXmDU81kic0z8SmCnkYwmF989808kZp277M4e7qWfBqmK
+
+sprite $PixelfedMd [16x16/16z] JO-55S0m24Glxc7_QIl7Q-YFuW2IbWo7ZoLA0P73Lj6OwcmuDNi0dR_qNWClu_tIlLDsGevSw6go9gHiLK3vY1jP_h1x8-DXcWZYR1hS
+
+sprite $PixelfedLg [20x20/16z] {
+POu54iGm30DT3kl_hprmDPh05hD68x6XtDPnWTJD23gYL4UIwhZKgqDfvt6S1KwWCsVddDuneGqkWInvfNSdd1jqLuWguYT2LAl-xPlljkc_cnTNfQLKwLnz
+bWYS-2Pz0G
+}
+
+!procedure Pixelfed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Pixelfed', $name, $tech, $desc)
+!endprocedure

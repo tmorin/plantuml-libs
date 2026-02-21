@@ -1,0 +1,74 @@
+# Netcup
+
+
+```text
+simpleicons-14/N/Netcup
+```
+
+```text
+include('simpleicons-14/N/Netcup')
+```
+
+
+
+| Illustration | Netcup |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons-14/N/Netcup.png) | ![illustration for Netcup](../../simpleicons-14/N/Netcup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetcupXs>`
+- `<$NetcupSm>`
+- `<$NetcupMd>`
+- `<$NetcupLg>`
+
+
+
+
+
+## Netcup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Netcup
+include('simpleicons-14/N/Netcup')
+
+' renders the element
+Netcup('Netcup', 'Netcup', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Netcup
+include('simpleicons-14/N/Netcup')
+
+' renders the element
+Netcup('Netcup', 'Netcup', 'an optional tech label', 'an optional description')
+@enduml
+```
+

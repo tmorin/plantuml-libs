@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/C/Coolify
+
+sprite $CoolifyXs [10x10/16z] Os3WXm1s18kVdu4F0lZv-HWWW12BXG4A-13ciKC0Cm
+
+sprite $CoolifySm [12x12/16z] Os1Wv8S21YGsAoCZCpSKSF3pSpFpGW6GpSi01QIo6TXPiTd50U9mG00t
+
+sprite $CoolifyMd [16x16/16z] Os1Wu4S233Zv2C38o0O7O3upBm80-Moy30X00puB9mCou4LpBnCodnEa1Tr3Z4Xy
+
+sprite $CoolifyLg [20x20/16z] pT0b0i0m50JHtQBvSF_Jbap3YSoJ8mSFZvmOR5vgBz12N-EgaRUP8Z9RsrOazCo_MDfOUtL6rg-17ha1
+
+!procedure Coolify($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Coolify', $name, $tech, $desc)
+!endprocedure

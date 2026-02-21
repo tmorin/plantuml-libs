@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/B/Bittorrent
+
+sprite $BittorrentXs [10x10/16z] DOc50O1030CFTxB_jeJA_RUDO0uj_2WuGiHQ4FQH7fQlHLHpY0NBmE9f9LuA4Nm
+
+sprite $BittorrentSm [12x12/16z] HSp50S1024JH7nTa-gyskl8kEBnCEp_zIchdNqZZu7e58XRu1XRx40Vwe15NlEdEaVsJUS-5CRz668po4XWqyRa1
+
+sprite $BittorrentMd [16x16/16z] {
+LSp50G0X44FHZplflzfrVRd068Smr0oteLFaeCUyljDVrNuCMzAzOf08-wRH8SZwIPYw3256US_6c6r1kYOQOuzk1krvuAkjDkaoCGo4yISsqrcrS33i5FZh
+cgsrmcO5
+}
+
+sprite $BittorrentLg [20x20/16z] {
+PSc5WSGW503HmJP1f_zgJydgW-ziTJaAJuhR36m-gPyhRLohfrk1eaPYMrvWfnf8_ZjHy8IKibkruesXoykIkfWTu70RI9JimpYHaO9FIa8a-OGRieW-J4xa
+dFWGWNbY9kOBG11S4PxL1UVqr-DMFVaGfhz6vDSt
+}
+
+!procedure Bittorrent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Bittorrent', $name, $tech, $desc)
+!endprocedure

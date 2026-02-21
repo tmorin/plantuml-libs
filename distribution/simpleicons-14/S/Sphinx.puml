@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Sphinx
+
+sprite $SphinxXs [10x10/16z] Oy06cFdvsK44FuZ3pSyBelXP69ZucO4q0v3cvm5ByeCbc60CC0NH1SG8
+
+sprite $SphinxSm [12x12/16z] TSZ50GGn0CGmBMCo_LTxpA2VxRyfgScAx0sm5in9RhyvrqGJxCbUauxiK9eG4zAe30jZQ7fO9XYzEm8
+
+sprite $SphinxMd [16x16/16z] {
+ZOrL0iGW44DnXtV_sswORlyxhedx966S6V-rRt16AWjszGw6Vy_QsfRJGijizJpCUuNM6ghgkgyKxJBzdYmuQmFpKcbXGaInm8E3G6ngR0NvD0ZrWNLXae9g
+6C-7-o0_
+}
+
+sprite $SphinxLg [20x20/16z] {
+fSv55iCm34NHBpjiUFlVRIDL9-F2dHY4-bjjk75OlWV0xhUEEmJZD3tsDaPUImF6ecJrWZQ0sQ2jnGJJmmMekcsWAyULMdGxQHRDEZ3xmCbPTgtBP4KkGc77
+Ijp7p9WkJ6VSkVG6pskD3QnnHc2HMt5T0IKpUwxwnWi
+}
+
+!procedure Sphinx($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Sphinx', $name, $tech, $desc)
+!endprocedure

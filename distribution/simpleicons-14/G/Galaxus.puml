@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/G/Galaxus
+
+sprite $GalaxusXs [10x10/16z] RSZL0S0m203Hgtjl_saZy9k7G_T0qeFalUG3UrqmsT4DDXFCydiYNOuA
+
+sprite $GalaxusSm [12x12/16z] JSZ50S0W04FHNyUp_xR5uLqYL9v92bjt52x0QU28yEXG5ft8d8g3GfNVkgFuL53eJkMEAls30rBfXIX-
+
+sprite $GalaxusMd [16x16/16z] TOu50iKW34E3Exd_QRT1-_tleVL0QVY0hE-c8VbfZwSzLwRB5Z1zxjBYkO0KbMaeO1WiXjeM0fLsOq-revZ5gWstp4HVf9resdLjvFNBK4B69zJt1
+
+sprite $GalaxusLg [20x20/16z] {
+ROw50GGX30Jt7Ctst-q_heCFa0GLYmMXdXN_V9FpVxUySqQkTl8Am76fCon6T8hauHbumY4uIqAOUEyIzVXOG8MLP-FinhcDqzNPwWua3g8wiFoydsG4dYQe
+CqIELIiWb_Y8Er5G8cXO7bXezVu
+}
+
+!procedure Galaxus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Galaxus', $name, $tech, $desc)
+!endprocedure

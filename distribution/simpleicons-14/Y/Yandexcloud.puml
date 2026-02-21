@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/Y/Yandexcloud
+
+sprite $YandexcloudXs [10x10/16z] 5SV50S9G042nuBHVtlxJ8ha5ZfwWg8F_gOTGwK0SYiNczRpAYgG9EGh2erx55m
+
+sprite $YandexcloudSm [12x12/16z] 7SY53GH130Gm7-Dc-g_s8KBBuCa9ICwjakOCkTDiUuTW927FoNW9oKQO1tNs2IAcf6ZVywDva3VDWf5KSl05
+
+sprite $YandexcloudMd [16x16/16z] {
+DO-55S0W44DJn__-s_QT43I2d1pFf1_QcC02lg1mfpgTBWKu62OdFT79eGXN03CVjw5fO1cF5vleRgozvV8TkHt46yuRSDe_4LKdZ5lvbvVZH86A__DcqyUM
+4Hz_22eTEBoE7m
+}
+
+sprite $YandexcloudLg [20x20/16z] {
+JOm5aW0X4CIolcZ-_zgJOKw2TxeWATD-yu_BP6maQitJGX19O9-clKcww0LNcCKGN2iu_GOENxAcsi9hCQCNiCHrHdR4wt87NfNy79P_x766sHq0rJlw3lQX
+MtedR7upDrX-kB5hFrbKTpOdkpl9eK3HbMMKRHtarRINQds-dVpo6enL-WG
+}
+
+!procedure Yandexcloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Y/Yandexcloud', $name, $tech, $desc)
+!endprocedure

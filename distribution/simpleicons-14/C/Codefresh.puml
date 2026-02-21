@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Codefresh
+
+sprite $CodefreshXs [10x10/16z] Oy06-Fd19902GX3YPuNGV20PLgWWH248mbJ30G-ASG
+
+sprite $CodefreshSm [12x12/16z] TSc50O0W503HizlRVrgxXGU_YN7SQpMA-JeDQeFkNw4shVS1haEvz-KshhIGcbsXF0mLRpC
+
+sprite $CodefreshMd [16x16/16z] ZSV50OK000MWPxViF-tlJhcHFuO-pz3bf8EOHyfa0CcaRHZYyf9Cj84w2LqGoEbIa-7odY8qDJb1HcsjpDdAg3pjh9Z82rEss0C
+
+sprite $CodefreshLg [20x20/16z] {
+fSn7WiCW44JH4ZdN_Myx5FHEcx7zbCMdyGD7LeZnFXHmMxWY9Q4pBhBP7zanYN7U5ey8FEGydteJREV1xOR3_bK4aizZMpNQmdnhM1WLThqr7Dt20NB2B0rh
+wWh4IgamfYmDVUF0Mvtuo1y
+}
+
+!procedure Codefresh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Codefresh', $name, $tech, $desc)
+!endprocedure

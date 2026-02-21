@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/P/Perplexity
+
+sprite $PerplexityXs [10x10/16z] DS650OG0000XlbDl_sbjWGjVeAUyGlubElbHaP-EluXlYYYwQF15vF4r0m
+
+sprite $PerplexitySm [12x12/16z] 9SQ55S1040BHoRdJVxTvw_3nMSHy0hlFZ7p3I2Uwzpuj-aRmTGamVnsXSCVqp0Lt_ZPyyFJ8O3u8XHV8xmS
+
+sprite $PerplexityMd [16x16/16z] {
+JSy53eG000F1mPt-_xLtE3GwsLZHm0Wrc4S4mtgwdGulpMNr8bAwhKZ2uIdVRSRTjRjtYbm-AEHoiJeWfsUNgs9tWkvm0ZDZdnHRTtfknLhVNah2F5ykxdy5
+Vm
+}
+
+sprite $PerplexityLg [20x20/16z] {
+NSu56eGm44FXuDg--vzsWLI_3Tg_CgCtWxwSwiFiz_UQACQQRQEQucuxWveft4ASwatNJToKRUG_hzrA1GbrrtYvHIOEcfa6eUEkPlB_GJ6J_xqoMJddmxEt
+mUyf6NW4-sTGTmqitAVNfU2DA8JEfjpB7fTgbBeBnQAAfRqF
+}
+
+!procedure Perplexity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Perplexity', $name, $tech, $desc)
+!endprocedure

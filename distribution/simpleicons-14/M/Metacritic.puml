@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/M/Metacritic
+
+sprite $MetacriticXs [10x10/16z] 5OQ50S0m08EO-_Z_syO3qUdUG_zThmAj6m6EulbX_bUtV49WxJMov4jdi91kLZ
+
+sprite $MetacriticSm [12x12/16z] HSZ5WKG108FGDz-T_gjTbrm2WBFDzwgdWYwMNNtZgz8jfejwTVHTzQfdZa9RlYlvhUR_geM-QEw6kwgLTm
+
+sprite $MetacriticMd [16x16/16z] {
+DSW54iH04810LY-o4_x_swk9T2bmwykpy5bw-t7JAC3GkDC6wCboGTmPwaLOC81Y9OTs2wYJ7648JRM1PQfSxjHxC3oo9GUmYODGQ0LGb7kaQZ0zSnI0UuV1
+hUe0M1fpR6RUYhS0-0C
+}
+
+sprite $MetacriticLg [20x20/16z] {
+JOq5RY1140EzC0pr_zVU9MtjA2KsIgOkPjOV4fXrVHB0Bha1D4iRedLB0xfJX09q5KYnTGOOQY31OwqeHAW25v4qOIIehA_eknlsx-T3duGvx2S_DyxPf2L0
+8Ivh2VH-ugzqGVnQD9sbnVWzEIBSkY17yWh9PeKgFJgI5-2D-GxS2X8STAWMfaF_0G
+}
+
+!procedure Metacritic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Metacritic', $name, $tech, $desc)
+!endprocedure

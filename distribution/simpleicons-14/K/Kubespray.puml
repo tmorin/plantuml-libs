@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/K/Kubespray
+
+sprite $KubesprayXs [10x10/16z] PON70O0W0CHYxsR_QHME9rSIkXZOOBAjwuRpA3FefhCFABxumAEW9x2eBYJR5lq
+
+sprite $KubespraySm [12x12/16z] RSV50SDG081G8j-5_QUjU_DEmA78LUQg0aKL21DrNgTlZ3sof8A0HXTt7xqEraUx68lo7ArSfMlpwmm
+
+sprite $KubesprayMd [16x16/16z] bOY55GDH3CFycPBJ_jlsbPaKbFKFhMXFWB2_jVd-E7lstnQJ5YTCAzcGO9CCf2H5I9gOI_jO0W8OcQkxj6vzxl-ha-e8xFqSM3l4Eb31EmnT6AkPth03
+
+sprite $KubesprayLg [20x20/16z] {
+dSg5iSL0581GrZTswR_Q9_dkSiOP-2TtdgINo8EXDkusjpDM7vI7JS0NZAD7ZuThB_l3kREnZSfcgkJiIglSQHH238eUZqs7ejMthJ3UDT20DorrjQNdTgZk
+L7RLbLDuXtV1e_RS6Y_csIPl3GRVkm8
+}
+
+!procedure Kubespray($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/K/Kubespray', $name, $tech, $desc)
+!endprocedure

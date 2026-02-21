@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/C/Comptia
+
+sprite $ComptiaXs [10x10/16z] Oo0My888BbusVYu6Pcv-RbO63dwmE0jXhG
+
+sprite $ComptiaSm [12x12/16z] fS450S0W002mNN3htvOEiBdm-a1XL55-cwmie3gn0G
+
+sprite $ComptiaMd [16x16/16z] jS854SGm002m3ChaN-tZB3GNkvqUrtMXSbQbQeAZnqhJJqqEhhKSlhKJX-tU
+
+sprite $ComptiaLg [20x20/16z] pSZ50KGX54MnWyDzIF_LZduhWIp3xkQ873H7oom6864c90Sr4WG4p2rlfE-jDKaDNw5YrGE9fyYEtW
+
+!procedure Comptia($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Comptia', $name, $tech, $desc)
+!endprocedure

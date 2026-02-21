@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/P/Picrew
+
+sprite $PicrewXs [10x10/16z] Oo0PCFAo0KacBZP6Fdu-JWOEmZe
+
+sprite $PicrewSm [12x12/16z] bS770S0m202nSs_0_jkcntyal19RX4dW4Mgb0BE2bL33dFGo1aud
+
+sprite $PicrewMd [16x16/16z] jSG50G1124JHl-xGF-sv9E2DO2rcd_XLJwYK1GZEuHQ3Y_HCGe2HPj7ZHrjv4XmL2ZPs
+
+sprite $PicrewLg [20x20/16z] pSJL0GGX34NH6mMIaVwxtP-rwO3pX9tCPKjuCg1uQ9j4YAq2QcaZAkCa8G2qAXEH2s1LYLywNMBPj2llys81am_v_0PU
+
+!procedure Picrew($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Picrew', $name, $tech, $desc)
+!endprocedure

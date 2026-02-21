@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/H/Helium
+
+sprite $HeliumXs [10x10/16z] 5SY53S1008LGwbxst_R2Ytm1kDo9vgfaTgl1tgluYq5gknvMn4MmTga1DWC3
+
+sprite $HeliumSm [12x12/16z] JSZ50G8100InmPtqNorodizAVm_NHaQRobnFyWgNTjdpG9BHhjxXoYc67bJ6tjxWKepULQ_v_G8
+
+sprite $HeliumMd [16x16/16z] {
+JO_50SLG40A9Fj_flzelHEUs2iXiWpRfOe19Cjp4kumA_LcEX62IYybx2x3X4YBIl_QwcDLtOLnBwguR41fTp9DF_JdsFkjSfThPv3AqWvQ54xj_s2MfyvHc
+uadp1G
+}
+
+sprite $HeliumLg [20x20/16z] {
+LSY74OGm3031iqm6-VhlzaUVsSdBspwy5lxClcNZpJyx56-EUzb3dM7sYp5GGSi0MBIh6rfWEIArgUuMqA6GgiF2B8I4F-m2WkMo44RzR5bKMLCLjA3sLCfX
+ILBxK895BK5JwItz0dRlA8V_0ihi3r-RbWpA0m
+}
+
+!procedure Helium($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Helium', $name, $tech, $desc)
+!endprocedure

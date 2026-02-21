@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Contabo
+
+sprite $ContaboXs [10x10/16z] LOQ50O1008ImM_QVrloyX4ew1O3ZU65xftkwghn5Ga-2fh45cgTYWyuimloqj-S6
+
+sprite $ContaboSm [12x12/16z] NOg50G0n20Fh3hV_jE_QmqdCX0LthGtla7FdRXintAtJbKONxCV1IEP6HtvslXvJ688vseQtLri1
+
+sprite $ContaboMd [16x16/16z] RSo53KCn5CLG_p0ftd_RClU87bx-Yu4tsxF5WnuGduCed0Mv2Np8dYMcke7kX8bc3ZqmlMLiXxpJ_TbtFtiid9N7FzLvX6NhxOZd5WxF8btT_3W1
+
+sprite $ContaboLg [20x20/16z] {
+bOs5iKDH24Ivxfp-gtrkNvFi2CogV0O5I4_6mIWD-eC3ivx1kAY-KHjvSSqVZt7c_ChGPfSdTUtxJcL34NOiL4RNG74GbnjNagEt7aEMdh1dxN51aMz8Z1zS
+9lwIlJSEqTCaiGq2afTROElSq4HPeMShROifwkLtp
+}
+
+!procedure Contabo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Contabo', $name, $tech, $desc)
+!endprocedure

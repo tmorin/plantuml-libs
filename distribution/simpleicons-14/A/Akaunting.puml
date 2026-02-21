@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/A/Akaunting
+
+sprite $AkauntingXs [10x10/16z] BOc50S1030AfUs__QJzwKK3EnQw0vCfdqnqBEhdO-jjt9JSxTtlH_Lq_t1365cUwCG
+
+sprite $AkauntingSm [12x12/16z] FOt50S103CDSvch_QOy2UWKCwZoSCZ1Y_6tnomoVR9HMU68MxFkMymav2sRlwFErseZqqTdw7CiE5G
+
+sprite $AkauntingMd [16x16/16z] {
+LOs55GGn20LXumRzTtkVsClDIZ8eJSBGndGOkaXBzI979VggeA_YZmoBC1q53VTWNGSuoiFhCSQ_nUYfRvxn7PrtVEMapHEy7OMJz85JL6Gv5Ls4xSJBX-tx
+0G
+}
+
+sprite $AkauntingLg [20x20/16z] {
+JP075eH0349HfpVkVzfLynWttvu2F27guaXmH8fvGD1HTydJ_gK8eEqtqyfIMNm0L7BInUxuECn7MdxmLO1Za4mFsCXx-3av9yNqUl2-Ielv6lanqX9L_Oz0
+0wXSPjOMuwwX58ev-29XSR1zbaLpfsM-0G
+}
+
+!procedure Akaunting($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Akaunting', $name, $tech, $desc)
+!endprocedure

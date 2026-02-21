@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/L/Linuxserver
+
+sprite $LinuxserverXs [10x10/16z] LSQr0OG0002nUnSa-szBWwPALqpAkvgG8epAKCmy_k1cqx7s54or
+
+sprite $LinuxserverSm [12x12/16z] LOc50G0X30CFTxB_jk_2GTi82nbGcZ8GFH2q0nfWBKEIFJhf60q5Wgm_z3mggnD_-1JpeT47wPDGFmaSgW8R
+
+sprite $LinuxserverMd [16x16/16z] PSg55SCm4C1GXMFK_jls6ShVSCY_itr13saYZHsmtO7ci07TW7K5rS1OQl_Q6mfmjj_X8jnc2AfLNPF1wMvVibvNiS5l-6Nbgr60nPTAvnIObg9UD0y
+
+sprite $LinuxserverLg [20x20/16z] {
+TSo5OSKm54DHcTbt_saBAiC_YUcH7YZUuuRQ9PlUEoyE1BqOKNR090Me-X6LpiBJOfIAOr6mzG9FScmN69-nZo1qn-hoyQ4fxSkjQM3NKnFpy6bwJp3Rl621
+lyGVHOtV95r-2dh13rLsC8jwbtbtz4teQuqesJC
+}
+
+!procedure Linuxserver($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Linuxserver', $name, $tech, $desc)
+!endprocedure

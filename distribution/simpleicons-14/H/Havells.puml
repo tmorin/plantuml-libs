@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/H/Havells
+
+sprite $HavellsXs [10x10/16z] PSn50SC0002n6_FYtsq_vKP0Mb55eUvySZa_mClHmwGd1V6iE4tVlG4
+
+sprite $HavellsSm [12x12/16z] Ou02HWZ51oBu-P59VZ3139G3Kdn0DXnmysC7d4Xi1dvkBYO65WYR3suc5xBvC01Y0W
+
+sprite $HavellsMd [16x16/16z] VOw50GCX40GlWilqNsra8V8wwFdQ3bvtfWyJz3H0KGZ3BKU_3t-GVJU8eTJ6nB6aSKvXoHLQxp_RS4XOdNQ94F_qc9jw2v0LwB8ZLFl3uLxt4m
+
+sprite $HavellsLg [20x20/16z] {
+ZP235K0n54DJkzb_sc-pz-WPmH7nO9C1cxaPg-d8kCVAP9GrQpcI0C-rGvABJMe5QLpWIW3l1DwfRAFmZkCTa6x0g52sLj2lDuibfg2t61mdbd_zhW75Q9cJ
+LcOntHwpk53ArDW3
+}
+
+!procedure Havells($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Havells', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/L/Lobsters
+
+sprite $LobstersXs [10x10/16z] uySE61WOeInU1dv2B1uu2opE00P8XW4
+
+sprite $LobstersSm [12x12/16z] uySDc800pc5WuAUCpObWSq7as240rL8
+
+sprite $LobstersMd [16x16/16z] uoS3C800iW0Za4i7FYyhAfy5neSuXvM15Sg50LR2VW4
+
+sprite $LobstersLg [20x20/16z] uwSKS8C1BueO4mCGC7AXAkHYO616rypBmC0ni68yc6BS30Wnc9iP4M9iGA-1f1WPu68CI832u0G
+
+!procedure Lobsters($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Lobsters', $name, $tech, $desc)
+!endprocedure

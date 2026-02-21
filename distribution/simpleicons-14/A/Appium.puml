@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Appium
+
+sprite $AppiumXs [10x10/16z] DKl55S1G2AE7xxR_jeqy72A16Ay4uodom5LmbOshlLx8VBYhDIslmubUzWoCQqdXcX4_
+
+sprite $AppiumSm [12x12/16z] FSd50S800CNGeFM-_QV5QIvVqfl5q1VWg9ZtezfiQT70p6b0PU2EjGeJVAlWoj57C1pMNhLXx5nF
+
+sprite $AppiumMd [16x16/16z] FOw54G0n20I9UxR_Rdzu9cmKF_afbodEnH23HwvcFbRPckoSJX1eURRsnmyqYTOfGDRVzCxej-9sqDz2SPFmR0iWA0UCAmrbOBZwOhSsEXOPPdhdAie7
+
+sprite $AppiumLg [20x20/16z] {
+JOy54e0m4CGMfvh_lnRTWGlQdgLw6LAdBWgic2ePViQuPP9ot78nYxGJQO8tRLzITTu6-zX7fJik5I0zALhUpoq9ZvKIDvCL6ZZmUMtSL4BU0Y7lCMsy27-7
+z3iwMEAP1smBHh8CU_-tfEnfKxIoGhd3-jYZfKu
+}
+
+!procedure Appium($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Appium', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/M/Mdblist
+
+sprite $MdblistXs [10x10/16z] O-3ZuyS7c1c010EOnSh0pm1XiG4972m4G9WB
+
+sprite $MdblistSm [12x12/16z] TOU53G0X00ERZxm1j_-qQ6D8lKe98oQEk5h4bY11QD7s8_Hx4o5umtO7dCPo2m
+
+sprite $MdblistMd [16x16/16z] bOi53e1G5CCMNCRh_K-BQmJuZKugHt1HcMISUNEpBVTI3-JIcTMHwShEXDhiocIOUmP-PxR8OBwfU381
+
+sprite $MdblistLg [20x20/16z] hSYr0SDG0CL0cV4_xJzjcDC4VEKn9l59DRgzeHuzgsil6kWz0XwEJiFJTT0ArTC5fFFnUiNUrrEtkhB6itNr2_5TvPli0G
+
+!procedure Mdblist($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mdblist', $name, $tech, $desc)
+!endprocedure

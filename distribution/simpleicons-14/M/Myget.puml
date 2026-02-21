@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Myget
+
+sprite $MygetXs [10x10/16z] FOgr0S104CCSvcZ_QPyEr1ZLUJHOQ7Gpv8FXi8XCkmj8vHpcHniSyTnCAm
+
+sprite $MygetSm [12x12/16z] JOrN0e1G2CFYtlR-jpNk5w3D7rmiF7IH6jcL3aCtcxj6ibYh2wIdIdRjye_F4p8KxabpTM-sNlKzHWu
+
+sprite $MygetMd [16x16/16z] LOx50G0n3CDqJ8NzjxsuN1KI-MKA7tJkQ6n5bX0BYrHBsE2mwOe_69iskNXN_ITobfnTa1qb3tJlJBuU--Hd_EZ5m9dtga-CvfmvUTLpGQYgZ4n9GFm
+
+sprite $MygetLg [20x20/16z] {
+TSy73WCn30D1wdgpz_-_3II4wLaqOgvQRZozt0wmlC28UxabcrU0gwYHFUVXSKNX1T3I_Ag3B5GMTXZz4acTR2gnAIwBpVsnY6-3uPzjBzJl1gkgk21DCrQo
+hcebyy7TZEzvRO7J-mO
+}
+
+!procedure Myget($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Myget', $name, $tech, $desc)
+!endprocedure

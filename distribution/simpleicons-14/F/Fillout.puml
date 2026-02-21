@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/F/Fillout
+
+sprite $FilloutXs [10x10/16z] Oo0Iy8C0dC7F1IR176P-VZxyUW4
+
+sprite $FilloutSm [12x12/16z] Ow00yFCpCZDoi30oWvZyh40s5r28aP-V0SJcv-VXPUGdrKm
+
+sprite $FilloutMd [16x16/16z] jKU50O1048BlFFQVrjO9V1gin_1zV4UZcJV3AOvgakduiOKgpkm5d9yQNdscYWSaU9J3pzW1
+
+sprite $FilloutLg [20x20/16z] pOW50G0n4CCwviM_scUmi1msMWnprGyGy5X-8x8rE2m6UiQGEF6NgrMSJeWeNIvtYoCWZliuWHCPJRGGEm
+
+!procedure Fillout($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Fillout', $name, $tech, $desc)
+!endprocedure

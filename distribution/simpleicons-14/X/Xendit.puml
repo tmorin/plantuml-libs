@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/X/Xendit
+
+sprite $XenditXs [10x10/16z] JSZ50OG034JHjuhp---M4vACu_Lw0Le8YbynxaY4VhGiw3cBP1IwnAxY
+
+sprite $XenditSm [12x12/16z] DSC5OS000C2mZ7drh_Ry0Wp3052DbXF6Ga53tE_rScIW_-XaxWg2DFZPbJ5h45fYxJsX1mKUgebF
+
+sprite $XenditMd [16x16/16z] {
+DOq54e103CGMT_B_tq8pqvpKkoc6duWym9qSKsG0hKRBakI5lSA5uQ6wbii6dZ-mMzTaiZBO6YvZNdyk39_kwiBPNHDZQHdUPI3cIDYZCEQlxa9xK5q5TxAi
+MssMcWBi-W
+}
+
+sprite $XenditLg [20x20/16z] {
+POy70i9G24FfthpxtrQ3FtKzRHisHD69-687oAUutW4uZaFf2jZ5L29XZA8dGM82S5gtLnpYO9LhLHFrsTZA7tvRh5oXRBkcrkbE6qX_3uvxaeNreZvYOu-P
+wtyIzBfuqsqwPNv5l4T6t_9F9jeTOpAu1MdXjflts25CfI6sCACUSEK3
+}
+
+!procedure Xendit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/X/Xendit', $name, $tech, $desc)
+!endprocedure

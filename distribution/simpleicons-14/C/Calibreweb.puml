@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Calibreweb
+
+sprite $CalibrewebXs [10x10/16z] DKk30G0n4CkZHlQVjZWpW0GVsmJbw8HSClqw8SVCi63mgqw_HFsfK2qR
+
+sprite $CalibrewebSm [12x12/16z] Ou00Fau6AE3dv-NdXp1vGJG8GoaUFWYJXu614oxC3r4DKqc8pOXWSuCaE3bXra8C0W
+
+sprite $CalibrewebMd [16x16/16z] NOo30G0n303pHd7xJrlxOaf5Sqh70gXMmXrxjLJioRUnJjwsL_d5LiTMZeV-d_i0fBBdnSQDJ5pBV5jgGIqr-UxeZLCEozS_HEwOUW
+
+sprite $CalibrewebLg [20x20/16z] {
+ZP250OKm30KVxhdzfyMbRRvmK8idUkWOCqKCR5IX2EZKGo0onkq8PICea8Nt4hj5FSEfoWEphOWAXiYLZUuHjPWCUWKOhLAWUYdplZtcP3d80SLnsOwJwcX4
+GzY8SH8EkWFkJXO
+}
+
+!procedure Calibreweb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Calibreweb', $name, $tech, $desc)
+!endprocedure

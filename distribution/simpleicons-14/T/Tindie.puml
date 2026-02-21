@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Tindie
+
+sprite $TindieXs [10x10/16z] PS470O000C0W_D_rRsi0mKylc9zLiEzMRc8Ax3t65t0V9nXa0msDWE03
+
+sprite $TindieSm [12x12/16z] RS770S8m400mfRZxulsdfSCBoL-nyBPi8CeMenFN5YQJYxOXDIzH8y_DIpjjRNXRtTozzMMVtehY9u4x
+
+sprite $TindieMd [16x16/16z] VSVLGKH1402mpEgpPVgl5dUuor_SDNmtJ-ip9PnQ0f4pQfwh4BrmER6ZTv4FXDeJQQoyKAzP0mMhMxFDA83Iij1dU9VibC_BiCRt9zlrsKMUlaHUrR-U
+
+sprite $TindieLg [20x20/16z] {
+ZSZ5OGH034MnPtkOVl_LXZbBEeg767z9P_7RSVXnQUyeZQpDXwvgrZLL-3GR3IWLW3Edcare1Xo0vK0LW8Uq07ORMqjOfasN3u00Q27RndGxVDbdLZeMwyS1
+B7ePV0bH3IlU-MO2YQXyIqV0MFmWJ9BpamBnrn6tF0C
+}
+
+!procedure Tindie($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Tindie', $name, $tech, $desc)
+!endprocedure

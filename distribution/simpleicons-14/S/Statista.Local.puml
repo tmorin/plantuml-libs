@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Statista
+include('simpleicons-14/S/Statista')
+
+' renders the element
+Statista('Statista', 'Statista', 'an optional tech label', 'an optional description')
+@enduml

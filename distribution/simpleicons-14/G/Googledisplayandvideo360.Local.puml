@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Googledisplayandvideo360
+include('simpleicons-14/G/Googledisplayandvideo360')
+
+' renders the element
+Googledisplayandvideo360('Googledisplayandvideo360', 'Googledisplayandvideo360', 'an optional tech label', 'an optional description')
+@enduml

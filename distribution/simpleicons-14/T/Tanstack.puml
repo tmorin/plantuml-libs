@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/T/Tanstack
+
+sprite $TanstackXs [10x10/16z] 5Skr0SG0000XufxRVzeNUc1_Pn3CEqbOg2xS9-zxG6Y6bNTzLfYgtacEoZ-nr5Xy0G
+
+sprite $TanstackSm [12x12/16z] 9S670OGW50Mms1NulFsdlPhuQlFobmL7e8_fAyH8SgF8KprGWtFn5-BOVJr4fMEp7qdcw4JckQtvEicpLgskWaegkNW3
+
+sprite $TanstackMd [16x16/16z] {
+FSZ7GGH03CLGJOxsxxzR1iFkkqc4QhxvCY_0L2SeGvWMYQcdmTCCZ7JrY-Sa7Eb8Jb3BJ8uGmHqu720S0Q9HS_GwqRXkjAS9iZoh-mA4aiBeiv2SeTDp7lAu
+W4bNAcdkhiRpwgQjfn6IWl7y
+}
+
+sprite $TanstackLg [20x20/16z] {
+HO-5eGGX5CG6zvV-g_s2t6KN2pgwLBCHfI-9LRmFdUcUmdI9rAjAxEvPwrjbDT3aU9AKbi9S6B2TGqAUpT1XDZSrpBN9nEj0BohoraqjF6TUqef1NsplGCB5
+zjpSBgXMJ0ToEq4oYtoTa0f0gnDslgKLZ8Ep7eQ4buEQVV2TXwJsOeJTd8ITqRoRh1hA9qtQ2tmy6n-LpJoBVW4
+}
+
+!procedure Tanstack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Tanstack', $name, $tech, $desc)
+!endprocedure

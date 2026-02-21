@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/O/Ollama
+
+sprite $OllamaXs [10x10/16z] Os1Wu0LYFWOWu01Y9WOGu052VX03Ji808mDO4HiF8oz41WXvuR8ig3gWPW4
+
+sprite $OllamaSm [12x12/16z] LSg30GH150FGjyOW_LTxvcU45NQW1MV0NbCo12HUHxoYs1YBMT2Drf4W1bOw2l3A0440-vz-1G
+
+sprite $OllamaMd [16x16/16z] DSkt0S0m30Cmf3TR_F_RJCAaGiBvW0B8XEyCi3phStrRz7ulsPUlTrkou4s00Ao1TzK65BKa9GwuRgRJN0KKhrSHU5QsfBh_BTe7nwaLY1PO7ormRjha1m
+
+sprite $OllamaLg [20x20/16z] {
+POw50SGW40G7YHzi_zM-9kYWvykNDV73PGfAv_yz4ZVxXG1yHjpOZaoIdOCFKEExz7E1zFXMKTZllsX8n-np-VOvkNm4sm_1uyEVk1LpZblzcI61iNYGA_sy
+86gS4Q87Y3RFdNsbTc-SxlxRIaL-hhLzzfq7l04
+}
+
+!procedure Ollama($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/O/Ollama', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/B/Bungie
+
+sprite $BungieXs [10x10/16z] FSR50SD00C0mvvYz_xJbHYznY_Wr285pwHbWJg3lEMcKzvhCOAVhoWmxD9TP0QhDmyUo0ay
+
+sprite $BungieSm [12x12/16z] JStL0SCm34NHQsQz_QTjmydviSLyDTqoQIdT_oR8jLz_6SdDww-4mutztn6OAU2aHV8aLSWwj7vTc4FBiIjxcalLqV07
+
+sprite $BungieMd [16x16/16z] {
+PSh50GCm34DHXHpEtt_Rkapl9j0VO8zcRQm3rWilPs4AsL1duBPdiILP2xXR1jlotpjpb2oDyCf4HQdhU3wCagf4Ez2aThihcXRebc58wnX5hlAmLvIB7Teo
+pwQRw8yz64bF3R2WjvIgRYu
+}
+
+sprite $BungieLg [20x20/16z] {
+RSg53GGn4CLGXpc__sul8ntlMlnaxclrkvPT0FtM7JbASdgsCCCxBzZJoTfce06uLEc6JvFIY529toR12Ad5-Mq3GlMGzRIz90S5HlLFwnMp8R-bbkq-uJBK
+7eu51sqPJfA7xgG6K6JjqgILr9oPh_P9IZeLiEnGcKQhmXEBfDgbRVJC7JGkV3URzbE-ryYp1m
+}
+
+!procedure Bungie($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Bungie', $name, $tech, $desc)
+!endprocedure

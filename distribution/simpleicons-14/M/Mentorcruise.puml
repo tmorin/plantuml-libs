@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Mentorcruise
+
+sprite $MentorcruiseXs [10x10/16z] JSV50O1G081Gx9RzfpL-lnFmsPpv6MmnJdNwY_FFBHIsPeb4OyZc_Ga_-OCN
+
+sprite $MentorcruiseSm [12x12/16z] LSgr0O0040F0uCxjFots5TUy97bjvXIbLWweTTpX26GFR6YUVV4twr8EOVeiX3KlfeHoLX7lzmO
+
+sprite $MentorcruiseMd [16x16/16z] NS_50S0m3C10bScDzf-sZBbNmCYXcPqARhEdZeEFz5nJk8ixc6ZT5RWR23mqxY0et1tX3JoPcKbvQN54luFX6r1gejNnYVOCUhHiudCz59zjLW
+
+sprite $MentorcruiseLg [20x20/16z] {
+TP055iGm20L_tI1p_zEkmSjMfutXe6GfsAWT0uatIjYn74GbZdKdQitZClnZoHe2gLvC5jTPDOfL_P9cFzcqppQ5J3nYq6cFmGXe3o30TW0kFnYEGAicgai8
+YmKeIOgabJtjRgI9AdC8F8pU
+}
+
+!procedure Mentorcruise($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mentorcruise', $name, $tech, $desc)
+!endprocedure

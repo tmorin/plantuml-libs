@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Meituan
+
+sprite $MeituanXs [10x10/16z] DS650S0m40Cn5yD_-qzRZ2Lfy6eIDW2hDE2Lb4Wf0MKfJ1kSlAnXmcu
+
+sprite $MeituanSm [12x12/16z] TSh50G0X40J1mPtEFzfpUL78gbIup23nAwpOb28wm1sg586IIm4ftKl0kF8C4NDWyWlyn6Vi
+
+sprite $MeituanMd [16x16/16z] XSY5WGCW44JHuT3LwR_R8-x9Hzy2nNWk1K3mlbhucF5dXVpR-v1lYimXmdwOzcsJTN2J0ZzOJ-wXuC6r5jJANdcorwamDWsDWvF7AmyTzP0y6S-kZ_m7
+
+sprite $MeituanLg [20x20/16z] {
+ZSq50i0W30F0P8PqaF__TkvwkBG5q2HfaOq02fqaG1UnqLNIVt6eTxm11XH223v00-SQE1VKJmwE6fW5chL2hX8oDUWZ6889uZ26gqWIv736V3T0MGrp4vUx
+5gLafC01T2lhodH5NI7fh03YvQe3
+}
+
+!procedure Meituan($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Meituan', $name, $tech, $desc)
+!endprocedure

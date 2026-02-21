@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/G/Googletasks
+
+sprite $GoogletasksXs [10x10/16z] HSQr0GDH042X5vSlx3zjf3egwZ30qAOCelhd9GPd175J556rrGK3LV2iBm
+
+sprite $GoogletasksSm [12x12/16z] LOe50iH030Avgwtp_zyMKf-L1C4N1XWbrZ58NQqTGclJVgt_okL7q_pza_yECh4WkJkHqKyDCOS_hnuyWLcy9Iqx
+
+sprite $GoogletasksMd [16x16/16z] {
+RSc53SH04C10XpdklzkNfOX_0dVUvOzPCu2boQgMUitpRIcNFcGeHrH8kJ0tE_nI7cKtPQzr9dIxb0RbeCrMsBlH3XMOHnZjEckxBZe0f-hxgcvaypDMsQkL
+_
+}
+
+sprite $GoogletasksLg [20x20/16z] {
+TSy50W8n3031FRUc-__NOWqE0-TH_jgyYX6OEguE7xf3Uo1yY5qLgke134RBO5JZhIoeqcGKg1riZwXPDZCuetgbwi7nd2MFdTNKIXKDycMMPrB9by1Y1c_j
+9IsiGhaDawgFJwxSH6x9uCsU0t4p-XGyowIL5zCHPUzfpW
+}
+
+!procedure Googletasks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Googletasks', $name, $tech, $desc)
+!endprocedure

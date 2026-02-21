@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/P/Prefect
+
+sprite $PrefectXs [10x10/16z] Om017WO8u0S2JWWB322Y62ncC8iLBC38pm6J0fAeB0P620i
+
+sprite $PrefectSm [12x12/16z] RSV50O100CJ0uCxsNoroRdbDC9tuBachfMns-iJGyfXurialQwlINMBehNa1
+
+sprite $PrefectMd [16x16/16z] bOl50S0W0CHIzzx-qrPmU45-9y5nad9BsWYRB4kHDUEuYWmDUGsvTzDiyf1S9usv2jMPliZGX_m2
+
+sprite $PrefectLg [20x20/16z] dSm53i1024JHeUvp_zDMIP4uFxPv2-1lGqfsadCWQgOhhH7QG0imDRDcCwjchRDUZKUZDeOj0JdbIxk9NKB9P3UpnCpL7FQ-
+
+!procedure Prefect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Prefect', $name, $tech, $desc)
+!endprocedure

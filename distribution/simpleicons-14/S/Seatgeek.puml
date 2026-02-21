@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Seatgeek
+
+sprite $SeatgeekXs [10x10/16z] ROO50e0W0CHcj_l_Q-q4BaTA3eewCwjbYQ2Ec-LLsI8LDCvuK3UWMaaZZrO
+
+sprite $SeatgeekSm [12x12/16z] TS750SD00C0m9yVe_QSjVSeI_tJ3ddHKF17C2AncMOS8MbH4tfWEppHEu_OmQ18b68CrpM0I3XuEAY-k
+
+sprite $SeatgeekMd [16x16/16z] bSUrOG1H5C0mtsTytd_QG1kEEl5VmvjLZAnkRe0550Iu5iqZxFXUvh6WYi3MHnL4FjD8HbGZ-xYNW8qgkCL8aTrFjM98Dj_i6jMSJ5PQtBJcI6FcyqpvnIi
+
+sprite $SeatgeekLg [20x20/16z] {
+fSq5aWGX40NHX6gYyRp_QTVTT-Q5bdwkKjVC4Jb19aNjCn7s4UfYUghkJ5X00TtW0DYAok7XKo-H70eQjiTUjTfrJjVSFlQOUp3kGOmqAb_hQbPNKV4Cws45
+58g0fxAbhz1DSMVSmfOmNlUQWx1dGsij7f4ybuccXkfJHdBnIShyqIq
+}
+
+!procedure Seatgeek($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Seatgeek', $name, $tech, $desc)
+!endprocedure

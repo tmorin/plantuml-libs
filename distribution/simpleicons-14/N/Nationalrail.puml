@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/N/Nationalrail
+
+sprite $NationalrailXs [10x10/16z] Om02Jdus1X3W1mDE80CAM44i29UJ3wm4AiS4fjZWOWm8rPnGlK1XLYW3
+
+sprite $NationalrailSm [12x12/16z] JSm50e0W40J0jTlz_siLheVc0jt57OfAhgvVtscI-oFVDuP-N8IZi7Cl__9pGAh1i6N_5ytZlpy
+
+sprite $NationalrailMd [16x16/16z] JS-50SCm30NH2xDk_saBln0_Crl4T7bq_5mQ2-5VPTWuixd6OT7eI7F0R4pIMBqSeuDNVMWSS1Y7D1Oxg-g4iTuKuuAXygFPLduVCVDoDiFeccYU
+
+sprite $NationalrailLg [20x20/16z] {
+PSx50SGm4C10XMDK_zKUX64-XaKsePf7BWOtfM7ZHJY_Jl7yEWrhhpfsNNG7BZAGNCreMGGW_2yQhDnfrRG8mF2_U6XXT9EjpG_GR7JqtGyNjOFULQ5Szc-s
+rerFG7X_GVIgPJ5uuZ2xA6lI5m
+}
+
+!procedure Nationalrail($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Nationalrail', $name, $tech, $desc)
+!endprocedure

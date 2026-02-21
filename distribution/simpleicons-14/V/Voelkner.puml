@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/V/Voelkner
+
+sprite $VoelknerXs [10x10/16z] Oy02cFXPmJG_Fn2XiXZv-S0y988F8iCF0X3z40O2
+
+sprite $VoelknerSm [12x12/16z] Oy01EFdveImW0yPc1BEPm6nU89i7AW6c86nkCCK75M66oFBp037CD10J2jXv6D7j1G
+
+sprite $VoelknerMd [16x16/16z] bOpL0S0W30KVTR_zfwqNIBxAnLM5j3370hZj9RXwWa5ZEhX7QQ6DzVIDQwM5yLjSxgG3Glm3yIms5aKceD4V3W
+
+sprite $VoelknerLg [20x20/16z] {
+fO_L0GCW34I3ExV_jFKUzbDvQ3oHFyYjjLakDra3S9CEDvuNKJUfI5zqyIPfSGncA1-6Tf57i5xTPaVzT7ivEluCa-2bOkgA6rwtfLMG88SoBgC3p3_GMicN
+N04
+}
+
+!procedure Voelkner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/V/Voelkner', $name, $tech, $desc)
+!endprocedure

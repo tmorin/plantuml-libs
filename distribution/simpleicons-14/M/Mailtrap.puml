@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Mailtrap
+
+sprite $MailtrapXs [10x10/16z] Om01VY06qq301M71C5YA3KZnim8940A9y_6p0-KG-X0iY1PsY3ucVZ0D
+
+sprite $MailtrapSm [12x12/16z] BSQ55KKn3CDGFInN-q_x8IStO1E4jDL6q9EcW1E26xK0IyKojUkh-88ko1uKd-nBk0KuFEExK0bNjYy
+
+sprite $MailtrapMd [16x16/16z] TSs54SC03CLGXTdQVzlUBrFUaTdSDF9ETOExNMjIntjUTi3YUal6jy46rPvOp8gM5WnwpsaqYk6MGw_2Au-pVEEbnllNw9s9qWDQTIKIHhqVyhvq0G
+
+sprite $MailtrapLg [20x20/16z] {
+XSy54iGm34DHsMNK_M-x2dd7G_tbLqemMWZa9geh4Njdo4doDRsj0YzEwRYHZdy7sLwCDrOgayKl_MNOqdvP0Ts0Wor7c7eb6v0C9adM-Z2aJ0ROIu-PNwWz
+L6sQQcreHUyg1o9dxK5ganXQFm
+}
+
+!procedure Mailtrap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mailtrap', $name, $tech, $desc)
+!endprocedure

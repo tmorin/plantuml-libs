@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/R/Rumble
+
+sprite $RumbleXs [10x10/16z] 9SV50SG00CCm7PQR_QSjnIyPqLwv-a6QgapshcH2jPAgaKO99m
+
+sprite $RumbleSm [12x12/16z] HKs30S1044kDF-m_RN4s4m1Z84L_cQqyrAN6rbXz81gV36lgjEg_v3-Eg-uRv_RgBbwnwWK
+
+sprite $RumbleMd [16x16/16z] NOw50G0X54Avj6N_QUr-vc-GCFx6v6B63viDC-r6CNzESXlFn3yTJ0ZWOQ7Qr-WZfgsPC4VyBSyFc5cVy5E1vcJNvx3PDngR5G4
+
+sprite $RumbleLg [20x20/16z] {
+PT235G0n44NHjtQc_sxt_1WtDf37JbgdYJie9ais4Yk-eK_MkBIXmrYiTG6N2KmkTkxmg7JfJWAlYWTPpPlvuYOozcbhcSBQ5o0T0dSiBuicdTQQWTaQq_ZU
+yG_suRCUelGBRYFx0G
+}
+
+!procedure Rumble($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Rumble', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/H/Hdfcbank
+
+sprite $HdfcbankXs [10x10/16z] O-070Wo20Gouq5WWAIuW3M410KGCJHqhAoi3AoiFada
+
+sprite $HdfcbankSm [12x12/16z] O-070Mma7myF3mCGWzXi3100PJCoCiBOB42rO3OGWDb0W117w4Ldux8N
+
+sprite $HdfcbankMd [16x16/16z] O-070rOepKy4dma861X091-Opm07l3ZuOCqS43uN5uBF0UR0-I20hXx2vm42DWYVi7qWnSnWBKJu1m
+
+sprite $HdfcbankLg [20x20/16z] O-270WOuYuzICGOam4Mw63id2A2AyO1DXuanCJ4XYp52-0m8CHYFXmTPZ8E7XnlJFChTp0e230nWYeV2y0C
+
+!procedure Hdfcbank($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Hdfcbank', $name, $tech, $desc)
+!endprocedure

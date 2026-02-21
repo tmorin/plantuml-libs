@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/R/Rocket
+
+sprite $RocketXs [10x10/16z] HKe30G0m49oD_cc7Dq-6Q-8BUsy0-nS2Om7X8QViQ3AWlJIEA7s41U02
+
+sprite $RocketSm [12x12/16z] HOsr0S1030CLvjp-qpuRAelbjs8VCFu9_m_unx_nIVtzGFMlNxsjlalzF3Z7An7_Syd_cCy
+
+sprite $RocketMd [16x16/16z] LOw50G0W3CDmX_v_BMuBEYyZH103UBO2VZk1s0MOdd3DVj-mNvyLLcNNwNaBB7GvIHSpR5FYDYqT7TX6BbiT6oMuNpcVNGlxIIVS
+
+sprite $RocketLg [20x20/16z] {
+XOy55aGX203vNUhS_xRxR6Hhx05BB8Td52SHRLQmpe5rL1wjWYCoAxMAJ01AdJqKMLeOGXf3lmsOXlkE4zYYycZkg0uqGGfRItNc1_y_UW3i9Y_-y08ECS0b
+5j_L2m
+}
+
+!procedure Rocket($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Rocket', $name, $tech, $desc)
+!endprocedure

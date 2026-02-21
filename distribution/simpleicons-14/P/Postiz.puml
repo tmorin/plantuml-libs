@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/P/Postiz
+
+sprite $PostizXs [10x10/16z] DSR50OK0042XzpkL_QUrvKIRsqSLSC-3ufiVYJWteZSAEGVAd--z2hng1W
+
+sprite $PostizSm [12x12/16z] HOs50G0W40AnM_QVreuplXzifCjrMXu0kumfqoVhCCJsy_4rAiFn0q0r_16p35_E_6Jdm_KbDtaA2Acr_xfbEXq
+
+sprite $PostizMd [16x16/16z] {
+JSg54SD040J1rJDF_jdQ3u8fsguxFRdKsAlpjCpNaGhOypQFVK0GHiUZGH5nE_m1_R4Wpv7rsCxH2xVD79MPaVA-9sP1ql8fJnkUhkcMIWhNPQpr-bSvZKLT
+SpUZrGy
+}
+
+sprite $PostizLg [20x20/16z] {
+NS-53GCn0C101nw2td_QSljHJsoXMQIzT0jlnGLlhZ8GQrGzazsd0tRTL7bIhT3rd6fWIb0756r3ZGn15QBEfYRQhw5MdwswjbCjX43zjAb9hQHp-ccRHhKJ
+bv5t6tyjgORgMm2woLK4TgChW63fggCUEV2XDULI-rHjd_Ppy9LLQ-Bh3W
+}
+
+!procedure Postiz($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Postiz', $name, $tech, $desc)
+!endprocedure

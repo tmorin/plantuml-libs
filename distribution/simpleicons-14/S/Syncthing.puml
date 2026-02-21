@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Syncthing
+
+sprite $SyncthingXs [10x10/16z] 5S650S90002nmsbVil-qI59rUFR7k-Ke3kIHDsWT1xYTNF4Epsu82Ixf43gg1wWl
+
+sprite $SyncthingSm [12x12/16z] 9SQ53GDH5C2mt6VE_jjMJxN8XEtWJzzz6dLzUdb6jo6tY_W_xgTXjQ8tDdWE1r3NGZyH0wPOYd_OGVdwbz83k8OEFm
+
+sprite $SyncthingMd [16x16/16z] {
+DSlN5S903031lKWwQVllbYUmvt-WhF3Jk8L_3oXw07eQ0DgcXUs1i7ty6oCRdkbbWakymJB4loJjAfOdgCtFvAOvRS6s13f352tH3oRRPzS2Ho3yyAmBkG6E
+dj5Nw8RIj2J05m
+}
+
+sprite $SyncthingLg [20x20/16z] {
+JT05hWOX303XsRA6plrF-xGX_nU7Egaknys7opGFakeRd5Ej-UGwAAtNuDMMKLJ_SUW5bukkgKGJD5wt1-QBebl0j5gBMw6XorBpOHcHMP5lBppgeMD0H8u_
+LFJkKAQ_zXjMJ1EzBYVpu_4-RZGuD2BV6jmALBroknEg_6ewWrzNQyO-wSRsgkxmRm
+}
+
+!procedure Syncthing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Syncthing', $name, $tech, $desc)
+!endprocedure

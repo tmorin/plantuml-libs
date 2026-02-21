@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/I/Ign
+
+sprite $IgnXs [10x10/16z] 9Sg50S0m3CH0bRdQVzhGNy18iqgy-gmqHkym2RBe1FmPPALFczc3JJvdCkXEkiGA
+
+sprite $IgnSm [12x12/16z] DSp50GD14CJ0ClCg_sXzhCz00nYT7TIu0AcUGL-LuWI1NmMNTb1r7dLqkJwuX1TAfG-aUY_huSK4
+
+sprite $IgnMd [16x16/16z] {
+JSc54GGn30J1DHnBdlop_TywREEKT8AXZmQyjHxXffoPB0FeqEGfeNGBtB7uediKKZr6waIkmkBCbtF71a2N1UUaEtT9SzKV-2AbpY6fWW2M3hB6ca1pdc85
+TEZbblq
+}
+
+sprite $IgnLg [20x20/16z] {
+JSy55WCn30DHHPjochd_RVlaalzYoA2F2IWQ0AjRDVSufY8636Am_bEOK9u2IoQoVAzOMSjeIrbJiVEgK8Vp8eRUTWQBDojkT4j1jrLCaLVU-azUacLyObdX
+34-LzWcPl8Ea6leWCZLLUhzNVJmGOQQQJ5qjTRsY5m
+}
+
+!procedure Ign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/I/Ign', $name, $tech, $desc)
+!endprocedure

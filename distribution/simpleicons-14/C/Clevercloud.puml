@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Clevercloud
+
+sprite $ClevercloudXs [10x10/16z] JSQ53SC0402nApVe_RUDNXYBt9qtHxN0dqTVcPOnqdEamzZez30UnIcgFWVL1G
+
+sprite $ClevercloudSm [12x12/16z] NS750GC100EWvDpPVzhQiv0_whhoTV1OM9ABOgIPNN3nn3A3Lip3Jnzn5eoLyc3b28g3EIcdafzrPKZo1W
+
+sprite $ClevercloudMd [16x16/16z] {
+JSU54SCm40J0Uvb9st-tcR3tyV8svwx4qlDrsRkHDKyRsdUImWXRHx9tPa_5j4GKJzTkMUDQ3czLrf3sKUCpxttsLlCpbuMdjQir8nhlVSoPS5mO8KaXM3cI
+fu5DoC_MUczvUW
+}
+
+sprite $ClevercloudLg [20x20/16z] {
+LSm74iGm24DHoKvFpB__RHUo_KrZ04blaxh-pPXfM5yc5pGOUhiWEY1WLTb99cqdoP98O-PpkQHr0SJjt01PfuFjuaamZzpHC6yrrsxkWxUfnRqRQXyMzwwT
+Esy-ZjgD3V6ILzTESCqyrRnOFG07PI7PCgLHEaKfW3K0aJRTMhoQuDJ7pDWmwC_HzhthwG4
+}
+
+!procedure Clevercloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Clevercloud', $name, $tech, $desc)
+!endprocedure

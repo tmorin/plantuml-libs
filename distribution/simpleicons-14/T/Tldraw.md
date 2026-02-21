@@ -1,0 +1,74 @@
+# Tldraw
+
+
+```text
+simpleicons-14/T/Tldraw
+```
+
+```text
+include('simpleicons-14/T/Tldraw')
+```
+
+
+
+| Illustration | Tldraw |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons-14/T/Tldraw.png) | ![illustration for Tldraw](../../simpleicons-14/T/Tldraw.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$TldrawXs>`
+- `<$TldrawSm>`
+- `<$TldrawMd>`
+- `<$TldrawLg>`
+
+
+
+
+
+## Tldraw
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Tldraw
+include('simpleicons-14/T/Tldraw')
+
+' renders the element
+Tldraw('Tldraw', 'Tldraw', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Tldraw
+include('simpleicons-14/T/Tldraw')
+
+' renders the element
+Tldraw('Tldraw', 'Tldraw', 'an optional tech label', 'an optional description')
+@enduml
+```
+

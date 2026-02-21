@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Payback
+
+sprite $PaybackXs [10x10/16z] HKk30G0n4CkZrlxJLcS7w8EYq27VCu1xxCOzdv47IAw1E_tkQF_MU92JOW4
+
+sprite $PaybackSm [12x12/16z] HSY50O0030Emuax-lnQNhPxPU-qVmTAWkIET9Dxbo2jqodVdlvNIR83ctrYKXdTQ7xR-sm4
+
+sprite $PaybackMd [16x16/16z] XSs50GD124HHk5kttt-toSGzRrq0IppIyQ_WEqopSZa2ZXqDn864pW7PR-yTn9F3i6-rPgODDjHbGqFAxHoHX9G9MRUwb16whXEyCvuT
+
+sprite $PaybackLg [20x20/16z] {
+TSxL0KGn24HHuiA6st-rQy_jH9cl4MySgNWkp7XYwxCIhGw6YBWr0aZ8J-7F520WVqmgrym1NN6_o9Yb41J8uXIU3TzhW5VeDHwwP09W-TYb0vowr7tc1bGb
+6gJ1h4oziiZWWN8bnbdx
+}
+
+!procedure Payback($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Payback', $name, $tech, $desc)
+!endprocedure

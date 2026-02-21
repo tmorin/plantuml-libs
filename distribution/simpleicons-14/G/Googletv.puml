@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/G/Googletv
+
+sprite $GoogletvXs [10x10/16z] Oy02MFcP-M40mOB8iI2nsE0i663XPu2osFaHvW4
+
+sprite $GoogletvSm [12x12/16z] Oy05-Fdu4O07cGrLmCgAO2EB0rd8ucmmmC_FYsGA0ynuDdvkP6i1
+
+sprite $GoogletvMd [16x16/16z] bSV50O0034Mnt-BwzfyMToUtw5KSUpABvH2oTNuGhpB0D2lWxwsgjj_hNXqkLbLDhHSj
+
+sprite $GoogletvLg [20x20/16z] fSYr0S1040CmF_Dv_sa3JPYZKlWZaQPnIJiEnwtdXmLJYjkU9Vdd_C5bO-tsjiPh1uVD1LAWKfubbNF0Kpq
+
+!procedure Googletv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Googletv', $name, $tech, $desc)
+!endprocedure

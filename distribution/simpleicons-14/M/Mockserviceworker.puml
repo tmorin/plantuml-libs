@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Mockserviceworker
+
+sprite $MockserviceworkerXs [10x10/16z] FSQ70S0W2031J-zn_scL_WeSS_CK5TPTGhJeCN4pmQBQvVEeu8OcVUkwBY9QDW
+
+sprite $MockserviceworkerSm [12x12/16z] HSor0S0m3031Jyoy_xHck4OiA5jQwHFYDDAF9Oms69CJOv3qx99dN_2XvXD90VMpRfK2TXzMdieotb2U1W
+
+sprite $MockserviceworkerMd [16x16/16z] PSw53SD054J1CSFfylklDcOUuHFjCiIb8Xv-GtoaObV6YaDnTDtCYhqpIbsKghNB4OmqQvCe81qzK2FldQEbvzfJysW5ZeEBR9shuab-P3q1
+
+sprite $MockserviceworkerLg [20x20/16z] {
+RSZ5WOHG502muF3jzL_joYYMO-Xhx2NaE1lwkAfnpqvwrcRlUSdreaFkkXpnlG4MzcT2Dz5s9w7hh0pFQlGLevNbUOKv0lDAVbvYQosX9vvM8E5pnTEqkwZZ
+mpnuNegTjCO_SL4Cr_e5
+}
+
+!procedure Mockserviceworker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mockserviceworker', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/V/Vanillaextract
+
+sprite $VanillaextractXs [10x10/16z] HOU50O0m0CE2E_d_MfYlNY8kAhIsUTfNdKTRwJom0yFZUjs0op2T6fV3g1i_
+
+sprite $VanillaextractSm [12x12/16z] HOo30G0m40DJkzb_sXht9XO97_9cYRo5cQalCusLh6V0Wvbv9fS1VjyMJ0g343Ql0x9MRLoSUOufAQ6DN8-2boOJw
+
+sprite $VanillaextractMd [16x16/16z] {
+LO_50SLG40BtkJFzL_ibdhcj0dOmx0qyAm_eBWNqUoCn0DAwfpjxJOVz8EurJEw5exApZfRPYQRjt4xMVq6P9OsknWf_RvDSYI9tx0ypJSAYfxrMyH0wn7mR
+30l-cRy
+}
+
+sprite $VanillaextractLg [20x20/16z] {
+PP250S0m20JZ3hV_jdNDLtCuvbOtiy3-KGE-f023yVRaqWCZD00LcRoUb86y-y20bvl-73kFz60L1W0EWBOnZ3tOGLBSc5jVjYf8sYgMzPLfidvNMMl7m1p1
+M0H8T8OUBAqq4iX28vs59MBnj9MS4rjgm-1L8_4UH16B4oAQxxqeWmP8CAiM
+}
+
+!procedure Vanillaextract($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/V/Vanillaextract', $name, $tech, $desc)
+!endprocedure

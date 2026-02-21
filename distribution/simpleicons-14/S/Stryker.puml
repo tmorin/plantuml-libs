@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Stryker
+
+sprite $StrykerXs [10x10/16z] 5Og54S103CDKxbEq_xP_LZWsGEilGIrjMSpR1-KqD1qqrHuRgAyXQrAFZEQ0BF0OO0C
+
+sprite $StrykerSm [12x12/16z] 9Kk50O0W05Ew-VzRLWeiFsAEzXdNC1suCmHTa8vtYm-tfflYifhwgpcEwkB0E-9ym-AYyWAJ1MmekGy
+
+sprite $StrykerMd [16x16/16z] {
+DKy54W0W29lT-l_V2koOTDs4ePov0XpdlRT56rE9RaIGoW7JnIMPuZ1mrKWKr30yJr6OPqkyUW54vdEP2m2kfuO4MECvcDjb3CylcXhq7Iqd--cyg_gjt-c7
+gK9lBhB01m
+}
+
+sprite $StrykerLg [20x20/16z] {
+HS_LeO0m343Hu52x-q_x97f-e6rKtBVQk4NA1T21kOb3BVvzTTKplcLKL0KkhsLFcmLas1vjuCrKoaUqiB-QW5F-t9ZM_QqcROCmDn-2cvB3eZJyjhifKoSI
+QkPTDc_GnkMTVQuk9bTlmDn5jiyorKMHz0BTel_y0W
+}
+
+!procedure Stryker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Stryker', $name, $tech, $desc)
+!endprocedure

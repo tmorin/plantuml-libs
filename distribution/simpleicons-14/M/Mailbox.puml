@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Mailbox
+
+sprite $MailboxXs [10x10/16z] DOk30S1040HZvwV_Qi_6OlA0M7xmnp7xQJlc88wr9RI9VMwDlo_S_RVsjQK
+
+sprite $MailboxSm [12x12/16z] JOs50O0m40E3ExV_j4ZRTvT4HQ2Nh0IhDwkdFyCk7S1Hpl8fKMuWkiF69PPWgTkPohO7zaHx_Va5
+
+sprite $MailboxMd [16x16/16z] LOt50G0n3CDyZAtsdxQCUaKXAtE3LMSby7L_Y7HVhkXBhjyq0jvqMISc7IIz5BdGdzoeO4cCAUgwbDdAaxpjWgrwry4YE9Gv23pga3Pcjqfu
+
+sprite $MailboxLg [20x20/16z] {
+PP072WD13CJiwrt_VssAcM26YBPetUF71UnXd02uexZ_uZmmxvZBfSHmKkKVu2ZpKEY9gIypTBynn1wGe2hYGRJQ0MPJgH1o9cqR9MobxdQXnmbz7Aq5p-pT
+bE_jE4nIdEOEW2V46m
+}
+
+!procedure Mailbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mailbox', $name, $tech, $desc)
+!endprocedure

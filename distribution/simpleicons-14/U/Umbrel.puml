@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/U/Umbrel
+
+sprite $UmbrelXs [10x10/16z] Oo04-440p81mmGZA14em0n4lFnyh0pyt0pyFI0uJ
+
+sprite $UmbrelSm [12x12/16z] ZSR50O1G30JHmPtflrhuUi-Bx1ArdHkLNlkjfOvab-1CzPv8v-MZvPI07m
+
+sprite $UmbrelMd [16x16/16z] hSS50S0m44FHbBdVlzen2DZUOVGBMsgsJngSqXaXQ5SPPzJ5qAIE7Wc9eXTOW3psDG4csJKe-qf-e8zM
+
+sprite $UmbrelLg [20x20/16z] lSYr0SD00C106Pv1-qyRvlI-yZZEifLQDZvadvPdgNLTbcKRMfxLU7haDFEc6wnsFYbC-LBTKSsm3HjiRJH7zjyqmAuDq0wBSe0p
+
+!procedure Umbrel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/U/Umbrel', $name, $tech, $desc)
+!endprocedure

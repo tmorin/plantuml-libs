@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/F/Flightaware
+
+sprite $FlightawareXs [10x10/16z] Oo0Hi7Dpi88ePY31pyd7mCZ0nyX5G0y
+
+sprite $FlightawareSm [12x12/16z] Oo0Ri2AOpCmC74mW1ZiZYEHdPMHXPs3XPkTaO6DWO68YnLG
+
+sprite $FlightawareMd [16x16/16z] lS450S0m3031BoNb-bSx1W63EtxLCpS7ZUZPg04mZ40CiI1IOqwQ2aHhlE8XUXC1mujc
+
+sprite $FlightawareLg [20x20/16z] pKq50S10489tl_vfvxu2vmxGBEK_YgE-1zmz1NzUm1wLc6o2yuo85cG8Bb2GxI0CC-9eJ2T5S50XCm
+
+!procedure Flightaware($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Flightaware', $name, $tech, $desc)
+!endprocedure

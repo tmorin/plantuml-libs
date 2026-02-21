@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Checkmk
+
+sprite $CheckmkXs [10x10/16z] Om01RWO8OEVdvmSpW3GO0maM89SNnEK1AcDY0BF0iZW8C0ap1q83
+
+sprite $CheckmkSm [12x12/16z] NSk50O0m34JH2cv__ssv74xrnPBNdAur0CKgqgOhuY_h7UNgyiGaXxQKx0M1riRcvr7lQfUOuyWUIunl1m
+
+sprite $CheckmkMd [16x16/16z] ZSkr0KCn40DGVJPh_srpO2hp6XsYozWbajViBhh3keFgfYZIHefFYa9XhnNpKFk6OVQIQBClajeytYlh-Kz_MaPKZGOHE9nmbIfWElJK_
+
+sprite $CheckmkLg [20x20/16z] {
+fS_50O0m40NHZplJVxLOTcDN7ZvOecXJRGN6eam4YbgYtTB9Q_5ZVEZGO-HZhLTmn7OgQhtjDhfMKchjDmoshEs41eCtY8tVJGU4OQ_4oQaZ9pF6qdcA7nXL
+Q0vMcHi
+}
+
+!procedure Checkmk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Checkmk', $name, $tech, $desc)
+!endprocedure

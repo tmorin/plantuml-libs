@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/T/Traccar
+
+sprite $TraccarXs [10x10/16z] 1S450S10000Xvhxht_O1hZRGZFiYm6O2wGBDayWCkoF0hI0Ni64BCG
+
+sprite $TraccarSm [12x12/16z] 7S650SC000CWwjxyV-qa0AxiL6OSWPSAKHUFMUstzr8HKuXr760dKOl3anb4KED6rFZ2yqwMR7m1
+
+sprite $TraccarMd [16x16/16z] {
+HSx5eSDG30J0ISpmjFrN-y4uH-4w32tRnwrb-UXQ9eSC7FQ2U4mxxUvQgS_R_cGa_S9XzWrf7pvGJJugo2nVXtthV1At-ZIIvX9XU0Q-PTozWfhSQdnZyyru
+9qjjbO9V
+}
+
+sprite $TraccarLg [20x20/16z] {
+JSc5eGCX403HmKw1wR_QBycUF5WdxDFUU6bwRcKVZaJGpDVX7gkJM_A8rPiDcjpg0aKmSPjcS4DU5BBx2U6KR0Bd1ZG0gXbtq08ec0ds7JQj50Wk0rQLXmYe
+6uHrC0v0XM0ccNZRZVHe0d1O8EncuXRTgjmsFqO6u1S
+}
+
+!procedure Traccar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Traccar', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/G/Guitarpro
+
+sprite $GuitarproXs [10x10/16z] DSkr0SG04CH0FPez_NVhwA95LMt-LG7N6DuH8bhiUPSk6CBTsCPz6biz
+
+sprite $GuitarproSm [12x12/16z] JSV50G810C2mu4xtdnOvxoi5Zsx66jkmg2VnQgSEhqlNvxK3FOXdgEU-QuLROs3huqggxjQ1Bm
+
+sprite $GuitarproMd [16x16/16z] FSe74W0X24FHR6zgxd_R3OpXRz4tWEpe_5OupbwpAWuzgW5B_5TGNu-5WznMobplCCgBdV-yFVfVv95pXKZ6mrKSwOSEoCm-lNliHl90vUsgjdy
+
+sprite $GuitarproLg [20x20/16z] {
+PSy7ZiGW5C1GKsQIq7p_swuGV_kZMnMEz2pdcnyUmoe4VvZ_a_P8scrEcse-RP10I4pTfrfGHBbLu6-RfztC2sc3HpDGtUTkRxBAfk94t5hymWJlQ1p-i3YQ
+to2eeK6e6lXcAFoBdP-I6o5adOGF
+}
+
+!procedure Guitarpro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Guitarpro', $name, $tech, $desc)
+!endprocedure

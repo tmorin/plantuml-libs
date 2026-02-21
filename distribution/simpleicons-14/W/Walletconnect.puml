@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/W/Walletconnect
+
+sprite $WalletconnectXs [10x10/16z] TOg50O0m4CI2Ezb_MjnfNy-8r62p_KP7vQmSEe5zDN4G1rP8Rt_d7ZK3
+
+sprite $WalletconnectSm [12x12/16z] ZOV50G114CAOSwV_QdVqUPO79FX7JoTqy9UAALQ0tNlpMGXIDjeiF631BSUuLX_N1nG
+
+sprite $WalletconnectMd [16x16/16z] dOt50O103C1QtBF_j4YmD-IkRl6BRFlwZKfakS8EQ8iU22aej8Dn6tAP734BeuPm34p0584aZ7UJBGaC8OkNq_0h6m
+
+sprite $WalletconnectLg [20x20/16z] {
+jOvL5iGW4C2mUY7tF-tAsEDx9IqM64d_eNJWc4t5k4CTSXuokmEQNvuXVTDK7QjNCT_B1Pib6B8EI8WiKaNLbKHceB_aMqaEX9fEG0gxpA_rdhiU55bFVpNJ
+qhSy0G
+}
+
+!procedure Walletconnect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/W/Walletconnect', $name, $tech, $desc)
+!endprocedure

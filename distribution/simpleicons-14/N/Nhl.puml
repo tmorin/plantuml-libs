@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/N/Nhl
+
+sprite $NhlXs [10x10/16z] 7S650SD000GWuk-t_xIL03XuxURM6-IdFRTdI-wLWrkiE97cp7OtBUG7YoGQJRAyYfm7Nm
+
+sprite $NhlSm [12x12/16z] 5Sl7OGH130F17a-dHVxPwbWVMa1RS6dvplUE0VVEEJIOwx6tVePKG7MRfGwa8Zyd7HuejW_T2KE4a7ZifRyCIVj0vLItdTtsnfkve8tt32x_
+
+sprite $NhlMd [16x16/16z] {
+BSg74GCX34JHBp9OiFrtQtJ3cxY19mEDJx52BurkBtSVpXxRup3QMgiV_IfvSoLJw4NADUuf8exY0_NcWqWkBu2PUXk7DAss6tsoYmf2N7rnA3ghI7F1c592
+vehy_PKE2fQ0t7wpAXJlNDdDbeOLhtowrJr_kPISU0hF7m
+}
+
+sprite $NhlLg [20x20/16z] {
+HSY7aGGX34N19maFmyy_ssDCtNRvvbzm53xT7Oh5hmwTN5SovXZSSbhclLhptYWfEnXYwyKeTHUWhl7Ev3gTqtt3T2ksNOgxYCPTrhDSkpnNnhcBlKs6qdDj
+TTMOtf0lo7vdY24YcQgfh05UOTb5xCkQf0RuC0deGhUuB_kvrhBfqPsZRN7sBUQugzbSN6-b6TpAgFGxTcQJUJF6wkvvhfhS-BIEYJG2AZ_XyFa3
+}
+
+!procedure Nhl($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Nhl', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/L/Linksys
+
+sprite $LinksysXs [10x10/16z] Ou02FWO6VXu6VYu6Fdv-A8i1pW82d2mmG6L10JyC
+
+sprite $LinksysSm [12x12/16z] XSQ50O0m34JHmvtRVrgek_msoODjU04IAqzvMJGcUAFZPnSjsgfJsaKE9cdR-GC
+
+sprite $LinksysMd [16x16/16z] hSUb0S104031VJ31xR_RcC33oOmR6iaAUeAkW5gRLtLlZfhQKu3s_FP7_DRyrlGB
+
+sprite $LinksysLg [20x20/16z] lOk34G1H34I3mNdxhpOOdAttcGLDuQw9kmFY0L2bX62cTQd9L6jMD5fq4nLQQCclsi15RSAcrfKJKfkpgZa
+
+!procedure Linksys($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Linksys', $name, $tech, $desc)
+!endprocedure

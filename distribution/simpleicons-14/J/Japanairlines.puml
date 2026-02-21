@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/J/Japanairlines
+
+sprite $JapanairlinesXs [10x10/16z] DS650G9H040Xhh_vzf_M5k1qshpbxKJpgT8iJ3DNCPtObqgefRUzqfzJhSiXRBtn1
+
+sprite $JapanairlinesSm [12x12/16z] HSI5WGG158FGjpxwwR_QSqa0iA-Bx_NVS4Ji1tJNpVv4w6aPvegc8bmdK_Vog5JJzrJTBfxJYqxFdSl0MTMBTm
+
+sprite $JapanairlinesMd [16x16/16z] {
+LSk54KGn203H_HuZst-tDp1wBufHxja7gSHDMY_50ygC2XV7DzNwSdcI59PmI-e1VEvprlWKOEYZFOT8TZK4ApxrlKD59nogTOKfTVmJVAhi0zaAUK-Uaqtu
+02otjVP3EIm1y0C
+}
+
+sprite $JapanairlinesLg [20x20/16z] {
+JSq55WCX34NHZsIAl_tljWT8vOuIbQkjTjCVMq5Rda6EeG-gVz4MPvCIxOPYgejjdPCKG5VVDSz-LJmMY7TuKVTO9laMn8q5t_YGgBp8l-K26kqK9ez59hLC
+OAY3UTaWSGnWFeEjQNhiPtZiNrJmUeBwrE8igm0XMz8h2T_Vc35FmqgEaQZ3-D5NuPYtw0q
+}
+
+!procedure Japanairlines($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/J/Japanairlines', $name, $tech, $desc)
+!endprocedure

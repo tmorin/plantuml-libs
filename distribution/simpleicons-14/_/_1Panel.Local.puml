@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element _1Panel
+include('simpleicons-14/_/_1Panel')
+
+' renders the element
+_1Panel('1panel', '1panel', 'an optional tech label', 'an optional description')
+@enduml

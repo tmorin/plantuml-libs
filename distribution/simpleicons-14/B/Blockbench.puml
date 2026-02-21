@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/B/Blockbench
+
+sprite $BlockbenchXs [10x10/16z] Oy01-C40oE26i_WXW0j4S38mymB5MFaWac0058BhHZ4B
+
+sprite $BlockbenchSm [12x12/16z] VSV50O1G081Gx9RzfxKx_Zi10KdPz4xcTXResba5fJNGwQm7vi_iEBHUceSH
+
+sprite $BlockbenchMd [16x16/16z] Oo0Di8199duu0FEvqVZyEFayQEfPkA0CJYO69WwmSXO-X78ki6vk1eWgFh1cLcv6i4juM40q0e0r8m0l3r4U0W
+
+sprite $BlockbenchLg [20x20/16z] {
+hOu30aL124N36BN_rNu-MsUOBpm14d58kOXguz6UraSBlZnqbOLIj-2ZhmVHsbZwTaaR9380X_eTWT-dGtBuTxCiKo7fd_xrLu8_1HeOAiA4hhA7L60A8vpZ
+3G
+}
+
+!procedure Blockbench($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Blockbench', $name, $tech, $desc)
+!endprocedure

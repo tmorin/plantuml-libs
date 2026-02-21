@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/N/Nhost
+
+sprite $NhostXs [10x10/16z] NSV50O1G081Gx9RzfxNznUd1tShRBZRtBxY1DsknlhdWIilyY9vV5XhabRUbyGG
+
+sprite $NhostSm [12x12/16z] RSR50SD00C0m1ux1-qzRvaOl0R1sNiHmtyp2xWBQS3QebKHJ4BmU1PzdVjo3R_9yguR7NM5LT3y3
+
+sprite $NhostMd [16x16/16z] ZSUrWKKn0C0mlp1x_scF8ULN9xwDnQtiPlsRcc4RllQ4nSePddC0fvEMZmya7-IPOsSU5mI_ZWVe6txUcWNyVyBNF_2vJZHolMkxVZOimrVsnWw0WXRU0G
+
+sprite $NhostLg [20x20/16z] {
+XSZ50GGn08108cin-g_st9KVmxNUUCtUNHzX6ab8ccwKBGemsmC0hTGAqazZ0qOVdcou0g4BGgin2LaZu89GQpZlQZxUsK0Ra8NIRfOSmBE1yxiLtstxQmk-
+MaWsNcpHycBD53LVRHHKW4MhOFB8bNF51Zh37W
+}
+
+!procedure Nhost($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Nhost', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Crewunited
+
+sprite $CrewunitedXs [10x10/16z] TS750O1G00KWxFRjlwrdVu2EDoyWUUIoyR2oWI7nmfhSm7IOSByA7m
+
+sprite $CrewunitedSm [12x12/16z] VSgr0GCn400mFPfz-s-RD65GBVzimrrSZHsfdH5h5TE1bjL1khTaWhH5i83IaNGqh63XqmK
+
+sprite $CrewunitedMd [16x16/16z] dSk34GH14030FcCn-KVxE9OVlHpvJqJbLkAbbXaqdVeAwIEmRdLczB4zbBKR8ZecfsMR2JRZEwwiRDgY5BB6LbwRcIOnDUWxDAtDcXPVUm8
+
+sprite $CrewunitedLg [20x20/16z] {
+hOz55iGm34Fbf6Yy_stdoHrUzuTZ5EvWJFoJLPNuGQg9KFb4za-x6rticATLgehnLIl63XB5VPkyGd5XGwNZwVLaF0i1ygc_0Tv_w_SVtHpmzQE3gGGiOBZ8
+YVC4Pj5-WdZtBmCNuKSgRk81
+}
+
+!procedure Crewunited($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Crewunited', $name, $tech, $desc)
+!endprocedure

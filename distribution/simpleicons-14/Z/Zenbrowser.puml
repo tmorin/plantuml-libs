@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/Z/Zenbrowser
+
+sprite $ZenbrowserXs [10x10/16z] 7SU50OC000F1g-By_jDYyS3K7nJV9XfL-ibeakw0UWuQ_zymMvAGJAb5-DLOd
+
+sprite $ZenbrowserSm [12x12/16z] 9OY50S0W30Il3h7VVziYoJlpN8rzKdzIMl6YnOrfnajmY4X4eHx3vRqDWpPCJz17plEeblSH8v-ErhSyTpBKJX_X0mKSmufnAPNc-WC
+
+sprite $ZenbrowserMd [16x16/16z] {
+DSc7RKGn4CHGxi-AxBzRhsJSGnfYsEvX2tw6_ruslLcQO-U4hdw47OQSNkjU8_36ZF5noVIMVj61oOpJ8T984MT5Lm-My-ZOLd-ab-_3o6hCuCtW4HjUn0az
+r-GnS9x7PwCA34-Yze_CXzJp1XvNBk4sINy
+}
+
+sprite $ZenbrowserLg [20x20/16z] {
+JSW7ZiKm203HCOdpNMBc_hTT8MrxTFWsq_VXd-wtq_YcRe1RdL3g0n4DcYu07P2M2TgXkxby6t2PeDyreCy03uy3D_boPRIUOA1Ji96KpH9D2Ub1ELmojNxC
+Hbc435zf4fsITDa-tdYH0EiXDueoXNrMFdJ1mx6HGkb-s0PDuRYkwEc7Mu6f4AgRxnSiVO2oDQ1qrJcsAh-6bXEKBm
+}
+
+!procedure Zenbrowser($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Z/Zenbrowser', $name, $tech, $desc)
+!endprocedure

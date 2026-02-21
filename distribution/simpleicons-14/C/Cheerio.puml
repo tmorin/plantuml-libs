@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Cheerio
+
+sprite $CheerioXs [10x10/16z] O-373XZusTWHF3wm23yh0rIE0QOAY5WGIlXv8QAigAO2
+
+sprite $CheerioSm [12x12/16z] VOY53G0n00AfUzb_sXSQUxqG3Fp10eEYfyEcKm-d3Nzw8p7DMBUqwAIhA1H63lcqXvN8HRMHDtO
+
+sprite $CheerioMd [16x16/16z] ZK-30G0n44ljPlzftsRF1dY2p1QeGaY1k3M9IGMr-5Yg5cqg6I22tDFLafwxx-hgBEsIHQz-oECiMx0Nd7L56PMoNC40aClCxmTx
+
+sprite $CheerioLg [20x20/16z] {
+ZOv50a9H30FdF_VS_xGu58VPr9imzKosrd_CudrxR47JJ6JhZAjIyhPbsReavqTjgDCVreWRjh-u75MP3HvUsYr3Yayz0G7hbTF2aXRfrPMkvcq-IJ8IH0Tw
+PFQXBsIziWS
+}
+
+!procedure Cheerio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Cheerio', $name, $tech, $desc)
+!endprocedure

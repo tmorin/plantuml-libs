@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/T/Thunderstore
+
+sprite $ThunderstoreXs [10x10/16z] JOZ50S1008EeUzb_sifvFW5ejXe72HQKqsbOXfzqGc_f3bSEKH2KmmGf1Chm0W
+
+sprite $ThunderstoreSm [12x12/16z] LSI50O0m0CJ0u4xstnQftmij4zYDLb2MTn-ztirnz7gltNlU7CTxw5V6VtAy4z0EF2UwxbIWfxzzyJjyBV
+
+sprite $ThunderstoreMd [16x16/16z] {
+RSw50OKm303Hmw5s-q_x1RTNruGNsGCmUWY09yot1zGUPkhQfPJcMKsUZwEEZMRGxLRHbY561OgY0fCLL2fPHvX_Lwkv9mQWqG8C9Z9LDTy6a4ZPiuKAiZDM
+xJ03-08
+}
+
+sprite $ThunderstoreLg [20x20/16z] {
+TP05bWKW2037Rht_RTV0_JqcpODVkF82apXUo4p6AqpAgog8Mp_E22BKUJjC2C60dK8IYpnoXrNFEVpoY3j6IflpwTjDbJ8JHcb2pLDX5IctYLrGRO59dfBU
+bWPzSDqa0-fVTJ-LPb5AkJi1_5147XFO30fTL1v1KKNLUQ24BVm1
+}
+
+!procedure Thunderstore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Thunderstore', $name, $tech, $desc)
+!endprocedure

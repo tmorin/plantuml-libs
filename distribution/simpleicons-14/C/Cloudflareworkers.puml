@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Cloudflareworkers
+
+sprite $CloudflareworkersXs [10x10/16z] HSY54O0000GWxFRtdzQEImvOB5meKWJcLgH04BbmyuPXwFyZBpIB6upLEdNi
+
+sprite $CloudflareworkersSm [12x12/16z] DSl50SGm44FH5qPR_LUxcD59z65gcbBVXm0PnNd3VI4oCGNsBjHn6P8L45tryrAdeyaV8_9WekyyQUju0m
+
+sprite $CloudflareworkersMd [16x16/16z] {
+HS_5WS0030CmbJ7r_jCU5FKEs4urgzsd2vdSfh97dyQfIKyEUvooGKOfE0A6-yGIJXLzD6dTijkJU3HfH5QtR1Bjit345gm1KtHf80TaaDaf2oafJkscOe_N
+zDRv1G
+}
+
+sprite $CloudflareworkersLg [20x20/16z] {
+PP050W0X20JXkd3__zjRkyQMHYAFgRnS7K1S5HC5mYeutcySSk7ANn-EOfrSRdWdb_bSA5DO_VAymUNjdUrTGWOzQL1GE2_eyxnnqxfBtaTOk0uySu4rY64J
+1ssJyHOthXgD0FbATjZShPVNXyuCYnGUMU4eEgK5ZjzVlFy
+}
+
+!procedure Cloudflareworkers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Cloudflareworkers', $name, $tech, $desc)
+!endprocedure

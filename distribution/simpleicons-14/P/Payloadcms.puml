@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/P/Payloadcms
+
+sprite $PayloadcmsXs [10x10/16z] Oq06_400OO019uZ92s4ZX56LyaDOG1ADnGAKP0IoW28
+
+sprite $PayloadcmsSm [12x12/16z] HSt50O00241HxFRllwtIxqGZQf02l1xTc3dBHjHKiNeoLXsl5Rzal09TZtWNDVsnFlu
+
+sprite $PayloadcmsMd [16x16/16z] NS_L0SCm54DHjM7K_jE6_FZ-7RFHMX3xazoSR7LDCxNJLqjhNGBfBCQl64FqB_kWkvqUJ6PZTu_jDB5_QNoDjni
+
+sprite $PayloadcmsLg [20x20/16z] RSY53KGn50EmbBdPVzh3_rIqs105kqZIOsRufo1KewXodAKd_PnTFzlcnKFr-OGRDocNK_kfynhtY-HsXjolyJp4zIn-whW4eUGmYzyp-7a3
+
+!procedure Payloadcms($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Payloadcms', $name, $tech, $desc)
+!endprocedure

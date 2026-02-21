@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/N/Napster
+
+sprite $NapsterXs [10x10/16z] JOm30W1154BV6eFkVzgnlb6nchALldDWzIAZQbvRWx1CPvqkDjKfPojDxu48
+
+sprite $NapsterSm [12x12/16z] NOs50O0m30G_kD_-qm9rkJPkwi3XlO7rrxSBTZZn8i64QI5rUa2rlsRVYyUy_tYVssjcEq2U2_oz3m
+
+sprite $NapsterMd [16x16/16z] RS_50K8n40N0_UwP_hk5Ty2Pk6VhdrbqZo6s-UIes1ah3cTcS8g63C_6iLri73jxBHL3eMNyWFeUrySurVKrzXYESd6llPRZeBytapInYGmVLeyWRW
+
+sprite $NapsterLg [20x20/16z] {
+TSg54GCW40NHZplRVxTXBcuFtq7_rGtCgAV2dUuwJ2SfR71MEBpaWgG9r5jZsJx0MhrTdnG09veEjxiujhKdZlcZwRijkSysROzlBKbQxBUcmy4pjTjZFpzw
+I3A0J7tSv3Xwcy3I0pT5hqBhrKlc0W
+}
+
+!procedure Napster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Napster', $name, $tech, $desc)
+!endprocedure

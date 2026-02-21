@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Svgtrace
+
+sprite $SvgtraceXs [10x10/16z] PSI30S100CNGr6xsdxR6uNr0JhjE--EW0IduJ63DgHmPeH0KtWTAHmdj
+
+sprite $SvgtraceSm [12x12/16z] TSR50S80002nuCxjFotkj7d5YCAn1RFAV5ERWtdCkThmkYs5gwOEErQXNDNKmwho4Bk9RsS
+
+sprite $SvgtraceMd [16x16/16z] ZSd50S0m3C10sMNK_jEMuPjBp9HfvQPhHAGQ1myBzPngFO42TKBqmCobvZNSwTC0ElrtON7ap1oquQO1z0ktMOMVX-Gpc-5AYHq
+
+sprite $SvgtraceLg [20x20/16z] {
+fSX9LaGX40NH-2sG2B7_tMhQSPnPLNVo6buGFKY7JbBfeRRoGRLc6QQ3SrvlwjOBT6M3gmB36xOEfBtmQw-G1YoTT0ImLA3e2R11sWseUW6CILA1g02RRkk3
+f0xIHagxAdzD4x3iMaCtMEO9K8A7l0C
+}
+
+!procedure Svgtrace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Svgtrace', $name, $tech, $desc)
+!endprocedure

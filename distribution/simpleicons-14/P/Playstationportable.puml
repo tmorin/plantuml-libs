@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/P/Playstationportable
+
+sprite $PlaystationportableXs [10x10/16z] Oo0IiBAoCW498E06iY02nEe5
+
+sprite $PlaystationportableSm [12x12/16z] Ow00i001Y0Gnk5bPMK5YZ42Q2KWpCvDd9W
+
+sprite $PlaystationportableMd [16x16/16z] OnW8m8XWShC20OJ93c9oWbZCB2n0afKUJW4
+
+sprite $PlaystationportableLg [20x20/16z] OnZaW1KCc20iA0yYmyd0m8XGnmrJnuZGnGcHOcHaOHWo
+
+!procedure Playstationportable($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Playstationportable', $name, $tech, $desc)
+!endprocedure

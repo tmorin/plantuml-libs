@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/K/Kando
+
+sprite $KandoXs [10x10/16z] FOg50G0G44MVRlQVLdFvYrj5GcWDsZto80uLb8faLVowEzbrvOgp-Ra1e6xE
+
+sprite $KandoSm [12x12/16z] FOk50S0W30JhNcx_QI6E9AzJ7Mn0pjdcLygiG_5YSvRV-BFzXFdooqUDtIGuvMTNzxx04hZwOKy3
+
+sprite $KandoMd [16x16/16z] JOw50S0m40Afnzb_s_Bngo1Hx9JGX7ma1uNKTMNNR7gi_6uvGyJM9yP3ekyi1GEA3vD0uxLvXJnHQ8o9FAiyO6gPE5A4-VEcaEytAkFOxQO7zhomfMUpFm
+
+sprite $KandoLg [20x20/16z] {
+TP054WH1309lrht__ziBhCjGrd4gluVcfLYXWz5G4Uf5lMWHOTqeFNEnfprpYobvRwZpwhrQR3LhWENc25aghYau1yufI-oxlTiUZZajrKUkY1FkKhvWzrVq
+XLDCghlFwf5SOhmP2gZxb3DvVk7vSg3SWpy
+}
+
+!procedure Kando($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/K/Kando', $name, $tech, $desc)
+!endprocedure

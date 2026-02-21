@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Trivago
+
+sprite $TrivagoXs [10x10/16z] JSR50O1000F1mU6L_gl5JwAB0o11i2UIdz8HNfg0OLdmJgBEA_ZX0W
+
+sprite $TrivagoSm [12x12/16z] NOo50O103CIkk6V_QO5tILtrOqei-Fnn3fT3oczoxhYLSmLIrWDddWAxFU6HGJaVKle1
+
+sprite $TrivagoMd [16x16/16z] POx50O003CI2ExV_jBXKyagzd8nO2gstp9mikkFXIUkAMyd4fMJZXzB5DPYu1nClP6pzbS74vmSLKEgKOh1z3uEvQA_CLzYUkWC
+
+sprite $TrivagoLg [20x20/16z] {
+NS-53S1G009HwjxRVzhgLrwCN1Hz5hdcH46ltmgXTPp_c0cjEV46M5lnbipUM2LhfsJjREIjiniFMHeUOSSvy6ZII_JYiQTrfiNHDWElGQ-Madux98s2pTEh
+FSg_Dm
+}
+
+!procedure Trivago($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Trivago', $name, $tech, $desc)
+!endprocedure

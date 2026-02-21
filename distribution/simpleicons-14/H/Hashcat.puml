@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/H/Hashcat
+
+sprite $HashcatXs [10x10/16z] Om02Hdu62E3XvuSn4Im-VbO6c203DXPS1mUwNduWu69W
+
+sprite $HashcatSm [12x12/16z] Om01Ddv61YZW1m4ecm_8v8AocJZukHdWW9-189iJYGqs1c41ibqyQFO2
+
+sprite $HashcatMd [16x16/16z] NO_50S0030AfUs__QUj2Shyee9k9LZ_SVFLqbULNLrVj1oF38cDbabEWG9lgbJBKqATwZU_0wmKyG9FySJ77-lwu0m
+
+sprite $HashcatLg [20x20/16z] TP350KKn3CFInqNjF-t7CkWOj2qHvT1IiqEaAhgc55dNV5EpncFOf240ftGyAEc9cmsUVQY1djJSf4PVqfCQmDEM503ZMFDvdXKHCzQYn3S
+
+!procedure Hashcat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Hashcat', $name, $tech, $desc)
+!endprocedure

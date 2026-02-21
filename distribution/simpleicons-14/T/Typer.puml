@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/T/Typer
+
+sprite $TyperXs [10x10/16z] Oy02UFdX02R40IRvGIou30SpI8mD98PGnuhG2WS
+
+sprite $TyperSm [12x12/16z] Oy05-9406roK3vaDLGWHXmA4E1-6UduEHXZWP-240mvaQm4
+
+sprite $TyperMd [16x16/16z] Oo0HSF2Z0nHf33uR6vXcPeRmORBC_5mGFW8meSgZciUCRZw2puWC-1dGNKS
+
+sprite $TyperLg [20x20/16z] Ow04S7AZ0sPUVcm0NIC7VZ4sX1XSceiVBiOC0pmm7Hoerc7gvKBeXOcn4NGBfXWZ6k3YPyNgMqPqG7IG0W
+
+!procedure Typer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Typer', $name, $tech, $desc)
+!endprocedure

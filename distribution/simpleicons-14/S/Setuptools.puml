@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Setuptools
+
+sprite $SetuptoolsXs [10x10/16z] 5SQr0SG0000XNk9o-qyReG9EWIsqy65eWzwX3uIF7q9V24m8-BEnmyQ26m
+
+sprite $SetuptoolsSm [12x12/16z] FSYr0O1044JHXyFPzDyjsKPVu6m2s9fRm6Up8JZC98_92u7bf7oMvrH-gNzzN0WMLk3E1sAR0py
+
+sprite $SetuptoolsMd [16x16/16z] {
+ROs5eKCn30ClXWyDQFzfIu_XWYQ9ByEf3rP4K-J_51Gf-T2agOYrd_PfZvXYrmVmFr22rPHXK4SaNpGz0zt6FZsbskIQQvlsSGYqnQLpYBzclxqMA11DJ4nl
+Py665qt95m
+}
+
+sprite $SetuptoolsLg [20x20/16z] {
+RP254GGW30GFboHS_zt-OE-BBnvisW0o7TuGBQG5lfipg9I61Ml5mKVHsJgRFXafSxYsP9sznJXEwSuwnUmr9Zzm83QExe-3-I_720rOTBhZFEvUeRzxlNqx
+44RtuIeZKFJ34HFxunZZalkZUqKG8HQ9lU4YVGMRUATrG1cnU
+}
+
+!procedure Setuptools($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Setuptools', $name, $tech, $desc)
+!endprocedure

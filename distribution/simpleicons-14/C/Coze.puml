@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Coze
+
+sprite $CozeXs [10x10/16z] O-3ZXm1k40C161WOe0mGG6UnG5Xy3120AilF2QQvuMO1
+
+sprite $CozeSm [12x12/16z] NSX50S1000F1BNFZN-qnpoV0esn_DLZOSiNBhtVNctdiP6dSCCbRyIv5_o9lLsK1
+
+sprite $CozeMd [16x16/16z] VSx50SGm300mbSFPVzfZXkfdjgM_UeQxHipF41ZlOG3KMpo0vmJl0oJF61fMdBzPeQS6vUVyRC0ezeV1r7_o4Hy1
+
+sprite $CozeLg [20x20/16z] {
+VT2r0GC134FHbsEqzzyspJ7zqYX94NbcLEIDY7mdkhA_b7wWkvTezz9WPQyLSDcsKTvhYhtcLvrhK4x8xKq0ZTx-UYnWoW6A-UD7PJLoyjmZhyIqfvftH5xf
+_m
+}
+
+!procedure Coze($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Coze', $name, $tech, $desc)
+!endprocedure

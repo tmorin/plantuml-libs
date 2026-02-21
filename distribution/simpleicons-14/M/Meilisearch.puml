@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Meilisearch
+
+sprite $MeilisearchXs [10x10/16z] RSZ50K0X3C3GV5V8_jEYrxvwYHqFzyC3cXMbbnstpJrVYnvpIpOBaGe
+
+sprite $MeilisearchSm [12x12/16z] ZS450OG0002nUtzq_TjI0DkwXsNXJVs9Bmeh3oe-h2YyYR5OC55VQyIxGni
+
+sprite $MeilisearchMd [16x16/16z] dOtL5O1G34DRtBF_jjoUfxzGryJ-YBiJifj9ybkw9WfQIetuW5zflJ-4l5uZuP6ZZtJcsPpHyETCwoSZUOTM66WNdYr_J_PTNW
+
+sprite $MeilisearchLg [20x20/16z] {
+jOx50G0X30GJtEc_srjoRa_c4PUbATWOcJZ4IEHW07T05SOR2S7mBKWsJ4197Lds-rWvQj8zLcqRbgM1qkLGldsmHoFkGiGKku_bdm--7iECaXEHC8KIhA49
+B
+}
+
+!procedure Meilisearch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Meilisearch', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/T/Ticktick
+
+sprite $TicktickXs [10x10/16z] 1S450S10000Xvhxht_O1Ba25dG8Hw745HRUteZs41CWL25jL3
+
+sprite $TicktickSm [12x12/16z] FOo50G0X483uxcV_QMtbEiayTDIH_cHkHphxWXGK7i6ffCMf9Jsp_rrpplYtotZk0JgNRldzgUPk1
+
+sprite $TicktickMd [16x16/16z] {
+JOxL0KKn34AvhitPVzedLFcAO3Asf04965Q8LKRaTU-FFxckhrL4MG-Of8sYdM2njuMpuB77Vm_0ket7oNTfy31n_eULacX1nKneftS79qJzifLUSMmFNakL
+6gWl
+}
+
+sprite $TicktickLg [20x20/16z] {
+LL055iKW39lZvFwt_Htfydup9OPiZZAtY1k6IE55v_yZgdpoXUxK_XzXLw2kzIcY1j0eYIh0M5zoR75zehFdP3-ZrTuT2pUPZgcTL7Sz2h1_sutGyav-ccc3
+kW0ShxS42bnXYvIXVglO6oof8nKs8PCODFq
+}
+
+!procedure Ticktick($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Ticktick', $name, $tech, $desc)
+!endprocedure

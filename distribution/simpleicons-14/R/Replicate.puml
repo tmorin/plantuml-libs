@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/R/Replicate
+
+sprite $ReplicateXs [10x10/16z] uqS2N530py_02W505bGEn6800p0B8SRF11J3pm8
+
+sprite $ReplicateSm [12x12/16z] uyS96E00o4OMXqj1s6nW064Zg-7d1QaXbGq
+
+sprite $ReplicateMd [16x16/16z] uoS8c1YG0JO-ice8dnCE87nqzGnmFJZuS3sqvWC
+
+sprite $ReplicateLg [20x20/16z] uoSUSA43e1W3EW2BiQ82i1YQONZ4E97Dmo-6q4X8Z0cgTx2B0G
+
+!procedure Replicate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Replicate', $name, $tech, $desc)
+!endprocedure

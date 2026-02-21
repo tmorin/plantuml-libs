@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/M/Mihoyo
+
+sprite $MihoyoXs [10x10/16z] Oo0Ui3CoCF3p0n4_5p-83s8nC3Bm0nduDG8
+
+sprite $MihoyoSm [12x12/16z] Ow0GC848JWO6VcuEPYP-1cO-VbucVYvcVYQW42SGaceU
+
+sprite $MihoyoMd [16x16/16z] lOc50O0m30GlXiFlFoss0hIHLpgCss10CG5Z1AYm8UKrYbLX4eUd8WunQZ8LHyRT7uwH1BmO_3qN
+
+sprite $MihoyoLg [20x20/16z] rOk50GCn3CGKvcZ_QKjJzCq-u0aHsmmBm2GGJZmbv1atxNIi-MoZqJId8WUvQ13B_7hbsvlxm-IBLHUNQUEFuWq
+
+!procedure Mihoyo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mihoyo', $name, $tech, $desc)
+!endprocedure

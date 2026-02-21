@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/S/Solana
+
+sprite $SolanaXs [10x10/16z] Oq02_520O2007qAC7y5aWm8iXl3pmfK1
+
+sprite $SolanaSm [12x12/16z] Oq01_730m0TdCl70cSmegZdWujmC35nm3XS30pSV3E0o7vd9oGi330m
+
+sprite $SolanaMd [16x16/16z] PSot0G0W20NH0qlJ_jlQmlagukUtTW6tMfpUhjvYCOf0SGdH1a1g8E9xjuwt1m
+
+sprite $SolanaLg [20x20/16z] Oy01cD40K8WV7M0LuiCKui4G8XfW6eTDa0yao4-CIbwG81iQ8C4vlDZ3WB27UOaC0m
+
+!procedure Solana($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Solana', $name, $tech, $desc)
+!endprocedure

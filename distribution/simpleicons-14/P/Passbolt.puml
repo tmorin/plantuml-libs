@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Passbolt
+
+sprite $PassboltXs [10x10/16z] Oq01_FpyC0QKoSmFPV8pS4AOVFniCANCG1Ag2Ie7qyiDCuOTI08
+
+sprite $PassboltSm [12x12/16z] NOk50GC12CJIlWja_sdVFRWSNpJlzXhSOQMy1ZiyIBq-YRN08G-Dr76zfYizd4F7GLYjPGO
+
+sprite $PassboltMd [16x16/16z] ROs54S0m4CE-pFN-s-RiCAWeXMmCyDTQXecQmun825yRaCCA73OBJVk1DymwD86B7hxUV0RedFxH5aGU4t_GcvB3PH6jtRCoR2OS
+
+sprite $PassboltLg [20x20/16z] {
+VSt50S0W5C3Gr9tiFstTxLtWEpyYRP-f4MUniy0XSyEcq4SoyUHoOHD1RG7L9LcgCHjdGSrlkKW5ggfWMz510Ym_pfTpHqbIEcgPUH9O1JSrR5mrd7GwAhbm
+L71JXvJL
+}
+
+!procedure Passbolt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Passbolt', $name, $tech, $desc)
+!endprocedure

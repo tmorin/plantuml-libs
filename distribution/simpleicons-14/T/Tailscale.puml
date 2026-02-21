@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Tailscale
+
+sprite $TailscaleXs [10x10/16z] 9SC50SC00C2md3-iVxN3WXNnc5QmWDaV0m3qzubEt0ln3e27GRqneS8E
+
+sprite $TailscaleSm [12x12/16z] LOs50S0W4CI2ExV_j7KDl1iz0eBDwM00HuR8GI9mPZ67_91sQHZj62JH92HeikpEbnp0jDr97Ox-vvOqTsS5
+
+sprite $TailscaleMd [16x16/16z] XSm53iGm30NHATWDv_wtNNqlyqXz3UCJk3fmb8aOQtsXX8beqnXxaBjlMLiUzJadMAYnMcXXrQe-bhl_tlUqo2ejBGvStpTW0DVt4v4zlEmd
+
+sprite $TailscaleLg [20x20/16z] {
+ZT05hkHW30JXBwJn7_BzRxlfVIoS4hIgP97Dzo7ilS3qw3mnS60ZlMwO21S51yByqoQ3ayWBqS4aP3_dVRgxi3txfNj7o5oC_cAY0qTc-NNtOitQ-XQk98dU
+PgaInh72N6MAeXzMvj-_wl3tLx_Rf4m3bKIq_W4
+}
+
+!procedure Tailscale($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Tailscale', $name, $tech, $desc)
+!endprocedure

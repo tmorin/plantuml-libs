@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/K/Kucoin
+
+sprite $KucoinXs [10x10/16z] 5Sc74S0m3CD0fFTm_srDs2f_5FX-H-p4UHP_eWfZ8cPObGUC9Ll8-IM5eZI_GS8
+
+sprite $KucoinSm [12x12/16z] FSi74e0m20LHxDsz_srbOSRKznE87iTOvvJ70sjU47531P0n6K268IsFsTw_iiqYzZ4zruzTkGnI6xnwJCKF
+
+sprite $KucoinMd [16x16/16z] FSm54W9154F1u3hq_K-B_1IRqduZ-MydNRUdWKUI0wXNkL0FptbYV1pc5rPGJjY7SZbCWrV_gJKSVh4T1RUVem7tSGDMwg3CSio4Sflo0m
+
+sprite $KucoinLg [20x20/16z] {
+NSu53WGn34FHOMvz_zkkhEyiPR1FeU4h-ZdyXwI7lqqg0ldTYupvFq8TnA2RpuEHLHrclyza1IU_AcioNWlPP5tIQ2tpNsS3B3Wp1WE9LMAN6uGqirypXZHY
+moNZulSwnCWC-R2uqrtak3Q_oGnzuYvw0G
+}
+
+!procedure Kucoin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/K/Kucoin', $name, $tech, $desc)
+!endprocedure

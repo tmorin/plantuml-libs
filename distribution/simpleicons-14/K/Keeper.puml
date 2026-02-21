@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/K/Keeper
+
+sprite $KeeperXs [10x10/16z] DOkr0S0m4CGKZYljFwtfcGwOqNnPeRVOri6yy8dhMUWnBs2Uyt86leLzwLZPqWiyRem1
+
+sprite $KeeperSm [12x12/16z] DSY53S100810wk_ilstpHkm2lMnWfdXgfwV8TGfwrkv6nQVRXERQ3NYSTgiU6FOtVjYjaaMxENm_y1RvxWPGFVtyu0S
+
+sprite $KeeperMd [16x16/16z] {
+HSy70iCW34DHPIU0_Uz_srQuGndms6Zc2FgYRm9MEfn5LuMk82PP3tlJnQZ1cwsUoaNqyiYX3JpKTcvsehozaqXGdbaKzF_uWrknKCuCYS2VpJ6GCdLIzl9p
+Nh3Uzg6rRZ0I-y9q5aW_hhy
+}
+
+sprite $KeeperLg [20x20/16z] {
+LT15eWGX4C3Gj3TMkVzflmmrbkN38IjXF_deq5PKnqAckkE6MfBSnxJWj4voPHeCFU3uD8D3q3kj70hD6q-cHKI1K8jBsYDTCD9Q_S-0ecdPmgOzxLp-2o_m
+_DwlsI_nIbC3BXqCw-lEkhEuikZBw9OkK3wCM_clUZdDfRc-lZHDUNNxQCn9lm
+}
+
+!procedure Keeper($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/K/Keeper', $name, $tech, $desc)
+!endprocedure

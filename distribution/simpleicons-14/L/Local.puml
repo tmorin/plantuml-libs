@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/L/Local
+
+sprite $LocalXs [10x10/16z] LSQt5S0m4CKmEcV__RVLyQaIAZ2uISyLPcksgMgILFDDqGkPfstRNeBbCTK5ZCKq
+
+sprite $LocalSm [12x12/16z] FOXN0a0X089uUwRtFssx_16WR6DkDnvu1nPrF2w4EfvkyXpNPXUnDwykms2qIQAAq1aQLXa82YmT6JK1
+
+sprite $LocalMd [16x16/16z] {
+HSY54S0m3CLGbOF--s_Ru5c7Jym25tWcT3jh46QtasRQS19g7vkvd5yVYqUBDdI_kP6pTH1C4WgdPjYJqME1heozYCUe7wt6Gy3THZZFnJsSOmYRN4EeqOTO
+_04
+}
+
+sprite $LocalLg [20x20/16z] {
+NSq73eG024JH3zZRtF-s2sjtx3ylaNCj7PzfHVCdJTdUKODdOtj4ZMX1JibJiMpWYfANscXRjqDUAi8FUQf5DJCbdiQPKbYDbEiinIfpdMCHQfHdu563IRHY
+5fwohPLgP31lHFrl6vYEn27hvKgNlDKXO-MLIdgsLogPhT8hhbpf1m
+}
+
+!procedure Local($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Local', $name, $tech, $desc)
+!endprocedure

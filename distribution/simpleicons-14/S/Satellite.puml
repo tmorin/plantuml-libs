@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Satellite
+
+sprite $SatelliteXs [10x10/16z] 1S450S10000Xvhxht_O1pbRmn1Act8Wm8V4sapIB49FpG9Y29mKe3
+
+sprite $SatelliteSm [12x12/16z] HKs50O104EBjPlzjFS2uJe1auum8EVSR3vUPNTLCPxMUlRa1y-wQkcvK7Hikv6hvdzGv3OgNWaS_iO0qlW4
+
+sprite $SatelliteMd [16x16/16z] {
+JO-50OH03C22mrdsd_QbvIL8tGYMRk7BfGvr8XZk8NlA8X2X8pBSOFREWDDeM2PW4kpP8zpEs63IsruP8tEo5ymrN2mTbcphGc9FKGc6ALVt-3jz3nZCDhxC
+skMVnRpc2G
+}
+
+sprite $SatelliteLg [20x20/16z] {
+LP170iGm20FNlLl__-q6B59q0G-3KtvCtPZnzqe0CsuqvC0HKSEoQGQSLAV3xXHwR2d7DxSZYZREceXK0hpsc_UlgxJJJk0Ckp47R6nUo5rrEcpNNSUfQnxE
+NkEfWYhAXwdBzc4Ey6mZjf81fFUVoQBJDnC8nsQeKdkd6_i3
+}
+
+!procedure Satellite($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Satellite', $name, $tech, $desc)
+!endprocedure
