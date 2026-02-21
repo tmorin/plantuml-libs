@@ -7,7 +7,10 @@ describe("fetchLatestAWSIconPackage", () => {
     const result = await fetchLatestAWSIconPackage()
 
     assert.ok(result.newVersion.startsWith("aws-q"), "newVersion should start with 'aws-q'")
-    assert.ok(result.downloadUrl.includes("Asset-Package"), "downloadUrl should include 'Asset-Package'")
+    assert.ok(
+      result.downloadUrl.includes("Asset-Package") || result.downloadUrl.includes("Icon-package"),
+      "downloadUrl should include 'Asset-Package' or 'Icon-package'"
+    )
     assert.match(result.publishedDate, /\d{4}-\d{2}-\d{2}/, "publishedDate should match YYYY-MM-DD format")
 
     console.log("Live test result:", result)

@@ -30,16 +30,22 @@ async function fetchLatestAWSIconPackage() {
   }
 
   const absoluteUrl = new URL(href, url).toString()
-  const match = /Asset-Package_(\d{8}).*\.zip/.exec(absoluteUrl)
   console.log("Resolved AWS Icon Package URL:", absoluteUrl)
+  
+  let date
+  let match = /Asset-Package_(\d{8}).*\.zip/.exec(absoluteUrl)
+  
+  if (!match) {
+    match = /Icon-package_(\d{8})/.exec(absoluteUrl)
+  }
   
   if (!match) {
     throw new Error(
-      "Download URL did not match expected Asset-Package_<date> pattern",
+      "Download URL did not match expected Asset-Package_<date> or Icon-package_<date> pattern",
     )
   }
 
-  const date = match[1]
+  date = match[1]
   const year = date.slice(4, 8)
   const month = date.slice(0, 2)
   const day = date.slice(2, 4)

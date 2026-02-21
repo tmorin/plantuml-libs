@@ -53,6 +53,29 @@ source/
     └── workdir/              # Work directory generation
 ```
 
+### Two-Tier Architecture: Library and Generator
+
+**Library** (source/library/):
+- Implements factory pattern for each technology package (AWS, Azure, C4, etc.)
+- Each factory generates raw PlantUML sprite and icon resources
+- Packages are independently designed but share common patterns
+- Run with: `npm run generate:workdir`
+
+**Generator** (source/generator/):
+- **workdir/**: Orchestrates library packages, produces `.workdir/` manifest
+  - Aggregates all packages into a single `library.yaml` manifest
+  - Copies supporting resources (templates, assets)
+  - Used by: `npm run generate:workdir`
+  
+- **website/**: ETL pipeline for rendering documentation
+  - **Extract**: Parses `.workdir/library.yaml` and asset manifests
+  - **Transform**: Processes resources, generates Markdown documentation
+  - **Load**: Writes distribution/* with PlantUML files and docs
+  - Used by: Docker container (plantuml-generator image)
+  - Validates structure with: `npm run generate:website`
+
+The full build (scripts/generate-library.sh) chains: workdir → website → distribution/
+
 ### Architecture Patterns
 - **Pipeline/ETL Pattern**: Website generation uses Extract → Transform → Load stages
 - **Factory Pattern**: Each package implements a factory interface
@@ -185,10 +208,13 @@ describe("gdiag", () => {
 
 ### Versioning
 - **Scheme**: Semantic Versioning (MAJOR.MINOR.PATCH)
-- **Current Version**: 16.0.0
+- **Current Version**: 17.0.0
 - **Tool**: standard-version for automated releases
 - **Conventions**: 
-  - Use semantic commit messages (feat:, fix:, refactor:, etc.)
+  - Use [Conventional Commits](https://www.conventionalcommits.org/) format: `<type>(<scope>): <description>`
+  - Common types: `feat:` (new feature), `fix:` (bug fix), `refactor:` (code restructuring), `chore:` (maintenance), `docs:` (documentation), `test:` (test changes)
+  - Optionally include scope in parentheses for clarity: `feat(aws): add new icon support`
+  - Always include Co-authored-by trailer: `Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>`
   - Pre-release versions use `--prerelease alpha` flag
 
 ### NPM Package Details
@@ -197,23 +223,54 @@ describe("gdiag", () => {
 - **CLI Entry Point**: `bin/gdiag.js`
 - **License**: MIT
 
-## Linting & Code Quality
+## Build, Test & Lint Commands
+
+### Building
+The library has a two-stage build process managed by Docker:
+
+1. **Generate work directory** (TypeScript generators):
+   ```bash
+   npm run generate:workdir  # Generates .workdir/ with library manifest
+   ```
+
+2. **Generate distribution** (Docker-based):
+   ```bash
+   scripts/generate-library.sh  # Full build: workdir → distribution/
+   ```
+
+The full `scripts/generate-library.sh` requires Podman/Docker and the `plantuml-generator` image.
+
+### Testing
+```bash
+npm test                    # Run all tests (Mocha)
+npm test -- --grep "gdiag" # Run single test suite (pattern matching)
+npm test -- test/gdiag.spec.js  # Run specific test file
+```
+
+### Linting
+```bash
+npm run lint               # Run ESLint on source/**/*.ts
+```
+
+### Code Generation (TypeScript validation)
+```bash
+npm run generate:website   # Validates generator/website stage logic
+npm run generate:package   # Re-generates individual packages (rare)
+```
 
 ### ESLint Configuration
+- **Config**: eslint.config.mjs (flat config format)
 - **Parser**: @typescript-eslint/parser
 - **Extends**: eslint:recommended, plugin:@typescript-eslint/recommended
 - **Target Files**: source/**/*.ts
 - **Ignored**: bin/**, test/**, .workdir/**, distribution/**
+- **Rules**: Follow @typescript-eslint recommended; no custom overrides
 
-### Linting Rules
-- Follow @typescript-eslint recommended rules
-- No explicit custom rule overrides in current config
-
-### Running Linters
-```bash
-npm run lint              # Run ESLint
-npm run generate:website  # Validate generators
-```
+### Mocha Test Configuration
+Mocha uses default configuration (no rc file). Tests:
+- Run all `*.spec.js` and `*.spec.mjs` files in `/test` directory
+- Use `this.timeout(milliseconds)` for long tests (default: 2000ms)
+- AWS and Azure test files perform network requests (slow, unavoidable)
 
 ## Documentation Standards
 
