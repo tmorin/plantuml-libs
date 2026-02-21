@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/Folder
+
+sprite $FolderXs [10x10/16z] Oq00VY20CC046C3ak4bdCV33
+
+sprite $FolderSm [12x12/16z] Oq06_200PN812Kv-HY1Wu6Td07F0W1skcY8s3nyh3F0pSF7101i
+
+sprite $FolderMd [16x16/16z] nST50S0m00F0Z5UCVxLbDj3x7LQF3SnL-p8JvIGYGHsfeno25KRR3ywmy
+
+sprite $FolderLg [20x20/16z] tSZL0O0m54FHuCxTVrgSwfkWvoSYK_Ee5U0dPsLiRdDmkZhngzmNdEvpbcA-0VOOQ2NLod02
+
+!procedure Folder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Folder', $name, $tech, $desc)
+!endprocedure

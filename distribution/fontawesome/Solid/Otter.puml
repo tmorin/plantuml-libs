@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Otter
+
+sprite $OtterXs [12x10/16z] JOc30S105CLIkzb_skByyKWxYvha9Y0m2HSkzi0XdXuwOsVejJ-35WBDCcjmWSm3AVE45m
+
+sprite $OtterSm [15x12/16z] NSV5WG81002n0Eis_LTxhkGNpwhyQE4U54iRstN1s4ssL53wTD6zTA1oV3OyklO-Ug_2sJkgzdtltGtzkFkmNc_E1ru1
+
+sprite $OtterMd [20x16/16z] {
+RSy55WCX303HMJTWxd_RDY_K-t4d_7UqLXS-c0Zh3Z3P25P2YNPtFe6p2M5HSEIIeNfU12tOM8H-PQ4erUwAASUS6ucdL5PpxiWNgowBVGwrb0j6gWbw2_Iv
+4uPestLdob0-a9fF1__T
+}
+
+sprite $OtterLg [25x20/16z] {
+VSm7ZWCn34FHRtkIZEk__sqNslJw0A699B_aKahcpS6pdMT5QobbrmC4xGcecY3eWD2rmgxR4TYEotOVhw2fD4SgKxPhMHCAcoSmGAWwQTgDkpwc-QXIL8S6
+WlS7eQikyhe-icu4rPpr-a0z4feoLO_j-Z0GfXSToiT70ePXzk159VXcSDPyjiDLzwxoqny
+}
+
+!procedure Otter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Otter', $name, $tech, $desc)
+!endprocedure

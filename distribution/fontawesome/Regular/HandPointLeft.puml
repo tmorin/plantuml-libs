@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/HandPointLeft
+
+sprite $HandPointLeftXs [10x10/16z] PSR50OC000Imr8lU_jFYJbx1NHRgyllz1l7wv1FHeaf21V5e1DAsMJQowm4
+
+sprite $HandPointLeftSm [12x12/16z] TOo30G0n54DpPflzfwsDzqtCOEI64Ak1jlbllWd2gdL5Rf0XFtoJwLVAZJxSO7dze4G3
+
+sprite $HandPointLeftMd [16x16/16z] ZSd70GCn2031lPmGst-tDhpkPuz4vbz7n5RLjvdXtApZSBgCvZJla1BQfY7CKbo-FwsEafQZv-OnJUPhDi81cxJ30YOjXCbBATMtvASF
+
+sprite $HandPointLeftLg [20x20/16z] {
+fSX5WiCm4031DdiaI_t_rovCEAT07Ojl37kS-Iy0V0RDTKoB5I2KmxAcC9Wo2ru5Ta1XMfP5bzr0WIv9nyMsUG1LKjN4-LApH5JBum633L18iobWKCwqzwwW
+AsSse1fwSE55uQQqVy4RVW4
+}
+
+!procedure HandPointLeft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/HandPointLeft', $name, $tech, $desc)
+!endprocedure

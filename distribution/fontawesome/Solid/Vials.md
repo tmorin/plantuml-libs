@@ -1,0 +1,74 @@
+# Vials
+
+
+```text
+fontawesome/Solid/Vials
+```
+
+```text
+include('fontawesome/Solid/Vials')
+```
+
+
+
+| Illustration | Vials |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/Vials.png) | ![illustration for Vials](../../fontawesome/Solid/Vials.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$VialsXs>`
+- `<$VialsSm>`
+- `<$VialsMd>`
+- `<$VialsLg>`
+
+
+
+
+
+## Vials
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Vials
+include('fontawesome/Solid/Vials')
+
+' renders the element
+Vials('Vials', 'Vials', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Vials
+include('fontawesome/Solid/Vials')
+
+' renders the element
+Vials('Vials', 'Vials', 'an optional tech label', 'an optional description')
+@enduml
+```
+

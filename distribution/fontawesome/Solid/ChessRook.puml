@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ChessRook
+
+sprite $ChessRookXs [8x10/16z] Ou01VducVY01H220e64O8WTMo8z4mm1CFG
+
+sprite $ChessRookSm [10x12/16z] LOc70S10208nlRF_jb58lN-LWXSIEzkUHweuE4nIugUMt6K365GWsPb87L9zAeejLMyKcHC
+
+sprite $ChessRookMd [14x16/16z] NOs50G0X54AvJc7_QUr-vY_0o4a2Xb_wK5eW2RyK8-C_2YT6bJaA7I9o15DRJXzLiGM1sEhFLgF0CqHcY8IPTN1NZmC
+
+sprite $ChessRookLg [17x20/16z] dSx50S0W00F0u0xxJrl1vKTQx52SOOpbYjGkJoa1N-LW_ku0ts7a5aXk8r2XYYtWaDF1eqDYecx8Ut86y1tK3dw38oPE8TzuVtfQuru
+
+!procedure ChessRook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ChessRook', $name, $tech, $desc)
+!endprocedure

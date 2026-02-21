@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Icicles
+
+sprite $IciclesXs [10x10/16z] O-I70LOuYm4_Yu6Vbv-F5ypYOG0IxFpi34301SH07WYWiG
+
+sprite $IciclesSm [12x12/16z] XSYr0S0m00F13yUy_xHchFpLIOSRYSbiR9DnAlajFj9BdD4uYOecfGz8hgsMaqz3
+
+sprite $IciclesMd [16x16/16z] bSUr0KCn5C10VJHR-qyRfbVckbiCvZ3YtwVG0RvqrVF-eaFt-u7XCZsdbEStQRB8yZmBkx30wx38dNQUbjTFVdK9KZoBS0K
+
+sprite $IciclesLg [20x20/16z] {
+ZSZ5eS8000MmL_Tc_sc_2r3DCOMDURNLsCgzMpDkRaovkIhnhmVbroqOKO0a7IrAvFT2iL2ibiTBIsfDLYoVDynV7qc7Bb--xbE1_3Bco-CLsTwlnRgvmRYv
+IhMvGfcy0m
+}
+
+!procedure Icicles($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Icicles', $name, $tech, $desc)
+!endprocedure

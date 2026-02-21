@@ -1,0 +1,74 @@
+# SuitcaseRolling
+
+
+```text
+fontawesome/Solid/SuitcaseRolling
+```
+
+```text
+include('fontawesome/Solid/SuitcaseRolling')
+```
+
+
+
+| Illustration | SuitcaseRolling |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/SuitcaseRolling.png) | ![illustration for SuitcaseRolling](../../fontawesome/Solid/SuitcaseRolling.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$SuitcaseRollingXs>`
+- `<$SuitcaseRollingSm>`
+- `<$SuitcaseRollingMd>`
+- `<$SuitcaseRollingLg>`
+
+
+
+
+
+## SuitcaseRolling
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SuitcaseRolling
+include('fontawesome/Solid/SuitcaseRolling')
+
+' renders the element
+SuitcaseRolling('SuitcaseRolling', 'Suitcase Rolling', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SuitcaseRolling
+include('fontawesome/Solid/SuitcaseRolling')
+
+' renders the element
+SuitcaseRolling('SuitcaseRolling', 'Suitcase Rolling', 'an optional tech label', 'an optional description')
+@enduml
+```
+

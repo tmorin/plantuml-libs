@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/SquareVimeo
+
+sprite $SquareVimeoXs [8x10/16z] Ou01VdG050AByZ3myu9beNn-c68cP3qmDW
+
+sprite $SquareVimeoSm [10x12/16z] Oq00Vgo0XOMVbu4Ho02fWAe2aH0M6mC_2uW1aMU6iw2QUTZ19Dmm1cu-2607
+
+sprite $SquareVimeoMd [14x16/16z] VSg30GGn54NH6pkl_shN69_WaxKmVmP1rp9Jig27PpJom7XE0g3fdjMJWV-cEaZGzGO6Z3vuqbS1zEUI3h2kLku
+
+sprite $SquareVimeoLg [17x20/16z] ZSZ50OK00CMmuCxRVzhlhkJMUbSzAicpPSuchI59mP0JE3MtjgxbRSmhvgIYoXdQ16lEHifCbBd2ZDmuMNDJGf-xvQMJePppHPSNbZnflDe3
+
+!procedure SquareVimeo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/SquareVimeo', $name, $tech, $desc)
+!endprocedure

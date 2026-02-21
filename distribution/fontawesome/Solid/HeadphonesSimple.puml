@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HeadphonesSimple
+
+sprite $HeadphonesSimpleXs [10x10/16z] JSQn0K0040Im-0RWzfyM0AdYBxlkJ64ASQeyazbjYGIPncSPFSDuhh41
+
+sprite $HeadphonesSimpleSm [12x12/16z] LSQ50O105CFGu4xsdnOz_T8-g6TLnq-3UqDx2hJoJIS4mcIJZCUIxOH-U6tmcFm2ebk0VNfZXXi
+
+sprite $HeadphonesSimpleMd [16x16/16z] ROt50SLG3CFy6PfK-qzRUWmw1GoQyZJ_t_9c1DvXJOFXOLNaWKbE5SDDV5HOUT7quCqkG38Buc_OWL37KkyEZBlKxBSp9-mBl3Mm0m
+
+sprite $HeadphonesSimpleLg [20x20/16z] {
+XO_50G0X0CDwYfFzfprt3HxwgJueggeiT8G5kna7-AQo4LYo2ShbDq8pdraRrPGiGGUcPwRGaK0Zq1coeRaw4hgGONHLjPOff30v8AvrukmQ8A-EsRb_vr5x
+TJ9p7TB1BNLmgpiMFT83
+}
+
+!procedure HeadphonesSimple($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HeadphonesSimple', $name, $tech, $desc)
+!endprocedure

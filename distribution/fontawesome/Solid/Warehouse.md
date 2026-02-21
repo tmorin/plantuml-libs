@@ -1,0 +1,74 @@
+# Warehouse
+
+
+```text
+fontawesome/Solid/Warehouse
+```
+
+```text
+include('fontawesome/Solid/Warehouse')
+```
+
+
+
+| Illustration | Warehouse |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/Warehouse.png) | ![illustration for Warehouse](../../fontawesome/Solid/Warehouse.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$WarehouseXs>`
+- `<$WarehouseSm>`
+- `<$WarehouseMd>`
+- `<$WarehouseLg>`
+
+
+
+
+
+## Warehouse
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Warehouse
+include('fontawesome/Solid/Warehouse')
+
+' renders the element
+Warehouse('Warehouse', 'Warehouse', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Warehouse
+include('fontawesome/Solid/Warehouse')
+
+' renders the element
+Warehouse('Warehouse', 'Warehouse', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/BookMedical
+
+sprite $BookMedicalXs [8x10/16z] Os3b1mCcVWHWW52S39mGBWC3N1mJS36005mE
+
+sprite $BookMedicalSm [10x12/16z] PSct0O104C0m7nNP-qzBvgDQWH-ihFwOV6m0tlQ0QDRUy73VvE6ElnC
+
+sprite $BookMedicalMd [14x16/16z] PSj50iGW04FH09kHDl_-fwtYl6L4-b9PzEvc4HCTYIe4ATHM3p9RifTVPXOhnsmdGbAseGHx1fjsEYS
+
+sprite $BookMedicalLg [17x20/16z] fSxL0SCm34NHPsRV_QSjCpSvVs99RdAZgN7Fyc3mXXGU4uuRjKYsL2vqz9nutF4nKLnd1M_F8XYOkh2W2jQSUP1uyFWFMm
+
+!procedure BookMedical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BookMedical', $name, $tech, $desc)
+!endprocedure

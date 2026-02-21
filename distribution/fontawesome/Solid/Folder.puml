@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Folder
+
+sprite $FolderXs [10x10/16z] Oq00VY20CoW726C
+
+sprite $FolderSm [12x12/16z] Oq06_220nEJdOmG289lwW0U9pS351mDi
+
+sprite $FolderMd [16x16/16z] Oq07h7n0m0ldil5308pF3mCy8C3Do3_80GCw7mq
+
+sprite $FolderLg [20x20/16z] Oy0AcC602Lc87mfu448y_330WL262HZvHnXWno863om4OC4MyW
+
+!procedure Folder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Folder', $name, $tech, $desc)
+!endprocedure

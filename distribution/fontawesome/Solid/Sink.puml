@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Sink
+
+sprite $SinkXs [10x10/16z] HSQ10G0G30F1003PVre0ZhQFfU8WUGiqjwOOPwsZ0ZYxyCB7wvNh
+
+sprite $SinkSm [12x12/16z] HOh50G0W00AnM_UVrbRkG-9G0XvjyZt4yyi8-arjOVlQwZklw1f19aYV25uI5Ey3
+
+sprite $SinkMd [16x16/16z] LOm50iH0309frtN-_zfpAREQ1D2NHjG57in_MTa1_lNcqE2mMeUy_k3r1Dxr0JGzuFZawS7UcyV-dBbmT1g7-hWYkK4ANhiWwWu
+
+sprite $SinkLg [20x20/16z] {
+TSs50O0W04JHenlsdzQauzjF0YqHFQRIcnx8fgzfc7zlQZJptiHY85WDPxFMDXFV5qjFnTpxGO6NJTqN7p2cacSi_RVdauQq9ZU6NTJD0MmpbMuCCoayXO4C
+S0C
+}
+
+!procedure Sink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Sink', $name, $tech, $desc)
+!endprocedure

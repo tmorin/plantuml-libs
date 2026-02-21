@@ -1,0 +1,74 @@
+# SquareXmark
+
+
+```text
+fontawesome/Solid/SquareXmark
+```
+
+```text
+include('fontawesome/Solid/SquareXmark')
+```
+
+
+
+| Illustration | SquareXmark |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/SquareXmark.png) | ![illustration for SquareXmark](../../fontawesome/Solid/SquareXmark.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareXmarkXs>`
+- `<$SquareXmarkSm>`
+- `<$SquareXmarkMd>`
+- `<$SquareXmarkLg>`
+
+
+
+
+
+## SquareXmark
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SquareXmark
+include('fontawesome/Solid/SquareXmark')
+
+' renders the element
+SquareXmark('SquareXmark', 'Square Xmark', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SquareXmark
+include('fontawesome/Solid/SquareXmark')
+
+' renders the element
+SquareXmark('SquareXmark', 'Square Xmark', 'an optional tech label', 'an optional description')
+@enduml
+```
+

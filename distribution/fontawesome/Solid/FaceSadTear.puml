@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FaceSadTear
+
+sprite $FaceSadTearXs [10x10/16z] JSd50O100C2muaxtdnOvppS0cpC_WmrC9imsvPJUngmO4BRVbStP7p3vWnS
+
+sprite $FaceSadTearSm [12x12/16z] LOo30S1G30LVxTx-qtuh5rEHXrCPCZqD32bVpCzWTx0d3aCGbZDPHkb-qjDoME7eJty5lfZ5hWS
+
+sprite $FaceSadTearMd [16x16/16z] RS-54KCX40JG_OPVjlzgSPt9mvr3zGdzXK7OQ5ISVdMu2NNpvW9FNwc0KL7gM9Ngun--FhnTMEw0y5QisasW_s3hZrGPtzkIa86TGXQuXjMrHPC
+
+sprite $FaceSadTearLg [20x20/16z] {
+TP155i0m24Gdxk7-j-sZmwBwsnWECDgMcN4XYR4S3BdGxYBIARgJ6EiEpUvKohmxuxl5F6O-pzsBicaUTPzUVfaMuKhMRQBB1J05P0AMTc5HfZ4ypJqSPTQh
+UMdyl2_Hb2vN_6Eaj38g1Oj61m
+}
+
+!procedure FaceSadTear($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FaceSadTear', $name, $tech, $desc)
+!endprocedure

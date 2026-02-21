@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/SquareXing
+
+sprite $SquareXingXs [8x10/16z] Ou01VYJ01-9nyFD311aWD2i3d8jG1W5i_70n
+
+sprite $SquareXingSm [10x12/16z] NOo30S0m402lRhp_jB7lJGPkGxT4aGF6yUJiGDHj928d5sbUESOlzFJ8eMpX2m
+
+sprite $SquareXingMd [14x16/16z] ROp50S0m3CGKvdZ_QSlSw6KVySRrYuQJ8LK7kO53LLOaN1tebxNfYdnN7fOcMwx1MZVxGSGytxVPQryrUSAB6G
+
+sprite $SquareXingLg [17x20/16z] TSo54SGm34JH7mR3zb_jCGWcpspjY6ooHf3NggwjCGwdtiwzF7RJhu3Ke9dmeE6nx4U1hgyAWia6vcO31LwVSivNn89HJWLvstgy3WKqEGlH7G
+
+!procedure SquareXing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/SquareXing', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Teeth
+
+sprite $TeethXs [11x10/16z] JSc30K0X543HZwox_xHPfvwV2rlW4dbKFJge-NbRCcpNrg9hzczDwElEOWe
+
+sprite $TeethSm [13x12/16z] NSU50GD124JHlvASB33zLtlk3nrUcYwrw2jllGWYyGUhI3_O0uHU1afX10Uf8sVw8yZETg47y3WOCm
+
+sprite $TeethMd [17x16/16z] RSo50GGn20319US2st-rx_utyI3yM-ej1_1RBHxg9cshTtEuGZQm8bKO5jW21BIWVNuSQ94LuHRD8OPR2Tybi2GulNkaLkdkRNN-8FqoykiC
+
+sprite $TeethLg [22x20/16z] {
+VO_L5SCm40JNRE7qtstUXk6K-JX6ZLY-c2KT_28Hq2j_wFCEpU91RPwatUA4Z5dlWSbYjUXWfS_e-HQTBJQBp8YMKgEar2qWMqHpqp1wUFmY5IQfEuffpQBx
+7-xY848490NXKp4N
+}
+
+!procedure Teeth($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Teeth', $name, $tech, $desc)
+!endprocedure

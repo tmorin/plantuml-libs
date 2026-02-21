@@ -1,0 +1,74 @@
+# FaceSmileBeam
+
+
+```text
+fontawesome/Solid/FaceSmileBeam
+```
+
+```text
+include('fontawesome/Solid/FaceSmileBeam')
+```
+
+
+
+| Illustration | FaceSmileBeam |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/FaceSmileBeam.png) | ![illustration for FaceSmileBeam](../../fontawesome/Solid/FaceSmileBeam.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceSmileBeamXs>`
+- `<$FaceSmileBeamSm>`
+- `<$FaceSmileBeamMd>`
+- `<$FaceSmileBeamLg>`
+
+
+
+
+
+## FaceSmileBeam
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element FaceSmileBeam
+include('fontawesome/Solid/FaceSmileBeam')
+
+' renders the element
+FaceSmileBeam('FaceSmileBeam', 'Face Smile Beam', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element FaceSmileBeam
+include('fontawesome/Solid/FaceSmileBeam')
+
+' renders the element
+FaceSmileBeam('FaceSmileBeam', 'Face Smile Beam', 'an optional tech label', 'an optional description')
+@enduml
+```
+

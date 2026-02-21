@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/HandMiddleFinger
+
+sprite $HandMiddleFingerXs [8x10/16z] Om02VY36JJFoyxE0UM00fJ1f28CR
+
+sprite $HandMiddleFingerSm [10x12/16z] Om01VX01OR4Gm-Bdv-VbWx0WW84VmUB7P772MGnyK0O
+
+sprite $HandMiddleFingerMd [14x16/16z] dSUt4S104CGmtYYHt_whbJUC7ncu1LdYhathPYytxJ92_eKvfQqHPezI5bZ-0GnlYXq
+
+sprite $HandMiddleFingerLg [17x20/16z] jSh55GKn049HuXxwh_RBEDdFtV4EE9GEOSWYmP7jxS2_bWCEXeTe3FuiRmve4lvBGeVdc4iGQs03A0em91Ze9UClynI1Bm
+
+!procedure HandMiddleFinger($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HandMiddleFinger', $name, $tech, $desc)
+!endprocedure

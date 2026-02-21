@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Mitten
+
+sprite $MittenXs [8x10/16z] HOW50S0m30HlAxD_jML8dY5wnfL-W1ik89KzJ8zbUNdkbo7rEDXp0m
+
+sprite $MittenSm [10x12/16z] JSR50O100C2muaxtdnOvpoimE1Fu0-Z2Tk0s0DOo33h5h5cV0tq0c3Hx0G
+
+sprite $MittenMd [14x16/16z] LSg53KLH3CDGVuPNs7_QorGBJnJWRSBAMm6k3MyVDTdKeqgcX9hF-CXjI-hYPxo22220sttK8BCBqF2KKna
+
+sprite $MittenLg [17x20/16z] NSY53KKn5CDGFyOs-q_xeHJf7g4DS2kjsAqYje-wb-BIG94zfZAInrd6vf4eP6JfGfRAlJqAvZW87SOCxBALltcOIY-xbPOi0siSYsG9lW
+
+!procedure Mitten($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Mitten', $name, $tech, $desc)
+!endprocedure

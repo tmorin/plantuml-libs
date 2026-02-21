@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Certificate
+
+sprite $CertificateXs [10x10/16z] HOZL5G0m4CAey7lPVzgwv8GyDB12YmeiOREQRUQYAuxVwSctwPxP0G
+
+sprite $CertificateSm [12x12/16z] NSp50O1G081Gx9RzfxNznUcT06XWu4jxvqzVYJSQOwJk8mTZp85zyToYGR47JW
+
+sprite $CertificateMd [16x16/16z] LSh50OH004FH3-EQ_gjT5_9k4LusCFb94X9lUR3q5Cy5CFJ7a-UqBdc6BOV72fP1Rib1lAGJE6s5vVbf_ivlGPNFU0S
+
+sprite $CertificateLg [20x20/16z] {
+PSy53iGm34JHNsvZsNF_qow3fNd2nCnRR41DTD96AcbMlRMSBBqDgJv_NV2KwcQ0jTGD2BbD3ly4h19Izbboa-S5CDHD-6qx_fSyLSn3RzEUWw_FHNGIR0fU
+xW
+}
+
+!procedure Certificate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Certificate', $name, $tech, $desc)
+!endprocedure

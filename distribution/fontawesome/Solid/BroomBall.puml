@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/BroomBall
+
+sprite $BroomBallXs [11x10/16z] FKg30G1137lZbFsdhTr6MzLVgA6qGFlsfGOWWKmW0GulmnQ6mLZ010O
+
+sprite $BroomBallSm [13x12/16z] JOg50S0W30JnUc__QN68vyse-XJ-KJfkuvSm4UOXIfmqPQYxLQXt6Ip3k44-SCPF1_ZZnCsn1G
+
+sprite $BroomBallMd [17x16/16z] NSlL0S0m30DHbTct_xIbiFttBehScJDu7ywdinKSaWMNLoZij54PC1rG6GvTxC4J_stgWtMTeRpUmYQ6y3Uu2fskw2s4uh0rFG
+
+sprite $BroomBallLg [22x20/16z] {
+RSw50OH034HHtE7tN-q9Wsm4vqMhv9ZN327Y0aV0IHZAoJ8jrXbMq8n2gpYisqbSuY6GsjhDyYPLjarLTd7GxLAQS-DPV2Cdmc8wS7yRd1uja7jpzBepnKTL
+VG4
+}
+
+!procedure BroomBall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BroomBall', $name, $tech, $desc)
+!endprocedure

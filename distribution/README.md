@@ -12,7 +12,7 @@ The library provides 12 packages.
 - [domainstorytelling](domainstorytelling/README.md)
 - [eip-1](eip-1/README.md)
 - [eventstorming](eventstorming/README.md)
-- [fontawesome-6](fontawesome-6/README.md)
+- [fontawesome](fontawesome/README.md)
 - [gcp](gcp/README.md)
 - [material](material/README.md)
 - [simpleicons](simpleicons/README.md)

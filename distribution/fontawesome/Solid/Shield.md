@@ -1,0 +1,74 @@
+# Shield
+
+
+```text
+fontawesome/Solid/Shield
+```
+
+```text
+include('fontawesome/Solid/Shield')
+```
+
+
+
+| Illustration | Shield |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/Shield.png) | ![illustration for Shield](../../fontawesome/Solid/Shield.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShieldXs>`
+- `<$ShieldSm>`
+- `<$ShieldMd>`
+- `<$ShieldLg>`
+
+
+
+
+
+## Shield
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Shield
+include('fontawesome/Solid/Shield')
+
+' renders the element
+Shield('Shield', 'Shield', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Shield
+include('fontawesome/Solid/Shield')
+
+' renders the element
+Shield('Shield', 'Shield', 'an optional tech label', 'an optional description')
+@enduml
+```
+

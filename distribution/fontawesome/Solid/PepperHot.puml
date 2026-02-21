@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PepperHot
+
+sprite $PepperHotXs [10x10/16z] Oy04_50A2C0CHX0J8WHZCV4pGzNnmvInmLZyK0O_N0e
+
+sprite $PepperHotSm [12x12/16z] HOo54O0030DnXzz_MoxLFsjZGt4FpNl6SV7kNzmJiFhvxG1-q_VBAy5bSIyw7yIdSuL8upnQ2r7y
+
+sprite $PepperHotMd [16x16/16z] NS_50K0X30FGu4xsd_OhdXCFQuirqcr4u6uivfEyM7YIqoxXTPtNFxFH7Mwhqco_jxMWcIrY7Y-lpKgLkihBs4NLHbe5t
+
+sprite $PepperHotLg [20x20/16z] {
+POx50GGn30CLvgZ_QWytw7dQ8jnq20oRF9BOqJ5gzEF6FyTDwNxVb4VY5t-4fykiAM-TH3nlcgJvZ-On91bZK3XbWxYb3VeuUKx6oObJudNIt4XZmwJTKSrX
+yWO
+}
+
+!procedure PepperHot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PepperHot', $name, $tech, $desc)
+!endprocedure

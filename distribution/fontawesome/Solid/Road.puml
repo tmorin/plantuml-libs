@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Road
+
+sprite $RoadXs [11x10/16z] LOh50G0X0CDwhf3zfyKrhqeq0TeXfWlqv0YP79StnO_ialyd6pGiLK0zUW
+
+sprite $RoadSm [13x12/16z] NOe54e1030CNT_B_tq9Qz7Qc4g6Way1Z529LfI35VeisMwA9dIrujnYyUwINElQuotY_xMq_0U_v
+
+sprite $RoadMd [17x16/16z] RSk50SGm40D1FMEq_LSRCiCOZpIrs9BzLGHmtjRfcXE4X07EYrkOA9mdkFr8CqlyvHdgn29TcWIIQLn5orU2nu-MH73h4-fj
+
+sprite $RoadLg [22x20/16z] {
+VOu55iGm44AfUxZ_QMDaMU-lm1l73Vqm35dgtvpC06EHtb6-H2yqbXRTf0sAKp8x-eQ2AqLuYr9qs6KsHtr39fJWyHhr2DhFz8YUzdnG1dpJWJ_OUzl3rgVx
+1d7yZE9NTCTF4W
+}
+
+!procedure Road($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Road', $name, $tech, $desc)
+!endprocedure

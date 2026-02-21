@@ -1,0 +1,74 @@
+# Info
+
+
+```text
+fontawesome/Solid/Info
+```
+
+```text
+include('fontawesome/Solid/Info')
+```
+
+
+
+| Illustration | Info |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/Info.png) | ![illustration for Info](../../fontawesome/Solid/Info.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$InfoXs>`
+- `<$InfoSm>`
+- `<$InfoMd>`
+- `<$InfoLg>`
+
+
+
+
+
+## Info
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Info
+include('fontawesome/Solid/Info')
+
+' renders the element
+Info('Info', 'Info', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Info
+include('fontawesome/Solid/Info')
+
+' renders the element
+Info('Info', 'Info', 'an optional tech label', 'an optional description')
+@enduml
+```
+

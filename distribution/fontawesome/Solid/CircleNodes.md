@@ -1,0 +1,74 @@
+# CircleNodes
+
+
+```text
+fontawesome/Solid/CircleNodes
+```
+
+```text
+include('fontawesome/Solid/CircleNodes')
+```
+
+
+
+| Illustration | CircleNodes |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/CircleNodes.png) | ![illustration for CircleNodes](../../fontawesome/Solid/CircleNodes.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleNodesXs>`
+- `<$CircleNodesSm>`
+- `<$CircleNodesMd>`
+- `<$CircleNodesLg>`
+
+
+
+
+
+## CircleNodes
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element CircleNodes
+include('fontawesome/Solid/CircleNodes')
+
+' renders the element
+CircleNodes('CircleNodes', 'Circle Nodes', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element CircleNodes
+include('fontawesome/Solid/CircleNodes')
+
+' renders the element
+CircleNodes('CircleNodes', 'Circle Nodes', 'an optional tech label', 'an optional description')
+@enduml
+```
+

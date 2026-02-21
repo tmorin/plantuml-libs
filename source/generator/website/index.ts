@@ -43,7 +43,7 @@ const argv = yargs
       "aws-q3-2025/!**",
       "azure-11/!**",
       "gcp/!**",
-      "fontawesome-6/!**",
+      "fontawesome/!**",
       "material/!**",
       "simpleicons/!**",*/
     ],

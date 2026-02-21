@@ -1,0 +1,74 @@
+# Bucket
+
+
+```text
+fontawesome/Solid/Bucket
+```
+
+```text
+include('fontawesome/Solid/Bucket')
+```
+
+
+
+| Illustration | Bucket |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/Bucket.png) | ![illustration for Bucket](../../fontawesome/Solid/Bucket.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$BucketXs>`
+- `<$BucketSm>`
+- `<$BucketMd>`
+- `<$BucketLg>`
+
+
+
+
+
+## Bucket
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Bucket
+include('fontawesome/Solid/Bucket')
+
+' renders the element
+Bucket('Bucket', 'Bucket', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Bucket
+include('fontawesome/Solid/Bucket')
+
+' renders the element
+Bucket('Bucket', 'Bucket', 'an optional tech label', 'an optional description')
+@enduml
+```
+

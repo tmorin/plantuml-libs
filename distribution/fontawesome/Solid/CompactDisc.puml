@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CompactDisc
+
+sprite $CompactDiscXs [10x10/16z] FKg30G113CiRf_sdhTr6aFhM3QrbzIbmV471RwfiHNxJrrrQw8g-1C0LW04
+
+sprite $CompactDiscSm [12x12/16z] FKk50S0W3CjSiF-lhRVPW2WKRRrmB8VJa4OZ652wuLBHX6lpgzN29kyhvn9_hXX-cr3bXGSb9WGZNGO
+
+sprite $CompactDiscMd [16x16/16z] JSV70SCm3C10k5SA-syRaKwxtr6My1hu21yRHTr7Kpoz62xB3T7R_1ZGx3eSbiLzKBh158wNAmJuDT24s-woEqYcmJG0XmaVjwMn-Wy8VrQw-xzfi3Iw5m
+
+sprite $CompactDiscLg [20x20/16z] {
+PSq54i0W50FHhHkG-v-syYVrDxv1iAaezJnqibnXUfYkbAfhcPrwMbqww8wKzG1IYfHdsOXKjNjXLpbE4f88lKA9bc5M1NgOGHfnImfGxSdDJrGS5WNaZIjb
+iknIK_qQCFqJp9-ReNiaBgD_Z4Di
+}
+
+!procedure CompactDisc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CompactDisc', $name, $tech, $desc)
+!endprocedure

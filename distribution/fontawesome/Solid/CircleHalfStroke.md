@@ -1,0 +1,74 @@
+# CircleHalfStroke
+
+
+```text
+fontawesome/Solid/CircleHalfStroke
+```
+
+```text
+include('fontawesome/Solid/CircleHalfStroke')
+```
+
+
+
+| Illustration | CircleHalfStroke |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/CircleHalfStroke.png) | ![illustration for CircleHalfStroke](../../fontawesome/Solid/CircleHalfStroke.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleHalfStrokeXs>`
+- `<$CircleHalfStrokeSm>`
+- `<$CircleHalfStrokeMd>`
+- `<$CircleHalfStrokeLg>`
+
+
+
+
+
+## CircleHalfStroke
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element CircleHalfStroke
+include('fontawesome/Solid/CircleHalfStroke')
+
+' renders the element
+CircleHalfStroke('CircleHalfStroke', 'Circle Half Stroke', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element CircleHalfStroke
+include('fontawesome/Solid/CircleHalfStroke')
+
+' renders the element
+CircleHalfStroke('CircleHalfStroke', 'Circle Half Stroke', 'an optional tech label', 'an optional description')
+@enduml
+```
+

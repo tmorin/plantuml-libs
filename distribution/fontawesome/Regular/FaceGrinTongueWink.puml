@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/FaceGrinTongueWink
+
+sprite $FaceGrinTongueWinkXs [10x10/16z] DSn70GD1000XhlST_sxp2WA0gntKukYY5xG9IjTITSnNWVBiXp5PNycfbVvPs1gA7m
+
+sprite $FaceGrinTongueWinkSm [12x12/16z] DSR5WGCm400n7OQydlwh3KSlURXqz59pc8B-FAm-_RcO4L_-VgNBQ0vReuuUQkcuVIHQxKXBM3hGz7WRflrL1su
+
+sprite $FaceGrinTongueWinkMd [16x16/16z] {
+JOm54eH03C22mspR_F-tDtjewWgT9Mq3D-d9TfPt4kPPSZ4Pa5Svj8F5WUTgsAHS14rggYs7sPHXfsZREWWg9sg0JRxOboQrLDZ5X8h9qHqiLYS284V27bsk
+Ebnx4bg0zh8pdF-gvpy
+}
+
+sprite $FaceGrinTongueWinkLg [20x20/16z] {
+HT254GCW0C30u4xstxPNVppdy36kky9VyUC4FjIRWAQERzfyH9tVzAS5oZ-DrK11-T3ffTlnGbaLnY5XGiTpVyBHZ7kWLuYH46cNY96ZygMwORd_ZTGZSAqs
+uFO0vBK1HI7w1S73CKANA5dW-GuAzV8aD0M6_jipFKsT0cIFnl-NNWYgyDNrwKIU7W
+}
+
+!procedure FaceGrinTongueWink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/FaceGrinTongueWink', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,74 @@
+# CreativeCommons
+
+
+```text
+fontawesome/Brands/CreativeCommons
+```
+
+```text
+include('fontawesome/Brands/CreativeCommons')
+```
+
+
+
+| Illustration | CreativeCommons |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Brands/CreativeCommons.png) | ![illustration for CreativeCommons](../../fontawesome/Brands/CreativeCommons.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$CreativeCommonsXs>`
+- `<$CreativeCommonsSm>`
+- `<$CreativeCommonsMd>`
+- `<$CreativeCommonsLg>`
+
+
+
+
+
+## CreativeCommons
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element CreativeCommons
+include('fontawesome/Brands/CreativeCommons')
+
+' renders the element
+CreativeCommons('CreativeCommons', 'Creative Commons', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element CreativeCommons
+include('fontawesome/Brands/CreativeCommons')
+
+' renders the element
+CreativeCommons('CreativeCommons', 'Creative Commons', 'an optional tech label', 'an optional description')
+@enduml
+```
+

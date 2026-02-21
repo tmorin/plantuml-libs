@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/CloudSun
+
+sprite $CloudSunXs [12x10/16z] JSl50SC040Cmjs7K_jE6IPz39x-ap6N2rOvsJNRKGdPQwfpu2UOaDV_ARW_FS5tYykrN
+
+sprite $CloudSunSm [15x12/16z] NOp50SCm00ELcF7sdxPSatwYarGbtHg2J1tk0k1dAY3T8m11gjYlpGZw0he-2UGitGsw5mmWrR9QmUfFsuTz0W
+
+sprite $CloudSunMd [20x16/16z] {
+ROu5WWCX0CG6T_B_rzwrNPV1Gn19wajtZW55q3cENywM6mihPaDzLUnP1TJ096Wwe82feZrnOKDsr4F36502qApR6sdPE_sfG56-CWlYoF8MVhDEfkOByrVs
+5CS_
+}
+
+sprite $CloudSunLg [25x20/16z] {
+VT255OH034NHZpFw-kzsJxAuNPoHY4oMARhgeRLReul8tw0B5bb7GsANUgqondPlBzlv_mPGXzqtzkcZHL2ryq-CcciH-41MawdZEOOgHGqcZKJlmvvBPICp
+P9yeiKlRRa41TcNhrVR_DD9HXBkEZ19NSXy3wMtWEjB-
+}
+
+!procedure CloudSun($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CloudSun', $name, $tech, $desc)
+!endprocedure

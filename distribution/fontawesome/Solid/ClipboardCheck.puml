@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ClipboardCheck
+
+sprite $ClipboardCheckXs [7x10/16z] RS6n0KG0002n-mU0xB-jIYUfZhaAIpiTleIVe6wl0tW
+
+sprite $ClipboardCheckSm [9x12/16z] Om02Nau6CE070WZ5mCWF0Npyk01C5L0vH2SBM2k4XQAC3SO
+
+sprite $ClipboardCheckMd [12x16/16z] ZSX50e1030F0uDOs_t_jkfo0dKi4qSKL1GD5i8dH5b846uC9naOuHDa0xG7IBzXJJLQq6eVo2zXv
+
+sprite $ClipboardCheckLg [15x20/16z] fSdL0SKW04FHrF7iFoskNqzwS2wocsP3vnWzg1Gp99QH1PZSfHY0Cyjt3iS989RNsIvvErYSWCsjkj1QwoU_eRc0uqG6
+
+!procedure ClipboardCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ClipboardCheck', $name, $tech, $desc)
+!endprocedure

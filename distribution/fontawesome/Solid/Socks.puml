@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Socks
+
+sprite $SocksXs [10x10/16z] ZSQn4K00002nFnsG_QS5wALADH4g_pVSOxuYJ6vV2kkT0m
+
+sprite $SocksSm [12x12/16z] VSZ50G0X30NHdtMV_gl58RT5NqPf0ThXJRopqoLtCylN4f_UVupxWgUmX6Sfv2npMVSxF2d_ImbI1
+
+sprite $SocksMd [16x16/16z] dS-72SGm50HH9-Km_NTxk_3Lm3rWm5Q-R04bAXrv1-Rl-n7L_DsctAhuUoBtmlxvnjJuhi1MutkhxI9SqQCvRoNS6tToLhz8-R1rtfgZyWC
+
+sprite $SocksLg [20x20/16z] {
+jO_L5S0W40GtZb__rIA7mtS6spSu64KHZOCI5oj9sL66dU4eHxUph_lHYSdbU9o34obOWBgp-MEyAhlyRmL9tPL1TMNoj0DjorHt3cMFRKxqjy7cyK3YIl45
+T3eTJ
+}
+
+!procedure Socks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Socks', $name, $tech, $desc)
+!endprocedure

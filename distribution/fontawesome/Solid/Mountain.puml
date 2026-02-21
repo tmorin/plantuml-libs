@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Mountain
+
+sprite $MountainXs [10x10/16z] Oq05_706FvJ9pGyL154S_10va3GV0mCJFmG0XM203yv2Y04
+
+sprite $MountainSm [12x12/16z] NOj50S0m0CJ6AyU_sZBdTNZid0mDhadDmzbYTK2Lf8TEyeqQIa5ZadoJnatwiAuX0m
+
+sprite $MountainMd [16x16/16z] RSh50OG000EmdWkI_QV57VAhvDgjscVgRInntxnvicRUuJl73qcOCqbPOuxo0-y-FgtwRADAIbktsAiF-N78EMW1
+
+sprite $MountainLg [20x20/16z] VS650SGW0C30r0t8_jE-Qv4xMhg1Z1wSHBNZJwygVzHHDtuSsXELhquJeFAH563LXPT59_215tKd-f1u2FuQ07h_0NYom-vPXvcKp1tcCBD2xWe
+
+!procedure Mountain($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Mountain', $name, $tech, $desc)
+!endprocedure

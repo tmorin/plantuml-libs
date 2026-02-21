@@ -1,0 +1,74 @@
+# BellSlash
+
+
+```text
+fontawesome/Regular/BellSlash
+```
+
+```text
+include('fontawesome/Regular/BellSlash')
+```
+
+
+
+| Illustration | BellSlash |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Regular/BellSlash.png) | ![illustration for BellSlash](../../fontawesome/Regular/BellSlash.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$BellSlashXs>`
+- `<$BellSlashSm>`
+- `<$BellSlashMd>`
+- `<$BellSlashLg>`
+
+
+
+
+
+## BellSlash
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element BellSlash
+include('fontawesome/Regular/BellSlash')
+
+' renders the element
+BellSlash('BellSlash', 'Bell Slash', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element BellSlash
+include('fontawesome/Regular/BellSlash')
+
+' renders the element
+BellSlash('BellSlash', 'Bell Slash', 'an optional tech label', 'an optional description')
+@enduml
+```
+

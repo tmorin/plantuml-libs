@@ -1,0 +1,74 @@
+# PersonHarassing
+
+
+```text
+fontawesome/Solid/PersonHarassing
+```
+
+```text
+include('fontawesome/Solid/PersonHarassing')
+```
+
+
+
+| Illustration | PersonHarassing |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/PersonHarassing.png) | ![illustration for PersonHarassing](../../fontawesome/Solid/PersonHarassing.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonHarassingXs>`
+- `<$PersonHarassingSm>`
+- `<$PersonHarassingMd>`
+- `<$PersonHarassingLg>`
+
+
+
+
+
+## PersonHarassing
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element PersonHarassing
+include('fontawesome/Solid/PersonHarassing')
+
+' renders the element
+PersonHarassing('PersonHarassing', 'Person Harassing', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element PersonHarassing
+include('fontawesome/Solid/PersonHarassing')
+
+' renders the element
+PersonHarassing('PersonHarassing', 'Person Harassing', 'an optional tech label', 'an optional description')
+@enduml
+```
+

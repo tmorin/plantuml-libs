@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Ribbon
+
+sprite $RibbonXs [8x10/16z] 7SM50OG04CJ0ULT8_zKYjv9WwGDLRtJtYskhGht7h_A5QgGoQ8xQ0G
+
+sprite $RibbonSm [10x12/16z] HOs50S0W40FhNcx_RU7TFPc6m3-f8EB51vTM5L3Ngirv-Epvl4c-P2VB5UvBImJhb_9MAbWw
+
+sprite $RibbonMd [14x16/16z] DSu55e0W54JHiUct_zrwVZ1AN5gM3jpAu6c1GUGmd33lym5oqndDNdYe4h8rw4q9PqqbUs0pSnsc5O3ZDeu0g03q0A-wDTLL92rWIZLV3vT-
+
+sprite $RibbonLg [17x20/16z] {
+NOy55iGW50DJLvZxdtOb3vyM-nwP6uYB2c0k9GA9IMQdK19kIHDmP8FhlH2pWSdlOh25OeYsQ0PU6HkYLf3CXD5LPjriUAJ2rLl2gzUMeqWvKwibIsTJaNTX
+fF7K0fPv5DdbzZ3bvhlq1G
+}
+
+!procedure Ribbon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Ribbon', $name, $tech, $desc)
+!endprocedure

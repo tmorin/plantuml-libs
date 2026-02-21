@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/PersonFallingBurst
+
+sprite $PersonFallingBurstXs [12x10/16z] HSU50S8044MnuCxRVrgeDwSVlcQt2ESlfzoZmPD20zOrqBDw7-j36bo7nDQpiWlu0m
+
+sprite $PersonFallingBurstSm [15x12/16z] LSk50SGW5C3Gr9tiF-r9yOT-uo-G3OxW023mUB481jtT63WL5l-0UEyflDIHnmZZZoVrtcdC8OOeA8KFhKqwIlG5
+
+sprite $PersonFallingBurstMd [20x16/16z] {
+PSY50SG02C30G5sp_xGlTJaSMCnSZGqmcm3O0amQe13Rh6WL2eLq0m6zLi3ieWPG6u36HG2gFJ2xwIdy0y8TeusBaKarWSaSN4mu73-qoTGwO6w0qI0LGja5
+C3b1SAV9Kw6yQB3x0W
+}
+
+sprite $PersonFallingBurstLg [25x20/16z] {
+RO-54GCW40HnX-s_siZb9xuuz-gCFftXxGnH1zX7n8aAvsxs50v39y3jQDhPoGE-7bo49OTz4nOOxP5i0EPlFD8315qRYAZoGE5kJ33wqptRxSdTGSXvWpYp
+kGY5PsWfg9C8Ufe20xO9xsMcw2eyXGP5THzzTNKX_MWVz_s9rmPRzny69FUB1VjBWFLVcP_25G
+}
+
+!procedure PersonFallingBurst($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonFallingBurst', $name, $tech, $desc)
+!endprocedure

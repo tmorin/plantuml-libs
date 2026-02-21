@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Radio
+
+sprite $RadioXs [10x10/16z] Ou01TWZ5pyyFP341AH2FaHy3W6Lu-Rd0SY0D44ryV10U0d33MG
+
+sprite $RadioSm [12x12/16z] TShL0O10081Gx9RzfxNRk_SBt3eEwi2YLAkjkEXMLMSCeCAeLbKroE8HkPuayQNqDWC
+
+sprite $RadioMd [16x16/16z] bOu35W0n34Hhu_wdhPKyxVuo7WAWwJ5KRcp3jN_IyyzJCmAVXiwTw2TKvP_C4VFH-J9czK5YVbX_ues7Rh_rfgd_C0pP5G
+
+sprite $RadioLg [20x20/16z] {
+ZSvL0iGm409Gwet1_M-xOTQzxoSoYZSRyMJCwd2tA6ou61BLbH4N8sK9LrDJgEKYOT0xwhZINMxKmqAUb87N_eIjCeJhVeCi1PVQg41I1gkozJf38uQYuuhU
+WNgLJW
+}
+
+!procedure Radio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Radio', $name, $tech, $desc)
+!endprocedure

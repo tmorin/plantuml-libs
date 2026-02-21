@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/BottleWater
+
+sprite $BottleWaterXs [6x10/16z] Os3WuMTcO63Wv-S1a_n00WJ092iIcvC1ACK4OVD1n04
+
+sprite $BottleWaterSm [7x12/16z] DOe50W1120AvBixv_syt7LkG1AhSOsXPQZELJJH2Fn7iUTrKL2-xNkRxqkandW8
+
+sprite $BottleWaterMd [9x16/16z] JKk50S0m36AhA_zVMxTu402H5EX1CexZ__zl7256rvRW223FuuVPY6DJsZOE9GzrNV__sqO9nX3oeLxNlyGL
+
+sprite $BottleWaterLg [12x20/16z] VSw35S10403HYPtflzhOkFzmM39frOILa_Pzt-tfckqPinfITv2uMtFsWbXXIRtdH_krl-HNrpvRqTv2swPfUfjBVX_OeNELCm8
+
+!procedure BottleWater($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BottleWater', $name, $tech, $desc)
+!endprocedure

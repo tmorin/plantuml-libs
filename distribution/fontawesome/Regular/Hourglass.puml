@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/Hourglass
+
+sprite $HourglassXs [7x10/16z] O-870mP-1Y20Kon06iJavkDd18lmWaaEFcwW6103HM4Qk8207m
+
+sprite $HourglassSm [9x12/16z] BOY50G112CFwxf_zjxqYmK9d6d44ZsMIkMyTX123vr8QTzomldTPvB_jVVERX8BhFMa6
+
+sprite $HourglassMd [12x16/16z] JSx50O0m5C3Gu4xsdnQflqlbQs-rMd5992pftWkuyrF-m0RSyjlSqOxqA5VGlRcwvMl75X-NFR0vG-V0xnHs2JffzxcjNW
+
+sprite $HourglassLg [15x20/16z] {
+LOy54WGX4CGQEnt8_rzxiiqAGLCfcyoL4Ioea3K1gN2_Qg9VLT1itH-e_oSO-bEWsao64c1nTvjqAAUz6L0lJSNTJLATVWVzANv1vivRohpMYUfLWtXDuDbP
+-08
+}
+
+!procedure Hourglass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Hourglass', $name, $tech, $desc)
+!endprocedure

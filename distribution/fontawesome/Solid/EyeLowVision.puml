@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/EyeLowVision
+
+sprite $EyeLowVisionXs [12x10/16z] JOU50O0m0CE2E_d_McHURqy3EovrZiU8S6uP26UKmU_gI8UWg2m7VbeKqAYBUDQW06E-
+
+sprite $EyeLowVisionSm [15x12/16z] LSZ5WSH00C0mBOGdSV_L7gD-zjr_RTohwxk_V8zHc2euFNk8Eb5qbehTY4ert7DljwV25ULMJL3tx_TXDAnVxyCqmD8h
+
+sprite $EyeLowVisionMd [20x16/16z] {
+POo7YKH13CNqSvnH_zqUvjrc0SxMUF33RgUOxtO-XvD2CsmGV0V2RUhbVRWgd1Dez3fN66uRfxfaU8459Dxbiy9hXaF9gV2SNQvFQK6XDxIITlKWGuMzmb4X
+T1qPTKW8a-vW9-OVcdy
+}
+
+sprite $EyeLowVisionLg [25x20/16z] {
+RP050iGW40EHkit_VtiDvEfJ8LYoa9RmpGBHCkLSPMM6Pczwp3dNmPGukNZpu1RaXUrZPeHEyTxk6QOG6fWrc486wPq8r9Mvg4jj6oJLBLgt8UHOmWSVfLDU
+zT1OLsoJxCAAGrgs6k7_MTPQijPoDGD2IbGrmQYwRUGPZwssE-2CADN7wvtuBBa43UUc7lhzdwIJJB_P-04
+}
+
+!procedure EyeLowVision($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/EyeLowVision', $name, $tech, $desc)
+!endprocedure

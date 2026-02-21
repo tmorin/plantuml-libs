@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/BaseballBatBall
+
+sprite $BaseballBatBallXs [10x10/16z] Ou02FXY3dvyVpk27CvXW34QO41EwQbuGoSi4582AGrYy_Fm
+
+sprite $BaseballBatBallSm [12x12/16z] Ou03FWIJdvyVYScFnEJ7n-H1LSoDQXeZcCa14-5dP06BWcKHPW4
+
+sprite $BaseballBatBallMd [16x16/16z] ZSwr0S0W40NGuCxVVrhSgr3nph_pWTu4s4tW8HxgVmmtIQEvPwb5MnINFbR8sy-L5afM4W08j0wThjsdrnhJN0B7cf01
+
+sprite $BaseballBatBallLg [20x20/16z] ZS_50KCn3C1GbT7H_jEM-p7aupEpY7HT2cfQayQQT4sw9dThsdPLRKRQhwjOp-A-hjhewgbL7pW-UTI0BJ4M7LLZg-XyFM70md0i8tx6FJ73xHC
+
+!procedure BaseballBatBall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BaseballBatBall', $name, $tech, $desc)
+!endprocedure

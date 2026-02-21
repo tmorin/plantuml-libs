@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element HeartPulse
+include('fontawesome/Solid/HeartPulse')
+
+' renders the element
+HeartPulse('HeartPulse', 'Heart Pulse', 'an optional tech label', 'an optional description')
+@enduml

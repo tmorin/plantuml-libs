@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ArrowUpFromWaterPump
+
+sprite $ArrowUpFromWaterPumpXs [11x10/16z] XOR50O0m0CI2Ezb_MhJswsb0xQ213wNHWF-4FJTAjAADfXrWfcSnwGO
+
+sprite $ArrowUpFromWaterPumpSm [13x12/16z] VOkr0S0m4CHaVnFM_jE6cLGTGgacG01LGTtD4IaTqgtc-1p6WyuViXgbrbcI0JPGoUKq
+
+sprite $ArrowUpFromWaterPumpMd [17x16/16z] dOsr0GD140FrnppzLsiy20qJBAyaYITwCbwnioPpFjPWpUTWvJC8mv9QEGF9aAGl1hDVfCuVUFEC9W3DLBniqNMfE5rIdIwzyunZXW4pKE4E
+
+sprite $ArrowUpFromWaterPumpLg [22x20/16z] {
+jSe5YaH140JHhEflhN7_soujEuxFF2GXI4dE4DHPqyIYzNYhHlTSLuJdofAVwaLev8tmMBisZb-eYNSXyIlDG-kxU-wJV8UyoqmUTscJhcjCbcKeRfw0m-m0
+JaK-IH0lkkIjJmqL_W
+}
+
+!procedure ArrowUpFromWaterPump($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ArrowUpFromWaterPump', $name, $tech, $desc)
+!endprocedure

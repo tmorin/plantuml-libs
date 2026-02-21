@@ -1,0 +1,74 @@
+# Heart
+
+
+```text
+fontawesome/Regular/Heart
+```
+
+```text
+include('fontawesome/Regular/Heart')
+```
+
+
+
+| Illustration | Heart |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Regular/Heart.png) | ![illustration for Heart](../../fontawesome/Regular/Heart.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeartXs>`
+- `<$HeartSm>`
+- `<$HeartMd>`
+- `<$HeartLg>`
+
+
+
+
+
+## Heart
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Heart
+include('fontawesome/Regular/Heart')
+
+' renders the element
+Heart('Heart', 'Heart', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Heart
+include('fontawesome/Regular/Heart')
+
+' renders the element
+Heart('Heart', 'Heart', 'an optional tech label', 'an optional description')
+@enduml
+```
+

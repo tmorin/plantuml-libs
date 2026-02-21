@@ -1,0 +1,1560 @@
+# Solid
+
+The module contains 1390 items.
+
+- [A](#family-a)
+- [B](#family-b)
+- [C](#family-c)
+- [D](#family-d)
+- [E](#family-e)
+- [F](#family-f)
+- [G](#family-g)
+- [H](#family-h)
+- [I](#family-i)
+- [J](#family-j)
+- [K](#family-k)
+- [L](#family-l)
+- [M](#family-m)
+- [N](#family-n)
+- [O](#family-o)
+- [P](#family-p)
+- [Q](#family-q)
+- [R](#family-r)
+- [S](#family-s)
+- [T](#family-t)
+- [U](#family-u)
+- [V](#family-v)
+- [W](#family-w)
+- [X](#family-x)
+- [Y](#family-y)
+- [Z](#family-z)
+- [_](#family-_)
+
+
+<span id="family-a"></span>
+## A
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/A](../../fontawesome/Solid/A.png) | [fontawesome/Solid/A](../../fontawesome/Solid/A.md) |
+| ![illustration of fontawesome/Solid/AddressBook](../../fontawesome/Solid/AddressBook.png) | [fontawesome/Solid/AddressBook](../../fontawesome/Solid/AddressBook.md) |
+| ![illustration of fontawesome/Solid/AddressCard](../../fontawesome/Solid/AddressCard.png) | [fontawesome/Solid/AddressCard](../../fontawesome/Solid/AddressCard.md) |
+| ![illustration of fontawesome/Solid/AlignCenter](../../fontawesome/Solid/AlignCenter.png) | [fontawesome/Solid/AlignCenter](../../fontawesome/Solid/AlignCenter.md) |
+| ![illustration of fontawesome/Solid/AlignJustify](../../fontawesome/Solid/AlignJustify.png) | [fontawesome/Solid/AlignJustify](../../fontawesome/Solid/AlignJustify.md) |
+| ![illustration of fontawesome/Solid/AlignLeft](../../fontawesome/Solid/AlignLeft.png) | [fontawesome/Solid/AlignLeft](../../fontawesome/Solid/AlignLeft.md) |
+| ![illustration of fontawesome/Solid/AlignRight](../../fontawesome/Solid/AlignRight.png) | [fontawesome/Solid/AlignRight](../../fontawesome/Solid/AlignRight.md) |
+| ![illustration of fontawesome/Solid/Anchor](../../fontawesome/Solid/Anchor.png) | [fontawesome/Solid/Anchor](../../fontawesome/Solid/Anchor.md) |
+| ![illustration of fontawesome/Solid/AnchorCircleCheck](../../fontawesome/Solid/AnchorCircleCheck.png) | [fontawesome/Solid/AnchorCircleCheck](../../fontawesome/Solid/AnchorCircleCheck.md) |
+| ![illustration of fontawesome/Solid/AnchorCircleExclamation](../../fontawesome/Solid/AnchorCircleExclamation.png) | [fontawesome/Solid/AnchorCircleExclamation](../../fontawesome/Solid/AnchorCircleExclamation.md) |
+| ![illustration of fontawesome/Solid/AnchorCircleXmark](../../fontawesome/Solid/AnchorCircleXmark.png) | [fontawesome/Solid/AnchorCircleXmark](../../fontawesome/Solid/AnchorCircleXmark.md) |
+| ![illustration of fontawesome/Solid/AnchorLock](../../fontawesome/Solid/AnchorLock.png) | [fontawesome/Solid/AnchorLock](../../fontawesome/Solid/AnchorLock.md) |
+| ![illustration of fontawesome/Solid/AngleDown](../../fontawesome/Solid/AngleDown.png) | [fontawesome/Solid/AngleDown](../../fontawesome/Solid/AngleDown.md) |
+| ![illustration of fontawesome/Solid/AngleLeft](../../fontawesome/Solid/AngleLeft.png) | [fontawesome/Solid/AngleLeft](../../fontawesome/Solid/AngleLeft.md) |
+| ![illustration of fontawesome/Solid/AngleRight](../../fontawesome/Solid/AngleRight.png) | [fontawesome/Solid/AngleRight](../../fontawesome/Solid/AngleRight.md) |
+| ![illustration of fontawesome/Solid/AngleUp](../../fontawesome/Solid/AngleUp.png) | [fontawesome/Solid/AngleUp](../../fontawesome/Solid/AngleUp.md) |
+| ![illustration of fontawesome/Solid/AnglesDown](../../fontawesome/Solid/AnglesDown.png) | [fontawesome/Solid/AnglesDown](../../fontawesome/Solid/AnglesDown.md) |
+| ![illustration of fontawesome/Solid/AnglesLeft](../../fontawesome/Solid/AnglesLeft.png) | [fontawesome/Solid/AnglesLeft](../../fontawesome/Solid/AnglesLeft.md) |
+| ![illustration of fontawesome/Solid/AnglesRight](../../fontawesome/Solid/AnglesRight.png) | [fontawesome/Solid/AnglesRight](../../fontawesome/Solid/AnglesRight.md) |
+| ![illustration of fontawesome/Solid/AnglesUp](../../fontawesome/Solid/AnglesUp.png) | [fontawesome/Solid/AnglesUp](../../fontawesome/Solid/AnglesUp.md) |
+| ![illustration of fontawesome/Solid/Ankh](../../fontawesome/Solid/Ankh.png) | [fontawesome/Solid/Ankh](../../fontawesome/Solid/Ankh.md) |
+| ![illustration of fontawesome/Solid/AppleWhole](../../fontawesome/Solid/AppleWhole.png) | [fontawesome/Solid/AppleWhole](../../fontawesome/Solid/AppleWhole.md) |
+| ![illustration of fontawesome/Solid/Archway](../../fontawesome/Solid/Archway.png) | [fontawesome/Solid/Archway](../../fontawesome/Solid/Archway.md) |
+| ![illustration of fontawesome/Solid/ArrowDown](../../fontawesome/Solid/ArrowDown.png) | [fontawesome/Solid/ArrowDown](../../fontawesome/Solid/ArrowDown.md) |
+| ![illustration of fontawesome/Solid/ArrowDown19](../../fontawesome/Solid/ArrowDown19.png) | [fontawesome/Solid/ArrowDown19](../../fontawesome/Solid/ArrowDown19.md) |
+| ![illustration of fontawesome/Solid/ArrowDown91](../../fontawesome/Solid/ArrowDown91.png) | [fontawesome/Solid/ArrowDown91](../../fontawesome/Solid/ArrowDown91.md) |
+| ![illustration of fontawesome/Solid/ArrowDownAZ](../../fontawesome/Solid/ArrowDownAZ.png) | [fontawesome/Solid/ArrowDownAZ](../../fontawesome/Solid/ArrowDownAZ.md) |
+| ![illustration of fontawesome/Solid/ArrowDownLong](../../fontawesome/Solid/ArrowDownLong.png) | [fontawesome/Solid/ArrowDownLong](../../fontawesome/Solid/ArrowDownLong.md) |
+| ![illustration of fontawesome/Solid/ArrowDownShortWide](../../fontawesome/Solid/ArrowDownShortWide.png) | [fontawesome/Solid/ArrowDownShortWide](../../fontawesome/Solid/ArrowDownShortWide.md) |
+| ![illustration of fontawesome/Solid/ArrowDownUpAcrossLine](../../fontawesome/Solid/ArrowDownUpAcrossLine.png) | [fontawesome/Solid/ArrowDownUpAcrossLine](../../fontawesome/Solid/ArrowDownUpAcrossLine.md) |
+| ![illustration of fontawesome/Solid/ArrowDownUpLock](../../fontawesome/Solid/ArrowDownUpLock.png) | [fontawesome/Solid/ArrowDownUpLock](../../fontawesome/Solid/ArrowDownUpLock.md) |
+| ![illustration of fontawesome/Solid/ArrowDownWideShort](../../fontawesome/Solid/ArrowDownWideShort.png) | [fontawesome/Solid/ArrowDownWideShort](../../fontawesome/Solid/ArrowDownWideShort.md) |
+| ![illustration of fontawesome/Solid/ArrowDownZA](../../fontawesome/Solid/ArrowDownZA.png) | [fontawesome/Solid/ArrowDownZA](../../fontawesome/Solid/ArrowDownZA.md) |
+| ![illustration of fontawesome/Solid/ArrowLeft](../../fontawesome/Solid/ArrowLeft.png) | [fontawesome/Solid/ArrowLeft](../../fontawesome/Solid/ArrowLeft.md) |
+| ![illustration of fontawesome/Solid/ArrowLeftLong](../../fontawesome/Solid/ArrowLeftLong.png) | [fontawesome/Solid/ArrowLeftLong](../../fontawesome/Solid/ArrowLeftLong.md) |
+| ![illustration of fontawesome/Solid/ArrowPointer](../../fontawesome/Solid/ArrowPointer.png) | [fontawesome/Solid/ArrowPointer](../../fontawesome/Solid/ArrowPointer.md) |
+| ![illustration of fontawesome/Solid/ArrowRight](../../fontawesome/Solid/ArrowRight.png) | [fontawesome/Solid/ArrowRight](../../fontawesome/Solid/ArrowRight.md) |
+| ![illustration of fontawesome/Solid/ArrowRightArrowLeft](../../fontawesome/Solid/ArrowRightArrowLeft.png) | [fontawesome/Solid/ArrowRightArrowLeft](../../fontawesome/Solid/ArrowRightArrowLeft.md) |
+| ![illustration of fontawesome/Solid/ArrowRightFromBracket](../../fontawesome/Solid/ArrowRightFromBracket.png) | [fontawesome/Solid/ArrowRightFromBracket](../../fontawesome/Solid/ArrowRightFromBracket.md) |
+| ![illustration of fontawesome/Solid/ArrowRightLong](../../fontawesome/Solid/ArrowRightLong.png) | [fontawesome/Solid/ArrowRightLong](../../fontawesome/Solid/ArrowRightLong.md) |
+| ![illustration of fontawesome/Solid/ArrowRightToBracket](../../fontawesome/Solid/ArrowRightToBracket.png) | [fontawesome/Solid/ArrowRightToBracket](../../fontawesome/Solid/ArrowRightToBracket.md) |
+| ![illustration of fontawesome/Solid/ArrowRightToCity](../../fontawesome/Solid/ArrowRightToCity.png) | [fontawesome/Solid/ArrowRightToCity](../../fontawesome/Solid/ArrowRightToCity.md) |
+| ![illustration of fontawesome/Solid/ArrowRotateLeft](../../fontawesome/Solid/ArrowRotateLeft.png) | [fontawesome/Solid/ArrowRotateLeft](../../fontawesome/Solid/ArrowRotateLeft.md) |
+| ![illustration of fontawesome/Solid/ArrowRotateRight](../../fontawesome/Solid/ArrowRotateRight.png) | [fontawesome/Solid/ArrowRotateRight](../../fontawesome/Solid/ArrowRotateRight.md) |
+| ![illustration of fontawesome/Solid/ArrowTrendDown](../../fontawesome/Solid/ArrowTrendDown.png) | [fontawesome/Solid/ArrowTrendDown](../../fontawesome/Solid/ArrowTrendDown.md) |
+| ![illustration of fontawesome/Solid/ArrowTrendUp](../../fontawesome/Solid/ArrowTrendUp.png) | [fontawesome/Solid/ArrowTrendUp](../../fontawesome/Solid/ArrowTrendUp.md) |
+| ![illustration of fontawesome/Solid/ArrowTurnDown](../../fontawesome/Solid/ArrowTurnDown.png) | [fontawesome/Solid/ArrowTurnDown](../../fontawesome/Solid/ArrowTurnDown.md) |
+| ![illustration of fontawesome/Solid/ArrowTurnUp](../../fontawesome/Solid/ArrowTurnUp.png) | [fontawesome/Solid/ArrowTurnUp](../../fontawesome/Solid/ArrowTurnUp.md) |
+| ![illustration of fontawesome/Solid/ArrowUp](../../fontawesome/Solid/ArrowUp.png) | [fontawesome/Solid/ArrowUp](../../fontawesome/Solid/ArrowUp.md) |
+| ![illustration of fontawesome/Solid/ArrowUp19](../../fontawesome/Solid/ArrowUp19.png) | [fontawesome/Solid/ArrowUp19](../../fontawesome/Solid/ArrowUp19.md) |
+| ![illustration of fontawesome/Solid/ArrowUp91](../../fontawesome/Solid/ArrowUp91.png) | [fontawesome/Solid/ArrowUp91](../../fontawesome/Solid/ArrowUp91.md) |
+| ![illustration of fontawesome/Solid/ArrowUpAZ](../../fontawesome/Solid/ArrowUpAZ.png) | [fontawesome/Solid/ArrowUpAZ](../../fontawesome/Solid/ArrowUpAZ.md) |
+| ![illustration of fontawesome/Solid/ArrowUpFromBracket](../../fontawesome/Solid/ArrowUpFromBracket.png) | [fontawesome/Solid/ArrowUpFromBracket](../../fontawesome/Solid/ArrowUpFromBracket.md) |
+| ![illustration of fontawesome/Solid/ArrowUpFromGroundWater](../../fontawesome/Solid/ArrowUpFromGroundWater.png) | [fontawesome/Solid/ArrowUpFromGroundWater](../../fontawesome/Solid/ArrowUpFromGroundWater.md) |
+| ![illustration of fontawesome/Solid/ArrowUpFromWaterPump](../../fontawesome/Solid/ArrowUpFromWaterPump.png) | [fontawesome/Solid/ArrowUpFromWaterPump](../../fontawesome/Solid/ArrowUpFromWaterPump.md) |
+| ![illustration of fontawesome/Solid/ArrowUpLong](../../fontawesome/Solid/ArrowUpLong.png) | [fontawesome/Solid/ArrowUpLong](../../fontawesome/Solid/ArrowUpLong.md) |
+| ![illustration of fontawesome/Solid/ArrowUpRightDots](../../fontawesome/Solid/ArrowUpRightDots.png) | [fontawesome/Solid/ArrowUpRightDots](../../fontawesome/Solid/ArrowUpRightDots.md) |
+| ![illustration of fontawesome/Solid/ArrowUpRightFromSquare](../../fontawesome/Solid/ArrowUpRightFromSquare.png) | [fontawesome/Solid/ArrowUpRightFromSquare](../../fontawesome/Solid/ArrowUpRightFromSquare.md) |
+| ![illustration of fontawesome/Solid/ArrowUpShortWide](../../fontawesome/Solid/ArrowUpShortWide.png) | [fontawesome/Solid/ArrowUpShortWide](../../fontawesome/Solid/ArrowUpShortWide.md) |
+| ![illustration of fontawesome/Solid/ArrowUpWideShort](../../fontawesome/Solid/ArrowUpWideShort.png) | [fontawesome/Solid/ArrowUpWideShort](../../fontawesome/Solid/ArrowUpWideShort.md) |
+| ![illustration of fontawesome/Solid/ArrowUpZA](../../fontawesome/Solid/ArrowUpZA.png) | [fontawesome/Solid/ArrowUpZA](../../fontawesome/Solid/ArrowUpZA.md) |
+| ![illustration of fontawesome/Solid/ArrowsDownToLine](../../fontawesome/Solid/ArrowsDownToLine.png) | [fontawesome/Solid/ArrowsDownToLine](../../fontawesome/Solid/ArrowsDownToLine.md) |
+| ![illustration of fontawesome/Solid/ArrowsDownToPeople](../../fontawesome/Solid/ArrowsDownToPeople.png) | [fontawesome/Solid/ArrowsDownToPeople](../../fontawesome/Solid/ArrowsDownToPeople.md) |
+| ![illustration of fontawesome/Solid/ArrowsLeftRight](../../fontawesome/Solid/ArrowsLeftRight.png) | [fontawesome/Solid/ArrowsLeftRight](../../fontawesome/Solid/ArrowsLeftRight.md) |
+| ![illustration of fontawesome/Solid/ArrowsLeftRightToLine](../../fontawesome/Solid/ArrowsLeftRightToLine.png) | [fontawesome/Solid/ArrowsLeftRightToLine](../../fontawesome/Solid/ArrowsLeftRightToLine.md) |
+| ![illustration of fontawesome/Solid/ArrowsRotate](../../fontawesome/Solid/ArrowsRotate.png) | [fontawesome/Solid/ArrowsRotate](../../fontawesome/Solid/ArrowsRotate.md) |
+| ![illustration of fontawesome/Solid/ArrowsSpin](../../fontawesome/Solid/ArrowsSpin.png) | [fontawesome/Solid/ArrowsSpin](../../fontawesome/Solid/ArrowsSpin.md) |
+| ![illustration of fontawesome/Solid/ArrowsSplitUpAndLeft](../../fontawesome/Solid/ArrowsSplitUpAndLeft.png) | [fontawesome/Solid/ArrowsSplitUpAndLeft](../../fontawesome/Solid/ArrowsSplitUpAndLeft.md) |
+| ![illustration of fontawesome/Solid/ArrowsToCircle](../../fontawesome/Solid/ArrowsToCircle.png) | [fontawesome/Solid/ArrowsToCircle](../../fontawesome/Solid/ArrowsToCircle.md) |
+| ![illustration of fontawesome/Solid/ArrowsToDot](../../fontawesome/Solid/ArrowsToDot.png) | [fontawesome/Solid/ArrowsToDot](../../fontawesome/Solid/ArrowsToDot.md) |
+| ![illustration of fontawesome/Solid/ArrowsToEye](../../fontawesome/Solid/ArrowsToEye.png) | [fontawesome/Solid/ArrowsToEye](../../fontawesome/Solid/ArrowsToEye.md) |
+| ![illustration of fontawesome/Solid/ArrowsTurnRight](../../fontawesome/Solid/ArrowsTurnRight.png) | [fontawesome/Solid/ArrowsTurnRight](../../fontawesome/Solid/ArrowsTurnRight.md) |
+| ![illustration of fontawesome/Solid/ArrowsTurnToDots](../../fontawesome/Solid/ArrowsTurnToDots.png) | [fontawesome/Solid/ArrowsTurnToDots](../../fontawesome/Solid/ArrowsTurnToDots.md) |
+| ![illustration of fontawesome/Solid/ArrowsUpDown](../../fontawesome/Solid/ArrowsUpDown.png) | [fontawesome/Solid/ArrowsUpDown](../../fontawesome/Solid/ArrowsUpDown.md) |
+| ![illustration of fontawesome/Solid/ArrowsUpDownLeftRight](../../fontawesome/Solid/ArrowsUpDownLeftRight.png) | [fontawesome/Solid/ArrowsUpDownLeftRight](../../fontawesome/Solid/ArrowsUpDownLeftRight.md) |
+| ![illustration of fontawesome/Solid/ArrowsUpToLine](../../fontawesome/Solid/ArrowsUpToLine.png) | [fontawesome/Solid/ArrowsUpToLine](../../fontawesome/Solid/ArrowsUpToLine.md) |
+| ![illustration of fontawesome/Solid/Asterisk](../../fontawesome/Solid/Asterisk.png) | [fontawesome/Solid/Asterisk](../../fontawesome/Solid/Asterisk.md) |
+| ![illustration of fontawesome/Solid/At](../../fontawesome/Solid/At.png) | [fontawesome/Solid/At](../../fontawesome/Solid/At.md) |
+| ![illustration of fontawesome/Solid/Atom](../../fontawesome/Solid/Atom.png) | [fontawesome/Solid/Atom](../../fontawesome/Solid/Atom.md) |
+| ![illustration of fontawesome/Solid/AudioDescription](../../fontawesome/Solid/AudioDescription.png) | [fontawesome/Solid/AudioDescription](../../fontawesome/Solid/AudioDescription.md) |
+| ![illustration of fontawesome/Solid/AustralSign](../../fontawesome/Solid/AustralSign.png) | [fontawesome/Solid/AustralSign](../../fontawesome/Solid/AustralSign.md) |
+| ![illustration of fontawesome/Solid/Award](../../fontawesome/Solid/Award.png) | [fontawesome/Solid/Award](../../fontawesome/Solid/Award.md) |
+
+<span id="family-b"></span>
+## B
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/B](../../fontawesome/Solid/B.png) | [fontawesome/Solid/B](../../fontawesome/Solid/B.md) |
+| ![illustration of fontawesome/Solid/Baby](../../fontawesome/Solid/Baby.png) | [fontawesome/Solid/Baby](../../fontawesome/Solid/Baby.md) |
+| ![illustration of fontawesome/Solid/BabyCarriage](../../fontawesome/Solid/BabyCarriage.png) | [fontawesome/Solid/BabyCarriage](../../fontawesome/Solid/BabyCarriage.md) |
+| ![illustration of fontawesome/Solid/Backward](../../fontawesome/Solid/Backward.png) | [fontawesome/Solid/Backward](../../fontawesome/Solid/Backward.md) |
+| ![illustration of fontawesome/Solid/BackwardFast](../../fontawesome/Solid/BackwardFast.png) | [fontawesome/Solid/BackwardFast](../../fontawesome/Solid/BackwardFast.md) |
+| ![illustration of fontawesome/Solid/BackwardStep](../../fontawesome/Solid/BackwardStep.png) | [fontawesome/Solid/BackwardStep](../../fontawesome/Solid/BackwardStep.md) |
+| ![illustration of fontawesome/Solid/Bacon](../../fontawesome/Solid/Bacon.png) | [fontawesome/Solid/Bacon](../../fontawesome/Solid/Bacon.md) |
+| ![illustration of fontawesome/Solid/Bacteria](../../fontawesome/Solid/Bacteria.png) | [fontawesome/Solid/Bacteria](../../fontawesome/Solid/Bacteria.md) |
+| ![illustration of fontawesome/Solid/Bacterium](../../fontawesome/Solid/Bacterium.png) | [fontawesome/Solid/Bacterium](../../fontawesome/Solid/Bacterium.md) |
+| ![illustration of fontawesome/Solid/BagShopping](../../fontawesome/Solid/BagShopping.png) | [fontawesome/Solid/BagShopping](../../fontawesome/Solid/BagShopping.md) |
+| ![illustration of fontawesome/Solid/Bahai](../../fontawesome/Solid/Bahai.png) | [fontawesome/Solid/Bahai](../../fontawesome/Solid/Bahai.md) |
+| ![illustration of fontawesome/Solid/BahtSign](../../fontawesome/Solid/BahtSign.png) | [fontawesome/Solid/BahtSign](../../fontawesome/Solid/BahtSign.md) |
+| ![illustration of fontawesome/Solid/Ban](../../fontawesome/Solid/Ban.png) | [fontawesome/Solid/Ban](../../fontawesome/Solid/Ban.md) |
+| ![illustration of fontawesome/Solid/BanSmoking](../../fontawesome/Solid/BanSmoking.png) | [fontawesome/Solid/BanSmoking](../../fontawesome/Solid/BanSmoking.md) |
+| ![illustration of fontawesome/Solid/Bandage](../../fontawesome/Solid/Bandage.png) | [fontawesome/Solid/Bandage](../../fontawesome/Solid/Bandage.md) |
+| ![illustration of fontawesome/Solid/BangladeshiTakaSign](../../fontawesome/Solid/BangladeshiTakaSign.png) | [fontawesome/Solid/BangladeshiTakaSign](../../fontawesome/Solid/BangladeshiTakaSign.md) |
+| ![illustration of fontawesome/Solid/Barcode](../../fontawesome/Solid/Barcode.png) | [fontawesome/Solid/Barcode](../../fontawesome/Solid/Barcode.md) |
+| ![illustration of fontawesome/Solid/Bars](../../fontawesome/Solid/Bars.png) | [fontawesome/Solid/Bars](../../fontawesome/Solid/Bars.md) |
+| ![illustration of fontawesome/Solid/BarsProgress](../../fontawesome/Solid/BarsProgress.png) | [fontawesome/Solid/BarsProgress](../../fontawesome/Solid/BarsProgress.md) |
+| ![illustration of fontawesome/Solid/BarsStaggered](../../fontawesome/Solid/BarsStaggered.png) | [fontawesome/Solid/BarsStaggered](../../fontawesome/Solid/BarsStaggered.md) |
+| ![illustration of fontawesome/Solid/Baseball](../../fontawesome/Solid/Baseball.png) | [fontawesome/Solid/Baseball](../../fontawesome/Solid/Baseball.md) |
+| ![illustration of fontawesome/Solid/BaseballBatBall](../../fontawesome/Solid/BaseballBatBall.png) | [fontawesome/Solid/BaseballBatBall](../../fontawesome/Solid/BaseballBatBall.md) |
+| ![illustration of fontawesome/Solid/BasketShopping](../../fontawesome/Solid/BasketShopping.png) | [fontawesome/Solid/BasketShopping](../../fontawesome/Solid/BasketShopping.md) |
+| ![illustration of fontawesome/Solid/Basketball](../../fontawesome/Solid/Basketball.png) | [fontawesome/Solid/Basketball](../../fontawesome/Solid/Basketball.md) |
+| ![illustration of fontawesome/Solid/Bath](../../fontawesome/Solid/Bath.png) | [fontawesome/Solid/Bath](../../fontawesome/Solid/Bath.md) |
+| ![illustration of fontawesome/Solid/BatteryEmpty](../../fontawesome/Solid/BatteryEmpty.png) | [fontawesome/Solid/BatteryEmpty](../../fontawesome/Solid/BatteryEmpty.md) |
+| ![illustration of fontawesome/Solid/BatteryFull](../../fontawesome/Solid/BatteryFull.png) | [fontawesome/Solid/BatteryFull](../../fontawesome/Solid/BatteryFull.md) |
+| ![illustration of fontawesome/Solid/BatteryHalf](../../fontawesome/Solid/BatteryHalf.png) | [fontawesome/Solid/BatteryHalf](../../fontawesome/Solid/BatteryHalf.md) |
+| ![illustration of fontawesome/Solid/BatteryQuarter](../../fontawesome/Solid/BatteryQuarter.png) | [fontawesome/Solid/BatteryQuarter](../../fontawesome/Solid/BatteryQuarter.md) |
+| ![illustration of fontawesome/Solid/BatteryThreeQuarters](../../fontawesome/Solid/BatteryThreeQuarters.png) | [fontawesome/Solid/BatteryThreeQuarters](../../fontawesome/Solid/BatteryThreeQuarters.md) |
+| ![illustration of fontawesome/Solid/Bed](../../fontawesome/Solid/Bed.png) | [fontawesome/Solid/Bed](../../fontawesome/Solid/Bed.md) |
+| ![illustration of fontawesome/Solid/BedPulse](../../fontawesome/Solid/BedPulse.png) | [fontawesome/Solid/BedPulse](../../fontawesome/Solid/BedPulse.md) |
+| ![illustration of fontawesome/Solid/BeerMugEmpty](../../fontawesome/Solid/BeerMugEmpty.png) | [fontawesome/Solid/BeerMugEmpty](../../fontawesome/Solid/BeerMugEmpty.md) |
+| ![illustration of fontawesome/Solid/Bell](../../fontawesome/Solid/Bell.png) | [fontawesome/Solid/Bell](../../fontawesome/Solid/Bell.md) |
+| ![illustration of fontawesome/Solid/BellConcierge](../../fontawesome/Solid/BellConcierge.png) | [fontawesome/Solid/BellConcierge](../../fontawesome/Solid/BellConcierge.md) |
+| ![illustration of fontawesome/Solid/BellSlash](../../fontawesome/Solid/BellSlash.png) | [fontawesome/Solid/BellSlash](../../fontawesome/Solid/BellSlash.md) |
+| ![illustration of fontawesome/Solid/BezierCurve](../../fontawesome/Solid/BezierCurve.png) | [fontawesome/Solid/BezierCurve](../../fontawesome/Solid/BezierCurve.md) |
+| ![illustration of fontawesome/Solid/Bicycle](../../fontawesome/Solid/Bicycle.png) | [fontawesome/Solid/Bicycle](../../fontawesome/Solid/Bicycle.md) |
+| ![illustration of fontawesome/Solid/Binoculars](../../fontawesome/Solid/Binoculars.png) | [fontawesome/Solid/Binoculars](../../fontawesome/Solid/Binoculars.md) |
+| ![illustration of fontawesome/Solid/Biohazard](../../fontawesome/Solid/Biohazard.png) | [fontawesome/Solid/Biohazard](../../fontawesome/Solid/Biohazard.md) |
+| ![illustration of fontawesome/Solid/BitcoinSign](../../fontawesome/Solid/BitcoinSign.png) | [fontawesome/Solid/BitcoinSign](../../fontawesome/Solid/BitcoinSign.md) |
+| ![illustration of fontawesome/Solid/Blender](../../fontawesome/Solid/Blender.png) | [fontawesome/Solid/Blender](../../fontawesome/Solid/Blender.md) |
+| ![illustration of fontawesome/Solid/BlenderPhone](../../fontawesome/Solid/BlenderPhone.png) | [fontawesome/Solid/BlenderPhone](../../fontawesome/Solid/BlenderPhone.md) |
+| ![illustration of fontawesome/Solid/Blog](../../fontawesome/Solid/Blog.png) | [fontawesome/Solid/Blog](../../fontawesome/Solid/Blog.md) |
+| ![illustration of fontawesome/Solid/Bold](../../fontawesome/Solid/Bold.png) | [fontawesome/Solid/Bold](../../fontawesome/Solid/Bold.md) |
+| ![illustration of fontawesome/Solid/Bolt](../../fontawesome/Solid/Bolt.png) | [fontawesome/Solid/Bolt](../../fontawesome/Solid/Bolt.md) |
+| ![illustration of fontawesome/Solid/BoltLightning](../../fontawesome/Solid/BoltLightning.png) | [fontawesome/Solid/BoltLightning](../../fontawesome/Solid/BoltLightning.md) |
+| ![illustration of fontawesome/Solid/Bomb](../../fontawesome/Solid/Bomb.png) | [fontawesome/Solid/Bomb](../../fontawesome/Solid/Bomb.md) |
+| ![illustration of fontawesome/Solid/Bone](../../fontawesome/Solid/Bone.png) | [fontawesome/Solid/Bone](../../fontawesome/Solid/Bone.md) |
+| ![illustration of fontawesome/Solid/Bong](../../fontawesome/Solid/Bong.png) | [fontawesome/Solid/Bong](../../fontawesome/Solid/Bong.md) |
+| ![illustration of fontawesome/Solid/Book](../../fontawesome/Solid/Book.png) | [fontawesome/Solid/Book](../../fontawesome/Solid/Book.md) |
+| ![illustration of fontawesome/Solid/BookAtlas](../../fontawesome/Solid/BookAtlas.png) | [fontawesome/Solid/BookAtlas](../../fontawesome/Solid/BookAtlas.md) |
+| ![illustration of fontawesome/Solid/BookBible](../../fontawesome/Solid/BookBible.png) | [fontawesome/Solid/BookBible](../../fontawesome/Solid/BookBible.md) |
+| ![illustration of fontawesome/Solid/BookBookmark](../../fontawesome/Solid/BookBookmark.png) | [fontawesome/Solid/BookBookmark](../../fontawesome/Solid/BookBookmark.md) |
+| ![illustration of fontawesome/Solid/BookJournalWhills](../../fontawesome/Solid/BookJournalWhills.png) | [fontawesome/Solid/BookJournalWhills](../../fontawesome/Solid/BookJournalWhills.md) |
+| ![illustration of fontawesome/Solid/BookMedical](../../fontawesome/Solid/BookMedical.png) | [fontawesome/Solid/BookMedical](../../fontawesome/Solid/BookMedical.md) |
+| ![illustration of fontawesome/Solid/BookOpen](../../fontawesome/Solid/BookOpen.png) | [fontawesome/Solid/BookOpen](../../fontawesome/Solid/BookOpen.md) |
+| ![illustration of fontawesome/Solid/BookOpenReader](../../fontawesome/Solid/BookOpenReader.png) | [fontawesome/Solid/BookOpenReader](../../fontawesome/Solid/BookOpenReader.md) |
+| ![illustration of fontawesome/Solid/BookQuran](../../fontawesome/Solid/BookQuran.png) | [fontawesome/Solid/BookQuran](../../fontawesome/Solid/BookQuran.md) |
+| ![illustration of fontawesome/Solid/BookSkull](../../fontawesome/Solid/BookSkull.png) | [fontawesome/Solid/BookSkull](../../fontawesome/Solid/BookSkull.md) |
+| ![illustration of fontawesome/Solid/BookTanakh](../../fontawesome/Solid/BookTanakh.png) | [fontawesome/Solid/BookTanakh](../../fontawesome/Solid/BookTanakh.md) |
+| ![illustration of fontawesome/Solid/Bookmark](../../fontawesome/Solid/Bookmark.png) | [fontawesome/Solid/Bookmark](../../fontawesome/Solid/Bookmark.md) |
+| ![illustration of fontawesome/Solid/BorderAll](../../fontawesome/Solid/BorderAll.png) | [fontawesome/Solid/BorderAll](../../fontawesome/Solid/BorderAll.md) |
+| ![illustration of fontawesome/Solid/BorderNone](../../fontawesome/Solid/BorderNone.png) | [fontawesome/Solid/BorderNone](../../fontawesome/Solid/BorderNone.md) |
+| ![illustration of fontawesome/Solid/BorderTopLeft](../../fontawesome/Solid/BorderTopLeft.png) | [fontawesome/Solid/BorderTopLeft](../../fontawesome/Solid/BorderTopLeft.md) |
+| ![illustration of fontawesome/Solid/BoreHole](../../fontawesome/Solid/BoreHole.png) | [fontawesome/Solid/BoreHole](../../fontawesome/Solid/BoreHole.md) |
+| ![illustration of fontawesome/Solid/BottleDroplet](../../fontawesome/Solid/BottleDroplet.png) | [fontawesome/Solid/BottleDroplet](../../fontawesome/Solid/BottleDroplet.md) |
+| ![illustration of fontawesome/Solid/BottleWater](../../fontawesome/Solid/BottleWater.png) | [fontawesome/Solid/BottleWater](../../fontawesome/Solid/BottleWater.md) |
+| ![illustration of fontawesome/Solid/BowlFood](../../fontawesome/Solid/BowlFood.png) | [fontawesome/Solid/BowlFood](../../fontawesome/Solid/BowlFood.md) |
+| ![illustration of fontawesome/Solid/BowlRice](../../fontawesome/Solid/BowlRice.png) | [fontawesome/Solid/BowlRice](../../fontawesome/Solid/BowlRice.md) |
+| ![illustration of fontawesome/Solid/BowlingBall](../../fontawesome/Solid/BowlingBall.png) | [fontawesome/Solid/BowlingBall](../../fontawesome/Solid/BowlingBall.md) |
+| ![illustration of fontawesome/Solid/Box](../../fontawesome/Solid/Box.png) | [fontawesome/Solid/Box](../../fontawesome/Solid/Box.md) |
+| ![illustration of fontawesome/Solid/BoxArchive](../../fontawesome/Solid/BoxArchive.png) | [fontawesome/Solid/BoxArchive](../../fontawesome/Solid/BoxArchive.md) |
+| ![illustration of fontawesome/Solid/BoxOpen](../../fontawesome/Solid/BoxOpen.png) | [fontawesome/Solid/BoxOpen](../../fontawesome/Solid/BoxOpen.md) |
+| ![illustration of fontawesome/Solid/BoxTissue](../../fontawesome/Solid/BoxTissue.png) | [fontawesome/Solid/BoxTissue](../../fontawesome/Solid/BoxTissue.md) |
+| ![illustration of fontawesome/Solid/BoxesPacking](../../fontawesome/Solid/BoxesPacking.png) | [fontawesome/Solid/BoxesPacking](../../fontawesome/Solid/BoxesPacking.md) |
+| ![illustration of fontawesome/Solid/BoxesStacked](../../fontawesome/Solid/BoxesStacked.png) | [fontawesome/Solid/BoxesStacked](../../fontawesome/Solid/BoxesStacked.md) |
+| ![illustration of fontawesome/Solid/Braille](../../fontawesome/Solid/Braille.png) | [fontawesome/Solid/Braille](../../fontawesome/Solid/Braille.md) |
+| ![illustration of fontawesome/Solid/Brain](../../fontawesome/Solid/Brain.png) | [fontawesome/Solid/Brain](../../fontawesome/Solid/Brain.md) |
+| ![illustration of fontawesome/Solid/BrazilianRealSign](../../fontawesome/Solid/BrazilianRealSign.png) | [fontawesome/Solid/BrazilianRealSign](../../fontawesome/Solid/BrazilianRealSign.md) |
+| ![illustration of fontawesome/Solid/BreadSlice](../../fontawesome/Solid/BreadSlice.png) | [fontawesome/Solid/BreadSlice](../../fontawesome/Solid/BreadSlice.md) |
+| ![illustration of fontawesome/Solid/Bridge](../../fontawesome/Solid/Bridge.png) | [fontawesome/Solid/Bridge](../../fontawesome/Solid/Bridge.md) |
+| ![illustration of fontawesome/Solid/BridgeCircleCheck](../../fontawesome/Solid/BridgeCircleCheck.png) | [fontawesome/Solid/BridgeCircleCheck](../../fontawesome/Solid/BridgeCircleCheck.md) |
+| ![illustration of fontawesome/Solid/BridgeCircleExclamation](../../fontawesome/Solid/BridgeCircleExclamation.png) | [fontawesome/Solid/BridgeCircleExclamation](../../fontawesome/Solid/BridgeCircleExclamation.md) |
+| ![illustration of fontawesome/Solid/BridgeCircleXmark](../../fontawesome/Solid/BridgeCircleXmark.png) | [fontawesome/Solid/BridgeCircleXmark](../../fontawesome/Solid/BridgeCircleXmark.md) |
+| ![illustration of fontawesome/Solid/BridgeLock](../../fontawesome/Solid/BridgeLock.png) | [fontawesome/Solid/BridgeLock](../../fontawesome/Solid/BridgeLock.md) |
+| ![illustration of fontawesome/Solid/BridgeWater](../../fontawesome/Solid/BridgeWater.png) | [fontawesome/Solid/BridgeWater](../../fontawesome/Solid/BridgeWater.md) |
+| ![illustration of fontawesome/Solid/Briefcase](../../fontawesome/Solid/Briefcase.png) | [fontawesome/Solid/Briefcase](../../fontawesome/Solid/Briefcase.md) |
+| ![illustration of fontawesome/Solid/BriefcaseMedical](../../fontawesome/Solid/BriefcaseMedical.png) | [fontawesome/Solid/BriefcaseMedical](../../fontawesome/Solid/BriefcaseMedical.md) |
+| ![illustration of fontawesome/Solid/Broom](../../fontawesome/Solid/Broom.png) | [fontawesome/Solid/Broom](../../fontawesome/Solid/Broom.md) |
+| ![illustration of fontawesome/Solid/BroomBall](../../fontawesome/Solid/BroomBall.png) | [fontawesome/Solid/BroomBall](../../fontawesome/Solid/BroomBall.md) |
+| ![illustration of fontawesome/Solid/Brush](../../fontawesome/Solid/Brush.png) | [fontawesome/Solid/Brush](../../fontawesome/Solid/Brush.md) |
+| ![illustration of fontawesome/Solid/Bucket](../../fontawesome/Solid/Bucket.png) | [fontawesome/Solid/Bucket](../../fontawesome/Solid/Bucket.md) |
+| ![illustration of fontawesome/Solid/Bug](../../fontawesome/Solid/Bug.png) | [fontawesome/Solid/Bug](../../fontawesome/Solid/Bug.md) |
+| ![illustration of fontawesome/Solid/BugSlash](../../fontawesome/Solid/BugSlash.png) | [fontawesome/Solid/BugSlash](../../fontawesome/Solid/BugSlash.md) |
+| ![illustration of fontawesome/Solid/Bugs](../../fontawesome/Solid/Bugs.png) | [fontawesome/Solid/Bugs](../../fontawesome/Solid/Bugs.md) |
+| ![illustration of fontawesome/Solid/Building](../../fontawesome/Solid/Building.png) | [fontawesome/Solid/Building](../../fontawesome/Solid/Building.md) |
+| ![illustration of fontawesome/Solid/BuildingCircleArrowRight](../../fontawesome/Solid/BuildingCircleArrowRight.png) | [fontawesome/Solid/BuildingCircleArrowRight](../../fontawesome/Solid/BuildingCircleArrowRight.md) |
+| ![illustration of fontawesome/Solid/BuildingCircleCheck](../../fontawesome/Solid/BuildingCircleCheck.png) | [fontawesome/Solid/BuildingCircleCheck](../../fontawesome/Solid/BuildingCircleCheck.md) |
+| ![illustration of fontawesome/Solid/BuildingCircleExclamation](../../fontawesome/Solid/BuildingCircleExclamation.png) | [fontawesome/Solid/BuildingCircleExclamation](../../fontawesome/Solid/BuildingCircleExclamation.md) |
+| ![illustration of fontawesome/Solid/BuildingCircleXmark](../../fontawesome/Solid/BuildingCircleXmark.png) | [fontawesome/Solid/BuildingCircleXmark](../../fontawesome/Solid/BuildingCircleXmark.md) |
+| ![illustration of fontawesome/Solid/BuildingColumns](../../fontawesome/Solid/BuildingColumns.png) | [fontawesome/Solid/BuildingColumns](../../fontawesome/Solid/BuildingColumns.md) |
+| ![illustration of fontawesome/Solid/BuildingFlag](../../fontawesome/Solid/BuildingFlag.png) | [fontawesome/Solid/BuildingFlag](../../fontawesome/Solid/BuildingFlag.md) |
+| ![illustration of fontawesome/Solid/BuildingLock](../../fontawesome/Solid/BuildingLock.png) | [fontawesome/Solid/BuildingLock](../../fontawesome/Solid/BuildingLock.md) |
+| ![illustration of fontawesome/Solid/BuildingNgo](../../fontawesome/Solid/BuildingNgo.png) | [fontawesome/Solid/BuildingNgo](../../fontawesome/Solid/BuildingNgo.md) |
+| ![illustration of fontawesome/Solid/BuildingShield](../../fontawesome/Solid/BuildingShield.png) | [fontawesome/Solid/BuildingShield](../../fontawesome/Solid/BuildingShield.md) |
+| ![illustration of fontawesome/Solid/BuildingUn](../../fontawesome/Solid/BuildingUn.png) | [fontawesome/Solid/BuildingUn](../../fontawesome/Solid/BuildingUn.md) |
+| ![illustration of fontawesome/Solid/BuildingUser](../../fontawesome/Solid/BuildingUser.png) | [fontawesome/Solid/BuildingUser](../../fontawesome/Solid/BuildingUser.md) |
+| ![illustration of fontawesome/Solid/BuildingWheat](../../fontawesome/Solid/BuildingWheat.png) | [fontawesome/Solid/BuildingWheat](../../fontawesome/Solid/BuildingWheat.md) |
+| ![illustration of fontawesome/Solid/Bullhorn](../../fontawesome/Solid/Bullhorn.png) | [fontawesome/Solid/Bullhorn](../../fontawesome/Solid/Bullhorn.md) |
+| ![illustration of fontawesome/Solid/Bullseye](../../fontawesome/Solid/Bullseye.png) | [fontawesome/Solid/Bullseye](../../fontawesome/Solid/Bullseye.md) |
+| ![illustration of fontawesome/Solid/Burger](../../fontawesome/Solid/Burger.png) | [fontawesome/Solid/Burger](../../fontawesome/Solid/Burger.md) |
+| ![illustration of fontawesome/Solid/Burst](../../fontawesome/Solid/Burst.png) | [fontawesome/Solid/Burst](../../fontawesome/Solid/Burst.md) |
+| ![illustration of fontawesome/Solid/Bus](../../fontawesome/Solid/Bus.png) | [fontawesome/Solid/Bus](../../fontawesome/Solid/Bus.md) |
+| ![illustration of fontawesome/Solid/BusSimple](../../fontawesome/Solid/BusSimple.png) | [fontawesome/Solid/BusSimple](../../fontawesome/Solid/BusSimple.md) |
+| ![illustration of fontawesome/Solid/BusinessTime](../../fontawesome/Solid/BusinessTime.png) | [fontawesome/Solid/BusinessTime](../../fontawesome/Solid/BusinessTime.md) |
+
+<span id="family-c"></span>
+## C
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/C](../../fontawesome/Solid/C.png) | [fontawesome/Solid/C](../../fontawesome/Solid/C.md) |
+| ![illustration of fontawesome/Solid/CableCar](../../fontawesome/Solid/CableCar.png) | [fontawesome/Solid/CableCar](../../fontawesome/Solid/CableCar.md) |
+| ![illustration of fontawesome/Solid/CakeCandles](../../fontawesome/Solid/CakeCandles.png) | [fontawesome/Solid/CakeCandles](../../fontawesome/Solid/CakeCandles.md) |
+| ![illustration of fontawesome/Solid/Calculator](../../fontawesome/Solid/Calculator.png) | [fontawesome/Solid/Calculator](../../fontawesome/Solid/Calculator.md) |
+| ![illustration of fontawesome/Solid/Calendar](../../fontawesome/Solid/Calendar.png) | [fontawesome/Solid/Calendar](../../fontawesome/Solid/Calendar.md) |
+| ![illustration of fontawesome/Solid/CalendarCheck](../../fontawesome/Solid/CalendarCheck.png) | [fontawesome/Solid/CalendarCheck](../../fontawesome/Solid/CalendarCheck.md) |
+| ![illustration of fontawesome/Solid/CalendarDay](../../fontawesome/Solid/CalendarDay.png) | [fontawesome/Solid/CalendarDay](../../fontawesome/Solid/CalendarDay.md) |
+| ![illustration of fontawesome/Solid/CalendarDays](../../fontawesome/Solid/CalendarDays.png) | [fontawesome/Solid/CalendarDays](../../fontawesome/Solid/CalendarDays.md) |
+| ![illustration of fontawesome/Solid/CalendarMinus](../../fontawesome/Solid/CalendarMinus.png) | [fontawesome/Solid/CalendarMinus](../../fontawesome/Solid/CalendarMinus.md) |
+| ![illustration of fontawesome/Solid/CalendarPlus](../../fontawesome/Solid/CalendarPlus.png) | [fontawesome/Solid/CalendarPlus](../../fontawesome/Solid/CalendarPlus.md) |
+| ![illustration of fontawesome/Solid/CalendarWeek](../../fontawesome/Solid/CalendarWeek.png) | [fontawesome/Solid/CalendarWeek](../../fontawesome/Solid/CalendarWeek.md) |
+| ![illustration of fontawesome/Solid/CalendarXmark](../../fontawesome/Solid/CalendarXmark.png) | [fontawesome/Solid/CalendarXmark](../../fontawesome/Solid/CalendarXmark.md) |
+| ![illustration of fontawesome/Solid/Camera](../../fontawesome/Solid/Camera.png) | [fontawesome/Solid/Camera](../../fontawesome/Solid/Camera.md) |
+| ![illustration of fontawesome/Solid/CameraRetro](../../fontawesome/Solid/CameraRetro.png) | [fontawesome/Solid/CameraRetro](../../fontawesome/Solid/CameraRetro.md) |
+| ![illustration of fontawesome/Solid/CameraRotate](../../fontawesome/Solid/CameraRotate.png) | [fontawesome/Solid/CameraRotate](../../fontawesome/Solid/CameraRotate.md) |
+| ![illustration of fontawesome/Solid/Campground](../../fontawesome/Solid/Campground.png) | [fontawesome/Solid/Campground](../../fontawesome/Solid/Campground.md) |
+| ![illustration of fontawesome/Solid/CandyCane](../../fontawesome/Solid/CandyCane.png) | [fontawesome/Solid/CandyCane](../../fontawesome/Solid/CandyCane.md) |
+| ![illustration of fontawesome/Solid/Cannabis](../../fontawesome/Solid/Cannabis.png) | [fontawesome/Solid/Cannabis](../../fontawesome/Solid/Cannabis.md) |
+| ![illustration of fontawesome/Solid/Capsules](../../fontawesome/Solid/Capsules.png) | [fontawesome/Solid/Capsules](../../fontawesome/Solid/Capsules.md) |
+| ![illustration of fontawesome/Solid/Car](../../fontawesome/Solid/Car.png) | [fontawesome/Solid/Car](../../fontawesome/Solid/Car.md) |
+| ![illustration of fontawesome/Solid/CarBattery](../../fontawesome/Solid/CarBattery.png) | [fontawesome/Solid/CarBattery](../../fontawesome/Solid/CarBattery.md) |
+| ![illustration of fontawesome/Solid/CarBurst](../../fontawesome/Solid/CarBurst.png) | [fontawesome/Solid/CarBurst](../../fontawesome/Solid/CarBurst.md) |
+| ![illustration of fontawesome/Solid/CarOn](../../fontawesome/Solid/CarOn.png) | [fontawesome/Solid/CarOn](../../fontawesome/Solid/CarOn.md) |
+| ![illustration of fontawesome/Solid/CarRear](../../fontawesome/Solid/CarRear.png) | [fontawesome/Solid/CarRear](../../fontawesome/Solid/CarRear.md) |
+| ![illustration of fontawesome/Solid/CarSide](../../fontawesome/Solid/CarSide.png) | [fontawesome/Solid/CarSide](../../fontawesome/Solid/CarSide.md) |
+| ![illustration of fontawesome/Solid/CarTunnel](../../fontawesome/Solid/CarTunnel.png) | [fontawesome/Solid/CarTunnel](../../fontawesome/Solid/CarTunnel.md) |
+| ![illustration of fontawesome/Solid/Caravan](../../fontawesome/Solid/Caravan.png) | [fontawesome/Solid/Caravan](../../fontawesome/Solid/Caravan.md) |
+| ![illustration of fontawesome/Solid/CaretDown](../../fontawesome/Solid/CaretDown.png) | [fontawesome/Solid/CaretDown](../../fontawesome/Solid/CaretDown.md) |
+| ![illustration of fontawesome/Solid/CaretLeft](../../fontawesome/Solid/CaretLeft.png) | [fontawesome/Solid/CaretLeft](../../fontawesome/Solid/CaretLeft.md) |
+| ![illustration of fontawesome/Solid/CaretRight](../../fontawesome/Solid/CaretRight.png) | [fontawesome/Solid/CaretRight](../../fontawesome/Solid/CaretRight.md) |
+| ![illustration of fontawesome/Solid/CaretUp](../../fontawesome/Solid/CaretUp.png) | [fontawesome/Solid/CaretUp](../../fontawesome/Solid/CaretUp.md) |
+| ![illustration of fontawesome/Solid/Carrot](../../fontawesome/Solid/Carrot.png) | [fontawesome/Solid/Carrot](../../fontawesome/Solid/Carrot.md) |
+| ![illustration of fontawesome/Solid/CartArrowDown](../../fontawesome/Solid/CartArrowDown.png) | [fontawesome/Solid/CartArrowDown](../../fontawesome/Solid/CartArrowDown.md) |
+| ![illustration of fontawesome/Solid/CartFlatbed](../../fontawesome/Solid/CartFlatbed.png) | [fontawesome/Solid/CartFlatbed](../../fontawesome/Solid/CartFlatbed.md) |
+| ![illustration of fontawesome/Solid/CartFlatbedSuitcase](../../fontawesome/Solid/CartFlatbedSuitcase.png) | [fontawesome/Solid/CartFlatbedSuitcase](../../fontawesome/Solid/CartFlatbedSuitcase.md) |
+| ![illustration of fontawesome/Solid/CartPlus](../../fontawesome/Solid/CartPlus.png) | [fontawesome/Solid/CartPlus](../../fontawesome/Solid/CartPlus.md) |
+| ![illustration of fontawesome/Solid/CartShopping](../../fontawesome/Solid/CartShopping.png) | [fontawesome/Solid/CartShopping](../../fontawesome/Solid/CartShopping.md) |
+| ![illustration of fontawesome/Solid/CashRegister](../../fontawesome/Solid/CashRegister.png) | [fontawesome/Solid/CashRegister](../../fontawesome/Solid/CashRegister.md) |
+| ![illustration of fontawesome/Solid/Cat](../../fontawesome/Solid/Cat.png) | [fontawesome/Solid/Cat](../../fontawesome/Solid/Cat.md) |
+| ![illustration of fontawesome/Solid/CediSign](../../fontawesome/Solid/CediSign.png) | [fontawesome/Solid/CediSign](../../fontawesome/Solid/CediSign.md) |
+| ![illustration of fontawesome/Solid/CentSign](../../fontawesome/Solid/CentSign.png) | [fontawesome/Solid/CentSign](../../fontawesome/Solid/CentSign.md) |
+| ![illustration of fontawesome/Solid/Certificate](../../fontawesome/Solid/Certificate.png) | [fontawesome/Solid/Certificate](../../fontawesome/Solid/Certificate.md) |
+| ![illustration of fontawesome/Solid/Chair](../../fontawesome/Solid/Chair.png) | [fontawesome/Solid/Chair](../../fontawesome/Solid/Chair.md) |
+| ![illustration of fontawesome/Solid/Chalkboard](../../fontawesome/Solid/Chalkboard.png) | [fontawesome/Solid/Chalkboard](../../fontawesome/Solid/Chalkboard.md) |
+| ![illustration of fontawesome/Solid/ChalkboardUser](../../fontawesome/Solid/ChalkboardUser.png) | [fontawesome/Solid/ChalkboardUser](../../fontawesome/Solid/ChalkboardUser.md) |
+| ![illustration of fontawesome/Solid/ChampagneGlasses](../../fontawesome/Solid/ChampagneGlasses.png) | [fontawesome/Solid/ChampagneGlasses](../../fontawesome/Solid/ChampagneGlasses.md) |
+| ![illustration of fontawesome/Solid/ChargingStation](../../fontawesome/Solid/ChargingStation.png) | [fontawesome/Solid/ChargingStation](../../fontawesome/Solid/ChargingStation.md) |
+| ![illustration of fontawesome/Solid/ChartArea](../../fontawesome/Solid/ChartArea.png) | [fontawesome/Solid/ChartArea](../../fontawesome/Solid/ChartArea.md) |
+| ![illustration of fontawesome/Solid/ChartBar](../../fontawesome/Solid/ChartBar.png) | [fontawesome/Solid/ChartBar](../../fontawesome/Solid/ChartBar.md) |
+| ![illustration of fontawesome/Solid/ChartColumn](../../fontawesome/Solid/ChartColumn.png) | [fontawesome/Solid/ChartColumn](../../fontawesome/Solid/ChartColumn.md) |
+| ![illustration of fontawesome/Solid/ChartGantt](../../fontawesome/Solid/ChartGantt.png) | [fontawesome/Solid/ChartGantt](../../fontawesome/Solid/ChartGantt.md) |
+| ![illustration of fontawesome/Solid/ChartLine](../../fontawesome/Solid/ChartLine.png) | [fontawesome/Solid/ChartLine](../../fontawesome/Solid/ChartLine.md) |
+| ![illustration of fontawesome/Solid/ChartPie](../../fontawesome/Solid/ChartPie.png) | [fontawesome/Solid/ChartPie](../../fontawesome/Solid/ChartPie.md) |
+| ![illustration of fontawesome/Solid/ChartSimple](../../fontawesome/Solid/ChartSimple.png) | [fontawesome/Solid/ChartSimple](../../fontawesome/Solid/ChartSimple.md) |
+| ![illustration of fontawesome/Solid/Check](../../fontawesome/Solid/Check.png) | [fontawesome/Solid/Check](../../fontawesome/Solid/Check.md) |
+| ![illustration of fontawesome/Solid/CheckDouble](../../fontawesome/Solid/CheckDouble.png) | [fontawesome/Solid/CheckDouble](../../fontawesome/Solid/CheckDouble.md) |
+| ![illustration of fontawesome/Solid/CheckToSlot](../../fontawesome/Solid/CheckToSlot.png) | [fontawesome/Solid/CheckToSlot](../../fontawesome/Solid/CheckToSlot.md) |
+| ![illustration of fontawesome/Solid/Cheese](../../fontawesome/Solid/Cheese.png) | [fontawesome/Solid/Cheese](../../fontawesome/Solid/Cheese.md) |
+| ![illustration of fontawesome/Solid/Chess](../../fontawesome/Solid/Chess.png) | [fontawesome/Solid/Chess](../../fontawesome/Solid/Chess.md) |
+| ![illustration of fontawesome/Solid/ChessBishop](../../fontawesome/Solid/ChessBishop.png) | [fontawesome/Solid/ChessBishop](../../fontawesome/Solid/ChessBishop.md) |
+| ![illustration of fontawesome/Solid/ChessBoard](../../fontawesome/Solid/ChessBoard.png) | [fontawesome/Solid/ChessBoard](../../fontawesome/Solid/ChessBoard.md) |
+| ![illustration of fontawesome/Solid/ChessKing](../../fontawesome/Solid/ChessKing.png) | [fontawesome/Solid/ChessKing](../../fontawesome/Solid/ChessKing.md) |
+| ![illustration of fontawesome/Solid/ChessKnight](../../fontawesome/Solid/ChessKnight.png) | [fontawesome/Solid/ChessKnight](../../fontawesome/Solid/ChessKnight.md) |
+| ![illustration of fontawesome/Solid/ChessPawn](../../fontawesome/Solid/ChessPawn.png) | [fontawesome/Solid/ChessPawn](../../fontawesome/Solid/ChessPawn.md) |
+| ![illustration of fontawesome/Solid/ChessQueen](../../fontawesome/Solid/ChessQueen.png) | [fontawesome/Solid/ChessQueen](../../fontawesome/Solid/ChessQueen.md) |
+| ![illustration of fontawesome/Solid/ChessRook](../../fontawesome/Solid/ChessRook.png) | [fontawesome/Solid/ChessRook](../../fontawesome/Solid/ChessRook.md) |
+| ![illustration of fontawesome/Solid/ChevronDown](../../fontawesome/Solid/ChevronDown.png) | [fontawesome/Solid/ChevronDown](../../fontawesome/Solid/ChevronDown.md) |
+| ![illustration of fontawesome/Solid/ChevronLeft](../../fontawesome/Solid/ChevronLeft.png) | [fontawesome/Solid/ChevronLeft](../../fontawesome/Solid/ChevronLeft.md) |
+| ![illustration of fontawesome/Solid/ChevronRight](../../fontawesome/Solid/ChevronRight.png) | [fontawesome/Solid/ChevronRight](../../fontawesome/Solid/ChevronRight.md) |
+| ![illustration of fontawesome/Solid/ChevronUp](../../fontawesome/Solid/ChevronUp.png) | [fontawesome/Solid/ChevronUp](../../fontawesome/Solid/ChevronUp.md) |
+| ![illustration of fontawesome/Solid/Child](../../fontawesome/Solid/Child.png) | [fontawesome/Solid/Child](../../fontawesome/Solid/Child.md) |
+| ![illustration of fontawesome/Solid/ChildCombatant](../../fontawesome/Solid/ChildCombatant.png) | [fontawesome/Solid/ChildCombatant](../../fontawesome/Solid/ChildCombatant.md) |
+| ![illustration of fontawesome/Solid/ChildDress](../../fontawesome/Solid/ChildDress.png) | [fontawesome/Solid/ChildDress](../../fontawesome/Solid/ChildDress.md) |
+| ![illustration of fontawesome/Solid/ChildReaching](../../fontawesome/Solid/ChildReaching.png) | [fontawesome/Solid/ChildReaching](../../fontawesome/Solid/ChildReaching.md) |
+| ![illustration of fontawesome/Solid/Children](../../fontawesome/Solid/Children.png) | [fontawesome/Solid/Children](../../fontawesome/Solid/Children.md) |
+| ![illustration of fontawesome/Solid/Church](../../fontawesome/Solid/Church.png) | [fontawesome/Solid/Church](../../fontawesome/Solid/Church.md) |
+| ![illustration of fontawesome/Solid/Circle](../../fontawesome/Solid/Circle.png) | [fontawesome/Solid/Circle](../../fontawesome/Solid/Circle.md) |
+| ![illustration of fontawesome/Solid/CircleArrowDown](../../fontawesome/Solid/CircleArrowDown.png) | [fontawesome/Solid/CircleArrowDown](../../fontawesome/Solid/CircleArrowDown.md) |
+| ![illustration of fontawesome/Solid/CircleArrowLeft](../../fontawesome/Solid/CircleArrowLeft.png) | [fontawesome/Solid/CircleArrowLeft](../../fontawesome/Solid/CircleArrowLeft.md) |
+| ![illustration of fontawesome/Solid/CircleArrowRight](../../fontawesome/Solid/CircleArrowRight.png) | [fontawesome/Solid/CircleArrowRight](../../fontawesome/Solid/CircleArrowRight.md) |
+| ![illustration of fontawesome/Solid/CircleArrowUp](../../fontawesome/Solid/CircleArrowUp.png) | [fontawesome/Solid/CircleArrowUp](../../fontawesome/Solid/CircleArrowUp.md) |
+| ![illustration of fontawesome/Solid/CircleCheck](../../fontawesome/Solid/CircleCheck.png) | [fontawesome/Solid/CircleCheck](../../fontawesome/Solid/CircleCheck.md) |
+| ![illustration of fontawesome/Solid/CircleChevronDown](../../fontawesome/Solid/CircleChevronDown.png) | [fontawesome/Solid/CircleChevronDown](../../fontawesome/Solid/CircleChevronDown.md) |
+| ![illustration of fontawesome/Solid/CircleChevronLeft](../../fontawesome/Solid/CircleChevronLeft.png) | [fontawesome/Solid/CircleChevronLeft](../../fontawesome/Solid/CircleChevronLeft.md) |
+| ![illustration of fontawesome/Solid/CircleChevronRight](../../fontawesome/Solid/CircleChevronRight.png) | [fontawesome/Solid/CircleChevronRight](../../fontawesome/Solid/CircleChevronRight.md) |
+| ![illustration of fontawesome/Solid/CircleChevronUp](../../fontawesome/Solid/CircleChevronUp.png) | [fontawesome/Solid/CircleChevronUp](../../fontawesome/Solid/CircleChevronUp.md) |
+| ![illustration of fontawesome/Solid/CircleDollarToSlot](../../fontawesome/Solid/CircleDollarToSlot.png) | [fontawesome/Solid/CircleDollarToSlot](../../fontawesome/Solid/CircleDollarToSlot.md) |
+| ![illustration of fontawesome/Solid/CircleDot](../../fontawesome/Solid/CircleDot.png) | [fontawesome/Solid/CircleDot](../../fontawesome/Solid/CircleDot.md) |
+| ![illustration of fontawesome/Solid/CircleDown](../../fontawesome/Solid/CircleDown.png) | [fontawesome/Solid/CircleDown](../../fontawesome/Solid/CircleDown.md) |
+| ![illustration of fontawesome/Solid/CircleExclamation](../../fontawesome/Solid/CircleExclamation.png) | [fontawesome/Solid/CircleExclamation](../../fontawesome/Solid/CircleExclamation.md) |
+| ![illustration of fontawesome/Solid/CircleH](../../fontawesome/Solid/CircleH.png) | [fontawesome/Solid/CircleH](../../fontawesome/Solid/CircleH.md) |
+| ![illustration of fontawesome/Solid/CircleHalfStroke](../../fontawesome/Solid/CircleHalfStroke.png) | [fontawesome/Solid/CircleHalfStroke](../../fontawesome/Solid/CircleHalfStroke.md) |
+| ![illustration of fontawesome/Solid/CircleInfo](../../fontawesome/Solid/CircleInfo.png) | [fontawesome/Solid/CircleInfo](../../fontawesome/Solid/CircleInfo.md) |
+| ![illustration of fontawesome/Solid/CircleLeft](../../fontawesome/Solid/CircleLeft.png) | [fontawesome/Solid/CircleLeft](../../fontawesome/Solid/CircleLeft.md) |
+| ![illustration of fontawesome/Solid/CircleMinus](../../fontawesome/Solid/CircleMinus.png) | [fontawesome/Solid/CircleMinus](../../fontawesome/Solid/CircleMinus.md) |
+| ![illustration of fontawesome/Solid/CircleNodes](../../fontawesome/Solid/CircleNodes.png) | [fontawesome/Solid/CircleNodes](../../fontawesome/Solid/CircleNodes.md) |
+| ![illustration of fontawesome/Solid/CircleNotch](../../fontawesome/Solid/CircleNotch.png) | [fontawesome/Solid/CircleNotch](../../fontawesome/Solid/CircleNotch.md) |
+| ![illustration of fontawesome/Solid/CirclePause](../../fontawesome/Solid/CirclePause.png) | [fontawesome/Solid/CirclePause](../../fontawesome/Solid/CirclePause.md) |
+| ![illustration of fontawesome/Solid/CirclePlay](../../fontawesome/Solid/CirclePlay.png) | [fontawesome/Solid/CirclePlay](../../fontawesome/Solid/CirclePlay.md) |
+| ![illustration of fontawesome/Solid/CirclePlus](../../fontawesome/Solid/CirclePlus.png) | [fontawesome/Solid/CirclePlus](../../fontawesome/Solid/CirclePlus.md) |
+| ![illustration of fontawesome/Solid/CircleQuestion](../../fontawesome/Solid/CircleQuestion.png) | [fontawesome/Solid/CircleQuestion](../../fontawesome/Solid/CircleQuestion.md) |
+| ![illustration of fontawesome/Solid/CircleRadiation](../../fontawesome/Solid/CircleRadiation.png) | [fontawesome/Solid/CircleRadiation](../../fontawesome/Solid/CircleRadiation.md) |
+| ![illustration of fontawesome/Solid/CircleRight](../../fontawesome/Solid/CircleRight.png) | [fontawesome/Solid/CircleRight](../../fontawesome/Solid/CircleRight.md) |
+| ![illustration of fontawesome/Solid/CircleStop](../../fontawesome/Solid/CircleStop.png) | [fontawesome/Solid/CircleStop](../../fontawesome/Solid/CircleStop.md) |
+| ![illustration of fontawesome/Solid/CircleUp](../../fontawesome/Solid/CircleUp.png) | [fontawesome/Solid/CircleUp](../../fontawesome/Solid/CircleUp.md) |
+| ![illustration of fontawesome/Solid/CircleUser](../../fontawesome/Solid/CircleUser.png) | [fontawesome/Solid/CircleUser](../../fontawesome/Solid/CircleUser.md) |
+| ![illustration of fontawesome/Solid/CircleXmark](../../fontawesome/Solid/CircleXmark.png) | [fontawesome/Solid/CircleXmark](../../fontawesome/Solid/CircleXmark.md) |
+| ![illustration of fontawesome/Solid/City](../../fontawesome/Solid/City.png) | [fontawesome/Solid/City](../../fontawesome/Solid/City.md) |
+| ![illustration of fontawesome/Solid/Clapperboard](../../fontawesome/Solid/Clapperboard.png) | [fontawesome/Solid/Clapperboard](../../fontawesome/Solid/Clapperboard.md) |
+| ![illustration of fontawesome/Solid/Clipboard](../../fontawesome/Solid/Clipboard.png) | [fontawesome/Solid/Clipboard](../../fontawesome/Solid/Clipboard.md) |
+| ![illustration of fontawesome/Solid/ClipboardCheck](../../fontawesome/Solid/ClipboardCheck.png) | [fontawesome/Solid/ClipboardCheck](../../fontawesome/Solid/ClipboardCheck.md) |
+| ![illustration of fontawesome/Solid/ClipboardList](../../fontawesome/Solid/ClipboardList.png) | [fontawesome/Solid/ClipboardList](../../fontawesome/Solid/ClipboardList.md) |
+| ![illustration of fontawesome/Solid/ClipboardQuestion](../../fontawesome/Solid/ClipboardQuestion.png) | [fontawesome/Solid/ClipboardQuestion](../../fontawesome/Solid/ClipboardQuestion.md) |
+| ![illustration of fontawesome/Solid/ClipboardUser](../../fontawesome/Solid/ClipboardUser.png) | [fontawesome/Solid/ClipboardUser](../../fontawesome/Solid/ClipboardUser.md) |
+| ![illustration of fontawesome/Solid/Clock](../../fontawesome/Solid/Clock.png) | [fontawesome/Solid/Clock](../../fontawesome/Solid/Clock.md) |
+| ![illustration of fontawesome/Solid/ClockRotateLeft](../../fontawesome/Solid/ClockRotateLeft.png) | [fontawesome/Solid/ClockRotateLeft](../../fontawesome/Solid/ClockRotateLeft.md) |
+| ![illustration of fontawesome/Solid/Clone](../../fontawesome/Solid/Clone.png) | [fontawesome/Solid/Clone](../../fontawesome/Solid/Clone.md) |
+| ![illustration of fontawesome/Solid/ClosedCaptioning](../../fontawesome/Solid/ClosedCaptioning.png) | [fontawesome/Solid/ClosedCaptioning](../../fontawesome/Solid/ClosedCaptioning.md) |
+| ![illustration of fontawesome/Solid/Cloud](../../fontawesome/Solid/Cloud.png) | [fontawesome/Solid/Cloud](../../fontawesome/Solid/Cloud.md) |
+| ![illustration of fontawesome/Solid/CloudArrowDown](../../fontawesome/Solid/CloudArrowDown.png) | [fontawesome/Solid/CloudArrowDown](../../fontawesome/Solid/CloudArrowDown.md) |
+| ![illustration of fontawesome/Solid/CloudArrowUp](../../fontawesome/Solid/CloudArrowUp.png) | [fontawesome/Solid/CloudArrowUp](../../fontawesome/Solid/CloudArrowUp.md) |
+| ![illustration of fontawesome/Solid/CloudBolt](../../fontawesome/Solid/CloudBolt.png) | [fontawesome/Solid/CloudBolt](../../fontawesome/Solid/CloudBolt.md) |
+| ![illustration of fontawesome/Solid/CloudMeatball](../../fontawesome/Solid/CloudMeatball.png) | [fontawesome/Solid/CloudMeatball](../../fontawesome/Solid/CloudMeatball.md) |
+| ![illustration of fontawesome/Solid/CloudMoon](../../fontawesome/Solid/CloudMoon.png) | [fontawesome/Solid/CloudMoon](../../fontawesome/Solid/CloudMoon.md) |
+| ![illustration of fontawesome/Solid/CloudMoonRain](../../fontawesome/Solid/CloudMoonRain.png) | [fontawesome/Solid/CloudMoonRain](../../fontawesome/Solid/CloudMoonRain.md) |
+| ![illustration of fontawesome/Solid/CloudRain](../../fontawesome/Solid/CloudRain.png) | [fontawesome/Solid/CloudRain](../../fontawesome/Solid/CloudRain.md) |
+| ![illustration of fontawesome/Solid/CloudShowersHeavy](../../fontawesome/Solid/CloudShowersHeavy.png) | [fontawesome/Solid/CloudShowersHeavy](../../fontawesome/Solid/CloudShowersHeavy.md) |
+| ![illustration of fontawesome/Solid/CloudShowersWater](../../fontawesome/Solid/CloudShowersWater.png) | [fontawesome/Solid/CloudShowersWater](../../fontawesome/Solid/CloudShowersWater.md) |
+| ![illustration of fontawesome/Solid/CloudSun](../../fontawesome/Solid/CloudSun.png) | [fontawesome/Solid/CloudSun](../../fontawesome/Solid/CloudSun.md) |
+| ![illustration of fontawesome/Solid/CloudSunRain](../../fontawesome/Solid/CloudSunRain.png) | [fontawesome/Solid/CloudSunRain](../../fontawesome/Solid/CloudSunRain.md) |
+| ![illustration of fontawesome/Solid/Clover](../../fontawesome/Solid/Clover.png) | [fontawesome/Solid/Clover](../../fontawesome/Solid/Clover.md) |
+| ![illustration of fontawesome/Solid/Code](../../fontawesome/Solid/Code.png) | [fontawesome/Solid/Code](../../fontawesome/Solid/Code.md) |
+| ![illustration of fontawesome/Solid/CodeBranch](../../fontawesome/Solid/CodeBranch.png) | [fontawesome/Solid/CodeBranch](../../fontawesome/Solid/CodeBranch.md) |
+| ![illustration of fontawesome/Solid/CodeCommit](../../fontawesome/Solid/CodeCommit.png) | [fontawesome/Solid/CodeCommit](../../fontawesome/Solid/CodeCommit.md) |
+| ![illustration of fontawesome/Solid/CodeCompare](../../fontawesome/Solid/CodeCompare.png) | [fontawesome/Solid/CodeCompare](../../fontawesome/Solid/CodeCompare.md) |
+| ![illustration of fontawesome/Solid/CodeFork](../../fontawesome/Solid/CodeFork.png) | [fontawesome/Solid/CodeFork](../../fontawesome/Solid/CodeFork.md) |
+| ![illustration of fontawesome/Solid/CodeMerge](../../fontawesome/Solid/CodeMerge.png) | [fontawesome/Solid/CodeMerge](../../fontawesome/Solid/CodeMerge.md) |
+| ![illustration of fontawesome/Solid/CodePullRequest](../../fontawesome/Solid/CodePullRequest.png) | [fontawesome/Solid/CodePullRequest](../../fontawesome/Solid/CodePullRequest.md) |
+| ![illustration of fontawesome/Solid/Coins](../../fontawesome/Solid/Coins.png) | [fontawesome/Solid/Coins](../../fontawesome/Solid/Coins.md) |
+| ![illustration of fontawesome/Solid/ColonSign](../../fontawesome/Solid/ColonSign.png) | [fontawesome/Solid/ColonSign](../../fontawesome/Solid/ColonSign.md) |
+| ![illustration of fontawesome/Solid/Comment](../../fontawesome/Solid/Comment.png) | [fontawesome/Solid/Comment](../../fontawesome/Solid/Comment.md) |
+| ![illustration of fontawesome/Solid/CommentDollar](../../fontawesome/Solid/CommentDollar.png) | [fontawesome/Solid/CommentDollar](../../fontawesome/Solid/CommentDollar.md) |
+| ![illustration of fontawesome/Solid/CommentDots](../../fontawesome/Solid/CommentDots.png) | [fontawesome/Solid/CommentDots](../../fontawesome/Solid/CommentDots.md) |
+| ![illustration of fontawesome/Solid/CommentMedical](../../fontawesome/Solid/CommentMedical.png) | [fontawesome/Solid/CommentMedical](../../fontawesome/Solid/CommentMedical.md) |
+| ![illustration of fontawesome/Solid/CommentSlash](../../fontawesome/Solid/CommentSlash.png) | [fontawesome/Solid/CommentSlash](../../fontawesome/Solid/CommentSlash.md) |
+| ![illustration of fontawesome/Solid/CommentSms](../../fontawesome/Solid/CommentSms.png) | [fontawesome/Solid/CommentSms](../../fontawesome/Solid/CommentSms.md) |
+| ![illustration of fontawesome/Solid/Comments](../../fontawesome/Solid/Comments.png) | [fontawesome/Solid/Comments](../../fontawesome/Solid/Comments.md) |
+| ![illustration of fontawesome/Solid/CommentsDollar](../../fontawesome/Solid/CommentsDollar.png) | [fontawesome/Solid/CommentsDollar](../../fontawesome/Solid/CommentsDollar.md) |
+| ![illustration of fontawesome/Solid/CompactDisc](../../fontawesome/Solid/CompactDisc.png) | [fontawesome/Solid/CompactDisc](../../fontawesome/Solid/CompactDisc.md) |
+| ![illustration of fontawesome/Solid/Compass](../../fontawesome/Solid/Compass.png) | [fontawesome/Solid/Compass](../../fontawesome/Solid/Compass.md) |
+| ![illustration of fontawesome/Solid/CompassDrafting](../../fontawesome/Solid/CompassDrafting.png) | [fontawesome/Solid/CompassDrafting](../../fontawesome/Solid/CompassDrafting.md) |
+| ![illustration of fontawesome/Solid/Compress](../../fontawesome/Solid/Compress.png) | [fontawesome/Solid/Compress](../../fontawesome/Solid/Compress.md) |
+| ![illustration of fontawesome/Solid/Computer](../../fontawesome/Solid/Computer.png) | [fontawesome/Solid/Computer](../../fontawesome/Solid/Computer.md) |
+| ![illustration of fontawesome/Solid/ComputerMouse](../../fontawesome/Solid/ComputerMouse.png) | [fontawesome/Solid/ComputerMouse](../../fontawesome/Solid/ComputerMouse.md) |
+| ![illustration of fontawesome/Solid/Cookie](../../fontawesome/Solid/Cookie.png) | [fontawesome/Solid/Cookie](../../fontawesome/Solid/Cookie.md) |
+| ![illustration of fontawesome/Solid/CookieBite](../../fontawesome/Solid/CookieBite.png) | [fontawesome/Solid/CookieBite](../../fontawesome/Solid/CookieBite.md) |
+| ![illustration of fontawesome/Solid/Copy](../../fontawesome/Solid/Copy.png) | [fontawesome/Solid/Copy](../../fontawesome/Solid/Copy.md) |
+| ![illustration of fontawesome/Solid/Copyright](../../fontawesome/Solid/Copyright.png) | [fontawesome/Solid/Copyright](../../fontawesome/Solid/Copyright.md) |
+| ![illustration of fontawesome/Solid/Couch](../../fontawesome/Solid/Couch.png) | [fontawesome/Solid/Couch](../../fontawesome/Solid/Couch.md) |
+| ![illustration of fontawesome/Solid/Cow](../../fontawesome/Solid/Cow.png) | [fontawesome/Solid/Cow](../../fontawesome/Solid/Cow.md) |
+| ![illustration of fontawesome/Solid/CreditCard](../../fontawesome/Solid/CreditCard.png) | [fontawesome/Solid/CreditCard](../../fontawesome/Solid/CreditCard.md) |
+| ![illustration of fontawesome/Solid/Crop](../../fontawesome/Solid/Crop.png) | [fontawesome/Solid/Crop](../../fontawesome/Solid/Crop.md) |
+| ![illustration of fontawesome/Solid/CropSimple](../../fontawesome/Solid/CropSimple.png) | [fontawesome/Solid/CropSimple](../../fontawesome/Solid/CropSimple.md) |
+| ![illustration of fontawesome/Solid/Cross](../../fontawesome/Solid/Cross.png) | [fontawesome/Solid/Cross](../../fontawesome/Solid/Cross.md) |
+| ![illustration of fontawesome/Solid/Crosshairs](../../fontawesome/Solid/Crosshairs.png) | [fontawesome/Solid/Crosshairs](../../fontawesome/Solid/Crosshairs.md) |
+| ![illustration of fontawesome/Solid/Crow](../../fontawesome/Solid/Crow.png) | [fontawesome/Solid/Crow](../../fontawesome/Solid/Crow.md) |
+| ![illustration of fontawesome/Solid/Crown](../../fontawesome/Solid/Crown.png) | [fontawesome/Solid/Crown](../../fontawesome/Solid/Crown.md) |
+| ![illustration of fontawesome/Solid/Crutch](../../fontawesome/Solid/Crutch.png) | [fontawesome/Solid/Crutch](../../fontawesome/Solid/Crutch.md) |
+| ![illustration of fontawesome/Solid/CruzeiroSign](../../fontawesome/Solid/CruzeiroSign.png) | [fontawesome/Solid/CruzeiroSign](../../fontawesome/Solid/CruzeiroSign.md) |
+| ![illustration of fontawesome/Solid/Cube](../../fontawesome/Solid/Cube.png) | [fontawesome/Solid/Cube](../../fontawesome/Solid/Cube.md) |
+| ![illustration of fontawesome/Solid/Cubes](../../fontawesome/Solid/Cubes.png) | [fontawesome/Solid/Cubes](../../fontawesome/Solid/Cubes.md) |
+| ![illustration of fontawesome/Solid/CubesStacked](../../fontawesome/Solid/CubesStacked.png) | [fontawesome/Solid/CubesStacked](../../fontawesome/Solid/CubesStacked.md) |
+
+<span id="family-d"></span>
+## D
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/D](../../fontawesome/Solid/D.png) | [fontawesome/Solid/D](../../fontawesome/Solid/D.md) |
+| ![illustration of fontawesome/Solid/Database](../../fontawesome/Solid/Database.png) | [fontawesome/Solid/Database](../../fontawesome/Solid/Database.md) |
+| ![illustration of fontawesome/Solid/DeleteLeft](../../fontawesome/Solid/DeleteLeft.png) | [fontawesome/Solid/DeleteLeft](../../fontawesome/Solid/DeleteLeft.md) |
+| ![illustration of fontawesome/Solid/Democrat](../../fontawesome/Solid/Democrat.png) | [fontawesome/Solid/Democrat](../../fontawesome/Solid/Democrat.md) |
+| ![illustration of fontawesome/Solid/Desktop](../../fontawesome/Solid/Desktop.png) | [fontawesome/Solid/Desktop](../../fontawesome/Solid/Desktop.md) |
+| ![illustration of fontawesome/Solid/Dharmachakra](../../fontawesome/Solid/Dharmachakra.png) | [fontawesome/Solid/Dharmachakra](../../fontawesome/Solid/Dharmachakra.md) |
+| ![illustration of fontawesome/Solid/DiagramNext](../../fontawesome/Solid/DiagramNext.png) | [fontawesome/Solid/DiagramNext](../../fontawesome/Solid/DiagramNext.md) |
+| ![illustration of fontawesome/Solid/DiagramPredecessor](../../fontawesome/Solid/DiagramPredecessor.png) | [fontawesome/Solid/DiagramPredecessor](../../fontawesome/Solid/DiagramPredecessor.md) |
+| ![illustration of fontawesome/Solid/DiagramProject](../../fontawesome/Solid/DiagramProject.png) | [fontawesome/Solid/DiagramProject](../../fontawesome/Solid/DiagramProject.md) |
+| ![illustration of fontawesome/Solid/DiagramSuccessor](../../fontawesome/Solid/DiagramSuccessor.png) | [fontawesome/Solid/DiagramSuccessor](../../fontawesome/Solid/DiagramSuccessor.md) |
+| ![illustration of fontawesome/Solid/Diamond](../../fontawesome/Solid/Diamond.png) | [fontawesome/Solid/Diamond](../../fontawesome/Solid/Diamond.md) |
+| ![illustration of fontawesome/Solid/DiamondTurnRight](../../fontawesome/Solid/DiamondTurnRight.png) | [fontawesome/Solid/DiamondTurnRight](../../fontawesome/Solid/DiamondTurnRight.md) |
+| ![illustration of fontawesome/Solid/Dice](../../fontawesome/Solid/Dice.png) | [fontawesome/Solid/Dice](../../fontawesome/Solid/Dice.md) |
+| ![illustration of fontawesome/Solid/DiceD20](../../fontawesome/Solid/DiceD20.png) | [fontawesome/Solid/DiceD20](../../fontawesome/Solid/DiceD20.md) |
+| ![illustration of fontawesome/Solid/DiceD6](../../fontawesome/Solid/DiceD6.png) | [fontawesome/Solid/DiceD6](../../fontawesome/Solid/DiceD6.md) |
+| ![illustration of fontawesome/Solid/DiceFive](../../fontawesome/Solid/DiceFive.png) | [fontawesome/Solid/DiceFive](../../fontawesome/Solid/DiceFive.md) |
+| ![illustration of fontawesome/Solid/DiceFour](../../fontawesome/Solid/DiceFour.png) | [fontawesome/Solid/DiceFour](../../fontawesome/Solid/DiceFour.md) |
+| ![illustration of fontawesome/Solid/DiceOne](../../fontawesome/Solid/DiceOne.png) | [fontawesome/Solid/DiceOne](../../fontawesome/Solid/DiceOne.md) |
+| ![illustration of fontawesome/Solid/DiceSix](../../fontawesome/Solid/DiceSix.png) | [fontawesome/Solid/DiceSix](../../fontawesome/Solid/DiceSix.md) |
+| ![illustration of fontawesome/Solid/DiceThree](../../fontawesome/Solid/DiceThree.png) | [fontawesome/Solid/DiceThree](../../fontawesome/Solid/DiceThree.md) |
+| ![illustration of fontawesome/Solid/DiceTwo](../../fontawesome/Solid/DiceTwo.png) | [fontawesome/Solid/DiceTwo](../../fontawesome/Solid/DiceTwo.md) |
+| ![illustration of fontawesome/Solid/Disease](../../fontawesome/Solid/Disease.png) | [fontawesome/Solid/Disease](../../fontawesome/Solid/Disease.md) |
+| ![illustration of fontawesome/Solid/Display](../../fontawesome/Solid/Display.png) | [fontawesome/Solid/Display](../../fontawesome/Solid/Display.md) |
+| ![illustration of fontawesome/Solid/Divide](../../fontawesome/Solid/Divide.png) | [fontawesome/Solid/Divide](../../fontawesome/Solid/Divide.md) |
+| ![illustration of fontawesome/Solid/Dna](../../fontawesome/Solid/Dna.png) | [fontawesome/Solid/Dna](../../fontawesome/Solid/Dna.md) |
+| ![illustration of fontawesome/Solid/Dog](../../fontawesome/Solid/Dog.png) | [fontawesome/Solid/Dog](../../fontawesome/Solid/Dog.md) |
+| ![illustration of fontawesome/Solid/DollarSign](../../fontawesome/Solid/DollarSign.png) | [fontawesome/Solid/DollarSign](../../fontawesome/Solid/DollarSign.md) |
+| ![illustration of fontawesome/Solid/Dolly](../../fontawesome/Solid/Dolly.png) | [fontawesome/Solid/Dolly](../../fontawesome/Solid/Dolly.md) |
+| ![illustration of fontawesome/Solid/DongSign](../../fontawesome/Solid/DongSign.png) | [fontawesome/Solid/DongSign](../../fontawesome/Solid/DongSign.md) |
+| ![illustration of fontawesome/Solid/DoorClosed](../../fontawesome/Solid/DoorClosed.png) | [fontawesome/Solid/DoorClosed](../../fontawesome/Solid/DoorClosed.md) |
+| ![illustration of fontawesome/Solid/DoorOpen](../../fontawesome/Solid/DoorOpen.png) | [fontawesome/Solid/DoorOpen](../../fontawesome/Solid/DoorOpen.md) |
+| ![illustration of fontawesome/Solid/Dove](../../fontawesome/Solid/Dove.png) | [fontawesome/Solid/Dove](../../fontawesome/Solid/Dove.md) |
+| ![illustration of fontawesome/Solid/DownLeftAndUpRightToCenter](../../fontawesome/Solid/DownLeftAndUpRightToCenter.png) | [fontawesome/Solid/DownLeftAndUpRightToCenter](../../fontawesome/Solid/DownLeftAndUpRightToCenter.md) |
+| ![illustration of fontawesome/Solid/DownLong](../../fontawesome/Solid/DownLong.png) | [fontawesome/Solid/DownLong](../../fontawesome/Solid/DownLong.md) |
+| ![illustration of fontawesome/Solid/Download](../../fontawesome/Solid/Download.png) | [fontawesome/Solid/Download](../../fontawesome/Solid/Download.md) |
+| ![illustration of fontawesome/Solid/Dragon](../../fontawesome/Solid/Dragon.png) | [fontawesome/Solid/Dragon](../../fontawesome/Solid/Dragon.md) |
+| ![illustration of fontawesome/Solid/DrawPolygon](../../fontawesome/Solid/DrawPolygon.png) | [fontawesome/Solid/DrawPolygon](../../fontawesome/Solid/DrawPolygon.md) |
+| ![illustration of fontawesome/Solid/Droplet](../../fontawesome/Solid/Droplet.png) | [fontawesome/Solid/Droplet](../../fontawesome/Solid/Droplet.md) |
+| ![illustration of fontawesome/Solid/DropletSlash](../../fontawesome/Solid/DropletSlash.png) | [fontawesome/Solid/DropletSlash](../../fontawesome/Solid/DropletSlash.md) |
+| ![illustration of fontawesome/Solid/Drum](../../fontawesome/Solid/Drum.png) | [fontawesome/Solid/Drum](../../fontawesome/Solid/Drum.md) |
+| ![illustration of fontawesome/Solid/DrumSteelpan](../../fontawesome/Solid/DrumSteelpan.png) | [fontawesome/Solid/DrumSteelpan](../../fontawesome/Solid/DrumSteelpan.md) |
+| ![illustration of fontawesome/Solid/DrumstickBite](../../fontawesome/Solid/DrumstickBite.png) | [fontawesome/Solid/DrumstickBite](../../fontawesome/Solid/DrumstickBite.md) |
+| ![illustration of fontawesome/Solid/Dumbbell](../../fontawesome/Solid/Dumbbell.png) | [fontawesome/Solid/Dumbbell](../../fontawesome/Solid/Dumbbell.md) |
+| ![illustration of fontawesome/Solid/Dumpster](../../fontawesome/Solid/Dumpster.png) | [fontawesome/Solid/Dumpster](../../fontawesome/Solid/Dumpster.md) |
+| ![illustration of fontawesome/Solid/DumpsterFire](../../fontawesome/Solid/DumpsterFire.png) | [fontawesome/Solid/DumpsterFire](../../fontawesome/Solid/DumpsterFire.md) |
+| ![illustration of fontawesome/Solid/Dungeon](../../fontawesome/Solid/Dungeon.png) | [fontawesome/Solid/Dungeon](../../fontawesome/Solid/Dungeon.md) |
+
+<span id="family-e"></span>
+## E
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/E](../../fontawesome/Solid/E.png) | [fontawesome/Solid/E](../../fontawesome/Solid/E.md) |
+| ![illustration of fontawesome/Solid/EarDeaf](../../fontawesome/Solid/EarDeaf.png) | [fontawesome/Solid/EarDeaf](../../fontawesome/Solid/EarDeaf.md) |
+| ![illustration of fontawesome/Solid/EarListen](../../fontawesome/Solid/EarListen.png) | [fontawesome/Solid/EarListen](../../fontawesome/Solid/EarListen.md) |
+| ![illustration of fontawesome/Solid/EarthAfrica](../../fontawesome/Solid/EarthAfrica.png) | [fontawesome/Solid/EarthAfrica](../../fontawesome/Solid/EarthAfrica.md) |
+| ![illustration of fontawesome/Solid/EarthAmericas](../../fontawesome/Solid/EarthAmericas.png) | [fontawesome/Solid/EarthAmericas](../../fontawesome/Solid/EarthAmericas.md) |
+| ![illustration of fontawesome/Solid/EarthAsia](../../fontawesome/Solid/EarthAsia.png) | [fontawesome/Solid/EarthAsia](../../fontawesome/Solid/EarthAsia.md) |
+| ![illustration of fontawesome/Solid/EarthEurope](../../fontawesome/Solid/EarthEurope.png) | [fontawesome/Solid/EarthEurope](../../fontawesome/Solid/EarthEurope.md) |
+| ![illustration of fontawesome/Solid/EarthOceania](../../fontawesome/Solid/EarthOceania.png) | [fontawesome/Solid/EarthOceania](../../fontawesome/Solid/EarthOceania.md) |
+| ![illustration of fontawesome/Solid/Egg](../../fontawesome/Solid/Egg.png) | [fontawesome/Solid/Egg](../../fontawesome/Solid/Egg.md) |
+| ![illustration of fontawesome/Solid/Eject](../../fontawesome/Solid/Eject.png) | [fontawesome/Solid/Eject](../../fontawesome/Solid/Eject.md) |
+| ![illustration of fontawesome/Solid/Elevator](../../fontawesome/Solid/Elevator.png) | [fontawesome/Solid/Elevator](../../fontawesome/Solid/Elevator.md) |
+| ![illustration of fontawesome/Solid/Ellipsis](../../fontawesome/Solid/Ellipsis.png) | [fontawesome/Solid/Ellipsis](../../fontawesome/Solid/Ellipsis.md) |
+| ![illustration of fontawesome/Solid/EllipsisVertical](../../fontawesome/Solid/EllipsisVertical.png) | [fontawesome/Solid/EllipsisVertical](../../fontawesome/Solid/EllipsisVertical.md) |
+| ![illustration of fontawesome/Solid/Envelope](../../fontawesome/Solid/Envelope.png) | [fontawesome/Solid/Envelope](../../fontawesome/Solid/Envelope.md) |
+| ![illustration of fontawesome/Solid/EnvelopeCircleCheck](../../fontawesome/Solid/EnvelopeCircleCheck.png) | [fontawesome/Solid/EnvelopeCircleCheck](../../fontawesome/Solid/EnvelopeCircleCheck.md) |
+| ![illustration of fontawesome/Solid/EnvelopeOpen](../../fontawesome/Solid/EnvelopeOpen.png) | [fontawesome/Solid/EnvelopeOpen](../../fontawesome/Solid/EnvelopeOpen.md) |
+| ![illustration of fontawesome/Solid/EnvelopeOpenText](../../fontawesome/Solid/EnvelopeOpenText.png) | [fontawesome/Solid/EnvelopeOpenText](../../fontawesome/Solid/EnvelopeOpenText.md) |
+| ![illustration of fontawesome/Solid/EnvelopesBulk](../../fontawesome/Solid/EnvelopesBulk.png) | [fontawesome/Solid/EnvelopesBulk](../../fontawesome/Solid/EnvelopesBulk.md) |
+| ![illustration of fontawesome/Solid/Equals](../../fontawesome/Solid/Equals.png) | [fontawesome/Solid/Equals](../../fontawesome/Solid/Equals.md) |
+| ![illustration of fontawesome/Solid/Eraser](../../fontawesome/Solid/Eraser.png) | [fontawesome/Solid/Eraser](../../fontawesome/Solid/Eraser.md) |
+| ![illustration of fontawesome/Solid/Ethernet](../../fontawesome/Solid/Ethernet.png) | [fontawesome/Solid/Ethernet](../../fontawesome/Solid/Ethernet.md) |
+| ![illustration of fontawesome/Solid/EuroSign](../../fontawesome/Solid/EuroSign.png) | [fontawesome/Solid/EuroSign](../../fontawesome/Solid/EuroSign.md) |
+| ![illustration of fontawesome/Solid/Exclamation](../../fontawesome/Solid/Exclamation.png) | [fontawesome/Solid/Exclamation](../../fontawesome/Solid/Exclamation.md) |
+| ![illustration of fontawesome/Solid/Expand](../../fontawesome/Solid/Expand.png) | [fontawesome/Solid/Expand](../../fontawesome/Solid/Expand.md) |
+| ![illustration of fontawesome/Solid/Explosion](../../fontawesome/Solid/Explosion.png) | [fontawesome/Solid/Explosion](../../fontawesome/Solid/Explosion.md) |
+| ![illustration of fontawesome/Solid/Eye](../../fontawesome/Solid/Eye.png) | [fontawesome/Solid/Eye](../../fontawesome/Solid/Eye.md) |
+| ![illustration of fontawesome/Solid/EyeDropper](../../fontawesome/Solid/EyeDropper.png) | [fontawesome/Solid/EyeDropper](../../fontawesome/Solid/EyeDropper.md) |
+| ![illustration of fontawesome/Solid/EyeLowVision](../../fontawesome/Solid/EyeLowVision.png) | [fontawesome/Solid/EyeLowVision](../../fontawesome/Solid/EyeLowVision.md) |
+| ![illustration of fontawesome/Solid/EyeSlash](../../fontawesome/Solid/EyeSlash.png) | [fontawesome/Solid/EyeSlash](../../fontawesome/Solid/EyeSlash.md) |
+
+<span id="family-f"></span>
+## F
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/F](../../fontawesome/Solid/F.png) | [fontawesome/Solid/F](../../fontawesome/Solid/F.md) |
+| ![illustration of fontawesome/Solid/FaceAngry](../../fontawesome/Solid/FaceAngry.png) | [fontawesome/Solid/FaceAngry](../../fontawesome/Solid/FaceAngry.md) |
+| ![illustration of fontawesome/Solid/FaceDizzy](../../fontawesome/Solid/FaceDizzy.png) | [fontawesome/Solid/FaceDizzy](../../fontawesome/Solid/FaceDizzy.md) |
+| ![illustration of fontawesome/Solid/FaceFlushed](../../fontawesome/Solid/FaceFlushed.png) | [fontawesome/Solid/FaceFlushed](../../fontawesome/Solid/FaceFlushed.md) |
+| ![illustration of fontawesome/Solid/FaceFrown](../../fontawesome/Solid/FaceFrown.png) | [fontawesome/Solid/FaceFrown](../../fontawesome/Solid/FaceFrown.md) |
+| ![illustration of fontawesome/Solid/FaceFrownOpen](../../fontawesome/Solid/FaceFrownOpen.png) | [fontawesome/Solid/FaceFrownOpen](../../fontawesome/Solid/FaceFrownOpen.md) |
+| ![illustration of fontawesome/Solid/FaceGrimace](../../fontawesome/Solid/FaceGrimace.png) | [fontawesome/Solid/FaceGrimace](../../fontawesome/Solid/FaceGrimace.md) |
+| ![illustration of fontawesome/Solid/FaceGrin](../../fontawesome/Solid/FaceGrin.png) | [fontawesome/Solid/FaceGrin](../../fontawesome/Solid/FaceGrin.md) |
+| ![illustration of fontawesome/Solid/FaceGrinBeam](../../fontawesome/Solid/FaceGrinBeam.png) | [fontawesome/Solid/FaceGrinBeam](../../fontawesome/Solid/FaceGrinBeam.md) |
+| ![illustration of fontawesome/Solid/FaceGrinBeamSweat](../../fontawesome/Solid/FaceGrinBeamSweat.png) | [fontawesome/Solid/FaceGrinBeamSweat](../../fontawesome/Solid/FaceGrinBeamSweat.md) |
+| ![illustration of fontawesome/Solid/FaceGrinHearts](../../fontawesome/Solid/FaceGrinHearts.png) | [fontawesome/Solid/FaceGrinHearts](../../fontawesome/Solid/FaceGrinHearts.md) |
+| ![illustration of fontawesome/Solid/FaceGrinSquint](../../fontawesome/Solid/FaceGrinSquint.png) | [fontawesome/Solid/FaceGrinSquint](../../fontawesome/Solid/FaceGrinSquint.md) |
+| ![illustration of fontawesome/Solid/FaceGrinSquintTears](../../fontawesome/Solid/FaceGrinSquintTears.png) | [fontawesome/Solid/FaceGrinSquintTears](../../fontawesome/Solid/FaceGrinSquintTears.md) |
+| ![illustration of fontawesome/Solid/FaceGrinStars](../../fontawesome/Solid/FaceGrinStars.png) | [fontawesome/Solid/FaceGrinStars](../../fontawesome/Solid/FaceGrinStars.md) |
+| ![illustration of fontawesome/Solid/FaceGrinTears](../../fontawesome/Solid/FaceGrinTears.png) | [fontawesome/Solid/FaceGrinTears](../../fontawesome/Solid/FaceGrinTears.md) |
+| ![illustration of fontawesome/Solid/FaceGrinTongue](../../fontawesome/Solid/FaceGrinTongue.png) | [fontawesome/Solid/FaceGrinTongue](../../fontawesome/Solid/FaceGrinTongue.md) |
+| ![illustration of fontawesome/Solid/FaceGrinTongueSquint](../../fontawesome/Solid/FaceGrinTongueSquint.png) | [fontawesome/Solid/FaceGrinTongueSquint](../../fontawesome/Solid/FaceGrinTongueSquint.md) |
+| ![illustration of fontawesome/Solid/FaceGrinTongueWink](../../fontawesome/Solid/FaceGrinTongueWink.png) | [fontawesome/Solid/FaceGrinTongueWink](../../fontawesome/Solid/FaceGrinTongueWink.md) |
+| ![illustration of fontawesome/Solid/FaceGrinWide](../../fontawesome/Solid/FaceGrinWide.png) | [fontawesome/Solid/FaceGrinWide](../../fontawesome/Solid/FaceGrinWide.md) |
+| ![illustration of fontawesome/Solid/FaceGrinWink](../../fontawesome/Solid/FaceGrinWink.png) | [fontawesome/Solid/FaceGrinWink](../../fontawesome/Solid/FaceGrinWink.md) |
+| ![illustration of fontawesome/Solid/FaceKiss](../../fontawesome/Solid/FaceKiss.png) | [fontawesome/Solid/FaceKiss](../../fontawesome/Solid/FaceKiss.md) |
+| ![illustration of fontawesome/Solid/FaceKissBeam](../../fontawesome/Solid/FaceKissBeam.png) | [fontawesome/Solid/FaceKissBeam](../../fontawesome/Solid/FaceKissBeam.md) |
+| ![illustration of fontawesome/Solid/FaceKissWinkHeart](../../fontawesome/Solid/FaceKissWinkHeart.png) | [fontawesome/Solid/FaceKissWinkHeart](../../fontawesome/Solid/FaceKissWinkHeart.md) |
+| ![illustration of fontawesome/Solid/FaceLaugh](../../fontawesome/Solid/FaceLaugh.png) | [fontawesome/Solid/FaceLaugh](../../fontawesome/Solid/FaceLaugh.md) |
+| ![illustration of fontawesome/Solid/FaceLaughBeam](../../fontawesome/Solid/FaceLaughBeam.png) | [fontawesome/Solid/FaceLaughBeam](../../fontawesome/Solid/FaceLaughBeam.md) |
+| ![illustration of fontawesome/Solid/FaceLaughSquint](../../fontawesome/Solid/FaceLaughSquint.png) | [fontawesome/Solid/FaceLaughSquint](../../fontawesome/Solid/FaceLaughSquint.md) |
+| ![illustration of fontawesome/Solid/FaceLaughWink](../../fontawesome/Solid/FaceLaughWink.png) | [fontawesome/Solid/FaceLaughWink](../../fontawesome/Solid/FaceLaughWink.md) |
+| ![illustration of fontawesome/Solid/FaceMeh](../../fontawesome/Solid/FaceMeh.png) | [fontawesome/Solid/FaceMeh](../../fontawesome/Solid/FaceMeh.md) |
+| ![illustration of fontawesome/Solid/FaceMehBlank](../../fontawesome/Solid/FaceMehBlank.png) | [fontawesome/Solid/FaceMehBlank](../../fontawesome/Solid/FaceMehBlank.md) |
+| ![illustration of fontawesome/Solid/FaceRollingEyes](../../fontawesome/Solid/FaceRollingEyes.png) | [fontawesome/Solid/FaceRollingEyes](../../fontawesome/Solid/FaceRollingEyes.md) |
+| ![illustration of fontawesome/Solid/FaceSadCry](../../fontawesome/Solid/FaceSadCry.png) | [fontawesome/Solid/FaceSadCry](../../fontawesome/Solid/FaceSadCry.md) |
+| ![illustration of fontawesome/Solid/FaceSadTear](../../fontawesome/Solid/FaceSadTear.png) | [fontawesome/Solid/FaceSadTear](../../fontawesome/Solid/FaceSadTear.md) |
+| ![illustration of fontawesome/Solid/FaceSmile](../../fontawesome/Solid/FaceSmile.png) | [fontawesome/Solid/FaceSmile](../../fontawesome/Solid/FaceSmile.md) |
+| ![illustration of fontawesome/Solid/FaceSmileBeam](../../fontawesome/Solid/FaceSmileBeam.png) | [fontawesome/Solid/FaceSmileBeam](../../fontawesome/Solid/FaceSmileBeam.md) |
+| ![illustration of fontawesome/Solid/FaceSmileWink](../../fontawesome/Solid/FaceSmileWink.png) | [fontawesome/Solid/FaceSmileWink](../../fontawesome/Solid/FaceSmileWink.md) |
+| ![illustration of fontawesome/Solid/FaceSurprise](../../fontawesome/Solid/FaceSurprise.png) | [fontawesome/Solid/FaceSurprise](../../fontawesome/Solid/FaceSurprise.md) |
+| ![illustration of fontawesome/Solid/FaceTired](../../fontawesome/Solid/FaceTired.png) | [fontawesome/Solid/FaceTired](../../fontawesome/Solid/FaceTired.md) |
+| ![illustration of fontawesome/Solid/Fan](../../fontawesome/Solid/Fan.png) | [fontawesome/Solid/Fan](../../fontawesome/Solid/Fan.md) |
+| ![illustration of fontawesome/Solid/Faucet](../../fontawesome/Solid/Faucet.png) | [fontawesome/Solid/Faucet](../../fontawesome/Solid/Faucet.md) |
+| ![illustration of fontawesome/Solid/FaucetDrip](../../fontawesome/Solid/FaucetDrip.png) | [fontawesome/Solid/FaucetDrip](../../fontawesome/Solid/FaucetDrip.md) |
+| ![illustration of fontawesome/Solid/Fax](../../fontawesome/Solid/Fax.png) | [fontawesome/Solid/Fax](../../fontawesome/Solid/Fax.md) |
+| ![illustration of fontawesome/Solid/Feather](../../fontawesome/Solid/Feather.png) | [fontawesome/Solid/Feather](../../fontawesome/Solid/Feather.md) |
+| ![illustration of fontawesome/Solid/FeatherPointed](../../fontawesome/Solid/FeatherPointed.png) | [fontawesome/Solid/FeatherPointed](../../fontawesome/Solid/FeatherPointed.md) |
+| ![illustration of fontawesome/Solid/Ferry](../../fontawesome/Solid/Ferry.png) | [fontawesome/Solid/Ferry](../../fontawesome/Solid/Ferry.md) |
+| ![illustration of fontawesome/Solid/File](../../fontawesome/Solid/File.png) | [fontawesome/Solid/File](../../fontawesome/Solid/File.md) |
+| ![illustration of fontawesome/Solid/FileArrowDown](../../fontawesome/Solid/FileArrowDown.png) | [fontawesome/Solid/FileArrowDown](../../fontawesome/Solid/FileArrowDown.md) |
+| ![illustration of fontawesome/Solid/FileArrowUp](../../fontawesome/Solid/FileArrowUp.png) | [fontawesome/Solid/FileArrowUp](../../fontawesome/Solid/FileArrowUp.md) |
+| ![illustration of fontawesome/Solid/FileAudio](../../fontawesome/Solid/FileAudio.png) | [fontawesome/Solid/FileAudio](../../fontawesome/Solid/FileAudio.md) |
+| ![illustration of fontawesome/Solid/FileCircleCheck](../../fontawesome/Solid/FileCircleCheck.png) | [fontawesome/Solid/FileCircleCheck](../../fontawesome/Solid/FileCircleCheck.md) |
+| ![illustration of fontawesome/Solid/FileCircleExclamation](../../fontawesome/Solid/FileCircleExclamation.png) | [fontawesome/Solid/FileCircleExclamation](../../fontawesome/Solid/FileCircleExclamation.md) |
+| ![illustration of fontawesome/Solid/FileCircleMinus](../../fontawesome/Solid/FileCircleMinus.png) | [fontawesome/Solid/FileCircleMinus](../../fontawesome/Solid/FileCircleMinus.md) |
+| ![illustration of fontawesome/Solid/FileCirclePlus](../../fontawesome/Solid/FileCirclePlus.png) | [fontawesome/Solid/FileCirclePlus](../../fontawesome/Solid/FileCirclePlus.md) |
+| ![illustration of fontawesome/Solid/FileCircleQuestion](../../fontawesome/Solid/FileCircleQuestion.png) | [fontawesome/Solid/FileCircleQuestion](../../fontawesome/Solid/FileCircleQuestion.md) |
+| ![illustration of fontawesome/Solid/FileCircleXmark](../../fontawesome/Solid/FileCircleXmark.png) | [fontawesome/Solid/FileCircleXmark](../../fontawesome/Solid/FileCircleXmark.md) |
+| ![illustration of fontawesome/Solid/FileCode](../../fontawesome/Solid/FileCode.png) | [fontawesome/Solid/FileCode](../../fontawesome/Solid/FileCode.md) |
+| ![illustration of fontawesome/Solid/FileContract](../../fontawesome/Solid/FileContract.png) | [fontawesome/Solid/FileContract](../../fontawesome/Solid/FileContract.md) |
+| ![illustration of fontawesome/Solid/FileCsv](../../fontawesome/Solid/FileCsv.png) | [fontawesome/Solid/FileCsv](../../fontawesome/Solid/FileCsv.md) |
+| ![illustration of fontawesome/Solid/FileExcel](../../fontawesome/Solid/FileExcel.png) | [fontawesome/Solid/FileExcel](../../fontawesome/Solid/FileExcel.md) |
+| ![illustration of fontawesome/Solid/FileExport](../../fontawesome/Solid/FileExport.png) | [fontawesome/Solid/FileExport](../../fontawesome/Solid/FileExport.md) |
+| ![illustration of fontawesome/Solid/FileImage](../../fontawesome/Solid/FileImage.png) | [fontawesome/Solid/FileImage](../../fontawesome/Solid/FileImage.md) |
+| ![illustration of fontawesome/Solid/FileImport](../../fontawesome/Solid/FileImport.png) | [fontawesome/Solid/FileImport](../../fontawesome/Solid/FileImport.md) |
+| ![illustration of fontawesome/Solid/FileInvoice](../../fontawesome/Solid/FileInvoice.png) | [fontawesome/Solid/FileInvoice](../../fontawesome/Solid/FileInvoice.md) |
+| ![illustration of fontawesome/Solid/FileInvoiceDollar](../../fontawesome/Solid/FileInvoiceDollar.png) | [fontawesome/Solid/FileInvoiceDollar](../../fontawesome/Solid/FileInvoiceDollar.md) |
+| ![illustration of fontawesome/Solid/FileLines](../../fontawesome/Solid/FileLines.png) | [fontawesome/Solid/FileLines](../../fontawesome/Solid/FileLines.md) |
+| ![illustration of fontawesome/Solid/FileMedical](../../fontawesome/Solid/FileMedical.png) | [fontawesome/Solid/FileMedical](../../fontawesome/Solid/FileMedical.md) |
+| ![illustration of fontawesome/Solid/FilePdf](../../fontawesome/Solid/FilePdf.png) | [fontawesome/Solid/FilePdf](../../fontawesome/Solid/FilePdf.md) |
+| ![illustration of fontawesome/Solid/FilePen](../../fontawesome/Solid/FilePen.png) | [fontawesome/Solid/FilePen](../../fontawesome/Solid/FilePen.md) |
+| ![illustration of fontawesome/Solid/FilePowerpoint](../../fontawesome/Solid/FilePowerpoint.png) | [fontawesome/Solid/FilePowerpoint](../../fontawesome/Solid/FilePowerpoint.md) |
+| ![illustration of fontawesome/Solid/FilePrescription](../../fontawesome/Solid/FilePrescription.png) | [fontawesome/Solid/FilePrescription](../../fontawesome/Solid/FilePrescription.md) |
+| ![illustration of fontawesome/Solid/FileShield](../../fontawesome/Solid/FileShield.png) | [fontawesome/Solid/FileShield](../../fontawesome/Solid/FileShield.md) |
+| ![illustration of fontawesome/Solid/FileSignature](../../fontawesome/Solid/FileSignature.png) | [fontawesome/Solid/FileSignature](../../fontawesome/Solid/FileSignature.md) |
+| ![illustration of fontawesome/Solid/FileVideo](../../fontawesome/Solid/FileVideo.png) | [fontawesome/Solid/FileVideo](../../fontawesome/Solid/FileVideo.md) |
+| ![illustration of fontawesome/Solid/FileWaveform](../../fontawesome/Solid/FileWaveform.png) | [fontawesome/Solid/FileWaveform](../../fontawesome/Solid/FileWaveform.md) |
+| ![illustration of fontawesome/Solid/FileWord](../../fontawesome/Solid/FileWord.png) | [fontawesome/Solid/FileWord](../../fontawesome/Solid/FileWord.md) |
+| ![illustration of fontawesome/Solid/FileZipper](../../fontawesome/Solid/FileZipper.png) | [fontawesome/Solid/FileZipper](../../fontawesome/Solid/FileZipper.md) |
+| ![illustration of fontawesome/Solid/Fill](../../fontawesome/Solid/Fill.png) | [fontawesome/Solid/Fill](../../fontawesome/Solid/Fill.md) |
+| ![illustration of fontawesome/Solid/FillDrip](../../fontawesome/Solid/FillDrip.png) | [fontawesome/Solid/FillDrip](../../fontawesome/Solid/FillDrip.md) |
+| ![illustration of fontawesome/Solid/Film](../../fontawesome/Solid/Film.png) | [fontawesome/Solid/Film](../../fontawesome/Solid/Film.md) |
+| ![illustration of fontawesome/Solid/Filter](../../fontawesome/Solid/Filter.png) | [fontawesome/Solid/Filter](../../fontawesome/Solid/Filter.md) |
+| ![illustration of fontawesome/Solid/FilterCircleDollar](../../fontawesome/Solid/FilterCircleDollar.png) | [fontawesome/Solid/FilterCircleDollar](../../fontawesome/Solid/FilterCircleDollar.md) |
+| ![illustration of fontawesome/Solid/FilterCircleXmark](../../fontawesome/Solid/FilterCircleXmark.png) | [fontawesome/Solid/FilterCircleXmark](../../fontawesome/Solid/FilterCircleXmark.md) |
+| ![illustration of fontawesome/Solid/Fingerprint](../../fontawesome/Solid/Fingerprint.png) | [fontawesome/Solid/Fingerprint](../../fontawesome/Solid/Fingerprint.md) |
+| ![illustration of fontawesome/Solid/Fire](../../fontawesome/Solid/Fire.png) | [fontawesome/Solid/Fire](../../fontawesome/Solid/Fire.md) |
+| ![illustration of fontawesome/Solid/FireBurner](../../fontawesome/Solid/FireBurner.png) | [fontawesome/Solid/FireBurner](../../fontawesome/Solid/FireBurner.md) |
+| ![illustration of fontawesome/Solid/FireExtinguisher](../../fontawesome/Solid/FireExtinguisher.png) | [fontawesome/Solid/FireExtinguisher](../../fontawesome/Solid/FireExtinguisher.md) |
+| ![illustration of fontawesome/Solid/FireFlameCurved](../../fontawesome/Solid/FireFlameCurved.png) | [fontawesome/Solid/FireFlameCurved](../../fontawesome/Solid/FireFlameCurved.md) |
+| ![illustration of fontawesome/Solid/FireFlameSimple](../../fontawesome/Solid/FireFlameSimple.png) | [fontawesome/Solid/FireFlameSimple](../../fontawesome/Solid/FireFlameSimple.md) |
+| ![illustration of fontawesome/Solid/Fish](../../fontawesome/Solid/Fish.png) | [fontawesome/Solid/Fish](../../fontawesome/Solid/Fish.md) |
+| ![illustration of fontawesome/Solid/FishFins](../../fontawesome/Solid/FishFins.png) | [fontawesome/Solid/FishFins](../../fontawesome/Solid/FishFins.md) |
+| ![illustration of fontawesome/Solid/Flag](../../fontawesome/Solid/Flag.png) | [fontawesome/Solid/Flag](../../fontawesome/Solid/Flag.md) |
+| ![illustration of fontawesome/Solid/FlagCheckered](../../fontawesome/Solid/FlagCheckered.png) | [fontawesome/Solid/FlagCheckered](../../fontawesome/Solid/FlagCheckered.md) |
+| ![illustration of fontawesome/Solid/FlagUsa](../../fontawesome/Solid/FlagUsa.png) | [fontawesome/Solid/FlagUsa](../../fontawesome/Solid/FlagUsa.md) |
+| ![illustration of fontawesome/Solid/Flask](../../fontawesome/Solid/Flask.png) | [fontawesome/Solid/Flask](../../fontawesome/Solid/Flask.md) |
+| ![illustration of fontawesome/Solid/FlaskVial](../../fontawesome/Solid/FlaskVial.png) | [fontawesome/Solid/FlaskVial](../../fontawesome/Solid/FlaskVial.md) |
+| ![illustration of fontawesome/Solid/FloppyDisk](../../fontawesome/Solid/FloppyDisk.png) | [fontawesome/Solid/FloppyDisk](../../fontawesome/Solid/FloppyDisk.md) |
+| ![illustration of fontawesome/Solid/FlorinSign](../../fontawesome/Solid/FlorinSign.png) | [fontawesome/Solid/FlorinSign](../../fontawesome/Solid/FlorinSign.md) |
+| ![illustration of fontawesome/Solid/Folder](../../fontawesome/Solid/Folder.png) | [fontawesome/Solid/Folder](../../fontawesome/Solid/Folder.md) |
+| ![illustration of fontawesome/Solid/FolderClosed](../../fontawesome/Solid/FolderClosed.png) | [fontawesome/Solid/FolderClosed](../../fontawesome/Solid/FolderClosed.md) |
+| ![illustration of fontawesome/Solid/FolderMinus](../../fontawesome/Solid/FolderMinus.png) | [fontawesome/Solid/FolderMinus](../../fontawesome/Solid/FolderMinus.md) |
+| ![illustration of fontawesome/Solid/FolderOpen](../../fontawesome/Solid/FolderOpen.png) | [fontawesome/Solid/FolderOpen](../../fontawesome/Solid/FolderOpen.md) |
+| ![illustration of fontawesome/Solid/FolderPlus](../../fontawesome/Solid/FolderPlus.png) | [fontawesome/Solid/FolderPlus](../../fontawesome/Solid/FolderPlus.md) |
+| ![illustration of fontawesome/Solid/FolderTree](../../fontawesome/Solid/FolderTree.png) | [fontawesome/Solid/FolderTree](../../fontawesome/Solid/FolderTree.md) |
+| ![illustration of fontawesome/Solid/Font](../../fontawesome/Solid/Font.png) | [fontawesome/Solid/Font](../../fontawesome/Solid/Font.md) |
+| ![illustration of fontawesome/Solid/FontAwesome](../../fontawesome/Solid/FontAwesome.png) | [fontawesome/Solid/FontAwesome](../../fontawesome/Solid/FontAwesome.md) |
+| ![illustration of fontawesome/Solid/Football](../../fontawesome/Solid/Football.png) | [fontawesome/Solid/Football](../../fontawesome/Solid/Football.md) |
+| ![illustration of fontawesome/Solid/Forward](../../fontawesome/Solid/Forward.png) | [fontawesome/Solid/Forward](../../fontawesome/Solid/Forward.md) |
+| ![illustration of fontawesome/Solid/ForwardFast](../../fontawesome/Solid/ForwardFast.png) | [fontawesome/Solid/ForwardFast](../../fontawesome/Solid/ForwardFast.md) |
+| ![illustration of fontawesome/Solid/ForwardStep](../../fontawesome/Solid/ForwardStep.png) | [fontawesome/Solid/ForwardStep](../../fontawesome/Solid/ForwardStep.md) |
+| ![illustration of fontawesome/Solid/FrancSign](../../fontawesome/Solid/FrancSign.png) | [fontawesome/Solid/FrancSign](../../fontawesome/Solid/FrancSign.md) |
+| ![illustration of fontawesome/Solid/Frog](../../fontawesome/Solid/Frog.png) | [fontawesome/Solid/Frog](../../fontawesome/Solid/Frog.md) |
+| ![illustration of fontawesome/Solid/Futbol](../../fontawesome/Solid/Futbol.png) | [fontawesome/Solid/Futbol](../../fontawesome/Solid/Futbol.md) |
+
+<span id="family-g"></span>
+## G
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/G](../../fontawesome/Solid/G.png) | [fontawesome/Solid/G](../../fontawesome/Solid/G.md) |
+| ![illustration of fontawesome/Solid/Gamepad](../../fontawesome/Solid/Gamepad.png) | [fontawesome/Solid/Gamepad](../../fontawesome/Solid/Gamepad.md) |
+| ![illustration of fontawesome/Solid/GasPump](../../fontawesome/Solid/GasPump.png) | [fontawesome/Solid/GasPump](../../fontawesome/Solid/GasPump.md) |
+| ![illustration of fontawesome/Solid/Gauge](../../fontawesome/Solid/Gauge.png) | [fontawesome/Solid/Gauge](../../fontawesome/Solid/Gauge.md) |
+| ![illustration of fontawesome/Solid/GaugeHigh](../../fontawesome/Solid/GaugeHigh.png) | [fontawesome/Solid/GaugeHigh](../../fontawesome/Solid/GaugeHigh.md) |
+| ![illustration of fontawesome/Solid/GaugeSimple](../../fontawesome/Solid/GaugeSimple.png) | [fontawesome/Solid/GaugeSimple](../../fontawesome/Solid/GaugeSimple.md) |
+| ![illustration of fontawesome/Solid/GaugeSimpleHigh](../../fontawesome/Solid/GaugeSimpleHigh.png) | [fontawesome/Solid/GaugeSimpleHigh](../../fontawesome/Solid/GaugeSimpleHigh.md) |
+| ![illustration of fontawesome/Solid/Gavel](../../fontawesome/Solid/Gavel.png) | [fontawesome/Solid/Gavel](../../fontawesome/Solid/Gavel.md) |
+| ![illustration of fontawesome/Solid/Gear](../../fontawesome/Solid/Gear.png) | [fontawesome/Solid/Gear](../../fontawesome/Solid/Gear.md) |
+| ![illustration of fontawesome/Solid/Gears](../../fontawesome/Solid/Gears.png) | [fontawesome/Solid/Gears](../../fontawesome/Solid/Gears.md) |
+| ![illustration of fontawesome/Solid/Gem](../../fontawesome/Solid/Gem.png) | [fontawesome/Solid/Gem](../../fontawesome/Solid/Gem.md) |
+| ![illustration of fontawesome/Solid/Genderless](../../fontawesome/Solid/Genderless.png) | [fontawesome/Solid/Genderless](../../fontawesome/Solid/Genderless.md) |
+| ![illustration of fontawesome/Solid/Ghost](../../fontawesome/Solid/Ghost.png) | [fontawesome/Solid/Ghost](../../fontawesome/Solid/Ghost.md) |
+| ![illustration of fontawesome/Solid/Gift](../../fontawesome/Solid/Gift.png) | [fontawesome/Solid/Gift](../../fontawesome/Solid/Gift.md) |
+| ![illustration of fontawesome/Solid/Gifts](../../fontawesome/Solid/Gifts.png) | [fontawesome/Solid/Gifts](../../fontawesome/Solid/Gifts.md) |
+| ![illustration of fontawesome/Solid/GlassWater](../../fontawesome/Solid/GlassWater.png) | [fontawesome/Solid/GlassWater](../../fontawesome/Solid/GlassWater.md) |
+| ![illustration of fontawesome/Solid/GlassWaterDroplet](../../fontawesome/Solid/GlassWaterDroplet.png) | [fontawesome/Solid/GlassWaterDroplet](../../fontawesome/Solid/GlassWaterDroplet.md) |
+| ![illustration of fontawesome/Solid/Glasses](../../fontawesome/Solid/Glasses.png) | [fontawesome/Solid/Glasses](../../fontawesome/Solid/Glasses.md) |
+| ![illustration of fontawesome/Solid/Globe](../../fontawesome/Solid/Globe.png) | [fontawesome/Solid/Globe](../../fontawesome/Solid/Globe.md) |
+| ![illustration of fontawesome/Solid/GolfBallTee](../../fontawesome/Solid/GolfBallTee.png) | [fontawesome/Solid/GolfBallTee](../../fontawesome/Solid/GolfBallTee.md) |
+| ![illustration of fontawesome/Solid/Gopuram](../../fontawesome/Solid/Gopuram.png) | [fontawesome/Solid/Gopuram](../../fontawesome/Solid/Gopuram.md) |
+| ![illustration of fontawesome/Solid/GraduationCap](../../fontawesome/Solid/GraduationCap.png) | [fontawesome/Solid/GraduationCap](../../fontawesome/Solid/GraduationCap.md) |
+| ![illustration of fontawesome/Solid/GreaterThan](../../fontawesome/Solid/GreaterThan.png) | [fontawesome/Solid/GreaterThan](../../fontawesome/Solid/GreaterThan.md) |
+| ![illustration of fontawesome/Solid/GreaterThanEqual](../../fontawesome/Solid/GreaterThanEqual.png) | [fontawesome/Solid/GreaterThanEqual](../../fontawesome/Solid/GreaterThanEqual.md) |
+| ![illustration of fontawesome/Solid/Grip](../../fontawesome/Solid/Grip.png) | [fontawesome/Solid/Grip](../../fontawesome/Solid/Grip.md) |
+| ![illustration of fontawesome/Solid/GripLines](../../fontawesome/Solid/GripLines.png) | [fontawesome/Solid/GripLines](../../fontawesome/Solid/GripLines.md) |
+| ![illustration of fontawesome/Solid/GripLinesVertical](../../fontawesome/Solid/GripLinesVertical.png) | [fontawesome/Solid/GripLinesVertical](../../fontawesome/Solid/GripLinesVertical.md) |
+| ![illustration of fontawesome/Solid/GripVertical](../../fontawesome/Solid/GripVertical.png) | [fontawesome/Solid/GripVertical](../../fontawesome/Solid/GripVertical.md) |
+| ![illustration of fontawesome/Solid/GroupArrowsRotate](../../fontawesome/Solid/GroupArrowsRotate.png) | [fontawesome/Solid/GroupArrowsRotate](../../fontawesome/Solid/GroupArrowsRotate.md) |
+| ![illustration of fontawesome/Solid/GuaraniSign](../../fontawesome/Solid/GuaraniSign.png) | [fontawesome/Solid/GuaraniSign](../../fontawesome/Solid/GuaraniSign.md) |
+| ![illustration of fontawesome/Solid/Guitar](../../fontawesome/Solid/Guitar.png) | [fontawesome/Solid/Guitar](../../fontawesome/Solid/Guitar.md) |
+| ![illustration of fontawesome/Solid/Gun](../../fontawesome/Solid/Gun.png) | [fontawesome/Solid/Gun](../../fontawesome/Solid/Gun.md) |
+
+<span id="family-h"></span>
+## H
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/H](../../fontawesome/Solid/H.png) | [fontawesome/Solid/H](../../fontawesome/Solid/H.md) |
+| ![illustration of fontawesome/Solid/Hammer](../../fontawesome/Solid/Hammer.png) | [fontawesome/Solid/Hammer](../../fontawesome/Solid/Hammer.md) |
+| ![illustration of fontawesome/Solid/Hamsa](../../fontawesome/Solid/Hamsa.png) | [fontawesome/Solid/Hamsa](../../fontawesome/Solid/Hamsa.md) |
+| ![illustration of fontawesome/Solid/Hand](../../fontawesome/Solid/Hand.png) | [fontawesome/Solid/Hand](../../fontawesome/Solid/Hand.md) |
+| ![illustration of fontawesome/Solid/HandBackFist](../../fontawesome/Solid/HandBackFist.png) | [fontawesome/Solid/HandBackFist](../../fontawesome/Solid/HandBackFist.md) |
+| ![illustration of fontawesome/Solid/HandDots](../../fontawesome/Solid/HandDots.png) | [fontawesome/Solid/HandDots](../../fontawesome/Solid/HandDots.md) |
+| ![illustration of fontawesome/Solid/HandFist](../../fontawesome/Solid/HandFist.png) | [fontawesome/Solid/HandFist](../../fontawesome/Solid/HandFist.md) |
+| ![illustration of fontawesome/Solid/HandHolding](../../fontawesome/Solid/HandHolding.png) | [fontawesome/Solid/HandHolding](../../fontawesome/Solid/HandHolding.md) |
+| ![illustration of fontawesome/Solid/HandHoldingDollar](../../fontawesome/Solid/HandHoldingDollar.png) | [fontawesome/Solid/HandHoldingDollar](../../fontawesome/Solid/HandHoldingDollar.md) |
+| ![illustration of fontawesome/Solid/HandHoldingDroplet](../../fontawesome/Solid/HandHoldingDroplet.png) | [fontawesome/Solid/HandHoldingDroplet](../../fontawesome/Solid/HandHoldingDroplet.md) |
+| ![illustration of fontawesome/Solid/HandHoldingHand](../../fontawesome/Solid/HandHoldingHand.png) | [fontawesome/Solid/HandHoldingHand](../../fontawesome/Solid/HandHoldingHand.md) |
+| ![illustration of fontawesome/Solid/HandHoldingHeart](../../fontawesome/Solid/HandHoldingHeart.png) | [fontawesome/Solid/HandHoldingHeart](../../fontawesome/Solid/HandHoldingHeart.md) |
+| ![illustration of fontawesome/Solid/HandHoldingMedical](../../fontawesome/Solid/HandHoldingMedical.png) | [fontawesome/Solid/HandHoldingMedical](../../fontawesome/Solid/HandHoldingMedical.md) |
+| ![illustration of fontawesome/Solid/HandLizard](../../fontawesome/Solid/HandLizard.png) | [fontawesome/Solid/HandLizard](../../fontawesome/Solid/HandLizard.md) |
+| ![illustration of fontawesome/Solid/HandMiddleFinger](../../fontawesome/Solid/HandMiddleFinger.png) | [fontawesome/Solid/HandMiddleFinger](../../fontawesome/Solid/HandMiddleFinger.md) |
+| ![illustration of fontawesome/Solid/HandPeace](../../fontawesome/Solid/HandPeace.png) | [fontawesome/Solid/HandPeace](../../fontawesome/Solid/HandPeace.md) |
+| ![illustration of fontawesome/Solid/HandPointDown](../../fontawesome/Solid/HandPointDown.png) | [fontawesome/Solid/HandPointDown](../../fontawesome/Solid/HandPointDown.md) |
+| ![illustration of fontawesome/Solid/HandPointLeft](../../fontawesome/Solid/HandPointLeft.png) | [fontawesome/Solid/HandPointLeft](../../fontawesome/Solid/HandPointLeft.md) |
+| ![illustration of fontawesome/Solid/HandPointRight](../../fontawesome/Solid/HandPointRight.png) | [fontawesome/Solid/HandPointRight](../../fontawesome/Solid/HandPointRight.md) |
+| ![illustration of fontawesome/Solid/HandPointUp](../../fontawesome/Solid/HandPointUp.png) | [fontawesome/Solid/HandPointUp](../../fontawesome/Solid/HandPointUp.md) |
+| ![illustration of fontawesome/Solid/HandPointer](../../fontawesome/Solid/HandPointer.png) | [fontawesome/Solid/HandPointer](../../fontawesome/Solid/HandPointer.md) |
+| ![illustration of fontawesome/Solid/HandScissors](../../fontawesome/Solid/HandScissors.png) | [fontawesome/Solid/HandScissors](../../fontawesome/Solid/HandScissors.md) |
+| ![illustration of fontawesome/Solid/HandSparkles](../../fontawesome/Solid/HandSparkles.png) | [fontawesome/Solid/HandSparkles](../../fontawesome/Solid/HandSparkles.md) |
+| ![illustration of fontawesome/Solid/HandSpock](../../fontawesome/Solid/HandSpock.png) | [fontawesome/Solid/HandSpock](../../fontawesome/Solid/HandSpock.md) |
+| ![illustration of fontawesome/Solid/Handcuffs](../../fontawesome/Solid/Handcuffs.png) | [fontawesome/Solid/Handcuffs](../../fontawesome/Solid/Handcuffs.md) |
+| ![illustration of fontawesome/Solid/Hands](../../fontawesome/Solid/Hands.png) | [fontawesome/Solid/Hands](../../fontawesome/Solid/Hands.md) |
+| ![illustration of fontawesome/Solid/HandsAslInterpreting](../../fontawesome/Solid/HandsAslInterpreting.png) | [fontawesome/Solid/HandsAslInterpreting](../../fontawesome/Solid/HandsAslInterpreting.md) |
+| ![illustration of fontawesome/Solid/HandsBound](../../fontawesome/Solid/HandsBound.png) | [fontawesome/Solid/HandsBound](../../fontawesome/Solid/HandsBound.md) |
+| ![illustration of fontawesome/Solid/HandsBubbles](../../fontawesome/Solid/HandsBubbles.png) | [fontawesome/Solid/HandsBubbles](../../fontawesome/Solid/HandsBubbles.md) |
+| ![illustration of fontawesome/Solid/HandsClapping](../../fontawesome/Solid/HandsClapping.png) | [fontawesome/Solid/HandsClapping](../../fontawesome/Solid/HandsClapping.md) |
+| ![illustration of fontawesome/Solid/HandsHolding](../../fontawesome/Solid/HandsHolding.png) | [fontawesome/Solid/HandsHolding](../../fontawesome/Solid/HandsHolding.md) |
+| ![illustration of fontawesome/Solid/HandsHoldingChild](../../fontawesome/Solid/HandsHoldingChild.png) | [fontawesome/Solid/HandsHoldingChild](../../fontawesome/Solid/HandsHoldingChild.md) |
+| ![illustration of fontawesome/Solid/HandsHoldingCircle](../../fontawesome/Solid/HandsHoldingCircle.png) | [fontawesome/Solid/HandsHoldingCircle](../../fontawesome/Solid/HandsHoldingCircle.md) |
+| ![illustration of fontawesome/Solid/HandsPraying](../../fontawesome/Solid/HandsPraying.png) | [fontawesome/Solid/HandsPraying](../../fontawesome/Solid/HandsPraying.md) |
+| ![illustration of fontawesome/Solid/Handshake](../../fontawesome/Solid/Handshake.png) | [fontawesome/Solid/Handshake](../../fontawesome/Solid/Handshake.md) |
+| ![illustration of fontawesome/Solid/HandshakeAngle](../../fontawesome/Solid/HandshakeAngle.png) | [fontawesome/Solid/HandshakeAngle](../../fontawesome/Solid/HandshakeAngle.md) |
+| ![illustration of fontawesome/Solid/HandshakeSimple](../../fontawesome/Solid/HandshakeSimple.png) | [fontawesome/Solid/HandshakeSimple](../../fontawesome/Solid/HandshakeSimple.md) |
+| ![illustration of fontawesome/Solid/HandshakeSimpleSlash](../../fontawesome/Solid/HandshakeSimpleSlash.png) | [fontawesome/Solid/HandshakeSimpleSlash](../../fontawesome/Solid/HandshakeSimpleSlash.md) |
+| ![illustration of fontawesome/Solid/HandshakeSlash](../../fontawesome/Solid/HandshakeSlash.png) | [fontawesome/Solid/HandshakeSlash](../../fontawesome/Solid/HandshakeSlash.md) |
+| ![illustration of fontawesome/Solid/Hanukiah](../../fontawesome/Solid/Hanukiah.png) | [fontawesome/Solid/Hanukiah](../../fontawesome/Solid/Hanukiah.md) |
+| ![illustration of fontawesome/Solid/HardDrive](../../fontawesome/Solid/HardDrive.png) | [fontawesome/Solid/HardDrive](../../fontawesome/Solid/HardDrive.md) |
+| ![illustration of fontawesome/Solid/Hashtag](../../fontawesome/Solid/Hashtag.png) | [fontawesome/Solid/Hashtag](../../fontawesome/Solid/Hashtag.md) |
+| ![illustration of fontawesome/Solid/HatCowboy](../../fontawesome/Solid/HatCowboy.png) | [fontawesome/Solid/HatCowboy](../../fontawesome/Solid/HatCowboy.md) |
+| ![illustration of fontawesome/Solid/HatCowboySide](../../fontawesome/Solid/HatCowboySide.png) | [fontawesome/Solid/HatCowboySide](../../fontawesome/Solid/HatCowboySide.md) |
+| ![illustration of fontawesome/Solid/HatWizard](../../fontawesome/Solid/HatWizard.png) | [fontawesome/Solid/HatWizard](../../fontawesome/Solid/HatWizard.md) |
+| ![illustration of fontawesome/Solid/HeadSideCough](../../fontawesome/Solid/HeadSideCough.png) | [fontawesome/Solid/HeadSideCough](../../fontawesome/Solid/HeadSideCough.md) |
+| ![illustration of fontawesome/Solid/HeadSideCoughSlash](../../fontawesome/Solid/HeadSideCoughSlash.png) | [fontawesome/Solid/HeadSideCoughSlash](../../fontawesome/Solid/HeadSideCoughSlash.md) |
+| ![illustration of fontawesome/Solid/HeadSideMask](../../fontawesome/Solid/HeadSideMask.png) | [fontawesome/Solid/HeadSideMask](../../fontawesome/Solid/HeadSideMask.md) |
+| ![illustration of fontawesome/Solid/HeadSideVirus](../../fontawesome/Solid/HeadSideVirus.png) | [fontawesome/Solid/HeadSideVirus](../../fontawesome/Solid/HeadSideVirus.md) |
+| ![illustration of fontawesome/Solid/Heading](../../fontawesome/Solid/Heading.png) | [fontawesome/Solid/Heading](../../fontawesome/Solid/Heading.md) |
+| ![illustration of fontawesome/Solid/Headphones](../../fontawesome/Solid/Headphones.png) | [fontawesome/Solid/Headphones](../../fontawesome/Solid/Headphones.md) |
+| ![illustration of fontawesome/Solid/HeadphonesSimple](../../fontawesome/Solid/HeadphonesSimple.png) | [fontawesome/Solid/HeadphonesSimple](../../fontawesome/Solid/HeadphonesSimple.md) |
+| ![illustration of fontawesome/Solid/Headset](../../fontawesome/Solid/Headset.png) | [fontawesome/Solid/Headset](../../fontawesome/Solid/Headset.md) |
+| ![illustration of fontawesome/Solid/Heart](../../fontawesome/Solid/Heart.png) | [fontawesome/Solid/Heart](../../fontawesome/Solid/Heart.md) |
+| ![illustration of fontawesome/Solid/HeartCircleBolt](../../fontawesome/Solid/HeartCircleBolt.png) | [fontawesome/Solid/HeartCircleBolt](../../fontawesome/Solid/HeartCircleBolt.md) |
+| ![illustration of fontawesome/Solid/HeartCircleCheck](../../fontawesome/Solid/HeartCircleCheck.png) | [fontawesome/Solid/HeartCircleCheck](../../fontawesome/Solid/HeartCircleCheck.md) |
+| ![illustration of fontawesome/Solid/HeartCircleExclamation](../../fontawesome/Solid/HeartCircleExclamation.png) | [fontawesome/Solid/HeartCircleExclamation](../../fontawesome/Solid/HeartCircleExclamation.md) |
+| ![illustration of fontawesome/Solid/HeartCircleMinus](../../fontawesome/Solid/HeartCircleMinus.png) | [fontawesome/Solid/HeartCircleMinus](../../fontawesome/Solid/HeartCircleMinus.md) |
+| ![illustration of fontawesome/Solid/HeartCirclePlus](../../fontawesome/Solid/HeartCirclePlus.png) | [fontawesome/Solid/HeartCirclePlus](../../fontawesome/Solid/HeartCirclePlus.md) |
+| ![illustration of fontawesome/Solid/HeartCircleXmark](../../fontawesome/Solid/HeartCircleXmark.png) | [fontawesome/Solid/HeartCircleXmark](../../fontawesome/Solid/HeartCircleXmark.md) |
+| ![illustration of fontawesome/Solid/HeartCrack](../../fontawesome/Solid/HeartCrack.png) | [fontawesome/Solid/HeartCrack](../../fontawesome/Solid/HeartCrack.md) |
+| ![illustration of fontawesome/Solid/HeartPulse](../../fontawesome/Solid/HeartPulse.png) | [fontawesome/Solid/HeartPulse](../../fontawesome/Solid/HeartPulse.md) |
+| ![illustration of fontawesome/Solid/Helicopter](../../fontawesome/Solid/Helicopter.png) | [fontawesome/Solid/Helicopter](../../fontawesome/Solid/Helicopter.md) |
+| ![illustration of fontawesome/Solid/HelicopterSymbol](../../fontawesome/Solid/HelicopterSymbol.png) | [fontawesome/Solid/HelicopterSymbol](../../fontawesome/Solid/HelicopterSymbol.md) |
+| ![illustration of fontawesome/Solid/HelmetSafety](../../fontawesome/Solid/HelmetSafety.png) | [fontawesome/Solid/HelmetSafety](../../fontawesome/Solid/HelmetSafety.md) |
+| ![illustration of fontawesome/Solid/HelmetUn](../../fontawesome/Solid/HelmetUn.png) | [fontawesome/Solid/HelmetUn](../../fontawesome/Solid/HelmetUn.md) |
+| ![illustration of fontawesome/Solid/Highlighter](../../fontawesome/Solid/Highlighter.png) | [fontawesome/Solid/Highlighter](../../fontawesome/Solid/Highlighter.md) |
+| ![illustration of fontawesome/Solid/HillAvalanche](../../fontawesome/Solid/HillAvalanche.png) | [fontawesome/Solid/HillAvalanche](../../fontawesome/Solid/HillAvalanche.md) |
+| ![illustration of fontawesome/Solid/HillRockslide](../../fontawesome/Solid/HillRockslide.png) | [fontawesome/Solid/HillRockslide](../../fontawesome/Solid/HillRockslide.md) |
+| ![illustration of fontawesome/Solid/Hippo](../../fontawesome/Solid/Hippo.png) | [fontawesome/Solid/Hippo](../../fontawesome/Solid/Hippo.md) |
+| ![illustration of fontawesome/Solid/HockeyPuck](../../fontawesome/Solid/HockeyPuck.png) | [fontawesome/Solid/HockeyPuck](../../fontawesome/Solid/HockeyPuck.md) |
+| ![illustration of fontawesome/Solid/HollyBerry](../../fontawesome/Solid/HollyBerry.png) | [fontawesome/Solid/HollyBerry](../../fontawesome/Solid/HollyBerry.md) |
+| ![illustration of fontawesome/Solid/Horse](../../fontawesome/Solid/Horse.png) | [fontawesome/Solid/Horse](../../fontawesome/Solid/Horse.md) |
+| ![illustration of fontawesome/Solid/HorseHead](../../fontawesome/Solid/HorseHead.png) | [fontawesome/Solid/HorseHead](../../fontawesome/Solid/HorseHead.md) |
+| ![illustration of fontawesome/Solid/Hospital](../../fontawesome/Solid/Hospital.png) | [fontawesome/Solid/Hospital](../../fontawesome/Solid/Hospital.md) |
+| ![illustration of fontawesome/Solid/HospitalUser](../../fontawesome/Solid/HospitalUser.png) | [fontawesome/Solid/HospitalUser](../../fontawesome/Solid/HospitalUser.md) |
+| ![illustration of fontawesome/Solid/HotTubPerson](../../fontawesome/Solid/HotTubPerson.png) | [fontawesome/Solid/HotTubPerson](../../fontawesome/Solid/HotTubPerson.md) |
+| ![illustration of fontawesome/Solid/Hotdog](../../fontawesome/Solid/Hotdog.png) | [fontawesome/Solid/Hotdog](../../fontawesome/Solid/Hotdog.md) |
+| ![illustration of fontawesome/Solid/Hotel](../../fontawesome/Solid/Hotel.png) | [fontawesome/Solid/Hotel](../../fontawesome/Solid/Hotel.md) |
+| ![illustration of fontawesome/Solid/Hourglass](../../fontawesome/Solid/Hourglass.png) | [fontawesome/Solid/Hourglass](../../fontawesome/Solid/Hourglass.md) |
+| ![illustration of fontawesome/Solid/HourglassEnd](../../fontawesome/Solid/HourglassEnd.png) | [fontawesome/Solid/HourglassEnd](../../fontawesome/Solid/HourglassEnd.md) |
+| ![illustration of fontawesome/Solid/HourglassHalf](../../fontawesome/Solid/HourglassHalf.png) | [fontawesome/Solid/HourglassHalf](../../fontawesome/Solid/HourglassHalf.md) |
+| ![illustration of fontawesome/Solid/HourglassStart](../../fontawesome/Solid/HourglassStart.png) | [fontawesome/Solid/HourglassStart](../../fontawesome/Solid/HourglassStart.md) |
+| ![illustration of fontawesome/Solid/House](../../fontawesome/Solid/House.png) | [fontawesome/Solid/House](../../fontawesome/Solid/House.md) |
+| ![illustration of fontawesome/Solid/HouseChimney](../../fontawesome/Solid/HouseChimney.png) | [fontawesome/Solid/HouseChimney](../../fontawesome/Solid/HouseChimney.md) |
+| ![illustration of fontawesome/Solid/HouseChimneyCrack](../../fontawesome/Solid/HouseChimneyCrack.png) | [fontawesome/Solid/HouseChimneyCrack](../../fontawesome/Solid/HouseChimneyCrack.md) |
+| ![illustration of fontawesome/Solid/HouseChimneyMedical](../../fontawesome/Solid/HouseChimneyMedical.png) | [fontawesome/Solid/HouseChimneyMedical](../../fontawesome/Solid/HouseChimneyMedical.md) |
+| ![illustration of fontawesome/Solid/HouseChimneyUser](../../fontawesome/Solid/HouseChimneyUser.png) | [fontawesome/Solid/HouseChimneyUser](../../fontawesome/Solid/HouseChimneyUser.md) |
+| ![illustration of fontawesome/Solid/HouseChimneyWindow](../../fontawesome/Solid/HouseChimneyWindow.png) | [fontawesome/Solid/HouseChimneyWindow](../../fontawesome/Solid/HouseChimneyWindow.md) |
+| ![illustration of fontawesome/Solid/HouseCircleCheck](../../fontawesome/Solid/HouseCircleCheck.png) | [fontawesome/Solid/HouseCircleCheck](../../fontawesome/Solid/HouseCircleCheck.md) |
+| ![illustration of fontawesome/Solid/HouseCircleExclamation](../../fontawesome/Solid/HouseCircleExclamation.png) | [fontawesome/Solid/HouseCircleExclamation](../../fontawesome/Solid/HouseCircleExclamation.md) |
+| ![illustration of fontawesome/Solid/HouseCircleXmark](../../fontawesome/Solid/HouseCircleXmark.png) | [fontawesome/Solid/HouseCircleXmark](../../fontawesome/Solid/HouseCircleXmark.md) |
+| ![illustration of fontawesome/Solid/HouseCrack](../../fontawesome/Solid/HouseCrack.png) | [fontawesome/Solid/HouseCrack](../../fontawesome/Solid/HouseCrack.md) |
+| ![illustration of fontawesome/Solid/HouseFire](../../fontawesome/Solid/HouseFire.png) | [fontawesome/Solid/HouseFire](../../fontawesome/Solid/HouseFire.md) |
+| ![illustration of fontawesome/Solid/HouseFlag](../../fontawesome/Solid/HouseFlag.png) | [fontawesome/Solid/HouseFlag](../../fontawesome/Solid/HouseFlag.md) |
+| ![illustration of fontawesome/Solid/HouseFloodWater](../../fontawesome/Solid/HouseFloodWater.png) | [fontawesome/Solid/HouseFloodWater](../../fontawesome/Solid/HouseFloodWater.md) |
+| ![illustration of fontawesome/Solid/HouseFloodWaterCircleArrowRight](../../fontawesome/Solid/HouseFloodWaterCircleArrowRight.png) | [fontawesome/Solid/HouseFloodWaterCircleArrowRight](../../fontawesome/Solid/HouseFloodWaterCircleArrowRight.md) |
+| ![illustration of fontawesome/Solid/HouseLaptop](../../fontawesome/Solid/HouseLaptop.png) | [fontawesome/Solid/HouseLaptop](../../fontawesome/Solid/HouseLaptop.md) |
+| ![illustration of fontawesome/Solid/HouseLock](../../fontawesome/Solid/HouseLock.png) | [fontawesome/Solid/HouseLock](../../fontawesome/Solid/HouseLock.md) |
+| ![illustration of fontawesome/Solid/HouseMedical](../../fontawesome/Solid/HouseMedical.png) | [fontawesome/Solid/HouseMedical](../../fontawesome/Solid/HouseMedical.md) |
+| ![illustration of fontawesome/Solid/HouseMedicalCircleCheck](../../fontawesome/Solid/HouseMedicalCircleCheck.png) | [fontawesome/Solid/HouseMedicalCircleCheck](../../fontawesome/Solid/HouseMedicalCircleCheck.md) |
+| ![illustration of fontawesome/Solid/HouseMedicalCircleExclamation](../../fontawesome/Solid/HouseMedicalCircleExclamation.png) | [fontawesome/Solid/HouseMedicalCircleExclamation](../../fontawesome/Solid/HouseMedicalCircleExclamation.md) |
+| ![illustration of fontawesome/Solid/HouseMedicalCircleXmark](../../fontawesome/Solid/HouseMedicalCircleXmark.png) | [fontawesome/Solid/HouseMedicalCircleXmark](../../fontawesome/Solid/HouseMedicalCircleXmark.md) |
+| ![illustration of fontawesome/Solid/HouseMedicalFlag](../../fontawesome/Solid/HouseMedicalFlag.png) | [fontawesome/Solid/HouseMedicalFlag](../../fontawesome/Solid/HouseMedicalFlag.md) |
+| ![illustration of fontawesome/Solid/HouseSignal](../../fontawesome/Solid/HouseSignal.png) | [fontawesome/Solid/HouseSignal](../../fontawesome/Solid/HouseSignal.md) |
+| ![illustration of fontawesome/Solid/HouseTsunami](../../fontawesome/Solid/HouseTsunami.png) | [fontawesome/Solid/HouseTsunami](../../fontawesome/Solid/HouseTsunami.md) |
+| ![illustration of fontawesome/Solid/HouseUser](../../fontawesome/Solid/HouseUser.png) | [fontawesome/Solid/HouseUser](../../fontawesome/Solid/HouseUser.md) |
+| ![illustration of fontawesome/Solid/HryvniaSign](../../fontawesome/Solid/HryvniaSign.png) | [fontawesome/Solid/HryvniaSign](../../fontawesome/Solid/HryvniaSign.md) |
+| ![illustration of fontawesome/Solid/Hurricane](../../fontawesome/Solid/Hurricane.png) | [fontawesome/Solid/Hurricane](../../fontawesome/Solid/Hurricane.md) |
+
+<span id="family-i"></span>
+## I
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/I](../../fontawesome/Solid/I.png) | [fontawesome/Solid/I](../../fontawesome/Solid/I.md) |
+| ![illustration of fontawesome/Solid/ICursor](../../fontawesome/Solid/ICursor.png) | [fontawesome/Solid/ICursor](../../fontawesome/Solid/ICursor.md) |
+| ![illustration of fontawesome/Solid/IceCream](../../fontawesome/Solid/IceCream.png) | [fontawesome/Solid/IceCream](../../fontawesome/Solid/IceCream.md) |
+| ![illustration of fontawesome/Solid/Icicles](../../fontawesome/Solid/Icicles.png) | [fontawesome/Solid/Icicles](../../fontawesome/Solid/Icicles.md) |
+| ![illustration of fontawesome/Solid/Icons](../../fontawesome/Solid/Icons.png) | [fontawesome/Solid/Icons](../../fontawesome/Solid/Icons.md) |
+| ![illustration of fontawesome/Solid/IdBadge](../../fontawesome/Solid/IdBadge.png) | [fontawesome/Solid/IdBadge](../../fontawesome/Solid/IdBadge.md) |
+| ![illustration of fontawesome/Solid/IdCard](../../fontawesome/Solid/IdCard.png) | [fontawesome/Solid/IdCard](../../fontawesome/Solid/IdCard.md) |
+| ![illustration of fontawesome/Solid/IdCardClip](../../fontawesome/Solid/IdCardClip.png) | [fontawesome/Solid/IdCardClip](../../fontawesome/Solid/IdCardClip.md) |
+| ![illustration of fontawesome/Solid/Igloo](../../fontawesome/Solid/Igloo.png) | [fontawesome/Solid/Igloo](../../fontawesome/Solid/Igloo.md) |
+| ![illustration of fontawesome/Solid/Image](../../fontawesome/Solid/Image.png) | [fontawesome/Solid/Image](../../fontawesome/Solid/Image.md) |
+| ![illustration of fontawesome/Solid/ImagePortrait](../../fontawesome/Solid/ImagePortrait.png) | [fontawesome/Solid/ImagePortrait](../../fontawesome/Solid/ImagePortrait.md) |
+| ![illustration of fontawesome/Solid/Images](../../fontawesome/Solid/Images.png) | [fontawesome/Solid/Images](../../fontawesome/Solid/Images.md) |
+| ![illustration of fontawesome/Solid/Inbox](../../fontawesome/Solid/Inbox.png) | [fontawesome/Solid/Inbox](../../fontawesome/Solid/Inbox.md) |
+| ![illustration of fontawesome/Solid/Indent](../../fontawesome/Solid/Indent.png) | [fontawesome/Solid/Indent](../../fontawesome/Solid/Indent.md) |
+| ![illustration of fontawesome/Solid/IndianRupeeSign](../../fontawesome/Solid/IndianRupeeSign.png) | [fontawesome/Solid/IndianRupeeSign](../../fontawesome/Solid/IndianRupeeSign.md) |
+| ![illustration of fontawesome/Solid/Industry](../../fontawesome/Solid/Industry.png) | [fontawesome/Solid/Industry](../../fontawesome/Solid/Industry.md) |
+| ![illustration of fontawesome/Solid/Infinity](../../fontawesome/Solid/Infinity.png) | [fontawesome/Solid/Infinity](../../fontawesome/Solid/Infinity.md) |
+| ![illustration of fontawesome/Solid/Info](../../fontawesome/Solid/Info.png) | [fontawesome/Solid/Info](../../fontawesome/Solid/Info.md) |
+| ![illustration of fontawesome/Solid/Italic](../../fontawesome/Solid/Italic.png) | [fontawesome/Solid/Italic](../../fontawesome/Solid/Italic.md) |
+
+<span id="family-j"></span>
+## J
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/J](../../fontawesome/Solid/J.png) | [fontawesome/Solid/J](../../fontawesome/Solid/J.md) |
+| ![illustration of fontawesome/Solid/Jar](../../fontawesome/Solid/Jar.png) | [fontawesome/Solid/Jar](../../fontawesome/Solid/Jar.md) |
+| ![illustration of fontawesome/Solid/JarWheat](../../fontawesome/Solid/JarWheat.png) | [fontawesome/Solid/JarWheat](../../fontawesome/Solid/JarWheat.md) |
+| ![illustration of fontawesome/Solid/Jedi](../../fontawesome/Solid/Jedi.png) | [fontawesome/Solid/Jedi](../../fontawesome/Solid/Jedi.md) |
+| ![illustration of fontawesome/Solid/JetFighter](../../fontawesome/Solid/JetFighter.png) | [fontawesome/Solid/JetFighter](../../fontawesome/Solid/JetFighter.md) |
+| ![illustration of fontawesome/Solid/JetFighterUp](../../fontawesome/Solid/JetFighterUp.png) | [fontawesome/Solid/JetFighterUp](../../fontawesome/Solid/JetFighterUp.md) |
+| ![illustration of fontawesome/Solid/Joint](../../fontawesome/Solid/Joint.png) | [fontawesome/Solid/Joint](../../fontawesome/Solid/Joint.md) |
+| ![illustration of fontawesome/Solid/JugDetergent](../../fontawesome/Solid/JugDetergent.png) | [fontawesome/Solid/JugDetergent](../../fontawesome/Solid/JugDetergent.md) |
+
+<span id="family-k"></span>
+## K
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/K](../../fontawesome/Solid/K.png) | [fontawesome/Solid/K](../../fontawesome/Solid/K.md) |
+| ![illustration of fontawesome/Solid/Kaaba](../../fontawesome/Solid/Kaaba.png) | [fontawesome/Solid/Kaaba](../../fontawesome/Solid/Kaaba.md) |
+| ![illustration of fontawesome/Solid/Key](../../fontawesome/Solid/Key.png) | [fontawesome/Solid/Key](../../fontawesome/Solid/Key.md) |
+| ![illustration of fontawesome/Solid/Keyboard](../../fontawesome/Solid/Keyboard.png) | [fontawesome/Solid/Keyboard](../../fontawesome/Solid/Keyboard.md) |
+| ![illustration of fontawesome/Solid/Khanda](../../fontawesome/Solid/Khanda.png) | [fontawesome/Solid/Khanda](../../fontawesome/Solid/Khanda.md) |
+| ![illustration of fontawesome/Solid/KipSign](../../fontawesome/Solid/KipSign.png) | [fontawesome/Solid/KipSign](../../fontawesome/Solid/KipSign.md) |
+| ![illustration of fontawesome/Solid/KitMedical](../../fontawesome/Solid/KitMedical.png) | [fontawesome/Solid/KitMedical](../../fontawesome/Solid/KitMedical.md) |
+| ![illustration of fontawesome/Solid/KitchenSet](../../fontawesome/Solid/KitchenSet.png) | [fontawesome/Solid/KitchenSet](../../fontawesome/Solid/KitchenSet.md) |
+| ![illustration of fontawesome/Solid/KiwiBird](../../fontawesome/Solid/KiwiBird.png) | [fontawesome/Solid/KiwiBird](../../fontawesome/Solid/KiwiBird.md) |
+
+<span id="family-l"></span>
+## L
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/L](../../fontawesome/Solid/L.png) | [fontawesome/Solid/L](../../fontawesome/Solid/L.md) |
+| ![illustration of fontawesome/Solid/LandMineOn](../../fontawesome/Solid/LandMineOn.png) | [fontawesome/Solid/LandMineOn](../../fontawesome/Solid/LandMineOn.md) |
+| ![illustration of fontawesome/Solid/Landmark](../../fontawesome/Solid/Landmark.png) | [fontawesome/Solid/Landmark](../../fontawesome/Solid/Landmark.md) |
+| ![illustration of fontawesome/Solid/LandmarkDome](../../fontawesome/Solid/LandmarkDome.png) | [fontawesome/Solid/LandmarkDome](../../fontawesome/Solid/LandmarkDome.md) |
+| ![illustration of fontawesome/Solid/LandmarkFlag](../../fontawesome/Solid/LandmarkFlag.png) | [fontawesome/Solid/LandmarkFlag](../../fontawesome/Solid/LandmarkFlag.md) |
+| ![illustration of fontawesome/Solid/Language](../../fontawesome/Solid/Language.png) | [fontawesome/Solid/Language](../../fontawesome/Solid/Language.md) |
+| ![illustration of fontawesome/Solid/Laptop](../../fontawesome/Solid/Laptop.png) | [fontawesome/Solid/Laptop](../../fontawesome/Solid/Laptop.md) |
+| ![illustration of fontawesome/Solid/LaptopCode](../../fontawesome/Solid/LaptopCode.png) | [fontawesome/Solid/LaptopCode](../../fontawesome/Solid/LaptopCode.md) |
+| ![illustration of fontawesome/Solid/LaptopFile](../../fontawesome/Solid/LaptopFile.png) | [fontawesome/Solid/LaptopFile](../../fontawesome/Solid/LaptopFile.md) |
+| ![illustration of fontawesome/Solid/LaptopMedical](../../fontawesome/Solid/LaptopMedical.png) | [fontawesome/Solid/LaptopMedical](../../fontawesome/Solid/LaptopMedical.md) |
+| ![illustration of fontawesome/Solid/LariSign](../../fontawesome/Solid/LariSign.png) | [fontawesome/Solid/LariSign](../../fontawesome/Solid/LariSign.md) |
+| ![illustration of fontawesome/Solid/LayerGroup](../../fontawesome/Solid/LayerGroup.png) | [fontawesome/Solid/LayerGroup](../../fontawesome/Solid/LayerGroup.md) |
+| ![illustration of fontawesome/Solid/Leaf](../../fontawesome/Solid/Leaf.png) | [fontawesome/Solid/Leaf](../../fontawesome/Solid/Leaf.md) |
+| ![illustration of fontawesome/Solid/LeftLong](../../fontawesome/Solid/LeftLong.png) | [fontawesome/Solid/LeftLong](../../fontawesome/Solid/LeftLong.md) |
+| ![illustration of fontawesome/Solid/LeftRight](../../fontawesome/Solid/LeftRight.png) | [fontawesome/Solid/LeftRight](../../fontawesome/Solid/LeftRight.md) |
+| ![illustration of fontawesome/Solid/Lemon](../../fontawesome/Solid/Lemon.png) | [fontawesome/Solid/Lemon](../../fontawesome/Solid/Lemon.md) |
+| ![illustration of fontawesome/Solid/LessThan](../../fontawesome/Solid/LessThan.png) | [fontawesome/Solid/LessThan](../../fontawesome/Solid/LessThan.md) |
+| ![illustration of fontawesome/Solid/LessThanEqual](../../fontawesome/Solid/LessThanEqual.png) | [fontawesome/Solid/LessThanEqual](../../fontawesome/Solid/LessThanEqual.md) |
+| ![illustration of fontawesome/Solid/LifeRing](../../fontawesome/Solid/LifeRing.png) | [fontawesome/Solid/LifeRing](../../fontawesome/Solid/LifeRing.md) |
+| ![illustration of fontawesome/Solid/Lightbulb](../../fontawesome/Solid/Lightbulb.png) | [fontawesome/Solid/Lightbulb](../../fontawesome/Solid/Lightbulb.md) |
+| ![illustration of fontawesome/Solid/LinesLeaning](../../fontawesome/Solid/LinesLeaning.png) | [fontawesome/Solid/LinesLeaning](../../fontawesome/Solid/LinesLeaning.md) |
+| ![illustration of fontawesome/Solid/Link](../../fontawesome/Solid/Link.png) | [fontawesome/Solid/Link](../../fontawesome/Solid/Link.md) |
+| ![illustration of fontawesome/Solid/LinkSlash](../../fontawesome/Solid/LinkSlash.png) | [fontawesome/Solid/LinkSlash](../../fontawesome/Solid/LinkSlash.md) |
+| ![illustration of fontawesome/Solid/LiraSign](../../fontawesome/Solid/LiraSign.png) | [fontawesome/Solid/LiraSign](../../fontawesome/Solid/LiraSign.md) |
+| ![illustration of fontawesome/Solid/List](../../fontawesome/Solid/List.png) | [fontawesome/Solid/List](../../fontawesome/Solid/List.md) |
+| ![illustration of fontawesome/Solid/ListCheck](../../fontawesome/Solid/ListCheck.png) | [fontawesome/Solid/ListCheck](../../fontawesome/Solid/ListCheck.md) |
+| ![illustration of fontawesome/Solid/ListOl](../../fontawesome/Solid/ListOl.png) | [fontawesome/Solid/ListOl](../../fontawesome/Solid/ListOl.md) |
+| ![illustration of fontawesome/Solid/ListUl](../../fontawesome/Solid/ListUl.png) | [fontawesome/Solid/ListUl](../../fontawesome/Solid/ListUl.md) |
+| ![illustration of fontawesome/Solid/LitecoinSign](../../fontawesome/Solid/LitecoinSign.png) | [fontawesome/Solid/LitecoinSign](../../fontawesome/Solid/LitecoinSign.md) |
+| ![illustration of fontawesome/Solid/LocationArrow](../../fontawesome/Solid/LocationArrow.png) | [fontawesome/Solid/LocationArrow](../../fontawesome/Solid/LocationArrow.md) |
+| ![illustration of fontawesome/Solid/LocationCrosshairs](../../fontawesome/Solid/LocationCrosshairs.png) | [fontawesome/Solid/LocationCrosshairs](../../fontawesome/Solid/LocationCrosshairs.md) |
+| ![illustration of fontawesome/Solid/LocationDot](../../fontawesome/Solid/LocationDot.png) | [fontawesome/Solid/LocationDot](../../fontawesome/Solid/LocationDot.md) |
+| ![illustration of fontawesome/Solid/LocationPin](../../fontawesome/Solid/LocationPin.png) | [fontawesome/Solid/LocationPin](../../fontawesome/Solid/LocationPin.md) |
+| ![illustration of fontawesome/Solid/LocationPinLock](../../fontawesome/Solid/LocationPinLock.png) | [fontawesome/Solid/LocationPinLock](../../fontawesome/Solid/LocationPinLock.md) |
+| ![illustration of fontawesome/Solid/Lock](../../fontawesome/Solid/Lock.png) | [fontawesome/Solid/Lock](../../fontawesome/Solid/Lock.md) |
+| ![illustration of fontawesome/Solid/LockOpen](../../fontawesome/Solid/LockOpen.png) | [fontawesome/Solid/LockOpen](../../fontawesome/Solid/LockOpen.md) |
+| ![illustration of fontawesome/Solid/Locust](../../fontawesome/Solid/Locust.png) | [fontawesome/Solid/Locust](../../fontawesome/Solid/Locust.md) |
+| ![illustration of fontawesome/Solid/Lungs](../../fontawesome/Solid/Lungs.png) | [fontawesome/Solid/Lungs](../../fontawesome/Solid/Lungs.md) |
+| ![illustration of fontawesome/Solid/LungsVirus](../../fontawesome/Solid/LungsVirus.png) | [fontawesome/Solid/LungsVirus](../../fontawesome/Solid/LungsVirus.md) |
+
+<span id="family-m"></span>
+## M
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/M](../../fontawesome/Solid/M.png) | [fontawesome/Solid/M](../../fontawesome/Solid/M.md) |
+| ![illustration of fontawesome/Solid/Magnet](../../fontawesome/Solid/Magnet.png) | [fontawesome/Solid/Magnet](../../fontawesome/Solid/Magnet.md) |
+| ![illustration of fontawesome/Solid/MagnifyingGlass](../../fontawesome/Solid/MagnifyingGlass.png) | [fontawesome/Solid/MagnifyingGlass](../../fontawesome/Solid/MagnifyingGlass.md) |
+| ![illustration of fontawesome/Solid/MagnifyingGlassArrowRight](../../fontawesome/Solid/MagnifyingGlassArrowRight.png) | [fontawesome/Solid/MagnifyingGlassArrowRight](../../fontawesome/Solid/MagnifyingGlassArrowRight.md) |
+| ![illustration of fontawesome/Solid/MagnifyingGlassChart](../../fontawesome/Solid/MagnifyingGlassChart.png) | [fontawesome/Solid/MagnifyingGlassChart](../../fontawesome/Solid/MagnifyingGlassChart.md) |
+| ![illustration of fontawesome/Solid/MagnifyingGlassDollar](../../fontawesome/Solid/MagnifyingGlassDollar.png) | [fontawesome/Solid/MagnifyingGlassDollar](../../fontawesome/Solid/MagnifyingGlassDollar.md) |
+| ![illustration of fontawesome/Solid/MagnifyingGlassLocation](../../fontawesome/Solid/MagnifyingGlassLocation.png) | [fontawesome/Solid/MagnifyingGlassLocation](../../fontawesome/Solid/MagnifyingGlassLocation.md) |
+| ![illustration of fontawesome/Solid/MagnifyingGlassMinus](../../fontawesome/Solid/MagnifyingGlassMinus.png) | [fontawesome/Solid/MagnifyingGlassMinus](../../fontawesome/Solid/MagnifyingGlassMinus.md) |
+| ![illustration of fontawesome/Solid/MagnifyingGlassPlus](../../fontawesome/Solid/MagnifyingGlassPlus.png) | [fontawesome/Solid/MagnifyingGlassPlus](../../fontawesome/Solid/MagnifyingGlassPlus.md) |
+| ![illustration of fontawesome/Solid/ManatSign](../../fontawesome/Solid/ManatSign.png) | [fontawesome/Solid/ManatSign](../../fontawesome/Solid/ManatSign.md) |
+| ![illustration of fontawesome/Solid/Map](../../fontawesome/Solid/Map.png) | [fontawesome/Solid/Map](../../fontawesome/Solid/Map.md) |
+| ![illustration of fontawesome/Solid/MapLocation](../../fontawesome/Solid/MapLocation.png) | [fontawesome/Solid/MapLocation](../../fontawesome/Solid/MapLocation.md) |
+| ![illustration of fontawesome/Solid/MapLocationDot](../../fontawesome/Solid/MapLocationDot.png) | [fontawesome/Solid/MapLocationDot](../../fontawesome/Solid/MapLocationDot.md) |
+| ![illustration of fontawesome/Solid/MapPin](../../fontawesome/Solid/MapPin.png) | [fontawesome/Solid/MapPin](../../fontawesome/Solid/MapPin.md) |
+| ![illustration of fontawesome/Solid/Marker](../../fontawesome/Solid/Marker.png) | [fontawesome/Solid/Marker](../../fontawesome/Solid/Marker.md) |
+| ![illustration of fontawesome/Solid/Mars](../../fontawesome/Solid/Mars.png) | [fontawesome/Solid/Mars](../../fontawesome/Solid/Mars.md) |
+| ![illustration of fontawesome/Solid/MarsAndVenus](../../fontawesome/Solid/MarsAndVenus.png) | [fontawesome/Solid/MarsAndVenus](../../fontawesome/Solid/MarsAndVenus.md) |
+| ![illustration of fontawesome/Solid/MarsAndVenusBurst](../../fontawesome/Solid/MarsAndVenusBurst.png) | [fontawesome/Solid/MarsAndVenusBurst](../../fontawesome/Solid/MarsAndVenusBurst.md) |
+| ![illustration of fontawesome/Solid/MarsDouble](../../fontawesome/Solid/MarsDouble.png) | [fontawesome/Solid/MarsDouble](../../fontawesome/Solid/MarsDouble.md) |
+| ![illustration of fontawesome/Solid/MarsStroke](../../fontawesome/Solid/MarsStroke.png) | [fontawesome/Solid/MarsStroke](../../fontawesome/Solid/MarsStroke.md) |
+| ![illustration of fontawesome/Solid/MarsStrokeRight](../../fontawesome/Solid/MarsStrokeRight.png) | [fontawesome/Solid/MarsStrokeRight](../../fontawesome/Solid/MarsStrokeRight.md) |
+| ![illustration of fontawesome/Solid/MarsStrokeUp](../../fontawesome/Solid/MarsStrokeUp.png) | [fontawesome/Solid/MarsStrokeUp](../../fontawesome/Solid/MarsStrokeUp.md) |
+| ![illustration of fontawesome/Solid/MartiniGlass](../../fontawesome/Solid/MartiniGlass.png) | [fontawesome/Solid/MartiniGlass](../../fontawesome/Solid/MartiniGlass.md) |
+| ![illustration of fontawesome/Solid/MartiniGlassCitrus](../../fontawesome/Solid/MartiniGlassCitrus.png) | [fontawesome/Solid/MartiniGlassCitrus](../../fontawesome/Solid/MartiniGlassCitrus.md) |
+| ![illustration of fontawesome/Solid/MartiniGlassEmpty](../../fontawesome/Solid/MartiniGlassEmpty.png) | [fontawesome/Solid/MartiniGlassEmpty](../../fontawesome/Solid/MartiniGlassEmpty.md) |
+| ![illustration of fontawesome/Solid/Mask](../../fontawesome/Solid/Mask.png) | [fontawesome/Solid/Mask](../../fontawesome/Solid/Mask.md) |
+| ![illustration of fontawesome/Solid/MaskFace](../../fontawesome/Solid/MaskFace.png) | [fontawesome/Solid/MaskFace](../../fontawesome/Solid/MaskFace.md) |
+| ![illustration of fontawesome/Solid/MaskVentilator](../../fontawesome/Solid/MaskVentilator.png) | [fontawesome/Solid/MaskVentilator](../../fontawesome/Solid/MaskVentilator.md) |
+| ![illustration of fontawesome/Solid/MasksTheater](../../fontawesome/Solid/MasksTheater.png) | [fontawesome/Solid/MasksTheater](../../fontawesome/Solid/MasksTheater.md) |
+| ![illustration of fontawesome/Solid/MattressPillow](../../fontawesome/Solid/MattressPillow.png) | [fontawesome/Solid/MattressPillow](../../fontawesome/Solid/MattressPillow.md) |
+| ![illustration of fontawesome/Solid/Maximize](../../fontawesome/Solid/Maximize.png) | [fontawesome/Solid/Maximize](../../fontawesome/Solid/Maximize.md) |
+| ![illustration of fontawesome/Solid/Medal](../../fontawesome/Solid/Medal.png) | [fontawesome/Solid/Medal](../../fontawesome/Solid/Medal.md) |
+| ![illustration of fontawesome/Solid/Memory](../../fontawesome/Solid/Memory.png) | [fontawesome/Solid/Memory](../../fontawesome/Solid/Memory.md) |
+| ![illustration of fontawesome/Solid/Menorah](../../fontawesome/Solid/Menorah.png) | [fontawesome/Solid/Menorah](../../fontawesome/Solid/Menorah.md) |
+| ![illustration of fontawesome/Solid/Mercury](../../fontawesome/Solid/Mercury.png) | [fontawesome/Solid/Mercury](../../fontawesome/Solid/Mercury.md) |
+| ![illustration of fontawesome/Solid/Message](../../fontawesome/Solid/Message.png) | [fontawesome/Solid/Message](../../fontawesome/Solid/Message.md) |
+| ![illustration of fontawesome/Solid/Meteor](../../fontawesome/Solid/Meteor.png) | [fontawesome/Solid/Meteor](../../fontawesome/Solid/Meteor.md) |
+| ![illustration of fontawesome/Solid/Microchip](../../fontawesome/Solid/Microchip.png) | [fontawesome/Solid/Microchip](../../fontawesome/Solid/Microchip.md) |
+| ![illustration of fontawesome/Solid/Microphone](../../fontawesome/Solid/Microphone.png) | [fontawesome/Solid/Microphone](../../fontawesome/Solid/Microphone.md) |
+| ![illustration of fontawesome/Solid/MicrophoneLines](../../fontawesome/Solid/MicrophoneLines.png) | [fontawesome/Solid/MicrophoneLines](../../fontawesome/Solid/MicrophoneLines.md) |
+| ![illustration of fontawesome/Solid/MicrophoneLinesSlash](../../fontawesome/Solid/MicrophoneLinesSlash.png) | [fontawesome/Solid/MicrophoneLinesSlash](../../fontawesome/Solid/MicrophoneLinesSlash.md) |
+| ![illustration of fontawesome/Solid/MicrophoneSlash](../../fontawesome/Solid/MicrophoneSlash.png) | [fontawesome/Solid/MicrophoneSlash](../../fontawesome/Solid/MicrophoneSlash.md) |
+| ![illustration of fontawesome/Solid/Microscope](../../fontawesome/Solid/Microscope.png) | [fontawesome/Solid/Microscope](../../fontawesome/Solid/Microscope.md) |
+| ![illustration of fontawesome/Solid/MillSign](../../fontawesome/Solid/MillSign.png) | [fontawesome/Solid/MillSign](../../fontawesome/Solid/MillSign.md) |
+| ![illustration of fontawesome/Solid/Minimize](../../fontawesome/Solid/Minimize.png) | [fontawesome/Solid/Minimize](../../fontawesome/Solid/Minimize.md) |
+| ![illustration of fontawesome/Solid/Minus](../../fontawesome/Solid/Minus.png) | [fontawesome/Solid/Minus](../../fontawesome/Solid/Minus.md) |
+| ![illustration of fontawesome/Solid/Mitten](../../fontawesome/Solid/Mitten.png) | [fontawesome/Solid/Mitten](../../fontawesome/Solid/Mitten.md) |
+| ![illustration of fontawesome/Solid/Mobile](../../fontawesome/Solid/Mobile.png) | [fontawesome/Solid/Mobile](../../fontawesome/Solid/Mobile.md) |
+| ![illustration of fontawesome/Solid/MobileButton](../../fontawesome/Solid/MobileButton.png) | [fontawesome/Solid/MobileButton](../../fontawesome/Solid/MobileButton.md) |
+| ![illustration of fontawesome/Solid/MobileRetro](../../fontawesome/Solid/MobileRetro.png) | [fontawesome/Solid/MobileRetro](../../fontawesome/Solid/MobileRetro.md) |
+| ![illustration of fontawesome/Solid/MobileScreen](../../fontawesome/Solid/MobileScreen.png) | [fontawesome/Solid/MobileScreen](../../fontawesome/Solid/MobileScreen.md) |
+| ![illustration of fontawesome/Solid/MobileScreenButton](../../fontawesome/Solid/MobileScreenButton.png) | [fontawesome/Solid/MobileScreenButton](../../fontawesome/Solid/MobileScreenButton.md) |
+| ![illustration of fontawesome/Solid/MoneyBill](../../fontawesome/Solid/MoneyBill.png) | [fontawesome/Solid/MoneyBill](../../fontawesome/Solid/MoneyBill.md) |
+| ![illustration of fontawesome/Solid/MoneyBill1](../../fontawesome/Solid/MoneyBill1.png) | [fontawesome/Solid/MoneyBill1](../../fontawesome/Solid/MoneyBill1.md) |
+| ![illustration of fontawesome/Solid/MoneyBill1Wave](../../fontawesome/Solid/MoneyBill1Wave.png) | [fontawesome/Solid/MoneyBill1Wave](../../fontawesome/Solid/MoneyBill1Wave.md) |
+| ![illustration of fontawesome/Solid/MoneyBillTransfer](../../fontawesome/Solid/MoneyBillTransfer.png) | [fontawesome/Solid/MoneyBillTransfer](../../fontawesome/Solid/MoneyBillTransfer.md) |
+| ![illustration of fontawesome/Solid/MoneyBillTrendUp](../../fontawesome/Solid/MoneyBillTrendUp.png) | [fontawesome/Solid/MoneyBillTrendUp](../../fontawesome/Solid/MoneyBillTrendUp.md) |
+| ![illustration of fontawesome/Solid/MoneyBillWave](../../fontawesome/Solid/MoneyBillWave.png) | [fontawesome/Solid/MoneyBillWave](../../fontawesome/Solid/MoneyBillWave.md) |
+| ![illustration of fontawesome/Solid/MoneyBillWheat](../../fontawesome/Solid/MoneyBillWheat.png) | [fontawesome/Solid/MoneyBillWheat](../../fontawesome/Solid/MoneyBillWheat.md) |
+| ![illustration of fontawesome/Solid/MoneyBills](../../fontawesome/Solid/MoneyBills.png) | [fontawesome/Solid/MoneyBills](../../fontawesome/Solid/MoneyBills.md) |
+| ![illustration of fontawesome/Solid/MoneyCheck](../../fontawesome/Solid/MoneyCheck.png) | [fontawesome/Solid/MoneyCheck](../../fontawesome/Solid/MoneyCheck.md) |
+| ![illustration of fontawesome/Solid/MoneyCheckDollar](../../fontawesome/Solid/MoneyCheckDollar.png) | [fontawesome/Solid/MoneyCheckDollar](../../fontawesome/Solid/MoneyCheckDollar.md) |
+| ![illustration of fontawesome/Solid/Monument](../../fontawesome/Solid/Monument.png) | [fontawesome/Solid/Monument](../../fontawesome/Solid/Monument.md) |
+| ![illustration of fontawesome/Solid/Moon](../../fontawesome/Solid/Moon.png) | [fontawesome/Solid/Moon](../../fontawesome/Solid/Moon.md) |
+| ![illustration of fontawesome/Solid/MortarPestle](../../fontawesome/Solid/MortarPestle.png) | [fontawesome/Solid/MortarPestle](../../fontawesome/Solid/MortarPestle.md) |
+| ![illustration of fontawesome/Solid/Mosque](../../fontawesome/Solid/Mosque.png) | [fontawesome/Solid/Mosque](../../fontawesome/Solid/Mosque.md) |
+| ![illustration of fontawesome/Solid/Mosquito](../../fontawesome/Solid/Mosquito.png) | [fontawesome/Solid/Mosquito](../../fontawesome/Solid/Mosquito.md) |
+| ![illustration of fontawesome/Solid/MosquitoNet](../../fontawesome/Solid/MosquitoNet.png) | [fontawesome/Solid/MosquitoNet](../../fontawesome/Solid/MosquitoNet.md) |
+| ![illustration of fontawesome/Solid/Motorcycle](../../fontawesome/Solid/Motorcycle.png) | [fontawesome/Solid/Motorcycle](../../fontawesome/Solid/Motorcycle.md) |
+| ![illustration of fontawesome/Solid/Mound](../../fontawesome/Solid/Mound.png) | [fontawesome/Solid/Mound](../../fontawesome/Solid/Mound.md) |
+| ![illustration of fontawesome/Solid/Mountain](../../fontawesome/Solid/Mountain.png) | [fontawesome/Solid/Mountain](../../fontawesome/Solid/Mountain.md) |
+| ![illustration of fontawesome/Solid/MountainCity](../../fontawesome/Solid/MountainCity.png) | [fontawesome/Solid/MountainCity](../../fontawesome/Solid/MountainCity.md) |
+| ![illustration of fontawesome/Solid/MountainSun](../../fontawesome/Solid/MountainSun.png) | [fontawesome/Solid/MountainSun](../../fontawesome/Solid/MountainSun.md) |
+| ![illustration of fontawesome/Solid/MugHot](../../fontawesome/Solid/MugHot.png) | [fontawesome/Solid/MugHot](../../fontawesome/Solid/MugHot.md) |
+| ![illustration of fontawesome/Solid/MugSaucer](../../fontawesome/Solid/MugSaucer.png) | [fontawesome/Solid/MugSaucer](../../fontawesome/Solid/MugSaucer.md) |
+| ![illustration of fontawesome/Solid/Music](../../fontawesome/Solid/Music.png) | [fontawesome/Solid/Music](../../fontawesome/Solid/Music.md) |
+
+<span id="family-n"></span>
+## N
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/N](../../fontawesome/Solid/N.png) | [fontawesome/Solid/N](../../fontawesome/Solid/N.md) |
+| ![illustration of fontawesome/Solid/NairaSign](../../fontawesome/Solid/NairaSign.png) | [fontawesome/Solid/NairaSign](../../fontawesome/Solid/NairaSign.md) |
+| ![illustration of fontawesome/Solid/NetworkWired](../../fontawesome/Solid/NetworkWired.png) | [fontawesome/Solid/NetworkWired](../../fontawesome/Solid/NetworkWired.md) |
+| ![illustration of fontawesome/Solid/Neuter](../../fontawesome/Solid/Neuter.png) | [fontawesome/Solid/Neuter](../../fontawesome/Solid/Neuter.md) |
+| ![illustration of fontawesome/Solid/Newspaper](../../fontawesome/Solid/Newspaper.png) | [fontawesome/Solid/Newspaper](../../fontawesome/Solid/Newspaper.md) |
+| ![illustration of fontawesome/Solid/NotEqual](../../fontawesome/Solid/NotEqual.png) | [fontawesome/Solid/NotEqual](../../fontawesome/Solid/NotEqual.md) |
+| ![illustration of fontawesome/Solid/Notdef](../../fontawesome/Solid/Notdef.png) | [fontawesome/Solid/Notdef](../../fontawesome/Solid/Notdef.md) |
+| ![illustration of fontawesome/Solid/NoteSticky](../../fontawesome/Solid/NoteSticky.png) | [fontawesome/Solid/NoteSticky](../../fontawesome/Solid/NoteSticky.md) |
+| ![illustration of fontawesome/Solid/NotesMedical](../../fontawesome/Solid/NotesMedical.png) | [fontawesome/Solid/NotesMedical](../../fontawesome/Solid/NotesMedical.md) |
+
+<span id="family-o"></span>
+## O
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/O](../../fontawesome/Solid/O.png) | [fontawesome/Solid/O](../../fontawesome/Solid/O.md) |
+| ![illustration of fontawesome/Solid/ObjectGroup](../../fontawesome/Solid/ObjectGroup.png) | [fontawesome/Solid/ObjectGroup](../../fontawesome/Solid/ObjectGroup.md) |
+| ![illustration of fontawesome/Solid/ObjectUngroup](../../fontawesome/Solid/ObjectUngroup.png) | [fontawesome/Solid/ObjectUngroup](../../fontawesome/Solid/ObjectUngroup.md) |
+| ![illustration of fontawesome/Solid/OilCan](../../fontawesome/Solid/OilCan.png) | [fontawesome/Solid/OilCan](../../fontawesome/Solid/OilCan.md) |
+| ![illustration of fontawesome/Solid/OilWell](../../fontawesome/Solid/OilWell.png) | [fontawesome/Solid/OilWell](../../fontawesome/Solid/OilWell.md) |
+| ![illustration of fontawesome/Solid/Om](../../fontawesome/Solid/Om.png) | [fontawesome/Solid/Om](../../fontawesome/Solid/Om.md) |
+| ![illustration of fontawesome/Solid/Otter](../../fontawesome/Solid/Otter.png) | [fontawesome/Solid/Otter](../../fontawesome/Solid/Otter.md) |
+| ![illustration of fontawesome/Solid/Outdent](../../fontawesome/Solid/Outdent.png) | [fontawesome/Solid/Outdent](../../fontawesome/Solid/Outdent.md) |
+
+<span id="family-p"></span>
+## P
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/P](../../fontawesome/Solid/P.png) | [fontawesome/Solid/P](../../fontawesome/Solid/P.md) |
+| ![illustration of fontawesome/Solid/Pager](../../fontawesome/Solid/Pager.png) | [fontawesome/Solid/Pager](../../fontawesome/Solid/Pager.md) |
+| ![illustration of fontawesome/Solid/PaintRoller](../../fontawesome/Solid/PaintRoller.png) | [fontawesome/Solid/PaintRoller](../../fontawesome/Solid/PaintRoller.md) |
+| ![illustration of fontawesome/Solid/Paintbrush](../../fontawesome/Solid/Paintbrush.png) | [fontawesome/Solid/Paintbrush](../../fontawesome/Solid/Paintbrush.md) |
+| ![illustration of fontawesome/Solid/Palette](../../fontawesome/Solid/Palette.png) | [fontawesome/Solid/Palette](../../fontawesome/Solid/Palette.md) |
+| ![illustration of fontawesome/Solid/Pallet](../../fontawesome/Solid/Pallet.png) | [fontawesome/Solid/Pallet](../../fontawesome/Solid/Pallet.md) |
+| ![illustration of fontawesome/Solid/Panorama](../../fontawesome/Solid/Panorama.png) | [fontawesome/Solid/Panorama](../../fontawesome/Solid/Panorama.md) |
+| ![illustration of fontawesome/Solid/PaperPlane](../../fontawesome/Solid/PaperPlane.png) | [fontawesome/Solid/PaperPlane](../../fontawesome/Solid/PaperPlane.md) |
+| ![illustration of fontawesome/Solid/Paperclip](../../fontawesome/Solid/Paperclip.png) | [fontawesome/Solid/Paperclip](../../fontawesome/Solid/Paperclip.md) |
+| ![illustration of fontawesome/Solid/ParachuteBox](../../fontawesome/Solid/ParachuteBox.png) | [fontawesome/Solid/ParachuteBox](../../fontawesome/Solid/ParachuteBox.md) |
+| ![illustration of fontawesome/Solid/Paragraph](../../fontawesome/Solid/Paragraph.png) | [fontawesome/Solid/Paragraph](../../fontawesome/Solid/Paragraph.md) |
+| ![illustration of fontawesome/Solid/Passport](../../fontawesome/Solid/Passport.png) | [fontawesome/Solid/Passport](../../fontawesome/Solid/Passport.md) |
+| ![illustration of fontawesome/Solid/Paste](../../fontawesome/Solid/Paste.png) | [fontawesome/Solid/Paste](../../fontawesome/Solid/Paste.md) |
+| ![illustration of fontawesome/Solid/Pause](../../fontawesome/Solid/Pause.png) | [fontawesome/Solid/Pause](../../fontawesome/Solid/Pause.md) |
+| ![illustration of fontawesome/Solid/Paw](../../fontawesome/Solid/Paw.png) | [fontawesome/Solid/Paw](../../fontawesome/Solid/Paw.md) |
+| ![illustration of fontawesome/Solid/Peace](../../fontawesome/Solid/Peace.png) | [fontawesome/Solid/Peace](../../fontawesome/Solid/Peace.md) |
+| ![illustration of fontawesome/Solid/Pen](../../fontawesome/Solid/Pen.png) | [fontawesome/Solid/Pen](../../fontawesome/Solid/Pen.md) |
+| ![illustration of fontawesome/Solid/PenClip](../../fontawesome/Solid/PenClip.png) | [fontawesome/Solid/PenClip](../../fontawesome/Solid/PenClip.md) |
+| ![illustration of fontawesome/Solid/PenFancy](../../fontawesome/Solid/PenFancy.png) | [fontawesome/Solid/PenFancy](../../fontawesome/Solid/PenFancy.md) |
+| ![illustration of fontawesome/Solid/PenNib](../../fontawesome/Solid/PenNib.png) | [fontawesome/Solid/PenNib](../../fontawesome/Solid/PenNib.md) |
+| ![illustration of fontawesome/Solid/PenRuler](../../fontawesome/Solid/PenRuler.png) | [fontawesome/Solid/PenRuler](../../fontawesome/Solid/PenRuler.md) |
+| ![illustration of fontawesome/Solid/PenToSquare](../../fontawesome/Solid/PenToSquare.png) | [fontawesome/Solid/PenToSquare](../../fontawesome/Solid/PenToSquare.md) |
+| ![illustration of fontawesome/Solid/Pencil](../../fontawesome/Solid/Pencil.png) | [fontawesome/Solid/Pencil](../../fontawesome/Solid/Pencil.md) |
+| ![illustration of fontawesome/Solid/PeopleArrows](../../fontawesome/Solid/PeopleArrows.png) | [fontawesome/Solid/PeopleArrows](../../fontawesome/Solid/PeopleArrows.md) |
+| ![illustration of fontawesome/Solid/PeopleCarryBox](../../fontawesome/Solid/PeopleCarryBox.png) | [fontawesome/Solid/PeopleCarryBox](../../fontawesome/Solid/PeopleCarryBox.md) |
+| ![illustration of fontawesome/Solid/PeopleGroup](../../fontawesome/Solid/PeopleGroup.png) | [fontawesome/Solid/PeopleGroup](../../fontawesome/Solid/PeopleGroup.md) |
+| ![illustration of fontawesome/Solid/PeopleLine](../../fontawesome/Solid/PeopleLine.png) | [fontawesome/Solid/PeopleLine](../../fontawesome/Solid/PeopleLine.md) |
+| ![illustration of fontawesome/Solid/PeoplePulling](../../fontawesome/Solid/PeoplePulling.png) | [fontawesome/Solid/PeoplePulling](../../fontawesome/Solid/PeoplePulling.md) |
+| ![illustration of fontawesome/Solid/PeopleRobbery](../../fontawesome/Solid/PeopleRobbery.png) | [fontawesome/Solid/PeopleRobbery](../../fontawesome/Solid/PeopleRobbery.md) |
+| ![illustration of fontawesome/Solid/PeopleRoof](../../fontawesome/Solid/PeopleRoof.png) | [fontawesome/Solid/PeopleRoof](../../fontawesome/Solid/PeopleRoof.md) |
+| ![illustration of fontawesome/Solid/PepperHot](../../fontawesome/Solid/PepperHot.png) | [fontawesome/Solid/PepperHot](../../fontawesome/Solid/PepperHot.md) |
+| ![illustration of fontawesome/Solid/Percent](../../fontawesome/Solid/Percent.png) | [fontawesome/Solid/Percent](../../fontawesome/Solid/Percent.md) |
+| ![illustration of fontawesome/Solid/Person](../../fontawesome/Solid/Person.png) | [fontawesome/Solid/Person](../../fontawesome/Solid/Person.md) |
+| ![illustration of fontawesome/Solid/PersonArrowDownToLine](../../fontawesome/Solid/PersonArrowDownToLine.png) | [fontawesome/Solid/PersonArrowDownToLine](../../fontawesome/Solid/PersonArrowDownToLine.md) |
+| ![illustration of fontawesome/Solid/PersonArrowUpFromLine](../../fontawesome/Solid/PersonArrowUpFromLine.png) | [fontawesome/Solid/PersonArrowUpFromLine](../../fontawesome/Solid/PersonArrowUpFromLine.md) |
+| ![illustration of fontawesome/Solid/PersonBiking](../../fontawesome/Solid/PersonBiking.png) | [fontawesome/Solid/PersonBiking](../../fontawesome/Solid/PersonBiking.md) |
+| ![illustration of fontawesome/Solid/PersonBooth](../../fontawesome/Solid/PersonBooth.png) | [fontawesome/Solid/PersonBooth](../../fontawesome/Solid/PersonBooth.md) |
+| ![illustration of fontawesome/Solid/PersonBreastfeeding](../../fontawesome/Solid/PersonBreastfeeding.png) | [fontawesome/Solid/PersonBreastfeeding](../../fontawesome/Solid/PersonBreastfeeding.md) |
+| ![illustration of fontawesome/Solid/PersonBurst](../../fontawesome/Solid/PersonBurst.png) | [fontawesome/Solid/PersonBurst](../../fontawesome/Solid/PersonBurst.md) |
+| ![illustration of fontawesome/Solid/PersonCane](../../fontawesome/Solid/PersonCane.png) | [fontawesome/Solid/PersonCane](../../fontawesome/Solid/PersonCane.md) |
+| ![illustration of fontawesome/Solid/PersonChalkboard](../../fontawesome/Solid/PersonChalkboard.png) | [fontawesome/Solid/PersonChalkboard](../../fontawesome/Solid/PersonChalkboard.md) |
+| ![illustration of fontawesome/Solid/PersonCircleCheck](../../fontawesome/Solid/PersonCircleCheck.png) | [fontawesome/Solid/PersonCircleCheck](../../fontawesome/Solid/PersonCircleCheck.md) |
+| ![illustration of fontawesome/Solid/PersonCircleExclamation](../../fontawesome/Solid/PersonCircleExclamation.png) | [fontawesome/Solid/PersonCircleExclamation](../../fontawesome/Solid/PersonCircleExclamation.md) |
+| ![illustration of fontawesome/Solid/PersonCircleMinus](../../fontawesome/Solid/PersonCircleMinus.png) | [fontawesome/Solid/PersonCircleMinus](../../fontawesome/Solid/PersonCircleMinus.md) |
+| ![illustration of fontawesome/Solid/PersonCirclePlus](../../fontawesome/Solid/PersonCirclePlus.png) | [fontawesome/Solid/PersonCirclePlus](../../fontawesome/Solid/PersonCirclePlus.md) |
+| ![illustration of fontawesome/Solid/PersonCircleQuestion](../../fontawesome/Solid/PersonCircleQuestion.png) | [fontawesome/Solid/PersonCircleQuestion](../../fontawesome/Solid/PersonCircleQuestion.md) |
+| ![illustration of fontawesome/Solid/PersonCircleXmark](../../fontawesome/Solid/PersonCircleXmark.png) | [fontawesome/Solid/PersonCircleXmark](../../fontawesome/Solid/PersonCircleXmark.md) |
+| ![illustration of fontawesome/Solid/PersonDigging](../../fontawesome/Solid/PersonDigging.png) | [fontawesome/Solid/PersonDigging](../../fontawesome/Solid/PersonDigging.md) |
+| ![illustration of fontawesome/Solid/PersonDotsFromLine](../../fontawesome/Solid/PersonDotsFromLine.png) | [fontawesome/Solid/PersonDotsFromLine](../../fontawesome/Solid/PersonDotsFromLine.md) |
+| ![illustration of fontawesome/Solid/PersonDress](../../fontawesome/Solid/PersonDress.png) | [fontawesome/Solid/PersonDress](../../fontawesome/Solid/PersonDress.md) |
+| ![illustration of fontawesome/Solid/PersonDressBurst](../../fontawesome/Solid/PersonDressBurst.png) | [fontawesome/Solid/PersonDressBurst](../../fontawesome/Solid/PersonDressBurst.md) |
+| ![illustration of fontawesome/Solid/PersonDrowning](../../fontawesome/Solid/PersonDrowning.png) | [fontawesome/Solid/PersonDrowning](../../fontawesome/Solid/PersonDrowning.md) |
+| ![illustration of fontawesome/Solid/PersonFalling](../../fontawesome/Solid/PersonFalling.png) | [fontawesome/Solid/PersonFalling](../../fontawesome/Solid/PersonFalling.md) |
+| ![illustration of fontawesome/Solid/PersonFallingBurst](../../fontawesome/Solid/PersonFallingBurst.png) | [fontawesome/Solid/PersonFallingBurst](../../fontawesome/Solid/PersonFallingBurst.md) |
+| ![illustration of fontawesome/Solid/PersonHalfDress](../../fontawesome/Solid/PersonHalfDress.png) | [fontawesome/Solid/PersonHalfDress](../../fontawesome/Solid/PersonHalfDress.md) |
+| ![illustration of fontawesome/Solid/PersonHarassing](../../fontawesome/Solid/PersonHarassing.png) | [fontawesome/Solid/PersonHarassing](../../fontawesome/Solid/PersonHarassing.md) |
+| ![illustration of fontawesome/Solid/PersonHiking](../../fontawesome/Solid/PersonHiking.png) | [fontawesome/Solid/PersonHiking](../../fontawesome/Solid/PersonHiking.md) |
+| ![illustration of fontawesome/Solid/PersonMilitaryPointing](../../fontawesome/Solid/PersonMilitaryPointing.png) | [fontawesome/Solid/PersonMilitaryPointing](../../fontawesome/Solid/PersonMilitaryPointing.md) |
+| ![illustration of fontawesome/Solid/PersonMilitaryRifle](../../fontawesome/Solid/PersonMilitaryRifle.png) | [fontawesome/Solid/PersonMilitaryRifle](../../fontawesome/Solid/PersonMilitaryRifle.md) |
+| ![illustration of fontawesome/Solid/PersonMilitaryToPerson](../../fontawesome/Solid/PersonMilitaryToPerson.png) | [fontawesome/Solid/PersonMilitaryToPerson](../../fontawesome/Solid/PersonMilitaryToPerson.md) |
+| ![illustration of fontawesome/Solid/PersonPraying](../../fontawesome/Solid/PersonPraying.png) | [fontawesome/Solid/PersonPraying](../../fontawesome/Solid/PersonPraying.md) |
+| ![illustration of fontawesome/Solid/PersonPregnant](../../fontawesome/Solid/PersonPregnant.png) | [fontawesome/Solid/PersonPregnant](../../fontawesome/Solid/PersonPregnant.md) |
+| ![illustration of fontawesome/Solid/PersonRays](../../fontawesome/Solid/PersonRays.png) | [fontawesome/Solid/PersonRays](../../fontawesome/Solid/PersonRays.md) |
+| ![illustration of fontawesome/Solid/PersonRifle](../../fontawesome/Solid/PersonRifle.png) | [fontawesome/Solid/PersonRifle](../../fontawesome/Solid/PersonRifle.md) |
+| ![illustration of fontawesome/Solid/PersonRunning](../../fontawesome/Solid/PersonRunning.png) | [fontawesome/Solid/PersonRunning](../../fontawesome/Solid/PersonRunning.md) |
+| ![illustration of fontawesome/Solid/PersonShelter](../../fontawesome/Solid/PersonShelter.png) | [fontawesome/Solid/PersonShelter](../../fontawesome/Solid/PersonShelter.md) |
+| ![illustration of fontawesome/Solid/PersonSkating](../../fontawesome/Solid/PersonSkating.png) | [fontawesome/Solid/PersonSkating](../../fontawesome/Solid/PersonSkating.md) |
+| ![illustration of fontawesome/Solid/PersonSkiing](../../fontawesome/Solid/PersonSkiing.png) | [fontawesome/Solid/PersonSkiing](../../fontawesome/Solid/PersonSkiing.md) |
+| ![illustration of fontawesome/Solid/PersonSkiingNordic](../../fontawesome/Solid/PersonSkiingNordic.png) | [fontawesome/Solid/PersonSkiingNordic](../../fontawesome/Solid/PersonSkiingNordic.md) |
+| ![illustration of fontawesome/Solid/PersonSnowboarding](../../fontawesome/Solid/PersonSnowboarding.png) | [fontawesome/Solid/PersonSnowboarding](../../fontawesome/Solid/PersonSnowboarding.md) |
+| ![illustration of fontawesome/Solid/PersonSwimming](../../fontawesome/Solid/PersonSwimming.png) | [fontawesome/Solid/PersonSwimming](../../fontawesome/Solid/PersonSwimming.md) |
+| ![illustration of fontawesome/Solid/PersonThroughWindow](../../fontawesome/Solid/PersonThroughWindow.png) | [fontawesome/Solid/PersonThroughWindow](../../fontawesome/Solid/PersonThroughWindow.md) |
+| ![illustration of fontawesome/Solid/PersonWalking](../../fontawesome/Solid/PersonWalking.png) | [fontawesome/Solid/PersonWalking](../../fontawesome/Solid/PersonWalking.md) |
+| ![illustration of fontawesome/Solid/PersonWalkingArrowLoopLeft](../../fontawesome/Solid/PersonWalkingArrowLoopLeft.png) | [fontawesome/Solid/PersonWalkingArrowLoopLeft](../../fontawesome/Solid/PersonWalkingArrowLoopLeft.md) |
+| ![illustration of fontawesome/Solid/PersonWalkingArrowRight](../../fontawesome/Solid/PersonWalkingArrowRight.png) | [fontawesome/Solid/PersonWalkingArrowRight](../../fontawesome/Solid/PersonWalkingArrowRight.md) |
+| ![illustration of fontawesome/Solid/PersonWalkingDashedLineArrowRight](../../fontawesome/Solid/PersonWalkingDashedLineArrowRight.png) | [fontawesome/Solid/PersonWalkingDashedLineArrowRight](../../fontawesome/Solid/PersonWalkingDashedLineArrowRight.md) |
+| ![illustration of fontawesome/Solid/PersonWalkingLuggage](../../fontawesome/Solid/PersonWalkingLuggage.png) | [fontawesome/Solid/PersonWalkingLuggage](../../fontawesome/Solid/PersonWalkingLuggage.md) |
+| ![illustration of fontawesome/Solid/PersonWalkingWithCane](../../fontawesome/Solid/PersonWalkingWithCane.png) | [fontawesome/Solid/PersonWalkingWithCane](../../fontawesome/Solid/PersonWalkingWithCane.md) |
+| ![illustration of fontawesome/Solid/PesetaSign](../../fontawesome/Solid/PesetaSign.png) | [fontawesome/Solid/PesetaSign](../../fontawesome/Solid/PesetaSign.md) |
+| ![illustration of fontawesome/Solid/PesoSign](../../fontawesome/Solid/PesoSign.png) | [fontawesome/Solid/PesoSign](../../fontawesome/Solid/PesoSign.md) |
+| ![illustration of fontawesome/Solid/Phone](../../fontawesome/Solid/Phone.png) | [fontawesome/Solid/Phone](../../fontawesome/Solid/Phone.md) |
+| ![illustration of fontawesome/Solid/PhoneFlip](../../fontawesome/Solid/PhoneFlip.png) | [fontawesome/Solid/PhoneFlip](../../fontawesome/Solid/PhoneFlip.md) |
+| ![illustration of fontawesome/Solid/PhoneSlash](../../fontawesome/Solid/PhoneSlash.png) | [fontawesome/Solid/PhoneSlash](../../fontawesome/Solid/PhoneSlash.md) |
+| ![illustration of fontawesome/Solid/PhoneVolume](../../fontawesome/Solid/PhoneVolume.png) | [fontawesome/Solid/PhoneVolume](../../fontawesome/Solid/PhoneVolume.md) |
+| ![illustration of fontawesome/Solid/PhotoFilm](../../fontawesome/Solid/PhotoFilm.png) | [fontawesome/Solid/PhotoFilm](../../fontawesome/Solid/PhotoFilm.md) |
+| ![illustration of fontawesome/Solid/PiggyBank](../../fontawesome/Solid/PiggyBank.png) | [fontawesome/Solid/PiggyBank](../../fontawesome/Solid/PiggyBank.md) |
+| ![illustration of fontawesome/Solid/Pills](../../fontawesome/Solid/Pills.png) | [fontawesome/Solid/Pills](../../fontawesome/Solid/Pills.md) |
+| ![illustration of fontawesome/Solid/PizzaSlice](../../fontawesome/Solid/PizzaSlice.png) | [fontawesome/Solid/PizzaSlice](../../fontawesome/Solid/PizzaSlice.md) |
+| ![illustration of fontawesome/Solid/PlaceOfWorship](../../fontawesome/Solid/PlaceOfWorship.png) | [fontawesome/Solid/PlaceOfWorship](../../fontawesome/Solid/PlaceOfWorship.md) |
+| ![illustration of fontawesome/Solid/Plane](../../fontawesome/Solid/Plane.png) | [fontawesome/Solid/Plane](../../fontawesome/Solid/Plane.md) |
+| ![illustration of fontawesome/Solid/PlaneArrival](../../fontawesome/Solid/PlaneArrival.png) | [fontawesome/Solid/PlaneArrival](../../fontawesome/Solid/PlaneArrival.md) |
+| ![illustration of fontawesome/Solid/PlaneCircleCheck](../../fontawesome/Solid/PlaneCircleCheck.png) | [fontawesome/Solid/PlaneCircleCheck](../../fontawesome/Solid/PlaneCircleCheck.md) |
+| ![illustration of fontawesome/Solid/PlaneCircleExclamation](../../fontawesome/Solid/PlaneCircleExclamation.png) | [fontawesome/Solid/PlaneCircleExclamation](../../fontawesome/Solid/PlaneCircleExclamation.md) |
+| ![illustration of fontawesome/Solid/PlaneCircleXmark](../../fontawesome/Solid/PlaneCircleXmark.png) | [fontawesome/Solid/PlaneCircleXmark](../../fontawesome/Solid/PlaneCircleXmark.md) |
+| ![illustration of fontawesome/Solid/PlaneDeparture](../../fontawesome/Solid/PlaneDeparture.png) | [fontawesome/Solid/PlaneDeparture](../../fontawesome/Solid/PlaneDeparture.md) |
+| ![illustration of fontawesome/Solid/PlaneLock](../../fontawesome/Solid/PlaneLock.png) | [fontawesome/Solid/PlaneLock](../../fontawesome/Solid/PlaneLock.md) |
+| ![illustration of fontawesome/Solid/PlaneSlash](../../fontawesome/Solid/PlaneSlash.png) | [fontawesome/Solid/PlaneSlash](../../fontawesome/Solid/PlaneSlash.md) |
+| ![illustration of fontawesome/Solid/PlaneUp](../../fontawesome/Solid/PlaneUp.png) | [fontawesome/Solid/PlaneUp](../../fontawesome/Solid/PlaneUp.md) |
+| ![illustration of fontawesome/Solid/PlantWilt](../../fontawesome/Solid/PlantWilt.png) | [fontawesome/Solid/PlantWilt](../../fontawesome/Solid/PlantWilt.md) |
+| ![illustration of fontawesome/Solid/PlateWheat](../../fontawesome/Solid/PlateWheat.png) | [fontawesome/Solid/PlateWheat](../../fontawesome/Solid/PlateWheat.md) |
+| ![illustration of fontawesome/Solid/Play](../../fontawesome/Solid/Play.png) | [fontawesome/Solid/Play](../../fontawesome/Solid/Play.md) |
+| ![illustration of fontawesome/Solid/Plug](../../fontawesome/Solid/Plug.png) | [fontawesome/Solid/Plug](../../fontawesome/Solid/Plug.md) |
+| ![illustration of fontawesome/Solid/PlugCircleBolt](../../fontawesome/Solid/PlugCircleBolt.png) | [fontawesome/Solid/PlugCircleBolt](../../fontawesome/Solid/PlugCircleBolt.md) |
+| ![illustration of fontawesome/Solid/PlugCircleCheck](../../fontawesome/Solid/PlugCircleCheck.png) | [fontawesome/Solid/PlugCircleCheck](../../fontawesome/Solid/PlugCircleCheck.md) |
+| ![illustration of fontawesome/Solid/PlugCircleExclamation](../../fontawesome/Solid/PlugCircleExclamation.png) | [fontawesome/Solid/PlugCircleExclamation](../../fontawesome/Solid/PlugCircleExclamation.md) |
+| ![illustration of fontawesome/Solid/PlugCircleMinus](../../fontawesome/Solid/PlugCircleMinus.png) | [fontawesome/Solid/PlugCircleMinus](../../fontawesome/Solid/PlugCircleMinus.md) |
+| ![illustration of fontawesome/Solid/PlugCirclePlus](../../fontawesome/Solid/PlugCirclePlus.png) | [fontawesome/Solid/PlugCirclePlus](../../fontawesome/Solid/PlugCirclePlus.md) |
+| ![illustration of fontawesome/Solid/PlugCircleXmark](../../fontawesome/Solid/PlugCircleXmark.png) | [fontawesome/Solid/PlugCircleXmark](../../fontawesome/Solid/PlugCircleXmark.md) |
+| ![illustration of fontawesome/Solid/Plus](../../fontawesome/Solid/Plus.png) | [fontawesome/Solid/Plus](../../fontawesome/Solid/Plus.md) |
+| ![illustration of fontawesome/Solid/PlusMinus](../../fontawesome/Solid/PlusMinus.png) | [fontawesome/Solid/PlusMinus](../../fontawesome/Solid/PlusMinus.md) |
+| ![illustration of fontawesome/Solid/Podcast](../../fontawesome/Solid/Podcast.png) | [fontawesome/Solid/Podcast](../../fontawesome/Solid/Podcast.md) |
+| ![illustration of fontawesome/Solid/Poo](../../fontawesome/Solid/Poo.png) | [fontawesome/Solid/Poo](../../fontawesome/Solid/Poo.md) |
+| ![illustration of fontawesome/Solid/PooStorm](../../fontawesome/Solid/PooStorm.png) | [fontawesome/Solid/PooStorm](../../fontawesome/Solid/PooStorm.md) |
+| ![illustration of fontawesome/Solid/Poop](../../fontawesome/Solid/Poop.png) | [fontawesome/Solid/Poop](../../fontawesome/Solid/Poop.md) |
+| ![illustration of fontawesome/Solid/PowerOff](../../fontawesome/Solid/PowerOff.png) | [fontawesome/Solid/PowerOff](../../fontawesome/Solid/PowerOff.md) |
+| ![illustration of fontawesome/Solid/Prescription](../../fontawesome/Solid/Prescription.png) | [fontawesome/Solid/Prescription](../../fontawesome/Solid/Prescription.md) |
+| ![illustration of fontawesome/Solid/PrescriptionBottle](../../fontawesome/Solid/PrescriptionBottle.png) | [fontawesome/Solid/PrescriptionBottle](../../fontawesome/Solid/PrescriptionBottle.md) |
+| ![illustration of fontawesome/Solid/PrescriptionBottleMedical](../../fontawesome/Solid/PrescriptionBottleMedical.png) | [fontawesome/Solid/PrescriptionBottleMedical](../../fontawesome/Solid/PrescriptionBottleMedical.md) |
+| ![illustration of fontawesome/Solid/Print](../../fontawesome/Solid/Print.png) | [fontawesome/Solid/Print](../../fontawesome/Solid/Print.md) |
+| ![illustration of fontawesome/Solid/PumpMedical](../../fontawesome/Solid/PumpMedical.png) | [fontawesome/Solid/PumpMedical](../../fontawesome/Solid/PumpMedical.md) |
+| ![illustration of fontawesome/Solid/PumpSoap](../../fontawesome/Solid/PumpSoap.png) | [fontawesome/Solid/PumpSoap](../../fontawesome/Solid/PumpSoap.md) |
+| ![illustration of fontawesome/Solid/PuzzlePiece](../../fontawesome/Solid/PuzzlePiece.png) | [fontawesome/Solid/PuzzlePiece](../../fontawesome/Solid/PuzzlePiece.md) |
+
+<span id="family-q"></span>
+## Q
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/Q](../../fontawesome/Solid/Q.png) | [fontawesome/Solid/Q](../../fontawesome/Solid/Q.md) |
+| ![illustration of fontawesome/Solid/Qrcode](../../fontawesome/Solid/Qrcode.png) | [fontawesome/Solid/Qrcode](../../fontawesome/Solid/Qrcode.md) |
+| ![illustration of fontawesome/Solid/Question](../../fontawesome/Solid/Question.png) | [fontawesome/Solid/Question](../../fontawesome/Solid/Question.md) |
+| ![illustration of fontawesome/Solid/QuoteLeft](../../fontawesome/Solid/QuoteLeft.png) | [fontawesome/Solid/QuoteLeft](../../fontawesome/Solid/QuoteLeft.md) |
+| ![illustration of fontawesome/Solid/QuoteRight](../../fontawesome/Solid/QuoteRight.png) | [fontawesome/Solid/QuoteRight](../../fontawesome/Solid/QuoteRight.md) |
+
+<span id="family-r"></span>
+## R
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/R](../../fontawesome/Solid/R.png) | [fontawesome/Solid/R](../../fontawesome/Solid/R.md) |
+| ![illustration of fontawesome/Solid/Radiation](../../fontawesome/Solid/Radiation.png) | [fontawesome/Solid/Radiation](../../fontawesome/Solid/Radiation.md) |
+| ![illustration of fontawesome/Solid/Radio](../../fontawesome/Solid/Radio.png) | [fontawesome/Solid/Radio](../../fontawesome/Solid/Radio.md) |
+| ![illustration of fontawesome/Solid/Rainbow](../../fontawesome/Solid/Rainbow.png) | [fontawesome/Solid/Rainbow](../../fontawesome/Solid/Rainbow.md) |
+| ![illustration of fontawesome/Solid/RankingStar](../../fontawesome/Solid/RankingStar.png) | [fontawesome/Solid/RankingStar](../../fontawesome/Solid/RankingStar.md) |
+| ![illustration of fontawesome/Solid/Receipt](../../fontawesome/Solid/Receipt.png) | [fontawesome/Solid/Receipt](../../fontawesome/Solid/Receipt.md) |
+| ![illustration of fontawesome/Solid/RecordVinyl](../../fontawesome/Solid/RecordVinyl.png) | [fontawesome/Solid/RecordVinyl](../../fontawesome/Solid/RecordVinyl.md) |
+| ![illustration of fontawesome/Solid/RectangleAd](../../fontawesome/Solid/RectangleAd.png) | [fontawesome/Solid/RectangleAd](../../fontawesome/Solid/RectangleAd.md) |
+| ![illustration of fontawesome/Solid/RectangleList](../../fontawesome/Solid/RectangleList.png) | [fontawesome/Solid/RectangleList](../../fontawesome/Solid/RectangleList.md) |
+| ![illustration of fontawesome/Solid/RectangleXmark](../../fontawesome/Solid/RectangleXmark.png) | [fontawesome/Solid/RectangleXmark](../../fontawesome/Solid/RectangleXmark.md) |
+| ![illustration of fontawesome/Solid/Recycle](../../fontawesome/Solid/Recycle.png) | [fontawesome/Solid/Recycle](../../fontawesome/Solid/Recycle.md) |
+| ![illustration of fontawesome/Solid/Registered](../../fontawesome/Solid/Registered.png) | [fontawesome/Solid/Registered](../../fontawesome/Solid/Registered.md) |
+| ![illustration of fontawesome/Solid/Repeat](../../fontawesome/Solid/Repeat.png) | [fontawesome/Solid/Repeat](../../fontawesome/Solid/Repeat.md) |
+| ![illustration of fontawesome/Solid/Reply](../../fontawesome/Solid/Reply.png) | [fontawesome/Solid/Reply](../../fontawesome/Solid/Reply.md) |
+| ![illustration of fontawesome/Solid/ReplyAll](../../fontawesome/Solid/ReplyAll.png) | [fontawesome/Solid/ReplyAll](../../fontawesome/Solid/ReplyAll.md) |
+| ![illustration of fontawesome/Solid/Republican](../../fontawesome/Solid/Republican.png) | [fontawesome/Solid/Republican](../../fontawesome/Solid/Republican.md) |
+| ![illustration of fontawesome/Solid/Restroom](../../fontawesome/Solid/Restroom.png) | [fontawesome/Solid/Restroom](../../fontawesome/Solid/Restroom.md) |
+| ![illustration of fontawesome/Solid/Retweet](../../fontawesome/Solid/Retweet.png) | [fontawesome/Solid/Retweet](../../fontawesome/Solid/Retweet.md) |
+| ![illustration of fontawesome/Solid/Ribbon](../../fontawesome/Solid/Ribbon.png) | [fontawesome/Solid/Ribbon](../../fontawesome/Solid/Ribbon.md) |
+| ![illustration of fontawesome/Solid/RightFromBracket](../../fontawesome/Solid/RightFromBracket.png) | [fontawesome/Solid/RightFromBracket](../../fontawesome/Solid/RightFromBracket.md) |
+| ![illustration of fontawesome/Solid/RightLeft](../../fontawesome/Solid/RightLeft.png) | [fontawesome/Solid/RightLeft](../../fontawesome/Solid/RightLeft.md) |
+| ![illustration of fontawesome/Solid/RightLong](../../fontawesome/Solid/RightLong.png) | [fontawesome/Solid/RightLong](../../fontawesome/Solid/RightLong.md) |
+| ![illustration of fontawesome/Solid/RightToBracket](../../fontawesome/Solid/RightToBracket.png) | [fontawesome/Solid/RightToBracket](../../fontawesome/Solid/RightToBracket.md) |
+| ![illustration of fontawesome/Solid/Ring](../../fontawesome/Solid/Ring.png) | [fontawesome/Solid/Ring](../../fontawesome/Solid/Ring.md) |
+| ![illustration of fontawesome/Solid/Road](../../fontawesome/Solid/Road.png) | [fontawesome/Solid/Road](../../fontawesome/Solid/Road.md) |
+| ![illustration of fontawesome/Solid/RoadBarrier](../../fontawesome/Solid/RoadBarrier.png) | [fontawesome/Solid/RoadBarrier](../../fontawesome/Solid/RoadBarrier.md) |
+| ![illustration of fontawesome/Solid/RoadBridge](../../fontawesome/Solid/RoadBridge.png) | [fontawesome/Solid/RoadBridge](../../fontawesome/Solid/RoadBridge.md) |
+| ![illustration of fontawesome/Solid/RoadCircleCheck](../../fontawesome/Solid/RoadCircleCheck.png) | [fontawesome/Solid/RoadCircleCheck](../../fontawesome/Solid/RoadCircleCheck.md) |
+| ![illustration of fontawesome/Solid/RoadCircleExclamation](../../fontawesome/Solid/RoadCircleExclamation.png) | [fontawesome/Solid/RoadCircleExclamation](../../fontawesome/Solid/RoadCircleExclamation.md) |
+| ![illustration of fontawesome/Solid/RoadCircleXmark](../../fontawesome/Solid/RoadCircleXmark.png) | [fontawesome/Solid/RoadCircleXmark](../../fontawesome/Solid/RoadCircleXmark.md) |
+| ![illustration of fontawesome/Solid/RoadLock](../../fontawesome/Solid/RoadLock.png) | [fontawesome/Solid/RoadLock](../../fontawesome/Solid/RoadLock.md) |
+| ![illustration of fontawesome/Solid/RoadSpikes](../../fontawesome/Solid/RoadSpikes.png) | [fontawesome/Solid/RoadSpikes](../../fontawesome/Solid/RoadSpikes.md) |
+| ![illustration of fontawesome/Solid/Robot](../../fontawesome/Solid/Robot.png) | [fontawesome/Solid/Robot](../../fontawesome/Solid/Robot.md) |
+| ![illustration of fontawesome/Solid/Rocket](../../fontawesome/Solid/Rocket.png) | [fontawesome/Solid/Rocket](../../fontawesome/Solid/Rocket.md) |
+| ![illustration of fontawesome/Solid/Rotate](../../fontawesome/Solid/Rotate.png) | [fontawesome/Solid/Rotate](../../fontawesome/Solid/Rotate.md) |
+| ![illustration of fontawesome/Solid/RotateLeft](../../fontawesome/Solid/RotateLeft.png) | [fontawesome/Solid/RotateLeft](../../fontawesome/Solid/RotateLeft.md) |
+| ![illustration of fontawesome/Solid/RotateRight](../../fontawesome/Solid/RotateRight.png) | [fontawesome/Solid/RotateRight](../../fontawesome/Solid/RotateRight.md) |
+| ![illustration of fontawesome/Solid/Route](../../fontawesome/Solid/Route.png) | [fontawesome/Solid/Route](../../fontawesome/Solid/Route.md) |
+| ![illustration of fontawesome/Solid/Rss](../../fontawesome/Solid/Rss.png) | [fontawesome/Solid/Rss](../../fontawesome/Solid/Rss.md) |
+| ![illustration of fontawesome/Solid/RubleSign](../../fontawesome/Solid/RubleSign.png) | [fontawesome/Solid/RubleSign](../../fontawesome/Solid/RubleSign.md) |
+| ![illustration of fontawesome/Solid/Rug](../../fontawesome/Solid/Rug.png) | [fontawesome/Solid/Rug](../../fontawesome/Solid/Rug.md) |
+| ![illustration of fontawesome/Solid/Ruler](../../fontawesome/Solid/Ruler.png) | [fontawesome/Solid/Ruler](../../fontawesome/Solid/Ruler.md) |
+| ![illustration of fontawesome/Solid/RulerCombined](../../fontawesome/Solid/RulerCombined.png) | [fontawesome/Solid/RulerCombined](../../fontawesome/Solid/RulerCombined.md) |
+| ![illustration of fontawesome/Solid/RulerHorizontal](../../fontawesome/Solid/RulerHorizontal.png) | [fontawesome/Solid/RulerHorizontal](../../fontawesome/Solid/RulerHorizontal.md) |
+| ![illustration of fontawesome/Solid/RulerVertical](../../fontawesome/Solid/RulerVertical.png) | [fontawesome/Solid/RulerVertical](../../fontawesome/Solid/RulerVertical.md) |
+| ![illustration of fontawesome/Solid/RupeeSign](../../fontawesome/Solid/RupeeSign.png) | [fontawesome/Solid/RupeeSign](../../fontawesome/Solid/RupeeSign.md) |
+| ![illustration of fontawesome/Solid/RupiahSign](../../fontawesome/Solid/RupiahSign.png) | [fontawesome/Solid/RupiahSign](../../fontawesome/Solid/RupiahSign.md) |
+
+<span id="family-s"></span>
+## S
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/S](../../fontawesome/Solid/S.png) | [fontawesome/Solid/S](../../fontawesome/Solid/S.md) |
+| ![illustration of fontawesome/Solid/SackDollar](../../fontawesome/Solid/SackDollar.png) | [fontawesome/Solid/SackDollar](../../fontawesome/Solid/SackDollar.md) |
+| ![illustration of fontawesome/Solid/SackXmark](../../fontawesome/Solid/SackXmark.png) | [fontawesome/Solid/SackXmark](../../fontawesome/Solid/SackXmark.md) |
+| ![illustration of fontawesome/Solid/Sailboat](../../fontawesome/Solid/Sailboat.png) | [fontawesome/Solid/Sailboat](../../fontawesome/Solid/Sailboat.md) |
+| ![illustration of fontawesome/Solid/Satellite](../../fontawesome/Solid/Satellite.png) | [fontawesome/Solid/Satellite](../../fontawesome/Solid/Satellite.md) |
+| ![illustration of fontawesome/Solid/SatelliteDish](../../fontawesome/Solid/SatelliteDish.png) | [fontawesome/Solid/SatelliteDish](../../fontawesome/Solid/SatelliteDish.md) |
+| ![illustration of fontawesome/Solid/ScaleBalanced](../../fontawesome/Solid/ScaleBalanced.png) | [fontawesome/Solid/ScaleBalanced](../../fontawesome/Solid/ScaleBalanced.md) |
+| ![illustration of fontawesome/Solid/ScaleUnbalanced](../../fontawesome/Solid/ScaleUnbalanced.png) | [fontawesome/Solid/ScaleUnbalanced](../../fontawesome/Solid/ScaleUnbalanced.md) |
+| ![illustration of fontawesome/Solid/ScaleUnbalancedFlip](../../fontawesome/Solid/ScaleUnbalancedFlip.png) | [fontawesome/Solid/ScaleUnbalancedFlip](../../fontawesome/Solid/ScaleUnbalancedFlip.md) |
+| ![illustration of fontawesome/Solid/School](../../fontawesome/Solid/School.png) | [fontawesome/Solid/School](../../fontawesome/Solid/School.md) |
+| ![illustration of fontawesome/Solid/SchoolCircleCheck](../../fontawesome/Solid/SchoolCircleCheck.png) | [fontawesome/Solid/SchoolCircleCheck](../../fontawesome/Solid/SchoolCircleCheck.md) |
+| ![illustration of fontawesome/Solid/SchoolCircleExclamation](../../fontawesome/Solid/SchoolCircleExclamation.png) | [fontawesome/Solid/SchoolCircleExclamation](../../fontawesome/Solid/SchoolCircleExclamation.md) |
+| ![illustration of fontawesome/Solid/SchoolCircleXmark](../../fontawesome/Solid/SchoolCircleXmark.png) | [fontawesome/Solid/SchoolCircleXmark](../../fontawesome/Solid/SchoolCircleXmark.md) |
+| ![illustration of fontawesome/Solid/SchoolFlag](../../fontawesome/Solid/SchoolFlag.png) | [fontawesome/Solid/SchoolFlag](../../fontawesome/Solid/SchoolFlag.md) |
+| ![illustration of fontawesome/Solid/SchoolLock](../../fontawesome/Solid/SchoolLock.png) | [fontawesome/Solid/SchoolLock](../../fontawesome/Solid/SchoolLock.md) |
+| ![illustration of fontawesome/Solid/Scissors](../../fontawesome/Solid/Scissors.png) | [fontawesome/Solid/Scissors](../../fontawesome/Solid/Scissors.md) |
+| ![illustration of fontawesome/Solid/Screwdriver](../../fontawesome/Solid/Screwdriver.png) | [fontawesome/Solid/Screwdriver](../../fontawesome/Solid/Screwdriver.md) |
+| ![illustration of fontawesome/Solid/ScrewdriverWrench](../../fontawesome/Solid/ScrewdriverWrench.png) | [fontawesome/Solid/ScrewdriverWrench](../../fontawesome/Solid/ScrewdriverWrench.md) |
+| ![illustration of fontawesome/Solid/Scroll](../../fontawesome/Solid/Scroll.png) | [fontawesome/Solid/Scroll](../../fontawesome/Solid/Scroll.md) |
+| ![illustration of fontawesome/Solid/ScrollTorah](../../fontawesome/Solid/ScrollTorah.png) | [fontawesome/Solid/ScrollTorah](../../fontawesome/Solid/ScrollTorah.md) |
+| ![illustration of fontawesome/Solid/SdCard](../../fontawesome/Solid/SdCard.png) | [fontawesome/Solid/SdCard](../../fontawesome/Solid/SdCard.md) |
+| ![illustration of fontawesome/Solid/Section](../../fontawesome/Solid/Section.png) | [fontawesome/Solid/Section](../../fontawesome/Solid/Section.md) |
+| ![illustration of fontawesome/Solid/Seedling](../../fontawesome/Solid/Seedling.png) | [fontawesome/Solid/Seedling](../../fontawesome/Solid/Seedling.md) |
+| ![illustration of fontawesome/Solid/Server](../../fontawesome/Solid/Server.png) | [fontawesome/Solid/Server](../../fontawesome/Solid/Server.md) |
+| ![illustration of fontawesome/Solid/Shapes](../../fontawesome/Solid/Shapes.png) | [fontawesome/Solid/Shapes](../../fontawesome/Solid/Shapes.md) |
+| ![illustration of fontawesome/Solid/Share](../../fontawesome/Solid/Share.png) | [fontawesome/Solid/Share](../../fontawesome/Solid/Share.md) |
+| ![illustration of fontawesome/Solid/ShareFromSquare](../../fontawesome/Solid/ShareFromSquare.png) | [fontawesome/Solid/ShareFromSquare](../../fontawesome/Solid/ShareFromSquare.md) |
+| ![illustration of fontawesome/Solid/ShareNodes](../../fontawesome/Solid/ShareNodes.png) | [fontawesome/Solid/ShareNodes](../../fontawesome/Solid/ShareNodes.md) |
+| ![illustration of fontawesome/Solid/SheetPlastic](../../fontawesome/Solid/SheetPlastic.png) | [fontawesome/Solid/SheetPlastic](../../fontawesome/Solid/SheetPlastic.md) |
+| ![illustration of fontawesome/Solid/ShekelSign](../../fontawesome/Solid/ShekelSign.png) | [fontawesome/Solid/ShekelSign](../../fontawesome/Solid/ShekelSign.md) |
+| ![illustration of fontawesome/Solid/Shield](../../fontawesome/Solid/Shield.png) | [fontawesome/Solid/Shield](../../fontawesome/Solid/Shield.md) |
+| ![illustration of fontawesome/Solid/ShieldCat](../../fontawesome/Solid/ShieldCat.png) | [fontawesome/Solid/ShieldCat](../../fontawesome/Solid/ShieldCat.md) |
+| ![illustration of fontawesome/Solid/ShieldDog](../../fontawesome/Solid/ShieldDog.png) | [fontawesome/Solid/ShieldDog](../../fontawesome/Solid/ShieldDog.md) |
+| ![illustration of fontawesome/Solid/ShieldHalved](../../fontawesome/Solid/ShieldHalved.png) | [fontawesome/Solid/ShieldHalved](../../fontawesome/Solid/ShieldHalved.md) |
+| ![illustration of fontawesome/Solid/ShieldHeart](../../fontawesome/Solid/ShieldHeart.png) | [fontawesome/Solid/ShieldHeart](../../fontawesome/Solid/ShieldHeart.md) |
+| ![illustration of fontawesome/Solid/ShieldVirus](../../fontawesome/Solid/ShieldVirus.png) | [fontawesome/Solid/ShieldVirus](../../fontawesome/Solid/ShieldVirus.md) |
+| ![illustration of fontawesome/Solid/Ship](../../fontawesome/Solid/Ship.png) | [fontawesome/Solid/Ship](../../fontawesome/Solid/Ship.md) |
+| ![illustration of fontawesome/Solid/Shirt](../../fontawesome/Solid/Shirt.png) | [fontawesome/Solid/Shirt](../../fontawesome/Solid/Shirt.md) |
+| ![illustration of fontawesome/Solid/ShoePrints](../../fontawesome/Solid/ShoePrints.png) | [fontawesome/Solid/ShoePrints](../../fontawesome/Solid/ShoePrints.md) |
+| ![illustration of fontawesome/Solid/Shop](../../fontawesome/Solid/Shop.png) | [fontawesome/Solid/Shop](../../fontawesome/Solid/Shop.md) |
+| ![illustration of fontawesome/Solid/ShopLock](../../fontawesome/Solid/ShopLock.png) | [fontawesome/Solid/ShopLock](../../fontawesome/Solid/ShopLock.md) |
+| ![illustration of fontawesome/Solid/ShopSlash](../../fontawesome/Solid/ShopSlash.png) | [fontawesome/Solid/ShopSlash](../../fontawesome/Solid/ShopSlash.md) |
+| ![illustration of fontawesome/Solid/Shower](../../fontawesome/Solid/Shower.png) | [fontawesome/Solid/Shower](../../fontawesome/Solid/Shower.md) |
+| ![illustration of fontawesome/Solid/Shrimp](../../fontawesome/Solid/Shrimp.png) | [fontawesome/Solid/Shrimp](../../fontawesome/Solid/Shrimp.md) |
+| ![illustration of fontawesome/Solid/Shuffle](../../fontawesome/Solid/Shuffle.png) | [fontawesome/Solid/Shuffle](../../fontawesome/Solid/Shuffle.md) |
+| ![illustration of fontawesome/Solid/ShuttleSpace](../../fontawesome/Solid/ShuttleSpace.png) | [fontawesome/Solid/ShuttleSpace](../../fontawesome/Solid/ShuttleSpace.md) |
+| ![illustration of fontawesome/Solid/SignHanging](../../fontawesome/Solid/SignHanging.png) | [fontawesome/Solid/SignHanging](../../fontawesome/Solid/SignHanging.md) |
+| ![illustration of fontawesome/Solid/Signal](../../fontawesome/Solid/Signal.png) | [fontawesome/Solid/Signal](../../fontawesome/Solid/Signal.md) |
+| ![illustration of fontawesome/Solid/Signature](../../fontawesome/Solid/Signature.png) | [fontawesome/Solid/Signature](../../fontawesome/Solid/Signature.md) |
+| ![illustration of fontawesome/Solid/SignsPost](../../fontawesome/Solid/SignsPost.png) | [fontawesome/Solid/SignsPost](../../fontawesome/Solid/SignsPost.md) |
+| ![illustration of fontawesome/Solid/SimCard](../../fontawesome/Solid/SimCard.png) | [fontawesome/Solid/SimCard](../../fontawesome/Solid/SimCard.md) |
+| ![illustration of fontawesome/Solid/Sink](../../fontawesome/Solid/Sink.png) | [fontawesome/Solid/Sink](../../fontawesome/Solid/Sink.md) |
+| ![illustration of fontawesome/Solid/Sitemap](../../fontawesome/Solid/Sitemap.png) | [fontawesome/Solid/Sitemap](../../fontawesome/Solid/Sitemap.md) |
+| ![illustration of fontawesome/Solid/Skull](../../fontawesome/Solid/Skull.png) | [fontawesome/Solid/Skull](../../fontawesome/Solid/Skull.md) |
+| ![illustration of fontawesome/Solid/SkullCrossbones](../../fontawesome/Solid/SkullCrossbones.png) | [fontawesome/Solid/SkullCrossbones](../../fontawesome/Solid/SkullCrossbones.md) |
+| ![illustration of fontawesome/Solid/Slash](../../fontawesome/Solid/Slash.png) | [fontawesome/Solid/Slash](../../fontawesome/Solid/Slash.md) |
+| ![illustration of fontawesome/Solid/Sleigh](../../fontawesome/Solid/Sleigh.png) | [fontawesome/Solid/Sleigh](../../fontawesome/Solid/Sleigh.md) |
+| ![illustration of fontawesome/Solid/Sliders](../../fontawesome/Solid/Sliders.png) | [fontawesome/Solid/Sliders](../../fontawesome/Solid/Sliders.md) |
+| ![illustration of fontawesome/Solid/Smog](../../fontawesome/Solid/Smog.png) | [fontawesome/Solid/Smog](../../fontawesome/Solid/Smog.md) |
+| ![illustration of fontawesome/Solid/Smoking](../../fontawesome/Solid/Smoking.png) | [fontawesome/Solid/Smoking](../../fontawesome/Solid/Smoking.md) |
+| ![illustration of fontawesome/Solid/Snowflake](../../fontawesome/Solid/Snowflake.png) | [fontawesome/Solid/Snowflake](../../fontawesome/Solid/Snowflake.md) |
+| ![illustration of fontawesome/Solid/Snowman](../../fontawesome/Solid/Snowman.png) | [fontawesome/Solid/Snowman](../../fontawesome/Solid/Snowman.md) |
+| ![illustration of fontawesome/Solid/Snowplow](../../fontawesome/Solid/Snowplow.png) | [fontawesome/Solid/Snowplow](../../fontawesome/Solid/Snowplow.md) |
+| ![illustration of fontawesome/Solid/Soap](../../fontawesome/Solid/Soap.png) | [fontawesome/Solid/Soap](../../fontawesome/Solid/Soap.md) |
+| ![illustration of fontawesome/Solid/Socks](../../fontawesome/Solid/Socks.png) | [fontawesome/Solid/Socks](../../fontawesome/Solid/Socks.md) |
+| ![illustration of fontawesome/Solid/SolarPanel](../../fontawesome/Solid/SolarPanel.png) | [fontawesome/Solid/SolarPanel](../../fontawesome/Solid/SolarPanel.md) |
+| ![illustration of fontawesome/Solid/Sort](../../fontawesome/Solid/Sort.png) | [fontawesome/Solid/Sort](../../fontawesome/Solid/Sort.md) |
+| ![illustration of fontawesome/Solid/SortDown](../../fontawesome/Solid/SortDown.png) | [fontawesome/Solid/SortDown](../../fontawesome/Solid/SortDown.md) |
+| ![illustration of fontawesome/Solid/SortUp](../../fontawesome/Solid/SortUp.png) | [fontawesome/Solid/SortUp](../../fontawesome/Solid/SortUp.md) |
+| ![illustration of fontawesome/Solid/Spa](../../fontawesome/Solid/Spa.png) | [fontawesome/Solid/Spa](../../fontawesome/Solid/Spa.md) |
+| ![illustration of fontawesome/Solid/SpaghettiMonsterFlying](../../fontawesome/Solid/SpaghettiMonsterFlying.png) | [fontawesome/Solid/SpaghettiMonsterFlying](../../fontawesome/Solid/SpaghettiMonsterFlying.md) |
+| ![illustration of fontawesome/Solid/SpellCheck](../../fontawesome/Solid/SpellCheck.png) | [fontawesome/Solid/SpellCheck](../../fontawesome/Solid/SpellCheck.md) |
+| ![illustration of fontawesome/Solid/Spider](../../fontawesome/Solid/Spider.png) | [fontawesome/Solid/Spider](../../fontawesome/Solid/Spider.md) |
+| ![illustration of fontawesome/Solid/Spinner](../../fontawesome/Solid/Spinner.png) | [fontawesome/Solid/Spinner](../../fontawesome/Solid/Spinner.md) |
+| ![illustration of fontawesome/Solid/Splotch](../../fontawesome/Solid/Splotch.png) | [fontawesome/Solid/Splotch](../../fontawesome/Solid/Splotch.md) |
+| ![illustration of fontawesome/Solid/Spoon](../../fontawesome/Solid/Spoon.png) | [fontawesome/Solid/Spoon](../../fontawesome/Solid/Spoon.md) |
+| ![illustration of fontawesome/Solid/SprayCan](../../fontawesome/Solid/SprayCan.png) | [fontawesome/Solid/SprayCan](../../fontawesome/Solid/SprayCan.md) |
+| ![illustration of fontawesome/Solid/SprayCanSparkles](../../fontawesome/Solid/SprayCanSparkles.png) | [fontawesome/Solid/SprayCanSparkles](../../fontawesome/Solid/SprayCanSparkles.md) |
+| ![illustration of fontawesome/Solid/Square](../../fontawesome/Solid/Square.png) | [fontawesome/Solid/Square](../../fontawesome/Solid/Square.md) |
+| ![illustration of fontawesome/Solid/SquareArrowUpRight](../../fontawesome/Solid/SquareArrowUpRight.png) | [fontawesome/Solid/SquareArrowUpRight](../../fontawesome/Solid/SquareArrowUpRight.md) |
+| ![illustration of fontawesome/Solid/SquareCaretDown](../../fontawesome/Solid/SquareCaretDown.png) | [fontawesome/Solid/SquareCaretDown](../../fontawesome/Solid/SquareCaretDown.md) |
+| ![illustration of fontawesome/Solid/SquareCaretLeft](../../fontawesome/Solid/SquareCaretLeft.png) | [fontawesome/Solid/SquareCaretLeft](../../fontawesome/Solid/SquareCaretLeft.md) |
+| ![illustration of fontawesome/Solid/SquareCaretRight](../../fontawesome/Solid/SquareCaretRight.png) | [fontawesome/Solid/SquareCaretRight](../../fontawesome/Solid/SquareCaretRight.md) |
+| ![illustration of fontawesome/Solid/SquareCaretUp](../../fontawesome/Solid/SquareCaretUp.png) | [fontawesome/Solid/SquareCaretUp](../../fontawesome/Solid/SquareCaretUp.md) |
+| ![illustration of fontawesome/Solid/SquareCheck](../../fontawesome/Solid/SquareCheck.png) | [fontawesome/Solid/SquareCheck](../../fontawesome/Solid/SquareCheck.md) |
+| ![illustration of fontawesome/Solid/SquareEnvelope](../../fontawesome/Solid/SquareEnvelope.png) | [fontawesome/Solid/SquareEnvelope](../../fontawesome/Solid/SquareEnvelope.md) |
+| ![illustration of fontawesome/Solid/SquareFull](../../fontawesome/Solid/SquareFull.png) | [fontawesome/Solid/SquareFull](../../fontawesome/Solid/SquareFull.md) |
+| ![illustration of fontawesome/Solid/SquareH](../../fontawesome/Solid/SquareH.png) | [fontawesome/Solid/SquareH](../../fontawesome/Solid/SquareH.md) |
+| ![illustration of fontawesome/Solid/SquareMinus](../../fontawesome/Solid/SquareMinus.png) | [fontawesome/Solid/SquareMinus](../../fontawesome/Solid/SquareMinus.md) |
+| ![illustration of fontawesome/Solid/SquareNfi](../../fontawesome/Solid/SquareNfi.png) | [fontawesome/Solid/SquareNfi](../../fontawesome/Solid/SquareNfi.md) |
+| ![illustration of fontawesome/Solid/SquareParking](../../fontawesome/Solid/SquareParking.png) | [fontawesome/Solid/SquareParking](../../fontawesome/Solid/SquareParking.md) |
+| ![illustration of fontawesome/Solid/SquarePen](../../fontawesome/Solid/SquarePen.png) | [fontawesome/Solid/SquarePen](../../fontawesome/Solid/SquarePen.md) |
+| ![illustration of fontawesome/Solid/SquarePersonConfined](../../fontawesome/Solid/SquarePersonConfined.png) | [fontawesome/Solid/SquarePersonConfined](../../fontawesome/Solid/SquarePersonConfined.md) |
+| ![illustration of fontawesome/Solid/SquarePhone](../../fontawesome/Solid/SquarePhone.png) | [fontawesome/Solid/SquarePhone](../../fontawesome/Solid/SquarePhone.md) |
+| ![illustration of fontawesome/Solid/SquarePhoneFlip](../../fontawesome/Solid/SquarePhoneFlip.png) | [fontawesome/Solid/SquarePhoneFlip](../../fontawesome/Solid/SquarePhoneFlip.md) |
+| ![illustration of fontawesome/Solid/SquarePlus](../../fontawesome/Solid/SquarePlus.png) | [fontawesome/Solid/SquarePlus](../../fontawesome/Solid/SquarePlus.md) |
+| ![illustration of fontawesome/Solid/SquarePollHorizontal](../../fontawesome/Solid/SquarePollHorizontal.png) | [fontawesome/Solid/SquarePollHorizontal](../../fontawesome/Solid/SquarePollHorizontal.md) |
+| ![illustration of fontawesome/Solid/SquarePollVertical](../../fontawesome/Solid/SquarePollVertical.png) | [fontawesome/Solid/SquarePollVertical](../../fontawesome/Solid/SquarePollVertical.md) |
+| ![illustration of fontawesome/Solid/SquareRootVariable](../../fontawesome/Solid/SquareRootVariable.png) | [fontawesome/Solid/SquareRootVariable](../../fontawesome/Solid/SquareRootVariable.md) |
+| ![illustration of fontawesome/Solid/SquareRss](../../fontawesome/Solid/SquareRss.png) | [fontawesome/Solid/SquareRss](../../fontawesome/Solid/SquareRss.md) |
+| ![illustration of fontawesome/Solid/SquareShareNodes](../../fontawesome/Solid/SquareShareNodes.png) | [fontawesome/Solid/SquareShareNodes](../../fontawesome/Solid/SquareShareNodes.md) |
+| ![illustration of fontawesome/Solid/SquareUpRight](../../fontawesome/Solid/SquareUpRight.png) | [fontawesome/Solid/SquareUpRight](../../fontawesome/Solid/SquareUpRight.md) |
+| ![illustration of fontawesome/Solid/SquareVirus](../../fontawesome/Solid/SquareVirus.png) | [fontawesome/Solid/SquareVirus](../../fontawesome/Solid/SquareVirus.md) |
+| ![illustration of fontawesome/Solid/SquareXmark](../../fontawesome/Solid/SquareXmark.png) | [fontawesome/Solid/SquareXmark](../../fontawesome/Solid/SquareXmark.md) |
+| ![illustration of fontawesome/Solid/StaffSnake](../../fontawesome/Solid/StaffSnake.png) | [fontawesome/Solid/StaffSnake](../../fontawesome/Solid/StaffSnake.md) |
+| ![illustration of fontawesome/Solid/Stairs](../../fontawesome/Solid/Stairs.png) | [fontawesome/Solid/Stairs](../../fontawesome/Solid/Stairs.md) |
+| ![illustration of fontawesome/Solid/Stamp](../../fontawesome/Solid/Stamp.png) | [fontawesome/Solid/Stamp](../../fontawesome/Solid/Stamp.md) |
+| ![illustration of fontawesome/Solid/Stapler](../../fontawesome/Solid/Stapler.png) | [fontawesome/Solid/Stapler](../../fontawesome/Solid/Stapler.md) |
+| ![illustration of fontawesome/Solid/Star](../../fontawesome/Solid/Star.png) | [fontawesome/Solid/Star](../../fontawesome/Solid/Star.md) |
+| ![illustration of fontawesome/Solid/StarAndCrescent](../../fontawesome/Solid/StarAndCrescent.png) | [fontawesome/Solid/StarAndCrescent](../../fontawesome/Solid/StarAndCrescent.md) |
+| ![illustration of fontawesome/Solid/StarHalf](../../fontawesome/Solid/StarHalf.png) | [fontawesome/Solid/StarHalf](../../fontawesome/Solid/StarHalf.md) |
+| ![illustration of fontawesome/Solid/StarHalfStroke](../../fontawesome/Solid/StarHalfStroke.png) | [fontawesome/Solid/StarHalfStroke](../../fontawesome/Solid/StarHalfStroke.md) |
+| ![illustration of fontawesome/Solid/StarOfDavid](../../fontawesome/Solid/StarOfDavid.png) | [fontawesome/Solid/StarOfDavid](../../fontawesome/Solid/StarOfDavid.md) |
+| ![illustration of fontawesome/Solid/StarOfLife](../../fontawesome/Solid/StarOfLife.png) | [fontawesome/Solid/StarOfLife](../../fontawesome/Solid/StarOfLife.md) |
+| ![illustration of fontawesome/Solid/SterlingSign](../../fontawesome/Solid/SterlingSign.png) | [fontawesome/Solid/SterlingSign](../../fontawesome/Solid/SterlingSign.md) |
+| ![illustration of fontawesome/Solid/Stethoscope](../../fontawesome/Solid/Stethoscope.png) | [fontawesome/Solid/Stethoscope](../../fontawesome/Solid/Stethoscope.md) |
+| ![illustration of fontawesome/Solid/Stop](../../fontawesome/Solid/Stop.png) | [fontawesome/Solid/Stop](../../fontawesome/Solid/Stop.md) |
+| ![illustration of fontawesome/Solid/Stopwatch](../../fontawesome/Solid/Stopwatch.png) | [fontawesome/Solid/Stopwatch](../../fontawesome/Solid/Stopwatch.md) |
+| ![illustration of fontawesome/Solid/Stopwatch20](../../fontawesome/Solid/Stopwatch20.png) | [fontawesome/Solid/Stopwatch20](../../fontawesome/Solid/Stopwatch20.md) |
+| ![illustration of fontawesome/Solid/Store](../../fontawesome/Solid/Store.png) | [fontawesome/Solid/Store](../../fontawesome/Solid/Store.md) |
+| ![illustration of fontawesome/Solid/StoreSlash](../../fontawesome/Solid/StoreSlash.png) | [fontawesome/Solid/StoreSlash](../../fontawesome/Solid/StoreSlash.md) |
+| ![illustration of fontawesome/Solid/StreetView](../../fontawesome/Solid/StreetView.png) | [fontawesome/Solid/StreetView](../../fontawesome/Solid/StreetView.md) |
+| ![illustration of fontawesome/Solid/Strikethrough](../../fontawesome/Solid/Strikethrough.png) | [fontawesome/Solid/Strikethrough](../../fontawesome/Solid/Strikethrough.md) |
+| ![illustration of fontawesome/Solid/Stroopwafel](../../fontawesome/Solid/Stroopwafel.png) | [fontawesome/Solid/Stroopwafel](../../fontawesome/Solid/Stroopwafel.md) |
+| ![illustration of fontawesome/Solid/Subscript](../../fontawesome/Solid/Subscript.png) | [fontawesome/Solid/Subscript](../../fontawesome/Solid/Subscript.md) |
+| ![illustration of fontawesome/Solid/Suitcase](../../fontawesome/Solid/Suitcase.png) | [fontawesome/Solid/Suitcase](../../fontawesome/Solid/Suitcase.md) |
+| ![illustration of fontawesome/Solid/SuitcaseMedical](../../fontawesome/Solid/SuitcaseMedical.png) | [fontawesome/Solid/SuitcaseMedical](../../fontawesome/Solid/SuitcaseMedical.md) |
+| ![illustration of fontawesome/Solid/SuitcaseRolling](../../fontawesome/Solid/SuitcaseRolling.png) | [fontawesome/Solid/SuitcaseRolling](../../fontawesome/Solid/SuitcaseRolling.md) |
+| ![illustration of fontawesome/Solid/Sun](../../fontawesome/Solid/Sun.png) | [fontawesome/Solid/Sun](../../fontawesome/Solid/Sun.md) |
+| ![illustration of fontawesome/Solid/SunPlantWilt](../../fontawesome/Solid/SunPlantWilt.png) | [fontawesome/Solid/SunPlantWilt](../../fontawesome/Solid/SunPlantWilt.md) |
+| ![illustration of fontawesome/Solid/Superscript](../../fontawesome/Solid/Superscript.png) | [fontawesome/Solid/Superscript](../../fontawesome/Solid/Superscript.md) |
+| ![illustration of fontawesome/Solid/Swatchbook](../../fontawesome/Solid/Swatchbook.png) | [fontawesome/Solid/Swatchbook](../../fontawesome/Solid/Swatchbook.md) |
+| ![illustration of fontawesome/Solid/Synagogue](../../fontawesome/Solid/Synagogue.png) | [fontawesome/Solid/Synagogue](../../fontawesome/Solid/Synagogue.md) |
+| ![illustration of fontawesome/Solid/Syringe](../../fontawesome/Solid/Syringe.png) | [fontawesome/Solid/Syringe](../../fontawesome/Solid/Syringe.md) |
+
+<span id="family-t"></span>
+## T
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/T](../../fontawesome/Solid/T.png) | [fontawesome/Solid/T](../../fontawesome/Solid/T.md) |
+| ![illustration of fontawesome/Solid/Table](../../fontawesome/Solid/Table.png) | [fontawesome/Solid/Table](../../fontawesome/Solid/Table.md) |
+| ![illustration of fontawesome/Solid/TableCells](../../fontawesome/Solid/TableCells.png) | [fontawesome/Solid/TableCells](../../fontawesome/Solid/TableCells.md) |
+| ![illustration of fontawesome/Solid/TableCellsLarge](../../fontawesome/Solid/TableCellsLarge.png) | [fontawesome/Solid/TableCellsLarge](../../fontawesome/Solid/TableCellsLarge.md) |
+| ![illustration of fontawesome/Solid/TableColumns](../../fontawesome/Solid/TableColumns.png) | [fontawesome/Solid/TableColumns](../../fontawesome/Solid/TableColumns.md) |
+| ![illustration of fontawesome/Solid/TableList](../../fontawesome/Solid/TableList.png) | [fontawesome/Solid/TableList](../../fontawesome/Solid/TableList.md) |
+| ![illustration of fontawesome/Solid/TableTennisPaddleBall](../../fontawesome/Solid/TableTennisPaddleBall.png) | [fontawesome/Solid/TableTennisPaddleBall](../../fontawesome/Solid/TableTennisPaddleBall.md) |
+| ![illustration of fontawesome/Solid/Tablet](../../fontawesome/Solid/Tablet.png) | [fontawesome/Solid/Tablet](../../fontawesome/Solid/Tablet.md) |
+| ![illustration of fontawesome/Solid/TabletButton](../../fontawesome/Solid/TabletButton.png) | [fontawesome/Solid/TabletButton](../../fontawesome/Solid/TabletButton.md) |
+| ![illustration of fontawesome/Solid/TabletScreenButton](../../fontawesome/Solid/TabletScreenButton.png) | [fontawesome/Solid/TabletScreenButton](../../fontawesome/Solid/TabletScreenButton.md) |
+| ![illustration of fontawesome/Solid/Tablets](../../fontawesome/Solid/Tablets.png) | [fontawesome/Solid/Tablets](../../fontawesome/Solid/Tablets.md) |
+| ![illustration of fontawesome/Solid/TachographDigital](../../fontawesome/Solid/TachographDigital.png) | [fontawesome/Solid/TachographDigital](../../fontawesome/Solid/TachographDigital.md) |
+| ![illustration of fontawesome/Solid/Tag](../../fontawesome/Solid/Tag.png) | [fontawesome/Solid/Tag](../../fontawesome/Solid/Tag.md) |
+| ![illustration of fontawesome/Solid/Tags](../../fontawesome/Solid/Tags.png) | [fontawesome/Solid/Tags](../../fontawesome/Solid/Tags.md) |
+| ![illustration of fontawesome/Solid/Tape](../../fontawesome/Solid/Tape.png) | [fontawesome/Solid/Tape](../../fontawesome/Solid/Tape.md) |
+| ![illustration of fontawesome/Solid/Tarp](../../fontawesome/Solid/Tarp.png) | [fontawesome/Solid/Tarp](../../fontawesome/Solid/Tarp.md) |
+| ![illustration of fontawesome/Solid/TarpDroplet](../../fontawesome/Solid/TarpDroplet.png) | [fontawesome/Solid/TarpDroplet](../../fontawesome/Solid/TarpDroplet.md) |
+| ![illustration of fontawesome/Solid/Taxi](../../fontawesome/Solid/Taxi.png) | [fontawesome/Solid/Taxi](../../fontawesome/Solid/Taxi.md) |
+| ![illustration of fontawesome/Solid/Teeth](../../fontawesome/Solid/Teeth.png) | [fontawesome/Solid/Teeth](../../fontawesome/Solid/Teeth.md) |
+| ![illustration of fontawesome/Solid/TeethOpen](../../fontawesome/Solid/TeethOpen.png) | [fontawesome/Solid/TeethOpen](../../fontawesome/Solid/TeethOpen.md) |
+| ![illustration of fontawesome/Solid/TemperatureArrowDown](../../fontawesome/Solid/TemperatureArrowDown.png) | [fontawesome/Solid/TemperatureArrowDown](../../fontawesome/Solid/TemperatureArrowDown.md) |
+| ![illustration of fontawesome/Solid/TemperatureArrowUp](../../fontawesome/Solid/TemperatureArrowUp.png) | [fontawesome/Solid/TemperatureArrowUp](../../fontawesome/Solid/TemperatureArrowUp.md) |
+| ![illustration of fontawesome/Solid/TemperatureEmpty](../../fontawesome/Solid/TemperatureEmpty.png) | [fontawesome/Solid/TemperatureEmpty](../../fontawesome/Solid/TemperatureEmpty.md) |
+| ![illustration of fontawesome/Solid/TemperatureFull](../../fontawesome/Solid/TemperatureFull.png) | [fontawesome/Solid/TemperatureFull](../../fontawesome/Solid/TemperatureFull.md) |
+| ![illustration of fontawesome/Solid/TemperatureHalf](../../fontawesome/Solid/TemperatureHalf.png) | [fontawesome/Solid/TemperatureHalf](../../fontawesome/Solid/TemperatureHalf.md) |
+| ![illustration of fontawesome/Solid/TemperatureHigh](../../fontawesome/Solid/TemperatureHigh.png) | [fontawesome/Solid/TemperatureHigh](../../fontawesome/Solid/TemperatureHigh.md) |
+| ![illustration of fontawesome/Solid/TemperatureLow](../../fontawesome/Solid/TemperatureLow.png) | [fontawesome/Solid/TemperatureLow](../../fontawesome/Solid/TemperatureLow.md) |
+| ![illustration of fontawesome/Solid/TemperatureQuarter](../../fontawesome/Solid/TemperatureQuarter.png) | [fontawesome/Solid/TemperatureQuarter](../../fontawesome/Solid/TemperatureQuarter.md) |
+| ![illustration of fontawesome/Solid/TemperatureThreeQuarters](../../fontawesome/Solid/TemperatureThreeQuarters.png) | [fontawesome/Solid/TemperatureThreeQuarters](../../fontawesome/Solid/TemperatureThreeQuarters.md) |
+| ![illustration of fontawesome/Solid/TengeSign](../../fontawesome/Solid/TengeSign.png) | [fontawesome/Solid/TengeSign](../../fontawesome/Solid/TengeSign.md) |
+| ![illustration of fontawesome/Solid/Tent](../../fontawesome/Solid/Tent.png) | [fontawesome/Solid/Tent](../../fontawesome/Solid/Tent.md) |
+| ![illustration of fontawesome/Solid/TentArrowDownToLine](../../fontawesome/Solid/TentArrowDownToLine.png) | [fontawesome/Solid/TentArrowDownToLine](../../fontawesome/Solid/TentArrowDownToLine.md) |
+| ![illustration of fontawesome/Solid/TentArrowLeftRight](../../fontawesome/Solid/TentArrowLeftRight.png) | [fontawesome/Solid/TentArrowLeftRight](../../fontawesome/Solid/TentArrowLeftRight.md) |
+| ![illustration of fontawesome/Solid/TentArrowTurnLeft](../../fontawesome/Solid/TentArrowTurnLeft.png) | [fontawesome/Solid/TentArrowTurnLeft](../../fontawesome/Solid/TentArrowTurnLeft.md) |
+| ![illustration of fontawesome/Solid/TentArrowsDown](../../fontawesome/Solid/TentArrowsDown.png) | [fontawesome/Solid/TentArrowsDown](../../fontawesome/Solid/TentArrowsDown.md) |
+| ![illustration of fontawesome/Solid/Tents](../../fontawesome/Solid/Tents.png) | [fontawesome/Solid/Tents](../../fontawesome/Solid/Tents.md) |
+| ![illustration of fontawesome/Solid/Terminal](../../fontawesome/Solid/Terminal.png) | [fontawesome/Solid/Terminal](../../fontawesome/Solid/Terminal.md) |
+| ![illustration of fontawesome/Solid/TextHeight](../../fontawesome/Solid/TextHeight.png) | [fontawesome/Solid/TextHeight](../../fontawesome/Solid/TextHeight.md) |
+| ![illustration of fontawesome/Solid/TextSlash](../../fontawesome/Solid/TextSlash.png) | [fontawesome/Solid/TextSlash](../../fontawesome/Solid/TextSlash.md) |
+| ![illustration of fontawesome/Solid/TextWidth](../../fontawesome/Solid/TextWidth.png) | [fontawesome/Solid/TextWidth](../../fontawesome/Solid/TextWidth.md) |
+| ![illustration of fontawesome/Solid/Thermometer](../../fontawesome/Solid/Thermometer.png) | [fontawesome/Solid/Thermometer](../../fontawesome/Solid/Thermometer.md) |
+| ![illustration of fontawesome/Solid/ThumbsDown](../../fontawesome/Solid/ThumbsDown.png) | [fontawesome/Solid/ThumbsDown](../../fontawesome/Solid/ThumbsDown.md) |
+| ![illustration of fontawesome/Solid/ThumbsUp](../../fontawesome/Solid/ThumbsUp.png) | [fontawesome/Solid/ThumbsUp](../../fontawesome/Solid/ThumbsUp.md) |
+| ![illustration of fontawesome/Solid/Thumbtack](../../fontawesome/Solid/Thumbtack.png) | [fontawesome/Solid/Thumbtack](../../fontawesome/Solid/Thumbtack.md) |
+| ![illustration of fontawesome/Solid/Ticket](../../fontawesome/Solid/Ticket.png) | [fontawesome/Solid/Ticket](../../fontawesome/Solid/Ticket.md) |
+| ![illustration of fontawesome/Solid/TicketSimple](../../fontawesome/Solid/TicketSimple.png) | [fontawesome/Solid/TicketSimple](../../fontawesome/Solid/TicketSimple.md) |
+| ![illustration of fontawesome/Solid/Timeline](../../fontawesome/Solid/Timeline.png) | [fontawesome/Solid/Timeline](../../fontawesome/Solid/Timeline.md) |
+| ![illustration of fontawesome/Solid/ToggleOff](../../fontawesome/Solid/ToggleOff.png) | [fontawesome/Solid/ToggleOff](../../fontawesome/Solid/ToggleOff.md) |
+| ![illustration of fontawesome/Solid/ToggleOn](../../fontawesome/Solid/ToggleOn.png) | [fontawesome/Solid/ToggleOn](../../fontawesome/Solid/ToggleOn.md) |
+| ![illustration of fontawesome/Solid/Toilet](../../fontawesome/Solid/Toilet.png) | [fontawesome/Solid/Toilet](../../fontawesome/Solid/Toilet.md) |
+| ![illustration of fontawesome/Solid/ToiletPaper](../../fontawesome/Solid/ToiletPaper.png) | [fontawesome/Solid/ToiletPaper](../../fontawesome/Solid/ToiletPaper.md) |
+| ![illustration of fontawesome/Solid/ToiletPaperSlash](../../fontawesome/Solid/ToiletPaperSlash.png) | [fontawesome/Solid/ToiletPaperSlash](../../fontawesome/Solid/ToiletPaperSlash.md) |
+| ![illustration of fontawesome/Solid/ToiletPortable](../../fontawesome/Solid/ToiletPortable.png) | [fontawesome/Solid/ToiletPortable](../../fontawesome/Solid/ToiletPortable.md) |
+| ![illustration of fontawesome/Solid/ToiletsPortable](../../fontawesome/Solid/ToiletsPortable.png) | [fontawesome/Solid/ToiletsPortable](../../fontawesome/Solid/ToiletsPortable.md) |
+| ![illustration of fontawesome/Solid/Toolbox](../../fontawesome/Solid/Toolbox.png) | [fontawesome/Solid/Toolbox](../../fontawesome/Solid/Toolbox.md) |
+| ![illustration of fontawesome/Solid/Tooth](../../fontawesome/Solid/Tooth.png) | [fontawesome/Solid/Tooth](../../fontawesome/Solid/Tooth.md) |
+| ![illustration of fontawesome/Solid/ToriiGate](../../fontawesome/Solid/ToriiGate.png) | [fontawesome/Solid/ToriiGate](../../fontawesome/Solid/ToriiGate.md) |
+| ![illustration of fontawesome/Solid/Tornado](../../fontawesome/Solid/Tornado.png) | [fontawesome/Solid/Tornado](../../fontawesome/Solid/Tornado.md) |
+| ![illustration of fontawesome/Solid/TowerBroadcast](../../fontawesome/Solid/TowerBroadcast.png) | [fontawesome/Solid/TowerBroadcast](../../fontawesome/Solid/TowerBroadcast.md) |
+| ![illustration of fontawesome/Solid/TowerCell](../../fontawesome/Solid/TowerCell.png) | [fontawesome/Solid/TowerCell](../../fontawesome/Solid/TowerCell.md) |
+| ![illustration of fontawesome/Solid/TowerObservation](../../fontawesome/Solid/TowerObservation.png) | [fontawesome/Solid/TowerObservation](../../fontawesome/Solid/TowerObservation.md) |
+| ![illustration of fontawesome/Solid/Tractor](../../fontawesome/Solid/Tractor.png) | [fontawesome/Solid/Tractor](../../fontawesome/Solid/Tractor.md) |
+| ![illustration of fontawesome/Solid/Trademark](../../fontawesome/Solid/Trademark.png) | [fontawesome/Solid/Trademark](../../fontawesome/Solid/Trademark.md) |
+| ![illustration of fontawesome/Solid/TrafficLight](../../fontawesome/Solid/TrafficLight.png) | [fontawesome/Solid/TrafficLight](../../fontawesome/Solid/TrafficLight.md) |
+| ![illustration of fontawesome/Solid/Trailer](../../fontawesome/Solid/Trailer.png) | [fontawesome/Solid/Trailer](../../fontawesome/Solid/Trailer.md) |
+| ![illustration of fontawesome/Solid/Train](../../fontawesome/Solid/Train.png) | [fontawesome/Solid/Train](../../fontawesome/Solid/Train.md) |
+| ![illustration of fontawesome/Solid/TrainSubway](../../fontawesome/Solid/TrainSubway.png) | [fontawesome/Solid/TrainSubway](../../fontawesome/Solid/TrainSubway.md) |
+| ![illustration of fontawesome/Solid/TrainTram](../../fontawesome/Solid/TrainTram.png) | [fontawesome/Solid/TrainTram](../../fontawesome/Solid/TrainTram.md) |
+| ![illustration of fontawesome/Solid/Transgender](../../fontawesome/Solid/Transgender.png) | [fontawesome/Solid/Transgender](../../fontawesome/Solid/Transgender.md) |
+| ![illustration of fontawesome/Solid/Trash](../../fontawesome/Solid/Trash.png) | [fontawesome/Solid/Trash](../../fontawesome/Solid/Trash.md) |
+| ![illustration of fontawesome/Solid/TrashArrowUp](../../fontawesome/Solid/TrashArrowUp.png) | [fontawesome/Solid/TrashArrowUp](../../fontawesome/Solid/TrashArrowUp.md) |
+| ![illustration of fontawesome/Solid/TrashCan](../../fontawesome/Solid/TrashCan.png) | [fontawesome/Solid/TrashCan](../../fontawesome/Solid/TrashCan.md) |
+| ![illustration of fontawesome/Solid/TrashCanArrowUp](../../fontawesome/Solid/TrashCanArrowUp.png) | [fontawesome/Solid/TrashCanArrowUp](../../fontawesome/Solid/TrashCanArrowUp.md) |
+| ![illustration of fontawesome/Solid/Tree](../../fontawesome/Solid/Tree.png) | [fontawesome/Solid/Tree](../../fontawesome/Solid/Tree.md) |
+| ![illustration of fontawesome/Solid/TreeCity](../../fontawesome/Solid/TreeCity.png) | [fontawesome/Solid/TreeCity](../../fontawesome/Solid/TreeCity.md) |
+| ![illustration of fontawesome/Solid/TriangleExclamation](../../fontawesome/Solid/TriangleExclamation.png) | [fontawesome/Solid/TriangleExclamation](../../fontawesome/Solid/TriangleExclamation.md) |
+| ![illustration of fontawesome/Solid/Trophy](../../fontawesome/Solid/Trophy.png) | [fontawesome/Solid/Trophy](../../fontawesome/Solid/Trophy.md) |
+| ![illustration of fontawesome/Solid/Trowel](../../fontawesome/Solid/Trowel.png) | [fontawesome/Solid/Trowel](../../fontawesome/Solid/Trowel.md) |
+| ![illustration of fontawesome/Solid/TrowelBricks](../../fontawesome/Solid/TrowelBricks.png) | [fontawesome/Solid/TrowelBricks](../../fontawesome/Solid/TrowelBricks.md) |
+| ![illustration of fontawesome/Solid/Truck](../../fontawesome/Solid/Truck.png) | [fontawesome/Solid/Truck](../../fontawesome/Solid/Truck.md) |
+| ![illustration of fontawesome/Solid/TruckArrowRight](../../fontawesome/Solid/TruckArrowRight.png) | [fontawesome/Solid/TruckArrowRight](../../fontawesome/Solid/TruckArrowRight.md) |
+| ![illustration of fontawesome/Solid/TruckDroplet](../../fontawesome/Solid/TruckDroplet.png) | [fontawesome/Solid/TruckDroplet](../../fontawesome/Solid/TruckDroplet.md) |
+| ![illustration of fontawesome/Solid/TruckFast](../../fontawesome/Solid/TruckFast.png) | [fontawesome/Solid/TruckFast](../../fontawesome/Solid/TruckFast.md) |
+| ![illustration of fontawesome/Solid/TruckField](../../fontawesome/Solid/TruckField.png) | [fontawesome/Solid/TruckField](../../fontawesome/Solid/TruckField.md) |
+| ![illustration of fontawesome/Solid/TruckFieldUn](../../fontawesome/Solid/TruckFieldUn.png) | [fontawesome/Solid/TruckFieldUn](../../fontawesome/Solid/TruckFieldUn.md) |
+| ![illustration of fontawesome/Solid/TruckFront](../../fontawesome/Solid/TruckFront.png) | [fontawesome/Solid/TruckFront](../../fontawesome/Solid/TruckFront.md) |
+| ![illustration of fontawesome/Solid/TruckMedical](../../fontawesome/Solid/TruckMedical.png) | [fontawesome/Solid/TruckMedical](../../fontawesome/Solid/TruckMedical.md) |
+| ![illustration of fontawesome/Solid/TruckMonster](../../fontawesome/Solid/TruckMonster.png) | [fontawesome/Solid/TruckMonster](../../fontawesome/Solid/TruckMonster.md) |
+| ![illustration of fontawesome/Solid/TruckMoving](../../fontawesome/Solid/TruckMoving.png) | [fontawesome/Solid/TruckMoving](../../fontawesome/Solid/TruckMoving.md) |
+| ![illustration of fontawesome/Solid/TruckPickup](../../fontawesome/Solid/TruckPickup.png) | [fontawesome/Solid/TruckPickup](../../fontawesome/Solid/TruckPickup.md) |
+| ![illustration of fontawesome/Solid/TruckPlane](../../fontawesome/Solid/TruckPlane.png) | [fontawesome/Solid/TruckPlane](../../fontawesome/Solid/TruckPlane.md) |
+| ![illustration of fontawesome/Solid/TruckRampBox](../../fontawesome/Solid/TruckRampBox.png) | [fontawesome/Solid/TruckRampBox](../../fontawesome/Solid/TruckRampBox.md) |
+| ![illustration of fontawesome/Solid/Tty](../../fontawesome/Solid/Tty.png) | [fontawesome/Solid/Tty](../../fontawesome/Solid/Tty.md) |
+| ![illustration of fontawesome/Solid/TurkishLiraSign](../../fontawesome/Solid/TurkishLiraSign.png) | [fontawesome/Solid/TurkishLiraSign](../../fontawesome/Solid/TurkishLiraSign.md) |
+| ![illustration of fontawesome/Solid/TurnDown](../../fontawesome/Solid/TurnDown.png) | [fontawesome/Solid/TurnDown](../../fontawesome/Solid/TurnDown.md) |
+| ![illustration of fontawesome/Solid/TurnUp](../../fontawesome/Solid/TurnUp.png) | [fontawesome/Solid/TurnUp](../../fontawesome/Solid/TurnUp.md) |
+| ![illustration of fontawesome/Solid/Tv](../../fontawesome/Solid/Tv.png) | [fontawesome/Solid/Tv](../../fontawesome/Solid/Tv.md) |
+
+<span id="family-u"></span>
+## U
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/U](../../fontawesome/Solid/U.png) | [fontawesome/Solid/U](../../fontawesome/Solid/U.md) |
+| ![illustration of fontawesome/Solid/Umbrella](../../fontawesome/Solid/Umbrella.png) | [fontawesome/Solid/Umbrella](../../fontawesome/Solid/Umbrella.md) |
+| ![illustration of fontawesome/Solid/UmbrellaBeach](../../fontawesome/Solid/UmbrellaBeach.png) | [fontawesome/Solid/UmbrellaBeach](../../fontawesome/Solid/UmbrellaBeach.md) |
+| ![illustration of fontawesome/Solid/Underline](../../fontawesome/Solid/Underline.png) | [fontawesome/Solid/Underline](../../fontawesome/Solid/Underline.md) |
+| ![illustration of fontawesome/Solid/UniversalAccess](../../fontawesome/Solid/UniversalAccess.png) | [fontawesome/Solid/UniversalAccess](../../fontawesome/Solid/UniversalAccess.md) |
+| ![illustration of fontawesome/Solid/Unlock](../../fontawesome/Solid/Unlock.png) | [fontawesome/Solid/Unlock](../../fontawesome/Solid/Unlock.md) |
+| ![illustration of fontawesome/Solid/UnlockKeyhole](../../fontawesome/Solid/UnlockKeyhole.png) | [fontawesome/Solid/UnlockKeyhole](../../fontawesome/Solid/UnlockKeyhole.md) |
+| ![illustration of fontawesome/Solid/UpDown](../../fontawesome/Solid/UpDown.png) | [fontawesome/Solid/UpDown](../../fontawesome/Solid/UpDown.md) |
+| ![illustration of fontawesome/Solid/UpDownLeftRight](../../fontawesome/Solid/UpDownLeftRight.png) | [fontawesome/Solid/UpDownLeftRight](../../fontawesome/Solid/UpDownLeftRight.md) |
+| ![illustration of fontawesome/Solid/UpLong](../../fontawesome/Solid/UpLong.png) | [fontawesome/Solid/UpLong](../../fontawesome/Solid/UpLong.md) |
+| ![illustration of fontawesome/Solid/UpRightAndDownLeftFromCenter](../../fontawesome/Solid/UpRightAndDownLeftFromCenter.png) | [fontawesome/Solid/UpRightAndDownLeftFromCenter](../../fontawesome/Solid/UpRightAndDownLeftFromCenter.md) |
+| ![illustration of fontawesome/Solid/UpRightFromSquare](../../fontawesome/Solid/UpRightFromSquare.png) | [fontawesome/Solid/UpRightFromSquare](../../fontawesome/Solid/UpRightFromSquare.md) |
+| ![illustration of fontawesome/Solid/Upload](../../fontawesome/Solid/Upload.png) | [fontawesome/Solid/Upload](../../fontawesome/Solid/Upload.md) |
+| ![illustration of fontawesome/Solid/User](../../fontawesome/Solid/User.png) | [fontawesome/Solid/User](../../fontawesome/Solid/User.md) |
+| ![illustration of fontawesome/Solid/UserAstronaut](../../fontawesome/Solid/UserAstronaut.png) | [fontawesome/Solid/UserAstronaut](../../fontawesome/Solid/UserAstronaut.md) |
+| ![illustration of fontawesome/Solid/UserCheck](../../fontawesome/Solid/UserCheck.png) | [fontawesome/Solid/UserCheck](../../fontawesome/Solid/UserCheck.md) |
+| ![illustration of fontawesome/Solid/UserClock](../../fontawesome/Solid/UserClock.png) | [fontawesome/Solid/UserClock](../../fontawesome/Solid/UserClock.md) |
+| ![illustration of fontawesome/Solid/UserDoctor](../../fontawesome/Solid/UserDoctor.png) | [fontawesome/Solid/UserDoctor](../../fontawesome/Solid/UserDoctor.md) |
+| ![illustration of fontawesome/Solid/UserGear](../../fontawesome/Solid/UserGear.png) | [fontawesome/Solid/UserGear](../../fontawesome/Solid/UserGear.md) |
+| ![illustration of fontawesome/Solid/UserGraduate](../../fontawesome/Solid/UserGraduate.png) | [fontawesome/Solid/UserGraduate](../../fontawesome/Solid/UserGraduate.md) |
+| ![illustration of fontawesome/Solid/UserGroup](../../fontawesome/Solid/UserGroup.png) | [fontawesome/Solid/UserGroup](../../fontawesome/Solid/UserGroup.md) |
+| ![illustration of fontawesome/Solid/UserInjured](../../fontawesome/Solid/UserInjured.png) | [fontawesome/Solid/UserInjured](../../fontawesome/Solid/UserInjured.md) |
+| ![illustration of fontawesome/Solid/UserLarge](../../fontawesome/Solid/UserLarge.png) | [fontawesome/Solid/UserLarge](../../fontawesome/Solid/UserLarge.md) |
+| ![illustration of fontawesome/Solid/UserLargeSlash](../../fontawesome/Solid/UserLargeSlash.png) | [fontawesome/Solid/UserLargeSlash](../../fontawesome/Solid/UserLargeSlash.md) |
+| ![illustration of fontawesome/Solid/UserLock](../../fontawesome/Solid/UserLock.png) | [fontawesome/Solid/UserLock](../../fontawesome/Solid/UserLock.md) |
+| ![illustration of fontawesome/Solid/UserMinus](../../fontawesome/Solid/UserMinus.png) | [fontawesome/Solid/UserMinus](../../fontawesome/Solid/UserMinus.md) |
+| ![illustration of fontawesome/Solid/UserNinja](../../fontawesome/Solid/UserNinja.png) | [fontawesome/Solid/UserNinja](../../fontawesome/Solid/UserNinja.md) |
+| ![illustration of fontawesome/Solid/UserNurse](../../fontawesome/Solid/UserNurse.png) | [fontawesome/Solid/UserNurse](../../fontawesome/Solid/UserNurse.md) |
+| ![illustration of fontawesome/Solid/UserPen](../../fontawesome/Solid/UserPen.png) | [fontawesome/Solid/UserPen](../../fontawesome/Solid/UserPen.md) |
+| ![illustration of fontawesome/Solid/UserPlus](../../fontawesome/Solid/UserPlus.png) | [fontawesome/Solid/UserPlus](../../fontawesome/Solid/UserPlus.md) |
+| ![illustration of fontawesome/Solid/UserSecret](../../fontawesome/Solid/UserSecret.png) | [fontawesome/Solid/UserSecret](../../fontawesome/Solid/UserSecret.md) |
+| ![illustration of fontawesome/Solid/UserShield](../../fontawesome/Solid/UserShield.png) | [fontawesome/Solid/UserShield](../../fontawesome/Solid/UserShield.md) |
+| ![illustration of fontawesome/Solid/UserSlash](../../fontawesome/Solid/UserSlash.png) | [fontawesome/Solid/UserSlash](../../fontawesome/Solid/UserSlash.md) |
+| ![illustration of fontawesome/Solid/UserTag](../../fontawesome/Solid/UserTag.png) | [fontawesome/Solid/UserTag](../../fontawesome/Solid/UserTag.md) |
+| ![illustration of fontawesome/Solid/UserTie](../../fontawesome/Solid/UserTie.png) | [fontawesome/Solid/UserTie](../../fontawesome/Solid/UserTie.md) |
+| ![illustration of fontawesome/Solid/UserXmark](../../fontawesome/Solid/UserXmark.png) | [fontawesome/Solid/UserXmark](../../fontawesome/Solid/UserXmark.md) |
+| ![illustration of fontawesome/Solid/Users](../../fontawesome/Solid/Users.png) | [fontawesome/Solid/Users](../../fontawesome/Solid/Users.md) |
+| ![illustration of fontawesome/Solid/UsersBetweenLines](../../fontawesome/Solid/UsersBetweenLines.png) | [fontawesome/Solid/UsersBetweenLines](../../fontawesome/Solid/UsersBetweenLines.md) |
+| ![illustration of fontawesome/Solid/UsersGear](../../fontawesome/Solid/UsersGear.png) | [fontawesome/Solid/UsersGear](../../fontawesome/Solid/UsersGear.md) |
+| ![illustration of fontawesome/Solid/UsersLine](../../fontawesome/Solid/UsersLine.png) | [fontawesome/Solid/UsersLine](../../fontawesome/Solid/UsersLine.md) |
+| ![illustration of fontawesome/Solid/UsersRays](../../fontawesome/Solid/UsersRays.png) | [fontawesome/Solid/UsersRays](../../fontawesome/Solid/UsersRays.md) |
+| ![illustration of fontawesome/Solid/UsersRectangle](../../fontawesome/Solid/UsersRectangle.png) | [fontawesome/Solid/UsersRectangle](../../fontawesome/Solid/UsersRectangle.md) |
+| ![illustration of fontawesome/Solid/UsersSlash](../../fontawesome/Solid/UsersSlash.png) | [fontawesome/Solid/UsersSlash](../../fontawesome/Solid/UsersSlash.md) |
+| ![illustration of fontawesome/Solid/UsersViewfinder](../../fontawesome/Solid/UsersViewfinder.png) | [fontawesome/Solid/UsersViewfinder](../../fontawesome/Solid/UsersViewfinder.md) |
+| ![illustration of fontawesome/Solid/Utensils](../../fontawesome/Solid/Utensils.png) | [fontawesome/Solid/Utensils](../../fontawesome/Solid/Utensils.md) |
+
+<span id="family-v"></span>
+## V
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/V](../../fontawesome/Solid/V.png) | [fontawesome/Solid/V](../../fontawesome/Solid/V.md) |
+| ![illustration of fontawesome/Solid/VanShuttle](../../fontawesome/Solid/VanShuttle.png) | [fontawesome/Solid/VanShuttle](../../fontawesome/Solid/VanShuttle.md) |
+| ![illustration of fontawesome/Solid/Vault](../../fontawesome/Solid/Vault.png) | [fontawesome/Solid/Vault](../../fontawesome/Solid/Vault.md) |
+| ![illustration of fontawesome/Solid/VectorSquare](../../fontawesome/Solid/VectorSquare.png) | [fontawesome/Solid/VectorSquare](../../fontawesome/Solid/VectorSquare.md) |
+| ![illustration of fontawesome/Solid/Venus](../../fontawesome/Solid/Venus.png) | [fontawesome/Solid/Venus](../../fontawesome/Solid/Venus.md) |
+| ![illustration of fontawesome/Solid/VenusDouble](../../fontawesome/Solid/VenusDouble.png) | [fontawesome/Solid/VenusDouble](../../fontawesome/Solid/VenusDouble.md) |
+| ![illustration of fontawesome/Solid/VenusMars](../../fontawesome/Solid/VenusMars.png) | [fontawesome/Solid/VenusMars](../../fontawesome/Solid/VenusMars.md) |
+| ![illustration of fontawesome/Solid/Vest](../../fontawesome/Solid/Vest.png) | [fontawesome/Solid/Vest](../../fontawesome/Solid/Vest.md) |
+| ![illustration of fontawesome/Solid/VestPatches](../../fontawesome/Solid/VestPatches.png) | [fontawesome/Solid/VestPatches](../../fontawesome/Solid/VestPatches.md) |
+| ![illustration of fontawesome/Solid/Vial](../../fontawesome/Solid/Vial.png) | [fontawesome/Solid/Vial](../../fontawesome/Solid/Vial.md) |
+| ![illustration of fontawesome/Solid/VialCircleCheck](../../fontawesome/Solid/VialCircleCheck.png) | [fontawesome/Solid/VialCircleCheck](../../fontawesome/Solid/VialCircleCheck.md) |
+| ![illustration of fontawesome/Solid/VialVirus](../../fontawesome/Solid/VialVirus.png) | [fontawesome/Solid/VialVirus](../../fontawesome/Solid/VialVirus.md) |
+| ![illustration of fontawesome/Solid/Vials](../../fontawesome/Solid/Vials.png) | [fontawesome/Solid/Vials](../../fontawesome/Solid/Vials.md) |
+| ![illustration of fontawesome/Solid/Video](../../fontawesome/Solid/Video.png) | [fontawesome/Solid/Video](../../fontawesome/Solid/Video.md) |
+| ![illustration of fontawesome/Solid/VideoSlash](../../fontawesome/Solid/VideoSlash.png) | [fontawesome/Solid/VideoSlash](../../fontawesome/Solid/VideoSlash.md) |
+| ![illustration of fontawesome/Solid/Vihara](../../fontawesome/Solid/Vihara.png) | [fontawesome/Solid/Vihara](../../fontawesome/Solid/Vihara.md) |
+| ![illustration of fontawesome/Solid/Virus](../../fontawesome/Solid/Virus.png) | [fontawesome/Solid/Virus](../../fontawesome/Solid/Virus.md) |
+| ![illustration of fontawesome/Solid/VirusCovid](../../fontawesome/Solid/VirusCovid.png) | [fontawesome/Solid/VirusCovid](../../fontawesome/Solid/VirusCovid.md) |
+| ![illustration of fontawesome/Solid/VirusCovidSlash](../../fontawesome/Solid/VirusCovidSlash.png) | [fontawesome/Solid/VirusCovidSlash](../../fontawesome/Solid/VirusCovidSlash.md) |
+| ![illustration of fontawesome/Solid/VirusSlash](../../fontawesome/Solid/VirusSlash.png) | [fontawesome/Solid/VirusSlash](../../fontawesome/Solid/VirusSlash.md) |
+| ![illustration of fontawesome/Solid/Viruses](../../fontawesome/Solid/Viruses.png) | [fontawesome/Solid/Viruses](../../fontawesome/Solid/Viruses.md) |
+| ![illustration of fontawesome/Solid/Voicemail](../../fontawesome/Solid/Voicemail.png) | [fontawesome/Solid/Voicemail](../../fontawesome/Solid/Voicemail.md) |
+| ![illustration of fontawesome/Solid/Volcano](../../fontawesome/Solid/Volcano.png) | [fontawesome/Solid/Volcano](../../fontawesome/Solid/Volcano.md) |
+| ![illustration of fontawesome/Solid/Volleyball](../../fontawesome/Solid/Volleyball.png) | [fontawesome/Solid/Volleyball](../../fontawesome/Solid/Volleyball.md) |
+| ![illustration of fontawesome/Solid/VolumeHigh](../../fontawesome/Solid/VolumeHigh.png) | [fontawesome/Solid/VolumeHigh](../../fontawesome/Solid/VolumeHigh.md) |
+| ![illustration of fontawesome/Solid/VolumeLow](../../fontawesome/Solid/VolumeLow.png) | [fontawesome/Solid/VolumeLow](../../fontawesome/Solid/VolumeLow.md) |
+| ![illustration of fontawesome/Solid/VolumeOff](../../fontawesome/Solid/VolumeOff.png) | [fontawesome/Solid/VolumeOff](../../fontawesome/Solid/VolumeOff.md) |
+| ![illustration of fontawesome/Solid/VolumeXmark](../../fontawesome/Solid/VolumeXmark.png) | [fontawesome/Solid/VolumeXmark](../../fontawesome/Solid/VolumeXmark.md) |
+| ![illustration of fontawesome/Solid/VrCardboard](../../fontawesome/Solid/VrCardboard.png) | [fontawesome/Solid/VrCardboard](../../fontawesome/Solid/VrCardboard.md) |
+
+<span id="family-w"></span>
+## W
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/W](../../fontawesome/Solid/W.png) | [fontawesome/Solid/W](../../fontawesome/Solid/W.md) |
+| ![illustration of fontawesome/Solid/WalkieTalkie](../../fontawesome/Solid/WalkieTalkie.png) | [fontawesome/Solid/WalkieTalkie](../../fontawesome/Solid/WalkieTalkie.md) |
+| ![illustration of fontawesome/Solid/Wallet](../../fontawesome/Solid/Wallet.png) | [fontawesome/Solid/Wallet](../../fontawesome/Solid/Wallet.md) |
+| ![illustration of fontawesome/Solid/WandMagic](../../fontawesome/Solid/WandMagic.png) | [fontawesome/Solid/WandMagic](../../fontawesome/Solid/WandMagic.md) |
+| ![illustration of fontawesome/Solid/WandMagicSparkles](../../fontawesome/Solid/WandMagicSparkles.png) | [fontawesome/Solid/WandMagicSparkles](../../fontawesome/Solid/WandMagicSparkles.md) |
+| ![illustration of fontawesome/Solid/WandSparkles](../../fontawesome/Solid/WandSparkles.png) | [fontawesome/Solid/WandSparkles](../../fontawesome/Solid/WandSparkles.md) |
+| ![illustration of fontawesome/Solid/Warehouse](../../fontawesome/Solid/Warehouse.png) | [fontawesome/Solid/Warehouse](../../fontawesome/Solid/Warehouse.md) |
+| ![illustration of fontawesome/Solid/Water](../../fontawesome/Solid/Water.png) | [fontawesome/Solid/Water](../../fontawesome/Solid/Water.md) |
+| ![illustration of fontawesome/Solid/WaterLadder](../../fontawesome/Solid/WaterLadder.png) | [fontawesome/Solid/WaterLadder](../../fontawesome/Solid/WaterLadder.md) |
+| ![illustration of fontawesome/Solid/WaveSquare](../../fontawesome/Solid/WaveSquare.png) | [fontawesome/Solid/WaveSquare](../../fontawesome/Solid/WaveSquare.md) |
+| ![illustration of fontawesome/Solid/WeightHanging](../../fontawesome/Solid/WeightHanging.png) | [fontawesome/Solid/WeightHanging](../../fontawesome/Solid/WeightHanging.md) |
+| ![illustration of fontawesome/Solid/WeightScale](../../fontawesome/Solid/WeightScale.png) | [fontawesome/Solid/WeightScale](../../fontawesome/Solid/WeightScale.md) |
+| ![illustration of fontawesome/Solid/WheatAwn](../../fontawesome/Solid/WheatAwn.png) | [fontawesome/Solid/WheatAwn](../../fontawesome/Solid/WheatAwn.md) |
+| ![illustration of fontawesome/Solid/WheatAwnCircleExclamation](../../fontawesome/Solid/WheatAwnCircleExclamation.png) | [fontawesome/Solid/WheatAwnCircleExclamation](../../fontawesome/Solid/WheatAwnCircleExclamation.md) |
+| ![illustration of fontawesome/Solid/Wheelchair](../../fontawesome/Solid/Wheelchair.png) | [fontawesome/Solid/Wheelchair](../../fontawesome/Solid/Wheelchair.md) |
+| ![illustration of fontawesome/Solid/WheelchairMove](../../fontawesome/Solid/WheelchairMove.png) | [fontawesome/Solid/WheelchairMove](../../fontawesome/Solid/WheelchairMove.md) |
+| ![illustration of fontawesome/Solid/WhiskeyGlass](../../fontawesome/Solid/WhiskeyGlass.png) | [fontawesome/Solid/WhiskeyGlass](../../fontawesome/Solid/WhiskeyGlass.md) |
+| ![illustration of fontawesome/Solid/Wifi](../../fontawesome/Solid/Wifi.png) | [fontawesome/Solid/Wifi](../../fontawesome/Solid/Wifi.md) |
+| ![illustration of fontawesome/Solid/Wind](../../fontawesome/Solid/Wind.png) | [fontawesome/Solid/Wind](../../fontawesome/Solid/Wind.md) |
+| ![illustration of fontawesome/Solid/WindowMaximize](../../fontawesome/Solid/WindowMaximize.png) | [fontawesome/Solid/WindowMaximize](../../fontawesome/Solid/WindowMaximize.md) |
+| ![illustration of fontawesome/Solid/WindowMinimize](../../fontawesome/Solid/WindowMinimize.png) | [fontawesome/Solid/WindowMinimize](../../fontawesome/Solid/WindowMinimize.md) |
+| ![illustration of fontawesome/Solid/WindowRestore](../../fontawesome/Solid/WindowRestore.png) | [fontawesome/Solid/WindowRestore](../../fontawesome/Solid/WindowRestore.md) |
+| ![illustration of fontawesome/Solid/WineBottle](../../fontawesome/Solid/WineBottle.png) | [fontawesome/Solid/WineBottle](../../fontawesome/Solid/WineBottle.md) |
+| ![illustration of fontawesome/Solid/WineGlass](../../fontawesome/Solid/WineGlass.png) | [fontawesome/Solid/WineGlass](../../fontawesome/Solid/WineGlass.md) |
+| ![illustration of fontawesome/Solid/WineGlassEmpty](../../fontawesome/Solid/WineGlassEmpty.png) | [fontawesome/Solid/WineGlassEmpty](../../fontawesome/Solid/WineGlassEmpty.md) |
+| ![illustration of fontawesome/Solid/WonSign](../../fontawesome/Solid/WonSign.png) | [fontawesome/Solid/WonSign](../../fontawesome/Solid/WonSign.md) |
+| ![illustration of fontawesome/Solid/Worm](../../fontawesome/Solid/Worm.png) | [fontawesome/Solid/Worm](../../fontawesome/Solid/Worm.md) |
+| ![illustration of fontawesome/Solid/Wrench](../../fontawesome/Solid/Wrench.png) | [fontawesome/Solid/Wrench](../../fontawesome/Solid/Wrench.md) |
+
+<span id="family-x"></span>
+## X
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/X](../../fontawesome/Solid/X.png) | [fontawesome/Solid/X](../../fontawesome/Solid/X.md) |
+| ![illustration of fontawesome/Solid/XRay](../../fontawesome/Solid/XRay.png) | [fontawesome/Solid/XRay](../../fontawesome/Solid/XRay.md) |
+| ![illustration of fontawesome/Solid/Xmark](../../fontawesome/Solid/Xmark.png) | [fontawesome/Solid/Xmark](../../fontawesome/Solid/Xmark.md) |
+| ![illustration of fontawesome/Solid/XmarksLines](../../fontawesome/Solid/XmarksLines.png) | [fontawesome/Solid/XmarksLines](../../fontawesome/Solid/XmarksLines.md) |
+
+<span id="family-y"></span>
+## Y
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/Y](../../fontawesome/Solid/Y.png) | [fontawesome/Solid/Y](../../fontawesome/Solid/Y.md) |
+| ![illustration of fontawesome/Solid/YenSign](../../fontawesome/Solid/YenSign.png) | [fontawesome/Solid/YenSign](../../fontawesome/Solid/YenSign.md) |
+| ![illustration of fontawesome/Solid/YinYang](../../fontawesome/Solid/YinYang.png) | [fontawesome/Solid/YinYang](../../fontawesome/Solid/YinYang.md) |
+
+<span id="family-z"></span>
+## Z
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/Z](../../fontawesome/Solid/Z.png) | [fontawesome/Solid/Z](../../fontawesome/Solid/Z.md) |
+
+<span id="family-_"></span>
+## _
+| |Name|
+|:---:|---|
+| ![illustration of fontawesome/Solid/_0](../../fontawesome/Solid/_0.png) | [fontawesome/Solid/_0](../../fontawesome/Solid/_0.md) |
+| ![illustration of fontawesome/Solid/_1](../../fontawesome/Solid/_1.png) | [fontawesome/Solid/_1](../../fontawesome/Solid/_1.md) |
+| ![illustration of fontawesome/Solid/_2](../../fontawesome/Solid/_2.png) | [fontawesome/Solid/_2](../../fontawesome/Solid/_2.md) |
+| ![illustration of fontawesome/Solid/_3](../../fontawesome/Solid/_3.png) | [fontawesome/Solid/_3](../../fontawesome/Solid/_3.md) |
+| ![illustration of fontawesome/Solid/_4](../../fontawesome/Solid/_4.png) | [fontawesome/Solid/_4](../../fontawesome/Solid/_4.md) |
+| ![illustration of fontawesome/Solid/_5](../../fontawesome/Solid/_5.png) | [fontawesome/Solid/_5](../../fontawesome/Solid/_5.md) |
+| ![illustration of fontawesome/Solid/_6](../../fontawesome/Solid/_6.png) | [fontawesome/Solid/_6](../../fontawesome/Solid/_6.md) |
+| ![illustration of fontawesome/Solid/_7](../../fontawesome/Solid/_7.png) | [fontawesome/Solid/_7](../../fontawesome/Solid/_7.md) |
+| ![illustration of fontawesome/Solid/_8](../../fontawesome/Solid/_8.png) | [fontawesome/Solid/_8](../../fontawesome/Solid/_8.md) |
+| ![illustration of fontawesome/Solid/_9](../../fontawesome/Solid/_9.png) | [fontawesome/Solid/_9](../../fontawesome/Solid/_9.md) |
+
+
+

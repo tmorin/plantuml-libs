@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Eye
+
+sprite $EyeXs [11x10/16z] LOh50S103CDyPTR-qmPVLJYs_X3qqgpI0_qOgerzWm_QMpdkgFHDxQs-KAW8SO_X
+
+sprite $EyeSm [13x12/16z] POo54O004CEAEzb_Mwx58U-g7y1ofsOwya9gCbp17TLGUv2nanL7EzkhwA7KD6ZE-W9Z_ZJ-tMFyFzJBd7G3
+
+sprite $EyeMd [17x16/16z] TKs50OGm40jrx_xRVi_U2TGkXXkKEUBRSmkcFkD-Wj_XN9hfzApdQ3fvc-CYxjAmJ3uY5mtufWTe21hlA8DXIOlxlDvnIT-mVWSKONH2K1xIgR8_U
+
+sprite $EyeLg [22x20/16z] {
+VP3L0SKW54E3G-tkFsqj-9Fp4y71VvGn6XE7a816a8OgfGmubllZFHusriLf0Au41TX78pTQmTsgSFi0_yJaQsjVezvyi3L204eVPEVmKKvTXLfkn3c88eVY
+jXi0JKFQZToxbG5KAcMzKmMLlNOHFLlztjzS
+}
+
+!procedure Eye($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Eye', $name, $tech, $desc)
+!endprocedure

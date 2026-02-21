@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PowerOff
+
+sprite $PowerOffXs [10x10/16z] Om01FWOOu8TI8CG78haW77uG2SReB0O8Yn_2u0Eh1HDWaXya0W
+
+sprite $PowerOffSm [12x12/16z] HSp50O104CNGu4xwhnPP6t-dJwgRLfq5bybEC3acdu8toIXsnOS8f3EBGsHeiGTu9YemwJ5VIYhL0tW1
+
+sprite $PowerOffMd [16x16/16z] LSy50e0W343HOIlnxtzQQaZNeoSj1UqwCNsylSrM2UeBYk5GYoE8M6m_3xLsdzZ51MgF3FTagastvPQJq0srSPslTfpvh0N_1wFfdIw2kuuI
+
+sprite $PowerOffLg [20x20/16z] {
+ROu5ji0W3C0oz-R-f_t2Mn-pu07QalJ12vq_t4AbqNIREmMh2zsWh7qwTktApvNJvQTLkRX16tIxEdH2XuTRqUvMSxYH-sQkjOS7LxHZL2xi2dYLZGOmwNvH
+vdE7tDbIs5GDhGewJu8BpRHkImU5Nm
+}
+
+!procedure PowerOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PowerOff', $name, $tech, $desc)
+!endprocedure

@@ -50,7 +50,7 @@ The available packages:
 - [Domain Storytelling](distribution/domainstorytelling/README.md)
 - [Enterprise Integration Pattern](distribution/eip-1/README.md)
 - [Event Storming](distribution/eventstorming/README.md)
-- [Fontawesome (v6)](distribution/fontawesome-6/README.md)
+- [Fontawesome (v6)](distribution/fontawesome/README.md)
 - [Gougle Compute Platform](distribution/gcp/README.md)
 - [Material (v4)](distribution/material/README.md)
 - [simpleicons (v14)](distribution/simpleicons/README.md)

@@ -1,0 +1,74 @@
+# CompactDisc
+
+
+```text
+fontawesome/Solid/CompactDisc
+```
+
+```text
+include('fontawesome/Solid/CompactDisc')
+```
+
+
+
+| Illustration | CompactDisc |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/CompactDisc.png) | ![illustration for CompactDisc](../../fontawesome/Solid/CompactDisc.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$CompactDiscXs>`
+- `<$CompactDiscSm>`
+- `<$CompactDiscMd>`
+- `<$CompactDiscLg>`
+
+
+
+
+
+## CompactDisc
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element CompactDisc
+include('fontawesome/Solid/CompactDisc')
+
+' renders the element
+CompactDisc('CompactDisc', 'Compact Disc', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element CompactDisc
+include('fontawesome/Solid/CompactDisc')
+
+' renders the element
+CompactDisc('CompactDisc', 'Compact Disc', 'an optional tech label', 'an optional description')
+@enduml
+```
+

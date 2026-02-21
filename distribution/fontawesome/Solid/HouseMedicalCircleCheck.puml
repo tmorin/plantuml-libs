@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/HouseMedicalCircleCheck
+
+sprite $HouseMedicalCircleCheckXs [12x10/16z] HOk30S1054DJks__QS_V2bJZb0SGfp_qMCUfj-4_CDYZpl3qqR915uXnqsO6
+
+sprite $HouseMedicalCircleCheckSm [15x12/16z] JOg54S100CAeEzb_slfpdpCa-bXKqOCLLXxqSq3L2McjlY97-qEiht-oC7F_L-_YK0Unm91g0UW2
+
+sprite $HouseMedicalCircleCheckMd [20x16/16z] {
+NSy5ZiDG04D1Xpbp_zFkjWrzvOd78kTgpxi6Bnf0LTBYg7reSpLSf6WkQSYEeIHrLdswRQcIdVUUP4L9jiEiLTA2XjFKoS8aXUrBlN2Sl8ovHWVFCTc1hlYn
+PJle7m
+}
+
+sprite $HouseMedicalCircleCheckLg [25x20/16z] {
+RT7L0O0m34NHXtlk_jFYWThvgyRqerP92mpAzLncfIOUYs8Rpl9zfnynlIfU_iuQJ_DHIs7qZkYWqc1FriOZZaSdZMEO9QxnXMv3LCyVGxuvGNOWGpNXWIsh
+W5vgy0Ed6HXgieDEk3uwuA_tdP7RLDjx_m
+}
+
+!procedure HouseMedicalCircleCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HouseMedicalCircleCheck', $name, $tech, $desc)
+!endprocedure

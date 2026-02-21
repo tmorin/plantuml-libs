@@ -1,0 +1,74 @@
+# PumpMedical
+
+
+```text
+fontawesome/Solid/PumpMedical
+```
+
+```text
+include('fontawesome/Solid/PumpMedical')
+```
+
+
+
+| Illustration | PumpMedical |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/PumpMedical.png) | ![illustration for PumpMedical](../../fontawesome/Solid/PumpMedical.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$PumpMedicalXs>`
+- `<$PumpMedicalSm>`
+- `<$PumpMedicalMd>`
+- `<$PumpMedicalLg>`
+
+
+
+
+
+## PumpMedical
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element PumpMedical
+include('fontawesome/Solid/PumpMedical')
+
+' renders the element
+PumpMedical('PumpMedical', 'Pump Medical', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element PumpMedical
+include('fontawesome/Solid/PumpMedical')
+
+' renders the element
+PumpMedical('PumpMedical', 'Pump Medical', 'an optional tech label', 'an optional description')
+@enduml
+```
+

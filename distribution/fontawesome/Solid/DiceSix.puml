@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/DiceSix
+
+sprite $DiceSixXs [8x10/16z] Ou01VdG05E5YGELpe_5v47mO2m
+
+sprite $DiceSixSm [10x12/16z] Oq00Vgo06OYPG0nUa0A48ZuGmGaNGm0kX1Wl4FE040mmSFD103i
+
+sprite $DiceSixMd [14x16/16z] VSg52K1H20LG0obh_sb_n-i3c1Tg4Xy7oIMdjvu8_AWCzZoBcevd3MoJFUShoSEalRK1zLRP0G
+
+sprite $DiceSixLg [17x20/16z] ZO_50GCn4CHaPhl_QfDZ9dsMOJYZjaXeUqfkNt1oC5cMAG6nDm8r9OmOJ1AbtQ2elR6aPKVQxqXkC5MrEs1Ohx5BOX0WqOkYqLphSgU5XtSDH_u
+
+!procedure DiceSix($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/DiceSix', $name, $tech, $desc)
+!endprocedure

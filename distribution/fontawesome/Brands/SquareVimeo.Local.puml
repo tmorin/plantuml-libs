@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SquareVimeo
+include('fontawesome/Brands/SquareVimeo')
+
+' renders the element
+SquareVimeo('SquareVimeo', 'Square Vimeo', 'an optional tech label', 'an optional description')
+@enduml

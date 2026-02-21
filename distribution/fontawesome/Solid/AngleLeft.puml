@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/AngleLeft
+
+sprite $AngleLeftXs [6x10/16z] Oq05RFn0WWL4C8481duk1Z350Q7O81HKCG
+
+sprite $AngleLeftSm [7x12/16z] Oy00tFmWaeEV3KYoyNC0IMP-Rf0GFqW2asRavmFJJFmm4m
+
+sprite $AngleLeftMd [9x16/16z] Oy01kA4q7py7cERXvmVJd52Q7Kgp06ceGYwe5dv-DZYB6S9WvETdP42eXvh0WSLU
+
+sprite $AngleLeftLg [12x20/16z] ZOg35S1040NFs63whpOsRnu-LJcHPhK1siLwOB5kjtQtPhSQqFjPr4e3UGijf6E8Mm32CVXZK1jrKA_q
+
+!procedure AngleLeft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/AngleLeft', $name, $tech, $desc)
+!endprocedure

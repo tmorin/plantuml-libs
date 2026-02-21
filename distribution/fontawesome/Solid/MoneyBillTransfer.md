@@ -1,0 +1,74 @@
+# MoneyBillTransfer
+
+
+```text
+fontawesome/Solid/MoneyBillTransfer
+```
+
+```text
+include('fontawesome/Solid/MoneyBillTransfer')
+```
+
+
+
+| Illustration | MoneyBillTransfer |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/MoneyBillTransfer.png) | ![illustration for MoneyBillTransfer](../../fontawesome/Solid/MoneyBillTransfer.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoneyBillTransferXs>`
+- `<$MoneyBillTransferSm>`
+- `<$MoneyBillTransferMd>`
+- `<$MoneyBillTransferLg>`
+
+
+
+
+
+## MoneyBillTransfer
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element MoneyBillTransfer
+include('fontawesome/Solid/MoneyBillTransfer')
+
+' renders the element
+MoneyBillTransfer('MoneyBillTransfer', 'Money Bill Transfer', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element MoneyBillTransfer
+include('fontawesome/Solid/MoneyBillTransfer')
+
+' renders the element
+MoneyBillTransfer('MoneyBillTransfer', 'Money Bill Transfer', 'an optional tech label', 'an optional description')
+@enduml
+```
+

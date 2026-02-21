@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Voicemail
+
+sprite $VoicemailXs [12x10/16z] TOR50O104CI2E-c_MZXzxcW8fG23B-Whd5vw2hi8UBymDyPjSE8n1xk8z0C
+
+sprite $VoicemailSm [15x12/16z] Oo09iFC30OW1eVcvGImOvW79i009i0eubn72HLFCmC6F11Y1AXYPe82Ha2i
+
+sprite $VoicemailMd [20x16/16z] fOj70iCW30IrxWtc_xzDL5BkZ0r8MsoC-RvKureZJhV_4PeMU4Bgcg4jj4oOBP1ZPyv1TYCV6m_BJuknOr6GtrECVdVlltcUXnWzxUC_gpcQViZ6U04
+
+sprite $VoicemailLg [25x20/16z] {
+lSv5WWKn24NHLnw_-zzj0-dlypg3AAPxxC1O7hS4DBbEA0fCfzI0sXu_4JA0LL1bx6Bh1TVy7mKKOFUbovsunyVbIvPReBq-Jb_QusFp4YQ3hO_27JJdQJ1a
+Oj85IB7-wdFI7qdJidvOT9C_
+}
+
+!procedure Voicemail($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Voicemail', $name, $tech, $desc)
+!endprocedure

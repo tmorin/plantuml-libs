@@ -1,0 +1,74 @@
+# Subscript
+
+
+```text
+fontawesome/Solid/Subscript
+```
+
+```text
+include('fontawesome/Solid/Subscript')
+```
+
+
+
+| Illustration | Subscript |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/Subscript.png) | ![illustration for Subscript](../../fontawesome/Solid/Subscript.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$SubscriptXs>`
+- `<$SubscriptSm>`
+- `<$SubscriptMd>`
+- `<$SubscriptLg>`
+
+
+
+
+
+## Subscript
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Subscript
+include('fontawesome/Solid/Subscript')
+
+' renders the element
+Subscript('Subscript', 'Subscript', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Subscript
+include('fontawesome/Solid/Subscript')
+
+' renders the element
+Subscript('Subscript', 'Subscript', 'an optional tech label', 'an optional description')
+@enduml
+```
+

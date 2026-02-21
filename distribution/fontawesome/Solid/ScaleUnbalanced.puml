@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/ScaleUnbalanced
+
+sprite $ScaleUnbalancedXs [12x10/16z] FOo54S0m3CHKvlx-s-QCCYFE3ok1ZAbJbZaoP850FDTnWoxBPMvvFIXM9tExj5_FlblU3zrT3
+
+sprite $ScaleUnbalancedSm [15x12/16z] BOg50S0m3CCqvld_Rnkm2ec1vZs03wF6Qb9mM_nEZavrnNlZBSA4r1S6xBA4V0eTyb72zw6jqk1t9oHCS2kmJ2mB6
+
+sprite $ScaleUnbalancedMd [20x16/16z] {
+FSs74OH040F1URpPFUMVxQDIGUE7CxoECG5BOw77xjkFZw8zEDQK9zp4K03IWLrI_IZzO569JvhQf_NRF6XNjZn9atUGlCPGMccOGCEdsq_1AG_5ZItfMyCD
+VhvTgaVhbnOAIctbjYHnAtxm1m
+}
+
+sprite $ScaleUnbalancedLg [25x20/16z] {
+LP453aGX5CJcAqxlVzgLbqa8ZRSuMjopwqyUsgW0Pvv0sWABpL-MuzrqjfwnfimvjqKYhzLVFOGVmAaWnReE5npxzWvmQ92zymg95bNUpS7AkGENGw5VFsBC
+0GA714Q2KvNYfQPzLgB7DWuQuUzGiKnta8v3FmhZ_GCH5YycmX4em9H_CDVwELxf1FD8-W8
+}
+
+!procedure ScaleUnbalanced($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ScaleUnbalanced', $name, $tech, $desc)
+!endprocedure

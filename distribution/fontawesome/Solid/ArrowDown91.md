@@ -1,0 +1,74 @@
+# ArrowDown91
+
+
+```text
+fontawesome/Solid/ArrowDown91
+```
+
+```text
+include('fontawesome/Solid/ArrowDown91')
+```
+
+
+
+| Illustration | ArrowDown91 |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/ArrowDown91.png) | ![illustration for ArrowDown91](../../fontawesome/Solid/ArrowDown91.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowDown91Xs>`
+- `<$ArrowDown91Sm>`
+- `<$ArrowDown91Md>`
+- `<$ArrowDown91Lg>`
+
+
+
+
+
+## ArrowDown91
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element ArrowDown91
+include('fontawesome/Solid/ArrowDown91')
+
+' renders the element
+ArrowDown91('ArrowDown91', 'Arrow Down91', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element ArrowDown91
+include('fontawesome/Solid/ArrowDown91')
+
+' renders the element
+ArrowDown91('ArrowDown91', 'Arrow Down91', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Ankh
+
+sprite $AnkhXs [6x10/16z] JSH15W0G00BH0Ile_hSrpqhLXn9W9G7NWmvrJKrv0lxt0W
+
+sprite $AnkhSm [7x12/16z] RSV50O1G00BGPxViFwtjxTDWco4NU3n9J_R_rJ64F1ZVGXQATG8
+
+sprite $AnkhMd [9x16/16z] ZSZL0SCm30JGfp3Pj_-qvVv7EaRr2xIyRgHUkYHSmPRIWo63yxyCkKYG34SQ-Lxl-PrX6DA7eI0TTy8J
+
+sprite $AnkhLg [12x20/16z] fOq55e1020KtRPdxtrQ99mTmDcX-UQaNUt4kb9akg0-d_L9AzynGCznlyEMd6Lznkn_LhafmDn1F1wUGr7IbAB2f-UqBGyq3
+
+!procedure Ankh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Ankh', $name, $tech, $desc)
+!endprocedure

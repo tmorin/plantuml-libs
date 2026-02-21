@@ -1,0 +1,74 @@
+# CirclePlus
+
+
+```text
+fontawesome/Solid/CirclePlus
+```
+
+```text
+include('fontawesome/Solid/CirclePlus')
+```
+
+
+
+| Illustration | CirclePlus |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/CirclePlus.png) | ![illustration for CirclePlus](../../fontawesome/Solid/CirclePlus.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$CirclePlusXs>`
+- `<$CirclePlusSm>`
+- `<$CirclePlusMd>`
+- `<$CirclePlusLg>`
+
+
+
+
+
+## CirclePlus
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element CirclePlus
+include('fontawesome/Solid/CirclePlus')
+
+' renders the element
+CirclePlus('CirclePlus', 'Circle Plus', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element CirclePlus
+include('fontawesome/Solid/CirclePlus')
+
+' renders the element
+CirclePlus('CirclePlus', 'Circle Plus', 'an optional tech label', 'an optional description')
+@enduml
+```
+

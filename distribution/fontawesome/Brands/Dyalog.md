@@ -1,0 +1,74 @@
+# Dyalog
+
+
+```text
+fontawesome/Brands/Dyalog
+```
+
+```text
+include('fontawesome/Brands/Dyalog')
+```
+
+
+
+| Illustration | Dyalog |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Brands/Dyalog.png) | ![illustration for Dyalog](../../fontawesome/Brands/Dyalog.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$DyalogXs>`
+- `<$DyalogSm>`
+- `<$DyalogMd>`
+- `<$DyalogLg>`
+
+
+
+
+
+## Dyalog
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Dyalog
+include('fontawesome/Brands/Dyalog')
+
+' renders the element
+Dyalog('Dyalog', 'Dyalog', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Dyalog
+include('fontawesome/Brands/Dyalog')
+
+' renders the element
+Dyalog('Dyalog', 'Dyalog', 'an optional tech label', 'an optional description')
+@enduml
+```
+

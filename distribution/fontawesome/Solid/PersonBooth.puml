@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonBooth
+
+sprite $PersonBoothXs [11x10/16z] HOhL0O1008MmM_QVLg-FhnSGk54vSC8OBt5eSQ76HwCTOu8ZnmEmhDNrTUfnbeW_
+
+sprite $PersonBoothSm [13x12/16z] JOo30S105CLIkzb_skBi_yY_RcwL2qyGrV0reAC1NXNyguEr06N889HNq6OQC0MmNG6CFmZB5m
+
+sprite $PersonBoothMd [17x16/16z] NSu54i0m20NHhHlmxt_QkeJkPEp5u6piMBG7GMU0X8x6KKZsXo435IVu0_romNB388cZzeQpY9wwX3tu8AYgT2N03Fj0QGx9vHbubbnz0LUZ8iEW3G
+
+sprite $PersonBoothLg [22x20/16z] {
+RSu53WGX0CNGZsKNxVrFE-xG-8jLH-KdiTQac2Ld95bGOoi913Z9WVAk-T3_hk6X5SokUgWM6sWm0mNAehK-jUwFM-NIgoAbNf7YIrE8CLgfl3HgZvVcxcnh
+h6pwVsfRnAtAImL-LLDDJhwQjrv18WkiUUiC
+}
+
+!procedure PersonBooth($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonBooth', $name, $tech, $desc)
+!endprocedure

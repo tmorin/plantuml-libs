@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Question
+
+sprite $QuestionXs [6x10/16z] Ou02Vdv-8C7AmClF06I0CGCxc0Ka87ouKXW9
+
+sprite $QuestionSm [7x12/16z] NOY50O103CI2Ezb_Mfotzfp_Tfr0ryqPWS77AhbFIwKZN1p72au
+
+sprite $QuestionMd [9x16/16z] ROo30S105CLUxMR_QOkpyaqbBFSr_163T7Fq_SqYi6snkyJYaWxwFuvmkdxl5cwrgPyuNW
+
+sprite $QuestionLg [12x20/16z] XSY35KLH00EmFljc_sc_pHmKUL4rJNsfJjPxPKaMkYGRLHXpn1noibapBJbXoSL0SwahBXNkxvGBvbmjyXVzlVF-t-q1
+
+!procedure Question($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Question', $name, $tech, $desc)
+!endprocedure

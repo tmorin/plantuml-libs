@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Stethoscope
+
+sprite $StethoscopeXs [11x10/16z] LSQt0O000C0WxDty_wspJF3o04M1uDUk14cADngeGh05WV06bYe-
+
+sprite $StethoscopeSm [13x12/16z] LSS5WGC100F1QOzn_Qjznd3OS0Dgeu0swF7_rF1pzakw87DJrb3SeNTW2OPEs0BrcnwTN07cgf5N
+
+sprite $StethoscopeMd [17x16/16z] ROw50G9H3CLo_ZtxJuiLXxht0GF21AsQ8UjAq703sFHP2F-te7uKkfFZlM0bItQ9PutiiCGoOPiDAAhUmjMLHoKJXKyCXqi4pVaJt1HH2HUXewiyQLSZFmC
+
+sprite $StethoscopeLg [22x20/16z] {
+bSu5ZiKm40JHDeKpTV_RxbWxOT5_WhOgAAbQbjj7tG3cCm9NB42vheOASVgvDc3zL6zGNhKmIgo-zzfBPL626fLHCboIY9iDOZmg0MkTWKbkZlyh_DjqrMxf
+BUjLDOB2pYu5gBhzIJ2u7q86ffHQ7rqQOTLTsd1MrFq1
+}
+
+!procedure Stethoscope($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Stethoscope', $name, $tech, $desc)
+!endprocedure

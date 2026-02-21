@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Radiation
+
+sprite $RadiationXs [10x10/16z] Oq02_62I4yZW1pA192k4nG4aEK4iBgWC0nUGH0CWAGGBnW0p0G
+
+sprite $RadiationSm [12x12/16z] NSY50O0m30H0tE7sdnQ7Il9Uf5VTsbt2FN15sxrO2wvbX1agptGTVV5V55c-s23CoF81
+
+sprite $RadiationMd [16x16/16z] XSk30G1130J0pTlRVxN1spV726dayWgd9MIpvZa08rs49Ps0OLpAhcJezxXdyA2NvRU8trdF36U2_1nMjtwwwJmTidCvtE81pW
+
+sprite $RadiationLg [20x20/16z] {
+bOy53eHG44C7-6wz_sqtpNJT7rvBi3_0kBvMFO4WQG5D4k3IpjTe5a6A6iIV2XR8bzOO4zKVqq9pyQhjWVsX7T7u_WWmx0VgQEkv-ZGuG8x7s6CG8bsb3NWE
+5ltXPkG4
+}
+
+!procedure Radiation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Radiation', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/MugSaucer
+
+sprite $MugSaucerXs [12x10/16z] Oq01_33036SpCV3ZOSC0AvmDCGZ1PeC31ZP-E6
+
+sprite $MugSaucerSm [15x12/16z] VSt50O0m0CNGuCxVVrgSUljkEOM8Z1seJ6sIankKifQR5vnS_H6VghvKt0OvTjWT0oS
+
+sprite $MugSaucerMd [20x16/16z] ZSwr0G0n30D0XPgGzf_s6OE-qYXqfFnAxYX5_fKrfnDPr3JGgaN9NCvaBceyImXy6PniaQq8xV3I1_KC5GAGM4BJ2W
+
+sprite $MugSaucerLg [25x20/16z] bSl55GCn0CHG6SEP_giDB8FnN_L4aJimZ7HcSa4c4S1AxsJ0I-bWfCv3gJ1ocU18XDlLGYgmyDgAhAvQtTWnTcHOX7WMWATIdX2LSYFl2m
+
+!procedure MugSaucer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MugSaucer', $name, $tech, $desc)
+!endprocedure

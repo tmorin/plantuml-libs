@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ArrowUpLong
+
+sprite $ArrowUpLongXs [7x10/16z] Os1WO6O00tv-20cY-PdvsNZvGLms846O0W
+
+sprite $ArrowUpLongSm [9x12/16z] Om023WO8uEJdPuJIG1Q8vkBd0x7ukHZu-HZusO5o80OGaCK
+
+sprite $ArrowUpLongMd [12x16/16z] lSUt4G0m3CD0ofqZzz_MfpY2lW9W7fAGh5IPndDT3fl3XKk1jj9MFGtr0G
+
+sprite $ArrowUpLongLg [15x20/16z] pOp50O0m0CI2Ezb_MfpA1itlb9Uj9s7NCLCwPIha_enVDdVAgnjTkEMjWNNabQplso-XQ5dzyWG
+
+!procedure ArrowUpLong($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ArrowUpLong', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonDrowning
+
+sprite $PersonDrowningXs [11x10/16z] LSk35S1000FGKus__xGryn277tpbn2LJRpXbtaLz5c0EbnoVNubdDFOqg0LAJx02
+
+sprite $PersonDrowningSm [13x12/16z] NOl50SDG08Leer_PVzguSthAXv8VnahGmrJnCjZ-3QUfrhv9MZRdnhZfuFDZFKtYn_030eCF23GbGCgGPm
+
+sprite $PersonDrowningMd [17x16/16z] RSi55e0W44NHR-VmzhzRZqh39QVKC-zL0YHTMva0jZfXCR5oos1K19S-onqpu7WDFk6PZmTUbwAHrwpeW6b3tdHg67HCx_-TSe0PmEtUoy30NvoWsWC
+
+sprite $PersonDrowningLg [22x20/16z] {
+VP050i0W3CIAE_V_tuvsRcIUMO0cc2_PaEXDHo5I0DJzsSgxmTLMliJJMa1J1b3eYZoLMdgK7S_vVlbEnCbfqwcwkxIjwCSuX4hF22Q-B6UhqwJnX1wkY5E5
+9p38ztm64zP2NV65vnefi2JF9swdJnO
+}
+
+!procedure PersonDrowning($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonDrowning', $name, $tech, $desc)
+!endprocedure

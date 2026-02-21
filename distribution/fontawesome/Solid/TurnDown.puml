@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/TurnDown
+
+sprite $TurnDownXs [7x10/16z] O-3dPm02VduG3M4HeFX1W0z2mmG1
+
+sprite $TurnDownSm [9x12/16z] O-3dvs400NuGO0InU7Y0B0O889x13m4y41P234aD
+
+sprite $TurnDownMd [12x16/16z] fSwr0S0m30313tD-_sc3fjudxeIwyrFJTVhfUBLjk-b9f5RltRxlwjDXCW9MVosFhVY2NUq9JWSUDm
+
+sprite $TurnDownLg [15x20/16z] lO-54G0X40Dpl7l_rRw57QY07OqXkbxsKEOo1p9pMexeiCPR4PxiZMMwAfp0eQBfHwbM-X0aCZJVVm
+
+!procedure TurnDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TurnDown', $name, $tech, $desc)
+!endprocedure

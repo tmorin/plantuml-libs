@@ -1,0 +1,74 @@
+# HeartPulse
+
+
+```text
+fontawesome/Solid/HeartPulse
+```
+
+```text
+include('fontawesome/Solid/HeartPulse')
+```
+
+
+
+| Illustration | HeartPulse |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/HeartPulse.png) | ![illustration for HeartPulse](../../fontawesome/Solid/HeartPulse.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeartPulseXs>`
+- `<$HeartPulseSm>`
+- `<$HeartPulseMd>`
+- `<$HeartPulseLg>`
+
+
+
+
+
+## HeartPulse
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element HeartPulse
+include('fontawesome/Solid/HeartPulse')
+
+' renders the element
+HeartPulse('HeartPulse', 'Heart Pulse', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element HeartPulse
+include('fontawesome/Solid/HeartPulse')
+
+' renders the element
+HeartPulse('HeartPulse', 'Heart Pulse', 'an optional tech label', 'an optional description')
+@enduml
+```
+

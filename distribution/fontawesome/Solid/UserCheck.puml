@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/UserCheck
+
+sprite $UserCheckXs [12x10/16z] NOkr0S0m4CGKvcZ_QGFsLLRpVmHWH-ZK8x-gxMyL4oSk1DspdM5AtOppdy1j05u
+
+sprite $UserCheckSm [15x12/16z] LOs50G0n20E1TxtzfwthLR540iekdOz03sFKwqhabOZLgiNe95n7Y7unOjHfUljnQ7Z-BWohzAWvhqmnS-W1
+
+sprite $UserCheckMd [20x16/16z] RS_50S0m30J1ZOF6wx_QC1dcAHOdhudSh4CUawgWRSJy7Uku6638wvA-UG7wE_G48nWv97Bkd5e5xv3JPSmkliKiT5iQCMLFPB7KY6q
+
+sprite $UserCheckLg [25x20/16z] {
+ZO-54KDH20JXkr__rKOWpuxOZZ6BYpEUroGHXT4BWnVijvGuGaFYZuI-JwY7G_9pyQC5f_lhsTqdRwnFltdju9xfWUI9eVOxZ4DjSvVqWSmPtqi8Zuaz89AV
+GMpYN63u95vo1m
+}
+
+!procedure UserCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UserCheck', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,74 @@
+# TrashCan
+
+
+```text
+fontawesome/Solid/TrashCan
+```
+
+```text
+include('fontawesome/Solid/TrashCan')
+```
+
+
+
+| Illustration | TrashCan |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/TrashCan.png) | ![illustration for TrashCan](../../fontawesome/Solid/TrashCan.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrashCanXs>`
+- `<$TrashCanSm>`
+- `<$TrashCanMd>`
+- `<$TrashCanLg>`
+
+
+
+
+
+## TrashCan
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element TrashCan
+include('fontawesome/Solid/TrashCan')
+
+' renders the element
+TrashCan('TrashCan', 'Trash Can', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element TrashCan
+include('fontawesome/Solid/TrashCan')
+
+' renders the element
+TrashCan('TrashCan', 'Trash Can', 'an optional tech label', 'an optional description')
+@enduml
+```
+

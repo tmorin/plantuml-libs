@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Asterisk
+
+sprite $AsteriskXs [7x10/16z] FOc50S0W4CHIzsR_QN5uEMMCQwKzlPdaDSq6imBgfq_ho9JdJXy1
+
+sprite $AsteriskSm [9x12/16z] JOk30G0n5CKEjRB_jBNoZVVSO5QJMjQZyHfUaeGwD_enWQr5qdaYiJt3ah-p6UWs5W
+
+sprite $AsteriskMd [12x16/16z] POw50S0m3CESCLh_Npl6LeKmA6DwrPd8zF7MOpIqXpw31dRslvB4mQW30_sXTPp4aJ7E50RF-EnPWUAP5VaEA6K5
+
+sprite $AsteriskLg [15x20/16z] TSwr0SG054En7-Pe_saFmlWwLNOybYP7PHnPlB5BTzODneKP4gX_J0Rq4IsMqlWtcAfZQOHcGMCf_o67WQbeq4z36NHaCN7QYEJbypl364zz0G
+
+!procedure Asterisk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Asterisk', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/BookSkull
+
+sprite $BookSkullXs [8x10/16z] FSY55S0m203Hgtjl_stp8l1ns6ncbTSABXkcsklphii5TQpuOhgfnAu
+
+sprite $BookSkullSm [10x12/16z] JSfL0e1054BHQpViVxNgz9oV5m3EuhAhN72LRRWT2LhrdECwWk8ou8t7lJ6o7XDPkFW
+
+sprite $BookSkullMd [14x16/16z] PSw50O0m3031npNz_QV5dQjh0fsNX4_x2L1uAcfgmaF3mWlGUqaHdiYMhh_knlDTogYMUjuSNDIPFoa_XBaM74RNzEAW8-733
+
+sprite $BookSkullLg [17x20/16z] {
+NS-54KGn24NH2z_rzL_j2ZF4Jjm3JAyQ5vTwBWLmXIVg6m1LxY_YbD816A-g6TZLUCsi6UNQ9eKdVlSuLlUCp-xWr6SlE2IjTK_6arj6iwTLidWXkI8WjpHB
+e06JUby
+}
+
+!procedure BookSkull($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BookSkull', $name, $tech, $desc)
+!endprocedure

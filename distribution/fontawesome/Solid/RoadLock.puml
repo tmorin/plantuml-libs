@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/RoadLock
+
+sprite $RoadLockXs [12x10/16z] LSZ54S1040D1VOsJVxI6M-OkQTOE0ZFBX75VApylFDRgOLPTW5lck_m2
+
+sprite $RoadLockSm [15x12/16z] POgt0SH008FqqTdiF-r5EjD9a2S7v0rl9tCoru8evUUSyUySVdU6xATjVdt-RYTuttJ-brFtTkRkv3Ld1G
+
+sprite $RoadLockMd [20x16/16z] {
+TSq74aCX20RXNzAVmDx_jEcsb9tcV2heRpNJj6KU1YLWSk3O3M2d06Xq0Y2OZL5TB0rGySkJDdZlSBNlT2k1zB02RQ_oRSwhv2nmn-UjxTY-4ZOiw3kwxN_O
+LFjp0m
+}
+
+sprite $RoadLockLg [25x20/16z] {
+XOu50iKW34E3moptF-rS0b_sS5uBnHlEERFF5ehbIWQueO8gV2jwW4rAuix8Lh36VHSEDprtXZt2RjEa2KTL8oQEQyUALT6l0_i0UXK9M_J4wcl4TJp2KR3c
+ZW8LX6_2PX7oKW5Ks5laMc3w9MhkgXO
+}
+
+!procedure RoadLock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/RoadLock', $name, $tech, $desc)
+!endprocedure

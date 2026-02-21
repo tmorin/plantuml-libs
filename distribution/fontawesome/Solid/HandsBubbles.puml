@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/HandsBubbles
+
+sprite $HandsBubblesXs [11x10/16z] 9SA55O1000KWxFRlFwrUy80HZoRRAQftp7f2v62QfqWz1FAcuvL2b-fzBnPfa3d9UV83
+
+sprite $HandsBubblesSm [13x12/16z] JSo53GDH081GJhuB-s_RzFp5YC5V0XeNWxXSlOZyPO9romNs5Oi3uoAZe7DLDluKBv1d-ySAVyNR0D8_uhgkW7FNl_azm0y
+
+sprite $HandsBubblesMd [17x16/16z] {
+NSs50SCm0C0mXrQE__zsAOCU4Bj0Kxbe4Umv9766mCcv5mkimaWdnYpD15MqC2OMAGQgYo6ec5XLZKKhfqdn4Y6OHrrD3OsucrUiV63LwoeshAQKF2LWKLnz
+trK7Vm
+}
+
+sprite $HandsBubblesLg [22x20/16z] {
+LSwr0S100810tk9vzfyshbTImIL6TitCbwAWYTTaQHrWa5UmeWoHhsgSx1e7RaCYMR4mU8OMigAbXqn9Pf8UjT58fvazC0rxtO2R41tPdJK6zVUVjEBNn4Pp
+zAi_Nvcyy9BPFtQVMdVNIF6IuYPS4Voex5Gw3oLlmbrpyZ1iE5M5wRUx0W
+}
+
+!procedure HandsBubbles($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HandsBubbles', $name, $tech, $desc)
+!endprocedure
