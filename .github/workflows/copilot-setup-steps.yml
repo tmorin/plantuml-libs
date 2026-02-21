@@ -1,0 +1,62 @@
+name: "Copilot Setup Steps"
+
+# Automatically run the setup steps when they are changed to allow for easy validation, and
+# allow manual testing through the repository's "Actions" tab
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+  pull_request:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+
+jobs:
+  # The job MUST be called `copilot-setup-steps` or it will not be picked up by Copilot.
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+
+    # Permissions for Copilot skills that perform package upgrades.
+    # Copilot uses these to: create branches, commit changes, trigger workflows, and create PRs.
+    # See: doc/howto.upgrade-simpleicons-package.md for workflow operations.
+    permissions:
+      contents: write        # Step 3, 8: Create branches and push commits
+      actions: write         # Step 9: Trigger package-builder workflow
+      pull-requests: write   # Step 14: Create pull requests
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.7.4'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y graphviz zip podman
+
+      - name: Cache Node.js modules
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-node22-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node22-
+            ${{ runner.OS }}-
+
+      - name: Install npm dependencies
+        run: npm ci --no-progress
+
+      - name: Verify installation
+        run: |
+          echo "Verifying Node.js toolchain..."
+          echo "✓ Node.js: $(node --version)"
+          echo "✓ npm: $(npm --version)"
+          echo "✓ TypeScript: $(npx tsc --version)"
+          echo "✓ ESLint: $(npx eslint --version)"
+          echo "✓ Mocha: $(npx mocha --version)"
+          echo "✓ ts-node: $(npx ts-node --version)"
+          echo "✓ GraphViz: $(dot -V 2>&1)"
