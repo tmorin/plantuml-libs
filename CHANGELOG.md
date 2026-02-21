@@ -52,7 +52,7 @@ The old azure-20 package is no longer available and should be replaced with azur
 
 * **aws-q1-2025:** the package `aws-q2-2024` has been removed from the distribution
 * **azure-20:** the package `azure-19` has been removed from the distribution
-* **simpleicons-14:** the package is `simpleicons-8` is removed from the distribution
+* **simpleicons:** the package is `simpleicons-8` is removed from the distribution
 
 ### Features
 
@@ -61,7 +61,7 @@ The old azure-20 package is no longer available and should be replaced with azur
 * **c4model:** refresh the package ([ddacf4c](https://github.com/tmorin/plantuml-libs/commit/ddacf4c4960cfb9bd89c22c89fac869f6611794a))
 * **c4nord:** refresh the package ([b26baf9](https://github.com/tmorin/plantuml-libs/commit/b26baf9c25a4d5706da9942b71b4443cdfff60de))
 * **gcp:** refresh the package ([555cb6a](https://github.com/tmorin/plantuml-libs/commit/555cb6ac54d6a1b7176c757989a0a6e2beb778c4))
-* **simpleicons-14:** add the package in replacement of `simpleicons-8` ([0538e4d](https://github.com/tmorin/plantuml-libs/commit/0538e4d27605faddd552a8472a1b9bf8b1d4412c))
+* **simpleicons:** add the package in replacement of `simpleicons-8` ([0538e4d](https://github.com/tmorin/plantuml-libs/commit/0538e4d27605faddd552a8472a1b9bf8b1d4412c))
 
 ### [15.0.3](https://github.com/tmorin/plantuml-libs/compare/v15.0.2...v15.0.3) (2025-02-07)
 

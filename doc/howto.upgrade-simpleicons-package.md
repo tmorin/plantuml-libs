@@ -37,19 +37,19 @@ git checkout -b feat/upgrade-simpleicons-<new-version>
 ```
 
 ### 3. Update the Simple Icons package
-- Open `source/library/packages/simpleicons-14/index.ts`.
+- Open `source/library/packages/simpleicons/index.ts`.
 - Update the `ICONS_VERSION` constant to the new version.
 - The `ICONS_URL` will automatically use the new version from the constant.
 - No other changes to factory logic typically needed unless the icon directory structure has changed.
-- Review `source/templates/simpleicons-14/bootstrap.tera` to ensure compatibility with current Simple Icons.
+- Review `source/templates/simpleicons/bootstrap.tera` to ensure compatibility with current Simple Icons.
 - Note: Simple Icons package does **not** use example templates, so there is no `examples/` directory for this package.
 
 ### 4. Generate the work directory
 ```bash
-npm run generate:workdir -- -p simpleicons-14
+npm run generate:workdir -- -p simpleicons
 ```
 - Check `.workdir/library.yaml` and ensure the Simple Icons package appears with correct modules and items.
-- Inspect `.workdir/.cache/simpleicons-14` to ensure all expected icons are present.
+- Inspect `.workdir/.cache/simpleicons` to ensure all expected icons are present.
 - Verify the number of items in the modules against the previous version.
 
 ### 5. Commit and push the branch
@@ -70,7 +70,7 @@ git push --set-upstream origin feat/upgrade-simpleicons-<new-version>
 
 ### 6. Trigger the Package Builder pipeline
 ```bash
-gh workflow run package-builder.yaml -f pkgName=simpleicons-14 -f pkgVersion=<new-version> --ref feat/upgrade-simpleicons-<new-version>
+gh workflow run package-builder.yaml -f pkgName=simpleicons -f pkgVersion=<new-version> --ref feat/upgrade-simpleicons-<new-version>
 ```
 
 The pipeline will:
@@ -94,11 +94,11 @@ git pull origin feat/upgrade-simpleicons-<new-version>
 If the pull fails due to conflicts, perform a rebase and resolve conflicts.
 
 ### 9. Verify rendered outputs
-- Inspect the generated files in `distribution/simpleicons-14`.
+- Inspect the generated files in `distribution/simpleicons`.
 - Open the images and PlantUML files to verify correct rendering.
 
 ### 10. Update README
-- Update `distribution/simpleicons-14/README.md` to reflect any changes to the icon library.
+- Update `distribution/simpleicons/README.md` to reflect any changes to the icon library.
 
 ### 11. Create a pull request
 **Primary (MCP)**: Use `github-mcp-server-create_pull_request`
@@ -127,7 +127,7 @@ gh pr create --title "feat(simpleicons): upgrade to <new-version>" --base master
 ### Simple Icons Specifics
 - Unlike versioned packages like AWS, the Simple Icons package does not require renaming or class changes.
 - Only the version constant needs updating - the factory class name (`Simpleicons14Factory`) and URLs remain stable.
-- The package organizes icons by their first character (e.g., `simpleicons-14/a`, `simpleicons-14/b`), which is handled automatically by the factory.
+- The package organizes icons by their first character (e.g., `simpleicons/a`, `simpleicons/b`), which is handled automatically by the factory.
 
 ### Common Troubleshooting Patterns
 - **Template-related failures** are common pipeline issues for some packages (missing files, broken references), but **do not apply to Simple Icons** as it does not use example templates.
@@ -161,7 +161,7 @@ gh pr create --title "feat(simpleicons): upgrade to <new-version>" --base master
 ### TypeScript compilation errors
 - **Cause**: Factory file syntax or imports are broken.
 - **Solution**: 
-  - Ensure the factory file `source/library/packages/simpleicons-14/index.ts` has valid TypeScript syntax
+  - Ensure the factory file `source/library/packages/simpleicons/index.ts` has valid TypeScript syntax
   - Verify all imports are correct
 
 ### Pipeline creates a commit

@@ -1,0 +1,74 @@
+# Dashlane
+
+
+```text
+simpleicons/D/Dashlane
+```
+
+```text
+include('simpleicons/D/Dashlane')
+```
+
+
+
+| Illustration | Dashlane |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/D/Dashlane.png) | ![illustration for Dashlane](../../simpleicons/D/Dashlane.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$DashlaneXs>`
+- `<$DashlaneSm>`
+- `<$DashlaneMd>`
+- `<$DashlaneLg>`
+
+
+
+
+
+## Dashlane
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Dashlane
+include('simpleicons/D/Dashlane')
+
+' renders the element
+Dashlane('Dashlane', 'Dashlane', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Dashlane
+include('simpleicons/D/Dashlane')
+
+' renders the element
+Dashlane('Dashlane', 'Dashlane', 'an optional tech label', 'an optional description')
+@enduml
+```
+

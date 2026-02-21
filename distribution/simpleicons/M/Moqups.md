@@ -1,0 +1,74 @@
+# Moqups
+
+
+```text
+simpleicons/M/Moqups
+```
+
+```text
+include('simpleicons/M/Moqups')
+```
+
+
+
+| Illustration | Moqups |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/M/Moqups.png) | ![illustration for Moqups](../../simpleicons/M/Moqups.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoqupsXs>`
+- `<$MoqupsSm>`
+- `<$MoqupsMd>`
+- `<$MoqupsLg>`
+
+
+
+
+
+## Moqups
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Moqups
+include('simpleicons/M/Moqups')
+
+' renders the element
+Moqups('Moqups', 'Moqups', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Moqups
+include('simpleicons/M/Moqups')
+
+' renders the element
+Moqups('Moqups', 'Moqups', 'an optional tech label', 'an optional description')
+@enduml
+```
+

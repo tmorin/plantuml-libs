@@ -1,0 +1,74 @@
+# Boehringeringelheim
+
+
+```text
+simpleicons/B/Boehringeringelheim
+```
+
+```text
+include('simpleicons/B/Boehringeringelheim')
+```
+
+
+
+| Illustration | Boehringeringelheim |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/B/Boehringeringelheim.png) | ![illustration for Boehringeringelheim](../../simpleicons/B/Boehringeringelheim.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoehringeringelheimXs>`
+- `<$BoehringeringelheimSm>`
+- `<$BoehringeringelheimMd>`
+- `<$BoehringeringelheimLg>`
+
+
+
+
+
+## Boehringeringelheim
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Boehringeringelheim
+include('simpleicons/B/Boehringeringelheim')
+
+' renders the element
+Boehringeringelheim('Boehringeringelheim', 'Boehringeringelheim', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Boehringeringelheim
+include('simpleicons/B/Boehringeringelheim')
+
+' renders the element
+Boehringeringelheim('Boehringeringelheim', 'Boehringeringelheim', 'an optional tech label', 'an optional description')
+@enduml
+```
+

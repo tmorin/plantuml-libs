@@ -1,0 +1,74 @@
+# Doi
+
+
+```text
+simpleicons/D/Doi
+```
+
+```text
+include('simpleicons/D/Doi')
+```
+
+
+
+| Illustration | Doi |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/D/Doi.png) | ![illustration for Doi](../../simpleicons/D/Doi.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$DoiXs>`
+- `<$DoiSm>`
+- `<$DoiMd>`
+- `<$DoiLg>`
+
+
+
+
+
+## Doi
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Doi
+include('simpleicons/D/Doi')
+
+' renders the element
+Doi('Doi', 'Doi', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Doi
+include('simpleicons/D/Doi')
+
+' renders the element
+Doi('Doi', 'Doi', 'an optional tech label', 'an optional description')
+@enduml
+```
+

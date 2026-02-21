@@ -1,0 +1,74 @@
+# Zoho
+
+
+```text
+simpleicons/Z/Zoho
+```
+
+```text
+include('simpleicons/Z/Zoho')
+```
+
+
+
+| Illustration | Zoho |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/Z/Zoho.png) | ![illustration for Zoho](../../simpleicons/Z/Zoho.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZohoXs>`
+- `<$ZohoSm>`
+- `<$ZohoMd>`
+- `<$ZohoLg>`
+
+
+
+
+
+## Zoho
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Zoho
+include('simpleicons/Z/Zoho')
+
+' renders the element
+Zoho('Zoho', 'Zoho', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Zoho
+include('simpleicons/Z/Zoho')
+
+' renders the element
+Zoho('Zoho', 'Zoho', 'an optional tech label', 'an optional description')
+@enduml
+```
+

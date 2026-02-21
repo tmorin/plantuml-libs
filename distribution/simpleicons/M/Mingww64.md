@@ -1,0 +1,74 @@
+# Mingww64
+
+
+```text
+simpleicons/M/Mingww64
+```
+
+```text
+include('simpleicons/M/Mingww64')
+```
+
+
+
+| Illustration | Mingww64 |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/M/Mingww64.png) | ![illustration for Mingww64](../../simpleicons/M/Mingww64.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$Mingww64Xs>`
+- `<$Mingww64Sm>`
+- `<$Mingww64Md>`
+- `<$Mingww64Lg>`
+
+
+
+
+
+## Mingww64
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Mingww64
+include('simpleicons/M/Mingww64')
+
+' renders the element
+Mingww64('Mingww64', 'Mingww64', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Mingww64
+include('simpleicons/M/Mingww64')
+
+' renders the element
+Mingww64('Mingww64', 'Mingww64', 'an optional tech label', 'an optional description')
+@enduml
+```
+

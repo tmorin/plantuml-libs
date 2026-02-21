@@ -1,0 +1,74 @@
+# Kununu
+
+
+```text
+simpleicons/K/Kununu
+```
+
+```text
+include('simpleicons/K/Kununu')
+```
+
+
+
+| Illustration | Kununu |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/K/Kununu.png) | ![illustration for Kununu](../../simpleicons/K/Kununu.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$KununuXs>`
+- `<$KununuSm>`
+- `<$KununuMd>`
+- `<$KununuLg>`
+
+
+
+
+
+## Kununu
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Kununu
+include('simpleicons/K/Kununu')
+
+' renders the element
+Kununu('Kununu', 'Kununu', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Kununu
+include('simpleicons/K/Kununu')
+
+' renders the element
+Kununu('Kununu', 'Kununu', 'an optional tech label', 'an optional description')
+@enduml
+```
+

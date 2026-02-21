@@ -1,0 +1,74 @@
+# Redox
+
+
+```text
+simpleicons/R/Redox
+```
+
+```text
+include('simpleicons/R/Redox')
+```
+
+
+
+| Illustration | Redox |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/R/Redox.png) | ![illustration for Redox](../../simpleicons/R/Redox.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedoxXs>`
+- `<$RedoxSm>`
+- `<$RedoxMd>`
+- `<$RedoxLg>`
+
+
+
+
+
+## Redox
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Redox
+include('simpleicons/R/Redox')
+
+' renders the element
+Redox('Redox', 'Redox', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Redox
+include('simpleicons/R/Redox')
+
+' renders the element
+Redox('Redox', 'Redox', 'an optional tech label', 'an optional description')
+@enduml
+```
+

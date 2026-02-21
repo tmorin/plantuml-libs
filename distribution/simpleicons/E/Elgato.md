@@ -1,0 +1,74 @@
+# Elgato
+
+
+```text
+simpleicons/E/Elgato
+```
+
+```text
+include('simpleicons/E/Elgato')
+```
+
+
+
+| Illustration | Elgato |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/E/Elgato.png) | ![illustration for Elgato](../../simpleicons/E/Elgato.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElgatoXs>`
+- `<$ElgatoSm>`
+- `<$ElgatoMd>`
+- `<$ElgatoLg>`
+
+
+
+
+
+## Elgato
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Elgato
+include('simpleicons/E/Elgato')
+
+' renders the element
+Elgato('Elgato', 'Elgato', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Elgato
+include('simpleicons/E/Elgato')
+
+' renders the element
+Elgato('Elgato', 'Elgato', 'an optional tech label', 'an optional description')
+@enduml
+```
+

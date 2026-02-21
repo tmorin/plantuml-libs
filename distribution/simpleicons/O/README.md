@@ -1,0 +1,119 @@
+# O
+
+The module contains 108 items.
+
+
+
+| |Name|
+|:---:|---|
+| ![illustration of simpleicons/O/O2](../../simpleicons/O/O2.png) | [simpleicons/O/O2](../../simpleicons/O/O2.md) |
+| ![illustration of simpleicons/O/Obb](../../simpleicons/O/Obb.png) | [simpleicons/O/Obb](../../simpleicons/O/Obb.md) |
+| ![illustration of simpleicons/O/Observable](../../simpleicons/O/Observable.png) | [simpleicons/O/Observable](../../simpleicons/O/Observable.md) |
+| ![illustration of simpleicons/O/Obsidian](../../simpleicons/O/Obsidian.png) | [simpleicons/O/Obsidian](../../simpleicons/O/Obsidian.md) |
+| ![illustration of simpleicons/O/Obsstudio](../../simpleicons/O/Obsstudio.png) | [simpleicons/O/Obsstudio](../../simpleicons/O/Obsstudio.md) |
+| ![illustration of simpleicons/O/Obtainium](../../simpleicons/O/Obtainium.png) | [simpleicons/O/Obtainium](../../simpleicons/O/Obtainium.md) |
+| ![illustration of simpleicons/O/Ocaml](../../simpleicons/O/Ocaml.png) | [simpleicons/O/Ocaml](../../simpleicons/O/Ocaml.md) |
+| ![illustration of simpleicons/O/Oclc](../../simpleicons/O/Oclc.png) | [simpleicons/O/Oclc](../../simpleicons/O/Oclc.md) |
+| ![illustration of simpleicons/O/Oclif](../../simpleicons/O/Oclif.png) | [simpleicons/O/Oclif](../../simpleicons/O/Oclif.md) |
+| ![illustration of simpleicons/O/Octanerender](../../simpleicons/O/Octanerender.png) | [simpleicons/O/Octanerender](../../simpleicons/O/Octanerender.md) |
+| ![illustration of simpleicons/O/Octave](../../simpleicons/O/Octave.png) | [simpleicons/O/Octave](../../simpleicons/O/Octave.md) |
+| ![illustration of simpleicons/O/Octobercms](../../simpleicons/O/Octobercms.png) | [simpleicons/O/Octobercms](../../simpleicons/O/Octobercms.md) |
+| ![illustration of simpleicons/O/Octoprint](../../simpleicons/O/Octoprint.png) | [simpleicons/O/Octoprint](../../simpleicons/O/Octoprint.md) |
+| ![illustration of simpleicons/O/Octopusdeploy](../../simpleicons/O/Octopusdeploy.png) | [simpleicons/O/Octopusdeploy](../../simpleicons/O/Octopusdeploy.md) |
+| ![illustration of simpleicons/O/Oculus](../../simpleicons/O/Oculus.png) | [simpleicons/O/Oculus](../../simpleicons/O/Oculus.md) |
+| ![illustration of simpleicons/O/Odido](../../simpleicons/O/Odido.png) | [simpleicons/O/Odido](../../simpleicons/O/Odido.md) |
+| ![illustration of simpleicons/O/Odin](../../simpleicons/O/Odin.png) | [simpleicons/O/Odin](../../simpleicons/O/Odin.md) |
+| ![illustration of simpleicons/O/Odnoklassniki](../../simpleicons/O/Odnoklassniki.png) | [simpleicons/O/Odnoklassniki](../../simpleicons/O/Odnoklassniki.md) |
+| ![illustration of simpleicons/O/Odoo](../../simpleicons/O/Odoo.png) | [simpleicons/O/Odoo](../../simpleicons/O/Odoo.md) |
+| ![illustration of simpleicons/O/Odysee](../../simpleicons/O/Odysee.png) | [simpleicons/O/Odysee](../../simpleicons/O/Odysee.md) |
+| ![illustration of simpleicons/O/Ohdear](../../simpleicons/O/Ohdear.png) | [simpleicons/O/Ohdear](../../simpleicons/O/Ohdear.md) |
+| ![illustration of simpleicons/O/Okcupid](../../simpleicons/O/Okcupid.png) | [simpleicons/O/Okcupid](../../simpleicons/O/Okcupid.md) |
+| ![illustration of simpleicons/O/Okta](../../simpleicons/O/Okta.png) | [simpleicons/O/Okta](../../simpleicons/O/Okta.md) |
+| ![illustration of simpleicons/O/Okx](../../simpleicons/O/Okx.png) | [simpleicons/O/Okx](../../simpleicons/O/Okx.md) |
+| ![illustration of simpleicons/O/Ollama](../../simpleicons/O/Ollama.png) | [simpleicons/O/Ollama](../../simpleicons/O/Ollama.md) |
+| ![illustration of simpleicons/O/Omadacloud](../../simpleicons/O/Omadacloud.png) | [simpleicons/O/Omadacloud](../../simpleicons/O/Omadacloud.md) |
+| ![illustration of simpleicons/O/Omarchy](../../simpleicons/O/Omarchy.png) | [simpleicons/O/Omarchy](../../simpleicons/O/Omarchy.md) |
+| ![illustration of simpleicons/O/Oneplus](../../simpleicons/O/Oneplus.png) | [simpleicons/O/Oneplus](../../simpleicons/O/Oneplus.md) |
+| ![illustration of simpleicons/O/Onestream](../../simpleicons/O/Onestream.png) | [simpleicons/O/Onestream](../../simpleicons/O/Onestream.md) |
+| ![illustration of simpleicons/O/Onlyfans](../../simpleicons/O/Onlyfans.png) | [simpleicons/O/Onlyfans](../../simpleicons/O/Onlyfans.md) |
+| ![illustration of simpleicons/O/Onlyoffice](../../simpleicons/O/Onlyoffice.png) | [simpleicons/O/Onlyoffice](../../simpleicons/O/Onlyoffice.md) |
+| ![illustration of simpleicons/O/Onnx](../../simpleicons/O/Onnx.png) | [simpleicons/O/Onnx](../../simpleicons/O/Onnx.md) |
+| ![illustration of simpleicons/O/Onstar](../../simpleicons/O/Onstar.png) | [simpleicons/O/Onstar](../../simpleicons/O/Onstar.md) |
+| ![illustration of simpleicons/O/Opel](../../simpleicons/O/Opel.png) | [simpleicons/O/Opel](../../simpleicons/O/Opel.md) |
+| ![illustration of simpleicons/O/Open3D](../../simpleicons/O/Open3D.png) | [simpleicons/O/Open3D](../../simpleicons/O/Open3D.md) |
+| ![illustration of simpleicons/O/Openaccess](../../simpleicons/O/Openaccess.png) | [simpleicons/O/Openaccess](../../simpleicons/O/Openaccess.md) |
+| ![illustration of simpleicons/O/Openaigym](../../simpleicons/O/Openaigym.png) | [simpleicons/O/Openaigym](../../simpleicons/O/Openaigym.md) |
+| ![illustration of simpleicons/O/Openapiinitiative](../../simpleicons/O/Openapiinitiative.png) | [simpleicons/O/Openapiinitiative](../../simpleicons/O/Openapiinitiative.md) |
+| ![illustration of simpleicons/O/Openbadges](../../simpleicons/O/Openbadges.png) | [simpleicons/O/Openbadges](../../simpleicons/O/Openbadges.md) |
+| ![illustration of simpleicons/O/Openbsd](../../simpleicons/O/Openbsd.png) | [simpleicons/O/Openbsd](../../simpleicons/O/Openbsd.md) |
+| ![illustration of simpleicons/O/Openbugbounty](../../simpleicons/O/Openbugbounty.png) | [simpleicons/O/Openbugbounty](../../simpleicons/O/Openbugbounty.md) |
+| ![illustration of simpleicons/O/Opencage](../../simpleicons/O/Opencage.png) | [simpleicons/O/Opencage](../../simpleicons/O/Opencage.md) |
+| ![illustration of simpleicons/O/Opencollective](../../simpleicons/O/Opencollective.png) | [simpleicons/O/Opencollective](../../simpleicons/O/Opencollective.md) |
+| ![illustration of simpleicons/O/Opencontainersinitiative](../../simpleicons/O/Opencontainersinitiative.png) | [simpleicons/O/Opencontainersinitiative](../../simpleicons/O/Opencontainersinitiative.md) |
+| ![illustration of simpleicons/O/Opencritic](../../simpleicons/O/Opencritic.png) | [simpleicons/O/Opencritic](../../simpleicons/O/Opencritic.md) |
+| ![illustration of simpleicons/O/Opencv](../../simpleicons/O/Opencv.png) | [simpleicons/O/Opencv](../../simpleicons/O/Opencv.md) |
+| ![illustration of simpleicons/O/Openfaas](../../simpleicons/O/Openfaas.png) | [simpleicons/O/Openfaas](../../simpleicons/O/Openfaas.md) |
+| ![illustration of simpleicons/O/Opengl](../../simpleicons/O/Opengl.png) | [simpleicons/O/Opengl](../../simpleicons/O/Opengl.md) |
+| ![illustration of simpleicons/O/Openhab](../../simpleicons/O/Openhab.png) | [simpleicons/O/Openhab](../../simpleicons/O/Openhab.md) |
+| ![illustration of simpleicons/O/Openid](../../simpleicons/O/Openid.png) | [simpleicons/O/Openid](../../simpleicons/O/Openid.md) |
+| ![illustration of simpleicons/O/Openjdk](../../simpleicons/O/Openjdk.png) | [simpleicons/O/Openjdk](../../simpleicons/O/Openjdk.md) |
+| ![illustration of simpleicons/O/Openjsfoundation](../../simpleicons/O/Openjsfoundation.png) | [simpleicons/O/Openjsfoundation](../../simpleicons/O/Openjsfoundation.md) |
+| ![illustration of simpleicons/O/Openlayers](../../simpleicons/O/Openlayers.png) | [simpleicons/O/Openlayers](../../simpleicons/O/Openlayers.md) |
+| ![illustration of simpleicons/O/Openmediavault](../../simpleicons/O/Openmediavault.png) | [simpleicons/O/Openmediavault](../../simpleicons/O/Openmediavault.md) |
+| ![illustration of simpleicons/O/Openmined](../../simpleicons/O/Openmined.png) | [simpleicons/O/Openmined](../../simpleicons/O/Openmined.md) |
+| ![illustration of simpleicons/O/Opennebula](../../simpleicons/O/Opennebula.png) | [simpleicons/O/Opennebula](../../simpleicons/O/Opennebula.md) |
+| ![illustration of simpleicons/O/Openproject](../../simpleicons/O/Openproject.png) | [simpleicons/O/Openproject](../../simpleicons/O/Openproject.md) |
+| ![illustration of simpleicons/O/Openrouter](../../simpleicons/O/Openrouter.png) | [simpleicons/O/Openrouter](../../simpleicons/O/Openrouter.md) |
+| ![illustration of simpleicons/O/Openscad](../../simpleicons/O/Openscad.png) | [simpleicons/O/Openscad](../../simpleicons/O/Openscad.md) |
+| ![illustration of simpleicons/O/Opensea](../../simpleicons/O/Opensea.png) | [simpleicons/O/Opensea](../../simpleicons/O/Opensea.md) |
+| ![illustration of simpleicons/O/Opensearch](../../simpleicons/O/Opensearch.png) | [simpleicons/O/Opensearch](../../simpleicons/O/Opensearch.md) |
+| ![illustration of simpleicons/O/Opensourcehardware](../../simpleicons/O/Opensourcehardware.png) | [simpleicons/O/Opensourcehardware](../../simpleicons/O/Opensourcehardware.md) |
+| ![illustration of simpleicons/O/Opensourceinitiative](../../simpleicons/O/Opensourceinitiative.png) | [simpleicons/O/Opensourceinitiative](../../simpleicons/O/Opensourceinitiative.md) |
+| ![illustration of simpleicons/O/Openssl](../../simpleicons/O/Openssl.png) | [simpleicons/O/Openssl](../../simpleicons/O/Openssl.md) |
+| ![illustration of simpleicons/O/Openstack](../../simpleicons/O/Openstack.png) | [simpleicons/O/Openstack](../../simpleicons/O/Openstack.md) |
+| ![illustration of simpleicons/O/Openstreetmap](../../simpleicons/O/Openstreetmap.png) | [simpleicons/O/Openstreetmap](../../simpleicons/O/Openstreetmap.md) |
+| ![illustration of simpleicons/O/Opensuse](../../simpleicons/O/Opensuse.png) | [simpleicons/O/Opensuse](../../simpleicons/O/Opensuse.md) |
+| ![illustration of simpleicons/O/Opentelemetry](../../simpleicons/O/Opentelemetry.png) | [simpleicons/O/Opentelemetry](../../simpleicons/O/Opentelemetry.md) |
+| ![illustration of simpleicons/O/Opentext](../../simpleicons/O/Opentext.png) | [simpleicons/O/Opentext](../../simpleicons/O/Opentext.md) |
+| ![illustration of simpleicons/O/Opentofu](../../simpleicons/O/Opentofu.png) | [simpleicons/O/Opentofu](../../simpleicons/O/Opentofu.md) |
+| ![illustration of simpleicons/O/Openverse](../../simpleicons/O/Openverse.png) | [simpleicons/O/Openverse](../../simpleicons/O/Openverse.md) |
+| ![illustration of simpleicons/O/Openvpn](../../simpleicons/O/Openvpn.png) | [simpleicons/O/Openvpn](../../simpleicons/O/Openvpn.md) |
+| ![illustration of simpleicons/O/Openwrt](../../simpleicons/O/Openwrt.png) | [simpleicons/O/Openwrt](../../simpleicons/O/Openwrt.md) |
+| ![illustration of simpleicons/O/Openzeppelin](../../simpleicons/O/Openzeppelin.png) | [simpleicons/O/Openzeppelin](../../simpleicons/O/Openzeppelin.md) |
+| ![illustration of simpleicons/O/Openzfs](../../simpleicons/O/Openzfs.png) | [simpleicons/O/Openzfs](../../simpleicons/O/Openzfs.md) |
+| ![illustration of simpleicons/O/Opera](../../simpleicons/O/Opera.png) | [simpleicons/O/Opera](../../simpleicons/O/Opera.md) |
+| ![illustration of simpleicons/O/Operagx](../../simpleicons/O/Operagx.png) | [simpleicons/O/Operagx](../../simpleicons/O/Operagx.md) |
+| ![illustration of simpleicons/O/Opnsense](../../simpleicons/O/Opnsense.png) | [simpleicons/O/Opnsense](../../simpleicons/O/Opnsense.md) |
+| ![illustration of simpleicons/O/Oppo](../../simpleicons/O/Oppo.png) | [simpleicons/O/Oppo](../../simpleicons/O/Oppo.md) |
+| ![illustration of simpleicons/O/Opsgenie](../../simpleicons/O/Opsgenie.png) | [simpleicons/O/Opsgenie](../../simpleicons/O/Opsgenie.md) |
+| ![illustration of simpleicons/O/Opslevel](../../simpleicons/O/Opslevel.png) | [simpleicons/O/Opslevel](../../simpleicons/O/Opslevel.md) |
+| ![illustration of simpleicons/O/Optimism](../../simpleicons/O/Optimism.png) | [simpleicons/O/Optimism](../../simpleicons/O/Optimism.md) |
+| ![illustration of simpleicons/O/Optuna](../../simpleicons/O/Optuna.png) | [simpleicons/O/Optuna](../../simpleicons/O/Optuna.md) |
+| ![illustration of simpleicons/O/Orange](../../simpleicons/O/Orange.png) | [simpleicons/O/Orange](../../simpleicons/O/Orange.md) |
+| ![illustration of simpleicons/O/Orchardcore](../../simpleicons/O/Orchardcore.png) | [simpleicons/O/Orchardcore](../../simpleicons/O/Orchardcore.md) |
+| ![illustration of simpleicons/O/Orcid](../../simpleicons/O/Orcid.png) | [simpleicons/O/Orcid](../../simpleicons/O/Orcid.md) |
+| ![illustration of simpleicons/O/Oreilly](../../simpleicons/O/Oreilly.png) | [simpleicons/O/Oreilly](../../simpleicons/O/Oreilly.md) |
+| ![illustration of simpleicons/O/Org](../../simpleicons/O/Org.png) | [simpleicons/O/Org](../../simpleicons/O/Org.md) |
+| ![illustration of simpleicons/O/Organicmaps](../../simpleicons/O/Organicmaps.png) | [simpleicons/O/Organicmaps](../../simpleicons/O/Organicmaps.md) |
+| ![illustration of simpleicons/O/Origin](../../simpleicons/O/Origin.png) | [simpleicons/O/Origin](../../simpleicons/O/Origin.md) |
+| ![illustration of simpleicons/O/Ory](../../simpleicons/O/Ory.png) | [simpleicons/O/Ory](../../simpleicons/O/Ory.md) |
+| ![illustration of simpleicons/O/Osano](../../simpleicons/O/Osano.png) | [simpleicons/O/Osano](../../simpleicons/O/Osano.md) |
+| ![illustration of simpleicons/O/Osf](../../simpleicons/O/Osf.png) | [simpleicons/O/Osf](../../simpleicons/O/Osf.md) |
+| ![illustration of simpleicons/O/Osgeo](../../simpleicons/O/Osgeo.png) | [simpleicons/O/Osgeo](../../simpleicons/O/Osgeo.md) |
+| ![illustration of simpleicons/O/Oshkosh](../../simpleicons/O/Oshkosh.png) | [simpleicons/O/Oshkosh](../../simpleicons/O/Oshkosh.md) |
+| ![illustration of simpleicons/O/Osmand](../../simpleicons/O/Osmand.png) | [simpleicons/O/Osmand](../../simpleicons/O/Osmand.md) |
+| ![illustration of simpleicons/O/Osmc](../../simpleicons/O/Osmc.png) | [simpleicons/O/Osmc](../../simpleicons/O/Osmc.md) |
+| ![illustration of simpleicons/O/Osu](../../simpleicons/O/Osu.png) | [simpleicons/O/Osu](../../simpleicons/O/Osu.md) |
+| ![illustration of simpleicons/O/Otto](../../simpleicons/O/Otto.png) | [simpleicons/O/Otto](../../simpleicons/O/Otto.md) |
+| ![illustration of simpleicons/O/Outline](../../simpleicons/O/Outline.png) | [simpleicons/O/Outline](../../simpleicons/O/Outline.md) |
+| ![illustration of simpleicons/O/Overcast](../../simpleicons/O/Overcast.png) | [simpleicons/O/Overcast](../../simpleicons/O/Overcast.md) |
+| ![illustration of simpleicons/O/Overleaf](../../simpleicons/O/Overleaf.png) | [simpleicons/O/Overleaf](../../simpleicons/O/Overleaf.md) |
+| ![illustration of simpleicons/O/Ovh](../../simpleicons/O/Ovh.png) | [simpleicons/O/Ovh](../../simpleicons/O/Ovh.md) |
+| ![illustration of simpleicons/O/Owasp](../../simpleicons/O/Owasp.png) | [simpleicons/O/Owasp](../../simpleicons/O/Owasp.md) |
+| ![illustration of simpleicons/O/Owncloud](../../simpleicons/O/Owncloud.png) | [simpleicons/O/Owncloud](../../simpleicons/O/Owncloud.md) |
+| ![illustration of simpleicons/O/Oxc](../../simpleicons/O/Oxc.png) | [simpleicons/O/Oxc](../../simpleicons/O/Oxc.md) |
+| ![illustration of simpleicons/O/Oxygen](../../simpleicons/O/Oxygen.png) | [simpleicons/O/Oxygen](../../simpleicons/O/Oxygen.md) |
+| ![illustration of simpleicons/O/Oyo](../../simpleicons/O/Oyo.png) | [simpleicons/O/Oyo](../../simpleicons/O/Oyo.md) |
+
+
+

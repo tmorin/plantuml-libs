@@ -53,7 +53,7 @@ The available packages:
 - [Fontawesome (v6)](distribution/fontawesome-6/README.md)
 - [Gougle Compute Platform](distribution/gcp/README.md)
 - [Material (v4)](distribution/material-4/README.md)
-- [simpleicons (v14)](distribution/simpleicons-14/README.md)
+- [simpleicons (v14)](distribution/simpleicons/README.md)
 
 [./distribution/README.md]: distribution/README.md
 [tmorin.github.io/plantuml-libs]: https://tmorin.github.io/plantuml-libs/

@@ -1,0 +1,74 @@
+# Googlecast
+
+
+```text
+simpleicons/G/Googlecast
+```
+
+```text
+include('simpleicons/G/Googlecast')
+```
+
+
+
+| Illustration | Googlecast |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/G/Googlecast.png) | ![illustration for Googlecast](../../simpleicons/G/Googlecast.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglecastXs>`
+- `<$GooglecastSm>`
+- `<$GooglecastMd>`
+- `<$GooglecastLg>`
+
+
+
+
+
+## Googlecast
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Googlecast
+include('simpleicons/G/Googlecast')
+
+' renders the element
+Googlecast('Googlecast', 'Googlecast', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Googlecast
+include('simpleicons/G/Googlecast')
+
+' renders the element
+Googlecast('Googlecast', 'Googlecast', 'an optional tech label', 'an optional description')
+@enduml
+```
+

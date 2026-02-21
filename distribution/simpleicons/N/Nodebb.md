@@ -1,0 +1,74 @@
+# Nodebb
+
+
+```text
+simpleicons/N/Nodebb
+```
+
+```text
+include('simpleicons/N/Nodebb')
+```
+
+
+
+| Illustration | Nodebb |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/N/Nodebb.png) | ![illustration for Nodebb](../../simpleicons/N/Nodebb.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$NodebbXs>`
+- `<$NodebbSm>`
+- `<$NodebbMd>`
+- `<$NodebbLg>`
+
+
+
+
+
+## Nodebb
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Nodebb
+include('simpleicons/N/Nodebb')
+
+' renders the element
+Nodebb('Nodebb', 'Nodebb', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Nodebb
+include('simpleicons/N/Nodebb')
+
+' renders the element
+Nodebb('Nodebb', 'Nodebb', 'an optional tech label', 'an optional description')
+@enduml
+```
+

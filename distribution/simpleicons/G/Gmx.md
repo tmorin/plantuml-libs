@@ -1,0 +1,74 @@
+# Gmx
+
+
+```text
+simpleicons/G/Gmx
+```
+
+```text
+include('simpleicons/G/Gmx')
+```
+
+
+
+| Illustration | Gmx |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/G/Gmx.png) | ![illustration for Gmx](../../simpleicons/G/Gmx.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$GmxXs>`
+- `<$GmxSm>`
+- `<$GmxMd>`
+- `<$GmxLg>`
+
+
+
+
+
+## Gmx
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Gmx
+include('simpleicons/G/Gmx')
+
+' renders the element
+Gmx('Gmx', 'Gmx', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Gmx
+include('simpleicons/G/Gmx')
+
+' renders the element
+Gmx('Gmx', 'Gmx', 'an optional tech label', 'an optional description')
+@enduml
+```
+

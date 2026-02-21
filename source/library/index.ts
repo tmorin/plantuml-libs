@@ -14,7 +14,7 @@ import { Fontawesome6Factory } from "./packages/fontawesome-6"
 import { GcpFactory } from "./packages/gcp"
 import { Library, Package } from "../generator/workdir/manifest"
 import { Material4Factory } from "./packages/material-4"
-import { Simpleicons14Factory } from "./packages/simpleicons-14"
+import { Simpleicons14Factory } from "./packages/simpleicons"
 
 const PACKAGE_FACTORIES = [
   new AwsQ32025Factory(),
