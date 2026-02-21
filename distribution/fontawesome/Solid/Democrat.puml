@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Democrat
+
+sprite $DemocratXs [12x10/16z] PSR50O100C2muaxtdnQNaxm2b7pqQnrSjJqLh5vMHmKQ4Pa5y3AJVnY6xu0pEm
+
+sprite $DemocratSm [15x12/16z] RSd50O0m0CNGu4xsdnRNjk_q1N96FfpbGnjUazfnA_sO6BJMKhLI0MOnoqLavuLJTe7Kgm29kW8
+
+sprite $DemocratMd [20x16/16z] PSYr0S104CH0cVdKVxLc_aaMe8ASdy5A_ZJuwTJVbMjoUXWlDOG9IWrq9CpwFPHDPOUIRv65xFIMSSeVNFhnbd4AR--lobRn_V8pxsyw-xZd0W
+
+sprite $DemocratLg [25x20/16z] {
+ZSx50GCn40J14RCw_sZDxAFw21ObLKb92sY6kHW05YiYe0K6M6m5on6UualGHMMHqUIf0kqZ0WGrffN3ouvY5FjxJp3gT5cGAE4L69Gnw2D3RHHPhplBfw83
+VYgE1KQv-G_av-rm87pTpW
+}
+
+!procedure Democrat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Democrat', $name, $tech, $desc)
+!endprocedure

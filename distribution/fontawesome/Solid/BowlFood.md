@@ -1,0 +1,74 @@
+# BowlFood
+
+
+```text
+fontawesome/Solid/BowlFood
+```
+
+```text
+include('fontawesome/Solid/BowlFood')
+```
+
+
+
+| Illustration | BowlFood |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/BowlFood.png) | ![illustration for BowlFood](../../fontawesome/Solid/BowlFood.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$BowlFoodXs>`
+- `<$BowlFoodSm>`
+- `<$BowlFoodMd>`
+- `<$BowlFoodLg>`
+
+
+
+
+
+## BowlFood
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element BowlFood
+include('fontawesome/Solid/BowlFood')
+
+' renders the element
+BowlFood('BowlFood', 'Bowl Food', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element BowlFood
+include('fontawesome/Solid/BowlFood')
+
+' renders the element
+BowlFood('BowlFood', 'Bowl Food', 'an optional tech label', 'an optional description')
+@enduml
+```
+

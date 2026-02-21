@@ -1,0 +1,74 @@
+# Bed
+
+
+```text
+fontawesome/Solid/Bed
+```
+
+```text
+include('fontawesome/Solid/Bed')
+```
+
+
+
+| Illustration | Bed |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/Bed.png) | ![illustration for Bed](../../fontawesome/Solid/Bed.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$BedXs>`
+- `<$BedSm>`
+- `<$BedMd>`
+- `<$BedLg>`
+
+
+
+
+
+## Bed
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Bed
+include('fontawesome/Solid/Bed')
+
+' renders the element
+Bed('Bed', 'Bed', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Bed
+include('fontawesome/Solid/Bed')
+
+' renders the element
+Bed('Bed', 'Bed', 'an optional tech label', 'an optional description')
+@enduml
+```
+

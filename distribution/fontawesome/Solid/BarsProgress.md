@@ -1,0 +1,74 @@
+# BarsProgress
+
+
+```text
+fontawesome/Solid/BarsProgress
+```
+
+```text
+include('fontawesome/Solid/BarsProgress')
+```
+
+
+
+| Illustration | BarsProgress |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/BarsProgress.png) | ![illustration for BarsProgress](../../fontawesome/Solid/BarsProgress.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$BarsProgressXs>`
+- `<$BarsProgressSm>`
+- `<$BarsProgressMd>`
+- `<$BarsProgressLg>`
+
+
+
+
+
+## BarsProgress
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element BarsProgress
+include('fontawesome/Solid/BarsProgress')
+
+' renders the element
+BarsProgress('BarsProgress', 'Bars Progress', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element BarsProgress
+include('fontawesome/Solid/BarsProgress')
+
+' renders the element
+BarsProgress('BarsProgress', 'Bars Progress', 'an optional tech label', 'an optional description')
+@enduml
+```
+

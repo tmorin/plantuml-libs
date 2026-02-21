@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HandDots
+
+sprite $HandDotsXs [10x10/16z] Om01FWO8u0T318iFncBZHsN100ECXfDWIMuWPeIhOm
+
+sprite $HandDotsSm [12x12/16z] VSd50S0W5C3GrBtPVzegTkB1TpudmMGZyjc_lYrxpsh_Em-drFELHZiFq73e01LHNdxW1W
+
+sprite $HandDotsMd [16x16/16z] dSjL0iGW38JXuCxS_xOxoLPV-rVWG-HeowCf6ux_em7rX3-tpOlkRqzyz9KKx9S7iDM1Nw9bmLg8_6WzmJbKDEiwTtPbYDPizpYkELYJqny
+
+sprite $HandDotsLg [20x20/16z] {
+hT0reeC000N1b-0wzp_jLnpAR3dbPgsSSwv8QFDwxzGRGnTUMHlDYxqVpNopYflLdx5ZARWPNEq54yP0a3zSIW-oO3LZ0h9Wpm1uvI-ONZGDGvRivN0UA9Fa
+6m
+}
+
+!procedure HandDots($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HandDots', $name, $tech, $desc)
+!endprocedure

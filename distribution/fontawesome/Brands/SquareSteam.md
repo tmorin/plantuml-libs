@@ -1,0 +1,74 @@
+# SquareSteam
+
+
+```text
+fontawesome/Brands/SquareSteam
+```
+
+```text
+include('fontawesome/Brands/SquareSteam')
+```
+
+
+
+| Illustration | SquareSteam |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Brands/SquareSteam.png) | ![illustration for SquareSteam](../../fontawesome/Brands/SquareSteam.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareSteamXs>`
+- `<$SquareSteamSm>`
+- `<$SquareSteamMd>`
+- `<$SquareSteamLg>`
+
+
+
+
+
+## SquareSteam
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SquareSteam
+include('fontawesome/Brands/SquareSteam')
+
+' renders the element
+SquareSteam('SquareSteam', 'Square Steam', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SquareSteam
+include('fontawesome/Brands/SquareSteam')
+
+' renders the element
+SquareSteam('SquareSteam', 'Square Steam', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,74 @@
+# WhiskeyGlass
+
+
+```text
+fontawesome/Solid/WhiskeyGlass
+```
+
+```text
+include('fontawesome/Solid/WhiskeyGlass')
+```
+
+
+
+| Illustration | WhiskeyGlass |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/WhiskeyGlass.png) | ![illustration for WhiskeyGlass](../../fontawesome/Solid/WhiskeyGlass.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$WhiskeyGlassXs>`
+- `<$WhiskeyGlassSm>`
+- `<$WhiskeyGlassMd>`
+- `<$WhiskeyGlassLg>`
+
+
+
+
+
+## WhiskeyGlass
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element WhiskeyGlass
+include('fontawesome/Solid/WhiskeyGlass')
+
+' renders the element
+WhiskeyGlass('WhiskeyGlass', 'Whiskey Glass', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element WhiskeyGlass
+include('fontawesome/Solid/WhiskeyGlass')
+
+' renders the element
+WhiskeyGlass('WhiskeyGlass', 'Whiskey Glass', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,74 @@
+# SquareH
+
+
+```text
+fontawesome/Solid/SquareH
+```
+
+```text
+include('fontawesome/Solid/SquareH')
+```
+
+
+
+| Illustration | SquareH |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/SquareH.png) | ![illustration for SquareH](../../fontawesome/Solid/SquareH.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareHXs>`
+- `<$SquareHSm>`
+- `<$SquareHMd>`
+- `<$SquareHLg>`
+
+
+
+
+
+## SquareH
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SquareH
+include('fontawesome/Solid/SquareH')
+
+' renders the element
+SquareH('SquareH', 'Square H', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SquareH
+include('fontawesome/Solid/SquareH')
+
+' renders the element
+SquareH('SquareH', 'Square H', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,74 @@
+# AddressCard
+
+
+```text
+fontawesome/Solid/AddressCard
+```
+
+```text
+include('fontawesome/Solid/AddressCard')
+```
+
+
+
+| Illustration | AddressCard |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/AddressCard.png) | ![illustration for AddressCard](../../fontawesome/Solid/AddressCard.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddressCardXs>`
+- `<$AddressCardSm>`
+- `<$AddressCardMd>`
+- `<$AddressCardLg>`
+
+
+
+
+
+## AddressCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element AddressCard
+include('fontawesome/Solid/AddressCard')
+
+' renders the element
+AddressCard('AddressCard', 'Address Card', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element AddressCard
+include('fontawesome/Solid/AddressCard')
+
+' renders the element
+AddressCard('AddressCard', 'Address Card', 'an optional tech label', 'an optional description')
+@enduml
+```
+

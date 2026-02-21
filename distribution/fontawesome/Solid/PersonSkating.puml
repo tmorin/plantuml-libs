@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonSkating
+
+sprite $PersonSkatingXs [8x10/16z] JSM50SC00CCmRMNC_zUMAM0xau-J1Bh-j5DaX5-aGVX7yNDO5yWA
+
+sprite $PersonSkatingSm [10x12/16z] NKo50G0X4EBJblsdjViw07JpVI1plPB1vZMRxYzEq35vjj7o0T8am2__MxRAFslV9W8
+
+sprite $PersonSkatingMd [14x16/16z] JSe52W0n4CNGhDV__M-xKwf17uIjx3P4QTFNTCHaHOwnr0gjuqYc2At7a1aLAS7eb6ve7UAMhW65ogOAI3hW0yCGeXLDbK-azM5vhBUK8du
+
+sprite $PersonSkatingLg [17x20/16z] {
+LO-55G0W24JjLlQVrbRWp4y-19C1mrW203EeOo2gKFORu2W-nq4Q7sCy1fezPNXzi0AbqOzr5SLjaTHzBCXk3v8EjycdSvwtrzFW1HhqAOu6ORz5rrFKqXdE
+J-B8IGm
+}
+
+!procedure PersonSkating($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonSkating', $name, $tech, $desc)
+!endprocedure

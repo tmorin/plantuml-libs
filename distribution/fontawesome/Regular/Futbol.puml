@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/Futbol
+
+sprite $FutbolXs [10x10/16z] BOk54S0m30FBtFp-s-RbYzc2oRWvfWGLjyTdMxlGO6wlYrnarZZEU4DFjDe_0bvN-NPuStG
+
+sprite $FutbolSm [12x12/16z] HOk50G0X30F3ktBxJulJNbsYoikb3ftMxcLwz9MXBKBT_TQVyC9PvgYfQJbm_Qt_QYxMQBs_dUDvgVB23tsR0G
+
+sprite $FutbolMd [16x16/16z] {
+DStL0S0W303HGwjm-s_RrDuFn7cquP7u3LyBZ_WOnkaWA33Te7Z2y2GaWYPKFbbjQeVD15CTQdf-dLN3yLsiW1uIwh_5vBkg9C8gZjnNGbfhSj8DcNUxtwuJ
+C7J2gG9F-4W-9k42
+}
+
+sprite $FutbolLg [20x20/16z] {
+JP054iHG24EfAxpxdtO5oCnF7OdK6bVmxZPWe-6JIWouL7fjXdxSAkNZgiUMNCKzYQV8p8G9EBCs_RzozKcT5Zi1MGZWaKChVMrsBHTUPBAjMR1pL5ua3wPN
+OSBDyQ270G_cPW_LW6P2acAz0MQDpSClzIV6wDh2Q-WB
+}
+
+!procedure Futbol($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Futbol', $name, $tech, $desc)
+!endprocedure

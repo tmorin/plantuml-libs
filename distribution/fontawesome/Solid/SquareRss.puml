@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/SquareRss
+
+sprite $SquareRssXs [8x10/16z] Ou01VdJ03XLZu-U7C1WO-Q0C80IHZFnmNN0M
+
+sprite $SquareRssSm [10x12/16z] ROk30S1G50ElThF_jCMtxXaXeXOx77ASxkVY5BrRTV92n6OKNrqmZqud3yTjMLu
+
+sprite $SquareRssMd [14x16/16z] VOs50GGX4CI2EzD_jUzo7bWtreJvOn1qYGNQFsmHq8B-2nraJSmd70QZWhuKXl3lafD0yBam1B9y5agQhx-6TRJY3W
+
+sprite $SquareRssLg [17x20/16z] PSo5OKGX403H-QxBz5zjSeuzd1LwKsa4Qt7Rwm4i5iuPe2dUOFNhM9CcYB976E1NZ93SECnLe60saV87X3UBS_wubTaDFoAltcQ39csXzGy
+
+!procedure SquareRss($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SquareRss', $name, $tech, $desc)
+!endprocedure

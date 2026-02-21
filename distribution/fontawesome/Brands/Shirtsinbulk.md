@@ -1,0 +1,74 @@
+# Shirtsinbulk
+
+
+```text
+fontawesome/Brands/Shirtsinbulk
+```
+
+```text
+include('fontawesome/Brands/Shirtsinbulk')
+```
+
+
+
+| Illustration | Shirtsinbulk |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Brands/Shirtsinbulk.png) | ![illustration for Shirtsinbulk](../../fontawesome/Brands/Shirtsinbulk.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShirtsinbulkXs>`
+- `<$ShirtsinbulkSm>`
+- `<$ShirtsinbulkMd>`
+- `<$ShirtsinbulkLg>`
+
+
+
+
+
+## Shirtsinbulk
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Shirtsinbulk
+include('fontawesome/Brands/Shirtsinbulk')
+
+' renders the element
+Shirtsinbulk('Shirtsinbulk', 'Shirtsinbulk', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Shirtsinbulk
+include('fontawesome/Brands/Shirtsinbulk')
+
+' renders the element
+Shirtsinbulk('Shirtsinbulk', 'Shirtsinbulk', 'an optional tech label', 'an optional description')
+@enduml
+```
+

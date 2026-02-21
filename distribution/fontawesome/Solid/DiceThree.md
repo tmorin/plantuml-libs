@@ -1,0 +1,74 @@
+# DiceThree
+
+
+```text
+fontawesome/Solid/DiceThree
+```
+
+```text
+include('fontawesome/Solid/DiceThree')
+```
+
+
+
+| Illustration | DiceThree |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/DiceThree.png) | ![illustration for DiceThree](../../fontawesome/Solid/DiceThree.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiceThreeXs>`
+- `<$DiceThreeSm>`
+- `<$DiceThreeMd>`
+- `<$DiceThreeLg>`
+
+
+
+
+
+## DiceThree
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element DiceThree
+include('fontawesome/Solid/DiceThree')
+
+' renders the element
+DiceThree('DiceThree', 'Dice Three', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element DiceThree
+include('fontawesome/Solid/DiceThree')
+
+' renders the element
+DiceThree('DiceThree', 'Dice Three', 'an optional tech label', 'an optional description')
+@enduml
+```
+

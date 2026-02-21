@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/FaceGrin
+
+sprite $FaceGrinXs [10x10/16z] 7SV7OS80000nkNVV_jCcW7w2enNKPEkW6xG8q37z-Yg0QzsyW_cMh1Kv0c6fg_W7
+
+sprite $FaceGrinSm [12x12/16z] 5SU54SG03C0mFMFg_RVjHKUszUkDLVEQWXxMFpQj6R5tfzyGjwYNjNgFjH8jqfz_7thHM1qmhHSd
+
+sprite $FaceGrinMd [16x16/16z] {
+NSw50GCn3C10FMEi_QSjX0eNHfjiILu3JRBOoDhaDfKbrUGDIRh5WNov2HVR4mDcytNFtYdVlFxMWp2feS8ktX0jFOFL2PRm7k0MI2uKjsiPOWPson86im1u
+0W
+}
+
+sprite $FaceGrinLg [20x20/16z] {
+NT3LjS0W403HYGiiqt-rJnO-EBcu2yFJh2UJmo4M1hLjmAK-9AqCgxwVhcmTS5YPQK-psniRy4OUdyVguyRO1Mqz5-3AqvO242eVnIeVpTCBQFS2xANsooWi
+3baFmXLEEyZsahNbrRY0AvlFVFGr6g_Uf2LqdRuqIdE-BRSf-gHV
+}
+
+!procedure FaceGrin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/FaceGrin', $name, $tech, $desc)
+!endprocedure

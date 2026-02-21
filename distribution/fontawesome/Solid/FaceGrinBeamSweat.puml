@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/FaceGrinBeamSweat
+
+sprite $FaceGrinBeamSweatXs [10x10/16z] JSQr0SHG042XTouHzfysLdqggdvUjPPBCkp9V_7-CUTzDtXRkKGd-b5HlPng1m
+
+sprite $FaceGrinBeamSweatSm [12x12/16z] JSY50G81302nmvtiFotoddhxUxXMXyhW_Z2lzcJMBkuz_AS7oTc1hUkyl8b6X6cz59xd5-z-VjFm_G8
+
+sprite $FaceGrinBeamSweatMd [16x16/16z] {
+PSg50S0W3031u1f-_sdhtaEYiWbAMwEJbRAB0al9oLQuI_09HBc94TdZ-bde8-pjkdu5K629bRJ6lyQRWIQ-gVPi1TZUmS6GU3NCdYaGbwflST4vnNjnCMGn
+0m
+}
+
+sprite $FaceGrinBeamSweatLg [20x20/16z] {
+TP255OH034IpxZlzTylBuFRlWBZ9HfdeWT8K4h0nZ1HuDU4agt8tmMhAtOJ4k80R8cOBy_nK6K2FKMXYrIQYHg0meUlVHbYdwkHO50Qb7phUH4tR7Njv5NH1
+Oyosvs1tESYwdnXSZ75JM2BHD0v_1PaWzd7IHsaoBBK5
+}
+
+!procedure FaceGrinBeamSweat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FaceGrinBeamSweat', $name, $tech, $desc)
+!endprocedure

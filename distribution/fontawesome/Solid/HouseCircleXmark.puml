@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HouseCircleXmark
+
+sprite $HouseCircleXmarkXs [12x10/16z] Om013WOuuEVdHp3X77u8O04puU9yK2OGiqCakFbvW5oeAI0PE9iJBWvH2G
+
+sprite $HouseCircleXmarkSm [15x12/16z] NSg54S1G3CDGbRdUVzhYXoGwV3xpjs3gfRDgrLlM8Had93jm5gN9wDJFVKS29KAaFPFC3G
+
+sprite $HouseCircleXmarkMd [20x16/16z] PSv50iL02C3Gr9N9_K_xjLIpV2D0LhZNg3SQ_5QTQV5VUr2O3KcUcfyq99saYwM2Sb2_dGDhsaR6OKEhbE_bpKfTisW1JTis7o0kLYi65yiTEfZI8Fxq1W
+
+sprite $HouseCircleXmarkLg [25x20/16z] {
+RSx50SH03C10XTdglzf3XpEV1ICxIvxKQiTTwzV8rU3VnDdYAkx_AtQUaGeleierJsPIuqb15_-ju_BlNmDzhwiHLzLfAJejHqNZ75171Wfr3LYJrv72Ou0r
+GC5m2unAuSWjWAls4cXCh87WhupCVmC
+}
+
+!procedure HouseCircleXmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HouseCircleXmark', $name, $tech, $desc)
+!endprocedure

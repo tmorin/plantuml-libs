@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/FolderTree
+
+sprite $FolderTreeXs [11x10/16z] Om03VduGmGTcmW6CoSd92M625S2PC00JvK0nWHbX0bGP2
+
+sprite $FolderTreeSm [13x12/16z] LSp50S1030F13NFKVxN7vFaP90wYNpiW4QcO0ZHe0u4TtZyAGzVVXg5u0iRIEYHby
+
+sprite $FolderTreeMd [17x16/16z] TSwt5S0m30DHyBbYnFxJEcT9lxpga3WuALYHE71LLV64MsmS_7c5IJQlWCClFCR1gjgnZF3Uc6_m7th2PHWM
+
+sprite $FolderTreeLg [22x20/16z] ZSy34a0X403GR-F-fyrkzKPDw-4Ral__x_XAtx_rpiRK_aRmRoJwFJssR_cxjRyj_jTUrVs-lt7aN_d5jrV-pk35m_e6rMy6_rxvLmC
+
+!procedure FolderTree($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FolderTree', $name, $tech, $desc)
+!endprocedure

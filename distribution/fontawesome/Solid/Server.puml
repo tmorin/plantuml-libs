@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Server
+
+sprite $ServerXs [10x10/16z] Oq00VZJ0nup4GSZYqy6ALGS
+
+sprite $ServerSm [12x12/16z] Oq06_FW10pSZFmyoduiF1jX8CWS8SPa3
+
+sprite $ServerMd [16x16/16z] Oq07h7n8W9U1ZHyduENdHkOoCt0pO2f25qAtZfhsypFmacm_
+
+sprite $ServerLg [20x20/16z] jS_50O100C2muaxttvOt3YVP85og3ahmP9vzqQnM7b1D35xgF6FsgEP2xaSpdHvIf7zi
+
+!procedure Server($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Server', $name, $tech, $desc)
+!endprocedure

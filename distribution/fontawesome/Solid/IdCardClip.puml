@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/IdCardClip
+
+sprite $IdCardClipXs [11x10/16z] Om01VdumXM1oyGDf4880FZOsVWm0KedAn9G72tCZH
+
+sprite $IdCardClipSm [13x12/16z] XSsr0S0m0CH0XJdQVzgWgVDL-khvACcg3I_rN1KZsXRhLZ2Poc4x5zssVUplS5T72pS
+
+sprite $IdCardClipMd [17x16/16z] VSk30S0m50JGgztRVzhOUk4Nh9kSaA82QtyLctYLQQS6UqN0F6DdubKuDktC0DZA19YQWPUPZvbZLXu63unqmA065YG
+
+sprite $IdCardClipLg [22x20/16z] fSh50SCm04DHcTb__sdBp4tUJQ2p0kW9E_DBEzXhfvQ3NBbfXxWdMMjak3VZJcQDQUHveft4Wwczbz_0eo4vVkFjNk6EJXgtp4dYeF6A9i_g5W
+
+!procedure IdCardClip($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/IdCardClip', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/UsersLine
+
+sprite $UsersLineXs [12x10/16z] NSZ50OG000Emdk9a_sbnpwUI6z8hmjgnzln2dt-IRZluXe1g_K0U_XTE8m
+
+sprite $UsersLineSm [15x12/16z] PSU50O104CJ0u4xwhnQNbpbTCleFB8fgeGDGFX7byR-J2aK1AgXuGMU0oWiyvWkvpWXhP0S
+
+sprite $UsersLineMd [20x16/16z] {
+TOs50S0W30G_TKko_xHOMvp3FeTXm7svQUFvZG5rWDsq-IZ9QPo3UrJFrxqnGFuvf-YDuN7cvuspZqwlxnii8ZUcjtZylEaBplSJ8eB-m1KlcSkONZ3cQRXP
+Mz310W
+}
+
+sprite $UsersLineLg [25x20/16z] {
+dSw55SCm40DGnSot_xPLLMRumSDdlEMyFjvTVyY8iJwA5aIPf39JtMYx5F9cWgd2zIgJgrMKCe1X502KYAEDzkKvt2LI9sNG9MJ9wSUXcIGKkpf-XP4CB1M0
+N6j5jhCjCE6kDnz5N4jN4_XNJ4-vOIyaUm6lx
+}
+
+!procedure UsersLine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UsersLine', $name, $tech, $desc)
+!endprocedure

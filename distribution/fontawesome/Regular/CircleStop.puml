@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/CircleStop
+
+sprite $CircleStopXs [10x10/16z] BSR50SDG040XQl7yj_-qTKx0sWJgPcwb0_GGqpJHUZDLbF_sQVul0RBs3u_QYnS
+
+sprite $CircleStopSm [12x12/16z] HSR50GCm5CKm5qF_nVjFMmQTnDEoywPfqLSlF9MllYK8MstW2gWMQFk_vt-4LbM7ruit6vXtDq1yQd07
+
+sprite $CircleStopMd [16x16/16z] NOg50S0m3CEqCll_QyUiGc9WntVLYOkkWtZ8QsdgXuG3gmPTt7XDxEMsKe4Xhqrgmu1J_sYadwu_FGcekvuW2JN0h4o01a6MYoQWozyo76Cu8EcGC6bd02m
+
+sprite $CircleStopLg [20x20/16z] {
+PP055i0m2CN-N27tl-qUirhggQENpJbdPKoyMFSfm0T92x1zwjHB3_kd4Z19qwkIV8eqp47qLbRXeNW82HjnurmuHvKpQDp1sJXdPcdEqzS9J5A7oUYL4-CE
+ShKGmmrA5UomFgOpwBEGsk6GRrdVUvz55m
+}
+
+!procedure CircleStop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/CircleStop', $name, $tech, $desc)
+!endprocedure

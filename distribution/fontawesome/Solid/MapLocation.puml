@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/MapLocation
+
+sprite $MapLocationXs [11x10/16z] PSQr0O1000ImmvtiForUyQcIsphc0_zwkq2BQUTko5TLV4NPPB-R4m
+
+sprite $MapLocationSm [13x12/16z] ROc55S0m48MeUzb_shecuPJtEPXw7bI_l_LNEcZejL9bzW1rnXCuvvHcoDx4klSLJSa058ebAm
+
+sprite $MapLocationMd [17x16/16z] VSY50SGW5C3Gr738_jEUkpJeVroRHkErhheyvybBJwXNc7v1XMYRhy0oDAkYQfsyntozdu2wp2yWTleh9F0LTFW1xi8WFM0TPYwj9nZ04G
+
+sprite $MapLocationLg [22x20/16z] {
+hSZ50OH00C30uBgR_giztE5t-MNOIdfhxdLEPM-eN7AjUzNuhLa7bCPTQ-XKMbNgLQayod6k8LuqSughPlCcTotHbdXJIQJphYOKFdJgVngSIe4iRjf3OyrM
+qaXV00m
+}
+
+!procedure MapLocation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MapLocation', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Percent
+
+sprite $PercentXs [7x10/16z] Oq01NFpyG9AVcPyNIB8pWDWyO98FJFB3I7uWW30X
+
+sprite $PercentSm [9x12/16z] Oy04_FmWaf6VZv-V4KJp0qKWD1YWqOm86g6OWPkVdvqVfWm6
+
+sprite $PercentMd [12x16/16z] TSgr0SH030NHhpipJV_LcWIHTw8dKAj-CuUjFU24uxOv5zrspefW-UGQCjYI_j1lnG6GK-ljmocxhKON
+
+sprite $PercentLg [15x20/16z] bOp50KCn3CKSvcZ_QSlzZBeO7iWj6eJVgY3pudS2dHVgfs7De096nBOoQFBZf_tOqEnCSsTQ1pzgaHSov0elnXRB2zM6JjUA7FC4
+
+!procedure Percent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Percent', $name, $tech, $desc)
+!endprocedure

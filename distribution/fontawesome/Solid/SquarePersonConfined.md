@@ -1,0 +1,74 @@
+# SquarePersonConfined
+
+
+```text
+fontawesome/Solid/SquarePersonConfined
+```
+
+```text
+include('fontawesome/Solid/SquarePersonConfined')
+```
+
+
+
+| Illustration | SquarePersonConfined |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/SquarePersonConfined.png) | ![illustration for SquarePersonConfined](../../fontawesome/Solid/SquarePersonConfined.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquarePersonConfinedXs>`
+- `<$SquarePersonConfinedSm>`
+- `<$SquarePersonConfinedMd>`
+- `<$SquarePersonConfinedLg>`
+
+
+
+
+
+## SquarePersonConfined
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SquarePersonConfined
+include('fontawesome/Solid/SquarePersonConfined')
+
+' renders the element
+SquarePersonConfined('SquarePersonConfined', 'Square Person Confined', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SquarePersonConfined
+include('fontawesome/Solid/SquarePersonConfined')
+
+' renders the element
+SquarePersonConfined('SquarePersonConfined', 'Square Person Confined', 'an optional tech label', 'an optional description')
+@enduml
+```
+

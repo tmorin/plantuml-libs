@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Scissors
+
+sprite $ScissorsXs [10x10/16z] BSQr0SG0002XUvS8-qyRfw9qmRk2teeXRuxqmfx35HX6zHAXIJ-5KCKA
+
+sprite $ScissorsSm [12x12/16z] HKs74S1022Azm_xJ9dcL-wxIWFk6b_vLnVqNEgDar5UKoL6Mm7b9KUQoV2nIp4Wn4VvNJzBsLc-fwRdFyG4
+
+sprite $ScissorsMd [16x16/16z] {
+LOu54W0X30DpRi3-_xStBPwnIanQKz201738yR2ji5tGNebDYjHLWSkciYuIn0HtNNNWgAlZnZ25zdKBhw_7tVlOYYN9-fnW7dxeVIu_z3v-k4iVrOFsCNhL
+3m
+}
+
+sprite $ScissorsLg [20x20/16z] {
+NP250GGn20I9UxR_QbyMJYSU1av4f6BAau0_NGoNWWYKB2JZHmKy0zTLqrFch5T39ayw9rh2j3nfc_MZGzdvi9XXqBgneTQTzB9Sy5Rhz43ilUvNj01iAvGP
+ECBwGFuk20yq5q-Dys46eBkeEOV9sQxCRFmd_8SNNm
+}
+
+!procedure Scissors($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Scissors', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/LungsVirus
+
+sprite $LungsVirusXs [12x10/16z] HOX50G0n30HBdyFnhxOGpdAH-qeU4RwTUK-ysMk5klE9c85ndCvtYk3LNU_lzEYbYIq
+
+sprite $LungsVirusSm [15x12/16z] TScrOGC104MnPn-ZzfysL8MiwaDzMVh1-QfUv1mPgnxSpwzH5UQiZxXhH10A4UVNZJRo21i4mGrrF0k2kUg6Tm
+
+sprite $LungsVirusMd [20x16/16z] {
+XShLeSDG04CnXvDBsd_Qnmpj-PITZtf-rKntxQoljjOrRtKysuetN65wsxmQjYII3DepNOYJtaVmThES8E3j5j8uioA1OC08Mc1FHqnfS85dmtJuB3MdUJec
+S80-9oDPW80phtKu7m4
+}
+
+sprite $LungsVirusLg [25x20/16z] {
+bS_5WS0W50N0XyGJflzgrzrtRl0zRrnpljJ9bwR_10PFWONvpLJ8VQ13V_wVGNbEuJa0MoivIjO-S2Nt3gn9OdzEgxa7BIuC8p2U_ya5jF8yiC2Sa8ez6P3i
+a1EPGMrG0b9tE7Tw5jW2r0mSw_C_6x07i8ItIhI3QHN0YUTRpKaA803tVqasm4Y7i-TPsGP6RW4
+}
+
+!procedure LungsVirus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/LungsVirus', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/HandPointUp
+
+sprite $HandPointUpXs [7x10/16z] O-1Z00D-D8eVIh7nWLciVFmS_FpypCoS_40-a0N288eFH782
+
+sprite $HandPointUpSm [9x12/16z] RSQr0S0m44Mn7-Qy_QUrZqghaWuLta7Eoek8t1xaF3F62z-xF33TV0zE5DNK0G
+
+sprite $HandPointUpMd [12x16/16z] ZOb50aGX34FpSUla_gV5PJiFsaO0mKMe_jBvwK9y-UdHbh4rTx8e_Bhc09rCMPe_mKTIASnM4fcpSBSFk2S1SsK3
+
+sprite $HandPointUpLg [15x20/16z] fSl50GH130F1NeQ1pZ_RMnx_htws92WpmQ3_dQcBPrOOYMTrZgTkA7rAi7Vl-TBbF9EdWMu6NJsT8rPAUQu1ppRgpA7gQLTJoZumAYI3xbnz9WxJs-pW1m
+
+!procedure HandPointUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HandPointUp', $name, $tech, $desc)
+!endprocedure

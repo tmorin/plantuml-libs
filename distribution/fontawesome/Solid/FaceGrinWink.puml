@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FaceGrinWink
+
+sprite $FaceGrinWinkXs [10x10/16z] JS650O0m0C2muax_lnQP9m2RCp-33Kmcp3Rb46pCtaOeFsLJG8797xm
+
+sprite $FaceGrinWinkSm [12x12/16z] JOd50K0n2CMuV9ViFsqDJGiyaSd3AGfAaL0atzGdoZFByKyXAJs_zihIlybZBjxzi-W3Lje1
+
+sprite $FaceGrinWinkMd [16x16/16z] PS-50KCX34NHzzq8T_zfAv7gmPt8BSOrg1XXauFIluVGQdCPnBU51yalwu3vU05Xuj_5jm4kpPTPsqS1Nj84NIjqkG78tw-FKVFseL7MslYEvWu
+
+sprite $FaceGrinWinkLg [20x20/16z] {
+PT254SGW40308wvi_zt-t7l2uYxnjbR757z6RsVvTFcpjbriRHTZxdNNJcC9QIomBuUqlgVlbC-jghGC6AXPfiQXDQ4UFbQ8ptjAALdWZ1FnjQ2BWlhfcf0p
+LfWZdH1f8rLIT_lIPckShqaF
+}
+
+!procedure FaceGrinWink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FaceGrinWink', $name, $tech, $desc)
+!endprocedure

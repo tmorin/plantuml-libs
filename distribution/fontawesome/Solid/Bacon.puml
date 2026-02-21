@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Bacon
+
+sprite $BaconXs [11x10/16z] FOl50G0n40BF9KR_rQwIyC9cevvfRW2ip8pqvgAcOxSlLtgu2tWAUfGaqkDBem
+
+sprite $BaconSm [13x12/16z] JOl50G0n0C8ubqhsdxPklB1eYCKcBLvotNzRdnpkX3hie44KVnQxmMtQuE4vfzStW5CChzL7
+
+sprite $BaconMd [17x16/16z] LKu50e0m24JNoVzVkuwRhe0hme-VwkFsGUrwhMzjMob8CmEU593wAxGZ_wFixz-0fcIE17L_Zus2ZM0XWAH7dmNKkJz5E_uZA2WEqldCpNTK4bGL
+
+sprite $BaconLg [22x20/16z] {
+PP17WWCW30D5x_3_toxMfYcPcmTS0ILl_D3F1KewH7zNAW_upuec4x2bY4c7UGoHm27vATiD0kLoUE9kE2aBfEZc_uZlJlp_PZDJz_8MTYoHWv8dg4yNZv4f
+bvJS3akBmeRtXr9mqzo2OewD50ul_04
+}
+
+!procedure Bacon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Bacon', $name, $tech, $desc)
+!endprocedure

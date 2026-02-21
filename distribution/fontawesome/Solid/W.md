@@ -1,0 +1,74 @@
+# W
+
+
+```text
+fontawesome/Solid/W
+```
+
+```text
+include('fontawesome/Solid/W')
+```
+
+
+
+| Illustration | W |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/W.png) | ![illustration for W](../../fontawesome/Solid/W.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$WXs>`
+- `<$WSm>`
+- `<$WMd>`
+- `<$WLg>`
+
+
+
+
+
+## W
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element W
+include('fontawesome/Solid/W')
+
+' renders the element
+W('W', 'W', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element W
+include('fontawesome/Solid/W')
+
+' renders the element
+W('W', 'W', 'an optional tech label', 'an optional description')
+@enduml
+```
+

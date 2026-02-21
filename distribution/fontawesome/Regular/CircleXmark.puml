@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/CircleXmark
+
+sprite $CircleXmarkXs [10x10/16z] 9OU75G0n28N-zNxilstaIQ92Yeiz0aiEhfAtUmjfk9PQ9jYkPpyKUebsjRetU2WP
+
+sprite $CircleXmarkSm [12x12/16z] FSR5OGC1400n1Gytqt-rCLilWQCLKBDCGJ_Wx5rcnF9XGyVmqHvgmRrQXoqX0KWde8K6z0VJpS85
+
+sprite $CircleXmarkMd [16x16/16z] {
+FOw54S0m202XRidllsqF_GWkuko3LwKO16UOfNoCC2jlvRDaQNPKF7d9DzanbIVADYBz0JIQ8I6Va2zfXWEDUfN7b0kncGrJ3jOsFtpxlSqZnDoyran3SQRf
+Fm
+}
+
+sprite $CircleXmarkLg [20x20/16z] {
+NP05iaGX3C3oN6dkVzelb9tfRF3WPN25xqvXSz0c1ceimA5U7_KocFMkAj4DjbH5PgcSdXX0h-VFMPSBG1ZedYw4b4FHL18DEezlkbbZo73to5KxuPDT5E3U
+WMS19XlDcK8VJqhXKE3IRmMtdcccfdC9QNj2jNxSxdFHBm
+}
+
+!procedure CircleXmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/CircleXmark', $name, $tech, $desc)
+!endprocedure

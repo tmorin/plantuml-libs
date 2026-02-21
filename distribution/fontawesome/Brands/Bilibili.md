@@ -1,0 +1,74 @@
+# Bilibili
+
+
+```text
+fontawesome/Brands/Bilibili
+```
+
+```text
+include('fontawesome/Brands/Bilibili')
+```
+
+
+
+| Illustration | Bilibili |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Brands/Bilibili.png) | ![illustration for Bilibili](../../fontawesome/Brands/Bilibili.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$BilibiliXs>`
+- `<$BilibiliSm>`
+- `<$BilibiliMd>`
+- `<$BilibiliLg>`
+
+
+
+
+
+## Bilibili
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Bilibili
+include('fontawesome/Brands/Bilibili')
+
+' renders the element
+Bilibili('Bilibili', 'Bilibili', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Bilibili
+include('fontawesome/Brands/Bilibili')
+
+' renders the element
+Bilibili('Bilibili', 'Bilibili', 'an optional tech label', 'an optional description')
+@enduml
+```
+

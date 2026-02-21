@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Maximize
+
+sprite $MaximizeXs [10x10/16z] Oq00VY204n0-aXY4ucO0oK0LWCGGSjmuzG8
+
+sprite $MaximizeSm [12x12/16z] JOo53G0n548XZPo-xZzjtRuBeDDYiVUeaajbp5fpB9Kolvs272Q_Tm_OtNNObLF7kjly0g7N3
+
+sprite $MaximizeMd [16x16/16z] VOu30W0X403ddFl_QzEUDM4DxWoXu0yPOWLKawlT0VfaArPborTLhdQt5AMQdOuqrbu7DQhM-UheGPklMxIy9SIVVPQJhU_xW5lbZGm
+
+sprite $MaximizeLg [20x20/16z] {
+ROy53W1120Dxxl3_trwGdZAnxcG352MTqpvJfq6HHW1oEofAEZ4rVAUaeXl5VexsNiHSQxCqsMmc74vVGExn85qeRc-yXs1K0kHUYLcY5iDn8pvzbxARSV-Z
+R9IkBLB12G
+}
+
+!procedure Maximize($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Maximize', $name, $tech, $desc)
+!endprocedure

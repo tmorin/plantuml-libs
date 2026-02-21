@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Venus
+
+sprite $VenusXs [7x10/16z] HSc30S0040F0gztiFssDHuXbGfDZ2DfSvAUPgpm6qdAvzNKx
+
+sprite $VenusSm [9x12/16z] FOo50G0X483uxcV_QMtbEW7-buoPBqTWSyUjJ4KokxYtpjWPLp0hXKVlyP62Fn01
+
+sprite $VenusMd [12x16/16z] NSb70a8X40JH_f5CtV-sskEiV6HADcdw8SoyFcU5wRwo7WA5cntt07_tGzPfUYBaiO0DFFggs2bpEfG6pAxGCHVRt39Ro3u
+
+sprite $VenusLg [15x20/16z] {
+PSs50O0m30NHuDNS_jCY7uT37rHC9NooeyPHQHTdlX4OjcVH_m2TAOVjLkre6mRJpMJGtypRTJDQXaC16cqh3O0-Gkw3IxAIL09yFALvDxfS8QUJeCB1gJhK
+yfjxrfnS
+}
+
+!procedure Venus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Venus', $name, $tech, $desc)
+!endprocedure

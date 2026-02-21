@@ -1,0 +1,74 @@
+# CirclePause
+
+
+```text
+fontawesome/Regular/CirclePause
+```
+
+```text
+include('fontawesome/Regular/CirclePause')
+```
+
+
+
+| Illustration | CirclePause |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Regular/CirclePause.png) | ![illustration for CirclePause](../../fontawesome/Regular/CirclePause.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$CirclePauseXs>`
+- `<$CirclePauseSm>`
+- `<$CirclePauseMd>`
+- `<$CirclePauseLg>`
+
+
+
+
+
+## CirclePause
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element CirclePause
+include('fontawesome/Regular/CirclePause')
+
+' renders the element
+CirclePause('CirclePause', 'Circle Pause', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element CirclePause
+include('fontawesome/Regular/CirclePause')
+
+' renders the element
+CirclePause('CirclePause', 'Circle Pause', 'an optional tech label', 'an optional description')
+@enduml
+```
+

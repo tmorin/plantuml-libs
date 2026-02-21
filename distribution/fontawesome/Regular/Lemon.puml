@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/Lemon
+
+sprite $LemonXs [8x10/16z] Oq00VX00KY0sCv02SRWPkBYvG7m-Y3W7DrGj6oE8Ok7Z1L5y_13TJ0mC
+
+sprite $LemonSm [10x12/16z] LOk54S0m30C_pD7-sxO-7-ND81wkVZOKJSY8910MrXVhWlN6lUKi39sAexIzsUVwhekiUTgIWBgpQpu
+
+sprite $LemonMd [14x16/16z] PSV50KCX00MmV3VWxJzjtPjR-3ULEezb0qUUa6o0a31bHXSbj0J6oAAb0rscc1uXBT9uR_QmPmbFgTDxDLhU6UpH3HrRBY4FrPyp
+
+sprite $LemonLg [17x20/16z] {
+TS_50SKm3C1G1SgrjV-qdndUBJ7pJssjK1itFepdvwAvj6dRbwv0QELc5bO3oYvd8LLXKJbBISlvtRX_67JbPd6oeUNPDAMOt8KAppUwoIltRdzzMyRNZysT
+zFMT49RRiwlForDrvMpmPkEt8m
+}
+
+!procedure Lemon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Lemon', $name, $tech, $desc)
+!endprocedure

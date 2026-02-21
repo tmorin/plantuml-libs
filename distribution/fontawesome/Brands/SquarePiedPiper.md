@@ -1,0 +1,74 @@
+# SquarePiedPiper
+
+
+```text
+fontawesome/Brands/SquarePiedPiper
+```
+
+```text
+include('fontawesome/Brands/SquarePiedPiper')
+```
+
+
+
+| Illustration | SquarePiedPiper |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Brands/SquarePiedPiper.png) | ![illustration for SquarePiedPiper](../../fontawesome/Brands/SquarePiedPiper.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquarePiedPiperXs>`
+- `<$SquarePiedPiperSm>`
+- `<$SquarePiedPiperMd>`
+- `<$SquarePiedPiperLg>`
+
+
+
+
+
+## SquarePiedPiper
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SquarePiedPiper
+include('fontawesome/Brands/SquarePiedPiper')
+
+' renders the element
+SquarePiedPiper('SquarePiedPiper', 'Square Pied Piper', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SquarePiedPiper
+include('fontawesome/Brands/SquarePiedPiper')
+
+' renders the element
+SquarePiedPiper('SquarePiedPiper', 'Square Pied Piper', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/HandPeace
+
+sprite $HandPeaceXs [10x10/16z] DOX50G0m30FJv_3ygnqKm_hNNK4iJmZmj0t0V5mJ-OoVfuzCszLPokwyS04
+
+sprite $HandPeaceSm [12x12/16z] DOc74SD0409H_FpRVxSsmsWl0Z9FLoxxW2Q3gApySmmwIrzmK-7qdphu_nrZhKo1_B1zC-RnhH7P4tD9Fm
+
+sprite $HandPeaceMd [16x16/16z] {
+DO-7WGCW3CHCxsZ_QVyJvn1LLDj-h6cFJR4BLzgv66NojZ461YO8Yw-tvokuSrRu-lJ3X8Fk41Vk9XVoHWaXuUZ3k2zcthbN_UPUCA4PHwuS8ZVwxZiOS7pt
+7m
+}
+
+sprite $HandPeaceLg [20x20/16z] {
+HSi55iGm201HejiOS__RxeiozK-HMwyYLgbE7A1605A9WqU1-gDrf9jvwluLi_dUjZLtJN5-6xXu41N0qVpYkppedYBmqPTLKaBJihaqSzpCe9LI1hFyRDup
+drGm2x0cpZEkYMgNbTahySciK2xPd8iEgatHMZlGvLNPPPdz0G
+}
+
+!procedure HandPeace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/HandPeace', $name, $tech, $desc)
+!endprocedure

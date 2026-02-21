@@ -1,0 +1,74 @@
+# Fire
+
+
+```text
+fontawesome/Solid/Fire
+```
+
+```text
+include('fontawesome/Solid/Fire')
+```
+
+
+
+| Illustration | Fire |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/Fire.png) | ![illustration for Fire](../../fontawesome/Solid/Fire.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$FireXs>`
+- `<$FireSm>`
+- `<$FireMd>`
+- `<$FireLg>`
+
+
+
+
+
+## Fire
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Fire
+include('fontawesome/Solid/Fire')
+
+' renders the element
+Fire('Fire', 'Fire', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Fire
+include('fontawesome/Solid/Fire')
+
+' renders the element
+Fire('Fire', 'Fire', 'an optional tech label', 'an optional description')
+@enduml
+```
+

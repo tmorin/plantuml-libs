@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Route
+
+sprite $RouteXs [10x10/16z] Ou02VZY3dnykn8ycnW9cCF41HPWOW0mG5op32wBP-K5y88RgvW1om
+
+sprite $RouteSm [12x12/16z] HKo50G0W3B9R-VzQUzs08ikTHspZsIYPCNWsm7XJ__1XDoAHGFwqpMYuYcWM_P2qCU6UI7Q7QNYs
+
+sprite $RouteMd [16x16/16z] JStL0KKX50EmNZSW-q_xNCZVqQPpjAaleVtBJPturyMOsjKZXVp1zJ-l3VtmKnwcPASRb3JZkpoqYSoKXpdDb28fG9r-gUC3WICVLOAK-aQooEbhlWC
+
+sprite $RouteLg [20x20/16z] {
+PSv50i0m24JHgKi2__wdhHlfMsA3eebPKSMk2JNd46hGgVdLQjLGxkPojs4tnjmoekNqszkJDxLv8ycWrYK1c0IJBZM7GGww64XEVYAOpvfXqi0bDU1sfLNr
+9eCuXB_Fa4RLBO4qmYpdbIKbrnnAAm
+}
+
+!procedure Route($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Route', $name, $tech, $desc)
+!endprocedure

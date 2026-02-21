@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/PeopleGroup
+
+sprite $PeopleGroupXs [12x10/16z] LSpL0O0m3411tE7sdnQllSfz9LKHrUJb_TWUlgOFXBSC9b_xsgiUxU_Csu1_p_xmnl1m0G
+
+sprite $PeopleGroupSm [15x12/16z] NOc50O0020Inczj_MocJ-9J_p1X02bV83YxKR8T8uxQDjXzQfn803wn72PY1Ot7hcQVr2XgjL5P5seFAQrIJJm
+
+sprite $PeopleGroupMd [20x16/16z] {
+VOy50iGW0CCoz_N_lxrIpYqRf3ZmdVx03CSZWoHtfKusJRodJYwiwkwjv0VDKvGvwFPZW-GgSKPz6wtQfRbJ1PV9PS-q8prOZGOLRUdhHEPSjrKbNidsZBLh
+TjK3cmt7upLtClA72m
+}
+
+sprite $PeopleGroupLg [25x20/16z] {
+XKu55WHH268w_Tp_jgleTZ41Y8ydVg4RaeV-oM8b6UnaJajOeRcQWPqv2HeLdAuwuAZ0dA9JSergLPLznZeztxItPgkKVeVRMKS8qQIkeJoIkuw9XbriEoTP
+NZ65j50XTh39TBbZ1myE6PpNBGMYgbAmSxjELh6EIpKd0RqswnWEoFr0ALMLDGMxcGqLtEqTauB_k
+}
+
+!procedure PeopleGroup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PeopleGroup', $name, $tech, $desc)
+!endprocedure

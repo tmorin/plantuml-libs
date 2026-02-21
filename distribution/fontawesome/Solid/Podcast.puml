@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Podcast
+
+sprite $PodcastXs [8x10/16z] 1S450S10000XvlxNl-q0UpDqU2ELfYFKqDtKSakwbCEIphgww6i-OGa_
+
+sprite $PodcastSm [10x12/16z] 9S670OGm3C100Uc9hVsd_Ne7i6nyXT7J2aUs0s_4VQVOJqm2RosYfqMkbS-KQ289Y3XHSO6e8_dImr_u06y
+
+sprite $PodcastMd [14x16/16z] {
+HSI50KKX3CNG8C-WDFjF-rtE5PxQSl1n-5O0mW0eQOV3ZLGlbk14UnqcPfCK6iM-kyGT5HCLIrC9SOWN6XX5B4E0qpB5v2W-7mV58DI20iqwLL9ushlAnPVA
+doPFTm
+}
+
+sprite $PodcastLg [17x20/16z] {
+PSZ5eSCm5031VRB5iFrN-ncJEGuVqlGqVbJzS88FHoTmgmLWko6r4YHDK3tSVY0Kb4jRIbkfzd2X03GdEeniPMgWR8yi2LMcjESOHh5mz4BPXWE5WEn2KUeX
+QW793eeBiYgWW6w6Qg0Pu4XJPLlvCAvB5I--XIf_gPE_ZjvyU0K
+}
+
+!procedure Podcast($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Podcast', $name, $tech, $desc)
+!endprocedure

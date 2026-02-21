@@ -1,0 +1,74 @@
+# Blogger
+
+
+```text
+fontawesome/Brands/Blogger
+```
+
+```text
+include('fontawesome/Brands/Blogger')
+```
+
+
+
+| Illustration | Blogger |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Brands/Blogger.png) | ![illustration for Blogger](../../fontawesome/Brands/Blogger.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$BloggerXs>`
+- `<$BloggerSm>`
+- `<$BloggerMd>`
+- `<$BloggerLg>`
+
+
+
+
+
+## Blogger
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Blogger
+include('fontawesome/Brands/Blogger')
+
+' renders the element
+Blogger('Blogger', 'Blogger', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Blogger
+include('fontawesome/Brands/Blogger')
+
+' renders the element
+Blogger('Blogger', 'Blogger', 'an optional tech label', 'an optional description')
+@enduml
+```
+

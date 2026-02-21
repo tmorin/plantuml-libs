@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/PersonDressBurst
+
+sprite $PersonDressBurstXs [12x10/16z] LSQ50SG0408mNkgI_QUjQquW9_Slrs-L0uRroy-gWZ51FbQ9oEUBBhiUEVcy-mm
+
+sprite $PersonDressBurstSm [15x12/16z] NSc55SCm40JHCREc_sxpziB-qZ50Hv7VkfYgXtjr9s40_Jad6prN2eiMZ1MwEXgNq8iJ3kef4KsLZyx5aIz7kOyF
+
+sprite $PersonDressBurstMd [20x16/16z] {
+ZSs53SH034JHdopZzD_joHiMtXEPpOSJ5vKhqCJi5a8uQXrWqmcpiKmjQwxsY0dtMBo2gLFY372wCCx00Ts2_NespkrgBvhyMGIKO4ROiWmRBreARvlarVYI
+DjM_QgZ03m
+}
+
+sprite $PersonDressBurstLg [25x20/16z] {
+hP052WGn303htix_Vtia4DPmRf2ukWzhtuo1CpRS8X1DFO0gdXao7D-POaT8bcruTqTIK9QQTSvoZLDkzK5c78nyzRL6PdRJZdDzcR7ZVP5xNpsEsqJKJg8q
+b6e1IIxofepIjhv5B-xnjlfnR-uJxiXLUyjE7mvhWlj7O32gBlK3
+}
+
+!procedure PersonDressBurst($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonDressBurst', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonFalling
+
+sprite $PersonFallingXs [10x10/16z] FSQ50G0X3C30lFjd_sbn2BGzIXCv9xIg_4gRvY5VrJth_ZEpDdpOf2GzXGW
+
+sprite $PersonFallingSm [12x12/16z] HSV70O1008H0p5dwhzRixRo0ryX3GKdlyAhqppw9Pbpyjn8VR-C0ha05kuGILd02
+
+sprite $PersonFallingMd [16x16/16z] LO_50O1040E3EzD_jv3pcrVMDygyojoR91XJUC7WM8dDSggn_ke9Yoh0reUSDPmnDRvOCVdapN0HoR5W6yST79z_F63vaXwmV98osK0bVrnvSVS7
+
+sprite $PersonFallingLg [20x20/16z] {
+XP253O1054DRtBl_jCYv9HJENhuZwcBowCr3KaIIs62hENO7Wi5XzY02Ww9PD9LoTDIeKsqdgordXxocmBO-m34mN0561lkYXyQXiqMFtf1cL7OKB4j2gT7E
+1x-6SEm1
+}
+
+!procedure PersonFalling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonFalling', $name, $tech, $desc)
+!endprocedure

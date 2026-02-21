@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonSnowboarding
+
+sprite $PersonSnowboardingXs [10x10/16z] HKg30S104AlTp_xJdereahfbtqaBq7MeFr5BFmpTcEK-gkp8j6xcibxWOG
+
+sprite $PersonSnowboardingSm [12x12/16z] HOU50GD148H8tctflzgNKrQ6uIC09A5mU2NVzEI4MYngOgZ-8yo-AN1kgFm5ai5FI67yGWgpNdH2um4
+
+sprite $PersonSnowboardingMd [16x16/16z] NSx50S0W44JH2Uw__shZ_awmhiFGfYST6bbI0Pt0IV7vTrQQTCkih2uSYWw5JO3nj4T9SFqpPArCEffbGAj4gT2dkpPTUq071zHfelskCNeRqB-Ho6e1
+
+sprite $PersonSnowboardingLg [20x20/16z] {
+NSy72aGX34NHzxlzxd-tGqH2d4CJqxNaegaEENXc2F2_zQxnxm9wqW59hcCERJ8cAM3fySiTsz-ORLbV1-QKzCI_Z9UTQoHpHHaemfHG1WFQRS_chRoxugq9
+81-2Jq5dqkwsxtheJmLeHRkp0UK7
+}
+
+!procedure PersonSnowboarding($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonSnowboarding', $name, $tech, $desc)
+!endprocedure

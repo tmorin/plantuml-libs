@@ -10,7 +10,7 @@ import {
 import { DomainstorytellingFactory } from "./packages/domainstorytelling"
 import { Eip1Factory } from "./packages/eip-1"
 import { EventstormingFactory } from "./packages/eventstorming"
-import { Fontawesome6Factory } from "./packages/fontawesome-6"
+import { FontawesomeFactory } from "./packages/fontawesome"
 import { GcpFactory } from "./packages/gcp"
 import { Library, Package } from "../generator/workdir/manifest"
 import { MaterialFactory } from "./packages/material"
@@ -25,7 +25,7 @@ const PACKAGE_FACTORIES = [
   new DomainstorytellingFactory(),
   new Eip1Factory(),
   new EventstormingFactory(),
-  new Fontawesome6Factory(),
+  new FontawesomeFactory(),
   new GcpFactory(),
   new MaterialFactory(),
   new SimpleiconsFactory(),

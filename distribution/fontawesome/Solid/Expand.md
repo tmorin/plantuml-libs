@@ -1,0 +1,74 @@
+# Expand
+
+
+```text
+fontawesome/Solid/Expand
+```
+
+```text
+include('fontawesome/Solid/Expand')
+```
+
+
+
+| Illustration | Expand |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/Expand.png) | ![illustration for Expand](../../fontawesome/Solid/Expand.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExpandXs>`
+- `<$ExpandSm>`
+- `<$ExpandMd>`
+- `<$ExpandLg>`
+
+
+
+
+
+## Expand
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Expand
+include('fontawesome/Solid/Expand')
+
+' renders the element
+Expand('Expand', 'Expand', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Expand
+include('fontawesome/Solid/Expand')
+
+' renders the element
+Expand('Expand', 'Expand', 'an optional tech label', 'an optional description')
+@enduml
+```
+

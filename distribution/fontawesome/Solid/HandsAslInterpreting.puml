@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/HandsAslInterpreting
+
+sprite $HandsAslInterpretingXs [12x10/16z] BSc73S0m3CH0flTm_ssD5tIsEXnmqiItsqVNxwOObUyZ-KKiHphwkiXZ-YF9Gjb8s_IK0G
+
+sprite $HandsAslInterpretingSm [15x12/16z] JOo50OGm4C22Kyt-qxvIoRa21IeqiYWqhChIgk8FI2cjy2js5h_Ks8QLtPRB8LLTleRWZ-TLsmJMTVbMyLSrJkToiIAy0G
+
+sprite $HandsAslInterpretingMd [20x16/16z] {
+NS-5iKGX40NHnddQ-KVxPO6rKpurTW4kuEQ3aZNm9kYk_QljJmnx-cYRO3-Eem0ETo4xiDewQ1lboob1XCkb4Opet5Jzaq7eJgmD1Qh3RFTaSue0CKP0FKRR
+XzNscIXzjHrU74Ru1G
+}
+
+sprite $HandsAslInterpretingLg [25x20/16z] {
+NSm5iWOn2C3Wh6kR-v_s2SClorTXB01C3PWxLBfpw4PnA4sbqjQrKPt-QnoryME4u_gp0no-RSoc7KmjwswODzy0XS7GSzpHZ0kW7nrs3z2DpN3uxmAE0Vp0
+C14Plh5gMc4uJ0ii6dOsF_WtZECuv9xMidxOuJ1GtUfIWrn6Lwhk1Js2Nm
+}
+
+!procedure HandsAslInterpreting($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HandsAslInterpreting', $name, $tech, $desc)
+!endprocedure

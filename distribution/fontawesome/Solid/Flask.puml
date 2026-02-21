@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Flask
+
+sprite $FlaskXs [8x10/16z] RON50K0X08NudSh-qzf7Nm3ywWQedW0Y4_kWi0W8zXp3pt06
+
+sprite $FlaskSm [10x12/16z] TSUn0K000CJ00m1-_sa1T59Ta3CeFiag_R_cSr26BhW_OSXT8M_Bf-hJ3W
+
+sprite $FlaskMd [14x16/16z] ZSZ50S0m4CJ03RFLVxLc_4N6EVc86SKUKbFYop8RLXL9XlcdlYgGJfw44_98zTqXWJS4kxJIakZwBlhC80ro
+
+sprite $FlaskLg [17x20/16z] hSor0O1G34NHXpjt_sdvhZMdYKVMIgI8v5Hmz1loCrX_RXmIx8f66AKN5E7J0JPv6qooRf17IPuuA4RtiU6UDzQ5paldeAEd-s4
+
+!procedure Flask($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Flask', $name, $tech, $desc)
+!endprocedure

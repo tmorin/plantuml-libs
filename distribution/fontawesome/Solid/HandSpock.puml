@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HandSpock
+
+sprite $HandSpockXs [11x10/16z] FSY55G0X40FHELUI_gl5OVM_08XPxai8VWi5-327vSBIZobiLN0CZl1a6eO52G
+
+sprite $HandSpockSm [13x12/16z] HSU53SHG040XplNdxRzjKoUAsOzJ65-pXFvcNHgaWSO_qWM_BdbtpQmDjUVDentESMumkpJ31
+
+sprite $HandSpockMd [17x16/16z] NO-50SKW30MlZh_zf_rId4FZ2I-H1Gd07eiYt_28c1KU3t39Ndh0Q7FQYgjIVaHLQ5Gu7LbnojKYbGsi75q1UCcbAYU0fCx5eY6pAhfF7-xf6Ru
+
+sprite $HandSpockLg [22x20/16z] {
+RSu50eKW6C3WsVtl_gTzOIjyzbI0NHIaPcLLSTFkTNO-MmzQ0kZ4Rd51nwtM6DkdocG0fPw3eJGAwpckEg8Lp0RQNUlI1NGeb4sbnQoWvNXMl9ksKX3UL42j
+Leqtvz-Zb-3CDosv39aSv7BB9QvFxwfbZJshBm
+}
+
+!procedure HandSpock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HandSpock', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/BasketShopping
+
+sprite $BasketShoppingXs [11x10/16z] LOc50O104CE2Ezb_MlGrfsq1UXA2V4nBUWrhDK7rzcvwkZ345_08EHZW1W
+
+sprite $BasketShoppingSm [13x12/16z] LSc30O1G50NGartxJvk_7Yx1HY_CyLpG7ViKp0-XO9_PZcnaUhC-mVIcbUhXyJKeJPWDQp2r2m
+
+sprite $BasketShoppingMd [17x16/16z] RSg50SGm4CH0XN6j_gjzXj0O3dbRG3QAuC1F9R2wNzYkL5O0YtmeB_O0IInvqMGj7X1tAbgrqSdt0rIqMKrzqLY1R1iDq6kq-7e0k75ip707
+
+sprite $BasketShoppingLg [22x20/16z] {
+RP055iGW4CLIDo3tF-rgTHwfalaeEtq22W65plKf9vUz5ACmk8ReNepHVtYxvEeKoZHDeytEQFgyMQrHjtGr2QebxzsMk-qxtL0fwWAKOFTjLYtHvjsQipgh
+a-udb7pIygKFbZ_b8IVW3G
+}
+
+!procedure BasketShopping($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BasketShopping', $name, $tech, $desc)
+!endprocedure

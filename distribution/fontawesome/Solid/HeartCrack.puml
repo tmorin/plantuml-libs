@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HeartCrack
+
+sprite $HeartCrackXs [10x10/16z] JSQr0OG000ImUyN9_jCYLv4gUI2PII1_BFW4DjP6iAxT1yr5KvfgJW
+
+sprite $HeartCrackSm [12x12/16z] LOs50S0W4CJgWkw_BU7mmBjj2xl_qTQY8fpRWVxanv8ASWzbB7AKOYpzhlXNrdSPehTG3WmNXWjUEW4
+
+sprite $HeartCrackMd [16x16/16z] XSY30S105C3Gr6xsdxOsStoVtngr11nAvqT7puFP1RJJfpdJbUitTsmtorElZivpri5A2C-4O5RBreMmybOF
+
+sprite $HeartCrackLg [20x20/16z] {
+ZSs54GH120NHNlSb_sZFc3wtLqPXd_yD4R43p75I0SH5ZzK4MoIWpweZYWRgICkjDSIZzfoWVBVwDnyQLjrwPgoijcOQmx07s8p1batj5BVMXYfRAzoOWsnE
+89iZNnm1
+}
+
+!procedure HeartCrack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HeartCrack', $name, $tech, $desc)
+!endprocedure

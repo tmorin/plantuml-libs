@@ -1,0 +1,74 @@
+# MugSaucer
+
+
+```text
+fontawesome/Solid/MugSaucer
+```
+
+```text
+include('fontawesome/Solid/MugSaucer')
+```
+
+
+
+| Illustration | MugSaucer |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/MugSaucer.png) | ![illustration for MugSaucer](../../fontawesome/Solid/MugSaucer.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$MugSaucerXs>`
+- `<$MugSaucerSm>`
+- `<$MugSaucerMd>`
+- `<$MugSaucerLg>`
+
+
+
+
+
+## MugSaucer
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element MugSaucer
+include('fontawesome/Solid/MugSaucer')
+
+' renders the element
+MugSaucer('MugSaucer', 'Mug Saucer', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element MugSaucer
+include('fontawesome/Solid/MugSaucer')
+
+' renders the element
+MugSaucer('MugSaucer', 'Mug Saucer', 'an optional tech label', 'an optional description')
+@enduml
+```
+

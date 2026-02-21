@@ -1,0 +1,74 @@
+# Paragraph
+
+
+```text
+fontawesome/Solid/Paragraph
+```
+
+```text
+include('fontawesome/Solid/Paragraph')
+```
+
+
+
+| Illustration | Paragraph |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/Paragraph.png) | ![illustration for Paragraph](../../fontawesome/Solid/Paragraph.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ParagraphXs>`
+- `<$ParagraphSm>`
+- `<$ParagraphMd>`
+- `<$ParagraphLg>`
+
+
+
+
+
+## Paragraph
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Paragraph
+include('fontawesome/Solid/Paragraph')
+
+' renders the element
+Paragraph('Paragraph', 'Paragraph', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Paragraph
+include('fontawesome/Solid/Paragraph')
+
+' renders the element
+Paragraph('Paragraph', 'Paragraph', 'an optional tech label', 'an optional description')
+@enduml
+```
+

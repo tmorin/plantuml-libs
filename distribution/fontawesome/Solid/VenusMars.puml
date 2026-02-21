@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/VenusMars
+
+sprite $VenusMarsXs [12x10/16z] HSn50OK0042nVSLv_TCY9nPWQ81FwGObx6rL-mQnPmv2zA85yQx24EJpNFqDFo204m
+
+sprite $VenusMarsSm [15x12/16z] JOo50G0X30FxYdFxJujRNPA8Y499Cw0LkEPAR4E_ekWuTMkuOQo-5Yl__9OIQRHU-deTogvMnIS-Nd-7F0xtlanH3mGvZ3rc
+
+sprite $VenusMarsMd [20x16/16z] {
+TSf5eeL05CJGjE1mi__LVkcds1bM1M1mApmKLHXj4ezRPTIrr53AkXHc5Sq0iu4-32uqIiwXywWMciq4J4hQh3JX8nUoGQEFN43dnxHyygGFkpnKLxft_Zv3
+jtZdqw9BVUIVIWqW9JwKX_lj5m
+}
+
+sprite $VenusMarsLg [25x20/16z] {
+RP055iGm24If2tR_s-x02sNjLu8pBnGSvZSzN0uCnks9JIFXIPp5HoRgXS0E9wSmSIOYdgpk1xpYG6wWCEVvpdNuEh4FCpUVVnAp-mQjdP0oGm1HfCk_gqBn
+nworHoUMGYS4zDWv53wjLvM2ZhUU0sRCPvumGMDtKWgyq0epm-6rhldyk7y0SxdEcHh5MDETciyT_nDZGlC2
+}
+
+!procedure VenusMars($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/VenusMars', $name, $tech, $desc)
+!endprocedure

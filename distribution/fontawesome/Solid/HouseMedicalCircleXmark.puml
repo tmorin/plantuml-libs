@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/HouseMedicalCircleXmark
+
+sprite $HouseMedicalCircleXmarkXs [12x10/16z] HOc30S0m44LhDs__QOCpFgSnrnG3f0HI0fl9wPEy0DQU0uVi3P98W6hklfQ3O0C
+
+sprite $HouseMedicalCircleXmarkSm [15x12/16z] JOg50G0X30FxhkJsdnQtGzg85HwRs453lIIQSZ1fEbsjLaFrMbscbYXpJQCzq3zaPfGpojC2
+
+sprite $HouseMedicalCircleXmarkMd [20x16/16z] {
+NS-rOKLH4CHGFSPTzL-j_Vc2mZFHy2tfczIEDbM7cYxVpON2RzkNh3fhsaXrgycHsvKbhW5I-nsurPgCjtaFC2kveXzpX4iJB9RNUEa6KKpFKJ7GSapILqlr
+8uWt_GC
+}
+
+sprite $HouseMedicalCircleXmarkLg [25x20/16z] {
+RT453aCX44NHzns_-rzjXGb1sXD5nzInwvyJUFJhvYjevJ5HiqnJrlrE7MOzsS1aJ3bQccQNnkWNqy6cfrZM1RF4koJdnYnfZhPGzS0UG7Qpnn0Gv6kYoq4z
+sPWEIaogEvjyFp0Ae8sWzU0IpJqTqEljCwgozeBTVmC
+}
+
+!procedure HouseMedicalCircleXmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HouseMedicalCircleXmark', $name, $tech, $desc)
+!endprocedure

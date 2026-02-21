@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Headset
+
+sprite $HeadsetXs [10x10/16z] FSQ50G0X3C30lFjd_sbnE6WRaikTJ1SEB_0bSqCghuKRqYWAwBEDejMHAjbpasWM0G
+
+sprite $HeadsetSm [12x12/16z] DOo50O0m40E3QthxRmkftBigF9ngW0z3KZQ5bvu6MsZ0OnLBSN00QRBpRYC_oFEMJmcJcaEXSFzLoo6i7m
+
+sprite $HeadsetMd [16x16/16z] PSq53iH03CNGNyRKzx_jRcHLr2UA1vEs5DUGLw7DV8URCXDDt7tOQ0j3yB0U5fmqK-I2dW_wD0IxW6yddoxxWhax6OQqiSz6rxtvdtc37di5hhyfFm
+
+sprite $HeadsetLg [20x20/16z] {
+PSy53aHH2CNGVjT7zx_QKHWziPiIWxI5vmnlawbr93K6O56tIYUfrxtIcqumPIeAofVL5ODlkZd0klCmxYDe26e3SZILLOrgSgXilssA_mPClotdKMt9HjVN
+l_1eQPhpe2JLVRmv399lb52N_gQ3Am
+}
+
+!procedure Headset($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Headset', $name, $tech, $desc)
+!endprocedure

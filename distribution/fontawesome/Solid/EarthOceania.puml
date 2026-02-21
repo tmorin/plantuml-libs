@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/EarthOceania
+
+sprite $EarthOceaniaXs [10x10/16z] HSg50O0m34JHmvs__xRGnbubgj_1geRkY0IMbbbvK5xVNL53Ez2-3Ht0nTv62utq0G
+
+sprite $EarthOceaniaSm [12x12/16z] NOo55O0048M-tRB_jZvivJeZ4tqEEBXJETAXro_cL9aD4mV_evxhMKDOgyvydGaoiuRkMDMjhYvMTZS
+
+sprite $EarthOceaniaMd [16x16/16z] JO-50S0m2C1WRf3_lntrfeg3P7RZLMaOXRE8TBoAdQywstMHqM9U8oMP-c1UNuBjH1ZCLTuY5iK6scK3eSQzsNuuBaVj94I1thtUEA4AlbgtY85Eq_m
+
+sprite $EarthOceaniaLg [20x20/16z] {
+PP250OKm30KVNh_zf_rI2NPGYoVg-4BQTM6ZaoTrkE3V8WXl4MmMAswEZcGUbic9HbcdoVBmfW0mAQAxN9L09rcPqeYrmwABK17ggTbaUo8hqsYYwO1PqoKo
+avhMquWP772jOLhgCTj83HcEIcv6Nm
+}
+
+!procedure EarthOceania($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/EarthOceania', $name, $tech, $desc)
+!endprocedure

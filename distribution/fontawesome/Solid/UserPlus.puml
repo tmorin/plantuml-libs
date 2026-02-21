@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/UserPlus
+
+sprite $UserPlusXs [12x10/16z] Om02VaO6A63av-VdXhBvGG2DpG_bi3901M3oKBri43QG1PM7itc0J3v-X0G
+
+sprite $UserPlusSm [15x12/16z] JOs54G0X0CDUSDr_MXn2JclNf_5czK3C3MHNvE-GeVkatv6wgRJSvs89fVLxP9u8RfY98waYAm
+
+sprite $UserPlusMd [20x16/16z] RK-54G0X0B9RsN_Q3xkmgJj9XeSYApH-h5ocLj9UE5yvcZCsSsBsmSrzuPS5WX2TZDyPp-AUlNCE1V9_nBoZ8tRp17FXC7zYvTA5Um4
+
+sprite $UserPlusLg [25x20/16z] XSz50i9G54FHrBrt_wj5W-K3FTEdqLstxRrA5JUD4gOmOsivO0S5E2gqs105RTpivOSJmEn8k502fImipbTz5bQUDbrLbUiMDnViEMC4sK2ONTX9YfVoo1a
+
+!procedure UserPlus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UserPlus', $name, $tech, $desc)
+!endprocedure

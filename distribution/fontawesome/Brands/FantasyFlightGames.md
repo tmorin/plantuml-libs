@@ -1,0 +1,74 @@
+# FantasyFlightGames
+
+
+```text
+fontawesome/Brands/FantasyFlightGames
+```
+
+```text
+include('fontawesome/Brands/FantasyFlightGames')
+```
+
+
+
+| Illustration | FantasyFlightGames |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Brands/FantasyFlightGames.png) | ![illustration for FantasyFlightGames](../../fontawesome/Brands/FantasyFlightGames.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$FantasyFlightGamesXs>`
+- `<$FantasyFlightGamesSm>`
+- `<$FantasyFlightGamesMd>`
+- `<$FantasyFlightGamesLg>`
+
+
+
+
+
+## FantasyFlightGames
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element FantasyFlightGames
+include('fontawesome/Brands/FantasyFlightGames')
+
+' renders the element
+FantasyFlightGames('FantasyFlightGames', 'Fantasy Flight Games', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element FantasyFlightGames
+include('fontawesome/Brands/FantasyFlightGames')
+
+' renders the element
+FantasyFlightGames('FantasyFlightGames', 'Fantasy Flight Games', 'an optional tech label', 'an optional description')
+@enduml
+```
+

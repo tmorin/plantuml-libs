@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/RoadCircleExclamation
+
+sprite $RoadCircleExclamationXs [12x10/16z] LOg50O1030E3ExV_jCXRlOqfrWw2Z4cOWg7W2v15I7Sf6FfqIQ3WT6_GNV8tl
+
+sprite $RoadCircleExclamationSm [15x12/16z] POq50e0m4CDmX_x_jLXwo9PfEhaYPvQAIggiGeNr0gk21ULo0TEj9QdlNikwt2jktMxhtZGkzysrRXTHu
+
+sprite $RoadCircleExclamationMd [20x16/16z] {
+TSY54GH124N1lwDhyFBFzWhEhSjRVntkHRjxruC3HISm7WTGPG2wcGJZzNYnlvuNO6fHsWb5vr2t8rFSheeaQI5LHPKJJ3eXZNOx96xAyRZbLgOu9yvkLrI0
+ViQrnyb16tIzCeYw
+}
+
+sprite $RoadCircleExclamationLg [25x20/16z] {
+XP05WW8n301dNTlv_sllWBLGREgDXryqJLCzzff8hJg2gWICWhOKB61XClWWMGfyPlmWo8cTnGShw4BWyc35a7KEHMo22ZUwuCbnCvQaDZ7qbhUiQeR64pm5
+nbpp9q5DQ43mDC6ikYMp9HkpIhHg3paAEdKBKL9dD_r_
+}
+
+!procedure RoadCircleExclamation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/RoadCircleExclamation', $name, $tech, $desc)
+!endprocedure

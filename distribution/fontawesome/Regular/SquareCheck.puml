@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/SquareCheck
+
+sprite $SquareCheckXs [8x10/16z] Ou01VYY0y9XGQ7v69duWmSyEvlFpmkKHD4m_
+
+sprite $SquareCheckSm [10x12/16z] HSd50G0n4090pYL2_zN6rkQ58D0zlfoQggPYYNKbWfJtd47U7Pf4pUKIHAhYwG
+
+sprite $SquareCheckMd [14x16/16z] Oq05h7nmmCl0oeyAaDJXv34Xy_ZueJmci29628-9dnD8m_Ln0ab660_4HJEJC8y1mvK8
+
+sprite $SquareCheckLg [17x20/16z] bSwr0GGX443HmPtVVxNdjuj4l0Z6PMT6MeHPguIneWCo2cU1Y9e22VuLEdwBhvPA_lt_BL1W6WeiMwgQ0cUN1kW3aCR4oUe9
+
+!procedure SquareCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/SquareCheck', $name, $tech, $desc)
+!endprocedure

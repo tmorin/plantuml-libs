@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Smog
+
+sprite $SmogXs [12x10/16z] LSQ50G0X40F1VSMX_sfndPC4y1_QK3oXAJrC49QZiseNFehhAbU0KlogGbUNq9e4
+
+sprite $SmogSm [15x12/16z] LSV50O1G081Gx9RzfpL_lXC0lGED4pyZNeVP3fRQUW-gxs38TnBbhgddPa1jDk3Kani
+
+sprite $SmogMd [20x16/16z] RSw53GGm5CDGbxb__scFCUeJng9m4_S2kXK-x4lIq-pSH1C9fYaOXyQfxKDZQNfopdcxMGuXGJYxOTWNu6x0VQ7atNF05G
+
+sprite $SmogLg [25x20/16z] {
+ZT030e10443HNwqrzpzjjj_QOA1oyO3EnRBJo2XCHSsYaYCMSfMhPS75Si95UHeGg9u6U1Xu66cu7x5CAkK7Ceg-uSo8PFweUakve5TaGBn-Ykzfy7kEHs7F
+p-qAiXpCVvgW0m
+}
+
+!procedure Smog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Smog', $name, $tech, $desc)
+!endprocedure

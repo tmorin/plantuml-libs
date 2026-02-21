@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Ethernet
+
+sprite $EthernetXs [10x10/16z] Oy0E-440me0mkVZn0mOmP4DY8Gm3
+
+sprite $EthernetSm [12x12/16z] Oy0DkFb1W174vE83itdOWMn-66002H86F3pyZFmC_4oeR7OaDhAb
+
+sprite $EthernetMd [16x16/16z] bSc53S1034FHOqpY_QSjC_U9_6NrWQP1dRjYPCQtojHK-YQikcHiCE6_98X07aRF49H0SpzEBOTMBre
+
+sprite $EthernetLg [20x20/16z] lSh50SGm40D0cL5M_zKUuokSCInYgwmtV7IzsVTM6thhxTdL7-B6wCymg3e7kWQaSdisRkmPagZi8DFjcK0sp7G5
+
+!procedure Ethernet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Ethernet', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element ClipboardList
+include('fontawesome/Solid/ClipboardList')
+
+' renders the element
+ClipboardList('ClipboardList', 'Clipboard List', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,74 @@
+# SpaghettiMonsterFlying
+
+
+```text
+fontawesome/Solid/SpaghettiMonsterFlying
+```
+
+```text
+include('fontawesome/Solid/SpaghettiMonsterFlying')
+```
+
+
+
+| Illustration | SpaghettiMonsterFlying |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/SpaghettiMonsterFlying.png) | ![illustration for SpaghettiMonsterFlying](../../fontawesome/Solid/SpaghettiMonsterFlying.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpaghettiMonsterFlyingXs>`
+- `<$SpaghettiMonsterFlyingSm>`
+- `<$SpaghettiMonsterFlyingMd>`
+- `<$SpaghettiMonsterFlyingLg>`
+
+
+
+
+
+## SpaghettiMonsterFlying
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SpaghettiMonsterFlying
+include('fontawesome/Solid/SpaghettiMonsterFlying')
+
+' renders the element
+SpaghettiMonsterFlying('SpaghettiMonsterFlying', 'Spaghetti Monster Flying', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SpaghettiMonsterFlying
+include('fontawesome/Solid/SpaghettiMonsterFlying')
+
+' renders the element
+SpaghettiMonsterFlying('SpaghettiMonsterFlying', 'Spaghetti Monster Flying', 'an optional tech label', 'an optional description')
+@enduml
+```
+

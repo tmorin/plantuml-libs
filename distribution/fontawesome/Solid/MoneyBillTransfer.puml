@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/MoneyBillTransfer
+
+sprite $MoneyBillTransferXs [12x10/16z] JSU50S0m4090shYo_xHnkrTm63m83Z7dp9b2py3Syxn_ylVFWeFw6FjDCu8uAW
+
+sprite $MoneyBillTransferSm [15x12/16z] NSUr0GCn4031VHIUjlzg3PSO9Xk-JNuOT1CcZ5qrjct3XlFK2IhNZQgGT_tN-2dkwdQgkB01BDLXJDDkWf0lJm
+
+sprite $MoneyBillTransferMd [20x16/16z] {
+PSe53iHG481Gwlwv_srt9bllYnDus_XIe5jth6bJEdS5TsnsTJ5DLQ1OHQinTDLi85AqpK2erQsQiwMUf6blLj_cycp_N0EpEgq2MfbMCv4jbzIPrgL8SOUx
+_VjGNdu
+}
+
+sprite $MoneyBillTransferLg [25x20/16z] {
+TSs54SGm30NH3OFXzz_jZQGB9s_0i0RUf85tqlXP9bYrOzQELeUU6YnqKjik2aDZo18MG2uLEIGyD2dU0RBDEfWjX0cdloCGvgymFaA3IwVGJZQhzpyQvcQm
+QMd-rokZ1QfoepCY95N2bbCg4baxYWxOyyLbSjaim2JnRbJYnGy
+}
+
+!procedure MoneyBillTransfer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MoneyBillTransfer', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/AnglesDown
+
+sprite $AnglesDownXs [8x10/16z] Oq07_3mWWX-8sHdu-C4Yl22AZu41I742fS12O3Ny47a81PPd
+
+sprite $AnglesDownSm [10x12/16z] ROp50S0m30ElpDN-qoQcPzX2Haj_VX-pNHi4h7foW4qvN73Qi4mbBBhmiM8sLfMFDS0Bq04
+
+sprite $AnglesDownMd [14x16/16z] VSmr0W0n24HHjjpe_K-BJnEZ-Yy2FQSYFgqsPy9Z1XM5WW0O087Xh57ldSFf04yxmKhx2
+
+sprite $AnglesDownLg [17x20/16z] {
+dOu5ZWD130HhcRV-_zgxn1g7kGUR9FC3QdSIZSQLIgK2KogrMW4iHKaEiswHhodOT3_xfQLDscra8hyEq6e7z3KX0-VmhYiNoXAyA7NajukHwoLvPYuvr1Sy
+MpjFy0y
+}
+
+!procedure AnglesDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/AnglesDown', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Microphone
+
+sprite $MicrophoneXs [7x10/16z] FSN50O1G00KWxFRjFwtjvmAM7f8CRtjflelbBKCYjfsqz0cCsr8x0G
+
+sprite $MicrophoneSm [9x12/16z] TSmt0e0m581GlejTxdzQUq_o9YPOZIqxLwoY61xXAt0LCaxqBLOmEKuUIvltUG4
+
+sprite $MicrophoneMd [12x16/16z] PSp50KGX40FGVCCX_NUxewSDzh21flD5X9BbRDIuf_asht-hqdS5x_2YsFzUwduh1SIXVVXk_Sq3tBXqaPbdKQcfv7uGUPcAci0F
+
+sprite $MicrophoneLg [15x20/16z] bT2r0KCn00DHcTct_xJvJ6MkUwMalJYxqTq4I9SgUnSvYb-MlmaFgL-sXsHpS1uqZgA6qQwfZfK1cG5L0IGrC5hBS2_e0t3QCm0qFJ5qvsk3MYy2rnqB
+
+!procedure Microphone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Microphone', $name, $tech, $desc)
+!endprocedure

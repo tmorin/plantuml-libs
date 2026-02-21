@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/RectangleXmark
+
+sprite $RectangleXmarkXs [10x10/16z] Oq00VaA00GXXJ7GnJ80G1m
+
+sprite $RectangleXmarkSm [12x12/16z] Oq06_CG1TZv-DZuecu-15Q4DYSd6m0_dy64nWmU9pS351mDi
+
+sprite $RectangleXmarkMd [16x16/16z] dOkr0G1H2CNIV1Vsd_QaGag2ooDIhk5G9SFwmumK0NClm1K3b31IhFvAGJ8Gvy0B
+
+sprite $RectangleXmarkLg [20x20/16z] jSYt0GCn4C0mVbRc_jkwrbcL0qgmT0GxQDIQVy6cZNEwZKt8XYIM0c4QR34Xkx5FTsPrBtxjyHtDw6JX1G
+
+!procedure RectangleXmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/RectangleXmark', $name, $tech, $desc)
+!endprocedure

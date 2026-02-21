@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Sliders
+
+sprite $SlidersXs [10x10/16z] Oq06_FmS88gRdvyNo0O2i1YA0cu6FdumW4a0QKOG2UM2PS008GO
+
+sprite $SlidersSm [12x12/16z] LS750O0m0C30u53B_jDMNzpn5tLZo2gx4_jkyTi7W7E32s2Rr7qhBYHbKHcIiCIIR-Fqw8qBe0TJ0m
+
+sprite $SlidersMd [16x16/16z] TSp50GH130D1UN58xloZFMQebr7wOG9qDyR0CuoBRe19oOscQO91dIxY-aFv6vetP40wkPir0CKDG0qzcVAIzD0xdiX-Os2IkPC4fkf5lhH7
+
+sprite $SlidersLg [20x20/16z] {
+TSo50KD120FGS6wG_RTjl_ix5u9FIbPSSLAmgPmOm4FdH2zt4ESSEGMwrH4uy2gfHbpbEHz0u8c0VsOy0SQybBenjaBM6d2obA_S-kOSDfpWfFT1TOFQDvKJ
+1-69g1g7D9fk-YDl4tl1oGy
+}
+
+!procedure Sliders($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Sliders', $name, $tech, $desc)
+!endprocedure

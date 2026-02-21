@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FaceKiss
+
+sprite $FaceKissXs [10x10/16z] NSI50O0m0CJ0u4xsdnQdTYzS9djkFYRmq-5lKcQfJFIg53UfpQP0vmrE
+
+sprite $FaceKissSm [12x12/16z] LOY50O0048Imszj_Mx6LZmkGAJqdENcjV6mMVBqtU9E7ulteZyzw_CCNzSTNlWuYBCcAg6Ux0G
+
+sprite $FaceKissMd [16x16/16z] PS-55SGW40JG2UxRVxKdcOT_t5cyR9NyeAj2daCPMXzsfM_k7iZE_YkWLrBViUtL9REfHkWHSc3BPfnkSDl3u_S0J_sKToE7hsU9vWi
+
+sprite $FaceKissLg [20x20/16z] {
+TT250SCm40D0cTdQVzhIgvoScG7IDcV6XqHP3i8FxR-BxFzTPD9UNm3-gTRdtMChj-mSJU-FtF5ks_HupwVVF3CfevEI3wu0KWg67etrwYeq7exYe5C1D9gW
+9RYp0wktxVp7bmfUgawqILS
+}
+
+!procedure FaceKiss($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FaceKiss', $name, $tech, $desc)
+!endprocedure

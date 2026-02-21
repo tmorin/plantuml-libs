@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/BoxArchive
+
+sprite $BoxArchiveXs [10x10/16z] Ou03NduOu8Qp6DXWW04kHZIB7SO
+
+sprite $BoxArchiveSm [12x12/16z] Oq02xFpO0GCJ0Z0WXFaOG0GGGDWGG0QRYu61bmy2k1W
+
+sprite $BoxArchiveMd [16x16/16z] Oq07V2Y0XnyDyA7n6PXG02C3DmyoO610rG3XiuDjGl0HW78-BngV0PMF3W
+
+sprite $BoxArchiveLg [20x20/16z] Oy06c3404oy_SO0RYnW38nCwO61WP4C7G7injE8Huu4w5fkw0HPZn2B6m8ukX1K
+
+!procedure BoxArchive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BoxArchive', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,74 @@
+# FilePdf
+
+
+```text
+fontawesome/Regular/FilePdf
+```
+
+```text
+include('fontawesome/Regular/FilePdf')
+```
+
+
+
+| Illustration | FilePdf |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Regular/FilePdf.png) | ![illustration for FilePdf](../../fontawesome/Regular/FilePdf.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilePdfXs>`
+- `<$FilePdfSm>`
+- `<$FilePdfMd>`
+- `<$FilePdfLg>`
+
+
+
+
+
+## FilePdf
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element FilePdf
+include('fontawesome/Regular/FilePdf')
+
+' renders the element
+FilePdf('FilePdf', 'File Pdf', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element FilePdf
+include('fontawesome/Regular/FilePdf')
+
+' renders the element
+FilePdf('FilePdf', 'File Pdf', 'an optional tech label', 'an optional description')
+@enduml
+```
+

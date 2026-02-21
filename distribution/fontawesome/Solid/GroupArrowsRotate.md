@@ -1,0 +1,74 @@
+# GroupArrowsRotate
+
+
+```text
+fontawesome/Solid/GroupArrowsRotate
+```
+
+```text
+include('fontawesome/Solid/GroupArrowsRotate')
+```
+
+
+
+| Illustration | GroupArrowsRotate |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/GroupArrowsRotate.png) | ![illustration for GroupArrowsRotate](../../fontawesome/Solid/GroupArrowsRotate.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupArrowsRotateXs>`
+- `<$GroupArrowsRotateSm>`
+- `<$GroupArrowsRotateMd>`
+- `<$GroupArrowsRotateLg>`
+
+
+
+
+
+## GroupArrowsRotate
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element GroupArrowsRotate
+include('fontawesome/Solid/GroupArrowsRotate')
+
+' renders the element
+GroupArrowsRotate('GroupArrowsRotate', 'Group Arrows Rotate', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element GroupArrowsRotate
+include('fontawesome/Solid/GroupArrowsRotate')
+
+' renders the element
+GroupArrowsRotate('GroupArrowsRotate', 'Group Arrows Rotate', 'an optional tech label', 'an optional description')
+@enduml
+```
+

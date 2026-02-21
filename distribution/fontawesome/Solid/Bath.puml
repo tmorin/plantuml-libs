@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Bath
+
+sprite $BathXs [10x10/16z] Os3WPu02VX20i1YGMGnG5bmT3332MGoOB2wWGbOGu6S
+
+sprite $BathSm [12x12/16z] HSR50O1G0CMmuaxtdnRdlvm2oyJFM_jzdLHo_YDvOOm6LM0nWp_0cjig9m
+
+sprite $BathMd [16x16/16z] NSZ70O000CB0sBlilwrTmNiHW7N0QJT_rw9EX-TPLKv7y_Lmf3L7UlTaEuLrLQ8C1UFiO9G3_hraCgdWS2pO
+
+sprite $BathLg [20x20/16z] VSZ50O0m04MnXpj__sbnwcsE0GPD17PTwgR2glMRpJKIytEhTyjpU3TTi-4Vrn7THdX6uHIPTyMgk3PI6eMWZW_2cebovxsn-stcC2OjS08
+
+!procedure Bath($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Bath', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/CentSign
+
+sprite $CentSignXs [7x10/16z] Om02FWOmu0SJ8C300M8pGqGOu1GJc6BaXsXX1IfaXKe3
+
+sprite $CentSignSm [9x12/16z] LOp50O1G08MmM_QVrlp9xIKl9m5RNbRrzNHhPtSwcv0RYplK3iuGrxj_GHtpymq
+
+sprite $CentSignMd [12x16/16z] JSd50SKm009G6dVsd_PBYRqJ0XdOI7FbhF3mDMQq9f7ldtG3vZsbqkxSQNPEJDX8R5t5L1qSZVCk_BCG9Hby07m1
+
+sprite $CentSignLg [15x20/16z] PO-50S0W30JhEB__jetWV0KkdgF8XMCKSCvujViPGKgt4e4gCmMwkEkoT10zQYKPhYR6NWPu1hm7vuxNZ5Hg6ZS1r-p6gsbPYv6IJDhyf9vqUIfux_jsbEC7
+
+!procedure CentSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CentSign', $name, $tech, $desc)
+!endprocedure

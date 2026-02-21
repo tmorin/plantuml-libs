@@ -1,0 +1,74 @@
+# SquareFontAwesome
+
+
+```text
+fontawesome/Brands/SquareFontAwesome
+```
+
+```text
+include('fontawesome/Brands/SquareFontAwesome')
+```
+
+
+
+| Illustration | SquareFontAwesome |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Brands/SquareFontAwesome.png) | ![illustration for SquareFontAwesome](../../fontawesome/Brands/SquareFontAwesome.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareFontAwesomeXs>`
+- `<$SquareFontAwesomeSm>`
+- `<$SquareFontAwesomeMd>`
+- `<$SquareFontAwesomeLg>`
+
+
+
+
+
+## SquareFontAwesome
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SquareFontAwesome
+include('fontawesome/Brands/SquareFontAwesome')
+
+' renders the element
+SquareFontAwesome('SquareFontAwesome', 'Square Font Awesome', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SquareFontAwesome
+include('fontawesome/Brands/SquareFontAwesome')
+
+' renders the element
+SquareFontAwesome('SquareFontAwesome', 'Square Font Awesome', 'an optional tech label', 'an optional description')
+@enduml
+```
+

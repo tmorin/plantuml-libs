@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/PersonWalkingArrowLoopLeft
+
+sprite $PersonWalkingArrowLoopLeftXs [12x10/16z] JSQ50G8154EnuCxRVrhaF5zQU5iyitMhEb4Pf4ETvtvBEu-ts8LhYjSZQgW9lRWrvE0B
+
+sprite $PersonWalkingArrowLoopLeftSm [15x12/16z] JSh5WG81002nmBfE_zMU2ta77hTNzV3YSTAd0xO3Z-VpkNTRwY-FwQW29AKu8XHFUxjYKJpwX4wDr0n5DmfN3-xyU0S
+
+sprite $PersonWalkingArrowLoopLeftMd [20x16/16z] {
+POu70iCW3CGCsGcW__-slkjkbOaym_GzVcdmvtQvqiJsaYMVapksvRZyhUA49ViZNYKLKfdsaeD8_PtOKfno0pI7aO_3fD-rZNvEUAriXRgxQNJ_N8WXDT42
+PlTmKrVKz3qidUK17YOutCpAxiKD
+}
+
+sprite $PersonWalkingArrowLoopLeftLg [25x20/16z] {
+RT03bWH1403HQ7Snxd_QHRvS37xPW72wyywYyiwkBhmpx82fmID_hG2ifTMiXPeRlrck7KmdVswbwJbLVRm-MZ3SsPa3NJRrKWU0LhWKu51XnFbJByX9g13K
+oltx3vjPcmzNl8mH01DXsZbqpv6-GEXwF1nt4AfEO2X1QvJ5w6TN25ikS1AK1vy
+}
+
+!procedure PersonWalkingArrowLoopLeft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonWalkingArrowLoopLeft', $name, $tech, $desc)
+!endprocedure

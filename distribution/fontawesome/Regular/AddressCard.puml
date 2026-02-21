@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/AddressCard
+
+sprite $AddressCardXs [11x10/16z] Oq02_0W05-FW1uap0J47XCa94ONfu8A8yaD5GNhP8KmOu4Go5m
+
+sprite $AddressCardSm [13x12/16z] LOp50S1G24DJzsR_QRzZxmGn1EWvlRu1nzMVlpvLUKbvd5FvXlEJ56VMpUhCXUwy_wOGpwyS6G
+
+sprite $AddressCardMd [17x16/16z] POk50S0m409vwih-qrRYSj57q37V9HTcjToeyC9mi1Oa-NlE0lj45l9VYnU6wxu8c9bFJFfXhiYJ1UEFHK6e4DI0bXS
+
+sprite $AddressCardLg [22x20/16z] {
+TSw54S0m30D0MyMWzf-s3C4_q0KCqZ5K8CA6uBbKVoD9gQplhN6eRtd0asjswuxq8GHajwRgyAO2-4uV7kntYsDBFN8sPlt-yXBolf4tpMxvMB9RnIthK35S
+o5WY9R0sITCE
+}
+
+!procedure AddressCard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/AddressCard', $name, $tech, $desc)
+!endprocedure

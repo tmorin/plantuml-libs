@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ChildDress
+
+sprite $ChildDressXs [6x10/16z] DOI50G0X08JuJcN_QMtl020MqQ_qbBgZkAfWNOYr73NWEfi1
+
+sprite $ChildDressSm [7x12/16z] FOcr0G0W40E3DTZjFotEMrHIIGkKO9FRP1FXPfivqozSQvrw9tsQ
+
+sprite $ChildDressMd [9x16/16z] LOg50S0m20If6-NsdpQk5u4N2Vot982pBfgM5oIpbBb-RqqWcYJgH3yqRvjzAR6IQIsRn4r1vkMBYmS
+
+sprite $ChildDressLg [12x20/16z] TSp50SL0201Hu6jq-gzstM9pUYiWiMatAQs05HDQ1a_5ts1fQQTzgZw4zdn9hcufMpTghn-zZNrF29TYKYxLoigoPneiRx32HojeiWS
+
+!procedure ChildDress($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ChildDress', $name, $tech, $desc)
+!endprocedure

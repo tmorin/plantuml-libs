@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/BuildingCircleExclamation
+
+sprite $BuildingCircleExclamationXs [12x10/16z] DSQ75S0W30DHfVVS_jDIfCU1xI-SUgJF_hHCUcEEzps8NPpz2ZXm3yoH4KjSy0-ZxWe
+
+sprite $BuildingCircleExclamationSm [15x12/16z] TOp50S004CAewv7zfwsxv8UAbT02Exli2JiEgLvAnK_P6FmgBvMZ2z73XypQHUv8YwnoY4rwlHe1
+
+sprite $BuildingCircleExclamationMd [20x16/16z] {
+XP250S0m20I_xh3_j8sxuLmy-DZ90Ii1CJl6LNRETCugHcp62wWOCNgjZVO37L1HikrxfcI_tIvIYQofUfRRHbS-LiiYcP-4tRDZ55_23cnlp6GawPVaHs1a
+Fcc3
+}
+
+sprite $BuildingCircleExclamationLg [25x20/16z] {
+hOu5iWGW34E3E-_-f_swrc5i9JXjH1tkyBgXOt0ly4f1cbCYI6UXIVYZa3Famipz0-PhI4GvaCg6VfWxmH-IVhV03f4HMXE05X2iGm7G1BOjS2iOxBEmVRmN
+besV07M0OGiU20AM8f1DWJ_U150mXIc_0RBq3G
+}
+
+!procedure BuildingCircleExclamation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BuildingCircleExclamation', $name, $tech, $desc)
+!endprocedure

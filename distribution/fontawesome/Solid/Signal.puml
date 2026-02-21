@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Signal
+
+sprite $SignalXs [12x10/16z] Oq00TWIJaH_6uaTcCy7O_DZOF7m8DYy_ZCsFdGq
+
+sprite $SignalSm [15x12/16z] Oq06x0meW9yF9vUV5oUNdnkLouFWydEWSlaHN7OKBf21Xmi
+
+sprite $SignalMd [20x16/16z] ZSYt0G0X20LGxphZttzQWLPovZKLMzD2mQOsuCzjQLluSblQ5hJjruQspRjYSikUl3VtH2C
+
+sprite $SignalLg [25x20/16z] hSd30G0n443HDQBVVxN1EURuRScdd_JzXZGyNO1AmmqBu80qt5rmx6au8Grt5uWh3IUiWYEKFPuS
+
+!procedure Signal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Signal', $name, $tech, $desc)
+!endprocedure

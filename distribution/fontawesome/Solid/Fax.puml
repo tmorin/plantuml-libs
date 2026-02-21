@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Fax
+
+sprite $FaxXs [10x10/16z] NSd50O1G40FHmPtflrgSR--ocmIel7HSV2o0N7gLYKipAVxGokNxSDHYHVgaEm4
+
+sprite $FaxSm [12x12/16z] TSh50O0m44JHWHlw-wysxl8Ygt9UF7atKMpBuzDJyXzUPIv_oK9-X1jpjooOTyvmTpiM
+
+sprite $FaxMd [16x16/16z] ROo55G0n34B3UPNzjxrNrrzD0aZWOUAGoCl27MlBwmWyPAv5wiVeeGufGAw1M2jNiQ6sR9GQf4UhHSXJRAtfIFfGxVtk2AVLMFmj0uQD7m
+
+sprite $FaxLg [20x20/16z] {
+bSs50O0m00F1rBtPVrhSdSUF2eP4vPJ1bE9Qd2nnKnejisAgaYUplQMaZyOkkE0nfK8O3MBRQ9d7xYqAaadi373JRJM7IdfCz7CFMSaW3tke_cQtPaKbdRXR
+B_OMzjO2
+}
+
+!procedure Fax($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Fax', $name, $tech, $desc)
+!endprocedure

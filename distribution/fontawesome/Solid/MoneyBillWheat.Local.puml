@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element MoneyBillWheat
+include('fontawesome/Solid/MoneyBillWheat')
+
+' renders the element
+MoneyBillWheat('MoneyBillWheat', 'Money Bill Wheat', 'an optional tech label', 'an optional description')
+@enduml

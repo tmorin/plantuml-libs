@@ -1,0 +1,74 @@
+# Weixin
+
+
+```text
+fontawesome/Brands/Weixin
+```
+
+```text
+include('fontawesome/Brands/Weixin')
+```
+
+
+
+| Illustration | Weixin |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Brands/Weixin.png) | ![illustration for Weixin](../../fontawesome/Brands/Weixin.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$WeixinXs>`
+- `<$WeixinSm>`
+- `<$WeixinMd>`
+- `<$WeixinLg>`
+
+
+
+
+
+## Weixin
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Weixin
+include('fontawesome/Brands/Weixin')
+
+' renders the element
+Weixin('Weixin', 'Weixin', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Weixin
+include('fontawesome/Brands/Weixin')
+
+' renders the element
+Weixin('Weixin', 'Weixin', 'an optional tech label', 'an optional description')
+@enduml
+```
+

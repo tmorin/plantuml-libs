@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/UserGraduate
+
+sprite $UserGraduateXs [8x10/16z] HOW50S0m30HlAxD_jML8de4l0wciWstRpJ_CiWRUvV8HYXchwSnbNGC
+
+sprite $UserGraduateSm [10x12/16z] PSY50S0W30J0hnVz_QV5dOi7mMsFq1zMC6NvSESlWFykco3A5fnrwMXZCw587PkzkFC
+
+sprite $UserGraduateMd [14x16/16z] RSsr0SHG081GuXxsd_Oa-krrL70Ozux3u6DhDqFOx9x66cJrL06olDL8xmdOhF2mSZfofwZYh-LlqnfOTO3ZNPsR3W-hXyNGRkWB
+
+sprite $UserGraduateLg [17x20/16z] {
+ZSxL0SCm34NHQsQ__QSjEMNA-HEB9OncMOohKvkHBKCll9vr1Bfgm9w4HLSPI4gqQy80KmEk5xXQcS43cvpXgp0R5zkI8QbU5paerm-kbxMKw-ca5rClcbuS
+0G
+}
+
+!procedure UserGraduate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UserGraduate', $name, $tech, $desc)
+!endprocedure

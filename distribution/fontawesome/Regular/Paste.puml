@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/Paste
+
+sprite $PasteXs [10x10/16z] Os1Wu6U007v-40824Cq94G9X402p899m5ZSs5ZC_FnU41LRC1GJy
+
+sprite $PasteSm [12x12/16z] TSR70G0X20NHlpdlz5-jMJWv2Zn9swFMSd2VU-55xdspEJJFqvCgpYj5ir8pRerzkmMOSzGY
+
+sprite $PasteMd [16x16/16z] fSUr0O100CNGZplPVrhEjILLdcpBgxg1Xo9iA_06FapObd4C1id-UhdcO6aXj4VVo7Mo1p_1kcYjtnQseRBlxZoGCW
+
+sprite $PasteLg [20x20/16z] lSgr0O1G00FHuCxjFotmtNfUUOcCYLcL4LYKcVde1jRy4uGlQE6poOXDNTztsWvhzSqWEBDsXUqChUDGZ4qJjEtufGqOUz4qNf-rR1xi7h6jHDiB
+
+!procedure Paste($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Paste', $name, $tech, $desc)
+!endprocedure

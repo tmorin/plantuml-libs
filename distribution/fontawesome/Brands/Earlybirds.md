@@ -1,0 +1,74 @@
+# Earlybirds
+
+
+```text
+fontawesome/Brands/Earlybirds
+```
+
+```text
+include('fontawesome/Brands/Earlybirds')
+```
+
+
+
+| Illustration | Earlybirds |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Brands/Earlybirds.png) | ![illustration for Earlybirds](../../fontawesome/Brands/Earlybirds.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$EarlybirdsXs>`
+- `<$EarlybirdsSm>`
+- `<$EarlybirdsMd>`
+- `<$EarlybirdsLg>`
+
+
+
+
+
+## Earlybirds
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Earlybirds
+include('fontawesome/Brands/Earlybirds')
+
+' renders the element
+Earlybirds('Earlybirds', 'Earlybirds', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Earlybirds
+include('fontawesome/Brands/Earlybirds')
+
+' renders the element
+Earlybirds('Earlybirds', 'Earlybirds', 'an optional tech label', 'an optional description')
+@enduml
+```
+

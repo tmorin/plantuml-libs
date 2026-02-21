@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HouseLaptop
+
+sprite $HouseLaptopXs [12x10/16z] LOc50G0X30Fphd3xJulhGTk80giQ5rHvGpKlYIgbsiJpbGeuurskMJ_FirST8EC1
+
+sprite $HouseLaptopSm [15x12/16z] PSV50KCn0CDGjv_9td_QCEUT97Z_1OrTEklTSkvyhu8l7fMm722I3xomK93ZuE7KVU7C6_NxAB4
+
+sprite $HouseLaptopMd [20x16/16z] TO-50GGn2C0uhsV_QL_haYeEyiSTqWEeJXK0jDJmnuugy4LL2BNgYIynVVpQJGekcYr_ZgWZU26HT21iCMoXkoSwsNxKkiZbyJ-gSMuARm
+
+sprite $HouseLaptopLg [25x20/16z] {
+hP054WGX3C3QTOFy_xNdLnaOtuoIuFAdZj85M3jQUNCqVeHGMWzNyZDE2NuZKitlFr7AB_tyuSCvbTDtc5GojlNWjxF0E8w2Cre0n0vUc6uEidzfW_-zVbbP
+r7qXuM58lZu1
+}
+
+!procedure HouseLaptop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HouseLaptop', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,74 @@
+# SortUp
+
+
+```text
+fontawesome/Solid/SortUp
+```
+
+```text
+include('fontawesome/Solid/SortUp')
+```
+
+
+
+| Illustration | SortUp |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/SortUp.png) | ![illustration for SortUp](../../fontawesome/Solid/SortUp.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$SortUpXs>`
+- `<$SortUpSm>`
+- `<$SortUpMd>`
+- `<$SortUpLg>`
+
+
+
+
+
+## SortUp
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SortUp
+include('fontawesome/Solid/SortUp')
+
+' renders the element
+SortUp('SortUp', 'Sort Up', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SortUp
+include('fontawesome/Solid/SortUp')
+
+' renders the element
+SortUp('SortUp', 'Sort Up', 'an optional tech label', 'an optional description')
+@enduml
+```
+
