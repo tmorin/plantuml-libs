@@ -45,7 +45,6 @@ git checkout -b feat/upgrade-simpleicons-<new-version>
 - Note: Simple Icons package does **not** use example templates, so there is no `examples/` directory for this package.
 
 ### 4. Generate the work directory
-### 4. Generate the work directory
 ```bash
 npm run generate:workdir -- -p simpleicons-14
 ```

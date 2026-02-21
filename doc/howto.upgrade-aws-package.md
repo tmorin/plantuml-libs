@@ -49,7 +49,6 @@ git checkout -b feat/upgrade-aws-<new-version>
 - In the new package's `index.ts`, ensure `FOLDER_DATE` and `ICONS_URL` constants are accurate.
 
 ### 4. Generate the work directory
-### 4. Generate the work directory
 ```bash
 npm run generate:workdir -- -p aws-<new-version>
 ```

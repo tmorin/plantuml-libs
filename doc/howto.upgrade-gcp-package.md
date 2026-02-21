@@ -46,7 +46,6 @@ git checkout -b feat/upgrade-gcp-icons
 - **Important**: Ensure `source/templates/gcp/examples/` folder and its `.tera` files render correctly with new icons.
 
 ### 4. Generate the work directory
-### 4. Generate the work directory
 ```bash
 npm run generate:workdir -- -p gcp
 ```

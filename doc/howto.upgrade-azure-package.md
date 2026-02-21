@@ -51,7 +51,6 @@ git checkout -b feat/upgrade-azure-<new-version>
   - The file `./README.md`
 
 ### 4. Generate the work directory
-### 4. Generate the work directory
 ```bash
 npm run generate:workdir -- -p azure-<new-version>
 ```
