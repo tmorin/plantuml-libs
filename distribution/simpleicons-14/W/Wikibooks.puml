@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/W/Wikibooks
+
+sprite $WikibooksXs [10x10/16z] 1S450S10000Xvhxht_O1C46wzv1q838HM6G7YGzURW42FZyXMJS3
+
+sprite $WikibooksSm [12x12/16z] JOh50G0n40BdN1FwhpR2YrKCiYIqesN2GrecPqhxFS4Fjg2Ou2iFDlQTVSKuZ7EZGWtzYyYIwGu
+
+sprite $WikibooksMd [16x16/16z] RSo5OKKX50FGyzo0x3zj-ztH6_MzKWboXpdVBcM752sRf9ChD8Qib943uddXAAHxOc6fZCST3--1CRI9sZy3Gf_VWRtHFV5-iowPOGr3gELHteMsuXy
+
+sprite $WikibooksLg [20x20/16z] {
+LSzLOWGX40N06bTuzpzjT3hPhJzezsPGSZ46IpoIc9FJcepr9NlQaINhrUjBIoFP2AHZpa0Qxew0d0p14ENA4v15oSGHh55Qde0eKzIKfcHd3COez_-KKObd
+odKhmPW10GmvS5T3QcGFMWuWDrgOKjqIf3FNQNh7rPWomIS
+}
+
+!procedure Wikibooks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/W/Wikibooks', $name, $tech, $desc)
+!endprocedure

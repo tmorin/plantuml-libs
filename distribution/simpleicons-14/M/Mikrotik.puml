@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Mikrotik
+
+sprite $MikrotikXs [10x10/16z] Om01VY06qq301wL113kO1PG5OX05PJ7o0GaK5bG77v1W1Ea3yO00IWC
+
+sprite $MikrotikSm [12x12/16z] NOY55S105C9IzxB_jEUUB-H1G6Ja-89zploTiRnZuvnJEY3u1ol9qHt-k7FuH_XA_uTP4GAdincm
+
+sprite $MikrotikMd [16x16/16z] TSz5WWC1449HshtV_KyxLXDF_guKID797GsSr_9KR7_L3diBfWJeagwEqEreamdXICAQfEhDL9fLMqEJrN1NB_6njbMzGKvKhGoLi_qkmgXeSc4fWqc-0G
+
+sprite $MikrotikLg [20x20/16z] {
+RT150iKW40JHYllq_K_xfOb3hIOl1d0qgEPPfrzRTPD6Ut585RgQJ4erp7B3IL71heDjzSolaBJWrsZ_s06sus8GtAoQr1Z6cn6Ir_socgLWwztcWZbRo8_C
+DpicAhaOvDR7KLcgso6dU3JxGwal
+}
+
+!procedure Mikrotik($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mikrotik', $name, $tech, $desc)
+!endprocedure

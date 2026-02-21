@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Maptiler
+
+sprite $MaptilerXs [10x10/16z] FSY50S0m30D1bRdQVzgO_Q6BeSr4HEqDE0DwNHiCm4M6_5xPtvrN036DJeS
+
+sprite $MaptilerSm [12x12/16z] DSPH6e412031XGhKtl-qeE-Vf-4dFS4gDRTQbhDLr1VO2c4RQ0DSLBG6C6qkfODQGEYCoa-qjgnGEUJs0m
+
+sprite $MaptilerMd [16x16/16z] HOo54S0m3CHKvch_QOi-M-4yyBCvKdI-v7DsKaSRugdJzzLGveny2WoV2yx_WE4L6ggvKGUEqaUjV6y8hIzDzd_DOxZ8vcY1Z52CyKpIV0C
+
+sprite $MaptilerLg [20x20/16z] {
+LSu15aGm40JH1cO3K_U_xRuUG04-akYitsZwjkD-Rs8kY-r563DWUP4nVDdUO-sYcaq4JffyQKnI3v6aLDZghS-1LDYuBNkTUDW01544Svd8C1SPTqcZoGY5
+po2qI9oEPXF4YwJ9LElKqqWLUZULwTlleQVveJy
+}
+
+!procedure Maptiler($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Maptiler', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Skeleton
+
+sprite $SkeletonXs [10x10/16z] BOp50O100CE2Ezb_MZYfzrK0PeBPD1E1wiE1mSIPDQE2uooZ5vlSWexth3bwX1y
+
+sprite $SkeletonSm [12x12/16z] LSor0G0n30J1DREl_sgVSHAnE7WUGuxRtFB6APMpFz6XMq2tVnwaYP581IIe6fW1aYNESZvjEd2hch02
+
+sprite $SkeletonMd [16x16/16z] NSp50GH130F17cOh_sWFb-jb59l8JT9z81auVWBGKuS26rzRsBOPYluy2P3f1EXYRFrpFyEIHDdw1c4fKktVEoX1WMQ0_yLaGqG116bbqv8QcrHjIp-OoW3U
+
+sprite $SkeletonLg [20x20/16z] {
+NSvLOkD040N06h35UlS_xMuIZR7-cjjJzwsAR_t8wSsCUn8iXbveD5HlshBSduc2ak4Ou-bBNkgn8b_Q67m7Qpxrv-n-bUvBOkGAZgJgIt2E7_QIC9UW9jam
+ITXhN3F1VRwNKyaCagJQh-VlBdLB1jxr7Dyv8cxm7m
+}
+
+!procedure Skeleton($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Skeleton', $name, $tech, $desc)
+!endprocedure

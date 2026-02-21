@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/T/Trivy
+
+sprite $TrivyXs [10x10/16z] 5SQ70O0m30D1UeVRVrkaJspVq9vCEp4MRimARSXpEaogyMFVep4N4IPB5Axx73Hxxmy
+
+sprite $TrivySm [12x12/16z] DOY50S102CIkXhra_sthmSBfeUkdWEsnbGDmBZK6wOMp2gi2p7eN1ssVDV3B7JRcuCgP73W1br_di2GkxzU3O-2IeDR9qCEAeuiJ
+
+sprite $TrivyMd [16x16/16z] {
+JS-5WGGn2030KrW9JF_T_l8UdpYtxxIk-fSMubUXjjZR_LDtdI3KnKTNaPcaOuu-78rJFOsxWfsxCARt5hrx6o-7yf3IEAIBbjEuU4jXOop9vr8r3WIfbl7i
+SExvHWxdnoJ_GdoQfoPz
+}
+
+sprite $TrivyLg [20x20/16z] {
+NT05Se104011VE5a-_-lZM59fengpeUxiGt_QuW_SZWR7vc9gAt6hbr4gSvcoZclT6f4T49ktnENoWo2eVgsajj9yeZYnu9ZC-rXcZXjfrXepIYTSvtVGOZJ
+f4f4Lvak6rclOTrbAcj63RR73hG9YnyROMzSexJxKVegSlxzD1LbJgp36-AQzhQ9Va_x1
+}
+
+!procedure Trivy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Trivy', $name, $tech, $desc)
+!endprocedure

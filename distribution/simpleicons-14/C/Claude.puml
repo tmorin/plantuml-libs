@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Claude
+
+sprite $ClaudeXs [10x10/16z] 5S674OG0400XFfhT_hjr3d0Q8_8dHzw5ldrV6LKVVQjXt7Sv8zLf9BqOMNa
+
+sprite $ClaudeSm [12x12/16z] BS450GGn0C2mZddrh_Rn4g01WJy5UGWNXMLOqgu0qMdjHdvKRxbc7usVSxKSXMfGTmPOYC7I0MP1JWCWWH3W3G
+
+sprite $ClaudeMd [16x16/16z] {
+LSxLWK9H303HUNurqt-rkq3GynSFDrVXXmAkl9nM43QvQTaWgsRtibeHpH4zmpsqagewDO3iG3EbknyNBw4QQbwqg7Ou1gm6SLdjCtSTr43iHt2JVyhYihRi
+W5DeaxUGz0y
+}
+
+sprite $ClaudeLg [20x20/16z] {
+PSZLOS1G3C10FGZ7rlxJ5ftYVHxljfj_T08fV0iJK62bD0Ky8Jm03BWKxAWTG6tu7knwmBlGkPdJfa5PzT9DbM-M0RkstXkmw2EFwIyRtrfTPbmBl4lJT_HR
+1JXqP9WgHIyEiHjtvHQDuMXok2vsYWT3K9fL6N0ApOj70YcmrnMJnoi
+}
+
+!procedure Claude($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Claude', $name, $tech, $desc)
+!endprocedure

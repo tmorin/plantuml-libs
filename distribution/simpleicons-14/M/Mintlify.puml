@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Mintlify
+
+sprite $MintlifyXs [10x10/16z] DKo50G112EB_klUVzaB53W1YwngxJ8iJ5n30oGcWoJ7bEom7PA0Bl50jtNu
+
+sprite $MintlifySm [12x12/16z] HSl70S0m2CLGfVVy_QTr1tHwDa3lLwb9lSQmhgUx4jYRfOVIsHptNtWjNZYhToXKgP8WTAvL6G
+
+sprite $MintlifyMd [16x16/16z] NSxL0SKm5CDGFoY3zv-se73qTsvGgSqKvLH7TpHSboCPwcb9jXUz3SQs3z6EkqVvnfpzFPlrKIlSTZmo54CRgY5jBNN0h-W6
+
+sprite $MintlifyLg [20x20/16z] {
+LSu54i0m24JHhSVt_gUj85Fonry4y5TeEIo3djlAa5FCAQPKSnd1XF3Lt3vYXdIuBIGBjCli-sV0Cfist_ZMibYB5nTADTY5GPsnkfr0qbidkOabFIb2secl
+tW9bUFEjcIxysOuBh0S
+}
+
+!procedure Mintlify($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mintlify', $name, $tech, $desc)
+!endprocedure

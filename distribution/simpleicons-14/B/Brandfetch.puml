@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/B/Brandfetch
+
+sprite $BrandfetchXs [10x10/16z] FOY30S1054DJks__QK-ViThj_tyqkx7xXCRHdKWRET7msvvoPPgqzz0hFCqh
+
+sprite $BrandfetchSm [12x12/16z] DOk54S10408txg7_RdzEs9SJWE3yzH38HBiJx18JXrhtn-n-Fi8V_KbtRPScu6_xwQZ_OdN_pj4D
+
+sprite $BrandfetchMd [16x16/16z] LOu54WGX4CHw5IV__-tLB7sMaX1S3qUTZAn5uyCfbN2_zltiW0H9Ce1sAJ4-lTH27eIsq0ROqWIO2cfqvEVMuM_SxcHZRtzjPSZkUfMEhz65EVIGrgVD2m
+
+sprite $BrandfetchLg [20x20/16z] {
+NOw54S0m4CFSC7l_RNjXK36Fmi34mf8i9ZPpesiay2O3kNxiXyPNJm9amW59ZrfXoL5Osy9C7dNoYVdvgydOfRYofLfzR8GzuuEeaNBkhswYsjiXkeQ8zITt
+3wUeg-fFHoJr4jWgjS4KRdTkCjvOnADty0C
+}
+
+!procedure Brandfetch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Brandfetch', $name, $tech, $desc)
+!endprocedure

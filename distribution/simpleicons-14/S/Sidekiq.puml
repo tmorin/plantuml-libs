@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Sidekiq
+
+sprite $SidekiqXs [10x10/16z] HOg30S0m54IlRlZsdpR6vqcb38zgqSfC08zm1nUKJ3rqQsOVHEpAFWPmFVJGqna
+
+sprite $SidekiqSm [12x12/16z] JOY54GH04C9oxaV_tVxmdXKoO9OwB_JYhLt6kgHYBqZKq7J09L3Xoa2WMhgID971x_pvoFuD_AqNuAYysWS
+
+sprite $SidekiqMd [16x16/16z] HOu53iLG2C0wLzRxd_OBXAnF6oiaItWDD66nbceJhTRj3Q6NRei9wCCQywIEZ2xg3EHzQgWKjyK1H6SkvN1jTL3q7DfvEvgjyhcyfw_RjJky2aFv0_05
+
+sprite $SidekiqLg [20x20/16z] {
+JOy54WGX30G7T-R_lxr3igJBKXt7fKps04NWPHXHL1IjvfLLLLcf36TM6tydGpkm50nfd7JcvOX5FwQHHTna1f1atLmkgpkbDRqx-ofpR1ceui9Q_lTJlREY
+NV3SmE12EmiZpgkLvKRjATc7htCJbCD7PdLhuodw0G
+}
+
+!procedure Sidekiq($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Sidekiq', $name, $tech, $desc)
+!endprocedure

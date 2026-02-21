@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/N/Neptune
+
+sprite $NeptuneXs [10x10/16z] 9SA54SC0002XhpVA_jD6EQh-Ffs0eRXzucw0tmm-NbdpHId9mey6j-e3QWS
+
+sprite $NeptuneSm [12x12/16z] FSV50SC04C0mb_6Y_QSjDthPlLsT-_BrpNMifky7DzhOsV2slKwQgpFiqt6HHcVNoEhKEalLU3lM4m
+
+sprite $NeptuneMd [16x16/16z] {
+LSw50S0m2031holy_jlM9HTNW4CRphp2ItyjVKMvr1N2lmgr8HKyT2f3vr9Twz0aaQLQl2orY4CTwBLvh8EnqKexhJgKumN7SprQXoQzVvG9TUpMSWdLjKfs
+6m
+}
+
+sprite $NeptuneLg [20x20/16z] {
+PSh5WGH140Cm3sErye_sO1dqC-HcBUUK5vERwdBZnVPTiNzNJCdaKm9hLdGfi0Qo1CdeOeC8ItV6HSCMEMGGojNKwmVPfLLmkbWZJJTlmUoYSeGXGn2cD9AU
+IdOgPGsgWsL2dywd9DjtbUnUzRcOFELXTL7Nqoy
+}
+
+!procedure Neptune($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Neptune', $name, $tech, $desc)
+!endprocedure

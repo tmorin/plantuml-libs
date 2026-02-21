@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/W/Wikisource
+
+sprite $WikisourceXs [10x10/16z] BSE30SG00C30l57S_jFMGTNNgoecDz_wVk_Tyjq6lhxecbBUI2Ma7lhn4TKBRxK2
+
+sprite $WikisourceSm [12x12/16z] DSE5SS00002XZtlOVzfwkQDlbxrVtAxqXT907UU_8qE-JQSBUrXdtywXxMssuqXFjx3d-Ih8TdqjdEBjo-FRLfy
+
+sprite $WikisourceMd [16x16/16z] {
+JSw50SHG2C3Gr1Mo_xGdLDzt1KeVRWsNy2_caQAkZB0PTHe1h10P2opp-j9WJcjQba5xpQwXrYqQ_i7PdmYm1zskS_gEHfjplSj8frpdCh2QZDVF97fbtxcX
+ZW2xfJcNq5WIu0i
+}
+
+sprite $WikisourceLg [20x20/16z] {
+LT05gcLH30NHkdwyvZ_Rxf3_hB3D8bWWAyjnyTLbjiRs8jM9RKFBczO6AsSBAl_RWIsibxB1MKlx3VJqqonQqB71Q6axIqjkqAWoTENU8DOWp9TrK63gUDav
+8KozNuQBcSRRXiyMvcI-JDdXq9tDQ78fHqS5gj7JD2THCoeELFVVbzvn-wuapZpw1m
+}
+
+!procedure Wikisource($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/W/Wikisource', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/L/Lutris
+
+sprite $LutrisXs [10x10/16z] HSc30S0040F0gztiFssDHmXZAf1dJj5ZlPHbm90vVzzStCINjA_gdn1DPXPs
+
+sprite $LutrisSm [12x12/16z] HOh50G0W00AnM_QVrexxa9XaMcp8ZTbM0p2SLc4Y_FGfxYcHu6POAwXtyBIAt83rVV3_m0nrruF2QbtrG0S
+
+sprite $LutrisMd [16x16/16z] {
+FSV70O103C0mqtky_xO4hkWdVcjuq8NDHhA8nrGxGthMcr0VYe4HqyKLSK_0i_YRDJq3Zqxy-mqgW-DWiP_AP7UWmsWteoTsi2gdLG2FSbkGCavSndOl_0PJ
+AEa5
+}
+
+sprite $LutrisLg [20x20/16z] {
+NT25aGCn50JH-TeJG-UVxTMOxIVkOkaknc5U-j1uMZDBnhTufvLJfDmR-vcQxixcKiFqLhDujBnt3na1jil1LfBKVLb0uKd7c-QWlXjm5CpyRh7SBZwb3Foq
+a5lmILfGzDF2-nzlZu_QtXwsRC1HEjXqiWmiNz96BntiNB9_
+}
+
+!procedure Lutris($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Lutris', $name, $tech, $desc)
+!endprocedure

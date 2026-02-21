@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/P/Photon
+
+sprite $PhotonXs [10x10/16z] 7Ol50S1G24FfTt_xRrj2Bd5pZDTCk1s-461p7wfDvCj-Gq80PeZjzGxLgb-AEjqvjXkQrmVLany
+
+sprite $PhotonSm [12x12/16z] FOh50S0m4CDyXN2i_RSjLn-ZBegB7YfWk2mvZH5B-6phJ6UJcaFEfpr9VHI67Wo_dnJ7OsEpYES_5iHIyzaEfrsok-Uw9Eja6M3EzW
+
+sprite $PhotonMd [16x16/16z] {
+JOh7WKDH48EOUJcg_sftRV_8JG9-H7RbnfHSOiPhPeeqV9LZUkYzrxbznUyCAnrTRmjKmZ5Xsb1CD4voiOwNpaLFI7hsbAfKtnl6kARjOapRTioOkY_YZcrc
+mD8s0MKLpstEtKr7juObgRWuKKUo1V0F
+}
+
+sprite $PhotonLg [20x20/16z] {
+JSxLeKL124FH3QECfVzgdzuZwnT9-EX-lF8cbwki6LpsQY5NcD2rPDjEzZs9dLVyRPbCbHHZ-kgY06lRnlZLqYZge41SSanEn-Cqus9ZD-zIvYqaD_V4myrD
+qWuUyqXUOWuUSqOg2oQtg1Gn5TwuTDjg17ldArgeceDAZt20w1oM09Py3NpEwkBJDX0x_4nsMzdvK_ffSaMHYLjtcPBQ_z8t
+}
+
+!procedure Photon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Photon', $name, $tech, $desc)
+!endprocedure

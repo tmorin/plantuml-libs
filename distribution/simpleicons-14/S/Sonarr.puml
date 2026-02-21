@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Sonarr
+
+sprite $SonarrXs [10x10/16z] 5S450SG0002XUvaB_TDEeCTYxCLhgdE1vHXpX1yBQjzuLICZzY3BpouQTpYMQl2g6m
+
+sprite $SonarrSm [12x12/16z] HOl50SKW50JtA_1i-gysdZ2dLUquGoUS7E4uv3yachSex-4bQ1_Wry71cAUyzJZpxwu5VHVl_wx_qO2_MvF2sMccZJnqbrO
+
+sprite $SonarrMd [16x16/16z] {
+LSu50e0m241HZ0qdyUz_MZlVEa4E9R1URW67wJg4xuPQXKFp8fAejIdIrRpI2J0F03bMe00Apoy16B8nvnB7kXnhErhPrWH01sXYXS01WNr1mg2GeZHN1-Pc
+bJq_ht1Gw_xv3tBeEAHiLW
+}
+
+sprite $SonarrLg [20x20/16z] {
+JT25bGGX44NHtuPioSi_swL6E7Dn5xqTCucc7myVUUY37rqgDf9IPWujQNEmk-9fKiEMRfank_a34X0XA7vrO1ui7QDsdHZB_6HQ7ACaYsCgTBPWgD0emUAa
+2eFIWAfwTNs8fViVvM82eO3f5uGdgFfE7SpqCHE87jOJIIsyyH4-kyfeRER7_j9DsuGIbye_
+}
+
+!procedure Sonarr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Sonarr', $name, $tech, $desc)
+!endprocedure

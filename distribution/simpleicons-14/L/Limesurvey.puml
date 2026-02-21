@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/L/Limesurvey
+
+sprite $LimesurveyXs [10x10/16z] DSor0SG040F1UJHx--_MqKLY0NmZ5AWX-fd05JgWoB3hRrWNDISt7W
+
+sprite $LimesurveySm [12x12/16z] FOk53S0m0CEoCll_RwUYHK4zqf3C51uqYGYoDWsEOcWeuwUahAGkhNt-dlxccxPqmagEe3S5OeEa2O1c-GC
+
+sprite $LimesurveyMd [16x16/16z] {
+JOs50KKX30Fp5EVsd_PBqKEQkdRUyYxdWMBYv9G4d6eSr9xiNC3iF75wa3BD1nDXsRCjg_eBg6fKC3zqFtS_ThyqFntTXsnjVNM2e-yhXyu4HGQ6G9q4aBtf
+Bm
+}
+
+sprite $LimesurveyLg [20x20/16z] {
+NP055aKH04HrS_U_sXyuQbwQ4kA1ISYBi0ti-CKC2z2Mtlvi1lmH0XfmCAgJf8CA_Cb_-NAQ7j9QQ22lhYbNODicifQvVqTWPUP7dfnSqirLi6ysLE7sIcSe
+mIGb4DUgQjyYkxin806rcWTYuppmRbtC5m
+}
+
+!procedure Limesurvey($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Limesurvey', $name, $tech, $desc)
+!endprocedure

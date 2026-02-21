@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/L/Langchain
+
+sprite $LangchainXs [10x10/16z] Oy0F-A60aucV5SHXOWFnWE8it6pyG04kJducJg006rGTLaC
+
+sprite $LangchainSm [12x12/16z] ZSd50S0W5C3GrBtPVrhqMk71TvgiLt4Ee9XjthCogDYRhEn2f-aBZdEkjwPVxz1Nl8e
+
+sprite $LangchainMd [16x16/16z] fS7L0S9G0C30L9vBzfyMjq-WTnnNnqFFGDBg2-X2KNMBgpPrOQWnkdYJGTSPbgvH5HOnJXLrnfWS37M07mONo_h4xyu
+
+sprite $LangchainLg [20x20/16z] {
+lSor0GD140J1tdiyxFoZ5RElBszXXcFCjR-q703-oD1redXNOjCvgGiyLicrQLCDKCs4I_Tk1pJFgSQgPbM1QkXSL7bqPymfPTNEhhQwLtKC7-shtxY9zCOV
+d04
+}
+
+!procedure Langchain($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Langchain', $name, $tech, $desc)
+!endprocedure

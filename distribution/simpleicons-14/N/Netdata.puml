@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/N/Netdata
+
+sprite $NetdataXs [10x10/16z] HSQt0G0W30In8zDv_sd9l5K9wNPqm1veNb_Ly1KDXTGQC04
+
+sprite $NetdataSm [12x12/16z] Oq02R1mGm0JYyCC0aCSDvp0YIV0pC70XiHaGR2G9PACO41ACO0lXJ0G
+
+sprite $NetdataMd [16x16/16z] Oo04-1604yf7022V4Lq0XSzDI072I0IV3utFYCPdu8LpUS1yHbHfX0celc32uZq
+
+sprite $NetdataLg [20x20/16z] ZS_50O1G30FGu4xsdnRNVEixrWkZbb_j6IJTQ2F1oLF8mLF8p5Cu-WgnySLgJmo-MEE9GVOUAhbF2tjSwjzhKfZZLJIR2a4h
+
+!procedure Netdata($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Netdata', $name, $tech, $desc)
+!endprocedure

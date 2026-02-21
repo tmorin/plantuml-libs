@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/H/Hyperskill
+
+sprite $HyperskillXs [10x10/16z] Ou02VZZ5pmjYC45O_Fn8B0OUE8i1pa9N1mHm5bG7
+
+sprite $HyperskillSm [12x12/16z] Ou01HduepSl0m0Dby_8pWjcCt30sY6P2OGC1DZR870pr34nmSu00XGtJ2m
+
+sprite $HyperskillMd [16x16/16z] Oq02ZFoS3CY0XvyVnkJdvyF5v-P6ueEPJDZudCXy4234nsqU8mgVaH6V-o00OJyou0Ro0G
+
+sprite $HyperskillLg [20x20/16z] dO_50S0m4CDSvch_QSiC8GLFBrjt8j2J1beTG2UfNP-L632xegbV3eZUZdWEyNQgs_JbPaBTFDoSIpx5aLFVbUZjxZtkL51f1
+
+!procedure Hyperskill($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Hyperskill', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/G/Googleappsscript
+
+sprite $GoogleappsscriptXs [10x10/16z] LS650G81000XxFRsdzRy16jNxE4fOKCfU-cB_awepQQeRbLkgbtsPcy
+
+sprite $GoogleappsscriptSm [12x12/16z] VOR50ODG0CK2VBViFstrKkLfEDFQXJwUZ8mZmPH3ime7xXfrWWyj1HWQbmfBettNpgBgBGnWgXgclEaA
+
+sprite $GoogleappsscriptMd [16x16/16z] {
+ZShLWGDH581GnkSf_NUxT-EUd5_WDyaE51D7acV6HkT8MgCs1DOL31YWRqbsTLOp23ggNGKMZv81Wg4Szfs3feC6mD3tozv738jJecwmbKb3ZY9XgKTbA0FF
+_W
+}
+
+sprite $GoogleappsscriptLg [20x20/16z] {
+bOk7SGGX4C2q9bq0r7-rjdzdAE1rHzAi-9gdyA5L3iN76t3jVTmUXF0ZUDmzwGRpk01GVN8Ns3hJQLFjK1SeZphFM4cN8_KuJ2vr-Da0CdElpwz2aaqOgWk8
+sckjIxkPDi3aVasLwRx9P3T3c0Blf9kKQc05M1wUePCl-0C
+}
+
+!procedure Googleappsscript($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Googleappsscript', $name, $tech, $desc)
+!endprocedure

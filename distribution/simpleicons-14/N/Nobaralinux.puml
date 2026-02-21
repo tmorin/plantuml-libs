@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/N/Nobaralinux
+
+sprite $NobaralinuxXs [10x10/16z] HSc50O0044BHPxViFwqTby0tTFeqQ79NPyXJvQaMfpoLk5KvX_LKDHwQNyMzbAfa1m
+
+sprite $NobaralinuxSm [12x12/16z] JSY35GHH50Mmh37glzflFUPSpvFj-iBjwiLl-5gz5IE_RD_BhJizZsOlMlwdkLJnD-keJhkZE08
+
+sprite $NobaralinuxMd [16x16/16z] TSc55SGm4CHGXJdJVxK7PfJnluNtXFdHDM1IR0Ls9JrmAEqgBESR1fcC7nWXUa1wsOB1N5FqyGx9V0H8h7jBRUfuD1UyOBuyXgPRchy
+
+sprite $NobaralinuxLg [20x20/16z] {
+RSs5WGCX00NHmR8Aqt-r9rcNZpyC1ZkWRyw5DKsjhga1e7XD1mpUqh-OySNShK9sILej0r2NxTLWji2oMApmFqAS3elCAf3QOQ3JSVVuucg-cTONqpSBhDOj
+GudZOSi040CarPdOh00GWA8Jlm
+}
+
+!procedure Nobaralinux($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Nobaralinux', $name, $tech, $desc)
+!endprocedure

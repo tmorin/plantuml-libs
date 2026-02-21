@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Tower
+
+sprite $TowerXs [10x10/16z] O-270IGM8pytXC405CJ7GW0UFX1W1hF1Sb0M1v04
+
+sprite $TowerSm [12x12/16z] LSm50G81002nuSxrJuk-Bi3KwAcPbJfM-q9jgrD7RBjMps1kE8vmxMyBjllztgWogYUy0G
+
+sprite $TowerMd [16x16/16z] PSdL0S0m30DHbJct_xODu_loMJBKTj6IQJpISHppuIpsa7J2WVE077XT6dBpWNi-SXuuWHqcbmj5dBDXTzwSYwBLSk4uM6VL9w3AbFi7
+
+sprite $TowerLg [20x20/16z] {
+TSs50O0m30J0nvtVVrk8GFtGHh4nru65hHhh-Xo0ZkH1TV85yPye-tQ8KqzY8jb3oD_uns3q98OGs_UzsyNqtb1CB9NOYPQLCG-UTp3WDuoYg_GZrOgjbHZS
+0m
+}
+
+!procedure Tower($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Tower', $name, $tech, $desc)
+!endprocedure

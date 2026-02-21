@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Sanic
+
+sprite $SanicXs [10x10/16z] FSR50OC0002nrBst_xGuv1LuTJThyQBDJGdrwji15tLlyIdbpBnNBN3RCW8
+
+sprite $SanicSm [12x12/16z] HSY50GGm2C30l2lD_jFMvN1eVhuP7COwpJMf1ihJnzEF_XIFFn24lfqOsVqLjnSu9QfOtm8
+
+sprite $SanicMd [16x16/16z] JOy50i0m20DJz_B_tswPvgeu02Gj6mulosxABTh7Lf7CptdVZwFPmp5PvJ-THqEMo985Q7UgeMec_ENEFtXWZA2uaKsHxacctrIHE9dc
+
+sprite $SanicLg [20x20/16z] {
+NSo53SKm54FHMmvx_saB_j0eH_JGVCMcijFPz5KdljI9myYIHuEjoshwmcS1n6q6TzvagVdEegGoP7fBo2dbfgfNmMaBU5hKMoRTTlKoZl9woMLPGWWy9zK9
+46OUMRUPIICWZgD7Kc_6jl7AWgpwY0i
+}
+
+!procedure Sanic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Sanic', $name, $tech, $desc)
+!endprocedure

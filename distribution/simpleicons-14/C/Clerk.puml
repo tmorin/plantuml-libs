@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Clerk
+
+sprite $ClerkXs [10x10/16z] 9Og50G0n309vr_RsdxO25mzeyd1uOhBmytjJU45m-lKgjWlqn62pMGIHTMRh
+
+sprite $ClerkSm [12x12/16z] HOg53G0X5CLAYE3iF-t9rqQU8lGxKAwILfPpxmAgrWVY3VQkwRK_uJjE7-n2EGZx2hg8dRm
+
+sprite $ClerkMd [16x16/16z] NSt50G0X44FHhEAa_sfn_oVUO6WfUe7UnLQbP4zd_ipvJcILkqzxYRmnosU1Zxo6xtff-CAzMG3TOwK4Qa__jvVfB-3nSzGQF0QwwWSY
+
+sprite $ClerkLg [20x20/16z] {
+RP054aGX689vNN_S_xPhYpjYVmQCQ7hCvG3fy29TAdBI1Bq3CWcTP7GciY5guviOj4IqHk-xURwHbUCdNPMQaDWBFCminW1MPbUPF-nUVLbMqtF0Q75B37TP
+Wm7zVmiXWkU4rSWkCS0F
+}
+
+!procedure Clerk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Clerk', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/A/Acura
+
+sprite $AcuraXs [10x10/16z] DKk30G0n4CkRRVQVzcm4iFZum6F6PDJ44Tk6h_FmwtJ0j3Ji0hPGl6oRzMtzjAa91G
+
+sprite $AcuraSm [12x12/16z] 1S670S0W00CWkjoQ_xyjmBqoWVM1NkWu6lVb88AukIFO1Sd9ukj89BmVmXEAbo1iSLteH7bleECxS8KV
+
+sprite $AcuraMd [16x16/16z] {
+HKi50W0X3C9k_Vzl3tQ5GMqmr7LcneDs8W8vaucbOcEeAK1i2W-FnJTNUazsGn53-cN23yNontof_CSH8jLknSOptvHdB_z-sot9FyJz4_xpJfkMnWmkU1ZA
+FTXMm0rt7jebk53seBa
+}
+
+sprite $AcuraLg [20x20/16z] {
+HOy70iKW24DJDoxkVzilXlQd8-Gv0PN7rYK1dwhE7DfplhKUehtjlp3CjDb_3f0fPoJWyVAm333FSfaUfgo2huX_LeQpTPbmOjvqtKNVnMsPdRpaOp8vJHyq
+rNf3NRxK_sRn6bTrceAsy1_Qpi9bmq8JZFxrHzV7bYC8cTN5k6n4kFAxH5JmQbv4keU8Z3sJnHy
+}
+
+!procedure Acura($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Acura', $name, $tech, $desc)
+!endprocedure

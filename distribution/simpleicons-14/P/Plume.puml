@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/P/Plume
+
+sprite $PlumeXs [10x10/16z] HSQt0S0W00F19sUq_xPMPQuwU08hneXLdLghO0Ez3q0wmDAy_984X2uIieWTXonC1dm
+
+sprite $PlumeSm [12x12/16z] LSZ90OH0202mCECjOF_Lxl4qptWhNLK1qpKpyuJZCduqfzcGGW6xhTfuG1uSjy0ziBeYGdIWuHaA_3ytS7VtRkKB
+
+sprite $PlumeMd [16x16/16z] {
+RS7PWOKW50MmWBZBjVzkv_pDzX8VxDgiw8ZUn_13cUg9MiJXClMmYyVPDYrAqLnUOkzZwQoz8sxJMyehud4ntNQYxIQxKnUZ7nwKkaDvtEWRSRfDejrF35jR
+HBHOokk_Bm
+}
+
+sprite $PlumeLg [20x20/16z] {
+TSpLeTqm40N04HXrrzj_jG7PoUFvFU0dXT8c7kKKequyqhgeKt7RLYcEzQ-HfijPIhXhvOHNzN8f-nz7U46wzDtjQ18fXQaEwQoaRV6OY-igXlIOprKOsl0u
+rPEzIMawIjqbqj7TGkWRsYxoBwaU4aGrjI7jtHGvNVOkVLJ2u15vO_Z1Rm
+}
+
+!procedure Plume($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Plume', $name, $tech, $desc)
+!endprocedure

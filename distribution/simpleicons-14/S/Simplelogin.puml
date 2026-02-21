@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Simplelogin
+
+sprite $SimpleloginXs [10x10/16z] RS750OC0002nrBst_xGLu8Cajbr0zBGdDwLxlAlpdUpU-sCXvp9vdYny0G
+
+sprite $SimpleloginSm [12x12/16z] VSZL0SCm34NHQsQ__QTjWp-X8nOVkjqCeB5s-be-MC5SdrDoVGhMJMbMC0uVc-iIGCH9egyQXa7bD2ntVm
+
+sprite $SimpleloginMd [16x16/16z] ZSn75e0m24NH5o0zoFvtwx5FlIFgvu_I7mKWBU4Y0s2cKZXO1N2wQWUgWBXA37mkPW8suh163cj7BqTB321DQCHnCuB31d9iWmc7m8-0Dj85S5nBuhFK-Mq7
+
+sprite $SimpleloginLg [20x20/16z] {
+fSv7eWCW24NHgm9st_vN-slwC3apEdpip0U7NwcA6pL-pOeo_pO5G2nd_oMJe93wOAQoVJh414gl54cBh3MQ0Cf1_xnRU5uFkHHjtFODP4d9LCxbLKhAHncJ
+4F_KsKXT6dRMnIP7IDfi7WnBko6Uj8KVNlNCExu1
+}
+
+!procedure Simplelogin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Simplelogin', $name, $tech, $desc)
+!endprocedure

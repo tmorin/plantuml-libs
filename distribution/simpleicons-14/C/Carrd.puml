@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Carrd
+
+sprite $CarrdXs [10x10/16z] LOkr0G1140BPTuN-gprN8cpme8fGSmZ-svAJhAp4mkZCUE7EFyPNb2RyNxDBh0S
+
+sprite $CarrdSm [12x12/16z] LOh50SKm5CFKCB_zf_tGi2ycSQizPwi6J0Ce7YIZ-Yu9TCyDVEcxG03fU-__hEG1MkV_IO7qo95qJry
+
+sprite $CarrdMd [16x16/16z] LSc5aSC0300mbGE6_QTzQDYiC-4QcNarSmA6nKp5hJw553EYtoncp7wnkJ_nH8J551N7NnfujSNU_TztYsTItfWLcBfG0ul9hyHeCtBYS8qShW_W5m
+
+sprite $CarrdLg [20x20/16z] {
+PSw53S0m34JHxvJfRlzjAqTHcVkCiFRy3cqUVXOiddu6esVgiVYor1LszskpNHqmMmMQaGcZ7N3R2CUHKhRB1bifrhEs4qKhN1QE47FTvCgBrQeoqcm4GhdR
+LPlRPcr0EVPcK6pbyxZogeesrfU5oEDmnyjYKu6NsG4lytxB2G
+}
+
+!procedure Carrd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Carrd', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Session
+
+sprite $SessionXs [10x10/16z] 5S450SG0000XNkPo_TDEW4-lYG0v0GbmEb4_-2OjgC8gG5P00d83
+
+sprite $SessionSm [12x12/16z] VSor0O1040NHmPtflrha947khKOVM0q0TgAbGJBVVz_teq0OMm8Nf3FyNQynRvmAES54jrN192S
+
+sprite $SessionMd [16x16/16z] NSx5OGHH50Cm3SC7zrzjiamwFZJKFCnGiWntOmzJzzR9u6tPnOSsoUXb3m9ojSEU0TboU4W8DPExEIsG7LjkG9YxjsCH7zRVF8EzVBI3dlwGy0y
+
+sprite $SessionLg [20x20/16z] {
+dSy5SWKX403HPbd5-lwdZGmnAgN_bS8u7rBpnqNerkU7yi71NrNOP6MYZFz_jR18mYCBH_o7v5JvCERdfkQSc9fd_54jX9bop9tquTlbkEL3jY_T2L5VB3aG
+if1CBzs6SCgY3S2sPCsKuQz8U0S
+}
+
+!procedure Session($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Session', $name, $tech, $desc)
+!endprocedure

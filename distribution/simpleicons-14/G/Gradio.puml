@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/G/Gradio
+
+sprite $GradioXs [10x10/16z] LSV50OK0009GVjg-_QSrk4cJ1nRlzeiVIHWp1YCJNYHiGNPJcrR2rEmhsYS
+
+sprite $GradioSm [12x12/16z] NSR50OLG0C2m0i-j-q_xNSafd0Lvy-uzEBIJzQ2wqtJJwGkeYQbITLzgBuekcA12qShKdRkf5ju6TrS
+
+sprite $GradioMd [16x16/16z] {
+ROw50S9034LVstFTVriYEFouX_yu1kzOU-_wZ9f4G-IoA8ZNxZq7Y5vmJJYrJRBJQzrgZ6reRY9KjH3Ld1oYfzVMNGqekjjgrfxX0d_1xMaj1SSs39wu9EGl
+RW
+}
+
+sprite $GradioLg [20x20/16z] {
+VOy74iCW40D5xzp_VvkHXlJ4QmFN2ou9NvPXPXwlP1FBuOupadXDG4mxUOr21j0fL00yHWA3-kbHWA08UPX5tE0DjqqCVuIEUv5rRpzKw33lGc920_YeYOow
+mBBzFkjz9X2rRvJ2MJNUMuXiT_12DnBnpcQX_zm
+}
+
+!procedure Gradio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Gradio', $name, $tech, $desc)
+!endprocedure

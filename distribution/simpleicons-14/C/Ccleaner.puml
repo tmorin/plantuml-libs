@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Ccleaner
+
+sprite $CcleanerXs [10x10/16z] LKo50G0W3C9k_VzQkzO5W5WPjePavXXwNLDXThx6LFOqde03BySGUv5RHWv0HWC
+
+sprite $CcleanerSm [12x12/16z] NSQ54SDG0CKmjs5ut_jlcmk3ZiHNhBHXfRkzLNTVcDOE6jdDuwpP7srB0_swrU-d8wxY2Znrh7vgWGK
+
+sprite $CcleanerMd [16x16/16z] ROw54KGn20NvST_-kxs1oDXj57_odyIgh6jzGEp0U2Oa5BNrzOjh1nJ_vHTE8TXlYK87fZneLl7i1dK-Es2qJ-SsoHnACxSSStBdUvI6aKMaFh5ySacBhjOF
+
+sprite $CcleanerLg [20x20/16z] {
+VP05ZWCm3C1Ivlh_hxtRecQyMMIvNFc5xtimqsC26WNeLZ90OG3iimvWwJGigWOoohoceSOeNPjD6sJyHSD93XnryNGp2i1sJwqxsyXm7KPzRYYnwBtQ4AaR
+ervIXo4UZ09AbsbfRJEHUJnYytKFW6mfYv9Z4knJ7d6X1g_s3m
+}
+
+!procedure Ccleaner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Ccleaner', $name, $tech, $desc)
+!endprocedure

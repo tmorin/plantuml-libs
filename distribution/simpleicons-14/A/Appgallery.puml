@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Appgallery
+
+sprite $AppgalleryXs [10x10/16z] LSR50O100C2muaxtdnOzpIkm-rh1QBUqJTPcL5RUzRGwcAr66Dq
+
+sprite $AppgallerySm [12x12/16z] POg50S0W30I_nNt_QN7daEG5aA7YAH0MnHNvkMLjgmqFFaYL0mrNTiKX6HTtPK6t7TkU
+
+sprite $AppgalleryMd [16x16/16z] ZSTL0W0X24LHi9Lu-r_jT7_DCU0IiU3WZOZmaXblWeKVswKSxzAAuAUS6om0aYZMfPcN7bwZHLzR37svmz55yUMVRf-cR-TtpW
+
+sprite $AppgalleryLg [20x20/16z] {
+hSk30GGn54NH5pkt_shNDkQ4Nv92vsHM8ybpOqhSQO6TiRixbq_StObBPUuArvfDXaLab0auXgXIsUNYDZSACILSt-TGzr7TMWms53uskLUvPxYd--4ajRlK
+6W
+}
+
+!procedure Appgallery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Appgallery', $name, $tech, $desc)
+!endprocedure

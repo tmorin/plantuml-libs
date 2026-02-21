@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/A/Asterisk
+
+sprite $AsteriskXs [10x10/16z] LOY54O003CI2Ezb_MoxdjE_yRbAdmaCdp1SoOAzUNCj0CMbtk5A8eVYwG_d8FW
+
+sprite $AsteriskSm [12x12/16z] PS470SD0000XilUVVxSLKF3dgnqOe8rv9SXoI5CaHlNGzl5M1tNJr9Rjsu8GlO0PzJrVey2w0Jy
+
+sprite $AsteriskMd [16x16/16z] {
+TSt5TTW050314Jsnjlzgmp5xFbpNTvPbyEAy5yRxzyTu0UPdmZop1QxO5uyrqubiZwMUxaA2gXjQmjnlM2l6EZkBrYiSrbWTqSg_tXngyTy5zSo3wQpd0KV_
+SzFgevy
+}
+
+sprite $AsteriskLg [20x20/16z] {
+XSw5aGGX503H7cCKElzihz3ptLU2VEMDYUyMgsK4fdHExVBi54TaI4uvTgv0T2ERZC2nSiFZmZO12kbYqYiQefA3d08sDt2BprWbaUdcn4WiOLDqB9nKs5nr
+Ah4yT_86vJ1IH9UwCg1J-pk0or3M4HWaw_EOayOZaDrsvtmcgSxomIiV
+}
+
+!procedure Asterisk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Asterisk', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Standardresume
+
+sprite $StandardresumeXs [10x10/16z] PSQr0OG0002nUrV8_jFY7QbImxUUprlX7NvfaCZ_T-obylGj2fUAHFgSnpSn0m
+
+sprite $StandardresumeSm [12x12/16z] FOk50SKW30MlNlJsd_OB3ibJUDpWlcyWgM2V5I-CU3SS6WueqF139zhMfWlp2ZvujMvj-6t0XcC3gU44AXr_0G
+
+sprite $StandardresumeMd [16x16/16z] ROq50W0X20Ins_t_Rs-vBdgK4966o1WfHYYWz2rXyXtJ0yekQkxmil7cWpnld1XAlPXXC5xCBNaxinNSY8EXBFE-ltRtSy-UtCaTxdQ_ylzv7tVcTfIJ5m
+
+sprite $StandardresumeLg [20x20/16z] {
+RSy70a0m50FGs5lkVrloFzsn7zeKm71nnvjfVZD0sQa0k6cH-TqQx01wifURmUy6dQw6dRdrv8aZDvrL8BF5BcxpGUzw2KE_4nQILp1s0VimtktMjpgtRAiw
+gqzjMxMEisDbofwPxjK-sWC
+}
+
+!procedure Standardresume($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Standardresume', $name, $tech, $desc)
+!endprocedure

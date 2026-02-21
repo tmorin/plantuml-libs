@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/Q/Qlik
+
+sprite $QlikXs [10x10/16z] FKor0G0m30fRlVzV6tS7I0qWj-yMGnTQr-h-Th3oUiAVzi9VjZZFI-kym0a
+
+sprite $QlikSm [12x12/16z] BOo50G0W2C2ms_r_hSdeb8irel3ugVBIgPth98AxST05Nf8cxUUTx44c3FdxGGxbvWdmJfzcK7IUxl86
+
+sprite $QlikMd [16x16/16z] {
+LOw50KGn34AfUzb_sXFozLNZm0WEDvCY7YPFrcNEbFV_CNFBxqbwsK3dzWZ_Ro4prh_6Gji-AfulUyckPB9yXwle7udm-buwdEPPSGz1DKF-6vEsA79M0zMc
+g8Vu0W
+}
+
+sprite $QlikLg [20x20/16z] {
+ROy55WGX34E3Ezp_jjlN3UD_XFJZ8COPt0ZhJpxLEZ6dEl6dwXAA9Z1DpkYI1uT9Ko-5at_W0bxRXYP_gXsmhixeYfWVhgeRjxb6VeK3eLK5U2DNt7cmH0cg
+jiCQoRhEZIXlH0ZjAEVK5PMv5AUJAZQ6RHtu0G
+}
+
+!procedure Qlik($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Q/Qlik', $name, $tech, $desc)
+!endprocedure

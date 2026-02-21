@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Arstechnica
+
+sprite $ArstechnicaXs [10x10/16z] DSR50O0m00ImmvtiFotQvfKy5cDUFaiDGrGBhSO8MPps6CtDioQYobAJ32Kt
+
+sprite $ArstechnicaSm [12x12/16z] HSo50OG030J1UyMP_gl58HlNx0pQd3Yf59KonVX3wpSPa4DsCiHCelKTz_mxHnILQ-hfd8tfxgu
+
+sprite $ArstechnicaMd [16x16/16z] LS-50SKW303Hgtjk_sc_r20FTy9fEDmQ7eUU9aw-8WzrFpTN6im6zwR7OKT-hUVs9ePMyRIp_SQX0Rg9SevrtcpSO8mn340n2SOq9dzev6VFGsYgQBu
+
+sprite $ArstechnicaLg [20x20/16z] {
+PSo5SG1134DHUO-MV__L1XHstdZ097rgctdhbujFA_I9NreQMVSekPoLIFnJvUFO79pF3iM0vYe5nSrnmuGDp1e5LRZLmAJH2l9MUdmgU3mpmGsg9JoZnAFY
+yQgJoG0OTS3I8YiACaajZzxrz6bNlhAABH_f5G
+}
+
+!procedure Arstechnica($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Arstechnica', $name, $tech, $desc)
+!endprocedure

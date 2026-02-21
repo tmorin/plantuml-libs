@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Airtel
+
+sprite $AirtelXs [10x10/16z] DSR50OK0040XVgU-_QUrvOJDvstrRpNGGQTlrOLBzmf-EGH5xpDMLJ03
+
+sprite $AirtelSm [12x12/16z] HSd50SG04CD07OH1_LSRy0RcPQ3q8sKoZlJnHkkRZPKZB8aSz7-a7vMvjOdVB3PrJk2_pf5UukDYbxG3
+
+sprite $AirtelMd [16x16/16z] JSs53GGn44DHBs_mzr_jmIIMyeI3bjqvIPOPZgXUWXkiNDfIFWKuNUcdOhjZObuqT9Bq79esK3ZQgHyuV4PykwFSnx_6wIzi4cY2HvaiUu3cuWi
+
+sprite $AirtelLg [20x20/16z] {
+NSzL0WCX40FGu4xkVzhgq6ptVI6ZaDHwnLMZIJ2Jihv9_1CL9C3YdOeBgE8UtwpEm-7DKIfmtcQq4iSWFUASrU77_g-wdYRPRQDeJzlMTEfLhOkY07jgvAsN
+sz-IUWkQGVMcr_q9
+}
+
+!procedure Airtel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Airtel', $name, $tech, $desc)
+!endprocedure

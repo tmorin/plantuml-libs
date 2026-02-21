@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/B/Boosty
+
+sprite $BoostyXs [10x10/16z] FOb10W0G0CBc2Ep_hmNGfTe0bHEjV_qXsEvIhrGBwTw0tth24NiC
+
+sprite $BoostySm [12x12/16z] JKq50W0X21lNwVx_MfimWHNg8ecvxb2FCjIVj59wJVvZlECTn34UTNWlCXtuXq67wnLWRL-zwxHF8wq
+
+sprite $BoostyMd [16x16/16z] NS-50S0W40J1Ytks_sfnTmP_-OHBgcaP_3iUbUFsAVcPec_7rn6-kZrsH_L2xBN77ffzst0kyrNPUBVpN8fjTjwT_G9d3UVCYx8
+
+sprite $BoostyLg [20x20/16z] {
+ROy54iGm24KXzUZzJxi2Wqv_6tiuaDPV25w560IrFngHaLjvOH4z4lfK36uNNsOAFVvd8xG9MoJhf0CWizk7LcRTCKduYBc7iQMJK6D9cjkN81LnSymZQ1n2
+fMOO5pMNUeuVEUNz1G
+}
+
+!procedure Boosty($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Boosty', $name, $tech, $desc)
+!endprocedure

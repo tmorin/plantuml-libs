@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Zensar
+include('simpleicons-14/Z/Zensar')
+
+' renders the element
+Zensar('Zensar', 'Zensar', 'an optional tech label', 'an optional description')
+@enduml

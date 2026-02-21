@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/Q/Quizlet
+
+sprite $QuizletXs [10x10/16z] LOo30K0X500_Szt-qsRUCw-C3lzLe29heYuFJyxwvCNsJFFqBEkPwHmUElCX2G
+
+sprite $QuizletSm [12x12/16z] JSZ50O1G0CFGu4xsdnRvdjDh-JlkbPYnp3kEz0owenr_cyvAJBV6VMDqIvHJpyWEB05BzWi
+
+sprite $QuizletMd [16x16/16z] JSo50O0m3031nvtVVrgqaaFQA9_-E3UAtT_0n-8euJfitm6hslFQL2WX77gYagcpRZ5UT8rnhqUCutoVuZEier5jKbLWCG9c0rw7htbKRm
+
+sprite $QuizletLg [20x20/16z] {
+POu55i0W34CpDw3tl-rUWiEVKlaj4ay8xa33OGc_864D5qImbfkXyhju_Qt0nk_JMg3E5wrwqnk5dSFP-g4YjuehicjI7plJdcrChpdM2fsMVPh2SZ1f6LaS
+Vns0rGRUj7kB1vbYP7L67Ydz3m
+}
+
+!procedure Quizlet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Q/Quizlet', $name, $tech, $desc)
+!endprocedure

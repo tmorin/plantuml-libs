@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/K/Kick
+
+sprite $KickXs [10x10/16z] O-3dvsTWO0UH8CpE3I8X64uYM635S0Q668fUXCa
+
+sprite $KickSm [12x12/16z] O-070WO6C8N91c8uXSvcPaIm6I6QeFgnYlFpyY3O2FFHxGK
+
+sprite $KickMd [16x16/16z] O-070Ku61WY35GSVIE7Y8m0cduU50OKBDXQXc0MLpm04gEen-RZjm-zUJaxi_WC
+
+sprite $KickLg [20x20/16z] O-3a1mC68627Cl6BiRDpOuW12K9Y241O3262JmmXGfmO9oT-yn20YOcm-yWA0yBX3
+
+!procedure Kick($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/K/Kick', $name, $tech, $desc)
+!endprocedure

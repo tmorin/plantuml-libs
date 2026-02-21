@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/H/Honor
+
+sprite $HonorXs [10x10/16z] Oo0ISB4nS08f7WOkVZv-1WP-PWOMVcBr0W
+
+sprite $HonorSm [12x12/16z] Ow00y3CmyB6p0mbk9dv-NaO6LdQW22CJFr28ZO6PWO65aP5aCm4
+
+sprite $HonorMd [16x16/16z] lS470S0W0C2myZ_rxtOgHi9ZidEPI1dXq9TxBmXQ3e6hBBnSShoRjldP1m
+
+sprite $HonorLg [20x20/16z] pS450G0W402nmtdltvOQR7nEsI02Yqltpj5H20bEOGY24kL9GN3BHgDDBIs4AxAOmuWHACxd7W
+
+!procedure Honor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Honor', $name, $tech, $desc)
+!endprocedure

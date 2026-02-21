@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/C/Csdn
+
+sprite $CsdnXs [10x10/16z] Oo0Mi73mypCniV8pymCv_9mW1CJyGC30H40h
+
+sprite $CsdnSm [12x12/16z] fS450S0W002mtO_tRqi5PBFZU0xbalmQZXOS1qBvlzQUUfdM0G
+
+sprite $CsdnMd [16x16/16z] jS470GGX000Wt5lxj_qIV-1hyrRxSczGxic1q2WyItXWzS4AGQvHtxpBYJInaejGaq3oPpy
+
+sprite $CsdnLg [20x20/16z] pOI50S1048CugRrb_sbVjcW2yAkv0qSxuLHPNkGo_xnVg8RU14oxjuDCy6tFKlOPx4Bv4lpTVXsY-msDBdqcYUqW70O_sW8
+
+!procedure Csdn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Csdn', $name, $tech, $desc)
+!endprocedure

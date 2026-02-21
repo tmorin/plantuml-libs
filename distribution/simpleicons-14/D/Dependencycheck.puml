@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/D/Dependencycheck
+
+sprite $DependencycheckXs [10x10/16z] JSV50SC000GWshZU_jF6xGTGKCClCrsw3Maf4WdWFxMIk-6ZlxehP4YG07ItLW
+
+sprite $DependencycheckSm [12x12/16z] LSR5WGC1000XadMT_gizLrw0cSM7izWAjNzyorbFq5FxqpHDCD_HSJNp8VJ_vtKJzusYEg4jFnfyUGK
+
+sprite $DependencycheckMd [16x16/16z] NSU55GCn3C1G7OKJxRzjdykj0lRdKGCAppOLK8cgvXupwnLiCoOv5ZQRbKTZWSxALoRXKEt1Ph_2K1oy2jFyzVRdBb2iDRnjtGPWDgmc8ks3xvphnvVVkW4
+
+sprite $DependencycheckLg [20x20/16z] {
+PP254KGn20M9UxR_RY_2-Nvv33w8ulhwcIXlAh34GZVNOu1fjrM0iWqFBMjUZT1ELe1yku9dYcmPyYGJTejwNSeU3OabSp72TLl6wSNbrZVRji9PSye7SF__
+la7uyu7T_OgKby_UIAJWZgyr86bHvSWznA6JoFB5FK7wSHO8yalZn_4
+}
+
+!procedure Dependencycheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/D/Dependencycheck', $name, $tech, $desc)
+!endprocedure

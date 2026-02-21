@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Celestron
+
+sprite $CelestronXs [10x10/16z] FSQt0S0m3C0mfiSJ_x_MNS84kkBBeCUdPGI71rcpvCozVHnZA8DIPgV7zGO
+
+sprite $CelestronSm [12x12/16z] BSU75S0W549Hqek5_RSLEFybwWMkyGKIfPyCEvZ4WHOAdbMJFrOoIYytZHv3lsknHzhWSPffQ3LZ0G
+
+sprite $CelestronMd [16x16/16z] NSc55SCm303HIs8AoBV_jdqgjzyMGohXkV0IEXjiAoIzAAPuZ8NBXml2mkBBWaBrhJfWyosiW1zvP_7bT9BqOT65r3MHyR1D3PhAomA4Mlbo-RTPJ7FB_WO
+
+sprite $CelestronLg [20x20/16z] {
+RT350O0m5C3Gu4xsdnQ7ZxrZwkNGZFObX4ArBz8qkP9gGkMgkL9AwQ4z4f6qW4813Q3rgzKehsRpqyQzrJxndjXhoggDLchF9ec5Qi8k7LqD32gNLatt9GaX
+0PhuZkTypNaez3qtdj6pcG4
+}
+
+!procedure Celestron($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Celestron', $name, $tech, $desc)
+!endprocedure

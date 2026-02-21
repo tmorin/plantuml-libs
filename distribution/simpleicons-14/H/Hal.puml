@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/H/Hal
+
+sprite $HalXs [10x10/16z] 9SY53S105CDGbxdUVzjJb8zF0NWuQOcy_QcZN9H7m-qNIZbr2L-JhI6y-liI7ZGQ
+
+sprite $HalSm [12x12/16z] BOc74SCm08HGxsB_RNEnpRL_uCzWyT74707iMAz38Dh_OKRe9Bi6NKFhSvX2rUTCbfV_QKd96lud4ubzYkb_mEYSaYv_jXY17m
+
+sprite $HalMd [16x16/16z] {
+FOzBWa8n3838IpkZVKsu_sdzAplOmOj_gEH7MEZN6fHbh0OuRTB26lw2PhaY8Bu1TV2loROFZLDbgvIcJl8AJpbQGttA8ZNRfjLK2usoeOKeHTaMJwvZkQVz
+3Mqe2jlv2iSqiM7-_YxVlpi
+}
+
+sprite $HalLg [20x20/16z] {
+LOm7iWKX3CESi3k4glkVzfVmggZnQAo33wc6lW1NCBwomL9XA-RRCSZJ7ovmBi2WFaCND8CkbrvcXHA0IywmOque5O31gsx3hGt85r3JN30aoqPWfZc0IufM
+J0ss07E0Em2im4fJC_qDH86HfXJhqHSNt6acjLi__Ng54mHRCD_Xm1rqvKXHKYKmGUZDoMwMaby
+}
+
+!procedure Hal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Hal', $name, $tech, $desc)
+!endprocedure

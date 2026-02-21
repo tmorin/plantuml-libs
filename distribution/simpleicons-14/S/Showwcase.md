@@ -1,0 +1,74 @@
+# Showwcase
+
+
+```text
+simpleicons-14/S/Showwcase
+```
+
+```text
+include('simpleicons-14/S/Showwcase')
+```
+
+
+
+| Illustration | Showwcase |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons-14/S/Showwcase.png) | ![illustration for Showwcase](../../simpleicons-14/S/Showwcase.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShowwcaseXs>`
+- `<$ShowwcaseSm>`
+- `<$ShowwcaseMd>`
+- `<$ShowwcaseLg>`
+
+
+
+
+
+## Showwcase
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Showwcase
+include('simpleicons-14/S/Showwcase')
+
+' renders the element
+Showwcase('Showwcase', 'Showwcase', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Showwcase
+include('simpleicons-14/S/Showwcase')
+
+' renders the element
+Showwcase('Showwcase', 'Showwcase', 'an optional tech label', 'an optional description')
+@enduml
+```
+

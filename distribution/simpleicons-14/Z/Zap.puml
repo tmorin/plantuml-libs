@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/Z/Zap
+
+sprite $ZapXs [10x10/16z] BSQ50S0m4CD0bRdQVzhGetq0Cp7gh1qvyAikdLxgD2HHAREceS7_tI0eL
+
+sprite $ZapSm [12x12/16z] LSt50GH14CD0B-DqvH_jCHhqLVwoO6T9Lj1GIGSwh16yCK4LWXaxWeOWNZZ90jNPRKc1RUsJjsvFhW
+
+sprite $ZapMd [16x16/16z] {
+JOo50GH1308vMPVflzeNJcSr2I3JzGQ8m70HC0A8qiB9UZOqCBLRffutrt47c6AVhbkzSdBoBvprTR5mVPtGbtdLQN-a0siBp1sGC5ETsf0KmRI5FUdL86uw
+c1X9-W8
+}
+
+sprite $ZapLg [20x20/16z] {
+NSm5aiL024NH1t7Zxd-tKxJM_9EqOQesruyB4F2EJ90-9sN0W-QuILdwqObHkTF425g8PebwwC5UI7lh-0HsKTat1rzB3yuOQ5JCtJRIQp5Zkl_rlgHBxwW8
+ETLclVAGQC8Ek3UGPf3GotOhESDfdwjYagbPFb8SIdy
+}
+
+!procedure Zap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Z/Zap', $name, $tech, $desc)
+!endprocedure

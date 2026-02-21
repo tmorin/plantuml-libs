@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/B/Bentobox
+
+sprite $BentoboxXs [10x10/16z] Om01FWOeuEVdHsDn09ai36mG0J29O86bG4m-JBrG06O1
+
+sprite $BentoboxSm [12x12/16z] POs50O1054AVtR3_jBPU_KxW5dLyOhj_o-siDqBp7O1WzO9F0NIbkEQztTvtNVqSOPPSy8mF
+
+sprite $BentoboxMd [16x16/16z] VOu33W0m40It2ih_lxQs9ZXF3XMhC45TP2iT7OrS4omDMrEYaogLD6L39L9MLAoLhgY6TAXoPggAbKm3GrNphcB__pHceYyJ
+
+sprite $BentoboxLg [20x20/16z] {
+XO-50O0m30I3UxB_j42_xW-rYvFLo0ybskNNd20eHADezVpoVFiC2BHkpiDO1dXh93S2W4IsiAAzCmwEgmDEGVMB06VNWWrXMr71cwm6bpL1oMniMGPFoY6b
+ObVn0m
+}
+
+!procedure Bentobox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Bentobox', $name, $tech, $desc)
+!endprocedure

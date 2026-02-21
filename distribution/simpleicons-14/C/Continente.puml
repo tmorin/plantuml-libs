@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Continente
+
+sprite $ContinenteXs [10x10/16z] 5Sd70OC04C0mfOVg_RU5av-6fOzHswiMocEdZpIqt8lbeLubizEYNTFjAqj6-3Iu
+
+sprite $ContinenteSm [12x12/16z] 9Oo54S100C9IzsR_QT_WZ4D2r-D9fF-d3lkGPDXNtV13-Y3fFrfci3UIu-d8bnzwj6S_ZtJDzI1NPdyWp9vM
+
+sprite $ContinenteMd [16x16/16z] {
+JO-50SH02C1oMgNPVzgNUavnOAU5IuAJy61WHmEWdAzcI0cONI7CT5LXCM6See9MGOMki1gI54REd9ALoLtEBhkz0Xbe9WlgL5K8KP8x6xZHdM1JHr0WN3ZG
+Vewpb5JZ57d5mnS
+}
+
+sprite $ContinenteLg [20x20/16z] {
+HT05je0W503HCMbc_wlzWU_efJi8PTel-5o6iH5KstKarV9sxJogrkW2jjeJSEe5byBcKgEfEvi666Oq3ibJXLsBZKC5A6w0JY-6Lgx1G_LWPTCZ-kmcgdQ8
+BZJEjZmp04MXQu3BmR20uNxlUq9HdHiCPJKlGdInZjtUVzo9weTNTXdFf5y
+}
+
+!procedure Continente($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Continente', $name, $tech, $desc)
+!endprocedure

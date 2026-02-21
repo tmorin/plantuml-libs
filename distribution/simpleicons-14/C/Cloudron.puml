@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Cloudron
+
+sprite $CloudronXs [10x10/16z] Oq02tFmW0681ALumanzAyZ709VXWuln0aeKPp8QhOmKHC6COeGm
+
+sprite $CloudronSm [12x12/16z] Oq05_100Ol91sMmGOIum2L711gPuW0GpJ1DGDIDCEv3YX8d3rCD9FgWv39nGynbXIi6w
+
+sprite $CloudronMd [16x16/16z] NOs30G0n40JdZU3whpRsXATTW1KfV2IqL7Q0JJgjk-H_kAT2lk-xnkOCrmOyZoHiYQL0jU79yMpqi2twcEG0RvsKXWNWRZ6PKwT80NW
+
+sprite $CloudronLg [20x20/16z] {
+TSx50KGX30JG0O9B-gzsRP2r_ov855ToLseEeAe7oEfoFfKw6oGyf1FlwwAq6myWV_-f0NiGEzR8261Q6qfZ_-bcrn-iTKeSAywT6H7oC_VFVluqjs1uWD63
+ynZUAiZeWSswb7DEpkBf3W
+}
+
+!procedure Cloudron($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Cloudron', $name, $tech, $desc)
+!endprocedure

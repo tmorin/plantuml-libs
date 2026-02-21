@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Tresorit
+
+sprite $TresoritXs [10x10/16z] NKc30G0n4CkpRlQVjlOXH1w3EfAIHT02Bvb4DZvpscm6r-nG3r7g0faAHm
+
+sprite $TresoritSm [12x12/16z] POZ50SKm3CLK3cl_QJy4JhKVqo-pBjZSUzfjW7RPODFJY6ky4rAzcDaAAyCxXqGqzbZTWUP1D44_5U0B
+
+sprite $TresoritMd [16x16/16z] ZOy53WGn30DB2yNv_szF0KKdtcBOTl8rq_yQG0slmfCsPFKoBFbV-VNB5fqDf5MI6_tS7p8j_5l6fV1XknVrN_s2NBgxc-F4ccaeaQ05g6iuPlq
+
+sprite $TresoritLg [20x20/16z] {
+ZT35WGKX00FGmPtqt-rkS3ZzZF9mlfNqlOa0x2KU09yj4e1ZRo0FglDNup-XDog28YhWoJJtCGMe_7PJVP8gljFOmn2MEGxKOHbG9YohOi4ntczMJr90NsoO
+8cP1hTNbusWiEBa1ph4vm7ceQwGu__y
+}
+
+!procedure Tresorit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Tresorit', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Padlet
+
+sprite $PadletXs [10x10/16z] TSJL0S0W5CNGrBtPVrhWVLKvLwWuZMy19TZsAXveE0IQHRUMOb2T2AhSPG
+
+sprite $PadletSm [12x12/16z] VSQr0OHG00N1FS7bzTyjVnCS9XhUJDcUeE4BJTAXX1JC6Vdbut-bu8HwDtpGnrjvJXO
+
+sprite $PadletMd [16x16/16z] ZSV5OKKn0C0mFmedtd_QzZEJRk8tO-MESYjVNjXJ1qSsM5M14A5hqA5bQ1LqqgvkoWQXTQtgwi9UiwxBjewjSx04RUh4oUG15wesBd9RmfXuvHy
+
+sprite $PadletLg [20x20/16z] {
+bSYrWKDH00CmVuO7sd_Qmt2gg37aKoNlUds_chnIBBaOysTtael5bYGSZBd0c9aToKuRCcB6WW7MbbpwXBCnvaYY58mGBN-EeHxTI3b7kIYLahsJ9HVBX0bz
+oys07NiUe638Wqf3FlCD
+}
+
+!procedure Padlet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Padlet', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/F/Foundryvirtualtabletop
+
+sprite $FoundryvirtualtabletopXs [10x10/16z] DSYr0SGm00GmFGJC-qyRCAWv09Mk7FpmqVrNFM8WyFyd0L-DC-WomKVN_turtI_W1W
+
+sprite $FoundryvirtualtabletopSm [12x12/16z] 5S650GCW000WxDR_hrq0S07iAHPGOY1eU41dAjxykxOYnZ6dO2jTzMHXAo1HjeS9ZZrwjAH-2oQP3SIK3dm1
+
+sprite $FoundryvirtualtabletopMd [16x16/16z] {
+DSZ5WG0W000WxDRzfxq-dW1S072Uqm3qd4bM1B4JCDdyRCP_R7q3eLLi9c31LhdlhJ315amU3EoCb8H1m2aeP6WSq2H__tgF8IonzFbW1ZJK1DWaQGAGMhd0
+9m
+}
+
+sprite $FoundryvirtualtabletopLg [20x20/16z] {
+NSZ7eTWW500mFR1DX_sdJNvlEigdQ_iZrehJ_BIUGhMoJwLBWIbcWDYee7DDf8q9f9iuP3qQGD5J8sFbJvltQmNN2oDzNjRJEkUEIDhx9HBbqAZlLz2qKYDm
+lHq4J6YDlC3a1h790JmAS8WpQytX6IALMi-0Mk6P0GUW9sIC2vysMUj-UVeO0Fy1
+}
+
+!procedure Foundryvirtualtabletop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Foundryvirtualtabletop', $name, $tech, $desc)
+!endprocedure

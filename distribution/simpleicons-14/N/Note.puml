@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/N/Note
+
+sprite $NoteXs [10x10/16z] OsFduEJYvc9ZOE373XY0W0_EOY271G
+
+sprite $NoteSm [12x12/16z] OsFduEJYvkRYO61Wu4S021i1-1WP6Pdu86nU1X2W4Hi
+
+sprite $NoteMd [16x16/16z] OsFduE3aukBcvkPYPm02VXJ0XiRdP-R70lYO61aPcLZWV5u6C612upCCHZu
+
+sprite $NoteLg [20x20/16z] tOa50S0m30JB6F2lTinx1Rtm9ULSIgsjzTvRJMP5lrJWL94BmF7MnTa5v_hpOmu4E0US6TxD
+
+!procedure Note($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Note', $name, $tech, $desc)
+!endprocedure

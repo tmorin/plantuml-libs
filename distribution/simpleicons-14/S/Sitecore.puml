@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Sitecore
+
+sprite $SitecoreXs [10x10/16z] HOhL0O1008MmM_QVLg-FhnSGE5o9c3XY832w449ayx0hDQqvlOeJJ278uLwbfOGV
+
+sprite $SitecoreSm [12x12/16z] FOg53S104CDIVZpllsqLFLWKi4mbQS1Wn5jI0KV9d7HvDNJgdbzWv8D4OkJkH7Mi7H1yN-w9mYT1VrE262hWzGS
+
+sprite $SitecoreMd [16x16/16z] {
+FSx50KD1203Hlwum_LSRWP2vlLKUgmadFP7W3IUWPrn0VlIZ3QuTZdlvkmCfB1iQ6eG9mWbV4Vyb372uuOr2Wl_ntZ-0QLmoKVGPC5RVCYyRVFezGOT2ZtUj
+3wrayC7U
+}
+
+sprite $SitecoreLg [20x20/16z] {
+JSz5eiKW3030l6eeXRd_QRzIcMKyCPJktE9bDRHF35xA4og_1LF3CK8zXWbhn3f2Jp02ySYT3CeJegBmUSTKEl6GcU0T8pdViMcXi37TiTvfnEl9i-pdJ8l6
+_1USrvuQflXWhtiUhQHs828AieALiVA0cfcDU-FgyNeTQFz5tm
+}
+
+!procedure Sitecore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Sitecore', $name, $tech, $desc)
+!endprocedure

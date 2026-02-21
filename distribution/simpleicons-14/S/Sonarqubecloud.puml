@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Sonarqubecloud
+
+sprite $SonarqubecloudXs [10x10/16z] LSY50O103C30u4xsdnPzlNfvhGs9NzzE_DSHPsbW06p-9ZWT3P-PKIhdzxL_ycJTRW
+
+sprite $SonarqubecloudSm [12x12/16z] 1S450S10000XvlxNl-q0k1S0J9t0MZbss2wp127l0MtimdW9JuiRY3u0rWTci1iGPEbuqddd1m
+
+sprite $SonarqubecloudMd [16x16/16z] {
+LSU5OSKm50F0SnmsQFzfo_rm3-NFlNkptucdkbDJ-76ctIDA_DZ2OebsWA2bdBVupmonmKmQYboesRY2lVKG_yAHe_ct8AbWukUsuor7GCr_xWEI3YcS-LAr
+VE4J
+}
+
+sprite $SonarqubecloudLg [20x20/16z] {
+POw5WKKX3C3o72ba_sbF-pr8NRZJoi8xCRNmmQuyM4AjC1xExbov5ExbXnkiq6KtVPw05dxlahwSm3M98qipj2xU1wWzKzq1T04Km7uvO8wS3MmkB1wBF8W2
+d4RmZZPIU_XwVFhkUinKYepKmmE0rHrq_r_M2JGxG5Mji0nrRl0D
+}
+
+!procedure Sonarqubecloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Sonarqubecloud', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/K/Kleinanzeigen
+
+sprite $KleinanzeigenXs [10x10/16z] Os1WuME007uWWhCOUE0iVdOm2LM1oUA7iA0qGYqd7mC_2qW
+
+sprite $KleinanzeigenSm [12x12/16z] HSQ50O105CFGu4xsdnRd-gLzm3RnZpGMGZV4w1PJ6RCJ6tTklpjPsy_UyRY_OnZ0PHVNAqu
+
+sprite $KleinanzeigenMd [16x16/16z] LSs55S0W34NHNs-1yFRVjWTtkK0IIRkPfcO4mtVkf9LkSscD_GDFMXtmBTvsuknqt5Q7TpNtuXit--B2XYyEYUQRHB7BMNQcIFEK7iW5qtAI4Sls0m
+
+sprite $KleinanzeigenLg [20x20/16z] {
+ZSzL0a8X54NHGpmQzln7Qoln9SqYhoJvFeBsD00mAy6ddSdWNpr-ckFTqwObFWOGJoiHwc6I8lQqTtjQuwzzaN9Q0CPkWIvBcJPuabIPrdYH73FUH9ynl9yA
+q5xsUYG_sqRtuEJXinl8aWCOHhe3
+}
+
+!procedure Kleinanzeigen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/K/Kleinanzeigen', $name, $tech, $desc)
+!endprocedure

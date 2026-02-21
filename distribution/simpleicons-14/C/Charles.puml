@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Charles
+
+sprite $CharlesXs [10x10/16z] FSR50SD00C0mvvYz_xJbHYznk_JjCluQ0BGUUMjA1GW6iL4HK0yeioh0e19vgoFb13m1
+
+sprite $CharlesSm [12x12/16z] JSQ50SDG54BHc-_E_jkMUiuJu6RgZToXwkr2yAuJJ3tvwTsRoxN0Ay8Y2Sl-I_x9_GGKf8ffA_NJ5ZQuqJadOWy
+
+sprite $CharlesMd [16x16/16z] {
+NSd5WGCm0CH0cTdglzfZI3Al1LvKVpM-N7yDhm7yTG0X_dQ02cWxHCs_dMjb2t2XhgiRllu1IZg01mGqW3Ch6y08sAOE07HGhLNZJp_sCCvU6u0m-9BuqT9J
+XQBUm9Tt
+}
+
+sprite $CharlesLg [20x20/16z] {
+RSs53KCn54FH6-Pu_sdxcQGUuKFpXscwbQkdbxnLxjiSAZOeV9iMGC1yUcmwKBHAVbwzjlUCcGFgcJo1aQrMa9uzUQqyT04C0rR2UW5IXfYEM20g8KrC1JZJ
+f2g9UHO6A8sjrpbxghYcL2GPTa4QwYsKN4ivzsWLJ09SudH60P57KWtUX-bvCRdrvhWi
+}
+
+!procedure Charles($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Charles', $name, $tech, $desc)
+!endprocedure

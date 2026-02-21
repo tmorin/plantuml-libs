@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/B/Brevo
+
+sprite $BrevoXs [10x10/16z] FOg50S0W30JhNcx_QI7kRvFKpJ5fONKh4FR0hiY6kn3chYiSBbHeqtUh-rjcZ_
+
+sprite $BrevoSm [12x12/16z] NOo50S1020EfExV_jiMgzu8cucpCaf0yQHJLMU287DJZbhcCZshp_kovsjljyNj63vEuYMAejmxFl7i2
+
+sprite $BrevoMd [16x16/16z] {
+JOy50WGX30ExkFF_tzubnR82KwzGli_woLQVggWuZyR2y5U1eMdmZVlu5uzVmDLVZhZsnVcjAqOagQ6IPQ3PGC4L3swu7cQhmIvtR3sSSvw50knjKaJgUxRv
+0G
+}
+
+sprite $BrevoLg [20x20/16z] {
+JP054WGX40E3hY7_V-rPCdNfLHePWRZM7Xr6ss8cY6rSePmx5Bwa-oURpWB9cmDzR72wwr0SSv1RuPuCb6qmyo8vmdqJITpSFNp1RmdS9NoFdvX_L_d9I3z7
+KXn-XSjJYX6DR2qLG71IJ2vw0m
+}
+
+!procedure Brevo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Brevo', $name, $tech, $desc)
+!endprocedure

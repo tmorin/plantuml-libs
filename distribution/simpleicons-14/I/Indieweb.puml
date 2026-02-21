@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/I/Indieweb
+
+sprite $IndiewebXs [10x10/16z] Oo0IyFFpGp6Ov0II740CbSEl5m
+
+sprite $IndiewebSm [12x12/16z] Oo0HC8800mYpCd030IiFFpytFmGmy7C2CJS7cCt5mCi0eaa4
+
+sprite $IndiewebMd [16x16/16z] jS470G0X0CIm_fvG_sxXF432PCRkfRw_lX0Uwc84fu__gVTjW0YgPy3Rm_ynMWC
+
+sprite $IndiewebLg [20x20/16z] pSg50S0W3031nvtiFstT5oY7H1b8tgXiqXgTgYqXcoM4FIwQsU34B5LkSWDfQL-BCPwzj3GwxhL78mDbAHHVYj_C
+
+!procedure Indieweb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/I/Indieweb', $name, $tech, $desc)
+!endprocedure

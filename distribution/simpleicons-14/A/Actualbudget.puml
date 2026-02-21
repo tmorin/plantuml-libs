@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Actualbudget
+
+sprite $ActualbudgetXs [10x10/16z] Om01FWOOu8Snk9bXJ7wO83ixJ9uVYC0i9dv-C1l2vOUGx10Ao6M1g0O
+
+sprite $ActualbudgetSm [12x12/16z] HOl50S0m00AfDthxJniNFhWQeZOubhIH7U_YYpgOyNvS50azjl294ftWIk3WKkJG1QQ_Gj_U25vrn0m
+
+sprite $ActualbudgetMd [16x16/16z] LO-54O0m0CHmg6R_RVcwIovVssg9srfu5_ImwezdmWybPctKH-2LcmEuFDuLpsGiqBH_16xdg1h2haM4k3aDfs0Fa4x08lTb24X8AsZBILAexEsN29UV_G
+
+sprite $ActualbudgetLg [20x20/16z] {
+PS_50O104CNGuBAI_gl5dNST_LmoFuKZNq7vKiElhT9V6xK3JxqjwBSDcjVfpWu-ZNfiw3bL3bkpUiUIAgdXRYpTr81g2GpgKH_KLA6QM3Lk0ACMK0GrbWos
+0BgVxEwtiaaT2tQ3DUmdRsP61ruAPW
+}
+
+!procedure Actualbudget($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Actualbudget', $name, $tech, $desc)
+!endprocedure

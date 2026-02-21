@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/F/Fritz
+
+sprite $FritzXs [10x10/16z] LKg30G0W4Bpisd_QhFS9reTKu0HO6OM-1A7NGYbJLr-4dRkeo_nf3G
+
+sprite $FritzSm [12x12/16z] NOg30S1034LVZMZ_QUkUmY_MRLSBbhcZYwUmw_muFWoqM8hCK61Q343mu-lvZwSoem4d
+
+sprite $FritzMd [16x16/16z] XOs50G0X4CE2E-m_xRjhqBCMvqFCfJQ8Le9e2p0zFt6POaQcs5vYxl72BTQNs0vNdMCnW3J9cQDUR993NAVF4Y-VexyVXGunTNnx
+
+sprite $FritzLg [20x20/16z] {
+VSy54iGW44JHZplS_xGh0olHBkcQbs24c78kjVK1Ada3gF4DQEc-CIDTJYnkB4hhQSna6TJ6oXmsLl-jzTu7j9-jG7zNtPgKFp5k35OQR4q6jXRajHjJGwAF
+_mt5uRq0zXrMHW5u0W
+}
+
+!procedure Fritz($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Fritz', $name, $tech, $desc)
+!endprocedure

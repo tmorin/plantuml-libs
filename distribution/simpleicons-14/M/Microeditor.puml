@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Microeditor
+
+sprite $MicroeditorXs [10x10/16z] DSc50S0W44FHrBtPVrj-a0VdmkLTOST5qstfv3bROg8VRcAdI9gTFJbqCGI7hJS5
+
+sprite $MicroeditorSm [12x12/16z] HSY50OHG30MmTwwG_QT5lgRUd7xUIK4nLvJLdHzB83vVvMOL56zYBTClUGSnXONYbQ1OSrZwTmS
+
+sprite $MicroeditorMd [16x16/16z] HSy53aGX34NHyXthtVzkf-65wOaXLLlkII-sJUJLbJ_NDGq5unq-Gj6tlQ3JhJkuxdFVlqgg2W4wuRDfjJw4GdY7TOwgpD38YHwOUL_Jpm_aiJ38wrB8RNu
+
+sprite $MicroeditorLg [20x20/16z] {
+LT254KGX54FHy1sz_LUxcc4U1tUHvK6x59nOJpA2xAv5STVYd7iz0xZuyZI6Acpw3xkl2j3XSxmq0UfU15_xyDnW0rGyfNbjPKixDypZ2vAGDhw4yp4tx_-p
+De9D2UY9G59clOM-2j4MljGqFVxcJLzl
+}
+
+!procedure Microeditor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Microeditor', $name, $tech, $desc)
+!endprocedure

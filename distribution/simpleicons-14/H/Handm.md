@@ -1,0 +1,74 @@
+# Handm
+
+
+```text
+simpleicons-14/H/Handm
+```
+
+```text
+include('simpleicons-14/H/Handm')
+```
+
+
+
+| Illustration | Handm |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons-14/H/Handm.png) | ![illustration for Handm](../../simpleicons-14/H/Handm.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandmXs>`
+- `<$HandmSm>`
+- `<$HandmMd>`
+- `<$HandmLg>`
+
+
+
+
+
+## Handm
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Handm
+include('simpleicons-14/H/Handm')
+
+' renders the element
+Handm('Handm', 'Handm', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Handm
+include('simpleicons-14/H/Handm')
+
+' renders the element
+Handm('Handm', 'Handm', 'an optional tech label', 'an optional description')
+@enduml
+```
+

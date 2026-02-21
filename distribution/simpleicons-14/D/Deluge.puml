@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/D/Deluge
+
+sprite $DelugeXs [10x10/16z] HSW54e100810x9R_lrQlZwaTY2tKxB2VCUbqojF9WKGPg1Bk9F7q85657m
+
+sprite $DelugeSm [12x12/16z] FSU50OKm50F0mvtiF-qNQ7jFup5fkcYYXQkpZHxTXNZalYvkc2DTvuGS0rYHVVGSd16I3XBsn2D_-08
+
+sprite $DelugeMd [16x16/16z] NSw50SGm3C105SFH_jC-bY-CDfk5crbkp9sBbd5-t9Q30v0Qcvh72OuNWyxu7RVRCZlCK0DVTWIE2oQy9cN5xP_ZVOTPArzH8QmgVrrxLoERxDS8y0O
+
+sprite $DelugeLg [20x20/16z] {
+PSk54SCm40NHDLku_NUR4OJVmE7dvU3F8NyqmxTQSEVBAGJvuWryfvN6bPVTXIRAYp7h1fYOYkxi7h38r7wiItlCqXtALUbMwPAHiZ0ucknxbrrfeeNRkPf_
+gq9Di1ILGOLReneODZMkQr0hJATEy9PjRhe7
+}
+
+!procedure Deluge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/D/Deluge', $name, $tech, $desc)
+!endprocedure

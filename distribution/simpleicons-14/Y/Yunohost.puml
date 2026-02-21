@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/Y/Yunohost
+
+sprite $YunohostXs [10x10/16z] HSQ50S800CJ0uCxjFotK-vesdPPNeBmJR7HibtA-EVcGPsVHo-lcpgUqw0y
+
+sprite $YunohostSm [12x12/16z] LSM50SHG3CDGjPzH-qzxZ2-npO_ZU6udmiu1HGMjXswj46TOFi1PaCNYruQAR1nLyNGFKJdKlLmYoAH0vTyL
+
+sprite $YunohostMd [16x16/16z] {
+VSc5OGCn5C1GdPcr_xHbRf9dV-QlYr-2V1WZkK7iFMp76cxXQDljw1aYOCYUfWuLa4knEwu588JCJVueouDA5QCQtUgaUvajhuSiNAfPPOgGD7br8ouwKEIH
+Pm
+}
+
+sprite $YunohostLg [20x20/16z] {
+ZS-rOGH154J1jpF72vL_j6Am1FMXxUwVfhufU-NQN6fjdrasBiLcbKdYs6h5JUPxTEmLtGm3mbRHHD165ONSXpxCenhzmhLtzrujt6DRopYvhipfiOCMwzM0
+LZX63RU7d1wM3ddKia5sSiX7jTNrmYsqFwgxqNclLwCFPl_m3
+}
+
+!procedure Yunohost($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Y/Yunohost', $name, $tech, $desc)
+!endprocedure

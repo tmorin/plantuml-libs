@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/D/Doi
+
+sprite $DoiXs [10x10/16z] BS650S90002nmwdyP_zfqIPLYtjVm58EjzWXYtQtH5OdvTvCIWOcMW3L3TGR
+
+sprite $DoiSm [12x12/16z] FSc50SGW5C3GrF7iF-r9aGVV-Si6EZjwsu6w-tTNLFoxp08zT8iIDoaOZbCoKh7VDsuHbmUqQm1rRhy
+
+sprite $DoiMd [16x16/16z] {
+LO_50K0n5CAeUxF_jDyrjwU03iAW6TqCJj9PyZ3_9VHpEOQpT1YnONJMcWI8RQzBPsSW6Udyf0bJO2G3wblThjg2sbQRSx_U-mARMsNO18Mfn9VJ_KFKHl-N
+alcaMG4
+}
+
+sprite $DoiLg [20x20/16z] {
+NOo55KGX3C3otO3il-qze6S4RIe4Lp7j_B0Pv8d07wvHLUvHLRQOLMQ39Hbb2Jk5oNDmFaKl1QhRODPwYd1SuC8qGtFAf3VjEKZLfHOaPDMBfxfTA8AGZLvC
+mDuVxkeoMRETqf-PoH7W6bKVyijCOnkgEcSNkHUz
+}
+
+!procedure Doi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/D/Doi', $name, $tech, $desc)
+!endprocedure

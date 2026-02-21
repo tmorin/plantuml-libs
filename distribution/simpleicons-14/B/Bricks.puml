@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/B/Bricks
+
+sprite $BricksXs [10x10/16z] Os1WusU000v-R2mmGB3uOR9uMFoSK7LS40q
+
+sprite $BricksSm [12x12/16z] TSY53G1H309GpfLq_sc_krHV0BOFgKIMcI_-YxSlHjFiuVpvn5vxy1McTtLzmPcMAw01
+
+sprite $BricksMd [16x16/16z] bKt50S1024lTc_sdFHVWTmx406pF1R58lgFzT7_VqVkoDjDpQVs2Etwnh__M-nEzYDzU-qlaLo3gv_1_me-C7N-JNsLWGpq
+
+sprite $BricksLg [20x20/16z] hSx50S0W30NGNyUp_xIumx4u3qa07AyaZ8KHqVzsIgt5sLijEwETKMSlS9YmUAgbtyFAJBayQJdOiR5pOs8mLR-JNNwIf_bOSnOe9Wf9LCCLnQJK7G
+
+!procedure Bricks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Bricks', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,74 @@
+# Clevercloud
+
+
+```text
+simpleicons-14/C/Clevercloud
+```
+
+```text
+include('simpleicons-14/C/Clevercloud')
+```
+
+
+
+| Illustration | Clevercloud |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons-14/C/Clevercloud.png) | ![illustration for Clevercloud](../../simpleicons-14/C/Clevercloud.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClevercloudXs>`
+- `<$ClevercloudSm>`
+- `<$ClevercloudMd>`
+- `<$ClevercloudLg>`
+
+
+
+
+
+## Clevercloud
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Clevercloud
+include('simpleicons-14/C/Clevercloud')
+
+' renders the element
+Clevercloud('Clevercloud', 'Clevercloud', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Clevercloud
+include('simpleicons-14/C/Clevercloud')
+
+' renders the element
+Clevercloud('Clevercloud', 'Clevercloud', 'an optional tech label', 'an optional description')
+@enduml
+```
+

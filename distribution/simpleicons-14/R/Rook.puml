@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/R/Rook
+
+sprite $RookXs [10x10/16z] HOc50O0m4CI2Ezb_MgZtvHJbTO-qB1evA4WZciJpO9dU9kNs5FLYL3jeKf9cEdy
+
+sprite $RookSm [12x12/16z] LOg50G0n2CI0Tyt-qzOr5JWHkCFxmqF2_v1Vs2i8zvQs-qP6Q4pzjFE_RJUXxhfOtkElgcbVVakiY0S
+
+sprite $RookMd [16x16/16z] LSU5SGHH34J1zz5RidOc_sYFGTU5ZUsWsmRR6_Tfzj7TS5_286bmIYVz_kB-YFLQnB_elRVNMskGFoRknHQc6E_RKQ-1PhbXP7tlV_MHcGlOmN7oPI2jDq-k
+
+sprite $RookLg [20x20/16z] {
+XSs50OCm00NHG-Bozz-snHqUVaG8aY9KIHxqrr1JI0B5K0GAGHtLOAQ_KNymDTe_naUpjeEXvHYt76FyjtdVMVbhk5DrrY73qKUBsPoRYbCvDYDeT6oX0kUc
+jktMLZn_NdzpQ_7Ye1EWUaoHlwmz3py
+}
+
+!procedure Rook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Rook', $name, $tech, $desc)
+!endprocedure

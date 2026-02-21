@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/U/Uphold
+
+sprite $UpholdXs [10x10/16z] JSNN0OK030B0UzKk-qzhuSjB0FZbfQ9fzVc8h-3T3Ots-8CASrGoUJe1
+
+sprite $UpholdSm [12x12/16z] BSd50SH00CF02MVH_LTxc8z10YK7uEe8CBVSVGlaCIV243gYi57H17LPe0GzU6fkmBpb0d02iDhX3G
+
+sprite $UpholdMd [16x16/16z] VSZL0SKm3CLGXTbt_saVbB-gu35RRgfnfmd1raN9aILZon8iLLXXDw1P06tkK1fwMi0yFN633Rj51x1z3DrlRtFBiQND8nfxIGMGE2joL77dbZelpTKj0F05
+
+sprite $UpholdLg [20x20/16z] {
+dKvL5WGX3CCTSl_JZdH3sU_fI7YnOZXneblpFnKz-hhW3hKGAALDTVI1PXVwmkRm5atnD99bY304o0t_dhEHKgwPp-SVtU9muu59p-PgPKtkskSUN7A2v7cN
+CCYrJgwCsCd1x45Y5aKv2z7R3vHyZ1vJ2SQ0QZwD1PPkk04
+}
+
+!procedure Uphold($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/U/Uphold', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/Q/Qwant
+
+sprite $QwantXs [10x10/16z] Oy00_62I2OYv8Jn-88QII2mEE8iPI700MOmGdIpyG64eW301
+
+sprite $QwantSm [12x12/16z] XKY50O104C9ksNzQ_Uwuer6wmyVXtQIHBqLHSGTcGgzztNI-e2TDVUS3hBQyv2li1m
+
+sprite $QwantMd [16x16/16z] VOw30KKn54DJksV_QR_nN5u5kbZUhD86TLMe_lKv612bztXcIEg_MLX-Yh_yFT1_-NYJ_lB--kqlpry-i-IJWLVgVxuAMwU3NcPR53hW9EaE
+
+sprite $QwantLg [20x20/16z] {
+XSk54SDG0CDGXJdQVzh2ntBViNpclsxWpIulXbsFcQHj2UOjXLdFGnUWQGWE1L395ks8CH_hVcfAJMbhFj2MjkZylTNlLhwKffBCsgR32fHF4z91rHkCF5ll
+fLcVim7Fbjgk
+}
+
+!procedure Qwant($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Q/Qwant', $name, $tech, $desc)
+!endprocedure

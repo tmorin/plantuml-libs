@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/R/Rundeck
+
+sprite $RundeckXs [10x10/16z] O-S70mOWu8SpCG6gF2k4XKyP8v9w
+
+sprite $RundeckSm [12x12/16z] O-U701u68E270WOK3Zx0YAmAYSt23G6SE7KoGHNpeMe4
+
+sprite $RundeckMd [16x16/16z] O-U70oO64E1700Oq0IumdvKD3XZ80fXsSAFo6H5S3j8DvqCrZ1d1PKQrcnV41G
+
+sprite $RundeckLg [20x20/16z] O-T71WmGm8SinWCHOqHHo0WHv4BLJIl0XiqQVYoEP4KHnAAEbGQkGmqOJ25ki10xSKu3
+
+!procedure Rundeck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Rundeck', $name, $tech, $desc)
+!endprocedure

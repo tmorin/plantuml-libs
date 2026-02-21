@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/F/Freelancermap
+
+sprite $FreelancermapXs [10x10/16z] 5S450SG0002Xc_led_O5gWvhVtWuYZnZbYJa43Xv1Ami3nQ9OHo6EZHQXgjQeFe2
+
+sprite $FreelancermapSm [12x12/16z] 9SQ5WG910CNG0Els-g_sXFcQgavRGuO6zjgA8lVotPGT9gUfGDYR3DwyDFX8NlF1THJTkBigfkhunxfnLFq2
+
+sprite $FreelancermapMd [16x16/16z] {
+DSxLeS0W5C3GK5op_xHFAkSBhdFBsnduR1-LcreWJDtFjz8qmd71jgAbw4O32fQXkj1i2NXvuxXbatsKgIBuwFMQXhlkbXV1cGnizIlbZDF9SwQqe7XOzQx6
+zth8xI8P-BVqpBfSl89wyVW5
+}
+
+sprite $FreelancermapLg [20x20/16z] {
+JSxL0SKm3CLGESMWzf_sOUa435-NGnwsbOV5GmyEVetkLxvM1GYOZXOrgDf94rKNM3HGqweMke8MK8fVE_y7k6p-aJKh81vAw73Gs1OzyCyfjCUEfjZOdxjL
+qONktv84dMRx7hC_j0nTgIP7aEOW148h-OWNE0DaxP3KXR3oKzGSG6hE71OFcOTTvV86
+}
+
+!procedure Freelancermap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Freelancermap', $name, $tech, $desc)
+!endprocedure

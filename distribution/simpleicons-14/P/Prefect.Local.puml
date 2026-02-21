@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Prefect
+include('simpleicons-14/P/Prefect')
+
+' renders the element
+Prefect('Prefect', 'Prefect', 'an optional tech label', 'an optional description')
+@enduml

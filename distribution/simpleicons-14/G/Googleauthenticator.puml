@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/G/Googleauthenticator
+
+sprite $GoogleauthenticatorXs [10x10/16z] 3SI70O0008EmkBVy_wss000i8m1v9v3LWccQzFuDDG9SAn1Uu1KGuWC
+
+sprite $GoogleauthenticatorSm [12x12/16z] LSl50SH020NG5xS1-gzsXLjmldX79Yh1rLrWbVQPZbG6H4HETSOl2ge2pFDypiVoMnFS7aMVRMtKkh0843izlW
+
+sprite $GoogleauthenticatorMd [16x16/16z] PSq5WiGm2030YTJRyF_Ndd7h4nU0JzS5OWPAjIASqd3Is_tSgoilfM4zs93A8WIeCVx4cak04hbHvVN8CNOmLU5mTncjkKXx5bZA_HnOXRGi1QSXbG8QV0C
+
+sprite $GoogleauthenticatorLg [20x20/16z] {
+TSw50GCm2031ZpliFsqbKk_55VWdP2PJ35ieji-9ecmnq2mW1k7GMQtW2eUlf83CaxUBCPC3BpfEUVxcxZfLZSGv9pKt9TNX5b4MlR5C1PL9xzQiFGCtOkP5
+2XGr22yKX85zsQmMCRi_-hhncdMnoFwrSwYcFGx-k08
+}
+
+!procedure Googleauthenticator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Googleauthenticator', $name, $tech, $desc)
+!endprocedure

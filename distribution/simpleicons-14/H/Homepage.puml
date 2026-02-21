@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/H/Homepage
+
+sprite $HomepageXs [10x10/16z] O-3ZumS2FZvU9duOmCjYmCvY048e2mZuW2ncC0j40G
+
+sprite $HomepageSm [12x12/16z] bSQ53S1034MnfqPO-Db_sZ8VMsGa-KOQEd-q7T8V1hVhRDvdkqqS10i
+
+sprite $HomepageMd [16x16/16z] hSUr0S0m4C10cTc__xHXB0EgT9JUkwnDPvJSqt-wUNzpWXS6iUfc3LoyrZTtjifiKpaAaqS
+
+sprite $HomepageLg [20x20/16z] nSYr0S0m00In2tD-_sd3O6WDAaMx7lHO3ml8ivRoPJaWrYtsLQ0Ht6i15ljkgt_GtrT9_AhxHaobW1q
+
+!procedure Homepage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Homepage', $name, $tech, $desc)
+!endprocedure

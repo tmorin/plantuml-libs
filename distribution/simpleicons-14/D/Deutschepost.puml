@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/D/Deutschepost
+
+sprite $DeutschepostXs [10x10/16z] LSc30SG050FG76gy_QUj-H7cDUrlnI6bxo3qXJLj26lbL4v4kJOr_SeZTNpadXa
+
+sprite $DeutschepostSm [12x12/16z] TSQ30KHH50FH-NZ6z5_jsZWN2Vz4kYTi4SSku6oQTUF44tHzwGBp6jvmDZmPdEMOJxjbm3c4QPLNHm
+
+sprite $DeutschepostMd [16x16/16z] {
+ZSe5Qa1H44FHFFUv-zzj2VrOiHva9D5_7A1AraA2kuEdnicWmC6akNOGKqO090P9zZ01NOP96_1PVCRtNpKmMV2v-bK2NqcoD7kThSyoPl99L3U32acwjzmZ
+UKdtwgyV
+}
+
+sprite $DeutschepostLg [20x20/16z] {
+bSp5WKGX44NHXpit_sm7we-lkWzEYTuJUW_w8sAAvBoaXPHXUR-WgW8D9F0wF6XmJ5AXotGQLsOFl1wOAVZ_vxM19bCnakUGmUYO7DcvWacwDhzaFHfVjjEt
+oZL_VTHybikrdkExdQ1Ac-NWVWwsizRs6UtpHHy
+}
+
+!procedure Deutschepost($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/D/Deutschepost', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/Q/Qbittorrent
+
+sprite $QbittorrentXs [10x10/16z] 7SU50O0m40F0mvtiFosq7mySxmfo83U1rR0w-byZfrVACOjHjM8_GnZ4FWdb9Se_
+
+sprite $QbittorrentSm [12x12/16z] 9Sg5WS1G20FGLrV8_jEU_A8nyFJfgzpe30XDFZZmLAwv4wd8AqHpNVbmKTin3HpJTcjTyOvm6ElSoUp0_KBbsYiRlm
+
+sprite $QbittorrentMd [16x16/16z] {
+FOu30aGn30MdPlBkVzh5HwU8mKKnNu4Nb_SwfC75At6_p7mP0hQ1BuwD0Y9AQQ0k8wiw0f-eaWnvOqEQ211IPK4uzbmub6CZlA6932i81MhBayoCTAU8gzzP
+mkorWoA0FHlloxpy5nlW2m
+}
+
+sprite $QbittorrentLg [20x20/16z] {
+JP074W0X20EnNWFo_z-UiOrCMR9sPLHupBNAKJS0LGCyBGKykzFP-E3L9cLyfnBZVW6LUydfv6cPUpconkO-F1IHkWP3SosPoOSNyd13kauUeDndk3p82_di
+BP99yBdeCzsSZmpXCO6kiJ1oyWS5tGr343THyFPSGuuL0OM9hfUZVrGw7D3nxg-IE1KFWqxwyT4EbeQUVW
+}
+
+!procedure Qbittorrent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Q/Qbittorrent', $name, $tech, $desc)
+!endprocedure

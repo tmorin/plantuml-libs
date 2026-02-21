@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/D/Decentraland
+
+sprite $DecentralandXs [10x10/16z] RS750OC0002nr8lU_jDYRn8O-e8k4sMjeR-gq524YeQg3oh5PP8REm
+
+sprite $DecentralandSm [12x12/16z] JOo50G0W20JVRjr_MblXwCGYjO13E-mqtsft_TIPr9LFsqTfHYMRFcSIgeMsy14hFxiJOSn-lTVsEWnWBmQS0G
+
+sprite $DecentralandMd [16x16/16z] {
+RSZ5GKLH04F1_ES-_NVB5HncbPCqq-ryvSEbsteoziVJyqpWLeyRsuCaZobgOoZzOiQLC9KUk96S0wMXZtdNdLBmkWLUGsz9HkJBQrxSsO2fjE7CFuxpmv9k
+QzOKRm
+}
+
+sprite $DecentralandLg [20x20/16z] {
+VSz5WiL024NH5qy9tFslDafrVpz378Nar5aF9e9t2ZmeBUJISn2eadEm1AmnAsSEvx0ChSbRbo0BY5IA68b3h-7UT8YcHIhZU3Lt3ziBIZJrRYcWGhdZ4ueO
+GgeST7-OpIn9EJvuL8gkAmZZ6MFjNLza7lNwOQvsAlSHEm
+}
+
+!procedure Decentraland($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/D/Decentraland', $name, $tech, $desc)
+!endprocedure

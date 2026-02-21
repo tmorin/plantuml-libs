@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Tokio
+
+sprite $TokioXs [10x10/16z] 3SI50G0n5CBGTouLzj-s7v800EZWT0FDDrB5VydEh8ag4fc0yGB11G0B
+
+sprite $TokioSm [12x12/16z] BSY50O0020J0i_Db_sbj-0O01BH-w-s0KVnhPwreW0qTZllA_RV3BLF0I9C586826g81LhzU
+
+sprite $TokioMd [16x16/16z] PS69ZGGX300mpp-04lhlzXJfzhVvDL1Eb6MXCVWNokxf5CA_f8iL9-Mwss4iiV3lG2fP9bFBeYmDat-nR7cdywGqGXYiA2TXyzJO2Fy6PLdz-WC
+
+sprite $TokioLg [20x20/16z] {
+TS65OSGm400mnH0-t_xJbbr-oIFTL4o73xSlYM0vVMc5bV1T45fZkbWE8N5vjroB7FSerhQOpkp8BBu9i0FZtKMIuurt0-hcIycMrDo7wMoC8tjGJwQJi2--
+EmZ2DmcKpjGQ0eDfc4uFF0C
+}
+
+!procedure Tokio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Tokio', $name, $tech, $desc)
+!endprocedure

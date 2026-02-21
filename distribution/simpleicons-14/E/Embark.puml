@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/E/Embark
+
+sprite $EmbarkXs [10x10/16z] Om03Vdv-1ZGMApy_Drm88W04d501VZwu53hWXm0a5W
+
+sprite $EmbarkSm [12x12/16z] Ou00Vdv-JWO4cnM9ZSJaHsAoW1YyG0PC6Cg4ipcWYlcucHZWPa019qus
+
+sprite $EmbarkMd [16x16/16z] Ou01JduWO400NZG-YCk3u3A1-2oeqlneN2w4sSZI_530YCfdWkl5D8iFoIO6PeX6X3m2aCu7
+
+sprite $EmbarkLg [20x20/16z] hSx50G0X34JHmPtqN-swk_2F3qamnwcD0Jl3AdzWj3VLKLWIExZMKzezd3TXAj6Gmr2WiOYTPUpCOcNpfTcoPRWjq39Mtce
+
+!procedure Embark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/E/Embark', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/F/Ferretdb
+
+sprite $FerretdbXs [10x10/16z] DSO55a0X20NH-Ht6s_zkFTGeSB4Uy6GPEd0vVNKPt3gHBcuuPM7fAyY_Hv45
+
+sprite $FerretdbSm [12x12/16z] 7Og50S0W40CFTtx_QP5S2yGGnGF2Favo1y8pqWEWMTMYQpY_R9q28qsqpE2nzVJYCwGbWvcJnYdJ4Gss3Pd01G
+
+sprite $FerretdbMd [16x16/16z] {
+HOy54iGm3CHKvkh_lxrnDZTLq6mJXctXux1uwBns8fvJtQEwqxZogFsDOj289xutq6HBJh7Zvg3dNIibbvV5IJ0iXCVO2RSwD7c0OROWrvyDMhpXwDDLfGpu
+0m
+}
+
+sprite $FerretdbLg [20x20/16z] {
+LSq5SY0n30NHjeT9VV_RRXcqILwXy9FgiVFNQnCLqcOwcLRZFi_7Pit3t-jCJ-QeXKxzYUenHJ_YhZIprzCKIrzaXHRtKg2rsCKDcmsMlQUiwEbm5uRB14cD
+lFrfELP9DiLcXDRR3XiUVrIgwegcEtz0E1nq-sT0VIBU3U0V
+}
+
+!procedure Ferretdb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Ferretdb', $name, $tech, $desc)
+!endprocedure

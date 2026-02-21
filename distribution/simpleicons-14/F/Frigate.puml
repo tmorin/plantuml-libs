@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/F/Frigate
+
+sprite $FrigateXs [10x10/16z] Oq03_7066uOG1roCdv-DbPM1WHaknGbdCM2o
+
+sprite $FrigateSm [12x12/16z] TSQr0G0X04MnVox8stzQN2fIHSFJyve-uJNlvdbceTV2Vzvv7dKxcbRVnY8
+
+sprite $FrigateMd [16x16/16z] bKs35S1053lZS_zfQxjvZCqMhcn84BTXedONLJL_EEourGvrvRwZucFo0yig-oLuV983jmTkZhniIGi
+
+sprite $FrigateLg [20x20/16z] ZOu34WG130I3jVh_hprpieSk1WDJ9fbZ6cMpCiXc1dqoXyuKy9rTMRLrDw1-iN5cp8pdaZDTqtRj_MlLQabr1q9t8rZXtzs0LVPsgyn7
+
+!procedure Frigate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Frigate', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/L/Lootcrate
+
+sprite $LootcrateXs [10x10/16z] FSg53OLG0CNGanVx0dJ_QN5ev2hafYyZVXsE-UhwlwvS3XFg-UbWCMwF4SK6
+
+sprite $LootcrateSm [12x12/16z] DSo54O0m40NH8-xNVxTi_amMUyJiTkoLdLTR6dHyg_2vSNrukxVdeTakKmZojbl3vdI2J9zJiWbrZcbm5mn-
+
+sprite $LootcrateMd [16x16/16z] LSp70G0X24JHsMHM-kzsSSp_zXG0ym5x8i1NVDSjQlPb056gPpQTTbpWaN21lhgrpOQSPcLwHcjc6RP8BJyqkqA__w2dAj1CDjr-7Iq6SaFx0G
+
+sprite $LootcrateLg [20x20/16z] {
+RSe74eL028FXW5t1tF-qRcLV_QV1Dq6FExxQU41FMmKZPxQI6jTsaCKY0ZZvQGx87rC0IpFoac4IbhlvQyI7GKzIoX_MMssO8_9Xl7wjvBk4bLP6-nsMa-vb
+fuZQ3ZbRvCrYeSQjMuFmonQUxKu
+}
+
+!procedure Lootcrate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Lootcrate', $name, $tech, $desc)
+!endprocedure

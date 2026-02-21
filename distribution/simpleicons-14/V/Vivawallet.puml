@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/V/Vivawallet
+
+sprite $VivawalletXs [10x10/16z] Oy0A-FaX13Cl0vW5XWnyG0A8E1XX0X0-cCK3ehYWca482G
+
+sprite $VivawalletSm [12x12/16z] TScr0SD000GmcU7XzfysK0MjLgu5D8RaF90jNGX2P50s6Jqxv6rRPbl54490nfxjQ43VrUBJ7G
+
+sprite $VivawalletMd [16x16/16z] bSlL0KC124FHyzp9_jDMcA2zFn3pFqycK3aOAiyPa2svP20ZdcAFN5n11xin-h_3rF_94vdqQqwReQizKbce6onX2m9T7f9I3ysOt9BuWJS
+
+sprite $VivawalletLg [20x20/16z] {
+fOvL5iCW401d8Px0tF-qDTw-_bO6MHV-vIWCsfoAoa3T82uz3sFakwfxjG5U02WKHO7BaGOKDnOBO0TiG3FDKp9w0fi1uO422YcwipNJO3S05HXRvIRDEPkJ
+ctGtE2InnwP6jP6iQaULDr4BK2jVSGS
+}
+
+!procedure Vivawallet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/V/Vivawallet', $name, $tech, $desc)
+!endprocedure

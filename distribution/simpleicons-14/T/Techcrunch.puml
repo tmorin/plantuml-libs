@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/T/Techcrunch
+
+sprite $TechcrunchXs [10x10/16z] Oy0B-440JF7o0Z4J4oylBuWBH51vc1842nC
+
+sprite $TechcrunchSm [12x12/16z] ZSPL0e1G44BH-_37mjd_QktkCm7yK8-Ww7-Ce9w_i3DWw8a8xNfZU-uZI0ADUD01
+
+sprite $TechcrunchMd [16x16/16z] Ow0Gy401ZCaF1K0-c4RY8sWUC0UidsW-563XCp4n0Wae8DNz
+
+sprite $TechcrunchLg [20x20/16z] Ow03u84388S9mkA70v0OZ8qfnilBomUXc9YOs7Z102eBf80a5yGECiJWW0Gn1g0hG2GSK3ki
+
+!procedure Techcrunch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Techcrunch', $name, $tech, $desc)
+!endprocedure

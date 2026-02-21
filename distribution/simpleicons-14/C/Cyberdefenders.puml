@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Cyberdefenders
+
+sprite $CyberdefendersXs [10x10/16z] HSR50O0000GWxFRsdzOENg1W1NA2vjcS39H2NloZE5DGry2xl0ix
+
+sprite $CyberdefendersSm [12x12/16z] HSY53GCn0CLGjqVXl_-qONWYom0N98QeXavT0aByaMeRC7Fngqy7NAURrFC5n7HQfwFfROnnYb
+
+sprite $CyberdefendersMd [16x16/16z] NO-50G0W2C3iZl-ljGEOEKpOH8oMFRk4EaYrNgy7TJpTm9IG2sTsgHDdBTw3xt0sGhfvwms0AoBoYNtwFYLTojdSQo_4AtPp_Qe-VfXfTm
+
+sprite $CyberdefendersLg [20x20/16z] {
+RT350SGm0CH0nSpRVxK7OT9pp6PkCa0PbgEiNwL9wJ3jJJojRkJ3WJEatZKnLSsb0ZJzom3600AijEYqtQ11qRq1yO40RpQVUfI06qy0kBODJ3FC9iUUVvhw
+mupImoHkLYKskttV5m
+}
+
+!procedure Cyberdefenders($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Cyberdefenders', $name, $tech, $desc)
+!endprocedure

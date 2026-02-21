@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/T/Talos
+
+sprite $TalosXs [10x10/16z] BKc50O003C9k-VzR9HOaD4Hc1Qlf7SgZKjqjL41YbLh0FQNsaAp-PvI-WGy
+
+sprite $TalosSm [12x12/16z] DKo50G0W3C9k_VzRrnq0n1vWWyILUKQQJx2hE0w2JfSthCXptG6yq2rdFXjwjGxCPTiBpDODpLLh1Tk6NJy
+
+sprite $TalosMd [16x16/16z] {
+HSu55i0W30FGu4xkVrgitLicy8j2G_pfOXlLTC-pg2ElTSc8Yi030qEB-s8cD0AttkenZPKLJ9xNe1nGcbFhSJREfzulnpndN3lG0-Kxl7Pu6aJ0V2K4kNyJ
+MqWeNvvgyopP
+}
+
+sprite $TalosLg [20x20/16z] {
+DSm73i0m20J1JNVb_l_Ro2UpQiaO8Bk4ovwqxo3JkqsJR0hReOlir65h0Wvuv6MR8c-4xzXEa6VLg5fsxr5OW6t8tqxLjYweftLqBXlenHswyLm48Lo8nrR4
+gM_Hq47O4FwZhXDgs2g43eu2XqxR412u9coN3Z8Dcs_iJc7Rovaj-m4
+}
+
+!procedure Talos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Talos', $name, $tech, $desc)
+!endprocedure

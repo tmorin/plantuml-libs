@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Scrapy
+
+sprite $ScrapyXs [10x10/16z] BOk54S0m30DLRb3xJnluCzi2hKX-jSFYuo2UsDrVulWDQQDuzzL3uufI2CF-WMW2
+
+sprite $ScrapySm [12x12/16z] HOo50S0m40AfUs__QUFl3gZQmwbkr3ArUiM9CKxwDEn5vpC0NqVTq86dH9q7PntZ9rpr2D6__SvQoZK3
+
+sprite $ScrapyMd [16x16/16z] {
+JSr5WWDH24NHItyjWRV_rNOIIiy8XzHSct5nDw2gayIf-fbUR0T_fJRibU_Xg1adQODmheS1q0MiaivdTOEX7zAm2h_KI840wOyhxnKw9mVSkCnixEFgTf8f
+UXqH01y
+}
+
+sprite $ScrapyLg [20x20/16z] {
+JT25bGCW44NHXpk__sfN0fpCnLsusjRC64aZEEVhNevBWqVjbfwlqM-NDHEaWU4y0c7i8KfbsAwj0cg1nrNfZBZJBbFrreSSqFLlSlJfGKVacBboEpUNs40p
+As6n06pNzZW1Bl9u0MrWwPwDcUNVbnQEBNYgzkXJo_Fl5m
+}
+
+!procedure Scrapy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Scrapy', $name, $tech, $desc)
+!endprocedure

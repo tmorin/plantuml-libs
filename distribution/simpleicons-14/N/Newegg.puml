@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/N/Newegg
+
+sprite $NeweggXs [10x10/16z] Oo00-5dvUVZvGGmcVav-VdvE1XuWoGvY0laW09O5adn01dO
+
+sprite $NeweggSm [12x12/16z] ZSf50i1030B0a7Nb_xyjstjbBX6mVtfhioneYsnS5ErdYQB_P6RQRVSwnjbpBgLbZqRPTrtS782zk
+
+sprite $NeweggMd [16x16/16z] fOs50SCm3C0QDkl_QySNh4hCTDsdcNUF7j4-OP3r_i0xJAhuyMw03KTjsN6n24X0DH49YO92LnSzewNbW0FAc_NRbr20_Cxtt_-B9m
+
+sprite $NeweggLg [20x20/16z] {
+lOg50G8m4CJg-hB_jjnpNG5IJvF-H3dIfaWvUlDJvjxTJJoWmcLJ1VLLvQl9XYf8S9rttjLtruKXJEQyU-DtOKMpiBQCEtkxNOyUH1AT4qa1XHaT1AYudP1K
+ZrAmSifOl-43
+}
+
+!procedure Newegg($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Newegg', $name, $tech, $desc)
+!endprocedure

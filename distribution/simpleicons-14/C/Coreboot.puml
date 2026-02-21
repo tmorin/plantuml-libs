@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Coreboot
+
+sprite $CorebootXs [10x10/16z] Oy0E-FZvuMmeav-HZH_4vk870JvEVduGYm68GPBS846eUXv-LCC
+
+sprite $CorebootSm [12x12/16z] TOk30G0n34LJks__QSz6d0_v3zrnnwE0xSmq3se-yJrdSQ1o0Je8q03CbCmIAhZTR16zdOjIdZ42
+
+sprite $CorebootMd [16x16/16z] ZOxL0KLH3CBeSS_-qpvtlVcg0jh4V6w1zRm7mgsps0BGBsrdfU85r4DN1mr2DHbWhG4WQWpSYQKl6CKy0BLHBmuD0gnnrrUWop6UqX1rmwyPzOKz
+
+sprite $CorebootLg [20x20/16z] {
+bT350OGm54NH5_VS_hkTFmxiE74NtPDrvLgSNHSRaowT2JClgpKn-l7lIHrexrMgu4eMUlLkIJin5k3wa1p6zyMRA5kDerLYyvWzIkTDaVQx3fXDf2v0Rp04
+58p-8dZvPTbVXmbSlu2TTTS3
+}
+
+!procedure Coreboot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Coreboot', $name, $tech, $desc)
+!endprocedure

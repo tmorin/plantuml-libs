@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Adventofcode
+
+sprite $AdventofcodeXs [10x10/16z] Om01VX11WCNFpmLayG591WOMVdv-c2GFbCN93zF23yO8ZGm
+
+sprite $AdventofcodeSm [12x12/16z] ZOpJ0K0n54CVQftzfwtnssiaURhHwzKSr_pL0g7EYV5BWDjmDZdo8CRuSfHuQp5qvg0Xdm8
+
+sprite $AdventofcodeMd [16x16/16z] TOs30G1130IJUtFwh_PvHinTiOBDZLwptcHzv_lvYxtj5u6p5nbuLt0ywO1pOG0M-xC0q4aGG99MsKAxefzRKLxIyC7v9_knyMU3-VAVxE86
+
+sprite $AdventofcodeLg [20x20/16z] {
+ZT23eGDH503HMVjE_zL-96kVPuD99WU57DHoqBpiQqsO92TzsduQdPyY7Un0jONU5E9J_zUe4VPgP4noFuADJatOIBHNDiAIiDW-Ga2tAm5APQOf_thhgQkr
+XG-TLmOJFVvcRGA_
+}
+
+!procedure Adventofcode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Adventofcode', $name, $tech, $desc)
+!endprocedure

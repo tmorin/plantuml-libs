@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Sidekiq
+include('simpleicons-14/S/Sidekiq')
+
+' renders the element
+Sidekiq('Sidekiq', 'Sidekiq', 'an optional tech label', 'an optional description')
+@enduml

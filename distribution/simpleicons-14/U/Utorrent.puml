@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/U/Utorrent
+
+sprite $UtorrentXs [10x10/16z] LKc30G0n4CkZHlQVjkOXH1aLVjHX6pN43zOuaBe4XZM-GV81gkhOoVQwUkLwaG4
+
+sprite $UtorrentSm [12x12/16z] HOc50GH14C9owvx-gtsNZ08ywRlmnZV_zoZeKXF1nNude5E8AcJr-WNT0rKtWF9Yj0lD05FhEpZg0NWkRN07
+
+sprite $UtorrentMd [16x16/16z] {
+JOu50iGW4CHIroN_V-q9rWPdPORCTCL1vxQmaB4Jx-SnwPsJStw2KGS4mXybTPOSoBcpXbVhyJgtt10MBns1-cOOgchoPg14g2GZs9lF8PLGUZgxyYEwXOtC
+M2maVdm1
+}
+
+sprite $UtorrentLg [20x20/16z] {
+LOu50WGn20DdNIhy_xV74TQcZYGbsMexPrxCbjI1n5vi1DtU7D-g6Lhior_60c2Cmo3IpWx4OUiZa5yup1wVKLb_34ZL7xfztNLhUJllPexLr2nhX6ISSPzW
+sQyyDn8OV5yGyfHwLuaWBNK44y5cvIxavi0frbJq0m
+}
+
+!procedure Utorrent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/U/Utorrent', $name, $tech, $desc)
+!endprocedure

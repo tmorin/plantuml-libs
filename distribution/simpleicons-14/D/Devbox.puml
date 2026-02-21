@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/D/Devbox
+
+sprite $DevboxXs [10x10/16z] LOU50O0m0CE2E_d_MdHQBpN6XW3zQyVPwV_IEcm2mYg7R3BPm3agTW2XCcu
+
+sprite $DevboxSm [12x12/16z] VSJ50SD00CH0sSUe_giD_WAU1IufRmdq-R1CkBO9jWqyqJJSa0MKwMGBUi8qAji0470y_-MGBtS
+
+sprite $DevboxMd [16x16/16z] ZOq50iGm40Afjp7-_ziZxBbF9Gmn_4bYVd1olUR57gEeJ7RIHIC7JFBTXHM55JZ8EST1Ih4KAiRkqg8OVtic9xXUb-vLQYR5xF62xxXZolZ02G
+
+sprite $DevboxLg [20x20/16z] {
+bS_L0SGW00JHYJlJVxLdUvulDW8ydEgCItEoeYVpruQNfPRM3gtEw1GwL9YLJisSBBGhjC4zH8fExJULs0Qmglb1cvL6jNrjiMa3au_YqJJBzMhtkjKOuq59
+HsEs217DY9yiIdMk
+}
+
+!procedure Devbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/D/Devbox', $name, $tech, $desc)
+!endprocedure

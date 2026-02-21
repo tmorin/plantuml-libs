@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/L/Localsend
+
+sprite $LocalsendXs [10x10/16z] FOo50S1020DJzsR_QH_dS8LoSeD1zsSbk5Tr1ydiqbDsjdLcP7BT_Mj38
+
+sprite $LocalsendSm [12x12/16z] 9Sc74S0m20J1itAc_suz3okHaMs3S12BvBB5zjc1tFqYmDPM6il0t6OEE2Q90N5utcH8wuFTVP3jbywQdGu_
+
+sprite $LocalsendMd [16x16/16z] {
+DSo54SCm44JHRujn--ysSpln4-i0oqVhuLDvzZnncWQOZlV5HnjQH9jqNs1ZLw6vy-Ee0UiSqDy0QVfj2xIMows27k2LBAw4fe1Ldsqc80au8lXP0VO2K-5l
+INe9Fm
+}
+
+sprite $LocalsendLg [20x20/16z] {
+LT2rWSKm00N1CKiolFwhFVoc2JTS7sNFDddeE98qEX_Pd5A08xrJIuN4Gyj8j_NejYGLokRVadzkNKxGbmDxJZso1xaq9E-s8jkx5MHgg3b1W7nK3-_KfK5N
+sWIEeAQv9Q2bmFlHj3d5hNyk-0O
+}
+
+!procedure Localsend($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Localsend', $name, $tech, $desc)
+!endprocedure

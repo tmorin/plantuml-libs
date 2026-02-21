@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/R/Rakutenkobo
+
+sprite $RakutenkoboXs [10x10/16z] VOR50K0X08NudSh-qvfdVGbJwRT7xjMexaPM5-3Tg9Arf1FAI1a
+
+sprite $RakutenkoboSm [12x12/16z] ZSgr0S10302nUsPx_sd3K0LKYnzKe1km1gFIgqAaLuGeJJJgC00Zs-DpK-ihXetqRXkLDpC
+
+sprite $RakutenkoboMd [16x16/16z] fKnJ0i1G3AiUg_lVTiRtLYC9_BJqjUYQw81hJUhDDMXzK8kKR5nD0o4DMH9Mmwtmsl7Ky54UlQsCbtub9mkqQxS6EhfVc21HKiC9tsm1
+
+sprite $RakutenkoboLg [20x20/16z] {
+lSxL0KCn34FH6tWGa_QVjWmJjCVuAVv0QJHcRzmi7aVeTCrL2pkhc_OgbGSsnS8uFNor8NH8SzDMGZrrjC7DQ7UpjTl3Mze--8hF_XBGKRllDrbBbbea_irC
+u4AYU2boUJzzR3RvaIi
+}
+
+!procedure Rakutenkobo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Rakutenkobo', $name, $tech, $desc)
+!endprocedure

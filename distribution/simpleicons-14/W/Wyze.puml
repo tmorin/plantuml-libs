@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/W/Wyze
+
+sprite $WyzeXs [10x10/16z] ZS450S0W002mtO_tRqi2PBCf7DghjTZuk9r_SHsux_CsrG4
+
+sprite $WyzeSm [12x12/16z] fS450S0W002mtGNhtnOY89i5Xzrs7ESRlayeoNagKdBOyEN6e0e
+
+sprite $WyzeMd [16x16/16z] jOQ73G0W3CFCtl3_jqJzeHcMSKvKYNOBkK39uOWHvTKjlnacwqXthQ2ztliOEES3
+
+sprite $WyzeLg [20x20/16z] pSE94SCm200msT3yXFsthSU8xkJZpZ4E-hVnz7AjIXcdL-CTuDHxePDhEggAZZxniDrZZ3adOS0abxdwa3y
+
+!procedure Wyze($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/W/Wyze', $name, $tech, $desc)
+!endprocedure

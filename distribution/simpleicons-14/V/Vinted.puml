@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/V/Vinted
+
+sprite $VintedXs [10x10/16z] FSR15G0H44J1lyi9TFxH0lscJeKDG1BeY-7bcEvgZBFV-uGdpra
+
+sprite $VintedSm [12x12/16z] TSO53i10449HLYELV__RDeH8RKVWwJdGf88v0Gdi5XzsYRijUyUAMNcF3zYfSGS89Q2uBm
+
+sprite $VintedMd [16x16/16z] VSq50WGX2010jbFd_w-zuhhiKO5uRcDkr8iqIUGU_xmfwO8-WZczOZgxIOzOeoKP3MfiwNj2ofkdDpUfBBXpOynWlxi1yMZSeuy
+
+sprite $VintedLg [20x20/16z] {
+VSu30i0m00F0p5x-_zhQobPTYI8_NAxtWSd9sn5rN6ygRJDDRd_3oA-qbRmocypMERFPj1ZPest1dDgkxSHDtiWstxgUStlCSRbzKswVnZSx3XTjfiHcPqYJ
+Ktpr7tPA
+}
+
+!procedure Vinted($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/V/Vinted', $name, $tech, $desc)
+!endprocedure

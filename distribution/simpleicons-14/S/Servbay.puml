@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Servbay
+
+sprite $ServbayXs [10x10/16z] Om03RWZ5pyyFP_336ImG5XiN0mCdI1Wa1oN1B4QOMapjl60Q
+
+sprite $ServbaySm [12x12/16z] RKp50G0X33l1TVzfwtr1NP8yQlCnwtiNdJRRSyoTffVwD-ZyJvxaPmYgYoeN_amgDBnthSnZylFaXW
+
+sprite $ServbayMd [16x16/16z] ROw50GGX40E3E-c_sjV36NGzQ0HCE9BTiFnIccdu0mtUx7yt1S2JwMU8J6gWoCBQyvv7DOVhVg14IGEefvaeyvJCBxMPaZzai-j5L9NTrCz8u0q
+
+sprite $ServbayLg [20x20/16z] {
+TO-50O0m4CIWxjb_MhI21chlDmrCdEx83EPcuE1YyPoaYusAk2PMFiBKmrRqUPyZOJii614kpVP9JGJctQOuQCvo16Ou_PSECyNgEDScilR8TIPjJuE804VZ
+oWo_gik77FkskOifr_9NmC_jlW8
+}
+
+!procedure Servbay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Servbay', $name, $tech, $desc)
+!endprocedure

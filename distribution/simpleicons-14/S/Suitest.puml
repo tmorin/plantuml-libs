@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Suitest
+
+sprite $SuitestXs [10x10/16z] FS6t0SD0000XRELu-s-hxW53y8JuUOJNq9dYt2eePMTcuu044E03
+
+sprite $SuitestSm [12x12/16z] LSQ50KGn3CDGVIYtqVxJ7kCBsFoPp_04DW0gyOZDeI0s3qRbAPh1xZo0GtK8XADfi21uU6Q6hXE0RIO-ja-_0W
+
+sprite $SuitestMd [16x16/16z] {
+TOw54GCm30CLHblxRziBbZze5hxnvrFCVBZDwcIzomtkaCdeRCewVTw2D31cjG2248dQAs9iiw0bafcdiN6TWss7MDmmsxHhSzQWiWF5ZuOHm3WexQhZQ60n
+YJe4lQB4Vnu
+}
+
+sprite $SuitestLg [20x20/16z] {
+XOy5SW0n3CHqV4aQw_-lBNXS9WMj7Lh-PwLUePXQzjt9CabS01RO9ZJJzPl36DCCnvKo8lBTyfOzd4wMeIFL4fLqxNYXUW8SVLMDBbBqxJ9vTyjzOxANKnqC
+LRWxGEnLS7rlkUTpFK1LU2jhKsqKbti5lBD8wtnXLVxb2G
+}
+
+!procedure Suitest($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Suitest', $name, $tech, $desc)
+!endprocedure

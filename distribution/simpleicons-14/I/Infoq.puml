@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/I/Infoq
+
+sprite $InfoqXs [10x10/16z] Oo0Iy0Cn1mC36oi_Fni30oid7py3XCKFOk3N2m
+
+sprite $InfoqSm [12x12/16z] bKW50G0m2DlTl_vfhnG0vb2UlMAkU12Xj9JR2IGy0yfP95_ZeV8s
+
+sprite $InfoqMd [16x16/16z] jOS50O1054Dtxl_rJulJ0ERJpo1UcSuqE3umID3AKE3uEbYQQ4tk_VwWIBIWcpv9IcxgO-m
+
+sprite $InfoqLg [20x20/16z] pSY50G9H3C3Gd7oNx3yjxWm0hrx-I4sSRPMBlVSL6sSpmmBHK5niqUPcZrONAvncYmEPeHTcjO3jyMiTStNPt1y_LEYUnxU57pa2
+
+!procedure Infoq($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/I/Infoq', $name, $tech, $desc)
+!endprocedure

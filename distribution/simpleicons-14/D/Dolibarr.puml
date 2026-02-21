@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/D/Dolibarr
+
+sprite $DolibarrXs [10x10/16z] VSQr0G0X04MnTuhpzvyMfoLLU1iWt6XufJKxbdcaDJZCIcipUr01
+
+sprite $DolibarrSm [12x12/16z] PSQ50S0W3031hnVVVrlS7v8ST-WYvCBFsJ2xGvyuee7JXOgnW-LWrwsRNOhkl_i03m
+
+sprite $DolibarrMd [16x16/16z] bSk53S0W04JHA-xiFotkqNxqaG3MegXv0yILgjjXyTYMvGz7gIIQ2G3L_opZQm_R-6bJRw7x-qHiVTqXZd0Rjt5PLMO
+
+sprite $DolibarrLg [20x20/16z] {
+RSw55S0W40FGu0xxJrkNt8Eqs4TXdsXSALq3WrAkaHKsx5arQMPXyQoqj152TBYj0p3zSJ90tUROa9uNiUdnt4kc5cQlGHLstvpOyhYY7rFn0NgV7b_yR0sJ
+TKoMGKQ27G
+}
+
+!procedure Dolibarr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/D/Dolibarr', $name, $tech, $desc)
+!endprocedure

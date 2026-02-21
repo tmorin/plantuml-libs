@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Vanillaextract
+include('simpleicons-14/V/Vanillaextract')
+
+' renders the element
+Vanillaextract('Vanillaextract', 'Vanillaextract', 'an optional tech label', 'an optional description')
+@enduml

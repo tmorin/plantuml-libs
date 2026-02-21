@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/H/Heroicgameslauncher
+
+sprite $HeroicgameslauncherXs [10x10/16z] HSQd0S10000XlgYqst_Ro4S1RW3R0iJPm292n0O2Q0Oaf_W1
+
+sprite $HeroicgameslauncherSm [12x12/16z] PSP70GD1400WRdiV_suZ8Bm0Di3teG88J1HoOECWa54H0F_lOFXUii5Mpf209mH0V0T-
+
+sprite $HeroicgameslauncherMd [16x16/16z] {
+JOs30G0n302ZTx7_jXzLiQuG3p_Odg2w4xCwpJKr4iiUSwNFPV9njy31Kgi-3-XjvlKBeojzdi9bRlBiFclUVkWJPvZsFkKoN09lAiA1Cq2pVToGcag3xVMM
+npy
+}
+
+sprite $HeroicgameslauncherLg [20x20/16z] {
+NKu50eGm3CiCX_p_jITfnoJesXWgyea99G9O4XeE4G6arIUxCQbFiEccDxat3SvXLheDcQGDEbdQm-ZcRNXH30BDyB3JvJETDflblc3IBA8Y_1_s4Tw9hQlz
+xMGadUUpiAKhxStF_8C_pP01EzO70rXm4HDkllvV
+}
+
+!procedure Heroicgameslauncher($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Heroicgameslauncher', $name, $tech, $desc)
+!endprocedure

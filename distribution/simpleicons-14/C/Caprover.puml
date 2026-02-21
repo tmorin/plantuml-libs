@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Caprover
+
+sprite $CaproverXs [10x10/16z] 5S450SG0000XNkPo_TDE09P6S18Bfru6D0GBfOrG2qO8G611m02u0G
+
+sprite $CaproverSm [12x12/16z] 9Sp50SKm30FGLwOasd_Q3_N55eCd9s1Xvm9wac5baLZEJ1wScPE61udC4r6auGHHCv0LIiY4dRMU6nwAVW4
+
+sprite $CaproverMd [16x16/16z] {
+JOs50SCm4CGKJapQVzh25MK_4s7hreaFbJ3lX0rWyO12maL34XLKbgKxGPOqHJc0AyEwD7kcEy2fTDCioIekVxTrExCh2d0S99m_STOrTe9l2ybZzFP9B9ym
+Iwxe1d07
+}
+
+sprite $CaproverLg [20x20/16z] {
+JOy7Zi0W3C0Sw2x2_t_jZOX8TIU6B1RtT1nys2-IkAFKpBSZBSa5qVjncVPQfsuBOCyRzQ1lZqQA2vYwTwL3HREfg66wEwLwekSRG9kKZEOa02G9bLkIKQFe
+lGx4mUBHDL0ZIYhNwkN-EEfSb7jtga8TbEJupDANQYHx1bLWSLqDebrvY5y
+}
+
+!procedure Caprover($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Caprover', $name, $tech, $desc)
+!endprocedure

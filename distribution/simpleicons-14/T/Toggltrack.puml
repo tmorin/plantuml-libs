@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/T/Toggltrack
+
+sprite $ToggltrackXs [10x10/16z] Om02Jdus1X3W1mDE20D4i888Y0Gda0668C02OR61nC0OeGve6110kAnG1W
+
+sprite $ToggltrackSm [12x12/16z] 9SY50SGm30ImArCIxJ_jGospy_SuKvHQEQ3MdlvsvCeyuU6unGI4U2vErePv4EIsHksk-S6HK4P-ElNz0W
+
+sprite $ToggltrackMd [16x16/16z] {
+JO-50K0X24JFRjr_sX-7zKmQG5mRHM7HXX10ngOVKPwwdUUhgC_eiEBX6DO-_q35xwOjutST5CegVVz2kwZhd_2FGV_kX5qtmZXGsU7PcD6HCTBznkEZNY9H
+rpGl
+}
+
+sprite $ToggltrackLg [20x20/16z] {
+JT054aGX30FGVCN9_K-xqY1zerZI0KFgh2-SXqCxCD19SylBRYk1ygoibj0fyzg1X8B4lwWze2JmHLQCSflbdRfX8IVKqL4uuHwzIgng-3UJrBrNiscELtcp
+jzaGqKP5qwO9LED1KwxpKG01LJduo_HE_wM29MgZwT8N
+}
+
+!procedure Toggltrack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Toggltrack', $name, $tech, $desc)
+!endprocedure

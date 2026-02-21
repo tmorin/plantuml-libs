@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Yabai
+include('simpleicons-14/Y/Yabai')
+
+' renders the element
+Yabai('Yabai', 'Yabai', 'an optional tech label', 'an optional description')
+@enduml
