@@ -45,7 +45,7 @@ const argv = yargs
       "gcp/!**",
       "fontawesome-6/!**",
       "material-4/!**",
-      "simpleicons-14/!**",*/
+      "simpleicons/!**",*/
     ],
     type: "string",
   })

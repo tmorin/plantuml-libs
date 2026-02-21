@@ -15,7 +15,7 @@ The library provides 12 packages.
 - [fontawesome-6](fontawesome-6/README.md)
 - [gcp](gcp/README.md)
 - [material-4](material-4/README.md)
-- [simpleicons-14](simpleicons-14/README.md)
+- [simpleicons](simpleicons/README.md)
 
 ## Include the library
 

@@ -1,0 +1,74 @@
+# Iledefrancemobilites
+
+
+```text
+simpleicons/I/Iledefrancemobilites
+```
+
+```text
+include('simpleicons/I/Iledefrancemobilites')
+```
+
+
+
+| Illustration | Iledefrancemobilites |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/I/Iledefrancemobilites.png) | ![illustration for Iledefrancemobilites](../../simpleicons/I/Iledefrancemobilites.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$IledefrancemobilitesXs>`
+- `<$IledefrancemobilitesSm>`
+- `<$IledefrancemobilitesMd>`
+- `<$IledefrancemobilitesLg>`
+
+
+
+
+
+## Iledefrancemobilites
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Iledefrancemobilites
+include('simpleicons/I/Iledefrancemobilites')
+
+' renders the element
+Iledefrancemobilites('Iledefrancemobilites', 'Iledefrancemobilites', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Iledefrancemobilites
+include('simpleicons/I/Iledefrancemobilites')
+
+' renders the element
+Iledefrancemobilites('Iledefrancemobilites', 'Iledefrancemobilites', 'an optional tech label', 'an optional description')
+@enduml
+```
+

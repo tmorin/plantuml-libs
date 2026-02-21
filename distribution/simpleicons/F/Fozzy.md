@@ -1,0 +1,74 @@
+# Fozzy
+
+
+```text
+simpleicons/F/Fozzy
+```
+
+```text
+include('simpleicons/F/Fozzy')
+```
+
+
+
+| Illustration | Fozzy |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/F/Fozzy.png) | ![illustration for Fozzy](../../simpleicons/F/Fozzy.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$FozzyXs>`
+- `<$FozzySm>`
+- `<$FozzyMd>`
+- `<$FozzyLg>`
+
+
+
+
+
+## Fozzy
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Fozzy
+include('simpleicons/F/Fozzy')
+
+' renders the element
+Fozzy('Fozzy', 'Fozzy', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Fozzy
+include('simpleicons/F/Fozzy')
+
+' renders the element
+Fozzy('Fozzy', 'Fozzy', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,74 @@
+# Vivint
+
+
+```text
+simpleicons/V/Vivint
+```
+
+```text
+include('simpleicons/V/Vivint')
+```
+
+
+
+| Illustration | Vivint |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/V/Vivint.png) | ![illustration for Vivint](../../simpleicons/V/Vivint.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$VivintXs>`
+- `<$VivintSm>`
+- `<$VivintMd>`
+- `<$VivintLg>`
+
+
+
+
+
+## Vivint
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Vivint
+include('simpleicons/V/Vivint')
+
+' renders the element
+Vivint('Vivint', 'Vivint', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Vivint
+include('simpleicons/V/Vivint')
+
+' renders the element
+Vivint('Vivint', 'Vivint', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,74 @@
+# Instructables
+
+
+```text
+simpleicons/I/Instructables
+```
+
+```text
+include('simpleicons/I/Instructables')
+```
+
+
+
+| Illustration | Instructables |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/I/Instructables.png) | ![illustration for Instructables](../../simpleicons/I/Instructables.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$InstructablesXs>`
+- `<$InstructablesSm>`
+- `<$InstructablesMd>`
+- `<$InstructablesLg>`
+
+
+
+
+
+## Instructables
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Instructables
+include('simpleicons/I/Instructables')
+
+' renders the element
+Instructables('Instructables', 'Instructables', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Instructables
+include('simpleicons/I/Instructables')
+
+' renders the element
+Instructables('Instructables', 'Instructables', 'an optional tech label', 'an optional description')
+@enduml
+```
+

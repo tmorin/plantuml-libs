@@ -1,0 +1,74 @@
+# Playerdotme
+
+
+```text
+simpleicons/P/Playerdotme
+```
+
+```text
+include('simpleicons/P/Playerdotme')
+```
+
+
+
+| Illustration | Playerdotme |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/P/Playerdotme.png) | ![illustration for Playerdotme](../../simpleicons/P/Playerdotme.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlayerdotmeXs>`
+- `<$PlayerdotmeSm>`
+- `<$PlayerdotmeMd>`
+- `<$PlayerdotmeLg>`
+
+
+
+
+
+## Playerdotme
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Playerdotme
+include('simpleicons/P/Playerdotme')
+
+' renders the element
+Playerdotme('Playerdotme', 'Playerdotme', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Playerdotme
+include('simpleicons/P/Playerdotme')
+
+' renders the element
+Playerdotme('Playerdotme', 'Playerdotme', 'an optional tech label', 'an optional description')
+@enduml
+```
+

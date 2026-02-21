@@ -1,0 +1,74 @@
+# Calendly
+
+
+```text
+simpleicons/C/Calendly
+```
+
+```text
+include('simpleicons/C/Calendly')
+```
+
+
+
+| Illustration | Calendly |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/C/Calendly.png) | ![illustration for Calendly](../../simpleicons/C/Calendly.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$CalendlyXs>`
+- `<$CalendlySm>`
+- `<$CalendlyMd>`
+- `<$CalendlyLg>`
+
+
+
+
+
+## Calendly
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Calendly
+include('simpleicons/C/Calendly')
+
+' renders the element
+Calendly('Calendly', 'Calendly', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Calendly
+include('simpleicons/C/Calendly')
+
+' renders the element
+Calendly('Calendly', 'Calendly', 'an optional tech label', 'an optional description')
+@enduml
+```
+

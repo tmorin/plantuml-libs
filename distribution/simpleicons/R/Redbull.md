@@ -1,0 +1,74 @@
+# Redbull
+
+
+```text
+simpleicons/R/Redbull
+```
+
+```text
+include('simpleicons/R/Redbull')
+```
+
+
+
+| Illustration | Redbull |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/R/Redbull.png) | ![illustration for Redbull](../../simpleicons/R/Redbull.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedbullXs>`
+- `<$RedbullSm>`
+- `<$RedbullMd>`
+- `<$RedbullLg>`
+
+
+
+
+
+## Redbull
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Redbull
+include('simpleicons/R/Redbull')
+
+' renders the element
+Redbull('Redbull', 'Redbull', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Redbull
+include('simpleicons/R/Redbull')
+
+' renders the element
+Redbull('Redbull', 'Redbull', 'an optional tech label', 'an optional description')
+@enduml
+```
+

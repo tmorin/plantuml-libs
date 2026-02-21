@@ -1,0 +1,74 @@
+# Maptiler
+
+
+```text
+simpleicons/M/Maptiler
+```
+
+```text
+include('simpleicons/M/Maptiler')
+```
+
+
+
+| Illustration | Maptiler |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/M/Maptiler.png) | ![illustration for Maptiler](../../simpleicons/M/Maptiler.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$MaptilerXs>`
+- `<$MaptilerSm>`
+- `<$MaptilerMd>`
+- `<$MaptilerLg>`
+
+
+
+
+
+## Maptiler
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Maptiler
+include('simpleicons/M/Maptiler')
+
+' renders the element
+Maptiler('Maptiler', 'Maptiler', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Maptiler
+include('simpleicons/M/Maptiler')
+
+' renders the element
+Maptiler('Maptiler', 'Maptiler', 'an optional tech label', 'an optional description')
+@enduml
+```
+

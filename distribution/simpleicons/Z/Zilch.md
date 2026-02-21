@@ -1,0 +1,74 @@
+# Zilch
+
+
+```text
+simpleicons/Z/Zilch
+```
+
+```text
+include('simpleicons/Z/Zilch')
+```
+
+
+
+| Illustration | Zilch |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons/Z/Zilch.png) | ![illustration for Zilch](../../simpleicons/Z/Zilch.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZilchXs>`
+- `<$ZilchSm>`
+- `<$ZilchMd>`
+- `<$ZilchLg>`
+
+
+
+
+
+## Zilch
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Zilch
+include('simpleicons/Z/Zilch')
+
+' renders the element
+Zilch('Zilch', 'Zilch', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Zilch
+include('simpleicons/Z/Zilch')
+
+' renders the element
+Zilch('Zilch', 'Zilch', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -17,7 +17,7 @@ type ItemsByModules = { [key: string]: Array<Item> }
 
 export class Simpleicons14Factory implements PackageFactory {
   getUrn(): string {
-    return "simpleicons-14"
+    return "simpleicons"
   }
 
   private async discover(
