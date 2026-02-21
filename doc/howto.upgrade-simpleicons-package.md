@@ -42,8 +42,7 @@ git checkout -b feat/upgrade-simpleicons-<new-version>
 
 ### 5. Update templates in `source/templates/simpleicons-14` (if needed)
 - Review `source/templates/simpleicons-14/bootstrap.tera` to ensure it's compatible with the current Simple Icons.
-- Check `source/templates/simpleicons-14/examples/` for any example templates.
-- **Important**: Example templates are located in `source/templates/simpleicons-14/examples/`. Ensure they render correctly with the new icons, as missing or broken references will cause the pipeline to fail.
+- The Simple Icons package does **not** use example templates (unlike some other packages such as AWS or GCP), so there is no `examples/` directory for this package.
 
 ### 6. Generate the work directory
 ```bash
@@ -60,7 +59,9 @@ npm run generate:workdir -- -p simpleicons-14
 git add .
 git commit -m "feat(simpleicons): upgrade to <new-version> icons
 
-Updated Simple Icons package with latest icons from the official repository."
+Updated Simple Icons package with latest icons from the official repository.
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
 git push --set-upstream origin feat/upgrade-simpleicons-<new-version>
 ```
 
@@ -111,7 +112,7 @@ If the pull fails due to conflicts, perform a rebase and resolve any conflicts.
 - The package organizes icons by their first character (e.g., `simpleicons-14/a`, `simpleicons-14/b`), which is handled automatically by the factory.
 
 ### Common Troubleshooting Patterns
-- **Template-related failures are the most common** pipeline issues (missing files, broken references).
+- **Template-related failures** are common pipeline issues for some packages (missing files, broken references), but **do not apply to Simple Icons** as it does not use example templates.
 - **URL validation**: Ensure the GitHub release archive exists before running the pipeline.
 - **Icon count changes**: Small variations in icon count between versions are normal as Simple Icons adds/updates icons regularly.
 
@@ -129,8 +130,8 @@ If the pull fails due to conflicts, perform a rebase and resolve any conflicts.
 ## Troubleshooting
 
 ### Pipeline fails with "unable to render" error
-- **Cause**: Missing or incorrectly referenced example templates.
-- **Solution**: Ensure `source/templates/simpleicons-14/examples/` folder exists with all required `.tera` files, and verify all references are correct.
+- **Cause**: For the Simple Icons package, this error is usually **not** caused by example templates, because the factory returns `examples: []` and no example templates are used. The error may instead come from another package in the pipeline, or from invalid PlantUML generated for Simple Icons.
+- **Solution**: First, inspect the pipeline logs to confirm which package is failing. If another package is failing, refer to that package's upgrade guide and its template directory. If the failure is within Simple Icons, look for issues such as invalid PlantUML syntax, corrupted or missing sprite files, or mismatches between generated resources and the manifest.
 
 ### Icon discovery fails or icon count is zero
 - **Cause**: The GitHub release structure may have changed, or the archive URL is invalid.
