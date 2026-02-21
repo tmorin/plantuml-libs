@@ -71,7 +71,10 @@ git push --set-upstream origin feat/upgrade-simpleicons-<new-version>
 ```
 
 ### 9. Trigger the Package Builder pipeline
-- Use the GitHub CLI to trigger the workflow on your branch via the REST API:
+
+**Option A — GitHub Actions workflow (preferred):**
+
+Use the GitHub CLI to trigger the workflow on your branch via the REST API:
 ```bash
 gh api --method POST /repos/tmorin/plantuml-libs/actions/workflows/package-builder.yaml/dispatches \
   -f ref=<your-branch> \
@@ -85,6 +88,23 @@ gh api --method POST /repos/tmorin/plantuml-libs/actions/workflows/package-build
   2. Render all PlantUML diagrams and examples
   3. Push generated distribution files back to the branch
 - The processing can take several minutes, a looping status check is recommended.
+
+**Option B — Local build using Podman (fallback if GH_WORKFLOW_TOKEN is not set up):**
+
+If workflow dispatch is not available, run the build locally. This requires Podman and network access to `docker.io`. The `copilot-setup-steps.yml` environment has Podman pre-installed:
+```bash
+bash scripts/generate-package.sh simpleicons-14
+git add distribution/simpleicons-14
+git commit -m "feat(simpleicons-14): upgrade to <new-version> - distribution"
+git push
+```
+> **Note**: The first run may need the PlantUML JAR pre-downloaded if `sourceforge.net` is blocked.
+> Download it from GitHub Releases instead:
+> ```bash
+> mkdir -p .workdir/.cache
+> curl -L -o .workdir/.cache/plantuml-1.2022.4.jar \
+>   https://github.com/plantuml/plantuml/releases/download/v1.2022.4/plantuml-1.2022.4.jar
+> ```
 
 ### 10. Review the pipeline output and logs
 - Ensure the pipeline completes without errors.
@@ -138,6 +158,18 @@ If the pull fails due to conflicts, perform a rebase and resolve any conflicts.
 ---
 
 ## Troubleshooting
+
+### PlantUML JAR download fails (sourceforge.net blocked)
+- **Cause**: The `plantuml-generator` container tries to download the PlantUML JAR from
+  `https://downloads.sourceforge.net/...` which may be blocked in some environments.
+- **Solution**: Pre-download the JAR from GitHub Releases and place it in the cache directory:
+  ```bash
+  mkdir -p .workdir/.cache
+  curl -L -o .workdir/.cache/plantuml-1.2022.4.jar \
+    https://github.com/plantuml/plantuml/releases/download/v1.2022.4/plantuml-1.2022.4.jar
+  ```
+  Then re-run `scripts/generate-package.sh`. The container will detect the cached JAR and skip
+  the download.
 
 ### `gh workflow run` fails with HTTP 403 on `api.github.com/graphql`
 - **Cause**: `gh workflow run` uses the GitHub GraphQL API to resolve the workflow name. `GITHUB_TOKEN`
