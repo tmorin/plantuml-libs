@@ -1,0 +1,74 @@
+# DragHandle
+
+
+```text
+material/Editor/DragHandle
+```
+
+```text
+include('material/Editor/DragHandle')
+```
+
+
+
+| Illustration | DragHandle |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Editor/DragHandle.png) | ![illustration for DragHandle](../../material/Editor/DragHandle.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$DragHandleXs>`
+- `<$DragHandleSm>`
+- `<$DragHandleMd>`
+- `<$DragHandleLg>`
+
+
+
+
+
+## DragHandle
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element DragHandle
+include('material/Editor/DragHandle')
+
+' renders the element
+DragHandle('DragHandle', 'Drag Handle', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element DragHandle
+include('material/Editor/DragHandle')
+
+' renders the element
+DragHandle('DragHandle', 'Drag Handle', 'an optional tech label', 'an optional description')
+@enduml
+```
+

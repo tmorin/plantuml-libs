@@ -126,7 +126,7 @@ gh pr create --title "feat(simpleicons): upgrade to <new-version>" --base master
 
 ### Simple Icons Specifics
 - Unlike versioned packages like AWS, the Simple Icons package does not require renaming or class changes.
-- Only the version constant needs updating - the factory class name (`Simpleicons14Factory`) and URLs remain stable.
+- Only the version constant needs updating - the factory class name (`SimpleiconsFactory`) and URLs remain stable.
 - The package organizes icons by their first character (e.g., `simpleicons/a`, `simpleicons/b`), which is handled automatically by the factory.
 
 ### Common Troubleshooting Patterns

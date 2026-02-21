@@ -1,0 +1,74 @@
+# Layers
+
+
+```text
+material/Maps/Layers
+```
+
+```text
+include('material/Maps/Layers')
+```
+
+
+
+| Illustration | Layers |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Maps/Layers.png) | ![illustration for Layers](../../material/Maps/Layers.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$LayersXs>`
+- `<$LayersSm>`
+- `<$LayersMd>`
+- `<$LayersLg>`
+
+
+
+
+
+## Layers
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Layers
+include('material/Maps/Layers')
+
+' renders the element
+Layers('Layers', 'Layers', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Layers
+include('material/Maps/Layers')
+
+' renders the element
+Layers('Layers', 'Layers', 'an optional tech label', 'an optional description')
+@enduml
+```
+

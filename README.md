@@ -52,7 +52,7 @@ The available packages:
 - [Event Storming](distribution/eventstorming/README.md)
 - [Fontawesome (v6)](distribution/fontawesome-6/README.md)
 - [Gougle Compute Platform](distribution/gcp/README.md)
-- [Material (v4)](distribution/material-4/README.md)
+- [Material (v4)](distribution/material/README.md)
 - [simpleicons (v14)](distribution/simpleicons/README.md)
 
 [./distribution/README.md]: distribution/README.md

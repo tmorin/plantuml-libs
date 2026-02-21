@@ -1,0 +1,74 @@
+# LocalPhone
+
+
+```text
+material/Maps/LocalPhone
+```
+
+```text
+include('material/Maps/LocalPhone')
+```
+
+
+
+| Illustration | LocalPhone |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Maps/LocalPhone.png) | ![illustration for LocalPhone](../../material/Maps/LocalPhone.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalPhoneXs>`
+- `<$LocalPhoneSm>`
+- `<$LocalPhoneMd>`
+- `<$LocalPhoneLg>`
+
+
+
+
+
+## LocalPhone
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element LocalPhone
+include('material/Maps/LocalPhone')
+
+' renders the element
+LocalPhone('LocalPhone', 'Local Phone', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element LocalPhone
+include('material/Maps/LocalPhone')
+
+' renders the element
+LocalPhone('LocalPhone', 'Local Phone', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,74 @@
+# LocationOn
+
+
+```text
+material/Communication/LocationOn
+```
+
+```text
+include('material/Communication/LocationOn')
+```
+
+
+
+| Illustration | LocationOn |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Communication/LocationOn.png) | ![illustration for LocationOn](../../material/Communication/LocationOn.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocationOnXs>`
+- `<$LocationOnSm>`
+- `<$LocationOnMd>`
+- `<$LocationOnLg>`
+
+
+
+
+
+## LocationOn
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element LocationOn
+include('material/Communication/LocationOn')
+
+' renders the element
+LocationOn('LocationOn', 'Location On', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element LocationOn
+include('material/Communication/LocationOn')
+
+' renders the element
+LocationOn('LocationOn', 'Location On', 'an optional tech label', 'an optional description')
+@enduml
+```
+

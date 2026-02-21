@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element MeetingRoom
+include('material/Places/MeetingRoom')
+
+' renders the element
+MeetingRoom('MeetingRoom', 'Meeting Room', 'an optional tech label', 'an optional description')
+@enduml

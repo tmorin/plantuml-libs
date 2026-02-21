@@ -1,0 +1,74 @@
+# BurstMode
+
+
+```text
+material/Image/BurstMode
+```
+
+```text
+include('material/Image/BurstMode')
+```
+
+
+
+| Illustration | BurstMode |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Image/BurstMode.png) | ![illustration for BurstMode](../../material/Image/BurstMode.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$BurstModeXs>`
+- `<$BurstModeSm>`
+- `<$BurstModeMd>`
+- `<$BurstModeLg>`
+
+
+
+
+
+## BurstMode
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element BurstMode
+include('material/Image/BurstMode')
+
+' renders the element
+BurstMode('BurstMode', 'Burst Mode', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element BurstMode
+include('material/Image/BurstMode')
+
+' renders the element
+BurstMode('BurstMode', 'Burst Mode', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,74 @@
+# Brightness3
+
+
+```text
+material/Image/Brightness3
+```
+
+```text
+include('material/Image/Brightness3')
+```
+
+
+
+| Illustration | Brightness3 |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Image/Brightness3.png) | ![illustration for Brightness3](../../material/Image/Brightness3.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$Brightness3Xs>`
+- `<$Brightness3Sm>`
+- `<$Brightness3Md>`
+- `<$Brightness3Lg>`
+
+
+
+
+
+## Brightness3
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Brightness3
+include('material/Image/Brightness3')
+
+' renders the element
+Brightness3('Brightness3', 'Brightness3', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Brightness3
+include('material/Image/Brightness3')
+
+' renders the element
+Brightness3('Brightness3', 'Brightness3', 'an optional tech label', 'an optional description')
+@enduml
+```
+

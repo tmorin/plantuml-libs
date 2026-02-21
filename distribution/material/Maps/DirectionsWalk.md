@@ -1,0 +1,74 @@
+# DirectionsWalk
+
+
+```text
+material/Maps/DirectionsWalk
+```
+
+```text
+include('material/Maps/DirectionsWalk')
+```
+
+
+
+| Illustration | DirectionsWalk |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Maps/DirectionsWalk.png) | ![illustration for DirectionsWalk](../../material/Maps/DirectionsWalk.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$DirectionsWalkXs>`
+- `<$DirectionsWalkSm>`
+- `<$DirectionsWalkMd>`
+- `<$DirectionsWalkLg>`
+
+
+
+
+
+## DirectionsWalk
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element DirectionsWalk
+include('material/Maps/DirectionsWalk')
+
+' renders the element
+DirectionsWalk('DirectionsWalk', 'Directions Walk', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element DirectionsWalk
+include('material/Maps/DirectionsWalk')
+
+' renders the element
+DirectionsWalk('DirectionsWalk', 'Directions Walk', 'an optional tech label', 'an optional description')
+@enduml
+```
+

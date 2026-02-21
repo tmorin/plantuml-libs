@@ -1,0 +1,74 @@
+# QueryBuilder
+
+
+```text
+material/Action/QueryBuilder
+```
+
+```text
+include('material/Action/QueryBuilder')
+```
+
+
+
+| Illustration | QueryBuilder |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Action/QueryBuilder.png) | ![illustration for QueryBuilder](../../material/Action/QueryBuilder.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$QueryBuilderXs>`
+- `<$QueryBuilderSm>`
+- `<$QueryBuilderMd>`
+- `<$QueryBuilderLg>`
+
+
+
+
+
+## QueryBuilder
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element QueryBuilder
+include('material/Action/QueryBuilder')
+
+' renders the element
+QueryBuilder('QueryBuilder', 'Query Builder', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element QueryBuilder
+include('material/Action/QueryBuilder')
+
+' renders the element
+QueryBuilder('QueryBuilder', 'Query Builder', 'an optional tech label', 'an optional description')
+@enduml
+```
+

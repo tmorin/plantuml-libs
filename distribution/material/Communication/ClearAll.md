@@ -1,0 +1,74 @@
+# ClearAll
+
+
+```text
+material/Communication/ClearAll
+```
+
+```text
+include('material/Communication/ClearAll')
+```
+
+
+
+| Illustration | ClearAll |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Communication/ClearAll.png) | ![illustration for ClearAll](../../material/Communication/ClearAll.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClearAllXs>`
+- `<$ClearAllSm>`
+- `<$ClearAllMd>`
+- `<$ClearAllLg>`
+
+
+
+
+
+## ClearAll
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element ClearAll
+include('material/Communication/ClearAll')
+
+' renders the element
+ClearAll('ClearAll', 'Clear All', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element ClearAll
+include('material/Communication/ClearAll')
+
+' renders the element
+ClearAll('ClearAll', 'Clear All', 'an optional tech label', 'an optional description')
+@enduml
+```
+

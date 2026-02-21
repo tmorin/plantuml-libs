@@ -1,0 +1,74 @@
+# StopScreenShare
+
+
+```text
+material/Communication/StopScreenShare
+```
+
+```text
+include('material/Communication/StopScreenShare')
+```
+
+
+
+| Illustration | StopScreenShare |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Communication/StopScreenShare.png) | ![illustration for StopScreenShare](../../material/Communication/StopScreenShare.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$StopScreenShareXs>`
+- `<$StopScreenShareSm>`
+- `<$StopScreenShareMd>`
+- `<$StopScreenShareLg>`
+
+
+
+
+
+## StopScreenShare
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element StopScreenShare
+include('material/Communication/StopScreenShare')
+
+' renders the element
+StopScreenShare('StopScreenShare', 'Stop Screen Share', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element StopScreenShare
+include('material/Communication/StopScreenShare')
+
+' renders the element
+StopScreenShare('StopScreenShare', 'Stop Screen Share', 'an optional tech label', 'an optional description')
+@enduml
+```
+

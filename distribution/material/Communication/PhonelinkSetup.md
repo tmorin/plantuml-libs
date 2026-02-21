@@ -1,0 +1,74 @@
+# PhonelinkSetup
+
+
+```text
+material/Communication/PhonelinkSetup
+```
+
+```text
+include('material/Communication/PhonelinkSetup')
+```
+
+
+
+| Illustration | PhonelinkSetup |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Communication/PhonelinkSetup.png) | ![illustration for PhonelinkSetup](../../material/Communication/PhonelinkSetup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhonelinkSetupXs>`
+- `<$PhonelinkSetupSm>`
+- `<$PhonelinkSetupMd>`
+- `<$PhonelinkSetupLg>`
+
+
+
+
+
+## PhonelinkSetup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element PhonelinkSetup
+include('material/Communication/PhonelinkSetup')
+
+' renders the element
+PhonelinkSetup('PhonelinkSetup', 'Phonelink Setup', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element PhonelinkSetup
+include('material/Communication/PhonelinkSetup')
+
+' renders the element
+PhonelinkSetup('PhonelinkSetup', 'Phonelink Setup', 'an optional tech label', 'an optional description')
+@enduml
+```
+

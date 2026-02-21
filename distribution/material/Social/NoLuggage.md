@@ -1,0 +1,74 @@
+# NoLuggage
+
+
+```text
+material/Social/NoLuggage
+```
+
+```text
+include('material/Social/NoLuggage')
+```
+
+
+
+| Illustration | NoLuggage |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Social/NoLuggage.png) | ![illustration for NoLuggage](../../material/Social/NoLuggage.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$NoLuggageXs>`
+- `<$NoLuggageSm>`
+- `<$NoLuggageMd>`
+- `<$NoLuggageLg>`
+
+
+
+
+
+## NoLuggage
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element NoLuggage
+include('material/Social/NoLuggage')
+
+' renders the element
+NoLuggage('NoLuggage', 'No Luggage', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element NoLuggage
+include('material/Social/NoLuggage')
+
+' renders the element
+NoLuggage('NoLuggage', 'No Luggage', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element MedicalServices
+include('material/Maps/MedicalServices')
+
+' renders the element
+MedicalServices('MedicalServices', 'Medical Services', 'an optional tech label', 'an optional description')
+@enduml

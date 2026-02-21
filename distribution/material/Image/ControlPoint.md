@@ -1,0 +1,74 @@
+# ControlPoint
+
+
+```text
+material/Image/ControlPoint
+```
+
+```text
+include('material/Image/ControlPoint')
+```
+
+
+
+| Illustration | ControlPoint |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Image/ControlPoint.png) | ![illustration for ControlPoint](../../material/Image/ControlPoint.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ControlPointXs>`
+- `<$ControlPointSm>`
+- `<$ControlPointMd>`
+- `<$ControlPointLg>`
+
+
+
+
+
+## ControlPoint
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element ControlPoint
+include('material/Image/ControlPoint')
+
+' renders the element
+ControlPoint('ControlPoint', 'Control Point', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element ControlPoint
+include('material/Image/ControlPoint')
+
+' renders the element
+ControlPoint('ControlPoint', 'Control Point', 'an optional tech label', 'an optional description')
+@enduml
+```
+

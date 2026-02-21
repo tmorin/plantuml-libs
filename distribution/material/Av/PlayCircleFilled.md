@@ -1,0 +1,74 @@
+# PlayCircleFilled
+
+
+```text
+material/Av/PlayCircleFilled
+```
+
+```text
+include('material/Av/PlayCircleFilled')
+```
+
+
+
+| Illustration | PlayCircleFilled |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Av/PlayCircleFilled.png) | ![illustration for PlayCircleFilled](../../material/Av/PlayCircleFilled.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlayCircleFilledXs>`
+- `<$PlayCircleFilledSm>`
+- `<$PlayCircleFilledMd>`
+- `<$PlayCircleFilledLg>`
+
+
+
+
+
+## PlayCircleFilled
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element PlayCircleFilled
+include('material/Av/PlayCircleFilled')
+
+' renders the element
+PlayCircleFilled('PlayCircleFilled', 'Play Circle Filled', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element PlayCircleFilled
+include('material/Av/PlayCircleFilled')
+
+' renders the element
+PlayCircleFilled('PlayCircleFilled', 'Play Circle Filled', 'an optional tech label', 'an optional description')
+@enduml
+```
+

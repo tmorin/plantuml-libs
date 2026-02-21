@@ -1,0 +1,74 @@
+# LocalMovies
+
+
+```text
+material/Maps/LocalMovies
+```
+
+```text
+include('material/Maps/LocalMovies')
+```
+
+
+
+| Illustration | LocalMovies |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Maps/LocalMovies.png) | ![illustration for LocalMovies](../../material/Maps/LocalMovies.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalMoviesXs>`
+- `<$LocalMoviesSm>`
+- `<$LocalMoviesMd>`
+- `<$LocalMoviesLg>`
+
+
+
+
+
+## LocalMovies
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element LocalMovies
+include('material/Maps/LocalMovies')
+
+' renders the element
+LocalMovies('LocalMovies', 'Local Movies', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element LocalMovies
+include('material/Maps/LocalMovies')
+
+' renders the element
+LocalMovies('LocalMovies', 'Local Movies', 'an optional tech label', 'an optional description')
+@enduml
+```
+
