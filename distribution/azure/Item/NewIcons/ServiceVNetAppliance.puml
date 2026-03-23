@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/NewIcons/ServiceVNetAppliance
+
+sprite $ServiceVNetApplianceXs [10x10/16z] HSY50S102C30F9BA_llMvN0IF2luFQSYOptCad1kSbhj8V3zf6Trai02bDyE
+
+sprite $ServiceVNetApplianceSm [12x12/16z] JOo54G813C1IHVOVc0lmaheM0qkcySQm6yPDODTUcHEyXS3c-sd-uxtJvcakc7Vyylh_CHHBj_-hapiV
+
+sprite $ServiceVNetApplianceMd [16x16/16z] VO-54GH120G7cxlT_0D-vDsQiYxSa2WSp0Ya_aS0Kb44cLfkxKn7fiHsi-xpnizk6e-jxJ5vjJXMvtdBhyxplP-0npgBfUmyAIYSQL7kztiSRrYze8YCoje5
+
+sprite $ServiceVNetApplianceLg [20x20/16z] {
+POy50aCn24E3fNB_0uyEEisNfAy69Y3oJO_ZcYw0dlTwAkE_g50pgq6bcSb9lIl82icYaXIZmYLsQsgoLGik6pWo-MH4AWJ5RErOnRJtJZ92YY5wxnpRU-y4
+_ixh_YwRjpSFpi5KMdHzJjfNR_fa_ibCy2Vz8rNVHBwXnnSy_G4
+}
+
+!procedure ServiceVNetAppliance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceVNetAppliance', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceVNetApplianceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVNetApplianceLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVNetApplianceGroup($id, $name='Service V Net Appliance', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVNetApplianceLg>', $name, $tech)
+!endprocedure

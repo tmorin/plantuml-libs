@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/NewIcons/ServiceEngageCenterConnect
+
+sprite $ServiceEngageCenterConnectXs [10x10/16z] JScr0G113C0m7oVUV-1dK2l-IeLLWB6JAinTrxN7BhNlMzk8OUxPojdCaphNXPyD
+
+sprite $ServiceEngageCenterConnectSm [12x12/16z] TOg50KD124DpEDb_uFQxlnE8u1jtLtRnlvfxnCZ6N_ot_qvs_uFy0pB_kveFLxDgJ6MDQ6VWNvR_IvAQA_5dst7b1m
+
+sprite $ServiceEngageCenterConnectMd [16x16/16z] ZOm50WKW24D1oTt_llRlV2QmZVwWg0fH0ddAIMGfWLcFmio68DbdmnQC0QtQ9tIjQPPrvQrQfIeheGeuLnppk584s6cLvvq1w4wlgyQW-etHKx-39hUoq1iw
+
+sprite $ServiceEngageCenterConnectLg [20x20/16z] {
+bSr7WaGX20JG8fGezp_m24odvNyR9UCHCQt78WJ_MA1PpdzgQ0ggyCgjoy0yZjorR0ttl2IwyJyt--w3AmPEvUY9CYbKyg2F25rfHkoWfny2Hb94IEvKo-J_
+1HEfvtXaZN8LwIVwYc4rdITBMBGLO-hn0yNtD-A9Fm
+}
+
+!procedure ServiceEngageCenterConnect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceEngageCenterConnect', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEngageCenterConnectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEngageCenterConnectLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEngageCenterConnectGroup($id, $name='Service Engage Center Connect', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEngageCenterConnectLg>', $name, $tech)
+!endprocedure

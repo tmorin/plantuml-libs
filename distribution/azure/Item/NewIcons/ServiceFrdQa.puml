@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/NewIcons/ServiceFrdQa
+
+sprite $ServiceFrdQaXs [10x10/16z] LSR50G0m20F0K06o_y1rlTSXQeT6pspuvyEPvZxjH07cHYMqDMfGR98g
+
+sprite $ServiceFrdQaSm [12x12/16z] PSt50S0m5CDGbsHt_u7B453evVGbhdG6_yT77EVqpTu9ECdjC_CP60-lZxKSFiDe-ePD7FvYtW4
+
+sprite $ServiceFrdQaMd [16x16/16z] PSV50GGn34Mn7yEpqt_12yEWcwHavLfm6BSdiRmMNbcNypwL-xc-ksYywUqxs1v_2Ux_pxaSY97B-Ki8nV85LIv-7-iRHeGkmZL3TzE_
+
+sprite $ServiceFrdQaLg [20x20/16z] {
+RSg54KHH24DHD43_3U_p_NOpUYP4YXED1htG3_Y7wJ74JDlYPlvXzZ8yBJEHrgQPoo9ZcLti1FWso4XX9YRhXrwWnOnXLTbR9jmiAttLZ8P5hH0HJ4ujFeO0
+AMZ4AuF3IkaLbxrHYdy
+}
+
+!procedure ServiceFrdQa($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceFrdQa', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFrdQaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFrdQaLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFrdQaGroup($id, $name='Service Frd Qa', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFrdQaLg>', $name, $tech)
+!endprocedure

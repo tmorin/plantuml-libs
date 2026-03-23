@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureManagedRedis
+include('azure/Item/NewIcons/ServiceAzureManagedRedis')
+
+' renders the element
+ServiceAzureManagedRedis('ServiceAzureManagedRedis', 'Service Azure Managed Redis', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,21 @@
+' definition of the Item azure/Item/NewIcons/ServiceAzureLocal
+
+sprite $ServiceAzureLocalXs [10x10/16z] JSR10G0G302n0y3-ym9eymhO0tpOt5-0c3RtXrRR1lOk-oyGBpi
+
+sprite $ServiceAzureLocalSm [12x12/16z] NSQ53S1054EnrwyafVtdBUDPPAWRu9FKlBjjxqz9yw_vD8tWvv9yKyKw9P2BMG4
+
+sprite $ServiceAzureLocalMd [16x16/16z] PS-53S1040D17mVwhpVm32DSMMI01_XOewHJcoojVzC0d-WavhQzTtTpsGNGtPqtaOxxhH_hld8TcCD_zl7V_r2z8k05
+
+sprite $ServiceAzureLocalLg [20x20/16z] ZSbL0a9H549HJh-O_tmLyvQn_rW0q3vSysZJcCrcSqp6mAIFbDLczPSbPgkaBTlFjZffHqi7QDQRdgxgdPtRwIowAEb3aSZCY3TmWjYbOCARXT_W0W
+
+!procedure ServiceAzureLocal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureLocal', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureLocalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureLocalLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureLocalGroup($id, $name='Service Azure Local', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureLocalLg>', $name, $tech)
+!endprocedure
