@@ -1,12 +1,13 @@
 # How to upgrade the EIP package
 
-This guide provides concrete, step-by-step instructions to upgrade the Enterprise Integration Pattern (EIP) package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and is designed for AI agents to execute autonomously.
+This guide provides concrete, step-by-step instructions to upgrade the Enterprise Integration Pattern (EIP) package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and is designed for AI agents to execute.
 
-## Prerequisites
+## Prerequisites & Tool Selection
 
-- [Node.js 22+](https://nodejs.org/) installed
-- Git and GitHub CLI (`gh`) installed
-- Write access to the repository
+This guide assumes an AI agent has access to:
+- **Primary**: GitHub MCP server (via `github-mcp-server-*` tools) - **Use this when available**
+- **Fallback**: GitHub CLI `gh` command (when MCP is unavailable)
+- **Required**: [Node.js 22+](https://nodejs.org/) is installed
 
 ## Notes
 
@@ -19,6 +20,12 @@ Do not modify these directories directly—they are generated:
 
 ### 1. Create a feature branch
 
+**Primary (MCP)**: Use `github-mcp-server-create_branch` to create the branch
+```
+create_branch(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-eip-icons", from_branch="master")
+```
+
+**Fallback (CLI)**:
 ```bash
 git checkout master
 git pull
@@ -72,6 +79,13 @@ Check the output:
 
 ### 5. Commit and push the branch
 
+**Primary (MCP)**: Use `github-mcp-server-push_files` to commit changes
+```
+push_files(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-eip-icons", 
+  files=[...], message="feat(eip): update shapes from Enterprise Integration Patterns\n\nUpdated EIP package with latest available shapes from the official repository.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>")
+```
+
+**Fallback (CLI)**:
 ```bash
 git add .
 git commit -m "feat(eip): update shapes from Enterprise Integration Patterns
@@ -85,8 +99,19 @@ git push -u origin feat/upgrade-eip-icons
 
 ### 6. Trigger the Package Builder pipeline
 
-Run the pipeline to generate distribution files:
+**Primary (MCP)**: Use `github-mcp-server-create_dispatch_event` or similar to trigger the workflow
+```
+create_dispatch_event(owner="tmorin", repo="plantuml-libs", event_type="package-builder", 
+  client_payload={"pkgName": "eip", "pkgVersion": "latest", "branch": "feat/upgrade-eip-icons"})
+```
 
+Alternatively, use the MCP workflow trigger method (check your MCP server's available tools):
+```
+trigger_workflow(owner="tmorin", repo="plantuml-libs", workflow_id="package-builder.yaml",
+  inputs={"pkgName": "eip", "pkgVersion": "latest"}, ref="feat/upgrade-eip-icons")
+```
+
+**Fallback (CLI)**:
 ```bash
 gh workflow run package-builder.yaml \
   -f pkgName=eip \
@@ -105,6 +130,9 @@ Processing typically takes several minutes. Monitor the run at the GitHub Action
 
 Once the pipeline completes, pull the generated files:
 
+**Primary (MCP)**: Use `github-mcp-server-get_commit` to verify changes and pull
+
+**Fallback (CLI)**:
 ```bash
 git pull origin feat/upgrade-eip-icons
 ```
@@ -124,6 +152,16 @@ Verify:
 
 ### 9. Create a pull request
 
+**Primary (MCP)**: Use `github-mcp-server-create_pull_request`
+```
+create_pull_request(owner="tmorin", repo="plantuml-libs", 
+  title="feat(eip): update shapes", 
+  head="feat/upgrade-eip-icons", 
+  base="master",
+  body="Updated EIP package with latest available shapes from the Enterprise Integration Patterns repository.")
+```
+
+**Fallback (CLI)**:
 ```bash
 gh pr create \
   --title "feat(eip): update shapes" \

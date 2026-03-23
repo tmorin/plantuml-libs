@@ -1,12 +1,13 @@
 # How to upgrade the Simple Icons package
 
-This guide provides concrete, step-by-step instructions to upgrade the Simple Icons package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and is designed for AI agents to execute autonomously.
+This guide provides concrete, step-by-step instructions to upgrade the Simple Icons package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and is designed for AI agents to execute.
 
-## Prerequisites
+## Prerequisites & Tool Selection
 
-- [Node.js 22+](https://nodejs.org/) installed
-- Git and GitHub CLI (`gh`) installed
-- Write access to the repository
+This guide assumes an AI agent has access to:
+- **Primary**: GitHub MCP server (via `github-mcp-server-*` tools) - **Use this when available**
+- **Fallback**: GitHub CLI `gh` command (when MCP is unavailable)
+- **Required**: [Node.js 22+](https://nodejs.org/) is installed
 
 ## Notes
 
@@ -19,6 +20,12 @@ Do not modify these directories directly—they are generated:
 
 ### 1. Create a feature branch
 
+**Primary (MCP)**: Use `github-mcp-server-create_branch` to create the branch
+```
+create_branch(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-simpleicons-icons", from_branch="master")
+```
+
+**Fallback (CLI)**:
 ```bash
 git checkout master
 git pull
@@ -71,9 +78,16 @@ Check the output:
 
 ### 5. Commit and push the branch
 
+**Primary (MCP)**: Use `github-mcp-server-push_files` to commit changes
+```
+push_files(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-simpleicons-icons", 
+  files=[...], message="feat(simpleicons): update icons\n\nUpdated Simple Icons package with latest available icons from the official repository.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>")
+```
+
+**Fallback (CLI)**:
 ```bash
 git add .
-git commit -m "feat(simpleicons): update icons from Simple Icons
+git commit -m "feat(simpleicons): update icons
 
 Updated Simple Icons package with latest available icons from the official repository.
 
@@ -84,8 +98,19 @@ git push -u origin feat/upgrade-simpleicons-icons
 
 ### 6. Trigger the Package Builder pipeline
 
-Run the pipeline to generate distribution files:
+**Primary (MCP)**: Use `github-mcp-server-create_dispatch_event` or similar to trigger the workflow
+```
+create_dispatch_event(owner="tmorin", repo="plantuml-libs", event_type="package-builder", 
+  client_payload={"pkgName": "simpleicons", "pkgVersion": "latest", "branch": "feat/upgrade-simpleicons-icons"})
+```
 
+Alternatively, use the MCP workflow trigger method (check your MCP server's available tools):
+```
+trigger_workflow(owner="tmorin", repo="plantuml-libs", workflow_id="package-builder.yaml",
+  inputs={"pkgName": "simpleicons", "pkgVersion": "latest"}, ref="feat/upgrade-simpleicons-icons")
+```
+
+**Fallback (CLI)**:
 ```bash
 gh workflow run package-builder.yaml \
   -f pkgName=simpleicons \
@@ -104,6 +129,9 @@ Processing typically takes several minutes. Monitor the run at the GitHub Action
 
 Once the pipeline completes, pull the generated files:
 
+**Primary (MCP)**: Use `github-mcp-server-get_commit` to verify changes and pull
+
+**Fallback (CLI)**:
 ```bash
 git pull origin feat/upgrade-simpleicons-icons
 ```
@@ -122,6 +150,16 @@ Verify:
 
 ### 9. Create a pull request
 
+**Primary (MCP)**: Use `github-mcp-server-create_pull_request`
+```
+create_pull_request(owner="tmorin", repo="plantuml-libs", 
+  title="feat(simpleicons): update icons", 
+  head="feat/upgrade-simpleicons-icons", 
+  base="master",
+  body="Updated Simple Icons package with latest available icons from the official repository.")
+```
+
+**Fallback (CLI)**:
 ```bash
 gh pr create \
   --title "feat(simpleicons): update icons" \

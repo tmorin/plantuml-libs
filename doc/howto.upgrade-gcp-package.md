@@ -1,12 +1,13 @@
 # How to upgrade the GCP package
 
-This guide provides concrete, step-by-step instructions to upgrade the GCP package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and is designed for AI agents to execute autonomously.
+This guide provides concrete, step-by-step instructions to upgrade the GCP package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and is designed for AI agents to execute.
 
-## Prerequisites
+## Prerequisites & Tool Selection
 
-- [Node.js 22+](https://nodejs.org/) installed
-- Git and GitHub CLI (`gh`) installed
-- Write access to the repository
+This guide assumes an AI agent has access to:
+- **Primary**: GitHub MCP server (via `github-mcp-server-*` tools) - **Use this when available**
+- **Fallback**: GitHub CLI `gh` command (when MCP is unavailable)
+- **Required**: [Node.js 22+](https://nodejs.org/) is installed
 
 ## Notes
 
@@ -19,6 +20,12 @@ Do not modify these directories directly—they are generated:
 
 ### 1. Create a feature branch
 
+**Primary (MCP)**: Use `github-mcp-server-create_branch` to create the branch
+```
+create_branch(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-gcp-icons", from_branch="master")
+```
+
+**Fallback (CLI)**:
 ```bash
 git checkout master
 git pull
@@ -65,6 +72,13 @@ Check the output:
 
 ### 5. Commit and push the branch
 
+**Primary (MCP)**: Use `github-mcp-server-push_files` to commit changes
+```
+push_files(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-gcp-icons", 
+  files=[...], message="feat(gcp): update icons from Google Cloud\n\nUpdated GCP package with latest available icons from Google Cloud's official icon library.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>")
+```
+
+**Fallback (CLI)**:
 ```bash
 git add .
 git commit -m "feat(gcp): update icons from Google Cloud
@@ -78,8 +92,19 @@ git push -u origin feat/upgrade-gcp-icons
 
 ### 6. Trigger the Package Builder pipeline
 
-Run the pipeline to generate distribution files:
+**Primary (MCP)**: Use `github-mcp-server-create_dispatch_event` or similar to trigger the workflow
+```
+create_dispatch_event(owner="tmorin", repo="plantuml-libs", event_type="package-builder", 
+  client_payload={"pkgName": "gcp", "pkgVersion": "latest", "branch": "feat/upgrade-gcp-icons"})
+```
 
+Alternatively, use the MCP workflow trigger method (check your MCP server's available tools):
+```
+trigger_workflow(owner="tmorin", repo="plantuml-libs", workflow_id="package-builder.yaml",
+  inputs={"pkgName": "gcp", "pkgVersion": "latest"}, ref="feat/upgrade-gcp-icons")
+```
+
+**Fallback (CLI)**:
 ```bash
 gh workflow run package-builder.yaml \
   -f pkgName=gcp \
@@ -98,6 +123,9 @@ Processing typically takes several minutes. Monitor the run at the GitHub Action
 
 Once the pipeline completes, pull the generated files:
 
+**Primary (MCP)**: Use `github-mcp-server-get_commit` to verify changes and pull
+
+**Fallback (CLI)**:
 ```bash
 git pull origin feat/upgrade-gcp-icons
 ```
@@ -117,6 +145,16 @@ Verify:
 
 ### 9. Create a pull request
 
+**Primary (MCP)**: Use `github-mcp-server-create_pull_request`
+```
+create_pull_request(owner="tmorin", repo="plantuml-libs", 
+  title="feat(gcp): update icons", 
+  head="feat/upgrade-gcp-icons", 
+  base="master",
+  body="Updated GCP package with latest available icons from Google Cloud's official icon library.")
+```
+
+**Fallback (CLI)**:
 ```bash
 gh pr create \
   --title "feat(gcp): update icons" \
