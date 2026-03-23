@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element HeadphonesAlt
+include('fontawesome/Regular/HeadphonesAlt')
+
+' renders the element
+HeadphonesAlt('HeadphonesAlt', 'Headphones Alt', 'an optional tech label', 'an optional description')
+@enduml

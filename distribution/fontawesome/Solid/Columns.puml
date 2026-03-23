@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Columns
+
+sprite $ColumnsXs [8x10/16z] Ou01VZJ0oyd93qJyN40f8C99yx2nyGCHJ3y
+
+sprite $ColumnsSm [10x12/16z] Oq00Vlm0g0A4oM3n8CpWveC0TW
+
+sprite $ColumnsMd [14x16/16z] Oq05h7nmmCl0oayyO6LaPEJZPm6Il40U4z0eFdv68Cb38nul3m-GuW6J32WkGVKG
+
+sprite $ColumnsLg [17x20/16z] pSZ50S0W44JHYNj-_zL6SMwSUEkhN1Tg9MB7JedbiVrZvN7eqO5UDJtEyJ73EoQOIEWWCYXr0m
+
+!procedure Columns($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Columns', $name, $tech, $desc)
+!endprocedure

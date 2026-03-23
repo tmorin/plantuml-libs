@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Warning
+
+sprite $WarningXs [10x10/16z] Om01FWOeuETdWRFuOGnkVcue2uYWSY2CpEA7ilYPGGGxY63aXm4
+
+sprite $WarningSm [12x12/16z] FSY53S104CJ03NFSVxLF1nQDhD6l3AxW18G1NkCAWjZTV-TknhOPwGRupDYF4-dFlWe
+
+sprite $WarningMd [16x16/16z] NSs50SH0449HufxNVxMdyR--Cq3-56jkSFiOKTpAjuOPb5TrWMmi96YsBDI1hHlTjczbOy1MnWg6f0PB1MnbHO2v1yo0oPqyU0C
+
+sprite $WarningLg [20x20/16z] {
+VOi50eH03CG6T_B_rvx0kcMrqrIM-LO6t7a4OnmD_CarMCDeuYNLZl_nqVeeMoI-Osie7ZYFKADxMmGQlSwtvpLsyzx_w2Pca7fUHZCBNfDcNgO1mxtGeYD7
+1Ru
+}
+
+!procedure Warning($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Warning', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ListDots
+
+sprite $ListDotsXs [10x10/16z] Oq00VXY3bv-1YHyCa6GvOGoWA0k6B0EIB2jKbXac1W
+
+sprite $ListDotsSm [12x12/16z] RSh50O0m0C30u4xsdnRNjlS-lceUioDU4CXFV0ba9x-_8QcqeXukzioU-5W1
+
+sprite $ListDotsMd [16x16/16z] ZSwr0S0m0CH06IgJzjysJPYlV-13LWXjKOS6gYjiG5o4NtsCHLVZiQy3OS6_lhgw_kkycG
+
+sprite $ListDotsLg [20x20/16z] fSt50KCn081GliKJzf-sxfVQ6m3ur73YHLC17tKLPX_HNO5flkDZM-PLql7o7Hx0wgD9owbmj_A7LHjGwbts03OV1Ur0wtSL5Zwn1m
+
+!procedure ListDots($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ListDots', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/SortAlphaDownAlt
+
+sprite $SortAlphaDownAltXs [10x10/16z] JOg50S0W40FhnRF_jXpEQ-pOIZzBSHqq0a00VGtjxiCs9B5oEbn3kaVkPfaC
+
+sprite $SortAlphaDownAltSm [12x12/16z] LSh50G810CJ0mPtqNorwci-gDQ7gn2QSxxKPlDhozUlFwVby6ZnVE_X76zgqYOg-UAJjgk6E1wvl
+
+sprite $SortAlphaDownAltMd [16x16/16z] VOo50G0X30CBxvhzfqNkNGzjcyHU6Bddn4WfnvqvQlErr9zgHxdMb1g77pzSwlbQIwrTyqLtL2tbpvm5WYwF3G7bsYU1afdFrvK8
+
+sprite $SortAlphaDownAltLg [20x20/16z] {
+TOu54W0X30FF5SZ_NukbWxEdR0FjCcFdPzi3Q_m7xgX0n7tXirAPv8YcAjr7bHnJkAxafZrwbsZSONe7wDQzSjh-1BU-B08_uzx5g7-h65GWUoWREJ6fDyt7
+vC6YrbeQXfJ7WBslPO03
+}
+
+!procedure SortAlphaDownAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SortAlphaDownAlt', $name, $tech, $desc)
+!endprocedure

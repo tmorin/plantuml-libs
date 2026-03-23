@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Location
+
+sprite $LocationXs [11x10/16z] 9SO50GC14CJ0ANFZN-tJBGRypm1L337Squb_IFKGfKgHJvs4_b2ppyyGhxfW1G
+
+sprite $LocationSm [13x12/16z] LOo50O1G50Anszj_MWEnxiTBa67G0p0bxM1Pm7d1U4tpbsV6T0wiGQkJ5BspoeMx7a-3HFVpCHY5CkaE
+
+sprite $LocationMd [17x16/16z] {
+LSq5aaCX403H_ehJzp_jRa9Dx9N0EC79ZwGdl7MNcw2M_UXQMKRCRxf70sojhWn0zkPGXIdG55Ij9EU5xyJWKg6lNlMYU0677TG9-hx21kIuVyVzea3yx4FT
+2Bjgz1FUxVy
+}
+
+sprite $LocationLg [22x20/16z] {
+RP250SCW54HnXxV_j1MySWdmNKviD9JuWOJqROiCoDl8mXs_eZnGJX_S50lO8Ma8xtPsHWnhXJu2vFxgMTMkVlujv55fXNOf0qOCMMzhx9LKX3rnVNTfOTID
+FN4ClHR9FJX0UndTtXhQlUQXfeq0SunZEeBBm4roO47-8LYBRq3OyXC
+}
+
+!procedure Location($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Location', $name, $tech, $desc)
+!endprocedure

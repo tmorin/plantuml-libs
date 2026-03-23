@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Unison
+
+sprite $UnisonXs [10x10/16z] 9SZ50O1000Emu4xtdnPEygdWFO37vW924jtRszllJOgH4Ll_Nf1h7jd2dXFZGk07
+
+sprite $UnisonSm [12x12/16z] DKs50S0m3ABkuVzlDofn1G252LSC06_j1nheL0QUUL2pL5kXodU_rdz9qgklwBppRlUUd3uZdNcmecJH7faU3P8F
+
+sprite $UnisonMd [16x16/16z] {
+HOk7WGCn20H7-Ku2jlzg_ssSo6m0M39-CTJWwFix9Wr-W0gikyaQG8oL892_xvgmf4s7wEVB6uxG0jz0VhEP9ANfe4oO0UGTymBIP7CkxAxvowrMGTIJFtM4
+vU4BlEsxa26QRrRm2KKhvKto3m
+}
+
+sprite $UnisonLg [20x20/16z] {
+LSq5ac0n203H9b_YzFrlkvKTVsKu73Nj_D4SL-akVko4sc3Ajy6mFMip9v-2Aa0LTNE8S7W35_6xbgg5_Rjc5afs0cGcGCXXrC6xSKLKAqST925w58woaDcA
+Dv0JuAGRoSfX077INt-TppGk-LFhDqL0ykOGhfOMODGmWDrmZu33KipjGpvyAJuSTdx4Tf7y-0S
+}
+
+!procedure Unison($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Unison', $name, $tech, $desc)
+!endprocedure

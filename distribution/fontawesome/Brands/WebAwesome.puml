@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/WebAwesome
+
+sprite $WebAwesomeXs [12x10/16z] Om03FWOuuEA7qFm8WeSVHFA3IGPkVZ20SB6nEHWG70O46se5J1W
+
+sprite $WebAwesomeSm [15x12/16z] NSf50S1000F1BNFZN-qnpoz0zAoq9A8fnZUcJmzmILFyw9lvvEoiBg86NRnSdDgndRyGjtPqXiZllJWM
+
+sprite $WebAwesomeMd [20x16/16z] VOo53KGn3CNo6LllF-r1cIsABEU9PzLI0GpTlOdXP7BYKDZxmXqt7FRb1M0nFMO8ZKM1QHGvPe4SgTrkt5HdUNWxjsLP5QhWzYgh-08
+
+sprite $WebAwesomeLg [25x20/16z] {
+TSxL0O0m34NHXzVl_jFYJZXVRLmt9SW4nBz4aIL3fylrw-6g2PdZwvbLMZH0EXA9LQrP3IW2iQaokw5s2Ked1GnQy9MqYBmSDrHyQCDR8zajEXGUd0wTtJ3Z
+pkios0spz3xftmG
+}
+
+!procedure WebAwesome($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/WebAwesome', $name, $tech, $desc)
+!endprocedure

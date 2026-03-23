@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ArrowRightRotate
+
+sprite $ArrowRightRotateXs [10x10/16z] FSc50O0m40F0mvtiForENw8mfMScpqoHm4sVUD9lKbHNb4_rhUcHOvx-7au
+
+sprite $ArrowRightRotateSm [12x12/16z] PSg35SK050FG-r4Z-s_RK-in0brgZCXQCaFupMo5sdx6i0Qx5Q_yWkiBbjyxzCjd9Ys6ZCnlhee9
+
+sprite $ArrowRightRotateMd [16x16/16z] LSU70SCm30D1qhs1l_-s2PZgjoNXefl5cHxbIz2j8Pu4hccO2sI3eak0q9VdPKEyEd4Jb_5DJ3V3SFF9V7DISGlokwSjOe4Fnvw2iNd0ulS2fCBiagwy7m
+
+sprite $ArrowRightRotateLg [20x20/16z] {
+RS-53S0W00NHNtTk_sqRN2z67gxGPNXtsUvRjetGDqbWYQ9h0azcbkq4Nd1qAOPDMq7dype3KwzojYIxFzjpWThCm1ZOEx1jO8ApiwzUkBDA4oKk_WjNWMSS
+ty2tJDDiXJdUdLFgnFNvHJy
+}
+
+!procedure ArrowRightRotate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ArrowRightRotate', $name, $tech, $desc)
+!endprocedure

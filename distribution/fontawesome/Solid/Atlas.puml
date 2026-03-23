@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Atlas
+
+sprite $AtlasXs [8x10/16z] Os3b1mCcVZXWO6Q0KFny322QaOi3HBEpypE2vNc0F0JWOW01VfWO
+
+sprite $AtlasSm [10x12/16z] LOs50S0W4CHILxZzfyKry6wWZ4K3FxKGx9tST-FAoVz02xcww6gDYsRMXAmHYV661m
+
+sprite $AtlasMd [14x16/16z] LSk50O0m4C30u4xsdnQjNlKD5fC9Ir_b7DgfQ7YTVavsfCVFq1oD68ejlztNp8dl-T4YD0OGWk0mg9rjSDXeHx1BfqUWEzNy3G
+
+sprite $AtlasLg [17x20/16z] {
+ZSs53SD04031VJ33zbzjs7uGPNI2OqYdbSncAzevVeDGpm81MFsPM3bIYfptm8aRibo5IxeAQMPz1TclW3YotNzs0XiZU5dui99XyNyvNaP5JsvHMJM6IrQm
+GxBr1
+}
+
+!procedure Atlas($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Atlas', $name, $tech, $desc)
+!endprocedure

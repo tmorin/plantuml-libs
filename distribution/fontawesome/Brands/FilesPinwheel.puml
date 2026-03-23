@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/FilesPinwheel
+
+sprite $FilesPinwheelXs [10x10/16z] LOc54K0n5C8u-rek-qzRrwT0LEfMBpm41efGKIsI4LNH3bqTD6lJ1NyH2G
+
+sprite $FilesPinwheelSm [12x12/16z] HSQ55S0m4CDGbRdQVzkyu97z8S_1cEyBsksadvgjSpRLJfzejItFF92VI-LpTW9EyTCv6yokd9TbDZC1
+
+sprite $FilesPinwheelMd [16x16/16z] LSov0G0X2011xlF7xR_RGo5nir50eYn7KmygUXAzihNLBim9UBPfjzifqE_b9uym_TBqPD0mzcE4QJu3_F8DNQpDfAdTRfb6DD5kjnYNkSLBR5TNb9m_
+
+sprite $FilesPinwheelLg [20x20/16z] {
+PT355SGm40JHiPWx_snNlQB3rCdlMootAAhM5G7AcZPWsWTc_r32zwp8CWHPjcWPWg6HqZK4eHK1YClWJVj82vSXhEqtwh3B-vjc5XKfuisosIBk6-IO-HED
+vvJTf6Km-Wtweq6htwNNT-W7
+}
+
+!procedure FilesPinwheel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/FilesPinwheel', $name, $tech, $desc)
+!endprocedure

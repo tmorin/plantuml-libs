@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/CarCrash
+
+sprite $CarCrashXs [12x10/16z] NSh50K81040XxFRjFwtjByv00eGBIs5NjSMMS8fjgXN1FlrJ7-TJwEhScq6R9m
+
+sprite $CarCrashSm [15x12/16z] RS65OGC1000X8kzo-qzRzmQ8s7peG1xhXADMNwQcgW4csk48kLGdhe4plLe3DVHgRuBU7JgXA-QgYn_ACm
+
+sprite $CarCrashMd [20x16/16z] {
+VSk5TKKn3C1GFOQ0zj-sn-vdka4Jb0EiuC3Dxiu6oeDj0sW3F-b2sDGwaiupXmOlPcvqWwcf11jqEscF6Wg64s3CPu11wOPrl0uK6vDN96_QUCyLJIFDWQ30
+S6QZycnkAg_qu0y
+}
+
+sprite $CarCrashLg [25x20/16z] {
+TSy5ZiC034JHiSFuxt_RrMnRA_Z26SaWYPGwGkgHZg1Hxlv_2P9T1hg8m-Fc7W5L4jZ6k0MKqD4AJGmRrdvh-DR18eiLa7Niqa2Lz7lDFuCDilm6IqYkks5B
+fpYi2avB1JqilfL57nobzkDkow7CT0m-gzW-Ka7EtrrZtB1PJm2z1ty
+}
+
+!procedure CarCrash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CarCrash', $name, $tech, $desc)
+!endprocedure

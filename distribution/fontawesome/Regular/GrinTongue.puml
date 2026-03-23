@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/GrinTongue
+
+sprite $GrinTongueXs [10x10/16z] BSh50SG0082md4k5_QUjXo_mwsrN3vz-DDhrabE_XvwQbSlm_kZkaQjdyYlCuNNjAm
+
+sprite $GrinTongueSm [12x12/16z] FSod0SC0400nfRc_R_zjmyo41CusGCqw1Vt0rKDcn0zVEeVuHiz0szZWzPOiNTsHBY6jDA5kcEvNhVm1
+
+sprite $GrinTongueMd [16x16/16z] {
+NOu54WH12CIohZFv_sjFe5PJWjDDC1ItXeDYCX4SoMx9yjZhtA481uCDiNnG7JnEhD0Rwow0Aw1on-rLDyQIDVpCuaxZtjbg_9piC5spUsX6lJkcRokWMKAZ
+rcpo1G
+}
+
+sprite $GrinTongueLg [20x20/16z] {
+NS-5WKCX403H-OR3z5_joSRpS6UvgykHU7DvDpVkr7K0MQq47Tpjshwc0BtW-fW21UL3iU02sWH8yQnM3q3Fg1TH2v0Rm1RrLFdI7V9bcSoWUGUEPWL5eVkm
+iJcPxg3iSYentXHS02XPWQgFELTC0KqLu5JT2PUwO5Dz3ppC7O1V
+}
+
+!procedure GrinTongue($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/GrinTongue', $name, $tech, $desc)
+!endprocedure

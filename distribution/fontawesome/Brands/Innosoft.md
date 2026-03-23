@@ -1,0 +1,74 @@
+# Innosoft
+
+
+```text
+fontawesome/Brands/Innosoft
+```
+
+```text
+include('fontawesome/Brands/Innosoft')
+```
+
+
+
+| Illustration | Innosoft |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Brands/Innosoft.png) | ![illustration for Innosoft](../../fontawesome/Brands/Innosoft.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$InnosoftXs>`
+- `<$InnosoftSm>`
+- `<$InnosoftMd>`
+- `<$InnosoftLg>`
+
+
+
+
+
+## Innosoft
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Innosoft
+include('fontawesome/Brands/Innosoft')
+
+' renders the element
+Innosoft('Innosoft', 'Innosoft', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Innosoft
+include('fontawesome/Brands/Innosoft')
+
+' renders the element
+Innosoft('Innosoft', 'Innosoft', 'an optional tech label', 'an optional description')
+@enduml
+```
+

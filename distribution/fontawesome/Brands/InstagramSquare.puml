@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/InstagramSquare
+
+sprite $InstagramSquareXs [8x10/16z] Ou01VXXW1N9u-U60Yv-1dn5CSu5fRdu6PawO93kOO0DICFq
+
+sprite $InstagramSquareSm [10x12/16z] HSp50GGm2011uixsN-r9T3uuyi2Zeu-PI5FL78601kPM9YByizAXiNeoLi_nDpFZd9D1PzhVflG5
+
+sprite $InstagramSquareMd [14x16/16z] NOe55W0X24H7Obkv_sqNd-qtO08hcZeHQZi74n4_HU2EkQOXY_Ck1K7omSak4Cmekg9allgZhoWQgcItb2Rx1uWLvMu1bWc1c9bm5ZDzJcpn00i_
+
+sprite $InstagramSquareLg [17x20/16z] {
+RS-50S0W40F0u4xstxPe_N3dyQNk9C2dalaZOgaSB6AfJN5h1foyjefDxHC6YD5bx0aXMXDRsHEOxJKXsE2rmwhRH802U4sqoeTM9x13v0B7ha386QdWafor
+rdbsZYyeV31uEm
+}
+
+!procedure InstagramSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/InstagramSquare', $name, $tech, $desc)
+!endprocedure

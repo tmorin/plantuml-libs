@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Hdd
+
+sprite $HddXs [8x10/16z] Ou01Vlo02OiwRcuOZvCVnW8
+
+sprite $HddSm [10x12/16z] Oq00Vb814nwzV12AaO6BWPy7Bih0pGS1x
+
+sprite $HddMd [14x16/16z] Oq05h7nmmCl0oazzm4IgVNpC_BpCS1uZ0oyJ0o-SomD632WQK2q
+
+sprite $HddLg [17x20/16z] Oy04pCY0YO617nNmyl3J1t0Z0nv-9cgw5AYMZu45HO2F7SK0RYv-VdP-8CRGoelAPyLm5W
+
+!procedure Hdd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Hdd', $name, $tech, $desc)
+!endprocedure

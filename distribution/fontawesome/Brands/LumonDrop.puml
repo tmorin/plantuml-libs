@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/LumonDrop
+
+sprite $LumonDropXs [11x10/16z] Oq02_730muyA47AS22PC2uB9Xr2BP1YI3G
+
+sprite $LumonDropSm [13x12/16z] POo30G0n4C3oHhN_jBMRCnaGfd8UPe6lvHgw0UpT0DOYiC4Rul2Ql-KxFGu
+
+sprite $LumonDropMd [17x16/16z] Oy04d7m8mClAmC2F2lWuOGn-DC30WifdHzVBm80gmWWIu4LM00O41JZH36M3i9Wn7CIBocTZ80W
+
+sprite $LumonDropLg [22x20/16z] bSx50SCm30302tEq_xHbRiZtiiNM53zoDF6FM32FyLB6Wjouq8Mb3RJnemDBfVmiR5aehXUZqs8q2Z0ypuo71gzF4KjC2y6APfo-3PaKPm
+
+!procedure LumonDrop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/LumonDrop', $name, $tech, $desc)
+!endprocedure

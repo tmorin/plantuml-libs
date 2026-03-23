@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Bathtub
+
+sprite $BathtubXs [10x10/16z] Os3WPu02VX20i1YGMGnG5bmT3332MGoOB2wWGbOGu6S
+
+sprite $BathtubSm [12x12/16z] JOk35K0n00Fl6qNsdxRMFOLWFZhAd4tRJzAYwHenzVnEtaKpfL_qlnm0xMIiY
+
+sprite $BathtubMd [16x16/16z] NSZ50S1008H0ufxjlzfpvpS0_qMRN6zTdmxvylarFzvKNvwDyMnzqhjDNV-lFlen3uPxCAE_dZoQY3q22m
+
+sprite $BathtubLg [20x20/16z] RSZ50S0m40In2NEs_sg3vhEU0YOj54uzsguXQkMjuJg9zRizk-qxibkUESYFvp1tK5wXUZBMKrPZww0pH_LQUr3MYicJ_-R1Ey8HBDhW1W
+
+!procedure Bathtub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Bathtub', $name, $tech, $desc)
+!endprocedure

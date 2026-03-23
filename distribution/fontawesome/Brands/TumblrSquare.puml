@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/TumblrSquare
+
+sprite $TumblrSquareXs [8x10/16z] Ou01VWI0iXcXD4mIGY5eDXY3cmUkXny
+
+sprite $TumblrSquareSm [10x12/16z] Oq00VXJ00sEmm2Gu6HWO8ImarI069eiDok9YOE026GMNuUQ307O
+
+sprite $TumblrSquareMd [14x16/16z] VSV50O104C30u0xzLul3oKfU6TAQzM-XsMHL6GiYb13ZIjVMHkzhWjYNri1rtgxOuaWw
+
+sprite $TumblrSquareLg [17x20/16z] ZSx50S0m243HN_Uo_xHr8Pvtmy5LQIM8QPd5hxLRiHAJbIW18uMTg8hh7_aDkfwVMFNJArWz3S0YMj_9fHEBrISDjXq
+
+!procedure TumblrSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/TumblrSquare', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Beer
+
+sprite $BeerXs [11x10/16z] Oq06_100OS8v_438mStFYM0oO6CYgsL4DOmTnW8
+
+sprite $BeerSm [13x12/16z] Oq05_520mk5a17CuW90J8Wd4F0oy3Fpi34Hn-93ry7CZ6Ss6OIa35nyGy89O
+
+sprite $BeerMd [17x16/16z] bSwr0S10049HpltOVzguUrx7hy25KYTfsbou8LGkQavY29ekKtBGXmX246GISHyY_Ez0xa9FzI4jmKt7XhEP3EW5BWG6d2LSQG4
+
+sprite $BeerLg [22x20/16z] jT2r0SGm50JH5REs_seFpF3bp1E-S33C7DgGfsIrWiwfMNLbTEoQIxF246148MlAWbhW5NM1WlxBWZQ5HUskFrkqaUna7Nx0KZXYWS0P3tq1
+
+!procedure Beer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Beer', $name, $tech, $desc)
+!endprocedure

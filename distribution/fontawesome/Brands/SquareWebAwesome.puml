@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/SquareWebAwesome
+
+sprite $SquareWebAwesomeXs [8x10/16z] Ou01Vam05kFXvsBWPmRnW014yyCKCpAo8Ak5
+
+sprite $SquareWebAwesomeSm [10x12/16z] Oq00VXo02K9nylC3bN3m0obE1WP6Dh0mH2ECnGXcSQERnGDdCN3pGG0x
+
+sprite $SquareWebAwesomeMd [14x16/16z] XScr0S1034DHXJb__sa3nwxyAe6iwIukJRXw6gT81a6d7NG1A9dvxOg8Okc9bdXbyNB8DkC5
+
+sprite $SquareWebAwesomeLg [17x20/16z] ZSh50SGm0C0m5yFn_jCUCrPlyMvwD8BFMdMhAViCz6eeAa6T9jLEK62-Dwu6pmOkYcUL2wyuYrwbbw3pS53S9lY2vfE5Lti
+
+!procedure SquareWebAwesome($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/SquareWebAwesome', $name, $tech, $desc)
+!endprocedure

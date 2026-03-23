@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/DollyBox
+
+sprite $DollyBoxXs [11x10/16z] LOa50W0X20GNhdF-_zeBsr5WGw24mVMT8GO8g39fBk_ZEScFYo03zgdDX2j2B5y
+
+sprite $DollyBoxSm [13x12/16z] PSx50O1G3C3Gu4xsdnQNB-zMBrhmwbLE3HSRQj-SuXUKJz1VaMLhsiUbagg4xWeBdS_6zGm4jOGtoB_O0G
+
+sprite $DollyBoxMd [17x16/16z] RO-50S0W40FHEcJ_RKjmztkD023wuJ4JfMvOFivc0RYn0rS2DxJ0vBA2Sm0lL78n6KWWm3Eyz5TYRd9VWXJTNnvE9GTF9tWjyc2uwnJn8mdRw5hu0G
+
+sprite $DollyBoxLg [22x20/16z] {
+NP05biKm30DL3i_zJxlxIQznfnYZR06iUZ1uiokoyARhopRb7V3-h8qtCd18GBGEncsjjfvWQoongzcwtDQkrTPiw-KIKJnijfuAAZOOrqUu9qdWOJim3xvg
+AK4S4ztIDYvf1wZJLlD7-dFH1-UxTbK4HeTWiePDvXy
+}
+
+!procedure DollyBox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/DollyBox', $name, $tech, $desc)
+!endprocedure

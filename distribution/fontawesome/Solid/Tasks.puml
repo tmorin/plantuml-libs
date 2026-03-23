@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Tasks
+
+sprite $TasksXs [10x10/16z] Oq02_52QYvyVo0411dPCMJwuB5m8nH16Lh0aaXm
+
+sprite $TasksSm [12x12/16z] RS650O003C2muhx-VotkaF2G1BkXCm5Ns0FfYeTQI5QXW2iYvvSDPRV18DnmCm4
+
+sprite $TasksMd [16x16/16z] ZSm50GCn04MnL-P-_sh7lAC82FzSueiwqE_Qa0HqFJ1b0UoT0NFectTZth-X1oG3OEu0mwOg0-q5gTBq0eKjPm
+
+sprite $TasksLg [20x20/16z] dSt50ODG50NHmU7Bc_whZRk7ixx26qt34-NE58GzKBr8xW245wHpipq39dwbt6aMiWkmU1Pn_lMAggV2MGzEhDKPGCfN2qKR1c_HAr3gLUP7Mm
+
+!procedure Tasks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Tasks', $name, $tech, $desc)
+!endprocedure

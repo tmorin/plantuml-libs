@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/TvAlt
+
+sprite $TvAltXs [11x10/16z] Oq02_0Z01nCZYScAC8011S34
+
+sprite $TvAltSm [13x12/16z] Oq01_2Y01mw078GYiZYyo0Opy25P0fR7T0Ch0mC
+
+sprite $TvAltMd [17x16/16z] jSYr0S0W04N15_Vy_QUDuj1ovP4Ppz31g4pV1jOd2CsreY6mQ562NP69alxuxHYoPk06
+
+sprite $TvAltLg [22x20/16z] rSYr0O0m0031nvtVVrjeq4YVAu-49b234TjgtCvVYUlqCsjd3AE1lIQZkl5OVLJHhJaT
+
+!procedure TvAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TvAlt', $name, $tech, $desc)
+!endprocedure

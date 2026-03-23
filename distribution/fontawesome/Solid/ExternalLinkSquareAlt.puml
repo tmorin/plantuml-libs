@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ExternalLinkSquareAlt
+
+sprite $ExternalLinkSquareAltXs [8x10/16z] Ou01VWp0oSa9fi6I29g9WGV2vq1M3DCF
+
+sprite $ExternalLinkSquareAltSm [10x12/16z] Oq00VWA05wY60y84ibWHB2Y32SPYGjF80sSnSFD103i
+
+sprite $ExternalLinkSquareAltMd [14x16/16z] Oq05h7nmmCl0oayIO6840ZWFR1mFd8l2Oq7ciQ2e13A111-Knyr0ZCMeYb0z1
+
+sprite $ExternalLinkSquareAltLg [17x20/16z] dSZ70OH03CNGlqkEwhzQCipOFi6xIOgAt5_2caO-6hfDJw93TYhjEX8_wZHIPsFOYryQyzxGanIyqE1emgZahG
+
+!procedure ExternalLinkSquareAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ExternalLinkSquareAlt', $name, $tech, $desc)
+!endprocedure

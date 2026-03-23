@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ShareSquare
+
+sprite $ShareSquareXs [11x10/16z] LSQ50SG040AmlDI5_QUjQqx0eNH9WT1ayPTETkAerLv9JKXFWnptZXoO0G
+
+sprite $ShareSquareSm [13x12/16z] HOs54SGm4CJq6Cxstsr6Hjd7HEU6IKBdzOhHaR2bGdR823QBkVKDJgrYK8KMx7eza7nLUmiMlDC07W
+
+sprite $ShareSquareMd [17x16/16z] POk5WO1G5CE2Ezb_sfFYaA-lmesL5_eHaYcd0QYcULPdA5JmO6IsXDKJLW5FYWYbQieLXx0cry1HgG5R3c7Cl-0Kc7FVXBXsbn0SINtPMMs9VW7m2m
+
+sprite $ShareSquareLg [22x20/16z] {
+RT054aGX30JH-Uxq_K-x5h9ebqpnKehApbMTOEqgIq-T0tpdm9lZUT9Wu3p1jKaKQGP9Uu5Br93ZfgXycsnNvIhRNN-z8PXkIYgul_CSSlMnaXPSlWP9C1Pg
+-TzCCAHWzdEHhBN0wMTl
+}
+
+!procedure ShareSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ShareSquare', $name, $tech, $desc)
+!endprocedure

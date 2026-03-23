@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ArrowAltCircleLeft
+
+sprite $ArrowAltCircleLeftXs [10x10/16z] DOgb0G0020I_O8dzfyMvyeh2dD7uO6qMQcVRza2quTxSTWj_O6y0EfC
+
+sprite $ArrowAltCircleLeftSm [12x12/16z] HSor0S0m30J0hnBpxp-jGNYDM7Ww2nHLfb8mJCb1qL-Qgn23B5By_--hli3mvzE5Qtht
+
+sprite $ArrowAltCircleLeftMd [16x16/16z] NO-50S1020EXxjb_scgkTgyun4azQyo0MHVj9Kgm8CA4Co4PrilKTaEUZ_Eh4sQIDBuKPq9x25yUEchqnbcX8ItYIRwcsG
+
+sprite $ArrowAltCircleLeftLg [20x20/16z] {
+PP053e1040EBS_x_rw9DhuJ1Toi98A6slC9O6Ya3I3E2HaRKo5XwLjPGij3rE_ZqZA2svUBzgbGHJzLCTLMpnxPAsGHVgyqAIb-I4KDpc1F-8o1-HgD-gO3O
+sVYAJW
+}
+
+!procedure ArrowAltCircleLeft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ArrowAltCircleLeft', $name, $tech, $desc)
+!endprocedure

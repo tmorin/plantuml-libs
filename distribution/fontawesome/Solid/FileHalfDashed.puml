@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/FileHalfDashed
+
+sprite $FileHalfDashedXs [7x10/16z] ROMr0G0W0CEwu9B_hyLXef88A59bHWyWyK_I2C5EXPGeL3e
+
+sprite $FileHalfDashedSm [9x12/16z] VSVL0O0030FH5FVRVrhau9jNJJQ0nElt7llBMlkU7rLHGUJHG352k
+
+sprite $FileHalfDashedMd [12x16/16z] bOx50S0m30EbCXZstxOEvziBc0679mH1g8NGgsR9QDvaD3qPJK_6NvO94Q9mIqIgBawYGehoLeKg7uKlabP9uWC
+
+sprite $FileHalfDashedLg [15x20/16z] hSbL5W8n5C3Gu5Ip_zt2IEr_RZNdSQ-w2MpkDcNBwW1uUiLjFfAaCf9jtl8D98VwvvLOgKki6K8O6SBjTcCx72SfAa43Ifqp_
+
+!procedure FileHalfDashed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FileHalfDashed', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/LaughBeam
+
+sprite $LaughBeamXs [10x10/16z] BSA54SCm000nbHkmV_zfYz49bkwWBXujj8DkqlzoUSZfeHos-qDVagfTbbW8jzgADm
+
+sprite $LaughBeamSm [12x12/16z] DOm53eK05CFw1MVq_gT5bj38amaFcpCKpHJjElIps_NJ8q7SnUouzUBUq8aNvs1Pgu_TQP95_V6uJTqUBLRRSG4
+
+sprite $LaughBeamMd [16x16/16z] {
+JSk55GD1203HERU5wR_RF7BwLp4eKtXqtCBJ0kN-DECCkGms2E4ssU52r4JgH3e9CeZqCXf2G9BKg_Bb8Hnvci1EyBAmYetE4vZC3WmL9JI1S08wAfoXdXo1
+rJFada-07m
+}
+
+sprite $LaughBeamLg [20x20/16z] {
+NT1LWW0X3C3Gb75fS__Jheomyl1ymcChpvbV9XyPFDGQW4NTtdJoQBh_IW-TOBfImBChAEmgJ6gmkcA1s-YErHHqSs0HB8pxPWbC48tflgNAFuUdG1jU0UNi
+0dO7A0g7ho1CqWO-JgvtA92ghh0ei2d0iesy2NPTkKHg-_MbUPGgtUeb6m2V
+}
+
+!procedure LaughBeam($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/LaughBeam', $name, $tech, $desc)
+!endprocedure

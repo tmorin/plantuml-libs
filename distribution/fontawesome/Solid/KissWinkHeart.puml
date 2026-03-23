@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/KissWinkHeart
+
+sprite $KissWinkHeartXs [12x10/16z] JOo50O0m3C22E_p_BLizTQNpNXYV46adqjbpcepV7YiFX-QCVGPdprTjTR-pt-LJzpy
+
+sprite $KissWinkHeartSm [15x12/16z] DSc53KLH381GdiiLzf_sIvkUA84mva5P3IrhqpGZjQp0gpuAQiuNj-6QMGPKWes-0gTgHzJQBLEpmMMtVa3b2m
+
+sprite $KissWinkHeartMd [20x16/16z] {
+JP053iL024GVr7NkVzela4dsjMiuq2oFhc3aKRE2aSmxYin3SMia6SsElWBCVP5OavPnbMoMedw5wp100AUAo18reU86WUMk8IkgzYjWAza5ObBXB448B6lX
+yqWx3Wsa9v0b-G8
+}
+
+sprite $KissWinkHeartLg [25x20/16z] {
+NT453aGX30JGmPsv_sqtPNzJmelXLA3Augfu-SrFn6tIR9Z5su9gLCyENnx79bMF-Rf2qTmaaquX70KGI0GkB7qhK4p9f6soogpOXia0wacQdzRMULEvA-FD
+9FFnf97H-Py6Y6hvycmSpguCZsaRjEyRtWsayxbpXOmOzZBWxcxO1P4snIv0cpq0-04
+}
+
+!procedure KissWinkHeart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/KissWinkHeart', $name, $tech, $desc)
+!endprocedure

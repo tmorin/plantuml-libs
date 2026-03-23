@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Asterisk
 
-sprite $AsteriskXs [7x10/16z] FOc50S0W4CHIzsR_QN5uEMMCQwKzlPdaDSq6imBgfq_ho9JdJXy1
+sprite $AsteriskXs [8x10/16z] Om02FWO8u4UYkVYvW3G_Fv070c1XVf12TWYV3oJ3mCoFhWy
 
-sprite $AsteriskSm [9x12/16z] JOk30G0n5CKEjRB_jBNoZVVSO5QJMjQZyHfUaeGwD_enWQr5qdaYiJt3ah-p6UWs5W
+sprite $AsteriskSm [10x12/16z] NSo50OG0509GBctV_jFQ_Jk0pDPdD_UfjavleOqW-OFN2cFlQFFb7IbvDKdiwa_b4G
 
-sprite $AsteriskMd [12x16/16z] POw50S0m3CESCLh_Npl6LeKmA6DwrPd8zF7MOpIqXpw31dRslvB4mQW30_sXTPp4aJ7E50RF-EnPWUAP5VaEA6K5
+sprite $AsteriskMd [14x16/16z] XSwr0GL120L0pftflzelvzdE2X0zuf3naghYD9llARNezcb1n8OqOOW_korEiCHXTcWZeiESwWsniXq95Qgixhm-otjkZle5
 
-sprite $AsteriskLg [15x20/16z] TSwr0SG054En7-Pe_saFmlWwLNOybYP7PHnPlB5BTzODneKP4gX_J0Rq4IsMqlWtcAfZQOHcGMCf_o67WQbeq4z36NHaCN7QYEJbypl364zz0G
+sprite $AsteriskLg [17x20/16z] {
+dOz50a0X44BvQSlzJsldrhUQ7a33_jXuoFE29kzPa6GgqBV2pGHU9cGkM9Bk0c0uk56u70iI0vzpDLB5neDCkThk-9JdVLlUFcKlRr_8ITkzl5Yb6tTk_ng5
+2
+}
 
 !procedure Asterisk($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Asterisk', $name, $tech, $desc)

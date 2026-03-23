@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/SortAsc
+
+sprite $SortAscXs [7x10/16z] Os1WO6800tv-20cY-S603K8n40O
+
+sprite $SortAscSm [9x12/16z] Om023WO8uEJdPuJIG1QO1hCu-A60WGyA6CW2
+
+sprite $SortAscMd [12x16/16z] Om03FWOOOEJdvuSpGG3AX0084yxXHm0-93O37G4
+
+sprite $SortAscLg [15x20/16z] Ou007ZO69C37py-1p0C2JXGUK1xEW_9XF0GVH27ulFmeW0sLop0K
+
+!procedure SortAsc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SortAsc', $name, $tech, $desc)
+!endprocedure

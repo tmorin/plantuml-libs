@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/VectorPolygon
+
+sprite $VectorPolygonXs [10x10/16z] DSQr0G0n00CnFqFWzfysR5LIrh25Z8cWhiyHpXXUhwUCDhWx25W5
+
+sprite $VectorPolygonSm [12x12/16z] DSR50SC050MWryQL_QUDVqvaxVDQ-XMbPtrin9e7gMzIfwdZLmzBwXdz4biUj0jAp_xY1
+
+sprite $VectorPolygonMd [16x16/16z] TSwr0SC000D1cTct_xH1G_0hNQUqQ_RkkyMwXnMl1UNMWApAR57bnQinfvk5d6wH5qFnug1wTMhowemyN6UBkMWmRor__cUhm1K
+
+sprite $VectorPolygonLg [20x20/16z] {
+PSot0GC13090_3dgzj_MrUSh9I1DBRdvrPe6sjE0Ab-Bhs3DQSQIbfn-xCdpXhnk6ztp1aiUjmNol87VyzRwtjB3xNPUr_SjHPDakD-2EJyOJZEKhzLNYkKr
+-0S
+}
+
+!procedure VectorPolygon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/VectorPolygon', $name, $tech, $desc)
+!endprocedure

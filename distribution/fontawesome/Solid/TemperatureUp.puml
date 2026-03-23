@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/TemperatureUp
+
+sprite $TemperatureUpXs [10x10/16z] Os1Wu6U04lpy_3220OK5n6Wi9Z0Bg02Y1Yu55kE3i3Y11l226
+
+sprite $TemperatureUpSm [12x12/16z] PSQrOGC1000n-Pbl_sd3gQnAs6-meWfrqFcAAZh4w-prVsVUF_o-TiKQnTm2UfYRGTrx0Qf6y0a
+
+sprite $TemperatureUpMd [16x16/16z] XSX50iHG309Gsdutxd_R2Hbt5eGNM2e3FDERbdKPrfaS6gBkO8DkVp6sJcmFXXd_FTtxrObkpQRIL4_hpTTXlVmBTten3nIouFvGSCiJJm
+
+sprite $TemperatureUpLg [20x20/16z] {
+hSe53iDG30JH_HHEvlwthLoxp30Y-sbbZKoAIB8ILd72SMEVKo1iMY28k2QLXwOqiobTcipq7yjdHXZfQ1FGb81LKgBwhCPSdj_lsEBFTcu9m8IgOoFUghCA
+LjEn7G
+}
+
+!procedure TemperatureUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TemperatureUp', $name, $tech, $desc)
+!endprocedure

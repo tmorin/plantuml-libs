@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Hamburger
+
+sprite $HamburgerXs [10x10/16z] Oq06_4303MPmyJFmC_C36J20n883NYnYoEfW3
+
+sprite $HamburgerSm [12x12/16z] NS650O0m0C2muax_lnPdbb1OrP5Rhw82bUngtma6C-l-QqdiHgIMOC2WWsb_TPm
+
+sprite $HamburgerMd [16x16/16z] XS650GGX0C2mdk7G_QTzTqtuQ6kZp5nrjQc94xisj3iuK88Ui5aX-0YwZ_Yd-cpnoU1Lh8yW-mZmGUFL7W
+
+sprite $HamburgerLg [20x20/16z] ZSwr0G0n049HuXxsd_RSDQ_ZL-23L4gAOn1Sf2sbSGPm9ETKw2FfngOApPW22N1IOCYnyGgGRQsLvLtX7TIDn1EHhbx-NLF2u9QUz
+
+!procedure Hamburger($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Hamburger', $name, $tech, $desc)
+!endprocedure

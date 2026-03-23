@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Dedent
+
+sprite $DedentXs [8x10/16z] Ou02Ndu8O8039WOs86002g58SOFv27Li4C0ALGG
+
+sprite $DedentSm [10x12/16z] HSd55S0m0CKmbxdUVzfY_ekkWXWDze1g1ryed2-LOZ5B2_iBOZ8uumO
+
+sprite $DedentMd [14x16/16z] RSw50O0m3031noso_xGuLA-k2IcBY7gCDjAG6m6vRQ3UyBtcRE6w9olaNhtne3zNyhrxrED9PCloJ1m
+
+sprite $DedentLg [17x20/16z] bS_50GCn40J1jfYLVxG-PgwVO64ua5iYrnrTTtX50D8C190g_5OzXaPr8lQTZwFIS27aG82hkwQeJLEUQRCXqlVu3G
+
+!procedure Dedent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Dedent', $name, $tech, $desc)
+!endprocedure

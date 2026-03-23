@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/DraftingCompass
+
+sprite $DraftingCompassXs [10x10/16z] BSR50GD100IWYUUK_gjTvqKwMLXzozh96W-za2tqllEZvy8tzvjqhEId0W
+
+sprite $DraftingCompassSm [12x12/16z] FSR50SCm002nAtEr_xI59BPUwk-euOvQaMUhjwTJAt-piLldsAjeX-f1NQqU5U_QLIylwcyFvrOlNm
+
+sprite $DraftingCompassMd [16x16/16z] JSw54S0m3C10bJdQVzjUE7zeDjdboa3rw-5bMBJ7ZnCwKQtwAer6Tmtt6AX4sutwOOo_sWlB37g1wb6ssfPzzQN5AipbLe1fck8XtrEbE3LwgCfRNV07
+
+sprite $DraftingCompassLg [20x20/16z] {
+NT3LeOKm40N0WmI7wR_QvxAvynTPpQ_JcjuCqW7E51D33bv2aurKkBXJN81oDU3ryeO1nf_qRO8f5sjowLBjIJ0cDT7mSEK3F7EIbP-hMxNyzk4kDq_ou4ao
+34C-ZBGPXhB57tLCFrAiO4zdkBq3
+}
+
+!procedure DraftingCompass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/DraftingCompass', $name, $tech, $desc)
+!endprocedure

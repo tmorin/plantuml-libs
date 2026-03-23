@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Globaleaks
+
+sprite $GlobaleaksXs [8x10/16z] FOM50G0X08JuxcV_QMsz04PKbDaIt5r5B2b-iz7pBxv1qGNkPeq
+
+sprite $GlobaleaksSm [10x12/16z] JSZ50OH00CNGmBYc_shNXNVvmfLwTdqL3vNW1nh4-MeVPAtprKvrRHMM6puVS2Y-6afQ2yXxtG4
+
+sprite $GlobaleaksMd [14x16/16z] PSc50S0W00F1r8jc_sbnvz43R7t6sWU7iIg0CVl77VYI3cOn9RBUiD8y93bzyKtxoHoGTjqL-x8IF-3eGYZfLAH5ONhQXITgoWC
+
+sprite $GlobaleaksLg [17x20/16z] {
+ROu30W0n40Dhu_-_lUKvHR9Jcbyv3sAtM6_IO8TwCh1ivuRb5GmEK0kGqt0YM0GD9XXnmQc9OEkLeiPMfW9vn8tn17k4fS1GMYQTmDE_GGeYcm8NX8E6_aF1
+V0DAzW9PqqC7
+}
+
+!procedure Globaleaks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Globaleaks', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,74 @@
+# Postgresql
+
+
+```text
+fontawesome/Brands/Postgresql
+```
+
+```text
+include('fontawesome/Brands/Postgresql')
+```
+
+
+
+| Illustration | Postgresql |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Brands/Postgresql.png) | ![illustration for Postgresql](../../fontawesome/Brands/Postgresql.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$PostgresqlXs>`
+- `<$PostgresqlSm>`
+- `<$PostgresqlMd>`
+- `<$PostgresqlLg>`
+
+
+
+
+
+## Postgresql
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Postgresql
+include('fontawesome/Brands/Postgresql')
+
+' renders the element
+Postgresql('Postgresql', 'Postgresql', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Postgresql
+include('fontawesome/Brands/Postgresql')
+
+' renders the element
+Postgresql('Postgresql', 'Postgresql', 'an optional tech label', 'an optional description')
+@enduml
+```
+

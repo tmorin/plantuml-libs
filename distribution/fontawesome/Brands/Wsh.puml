@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Wsh
+
+sprite $WshXs [8x10/16z] Ou01VYY9IRFpCu9eC03IG0aGmODTFG
+
+sprite $WshSm [10x12/16z] Oq00VdueXPF526FnGoa8W0emC8DPd60TFFmCZ52zo2RpyO4OG0e
+
+sprite $WshMd [14x16/16z] bSsr0S100CD0XzdUVzemFwkxIlX6jZYQI4ZTAKgfwbJSAhHrwkvIXlfMWwrnruWh2Lbt7yhAU_-q
+
+sprite $WshLg [17x20/16z] hS-r0S1G549H_YDkx3zjtDrkUIh09f8OSgH1qWY-bFu9WIr1KZ61IzKMXZrCJP325k1G5uuGe2zheS2KrK3EXkNmKIoNnZU-hAi
+
+!procedure Wsh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Wsh', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,74 @@
+# FontAwesomeFlag
+
+
+```text
+fontawesome/Regular/FontAwesomeFlag
+```
+
+```text
+include('fontawesome/Regular/FontAwesomeFlag')
+```
+
+
+
+| Illustration | FontAwesomeFlag |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Regular/FontAwesomeFlag.png) | ![illustration for FontAwesomeFlag](../../fontawesome/Regular/FontAwesomeFlag.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$FontAwesomeFlagXs>`
+- `<$FontAwesomeFlagSm>`
+- `<$FontAwesomeFlagMd>`
+- `<$FontAwesomeFlagLg>`
+
+
+
+
+
+## FontAwesomeFlag
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element FontAwesomeFlag
+include('fontawesome/Regular/FontAwesomeFlag')
+
+' renders the element
+FontAwesomeFlag('FontAwesomeFlag', 'Font Awesome Flag', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element FontAwesomeFlag
+include('fontawesome/Regular/FontAwesomeFlag')
+
+' renders the element
+FontAwesomeFlag('FontAwesomeFlag', 'Font Awesome Flag', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/CircleZulip
+
+sprite $CircleZulipXs [10x10/16z] Om02Jdus1X3W1mDE80CAM84ig0mdM00cmmicsO0g69cPWIo4EWQ8GZ2V5Se
+
+sprite $CircleZulipSm [12x12/16z] DOg74G0W20FjNTb_Mmz8NgbFKBQCu8ZZBR0Mzbf0RtWXsSlGvRdtkToyrwYbb2dITU4yjLSxtNu
+
+sprite $CircleZulipMd [16x16/16z] JS-50G0W20H0iFltdzQkirjeqXcHwSXOx1hYAclufBMP9Wc0ntAaTr2FId971bt69WC-4WLJn40uU0wNivBUkCnRlHhIsfdn6EhIFnpuYwO1
+
+sprite $CircleZulipLg [20x20/16z] {
+LS-54S0m30D0bIcEzfysgBlQNmmP84zcEk4S55iWT1vD1Q-cWaEn50OFcxdjWmzzZtU6BEmU_ZJ5J36U9oDxU5CIEyMLKpKjMwUuOtEenM3ZxUVMcV_TXnb8
+_NZeNdehXYFk4fLhSrC5
+}
+
+!procedure CircleZulip($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/CircleZulip', $name, $tech, $desc)
+!endprocedure

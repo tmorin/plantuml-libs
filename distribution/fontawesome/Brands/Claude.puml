@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Claude
+
+sprite $ClaudeXs [10x10/16z] 5SI54S1008H0uXxwx_Q7FG5U4klUFJ8huEewILHd_bKD-J_b5KJzY6M2o0q3
+
+sprite $ClaudeSm [12x12/16z] BSUr0GGn0C0mXpdUVzh7KoUW0G5-5EGXN1IMOKkx0aIdjHlvyUEMQ_RH-JbNor5e1lKaW8KOxEsNWjmAG08Xm1i
+
+sprite $ClaudeMd [16x16/16z] {
+LShN0K8n5CKmlzwIw_stvT11toAsZJyAEFAsUe0mIPoW8ACIEemUY8uGkfHpruEdG-rQmCY3HZTcltRUoYY3EDsD2zOEeqLjdhO6uSBP4Q-zU9W56Hp60qBO
+XAoFagSR
+}
+
+sprite $ClaudeLg [20x20/16z] {
+PT3LeSK02C3GG5qW-q_xz7hFBmu0oyc5Za3BYx811MPkGW4tA5S0JpWKJDG4K0DDPDNjtirniKT3YvjP3rrKUV8cOMaZCu19xteVVRFo5FUahcFYJrkgCfmg
+mAP3dxRAZHviOdgM_Dag68sGtMarkN5Z49IGVrsm2-d1NTy_kX-yihZx1W
+}
+
+!procedure Claude($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Claude', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/TrashAlt
+
+sprite $TrashAltXs [8x10/16z] Os1WuEVdPs1WvOS01XZWXvA48JiG0cak4E07
+
+sprite $TrashAltSm [10x12/16z] Os1WuERdvsS00dPsVX1WPsVYWG461E27qdn05ia4GYyKS
+
+sprite $TrashAltMd [14x16/16z] Om02PduGO802FZ2F1Sf200OcP01LZD04P_93U3n0SpcWF2fIl0WU8zm-NXJR6P0T3G
+
+sprite $TrashAltLg [17x20/16z] lSwr0SG00810_kFA_jF6NRjSIGMzr04BHocTo8FS0zw5iggz2sPWjGqvM7yU4Y3ytPm6cYyKgDo8Q04
+
+!procedure TrashAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/TrashAlt', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Bgg
+
+sprite $BggXs [12x10/16z] Oo06yF3pmzdyG3O_Bv3YuuUm-O7IVBnWDXZnWWXsGaO2
+
+sprite $BggSm [15x12/16z] bSV50S0m4CH0XJdglzgWuMlFuL9fawHL9LDbxEI0CqPbbzCG3p6q7TcwKUm6
+
+sprite $BggMd [20x16/16z] hSFL3KCn0C10lp2ftd_QCd_df6E_OygleLhuuKsaw0drLQ4iH7YyEIZQiOh1x4sch4ECppSGMokqLgyRIntyiR3H1G
+
+sprite $BggLg [25x20/16z] {
+nSxL0SCm34NHPop9lVjlst1Y-6wE6INzJzA8__1KxyF4zRTPIIw4u1GcQtSSP0mJaxC3cmvmnOIS5t7gBWSGX60wWDVbAraHBYAo48lt-k8QmxO7uto_6g04
+tUG7
+}
+
+!procedure Bgg($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Bgg', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Dashboard
+
+sprite $DashboardXs [10x10/16z] FKh50G012EBwUBd_j7Oh1I_AYoZ9Oe4u3_nd2rkhL_CwlZOCvAMVj-XJQHW
+
+sprite $DashboardSm [12x12/16z] HSYr0GC140InCUEz-g_M34eMgheuzkRjNHaeEacPE99bk82yTINMESAsWQ3oxsiSYhUbQdY_Tm
+
+sprite $DashboardMd [16x16/16z] FO-50SGm3CHKvjx-qpueeA3PHfOdrq3ZIMH3qdaLPVA-TOPS-6GW2OioIv95FsLvyWvDVWOpSLTvvCdLIh-HmNi78dZtBbzMipPxx_xsNW7kYA8C4QVv0W
+
+sprite $DashboardLg [20x20/16z] {
+RP054eGm54D3tNF_qwxzTZOhRwp4W69J5qU24BcPrv4er2CfJQHo3j6sdeR3P0BiIRIAIngcRUeVRP4Ntbf3egqD7iqz5mVPYkMUplABJ3IyVFmvo1zDp6_D
+DfzSWDZx2tlIbKR5oPLAoYWcJ0lT0G
+}
+
+!procedure Dashboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Dashboard', $name, $tech, $desc)
+!endprocedure

@@ -22,9 +22,9 @@ include('fontawesome/bootstrap')
 
 The package provides 3 modules.
 
-- [fontawesome/Brands](../fontawesome/Brands/README.md) with 484 items
-- [fontawesome/Regular](../fontawesome/Regular/README.md) with 163 items
-- [fontawesome/Solid](../fontawesome/Solid/README.md) with 1390 items
+- [fontawesome/Brands](../fontawesome/Brands/README.md) with 587 items
+- [fontawesome/Regular](../fontawesome/Regular/README.md) with 273 items
+- [fontawesome/Solid](../fontawesome/Solid/README.md) with 2000 items
 
 
 

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/SnapchatGhost
+
+sprite $SnapchatGhostXs [10x10/16z] Oq06l4mCd8nm7XUA70U2oGyZ4ImUc1ICnSCAvhA2L
+
+sprite $SnapchatGhostSm [12x12/16z] NKs30G0W4Bpisd_QR3qF-4uqF9XHkXOewNNgCRGWUaHYDOpbW7er17WDlHmfY8NHyCk5922vncREelkas3qA
+
+sprite $SnapchatGhostMd [16x16/16z] RG-30G0WBBls_xNPDHle2m01tEOMGM6ueId6ztG6F_97F8Jf1zQY0uIkOJdwsaf3kkzmaTAlEt1cjTtfBGAo-I8FrtfukEM40Lllq7Xa28pt4W
+
+sprite $SnapchatGhostLg [20x20/16z] {
+TKw5OGCn4DE36RJ_j6qIC_ET2EVn199sA0NU00olLX8ntJTRhJwjMMi8zHMNhezTZUfxQOkc8XFoYUY6Oaf2rPHP7gBLdgp1T7UfBKUz6w37EEX0VGsbErZ0
+iozvYfI5yVqL3CbEX5fuEemonjQK_m
+}
+
+!procedure SnapchatGhost($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/SnapchatGhost', $name, $tech, $desc)
+!endprocedure

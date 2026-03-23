@@ -1,6 +1,6 @@
 # Brands
 
-The module contains 484 items.
+The module contains 587 items.
 
 - [A](#family-a)
 - [B](#family-b)
@@ -55,6 +55,7 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Apper](../../fontawesome/Brands/Apper.png) | [fontawesome/Brands/Apper](../../fontawesome/Brands/Apper.md) |
 | ![illustration of fontawesome/Brands/Apple](../../fontawesome/Brands/Apple.png) | [fontawesome/Brands/Apple](../../fontawesome/Brands/Apple.md) |
 | ![illustration of fontawesome/Brands/ApplePay](../../fontawesome/Brands/ApplePay.png) | [fontawesome/Brands/ApplePay](../../fontawesome/Brands/ApplePay.md) |
+| ![illustration of fontawesome/Brands/ArchLinux](../../fontawesome/Brands/ArchLinux.png) | [fontawesome/Brands/ArchLinux](../../fontawesome/Brands/ArchLinux.md) |
 | ![illustration of fontawesome/Brands/Artstation](../../fontawesome/Brands/Artstation.png) | [fontawesome/Brands/Artstation](../../fontawesome/Brands/Artstation.md) |
 | ![illustration of fontawesome/Brands/Asymmetrik](../../fontawesome/Brands/Asymmetrik.png) | [fontawesome/Brands/Asymmetrik](../../fontawesome/Brands/Asymmetrik.md) |
 | ![illustration of fontawesome/Brands/Atlassian](../../fontawesome/Brands/Atlassian.png) | [fontawesome/Brands/Atlassian](../../fontawesome/Brands/Atlassian.md) |
@@ -71,6 +72,8 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Bandcamp](../../fontawesome/Brands/Bandcamp.png) | [fontawesome/Brands/Bandcamp](../../fontawesome/Brands/Bandcamp.md) |
 | ![illustration of fontawesome/Brands/BattleNet](../../fontawesome/Brands/BattleNet.png) | [fontawesome/Brands/BattleNet](../../fontawesome/Brands/BattleNet.md) |
 | ![illustration of fontawesome/Brands/Behance](../../fontawesome/Brands/Behance.png) | [fontawesome/Brands/Behance](../../fontawesome/Brands/Behance.md) |
+| ![illustration of fontawesome/Brands/BehanceSquare](../../fontawesome/Brands/BehanceSquare.png) | [fontawesome/Brands/BehanceSquare](../../fontawesome/Brands/BehanceSquare.md) |
+| ![illustration of fontawesome/Brands/Bgg](../../fontawesome/Brands/Bgg.png) | [fontawesome/Brands/Bgg](../../fontawesome/Brands/Bgg.md) |
 | ![illustration of fontawesome/Brands/Bilibili](../../fontawesome/Brands/Bilibili.png) | [fontawesome/Brands/Bilibili](../../fontawesome/Brands/Bilibili.md) |
 | ![illustration of fontawesome/Brands/Bimobject](../../fontawesome/Brands/Bimobject.png) | [fontawesome/Brands/Bimobject](../../fontawesome/Brands/Bimobject.md) |
 | ![illustration of fontawesome/Brands/Bitbucket](../../fontawesome/Brands/Bitbucket.png) | [fontawesome/Brands/Bitbucket](../../fontawesome/Brands/Bitbucket.md) |
@@ -80,8 +83,10 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Blackberry](../../fontawesome/Brands/Blackberry.png) | [fontawesome/Brands/Blackberry](../../fontawesome/Brands/Blackberry.md) |
 | ![illustration of fontawesome/Brands/Blogger](../../fontawesome/Brands/Blogger.png) | [fontawesome/Brands/Blogger](../../fontawesome/Brands/Blogger.md) |
 | ![illustration of fontawesome/Brands/BloggerB](../../fontawesome/Brands/BloggerB.png) | [fontawesome/Brands/BloggerB](../../fontawesome/Brands/BloggerB.md) |
+| ![illustration of fontawesome/Brands/Bluesky](../../fontawesome/Brands/Bluesky.png) | [fontawesome/Brands/Bluesky](../../fontawesome/Brands/Bluesky.md) |
 | ![illustration of fontawesome/Brands/Bluetooth](../../fontawesome/Brands/Bluetooth.png) | [fontawesome/Brands/Bluetooth](../../fontawesome/Brands/Bluetooth.md) |
 | ![illustration of fontawesome/Brands/BluetoothB](../../fontawesome/Brands/BluetoothB.png) | [fontawesome/Brands/BluetoothB](../../fontawesome/Brands/BluetoothB.md) |
+| ![illustration of fontawesome/Brands/BoardGameGeek](../../fontawesome/Brands/BoardGameGeek.png) | [fontawesome/Brands/BoardGameGeek](../../fontawesome/Brands/BoardGameGeek.md) |
 | ![illustration of fontawesome/Brands/Bootstrap](../../fontawesome/Brands/Bootstrap.png) | [fontawesome/Brands/Bootstrap](../../fontawesome/Brands/Bootstrap.md) |
 | ![illustration of fontawesome/Brands/Bots](../../fontawesome/Brands/Bots.png) | [fontawesome/Brands/Bots](../../fontawesome/Brands/Bots.md) |
 | ![illustration of fontawesome/Brands/Brave](../../fontawesome/Brands/Brave.png) | [fontawesome/Brands/Brave](../../fontawesome/Brands/Brave.md) |
@@ -97,6 +102,7 @@ The module contains 484 items.
 | |Name|
 |:---:|---|
 | ![illustration of fontawesome/Brands/CanadianMapleLeaf](../../fontawesome/Brands/CanadianMapleLeaf.png) | [fontawesome/Brands/CanadianMapleLeaf](../../fontawesome/Brands/CanadianMapleLeaf.md) |
+| ![illustration of fontawesome/Brands/CashApp](../../fontawesome/Brands/CashApp.png) | [fontawesome/Brands/CashApp](../../fontawesome/Brands/CashApp.md) |
 | ![illustration of fontawesome/Brands/CcAmazonPay](../../fontawesome/Brands/CcAmazonPay.png) | [fontawesome/Brands/CcAmazonPay](../../fontawesome/Brands/CcAmazonPay.md) |
 | ![illustration of fontawesome/Brands/CcAmex](../../fontawesome/Brands/CcAmex.png) | [fontawesome/Brands/CcAmex](../../fontawesome/Brands/CcAmex.md) |
 | ![illustration of fontawesome/Brands/CcApplePay](../../fontawesome/Brands/CcApplePay.png) | [fontawesome/Brands/CcApplePay](../../fontawesome/Brands/CcApplePay.md) |
@@ -111,6 +117,8 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Centos](../../fontawesome/Brands/Centos.png) | [fontawesome/Brands/Centos](../../fontawesome/Brands/Centos.md) |
 | ![illustration of fontawesome/Brands/Chrome](../../fontawesome/Brands/Chrome.png) | [fontawesome/Brands/Chrome](../../fontawesome/Brands/Chrome.md) |
 | ![illustration of fontawesome/Brands/Chromecast](../../fontawesome/Brands/Chromecast.png) | [fontawesome/Brands/Chromecast](../../fontawesome/Brands/Chromecast.md) |
+| ![illustration of fontawesome/Brands/CircleZulip](../../fontawesome/Brands/CircleZulip.png) | [fontawesome/Brands/CircleZulip](../../fontawesome/Brands/CircleZulip.md) |
+| ![illustration of fontawesome/Brands/Claude](../../fontawesome/Brands/Claude.png) | [fontawesome/Brands/Claude](../../fontawesome/Brands/Claude.md) |
 | ![illustration of fontawesome/Brands/Cloudflare](../../fontawesome/Brands/Cloudflare.png) | [fontawesome/Brands/Cloudflare](../../fontawesome/Brands/Cloudflare.md) |
 | ![illustration of fontawesome/Brands/Cloudscale](../../fontawesome/Brands/Cloudscale.png) | [fontawesome/Brands/Cloudscale](../../fontawesome/Brands/Cloudscale.md) |
 | ![illustration of fontawesome/Brands/Cloudsmith](../../fontawesome/Brands/Cloudsmith.png) | [fontawesome/Brands/Cloudsmith](../../fontawesome/Brands/Cloudsmith.md) |
@@ -138,6 +146,7 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/CreativeCommonsShare](../../fontawesome/Brands/CreativeCommonsShare.png) | [fontawesome/Brands/CreativeCommonsShare](../../fontawesome/Brands/CreativeCommonsShare.md) |
 | ![illustration of fontawesome/Brands/CreativeCommonsZero](../../fontawesome/Brands/CreativeCommonsZero.png) | [fontawesome/Brands/CreativeCommonsZero](../../fontawesome/Brands/CreativeCommonsZero.md) |
 | ![illustration of fontawesome/Brands/CriticalRole](../../fontawesome/Brands/CriticalRole.png) | [fontawesome/Brands/CriticalRole](../../fontawesome/Brands/CriticalRole.md) |
+| ![illustration of fontawesome/Brands/Css](../../fontawesome/Brands/Css.png) | [fontawesome/Brands/Css](../../fontawesome/Brands/Css.md) |
 | ![illustration of fontawesome/Brands/Css3](../../fontawesome/Brands/Css3.png) | [fontawesome/Brands/Css3](../../fontawesome/Brands/Css3.md) |
 | ![illustration of fontawesome/Brands/Css3Alt](../../fontawesome/Brands/Css3Alt.png) | [fontawesome/Brands/Css3Alt](../../fontawesome/Brands/Css3Alt.md) |
 | ![illustration of fontawesome/Brands/Cuttlefish](../../fontawesome/Brands/Cuttlefish.png) | [fontawesome/Brands/Cuttlefish](../../fontawesome/Brands/Cuttlefish.md) |
@@ -149,6 +158,7 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/DAndD](../../fontawesome/Brands/DAndD.png) | [fontawesome/Brands/DAndD](../../fontawesome/Brands/DAndD.md) |
 | ![illustration of fontawesome/Brands/DAndDBeyond](../../fontawesome/Brands/DAndDBeyond.png) | [fontawesome/Brands/DAndDBeyond](../../fontawesome/Brands/DAndDBeyond.md) |
 | ![illustration of fontawesome/Brands/Dailymotion](../../fontawesome/Brands/Dailymotion.png) | [fontawesome/Brands/Dailymotion](../../fontawesome/Brands/Dailymotion.md) |
+| ![illustration of fontawesome/Brands/DartLang](../../fontawesome/Brands/DartLang.png) | [fontawesome/Brands/DartLang](../../fontawesome/Brands/DartLang.md) |
 | ![illustration of fontawesome/Brands/Dashcube](../../fontawesome/Brands/Dashcube.png) | [fontawesome/Brands/Dashcube](../../fontawesome/Brands/Dashcube.md) |
 | ![illustration of fontawesome/Brands/Debian](../../fontawesome/Brands/Debian.png) | [fontawesome/Brands/Debian](../../fontawesome/Brands/Debian.md) |
 | ![illustration of fontawesome/Brands/Deezer](../../fontawesome/Brands/Deezer.png) | [fontawesome/Brands/Deezer](../../fontawesome/Brands/Deezer.md) |
@@ -163,12 +173,15 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/DigitalOcean](../../fontawesome/Brands/DigitalOcean.png) | [fontawesome/Brands/DigitalOcean](../../fontawesome/Brands/DigitalOcean.md) |
 | ![illustration of fontawesome/Brands/Discord](../../fontawesome/Brands/Discord.png) | [fontawesome/Brands/Discord](../../fontawesome/Brands/Discord.md) |
 | ![illustration of fontawesome/Brands/Discourse](../../fontawesome/Brands/Discourse.png) | [fontawesome/Brands/Discourse](../../fontawesome/Brands/Discourse.md) |
+| ![illustration of fontawesome/Brands/Disqus](../../fontawesome/Brands/Disqus.png) | [fontawesome/Brands/Disqus](../../fontawesome/Brands/Disqus.md) |
 | ![illustration of fontawesome/Brands/Dochub](../../fontawesome/Brands/Dochub.png) | [fontawesome/Brands/Dochub](../../fontawesome/Brands/Dochub.md) |
 | ![illustration of fontawesome/Brands/Docker](../../fontawesome/Brands/Docker.png) | [fontawesome/Brands/Docker](../../fontawesome/Brands/Docker.md) |
 | ![illustration of fontawesome/Brands/Draft2Digital](../../fontawesome/Brands/Draft2Digital.png) | [fontawesome/Brands/Draft2Digital](../../fontawesome/Brands/Draft2Digital.md) |
 | ![illustration of fontawesome/Brands/Dribbble](../../fontawesome/Brands/Dribbble.png) | [fontawesome/Brands/Dribbble](../../fontawesome/Brands/Dribbble.md) |
+| ![illustration of fontawesome/Brands/DribbbleSquare](../../fontawesome/Brands/DribbbleSquare.png) | [fontawesome/Brands/DribbbleSquare](../../fontawesome/Brands/DribbbleSquare.md) |
 | ![illustration of fontawesome/Brands/Dropbox](../../fontawesome/Brands/Dropbox.png) | [fontawesome/Brands/Dropbox](../../fontawesome/Brands/Dropbox.md) |
 | ![illustration of fontawesome/Brands/Drupal](../../fontawesome/Brands/Drupal.png) | [fontawesome/Brands/Drupal](../../fontawesome/Brands/Drupal.md) |
+| ![illustration of fontawesome/Brands/Duolingo](../../fontawesome/Brands/Duolingo.png) | [fontawesome/Brands/Duolingo](../../fontawesome/Brands/Duolingo.md) |
 | ![illustration of fontawesome/Brands/Dyalog](../../fontawesome/Brands/Dyalog.png) | [fontawesome/Brands/Dyalog](../../fontawesome/Brands/Dyalog.md) |
 
 <span id="family-e"></span>
@@ -180,6 +193,7 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Edge](../../fontawesome/Brands/Edge.png) | [fontawesome/Brands/Edge](../../fontawesome/Brands/Edge.md) |
 | ![illustration of fontawesome/Brands/EdgeLegacy](../../fontawesome/Brands/EdgeLegacy.png) | [fontawesome/Brands/EdgeLegacy](../../fontawesome/Brands/EdgeLegacy.md) |
 | ![illustration of fontawesome/Brands/Elementor](../../fontawesome/Brands/Elementor.png) | [fontawesome/Brands/Elementor](../../fontawesome/Brands/Elementor.md) |
+| ![illustration of fontawesome/Brands/Eleventy](../../fontawesome/Brands/Eleventy.png) | [fontawesome/Brands/Eleventy](../../fontawesome/Brands/Eleventy.md) |
 | ![illustration of fontawesome/Brands/Ello](../../fontawesome/Brands/Ello.png) | [fontawesome/Brands/Ello](../../fontawesome/Brands/Ello.md) |
 | ![illustration of fontawesome/Brands/Ember](../../fontawesome/Brands/Ember.png) | [fontawesome/Brands/Ember](../../fontawesome/Brands/Ember.md) |
 | ![illustration of fontawesome/Brands/Empire](../../fontawesome/Brands/Empire.png) | [fontawesome/Brands/Empire](../../fontawesome/Brands/Empire.md) |
@@ -197,10 +211,13 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Facebook](../../fontawesome/Brands/Facebook.png) | [fontawesome/Brands/Facebook](../../fontawesome/Brands/Facebook.md) |
 | ![illustration of fontawesome/Brands/FacebookF](../../fontawesome/Brands/FacebookF.png) | [fontawesome/Brands/FacebookF](../../fontawesome/Brands/FacebookF.md) |
 | ![illustration of fontawesome/Brands/FacebookMessenger](../../fontawesome/Brands/FacebookMessenger.png) | [fontawesome/Brands/FacebookMessenger](../../fontawesome/Brands/FacebookMessenger.md) |
+| ![illustration of fontawesome/Brands/FacebookSquare](../../fontawesome/Brands/FacebookSquare.png) | [fontawesome/Brands/FacebookSquare](../../fontawesome/Brands/FacebookSquare.md) |
 | ![illustration of fontawesome/Brands/FantasyFlightGames](../../fontawesome/Brands/FantasyFlightGames.png) | [fontawesome/Brands/FantasyFlightGames](../../fontawesome/Brands/FantasyFlightGames.md) |
 | ![illustration of fontawesome/Brands/Fedex](../../fontawesome/Brands/Fedex.png) | [fontawesome/Brands/Fedex](../../fontawesome/Brands/Fedex.md) |
+| ![illustration of fontawesome/Brands/Fediverse](../../fontawesome/Brands/Fediverse.png) | [fontawesome/Brands/Fediverse](../../fontawesome/Brands/Fediverse.md) |
 | ![illustration of fontawesome/Brands/Fedora](../../fontawesome/Brands/Fedora.png) | [fontawesome/Brands/Fedora](../../fontawesome/Brands/Fedora.md) |
 | ![illustration of fontawesome/Brands/Figma](../../fontawesome/Brands/Figma.png) | [fontawesome/Brands/Figma](../../fontawesome/Brands/Figma.md) |
+| ![illustration of fontawesome/Brands/FilesPinwheel](../../fontawesome/Brands/FilesPinwheel.png) | [fontawesome/Brands/FilesPinwheel](../../fontawesome/Brands/FilesPinwheel.md) |
 | ![illustration of fontawesome/Brands/Firefox](../../fontawesome/Brands/Firefox.png) | [fontawesome/Brands/Firefox](../../fontawesome/Brands/Firefox.md) |
 | ![illustration of fontawesome/Brands/FirefoxBrowser](../../fontawesome/Brands/FirefoxBrowser.png) | [fontawesome/Brands/FirefoxBrowser](../../fontawesome/Brands/FirefoxBrowser.md) |
 | ![illustration of fontawesome/Brands/FirstOrder](../../fontawesome/Brands/FirstOrder.png) | [fontawesome/Brands/FirstOrder](../../fontawesome/Brands/FirstOrder.md) |
@@ -208,10 +225,15 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Firstdraft](../../fontawesome/Brands/Firstdraft.png) | [fontawesome/Brands/Firstdraft](../../fontawesome/Brands/Firstdraft.md) |
 | ![illustration of fontawesome/Brands/Flickr](../../fontawesome/Brands/Flickr.png) | [fontawesome/Brands/Flickr](../../fontawesome/Brands/Flickr.md) |
 | ![illustration of fontawesome/Brands/Flipboard](../../fontawesome/Brands/Flipboard.png) | [fontawesome/Brands/Flipboard](../../fontawesome/Brands/Flipboard.md) |
+| ![illustration of fontawesome/Brands/Flutter](../../fontawesome/Brands/Flutter.png) | [fontawesome/Brands/Flutter](../../fontawesome/Brands/Flutter.md) |
 | ![illustration of fontawesome/Brands/Fly](../../fontawesome/Brands/Fly.png) | [fontawesome/Brands/Fly](../../fontawesome/Brands/Fly.md) |
 | ![illustration of fontawesome/Brands/FontAwesome](../../fontawesome/Brands/FontAwesome.png) | [fontawesome/Brands/FontAwesome](../../fontawesome/Brands/FontAwesome.md) |
+| ![illustration of fontawesome/Brands/FontAwesomeAlt](../../fontawesome/Brands/FontAwesomeAlt.png) | [fontawesome/Brands/FontAwesomeAlt](../../fontawesome/Brands/FontAwesomeAlt.md) |
+| ![illustration of fontawesome/Brands/FontAwesomeFlag](../../fontawesome/Brands/FontAwesomeFlag.png) | [fontawesome/Brands/FontAwesomeFlag](../../fontawesome/Brands/FontAwesomeFlag.md) |
+| ![illustration of fontawesome/Brands/FontAwesomeLogoFull](../../fontawesome/Brands/FontAwesomeLogoFull.png) | [fontawesome/Brands/FontAwesomeLogoFull](../../fontawesome/Brands/FontAwesomeLogoFull.md) |
 | ![illustration of fontawesome/Brands/Fonticons](../../fontawesome/Brands/Fonticons.png) | [fontawesome/Brands/Fonticons](../../fontawesome/Brands/Fonticons.md) |
 | ![illustration of fontawesome/Brands/FonticonsFi](../../fontawesome/Brands/FonticonsFi.png) | [fontawesome/Brands/FonticonsFi](../../fontawesome/Brands/FonticonsFi.md) |
+| ![illustration of fontawesome/Brands/Forgejo](../../fontawesome/Brands/Forgejo.png) | [fontawesome/Brands/Forgejo](../../fontawesome/Brands/Forgejo.md) |
 | ![illustration of fontawesome/Brands/FortAwesome](../../fontawesome/Brands/FortAwesome.png) | [fontawesome/Brands/FortAwesome](../../fontawesome/Brands/FortAwesome.md) |
 | ![illustration of fontawesome/Brands/FortAwesomeAlt](../../fontawesome/Brands/FortAwesomeAlt.png) | [fontawesome/Brands/FortAwesomeAlt](../../fontawesome/Brands/FortAwesomeAlt.md) |
 | ![illustration of fontawesome/Brands/Forumbee](../../fontawesome/Brands/Forumbee.png) | [fontawesome/Brands/Forumbee](../../fontawesome/Brands/Forumbee.md) |
@@ -231,13 +253,18 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/GgCircle](../../fontawesome/Brands/GgCircle.png) | [fontawesome/Brands/GgCircle](../../fontawesome/Brands/GgCircle.md) |
 | ![illustration of fontawesome/Brands/Git](../../fontawesome/Brands/Git.png) | [fontawesome/Brands/Git](../../fontawesome/Brands/Git.md) |
 | ![illustration of fontawesome/Brands/GitAlt](../../fontawesome/Brands/GitAlt.png) | [fontawesome/Brands/GitAlt](../../fontawesome/Brands/GitAlt.md) |
+| ![illustration of fontawesome/Brands/GitSquare](../../fontawesome/Brands/GitSquare.png) | [fontawesome/Brands/GitSquare](../../fontawesome/Brands/GitSquare.md) |
+| ![illustration of fontawesome/Brands/Gitee](../../fontawesome/Brands/Gitee.png) | [fontawesome/Brands/Gitee](../../fontawesome/Brands/Gitee.md) |
 | ![illustration of fontawesome/Brands/Github](../../fontawesome/Brands/Github.png) | [fontawesome/Brands/Github](../../fontawesome/Brands/Github.md) |
 | ![illustration of fontawesome/Brands/GithubAlt](../../fontawesome/Brands/GithubAlt.png) | [fontawesome/Brands/GithubAlt](../../fontawesome/Brands/GithubAlt.md) |
+| ![illustration of fontawesome/Brands/GithubSquare](../../fontawesome/Brands/GithubSquare.png) | [fontawesome/Brands/GithubSquare](../../fontawesome/Brands/GithubSquare.md) |
 | ![illustration of fontawesome/Brands/Gitkraken](../../fontawesome/Brands/Gitkraken.png) | [fontawesome/Brands/Gitkraken](../../fontawesome/Brands/Gitkraken.md) |
 | ![illustration of fontawesome/Brands/Gitlab](../../fontawesome/Brands/Gitlab.png) | [fontawesome/Brands/Gitlab](../../fontawesome/Brands/Gitlab.md) |
+| ![illustration of fontawesome/Brands/GitlabSquare](../../fontawesome/Brands/GitlabSquare.png) | [fontawesome/Brands/GitlabSquare](../../fontawesome/Brands/GitlabSquare.md) |
 | ![illustration of fontawesome/Brands/Gitter](../../fontawesome/Brands/Gitter.png) | [fontawesome/Brands/Gitter](../../fontawesome/Brands/Gitter.md) |
 | ![illustration of fontawesome/Brands/Glide](../../fontawesome/Brands/Glide.png) | [fontawesome/Brands/Glide](../../fontawesome/Brands/Glide.md) |
 | ![illustration of fontawesome/Brands/GlideG](../../fontawesome/Brands/GlideG.png) | [fontawesome/Brands/GlideG](../../fontawesome/Brands/GlideG.md) |
+| ![illustration of fontawesome/Brands/Globaleaks](../../fontawesome/Brands/Globaleaks.png) | [fontawesome/Brands/Globaleaks](../../fontawesome/Brands/Globaleaks.md) |
 | ![illustration of fontawesome/Brands/Gofore](../../fontawesome/Brands/Gofore.png) | [fontawesome/Brands/Gofore](../../fontawesome/Brands/Gofore.md) |
 | ![illustration of fontawesome/Brands/Golang](../../fontawesome/Brands/Golang.png) | [fontawesome/Brands/Golang](../../fontawesome/Brands/Golang.md) |
 | ![illustration of fontawesome/Brands/Goodreads](../../fontawesome/Brands/Goodreads.png) | [fontawesome/Brands/Goodreads](../../fontawesome/Brands/Goodreads.md) |
@@ -248,6 +275,7 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/GooglePlay](../../fontawesome/Brands/GooglePlay.png) | [fontawesome/Brands/GooglePlay](../../fontawesome/Brands/GooglePlay.md) |
 | ![illustration of fontawesome/Brands/GooglePlus](../../fontawesome/Brands/GooglePlus.png) | [fontawesome/Brands/GooglePlus](../../fontawesome/Brands/GooglePlus.md) |
 | ![illustration of fontawesome/Brands/GooglePlusG](../../fontawesome/Brands/GooglePlusG.png) | [fontawesome/Brands/GooglePlusG](../../fontawesome/Brands/GooglePlusG.md) |
+| ![illustration of fontawesome/Brands/GooglePlusSquare](../../fontawesome/Brands/GooglePlusSquare.png) | [fontawesome/Brands/GooglePlusSquare](../../fontawesome/Brands/GooglePlusSquare.md) |
 | ![illustration of fontawesome/Brands/GoogleScholar](../../fontawesome/Brands/GoogleScholar.png) | [fontawesome/Brands/GoogleScholar](../../fontawesome/Brands/GoogleScholar.md) |
 | ![illustration of fontawesome/Brands/GoogleWallet](../../fontawesome/Brands/GoogleWallet.png) | [fontawesome/Brands/GoogleWallet](../../fontawesome/Brands/GoogleWallet.md) |
 | ![illustration of fontawesome/Brands/Gratipay](../../fontawesome/Brands/Gratipay.png) | [fontawesome/Brands/Gratipay](../../fontawesome/Brands/Gratipay.md) |
@@ -262,6 +290,7 @@ The module contains 484 items.
 | |Name|
 |:---:|---|
 | ![illustration of fontawesome/Brands/HackerNews](../../fontawesome/Brands/HackerNews.png) | [fontawesome/Brands/HackerNews](../../fontawesome/Brands/HackerNews.md) |
+| ![illustration of fontawesome/Brands/HackerNewsSquare](../../fontawesome/Brands/HackerNewsSquare.png) | [fontawesome/Brands/HackerNewsSquare](../../fontawesome/Brands/HackerNewsSquare.md) |
 | ![illustration of fontawesome/Brands/Hackerrank](../../fontawesome/Brands/Hackerrank.png) | [fontawesome/Brands/Hackerrank](../../fontawesome/Brands/Hackerrank.md) |
 | ![illustration of fontawesome/Brands/Hashnode](../../fontawesome/Brands/Hashnode.png) | [fontawesome/Brands/Hashnode](../../fontawesome/Brands/Hashnode.md) |
 | ![illustration of fontawesome/Brands/Hips](../../fontawesome/Brands/Hips.png) | [fontawesome/Brands/Hips](../../fontawesome/Brands/Hips.md) |
@@ -273,6 +302,7 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Houzz](../../fontawesome/Brands/Houzz.png) | [fontawesome/Brands/Houzz](../../fontawesome/Brands/Houzz.md) |
 | ![illustration of fontawesome/Brands/Html5](../../fontawesome/Brands/Html5.png) | [fontawesome/Brands/Html5](../../fontawesome/Brands/Html5.md) |
 | ![illustration of fontawesome/Brands/Hubspot](../../fontawesome/Brands/Hubspot.png) | [fontawesome/Brands/Hubspot](../../fontawesome/Brands/Hubspot.md) |
+| ![illustration of fontawesome/Brands/HuggingFace](../../fontawesome/Brands/HuggingFace.png) | [fontawesome/Brands/HuggingFace](../../fontawesome/Brands/HuggingFace.md) |
 
 <span id="family-i"></span>
 ## I
@@ -280,7 +310,9 @@ The module contains 484 items.
 |:---:|---|
 | ![illustration of fontawesome/Brands/Ideal](../../fontawesome/Brands/Ideal.png) | [fontawesome/Brands/Ideal](../../fontawesome/Brands/Ideal.md) |
 | ![illustration of fontawesome/Brands/Imdb](../../fontawesome/Brands/Imdb.png) | [fontawesome/Brands/Imdb](../../fontawesome/Brands/Imdb.md) |
+| ![illustration of fontawesome/Brands/Innosoft](../../fontawesome/Brands/Innosoft.png) | [fontawesome/Brands/Innosoft](../../fontawesome/Brands/Innosoft.md) |
 | ![illustration of fontawesome/Brands/Instagram](../../fontawesome/Brands/Instagram.png) | [fontawesome/Brands/Instagram](../../fontawesome/Brands/Instagram.md) |
+| ![illustration of fontawesome/Brands/InstagramSquare](../../fontawesome/Brands/InstagramSquare.png) | [fontawesome/Brands/InstagramSquare](../../fontawesome/Brands/InstagramSquare.md) |
 | ![illustration of fontawesome/Brands/Instalod](../../fontawesome/Brands/Instalod.png) | [fontawesome/Brands/Instalod](../../fontawesome/Brands/Instalod.md) |
 | ![illustration of fontawesome/Brands/Intercom](../../fontawesome/Brands/Intercom.png) | [fontawesome/Brands/Intercom](../../fontawesome/Brands/Intercom.md) |
 | ![illustration of fontawesome/Brands/InternetExplorer](../../fontawesome/Brands/InternetExplorer.png) | [fontawesome/Brands/InternetExplorer](../../fontawesome/Brands/InternetExplorer.md) |
@@ -301,18 +333,24 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Joget](../../fontawesome/Brands/Joget.png) | [fontawesome/Brands/Joget](../../fontawesome/Brands/Joget.md) |
 | ![illustration of fontawesome/Brands/Joomla](../../fontawesome/Brands/Joomla.png) | [fontawesome/Brands/Joomla](../../fontawesome/Brands/Joomla.md) |
 | ![illustration of fontawesome/Brands/Js](../../fontawesome/Brands/Js.png) | [fontawesome/Brands/Js](../../fontawesome/Brands/Js.md) |
+| ![illustration of fontawesome/Brands/JsSquare](../../fontawesome/Brands/JsSquare.png) | [fontawesome/Brands/JsSquare](../../fontawesome/Brands/JsSquare.md) |
 | ![illustration of fontawesome/Brands/Jsfiddle](../../fontawesome/Brands/Jsfiddle.png) | [fontawesome/Brands/Jsfiddle](../../fontawesome/Brands/Jsfiddle.md) |
+| ![illustration of fontawesome/Brands/Julia](../../fontawesome/Brands/Julia.png) | [fontawesome/Brands/Julia](../../fontawesome/Brands/Julia.md) |
+| ![illustration of fontawesome/Brands/Jxl](../../fontawesome/Brands/Jxl.png) | [fontawesome/Brands/Jxl](../../fontawesome/Brands/Jxl.md) |
 
 <span id="family-k"></span>
 ## K
 | |Name|
 |:---:|---|
 | ![illustration of fontawesome/Brands/Kaggle](../../fontawesome/Brands/Kaggle.png) | [fontawesome/Brands/Kaggle](../../fontawesome/Brands/Kaggle.md) |
+| ![illustration of fontawesome/Brands/KakaoTalk](../../fontawesome/Brands/KakaoTalk.png) | [fontawesome/Brands/KakaoTalk](../../fontawesome/Brands/KakaoTalk.md) |
 | ![illustration of fontawesome/Brands/Keybase](../../fontawesome/Brands/Keybase.png) | [fontawesome/Brands/Keybase](../../fontawesome/Brands/Keybase.md) |
 | ![illustration of fontawesome/Brands/Keycdn](../../fontawesome/Brands/Keycdn.png) | [fontawesome/Brands/Keycdn](../../fontawesome/Brands/Keycdn.md) |
 | ![illustration of fontawesome/Brands/Kickstarter](../../fontawesome/Brands/Kickstarter.png) | [fontawesome/Brands/Kickstarter](../../fontawesome/Brands/Kickstarter.md) |
 | ![illustration of fontawesome/Brands/KickstarterK](../../fontawesome/Brands/KickstarterK.png) | [fontawesome/Brands/KickstarterK](../../fontawesome/Brands/KickstarterK.md) |
+| ![illustration of fontawesome/Brands/KoFi](../../fontawesome/Brands/KoFi.png) | [fontawesome/Brands/KoFi](../../fontawesome/Brands/KoFi.md) |
 | ![illustration of fontawesome/Brands/Korvue](../../fontawesome/Brands/Korvue.png) | [fontawesome/Brands/Korvue](../../fontawesome/Brands/Korvue.md) |
+| ![illustration of fontawesome/Brands/Kubernetes](../../fontawesome/Brands/Kubernetes.png) | [fontawesome/Brands/Kubernetes](../../fontawesome/Brands/Kubernetes.md) |
 
 <span id="family-l"></span>
 ## L
@@ -320,14 +358,19 @@ The module contains 484 items.
 |:---:|---|
 | ![illustration of fontawesome/Brands/Laravel](../../fontawesome/Brands/Laravel.png) | [fontawesome/Brands/Laravel](../../fontawesome/Brands/Laravel.md) |
 | ![illustration of fontawesome/Brands/Lastfm](../../fontawesome/Brands/Lastfm.png) | [fontawesome/Brands/Lastfm](../../fontawesome/Brands/Lastfm.md) |
+| ![illustration of fontawesome/Brands/LastfmSquare](../../fontawesome/Brands/LastfmSquare.png) | [fontawesome/Brands/LastfmSquare](../../fontawesome/Brands/LastfmSquare.md) |
 | ![illustration of fontawesome/Brands/Leanpub](../../fontawesome/Brands/Leanpub.png) | [fontawesome/Brands/Leanpub](../../fontawesome/Brands/Leanpub.md) |
+| ![illustration of fontawesome/Brands/Leetcode](../../fontawesome/Brands/Leetcode.png) | [fontawesome/Brands/Leetcode](../../fontawesome/Brands/Leetcode.md) |
 | ![illustration of fontawesome/Brands/Less](../../fontawesome/Brands/Less.png) | [fontawesome/Brands/Less](../../fontawesome/Brands/Less.md) |
 | ![illustration of fontawesome/Brands/Letterboxd](../../fontawesome/Brands/Letterboxd.png) | [fontawesome/Brands/Letterboxd](../../fontawesome/Brands/Letterboxd.md) |
 | ![illustration of fontawesome/Brands/Line](../../fontawesome/Brands/Line.png) | [fontawesome/Brands/Line](../../fontawesome/Brands/Line.md) |
 | ![illustration of fontawesome/Brands/Linkedin](../../fontawesome/Brands/Linkedin.png) | [fontawesome/Brands/Linkedin](../../fontawesome/Brands/Linkedin.md) |
 | ![illustration of fontawesome/Brands/LinkedinIn](../../fontawesome/Brands/LinkedinIn.png) | [fontawesome/Brands/LinkedinIn](../../fontawesome/Brands/LinkedinIn.md) |
+| ![illustration of fontawesome/Brands/Linktree](../../fontawesome/Brands/Linktree.png) | [fontawesome/Brands/Linktree](../../fontawesome/Brands/Linktree.md) |
 | ![illustration of fontawesome/Brands/Linode](../../fontawesome/Brands/Linode.png) | [fontawesome/Brands/Linode](../../fontawesome/Brands/Linode.md) |
 | ![illustration of fontawesome/Brands/Linux](../../fontawesome/Brands/Linux.png) | [fontawesome/Brands/Linux](../../fontawesome/Brands/Linux.md) |
+| ![illustration of fontawesome/Brands/Lumon](../../fontawesome/Brands/Lumon.png) | [fontawesome/Brands/Lumon](../../fontawesome/Brands/Lumon.md) |
+| ![illustration of fontawesome/Brands/LumonDrop](../../fontawesome/Brands/LumonDrop.png) | [fontawesome/Brands/LumonDrop](../../fontawesome/Brands/LumonDrop.md) |
 | ![illustration of fontawesome/Brands/Lyft](../../fontawesome/Brands/Lyft.png) | [fontawesome/Brands/Lyft](../../fontawesome/Brands/Lyft.md) |
 
 <span id="family-m"></span>
@@ -343,6 +386,7 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Mdb](../../fontawesome/Brands/Mdb.png) | [fontawesome/Brands/Mdb](../../fontawesome/Brands/Mdb.md) |
 | ![illustration of fontawesome/Brands/Medapps](../../fontawesome/Brands/Medapps.png) | [fontawesome/Brands/Medapps](../../fontawesome/Brands/Medapps.md) |
 | ![illustration of fontawesome/Brands/Medium](../../fontawesome/Brands/Medium.png) | [fontawesome/Brands/Medium](../../fontawesome/Brands/Medium.md) |
+| ![illustration of fontawesome/Brands/MediumM](../../fontawesome/Brands/MediumM.png) | [fontawesome/Brands/MediumM](../../fontawesome/Brands/MediumM.md) |
 | ![illustration of fontawesome/Brands/Medrt](../../fontawesome/Brands/Medrt.png) | [fontawesome/Brands/Medrt](../../fontawesome/Brands/Medrt.md) |
 | ![illustration of fontawesome/Brands/Meetup](../../fontawesome/Brands/Meetup.png) | [fontawesome/Brands/Meetup](../../fontawesome/Brands/Meetup.md) |
 | ![illustration of fontawesome/Brands/Megaport](../../fontawesome/Brands/Megaport.png) | [fontawesome/Brands/Megaport](../../fontawesome/Brands/Megaport.md) |
@@ -369,6 +413,7 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Nimblr](../../fontawesome/Brands/Nimblr.png) | [fontawesome/Brands/Nimblr](../../fontawesome/Brands/Nimblr.md) |
 | ![illustration of fontawesome/Brands/Node](../../fontawesome/Brands/Node.png) | [fontawesome/Brands/Node](../../fontawesome/Brands/Node.md) |
 | ![illustration of fontawesome/Brands/NodeJs](../../fontawesome/Brands/NodeJs.png) | [fontawesome/Brands/NodeJs](../../fontawesome/Brands/NodeJs.md) |
+| ![illustration of fontawesome/Brands/Notion](../../fontawesome/Brands/Notion.png) | [fontawesome/Brands/Notion](../../fontawesome/Brands/Notion.md) |
 | ![illustration of fontawesome/Brands/Npm](../../fontawesome/Brands/Npm.png) | [fontawesome/Brands/Npm](../../fontawesome/Brands/Npm.md) |
 | ![illustration of fontawesome/Brands/Ns8](../../fontawesome/Brands/Ns8.png) | [fontawesome/Brands/Ns8](../../fontawesome/Brands/Ns8.md) |
 | ![illustration of fontawesome/Brands/Nutritionix](../../fontawesome/Brands/Nutritionix.png) | [fontawesome/Brands/Nutritionix](../../fontawesome/Brands/Nutritionix.md) |
@@ -377,12 +422,16 @@ The module contains 484 items.
 ## O
 | |Name|
 |:---:|---|
+| ![illustration of fontawesome/Brands/Obsidian](../../fontawesome/Brands/Obsidian.png) | [fontawesome/Brands/Obsidian](../../fontawesome/Brands/Obsidian.md) |
 | ![illustration of fontawesome/Brands/OctopusDeploy](../../fontawesome/Brands/OctopusDeploy.png) | [fontawesome/Brands/OctopusDeploy](../../fontawesome/Brands/OctopusDeploy.md) |
 | ![illustration of fontawesome/Brands/Odnoklassniki](../../fontawesome/Brands/Odnoklassniki.png) | [fontawesome/Brands/Odnoklassniki](../../fontawesome/Brands/Odnoklassniki.md) |
+| ![illustration of fontawesome/Brands/OdnoklassnikiSquare](../../fontawesome/Brands/OdnoklassnikiSquare.png) | [fontawesome/Brands/OdnoklassnikiSquare](../../fontawesome/Brands/OdnoklassnikiSquare.md) |
 | ![illustration of fontawesome/Brands/Odysee](../../fontawesome/Brands/Odysee.png) | [fontawesome/Brands/Odysee](../../fontawesome/Brands/Odysee.md) |
 | ![illustration of fontawesome/Brands/OldRepublic](../../fontawesome/Brands/OldRepublic.png) | [fontawesome/Brands/OldRepublic](../../fontawesome/Brands/OldRepublic.md) |
+| ![illustration of fontawesome/Brands/Openai](../../fontawesome/Brands/Openai.png) | [fontawesome/Brands/Openai](../../fontawesome/Brands/Openai.md) |
 | ![illustration of fontawesome/Brands/Opencart](../../fontawesome/Brands/Opencart.png) | [fontawesome/Brands/Opencart](../../fontawesome/Brands/Opencart.md) |
 | ![illustration of fontawesome/Brands/Openid](../../fontawesome/Brands/Openid.png) | [fontawesome/Brands/Openid](../../fontawesome/Brands/Openid.md) |
+| ![illustration of fontawesome/Brands/Openstreetmap](../../fontawesome/Brands/Openstreetmap.png) | [fontawesome/Brands/Openstreetmap](../../fontawesome/Brands/Openstreetmap.md) |
 | ![illustration of fontawesome/Brands/Opensuse](../../fontawesome/Brands/Opensuse.png) | [fontawesome/Brands/Opensuse](../../fontawesome/Brands/Opensuse.md) |
 | ![illustration of fontawesome/Brands/Opera](../../fontawesome/Brands/Opera.png) | [fontawesome/Brands/Opera](../../fontawesome/Brands/Opera.md) |
 | ![illustration of fontawesome/Brands/OptinMonster](../../fontawesome/Brands/OptinMonster.png) | [fontawesome/Brands/OptinMonster](../../fontawesome/Brands/OptinMonster.md) |
@@ -397,6 +446,7 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Page4](../../fontawesome/Brands/Page4.png) | [fontawesome/Brands/Page4](../../fontawesome/Brands/Page4.md) |
 | ![illustration of fontawesome/Brands/Pagelines](../../fontawesome/Brands/Pagelines.png) | [fontawesome/Brands/Pagelines](../../fontawesome/Brands/Pagelines.md) |
 | ![illustration of fontawesome/Brands/Palfed](../../fontawesome/Brands/Palfed.png) | [fontawesome/Brands/Palfed](../../fontawesome/Brands/Palfed.md) |
+| ![illustration of fontawesome/Brands/Pandora](../../fontawesome/Brands/Pandora.png) | [fontawesome/Brands/Pandora](../../fontawesome/Brands/Pandora.md) |
 | ![illustration of fontawesome/Brands/Patreon](../../fontawesome/Brands/Patreon.png) | [fontawesome/Brands/Patreon](../../fontawesome/Brands/Patreon.md) |
 | ![illustration of fontawesome/Brands/Paypal](../../fontawesome/Brands/Paypal.png) | [fontawesome/Brands/Paypal](../../fontawesome/Brands/Paypal.md) |
 | ![illustration of fontawesome/Brands/Perbyte](../../fontawesome/Brands/Perbyte.png) | [fontawesome/Brands/Perbyte](../../fontawesome/Brands/Perbyte.md) |
@@ -409,11 +459,15 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/PiedPiperAlt](../../fontawesome/Brands/PiedPiperAlt.png) | [fontawesome/Brands/PiedPiperAlt](../../fontawesome/Brands/PiedPiperAlt.md) |
 | ![illustration of fontawesome/Brands/PiedPiperHat](../../fontawesome/Brands/PiedPiperHat.png) | [fontawesome/Brands/PiedPiperHat](../../fontawesome/Brands/PiedPiperHat.md) |
 | ![illustration of fontawesome/Brands/PiedPiperPp](../../fontawesome/Brands/PiedPiperPp.png) | [fontawesome/Brands/PiedPiperPp](../../fontawesome/Brands/PiedPiperPp.md) |
+| ![illustration of fontawesome/Brands/PiedPiperSquare](../../fontawesome/Brands/PiedPiperSquare.png) | [fontawesome/Brands/PiedPiperSquare](../../fontawesome/Brands/PiedPiperSquare.md) |
 | ![illustration of fontawesome/Brands/Pinterest](../../fontawesome/Brands/Pinterest.png) | [fontawesome/Brands/Pinterest](../../fontawesome/Brands/Pinterest.md) |
 | ![illustration of fontawesome/Brands/PinterestP](../../fontawesome/Brands/PinterestP.png) | [fontawesome/Brands/PinterestP](../../fontawesome/Brands/PinterestP.md) |
+| ![illustration of fontawesome/Brands/PinterestSquare](../../fontawesome/Brands/PinterestSquare.png) | [fontawesome/Brands/PinterestSquare](../../fontawesome/Brands/PinterestSquare.md) |
 | ![illustration of fontawesome/Brands/Pix](../../fontawesome/Brands/Pix.png) | [fontawesome/Brands/Pix](../../fontawesome/Brands/Pix.md) |
+| ![illustration of fontawesome/Brands/Pixelfed](../../fontawesome/Brands/Pixelfed.png) | [fontawesome/Brands/Pixelfed](../../fontawesome/Brands/Pixelfed.md) |
 | ![illustration of fontawesome/Brands/Pixiv](../../fontawesome/Brands/Pixiv.png) | [fontawesome/Brands/Pixiv](../../fontawesome/Brands/Pixiv.md) |
 | ![illustration of fontawesome/Brands/Playstation](../../fontawesome/Brands/Playstation.png) | [fontawesome/Brands/Playstation](../../fontawesome/Brands/Playstation.md) |
+| ![illustration of fontawesome/Brands/Postgresql](../../fontawesome/Brands/Postgresql.png) | [fontawesome/Brands/Postgresql](../../fontawesome/Brands/Postgresql.md) |
 | ![illustration of fontawesome/Brands/ProductHunt](../../fontawesome/Brands/ProductHunt.png) | [fontawesome/Brands/ProductHunt](../../fontawesome/Brands/ProductHunt.md) |
 | ![illustration of fontawesome/Brands/Pushed](../../fontawesome/Brands/Pushed.png) | [fontawesome/Brands/Pushed](../../fontawesome/Brands/Pushed.md) |
 | ![illustration of fontawesome/Brands/Python](../../fontawesome/Brands/Python.png) | [fontawesome/Brands/Python](../../fontawesome/Brands/Python.md) |
@@ -440,7 +494,9 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/RedRiver](../../fontawesome/Brands/RedRiver.png) | [fontawesome/Brands/RedRiver](../../fontawesome/Brands/RedRiver.md) |
 | ![illustration of fontawesome/Brands/Reddit](../../fontawesome/Brands/Reddit.png) | [fontawesome/Brands/Reddit](../../fontawesome/Brands/Reddit.md) |
 | ![illustration of fontawesome/Brands/RedditAlien](../../fontawesome/Brands/RedditAlien.png) | [fontawesome/Brands/RedditAlien](../../fontawesome/Brands/RedditAlien.md) |
+| ![illustration of fontawesome/Brands/RedditSquare](../../fontawesome/Brands/RedditSquare.png) | [fontawesome/Brands/RedditSquare](../../fontawesome/Brands/RedditSquare.md) |
 | ![illustration of fontawesome/Brands/Redhat](../../fontawesome/Brands/Redhat.png) | [fontawesome/Brands/Redhat](../../fontawesome/Brands/Redhat.md) |
+| ![illustration of fontawesome/Brands/Rendact](../../fontawesome/Brands/Rendact.png) | [fontawesome/Brands/Rendact](../../fontawesome/Brands/Rendact.md) |
 | ![illustration of fontawesome/Brands/Renren](../../fontawesome/Brands/Renren.png) | [fontawesome/Brands/Renren](../../fontawesome/Brands/Renren.md) |
 | ![illustration of fontawesome/Brands/Replyd](../../fontawesome/Brands/Replyd.png) | [fontawesome/Brands/Replyd](../../fontawesome/Brands/Replyd.md) |
 | ![illustration of fontawesome/Brands/Researchgate](../../fontawesome/Brands/Researchgate.png) | [fontawesome/Brands/Researchgate](../../fontawesome/Brands/Researchgate.md) |
@@ -457,6 +513,7 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Safari](../../fontawesome/Brands/Safari.png) | [fontawesome/Brands/Safari](../../fontawesome/Brands/Safari.md) |
 | ![illustration of fontawesome/Brands/Salesforce](../../fontawesome/Brands/Salesforce.png) | [fontawesome/Brands/Salesforce](../../fontawesome/Brands/Salesforce.md) |
 | ![illustration of fontawesome/Brands/Sass](../../fontawesome/Brands/Sass.png) | [fontawesome/Brands/Sass](../../fontawesome/Brands/Sass.md) |
+| ![illustration of fontawesome/Brands/Scaleway](../../fontawesome/Brands/Scaleway.png) | [fontawesome/Brands/Scaleway](../../fontawesome/Brands/Scaleway.md) |
 | ![illustration of fontawesome/Brands/Schlix](../../fontawesome/Brands/Schlix.png) | [fontawesome/Brands/Schlix](../../fontawesome/Brands/Schlix.md) |
 | ![illustration of fontawesome/Brands/Screenpal](../../fontawesome/Brands/Screenpal.png) | [fontawesome/Brands/Screenpal](../../fontawesome/Brands/Screenpal.md) |
 | ![illustration of fontawesome/Brands/Scribd](../../fontawesome/Brands/Scribd.png) | [fontawesome/Brands/Scribd](../../fontawesome/Brands/Scribd.md) |
@@ -477,8 +534,12 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Skyatlas](../../fontawesome/Brands/Skyatlas.png) | [fontawesome/Brands/Skyatlas](../../fontawesome/Brands/Skyatlas.md) |
 | ![illustration of fontawesome/Brands/Skype](../../fontawesome/Brands/Skype.png) | [fontawesome/Brands/Skype](../../fontawesome/Brands/Skype.md) |
 | ![illustration of fontawesome/Brands/Slack](../../fontawesome/Brands/Slack.png) | [fontawesome/Brands/Slack](../../fontawesome/Brands/Slack.md) |
+| ![illustration of fontawesome/Brands/SlackHash](../../fontawesome/Brands/SlackHash.png) | [fontawesome/Brands/SlackHash](../../fontawesome/Brands/SlackHash.md) |
 | ![illustration of fontawesome/Brands/Slideshare](../../fontawesome/Brands/Slideshare.png) | [fontawesome/Brands/Slideshare](../../fontawesome/Brands/Slideshare.md) |
 | ![illustration of fontawesome/Brands/Snapchat](../../fontawesome/Brands/Snapchat.png) | [fontawesome/Brands/Snapchat](../../fontawesome/Brands/Snapchat.md) |
+| ![illustration of fontawesome/Brands/SnapchatGhost](../../fontawesome/Brands/SnapchatGhost.png) | [fontawesome/Brands/SnapchatGhost](../../fontawesome/Brands/SnapchatGhost.md) |
+| ![illustration of fontawesome/Brands/SnapchatSquare](../../fontawesome/Brands/SnapchatSquare.png) | [fontawesome/Brands/SnapchatSquare](../../fontawesome/Brands/SnapchatSquare.md) |
+| ![illustration of fontawesome/Brands/Solana](../../fontawesome/Brands/Solana.png) | [fontawesome/Brands/Solana](../../fontawesome/Brands/Solana.md) |
 | ![illustration of fontawesome/Brands/Soundcloud](../../fontawesome/Brands/Soundcloud.png) | [fontawesome/Brands/Soundcloud](../../fontawesome/Brands/Soundcloud.md) |
 | ![illustration of fontawesome/Brands/Sourcetree](../../fontawesome/Brands/Sourcetree.png) | [fontawesome/Brands/Sourcetree](../../fontawesome/Brands/Sourcetree.md) |
 | ![illustration of fontawesome/Brands/SpaceAwesome](../../fontawesome/Brands/SpaceAwesome.png) | [fontawesome/Brands/SpaceAwesome](../../fontawesome/Brands/SpaceAwesome.md) |
@@ -486,8 +547,11 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/SpeakerDeck](../../fontawesome/Brands/SpeakerDeck.png) | [fontawesome/Brands/SpeakerDeck](../../fontawesome/Brands/SpeakerDeck.md) |
 | ![illustration of fontawesome/Brands/Spotify](../../fontawesome/Brands/Spotify.png) | [fontawesome/Brands/Spotify](../../fontawesome/Brands/Spotify.md) |
 | ![illustration of fontawesome/Brands/SquareBehance](../../fontawesome/Brands/SquareBehance.png) | [fontawesome/Brands/SquareBehance](../../fontawesome/Brands/SquareBehance.md) |
+| ![illustration of fontawesome/Brands/SquareBluesky](../../fontawesome/Brands/SquareBluesky.png) | [fontawesome/Brands/SquareBluesky](../../fontawesome/Brands/SquareBluesky.md) |
+| ![illustration of fontawesome/Brands/SquareDeskpro](../../fontawesome/Brands/SquareDeskpro.png) | [fontawesome/Brands/SquareDeskpro](../../fontawesome/Brands/SquareDeskpro.md) |
 | ![illustration of fontawesome/Brands/SquareDribbble](../../fontawesome/Brands/SquareDribbble.png) | [fontawesome/Brands/SquareDribbble](../../fontawesome/Brands/SquareDribbble.md) |
 | ![illustration of fontawesome/Brands/SquareFacebook](../../fontawesome/Brands/SquareFacebook.png) | [fontawesome/Brands/SquareFacebook](../../fontawesome/Brands/SquareFacebook.md) |
+| ![illustration of fontawesome/Brands/SquareFigma](../../fontawesome/Brands/SquareFigma.png) | [fontawesome/Brands/SquareFigma](../../fontawesome/Brands/SquareFigma.md) |
 | ![illustration of fontawesome/Brands/SquareFontAwesome](../../fontawesome/Brands/SquareFontAwesome.png) | [fontawesome/Brands/SquareFontAwesome](../../fontawesome/Brands/SquareFontAwesome.md) |
 | ![illustration of fontawesome/Brands/SquareFontAwesomeStroke](../../fontawesome/Brands/SquareFontAwesomeStroke.png) | [fontawesome/Brands/SquareFontAwesomeStroke](../../fontawesome/Brands/SquareFontAwesomeStroke.md) |
 | ![illustration of fontawesome/Brands/SquareGit](../../fontawesome/Brands/SquareGit.png) | [fontawesome/Brands/SquareGit](../../fontawesome/Brands/SquareGit.md) |
@@ -497,8 +561,10 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/SquareHackerNews](../../fontawesome/Brands/SquareHackerNews.png) | [fontawesome/Brands/SquareHackerNews](../../fontawesome/Brands/SquareHackerNews.md) |
 | ![illustration of fontawesome/Brands/SquareInstagram](../../fontawesome/Brands/SquareInstagram.png) | [fontawesome/Brands/SquareInstagram](../../fontawesome/Brands/SquareInstagram.md) |
 | ![illustration of fontawesome/Brands/SquareJs](../../fontawesome/Brands/SquareJs.png) | [fontawesome/Brands/SquareJs](../../fontawesome/Brands/SquareJs.md) |
+| ![illustration of fontawesome/Brands/SquareKickstarter](../../fontawesome/Brands/SquareKickstarter.png) | [fontawesome/Brands/SquareKickstarter](../../fontawesome/Brands/SquareKickstarter.md) |
 | ![illustration of fontawesome/Brands/SquareLastfm](../../fontawesome/Brands/SquareLastfm.png) | [fontawesome/Brands/SquareLastfm](../../fontawesome/Brands/SquareLastfm.md) |
 | ![illustration of fontawesome/Brands/SquareLetterboxd](../../fontawesome/Brands/SquareLetterboxd.png) | [fontawesome/Brands/SquareLetterboxd](../../fontawesome/Brands/SquareLetterboxd.md) |
+| ![illustration of fontawesome/Brands/SquareLinkedin](../../fontawesome/Brands/SquareLinkedin.png) | [fontawesome/Brands/SquareLinkedin](../../fontawesome/Brands/SquareLinkedin.md) |
 | ![illustration of fontawesome/Brands/SquareOdnoklassniki](../../fontawesome/Brands/SquareOdnoklassniki.png) | [fontawesome/Brands/SquareOdnoklassniki](../../fontawesome/Brands/SquareOdnoklassniki.md) |
 | ![illustration of fontawesome/Brands/SquarePiedPiper](../../fontawesome/Brands/SquarePiedPiper.png) | [fontawesome/Brands/SquarePiedPiper](../../fontawesome/Brands/SquarePiedPiper.md) |
 | ![illustration of fontawesome/Brands/SquarePinterest](../../fontawesome/Brands/SquarePinterest.png) | [fontawesome/Brands/SquarePinterest](../../fontawesome/Brands/SquarePinterest.md) |
@@ -508,8 +574,11 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/SquareThreads](../../fontawesome/Brands/SquareThreads.png) | [fontawesome/Brands/SquareThreads](../../fontawesome/Brands/SquareThreads.md) |
 | ![illustration of fontawesome/Brands/SquareTumblr](../../fontawesome/Brands/SquareTumblr.png) | [fontawesome/Brands/SquareTumblr](../../fontawesome/Brands/SquareTumblr.md) |
 | ![illustration of fontawesome/Brands/SquareTwitter](../../fontawesome/Brands/SquareTwitter.png) | [fontawesome/Brands/SquareTwitter](../../fontawesome/Brands/SquareTwitter.md) |
+| ![illustration of fontawesome/Brands/SquareUpwork](../../fontawesome/Brands/SquareUpwork.png) | [fontawesome/Brands/SquareUpwork](../../fontawesome/Brands/SquareUpwork.md) |
 | ![illustration of fontawesome/Brands/SquareViadeo](../../fontawesome/Brands/SquareViadeo.png) | [fontawesome/Brands/SquareViadeo](../../fontawesome/Brands/SquareViadeo.md) |
 | ![illustration of fontawesome/Brands/SquareVimeo](../../fontawesome/Brands/SquareVimeo.png) | [fontawesome/Brands/SquareVimeo](../../fontawesome/Brands/SquareVimeo.md) |
+| ![illustration of fontawesome/Brands/SquareWebAwesome](../../fontawesome/Brands/SquareWebAwesome.png) | [fontawesome/Brands/SquareWebAwesome](../../fontawesome/Brands/SquareWebAwesome.md) |
+| ![illustration of fontawesome/Brands/SquareWebAwesomeStroke](../../fontawesome/Brands/SquareWebAwesomeStroke.png) | [fontawesome/Brands/SquareWebAwesomeStroke](../../fontawesome/Brands/SquareWebAwesomeStroke.md) |
 | ![illustration of fontawesome/Brands/SquareWhatsapp](../../fontawesome/Brands/SquareWhatsapp.png) | [fontawesome/Brands/SquareWhatsapp](../../fontawesome/Brands/SquareWhatsapp.md) |
 | ![illustration of fontawesome/Brands/SquareXTwitter](../../fontawesome/Brands/SquareXTwitter.png) | [fontawesome/Brands/SquareXTwitter](../../fontawesome/Brands/SquareXTwitter.md) |
 | ![illustration of fontawesome/Brands/SquareXing](../../fontawesome/Brands/SquareXing.png) | [fontawesome/Brands/SquareXing](../../fontawesome/Brands/SquareXing.md) |
@@ -520,6 +589,7 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Stackpath](../../fontawesome/Brands/Stackpath.png) | [fontawesome/Brands/Stackpath](../../fontawesome/Brands/Stackpath.md) |
 | ![illustration of fontawesome/Brands/Staylinked](../../fontawesome/Brands/Staylinked.png) | [fontawesome/Brands/Staylinked](../../fontawesome/Brands/Staylinked.md) |
 | ![illustration of fontawesome/Brands/Steam](../../fontawesome/Brands/Steam.png) | [fontawesome/Brands/Steam](../../fontawesome/Brands/Steam.md) |
+| ![illustration of fontawesome/Brands/SteamSquare](../../fontawesome/Brands/SteamSquare.png) | [fontawesome/Brands/SteamSquare](../../fontawesome/Brands/SteamSquare.md) |
 | ![illustration of fontawesome/Brands/SteamSymbol](../../fontawesome/Brands/SteamSymbol.png) | [fontawesome/Brands/SteamSymbol](../../fontawesome/Brands/SteamSymbol.md) |
 | ![illustration of fontawesome/Brands/StickerMule](../../fontawesome/Brands/StickerMule.png) | [fontawesome/Brands/StickerMule](../../fontawesome/Brands/StickerMule.md) |
 | ![illustration of fontawesome/Brands/Strava](../../fontawesome/Brands/Strava.png) | [fontawesome/Brands/Strava](../../fontawesome/Brands/Strava.md) |
@@ -531,28 +601,40 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/StumbleuponCircle](../../fontawesome/Brands/StumbleuponCircle.png) | [fontawesome/Brands/StumbleuponCircle](../../fontawesome/Brands/StumbleuponCircle.md) |
 | ![illustration of fontawesome/Brands/Superpowers](../../fontawesome/Brands/Superpowers.png) | [fontawesome/Brands/Superpowers](../../fontawesome/Brands/Superpowers.md) |
 | ![illustration of fontawesome/Brands/Supple](../../fontawesome/Brands/Supple.png) | [fontawesome/Brands/Supple](../../fontawesome/Brands/Supple.md) |
+| ![illustration of fontawesome/Brands/Supportnow](../../fontawesome/Brands/Supportnow.png) | [fontawesome/Brands/Supportnow](../../fontawesome/Brands/Supportnow.md) |
 | ![illustration of fontawesome/Brands/Suse](../../fontawesome/Brands/Suse.png) | [fontawesome/Brands/Suse](../../fontawesome/Brands/Suse.md) |
+| ![illustration of fontawesome/Brands/Svelte](../../fontawesome/Brands/Svelte.png) | [fontawesome/Brands/Svelte](../../fontawesome/Brands/Svelte.md) |
 | ![illustration of fontawesome/Brands/Swift](../../fontawesome/Brands/Swift.png) | [fontawesome/Brands/Swift](../../fontawesome/Brands/Swift.md) |
 | ![illustration of fontawesome/Brands/Symfony](../../fontawesome/Brands/Symfony.png) | [fontawesome/Brands/Symfony](../../fontawesome/Brands/Symfony.md) |
+| ![illustration of fontawesome/Brands/Symfonycasts](../../fontawesome/Brands/Symfonycasts.png) | [fontawesome/Brands/Symfonycasts](../../fontawesome/Brands/Symfonycasts.md) |
 
 <span id="family-t"></span>
 ## T
 | |Name|
 |:---:|---|
+| ![illustration of fontawesome/Brands/TailwindCss](../../fontawesome/Brands/TailwindCss.png) | [fontawesome/Brands/TailwindCss](../../fontawesome/Brands/TailwindCss.md) |
 | ![illustration of fontawesome/Brands/Teamspeak](../../fontawesome/Brands/Teamspeak.png) | [fontawesome/Brands/Teamspeak](../../fontawesome/Brands/Teamspeak.md) |
 | ![illustration of fontawesome/Brands/Telegram](../../fontawesome/Brands/Telegram.png) | [fontawesome/Brands/Telegram](../../fontawesome/Brands/Telegram.md) |
+| ![illustration of fontawesome/Brands/TelegramPlane](../../fontawesome/Brands/TelegramPlane.png) | [fontawesome/Brands/TelegramPlane](../../fontawesome/Brands/TelegramPlane.md) |
 | ![illustration of fontawesome/Brands/TencentWeibo](../../fontawesome/Brands/TencentWeibo.png) | [fontawesome/Brands/TencentWeibo](../../fontawesome/Brands/TencentWeibo.md) |
+| ![illustration of fontawesome/Brands/Tex](../../fontawesome/Brands/Tex.png) | [fontawesome/Brands/Tex](../../fontawesome/Brands/Tex.md) |
 | ![illustration of fontawesome/Brands/TheRedYeti](../../fontawesome/Brands/TheRedYeti.png) | [fontawesome/Brands/TheRedYeti](../../fontawesome/Brands/TheRedYeti.md) |
 | ![illustration of fontawesome/Brands/Themeco](../../fontawesome/Brands/Themeco.png) | [fontawesome/Brands/Themeco](../../fontawesome/Brands/Themeco.md) |
 | ![illustration of fontawesome/Brands/Themeisle](../../fontawesome/Brands/Themeisle.png) | [fontawesome/Brands/Themeisle](../../fontawesome/Brands/Themeisle.md) |
 | ![illustration of fontawesome/Brands/ThinkPeaks](../../fontawesome/Brands/ThinkPeaks.png) | [fontawesome/Brands/ThinkPeaks](../../fontawesome/Brands/ThinkPeaks.md) |
 | ![illustration of fontawesome/Brands/Threads](../../fontawesome/Brands/Threads.png) | [fontawesome/Brands/Threads](../../fontawesome/Brands/Threads.md) |
+| ![illustration of fontawesome/Brands/Threema](../../fontawesome/Brands/Threema.png) | [fontawesome/Brands/Threema](../../fontawesome/Brands/Threema.md) |
+| ![illustration of fontawesome/Brands/Tidal](../../fontawesome/Brands/Tidal.png) | [fontawesome/Brands/Tidal](../../fontawesome/Brands/Tidal.md) |
 | ![illustration of fontawesome/Brands/Tiktok](../../fontawesome/Brands/Tiktok.png) | [fontawesome/Brands/Tiktok](../../fontawesome/Brands/Tiktok.md) |
+| ![illustration of fontawesome/Brands/TorBrowser](../../fontawesome/Brands/TorBrowser.png) | [fontawesome/Brands/TorBrowser](../../fontawesome/Brands/TorBrowser.md) |
 | ![illustration of fontawesome/Brands/TradeFederation](../../fontawesome/Brands/TradeFederation.png) | [fontawesome/Brands/TradeFederation](../../fontawesome/Brands/TradeFederation.md) |
 | ![illustration of fontawesome/Brands/Trello](../../fontawesome/Brands/Trello.png) | [fontawesome/Brands/Trello](../../fontawesome/Brands/Trello.md) |
 | ![illustration of fontawesome/Brands/Tumblr](../../fontawesome/Brands/Tumblr.png) | [fontawesome/Brands/Tumblr](../../fontawesome/Brands/Tumblr.md) |
+| ![illustration of fontawesome/Brands/TumblrSquare](../../fontawesome/Brands/TumblrSquare.png) | [fontawesome/Brands/TumblrSquare](../../fontawesome/Brands/TumblrSquare.md) |
 | ![illustration of fontawesome/Brands/Twitch](../../fontawesome/Brands/Twitch.png) | [fontawesome/Brands/Twitch](../../fontawesome/Brands/Twitch.md) |
 | ![illustration of fontawesome/Brands/Twitter](../../fontawesome/Brands/Twitter.png) | [fontawesome/Brands/Twitter](../../fontawesome/Brands/Twitter.md) |
+| ![illustration of fontawesome/Brands/TwitterSquare](../../fontawesome/Brands/TwitterSquare.png) | [fontawesome/Brands/TwitterSquare](../../fontawesome/Brands/TwitterSquare.md) |
+| ![illustration of fontawesome/Brands/Typescript](../../fontawesome/Brands/Typescript.png) | [fontawesome/Brands/Typescript](../../fontawesome/Brands/Typescript.md) |
 | ![illustration of fontawesome/Brands/Typo3](../../fontawesome/Brands/Typo3.png) | [fontawesome/Brands/Typo3](../../fontawesome/Brands/Typo3.md) |
 
 <span id="family-u"></span>
@@ -562,10 +644,15 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Uber](../../fontawesome/Brands/Uber.png) | [fontawesome/Brands/Uber](../../fontawesome/Brands/Uber.md) |
 | ![illustration of fontawesome/Brands/Ubuntu](../../fontawesome/Brands/Ubuntu.png) | [fontawesome/Brands/Ubuntu](../../fontawesome/Brands/Ubuntu.md) |
 | ![illustration of fontawesome/Brands/Uikit](../../fontawesome/Brands/Uikit.png) | [fontawesome/Brands/Uikit](../../fontawesome/Brands/Uikit.md) |
+| ![illustration of fontawesome/Brands/Ultralytics](../../fontawesome/Brands/Ultralytics.png) | [fontawesome/Brands/Ultralytics](../../fontawesome/Brands/Ultralytics.md) |
+| ![illustration of fontawesome/Brands/UltralyticsHub](../../fontawesome/Brands/UltralyticsHub.png) | [fontawesome/Brands/UltralyticsHub](../../fontawesome/Brands/UltralyticsHub.md) |
+| ![illustration of fontawesome/Brands/UltralyticsYolo](../../fontawesome/Brands/UltralyticsYolo.png) | [fontawesome/Brands/UltralyticsYolo](../../fontawesome/Brands/UltralyticsYolo.md) |
 | ![illustration of fontawesome/Brands/Umbraco](../../fontawesome/Brands/Umbraco.png) | [fontawesome/Brands/Umbraco](../../fontawesome/Brands/Umbraco.md) |
 | ![illustration of fontawesome/Brands/Uncharted](../../fontawesome/Brands/Uncharted.png) | [fontawesome/Brands/Uncharted](../../fontawesome/Brands/Uncharted.md) |
 | ![illustration of fontawesome/Brands/Uniregistry](../../fontawesome/Brands/Uniregistry.png) | [fontawesome/Brands/Uniregistry](../../fontawesome/Brands/Uniregistry.md) |
+| ![illustration of fontawesome/Brands/Unison](../../fontawesome/Brands/Unison.png) | [fontawesome/Brands/Unison](../../fontawesome/Brands/Unison.md) |
 | ![illustration of fontawesome/Brands/Unity](../../fontawesome/Brands/Unity.png) | [fontawesome/Brands/Unity](../../fontawesome/Brands/Unity.md) |
+| ![illustration of fontawesome/Brands/UnrealEngine](../../fontawesome/Brands/UnrealEngine.png) | [fontawesome/Brands/UnrealEngine](../../fontawesome/Brands/UnrealEngine.md) |
 | ![illustration of fontawesome/Brands/Unsplash](../../fontawesome/Brands/Unsplash.png) | [fontawesome/Brands/Unsplash](../../fontawesome/Brands/Unsplash.md) |
 | ![illustration of fontawesome/Brands/Untappd](../../fontawesome/Brands/Untappd.png) | [fontawesome/Brands/Untappd](../../fontawesome/Brands/Untappd.md) |
 | ![illustration of fontawesome/Brands/Ups](../../fontawesome/Brands/Ups.png) | [fontawesome/Brands/Ups](../../fontawesome/Brands/Ups.md) |
@@ -579,27 +666,36 @@ The module contains 484 items.
 | |Name|
 |:---:|---|
 | ![illustration of fontawesome/Brands/Vaadin](../../fontawesome/Brands/Vaadin.png) | [fontawesome/Brands/Vaadin](../../fontawesome/Brands/Vaadin.md) |
+| ![illustration of fontawesome/Brands/Venmo](../../fontawesome/Brands/Venmo.png) | [fontawesome/Brands/Venmo](../../fontawesome/Brands/Venmo.md) |
+| ![illustration of fontawesome/Brands/VenmoV](../../fontawesome/Brands/VenmoV.png) | [fontawesome/Brands/VenmoV](../../fontawesome/Brands/VenmoV.md) |
 | ![illustration of fontawesome/Brands/Viacoin](../../fontawesome/Brands/Viacoin.png) | [fontawesome/Brands/Viacoin](../../fontawesome/Brands/Viacoin.md) |
 | ![illustration of fontawesome/Brands/Viadeo](../../fontawesome/Brands/Viadeo.png) | [fontawesome/Brands/Viadeo](../../fontawesome/Brands/Viadeo.md) |
+| ![illustration of fontawesome/Brands/ViadeoSquare](../../fontawesome/Brands/ViadeoSquare.png) | [fontawesome/Brands/ViadeoSquare](../../fontawesome/Brands/ViadeoSquare.md) |
 | ![illustration of fontawesome/Brands/Viber](../../fontawesome/Brands/Viber.png) | [fontawesome/Brands/Viber](../../fontawesome/Brands/Viber.md) |
+| ![illustration of fontawesome/Brands/Vim](../../fontawesome/Brands/Vim.png) | [fontawesome/Brands/Vim](../../fontawesome/Brands/Vim.md) |
 | ![illustration of fontawesome/Brands/Vimeo](../../fontawesome/Brands/Vimeo.png) | [fontawesome/Brands/Vimeo](../../fontawesome/Brands/Vimeo.md) |
+| ![illustration of fontawesome/Brands/VimeoSquare](../../fontawesome/Brands/VimeoSquare.png) | [fontawesome/Brands/VimeoSquare](../../fontawesome/Brands/VimeoSquare.md) |
 | ![illustration of fontawesome/Brands/VimeoV](../../fontawesome/Brands/VimeoV.png) | [fontawesome/Brands/VimeoV](../../fontawesome/Brands/VimeoV.md) |
 | ![illustration of fontawesome/Brands/Vine](../../fontawesome/Brands/Vine.png) | [fontawesome/Brands/Vine](../../fontawesome/Brands/Vine.md) |
 | ![illustration of fontawesome/Brands/Vk](../../fontawesome/Brands/Vk.png) | [fontawesome/Brands/Vk](../../fontawesome/Brands/Vk.md) |
 | ![illustration of fontawesome/Brands/Vnv](../../fontawesome/Brands/Vnv.png) | [fontawesome/Brands/Vnv](../../fontawesome/Brands/Vnv.md) |
+| ![illustration of fontawesome/Brands/Vsco](../../fontawesome/Brands/Vsco.png) | [fontawesome/Brands/Vsco](../../fontawesome/Brands/Vsco.md) |
 | ![illustration of fontawesome/Brands/Vuejs](../../fontawesome/Brands/Vuejs.png) | [fontawesome/Brands/Vuejs](../../fontawesome/Brands/Vuejs.md) |
 
 <span id="family-w"></span>
 ## W
 | |Name|
 |:---:|---|
+| ![illustration of fontawesome/Brands/W3C](../../fontawesome/Brands/W3C.png) | [fontawesome/Brands/W3C](../../fontawesome/Brands/W3C.md) |
 | ![illustration of fontawesome/Brands/WatchmanMonitoring](../../fontawesome/Brands/WatchmanMonitoring.png) | [fontawesome/Brands/WatchmanMonitoring](../../fontawesome/Brands/WatchmanMonitoring.md) |
 | ![illustration of fontawesome/Brands/Waze](../../fontawesome/Brands/Waze.png) | [fontawesome/Brands/Waze](../../fontawesome/Brands/Waze.md) |
+| ![illustration of fontawesome/Brands/WebAwesome](../../fontawesome/Brands/WebAwesome.png) | [fontawesome/Brands/WebAwesome](../../fontawesome/Brands/WebAwesome.md) |
 | ![illustration of fontawesome/Brands/Webflow](../../fontawesome/Brands/Webflow.png) | [fontawesome/Brands/Webflow](../../fontawesome/Brands/Webflow.md) |
 | ![illustration of fontawesome/Brands/Weebly](../../fontawesome/Brands/Weebly.png) | [fontawesome/Brands/Weebly](../../fontawesome/Brands/Weebly.md) |
 | ![illustration of fontawesome/Brands/Weibo](../../fontawesome/Brands/Weibo.png) | [fontawesome/Brands/Weibo](../../fontawesome/Brands/Weibo.md) |
 | ![illustration of fontawesome/Brands/Weixin](../../fontawesome/Brands/Weixin.png) | [fontawesome/Brands/Weixin](../../fontawesome/Brands/Weixin.md) |
 | ![illustration of fontawesome/Brands/Whatsapp](../../fontawesome/Brands/Whatsapp.png) | [fontawesome/Brands/Whatsapp](../../fontawesome/Brands/Whatsapp.md) |
+| ![illustration of fontawesome/Brands/WhatsappSquare](../../fontawesome/Brands/WhatsappSquare.png) | [fontawesome/Brands/WhatsappSquare](../../fontawesome/Brands/WhatsappSquare.md) |
 | ![illustration of fontawesome/Brands/Whmcs](../../fontawesome/Brands/Whmcs.png) | [fontawesome/Brands/Whmcs](../../fontawesome/Brands/Whmcs.md) |
 | ![illustration of fontawesome/Brands/WikipediaW](../../fontawesome/Brands/WikipediaW.png) | [fontawesome/Brands/WikipediaW](../../fontawesome/Brands/WikipediaW.md) |
 | ![illustration of fontawesome/Brands/Windows](../../fontawesome/Brands/Windows.png) | [fontawesome/Brands/Windows](../../fontawesome/Brands/Windows.md) |
@@ -614,6 +710,7 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Wpexplorer](../../fontawesome/Brands/Wpexplorer.png) | [fontawesome/Brands/Wpexplorer](../../fontawesome/Brands/Wpexplorer.md) |
 | ![illustration of fontawesome/Brands/Wpforms](../../fontawesome/Brands/Wpforms.png) | [fontawesome/Brands/Wpforms](../../fontawesome/Brands/Wpforms.md) |
 | ![illustration of fontawesome/Brands/Wpressr](../../fontawesome/Brands/Wpressr.png) | [fontawesome/Brands/Wpressr](../../fontawesome/Brands/Wpressr.md) |
+| ![illustration of fontawesome/Brands/Wsh](../../fontawesome/Brands/Wsh.png) | [fontawesome/Brands/Wsh](../../fontawesome/Brands/Wsh.md) |
 
 <span id="family-x"></span>
 ## X
@@ -622,6 +719,8 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/XTwitter](../../fontawesome/Brands/XTwitter.png) | [fontawesome/Brands/XTwitter](../../fontawesome/Brands/XTwitter.md) |
 | ![illustration of fontawesome/Brands/Xbox](../../fontawesome/Brands/Xbox.png) | [fontawesome/Brands/Xbox](../../fontawesome/Brands/Xbox.md) |
 | ![illustration of fontawesome/Brands/Xing](../../fontawesome/Brands/Xing.png) | [fontawesome/Brands/Xing](../../fontawesome/Brands/Xing.md) |
+| ![illustration of fontawesome/Brands/XingSquare](../../fontawesome/Brands/XingSquare.png) | [fontawesome/Brands/XingSquare](../../fontawesome/Brands/XingSquare.md) |
+| ![illustration of fontawesome/Brands/Xmpp](../../fontawesome/Brands/Xmpp.png) | [fontawesome/Brands/Xmpp](../../fontawesome/Brands/Xmpp.md) |
 
 <span id="family-y"></span>
 ## Y
@@ -636,17 +735,21 @@ The module contains 484 items.
 | ![illustration of fontawesome/Brands/Yelp](../../fontawesome/Brands/Yelp.png) | [fontawesome/Brands/Yelp](../../fontawesome/Brands/Yelp.md) |
 | ![illustration of fontawesome/Brands/Yoast](../../fontawesome/Brands/Yoast.png) | [fontawesome/Brands/Yoast](../../fontawesome/Brands/Yoast.md) |
 | ![illustration of fontawesome/Brands/Youtube](../../fontawesome/Brands/Youtube.png) | [fontawesome/Brands/Youtube](../../fontawesome/Brands/Youtube.md) |
+| ![illustration of fontawesome/Brands/YoutubeSquare](../../fontawesome/Brands/YoutubeSquare.png) | [fontawesome/Brands/YoutubeSquare](../../fontawesome/Brands/YoutubeSquare.md) |
 
 <span id="family-z"></span>
 ## Z
 | |Name|
 |:---:|---|
 | ![illustration of fontawesome/Brands/Zhihu](../../fontawesome/Brands/Zhihu.png) | [fontawesome/Brands/Zhihu](../../fontawesome/Brands/Zhihu.md) |
+| ![illustration of fontawesome/Brands/Zoom](../../fontawesome/Brands/Zoom.png) | [fontawesome/Brands/Zoom](../../fontawesome/Brands/Zoom.md) |
+| ![illustration of fontawesome/Brands/Zulip](../../fontawesome/Brands/Zulip.png) | [fontawesome/Brands/Zulip](../../fontawesome/Brands/Zulip.md) |
 
 <span id="family-_"></span>
 ## _
 | |Name|
 |:---:|---|
+| ![illustration of fontawesome/Brands/_11Ty](../../fontawesome/Brands/_11Ty.png) | [fontawesome/Brands/_11Ty](../../fontawesome/Brands/_11Ty.md) |
 | ![illustration of fontawesome/Brands/_42Group](../../fontawesome/Brands/_42Group.png) | [fontawesome/Brands/_42Group](../../fontawesome/Brands/_42Group.md) |
 | ![illustration of fontawesome/Brands/_500Px](../../fontawesome/Brands/_500Px.png) | [fontawesome/Brands/_500Px](../../fontawesome/Brands/_500Px.md) |
 

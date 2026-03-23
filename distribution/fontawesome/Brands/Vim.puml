@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Vim
+
+sprite $VimXs [10x10/16z] HKg50G0X4EAxd_sdLQ-RGjKqbdH2GHzSUe4R6E2Xla7fqId08MSRkujm2lDi1m
+
+sprite $VimSm [12x12/16z] JSct0OC044FHVydPQFzjuLJnAWNk3Y3rTdu1FocWMT9ij8sLyCPJIO5OeGl17evM-VxMjBEUeKp7Z8F74op4EW4
+
+sprite $VimMd [16x16/16z] {
+POg5aKL108Duwvx-kxrPks-C9i0FRTBrZ0Lsdn8J0nLmalhS0VBQTzuzvanm-ZKb0rc0sLDwqDnxJdZsBdbFoE_sxeQmcBj7ZDrtuv-zYz0ph3SH82MUeS4x
+ZzZy0G
+}
+
+sprite $VimLg [20x20/16z] {
+RSs5GGKn50NHYHlXzjyjH1vyc_Mp4JxMJqq-zLq4nqw_iMjGMRbbZbK7WWqJgycZsKmpeoyUZLMNtuzZhCOPtXImcbOU_LlNRkBDSZ42hhbYX5aP6bFZEsNC
+IaViabcIAqBLGxsM9TIOf2qmV79-UkKIV6cH_sp7n_m__G
+}
+
+!procedure Vim($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Vim', $name, $tech, $desc)
+!endprocedure

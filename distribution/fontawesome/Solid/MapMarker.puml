@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/MapMarker
+
+sprite $MapMarkerXs [7x10/16z] Os1WuEK64jpyGC38m0y6t12A5q8ne59iO981nELZ008G1m
+
+sprite $MapMarkerSm [9x12/16z] Os1WOEBZOG01VZ00qb3016FmmHZSC0O39WEg6cOE9yn41Z00qm
+
+sprite $MapMarkerMd [12x16/16z] RSwr0S1G30FH2tEq_xI1p_IgSoK3zATsZ4vMJ7CeE7j5bzesHRHxOmXD75Y91xyr9lnx8uxipoy
+
+sprite $MapMarkerLg [15x20/16z] VSc53O105C3GuixVVrhat1jzAN_z8VUAQHJTgRIAoprd2TjwYJgarHLpZacacplaH1yI23G3NJHXj-fG6QqG-C8s_CItMBq
+
+!procedure MapMarker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MapMarker', $name, $tech, $desc)
+!endprocedure

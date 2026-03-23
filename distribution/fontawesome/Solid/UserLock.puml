@@ -1,15 +1,12 @@
 ' definition of the Item fontawesome/Solid/UserLock
 
-sprite $UserLockXs [12x10/16z] RSR50OK000MWzpiCzf_MRkL4ahXbSaCn7LmyU2MLB4HomtiyK67tsleM
+sprite $UserLockXs [11x10/16z] LOY50G0X3CJkNI7xJujhQkafiAe2tDb-0bdlhkfM_pUdgmYr4LXUG93tf1u
 
-sprite $UserLockSm [15x12/16z] LSc55S0m30DHkSpQVzk6J1VypoW9DtWlIyugdqlZdQUJSI_wolkG217NWzAsxzAuVkNkOTo9IoOpVm
+sprite $UserLockSm [13x12/16z] XOk30S004CHIkzb_sjhC6yT8o4QbnklWoFyGhFrEey5Oqom12Tj5qc0GjpIEK4_PUMXlGmy
 
-sprite $UserLockMd [20x16/16z] XSm50W0H40NGsTJS_xIwy-k70H-cVcY3b4jhJZea4sFHhihUQ9Dwt6qlJYeKUGTjX8NUP3AgGZxtbNDNMEL0ivwDJKpM9i9g
+sprite $UserLockMd [17x16/16z] bSwr0S0m44DHXJb__sa3PgZyoaF9w9GP0D8QXe8Pem-57MFEJq1z8w_SPlbG1Y0lI2REY14A1yQXXVDayq_fX26Q2oy
 
-sprite $UserLockLg [25x20/16z] {
-fSbL0WCX30RXVrsJkVzfA-awyDGFP_JJcVTALOH6JspqCBDPTSVXxz2o6VHW15U8ssO2c1KSSqmfY9N29D_2GbYhUrWvc2es4bVgs6Wf1GfXA0KlXPMRkcBp
-1W
-}
+sprite $UserLockLg [22x20/16z] fSpL0SKW5C3GMyN9_jC-nU6lgN8GIUqovm3qW15ctabrwhCUhOQiLwjwUO8aZ0NQnJAq1t2_FmKguR3BZWg_vzV5jx3_9Vpq81MojiWc5jB1bEg_cANoLDy
 
 !procedure UserLock($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/UserLock', $name, $tech, $desc)

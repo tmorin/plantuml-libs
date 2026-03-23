@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Zoom
+
+sprite $ZoomXs [12x10/16z] bS4v0S0m000XrhpdtsqjDE3LgQlK4JRJTUkcMFxu
+
+sprite $ZoomSm [15x12/16z] fS855G0n44InN-QEVxM7TR1vmSgz3_dkrt8TvLKH3IJe5S_U6-sQjoXuB6u
+
+sprite $ZoomMd [20x16/16z] nSX70KCn0CKm_vdvOlveEpcqEee_QIfJ8GfQ3TmvEbWgczcGS2yQu01S8EqMDYav5dr-Ro-b77iw72dSSF4JJm
+
+sprite $ZoomLg [25x20/16z] rOd50GCn0CCKvdZ_QOzfX5OF8_-5su5KDo4UcW8-mnXJI5rrqwQEvfI6mCZx2SWTYdPXxZkb04hzU-mxLX2tQF3FCRLXsYwaJIqT19KBS-cFim8
+
+!procedure Zoom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Zoom', $name, $tech, $desc)
+!endprocedure

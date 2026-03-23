@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Symfonycasts
+
+sprite $SymfonycastsXs [11x10/16z] FSA55O1000KWxFRlFwtjyV1h02BGH1KWf0Co2wWd4R0LhlP1fGSJVLWMnesgFG4
+
+sprite $SymfonycastsSm [13x12/16z] FOk50G0X4CE2Ezr_sbSWvr8EaOD9YCtkMg4NhL4TD6t_XY6B_FxM_Y4gAZV55pvCU29_ccu75MCwC3i1YqcD3zSW3su
+
+sprite $SymfonycastsMd [17x16/16z] {
+TSt5eK0n30CmvJ6qzVxJVcRGBMXVRPElzbrMdwOm2gYzIFEk3tNDMGIGZiHd8ml9PyQMa7YJeKLzDgxP6MSE_wWgr7sjNDl5IczQCDlDLkv36tQdp8ThNO-B
+pSfizc66XKS
+}
+
+sprite $SymfonycastsLg [22x20/16z] {
+PSf5ekKW00J0WdY0zFrFE_FjUUrQlDic7wv9XZSvIRmQGNKp9HlbzRQdAbtFgQJuay2LBCIZxQX9EtjrCvAJddXOIKAUsvg3t_Roa7fhDpTjVAeUAb1W7sDi
+M2_Re3Jhoeb-paOBHPiFVsqp6qSih7EY_dxRp1A3DkysrjRQ0diTCCenyr3S_GS
+}
+
+!procedure Symfonycasts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Symfonycasts', $name, $tech, $desc)
+!endprocedure

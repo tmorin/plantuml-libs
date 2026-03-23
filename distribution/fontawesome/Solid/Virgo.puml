@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Virgo
+
+sprite $VirgoXs [12x10/16z] JKc30S1044lxPlQVzgr3Y7VO9f9fcN5Jj_lRoQlR72rmzNzq9ccU75YLfqC5
+
+sprite $VirgoSm [15x12/16z] NSV50K81042XPxViFwtjBswqG9nMh3yzuWRwM2dARUXDmQ8clTUqjpQ6WjlGbVkwXaOVr-fGQ-e9
+
+sprite $VirgoMd [20x16/16z] {
+RO_J0K0n54DJkzb_scTKv-EQM58qP4w0o14FcJVr50OtYgJoZ_Wh9S1RY2zsJhrZDiKfTgB7c73a45EdrSTEKRjO84icknXlqCO4QQGORgbKk4cyXBZUp1Wf
+rtSx
+}
+
+sprite $VirgoLg [25x20/16z] {
+bP750O1G3CLUYslsdnPt9uTQYdxTuzw7e8_MnOK0YEcn8OQpC0wujieL0R44bHQW66BTnGIs8kjYDOW850QNOY2x4sGNekXhBaGNxRVW99Y9RaIaWx0KtEtc
+omUEmY1TH8qFk_cu1O6kgCR3QW4
+}
+
+!procedure Virgo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Virgo', $name, $tech, $desc)
+!endprocedure

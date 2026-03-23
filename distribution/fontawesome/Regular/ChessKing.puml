@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Regular/ChessKing
 
-sprite $ChessKingXs [8x10/16z] FSQ50G0W4090tcxsdzRM-m1C3LkWswaey_F2vd4AVpwPYu1fuG
+sprite $ChessKingXs [8x10/16z] 7SE53S1000GWwjxRVzet4Y2698R0lkzfttFhFj750_z4EguNcUJkKW4
 
-sprite $ChessKingSm [10x12/16z] LOY55G0n5C8ugGlxJrlNV24FL28cN49UdU34kzLpszSaQZo-MVskOG4JLOK01p43
+sprite $ChessKingSm [10x12/16z] FSg50S0m20J0htj__sc3Sn4KXWXKM-KPCrjPzjwkdOrsQvMJEd_Bt0iyELt0z0a
 
-sprite $ChessKingMd [14x16/16z] RSw55O0m303HmvtRVreyhzYlQy9fvgRqjb2T2FreN_tSz6uMGcvzMrNYG516qqN0ClBPLtaUPzdU3U4My4okyHQ0teGL
+sprite $ChessKingMd [14x16/16z] POw54S0m30DLPl_-s_R2z46pv5bHPZR3lcGTE9ALCWVhTNpuvwP1h4fyg3IRN80pMePhGzJ0x1w-ru79GI8OgSahtTI23Whw0G
 
-sprite $ChessKingLg [17x20/16z] TSo50GGX40J1ESEXyu_sNT32MT57EjGYgMOSnMrr_AdeRzl9-wf7eU429LS0L8iS15L0JSg9byKq2QfJDeganAwFnAQP47-UxUIfg6rwafvR3ZyWRJHq1m
+sprite $ChessKingLg [17x20/16z] {
+NSw50SKW34NHLpVWxZ_jboRegG8nEO8QqxAIbaK5PciYbZwYhp5khFkBP5_T30BtrW21gfcWcrq5-CkjRw-JgmjeGdOU_nPw1Oh50fBC1FusVhOIxiBdQ4Hz
+0G
+}
 
 !procedure ChessKing($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Regular/ChessKing', $name, $tech, $desc)

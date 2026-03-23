@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Ruble
+
+sprite $RubleXs [8x10/16z] Ou03VY1W0j78c0DACqFa-I4K7r28aP-HaH58S_9pSdA2zODD0G
+
+sprite $RubleSm [10x12/16z] LKg30G0n4CkZHlQVjkOnmb6HfNH5fFU1eQ9wFaw4XTw6MiK9D5PkcUhIeCRF
+
+sprite $RubleMd [14x16/16z] NOs30G0m30HhO_zfQoIvClfdb506sPoe7iI9n23MkgBp-1f1TDuJSHILQdTqWF-oskLouEnmvix_iAfSZC-4Tb8w
+
+sprite $RubleLg [17x20/16z] RSp50SLG449HufxRVxLvpjUpd07qpr1qgauQ7ym79JFSFcGJ-530-7sOlWvV5NomiPnjKNJJxCgyOTq5NQ82R5GoRpTisVU6JQmoim
+
+!procedure Ruble($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Ruble', $name, $tech, $desc)
+!endprocedure

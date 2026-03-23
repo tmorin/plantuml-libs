@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Tex
+
+sprite $TexXs [12x10/16z] Oy01c1bu6FY1D10pSG7POC333YBWQX1iFYYRaO6J0OZG01ix6p-w6
+
+sprite $TexSm [15x12/16z] XOh50SLG3CCKU4pxJ_kXU6iLZiqZKdB93R0cv191CVuu2VvdwgaCYi1sahQ-xbEW4BbFWGoOoMQshJOI6Ezy0G
+
+sprite $TexMd [20x16/16z] fSZ50G8n002mdDLfzvyMznUIP_nXIKk8SmgWDFGvCCraOB0GBzUM4tOcN4vq2Y5xFIoTzsCyhjU1p1PWYOXGO4m04UyY5YzIYJ5Ntpa
+
+sprite $TexLg [25x20/16z] {
+jSm53W9G30JH-QvDxtzQP769myJxqkM7nMke46FGCQG28qBdcWCCg20WW2eRI33VWPrOA44OCuIO7V3C4v2RXe1adw3Qgk_Ghq_-0Ylr1H0qzlen02tEXZPd
+Gv0eDWMhSKq09DuIVBsRrLgtyuUE
+}
+
+!procedure Tex($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Tex', $name, $tech, $desc)
+!endprocedure

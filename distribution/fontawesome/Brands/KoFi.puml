@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/KoFi
+
+sprite $KoFiXs [10x10/16z] RSYr0O1000F0mvtiForEzzT4bEHd0aoD_ZcYCZxDQl6KhC9084WFninm0W
+
+sprite $KoFiSm [12x12/16z] TS750SD00C0m9yVe_QSjVeeIVssVEdZob6GH9lDaqqB3Eopnw7W7oAQg5Pq8mHC4skJE0s0unpJoxWe
+
+sprite $KoFiMd [16x16/16z] bSY50GDH2C3GVAj3zf-sxduFXycyim63gw88r6FImIPuL52oIV4eCCbolTS08gG7K9S6ml41c0CCOBu6Ld9WvwXQE1X6WxfnS1QgoLix
+
+sprite $KoFiLg [20x20/16z] {
+fSm3ei0m403HsQOEvlwdBR-D5sV1_tHBBgKUIibh2Ww-1SM15sAruC9hYvr0rY5h3mecOVG1Q73bLHy42eOm-u1JaQlBhG2HpPWXF3NWZZI1Q9g1sOx3z704
+1niNXGVLuAOpfwJZY_23n0jpiwt15tO
+}
+
+!procedure KoFi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/KoFi', $name, $tech, $desc)
+!endprocedure

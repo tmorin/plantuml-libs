@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/BatteryCar
+
+sprite $BatteryCarXs [10x10/16z] Oq02_FnCGCpFmCMF1hZXB0OGmSpCpi_Cm8mGGmBC2ALm
+
+sprite $BatteryCarSm [12x12/16z] Oq01FFpyG9AVdn58u0Tih22IcPcPbv-DWO4DmkRZPsTWO4UeOS6jdm6PZGG
+
+sprite $BatteryCarMd [16x16/16z] Oy04N7nyp0YAbOSV27Xu81G36p_H0A8J0HYO8C8WE_YW593Fnmm488g1WHbTFUc00PrF
+
+sprite $BatteryCarLg [20x20/16z] fSk30KKn50FGr6xsd_RZsJpb5NOefMJ_4MXu_loJ_CDFuPA9V29nfK1nAKEoXGOPcrVmpweVHr99GEMjsIKalgIu1bqM4gxw0W
+
+!procedure BatteryCar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BatteryCar', $name, $tech, $desc)
+!endprocedure

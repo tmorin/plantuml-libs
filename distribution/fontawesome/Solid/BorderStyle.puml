@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/BorderStyle
+
+sprite $BorderStyleXs [8x10/16z] Ou01VYZWWd3HQ5uqFh8wHWOM1WOs9WP-8EG5
+
+sprite $BorderStyleSm [10x12/16z] Oq00VWJWWG9-VeGaZ05duPVbHf7bvMJWPsBWPs1ZO65au03A0W
+
+sprite $BorderStyleMd [14x16/16z] Oq05h7m8mCFAZmfOcU20aP-V2KaRCe-H6vd7mu-g4ey-7ZpwiDd73RAB0KZpyJCoSFE3z302CQg7
+
+sprite $BorderStyleLg [17x20/16z] dOu30e1054Gdkxd_QNDhlyKtODDerA31IeiD6b57RJYi7WLDgsZJFRbfYuj6RagEzzVSNyy1M6zzvrC0anC
+
+!procedure BorderStyle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BorderStyle', $name, $tech, $desc)
+!endprocedure

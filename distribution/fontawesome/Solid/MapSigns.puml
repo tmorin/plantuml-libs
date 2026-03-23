@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/MapSigns
+
+sprite $MapSignsXs [10x10/16z] Om01FWOOu8UGC81W8SaoGuNO6F6gGx
+
+sprite $MapSignsSm [12x12/16z] Om03FWOuOEI7qFnmm8x4vaTYewf7I30YgU53OJCmCJ6ny3C10PfU11i
+
+sprite $MapSignsMd [16x16/16z] ROo50S0W4CHIzzx-qzO53eA-XOULY5N5-vrFfELyMbWKqbaivYZyVRNvo__xiuBfAelft5-K1wkQyobIVpvUz7ns
+
+sprite $MapSignsLg [20x20/16z] dOw53S0040AlxcN_QUl-n7enyW9maey4fDhC6auIVQWXKnp6cSmCw8SDIRjmkNuMWql8OqQY08ncXfkHRaZTBboN7xDHnIbd
+
+!procedure MapSigns($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MapSigns', $name, $tech, $desc)
+!endprocedure

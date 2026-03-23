@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/Hdd
+
+sprite $HddXs [8x10/16z] Ou01VYY0y9WmQ0ZWW_BPGJG_0pzS7gOV
+
+sprite $HddSm [10x12/16z] Oq00VZXWXukmG5byM5byS1ryx100qS76m0nLny70mi37myiA0VmCt7mGm0u
+
+sprite $HddMd [14x16/16z] Oq05h7nmmCl0oeyAaDHHm4C0FY0cQ0C_6mCVEvp7mS30peXk9ggfg1u2
+
+sprite $HddLg [17x20/16z] jSqr0eH040NHsiMrxdzRGiOducMjdzmG-eEnwtGP0hTAQFcgSTj3w7mRl-Jf96ZGO8DfASKkUWUKoyX4wW4
+
+!procedure Hdd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Hdd', $name, $tech, $desc)
+!endprocedure

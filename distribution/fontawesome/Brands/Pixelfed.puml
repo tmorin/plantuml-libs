@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Pixelfed
+
+sprite $PixelfedXs [10x10/16z] Om02Jdus1X3W1mDE80CAM44i5cOUa2WGGvN0MMmW5WUO3yHG6Kw44bOe0m
+
+sprite $PixelfedSm [12x12/16z] Om01RduE1WZWXm084yxXXmDU81kic0z8SmCnkYwmF989808kZp277M4e7qWfBqmK
+
+sprite $PixelfedMd [16x16/16z] LOw50G0W3CEAE_l_Mbo3pek1IXGODeacPffqoDEyn9byOLWFuCTFzIkW4_ftfFjXCneSsupKQyzEqpvJCEnZPcXwmIz8en5_ympE_Ly1
+
+sprite $PixelfedLg [20x20/16z] {
+POu54iGm30DT3kl_hprmDPh05hD68x6XtDPnWTJD23gYL4UIwhZKgqDfvt6S1KwWCsVddDuneGqkWInvfNSdd1jqLuWguYT2LAl-xPlljkc_cnTNfQLKwLnz
+bWYS-2Pz0G
+}
+
+!procedure Pixelfed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Pixelfed', $name, $tech, $desc)
+!endprocedure

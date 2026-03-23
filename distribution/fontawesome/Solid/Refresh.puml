@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Refresh
+
+sprite $RefreshXs [10x10/16z] NSR50O100C2muaxtdnRdBAy0JFOmWOz9b9lonqbA2pzl0DEVKNOxRt02
+
+sprite $RefreshSm [12x12/16z] RS770O0m0CGmqplUVrlkHKiaYCqPE00Z49JeLHHYtHM1C3QfENbu6X27qK5qJiOA79wSScXCS04
+
+sprite $RefreshMd [16x16/16z] TSp50KDH24JH-Mx0xR_RF26Ud1KwQXRd6bI42gVRP9GMi7bS0jofhQiPAEIFzZ90eEwYMZ2zEfdqt-1w4yYAIudq20kAQL0pWQZctB8gc0nm3sehOz104ofk
+
+sprite $RefreshLg [20x20/16z] {
+PSe53aGX303HuixS_xQRDllzuHFahsrc5hjrKOc_vKH04pVDQTEqWwWAJB3Kv82IT4jrJ6kmvO2o5kNGbneDvAtmRL-ZVPA3JwlGC5qEiC2C8pNmgE2E5031
+7AdQVKC7Ld3EQy5RayJ5VhDjDykB-W4
+}
+
+!procedure Refresh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Refresh', $name, $tech, $desc)
+!endprocedure

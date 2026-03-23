@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Battery2
+
+sprite $Battery2Xs [12x10/16z] Oy05-E60Zu4V9iZ8pm24_0JOgEhXW1tPU
+
+sprite $Battery2Sm [15x12/16z] VSV50O100C2muaxtdnPtkVn2MEG5sCS7Msp9CbRsSpNUwcUZQm_sQ7Em0Yzu604
+
+sprite $Battery2Md [20x16/16z] bS_L0O0024NHPnTozv_MxlPyqkYxohOATJYIZ2pSSgIQK5isnO1WZTaS2zSOls8EMcFXvTu2hxRWuW_JLoq
+
+sprite $Battery2Lg [25x20/16z] jT3J0K0n30NGrExTVzfdc-St3ds9OotM0Mp9H0BWIm5e0hIaXq3CEMq6KE6p07u9i5aWjG4k1D_OQliE3gIm063lLwekj6af2dgW1
+
+!procedure Battery2($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Battery2', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Postgresql
+
+sprite $PostgresqlXs [10x10/16z] NSZ50O1G0CFGu4xsdnRds-kf8HgffAMm2Le1EpNT9FUUUvi0xzVVOUCXF-zq0W
+
+sprite $PostgresqlSm [12x12/16z] LKo50G0W3C9k_VzQkzO5W5XsEPgaH08SuCT98euc5i20zH80gv3EXuzciOpBsQ8OyoWHmgNUs9HZl3mi-ipFd6Pj
+
+sprite $PostgresqlMd [16x16/16z] NSUtWKDH200m_V0IOBp_jbUVrGc_TavlHNTlU55G18q7I4AW0AH2hq3jnz08S5oO21x2LS01xlj5SHIS3qpsw0UdyeDy8pKw4_1SNsm0V77__mK0WuO_
+
+sprite $PostgresqlLg [20x20/16z] {
+PSYr0HX1300msVTqwFstJHLMAU1_cK6qp3vwWcyGinhNmKRSC84H30P8m48puGNm_BgzQq7D4g73yRm8iKmI3f6uTOKRXKHPaIWK2V8i6BZ31FExGCFf7r30
+PCNN9iouTuEpdcuSEFi3a4t1xm45-V-r-F-slqNF-O8V
+}
+
+!procedure Postgresql($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Postgresql', $name, $tech, $desc)
+!endprocedure

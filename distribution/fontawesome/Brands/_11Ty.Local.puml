@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element _11Ty
+include('fontawesome/Brands/_11Ty')
+
+' renders the element
+_11Ty('11ty', '11ty', 'an optional tech label', 'an optional description')
+@enduml

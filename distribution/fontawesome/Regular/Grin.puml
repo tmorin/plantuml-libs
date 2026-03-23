@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/Grin
+
+sprite $GrinXs [10x10/16z] 1S470SD0000XkfjVvzzj0Aw-e5v-NRH07m6wNdhhA83v_UdXbQHgoHKNuLEpk04
+
+sprite $GrinSm [12x12/16z] BSS72WH108H0DuUPFl__swDXYwJKy0PASqLf7jJqoqeGUXiuGdSNzABAE_HOLaHEY_RaKJUym53-069Ty0S
+
+sprite $GrinMd [16x16/16z] {
+NSw55GCn3C1G7OUr_xG5vnL_66t2qQqBBztf8hmcpJwNC6qswCBBuK9SVXaUlfuuO3Ukcm4BeFBD-hTU1DKH-IIniJY1WzEDBMv04-WUm08qJs8OEv2SIrxl
+1y0T
+}
+
+sprite $GrinLg [20x20/16z] {
+NT25jS0W5C3Gr8iyil-qNpZrYxjmICswyh1uY863sYPWKnETLWwZvaVNGHTOh3mfA3pjxjY0701hFrQJ4w0pe8sU2x0bWA40XCf7iSf7StK3tGPWoYPG58eU
+1WQ3S0GFbTuUz3XCTzWKI1xNcU7eWgmxtH0wFhuqIbDzFhoB4O1V
+}
+
+!procedure Grin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Grin', $name, $tech, $desc)
+!endprocedure

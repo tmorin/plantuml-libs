@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/GaugeSimpleMed
+
+sprite $GaugeSimpleMedXs [10x10/16z] FKp50S0m4A9UNkm_RNBk1i2CUk6cCERWvPb9d4aplPRNG580z4UkJqAn0G
+
+sprite $GaugeSimpleMedSm [12x12/16z] JOW54i0m382O-_Z_QoTrsYGS_1okH8nalVuLrHWQzsZSnjT_ZLob08ttwlANo0rmQQml
+
+sprite $GaugeSimpleMedMd [16x16/16z] NOy30W1124N7nlrFkmX_yOQv317dxjOeSpEPnGtM8tgwXpftKLj-8U_ua-TFtZ-vQ-ab2UakgCiFkbmcKLQrgtuFkjFjI5yLR-nhcXC
+
+sprite $GaugeSimpleMedLg [20x20/16z] {
+RL056eKX2CDklVzfN-8_Z1dieu4OgO_gIS0DHbDJDGGIL40MgZY9GovDZHaYeOiNtKWNNR_enaLNeNkePsb4yvE8YHgrGwT9_OaY4cRki7YP9MyzOQNmOaIk
+-7Tw0m
+}
+
+!procedure GaugeSimpleMed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/GaugeSimpleMed', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Commenting
+
+sprite $CommentingXs [10x10/16z] RSQr0O0000F1uCxjFoqE5T5Faa6RKy3w0dDyQAMrigh8FS0lfQH0aXq
+
+sprite $CommentingSm [12x12/16z] Om01RdvE1WZWXm084yxXHm1693OVK0w646nKDGp8R3Ou4yLuJg0M1Yu-3f2j
+
+sprite $CommentingMd [16x16/16z] PSc50SGW5C3Gr5ii-qzxBiY3xxnisJZpLNoxU9hy0x06DWviNGvMiWllQj60HjxLpHQsIDOci18W-tTHdmj0qPdA7G
+
+sprite $CommentingLg [20x20/16z] {
+PSpL0SLG2C3Gr9tiF-tJwkNyuF1NJU7QSpEwYuQTD_4_ys43iB32RAd2P6dDLZK6TUlLwDt1eD3jcQ4sg1tRdZcQOHA4fPRA4c1krRbL_5iurkRgFvdu2QEb
+y0O
+}
+
+!procedure Commenting($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Commenting', $name, $tech, $desc)
+!endprocedure

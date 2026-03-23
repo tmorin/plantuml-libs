@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Parking
+
+sprite $ParkingXs [8x10/16z] Ou01VWm04sG0GXG-0ozK70uG7
+
+sprite $ParkingSm [10x12/16z] Oq00Vgo0buc94y82gM66ilYP8SeH6X4cO9Z40sSnSFD103i
+
+sprite $ParkingMd [14x16/16z] XSUr0G0n40InCIM6s_whVMPK9iwIRHf9FxptOOjZPDjA2xXj9i6saJzDsqhL9c0wQ7h4UISz
+
+sprite $ParkingLg [17x20/16z] ZSo50SCW54NHsyRrxJzjt70EpXTSnTSVP9f6PPd_cqOlJiR7Rr-VZqAgmVneZ8zJjEbHPVGmG2FJgB165YOPAcmh
+
+!procedure Parking($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Parking', $name, $tech, $desc)
+!endprocedure

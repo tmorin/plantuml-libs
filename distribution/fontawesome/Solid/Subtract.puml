@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Subtract
+
+sprite $SubtractXs [8x10/16z] Oo0IyF53025r
+
+sprite $SubtractSm [10x12/16z] Oo0TCC807pyCa6u8
+
+sprite $SubtractMd [14x16/16z] Ow0zu4C2l7pyo8214GdGn78
+
+sprite $SubtractLg [17x20/16z] OnYiW8KV5V3nyQC11WvE5C0wM9mE
+
+!procedure Subtract($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Subtract', $name, $tech, $desc)
+!endprocedure

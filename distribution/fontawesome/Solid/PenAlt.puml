@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/PenAlt
+
+sprite $PenAltXs [10x10/16z] JSRN0O0m30FHynUTstzQI4zSf4URjtMeWBSKIPXPeK25AnXWOE_W1m
+
+sprite $PenAltSm [12x12/16z] TSS50a0X309GVeV1_MzhjwBR7aYHToP95UxlJCS3_5m9f2iFuEYB2tsUDL4H5OKbOWm
+
+sprite $PenAltMd [16x16/16z] ZS_50O0m44JHZplqNosMPEsKEUqRY66oxzXSRzBKdcjYAheq97_SQKhnyO3onmI9gHXrvrGuJZLSF0aaiFqvkaTrQ1u
+
+sprite $PenAltLg [20x20/16z] PSv50i0W30NHN_VE_KzRmI6pV4YYklFk6Xa0beewNBDS6z1B-1pjS1OORabhHa_-hu1Be042_gHmAs2rLwZPgrnuiDHP4fPwIpei2Kl2qkffLD4Dvw2w5m
+
+!procedure PenAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PenAlt', $name, $tech, $desc)
+!endprocedure

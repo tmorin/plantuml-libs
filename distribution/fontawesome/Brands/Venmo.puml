@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Venmo
+
+sprite $VenmoXs [12x10/16z] bOO70G0W3CF2_-3VBPMmzGQd3kdnxdjQQhZaBRwHpec4DWOJWpu
+
+sprite $VenmoSm [15x12/16z] hS470S0W0CJ0T9VryUyM4N37Fkto6vUY5gN5HZoBt-KW58ylXGJ3WWa
+
+sprite $VenmoMd [20x16/16z] nOS50GCn54Fpo_pygzsEBJGSROAF5fLEUKlPievLLbWZ8ngL0vLo73pBygfZLl9nTF0KZFLzj0b_
+
+sprite $VenmoLg [25x20/16z] tKk50GGX3CifLBF_jX_Oug_U23uIHJ0ECcwIIAwOq7W9UgTLyEB97XgZ-nAiNgBQZzb6V8EcZekrp7VnK3ORPi2H3hk77GORju1I_rVy
+
+!procedure Venmo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Venmo', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/CheckSquare
+
+sprite $CheckSquareXs [8x10/16z] Ou01VYY0y9XGQ7u8pSa5ebc1Qi1yBcHrCFq
+
+sprite $CheckSquareSm [10x12/16z] HShL0K0X34FHvmhS_QV5QkUdaYm1T_ldqAteXctSkhr8oehrs7GJ9ULJiFn5t0q
+
+sprite $CheckSquareMd [14x16/16z] TSV50O0m0C30u4xsdnPtsliTRyLu6IXyunPRMZtd-9Xohp4zPuqTvsgLSsjvxFGPFl4o0m
+
+sprite $CheckSquareLg [17x20/16z] VSw52GH144JHMX__-MTxwD42y_3MKdPPfuGt1zzbB43MjozSeR3mXS5qXPCbLu3ZNpYuDIZc2rIMJE40V8w3snRsqJzO1cZYF8f-
+
+!procedure CheckSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/CheckSquare', $name, $tech, $desc)
+!endprocedure

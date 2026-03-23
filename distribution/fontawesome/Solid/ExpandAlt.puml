@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ExpandAlt
+
+sprite $ExpandAltXs [10x10/16z] Ou00Vdv-R2mOWnV6ucM00PWKJ2bK2io0Yq5O
+
+sprite $ExpandAltSm [12x12/16z] Ou02VY30ncP4i1cHn44i69iNo801X3PUc4A42VmWWDK-10S
+
+sprite $ExpandAltMd [16x16/16z] NSpL0S0m24LHg7ltdxRUFBb_9m6YLEztS6-EqRoz1iKtSXHdS4ADpjJzUmfVuuPJxnynGF9etk4J
+
+sprite $ExpandAltLg [20x20/16z] XT3L0G0n20FGd2lD_jEU2rJprrS3e2CyuupnZh4wObX26zGvI_H9McCdBK0hodhoMMeSKSZ08IIorsst5t4q1ImdIJYA1O49GckjHT3TjchR0G
+
+!procedure ExpandAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ExpandAlt', $name, $tech, $desc)
+!endprocedure

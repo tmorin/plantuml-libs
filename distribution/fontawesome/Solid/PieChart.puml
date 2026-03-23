@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PieChart
+
+sprite $PieChartXs [11x10/16z] FKm50S1046Bket_QFtS5uBPFqLU2f4tMwFDSunK7TWrE7fx-fGQJSpG44
+
+sprite $PieChartSm [13x12/16z] HOo54SD030GtCUFsNwr1lfbd7VAjRY2h5tMiMGiur1mWT0tqsC0Ma6LGlNk1XKRf7prXZ74GKbxJ3G
+
+sprite $PieChartMd [17x16/16z] POw50S0W0CCw7zh_hyMTO2Ke6X83vmbDiawVcAFWYOXW4sdFpK7e83WAOXUoXAiAKqAXYHkuR43ZOztInja0jWYRVlIWR_cXWiLWW7TwIQJi0G
+
+sprite $PieChartLg [22x20/16z] {
+TP150WGX0CCwBaZ-_zerf6kJKmb59REUWtu1c6Lce5XIbubkhP_PbjDDR7dAaMzxoDc9ApiwBg6mIPEjiTrVenU3Ts2KmkyP35fiJIkVqc2R-fUKURyAsFmH
+XLa3fmhnlMo6iakULRW3
+}
+
+!procedure PieChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PieChart', $name, $tech, $desc)
+!endprocedure

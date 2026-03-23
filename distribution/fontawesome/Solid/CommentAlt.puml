@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/CommentAlt
+
+sprite $CommentAltXs [10x10/16z] Oq00VXZWuISLyC5P25F09dA330O
+
+sprite $CommentAltSm [12x12/16z] Oq06NFmmmCpCJts0R2O39vp92BIPXv-V2Um4
+
+sprite $CommentAltMd [16x16/16z] Oy0077nmmClCmC2F0dWv-GSNO4RZC_2WS5c17e88GNq7vVF1s
+
+sprite $CommentAltLg [20x20/16z] tSZ50S0W002ngtlPVrhSOGBo37tpafk1NTH0DBvNZE7ltD8vlgOsEDxGd_5CMA-P1o_TGgG
+
+!procedure CommentAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CommentAlt', $name, $tech, $desc)
+!endprocedure

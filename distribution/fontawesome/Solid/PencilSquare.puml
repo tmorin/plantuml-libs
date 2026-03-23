@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/PencilSquare
+
+sprite $PencilSquareXs [8x10/16z] Ou01VYo0WHbCyV5oW7aCV20AfXPL2um3
+
+sprite $PencilSquareSm [10x12/16z] Oq00Vbo0YmF6WYdYOUQ7iFWO6DYWKZ0vFWoJUE0i1cu-2607
+
+sprite $PencilSquareMd [14x16/16z] ZSUr0O1004MnXpj__srfEDTq8RIyriEY3kFj1NYzUWFfS07vEKrkFvhyw5K1uG8V
+
+sprite $PencilSquareLg [17x20/16z] ZSxL0GCX44NHkwxm-gysBYEHFLymJjPPBSWhkuuhxUh_m2PhXCvy6scWwAb2AvcDN3IoUJ-n3tznuMuWNb3qowI08cSWEWC
+
+!procedure PencilSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PencilSquare', $name, $tech, $desc)
+!endprocedure

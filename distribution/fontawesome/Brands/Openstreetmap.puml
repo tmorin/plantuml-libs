@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Openstreetmap
+
+sprite $OpenstreetmapXs [10x10/16z] HSA74SCm3C109EwIIEm_hNlvUpxs4tASr4vwcMKe-O-2bYp68evKhFmOq2EWhOYWwG5CBXi
+
+sprite $OpenstreetmapSm [12x12/16z] JSZ50SH03CLG3JfezL_jCkHTFd2LK77KSq8nkbsp5rYbF5UJgeKjp2AwCPz_bJD1hDi1hAk6AS-klS6ihogwArLbJOSDbAyx
+
+sprite $OpenstreetmapMd [16x16/16z] {
+NSV5OGL1081GncrtwB_QvBjnul5RuDPmRs-lHNOkp73Kc-UgjQrO3HieIunvZ6IA7VJ0lc3jo0ag5bADmYHhRojaUpGjm068XXatDqzr4lO9q8CAb4nim9NI
+pqoPvS4mrAB0ZRshw-a044O58DtuwXy
+}
+
+sprite $OpenstreetmapLg [20x20/16z] {
+VOk5ZI0m0CDSvdh_RLzzfZkBeYJcK-9ML-3XpJIPHY3RNgTMGp_CqzFYPg3f4adHW3d8AxSfdPwhALhUGjV6A6t6s-CzPIPGPTJUWoruodgTxlUPntKSpwKT
+cnZQjAwJWe1MOCbqhedXTGvILqiW53D06QX6jZe9F5xbXKTi-MVb3bCxGtzMY-vJTRpgSR6yHOsGV9aMITlgZ03dlVvcZR-RBm
+}
+
+!procedure Openstreetmap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Openstreetmap', $name, $tech, $desc)
+!endprocedure

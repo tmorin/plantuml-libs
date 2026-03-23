@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HospitalSymbol
+
+sprite $HospitalSymbolXs [10x10/16z] DOgr0S103CJ2dDV-qvgjvd0oRex98RZRm6xk7tY-uNcfvSdpqLtrhxkRn2vx6GK
+
+sprite $HospitalSymbolSm [12x12/16z] Om01RduE1WZWXm084yxXXmDU41k8sHc1D3USZT05OdCWYKFLSpA1QJXWHnZA1zB62nC5
+
+sprite $HospitalSymbolMd [16x16/16z] NOy50e0m2031Rlx_MdNS-fOqY3FVTgeaReCLqJ8FOk72kQ1k7iADPSvQkSBtHZxF0zcG0owVdRzsidXZO_ezibWDtMSMyXRHqMgQ3m
+
+sprite $HospitalSymbolLg [20x20/16z] {
+RP050iGW40DJBnBs_wyzJV711ry8booUg3XCS86m2YVLuAKQ3ftLe6L4AeCREYGKPsxYajoohgkSyCrBevmZ-RXpSXv6H_3NhlOXdFy-bia_u4O5-4Qj2ccx
+Ijn_mV-YDm
+}
+
+!procedure HospitalSymbol($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HospitalSymbol', $name, $tech, $desc)
+!endprocedure

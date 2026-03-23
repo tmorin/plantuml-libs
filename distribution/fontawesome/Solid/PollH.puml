@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/PollH
+
+sprite $PollHXs [8x10/16z] Ou01VdI0BeQk2bKQnW4
+
+sprite $PollHSm [10x12/16z] Oq00Vgo0YOa9oc9bPKMNvCIYaPS1hemRGl70vHYu-I207G
+
+sprite $PollHMd [14x16/16z] Oq05h7nmmCl0oeyNS3C10Pp73jAEKoa4G3XCKBjuy9WDLyc7OWfsPGoeF1G
+
+sprite $PollHLg [17x20/16z] ZS650S0W00Emuax_ltRkIe8xTIG1dfNC5aOED7UOyA0E-CNAHU4CAyLPBGk-SKfL7W4mFAefyPtZ1GfF3Avw
+
+!procedure PollH($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PollH', $name, $tech, $desc)
+!endprocedure

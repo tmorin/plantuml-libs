@@ -1,18 +1,12 @@
 ' definition of the Item fontawesome/Solid/ToiletPaper
 
-sprite $ToiletPaperXs [12x10/16z] LSQr0OG0002nUtyq-szBXQLA1RpUH-CurkFVd_hpQ_5wAZ11V_2D0hgzRjy
+sprite $ToiletPaperXs [10x10/16z] Oq00FduWO6FWPsRW1m4GoGPbSV7pGLWWKGmMFoQBWHFA0HaC
 
-sprite $ToiletPaperSm [15x12/16z] LSc54O003CNGu4xsdnQ7VzJV5QYzWnMWUAK2Znn-RBIs-uWhBc0r7tLp9b-r2MkL45rX_4W161AMjtO
+sprite $ToiletPaperSm [12x12/16z] Oq01_630mCSFPxA12226KLmmDWypa8AocHWGR4uaDW8mS2En6H1oK5iHR
 
-sprite $ToiletPaperMd [20x16/16z] {
-TSu50i0W30F0p9t-_xSBnIsTmA5WLWd1Og1P8YrsL4rYjFaKzhacwOYsdIAhsXCDdsmmrbvPM1DVBftPfNrYVB5_GzUQj7RJNtaLZEoeZ1s3sZ2XkFA5a6BQ
-s7u
-}
+sprite $ToiletPaperMd [16x16/16z] RSc54SDG081G8j-5_QUjUyFfE_Xhd_Tszd6bZrXLU3AWsXz-dVnoqat7oysTwIkwA-F3rO8V3du5HuuVHYUVPk7R_FiC
 
-sprite $ToiletPaperLg [25x20/16z] {
-ZP255SKW5CLIm-7kF-qNJjs34_G1q6l1u4e35QE5J9JKKT6AfglDOOCejMa1iXOYuudxamQat4lQ2ne9yaQKAWO9x2WA8YH477UuywDwT2AOExHdmWF3LgIn
-XRWMuybfVqKUGyrUH00Q3g9dv13R5NeZ6XQ-
-}
+sprite $ToiletPaperLg [20x20/16z] bO-53SLG482eUzb_sgzrVqH8pezZucG4I2A0tf4Sr0Go9s3KH4NoSxc8nRG_z_ccjLRRTQmYrtuTYudK-rX5iOkPk8brRXb_AbSn_bx7KZNVnA22NOo0s1i
 
 !procedure ToiletPaper($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/ToiletPaper', $name, $tech, $desc)

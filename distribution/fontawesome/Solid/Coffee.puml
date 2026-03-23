@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Coffee
+
+sprite $CoffeeXs [11x10/16z] Oq06_53016SoyiEP35YP_2m8KI3WWxAm6il6
+
+sprite $CoffeeSm [13x12/16z] Oq05_720nE43yk0STWPS74weCam3M456yy748O0921Y1D1u7
+
+sprite $CoffeeMd [17x16/16z] VSt50O0030F0u0xxJuj3lVUi9B3AbVJNODquEPYcSy878rOz6FJWUo5htZBWqjEWk0TqCkDLb3S4YeNSFyl6jC01
+
+sprite $CoffeeLg [22x20/16z] XSY53SG030Im2pmMil-qPGoe5XiLbXjUrppUrxTV9RC-BiGiMQGhwTg-ZcIh2Di849UmQg_POzTV5XUy8JoWc_NOd7Uw7m0Z
+
+!procedure Coffee($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Coffee', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/MapMarked
+
+sprite $MapMarkedXs [12x10/16z] Oq05_4008Y5C48Qp6HYHsN3b498FYSsFnWO169kDWO6B5sG-
+
+sprite $MapMarkedSm [15x12/16z] PSU50O0m40J1m_ss_sfnY6taVrG6-1mZF63bwcSjEUN6CZXmrLdWFPkK_6m2RmSQk3cTjCw6xh8E
+
+sprite $MapMarkedMd [20x16/16z] XSY55GCX50NHMSFXzTzj3XfF1lsNR-sIxFmjQPcZtXlWLJjZzsv9jHssycxaJvQfFTa9lfXdur3jsTHxjFsVrGpmRBKuxEXsG93e29pQw0LCeni
+
+sprite $MapMarkedLg [25x20/16z] {
+XOy50e0m30DJtBh-_xTCGd4uBCrXmm-jsLmnosoZruKWST0ObFM1MBjWLKafxo962Iy2-Ywq5KX_5mt8HKH6iwZlWYkwYS2fkGeZuI9gsxW8UH0soc6OcFsf
+cKasCLPBFElrTsVmoq2VHPw74Ku5Q5d52W
+}
+
+!procedure MapMarked($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MapMarked', $name, $tech, $desc)
+!endprocedure

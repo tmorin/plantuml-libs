@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FunnelDollar
+
+sprite $FunnelDollarXs [11x10/16z] Oy0AUFXXW841mOAn8Mh033uM29kHWvyPgeI1duSNpkJdO80hP-3a1m
+
+sprite $FunnelDollarSm [13x12/16z] Oy09-FWHW841mMPXGF1OWMmeZnkc3woScnV6Om9BSq0u312Z41mc10S8cFZXTdEnyFC3
+
+sprite $FunnelDollarMd [17x16/16z] XKsr0S1042B-plxJljjLeSFn3oS010fSWE01a0eg95_AXuNkEdykvUf_Ky1BgfFqNN38_3ZyF7goO74kuSi2WyKGpe1Mdwid3jBbuIy1
+
+sprite $FunnelDollarLg [22x20/16z] {
+fP170W0H4C2olVF_r-gTs-P4cCflBjdnmjlRZv76qadFrydszqr6U2KcAhm4Jl6jnMydJn-JGXPpTdAndHRMvLdXCDCb-_Zhv_fCzd2TCCrlQKy_pJcHBU9Z
+DzTZNKgBh-Pt-v1OM6qJDWyQ
+}
+
+!procedure FunnelDollar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FunnelDollar', $name, $tech, $desc)
+!endprocedure

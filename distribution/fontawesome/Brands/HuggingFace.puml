@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/HuggingFace
+
+sprite $HuggingFaceXs [11x10/16z] FSQt0GCX00GmVIB3xR-jEwiIk002ypyw2F6olB1nc6-_uBbphOmqrZgXl4-SXnv4FXB6-04
+
+sprite $HuggingFaceSm [13x12/16z] JOk50SD030FlcQtzfst3oPb173WUv229Wt6jdhJJ01UpZjNwQjtXo9ThhQLCH1BC1U4GL556zGtdl9j67a0Kq0oductDxflu0m
+
+sprite $HuggingFaceMd [17x16/16z] {
+JS_L0GD124NH2-F6wx_RU7RFpoZ6bnitJTtJ4JzAdtNNpthucSwJTVxq-w024cG70b5u6cEoWCdD-LuKMRxYPGsD9VBGWYRasyv6lK-1EAG3bBoyUoN6Sq4G
+c8yIQFAKRV5aOnEDfoZBV-EO57gk4Q4D3m
+}
+
+sprite $HuggingFaceLg [22x20/16z] {
+NSpL0Mj750F0MR1z5zL_jSbZchy3abzAzQzFpXmhf_YjP02o_bZwvTb-Y3_C0QoNFzq2Wfc617r1Vypttc_ib5C5TZ6xdqvn8VwnVxUlT2FbrtO-iz1oaoZw
+3BJK9ENiTzfCxXCyw_O-sb8g4MU7PzlrIi5-zxwQSDikRuJNKMlvZD7jgq4V0cyzrQdb1QyVMu_LI5wG90Tc9fHnarFm9DaT_mC
+}
+
+!procedure HuggingFace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/HuggingFace', $name, $tech, $desc)
+!endprocedure

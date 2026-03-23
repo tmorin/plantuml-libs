@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/UserCircle
+
+sprite $UserCircleXs [10x10/16z] JOor0G0W4CI2GtNxJujRtfLEKMIWIPd998mC_EYEx4rc4lML-mDbPddui6Oq
+
+sprite $UserCircleSm [12x12/16z] HOi50W0X40AvxkF_hrMtnzW083myOT2mrh7sdUN_j7VrgTuuh3rPWFmXM0zbuI6BQxIVoP_dqG4
+
+sprite $UserCircleMd [16x16/16z] LS-50KCX40FGu4xstxRDVN-uSp1fSJXS5Wy5XhVz7igyDbS_AGuKVz-IAFYBb7MF1ryS2itWbxDta_U-KF3y2ri_oYHEWJpU3P1EPhNwsLgR6XhtYkO7
+
+sprite $UserCircleLg [20x20/16z] {
+POq53i0W54EBEzp_jilFA47UX0hmCKbzL8yDDoPDCHeRYT5EPhJZ04UfqrJ04e3zPSH-DUUmsx8-5udKk00CPHqlVhnW6m7Ln3J8ea6gECWmBCplqXP6wYnt
+6AMq9Bp7xJEndH6QXl01
+}
+
+!procedure UserCircle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UserCircle', $name, $tech, $desc)
+!endprocedure

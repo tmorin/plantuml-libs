@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/StickyNote
+
+sprite $StickyNoteXs [8x10/16z] Ou01VX808rGrJ1CFFqG_a08
+
+sprite $StickyNoteSm [10x12/16z] Oq00Vee1EpkKmG8tZ8MVdu47oWRQmSq70a06
+
+sprite $StickyNoteMd [14x16/16z] Oq05h7nmmCl0oZz00EWG91w8mmFd0JdSoBBSo8fv6D01
+
+sprite $StickyNoteLg [17x20/16z] pOW50G0X5CLsha3_jBXJW7tTOsIhMK6rY5_D3x3M_Zdl0hkNAd3_IWb-xrogOiCYEXym
+
+!procedure StickyNote($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/StickyNote', $name, $tech, $desc)
+!endprocedure

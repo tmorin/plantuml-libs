@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/GrinAlt
+
+sprite $GrinAltXs [10x10/16z] 9SZ70S8m000nqKbY-_QVbggdOEiEwkBHHWDq4ucsYqkY-3lk3vt-dQeXMso4Mnt56m
+
+sprite $GrinAltSm [12x12/16z] 5SQ5RG01300n5n_Jst_RAXRPUZgnQeufwCTwi_tcandHguUUeKitTLYhSnpmyIdvRP5UL_MbWyRg3wPry0y
+
+sprite $GrinAltMd [16x16/16z] {
+NOw5WSD03C0KJewq_xJ_hLtMWHa8jcwTUD9D3eAdqknfGhBOe0kKV9iJ7d0Aby1m4wX2TuBLI5-52A3oYVN7dWJL4VkSOcCo0GUx2qjaG1FeRi04D7T2Z1Ku
+JPDd_G3u1m
+}
+
+sprite $GrinAltLg [20x20/16z] {
+NT25bS0W0C3GL76o_xGdlFh7NJYaRjrvs3oqYOFQ5o2ewUog76RDdov0DzX6Lvg0F0Cwqb6Rx40qCYghmd8E9nUEvdpsTG6m0HQ0fl9HhFBHtGsWOGAMR095
+eNYQc6mqP_1G6Ur9ZyCqGb0WAK18AsSNP8qCKzFvyQMjT5-tZGvjJE8N
+}
+
+!procedure GrinAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/GrinAlt', $name, $tech, $desc)
+!endprocedure

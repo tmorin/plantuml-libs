@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/GrinSquint
+
+sprite $GrinSquintXs [10x10/16z] 1S450S10000XvlxNl-q0hdPGYwEBNj0c2nvTYpTHmERP3qsM95MlN74HjdgA7m
+
+sprite $GrinSquintSm [12x12/16z] FSQ5ZSC0540n7mP_tlxRLaMBxEvezLIpJ45_xiu-PKQk4oqwXYv5BJPtlrh70b_Val_kIAUj-j52uwuBfhk56m
+
+sprite $GrinSquintMd [16x16/16z] {
+JSk7bGCX303HsGnlaQR_QkzivFI9Ian7U2-yXULYUd-6KI6KpG4X7uSBNdXMVoCz17GZ3DWDuJ9XjIf2Prfty9PVBe9ggXTD72mMC3dTs6O7387m01PWU3AV
+t85cXRpd4-0V
+}
+
+sprite $GrinSquintLg [20x20/16z] {
+NT25ZSL00CHG9raczr_jmUfZdd0i7XxgSYG-H1_cmOEwBY2hbKq73wUsZ_IW4QA3JmeAwuAjPue55rJN2LGzGQiNCFHaA80kTne7aFI2gGALXnYWE-HccSoW
+-G2kPWL5eUl3mU5aUe8FWxqF1QQg1R82LG5o3V18qBIm7LFFZqjdNwh0Gt6R9m2_
+}
+
+!procedure GrinSquint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/GrinSquint', $name, $tech, $desc)
+!endprocedure

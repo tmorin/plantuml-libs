@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/VenmoV
+
+sprite $VenmoVXs [10x10/16z] Oq00Vdv-BZ39m0CY6B0Gh30M6AEn80m6RX237MmYL0W
+
+sprite $VenmoVSm [12x12/16z] PSQ30G0m40F0sjX_sfhFvCWx8UVSAlTYBVXoJ_SO9rdEqtvPDjCyX_HvE1qUTrG
+
+sprite $VenmoVMd [16x16/16z] POm30aGn50DdyOtS_xIrEqKUmyHoF1B0fg3of5HdoKlGvIyyNZ-mUDrWI_gsS_Va4yQMagU_v4TfSoj3OEjJFYazICJqfSy9M
+
+sprite $VenmoVLg [20x20/16z] {
+ROw53KKX5CNw58Vzf_s2MsFDrSEUuxoalgEUhmq1215DrQD8QBKBRAkvQ1AUkNO1y-uvrPRkUgLx2pggucXZN55D3lN4MkhxzY4zQTnhpR7MA9XQ4hNsz9lp
+CXqoSP7u0W
+}
+
+!procedure VenmoV($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/VenmoV', $name, $tech, $desc)
+!endprocedure

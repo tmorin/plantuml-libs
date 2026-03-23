@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/Home
+
+sprite $HomeXs [10x10/16z] NSY54O1G081Gx9RzfxNznTKxkDlvSlC3z7w0oW_t3MflgQ_wZbBhkixESW8
+
+sprite $HomeSm [12x12/16z] ROl50O0m5CM2Ezb_MgYVck_oIBmqrDPkF7aO7O5JO7OWiidktKIihIVrQkqTkQ_SzpDM-04
+
+sprite $HomeMd [16x16/16z] bOpL5SKm3CLkcAFzftrOy6yLq37gOClY01C6a4b4bdGd6kDdy5zDwhcJyFsIJXPrWx_Y2H8srZ_sQqyJUxvSyKE7Aru_6vBU
+
+sprite $HomeLg [20x20/16z] {
+hS_50SGW04JHIN3z_LUxSR_kH827wyZGzOw7DqPeyA0Cen8C5rNOvxk3-Z7BGD2Qs-e3fAseqWsB1BpErFhNaDvcTTXeZ7bPPSduC336mzqyomN-PJNN-SiP
+bazBUAH84m
+}
+
+!procedure Home($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Home', $name, $tech, $desc)
+!endprocedure

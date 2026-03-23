@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PhotoVideo
+
+sprite $PhotoVideoXs [12x10/16z] HOcr0S0m4CJkcyIi_QSrWve3QS0alGgpAvC10wqFiA1b_tcXoVuVsc3n7RpQ
+
+sprite $PhotoVideoSm [15x12/16z] JSo54S0m243HN_Uo_xP1xtYL1CL9sbja8boey7uUH7uhQFZgOoSlx7f-MDWt8Y-XgXtJcpQhoaonpGbp_-733
+
+sprite $PhotoVideoMd [20x16/16z] RS_50G0X44FHh0kI_gl57VxneOFOpLgb2JNrCTi1INAFzWWXdD7JZSrRkCaRnUqFoRXpYuPOj2iOKYT3tYHopLcTYfiE0fpwWRs6S9PoGnEvNTFuq_JhB
+
+sprite $PhotoVideoLg [25x20/16z] {
+XT655OGm00JH9Mulst-rIFGE_JY3WyxpLqIN-I-ZuTaC1k8-g7gQG0ioxig-n6C6s18M7aeeQTmlqulKWWFC4Tgz5fWMqAKIaimrB1ZOb90mkMEdXY-1IWwd
+UvmbKc4vxLJZ9cUaAAzgdyBKWkL9G9FEF-ZB1W
+}
+
+!procedure PhotoVideo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PhotoVideo', $name, $tech, $desc)
+!endprocedure

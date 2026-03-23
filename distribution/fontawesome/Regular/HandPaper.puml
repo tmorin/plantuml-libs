@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/HandPaper
+
+sprite $HandPaperXs [10x10/16z] HSRN0G0X2C3GS7_NpFxJsaiKUBGI8ss_zJIvXHpvFxHCuHG6KtXDWARVbm8
+
+sprite $HandPaperSm [12x12/16z] LSO50e0m3C30u4x-_rfqcgtjyNKI6dNMtxwlCxlHCNiuAwjy3UUvhCdOTh-d0mosUTVqSfCtl-06
+
+sprite $HandPaperMd [16x16/16z] ZSd50SCm04Mn7-Pe_sbBuLkVKNQscZMtvXbpVn22wN0nYt8o5K_pTFum5DcJHVLmhoplpgfCRiwgEZZ9xw7UMEb_vsojjoDR1VZzlW4
+
+sprite $HandPaperLg [20x20/16z] {
+bSp50OGm00NH3t6T_gjTt4yxQ5v4HwaRFHfD1xmPBcf04u0x3G9bVNDPrcg2HR_6nzJ_iN7u6D1cEreiKpelwmnwsm2Zol0mELZa3BIYkSXIjU7uNBPXqTe0
+KUSlzD9O9izSPwcjXqm
+}
+
+!procedure HandPaper($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/HandPaper', $name, $tech, $desc)
+!endprocedure

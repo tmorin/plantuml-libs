@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/DiceD6
 
-sprite $DiceD6Xs [8x10/16z] Om023WOGOEVdvsTaOE2702Y30OXu-TdW77GQWHb0D3S3
+sprite $DiceD6Xs [10x10/16z] VSJ50OG000InEHSa_LUB_ibAEvrWhYQdPpvsTvbZYd3hXrpSjxAh5G
 
-sprite $DiceD6Sm [10x12/16z] NOc50S0m3CCqvld_QykiDea1pqdaaRG1YoAWn7-dq9-VItEgNfGPr5SKJr87uDK75W
+sprite $DiceD6Sm [12x12/16z] ZSZL0O0m303HmvtRVrlg_UN5GoALmGl1RRQ37J9f40QwyhfnAmOm6k2Fpblsaw0--G
 
-sprite $DiceD6Md [14x16/16z] XOgr0G0X00FpXaFsdnRNwg-9eg6m22HDzvODKJvSNF1RKXUkuMsn1dVn0VqcyRBvnWF33V0t-ICXR4a3rqWUbRkcuX8
+sprite $DiceD6Md [16x16/16z] fS_50O0m5C3Gu4xsdnQhtdbrxoSOfTBuoiFJOEErMOoWjHNFl7z1qOxMnmcBadejdG_opHh6lzeDZcgyv6XszI3gItmt
 
-sprite $DiceD6Lg [17x20/16z] dSp50OD054NHoxY__giDhiiS6Fl68LgUlAGnSRBQ3JPJrwK0NI-UeXSBwDKoXhc6LaXQGTWFhpkL7MReba5lvFy3_HlW4-YG7e5XMBKp43XCVGraLZC
+sprite $DiceD6Lg [20x20/16z] {
+dT35WOLG0CNGYplflzkPuB3y1m_-SXgeyjRmRoqUfKBMinGBjo6oFDN9p5SL63jk9Ko19fcEqleecsyhB8jVW4rzqlXrCsUJdpl0tTG5lgt_eItVvizzMt-F
+r9HZSsWvvM4udwG_
+}
 
 !procedure DiceD6($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/DiceD6', $name, $tech, $desc)

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/GitlabSquare
+
+sprite $GitlabSquareXs [8x10/16z] Ou01VXXW168-86Q0OgWiCqmLN3LS4piGm_G3
+
+sprite $GitlabSquareSm [10x12/16z] Oq00Vco0Zmr8WAN02XZOGGG4O6L1cImGtQmCF40IYA60WPiF0jW1
+
+sprite $GitlabSquareMd [14x16/16z] NSo50GGX34JHVouRcFwhnVtXHDYz_E1uwUIK_LMyRyfGGJcDPyc3lvdTwkUTBjSpV78JEg_aGMKgBZ8DyD32LA0LcmW
+
+sprite $GitlabSquareLg [17x20/16z] RSt50GGX50FG3ExflzfL7Du5lkCaPmBWAYTU-F9_1Il8-bh-rKMnlXH0hkz_5eFw7SA47s5Fb3r1lSNJK67JJWm2y5pqq7A3p8N6xWq
+
+!procedure GitlabSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/GitlabSquare', $name, $tech, $desc)
+!endprocedure

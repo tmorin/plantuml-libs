@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Fediverse
+
+sprite $FediverseXs [11x10/16z] 9S65WSG0400XpkBPwR_QLm2Fyk-g2pepJw7gzX2MTJYQ-6mhTSNT_YoXUtgCDu-6ynZeyPYARm
+
+sprite $FediverseSm [13x12/16z] DSV50SDG5C0m9v_fUVzfozLDV5JbhvzVhgkOvbq-qmaoyPEwruXzim92X5r2GGHiZcyaxun0ZFks5m907NXLVzcP9G1pmhqqu0a
+
+sprite $FediverseMd [17x16/16z] {
+JSo50GGX4C30SBYc_sxVPN1MU9iwuISjhR_dvQbZ6dWePhqGWpoe0-91eW2-jDmXcIAClOcMfPwfi8BB0AE22htX1E9UJeKesqS35qO04QjRa0VDqPEH-mOa
+rO2NKHxK6G7doZmihQf39_-Q7k06
+}
+
+sprite $FediverseLg [22x20/16z] {
+NSk72KGn4CHGhVsZmwh_RW_3PP4VCxmBLVwxrVopeLD7_ErgU6VtoQTsFI0jCf-isWAAX32CfvggCrYIBjrrd54lcvhzgbq5F3n9rwAf-TGuFGHe2NKyTUVo
+NBfRTQGJc8rexa1nz7LOzObvMt08kB4winZSqnbkD65LpKdg7kJ5SyhGPXQwCMPFM8Kk0xhjokrBrNdNhl9iQX1NwjBEVuUw0pm
+}
+
+!procedure Fediverse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Fediverse', $name, $tech, $desc)
+!endprocedure

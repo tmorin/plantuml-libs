@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Tshirt
+
+sprite $TshirtXs [12x10/16z] Oq05_FmG0aG20HE8038H0CQ6Il206KnW3L0s0pusDrGZ0m
+
+sprite $TshirtSm [15x12/16z] Oy04_Fmm4aBpyu18c2W2G7W8WCvbW8lmieCrmxb09ibSFWYN3SW4
+
+sprite $TshirtMd [20x16/16z] jSg53SGm0CNGVr06xxzj5MPn7NwAHgtt9TDzVmFTW3adO4q47qC64wNMbWpIfXb8VpT3qeBEQDy5sNAJNhTFj4yqcHu
+
+sprite $TshirtLg [25x20/16z] pOvJ5i0m00HZu_wdhMB_Tehicut00OnH6mBKFuJufjPx-aRx9fTzm23Y8z6FkD6NDNwEMHKoB66r4y-dmjNRWm1_VQ0j0ZykuAe0fdWIp0q
+
+!procedure Tshirt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Tshirt', $name, $tech, $desc)
+!endprocedure

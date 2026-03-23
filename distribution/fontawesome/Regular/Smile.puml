@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/Smile
+
+sprite $SmileXs [10x10/16z] BS65OSG0000XufxRVzhg0noje2PR1zsWHVvrJ9hrAX_NkjamIUvga2CGbhgARm
+
+sprite $SmileSm [12x12/16z] DSV5OKC15C0mXJw_Ulzfoz79zkDiywTcdO9UVbnv9pFYvnvq3l6CMhsrZRVardQx8brS7RJI-D47J3zMlW
+
+sprite $SmileMd [16x16/16z] {
+NSk55GGn203HMRV0z5_jINYdFuhHBU4ry1AMZUxrQKQ5K2ORXF2oEF2QwjB5ruW9io7W0NW2Aj-y_k9160HOX5rie3Rx9rcTO4rZX2OGBfJcMa_Em6w5CDWb
+m1q
+}
+
+sprite $SmileLg [20x20/16z] {
+NT052aGn34NHzzsQtFtlTeW0PKxTHUrnngd9GRD53V1DqWKytSLGM-6TkXeSiTVG32hDRcxXabwBvfd7maES27lcNdaklPx8bozo0_JdOw0_piaLQvMMsZkY
+LbZZ7q1QC5aq1sLHjXV88y7l-eTUKRehl73t6GRhzANsESnBRfAj2Zy
+}
+
+!procedure Smile($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Smile', $name, $tech, $desc)
+!endprocedure

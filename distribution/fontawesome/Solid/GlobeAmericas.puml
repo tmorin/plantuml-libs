@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/GlobeAmericas
+
+sprite $GlobeAmericasXs [10x10/16z] 9Oc30G0n54FJC_lsd_OReM9k3kN09hX3V6bW5vt3JNF1p72y1v2gqz7gJkXYXn8E
+
+sprite $GlobeAmericasSm [12x12/16z] DOY50KGn38Ku-LfX_sdh9KOUdU3DHDEb3ZsWkrEnav2EYi4Thzt8uhsUZyhoi3qClS2LP1f9Pre1
+
+sprite $GlobeAmericasMd [16x16/16z] NOm50i0m30BJkP7y_xKLc3D5haQDY3tP9OGqo-gd1P3bcphQM2CfsKMnzXXPT_3cRGmG7xM-C2A9VbVHTF30dnUnQ1_XDfs3UmXYsaqtXykA55jL
+
+sprite $GlobeAmericasLg [20x20/16z] {
+PP054WH1309xNKRu_sjFcQnHHdKyM5jLdZbfabKwB4brX1_T6ig0cVOdaYQOZ88993Z3gXNLF-dw7-gGDkUT2wjK-Wvoi6Bd-atgI79yFu-PdNXcF5bfBRj0
+wkbY88VRcXi2mVuVrbLN-gM72Ar-yp_f3G
+}
+
+!procedure GlobeAmericas($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/GlobeAmericas', $name, $tech, $desc)
+!endprocedure

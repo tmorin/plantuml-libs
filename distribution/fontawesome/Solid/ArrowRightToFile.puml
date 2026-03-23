@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ArrowRightToFile
+
+sprite $ArrowRightToFileXs [7x10/16z] O-3dv-TbOE3Z1m46A06ce3HSWW44m3nE1hWWDqGU
+
+sprite $ArrowRightToFileSm [9x12/16z] O-3X1m861X0DOK4e88Bn8O2RbPKV2K3bsO605SHY10A48TnGDNmWWWsc0m
+
+sprite $ArrowRightToFileMd [12x16/16z] ROg53O100CIAE-o_BIdwriWf_I4heBq17hSR7e_XyHWUC6IiWOUWlmCFdPKiKFotHmQ1Fm4
+
+sprite $ArrowRightToFileLg [15x20/16z] RSl50S0m40D1XStglzkOUNzpWDCn9X4wMRA1ZYrFvXuLzetG93iYx0jV8EnhpiTzhnu8g9u6a0oXfaP-m_Czw6BFXzlqIBXUyWS
+
+!procedure ArrowRightToFile($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ArrowRightToFile', $name, $tech, $desc)
+!endprocedure

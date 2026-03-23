@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/LongArrowAltDown
+
+sprite $LongArrowAltDownXs [6x10/16z] Os3Wv-Tc094y14WMVX1WW90C808
+
+sprite $LongArrowAltDownSm [7x12/16z] Os1Wu-Td008E4Yb6Jdv-HaO-VZ1W09FS322QZm4
+
+sprite $LongArrowAltDownMd [9x16/16z] Os1WuEVdvmPIO0OFBHWyFFmW5ZSVFnGmW0Y895G0220q
+
+sprite $LongArrowAltDownLg [12x20/16z] Om02VY3W1j8mDiyWPBFm8m0V4fi1Ga6zWCI4SNXHpG4
+
+!procedure LongArrowAltDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/LongArrowAltDown', $name, $tech, $desc)
+!endprocedure

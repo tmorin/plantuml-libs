@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/RotateBackward
+
+sprite $RotateBackwardXs [10x10/16z] TSQv0G0H0031lHVHzb-jdyn4SmF97t1ARJH-xjASDnyaEGEV3HG
+
+sprite $RotateBackwardSm [12x12/16z] TOd50S1020INk4__tIROCtC7h0pwEDdyW96u1iz6S8t9uRwwq9ud-TVMyaQGScILuF2K9ql0qnS
+
+sprite $RotateBackwardMd [16x16/16z] XOw50GD120IvTuFflzi4YSlFARxTAbT6PM_Ym2PAChiT74Ct6cZP4ZGuqbubWKPGTk-_PzvjFR7jixwZtSqDan7aPPp2K54cVmz0rN0pA97c_mi
+
+sprite $RotateBackwardLg [20x20/16z] {
+ZSw54GCW5C3GZplPVziULhUSmKDrbLdgL2yhw2AENLFBwDoLbWqsCl907ZP8Je0JNd4RzGwZQxCWfmRod7bZwa_JRoo-CMZFvmFeONTerYpTOJZZ33IZb8um
+JiuSj-u_C6jQHXS
+}
+
+!procedure RotateBackward($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/RotateBackward', $name, $tech, $desc)
+!endprocedure

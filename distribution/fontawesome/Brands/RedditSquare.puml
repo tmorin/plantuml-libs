@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/RedditSquare
+
+sprite $RedditSquareXs [8x10/16z] Ou01VYJ00ANOWGG7L9Q1WPE1du49o03pGJGl0oUw5du
+
+sprite $RedditSquareSm [10x12/16z] NOo50O10482mM_QVrlQBwoHYmUhB7aRLuvUmtx31S7bbXAP2xLcisRsOWJqykc3PNuOJ
+
+sprite $RedditSquareMd [14x16/16z] ROh50SGm0CCKvdZ_QG_BhJv6peIvCGXwnFZTJmjxGhd_wpGDu4VwrJk_bFHr_vHfFsUOopMLz9-ao6SDCFLZ6C3f1kTquWq
+
+sprite $RedditSquareLg [17x20/16z] TSpL0OLG3C3Gu4xsd_O9pfNpKo-nwga4tvRPFF2fA-2vFarIFbvrHJLwcE5GW2fFxTwO1GgFnWZkUGi6DvFkAwWBuAu5vW5OF4m5G6rIPu35buRG5m
+
+!procedure RedditSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/RedditSquare', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/FastBackward
+
+sprite $FastBackwardXs [10x10/16z] Ou03NduW0SRyG1A2WIGO4m88TGYzR5mmym
+
+sprite $FastBackwardSm [12x12/16z] ZSQ52S100CNGrBr__srBwlW5U8HVGu1AIEB6zMiXLWafZXi3OVS1aH5Wa_K
+
+sprite $FastBackwardMd [16x16/16z] dST16a0044BX1bOmzx-jhmfOQlFtyDqAhhRGFT3kCcnPn3sGOgfj9NisO__SOEfgx6fSZPqjt62RdOSFuRC3
+
+sprite $FastBackwardLg [20x20/16z] hSY53SH050DHAypJVxK7bhL1SMRnFprLNpzLjO8S37ux05i5Z3lPi9bY5RQTa8WLeY9MQ6_ZdTQy8tiAZjfs2uxIRaQRjc96ctOpZWfsJ0fM2kgXBm
+
+!procedure FastBackward($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FastBackward', $name, $tech, $desc)
+!endprocedure

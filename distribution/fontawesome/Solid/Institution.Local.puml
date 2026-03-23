@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Institution
+include('fontawesome/Solid/Institution')
+
+' renders the element
+Institution('Institution', 'Institution', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Xmpp
+
+sprite $XmppXs [11x10/16z] HSY50O0030Emu4x_lnQNpESNdp8MI15nwsDTkTz4pIZmDp8MuJQCRWMKx
+
+sprite $XmppSm [13x12/16z] NS650SGW00Imr0su_QTzroP-JNwigPwwH3OJx1A90fCKOWI2Mg6N0MAddtUWwev-vMdibWvFRTeFPrS
+
+sprite $XmppMd [17x16/16z] XSYr0GH10CGm7VDE_zK-Cogp_RMLoeCwNT9DpffbJ2HSJgq_ZUewAYM3AflQHO8IPwCwBMGsGoS1LPnxYBCwDXfnLHNTedYmLSFaqRekixjbW6dqoHu
+
+sprite $XmppLg [22x20/16z] {
+bSX5Wa0X081GZ6yhzp_jTFUy7V0FPZvhGqS0NiMbKMLkdcHBK55vrI7fP2cl9ZID1CrmlTwZmF70ub463G0A1UuL64xk9JTaxWrG7ZKp3I30bcT3QC2cogic
+ET391dYLP5mXomSxpL7vQFOp0kzTfqDUyzr_ZSZtRW4
+}
+
+!procedure Xmpp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Xmpp', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Meh
+
+sprite $MehXs [10x10/16z] JSR50O100C2muaxtdnOvpojyDcT-1bkEJcLkoY6TZRaCFRkk-xSP0LFA2m
+
+sprite $MehSm [12x12/16z] LOo35K0n34NVqMUn_xQDSME2-VS3PIkHCYNTa_E7x2NxUKW1k_EK76oCvSQTJnTFftSF
+
+sprite $MehMd [16x16/16z] RSy30W0X50JGMIFC_K-RNI-xZ-1I51ionUY9GnOw3YiPDrSRsBjy1UIAAenlNrrS4EnjlhftBnwDhtXV-D7D5leFtN1aFmIs9XeB
+
+sprite $MehLg [20x20/16z] {
+PSo54G0X30J0mvthlzkVPDwpE16SskRCU4ayBOSJNvhz8hlz8jFPwmEWKK7XdVPtYwATwKDtHx4fQfHz-isJCMbbMg30YM9XQGUdF8M7un-0Ph-0pZSFbRvP
+fqgrFCG1
+}
+
+!procedure Meh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Meh', $name, $tech, $desc)
+!endprocedure

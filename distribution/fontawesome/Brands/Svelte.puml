@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Svelte
+
+sprite $SvelteXs [8x10/16z] Om01JZ393mJiG8eFn0P2e003648GK9G9pEC5gk17KW6c65Y1kfaP6
+
+sprite $SvelteSm [10x12/16z] 7S650OG0000XFcrl_sajy1XV7bNXKoY_PZRIpxlw9lfvbRvu6rAZ8gcD4Y-AOcc7gZTE
+
+sprite $SvelteMd [14x16/16z] HOw55KCn203vRe7RVzjYBxq8Bj9SjqoCeFGJR9MdJ60FUV25eQxUX2RAMV4X45TUYhAwVch1ubqqpRS35EQnQAHomPPrIzR5ZWyyiUAH7M2jnlOetg_G__u_
+
+sprite $SvelteLg [17x20/16z] {
+HP053WGn3CIypFN_VtkQt8953OmZbOTkNU2Zj-YvkRmP28Dw0fpwZ0SANQi-08u6YsVs9s0qqycBC_6am-L1Ixx6j3hSal0ap0gxKdI03f5kTKIZshXKatQ9
+PSjMzIw0I1KMdMDHgIOhbDv7zdm0GLjFTvZODmhma6cReFW1
+}
+
+!procedure Svelte($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Svelte', $name, $tech, $desc)
+!endprocedure

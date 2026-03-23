@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Solana
+
+sprite $SolanaXs [10x10/16z] Oq02_520O63AyQCmsQ00cq8-k38
+
+sprite $SolanaSm [12x12/16z] Oq01_720n6JcHJ1HL7F2nNaO6BZX76uWXmy6Y32V4Q6QaG4
+
+sprite $SolanaMd [16x16/16z] XSot0S0m24JH3owTzjzMfKH-5V68tky0_-dnxMlRGA-3uE8Kn0m4r0mO-7lV-dXl0G
+
+sprite $SolanaLg [20x20/16z] Oy01cD40K8WV7H0hn8iXH3pWnwQN3viWFp62V211DZH0WdDuYV8m3xeG8wQJ6R5R
+
+!procedure Solana($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Solana', $name, $tech, $desc)
+!endprocedure

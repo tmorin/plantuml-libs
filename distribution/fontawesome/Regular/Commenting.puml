@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/Commenting
+
+sprite $CommentingXs [10x10/16z] HSc30S0040F0gztiFssDHmX3Mf2Ksgoa0Pc5LseCnrxzjSlVlgexrOH4bHH9i0C
+
+sprite $CommentingSm [12x12/16z] LSl50GGn3CLG3OGJg_zgb_5TZ9-xOUD9LraAuCvT5Tnu6cxoPZG2WbeVlI2jy_VppNR9mKCJp3hoLEYwqQC2N04
+
+sprite $CommentingMd [16x16/16z] JS-55S0W4C3Gr9tilsqVpiUT8za-dvagc5r4asv4ZyR6GAMfD9C7pdIVbmncov4tDY4MmOirDZUuoM0L3vfoijcTm9NYYZTyydnBNCm1s8GIsyhW1m
+
+sprite $CommentingLg [20x20/16z] {
+LSZLeSLG3C0m7op7-q_xu6AZJ_5Kjl2SyBNw4eqNzQh0L0E0eZil9Rm0TF2b9-nkaBAW9DMZkv7fAJ07b0tO2gW22hgoAXo6hzij57UuN1raYf8PX2tLQQSe
+V2qAfDiKg0RZu66e0E7fGwWU04trB8zmu-7I0Tal
+}
+
+!procedure Commenting($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Commenting', $name, $tech, $desc)
+!endprocedure

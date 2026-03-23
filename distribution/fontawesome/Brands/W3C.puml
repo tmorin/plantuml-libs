@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/W3C
+
+sprite $W3CXs [12x10/16z] TSR50OC004FHr-AQ_QV5vKJq-z10IBBJAChVHhzMBdV8JvFVd08Y3N4nKa6BQSE4Loi
+
+sprite $W3CSm [15x12/16z] bSYt4SC030F0Lyx2_jlwqBhJCzCdZ-aXpnF98fgli9h44VSqXbhFp5j_eP8ceRB8YOpgudITImpTgRtRvSyF
+
+sprite $W3CMd [20x16/16z] {
+fSc7aKCn3CHGaFev2FrNUsUB1JYz7KnQVh3j5Up70oGWD06zRnlgYWaokf-1UD4y7X722i0aLn-NmivWBMDN6eE7k0hWJTcyMEq02iK0Pm1xKXobRJOZGE2i
+LjrWqU1D_m
+}
+
+sprite $W3CLg [25x20/16z] {
+lSl5eTi050314TdYxR_QaDL0wC-3s_e2Hvv7lypSErgOcd1sNLTHNOT21xe-xH9xpXZgQJkvHqoc1aknnHrk7ssksfIftbm-Ik_prchTQxVxM9iojmRkZ1xL
+y_1kv54RTO9NCu-zWRK9d0rWmHX4zx1qMmTUmVsyiGfdDSF0yyOH3AC_y1q
+}
+
+!procedure W3C($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/W3C', $name, $tech, $desc)
+!endprocedure

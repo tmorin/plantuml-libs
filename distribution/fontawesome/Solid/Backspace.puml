@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Backspace
+
+sprite $BackspaceXs [12x10/16z] Oy0D-A40YSaFOVA2AGO-g112d8KPJJsQEGW
+
+sprite $BackspaceSm [15x12/16z] Oo08-6602yn301YF5yQ5qimCO8eFmkLZO4MHvMM0wkL3DWgLpu32Pq9t4G
+
+sprite $BackspaceMd [20x16/16z] bSk53O1G40JHnPtjlrhq_baC9lwImQ-MLQjUgUWhvAk4aXL2IpHYb7e0-sixIq1NNgCMWrZ1PcE_57CxYsN4MxAldG
+
+sprite $BackspaceLg [25x20/16z] hOs53GDH5CDy_3dxRrlHKyfiSP1_i-kIHxhg0rtT-grXlIGfvp2i2xOCOQpk3u0Unf39iFd3JW9OVUuFXlmH7ME3XmRZWN7REGXAF-VW6qu
+
+!procedure Backspace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Backspace', $name, $tech, $desc)
+!endprocedure
