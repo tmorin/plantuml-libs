@@ -1,0 +1,168 @@
+# AwsBackupRecoveryPointObjective
+
+
+```text
+aws/Resource/Storage/AwsBackupRecoveryPointObjective
+```
+
+```text
+include('aws/Resource/Storage/AwsBackupRecoveryPointObjective')
+```
+
+
+
+| Illustration | AwsBackupRecoveryPointObjective | AwsBackupRecoveryPointObjectiveCard | AwsBackupRecoveryPointObjectiveGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../aws/Resource/Storage/AwsBackupRecoveryPointObjective.png) | ![illustration for AwsBackupRecoveryPointObjective](../../../aws/Resource/Storage/AwsBackupRecoveryPointObjective.Local.png) | ![illustration for AwsBackupRecoveryPointObjectiveCard](../../../aws/Resource/Storage/AwsBackupRecoveryPointObjectiveCard.Local.png) | ![illustration for AwsBackupRecoveryPointObjectiveGroup](../../../aws/Resource/Storage/AwsBackupRecoveryPointObjectiveGroup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackupRecoveryPointObjectiveXs>`
+- `<$AwsBackupRecoveryPointObjectiveSm>`
+- `<$AwsBackupRecoveryPointObjectiveMd>`
+- `<$AwsBackupRecoveryPointObjectiveLg>`
+
+
+
+
+
+## AwsBackupRecoveryPointObjective
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AwsBackupRecoveryPointObjective
+include('aws/Resource/Storage/AwsBackupRecoveryPointObjective')
+
+' renders the element
+AwsBackupRecoveryPointObjective('AwsBackupRecoveryPointObjective', 'Aws Backup Recovery Point Objective', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AwsBackupRecoveryPointObjective
+include('aws/Resource/Storage/AwsBackupRecoveryPointObjective')
+
+' renders the element
+AwsBackupRecoveryPointObjective('AwsBackupRecoveryPointObjective', 'Aws Backup Recovery Point Objective', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## AwsBackupRecoveryPointObjectiveCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AwsBackupRecoveryPointObjectiveCard
+include('aws/Resource/Storage/AwsBackupRecoveryPointObjective')
+
+' renders the element
+AwsBackupRecoveryPointObjectiveCard('AwsBackupRecoveryPointObjectiveCard', 'Aws Backup Recovery Point Objective Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AwsBackupRecoveryPointObjectiveCard
+include('aws/Resource/Storage/AwsBackupRecoveryPointObjective')
+
+' renders the element
+AwsBackupRecoveryPointObjectiveCard('AwsBackupRecoveryPointObjectiveCard', 'Aws Backup Recovery Point Objective Card', 'an optional description')
+@enduml
+```
+
+## AwsBackupRecoveryPointObjectiveGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AwsBackupRecoveryPointObjectiveGroup
+include('aws/Resource/Storage/AwsBackupRecoveryPointObjective')
+
+' renders the element
+AwsBackupRecoveryPointObjectiveGroup('AwsBackupRecoveryPointObjectiveGroup', 'Aws Backup Recovery Point Objective Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AwsBackupRecoveryPointObjectiveGroup
+include('aws/Resource/Storage/AwsBackupRecoveryPointObjective')
+
+' renders the element
+AwsBackupRecoveryPointObjectiveGroup('AwsBackupRecoveryPointObjectiveGroup', 'Aws Backup Recovery Point Objective Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AwsUserNotificationsCard
+include('aws/Architecture/ManagementGovernance/AwsUserNotifications')
+
+' renders the element
+AwsUserNotificationsCard('AwsUserNotificationsCard', 'Aws User Notifications Card', 'an optional description')
+@enduml

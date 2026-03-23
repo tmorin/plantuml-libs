@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AmazonSageMakerAiTrainCard
+include('aws/Resource/ArtificialIntelligence/AmazonSageMakerAiTrain')
+
+' renders the element
+AmazonSageMakerAiTrainCard('AmazonSageMakerAiTrainCard', 'Amazon Sage Maker Ai Train Card', 'an optional description')
+@enduml

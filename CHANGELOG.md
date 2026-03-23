@@ -11,15 +11,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 This upgrade introduces Microsoft Azure Icons v23 with 705 icons and 7 custom groups.
 The old azure-20 package is no longer available and should be replaced with azure-23 in all diagrams.
-* **aws:** aws-q1-2025 is replaced by aws-q3-2025
+* **aws:** aws-q1-2025 is replaced by aws
 
 ### Features
 
 * add script to fetch the latest AWS Icon Package and update package dependencies ([e6d5ca9](https://github.com/tmorin/plantuml-libs/commit/e6d5ca9a96d1b1f7ee52d44836d967c1df89252b))
 * add upgrade prompt for AWS package maintenance agent ([8acd8cc](https://github.com/tmorin/plantuml-libs/commit/8acd8cc2bb81afe3e15243686781278c3ea8166f))
-* **aws-q3-2025:** upgrade to q3-2025 ([cb684d6](https://github.com/tmorin/plantuml-libs/commit/cb684d63b00e05363d25e26b58a450e85e21f98f))
+* **aws:** upgrade to q3-2025 ([cb684d6](https://github.com/tmorin/plantuml-libs/commit/cb684d63b00e05363d25e26b58a450e85e21f98f))
 * **aws:** add AWS package upgrading skill documentation ([418527b](https://github.com/tmorin/plantuml-libs/commit/418527bc564797678ac8d803edb4f3e2f1f4ce42))
-* **aws:** upgrade to aws-q3-2025 icons ([ff0fa4f](https://github.com/tmorin/plantuml-libs/commit/ff0fa4f28b4844d419cd5447e27ea3812cc6df2e))
+* **aws:** upgrade to aws icons ([ff0fa4f](https://github.com/tmorin/plantuml-libs/commit/ff0fa4f28b4844d419cd5447e27ea3812cc6df2e))
 * **azure-23:** upgrade to 23 ([6538510](https://github.com/tmorin/plantuml-libs/commit/653851068e10af354d2d852d79072e2305b9f283))
 * **azure:** add script to fetch latest Azure icon package ([c12248c](https://github.com/tmorin/plantuml-libs/commit/c12248ce519b60e96f2ea810a8bcc13315d6b7fb))
 * **azure:** add upgrade guide and prompt for Azure package ([0612c31](https://github.com/tmorin/plantuml-libs/commit/0612c31a5d6e6dfd0ba710727c10d6fcf70dc28a))
