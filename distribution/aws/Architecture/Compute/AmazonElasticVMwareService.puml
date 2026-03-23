@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/Compute/AmazonElasticVMwareService
+
+sprite $AmazonElasticVMwareServiceXs [10x10/16z] OySEcDXPOKm64082Hg0Gb0bcCOCOB401DdOO2mS
+
+sprite $AmazonElasticVMwareServiceSm [12x12/16z] VSQr0GDH502W_vJz9uvsaQF2XOd4kpW5H7MDXVIs210QiXqHmECztd8JR-FR7G
+
+sprite $AmazonElasticVMwareServiceMd [16x16/16z] dSUt0SDG34D10f_WstzYPqkbmdN77Ml5ipSJiFE_kqpeNxiHgy73vo2IWFutG7xtI2f8vtCGLFBPxodsqYwZ_KoOuOmd
+
+sprite $AmazonElasticVMwareServiceLg [20x20/16z] {
+fSgt4SGm50FHRx7zLomlaKplDiAy0V-dp6Oj2ZeMwa8dpXgOwMJxI8PQPataIyvXaF0zazCKHv2pDP2VoMa_WZptavN089LyNLRdTR4mgDaK5S5gE4NIYuaV
+sW4
+}
+
+!procedure AmazonElasticVMwareService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/Compute/AmazonElasticVMwareService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElasticVMwareServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticVMwareServiceLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticVMwareServiceGroup($id, $name='Amazon Elastic V Mware Service', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonElasticVMwareServiceLg>', $name, $tech)
+!endprocedure

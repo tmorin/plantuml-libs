@@ -1,0 +1,21 @@
+' definition of the Item aws/Architecture/MigrationModernization/AwsTransform
+
+sprite $AwsTransformXs [10x10/16z] uy0163dO80ns86Q0Y30mia1O80G2G3KC3AmG9WCOGm0pgba
+
+sprite $AwsTransformSm [12x12/16z] VSQ70O0W3011qt__XUrTuI79qQlav2BBbKc1ivVY4XiTWSrAo71OrxtQ8p7EWdSJ
+
+sprite $AwsTransformMd [16x16/16z] dSUt0O10300nPz_-2vDJ1xmwCKRJkKK2LdNKMBKSBwWK0xikADPvlTTplXMqQ_r9tBXkmShhUA1GnaDgyyaC
+
+sprite $AwsTransformLg [20x20/16z] hSgt5GCn5C0mwITX_udTNQhD4e_-qPHlk-t1tGHCd9lt0NfT5fZTuPnxmxAL5MxROvEQszYqssIDRP_RPhDcTRjDvnY3k2mMCCjLoUBiyMvb-4C_
+
+!procedure AwsTransform($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/MigrationModernization/AwsTransform', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsTransformCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTransformLg>', 'MigrationModernization', $funcName, $content)
+!endprocedure
+
+!procedure AwsTransformGroup($id, $name='Aws Transform', $tech='')
+  IconGroupElement($id, 'MigrationModernizationFamily', '<$AwsTransformLg>', $name, $tech)
+!endprocedure

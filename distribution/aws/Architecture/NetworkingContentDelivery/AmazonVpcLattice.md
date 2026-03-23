@@ -1,0 +1,168 @@
+# AmazonVpcLattice
+
+
+```text
+aws/Architecture/NetworkingContentDelivery/AmazonVpcLattice
+```
+
+```text
+include('aws/Architecture/NetworkingContentDelivery/AmazonVpcLattice')
+```
+
+
+
+| Illustration | AmazonVpcLattice | AmazonVpcLatticeCard | AmazonVpcLatticeGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../aws/Architecture/NetworkingContentDelivery/AmazonVpcLattice.png) | ![illustration for AmazonVpcLattice](../../../aws/Architecture/NetworkingContentDelivery/AmazonVpcLattice.Local.png) | ![illustration for AmazonVpcLatticeCard](../../../aws/Architecture/NetworkingContentDelivery/AmazonVpcLatticeCard.Local.png) | ![illustration for AmazonVpcLatticeGroup](../../../aws/Architecture/NetworkingContentDelivery/AmazonVpcLatticeGroup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonVpcLatticeXs>`
+- `<$AmazonVpcLatticeSm>`
+- `<$AmazonVpcLatticeMd>`
+- `<$AmazonVpcLatticeLg>`
+
+
+
+
+
+## AmazonVpcLattice
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AmazonVpcLattice
+include('aws/Architecture/NetworkingContentDelivery/AmazonVpcLattice')
+
+' renders the element
+AmazonVpcLattice('AmazonVpcLattice', 'Amazon Vpc Lattice', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AmazonVpcLattice
+include('aws/Architecture/NetworkingContentDelivery/AmazonVpcLattice')
+
+' renders the element
+AmazonVpcLattice('AmazonVpcLattice', 'Amazon Vpc Lattice', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## AmazonVpcLatticeCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AmazonVpcLatticeCard
+include('aws/Architecture/NetworkingContentDelivery/AmazonVpcLattice')
+
+' renders the element
+AmazonVpcLatticeCard('AmazonVpcLatticeCard', 'Amazon Vpc Lattice Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AmazonVpcLatticeCard
+include('aws/Architecture/NetworkingContentDelivery/AmazonVpcLattice')
+
+' renders the element
+AmazonVpcLatticeCard('AmazonVpcLatticeCard', 'Amazon Vpc Lattice Card', 'an optional description')
+@enduml
+```
+
+## AmazonVpcLatticeGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AmazonVpcLatticeGroup
+include('aws/Architecture/NetworkingContentDelivery/AmazonVpcLattice')
+
+' renders the element
+AmazonVpcLatticeGroup('AmazonVpcLatticeGroup', 'Amazon Vpc Lattice Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AmazonVpcLatticeGroup
+include('aws/Architecture/NetworkingContentDelivery/AmazonVpcLattice')
+
+' renders the element
+AmazonVpcLatticeGroup('AmazonVpcLatticeGroup', 'Amazon Vpc Lattice Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

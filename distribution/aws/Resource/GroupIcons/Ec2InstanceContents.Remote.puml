@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element Ec2InstanceContents
+include('aws/Resource/GroupIcons/Ec2InstanceContents')
+
+' renders the element
+Ec2InstanceContents('Ec2InstanceContents', 'Ec2 Instance Contents', 'an optional tech label', 'an optional description')
+@enduml

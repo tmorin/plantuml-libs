@@ -1,0 +1,168 @@
+# AwsIoTCoreDeviceAdvisor
+
+
+```text
+aws/Resource/IoT/AwsIoTCoreDeviceAdvisor
+```
+
+```text
+include('aws/Resource/IoT/AwsIoTCoreDeviceAdvisor')
+```
+
+
+
+| Illustration | AwsIoTCoreDeviceAdvisor | AwsIoTCoreDeviceAdvisorCard | AwsIoTCoreDeviceAdvisorGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../aws/Resource/IoT/AwsIoTCoreDeviceAdvisor.png) | ![illustration for AwsIoTCoreDeviceAdvisor](../../../aws/Resource/IoT/AwsIoTCoreDeviceAdvisor.Local.png) | ![illustration for AwsIoTCoreDeviceAdvisorCard](../../../aws/Resource/IoT/AwsIoTCoreDeviceAdvisorCard.Local.png) | ![illustration for AwsIoTCoreDeviceAdvisorGroup](../../../aws/Resource/IoT/AwsIoTCoreDeviceAdvisorGroup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTCoreDeviceAdvisorXs>`
+- `<$AwsIoTCoreDeviceAdvisorSm>`
+- `<$AwsIoTCoreDeviceAdvisorMd>`
+- `<$AwsIoTCoreDeviceAdvisorLg>`
+
+
+
+
+
+## AwsIoTCoreDeviceAdvisor
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AwsIoTCoreDeviceAdvisor
+include('aws/Resource/IoT/AwsIoTCoreDeviceAdvisor')
+
+' renders the element
+AwsIoTCoreDeviceAdvisor('AwsIoTCoreDeviceAdvisor', 'Aws Io T Core Device Advisor', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AwsIoTCoreDeviceAdvisor
+include('aws/Resource/IoT/AwsIoTCoreDeviceAdvisor')
+
+' renders the element
+AwsIoTCoreDeviceAdvisor('AwsIoTCoreDeviceAdvisor', 'Aws Io T Core Device Advisor', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## AwsIoTCoreDeviceAdvisorCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AwsIoTCoreDeviceAdvisorCard
+include('aws/Resource/IoT/AwsIoTCoreDeviceAdvisor')
+
+' renders the element
+AwsIoTCoreDeviceAdvisorCard('AwsIoTCoreDeviceAdvisorCard', 'Aws Io T Core Device Advisor Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AwsIoTCoreDeviceAdvisorCard
+include('aws/Resource/IoT/AwsIoTCoreDeviceAdvisor')
+
+' renders the element
+AwsIoTCoreDeviceAdvisorCard('AwsIoTCoreDeviceAdvisorCard', 'Aws Io T Core Device Advisor Card', 'an optional description')
+@enduml
+```
+
+## AwsIoTCoreDeviceAdvisorGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AwsIoTCoreDeviceAdvisorGroup
+include('aws/Resource/IoT/AwsIoTCoreDeviceAdvisor')
+
+' renders the element
+AwsIoTCoreDeviceAdvisorGroup('AwsIoTCoreDeviceAdvisorGroup', 'Aws Io T Core Device Advisor Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AwsIoTCoreDeviceAdvisorGroup
+include('aws/Resource/IoT/AwsIoTCoreDeviceAdvisor')
+
+' renders the element
+AwsIoTCoreDeviceAdvisorGroup('AwsIoTCoreDeviceAdvisorGroup', 'Aws Io T Core Device Advisor Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
