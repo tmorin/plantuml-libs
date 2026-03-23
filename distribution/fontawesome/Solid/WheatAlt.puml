@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/WheatAlt
+
+sprite $WheatAltXs [11x10/16z] BOg30S1040HZlAR_QizURLLx_Gu_IQ1pd0OQBvoarXeO_4nRdevS3yrKqqP0bnq4whEW0W
+
+sprite $WheatAltSm [13x12/16z] POl50O100CE2Ezb_MbnE-agDN9E5-1WLwmlxqzZOtFdbPcupdcuw4LqfL5YVqVrMFdV3il0PUNZbCpi
+
+sprite $WheatAltMd [17x16/16z] {
+JOo53GD140FznppzLnjQPNKMZacN7YaubAMADcx0eYxIPJ0wvJ4AGG3VYXdm3E0CelUr0BhSo08W_CWC0JJfmHnG_A0PmHm_84hNPGHOMbHv1TXoGRP_Pod3
+-VCR
+}
+
+sprite $WheatAltLg [22x20/16z] {
+POw54SH030EL79FLVxV_db5uWxT6lDZylZF_HnA9lCb1WcoHl2VJgNyPyB8Za7izTLSk6He9IHBbALMDhkn7poujszGJqkQoUayTXiBgsUWiXBdgjQUodfCC
+qWPHTPYFP6LD5BEEY-VsmcXVxHkijpLwi-AnYny
+}
+
+!procedure WheatAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/WheatAlt', $name, $tech, $desc)
+!endprocedure

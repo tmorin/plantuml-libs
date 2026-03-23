@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/MobilePhone
+
+sprite $MobilePhoneXs [7x10/16z] O-3Y1m8M1dum88dYv0HJN40J
+
+sprite $MobilePhoneSm [9x12/16z] Os3Y1mC61duee2A3cO613qa4
+
+sprite $MobilePhoneMd [12x16/16z] Os3WvOS0JWO6VZZWGMBp3oIRcv6H4SPcOs1WG5F32W
+
+sprite $MobilePhoneLg [15x20/16z] tOc50G0X4CFoYiF-q-8s0pbj2p8C_0KcRDo47NECL4gP9Iy0jrAjjIrNyOOD4W
+
+!procedure MobilePhone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MobilePhone', $name, $tech, $desc)
+!endprocedure

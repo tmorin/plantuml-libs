@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Zulip
+
+sprite $ZulipXs [8x10/16z] Ou01VWY0qrnWYWKinyq4Li702AQGrVEYwUC2
+
+sprite $ZulipSm [10x12/16z] JSZ50S0m0090shYo_xHnkm-2otFwmEsqX8bv5RaUZpWBiP2cwsLvsfU7X0e
+
+sprite $ZulipMd [14x16/16z] NS650SCm00InYvb__sdBZK7YKCQVXw79eaMXQRh0fuyiMMvDXfyCugz3vszq9eb9jmfQUBJ8H4tidW
+
+sprite $ZulipLg [17x20/16z] PS-53S0m34JHNmxV_jjM79_yH04ZPDTs0eSC39cJANFno015mK5G98pTAvJ5DcuGsqp9Bz7oRYZgq6IEl4kL0HHz93y
+
+!procedure Zulip($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Zulip', $name, $tech, $desc)
+!endprocedure

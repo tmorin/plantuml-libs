@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/LaughBeam
+
+sprite $LaughBeamXs [10x10/16z] HSQ50S0m30F1BtD__saJktW6YR0uahmiLxaCAEIwUDWPpzye5qNVjbprUeC9AW
+
+sprite $LaughBeamSm [12x12/16z] LSUrWKC15C0m7-QpzfyszAgeidlPBGrZqYYE3lznHj8LEukRq-B3GeEO_29ck1ME_vEhwWItUW
+
+sprite $LaughBeamMd [16x16/16z] VS_55SG0203H8Mva-gzsXHUk-VWHofoUGKijAqNRtMUx8FMAq2JKG6KAP09rraIHcgRlJiru36heILDHUKnwiwYKGGLItI4kTG6uR0ibrFxc2m
+
+sprite $LaughBeamLg [20x20/16z] {
+ZT23OKH100N0z-sT_gjDpjQiZPnCnThdHkTagtBYnlJSnVpSHNVSQwqoKkhKa42IZ8UymXZC8PKiki24BJIri0MAtwmeqnNqo0q8rlk-BTlTn0brAZUT0vo6
+Z8Ukmcby1WfGtt-fkwr7O3jE-WS
+}
+
+!procedure LaughBeam($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/LaughBeam', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/TintSlash
+
+sprite $TintSlashXs [11x10/16z] LSY55G0X40FHd2jC_zNYklfV7YHnATQ75b2g7vYyPPiQFmHdncVXZSm-LCqVUMP_7W
+
+sprite $TintSlashSm [13x12/16z] LOp50O1G08MmM_QVrlp9xUKYW0SVcp0hIMbIXozpfVWuEL-nViAJ57Mw4qNhftx1Fz1yDkEMLOlh3G
+
+sprite $TintSlashMd [17x16/16z] PSw54S0W5C1Gj0xPVrfShpdz3xqvH0v4wqMN6TlbIw9XRX4EHSuDyTJaJyI8VGj3wcmPCczeOje5GyxvXY-Y2vZsBJdUfOd2RV8ApRlAbq-_4G
+
+sprite $TintSlashLg [22x20/16z] {
+RT054eGm50JHmI7Mzp_jAbCVw_8NpmRw1ulap0bGb45I1sTED8bVwu4B9F3amoQk7hdWXcSEMwLwdqmo7tRUEB8LO9FQNwU3aipfgAnVlgdPEwnuno_BiJTB
+KAoJUVpEJkQPs0IokIlnlx2z0G
+}
+
+!procedure TintSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TintSlash', $name, $tech, $desc)
+!endprocedure

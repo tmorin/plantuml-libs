@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/InfoCircle
+
+sprite $InfoCircleXs [10x10/16z] Om02Jdus1X3W1mDE80CAMC4iCC79ZmmWIjZWiWnWCJ09LWZXia8P
+
+sprite $InfoCircleSm [12x12/16z] NKs50G0X4FgqO_zjbSE-JhWWFfkBaYbBYKRIWn1PCtg4bF9vQTZCI3JMmSSQzSHF8CDCfWK
+
+sprite $InfoCircleMd [16x16/16z] LOy50eGm30Jd12VT_xyMMsfJZISy3A7jGoPa9eigf2nczkmSNoi-zAy6cUZU3TGoGf8jCbd-P3dyEkxB6v0O7ROv48W-B-oz29zccXC
+
+sprite $InfoCircleLg [20x20/16z] {
+RP254SKm34CLvdZ_QJ_gJgNNXimsIDisCo2IaUL0x42JI7I9H5AixZTlCWC2RnL6ijj6cjrH47Ix0CMpQMH8bXzau5ayG9-5zKy5jUJXg1nZA5sxLN2hoqCZ
+bHMf3FetUWC
+}
+
+!procedure InfoCircle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/InfoCircle', $name, $tech, $desc)
+!endprocedure

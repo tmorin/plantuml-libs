@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/DesktopAlt
+
+sprite $DesktopAltXs [10x10/16z] Oq00VWI0YX3DuaFevE3avEFdvEHaPM1WuG8AS34m
+
+sprite $DesktopAltSm [12x12/16z] Oq06_CY0bmS2G6ou2ZBO283CWyhoGjN1HG4
+
+sprite $DesktopAltMd [16x16/16z] hSv50a0H543H-pkn_zNgDdL6lAPto8hWL3svPflxhnHYmd_h_khFf1hG_raiTzZY43mkatmgMS
+
+sprite $DesktopAltLg [20x20/16z] nSgr0OC054NHc-1VzvyMT-WvtHDU5JT_o0UpVCL5-zBzFkqApZHVHJwH3mvjDvd-tQnYCnqQ3gM8vaH4ZizX-Wu
+
+!procedure DesktopAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/DesktopAlt', $name, $tech, $desc)
+!endprocedure

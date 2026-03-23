@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/Cloud
+
+sprite $CloudXs [11x10/16z] Oq01FFpyt10MBm-O1s822GY5O88GbCaFL0XZSpF2c5mW1GZ5KC
+
+sprite $CloudSm [13x12/16z] NSVL0OK008LGNjXwsNzQkyyNy3ReZvqz7xDz6u3cQm78pjUS_RLkUawcu1Ja95eM6mFV8Pil4m
+
+sprite $CloudMd [17x16/16z] ROw50SGm3CI2Zwsr_xODymLbLcTzvJFYXoZVsFCEzn-GRE3AQSP3DlHaTBZqQ73n6WrcvWW-ycWHKRFbOZ6esM1GWkriux12L-HL3m
+
+sprite $CloudLg [22x20/16z] {
+VP250GGX3C2AEzb_sfTp9NZmoX1jzCrL0CfPTaWcGVTftz6eXnsBLFIbbwtEBDfXPSUJfxOWHsZBiMSxdGSdgwUr44zB7I2QUlzIhiWDWBij5DJDPeH-ip05
+uKobJ06Z7u1fT-HCbXU-
+}
+
+!procedure Cloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Cloud', $name, $tech, $desc)
+!endprocedure

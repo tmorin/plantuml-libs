@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/AlarmClock
+
+sprite $AlarmClockXs [10x10/16z] 9OQ50O0m4CI2Ezb_McZlSyhuqf5H2j-M3YS8SrgIO-jTgJxhXVqWD-sZbth-
+
+sprite $AlarmClockSm [12x12/16z] BKg50G0W29lTxlzh3HfM00D-rVLWZOBR8EkZhxO40hynY9SbPEFRDM3yZ-4-33UWB32RiQE5B4SXZkF3mb-EzG8
+
+sprite $AlarmClockMd [16x16/16z] {
+HSc5OHn144JHTyiuF_zepPOQ2ZcR0SUOgGRuAyzWlfuJraRi_Ps9vjdJ3P_HxFhTBhZn1DrOWWPpllmQzxSdtc3gWZW3LnkVVly7h1_kq03GYKyFe61K6vxg
+vEbZz7ikPtu2
+}
+
+sprite $AlarmClockLg [20x20/16z] {
+PP07YeP124FpzQc--zzsKJQq_m6Ma2agdJikcSQGD06KkBbE2-Q5NTAvI7hMGL39VDBWQXB4eUGXdrZb6YdS6U2jIubCW_GUrFqLhQddbGTBrcmvQJ_QnVMl
+zSfHlay53Fjydny31vb6hsYZRPMQZEk0TIYvlHlO07jc7FNwoPJU89b7NVW7
+}
+
+!procedure AlarmClock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/AlarmClock', $name, $tech, $desc)
+!endprocedure

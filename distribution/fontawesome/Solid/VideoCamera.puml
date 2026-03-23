@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/VideoCamera
+
+sprite $VideoCameraXs [11x10/16z] Oy0E-240XSaFP_BZP6AgHG4
+
+sprite $VideoCameraSm [13x12/16z] Oy0DkFaXW0t4uOS181E9mqy6Xm-Pmy3Dm0HZemC
+
+sprite $VideoCameraMd [17x16/16z] jSYr0O100CNGuCxVVrhS6qxJvM5GrH-Ln-igts2yeODCRsZq0SK0tj028haXmQWP
+
+sprite $VideoCameraLg [22x20/16z] pSZ50O1000EmuaxtdnPtvppFG8626z6KFdUc3SzRysB9YwK3Mrqkyij5J62NDIPUMIqA_DS2
+
+!procedure VideoCamera($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/VideoCamera', $name, $tech, $desc)
+!endprocedure

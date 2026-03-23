@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/UnrealEngine
+
+sprite $UnrealEngineXs [10x10/16z] FOg50G0X30F3kvBzfuNw8Mq4miq32etRbaFNNJQmgvPE0wDo-dRKfZsXoRYfcDvZcG
+
+sprite $UnrealEngineSm [12x12/16z] JSd50KC134EnL-Pg_saBdtL9RFVtS6raj7afX3slg8ikUA2J7h3vhyR__YBU_Jq9nte_kPJHEBymj5y
+
+sprite $UnrealEngineMd [16x16/16z] NO-50SLG20F3rnhS_jFMKh-dE6Zbc_IXdSJyBN9GkrXbnM3dTm2vNA55L52DqtmTLJYGX8wml7EL-uSSbhEa_WK866I0qWyhxEdk3twQ6QxYGboccG
+
+sprite $UnrealEngineLg [20x20/16z] {
+PP055e0m3CM2QzVxtvPNVj45_UcSP2c-ZxmOFB66n5yiNoNMHust77AicNB6DjuWXNk9eAHAH6XodXZBcd0DhLm9vzF7YQ_RlNRZnocY2WmjkNF3OYA45jFg
+umrWimO25ZynJmXMVzE-ZrHmCqjOIt
+}
+
+!procedure UnrealEngine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/UnrealEngine', $name, $tech, $desc)
+!endprocedure

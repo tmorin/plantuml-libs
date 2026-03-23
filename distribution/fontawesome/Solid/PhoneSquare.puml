@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/PhoneSquare
+
+sprite $PhoneSquareXs [8x10/16z] Ou01VdG04KBGx30bSDMCI9fWJ
+
+sprite $PhoneSquareSm [10x12/16z] Oq00Vgo07SRWOM24ilWOE62236m8QLQO4Ln8Xl62fFZXohdv880T
+
+sprite $PhoneSquareMd [14x16/16z] VSgr0OHG00MmdE2s_xOqoFTqJyIw_R7fZhQv2mD1-ZA4s-S84AQ9VR7TiGVh7LVY-tfan2bo0W
+
+sprite $PhoneSquareLg [17x20/16z] ZSr50e0m40F0rBtz_skH4wmWSrn98Bax2ongzFLBzejmF0c0uGD71gAy0urEp3afWQPO09bC3cbTAi2ZnrYgn0TWXm7S3W
+
+!procedure PhoneSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PhoneSquare', $name, $tech, $desc)
+!endprocedure

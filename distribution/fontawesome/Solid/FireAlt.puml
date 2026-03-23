@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/FireAlt
+
+sprite $FireAltXs [7x10/16z] BSM70G0n2090_5wIiF-qTWKEm8uyDYn2ffipN6UI3_FGIAmO
+
+sprite $FireAltSm [9x12/16z] LSQ50SG0408mNkgI_QUjwmaaIPeSu-ZEePP3DkatZTyL1QkJBthg3mJUo0Wo0m
+
+sprite $FireAltMd [12x16/16z] HSh50OG034JHhE3o-gyM3_cNqRWOuuL86kLd5KOgUCB79zedy8teOFZopTTo-vKxPZ_038JYVkQtweCfsnq
+
+sprite $FireAltLg [15x20/16z] NSw50SGW04FHNtUo_xGdQ6XQvE6a13ot5jCWhSPJqk1hEv_wPxIzrViDLp8mnlefLYHtv39c4XakOuepv1U4n5rTUF5sdU04Dp5xmW5y0G
+
+!procedure FireAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FireAlt', $name, $tech, $desc)
+!endprocedure

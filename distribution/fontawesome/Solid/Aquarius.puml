@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Aquarius
+
+sprite $AquariusXs [11x10/16z] Oy05-644FnomyO6ut51n1E3cvsHWuEDdOM3cvmShP-97Ki2Cf18
+
+sprite $AquariusSm [13x12/16z] ZOJL0O1G08ImM_QVrlfJNzq1b6xJ3TIPKVjUjLgK0M2i0LO-qwSBiAa-STpieDSQ5edk1
+
+sprite $AquariusMd [17x16/16z] dSq53e1000F15lVz_sjnZG1t6vaqLiLLL9kjLpBcoddE39OMEjOgeEz1SmCqCpc4lNGRwVxIBUhnKkullbvIaFN8-cm2
+
+sprite $AquariusLg [22x20/16z] {
+jSw54SCm44JHjIscxR_Rp45u8FZC8EdZdmQhtv79xof50RP14G5qFWkJP0UsIL61Gww92qQ-geF4smwuROUJ30zU4k2v9ackEYnaWgxj55E3FBZAtRv85BZh
+tH7njHC
+}
+
+!procedure Aquarius($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Aquarius', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/GolfBall
+
+sprite $GolfBallXs [7x10/16z] BSAt0S0m4810lh8LsNzQvGEW5I2x11x5eoidvRmqdd1X-O49
+
+sprite $GolfBallSm [9x12/16z] HSY50S0m30F1BxEq_xGD9sSsCEabSTQcDRbI_iVnnZaRcVp9LPmCJt83n-7xM4Yq0W4
+
+sprite $GolfBallMd [12x16/16z] LSY55SDG3CNGruPH-qyRKl1-i8wp-Otq4OVPHAQ67u-HNSEj2NEWHvaWc7xNbZAPqP2l_w1i6XILH4-l
+
+sprite $GolfBallLg [15x20/16z] TSw50GGX34JHMJVWzr_jAIuFrqHVquCxv2ty6NqTHFuiMvCx9yWzSSpTWWbmV5qwc0KSU6wsWFngMG2iZ0ze0MOVE4jpYTHnFzwgh-ofDs6L6opV
+
+!procedure GolfBall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/GolfBall', $name, $tech, $desc)
+!endprocedure

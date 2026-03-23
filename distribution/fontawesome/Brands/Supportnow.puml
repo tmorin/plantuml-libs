@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Supportnow
+
+sprite $SupportnowXs [12x10/16z] Oy09-840J7A2U7miG3Q82n5c00goWrM129WKcCC64s9X00d0z32XcWu
+
+sprite $SupportnowSm [15x12/16z] XSU53KDH5CDGVtwS_RUjSijyH3P_JEQGAj1x7_9j367QOPCZk88mjVlA9cmCmgm3aB1rNNUfgn1wABmx0G
+
+sprite $SupportnowMd [20x16/16z] fSl55OLG5CNGu4xwhnO_Y-cN_VGQVrczZ1poMKxQNgc2mOcRCr39ONIvoQ6Jay7BTpP6ZpCTjE1ME6KyoK8XLaTWCAdwf4uwyZ1clh43
+
+sprite $SupportnowLg [25x20/16z] {
+jS-5aGKX44NHXupBpJ_RNRnhIhyTt6dzqd9UcrD2OqPBwbuPd6L-TveXglBSfd7WgXElVpD12OQIk7ab1qS5JWQeYfnwBlWaW5TtiZxYA8xINuiTGjkFh8KS
+HBHdOxO35x2hmxXb-45l-mC
+}
+
+!procedure Supportnow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Supportnow', $name, $tech, $desc)
+!endprocedure

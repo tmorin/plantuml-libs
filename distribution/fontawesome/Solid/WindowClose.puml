@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/WindowClose
+
+sprite $WindowCloseXs [10x10/16z] Oy02kFYn0mOWX35HnH206Q4Q3W
+
+sprite $WindowCloseSm [12x12/16z] Oy05-7431Zv-LcOecu-15Q4KXGbI1W5CG6LSw6OWiv4
+
+sprite $WindowCloseMd [16x16/16z] ZSZ50O1G081Gx9Rzj_Lc_Nmte6JOtnYji8rgy_J88FWOWDCN67xv7Wsd0uSVhtpXtmKN
+
+sprite $WindowCloseLg [20x20/16z] fSp50OKm403H-Oep_LUBx2cuFOYjyKJZtA_qaYhsPXBYfJMOUe5GE0_EGygiCsQzPi6OzU9beebPBxpaunBVPgRYh1u
+
+!procedure WindowClose($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/WindowClose', $name, $tech, $desc)
+!endprocedure

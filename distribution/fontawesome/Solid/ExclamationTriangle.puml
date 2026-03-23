@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ExclamationTriangle
+
+sprite $ExclamationTriangleXs [10x10/16z] Om01FWOeuETdWRFuOGnkVcue2uYWSY2CpEA7ilYPGGGxY63aXm4
+
+sprite $ExclamationTriangleSm [12x12/16z] FSY53S104CJ03NFSVxLF1nQDhD6l3AxW18G1NkCAWjZTV-TknhOPwGRupDYF4-dFlWe
+
+sprite $ExclamationTriangleMd [16x16/16z] NSs50SH0449HufxNVxMdyR--Cq3-56jkSFiOKTpAjuOPb5TrWMmi96YsBDI1hHlTjczbOy1MnWg6f0PB1MnbHO2v1yo0oPqyU0C
+
+sprite $ExclamationTriangleLg [20x20/16z] {
+VOi50eH03CG6T_B_rvx0kcMrqrIM-LO6t7a4OnmD_CarMCDeuYNLZl_nqVeeMoI-Osie7ZYFKADxMmGQlSwtvpLsyzx_w2Pca7fUHZCBNfDcNgO1mxtGeYD7
+1Ru
+}
+
+!procedure ExclamationTriangle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ExclamationTriangle', $name, $tech, $desc)
+!endprocedure

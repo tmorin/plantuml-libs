@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/VolumeUp
+
+sprite $VolumeUpXs [12x10/16z] NKo50G112BgsTVzfl_Fi0D9iaVToZb6sEdpBEEROVRSYLa6lUJlgk6PjK6odtlXNns2Vpukd5G
+
+sprite $VolumeUpSm [15x12/16z] NSp50SGm00F12PDjzL_jCMP_Gd2cDaW7984-RvM7s6BF0wEzYRnaZVn8_pBb8RlI7f8S0kNzN0jO4jW266O8Lm
+
+sprite $VolumeUpMd [20x16/16z] {
+VS-53GDH081GpkKB-s_RzDo9loXyL0Ruvqwj5hDjEAWbqEmONUmFjX1YTZKC90d--nic1gaaxLOB5foCkv6ScMwtN96b5Ohopt-3rWRbNxsQWTg2kSMWCB9s
+_zrhW1y
+}
+
+sprite $VolumeUpLg [25x20/16z] {
+ZSfLWiKW5C3G8AyEsVzgnsxzQzAY1_vHWMZXaRROPEKggvrekidW0RN1Udzpm6O3JS0mR5v0ToAxa8m2jW4KbF80pJGJRo3Rg8viRq39Jgnlc9mP_D3VeD2D
+jTqXGx637O1qGEmJioFH1Sq1bAC08grmr2xehjpQd6AJxKJl4i0t
+}
+
+!procedure VolumeUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/VolumeUp', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Biking
+
+sprite $BikingXs [11x10/16z] HSQ30S0000F1rExjFssDy7DBNbK_pYyCQ6yar2zUGlHXRZ3fORbwOP2anWu
+
+sprite $BikingSm [13x12/16z] JKo50S0m3AhD1_n_RTtY0fXkD9j9s_BlzsUCLjN6dSOIRN6JxSiac51wHGkLnrASWDAl-k7rr3v4Iqy
+
+sprite $BikingMd [17x16/16z] NSt50O1G3C3Gu4xsdnRdsplLIp3iv7Gk2psfdef4fvAOlArh65UxnNXbregCseIatKPO5LZM2dPLK5hLllQse_ZOVSJ2MXRmDW9_eLVty5nE
+
+sprite $BikingLg [22x20/16z] {
+PSy54eKm303H07NR-v_sImNB8fbvQEMUPnVL3cWzkgeQIHb5L0PWasUHddVsXWKW0n0l1N1Zc8ScKGM0Xsp7_Ziry7qfHqVcBq6Olr8cmb17BzgfkIkpjkP3
+wveFFURqOggSActEdbctI06QpDp0Bm
+}
+
+!procedure Biking($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Biking', $name, $tech, $desc)
+!endprocedure

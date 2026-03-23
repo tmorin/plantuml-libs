@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Notion
+
+sprite $NotionXs [10x10/16z] HSR50O0000GWxFRsdzOENlXbRj4Lf6kdd6JXTAx89Cv9lWrvvrdHGiXjtW4
+
+sprite $NotionSm [12x12/16z] JSY54G0m20D0g7lsdxPkw5_eBw2KQAL9ms9bZ94ZHo-5ODyzOwbeUcoaxG1-BdYUTpaHJnDerR33h1Af0G
+
+sprite $NotionMd [16x16/16z] {
+NSo50KCn24LHY2jl_ssBrE_N4wF_whgmHC1cVqTdcL68cLEV-m9gJSwUFQV4Rg5t4cvsraGA-mlweeytxe_rmp_Mxw_FZxC-OL8panKku5HgF-UAWBG9uExH
+ik41
+}
+
+sprite $NotionLg [20x20/16z] {
+RT3L0SGW403HbJYmqt-rPzZP_EK5bx-P-N6c702v4aG-DwyVErfDPQPSBsFtxKY5tiiWIhxEmzrCrshbOyjXPYuYAQTfMY3LCNES0_fZ1NvCuVmsEM7xDWdu
+CHsMNxPY8gcRF4sFxM7YqapdtLJD4lNHHlDTZtJLDv7Q7G
+}
+
+!procedure Notion($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Notion', $name, $tech, $desc)
+!endprocedure

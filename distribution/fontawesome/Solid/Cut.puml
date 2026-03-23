@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Cut
+
+sprite $CutXs [10x10/16z] BSd50SG008H0pYKo_LSRvxD2wGBl2dehXhmvIY_ivU0gxCKk8pJffn2gM04
+
+sprite $CutSm [12x12/16z] DOk54S0m3CHK9iVQVzgIBt_q98YWIxMC8NZ-Ddz__RO-beNpqj-MEZxMAJvlfaaef62hs_xvZGfsi1qF
+
+sprite $CutMd [16x16/16z] JOv50aKX4CFwN93S_xHVYdP5Kc16MdFKb0nmo7dOLjWkw5Lcan8D5Rd-fugB12d3tL07JaFdjfg7JhZ5rwYZLqPFqd-VqotynTZdiXZxMDnr7pMXVHwzwWi
+
+sprite $CutLg [20x20/16z] {
+NP050iKm24EPr2NtF-sNK7_Jm6DI4V78ilFWJ-pnCey852l4ueS7RZPcAMYoF6ifIMRIiw4b7BEPThD-H2ZLTeiJ7LgJYcvDp65TpsqE2uHMnbgYbO7Q7cJP
+w6rz8PSBma2pC0MUk_a0yNfrffiyiwICjt4D9ry
+}
+
+!procedure Cut($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Cut', $name, $tech, $desc)
+!endprocedure

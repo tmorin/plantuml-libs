@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/AirFreshener
+
+sprite $AirFreshenerXs [11x10/16z] LOc50O1030DnXzj_sZR1lnAjDAn6mmpLkbT8JiSXRDmCmo3SzNX6iMKjVKatXb8oyaekcG
+
+sprite $AirFreshenerSm [13x12/16z] VSc54SC030GmbRc__xHX9hFEyCsJEoT8uftBBpguSpR4xzuz4dHtfwyQ9j0DnwXZZH8
+
+sprite $AirFreshenerMd [17x16/16z] ROw50KCX50FpSMV_RHjU3Jii78g1wzroUF2b4o0re9L9F95xzIGkb0eX5P8OjFiTc0_bhnXxMcLZLfeTCzmZ0aI4qDwfJg9DNbBdGJKVOQvz5X_g_WylqnS
+
+sprite $AirFreshenerLg [22x20/16z] {
+dOu50iGW40DJroN_VssnTCzryC62IY2tFCwvsoHd9jBOi0DQDjKkiXiDCEwt5bQUEry82SrRFD9QE7KpPeOotyrZ5HHE0OpEL0HB9pm7JNPlEhT-TgpFouwo
+mCta3pjhlB4vwS87ApxRG6ULYW
+}
+
+!procedure AirFreshener($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/AirFreshener', $name, $tech, $desc)
+!endprocedure

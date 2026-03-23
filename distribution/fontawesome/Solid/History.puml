@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/History
+
+sprite $HistoryXs [11x10/16z] HOo54S0m482eUzb_srpqULSo_qj6B01QMffjuvx06RMabsIk3nRfBpv12cQJy9aV4W
+
+sprite $HistorySm [13x12/16z] HOw54S0m30E_pDR-s_QaGZvW1inO5s5YKh2XLMUaEd-xmrRyT523BRYgXjSu22KRHOYYZPSJ4lNtoIuJfkPxDxW1
+
+sprite $HistoryMd [17x16/16z] {
+JS-50SKW00FHkc2t_xHV4kpghmQBUqgvbX4k-o9kmBtj4H0Kk1UL9VZwMN-xmYb8F-7rnmGmWMlmiZRmlSim9BACoDOVTziel_sXlSAV0CiESSmjPtJjRfIU
+_m8
+}
+
+sprite $HistoryLg [22x20/16z] {
+LT07ZeKm301Hazxd_hTTUR-jmAZoI1Ul7LQMJn5h6Kn4DhSY6eG39D6wiqtqWCTqwdUOniUqwEQ3HpL1KDMwgy8MEMZfQWVnhgQFThRVI5wT7nVJothkRNhv
+TzHkB_7P5B_anGpJD-Knx7T81NPydg26U06y8w_gGLj1_li3
+}
+
+!procedure History($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/History', $name, $tech, $desc)
+!endprocedure

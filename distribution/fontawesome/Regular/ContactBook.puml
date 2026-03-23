@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/ContactBook
+
+sprite $ContactBookXs [10x10/16z] Os3W1mDc88C13FXHM21v10jT5gmPmKAJvG83VWO
+
+sprite $ContactBookSm [12x12/16z] NOg50G0n30BXNSl-qzRzAWa2A0E_FcVaaT-H4UDEjZsLqUsS-_BapXts9_kBP-hxMu43
+
+sprite $ContactBookMd [16x16/16z] RO_50S1G5C9IzxB_j9NlbjjJ06O502OfQzmY8EQYlbtTTrbzIeEfiRMatTIhhISfluVy_hwtUD_94FGFMtTXlpUq_i5LrEJvNW
+
+sprite $ContactBookLg [20x20/16z] {
+ZT350S0W0CNGZzQR_QUjkvBZmv5KSyXfZ7D-84UkGpIJkPErujEikHaG5ukB1Q1TJ8jPeBwkBMbJphNEERjOc8svunbXiUQmjcBfOB9pvlNSUBDcVa6vrr1f
+-Vf3W_G
+}
+
+!procedure ContactBook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/ContactBook', $name, $tech, $desc)
+!endprocedure

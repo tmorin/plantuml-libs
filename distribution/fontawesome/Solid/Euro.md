@@ -1,0 +1,74 @@
+# Euro
+
+
+```text
+fontawesome/Solid/Euro
+```
+
+```text
+include('fontawesome/Solid/Euro')
+```
+
+
+
+| Illustration | Euro |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Solid/Euro.png) | ![illustration for Euro](../../fontawesome/Solid/Euro.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$EuroXs>`
+- `<$EuroSm>`
+- `<$EuroMd>`
+- `<$EuroLg>`
+
+
+
+
+
+## Euro
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Euro
+include('fontawesome/Solid/Euro')
+
+' renders the element
+Euro('Euro', 'Euro', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Euro
+include('fontawesome/Solid/Euro')
+
+' renders the element
+Euro('Euro', 'Euro', 'an optional tech label', 'an optional description')
+@enduml
+```
+

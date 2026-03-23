@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/MinusSquare
+
+sprite $MinusSquareXs [8x10/16z] Ou01VYY0y9WmQJwG91CkUPX-
+
+sprite $MinusSquareSm [10x12/16z] Oq00VZXWXukmG5bys5aGFGWnx2mUNbO8u6VWveC0TW
+
+sprite $MinusSquareMd [14x16/16z] Oq05h7nmmCl0oeyAaDIHo6Dc0G4O3seSgaeAU0mOhaG
+
+sprite $MinusSquareLg [17x20/16z] hSt50S1024JHYNj-_zN6PHUkl1iwygfKAP5RPhegiG9ATN6DyTQ_ZOB7sr1nYukrZGxM16WXqyZQ0G
+
+!procedure MinusSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/MinusSquare', $name, $tech, $desc)
+!endprocedure

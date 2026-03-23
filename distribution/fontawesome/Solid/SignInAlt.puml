@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/SignInAlt
+
+sprite $SignInAltXs [10x10/16z] Oq07_FpyG9A51ym6OZP-7X2BaHy4U80iA02o86n6c3f6g0u6HY2FZHzk7Zi
+
+sprite $SignInAltSm [12x12/16z] ROg53G0X54DFSUZ-qs8l4EDhxJgKf7TyspSb2GqBpBEYaAWqCi2oya0m48odZLE9LmC
+
+sprite $SignInAltMd [16x16/16z] TOw50SGm30E3ZvMr_xI5C5xGBBL71BOn_xn1-7xbkOsnPB0FYWeWsvHi7m38v031Z0IxGJ_skvYVrCyOWs1s_ODPxRTgRUFlIny7o46_KmCN
+
+sprite $SignInAltLg [20x20/16z] {
+XSw55O0m54FHVDop_xHOtHz-3nMqahxlkyZu1vtyz-ktKz700xh5_3YHcpRnZ8TdyZRpRJCcr9a_VJ1_naPbkq-TCfoE9DgB_YioGM8T8eF-QvecQZFnRqrj
+Hgu7
+}
+
+!procedure SignInAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SignInAlt', $name, $tech, $desc)
+!endprocedure

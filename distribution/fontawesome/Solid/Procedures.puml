@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Procedures
+
+sprite $ProceduresXs [12x10/16z] PSR10K0000IWm0VS_jC20Bro6aAWIvKn-qc3I7GTsL_tMGcSt_tFhdXSPW
+
+sprite $ProceduresSm [15x12/16z] RSo50S0W4C30rBtPVzgw0eVpmeU0BJl5Hd7aa2kmF_C1UYp9ZgVE-u5UpmaFq_xSUPZnaNnE-UDi-N2coNWqh
+
+sprite $ProceduresMd [20x16/16z] {
+XSs50SKm24NHLpVWxZ_jbxhdL8FgoEdrOvha4Pa8mkNaKwm633bCiHbq-fbYGojfK8rKpZ70D5182coD8OEX362A1LGo9dFixnYB2VlOB1chyZsVT-mP_oVJ
+te3kV04
+}
+
+sprite $ProceduresLg [25x20/16z] {
+fSq5iWCn3C1G9LuctV-q7rtcLel9yqouJFtxrW9PZIWqwXn1fEUi_Drw0ZL6LrU8g0aN1v3GpGtGznGNwFUmgXFazAmag6v_dmAzkfx3leHMhLn2TW6HjUUm
+xtEevmq9dDVTXUB6HShDlW4
+}
+
+!procedure Procedures($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Procedures', $name, $tech, $desc)
+!endprocedure

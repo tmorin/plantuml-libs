@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Digging
+
+sprite $DiggingXs [11x10/16z] NSZ50O100CJ0u4xwhnRdR3uh09Ny5cjAQcpkl9fmTosjA_iAQaMlWimxg2uoxTIg9m
+
+sprite $DiggingSm [13x12/16z] JSUt0S103810P3NEx3-juwUhWDSkdUvqlNMbM5IZZ1-gSUBT1853lpqzm5KdI1M4TtoTuzm
+
+sprite $DiggingMd [17x16/16z] LOw50SGm30DL3j_-qpxKmGkQ9GCkpTo05i1fPTFWMVFt7MRFXd5C_LxItA_MJ9pLaMl9BbqG5IbL99iDVsDmr8BQYdfgx_F4LmT6GQlZ2m
+
+sprite $DiggingLg [22x20/16z] {
+ZSy54iGW40NH7y6bxt_QjO5rwxAfbs0QBO1Uge1xqGAiUgbJzKS9O7c7S4yB3IlTCxEk-zQEfSSsqrtllDjeuYu_xK2zUmpGfsS_Rhu0O_ItosJOhflQtPq4
+HSf3iQJBucJQiN81JLrXCkLoJdtG8m
+}
+
+!procedure Digging($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Digging', $name, $tech, $desc)
+!endprocedure

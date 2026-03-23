@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/HomeAlt
+
+sprite $HomeAltXs [10x10/16z] Om01FWOeuEVdXp6WJ7u8039WW1dEWeknGZLYiBYuk81S
+
+sprite $HomeAltSm [12x12/16z] VSUd0S10581GKcNOVzhqNzIX7hmTP6enPjAOsOZ5gfkz-1eO6YCk
+
+sprite $HomeAltMd [16x16/16z] ZSX50eLG08LGVjgo_zNQST_CCmCE8-cjHduqnrTpr9vU0AstD_IcJsVfOmdAFFhphhBVm1WDC3pjy6C6
+
+sprite $HomeAltLg [20x20/16z] hSwr0O100CNGZplPVreSpg_YbQcYLxtArm5U6i2F8xV2f8bN_QO5extJYgqx4vxU96DS2LM493oDSgrurqrRTVglCPuuwOHZadO
+
+!procedure HomeAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HomeAlt', $name, $tech, $desc)
+!endprocedure

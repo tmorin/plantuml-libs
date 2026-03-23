@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Regular/ChessPawn
 
-sprite $ChessPawnXs [6x10/16z] BS550S004C2mVaP7zQzsdF1JGOWL0Sb2K4revESh8y8B
+sprite $ChessPawnXs [7x10/16z] JKc30S1044lxPlQVzgr326HI0-2uGv63b0upp4z7BgKJic_32W
 
-sprite $ChessPawnSm [7x12/16z] DSA54O0m00ImuCxlFotQvgBg4ZJHXZGSlRFbx4Y_X2EFbdpjttLxz38zKjm
+sprite $ChessPawnSm [9x12/16z] BSor0S0m0CJ02tD-_sa3jgzI9UG3cScAeBznxsJ2dSy88T2ri9ujhhNhqYD5UxblQLu
 
-sprite $ChessPawnMd [9x16/16z] HSE5ZGG1000XRjsd_shVXGJykmvmLBtGp1rJ46iGUh67UYg6lk28uBbenF3oTJg_K5-UBQ2p7-y
+sprite $ChessPawnMd [12x16/16z] JOu55W0X20N_Tg5p_zlk0tCCEYIjE0h8_YLNbt1T3FsWvBmbqSbWS1L_OEfbAFX2NwR-Uz4V_xwY9pChInY5pRkKp4Ga5a1qyWy
 
-sprite $ChessPawnLg [12x20/16z] NSp50S0m243HM3Nozvys1jLtmJ5_pblD0eCquV29Cd9fdQmZpsQO0wBat3jkjYBfxg3YBvVnVAbFIP8dQVn4THYJGVbxqL8WdW9M7Wq
+sprite $ChessPawnLg [15x20/16z] {
+LOs50SCm40CLCz_-qvQ-3fpnITA7oWyP3WufxtXmsED-uRAq9zp3Z8MPzdr01f0RT8igF9mcASQ5jyYcyZFqb7iefaK7_MxaoVVmQNJio8RP3eiXJQh-G12q
+JQThSCE_0G
+}
 
 !procedure ChessPawn($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Regular/ChessPawn', $name, $tech, $desc)

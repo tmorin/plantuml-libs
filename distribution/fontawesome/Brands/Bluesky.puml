@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Bluesky
+
+sprite $BlueskyXs [11x10/16z] JOc30S105CLIkzb_skByySX56jKWLjsZNjGnvW5DqyeTxgX6g3tTtqN9hVGwy08
+
+sprite $BlueskySm [13x12/16z] JSU50G8140InmPtqNotodjDDY_URs_ZYYSVqky2nNh03xK4sUbWSQexdQczHXsq8Uk7LcARr1G
+
+sprite $BlueskyMd [17x16/16z] NO_50SKm5CFAuMZ_QJ_KOLqUWxVyR0F1Hw255v01TiKM843jUG0mj8oyKoRLc6hti2GgUJkej6LtGkHm_6EpDZ0IMoAqyrjKhp97cv694gLb6UpFV04
+
+sprite $BlueskyLg [22x20/16z] {
+PT074eKm24NHPzSKxlvN-oja63tMT42jwsPZlu2cP6RGSFBLepjtKiZT1t_nDNrCk1LN9154MDHoRvW8NPsdHUAX_39inc1M9lqOsUh5kAdAGHekhsV1vJIB
+Sl8gdaJabcEmAFWYLtpP1LrVRm
+}
+
+!procedure Bluesky($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Bluesky', $name, $tech, $desc)
+!endprocedure

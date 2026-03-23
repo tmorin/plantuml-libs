@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/SearchDollar
+
+sprite $SearchDollarXs [10x10/16z] JOg54O104CI2mzZstosJzxpShG1tBf18Mtn6yGNboPbyN6uaQyzLDkI3pLLSVm
+
+sprite $SearchDollarSm [12x12/16z] FOs50G0X200_xDn_MXfEwNg8UVEZNE5pTvEmBsQ9dfHzfKjRVgjcRGrzMGtolwlqE32w14QNBcDS1
+
+sprite $SearchDollarMd [16x16/16z] TOw30KKn34NlSvtzfos3prF4mC1HkQ0KcZWsIKWM3N7yXuHt80qvMn4Lf4HilybDciSTR5yifmsM9xOXojfDmIH-EWvQoUe0jerRGVdZQ
+
+sprite $SearchDollarLg [20x20/16z] {
+ROu54iCm30JFpDR_NrkwZkGssP1WBsDyo4jcmiaGqg28eQEJdo3cvrDDAm2cYfcLpzd2IrviXBv54wmYWAZdcK9Mu3e3IEfn1gqSu9RDch3U6gLe1DmC7KWL
+aWFDBwLz_kJCDDGqQEB6V08
+}
+
+!procedure SearchDollar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SearchDollar', $name, $tech, $desc)
+!endprocedure

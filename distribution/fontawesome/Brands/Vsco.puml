@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Vsco
+
+sprite $VscoXs [10x10/16z] 5SN50SH050KWulbZh_zgLxW0bHk4IP5Cmr6NRILxcgS8wf4nTlxT1Dl0KM-ss5JJnX9SJ1jV
+
+sprite $VscoSm [12x12/16z] 5Sh5WG0X50MmZ2F_GV_LhkGSC7S3Z8Ys8EvQ8GoRKA9zDeP-JXESklr_eNOr0SrBCKujfrYASfMFkBxziA26oCSl
+
+sprite $VscoMd [16x16/16z] {
+7SV7OHWn40J1WZc_0-GVhKJoqmOuihy6825y5_3HH15uutvRzUhjAS96c4MJyKYQ_Zt3lIUdWDio0WsyNdQb0borgZwQ3ihVd7-cTQjTbZ6VwxtIyxASMWsA
+jnp8m_fMXPnGEd4x_fQsfxW3_m4
+}
+
+sprite $VscoLg [20x20/16z] {
+FT29OQqm300m9RoG0nllF-q_sse40UotuiQFaOFKCXj0SKWUQmE5PprrLcCTA2KtmNjzzXYCHZLQuWcIQjvMLus-Qvp5N7hFwRf1KgV5PbE0RR9UGXk0ekiL
+KP4TK15lP11iG6dTTJSN1TnDSAmShq_2NSGv8RcURLLLKo-jQzid5W9lKDZxKAV7vptK0yvNNZDuEZ3I9CbMVgnSLrudElWD
+}
+
+!procedure Vsco($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Vsco', $name, $tech, $desc)
+!endprocedure

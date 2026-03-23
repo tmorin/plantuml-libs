@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Aries
+include('fontawesome/Solid/Aries')
+
+' renders the element
+Aries('Aries', 'Aries', 'an optional tech label', 'an optional description')
+@enduml

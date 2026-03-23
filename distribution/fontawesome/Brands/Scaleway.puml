@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Scaleway
+
+sprite $ScalewayXs [8x10/16z] BSQ50S0m4CD0bRdQVzhGey-WlZIUvz5fxHriQigUEYGQis4VcHnJ0G
+
+sprite $ScalewaySm [10x12/16z] DSQr0S104C0mXpdUVzhdKoNurP_2WKKQtrLUdPaiqmEeApcMc6_RJDii7DOXhEzBdJI2GmO
+
+sprite $ScalewayMd [14x16/16z] JSv50WGX34JHQXSWTV_RJdIQltjeW9tU2ul_n2JmLY7rt8wiypGTTOoceMegIS4RdxXEMhcbRfbbNIxmYe5ILBNU6qoT7PdGJpsdzSOnLlW1
+
+sprite $ScalewayLg [17x20/16z] {
+NS-55SD030JHZVbm-kysUZePVs8Q6ILLXYItS6ioG74D8_r0fmcw5bk2JsSF6RDRALGFzqCWmY5t1vdq2PNq3fryXVuDBi8ymfGI8yGJm1mHLWj7hRN8GmRT
+GFBF2Ccdt6AMk2Jz0G
+}
+
+!procedure Scaleway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Scaleway', $name, $tech, $desc)
+!endprocedure

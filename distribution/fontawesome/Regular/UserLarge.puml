@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/UserLarge
+
+sprite $UserLargeXs [8x10/16z] Om02VWOGOEE7CFXHC8ZW1b88mChF3vRYXH0yO45-FeWaCm
+
+sprite $UserLargeSm [10x12/16z] NOp70S0m4C98xz7-qoQsuMLTGIzKM921dSkMq_BO_6CtCAbZszQKtFSDHGPL3ag7WJds_W
+
+sprite $UserLargeMd [14x16/16z] XOl50S0m3CHS3cl_QSFqgu8-a8hbbS57OKouSlLHjxTFjaz7VMxMNIk7FBNSH_3oZwNnjfAvplEyVAc2T6wqS6mLXoo0VKe
+
+sprite $UserLargeLg [17x20/16z] ZSW53WGn3C10BqFR-F-lFOgq9BefngGbMW-7qQ_6GHS8XLGTykb8obVdTW-utqFlGbejHqzg3Lqv5DM9__NXpqPg7XO0bJHfWUh6GGSCBepLaOimv6fxXjat
+
+!procedure UserLarge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/UserLarge', $name, $tech, $desc)
+!endprocedure

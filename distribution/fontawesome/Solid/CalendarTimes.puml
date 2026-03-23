@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/CalendarTimes
+
+sprite $CalendarTimesXs [8x10/16z] Os3WOM1WO0PYVWO69du6BduCm0UXWF8SO9eHgeYBdnUXY05A0m
+
+sprite $CalendarTimesSm [10x12/16z] Os1Wu0PYFWOWOEK74c1C233pGzK0LIDOR30M42837ZYBWPiF0jW1
+
+sprite $CalendarTimesMd [14x16/16z] fOt50S0W5CLIzxxzfwqBND30T-DWuTVCkdK1DBEqpFEbQPG1ZIY-g0LMeqXj1erngbpLZlA07Ldi
+
+sprite $CalendarTimesLg [17x20/16z] hSw30S1G34NHLpEz-qzRsphVJ5GBJGq7zS1j1YDTRsJDKB0GflnfyNiTB9BB9Duau3PvJRgSbtzOiFZ3W8oR8bPaB0HQgm
+
+!procedure CalendarTimes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CalendarTimes', $name, $tech, $desc)
+!endprocedure

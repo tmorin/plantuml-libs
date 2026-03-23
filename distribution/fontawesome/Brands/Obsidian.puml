@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Obsidian
+
+sprite $ObsidianXs [7x10/16z] FSM50O100CF0uixjFotELvAKc1_g91LKh-fe83IrFx6XIdha1
+
+sprite $ObsidianSm [9x12/16z] BOk50G0X30FpBiZjFosM8crKynpoWNsk3MxCAM300ZK01abmdBl91ZnCXOaaKhHaq04
+
+sprite $ObsidianMd [12x16/16z] FSp50OKm50J0nPtflzela6HEJpUFCSrbhkNDw2rXSVpB6Gk6NtqWsDe9vwzURWP8LWjvQuptUSE83iCDRsqb6F3ciu0zFplGvRKW-G8
+
+sprite $ObsidianLg [15x20/16z] {
+TSV5WGG140IW6lSc_sXFrfKVkHZoeE5XBPhrkX56xNaB33WNTAXRju9R1r-gBsOm9mqDjO9afoPQi0IIOSWCEpHGBTnAOqgX0xOz2Nf0_jLwkFKVOCjDjz4c
+lm
+}
+
+!procedure Obsidian($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Obsidian', $name, $tech, $desc)
+!endprocedure

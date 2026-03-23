@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/RedoAlt
+
+sprite $RedoAltXs [10x10/16z] FOgr0G0n30FrcAJI_jEQxMk4C0v_E0mEpLH6cMWBZll6eTp_8e-RiJk00W
+
+sprite $RedoAltSm [12x12/16z] PKg50O104C9ksNzRBx3-BobuRPpj-Z9heKEtEcE2M1mxL70BBFx1ymU3NHtgs3XP3Huy4Szh0Yu
+
+sprite $RedoAltMd [16x16/16z] LSU55GH120HHM9U1oZ_RUztdDG8_t5hSgGLz1MuFP60iyzOeiSAbNMz6s_3YZLeOrhjY-JDCVxvP_vnq_0KPxvOZOeCtPwy5itd1fZc0gaPqYMlj3m
+
+sprite $RedoAltLg [20x20/16z] {
+RT25WSCm40314xEs_sh_avnbNlEO9LjbqgFkpjywi3MCMFWIfmgWDAryo-e_oh9I2r2MMDHWNgvISxBgurS1kJTVZ1VhBnPUJ20_R5mlZ7WHmncT_a8vOLxx
+5HZE6FiLx7htaSffu8PUz0y
+}
+
+!procedure RedoAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/RedoAlt', $name, $tech, $desc)
+!endprocedure

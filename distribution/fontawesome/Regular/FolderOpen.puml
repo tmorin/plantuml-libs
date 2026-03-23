@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Regular/FolderOpen
 
-sprite $FolderOpenXs [11x10/16z] Oq02_400PG4n6uJB3vFbHZ11edpyCC30Zm2OOa1D21O
+sprite $FolderOpenXs [11x10/16z] Oq02_200PSBuK2PKb8qV2e1oK35K9Xk22LUA1
 
-sprite $FolderOpenSm [13x12/16z] LSY50S0m3CH0bRc__xHXyWLb30LR_P_fcgO9oDDFGOsen5I5KBTfyFGlwdxU7i3p5mTu
+sprite $FolderOpenSm [13x12/16z] RSZ50S0m0810wbxsdxQkIUu7_1IgunK2kCkk8Clpt3CUuWE7uVj9HJtZn4N8VV2p0W
 
-sprite $FolderOpenMd [17x16/16z] RShL0K0X34FHF5UQ_QV57SvVRuF1ATPHtVJU72YmBlAtZXom2ft5Xu9t3eKBKb4s_6m8s8LsCBpxW2ueT0KJ1W
+sprite $FolderOpenMd [17x16/16z] XSZ50S0m0CD0bpdUVzk66UudeNG8wOkQnWnB22YlsNv8iyJ5Zq2EzmiEEGHZSl20DyaXPt3dWxSSRpo0ZmXs0XDZByP-
 
-sprite $FolderOpenLg [22x20/16z] TSg53KGn0CFGbBdPVzg3ZqMBdunDwcX0Ng4jq_rNHxRxFLbUXLOXyiNwrZQcbPROQDkb7Af_hPo3dAYGYrMGPi8CBi9AtL81k0ab09G12xPz0G
+sprite $FolderOpenLg [22x20/16z] {
+bSk54SKm40DH-ovCst-rOP8_PeUVHk5JvckA7DtTQNsfXBPUiaKpOdBAH4EqEQS_L3iqIfiM90sBGYl1h0LTa5OTi4JxMK4nfrfqKEq9YnQgpEgWw3Jhb1Rc
+OjThHNZK1
+}
 
 !procedure FolderOpen($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Regular/FolderOpen', $name, $tech, $desc)

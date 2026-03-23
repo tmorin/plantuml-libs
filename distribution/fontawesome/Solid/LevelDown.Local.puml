@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element LevelDown
+include('fontawesome/Solid/LevelDown')
+
+' renders the element
+LevelDown('LevelDown', 'Level Down', 'an optional tech label', 'an optional description')
+@enduml

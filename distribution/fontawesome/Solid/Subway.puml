@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Subway
+
+sprite $SubwayXs [7x10/16z] LOM50O1008ImM_QVrloy07fLMaEOGRTALSu3HVo2GESD
+
+sprite $SubwaySm [9x12/16z] RSV50S0m4CH0XJdglrhppvx31REltHhUrByA_mh3fyUd2ww-9hzS5ZFU97uH
+
+sprite $SubwayMd [12x16/16z] VOU50KGn5C9IzxB_jEVoFKy8KFJ6WNwCeYNJsYHhtTCjU07zmjt7XywPxlyTu_MxlDGblJulUn500Z2QRtsNVWS
+
+sprite $SubwayLg [15x20/16z] fSV50G9100J1FhUTxVoZnVq5NFqAsdYp0filkjOtyHE00URtigETFuEgEj9fLOXgHwEzrdXHLEAB0LRDMTK6q8QBeg0zDt4x0W
+
+!procedure Subway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Subway', $name, $tech, $desc)
+!endprocedure

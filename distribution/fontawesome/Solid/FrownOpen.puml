@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FrownOpen
+
+sprite $FrownOpenXs [10x10/16z] JSQ53O000C2muSx-_vOiIcC5E5o9vYYQ1PD3kMJmPrLl6lemq0urm6BW0m
+
+sprite $FrownOpenSm [12x12/16z] LSd50KDH4090ui-d_shZzkUo2-IXAta1_BtylMPGKD4HUcmLM0K4noGJmSJYaW2il6UFzWO
+
+sprite $FrownOpenMd [16x16/16z] RS_55S0W44NH5tT-_ztcu7eNE2CuswTd8lha7JXAJDn6RtmSJQYssG7YeCyEx7RODF2eDhbn1LvPsE5CTHbsEoeEr0Nj06-zXQdevWS
+
+sprite $FrownOpenLg [20x20/16z] {
+TT255OGm00JHmI6s_NTxRtEu_BWBgwKeZPmCMkM6bKuMAbs4PvSqh7jTW1vcP6tZV6coR951h7aZAxAvTvxQeYz9JwF-4dHQeQh3aYoJ_mKqWAoz79zbmA8h
+BEYilNwfiPjLvHRx0G
+}
+
+!procedure FrownOpen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FrownOpen', $name, $tech, $desc)
+!endprocedure

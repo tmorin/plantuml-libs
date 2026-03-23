@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Hexagon
+
+sprite $HexagonXs [11x10/16z] Oq01_620OF5p8fZyG1OSO6Lo8Qjbu8Emc93D1G
+
+sprite $HexagonSm [13x12/16z] Oq03lFnWm0Jcy4C1YCq7ux219H1I_0Z0ZSpXH-QmekfXu8QncT3jOM21im4
+
+sprite $HexagonMd [17x16/16z] ROy54e1054BjrdV_qzeRCClKJw8gOU17681ETY8QEm0xWDuEm7jw7wpLvYzwSjo3IG_qvD0eu5asIVVt5m
+
+sprite $HexagonLg [22x20/16z] VT254S0W44HHtAN_QkCxvB0t_gCisyWLV8kbDXfHr3zK4l4EModSIgKxnWg0MuSS9fMpFAc2cKcTlZTSLGqLAn0ACn1aCX2pUJA3G9y76J_VZ2S
+
+!procedure Hexagon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Hexagon', $name, $tech, $desc)
+!endprocedure

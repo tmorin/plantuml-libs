@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/FileInvoiceDollar
 
-sprite $FileInvoiceDollarXs [7x10/16z] O-3dvsTZOE03KVn03f224cn030CC362A6SfbWWW2kTmG0G
+sprite $FileInvoiceDollarXs [7x10/16z] FSMn0KG0002n--w1x3yjW3G9IwqWVe91OGHCynrGNnEm0m
 
-sprite $FileInvoiceDollarSm [9x12/16z] JOc50S10308XTRtzfws-HL3jm3deOyvz4jYFO888JZ_Gpfc5zBDBCgMadvmJW37tDm
+sprite $FileInvoiceDollarSm [9x12/16z] LKg30G0W4Bpisd_QhFS9iVG2nbzexhY7hnkKAgIqNH_QB617TfLPNW0RmQCs
 
-sprite $FileInvoiceDollarMd [12x16/16z] NKo50O1044BzBlRVrk-k8w5OrYE1CjOvQ80qxrjcwZmpX3fJvrFuxtdBbqAeOldkXMt41C_cz7ZYZiOaNhl23bj2tity0G
+sprite $FileInvoiceDollarMd [12x16/16z] TOh50O0m0CI2Ezb_MjnfypcbTAK7Lhi3Q9UcEkhgInXb3Uwm1ksIHDb31KOO6KwRSz_8Xli2U4FjJlNgTuitCm
 
-sprite $FileInvoiceDollarLg [15x20/16z] ZSl50O0m44JHJzod_sfnlV6YQvYX7Hx0w4IBm7X29TW-4FTG4LssK4cICQPAJ6ObAOGmjcUZFyYV2CmJsQdL-eIUfhS0Nc-3heipEQ27vJjDqQxgWw6Nl
+sprite $FileInvoiceDollarLg [15x20/16z] {
+NSw50O1030J10zubst-rk0zELAEnozgCNBfMnaFISO_ukiU1QHZ0gmBYvAMone6M2mH9zUeGm5R7X5BvsICFYKVIwXTxZ1h6niFzjiUKkCHlAujNRcLd7BuT
+yW8
+}
 
 !procedure FileInvoiceDollar($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/FileInvoiceDollar', $name, $tech, $desc)

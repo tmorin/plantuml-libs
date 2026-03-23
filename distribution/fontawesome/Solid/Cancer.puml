@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Cancer
+
+sprite $CancerXs [10x10/16z] DSRP0O0m2C3GUEjNzj_MShqM2CldHJ3j4QIfNJuZ3mCUn2QQsXlX4-w8L-0qm0y
+
+sprite $CancerSm [12x12/16z] FOk50S1020FhyfRzfyNXSCccT7oR0yTQonUghOz3IWFkZdVPkGtJY3zMOAEN4qjbk_R9YTTaagQShGYwPG
+
+sprite $CancerMd [16x16/16z] {
+JO-5OGD0201vLxZzfsqJYDqh3k8qvSW79UWX0hVcPf12L77ITcSNlm3cVj9XI-F9Krm0fbmPc3kwCyM_SIaLgd5SNXt4tl6P-9LT9HXWyaC9nqeuxDS44r2r
+xq09nsF_0G
+}
+
+sprite $CancerLg [20x20/16z] {
+JOy55iGm20K_OUiozx_jFXeYKv-YIewNUz74Gl9OKqoKhbvNiCFIrA66jLf3JSKk9UNbI0Uku2AmWqeef_B2zs4rfStwVNbp1ZlyTDRS6pnkogNcXMG0Tuuo
+_fi6Hrjvu822bQRsfXGrtAo4QPa_1khiEL5Hy0S
+}
+
+!procedure Cancer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Cancer', $name, $tech, $desc)
+!endprocedure

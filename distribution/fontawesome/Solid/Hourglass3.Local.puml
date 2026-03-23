@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Hourglass3
+include('fontawesome/Solid/Hourglass3')
+
+' renders the element
+Hourglass3('Hourglass3', 'Hourglass3', 'an optional tech label', 'an optional description')
+@enduml

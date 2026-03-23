@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element SortAmountDesc
+include('fontawesome/Solid/SortAmountDesc')
+
+' renders the element
+SortAmountDesc('SortAmountDesc', 'Sort Amount Desc', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/GrinTongue
+
+sprite $GrinTongueXs [10x10/16z] JS650G81002XirlsdzRuXggRSt_0hKnEcTteePsDamSyYVxeAknKnt2eBm
+
+sprite $GrinTongueSm [12x12/16z] HOo50O002C1cj_x_hGoCqObirqnn5NzgyQVNOJw7BM6RmmXXFpK_Qpld98svXd64jpwT-lTaWXi
+
+sprite $GrinTongueMd [16x16/16z] RSg5OSGm5C1G9J6Jzf-sFUPd-CX5dFQDk-bLvaBlrhsy6_VbkmtVHLMuVqvLaahqX-uxTB35KdC05PMRe8kaaaLGWQLCTKSZ9qE6kc7YOcDJsJZv1m
+
+sprite $GrinTongueLg [20x20/16z] {
+TSY5TSG030Mm7-Pe_stxt6EIsRbQJlkO9uEheycL9yldY_NpnP0CtYK-p57Q1fRcK1ObsLHlb5EPUzZRqo-xJmEsQihUGR3d0KSEv6v1cmOIUsm999cHHgaX
+PV7yQvFIIvHqycH6qgJy0G
+}
+
+!procedure GrinTongue($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/GrinTongue', $name, $tech, $desc)
+!endprocedure

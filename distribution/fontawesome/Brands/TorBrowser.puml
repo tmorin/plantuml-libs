@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/TorBrowser
+
+sprite $TorBrowserXs [10x10/16z] 5Oct0O0008EmT_d_MoLJ0833bQQoU7GQBZrlnAFNqSOlZzLgZXvbZcu75ZtI7m
+
+sprite $TorBrowserSm [12x12/16z] BOh50S0m08IkZIlxJnldTO8sXQWB41ky24s55_-8gKsy7L5E5Bavk5azfHwlZ-NZ-jt-wEK48aWdVw9hqQ2prma
+
+sprite $TorBrowserMd [16x16/16z] {
+DSo5aKCn40JH_WpIglEFzixsb5xHul1pb6rXAkDAg-eApKfhiDhdiUkcs-Q2CLww30-Z5D_DCi2rYHEuFs8pEAJ4nUd5unJZ1iN1cVuffGcKST0y0RegdAQ5
+P3e0_W4
+}
+
+sprite $TorBrowserLg [20x20/16z] {
+LOq54iH020I7ZQxs_rzxGeXrKSQOWZnegnui1DqKu1nIVhweEScWF5xXXUNHbLA5IV2mjKK6sjZVqOKkoFUZ-4Cmxf_yRmKUluOobcblN_lVUk_YYtutkngR
+wEftLesXIf8Hv0P3YukPYorUKi6P9AkGv2oHZTPWn-c7wGi
+}
+
+!procedure TorBrowser($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/TorBrowser', $name, $tech, $desc)
+!endprocedure

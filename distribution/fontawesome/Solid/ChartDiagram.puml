@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ChartDiagram
+
+sprite $ChartDiagramXs [10x10/16z] Oq00VXY0i_WWuaWAm1Gl3v35myy1ae5WPh0cTWQ8TWXc0vDSG0m
+
+sprite $ChartDiagramSm [12x12/16z] JSg50G9H3C3Gu53B_jFY9-zBbRrm0QuAZcz-FhwEydEDK2EE45RfvmFF_vq-uHKGcAjwH2LrpKkPWPexXvaN
+
+sprite $ChartDiagramMd [16x16/16z] NSc50O0m4C30u4xstnQjNliEjVrCHjZCmLJDDErjidqG399hrNHAkEc-UtiBTF_ouExZtCi_xwx0uGRDdRsrx6z-XxSxulPKcxThtZkL2m
+
+sprite $ChartDiagramLg [20x20/16z] {
+TOy50e0m30E3MqR-_rfqBZUjjwZI3IclIZd0KD4XLvruw3-eyNix17PrHNN95AgNM8mXlhg6F7-PbDPNP_uI-ely_H4lnwlAT7lG3T4q2p39qVjUZegEBRyv
+ohS3oo-Mt
+}
+
+!procedure ChartDiagram($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ChartDiagram', $name, $tech, $desc)
+!endprocedure

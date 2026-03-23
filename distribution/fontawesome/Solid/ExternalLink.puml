@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ExternalLink
+
+sprite $ExternalLinkXs [10x10/16z] Om03Ndv-VWYB7mX014IGXv-J4yX0Y80LW1b006P1TK4eBYGMCyWei6e
+
+sprite $ExternalLinkSm [12x12/16z] NSX10a0m00F1pGM0_xyM4cYxfqb8_Nv5scFfNNvC6I5so6ARO9jny5kDsT_W1
+
+sprite $ExternalLinkMd [16x16/16z] XSn50eKm303HvBkadVlV5g9R1dqrcV3sq8XakjsURlsR_SLJt7Z5tsBpLjMYBE0caLDi37b8kjcsOblKN_zsPkYrV-nLGHuusSa3
+
+sprite $ExternalLinkLg [20x20/16z] {
+bT054WCX40NHcNYmllzf8-Ydjcox_E6ObAa5eIizayIqKCtvzzGTZLgg5A4u90ZlztlCAkQwPPrbQdtMBx7GgAlCscsHpCkssQfmFHY44rR0L_3IZzI_2sZt
+Ftq1
+}
+
+!procedure ExternalLink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ExternalLink', $name, $tech, $desc)
+!endprocedure

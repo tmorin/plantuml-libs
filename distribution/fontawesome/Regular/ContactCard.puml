@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/ContactCard
+
+sprite $ContactCardXs [11x10/16z] Oq02_0W05-C0CjduGN8S82OVFoD45AQ32yI4QW0oGNhP8KmOu4Go5m
+
+sprite $ContactCardSm [13x12/16z] LOo50S0W0CCwvaR-lnRNu5GqmSWr_kzXN_B3nWT87xH7Lo9_KInG5TCwes82MVdita2lRPmU
+
+sprite $ContactCardMd [17x16/16z] POl50K0n24D3zGJPVzelTNbL8hX8jg98F35iDC4T0ibwfodi2QNjGeLahe9NKmU8I4r4_hXPOMKAudwa2yG6mGESl
+
+sprite $ContactCardLg [22x20/16z] {
+TSu50i0W241HP1tuxt_QTPXlgL9IqMHKX09R6R9O3qXcV7UT5dRxvyjX_7OvdD6hcUctwm6NLN2UwIwl-kr-ECpVhXvJdXNwQHg_M2uMr_NSNBJBOuXsdTwY
+2fc90NmAnCXrKhG3
+}
+
+!procedure ContactCard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/ContactCard', $name, $tech, $desc)
+!endprocedure

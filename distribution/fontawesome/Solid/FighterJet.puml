@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FighterJet
+
+sprite $FighterJetXs [11x10/16z] LSp50O1G3C3Gu4xsdnRz-Yxr0Yh18ZdzSsNnpqsgmdbNfsd0aqMtyiFlSELr0m
+
+sprite $FighterJetSm [13x12/16z] NOw30S1G34IlTj_-qtuxTaxI2SnADCEXGa0CZYCaQwfE8hTeQEvJ-AFzRq7iZQTpSfRu9KEm
+
+sprite $FighterJetMd [17x16/16z] VSx50SDG3C1GXJdQVzfo0v_UpMnUPby6JhilAvnK218xFyFoJJZnfSituTdTjNwqRLl3idWpWKKRAkXvMDlx5Ig-YJhuT258XF6PUW8
+
+sprite $FighterJetLg [22x20/16z] {
+RT7L0KCX44JHmHtwhpQUmVR-xNaAu9qVdx3NlceFJhppr2hg262XgByEJNqDrB5gfrRgNGIqBhSN-VRMRglgyw9GVtDuvG2yaV_Wm7_e_Dy2fa4Lzm6IkXDr
+UsdEyba4mXC
+}
+
+!procedure FighterJet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FighterJet', $name, $tech, $desc)
+!endprocedure

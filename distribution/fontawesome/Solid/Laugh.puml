@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Laugh
+
+sprite $LaughXs [10x10/16z] HSR50S104CD0XUEN-gysS3WBDfzuyhD8ASM1NHJTejCfXQAzfTJo3d_m0W
+
+sprite $LaughSm [12x12/16z] LSY30SK030N0zr7Zzf-sviN9gbDdP_TOUQo68FRPuOkVjvhioBb_2Fj1bQ0l1yOi1cpV6G
+
+sprite $LaughMd [16x16/16z] PS-55KCn34DH-JE__RVjKS2b6-POnNnpXhgRQbL1UjemNMrp2haU3s1onUnAwXLb-vFLdnFkQ0OWu5G7bD9C_j6I4zxUVhzBSG6BvoyQ3oq-eda1
+
+sprite $LaughLg [20x20/16z] {
+XP1N0iCm24F9z3RtFss7J5Nrgo_nOeC5PNg_JRWy69i5BXIAX4gHS36My37hs1lsRA4Qs0-yYfWVjbxJ_yBWin0utuZs1T7Vjh-o4KK4IBpRvY9CyK3O3D6a
+lhfMkdEan4XsC9RH4m
+}
+
+!procedure Laugh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Laugh', $name, $tech, $desc)
+!endprocedure

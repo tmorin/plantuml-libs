@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Legal
+
+sprite $LegalXs [11x10/16z] Om01VduW0MKn8bYSC6563dv-E1l4v8CguGTYc04G9MW4cl4
+
+sprite $LegalSm [13x12/16z] LSg50O0m30J0uCxjFoqkRVGjpYg8hvWpx2DB8F4IDg9-eZtQkBtsUYp7hHDSFVPwd9BuAiKx
+
+sprite $LegalMd [17x16/16z] NO-50S0m3CCyvkd_QuT5gnXEz0EeP3V5QdBtoPnAG2FWK06OXWzNl8_B97bGaVY4wLUVKLxUDye7h7hPY7DiAfYjGsqs-0q
+
+sprite $LegalLg [22x20/16z] {
+PSy53e1030NH5lUv_sbns9-siSc3DVjc1IpE35cN2ptWzE3OAFgBq2e3rOLGAozk0mZB_-Gp_S7PR4l_JlVNWCiJYdKrFx48LbyWs7on2jP_lRXzVvevwu_w
+Vi4kOgse3-qJ7W
+}
+
+!procedure Legal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Legal', $name, $tech, $desc)
+!endprocedure

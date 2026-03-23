@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/CaretSquareLeft
+
+sprite $CaretSquareLeftXs [8x10/16z] Ou01VYY0y9X0D3yNcEQ1qlnGcWLACp1p0cceUfX-
+
+sprite $CaretSquareLeftSm [10x12/16z] PSZ50O1000F1nPtqNosSwtmYP4gszCmO1xokIQ4fDgd_83S6q-vdySJrUjiF
+
+sprite $CaretSquareLeftMd [14x16/16z] LSV50O0000EnmvtkFoqkRNuXDUjdeL7YzstoIUK_-UIROYmnvXXZZ0BRJSWHTW
+
+sprite $CaretSquareLeftLg [17x20/16z] PSYr0GH140CmtpAx_sgVOK2Xu4Kf0DJsOet28Gcf_YDC7O6yP0JgoDHHQ88sS6p01OuDkC054tZ7euv0ObF9iEu
+
+!procedure CaretSquareLeft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/CaretSquareLeft', $name, $tech, $desc)
+!endprocedure

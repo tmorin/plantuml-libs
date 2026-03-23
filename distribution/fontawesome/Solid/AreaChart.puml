@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/AreaChart
+
+sprite $AreaChartXs [10x10/16z] Ou03NduOYn_4OeUmG9W9I84G161d8KnXWmA47
+
+sprite $AreaChartSm [12x12/16z] NSQ50S0W3031Ul7VVrhS3vByCVaPpTvfwNA87AJM53QseN1RFwQuOtSlm_6wBW
+
+sprite $AreaChartMd [16x16/16z] bSV50O1000InnPtflrhSESql-khVXTJq9dcz1adT-H908-pFkMpl8zzzhlIo_Qbbx1ywyQQF6G
+
+sprite $AreaChartLg [20x20/16z] hSXL0e0W401HktNkVrgxOEEB8VTbMgMa6OJX6QqmeDgVCV-Ce-9uyiUuMZZmif5_bqs9hPSMfTeCJLIH8SignPGs
+
+!procedure AreaChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/AreaChart', $name, $tech, $desc)
+!endprocedure

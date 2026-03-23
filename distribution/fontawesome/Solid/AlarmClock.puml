@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/AlarmClock
+
+sprite $AlarmClockXs [10x10/16z] HOQ50O1008ImM_QVLh__4iQNA1bzClbE68L4k3I3SRPCVPPA3dg0MGtq1m
+
+sprite $AlarmClockSm [12x12/16z] LSR50K81042XPxViFwtvanDbLzNbKHn-lq71i-pQ0TeL1FKmt_HRe0CU0M5R05gT4zYxlm4
+
+sprite $AlarmClockMd [16x16/16z] NSc50SCW00NH2-v__sahI2KFFO0iovBbGD9WcjSiMR2bPQ18Gn2r6AAifUcmbFDxpHrWNkew1jZV5jHRztas_EwioQy7G8itftzamEaBkFGBcWfZtWiIJm
+
+sprite $AlarmClockLg [20x20/16z] {
+RS-50O0W503H0-ow_QUrMn_TV8Zza3ZKDa3hZCKnI57jEGMNiMOGEnSrqEbWWi532PegyAQ1ZdDNwwe0A5n5UbS0lkPA2Eyv8VxCfNCk_-oJOnA21sZt5a_X
+3B3qYOKFrHN71OZU3STV80qksa2bJ
+}
+
+!procedure AlarmClock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/AlarmClock', $name, $tech, $desc)
+!endprocedure

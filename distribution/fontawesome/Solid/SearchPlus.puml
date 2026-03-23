@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/SearchPlus
+
+sprite $SearchPlusXs [10x10/16z] FOg53G0W30GFXrZttvRKzGtOih0IhG8Ajrv3UlG-LccLAzZGUj02el03
+
+sprite $SearchPlusSm [12x12/16z] JOs54G0X30Jl5OV-gqLYauMuOLF61sOGDxc2-gnGd4-AKi3dycHEOzx-FPXa1tAYG4ZK9UIn
+
+sprite $SearchPlusMd [16x16/16z] TOo50SGW54E3E-m_xKc_r1zE17_ocW7AN1iPn18wgufJ6O4E8DF5oviFkXcA1m_Z2xt3nG-w_DKreOKg0-twuHQPzGCmXgkWl7ny0G
+
+sprite $SearchPlusLg [20x20/16z] {
+ROy54aGX34E3Ezp_j2lfz2jlf2u1YMFrW2jj2ULChPDdYkZWbNnfYsXdOnJNePwvmIvlO7tvkqb78UW__U-qQf4gtGWWRFP19VHBhgmhSQF3xSGP25a77JkL
+LBZ9iFF1jPDe9pQTNm
+}
+
+!procedure SearchPlus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SearchPlus', $name, $tech, $desc)
+!endprocedure

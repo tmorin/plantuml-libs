@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/MailForward
+
+sprite $MailForwardXs [10x10/16z] Oq03_Fm85Z-8X08uWvyTpeAfu6DW0ki2Ce04J3-22G
+
+sprite $MailForwardSm [12x12/16z] Oy04_Fn8R2Y7bPkRcn_COUI70w0i7B0ZcAn0p0FHoyh02J40o0IHF20s3uW9b42oaWNE0W
+
+sprite $MailForwardMd [16x16/16z] TOq30W0n30GtPy__NtjMaMbZoMEW3E85oZ1-4_Mu0tUYuqSPXY12sbovCRFb37MOzzvn2vedFYqKfwtGISkeW1wJpmO
+
+sprite $MailForwardLg [20x20/16z] XSx50G0X30J0d2ji_zNYhlEBXyOMi2gt0MZbM2CNEuzFOq3e_12vJex8TRwe42h_XOhRnX_bjrraH_Vu7tUFFF7ddvGrlhxPBYNc21zPPyn5RojvOw4f2G
+
+!procedure MailForward($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MailForward', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Tanakh
+
+sprite $TanakhXs [8x10/16z] O-070oY5mc5WO83Hc8gOu6ePG82V2ye7
+
+sprite $TanakhSm [10x12/16z] LSY50O103C30u4xsdnPzlNhnTsADE5--Uk2m_hbZD7-t4QxjgnDdFXv6Dm
+
+sprite $TanakhMd [14x16/16z] RSg53O1004FHuixVVrgyvEn5AzhuDM40XuP07Npq-bBx1AzZC8LFvvc0A1W8QQUhFq-gzTaGR0OxWVO4
+
+sprite $TanakhLg [17x20/16z] ZS_50S0W50FGrBtPVzeAxl1Eo5ViT1p0Jj_07CpqB81VIhBnaitQWW12cd8rmYuI5hRgKplqna5Y9679YCxOo9s-Qm_kU04
+
+!procedure Tanakh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Tanakh', $name, $tech, $desc)
+!endprocedure

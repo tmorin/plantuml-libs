@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/VolumeMedium
+
+sprite $VolumeMediumXs [10x10/16z] LSg35SK000F0-wYH_QUjUO-1bt_i-eIECWja9xBpQRhnwlOZLI1n2im
+
+sprite $VolumeMediumSm [12x12/16z] NSQ50S0m3CH0bRc__xHXLcBx65jKUAduLR0c7A8dfLX5COqlPzul67Q_bcWHyYwz-2m
+
+sprite $VolumeMediumMd [16x16/16z] RSv50eHG081Gx9RxdtPI_SdkxQ1UkoSSj8cu-dV_v-vbXMq_lOtReLvsPzRWGOYDJU9T6gVWS-2GfXqlm-00qDrsk-ulXvHwRm
+
+sprite $VolumeMediumLg [20x20/16z] {
+VSY50S0W4CNGZqCj-qzRTmjwJtyP-o0FxaOHA5TgsApEE-qsFoP6E4nW0d1Ow-HeE9i12IwcGb1xCqDHVRCEA-ZEPkaaqDdaf3AzKjnDIg0vTnXeQxTpGDOJ
+ZNuQ
+}
+
+!procedure VolumeMedium($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/VolumeMedium', $name, $tech, $desc)
+!endprocedure

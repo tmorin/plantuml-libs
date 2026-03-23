@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element DesktopAlt
+include('fontawesome/Solid/DesktopAlt')
+
+' renders the element
+DesktopAlt('DesktopAlt', 'Desktop Alt', 'an optional tech label', 'an optional description')
+@enduml

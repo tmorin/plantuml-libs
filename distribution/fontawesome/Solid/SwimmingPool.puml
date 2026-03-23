@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/SwimmingPool
+
+sprite $SwimmingPoolXs [12x10/16z] NSW53W0n20NHMVUT-z-s-McCeWyOGgUCy17nkNDySk3Ct0r6SI8k_nBweKR2wHGq
+
+sprite $SwimmingPoolSm [15x12/16z] ROs50SCm30JVZEhjFsqvdBF5f1kWhrfwO0I14JyXY25Cp7_uqRQEkZTR-6KBZyrE1rh_v4R-Q2hM6KQ5WlBtrgYVqjGB
+
+sprite $SwimmingPoolMd [20x16/16z] {
+VSm53WGm2031hNlv_syFcdERoAO2_5QNlpPm9Me-LLNPGGJQjMPgXpX4l9PZMHrsftswutftjMGVhtTNBtVUcUlTnxv_qgWMruV33BoOnB0i_40Ki3KLqlNu
+uG8
+}
+
+sprite $SwimmingPoolLg [25x20/16z] {
+ZT454iH024HH6FU-_srt8HNNL_QZO_JAM3wKOlnrpRK4L5egpry3ZZgWdreQKifBEM2k_GEAF5VWzS6fNX_ClZ_8a_fn3EVjib6UlZ2bEWtETTuc-N90C56U
+zv8DQmx31SgpWw8aL_EHD19DFx_p0m
+}
+
+!procedure SwimmingPool($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SwimmingPool', $name, $tech, $desc)
+!endprocedure

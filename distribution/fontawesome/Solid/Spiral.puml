@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Spiral
+
+sprite $SpiralXs [10x10/16z] BOY30S105CLIkzb_sjF7Cp2Hvmhd22_s0-cAteuSpD-xSexCfdB89T03OrAe
+
+sprite $SpiralSm [12x12/16z] FSM7OGC130Cn-7k__QTDZo6HnEEj_3kYRoywrU2dSiQzUhhIhTfKMgMqfT0kZVhcJd6r6rkf7NUFd_csyWa
+
+sprite $SpiralMd [16x16/16z] {
+LOw50KDH20FpNU7stxQ4UfuUhbBgJx3_O_d712RZ39B9QlTW72i6C6lnEvObY8szGtWvWyaXEoHtrndDOQUVYyMVqjB-WTJf0eilUFMpjdAaLaSloJreybVn
+6jHfgzyRY4YChO5M-ly
+}
+
+sprite $SpiralLg [20x20/16z] {
+NP07aW0X2C0GUoF__-sDS3rRpIXD7fRa7mduxu3oldNKBtLTDOBybC8HENnnOfihqzZ05e7Xlp_1DKEAlHteJzu5iRSHAGPOk2I6APXN--NUtWdFdN1LqX0n
+hYWqTv5sG7ylFvE1Cmtml557nOcAz6igoxXT9CTg-YVeN_yBk3ab7G0gJkK7-MQ4kB7f0m
+}
+
+!procedure Spiral($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Spiral', $name, $tech, $desc)
+!endprocedure

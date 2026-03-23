@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/FileFragment
+
+sprite $FileFragmentXs [7x10/16z] O-3dv-TbOE3Z1m46A06cW3GKm0GOU80KCq85WW8
+
+sprite $FileFragmentSm [9x12/16z] O-3X1m861X0DOK4e88Bn8O2RbPKV4x2pitD0r34omfNous
+
+sprite $FileFragmentMd [12x16/16z] bSUr0S103CNGtuGFzjysPhiAg7h2Eha6YYcHJOF731utZvldRv3ChRMBntlnABu1
+
+sprite $FileFragmentLg [15x20/16z] fSdL5O0m50JHmPtNVxMHZNx3HP8vo_YQ74IZ5KzCRHbWsN9ghyaL_bqIzv8hQ2_Um7v1bYubvwJ_m6sTdUD3dlelEGyF
+
+!procedure FileFragment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FileFragment', $name, $tech, $desc)
+!endprocedure

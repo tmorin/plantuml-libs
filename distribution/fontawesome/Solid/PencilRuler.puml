@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PencilRuler
+
+sprite $PencilRulerXs [10x10/16z] HSR50S80002nuCxjFotK-qguWY-FSAYkVN9GQSYCCSMIziIIM5BtCPG_
+
+sprite $PencilRulerSm [12x12/16z] JSU50G8140InuCxqNotoVfh56ppFw7zKBwKZLU_ge9jA7TK_NFXp21ZPTSjcNlHYPZApdeyAVlG5
+
+sprite $PencilRulerMd [16x16/16z] NOw50GCW40E3Ezb_s_QbUkW51H0lZBsbJtJd4zDCKIMIA_FW5LpfZeWVUAa53J2re4AXWr_j_vg-jTdFnfSU57mfKOYF2ZjIa7TLjSzGHF4
+
+sprite $PencilRulerLg [20x20/16z] {
+LSm53e0m04FHFy6bzxyjiuRiuoyDbDONTx-1sYxHIofjm57feXJKMjaRzQa6IdgUIY4QNxNQlumC2f9n8tXbt2drbT6LbJE5dtQl9WhCgmqaIXCzUe0uhmJY
+cbQgphHgtVmKJBjQcLedtd9FZ48ZFW
+}
+
+!procedure PencilRuler($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PencilRuler', $name, $tech, $desc)
+!endprocedure

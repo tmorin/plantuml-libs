@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Linktree
+
+sprite $LinktreeXs [8x10/16z] Om02VWOGu07I_20U6pylFrYO7ym50YYB2oBCoW2MvmQhX-g7qm
+
+sprite $LinktreeSm [10x12/16z] RSp50S103CH0XS6m_NSRvkZ0yp9pbLYpLSLyfLaIK6jkWLdEC3Dq1BD7EIigJBQeANjSN9l_D04
+
+sprite $LinktreeMd [14x16/16z] bOnL0i0W3CNAt7F_qoAFJlyMD3KJC9hJF6rWb1qKMs3CUuUcw4mbc9Waol3aOva35XZCN88cI-e0puOi9R4SvdZP3qi
+
+sprite $LinktreeLg [17x20/16z] hO_50SH0203X_29C_zLctR-PLHmaiO4KLiNViaAJyWCM5G-o6t1keC1V8aRc9vb1PkHO5HOWOfwjX1t09XaBdhbgwIE_M-xKowgjqv-LuLYclKdX
+
+!procedure Linktree($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Linktree', $name, $tech, $desc)
+!endprocedure

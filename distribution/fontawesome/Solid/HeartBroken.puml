@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HeartBroken
+
+sprite $HeartBrokenXs [10x10/16z] HSU50O103CNGu4xsdnOvwwj-mg9WMJAR3Ib-wKoF_pxFz0rcm9sUdl8E9AF_VW4
+
+sprite $HeartBrokenSm [12x12/16z] LOk50S1030AfUzb_sjZxnGKCa8pyHii9ivUBJbgbTexYUSxRAClRdRSamit432CzhDwcouBC_4LH
+
+sprite $HeartBrokenMd [16x16/16z] RSpL0O1G34FHYplPVreqHT_vgPU_TchP3MC9bDhqW7OEYbgT0ymApx9tAIFU60xZ6Mjuzw7IZTsWK70ONPROy9pY7nafAm
+
+sprite $HeartBrokenLg [20x20/16z] {
+VSm5ZaGX50NHGhvBxN-rOpU4sFJ1US8_Qgj4QuLVc-eBu1zWpsq5Z886iERs71eDgZ4qs3IU71rEX_IuuT6170V5uUOSbrkZW75Xt43Js7Bmwp2YmA_NgKBS
+3Xs6rsWm7RDmwYeVV0C
+}
+
+!procedure HeartBroken($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HeartBroken', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element LongArrowUp
+include('fontawesome/Solid/LongArrowUp')
+
+' renders the element
+LongArrowUp('LongArrowUp', 'Long Arrow Up', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/CreditCardAlt
+
+sprite $CreditCardAltXs [10x10/16z] Oy02kFZv882VdmqAUFaH0AQC6vd5nyF0nmTaCIEKmG4
+
+sprite $CreditCardAltSm [12x12/16z] Oy05-940Eq8K5V310B8QD3O_FnkG0hEv4EB89Y5R2m
+
+sprite $CreditCardAltMd [16x16/16z] Oo04M7cG0GCRFpf0KGtaewW7yWce9ypdvc5dOEO14b0-q0e63dv-Rgpg6T1j8m
+
+sprite $CreditCardAltLg [20x20/16z] fSo53S10509GKZs5_QUjkykBVW7y4RMLEuahQc73IoeseXxRz_tTcUwWHZB_aG4eIPvcerBj8OiR7a_L
+
+!procedure CreditCardAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/CreditCardAlt', $name, $tech, $desc)
+!endprocedure

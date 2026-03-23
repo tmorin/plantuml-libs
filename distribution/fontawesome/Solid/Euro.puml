@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Euro
+
+sprite $EuroXs [8x10/16z] Oq02_FpyG9A9dmF2Wmd2X15yBZ235QwDZGsk7m
+
+sprite $EuroSm [10x12/16z] Oq05_400eZdu-NbvE84CHdvEc1GVZ04642O3fXY4mcJomtZCl7nS3
+
+sprite $EuroMd [14x16/16z] RSx50S0W341HtCdVVzgwbtU2k1enLQIfNMIpVnfqQum-C_hkUNvQXxxO8npyaNntxUhsqmxCuix6vrMG7ryBzDRg-PVxpeSP
+
+sprite $EuroLg [17x20/16z] TSs54KCn3C1GVUPe_scBla3X7PdDNztmGBRvaWY6lUIfeqWwKHbrfj8bxPvuCrlYuQd72mIbPZRcdw4Zd4fBBnfRKybtrdcU8Qo-9RBTfvCikmC
+
+!procedure Euro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Euro', $name, $tech, $desc)
+!endprocedure

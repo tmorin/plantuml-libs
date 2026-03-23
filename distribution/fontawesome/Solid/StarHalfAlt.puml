@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/StarHalfAlt
+
+sprite $StarHalfAltXs [11x10/16z] HOh50O1040E73mxflzgpTOinInTHKY6JDOiyyf11Yq-u2OSt2ItEOIde
+
+sprite $StarHalfAltSm [13x12/16z] FSU50SGm3C10bHlK_jC-X1ImZvQLrQQir4ploFgO3i0MjVsX0weRf8Q-Gstm0C2EPy6Y4zljn04GX2y
+
+sprite $StarHalfAltMd [17x16/16z] LOw50GCn4CC-pD7-sxPX9XtOtnpmFIE3U02yAGck5A7RNq9KZJ77Tz-pWumGTifedTgr0TIjsO1P_mKKvWRsV-SBD0GNYEMubunSTiQwHNly
+
+sprite $StarHalfAltLg [22x20/16z] {
+RP254G0X3C3QTuFil-qVhi63Lp9moy01Z1RWcomrC5dQdQphOvnzuRjNTOfCwT-DrSVYU4KhwtX2JnjxWH77Kjch_6Kf5gmatcIr_eYfrgxP4dXSxomsSTKH
+eb1kq_1BqOygo2UyLUWIbsIMmzK_
+}
+
+!procedure StarHalfAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/StarHalfAlt', $name, $tech, $desc)
+!endprocedure

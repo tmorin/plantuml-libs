@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/DollyFlatbed
+
+sprite $DollyFlatbedXs [11x10/16z] O-1ZW056Vdu6EE1du0S3afam019328DiuULd
+
+sprite $DollyFlatbedSm [13x12/16z] dSUr0S0m0C0mbxd-_zfYQ8us8Tci56Joz-Mio5gcuB55q9i0sW8eDm
+
+sprite $DollyFlatbedMd [17x16/16z] hOr50e0m40C7T_B_rsBrxfMfhYLeeU2KH47x9fRTiRYUD-dfNA9JeFyhOLtUupXnYP9T-vO1g02NuQMJ1l84KiCD
+
+sprite $DollyFlatbedLg [22x20/16z] rSY53O100CNGZplTVrhWt2RWnPgAkrVZ1XRLEZvIozoLP8eNali7zoBPurK_1BtYRS5rbBRl7ZJqMVXSZir3nWMtLESCSv4l
+
+!procedure DollyFlatbed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/DollyFlatbed', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/SmileWink
+
+sprite $SmileWinkXs [10x10/16z] BS65OSG0000XufxRVzhg0noje2PR1zsWHR2lEYRDfaFvkDRDXaboLuCSWR3KLNm3
+
+sprite $SmileWinkSm [12x12/16z] HOo50SH040BvZmkP_hiDUx4vMGKL6xCkm9EXfOEAdISDjbAc8YqsgyhgmQG7Pdzvpe_vjzFolVpMf5EULN0ec53T4m
+
+sprite $SmileWinkMd [16x16/16z] {
+NSk5OKCn303H-upIxJzjcnX2poYYMC9he0khZQ9_RgE6D9CtXD0j3lIfEGFInJRYUibibFY0X02LJru_yI0C0Yp2BjwWtfPFiZh1ciO8jq2uKDskzSaPsAqX
+31O9y0y
+}
+
+sprite $SmileWinkLg [20x20/16z] {
+PT25TG0X403HEHVOdVwxpKFY7tTXUj9wyiFX50kJcXjmgSzdLsLQzVtPDUW1XvMVTAJfBYVStfZ06q1gMwEF6w0xkF48cW9S3t2C52f_5Ek_llJqQclfbh4t
+2gkkmAEm64HhLeU5tbwqhIgQz_Y7pnN3w6fUlUcMqFN7bqP9_RdajekLvWC
+}
+
+!procedure SmileWink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/SmileWink', $name, $tech, $desc)
+!endprocedure

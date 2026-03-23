@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Kiss
+
+sprite $KissXs [10x10/16z] JSI55S0W0CJGrBtPVriUpZy1kDo9J2wmsB2wb4Sc1tiyucEyEzwb7YYm6K4
+
+sprite $KissSm [12x12/16z] LSa50e0m509Gx9RxtrOGOtlRRzZ66S7uMaiRX_jPiIes7rN0san3VsVQXhzVNIPaqv4dv22plG
+
+sprite $KissMd [16x16/16z] JOy54WKn24DJztB_qtuXcvbzLHpWb6ChG1mZZQAPk1B5bhC8Celolm1TTbok_yjDGYm-BJHpWlIu_e9YVmfTLBwJTdNVQA_uiV_sSoK2uJND5m
+
+sprite $KissLg [20x20/16z] {
+PT250SGW00F05FViF-qBf7wu2oGFje0BJ-aRX1VvtKMMTnVfjTSDm9S4_fbjxhzrpbBJwymt_eqrtVtpPWRbfL5AhfH00Q0wyRvNHp_d5Ku66pLQW6CqSsfH
+VVWhUefPvULB1OUaFTUaBm
+}
+
+!procedure Kiss($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Kiss', $name, $tech, $desc)
+!endprocedure

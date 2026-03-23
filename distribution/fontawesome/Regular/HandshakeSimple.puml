@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/HandshakeSimple
+
+sprite $HandshakeSimpleXs [12x10/16z] JOk30K0n34Jl6yNRVzfQSGvQWtwSIE1BLT0CJZTw-xS1OlLoCHuQS_zYG9Gp0W
+
+sprite $HandshakeSimpleSm [15x12/16z] NOm50W1120BnkkV_lxtjcaqLq02J2lVjwfU27Ay9rzQnPyFJsLztAEK3cCMQx73rHrFlaEUJStoKODOc3Cyfnmy
+
+sprite $HandshakeSimpleMd [20x16/16z] {
+RSjN0eOW30JXmLwpzp_jN-Boe39MFWYjkeLx1ymAs8whcI81dMu5sJc3L7zTahkJnzofzDlXeeHYzCIyzRaNe9KkqNLQ9RYZaYfsSAWp6VD9ggW8XQaswrz7
+zWK
+}
+
+sprite $HandshakeSimpleLg [25x20/16z] {
+TOy50iGm20GXzTZy_xTtXBfCDUYkVDF94mt_E3pYSuib6287LJC4o_T-Rg_sFcQKt4OElfD9JWJevSbMNnuIlPv7sq1jqqpXlSE8eZ2A4r7xJ8KKNCHW3bMc
+ctC5NS3zwqsWnJrpr4UHDNxqs9F9MzsHQO5jpf598O8EzQObi57bHbXIId7Q1Vu
+}
+
+!procedure HandshakeSimple($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/HandshakeSimple', $name, $tech, $desc)
+!endprocedure

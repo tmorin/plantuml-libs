@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/TheaterMasks
+
+sprite $TheaterMasksXs [11x10/16z] JOp50O100CE2Ezb_MkJyLIzmkW60UXPseQgdotX5YjT74KIhAvaE7hF0922ws9pVl
+
+sprite $TheaterMasksSm [13x12/16z] BSV50SH04C0m9raczr_juUWd86lZRwkRFzNCKZseOgXUO435mzFfaO22WMf1cPCbR1bck3m07Ny8gl06
+
+sprite $TheaterMasksMd [17x16/16z] {
+LSY50O103C30uBnc_sbnlNe1ngeZ3tUr_TyTj26dyRu7PayLTum-eZODau_MHBS_sg0KHPN90GJUnmEr_prcXT6fgdOAAgqLMkZtYRPeu5g1K9dLN5LksGEl
+Nat02W
+}
+
+sprite $TheaterMasksLg [22x20/16z] {
+PT1H6aGm4C3W0A2TtF-sss-s3_03eW0qSr4FxePgkiPRF4q5ld65yJ9T0vWgU4CVIl7cBEgspbHlhaKd86lOLnTjgUPO85TPctyTnp6YhHxrvgAebNUTLJwL
+VxsKDJHMz8GfJwuwal9TSnDWpwDAKYWss-xzJmyGTfMx7eEdiMePQNu
+}
+
+!procedure TheaterMasks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TheaterMasks', $name, $tech, $desc)
+!endprocedure

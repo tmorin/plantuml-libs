@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/SquareLinkedin
+
+sprite $SquareLinkedinXs [8x10/16z] Ou01VXXWGANv6BY1iX2Q7nlDnil6pmRN1G
+
+sprite $SquareLinkedinSm [10x12/16z] Oq00VWJWXRCOs60i7eGO3oDGEJkKnSV006Nniy9PR4WiP9tSV1303W
+
+sprite $SquareLinkedinMd [14x16/16z] XST50i1024FHr8qazpzjNPXL_mWyb7Lw8pgNgMPIZIf9LMI57E5XEjMZCSu-3GBuoWOYgVgLWexm-U0SYZO
+
+sprite $SquareLinkedinLg [17x20/16z] dSY50SCm4C10XStQVzeoStF65y-6MpruhnQVGVDMWy4xKFqCeX1ww6_2qN8RQWLkGgVtOT9XVPZdiZjHmxpeuWEgToOURG4
+
+!procedure SquareLinkedin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/SquareLinkedin', $name, $tech, $desc)
+!endprocedure

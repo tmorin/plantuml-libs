@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/BookDead
+
+sprite $BookDeadXs [8x10/16z] Os3b1mCcVdu-1YYJ0S9WPU3bHmOC475sHdu6954k1X202m4
+
+sprite $BookDeadSm [10x12/16z] Os3WXm0-1X310UV19FWOuKeO63YX321cGbC7f8481J210JyVBr06141sm
+
+sprite $BookDeadMd [14x16/16z] NSd50GGn0810rZtqN-rfV7W2XoORrdvd1O89voSJ1eR1900Mp_EOCEZDOCJ7OhJ21BT_mwskczeBO_Guw4HqowHFf3UFbJS
+
+sprite $BookDeadLg [17x20/16z] NSp50O1G081GRFt5_jFQ_Uu0JV6b9VfLk-iWkSjks8m-a37WWmfeV6G0twgg6dqaT-KL3AOAlB7flGKszPqaYDgzaloR_hNrfLUqSAkLe7LrQHNyeV5h0G
+
+!procedure BookDead($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BookDead', $name, $tech, $desc)
+!endprocedure

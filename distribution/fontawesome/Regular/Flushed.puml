@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/Flushed
+
+sprite $FlushedXs [10x10/16z] BS450SG0000XtcLo_TFE0NwzGJry-j48UkdMmvH-ZvgfSXtU7q2Y8hz0UDLGh
+
+sprite $FlushedSm [12x12/16z] FSlL0KCn5CDGFGmwsd_RSi_FHVCoh7neIXJ0YvVfluK4zzKdLd7aEKYLMqiz4NdTmlvAt202sxO1ugIf6nOmlBW0uak11m
+
+sprite $FlushedMd [16x16/16z] {
+JSU50OH030NHmU4soVHVxHdwef-_AMqTftIty7S-OUwHms10ocMomsLGeLSf9v5-B6GOOZJ5NgvI7CaD1sB59fGRnxQJXrKCe4N42x2O7UXKXH189tRXl9yQ
+WTKzGkTV0Nm
+}
+
+sprite $FlushedLg [20x20/16z] {
+JT255GGX303H2UkIJF_Ldl1E-BWB7qTvhmmMFpBuK6i2DlMWqvkFfkVGzQ4BBDwCjATG9o0rsTsnS64nE8t8GW-dtR3LYTmYMjBxyjUNAk5CsDuzxtHv2ukw
+yUumeLnxQwGeZC8aRO3T0RqT2fHlEsmA70eVdouuTQUBr3PyQLwbuvBTBXjlJm
+}
+
+!procedure Flushed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Flushed', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/GrinBeam
+
+sprite $GrinBeamXs [10x10/16z] BSA5aSG0000XufxjlzhNOu2Z5THaww0Rj4Z_ZscJOLC-hdNJO4fITSiH1s6fg_W6
+
+sprite $GrinBeamSm [12x12/16z] 7Sg55SLG3CDGVOR6rVxRzZZtGP0w_CBIVAARlgXnqnkL88wOmMChfhyVglo6hMvtHDuMpOUV-g3RXlBi7-i35m
+
+sprite $GrinBeamMd [16x16/16z] {
+NSU50OLG3CNGuFRQx3_j5nnEzRBgmgNY46u6LiTJZ2t2fh5028VE2WT21r8xqawGHgIMrX02aboloftBArU2Qge3erYet819RqEZcb04mWweW6BFUh85HhS8
+bQi4-08
+}
+
+sprite $GrinBeamLg [20x20/16z] {
+NT25TKKX0C3GFCN9_jls8BL_SHUsrAqlVpnkxM1J-mK4DJ5fPJir_-dQz85dTXsmSrqfg-kaWsZ43gRRZFrKqEH54Enuh9fTu87Z7Fb8JUL3iSg7xci03GTm
+PHCeEgP_EpXiD4zmgypseOpQ424ea6PEI3UhQyXZmdGqFVzyQIjTbH_HgQr9Nm
+}
+
+!procedure GrinBeam($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/GrinBeam', $name, $tech, $desc)
+!endprocedure

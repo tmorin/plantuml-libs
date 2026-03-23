@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ThList
+
+sprite $ThListXs [8x10/16z] Ou01VYZWOk07ytZO-DdOs62Y274Swc0o
+
+sprite $ThListSm [10x12/16z] Oq00VWJW0I8W0B8O-FcWSWZ01qH0W2oBLoyFN8w1cmy2s04
+
+sprite $ThListMd [14x16/16z] dSsr0S1020NGZrNO_jF6FTszSm7mPdL9MByPPmklSZaneh69vPJB59l-aUldFwvg7QjUZDL3F-5b1W
+
+sprite $ThListLg [17x20/16z] fSwr0O1G303HmvtRVrhSeUA_BXxUagiOlEjQNphGcjLdeizpxV95uOTVIvD4ssIH-YNyqy87EcyodaO
+
+!procedure ThList($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ThList', $name, $tech, $desc)
+!endprocedure

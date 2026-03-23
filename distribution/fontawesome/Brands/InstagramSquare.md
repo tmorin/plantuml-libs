@@ -1,0 +1,74 @@
+# InstagramSquare
+
+
+```text
+fontawesome/Brands/InstagramSquare
+```
+
+```text
+include('fontawesome/Brands/InstagramSquare')
+```
+
+
+
+| Illustration | InstagramSquare |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome/Brands/InstagramSquare.png) | ![illustration for InstagramSquare](../../fontawesome/Brands/InstagramSquare.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$InstagramSquareXs>`
+- `<$InstagramSquareSm>`
+- `<$InstagramSquareMd>`
+- `<$InstagramSquareLg>`
+
+
+
+
+
+## InstagramSquare
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element InstagramSquare
+include('fontawesome/Brands/InstagramSquare')
+
+' renders the element
+InstagramSquare('InstagramSquare', 'Instagram Square', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element InstagramSquare
+include('fontawesome/Brands/InstagramSquare')
+
+' renders the element
+InstagramSquare('InstagramSquare', 'Instagram Square', 'an optional tech label', 'an optional description')
+@enduml
+```
+

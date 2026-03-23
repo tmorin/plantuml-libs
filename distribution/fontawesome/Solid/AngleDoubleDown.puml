@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/AngleDoubleDown
+
+sprite $AngleDoubleDownXs [7x10/16z] LSQr0OG0002nlEBS_jCY9QdYOGbID52jqEx_2j_ySjTSOFrm0W
+
+sprite $AngleDoubleDownSm [9x12/16z] NSQ50O103C30u4xsdnRdlUq5ohVvK8a-obsFTpsESBkDpl3qx7HRmUIaDS0l31Lm0W
+
+sprite $AngleDoubleDownMd [12x16/16z] TSor0G0W34JHeyFPVrhS8zNxI22DMr0kfZHPaKPKMeoeDC28VZfYClPmJS8Uj_Qi7slFYCMvvvi2
+
+sprite $AngleDoubleDownLg [15x20/16z] bSi53iD000D1XvEZ_VzlAwik2kFWQdIwiuikPHDKFWsekMEiqaW3Yx_sc6SVnEB4nlHqrrK6p99slmfCm9GZC3HZjxcaoHtp5dVCc_5IyLGyzRS7
+
+!procedure AngleDoubleDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/AngleDoubleDown', $name, $tech, $desc)
+!endprocedure

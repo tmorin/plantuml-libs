@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Usd
+include('fontawesome/Solid/Usd')
+
+' renders the element
+Usd('Usd', 'Usd', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Leetcode
+
+sprite $LeetcodeXs [8x10/16z] Oq02_52A7qBnCVApGtdyS4acNWOUVY20yY5oRFmGVK0A
+
+sprite $LeetcodeSm [10x12/16z] DOo50G0X3CJohd3xJujKKbUCaq1_9ifai6JdqmNLHhiWTzW4Ch1bux7qkwORwIkmr5vt
+
+sprite $LeetcodeMd [14x16/16z] NStL0K0X34FHu4xsd_OfVlyEqg9LiKHkS2je9huQAZEGI3a0sE-si0qNwPojg07D5lW-A7yPV2zddRKqchQeiJX-Q6ou0G
+
+sprite $LeetcodeLg [17x20/16z] {
+NOu55eKm0CEAExd_QR_GjmBBD9sgCAzwCS7BUzYVtbNU0AoLmva0w3K1hVs4aWyUoSv3qWQTP5h7lPwqa7S03WSjGRwYALoNjdfn9Zd8HnixsSDmUJw06HGs
+A1_-0W
+}
+
+!procedure Leetcode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Leetcode', $name, $tech, $desc)
+!endprocedure

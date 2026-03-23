@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Octagon
+
+sprite $OctagonXs [10x10/16z] Os1WOERdvsS00Iv-400p800eHHnWGB30JAY9K0O
+
+sprite $OctagonSm [12x12/16z] Om02Ndv-VWu6CE070pu84yu1aZ0E3pzfW1s9pS2B40RQYc02EJ0c
+
+sprite $OctagonMd [16x16/16z] hSYt0O1008NGVurPsNzQSwA_rq4E7OUIsyobTKBZXCO9RKjT2rQmDCvevD0uxt7d1W
+
+sprite $OctagonLg [20x20/16z] nSg53S100CF0D2yeP_zfo-m1UcBBsfHiUjsQd7ocDZTSAz_N3TVA9JJc7tr8WK5cMeH9Hbg5ITKxpG
+
+!procedure Octagon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Octagon', $name, $tech, $desc)
+!endprocedure

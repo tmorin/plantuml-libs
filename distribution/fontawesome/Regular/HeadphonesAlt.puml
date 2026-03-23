@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/HeadphonesAlt
+
+sprite $HeadphonesAltXs [8x10/16z] 7SN50OG0402nd2jC_zKYcq_mx0gz_2FGvMLU9xSUeMTBN9Nv-dhEgqBV7G
+
+sprite $HeadphonesAltSm [10x12/16z] HOl50S0m30FLC5hxRrk7xoM4KXWmwEnHw85636Wmn82n7KMtbJ3IZBi8LOukZtOgo5DWcAeGNxUgSiCF
+
+sprite $HeadphonesAltMd [14x16/16z] NSc54O0m40NHZqDi---MYSkBxfoYmsDKF6HR38UBpnOuu-HIvf6mgWW7Qcuywc2fZqUHvoI9OUetbKFtL5hgu6xbuoRL3PoQ_
+
+sprite $HeadphonesAltLg [17x20/16z] {
+NS-54SL0203HZUkn_LVx9ShS6yVXq6x6p6Fo50s7q0terH6WM3Yrsi9aS6iKb3njQTn9TBKXAOPaiqesgLtOSzZT5W_dd5LFjBRdG7fLKe2j3anrO7PopG55
+ZJEm6xg0wlshCzI-
+}
+
+!procedure HeadphonesAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/HeadphonesAlt', $name, $tech, $desc)
+!endprocedure

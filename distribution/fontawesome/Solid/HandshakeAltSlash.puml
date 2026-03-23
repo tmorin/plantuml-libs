@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HandshakeAltSlash
+
+sprite $HandshakeAltSlashXs [11x10/16z] HSm52i104CNGb2BL_VU_xJ8Ux66vHVUMJ_49HUQENup_yJBpXpyEcvZrOGdpkm4
+
+sprite $HandshakeAltSlashSm [13x12/16z] JOc54S0W0CI-XaFstxQ7avENU7GGzxfG16KWGMk6IQd_HWKTZcDbrMC-IVM8Kguhr5K9u75LD9ACbmW_
+
+sprite $HandshakeAltSlashMd [17x16/16z] ZSZ50SGm4C106GuDwh_QCFuonjNFDtV5n5Macak1MkiNlXff2fu2tU0LKxa3DT_BV9wMxxK4bRI63jC9mfndZJ2LrLxYT5RTDrf8qxdBbX4
+
+sprite $HandshakeAltSlashLg [22x20/16z] {
+TT050iCm34DHbHkmTV_RpXflJd_vbLD83AfZReaNcgwEvjYdcYSZnPrS0FxKzH0FJDoPQvTi9E2_NCMkLMPBLvSGiML-N_qvkKiw11i-V3xP9qJxYpTn-upH
+imCW-ukd4DDgrTKLhqpxmT2w8IKkDm
+}
+
+!procedure HandshakeAltSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HandshakeAltSlash', $name, $tech, $desc)
+!endprocedure

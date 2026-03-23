@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/StoreAlt
+
+sprite $StoreAltXs [11x10/16z] Oq06_530mC26OFB30JAJ0OWOm1HE9X2WCm4
+
+sprite $StoreAltSm [13x12/16z] VSUr0O10402mV8F3xJyjxfOkhl9OGUoeZoHnSes0IFBmcxQkcpqpIufkLACq
+
+sprite $StoreAltMd [17x16/16z] dSYr0S0m0C0mbxd-_zeo9biq2cBbV9lOvNu0-DL1vW_uLsCWZ0bcsIcKbYJ6E0p3z8t36xsd0GeB8Yi
+
+sprite $StoreAltLg [22x20/16z] jSx50S0W0CNGrBr__sdhxW8FpmbEETw2Iy_N6Xrjf02XjW2qaq2aFT21yB1cPDfpWFc79P2qkzLQPArD7JofkKO0dZ9Er
+
+!procedure StoreAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/StoreAlt', $name, $tech, $desc)
+!endprocedure

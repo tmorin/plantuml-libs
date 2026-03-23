@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/BalanceScaleRight
+
+sprite $BalanceScaleRightXs [12x10/16z] FScr0OG004MnrvmYsNzQ759zgK-b3d_GOQodK68ipQM3ag8lfAZ9ytIGzrk1O0K
+
+sprite $BalanceScaleRightSm [15x12/16z] 7Sk54GCm5CDGbSaNxxzjJtx1Jy01yaRg14sCOLxrw6VOHw6153YXzuLJpy9tuLSjt9JHCNHV08z_k1GPfZAbiAa_
+
+sprite $BalanceScaleRightMd [20x16/16z] {
+HSzN0e0W30JHjVVC_KyhiB6ypr4WKHMg5dhzTY02cFIRWgJV8OrkP_ScMDjrwN0Qk91qqca2_2kNY6p_gzB4rovLlW6U1alx7CtJ9j_TOMvvz_bE9hS3QKPL
+rqdPsF9kotPoLk5sNXLqFSaJclTmAW
+}
+
+sprite $BalanceScaleRightLg [25x20/16z] {
+ROu7TWKW20JnsUlU_xPX7q5J_jWT1KI99zgov3TGLXnSmYzHy93VXFvHT71s5Py0ZiuLpXHZwJxfcXbeqdIB3sXtmNpR0mMP62uk6PCMJtHRx5Inhh2Y1qua
+W8jj9JSOLqIlvS3etuBJGhMlIXOJpMiX8N0smU6Qk5YOXTmlf0BIOPZ0vUtRNo4J9CeN
+}
+
+!procedure BalanceScaleRight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BalanceScaleRight', $name, $tech, $desc)
+!endprocedure

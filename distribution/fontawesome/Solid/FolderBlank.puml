@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/FolderBlank
+
+sprite $FolderBlankXs [10x10/16z] Oq00VY1W1ZCe0Cnm5i9W
+
+sprite $FolderBlankSm [12x12/16z] Oq06_200PI80DpyD00Co6ma
+
+sprite $FolderBlankMd [16x16/16z] Oq07h7mWm0hZil530PJFZmhu-0SPO43d4m
+
+sprite $FolderBlankLg [20x20/16z] Oy0Ac240MOWV1X2YFFnmmCC91km8PGZ0np-C0JCMCGOMNZJ0pK0i
+
+!procedure FolderBlank($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FolderBlank', $name, $tech, $desc)
+!endprocedure

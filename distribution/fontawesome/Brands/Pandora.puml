@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Pandora
+
+sprite $PandoraXs [7x10/16z] Ou00VZ00KeG09qGX0vY0Km
+
+sprite $PandoraSm [9x12/16z] Ou01VWY0C_ZP-4a0B52Q4QIT3sGUWi77nyS6PW
+
+sprite $PandoraMd [12x16/16z] Oq02V130pGnayyC16nARdv6VGe1f3YlSV2welNnGzs2oCG4
+
+sprite $PandoraLg [15x20/16z] hSUr0O1000ImmntsdnPxTqqNg3gc_Nj96hNNfFPgr6vNDQjQA1kKzX0zEe3s11FH0muF
+
+!procedure Pandora($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Pandora', $name, $tech, $desc)
+!endprocedure

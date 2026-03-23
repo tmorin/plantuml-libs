@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/FileAlt
+
+sprite $FileAltXs [7x10/16z] DOU50S0W0CCoLyZ_r-BKYtf017omrEbHozDQ78y4FRRsAAM6-Rxm5fW1
+
+sprite $FileAltSm [9x12/16z] HOh50S0m08IeniF-qzQ5rmbKDG6rXr3jO83GxK_0VWOyESELmzMl40wkC1pyro-lFkm
+
+sprite $FileAltMd [12x16/16z] VOh50O1G08MmM_QVrkxud5v0xamCR57BAIiJjdFPSbHRx3ccjjooRQjhnXLsvXmxi-PYoo-ddMY2pfdnP0G
+
+sprite $FileAltLg [15x20/16z] XS-50OD04031mvtjlzh8QJoB3lelxSczGxIMgBlpfB43UW9Y7FL-KeRx_UBThNDd6ySLd48aLZiCmwxCLkM25iGQZTbdvXoCU_BFknldce6SK2rN
+
+!procedure FileAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/FileAlt', $name, $tech, $desc)
+!endprocedure

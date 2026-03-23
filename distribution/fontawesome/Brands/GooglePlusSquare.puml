@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/GooglePlusSquare
+
+sprite $GooglePlusSquareXs [8x10/16z] Ou01VWp02g6O81GNFr0DI1M8n01mCG
+
+sprite $GooglePlusSquareSm [10x12/16z] Oq00Vlo0Zu611y82gOIn6408nEA32pEYcyI3KC_D1m7i
+
+sprite $GooglePlusSquareMd [14x16/16z] bOh50S0m3CGKvdZ_QSluAIXW7t37zOE6apzer2amzLHERJClFIqEKeKwgSBStZDHA9235fkymrtT604
+
+sprite $GooglePlusSquareLg [17x20/16z] dSb50aGX081GVjdA_KyxtRFpBO5_swSL_DQRSygU_J2uyWtyCgYErffs7a4JO0Qy8dfDztMraopilXt0xhpe3xfV3dwT0G
+
+!procedure GooglePlusSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/GooglePlusSquare', $name, $tech, $desc)
+!endprocedure

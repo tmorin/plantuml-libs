@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Exchange
+
+sprite $ExchangeXs [10x10/16z] Ou00PWOOuE1dOEQ70GPE202o8034G2XcXGaZT01LGFK05RD0P04
+
+sprite $ExchangeSm [12x12/16z] Ou01NWO4uETdO6240XP-Vbv-182hOUVdXBCXJ3uK0n1CHXZWGp8798vDFG
+
+sprite $ExchangeMd [16x16/16z] VSor0SG040CmFuH1-s-R9aog3fsT8GSTEK3Ixs1mbC_cJvETKzijxPW3FYzVw3VTw2Zux2HuoPy
+
+sprite $ExchangeLg [20x20/16z] PSg53S0m0CJ0BuUz_xOLXlx4bhMugWnWBO375z25gpY5k02ILiqJdZJIrRIx8MZr07PPkd0D9u2uU2JWrGwuFV9ezWC
+
+!procedure Exchange($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Exchange', $name, $tech, $desc)
+!endprocedure

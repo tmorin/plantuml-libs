@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/NonBinary
+
+sprite $NonBinaryXs [7x10/16z] NSN70O003090xDtRVrjvcm2NnDePeE8fhCh6a3pctHBf-LET7m
+
+sprite $NonBinarySm [9x12/16z] Om02VZu6C0K6C1QA22j83HEGmGGIWD1Ch40ML2-G1TR0m8LW8AIO-VcPGOe1
+
+sprite $NonBinaryMd [12x16/16z] NOw54S1020Glhh3zTvlXZx7i2ougWac3YmnMA7t1g9XBoyunTi_1V9Rkf5k6mTlgfXj2UeYE-XKROTs1d-wzRcvj3bWaP8x67m
+
+sprite $NonBinaryLg [15x20/16z] {
+ROu5aaKn20JXkVVzRxixKv5lNPQH065cYCh3zY_pPBUaSbdcZJbQsspngmodHi4frHSL1iHTr4bXbBeqD4TjouXqhNnnsESD0NkHVifgyWpOkZnqS9UZ1gmM
+9G0VcnIVWjm_
+}
+
+!procedure NonBinary($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/NonBinary', $name, $tech, $desc)
+!endprocedure

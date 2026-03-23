@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/SignLanguage
+
+sprite $SignLanguageXs [10x10/16z] FSd50S0W0CNGrBtPVreStkaBnK6ZSmzO0oj-BSiZLlNFQNR-_p-dY_4czrrJ1
+
+sprite $SignLanguageSm [12x12/16z] BSh50GH14CD0BGyh_sWFNPy6cxy3eZbcrh69sJVO3sd0UX3caKWdYb4nRnMN1XlxlX__7MRUC-Mytm
+
+sprite $SignLanguageMd [16x16/16z] JSor0S103C10XP-r_xHXkiPiNXC_rbb-ejXu3AAz0uyCTCqhmNOcdQ78hazK3M2LMz5AhqHVaIPTtdbXT2W7Bp07Vpfs_QvvkX-_U5GFFOVi_te3
+
+sprite $SignLanguageLg [20x20/16z] {
+PShL5KCn081GdiI5_QUjMqxlB_0ZmSgyELWfklEZdi66_bqqCrzb0n8AfRmlE04TA7VD3NM7xAcyTRL3K_c8weIfxFugxChc0fI7Rzan3LUPnZuVV2lSxNVH
+bm1mkE3XE6-gJvMdN6iTomP-H1wk
+}
+
+!procedure SignLanguage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SignLanguage', $name, $tech, $desc)
+!endprocedure

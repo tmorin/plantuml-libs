@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/SignOutAlt
+
+sprite $SignOutAltXs [10x10/16z] Oq00Vdv-28C7GlE3XA0oO1O_532mGMYu63jC7Ji3EpyR6v35ZcmU
+
+sprite $SignOutAltSm [12x12/16z] JOo30S0m401hDxV_jE7htfmY3o3folyTDLxLjCaVSbBF4vtKSepsgdFu_k6tUtFjW_AdKx82
+
+sprite $SignOutAltMd [16x16/16z] PSw50O0W00H0fVltdvPkNecZloSg1BSH9OiQWP2_hlDjclGP3tyPOTXvdra6gYrMYjrbDI7wUOGGNxYVNvXDftckAU2SBVxPMBQ__qu2
+
+sprite $SignOutAltLg [20x20/16z] XT250SGm30H1XStNVxLca1utF67Jv_RZEAJSA3bXg2agROqSmC-tZJJ_RZbcMwcOdmPMjukRRtQ3rsm7wsf6Uj7p_YqNlTb3RtQLpGEu-xwxFNqhnugXfZyb
+
+!procedure SignOutAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SignOutAlt', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Duolingo
+
+sprite $DuolingoXs [11x10/16z] JSP50G0n00InEOR2-bTRfhn2uIG0emA1chLcx3b7uHtDwiQf5KK4
+
+sprite $DuolingoSm [13x12/16z] RSV50OK000KWVeVnzf_MRkM6qJyng8f_EdyLTHQKsyWbpsqKcPLmoyWNfFSIWrVrPKnYr08
+
+sprite $DuolingoMd [17x16/16z] RS_50S0W5C3GrBtPVzgw0ky6txdLAX-JcmvQm1Vw_p3zCVy_ihpt8_CleumwZE47nHnyVBCohgyhgM7sSzeCwFNchzUCome
+
+sprite $DuolingoLg [22x20/16z] {
+RSw50SCm3031RvX__sbB0UEPKO9WLoNL-DS03S2gmGeAj2OM5HWi08q500jdHfbsjJHYQO6kkijghWUOp71gvztWW8QJ0IYdLyYLJhaTztCEDuAcQSvnXPFs
+bDILu0C
+}
+
+!procedure Duolingo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Duolingo', $name, $tech, $desc)
+!endprocedure

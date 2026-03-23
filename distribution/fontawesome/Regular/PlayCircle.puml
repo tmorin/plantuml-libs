@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/PlayCircle
+
+sprite $PlayCircleXs [10x10/16z] HSUt0O000C0WxDty_wsZRC3H2cgoTT0DMaJGCL4dXVIurkql5-G8XAMkuWC
+
+sprite $PlayCircleSm [12x12/16z] 9Og74S0m38G-lShilst22JV4EV9mfe4w2bIso4lKfYeaMyyyzVi0dKEF0wSTNdlGatQJ-9jg7Tu5OFq
+
+sprite $PlayCircleMd [16x16/16z] {
+FOw54G0X40CFTz9_jp-v3BzO5ZUd7AnWZmFHf2zi7EdRbx2vsNuAWlbcxYGN1Jg3mJ7ZoFb6q8BSfYSiUGQMXo37DT9XsFHa3gvLpsB3Vrz-hHfkzhDK4a1q
+vGS
+}
+
+sprite $PlayCircleLg [20x20/16z] {
+NSq5WiCm4C10XT6h_x_shhNN9OKd1h8Zl5S-MipAGAR616pgqUac6_Nye4mNM99wsYwudTDsTmo0UE-fXrEQdcaXpLZL0IXgDnOjmENTRGZTs-lgrjSBQegc
+ZOq62wL-B1Uj-Zqe7sqA7FfBSEgUQnNxiejgkK8LUhjMRuF-0G
+}
+
+!procedure PlayCircle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/PlayCircle', $name, $tech, $desc)
+!endprocedure

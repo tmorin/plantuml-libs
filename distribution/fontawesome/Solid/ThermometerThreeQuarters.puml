@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ThermometerThreeQuarters
+
+sprite $ThermometerThreeQuartersXs [6x10/16z] Os1Wu6S04Vpy2981JZA1INuW2UVoWDZSG9MC
+
+sprite $ThermometerThreeQuartersSm [7x12/16z] PSkd0S0m4C10FKfSjV-qhj3eq07r1r3xnKsvH7tGA8eLDkLYRdPkdm
+
+sprite $ThermometerThreeQuartersMd [9x16/16z] VOp50K0X34F3LxpxJri_yv1g0cKDEAHOt9OysQ3koRyomNjA9j0zeQADQjqDTxtrz-JpPAEOzKL6jYqA
+
+sprite $ThermometerThreeQuartersLg [12x20/16z] bKx50O0m40jGj-m_RTs-LCyYQCjJOQoF9DE8sPUxudJ5d74K9_xm8twlc3EEpGlvmFQtFu0ZtOKAArQj7bjXChpaCUTd-CpHpeu2
+
+!procedure ThermometerThreeQuarters($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ThermometerThreeQuarters', $name, $tech, $desc)
+!endprocedure

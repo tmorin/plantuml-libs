@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/Camera
+
+sprite $CameraXs [10x10/16z] DSc75O0W5CNGsBlPVre5tk72xqHOdAd9KYp09OmkfXDuqaqujWvzSuqBkny
+
+sprite $CameraSm [12x12/16z] POc50G0X30FJTytjF-sxma7RY1BOyA72q-xhK0CyPRjTirU7fXVphRLFhdiWJhsngKrFhc_Gu9jc1G
+
+sprite $CameraMd [16x16/16z] NSc55G0X40FHd2j9_zNYFkX_YrPhCoHDvQfKnFd_8aBY_ord7M2NAfvlHoXvKQWvNKzp697DHxYQZHRSsgf1IG-QWGLeRWaQmvG3
+
+sprite $CameraLg [20x20/16z] {
+TSu50eKW403H1Jld_gVziNID_LH0nasQpGdVcUZaqk_0-ET_ebd-cTLTn7NX4fTTaZkR0Tx2B9pB2xcv4M_ctDnlFBdXx2viqhCDvl0-NlqrcQdNujGKQowx
+sE0j0xcfcwNJ5m
+}
+
+!procedure Camera($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Camera', $name, $tech, $desc)
+!endprocedure

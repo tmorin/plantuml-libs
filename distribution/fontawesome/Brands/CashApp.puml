@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/CashApp
+
+sprite $CashAppXs [8x10/16z] Ou01VWZW068O4oe8a-A2ylc08a22dnd4PO5ACl22ANO
+
+sprite $CashAppSm [10x12/16z] HOg50S0m3CCqvlN_Qmj1XMEJd4MPACutsZRPnSocxtJCs7wKmY_RYlpUNggb6vw_yzqq
+
+sprite $CashAppMd [14x16/16z] NOo50KGX3CM2Ezr_sdDv_DIL2sck_MGDm8IUJ5dla6IdeYSKCwbeSho1O4BalpYNV77WNibyERvRfXo_7GTt
+
+sprite $CashAppLg [17x20/16z] ROw50KGX3CNo5UVjF-tvuS6bQM5cFmeRiAi3r1EjVkJqNTFwRsQmWVKxPd3dxWTd7DB3fOu0Ad0FUO4DJgce7V2JVfT4gUhK05aT5tG5dKmy0G
+
+!procedure CashApp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/CashApp', $name, $tech, $desc)
+!endprocedure

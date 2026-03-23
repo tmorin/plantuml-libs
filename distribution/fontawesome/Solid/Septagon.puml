@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Septagon
+
+sprite $SeptagonXs [11x10/16z] Om02VY1WW34W77uOO48m-KbWyY8P1WGm5W
+
+sprite $SeptagonSm [13x12/16z] ZSUn0K1050N1uJBm-wyMm1FQQ0VwskFTXrNH67GgZL_KFom4Q7dCrpSs
+
+sprite $SeptagonMd [17x16/16z] ZSZ50O100CJ0uCxsNoskv_DBE6WtSTDjFBBNHmxenp4QS-YlDCU430cZDHecVTG0dvxXV-3GV7i5
+
+sprite $SeptagonLg [22x20/16z] RT2r0SLG5CDGXHzx_sa_OwvFgL8yRNgQ-DhrqMUU3ltZRfLCLZ3RMcmLBBOMHHD3qOwCXXnyxOesKD21IIV3FtkgvpTFfpKnD-wk
+
+!procedure Septagon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Septagon', $name, $tech, $desc)
+!endprocedure

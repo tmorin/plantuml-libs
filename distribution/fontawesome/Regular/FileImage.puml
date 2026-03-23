@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Regular/FileImage
 
-sprite $FileImageXs [7x10/16z] 7OM50S0m48IeUzb_shoS06RW1tQnPOdhRR68jC3IPylCydntnW
+sprite $FileImageXs [7x10/16z] 5SM50G0n5CBGd6kR_QVz2ZpK0oRWWyNfqNZQS3nYkGbUpQgDEhTll7Kc
 
-sprite $FileImageSm [9x12/16z] JSY54G0n3CJ0UuQ0-gysJ0funxAa3idwvtbU7gMRWgU3ZDoAZRcXWfyhuo2LSJqfSTEA
+sprite $FileImageSm [9x12/16z] BSQn0G0G0C2mJW3w_xM0JA6f6MWZnkO08yJX-C5nWiV9VTGVCBu4VL6zYJ4637uB
 
-sprite $FileImageMd [12x16/16z] HSsr0SK058NG-oKkx3zjXCYZEXrfiLyYhKiWPmjqPUXkprZiy_deExsK9yfMXiSCC6i_yDFOgfy8rGu
+sprite $FileImageMd [12x16/16z] HSQr0S0m00In3yTu-qzh1bNIItMggAt-Sb21vry_BD_yASi_ZlVGBpgvMqqzx1T-7y9y09x-dwh_Pdz2R1a
 
-sprite $FileImageLg [15x20/16z] RSx50S0m4CJ03NFKVxK1C-atnbD_OnlqrHDQFjvqCW6h10faJMYSaq1jstORXlOMT_gKiAJirkekI-Ig4phF4PCdjjromrMFSN3l8T1DqlO2
+sprite $FileImageLg [15x20/16z] {
+JSc54KD1201HmdTZ--ysWvpiwHj43U-JI6ajJkEN3_41IUunxvJDvuDkBRuy-tv3KQYAejkslKxbaknsNZ1JpfzefxyxJ5J01l6UHYDQYcHRiNVpO7SFn9Yw
+_W
+}
 
 !procedure FileImage($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Regular/FileImage', $name, $tech, $desc)

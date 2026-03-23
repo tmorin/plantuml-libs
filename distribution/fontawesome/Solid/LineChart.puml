@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/LineChart
+
+sprite $LineChartXs [10x10/16z] Ou03NduOYn_6uWEnM86OduMV7yW00cQGB4Y46OYHT21COOC2e20K
+
+sprite $LineChartSm [12x12/16z] Oq02xFm8DZysDXC_3vWD91Y16CJc1mEm49G24omup843Ldu4O63bWmC
+
+sprite $LineChartMd [16x16/16z] VSsr0S0m3011sLNuzfyspFJ6gnJtcYl9FwulpgnEp5UrEC7CnLJCd3t_5ixkoh_v_wvqpQawN8jR0m
+
+sprite $LineChartLg [20x20/16z] fSu35i0m44NHEDNqxN-rjOqVtnEfezWz2UoC9qQvDGDCvliHSACve52cey4yOso_kT-bXMvNR-DcwNRDrisZEVhVVnC8cnZ5FieTs45g
+
+!procedure LineChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/LineChart', $name, $tech, $desc)
+!endprocedure

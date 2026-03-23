@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element Temperature4
+include('fontawesome/Solid/Temperature4')
+
+' renders the element
+Temperature4('Temperature4', 'Temperature4', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/Edit
+
+sprite $EditXs [10x10/16z] DSR50G0X0C2mdYjq_sbnyWh3FUCknlYYA80hFiuWX9OwQsmJQ6i4t-gJ3
+
+sprite $EditSm [12x12/16z] HSR50O0m0C30u4xsdnRglTVHx6sphwZUeIFU3y3YwADRAZpYrfekl5AUQloX3-M5l4S_LXi_
+
+sprite $EditMd [16x16/16z] TStL0KKX30JHlMx0z5yjjizb_WwIwBLZUDKCxD8PQfrH1wBNoA65W7eByU0YmfrIfS1C7c2FZLEZ3UR3YndiaGi_jgl2f8VT7syC3nxUzMoN2W
+
+sprite $EditLg [20x20/16z] {
+PS-54GGX44JHNdT-_j6kCNBIfRnYJ3-PnryP0FweNodggAdKII2Wt5bVeZosqsTXLoWmHCiUMkccHH3KIO9PRiFxIy-liFmLTiIlDF1VRMElXbrB_SLHhPx9
+Upt5R0DVFKnDXJHFs4x-iMaIx6jag-SCVAGUSW4
+}
+
+!procedure Edit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Edit', $name, $tech, $desc)
+!endprocedure

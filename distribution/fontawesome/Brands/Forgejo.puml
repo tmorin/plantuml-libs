@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Forgejo
+
+sprite $ForgejoXs [6x10/16z] Om017WO6Vdv-4C70pi_03nRZPuQ8iF12HI0aCpyBcCa3904
+
+sprite $ForgejoSm [7x12/16z] HOg30G0n34M3C_hsdxP6-2Mb_Cu7_htSbo1vIf7t_OKT7Yq10-4Rtdh1wd-V-X8
+
+sprite $ForgejoMd [9x16/16z] TSQr0S0m44Mn7pE__QSrN1zLaipmkiga8dakDGc2-YkVpFqLlXUVrqGOrPVk9jnucVkVr4Mny6bQF7ZB0G
+
+sprite $ForgejoLg [12x20/16z] RSk50SGW5C3Gr0NusN_QAkUN2W_ZqP8hsYuCJta6FkZKUh61IHFDoSTzvT5gEeTHCydKgVPu-8w7-xRevOcZVkOqZvBvpUcVExMlDf7Bmq4yBgC-k0C
+
+!procedure Forgejo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Forgejo', $name, $tech, $desc)
+!endprocedure

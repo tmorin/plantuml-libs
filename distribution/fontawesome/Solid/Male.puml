@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Male
+
+sprite $MaleXs [7x10/16z] LOV50O10082mM_QVrhpy48125c4KpbSZhehmgdjq2BLk
+
+sprite $MaleSm [9x12/16z] RSYr0O1040319S5X-w_sDNcRymCsfL9wdru0PZTS5k1jmKSPF_L7vh5U8W
+
+sprite $MaleMd [12x16/16z] dSYr0OG000F0l0jo-q-BfQNYcaWsDoHrRw_1CoSc_5g1iMyzanSguGR-n2yWPDDUv59V0G
+
+sprite $MaleLg [15x20/16z] hSgr0SGm0CLGXSoszf_scA7BwpvmDgdoiBn7rCoBUUAlxklRgt5DmvjuVJvCiEhm3bIyMBHDEjyYHLacxf6D2yr3kLFoxl48
+
+!procedure Male($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Male', $name, $tech, $desc)
+!endprocedure

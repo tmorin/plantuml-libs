@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element DriversLicense
+include('fontawesome/Regular/DriversLicense')
+
+' renders the element
+DriversLicense('DriversLicense', 'Drivers License', 'an optional tech label', 'an optional description')
+@enduml

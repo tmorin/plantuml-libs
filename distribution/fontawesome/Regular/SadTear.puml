@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/SadTear
+
+sprite $SadTearXs [10x10/16z] BSS50G0n4CJ0F4CX_jMMvt1fFcywFNZym3ZpXKn-1vwOKPPmF_XUWhtM_NOwWKk3GWK
+
+sprite $SadTearSm [12x12/16z] FSR50SCm50KmXSdVR_zfourE0bTsG59R9P05jDobIbWmawi8SqXsVzaxCIo8k58gH1R181iPGJfKtZQU
+
+sprite $SadTearMd [16x16/16z] {
+JOi54e103CGMrpR__ospnIvmdgYOWgFJIt2pg7Wt9t4VNs_WjAoFYKvlLIGJRq9A8wMpUTezWLeuSBPyvmvNs9ob5H4wVEvFHf6QaVAmk-fq7F76fnClCSgj
+ZwQZIEyl
+}
+
+sprite $SadTearLg [20x20/16z] {
+NT05ZaGX403H-YxGrFrFkzAG2Pc7kp0ypNeoEHnYOL3R1bpgGzBAiEexTtLwm65bfZtDRczim1i0PnwhZrkMU-Qjvm9SBy2IUQXyATO-B_Xedbw0tXnzKnI5
+LmKrO348rz6NqxEzMCdAluTB_yjiTwCBNj-5j8IkqvT6QQhpmrFqIRy
+}
+
+!procedure SadTear($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/SadTear', $name, $tech, $desc)
+!endprocedure

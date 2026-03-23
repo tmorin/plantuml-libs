@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Pisces
+
+sprite $PiscesXs [8x10/16z] 7Sd50OK0040XVjg-_QUrk687aq8RyGhD-a9Yx_6ae54BGZIZJW
+
+sprite $PiscesSm [10x12/16z] DSp55OK00C2mV5Ve_jFYzFKS7-1EWJuqed2FIw2xCLmk_TSlOsVegn5qyGk-eTDK56YO0G
+
+sprite $PiscesMd [14x16/16z] LKs50GGn38BsjGBxJ_kIz8ou0ama8XiM4dQurohwtiCz0vhVqUFbu7J-Y0L8ijCqvJD0KYxiVfBxNNL7W9UVSWr_-nVLNXlfIwpqVpcIDY-_
+
+sprite $PiscesLg [17x20/16z] {
+NOy52WH130HxTNpg_x-zImXh1SHL6hikUf9ss2uV967IEQ5BMc38WUcwm6AwNgNGN54Ya3srcmpS7A_0QQBB2z_CoGVbKWfq4-Dl7Z5ZboOesE1vrxKm3dRh
+UBvoDP-mn-6d73opnlTNP3KHxA0V
+}
+
+!procedure Pisces($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Pisces', $name, $tech, $desc)
+!endprocedure

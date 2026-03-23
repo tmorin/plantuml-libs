@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome/bootstrap')
+
+' loads the Item which embeds the element ClockFour
+include('fontawesome/Regular/ClockFour')
+
+' renders the element
+ClockFour('ClockFour', 'Clock Four', 'an optional tech label', 'an optional description')
+@enduml
