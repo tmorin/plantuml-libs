@@ -1,176 +1,184 @@
 # How to upgrade the Simple Icons package
 
-This guide provides concrete, step-by-step instructions to upgrade the Simple Icons package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and is designed for AI agents to execute.
+This guide provides concrete, step-by-step instructions to upgrade the Simple Icons package in the plantuml-libs repository. It follows the [Diátaxis How-to Guide](https://diataxis.fr/how-to-guides/) style and is designed for AI agents to execute autonomously.
 
-## Prerequisites & Tool Selection
+## Prerequisites
 
-This guide assumes an AI agent has access to:
-- **Primary**: GitHub MCP server (via `github-mcp-server-*` tools) - **Use this when available**
-- **Fallback**: GitHub CLI `gh` command (when MCP is unavailable)
-- **Required**: [Node.js 22+](https://nodejs.org/) is installed
+- [Node.js 22+](https://nodejs.org/) installed
+- Git and GitHub CLI (`gh`) installed
+- Write access to the repository
 
 ## Notes
 
-- Ignore the following directories as they are generated and should not be modified directly:
-  - `./.workdir`
-  - `./distribution`
-  - `./public`
+Do not modify these directories directly—they are generated:
+- `./.workdir`
+- `./distribution`
+- `./public`
 
 ## Steps
 
-### 1. Check the Simple Icons source
-- Visit [Simple Icons Releases](https://github.com/simple-icons/simple-icons/releases) to check for the latest release.
-- The Simple Icons package fetches from GitHub releases: `https://github.com/simple-icons/simple-icons/archive/{VERSION}.zip`
-- Note the latest version number (e.g., `8.16.0`).
+### 1. Create a feature branch
 
-### 2. Create a new branch
-**Primary (MCP)**: Use `github-mcp-server-create_branch`
-```
-create_branch(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-simpleicons-<new-version>", from_branch="master")
-```
-
-**Fallback (CLI)**:
 ```bash
 git checkout master
 git pull
-git checkout -b feat/upgrade-simpleicons-<new-version>
+git checkout -b feat/upgrade-simpleicons-icons
 ```
 
-### 3. Update the Simple Icons package
-- Open `source/library/packages/simpleicons/index.ts`.
-- Update the `ICONS_VERSION` constant to the new version.
-- The `ICONS_URL` will automatically use the new version from the constant.
-- No other changes to factory logic typically needed unless the icon directory structure has changed.
-- Review `source/templates/simpleicons/bootstrap.tera` to ensure compatibility with current Simple Icons.
-- Note: Simple Icons package does **not** use example templates, so there is no `examples/` directory for this package.
+### 2. Check for new Simple Icons releases
+
+Simple Icons is published on [GitHub Releases](https://github.com/simple-icons/simple-icons/releases). Check if a new release is available.
+
+The package fetches from: `https://github.com/simple-icons/simple-icons/archive/{VERSION}.zip`
+
+Proceed to Step 3. If new icons have been released, the workdir generation in Step 4 will detect the changes.
+
+### 3. Update the Simple Icons package source
+
+Edit `source/library/packages/simpleicons/index.ts`:
+
+1. Update line 13 with the new version number from the GitHub release:
+   ```typescript
+   const ICONS_VERSION = "<new-version>"
+   ```
+
+2. Line 14 automatically uses the new version:
+   ```typescript
+   const ICONS_URL = `https://github.com/simple-icons/simple-icons/archive/${ICONS_VERSION}.zip`
+   ```
+
+3. If the icon directory structure has changed:
+   - Update the `discover()` method's glob pattern if SVG paths have changed
+   - Update the `getItemUrn()` method's path parsing if folder names differ
+
+4. Review templates in `source/templates/simpleicons/`:
+   - `source/templates/simpleicons/bootstrap.tera` - main template definitions
+   - `source/templates/simpleicons/documentation.tera` - documentation template
+   - Ensure all `.tera` files reference icon paths that match the new structure
 
 ### 4. Generate the work directory
+
+Validate your changes by generating the work directory:
+
 ```bash
 npm run generate:workdir -- -p simpleicons
 ```
-- Check `.workdir/library.yaml` and ensure the Simple Icons package appears with correct modules and items.
-- Inspect `.workdir/.cache/simpleicons` to ensure all expected icons are present.
-- Verify the number of items in the modules against the previous version.
+
+Check the output:
+- `.workdir/library.yaml` should list the `simpleicons` package with correct modules
+- `.workdir/.cache/simpleicons` should contain all expected icon modules
+- Verify the number of items against the previous version (changes indicate new/updated icons)
 
 ### 5. Commit and push the branch
-**Primary (MCP)**: Use `github-mcp-server-push_files`
-```
-push_files(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-simpleicons-<new-version>", 
-  files=[...], message="feat(simpleicons): upgrade to <new-version> icons\n\nUpdated Simple Icons package with latest icons from the official repository.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>")
-```
 
-**Fallback (CLI)**:
 ```bash
 git add .
-git commit -m "feat(simpleicons): upgrade to <new-version> icons
+git commit -m "feat(simpleicons): update icons from Simple Icons
 
-Updated Simple Icons package with latest icons from the official repository."
-git push --set-upstream origin feat/upgrade-simpleicons-<new-version>
+Updated Simple Icons package with latest available icons from the official repository.
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
+
+git push -u origin feat/upgrade-simpleicons-icons
 ```
 
 ### 6. Trigger the Package Builder pipeline
+
+Run the pipeline to generate distribution files:
+
 ```bash
-gh workflow run package-builder.yaml -f pkgName=simpleicons -f pkgVersion=<new-version> --ref feat/upgrade-simpleicons-<new-version>
+gh workflow run package-builder.yaml \
+  -f pkgName=simpleicons \
+  -f pkgVersion=latest \
+  --ref feat/upgrade-simpleicons-icons
 ```
 
 The pipeline will:
 1. Generate the work directory
-2. Render all PlantUML diagrams and examples
+2. Render all PlantUML diagrams
 3. Push generated distribution files back to the branch
 
-Processing can take several minutes.
+Processing typically takes several minutes. Monitor the run at the GitHub Actions tab.
 
-### 7. Review the pipeline output and logs
-- Ensure the pipeline completes without errors.
-- If the pipeline fails, fix issues locally and use `git push --force` to update the branch.
+### 7. Pull the generated changes
 
-### 8. Pull the branch locally
-**Primary (MCP)**: Verify changes via `github-mcp-server-get_commit`
+Once the pipeline completes, pull the generated files:
 
-**Fallback (CLI)**:
 ```bash
-git pull origin feat/upgrade-simpleicons-<new-version>
-```
-If the pull fails due to conflicts, perform a rebase and resolve conflicts.
-
-### 9. Verify rendered outputs
-- Inspect the generated files in `distribution/simpleicons`.
-- Open the images and PlantUML files to verify correct rendering.
-
-### 10. Update README
-- Update `distribution/simpleicons/README.md` to reflect any changes to the icon library.
-
-### 11. Create a pull request
-**Primary (MCP)**: Use `github-mcp-server-create_pull_request`
-```
-create_pull_request(owner="tmorin", repo="plantuml-libs", 
-  title="feat(simpleicons): upgrade to <new-version>", 
-  head="feat/upgrade-simpleicons-<new-version>", 
-  base="master",
-  body="...")
+git pull origin feat/upgrade-simpleicons-icons
 ```
 
-**Fallback (CLI)**:
+### 8. Verify the outputs
+
+Inspect the generated files:
+
 ```bash
-gh pr create --title "feat(simpleicons): upgrade to <new-version>" --base master
+ls -la distribution/simpleicons/
 ```
 
----
+Verify:
+- All icon modules render correctly as PlantUML files
+- `distribution/simpleicons/README.md` - auto-generated with updated icon counts
 
-## Lessons Learned
+### 9. Create a pull request
 
-### Workflow Design and Idempotency
-- The package upgrade workflow is designed to be **idempotent** - running it multiple times produces the same result.
-- The process is structured to be **small and reviewable**: each step builds on the previous one with clear validation points.
-- **Key validation point**: Workdir generation (`npm run generate:workdir`) is the most critical step as it validates icon discovery, factory logic, and template rendering before the pipeline executes.
-
-### Simple Icons Specifics
-- Unlike versioned packages like AWS, the Simple Icons package does not require renaming or class changes.
-- Only the version constant needs updating - the factory class name (`SimpleiconsFactory`) and URLs remain stable.
-- The package organizes icons by their first character (e.g., `simpleicons/a`, `simpleicons/b`), which is handled automatically by the factory.
-
-### Common Troubleshooting Patterns
-- **Template-related failures** are common pipeline issues for some packages (missing files, broken references), but **do not apply to Simple Icons** as it does not use example templates.
-- **URL validation**: Ensure the GitHub release archive exists before running the pipeline.
-- **Icon count changes**: Small variations in icon count between versions are normal as Simple Icons adds/updates icons regularly.
-
-### Pipeline Lifecycle
-- The pipeline may create commits for generated distribution files. This is expected behavior when there are changes.
-- Pipeline failures can be legitimate (errors to fix) or expected (e.g., no changes available).
-- Always review pipeline logs carefully to distinguish between actionable errors and expected outcomes.
-
-### Cross-Package Lessons
-- For comparison on versioned packages (like AWS), see [howto.upgrade-aws-package.md](./howto.upgrade-aws-package.md).
-- For comparison on non-versioned packages with custom structures (like GCP), see [howto.upgrade-gcp-package.md](./howto.upgrade-gcp-package.md).
+```bash
+gh pr create \
+  --title "feat(simpleicons): update icons" \
+  --body "Updated Simple Icons package with latest available icons from the official repository." \
+  --base master
+```
 
 ---
 
 ## Troubleshooting
 
 ### Pipeline fails with "unable to render" error
-- **Cause**: For the Simple Icons package, this error is usually **not** caused by example templates, because the factory returns `examples: []` and no example templates are used. The error may instead come from another package in the pipeline, or from invalid PlantUML generated for Simple Icons.
-- **Solution**: First, inspect the pipeline logs to confirm which package is failing. If another package is failing, refer to that package's upgrade guide and its template directory. If the failure is within Simple Icons, look for issues such as invalid PlantUML syntax, corrupted or missing sprite files, or mismatches between generated resources and the manifest.
+
+**Cause**: Invalid PlantUML syntax or mismatched sprite/manifest files (not template-related, as Simple Icons has no example templates).
+
+**Solution**:
+- Review pipeline logs to identify which package is failing
+- Check `source/library/packages/simpleicons/index.ts` for valid TypeScript syntax
+- Verify icon sprite files are correctly generated in `.workdir/.cache/simpleicons`
+- Ensure the manifest matches the generated sprite files
 
 ### Icon discovery fails or icon count is zero
-- **Cause**: The GitHub release structure may have changed, or the archive URL is invalid.
-- **Solution**: 
-  - Verify the release exists on GitHub
-  - Check that `ICONS_VERSION` is correctly set
-  - Verify the glob pattern in the factory matches the archive structure
 
-### TypeScript compilation errors
-- **Cause**: Factory file syntax or imports are broken.
-- **Solution**: 
-  - Ensure the factory file `source/library/packages/simpleicons/index.ts` has valid TypeScript syntax
-  - Verify all imports are correct
+**Cause**: GitHub release structure changed, archive URL is invalid, or glob pattern doesn't match new structure.
 
-### Pipeline creates a commit
-- If the Package Builder pipeline creates a commit, you may need to use `git pull` to sync or `git push --force` if you want to override.
+**Solution**:
+- Verify the release exists on [GitHub Releases](https://github.com/simple-icons/simple-icons/releases)
+- Check that `ICONS_VERSION` (line 13) is correctly set
+- Verify the glob pattern in the `discover()` method matches the new archive structure
+- Extract the archive locally and inspect the directory layout if needed
 
-### General issues
-- For more details on the build process, see [doc/howto.build-package.md](./howto.build-package.md) and [doc/explanation.package.md](./explanation.package.md).
-- If `.workdir/library.yaml` or `.workdir/.cache` do not match expectations, review your changes to sources and templates.
+### Icon count changes unexpectedly
+
+**Cause**: Simple Icons repository regularly adds/updates icons, or the icon structure has changed.
+
+**Solution**:
+- This is normal behavior as Simple Icons releases new icons regularly
+- Verify changes on the [Simple Icons GitHub repository](https://github.com/simple-icons/simple-icons)
+- Check `.workdir/library.yaml` to see which modules changed
+
+### Pipeline creates a commit but you want to override it
+
+If you need to force-push your changes:
+
+```bash
+git push -f origin feat/upgrade-simpleicons-icons
+```
+
+Then re-run the pipeline.
+
+### General debugging
+
+- Review the full build output in GitHub Actions for specific error messages
+- Check `.workdir/library.yaml` structure matches expectations
+- Verify TypeScript compilation: `npm run lint` should pass
+- For detailed build process information, see [doc/howto.build-package.md](./howto.build-package.md)
 
 ---
 
-This guide is intended to keep maintenance changes small, reviewable, and well-tested. For further details, consult the repository documentation.
+This guide keeps maintenance changes small, reviewable, and focused. Always validate locally before pushing to remote.
