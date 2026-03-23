@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureContainerStorageCard
+include('azure/Item/NewIcons/ServiceAzureContainerStorage')
+
+' renders the element
+ServiceAzureContainerStorageCard('ServiceAzureContainerStorageCard', 'Service Azure Container Storage Card', 'an optional description')
+@enduml

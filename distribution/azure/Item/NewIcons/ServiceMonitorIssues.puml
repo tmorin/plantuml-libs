@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/NewIcons/ServiceMonitorIssues
+
+sprite $ServiceMonitorIssuesXs [10x10/16z] HSh50G113090uh3zztikyua0Vdqvjvbt9US4O4aY2KGTbhaw-f0PH3xzGSqj1Ds07G
+
+sprite $ServiceMonitorIssuesSm [12x12/16z] LSpL0S1020FGd42W--_RStjVQF3GhfTfrB7NR4QThI9xBQIvEtCzaKe_WLeShvanEVACL1XoJs6xWzW2nwK
+
+sprite $ServiceMonitorIssuesMd [16x16/16z] XSV50SKW54N10poxwR_V6DzrTiDVSNLvvkNZyYd2vckNXykrgyEy7sgHiWh6y9CMfuMCozqSzmIBoMXEt1-MKFlpmYr23Qy7gFMdKxpO
+
+sprite $ServiceMonitorIssuesLg [20x20/16z] {
+ZS-53G1130D1XvFhl-1dnfL58pH-vrjoOsgpHTzYljZQPjateyPiLJaNjbXhDTQZvoXaKzKgFR8CKB4LZS1UuX1RKo1D2X1VqXw5iZTTpSGDaDoRAnmKrDlo
+eP-QUoPWSKoYe7cC4O6iVG50S5C7
+}
+
+!procedure ServiceMonitorIssues($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceMonitorIssues', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceMonitorIssuesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMonitorIssuesLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMonitorIssuesGroup($id, $name='Service Monitor Issues', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMonitorIssuesLg>', $name, $tech)
+!endprocedure

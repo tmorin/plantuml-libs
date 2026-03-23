@@ -1,0 +1,168 @@
+# ServiceWebsiteStaging
+
+
+```text
+azure/Item/General/ServiceWebsiteStaging
+```
+
+```text
+include('azure/Item/General/ServiceWebsiteStaging')
+```
+
+
+
+| Illustration | ServiceWebsiteStaging | ServiceWebsiteStagingCard | ServiceWebsiteStagingGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../azure/Item/General/ServiceWebsiteStaging.png) | ![illustration for ServiceWebsiteStaging](../../../azure/Item/General/ServiceWebsiteStaging.Local.png) | ![illustration for ServiceWebsiteStagingCard](../../../azure/Item/General/ServiceWebsiteStagingCard.Local.png) | ![illustration for ServiceWebsiteStagingGroup](../../../azure/Item/General/ServiceWebsiteStagingGroup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceWebsiteStagingXs>`
+- `<$ServiceWebsiteStagingSm>`
+- `<$ServiceWebsiteStagingMd>`
+- `<$ServiceWebsiteStagingLg>`
+
+
+
+
+
+## ServiceWebsiteStaging
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceWebsiteStaging
+include('azure/Item/General/ServiceWebsiteStaging')
+
+' renders the element
+ServiceWebsiteStaging('ServiceWebsiteStaging', 'Service Website Staging', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceWebsiteStaging
+include('azure/Item/General/ServiceWebsiteStaging')
+
+' renders the element
+ServiceWebsiteStaging('ServiceWebsiteStaging', 'Service Website Staging', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## ServiceWebsiteStagingCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceWebsiteStagingCard
+include('azure/Item/General/ServiceWebsiteStaging')
+
+' renders the element
+ServiceWebsiteStagingCard('ServiceWebsiteStagingCard', 'Service Website Staging Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceWebsiteStagingCard
+include('azure/Item/General/ServiceWebsiteStaging')
+
+' renders the element
+ServiceWebsiteStagingCard('ServiceWebsiteStagingCard', 'Service Website Staging Card', 'an optional description')
+@enduml
+```
+
+## ServiceWebsiteStagingGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceWebsiteStagingGroup
+include('azure/Item/General/ServiceWebsiteStaging')
+
+' renders the element
+ServiceWebsiteStagingGroup('ServiceWebsiteStagingGroup', 'Service Website Staging Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceWebsiteStagingGroup
+include('azure/Item/General/ServiceWebsiteStaging')
+
+' renders the element
+ServiceWebsiteStagingGroup('ServiceWebsiteStagingGroup', 'Service Website Staging Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

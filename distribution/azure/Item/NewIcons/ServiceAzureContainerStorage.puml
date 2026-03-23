@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/NewIcons/ServiceAzureContainerStorage
+
+sprite $ServiceAzureContainerStorageXs [10x10/16z] DOo30G1024N_6Uq_R-vbmkX8AbdfJJETk4V16j3itkkxTDwpP4E9sBRwa_-QUG4
+
+sprite $ServiceAzureContainerStorageSm [12x12/16z] JOq55W8n34IdZJ_kVrzYiFlRkA6vhTSzwn6bp_TTpfAa_kYju0h1tSp0wQLVWBe_F2Ao1Gg0QOy81XqjIeA5xaNo1G
+
+sprite $ServiceAzureContainerStorageMd [16x16/16z] LSY50S0W3031Zw7xxrkizkY5dIY_H7y37RO7BeZiT-Iy1QUofxhLQiyv1oEByUGodISCMIuZ1eHHELOMyTvhDS3uvq3umVFrH2JN97nIJdzV
+
+sprite $ServiceAzureContainerStorageLg [20x20/16z] {
+VP055aCX30HtOzZzxzlcaK-zWmyUN53mZgZfXmFuQjGa6nCKTCE5-sxukaNILVyihSA-PeHBEJC1-cYp9O2v9izEKX3bUW8XSX6V7S_Rrsnpt15i0llYeJMk
+KXodeK_6QWaZ00y3s_Cco_XHtcDA-nVJ6m
+}
+
+!procedure ServiceAzureContainerStorage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureContainerStorage', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureContainerStorageCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureContainerStorageLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureContainerStorageGroup($id, $name='Service Azure Container Storage', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureContainerStorageLg>', $name, $tech)
+!endprocedure

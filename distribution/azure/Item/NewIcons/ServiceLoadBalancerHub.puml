@@ -1,0 +1,27 @@
+' definition of the Item azure/Item/NewIcons/ServiceLoadBalancerHub
+
+sprite $ServiceLoadBalancerHubXs [10x10/16z] LSQ50S103090U0dG_GUkMmGElubqeR5qm6f3ti0jHYjl8XQGXgU0JXDmWcpOnfis73om0W
+
+sprite $ServiceLoadBalancerHubSm [12x12/16z] NOU50GDH348VgGJ-_lksvuR34-xlCR_gxp6rdRHTzdpobG6hcqZr6fGKsWh2Yg2J4CzpFYOfM0_x10_DzGS
+
+sprite $ServiceLoadBalancerHubMd [16x16/16z] {
+RSc50GGW34FHf4WJzX_usdF3_mF_XvGVcKFxFSbuWSJn1fPIeSo6Jag1eKNbDQS85P3QCCc0pqOzbf5cc73_ZteKXEiExTdPK0EsJbGr70UsEnz0p7lUGKLu
+XtjU
+}
+
+sprite $ServiceLoadBalancerHubLg [20x20/16z] {
+VSe50iCm34DHAp58kV-1v_5MKldtsTN8s2PLiRPg8fX_YWD0_ahICVl8hnHP5ODUHRwJamnqYD13Ii3pjtCWnKuQy7GBJSi0-lbWFLkB1lIObWgumd9D8u5Q
+C6F7alLc9tRgrIf9RaKMrx37kBg5INgffvHWKtgfj-oxdkeh0_LIlxBLPhC-wGO
+}
+
+!procedure ServiceLoadBalancerHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceLoadBalancerHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceLoadBalancerHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLoadBalancerHubLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLoadBalancerHubGroup($id, $name='Service Load Balancer Hub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLoadBalancerHubLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure/Item/NewIcons/ServicePlanetaryComputerPro
+
+sprite $ServicePlanetaryComputerProXs [10x10/16z] FSgv0KCX500Wr7Vklt2gV6hyNQWgyBBLpQ51qzcPLT46AhMEgeY9xoLJkVQEwzbT_
+
+sprite $ServicePlanetaryComputerProSm [12x12/16z] NSQtWG0W400Wr8lx3_ovUYhybrNQ_LjbMV8-v2dqw_UEE9ohgUSymUKLvLoASOAJeMfgkEy5-ZHfUcqFNeRTXKy
+
+sprite $ServicePlanetaryComputerProMd [16x16/16z] {
+LOS55W9G2C16W_S_iFwmHkoDFvIBg42N3el8V6q2kolIaFJ4RQLIIuWkUw89c4ifqBMHYBHQ3Kk6msq4oFnqk02tnoE3FW2K840aMK2BCTlImC1aEp8s0XB0
+pDHCitXq1rWOcoS
+}
+
+sprite $ServicePlanetaryComputerProLg [20x20/16z] {
+NSh50GCW30302n1X_u7hhnuIzI-MFpdT0pZrbXOkY7gHLRKv1RjpD-giIWFHIoLs2ntGJOEcDqJ_b50xDxepto-ZglQfnYJPK8hLc8C5LKdyzjGfYFFRwpbA
+nJcdvvmQHExAEdj-4h89CEH0vTgci4VCHewwUIvkhJjmiU-zxz6z2QlPp7qRu5rLGF3p1
+}
+
+!procedure ServicePlanetaryComputerPro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServicePlanetaryComputerPro', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePlanetaryComputerProCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePlanetaryComputerProLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServicePlanetaryComputerProGroup($id, $name='Service Planetary Computer Pro', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePlanetaryComputerProLg>', $name, $tech)
+!endprocedure

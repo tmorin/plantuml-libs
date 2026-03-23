@@ -1,0 +1,27 @@
+' definition of the Item azure/Item/NewIcons/ServiceNetworkFoundationHub
+
+sprite $ServiceNetworkFoundationHubXs [10x10/16z] BSQn0G0G0C0mWDR__m8o9IJm2Aa_OEyjniXP8nBp7l7Poq0ZxQL7eMLprg7c4uFVM
+
+sprite $ServiceNetworkFoundationHubSm [12x12/16z] DSc70K0H34LHaNQV_VVzbKFw681UF6t_GFJ3BNYeEzmm-m-HJM0WF6U-McBYG54IENz8u8r2BYs4kvw_qUWnbevr0m
+
+sprite $ServiceNetworkFoundationHubMd [16x16/16z] {
+LSY50G0X34DHgadOVzzp_UZh64rILp66m3UfSNSD2A1jAnwdUT7AS9ZjD181E-tkTXphq-maQMHmdgxDJheETsKt79sRnSpogeeE76Om95IdDBU169dQpsOT
+8QEetQ5VSsX-onK
+}
+
+sprite $ServiceNetworkFoundationHubLg [20x20/16z] {
+PSi53WH024DHd7RkV-0TM_yXza9532loLYBI-8bcwCysubfbv9sGsA8x-x3Gr8QRQrz3AK81A5ot4T0eowhId7Uiz3DWJ4i33BCCmAxvjNfRVVoraTCcV7RD
+4r4alUcu1gzoifsUd3Q8oHvUZ9XqR5U-0hSr_neo_eXYuoVA0m
+}
+
+!procedure ServiceNetworkFoundationHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceNetworkFoundationHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceNetworkFoundationHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceNetworkFoundationHubLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceNetworkFoundationHubGroup($id, $name='Service Network Foundation Hub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceNetworkFoundationHubLg>', $name, $tech)
+!endprocedure

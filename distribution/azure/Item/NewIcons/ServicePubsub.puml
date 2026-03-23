@@ -1,0 +1,27 @@
+' definition of the Item azure/Item/NewIcons/ServicePubsub
+
+sprite $ServicePubsubXs [10x10/16z] 5Ok50G0m3CBelFd_u47gWewP9o0nC4VIi8bJLGpcuBWeLmyQTfCTGr6W_4L154a7Cv8-
+
+sprite $ServicePubsubSm [12x12/16z] 9Oe93W112C8G4m_-_-2LdSvfKvJ9-X6neamHmFqRfS91C29KIuQRkKRtmUkJXBUnlmtxKiVBzlv0tv-0VTflsXlAV
+
+sprite $ServicePubsubMd [16x16/16z] {
+NSm75aGX24FH43q2sV-2Hs3w-_NQSAOrdtsaE2bHqn5kMKxFwoYRc_lzNdkR8CtiEktceXGxhfLxEU9pdfnAcAP56aZ2sCsyH8IgjnCnJY2k5G3BtbzA0Cf9
+UdjpbITgsdz-
+}
+
+sprite $ServicePubsubLg [20x20/16z] {
+PStN0SKm24DH2HU2zjytJSwhz_FO0CPqeyrL34crIShGqvHmLj-6Erj3kwniGKGGmFon87cPUBTc8tHPnHd6zrr5QAAzRMGccTd0V6hNuBqUZDMQbP8OSc-B
+QRJHfXDdsHh0spG0RBVXp3O1ZDiwILkHz3zbogQQ9vtcR2x-hGu
+}
+
+!procedure ServicePubsub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServicePubsub', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePubsubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePubsubLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServicePubsubGroup($id, $name='Service Pubsub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePubsubLg>', $name, $tech)
+!endprocedure

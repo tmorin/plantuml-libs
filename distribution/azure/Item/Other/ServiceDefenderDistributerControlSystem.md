@@ -1,0 +1,168 @@
+# ServiceDefenderDistributerControlSystem
+
+
+```text
+azure/Item/Other/ServiceDefenderDistributerControlSystem
+```
+
+```text
+include('azure/Item/Other/ServiceDefenderDistributerControlSystem')
+```
+
+
+
+| Illustration | ServiceDefenderDistributerControlSystem | ServiceDefenderDistributerControlSystemCard | ServiceDefenderDistributerControlSystemGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../azure/Item/Other/ServiceDefenderDistributerControlSystem.png) | ![illustration for ServiceDefenderDistributerControlSystem](../../../azure/Item/Other/ServiceDefenderDistributerControlSystem.Local.png) | ![illustration for ServiceDefenderDistributerControlSystemCard](../../../azure/Item/Other/ServiceDefenderDistributerControlSystemCard.Local.png) | ![illustration for ServiceDefenderDistributerControlSystemGroup](../../../azure/Item/Other/ServiceDefenderDistributerControlSystemGroup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDefenderDistributerControlSystemXs>`
+- `<$ServiceDefenderDistributerControlSystemSm>`
+- `<$ServiceDefenderDistributerControlSystemMd>`
+- `<$ServiceDefenderDistributerControlSystemLg>`
+
+
+
+
+
+## ServiceDefenderDistributerControlSystem
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceDefenderDistributerControlSystem
+include('azure/Item/Other/ServiceDefenderDistributerControlSystem')
+
+' renders the element
+ServiceDefenderDistributerControlSystem('ServiceDefenderDistributerControlSystem', 'Service Defender Distributer Control System', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceDefenderDistributerControlSystem
+include('azure/Item/Other/ServiceDefenderDistributerControlSystem')
+
+' renders the element
+ServiceDefenderDistributerControlSystem('ServiceDefenderDistributerControlSystem', 'Service Defender Distributer Control System', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## ServiceDefenderDistributerControlSystemCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceDefenderDistributerControlSystemCard
+include('azure/Item/Other/ServiceDefenderDistributerControlSystem')
+
+' renders the element
+ServiceDefenderDistributerControlSystemCard('ServiceDefenderDistributerControlSystemCard', 'Service Defender Distributer Control System Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceDefenderDistributerControlSystemCard
+include('azure/Item/Other/ServiceDefenderDistributerControlSystem')
+
+' renders the element
+ServiceDefenderDistributerControlSystemCard('ServiceDefenderDistributerControlSystemCard', 'Service Defender Distributer Control System Card', 'an optional description')
+@enduml
+```
+
+## ServiceDefenderDistributerControlSystemGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceDefenderDistributerControlSystemGroup
+include('azure/Item/Other/ServiceDefenderDistributerControlSystem')
+
+' renders the element
+ServiceDefenderDistributerControlSystemGroup('ServiceDefenderDistributerControlSystemGroup', 'Service Defender Distributer Control System Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceDefenderDistributerControlSystemGroup
+include('azure/Item/Other/ServiceDefenderDistributerControlSystem')
+
+' renders the element
+ServiceDefenderDistributerControlSystemGroup('ServiceDefenderDistributerControlSystemGroup', 'Service Defender Distributer Control System Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

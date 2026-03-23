@@ -1,0 +1,21 @@
+' definition of the Item azure/Item/NewIcons/ServiceServiceGroupRelationships
+
+sprite $ServiceServiceGroupRelationshipsXs [10x10/16z] HKg30G1043fL-q_ynZ7Phh9J03Q6YZn81zb0Fbx-C3OY8Jz8sZ86Mb87
+
+sprite $ServiceServiceGroupRelationshipsSm [12x12/16z] NSt50G0m30B0Ako_SJLA9PSNvQVs8faxGcv3J23vBvXdZhVjr-REDpPPlp4PtFkhtVxz2m
+
+sprite $ServiceServiceGroupRelationshipsMd [16x16/16z] TSx10G0G34FHGfFz9mO0-2SF83FdPCbeoin5pVaneMGot682Vqkrp41e7VLRTRuq3SrX6ecacKRYvV5xLospP3yG0G
+
+sprite $ServiceServiceGroupRelationshipsLg [20x20/16z] XSwr0GGn0CH0mqB_5JyScgrm8eKgvD2K-IjMn3EKv4Eeocn0QitQMwxj3AV5K4Khz_iizrDbrVvfq45oV8sIGBirUcByTmxWjchqjDJiqmX5Nm
+
+!procedure ServiceServiceGroupRelationships($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceServiceGroupRelationships', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceServiceGroupRelationshipsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceServiceGroupRelationshipsLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceServiceGroupRelationshipsGroup($id, $name='Service Service Group Relationships', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceServiceGroupRelationshipsLg>', $name, $tech)
+!endprocedure

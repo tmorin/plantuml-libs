@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/NewIcons/ServiceAzureAppTesting
+
+sprite $ServiceAzureAppTestingXs [10x10/16z] JSQ74SDG508m_cjmxBzlucxhcl2LJwfdPj_QiozRqaY1sMAHmXRQbB3LDlRjY4jd9ly
+
+sprite $ServiceAzureAppTestingSm [12x12/16z] NOW55WHH2CEAbJxkVz_TSSiNGl0XBlF88kl8IHvBgSM5hROaBi-nZPbU2hJGXsFB4xOwYbfduQ32ub36Gly1
+
+sprite $ServiceAzureAppTestingMd [16x16/16z] RSx50GD1241H77RwBpXOVF_jZG9tyGyPIPLMn2oYbhtsXwOjP5UtRdOzF2AIuNDOunM2ZCxnBAAEPzSvLp8DivqMRTFJW7K_K-iF01pUAH4WlIsSsOixeJy
+
+sprite $ServiceAzureAppTestingLg [20x20/16z] {
+TSi53aHH24FHuXtslz_l_Z8doWt5NuQ1cE93pTnouVTmIHwHArpC8tU1WzIMdezE1idSw3da9fChNPF7Vlou4qW6Dzsi1La0Zw_ktX89S5FzR7ui5maXQG3Y
+qx29J7B_ACLBOP5uIZDJSNkaSDlKSvcxYXa
+}
+
+!procedure ServiceAzureAppTesting($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureAppTesting', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureAppTestingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureAppTestingLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureAppTestingGroup($id, $name='Service Azure App Testing', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureAppTestingLg>', $name, $tech)
+!endprocedure
