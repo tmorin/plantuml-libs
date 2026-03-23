@@ -21,7 +21,8 @@ This guide assumes an AI agent has access to:
 ### 1. Discover the latest published Azure icons
 - Run [resolve-azure-icons.mjs](../scripts/resolve-azure-icons.mjs) to get the latest Azure icons version and URL.
 - The script fetches the Microsoft Azure Icons page and extracts the latest version number and download URL.
-- Compare the returned version with the current `ICONS_VERSION` in `source/library/packages/azure-{VERSION}/index.ts`.
+- Compare the returned `version` with the current `ICONS_VERSION` in `source/library/packages/azure/index.ts`.
+- If the versions match, no upgrade is needed.
 
 ### 2. Create a new branch
 **Primary (MCP)**: Use `github-mcp-server-create_branch`
@@ -36,47 +37,37 @@ git pull
 git checkout -b feat/upgrade-azure-<new-version>
 ```
 
-### 3. Create and update the Azure package folder
-- Create a new folder: `source/library/packages/azure-{NEW_VERSION}` (e.g., `azure-21`).
-- Copy contents from the previous version folder (e.g., `azure-20`) as a starting point.
-- Update the `ICONS_VERSION` constant in the new folder's `index.ts` to match the new version.
-- Update the factory class name from `AzureV{OLD_VERSION}Factory` to `AzureV{NEW_VERSION}Factory` (e.g., `AzureV20Factory` → `AzureV21Factory`).
-- Review and update `source/library/packages/azure-{NEW_VERSION}/groups.csv` if needed (custom groupings and styling).
-- Review and update templates in `source/templates/azure-{NEW_VERSION}/` if the icon structure has changed.
-- **Important**: Ensure `source/templates/azure-{NEW_VERSION}/examples/` folder and its `.tera` files render correctly with new icons.
-- Perform a global search and replace for all occurrences of `azure-{OLD_VERSION}` to `azure-{NEW_VERSION}` in:
-  - All files under `./doc`
-  - All files under `./source` (including library index)
-  - All files under `./test`
-  - The file `./README.md`
+### 3. Update the Azure package
+- Update the `ICONS_VERSION` constant in `source/library/packages/azure/index.ts` to match the new version.
+- Review and update `source/library/packages/azure/groups.csv` if needed (custom groupings and styling).
+- Review and update templates in `source/templates/azure/` if the icon structure has changed.
+- **Important**: Ensure `source/templates/azure/examples/` folder and its `.tera` files render correctly with new icons.
 
 ### 4. Generate the work directory
 ```bash
-npm run generate:workdir -- -p azure-<new-version>
+npm run generate:workdir -- -p azure
 ```
 - Check `.workdir/library.yaml` and ensure the Azure package appears with correct modules and examples.
-- Inspect `.workdir/.cache/azure-<new-version>` to verify all expected elements are present.
-- Verify the number of items in the `azure-<new-version>/Item` module against the previous version.
+- Inspect `.workdir/.cache/azure` to verify all expected elements are present.
+- Verify the number of items in the `azure/Item` module against the previous version.
 
 ### 5. Commit and push the branch
 **Primary (MCP)**: Use `github-mcp-server-push_files`
 ```
 push_files(owner="tmorin", repo="plantuml-libs", branch="feat/upgrade-azure-<new-version>", 
-  files=[...], message="feat(azure): upgrade to <new-version> icons\n\nBREAKING CHANGE: azure-<old-version> is replaced by azure-<new-version>\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>")
+  files=[...], message="feat(azure): upgrade to <new-version> icons\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>")
 ```
 
 **Fallback (CLI)**:
 ```bash
 git add .
-git commit -m "feat(azure): upgrade to <new-version> icons
-
-BREAKING CHANGE: azure-<old-version> is replaced by azure-<new-version>"
+git commit -m "feat(azure): upgrade to <new-version> icons"
 git push --set-upstream origin feat/upgrade-azure-<new-version>
 ```
 
 ### 6. Trigger the Package Builder pipeline
 ```bash
-gh workflow run package-builder.yaml -f pkgName=azure-<new-version> -f pkgVersion=<new-version> --ref feat/upgrade-azure-<new-version>
+gh workflow run package-builder.yaml -f pkgName=azure -f pkgVersion=<new-version> --ref feat/upgrade-azure-<new-version>
 ```
 
 The pipeline will:
@@ -101,13 +92,13 @@ git pull origin feat/upgrade-azure-<new-version>
 If pull fails due to conflicts, perform a rebase and resolve conflicts.
 
 ### 9. Verify rendered outputs
-- Inspect generated files in `distribution/azure-<new-version>`.
+- Inspect generated files in `distribution/azure`.
 - Open images and PlantUML files to verify rendering.
-- Verify all items in `distribution/azure-<new-version>/Item/` render correctly.
-- Check all groups in `distribution/azure-<new-version>/Group/` are properly styled.
+- Verify all items in `distribution/azure/Item/` render correctly.
+- Check all groups in `distribution/azure/Group/` are properly styled.
 
 ### 10. Update README
-- Update `distribution/azure-<new-version>/README.md` to reflect new icons, modules, and examples.
+- Update `distribution/azure/README.md` to reflect new icons, modules, and examples.
 
 ### 11. Create a pull request
 **Primary (MCP)**: Use `github-mcp-server-create_pull_request`
@@ -133,11 +124,10 @@ gh pr create --title "feat(azure): upgrade to <new-version>" --base master
 - The process is structured to be **small and reviewable**: each step builds on the previous one with clear validation points.
 - **Key validation point**: Workdir generation (`npm run generate:workdir`) is the most critical step as it validates icon discovery, factory logic, and template rendering before the pipeline executes.
 
-### Azure-Specific: Versioned Icon Updates
+### Azure-Specific: Icon Updates
 - Azure uses a **versioned URL pattern** for icons: `Azure_Public_Service_Icons_V{VERSION}.zip`
-- Each new version requires creating a new package folder (e.g., `azure-20`, `azure-21`) with a corresponding factory class.
-- The factory class name must match the pattern `AzureV{VERSION}Factory` (e.g., `AzureV20Factory`, `AzureV21Factory`).
-- This versioning approach is similar to AWS packages and allows maintaining multiple icon versions simultaneously.
+- The package is named simply `azure` (no version suffix); the icon version is tracked via the `ICONS_VERSION` constant in `source/library/packages/azure/index.ts`.
+- The factory class is `AzureFactory` in `source/library/packages/azure/index.ts`.
 
 ### Key Insights
 - Check the [Microsoft Azure Icons page](https://learn.microsoft.com/en-us/azure/architecture/icons/) for version updates - the download link indicates the latest version number.
@@ -156,7 +146,7 @@ gh pr create --title "feat(azure): upgrade to <new-version>" --base master
 ### Pipeline fails with "unable to render" error
 - **Cause**: Missing or incorrectly referenced example templates, or invalid icon paths in templates.
 - **Solution**: 
-  - Ensure `source/templates/azure-<new-version>/examples/` folder exists with all required `.tera` files
+  - Ensure `source/templates/azure/examples/` folder exists with all required `.tera` files
   - Verify all icon references in templates match the discovered icon paths
   - Check that the glob pattern in the factory correctly discovers all SVG files
 
@@ -170,7 +160,7 @@ gh pr create --title "feat(azure): upgrade to <new-version>" --base master
 ### TypeScript compilation errors
 - **Cause**: Changes to the factory class or interface not properly updated.
 - **Solution**: 
-  - Verify the `AzureV{VERSION}Factory` class still implements the `PackageFactory` interface
+  - Verify the `AzureFactory` class still implements the `PackageFactory` interface
   - Update `source/library/index.ts` with the correct import and factory instantiation
   - Ensure all imports are correct
 

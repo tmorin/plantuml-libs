@@ -42,7 +42,7 @@ async function fetchLatestAzureIconPackage() {
   const version = match[1]
 
   return {
-    newVersion: `azure-${version}`,
+    newVersion: `azure`,
     downloadUrl: href,
     version: version,
   }
