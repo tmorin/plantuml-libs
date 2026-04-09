@@ -43,7 +43,7 @@ It provides a _search engine_ which should improve the discovery process ;).
 The available packages:
 
 - [AWS](distribution/aws/README.md)
-- [Azure (v23)](distribution/azure-23/README.md)
+- [Azure](distribution/azure/README.md)
 - [C4 Model](distribution/c4model/README.md)
 - [C4 Model + Nord Theme](distribution/c4nord/README.md)
 - [Kubernetes items for C4 Model](distribution/c4k8s/README.md)

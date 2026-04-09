@@ -1,5 +1,5 @@
 import { AwsFactory } from "./packages/aws"
-import { AzureV23Factory } from "./packages/azure-23"
+import { AzureFactory } from "./packages/azure"
 import { C4modelFactory } from "./packages/c4model"
 import { C4nordFactory } from "./packages/c4nord"
 import { C4K8sFactory } from "./packages/c4k8s"
@@ -18,7 +18,7 @@ import { SimpleiconsFactory } from "./packages/simpleicons"
 
 const PACKAGE_FACTORIES = [
   new AwsFactory(),
-  new AzureV23Factory(),
+  new AzureFactory(),
   new C4modelFactory(),
   new C4nordFactory(),
   new C4K8sFactory(),

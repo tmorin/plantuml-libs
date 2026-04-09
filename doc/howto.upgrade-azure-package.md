@@ -29,7 +29,7 @@ node scripts/resolve-azure-icons.mjs
 This returns output like:
 ```json
 {
-  "newVersion": "azure-23",
+  "newVersion": "23",
   "downloadUrl": "https://...",
   "version": "23"
 }
