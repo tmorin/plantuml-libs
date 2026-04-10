@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Filter
+
+sprite $FilterXs [10x10/16z] Oy02UFXXW84Foc1cW3APGGgW32YJ0JUB0Sm2
+
+sprite $FilterSm [12x12/16z] Oy01-FWHW06PZU20bC6PS0xC012J53O3X0q
+
+sprite $FilterMd [16x16/16z] bSYr0O100C30G8VlFotlxkakZBgJhlTB8-K96I4ZP7JZmfUHHtfVy9sPt79ig0G
+
+sprite $FilterLg [20x20/16z] jSg53O1G0CJGuWxxJulhNHJuZR-K3rM3rmuUZYdqGWaWPyfQhzVpJ3cpQplb0gBL26fqcpdYsB4r0G
+
+!procedure Filter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Filter', $name, $tech, $desc)
+!endprocedure

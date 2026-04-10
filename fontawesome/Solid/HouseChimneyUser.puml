@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/HouseChimneyUser
+
+sprite $HouseChimneyUserXs [10x10/16z] DOc50S0m20Ilxit-q-9S0hpW_1HZ34Q8O0iHAaIinGLNMnVH0gv2iBegK
+
+sprite $HouseChimneyUserSm [12x12/16z] FOp50S102C1I_Hoo_xGLBBWI68ExSzoP9i3ca-y--V7x4_r3v424-tEQQUGYsZdvRNBcAk05
+
+sprite $HouseChimneyUserMd [16x16/16z] LOs54S0m30DLvch_QSEc3mhkZC4FpqpIoOKLYBbIgV9aq3U3VljdkCkhlM7qLFLuTMRLYkfzdkV7z8JAfHeTrLz7jR8X0m
+
+sprite $HouseChimneyUserLg [20x20/16z] VT054e0W04JHDMds_gUrfU5FEKyQVwj7cI1Pa28VzF6Fvjj2Sdt9C6bxoB4opyfOf2C1uaSVA2wo9AR2Dvy4W6eFhmRx1XFXyC4slAKM7Z6nwKjqzW0gDC09
+
+!procedure HouseChimneyUser($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HouseChimneyUser', $name, $tech, $desc)
+!endprocedure

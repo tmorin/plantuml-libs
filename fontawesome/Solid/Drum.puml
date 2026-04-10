@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Drum
+
+sprite $DrumXs [10x10/16z] NSQ50S800CJ0mvtiForExJLOAbPLz-Y6gY1SgnrEpUGN8r6wymG
+
+sprite $DrumSm [12x12/16z] RSg30S0m503HgztRVziQmGi-oPDJ0RKJbO-zPDVRK-dohhfRsLN6sD-Y8_PdpfdJltd1hfkP6c03
+
+sprite $DrumMd [16x16/16z] VSc54O0m40NHZplRVxSC4BSNtJcrdL6Dy3xTiX_diOqtx_Z6EoGOzNg76zperK7_FonwRNfTlEv1hvco8VwTijzTiFvzoBJEg2T9GUSU
+
+sprite $DrumLg [20x20/16z] {
+bSwr0GH1581GrdViqt-rv-xtGYBuJS-ZINdGT6MdIvw4oaxsJlIWjfwzHPtLb2mSXKv0vmv7sO2zwivujvKzYWdE0_y1FIkacxRYJcRLzTnwshdHdjeCytsR
+EjXRpor6tjW2
+}
+
+!procedure Drum($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Drum', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Stagetimer
+
+sprite $StagetimerXs [10x10/16z] HOg30S0m44NRs6__QMCSlxvP_jiL8HqCzi6331TVBN42ys6-D8421cW
+
+sprite $StagetimerSm [12x12/16z] LOp50K0X34FpNU7jFosklJIkV9_QVK0Z_qW4TYIhwHZsWkrK48Mk7GTubX9bqW19zG
+
+sprite $StagetimerMd [16x16/16z] JSx50GGn30ImMUQe_sgFmNebvdorCTM1hVndQ2bsNAdGf-YHgd7K8HjgoKHNxpX8hdy0GRdWocfFzvkM9zes7J3zJlVx9Xs-nzy1
+
+sprite $StagetimerLg [20x20/16z] {
+PSxLOSLG30Mm4-Pe_sdRnpUWFxDJx5Ek5kpDFSUQanqikRSQSbP3BdhSpaFwU-DsxUN-4dfxdHGLSh4Y8qiARDbFpJlgL7IfyhP1kPLKgrEggFFIAl8p0jkx
+wHy
+}
+
+!procedure Stagetimer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Stagetimer', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/WeightScale
+
+sprite $WeightScaleXs [8x10/16z] Os1WOE9d009-VbuW1W8G3qBnCV8J3HYWD
+
+sprite $WeightScaleSm [10x12/16z] dS450S0m0C2mdldrhtOy0qj83XSIzJ-jDk0p0yGCN730QyVpLqS4
+
+sprite $WeightScaleMd [14x16/16z] lSe50G0X50FGdUAiVrfS2_2GhoWiPKq-xrbux_3bv05WSbABkbtbdDSrg_onSixbZoTWhpOH
+
+sprite $WeightScaleLg [17x20/16z] pSI50OGm04FHN_Tc_sbFS9Y05s5LD08RvrpJ8ZbdGGiFLN-ZBy-VqO5LrARpqmJQL7uaqAOROuQ2CNgpf0U6RW9FNm
+
+!procedure WeightScale($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/WeightScale', $name, $tech, $desc)
+!endprocedure

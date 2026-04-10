@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/IndianRupee
+
+sprite $IndianRupeeXs [6x10/16z] Om03NduG03A010kCpG0am4n6Vdvc1eWa2F3nCm59e2W
+
+sprite $IndianRupeeSm [7x12/16z] BSU55S0m4CDGbRdQVzg0N_wX8Gw3zzMPxhTrZ8Jgn9aDinAwvdxUkSjK0G
+
+sprite $IndianRupeeMd [9x16/16z] FSlL0S9050NH8Ruw_LSBPEtyFBqiTN9WsxQaTCcDwB35lsI9l1ImWHQlqBeFJT2RPjD2fz8LDwOV
+
+sprite $IndianRupeeLg [12x20/16z] JOs50S0W30IlkBF_jiNXa7YU5td9zMAMpL8A1YtuQAmWWQgN-FYd9xDesnJmD9Jf5HhVS2MJt7p18hJ0in3rMKbv-zoMNVju-G4
+
+!procedure IndianRupee($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/IndianRupee', $name, $tech, $desc)
+!endprocedure

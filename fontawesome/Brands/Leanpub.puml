@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Leanpub
+
+sprite $LeanpubXs [11x10/16z] RSQr0S0m4C106SlN_jE6ERxg6DDKD6KRxY3k-cpSxTQk5KH92ifj1W
+
+sprite $LeanpubSm [13x12/16z] VSUr0GDH00MWTovVs7_RD76Z8tz0WvwK7UikMHCLI8Ort9Bo7AzfW26HSc8lM8o69CUKP99d5m
+
+sprite $LeanpubMd [17x16/16z] ZOl50GLH2CHcbIT0-g_sk-lcDX9jedYVfBNtLKV0MmEYbI2FHGAOdOCq1LVEHQalXTjJCOZoMFHLF2cbYVvOZ2c2wCSokwG1OG5W9xCT2-nu9GTfQA2_x04
+
+sprite $LeanpubLg [22x20/16z] {
+hSy7TWCX38HXYOvOcFlVDXgIs3o_vlPl_xQ1VACymOeCiA54WchahQuI3CZKWbqr1o4OTnNtg7DHsuEQxmFiK7MjhX7ZqEYghXtpqFodOwr3YtW8Caz4sne5
+TchVslOaBCMom6FOEWJQ5bYl5zW8QyhVdvLKHQGHmiLJflP_qgUyq0y
+}
+
+!procedure Leanpub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Leanpub', $name, $tech, $desc)
+!endprocedure

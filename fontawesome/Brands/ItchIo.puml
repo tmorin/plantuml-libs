@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/ItchIo
+
+sprite $ItchIoXs [10x10/16z] HSY50O0m3031nvtVVrgez-AXizWcAyGfn2uM2qhaWJ36Ef4i_YwDJp3Z1m
+
+sprite $ItchIoSm [12x12/16z] LOk30K0n50ElThF_jD-yPuGVkW6zUBtGRCgsf-Py9ajJqf2WYXD1w-1qzGPePsHsYS20gLqxUG8cjp57Yx02
+
+sprite $ItchIoMd [16x16/16z] NSo50O0m34JH3zGbj_-qk3-aZS9VgArtM_LMWQmt1dsvNumqIiwKgafIXVMNr8Cic08WjNtfYAGzvdB43fZ4olQOLTb7_Hqpm7blW3PdR0pQjIFMI-Hl0G
+
+sprite $ItchIoLg [20x20/16z] {
+ROu74eHG24DZi8la_hVTPR3h-oKprE0RqWx89aDwC02k9wsLteEIGdUmFQiNexG0j22xbMp3sBdnOsy7eCJTrx-iqb0nd4XJ_XLgIqBp4QCshTY2P5Q3f6A6
+Ap5bBFEdZRdVOekAZ34_tK7Yjz24Jtu
+}
+
+!procedure ItchIo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/ItchIo', $name, $tech, $desc)
+!endprocedure

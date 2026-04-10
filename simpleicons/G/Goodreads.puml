@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/G/Goodreads
+
+sprite $GoodreadsXs [10x10/16z] DOc50G0X54BVTIhxJsloYsJEHumc9ej3aTqRB6uTWMJn7iIie7EeUrrqGmK
+
+sprite $GoodreadsSm [12x12/16z] Ou01JWOuuEU7qJpyF4X2C646x6nkHeHMHdv-Vbu693KmDWYm80j0AJvUNh1U
+
+sprite $GoodreadsMd [16x16/16z] NOw30GGm302JshV_jE-lheWX2v_b0APQ6APEKy5hMr7GzvzdkBn5OjeViGgusjVs-WPfDQH2dMP7h9E9elUYRuOSAFtA6ZFonRoD9m
+
+sprite $GoodreadsLg [20x20/16z] {
+PP255OH044DXtN__rHuEuGW-4tjCBzGy_SF1f9ZN2zepC00KuZCAq5ScLNHG3hQvH_wobeXA_SmIzeZMAcSU3Ac_x-ExCKHJmSieC12XvYcAYAJpWQnJSwx2
+XnyrfYHdvjb3kaUP0zSVNG
+}
+
+!procedure Goodreads($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Goodreads', $name, $tech, $desc)
+!endprocedure

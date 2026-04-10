@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Cloudflare
+
+sprite $CloudflareXs [12x10/16z] Oy0B-FbXB2P-VYY7cnyCUC7o4C08b09IC4t809V9
+
+sprite $CloudflareSm [15x12/16z] ZSbL0e0W301GclNkVrgxVbGUhCEG-1nyOTTalkBZT2hhbCw9bh_UZ101KgZeuXTS8gPJN8LFCm
+
+sprite $CloudflareMd [20x16/16z] hSl50S0m20NG3vSux3zj9Ix7zaKn_85zOAmqErDpCgdNogC8EaG9yrn6UTujASXpirOYALaWFadH6V9DFACC7zm
+
+sprite $CloudflareLg [25x20/16z] lSor0G11449HEFVVVxNdFlc-R0IKLWMCYZYqSK-yE7V7JRUQZpgqd7pNyJ6LPz_8noYpwiNE-eA6d-AeY9fpx-n7FYY11G
+
+!procedure Cloudflare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Cloudflare', $name, $tech, $desc)
+!endprocedure

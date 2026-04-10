@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/EnvelopeCircleCheck
+
+sprite $EnvelopeCircleCheckXs [12x10/16z] Oy09-640ZSt01QJve6f0KY1PTX230wmGB0YXUNbXR312DXa
+
+sprite $EnvelopeCircleCheckSm [15x12/16z] XOp50G0X30Jd1qJxh_RS5SqgFoiFwmPttEe8XROAixZUDGineLXOWN5UJTb8HqOe4sQqxeLBLGy
+
+sprite $EnvelopeCircleCheckMd [20x16/16z] {
+ZSs50SD034DHXO-r_xQrx3B_yCi1_g-q-tOdFYRRdsmIhgys0tVJejQ08R7drklafl-RsMLy65U0aqZrCBRBNXbac0-j9jHWwDNJ2r3SfelDTjlyxQv1RyDz
+FUW4
+}
+
+sprite $EnvelopeCircleCheckLg [25x20/16z] {
+hO_50S0W54E3E-m_RGNvTKuD_X8ClogMXsGrobDfRk3JW3ynoy24hzW2Oc2Da-h6NBa0p3RpR5onJS8sABfFZRlhSVdq3j6D7KB1D8gw7Yb6KxwFvs-WWcmh
+UHWQy7T3LgH5Jm4XDOLJIECgDGpSnNFFhm
+}
+
+!procedure EnvelopeCircleCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/EnvelopeCircleCheck', $name, $tech, $desc)
+!endprocedure

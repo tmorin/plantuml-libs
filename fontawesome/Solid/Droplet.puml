@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Droplet
+
+sprite $DropletXs [7x10/16z] 9OSr0G0m30I_p8r_jS7b001rXOg2vXvIc4Dqjd74WogEAla8
+
+sprite $DropletSm [9x12/16z] DOQ50G0X08JuJcN_QMql0J3GzEhIG7M-7smsWKDC21F_2NWGElYowWrHwsS
+
+sprite $DropletMd [12x16/16z] HSk30S1050MmLxlPVzeQENxbj2ZoA947BFTtTghER-5s_Zs6fF9A-0j-ewdpgVvfKnQta8pFVoKvRqs2TS6KmyITtG4
+
+sprite $DropletLg [15x20/16z] LSk55SGm3C1GbRdQVze3vuL-q4IObORwGFQgpZdQ33aqUGctIMeVD0Emsc2q0Q-D1LllhgSTQCfzk2bSPkWD-sjuk2E62CVqhiEaUWAONOGzpOt05m
+
+!procedure Droplet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Droplet', $name, $tech, $desc)
+!endprocedure

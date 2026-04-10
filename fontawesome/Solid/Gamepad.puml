@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Gamepad
+
+sprite $GamepadXs [12x10/16z] Oy09-640o4G0Tdv-BcwmA8ZWP61WXuWp0SLvGC8GZ4qpYka
+
+sprite $GamepadSm [15x12/16z] Oo00cFdX0CZZuaS2Z0n0WXV2vWFI84a6RgXIA0LaG04RN9O1JY2PpOZ20m9U68SBmqq
+
+sprite $GamepadMd [20x16/16z] bOu30e10400dk_x_sdps7DQWW7fU1IClrM6m2vS170vBzVuOEUlp1XRXwuG2He_v_J2wl_-EKSdkpEt0MGLWDbmDsLm
+
+sprite $GamepadLg [25x20/16z] {
+hO_5WGCm40DbPgl_QkyIKsW_WVaiW_1RJES3HM70LzBAYvL24RK6TEIcAKUo1Wu0Rkpqs_0reDCgT9svNUcxCYeLQ1mSHp_T0DOYhC4jlgryWgS8W2Jh0wGP
+B5nfToI5Z_W7
+}
+
+!procedure Gamepad($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Gamepad', $name, $tech, $desc)
+!endprocedure

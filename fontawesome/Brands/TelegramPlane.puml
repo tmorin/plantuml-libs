@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/TelegramPlane
+
+sprite $TelegramPlaneXs [10x10/16z] 9SU53S105CDGbxdUVzjJbFSnn0An6S1kGU-f-NvOT767ApaZ_OB60kZ3
+
+sprite $TelegramPlaneSm [12x12/16z] FOW50W0X382uJlN_ltMDCGR6Hj27SgkEe6bDriYdJdCuT6vgoqFrLzRqyV2etoC1MkY9i6QT
+
+sprite $TelegramPlaneMd [16x16/16z] LOw54O0m40GNTwx_Rfat81jzFu9kuAENSwTvgPW0JdtqbLo0YhMJj9KD-DUSke0T_mxIQTQMdR1hqso-j8qDaC7TJEf1Vu2fDQ7_p6GhyV
+
+sprite $TelegramPlaneLg [20x20/16z] {
+PO-55O0m34H3tRF_jhohouTQ_6ZmIJe9N2dBhddHJPvt14o6Js3ZYupoY-ImVokig9xaQLW8o7hz63XCvCS8y1Y453_xjGf2iwRJ1cZQ4fNHv1isZLQTqE-F
+3dHyZ8c0U4mW7ucTpnV4QAhy
+}
+
+!procedure TelegramPlane($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/TelegramPlane', $name, $tech, $desc)
+!endprocedure

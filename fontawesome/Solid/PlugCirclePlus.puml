@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/PlugCirclePlus
+
+sprite $PlugCirclePlusXs [12x10/16z] LOh50O100CE2Ezb_MlIqdrg0Gn2WpWOLUIaoASCv08qwT-4w5MqZXYDZpEUxtm
+
+sprite $PlugCirclePlusSm [15x12/16z] LOs50S0W40ClTS_-qzRmWtVZnORkbKWRofQ6Ls8jeL2CdDJX0bKt74S9cVmon-wJLmuxrcUvazBnSulL63ekV
+
+sprite $PlugCirclePlusMd [20x16/16z] {
+ZO-50GCn30FrJ8gr_xQjeOmNlf0Dfybx2ZV-Szr1YMUyFz8TkgTBITqOyUfwF5_6bRLC0qPZoN8riGhFwLnjVlvs4AF_GPy5kyyEhJswtdHDpvsnswXxrz_k
+9bG7Kp2T
+}
+
+sprite $PlugCirclePlusLg [25x20/16z] {
+hSy54eGm44JHZdlw_gTTcHeSIlau3qaW1LAEPCBIgp1vQW6UCmgUnm8UNi43b5jeM3f21b3PhKAcLe5s6DW2m3YE82o_TNAla-oGYe35N61v1MxAEJciXR51
+G9i2CqRuMFSmwD2NJnsX0mg7cPO_56hu0W
+}
+
+!procedure PlugCirclePlus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PlugCirclePlus', $name, $tech, $desc)
+!endprocedure

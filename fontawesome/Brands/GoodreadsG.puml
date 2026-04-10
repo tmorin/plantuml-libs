@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/GoodreadsG
+
+sprite $GoodreadsGXs [6x10/16z] BSZ50OLG000Wz7NlF-rFEK8yEDpXIjW7hWFtbR6TIxsuciipMJzl
+
+sprite $GoodreadsGSm [7x12/16z] 1S650SD0000Xgf6Nst_R0DR0s7G96XzOWQiNZDU4z67ShFfSm1JaxZZxFG
+
+sprite $GoodreadsGMd [9x16/16z] NOg50SCm40FFpDR-qxPXUXG1VdRMabAL5-exGwnbr0P7e7p1w0SmEW2x9s4qVLGMK4Ut2AxC1SRs6sYjoHy
+
+sprite $GoodreadsGLg [12x20/16z] ROr50eLG482mzHNtF-qFkzXCCm1jTcAcrforHofTEeqKzt5bnq8noigWUrwTSavvRJhjL_Qx1zqrymzWj19gPrgSpUFKGYKxdRnvQYEryoJClIhDdWXV
+
+!procedure GoodreadsG($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/GoodreadsG', $name, $tech, $desc)
+!endprocedure

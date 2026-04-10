@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/N/Namemc
+
+sprite $NamemcXs [10x10/16z] uySA6400WmKY2BCm0G
+
+sprite $NamemcSm [12x12/16z] uoSEC8003vJDoSF3my88PeF5c1X8PkC4
+
+sprite $NamemcMd [16x16/16z] uoSTSBD108pFnW01I7mc4E3XWV6Pm3G30ytvf0C
+
+sprite $NamemcLg [20x20/16z] uwS1O8019hB480mk86EmYz4
+
+!procedure Namemc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Namemc', $name, $tech, $desc)
+!endprocedure

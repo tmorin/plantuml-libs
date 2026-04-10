@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FileSignature
+
+sprite $FileSignatureXs [12x10/16z] LSR70O0m3C10yQ63zfyMqeiIsmUtIibOztRPVF5O7PhjNGrfRZG9H7YBGqluy0C
+
+sprite $FileSignatureSm [15x12/16z] POs30S1G50ElTc__QMjyF3C1L5jUyP8fQbldiALr2jgcMNtQHxAsiFnRUCB2f5HoRnavEmMmxeHIhNxUfzi1
+
+sprite $FileSignatureMd [20x16/16z] ZT1L0eCm00JHmPsz_saXsSgsVmp-y023QZl9v4YxtFd56C5OC5Onbfh7raZ_jeBNjhshjD2rhJJQJfXCKjlks01CVgIjhG2cZThcVptWTtJaQEKpm0q
+
+sprite $FileSignatureLg [25x20/16z] {
+dOu54W8n0CHoxfV_lnPTf5F6s7fI0rXzv6meSsZIbS9F-f-2dAa5ELCBrAOMcTV2ypnhaVmf6jq0QfxFLHVjQXknm_dadTFT407quJgp4m4Z6AuJ4GED0BJ5
+ZtLjxWqeE2ODHy4P8-2RNm4
+}
+
+!procedure FileSignature($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FileSignature', $name, $tech, $desc)
+!endprocedure

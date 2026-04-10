@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Itunes
+
+sprite $ItunesXs [8x10/16z] DS570GD1402WkUqT_sxp2iGV3gP0y572TgLv92J7D8NmEIuKPod41Vq7
+
+sprite $ItunesSm [10x12/16z] HSU54GCn30J0UoRBst-t6GrbXPU_6srPI7aNEBMmauHoi4siRXtwM_fBho6VHvbMg4-ef5DIittv0G
+
+sprite $ItunesMd [14x16/16z] NSV7OSKm30MmHtrtAyJ-qwPtt91_rgV-C9F0bjIDS-DuG5V3TGC6F32ICBWmaneS34niQ8NxUzl7ZZ3fMuKKXI43t5DJ3QwLmfRzM3EH4pJ8Noy
+
+sprite $ItunesLg [17x20/16z] {
+ROw5aKKX40G7Umfq_jbUJIttlP5rqGzoUP1iWkaZfEI_f7eUETqEdFOIx2raWiMr-QyJHoKjFG53nb6uEtPiWnRjTkpmPqTTZlxYkEPoz0oiFhD2ajQ4JBT-
+UD73pMOY7mGP9joPeAVem5IpAUjeO6FFvSGqgVD2rHT_
+}
+
+!procedure Itunes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Itunes', $name, $tech, $desc)
+!endprocedure

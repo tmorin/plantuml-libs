@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Swift
+
+sprite $SwiftXs [8x10/16z] Ou01VWZWv4S2x62IbvyFBCi3LiN13-I2-9nWNInGfGnyO8e3
+
+sprite $SwiftSm [10x12/16z] HSY50O0m3031nvtVVrgez-AXsys6mUfDkPNzKTAwdtlPd81BRtKc_JQI_1eMNx62-urEVW
+
+sprite $SwiftMd [14x16/16z] NSVL0SKm34Mn6sp0zjb_siTO_KadpUDf9uaVk_Dat0NW09cdmGHIvIb5WIPUD4JLuaLtXTzMW9tDJNVScLu20rWvPGSdyKkRhw8_Lm
+
+sprite $SwiftLg [17x20/16z] {
+RSh50SGm44DHcMBsxx_QXJ2zou2a5zRjZAJ0XSHLpsmYip6_vysn6kj7aLMggG1MWvMDDeAJPsEC35PYfmK7SpnQFZhCicICPebPrmuQVzKQupeayDneS359
+dPEWXoy
+}
+
+!procedure Swift($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Swift', $name, $tech, $desc)
+!endprocedure

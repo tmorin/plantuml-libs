@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/RulerHorizontal
+
+sprite $RulerHorizontalXs [11x10/16z] Oo04kFWPU9cOUHdu6VZv-HduE21Cx809mSHk6
+
+sprite $RulerHorizontalSm [13x12/16z] Oo0IS8CX1pCJDmCNFpy327ApC0Cf48S5oE7Z0J9m0rva3WCJ0Z3YjXC
+
+sprite $RulerHorizontalMd [17x16/16z] hSWn0a0m40311I39xVzV2nrKCENmXxacLIIQn9X8Ox762cabYNgF7dMFK7nZy8AgFk655G
+
+sprite $RulerHorizontalLg [22x20/16z] lSZ50SGm3031DRFLVxM7ONWw8nRFIWLAGXMzhYQBW3Iq6DgyVjr-E_7Y--Netz7mCeoMAw3F6EKD
+
+!procedure RulerHorizontal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/RulerHorizontal', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/T/Turborepo
+
+sprite $TurborepoXs [10x10/16z] FSR50OC0002nrBst_xGuv1NWRbTlKEcsfaIXrx6wj-wIL7NDcrVNQxYNOWG
+
+sprite $TurborepoSm [12x12/16z] HOk50S0W40DnXzj_smPgw7t4tAkQVm4FsMmjlAA8UR3P1Ga5Q4SmuemL3t75ibuT1mmTEL91wCYxcvJfqhJcpcxr0W
+
+sprite $TurborepoMd [16x16/16z] {
+LO-50GH12CI6Sm7IVxLlytPPpIheGuOk0Ek_ZmNzaGrw5DJtB4-1-6W26U33qsCe47XRFZQNFUriIJ8ss8aYgD470BasPbvehUnAw-3lWj2yXHPOv8-fHszz
+481mDdS
+}
+
+sprite $TurborepoLg [20x20/16z] {
+PO-5iSHG3CJsOT1H_zL-kBsmXZmowoIwNW2HtWvcFMWtEGDG5D0kRUu4xWecmRWt3f82qE92AmTJFjovLo0f7IxR1Pnr4sm9kbtiyye0WbO0Mfu0j14AxyUa
+2ba9YgPTPS-Ug_3ugdfzRSbIAXkGxJh0AW1qCDc5Ytu1
+}
+
+!procedure Turborepo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Turborepo', $name, $tech, $desc)
+!endprocedure

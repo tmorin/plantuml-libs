@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/B/Boat
+
+sprite $BoatXs [10x10/16z] Om015WOOuCTayVFpm5dyw2n-k2nC4JS_102PC1O
+
+sprite $BoatSm [12x12/16z] RSp50S0m0810wbxsdxQkIUx52mubBzCzstDJkUIVTZDzkhdcrfoQzfQ1Ds2uCcC5
+
+sprite $BoatMd [16x16/16z] NSg54G0n44BHk2VRVxNd0ile6xvv5WnFc4vvIULSA0ZAw_2Wd89usV4j0ptzdrU4ARZ30gk7BVWW1aU-0m
+
+sprite $BoatLg [20x20/16z] VSk54S0m40D1XJdNVxLX-jZ-7TQSz2WLGe421IRQy4eGra2OmHXiGTYooyECCTpiUU1K-TSSw3CPmoYh_Mds24ixZF4yXvaD9qah
+
+!procedure Boat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Boat', $name, $tech, $desc)
+!endprocedure

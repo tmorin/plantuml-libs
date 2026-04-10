@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/VolumeLow
+
+sprite $VolumeLowXs [8x10/16z] JOc30G0n40Jd4Ql_QcCTbboJzA1a0PawLwpyXS6as5bg63tW9nDUA
+
+sprite $VolumeLowSm [10x12/16z] LSR50O100C2muaxtdnOzpIlKpYFaq3_wpmy3XZd6SSRPi1_VFaiQVHhj0Dm
+
+sprite $VolumeLowMd [14x16/16z] RSV50SGm00InDREd_seFmub-qXFR3WbWjnGEwsnhVR9j0CleOf_dE9tMKTetlMHiNBPmfycS9e7HpHi
+
+sprite $VolumeLowLg [17x20/16z] TSg53KD140DHVpY6wR_QCEojaX7woVhRlgsxWT_Oos25YO4jHZ0GW0-4Bc6XqLOGE9WUGDD2vv0iQDUZ_8PFoOE21-qUj85-TmK
+
+!procedure VolumeLow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/VolumeLow', $name, $tech, $desc)
+!endprocedure

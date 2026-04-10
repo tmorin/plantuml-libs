@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/BluetoothB
+
+sprite $BluetoothBXs [5x10/16z] 3SY50S1030B0gplilsq_mPaO4aE---kqrDSUj2Jv4cEZDsu_
+
+sprite $BluetoothBSm [6x12/16z] Ou01VWZ9py0899dv6S0G9C0FbOMmeU90cWL4mcK1
+
+sprite $BluetoothBMd [8x16/16z] JSQ50KGn20JH_HANwR_RMyuJu8t-7X_tMyTHhPY9QWjAT1gI0owhIWiAa8DA8HKtoXw9WoNP87oXu04
+
+sprite $BluetoothBLg [10x20/16z] FOo50SGm30Fr_3Lf_sqhXwwGYmmG3smUSOnrZBOjfUgHlIv-aso33cFAd6yWsVmWZ6TMDYLaqLBi9pjnpHfDTs3kSxGvhpryrYWPA5cCv0O
+
+!procedure BluetoothB($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/BluetoothB', $name, $tech, $desc)
+!endprocedure

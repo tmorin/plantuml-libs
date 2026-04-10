@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/TruckRampBox
+
+sprite $TruckRampBoxXs [11x10/16z] Oy00_400OR60cK3C2s6oWWYeA7Oc0nTG6o-42HRdv6VWue8QoC_B3m
+
+sprite $TruckRampBoxSm [13x12/16z] Oy06UFY10CRXXt2OW0IK0oOve1mMC0cJmSrX0Ig56m02760c4v333JQ7WOUJWPyFo89R2m
+
+sprite $TruckRampBoxMd [17x16/16z] VO-53G113CDopCt-qpupd0LMB6hH8SdCkRdo5GAfBq4MdS7m4TIgT8JTdH1MdG5572RKxJ1TrwNB74pZZ5VCm7wOnKGbFASj-l9E7W4
+
+sprite $TruckRampBoxLg [22x20/16z] {
+ZT350SKW54JHmPtflzelUN6_ouE35oaZRR1mR3EJPshNgXBPT-evrBRAiOqwZfdJkUrKkT5ogePItAXiKJIsYfGXjKN7REMOiQFw4NegT40cLEf2-R-rOlhl
+b8KIniZM-TVczt-CBm
+}
+
+!procedure TruckRampBox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TruckRampBox', $name, $tech, $desc)
+!endprocedure

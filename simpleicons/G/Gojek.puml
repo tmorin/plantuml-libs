@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/G/Gojek
+
+sprite $GojekXs [10x10/16z] JKg50G0X4E8-R6N_QUswf72Li5K5FpaX6T0kgzHUMwQ9pDRQr0hrfPaI87Rqe
+
+sprite $GojekSm [12x12/16z] LOo50O104CE2Ezr_MrhySwwKJ0erHZShx0uDhNs77RGaZaxhr8q2-xqmE_TCL3PfeTjgKb_V4fRRos3YbmmF
+
+sprite $GojekMd [16x16/16z] {
+ROq55e0W04E_tNh_syheci7oGG_F9nnU7L_087bz2ICiEg-1yHM1s6Ctx1dCRs9LnADcB7qe4vY_k7rS4BKYkCr_vH1t2HEknHKkt3pnsrN72VZ56QIQ8cxr
+0m
+}
+
+sprite $GojekLg [20x20/16z] {
+TOu75WGn24BHQUcv_sctWDjtU0NUrn1nAc_phcnFOlEf5cYRx_f5Wdeu3eCNHQ2zrn0whG9MMmhOsCPIUY9KLdrMUxG-0-rzhoaaiKfcyBjni055DjYW3oKT
+Us0bJ4HT2rfNKh3tgS_eVaBeNaV8QhwRot05
+}
+
+!procedure Gojek($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Gojek', $name, $tech, $desc)
+!endprocedure

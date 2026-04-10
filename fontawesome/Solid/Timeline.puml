@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Timeline
+
+sprite $TimelineXs [11x10/16z] LSY50G0X30J1UrVO_gl5TUBHu83GbzX9wmkx5DVIsUDgFraQHToge6u6bldh0G
+
+sprite $TimelineSm [13x12/16z] LOgr0S104CDyOTR-q-QPr1Wr0byIf1seGKDOKII8xLZ4oqT7lhngy7KUhZuyDHX4TG
+
+sprite $TimelineMd [17x16/16z] PS_50KCn30MmLsPh_sbBdnC5J2UdT-QPFup1BbzFrDWuZHF6c9yB7iDadx-xLuP61dlN95NKY7gLHdO3XfW9sNXnoieUcdt8MjSuaC47
+
+sprite $TimelineLg [22x20/16z] {
+TO-53G112C2uT-_-stuuryOQ71cnmnjyXi-eh2WkQAAJHI-KkHjTtDWOdPBVAfuDc9ow7iV7BQFeGeVleuSSfmUUeAj4u90ME7j1kElWWL97NnHJHK-KxjnN
+6eux_Vq3
+}
+
+!procedure Timeline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Timeline', $name, $tech, $desc)
+!endprocedure

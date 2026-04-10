@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Angry
+
+sprite $AngryXs [10x10/16z] DS650OG0000XlbDl_sbj0JuzhMhreSD3fqyHhIxr7khPIOseVDhXqOeP
+
+sprite $AngrySm [12x12/16z] HSY50KGX3C3Gd0kI_QVzEBnwQO9V1eUpLcVLX3wiSkr10mXP6pIZVZrG0x1sib_q0qwPAbcrRm4
+
+sprite $AngryMd [16x16/16z] LO-55S0m24IXSRtzj-s3-8_YG8fhA4oBXa4O8ZPzY8Swd0zCU74QPO0oGjLTlaCSa9VBoRVWXKTXzuKXaphjlle89RcYN6z3Nlpg9IfyJVC3
+
+sprite $AngryLg [20x20/16z] {
+PT054e0W0031izlx_syTObHWwGwoxVQS-PdChexCdwtjqhtjqkdTwmTihAWd_McmTSH25M3EkNeRG3VQGQ-lZhJHPN3QccrXTCAxsvMsk4aCUZhLWUCzIM2p
+HB3xrxzV-kArvXDxWWS
+}
+
+!procedure Angry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Angry', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ArrowUpRightDots
+
+sprite $ArrowUpRightDotsXs [10x10/16z] NSYr0OG0002nlEBS_jjI8YdZeaAn5R3rou8fIBbQUbua_raaytu
+
+sprite $ArrowUpRightDotsSm [12x12/16z] LOh50GGn3CIq40RrN-s1Vp4ESPHQuhymTGVEOE0elNR1WMLvXLBmWRCK9tQ0KPalw-8Cn2mSl9doq2u6Nm
+
+sprite $ArrowUpRightDotsMd [16x16/16z] ROi52iH054DJb_bo_zlkO-ljF8W1qPU8iAqD1Ii9szvoFFTeM9FdrZRNmfvScX5p__P8aKKRYzJEgZBnByWHa0lV3ccZHzscDqEEchFzVmELDFfy_b_y
+
+sprite $ArrowUpRightDotsLg [20x20/16z] {
+ZOv30aH134JheutS_xRJqLXl4QFmdkrOR9uTOacmaaNpJGtZheOijj9zpQTca5exsEZK17fP6P7UAr8IgjUgb9JTpMTQvMyHsDWmV7x7y7lAmL4K0Mp-XiZC
+JfqFL3cLNtweyH_rmuyB
+}
+
+!procedure ArrowUpRightDots($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ArrowUpRightDots', $name, $tech, $desc)
+!endprocedure

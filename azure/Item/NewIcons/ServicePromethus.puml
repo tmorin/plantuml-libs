@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/NewIcons/ServicePromethus
+
+sprite $ServicePromethusXs [10x10/16z] HKg30G0m39kN_n-kZMX87UoX1QlZGEzID8qVe2FNqLRDu6XqWF-_yOLZ1WC
+
+sprite $ServicePromethusSm [12x12/16z] NKj70W0H4CEq_F_3qq-oYzHJ4F0PO31KaGdGBd4_TZQbV2lyLvml5zsWHmKqbxMfHqsj78DUApS
+
+sprite $ServicePromethusMd [16x16/16z] HOy50W0W20FDmVy_R6t8cJIKHpEVvMDEEiNtnRqjH5GwGSv7tHi_4LZVpwbzC4NAquEiuvDLlkQU9X6IqSZhg9-OT5VtzJ1Z0l0rFd8qrTa
+
+sprite $ServicePromethusLg [20x20/16z] {
+NOy50i0m20EhmFzVF4P2BLljy48DDUdbK3DA5efd1Hr06WztxlyvbrSpl_2QkOgp2MObp-hMqf4Ih6SrGBgVJ1-sDIycKRq2LT0ezKmP1fKKXjOZ7KAHuMP-
+e4Dr7NrDUZ9o5nixa1fi5auV
+}
+
+!procedure ServicePromethus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServicePromethus', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePromethusCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePromethusLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServicePromethusGroup($id, $name='Service Promethus', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePromethusLg>', $name, $tech)
+!endprocedure

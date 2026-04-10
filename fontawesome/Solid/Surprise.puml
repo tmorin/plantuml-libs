@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Surprise
+
+sprite $SurpriseXs [10x10/16z] 7Sc50G0X4CJ0VLT8_zKY6JZFy71cGe-D3Ziza8yi89t06e00YVdnu7Y0JGS
+
+sprite $SurpriseSm [12x12/16z] JOo50S0W40DJzxB_jbpmUrUP9vpAX4nBpP26p_c9NTY3YO0DU0wBFWULTqC-uu_-z1TypjoD
+
+sprite $SurpriseMd [16x16/16z] NOy50i0m20DXxld_QxSrgLyL1oFpZTCjSKEi4f5vA5PSTAvmcYlcS9cb2pVb9LmqzPnwjk41SOcvhfxSvSDKk9CzTt_nNkn7Nud4gsa-
+
+sprite $SurpriseLg [20x20/16z] {
+TP055iGm24G9TSlS_xGhs9kL_ZQ6WmHRnpaBCI6uMef0R2bYzXGnKyPYqenPNQRDuhVByuJvORkfqDry181JE-uuwxALqGn7gTAyK4UNN3yoZVHe8gJUO1mp
+Hzd1A8sKh9mrChhH4m
+}
+
+!procedure Surprise($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Surprise', $name, $tech, $desc)
+!endprocedure

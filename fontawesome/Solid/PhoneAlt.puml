@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/PhoneAlt
+
+sprite $PhoneAltXs [10x10/16z] Ou00HZO6AE3dvqTdiI34sD1aMI0CHY014M43ab3bS0O
+
+sprite $PhoneAltSm [12x12/16z] Ou01FWOuuERdvuAn-O6049i1LPmDOGm_X8IgvkE70YQ8GhWPNFnmRG
+
+sprite $PhoneAltMd [16x16/16z] NOw30G0m40DhO_zfQ-RATyX3OkGbDz3ErmnWPx0zs4I3RPlfeJ-OVWxok_r-jTncoXVMR7RDHzOxwRSg
+
+sprite $PhoneAltLg [20x20/16z] RP3L0S0m20NZBljFM--Bm7qUZbYGpOcTVY5NvJkLxN6Db5xCgZ3Em54f5jojqkgONH8jjNDQCKFbvw1x-qi639NzPRwXzGM5ZS1oDze_A2Wv__iMQJ8d
+
+!procedure PhoneAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PhoneAlt', $name, $tech, $desc)
+!endprocedure

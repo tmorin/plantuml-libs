@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/SquareBluesky
+
+sprite $SquareBlueskyXs [8x10/16z] Ou01VZJ0nG31V40fi2nG3Ppc1DACG74-k7AOVW
+
+sprite $SquareBlueskySm [10x12/16z] RSR50O0m0C30u4xsdnRNjlSwNgOmgYNxcAmuXzpRbDxTCyDupgOoctJqnZ2VcXK
+
+sprite $SquareBlueskyMd [14x16/16z] VOk30S0m54IlRhp_jB7rld5eUMH6u54xRdo-dX0sNy1h2-2dnzVJPcad2jUuv0Lmv4aHrnuo39_hyucxBa-AsQ_lK0DefmO3
+
+sprite $SquareBlueskyLg [17x20/16z] XSYr0O000C2muax_lnPtpHZkegCGF6jg_xLGEWbX2fO9s8D64vQGaJNdI1abZX8spggGITOk4R5ebW2OCbkY0DeOq4KH51g6hKyoBsWyIRZg0G
+
+!procedure SquareBluesky($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/SquareBluesky', $name, $tech, $desc)
+!endprocedure

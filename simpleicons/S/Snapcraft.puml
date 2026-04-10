@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Snapcraft
+
+sprite $SnapcraftXs [10x10/16z] OsI00tu-19EVdu4DI42O_1mC_31HC601yy52C0OxZC40Pt326
+
+sprite $SnapcraftSm [12x12/16z] JKg50G0X4EAxd_sdjHKkgGbMV9oGvR0HxdX422oArI86dAN2u2m8WujW1
+
+sprite $SnapcraftMd [16x16/16z] VSZ50GGn08NG7_VGVxNhClvkOBH1sGwcsGo8yZpz1argqF-3ANdqP7ZoUleDzyzcBLP_eAM-wKqEjBB9gIjt
+
+sprite $SnapcraftLg [20x20/16z] {
+RS_55GKW34JHmPtflzelo28dlEL5O_1ePkZ8-K9E3y3lx4Mo0P6hPOQhOM4QIR_GyfJNPgp2iRQEONMkgX1baaM87oZC494DKSYwxJ69WInfmeEo9j0gAfeG
+b7m1
+}
+
+!procedure Snapcraft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Snapcraft', $name, $tech, $desc)
+!endprocedure

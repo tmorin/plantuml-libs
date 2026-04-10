@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Pagelines
+
+sprite $PagelinesXs [7x10/16z] Ou03Vdu4nS7FnC_A3-BmGuJvm38yp40U8qoGXG54S898
+
+sprite $PagelinesSm [9x12/16z] NSc50S0W30J0JxtOxpyjxWTnpCYz-LbduvwqL4niMKg-4CR6zBF85tntgOaeXom
+
+sprite $PagelinesMd [12x16/16z] NSkr0S1040D1cTdRVxNFFCcXD7gPIm-K_lTz1kNXNOb_6t3ynCn5fEIQqZlQvWaM_NZf_oCvvVtI6HCwDsNVdXj-PHO
+
+sprite $PagelinesLg [15x20/16z] {
+RSlL0GHH349HHfxBxR_RpOxR-Ki0VHd8kYXGBsS5BgUxdgOVvmXKmRx0v24reDYPCPw_GIR0ocjNDEWFqoIaAKth2KDV5nguQ98kfrOvQ8WsNKrT5vxBCNB9
+Qi-3JZy
+}
+
+!procedure Pagelines($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Pagelines', $name, $tech, $desc)
+!endprocedure

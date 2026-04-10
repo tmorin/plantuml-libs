@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/RaspberryPi
+
+sprite $RaspberryPiXs [8x10/16z] 1S670S0W00CWkjoQ_xyji1vbyNssPse4Z6E6jdlU1uJAAq9SkgMA0TTjyWC
+
+sprite $RaspberryPiSm [10x12/16z] 5SA55KGX302muF2btN_Qaxmm7sfK0XjBf-K6hyYxJEn25UYZfbqvIRA3zFzECPAUPMjGm2tVzCBoxmi
+
+sprite $RaspberryPiMd [14x16/16z] {
+FSVP0OGm20JGHznu8Q7_RjSlvnvSDRySSCN0Xc7Itd-ZSFMD4ofcTyT8a0f759Jid_awq4qqOrsq6usooUyjBwEFOygpsY4UAz4_ZUH1KhXPzrR339XheLS0
+SZW7_04
+}
+
+sprite $RaspberryPiLg [17x20/16z] {
+9SpNeSKW30KmqIy9sFjF--eflq8zTwBisE0fbAViYNgnTRo3Kbm4bbCD_BuFtCo60-RICpDAEK2xTTTVPIPmz8JWGZDpP-PdfWCdBs8Yex7BAdWhjfUm83vO
+TE6-V38xMKitLcGcHkO-WIGVIDg3w_ysjQ0ExYOA0TPJy-uTgrw0FF0l0UtKVe5l
+}
+
+!procedure RaspberryPi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/RaspberryPi', $name, $tech, $desc)
+!endprocedure

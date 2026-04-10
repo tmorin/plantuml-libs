@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/VirusCovidSlash
+
+sprite $VirusCovidSlashXs [11x10/16z] FOot0O0m4CH4vwpzfmMSlhkeBA00LAKyBDDKXw6N4lgIeYvz36C9SEe1OCxA8J0gM3y
+
+sprite $VirusCovidSlashSm [13x12/16z] HOU50KGn58FuBXNsd_QaofE4Hs1H2i4NVDdNQfowuWAGB9oHQHiWaeij6RMyccWijaJWgSOV_xoO15OXNs2WS2ZW-mK
+
+sprite $VirusCovidSlashMd [17x16/16z] {
+HS_50S0W5C3Gr0t8_jFMi1mV-WzNtf8kv2udG0sKWcxWyMcMw7ZuDfrLagKjGvU1jta6B751IhDDPeUylSa7aIxaQwmI6FYQrTJ_jUfNP31bKhXqPQnxtFCi
+J5vPwhtCNWy
+}
+
+sprite $VirusCovidSlashLg [22x20/16z] {
+HT25hG0n3C1G7qF1-q_x8Oek5hzo7oKQwWRPcwmw-6ewZU45Dk-QtM3j7e1UoLqtexcfUtApEklCNafLdEit5neCiq4NTdlpBVOrL4tEGlTLVM0QBLDO12tk
+N18rYnU-LBt_UHPbnp-F_8XB7nxL2rH8_duIfY_97Uvf2zR6bvf7wVCB
+}
+
+!procedure VirusCovidSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/VirusCovidSlash', $name, $tech, $desc)
+!endprocedure

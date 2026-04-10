@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/L/Ltspice
+
+sprite $LtspiceXs [10x10/16z] Oy0AUFWXW841X5c068N5nS301s61C8J52sM1jF7oCoAR1W
+
+sprite $LtspiceSm [12x12/16z] TOo50O10482mM_QVrcx_kKxYk3C8YTKugia8fGcW0FtcxRWwPbTUcLpvwFCba0mhwP3oPWO
+
+sprite $LtspiceMd [16x16/16z] dKo53G0n4Afxo_xJlft4tuWGrFm0O71X31oo0twjKvkrhdXI2rAlH5Dq8cgYBP4NpUGkjgefpXGulITareDafRj7x
+
+sprite $LtspiceLg [20x20/16z] {
+fSm53aD1489XdZlS_xRj9B2LMEMFaMytWt_RhcEwtBbTHQVKozKgamIIgh2HiMhqi6NGr3_zEsr3dZTf0p9tL9G6so5DkTlRA27MeStdaNczsIZNDUj2rzhE
+zUc-y5qt
+}
+
+!procedure Ltspice($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Ltspice', $name, $tech, $desc)
+!endprocedure

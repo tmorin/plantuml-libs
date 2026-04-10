@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/R/Redbull
+
+sprite $RedbullXs [10x10/16z] TS750G0X0C2mdYjq_sdHBoJCBNJNwoEWvyCdhnekkF5WUyuzIhFhoa06
+
+sprite $RedbullSm [12x12/16z] ZSF55S0m4CHGXMqlJF_L1g-X_oJ-2ybWZvAjsf9q5Ac8SRzg5maKq83rAhZQ05IgknOkGoqysW
+
+sprite $RedbullMd [16x16/16z] hSgr0KDH34FH-nXjxJzj6Dh0Fvs0emn95Y5n5UVgU_STYK2wRbeqMwJRKwu9tKMUkZ9LO0q8QhifIp2do6rS-sQps9Ado4qCSRe6RsFqmDVE
+
+sprite $RedbullLg [20x20/16z] {
+jS75OGH040InMeQ1pZzQCxzz4WzL-AFhHMv-MBec7HViv4LnwTm8DpkNoGkzc3e3CodOT7qgz54ZuEfTQ2sWx0k4ZgGuBWUM2HIZGikZ6PrCnVHT2XIxpECd
+NIfyEtrAEfMVvjcxyl-U0G
+}
+
+!procedure Redbull($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Redbull', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/MarsAndVenus
+
+sprite $MarsAndVenusXs [10x10/16z] LSU30SK050F0-wYH_QUjUOznI31cmp4ruRMQTynF0kfaj1loiya2Cm
+
+sprite $MarsAndVenusSm [12x12/16z] JOs50O0m40DnXzj_MzftzsG8WHvlk4UaXlVj5RxZatZqkEbawd6iMwaNxWwr2l1EawFGP9dD2s_FFm
+
+sprite $MarsAndVenusMd [16x16/16z] ROpL0GGm24FhNjx-qvvHplCJYBbt07gKFOFpdBznC3RwpXW5XaloQ8LxgYFQPThQWnP1_us_qx1Vz8-8vOsxqjJV0mBW3FVFt5VtXR5WfTVF7V8tVmK
+
+sprite $MarsAndVenusLg [20x20/16z] {
+VOy5ZWG13CCopEF_l_PkeL6MBRBArGi0zhPhA-JOoOqEc2f660GLsYMDm2ZDYwGPHYyuPJlAHd2CNjPqj8ajbY6nuNNo16M3Evfi4q0dxNarhq6hC0CU6pRG
+2-C1O_SKohYts8zv_m
+}
+
+!procedure MarsAndVenus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MarsAndVenus', $name, $tech, $desc)
+!endprocedure

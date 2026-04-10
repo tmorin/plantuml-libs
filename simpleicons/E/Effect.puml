@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/E/Effect
+
+sprite $EffectXs [10x10/16z] HSY50O0030Emu4x_lnQNhGuMm9gaHPtxp7cFF_0vLA5IH9Zy6oBO0G
+
+sprite $EffectSm [12x12/16z] HSQ55O0m50F0mvtiloqFQ-zBmktmEv9CRbDUZIQLLEIp4_OaFU6EcJKmvBu6nygQWNF1NMm7jpP3u08
+
+sprite $EffectMd [16x16/16z] LSx50SGm4C10XJdglze3i-TZM2HvQBtgJdOQJVojLWE3dMUr1u_L5didhmUumfnIUMJo0Gv78FonfLNkiC0GRYFxlrd8N4BJComQeqDQT2FwjnozA4QLu0i
+
+sprite $EffectLg [20x20/16z] {
+PSvLjiH030FHQWpQslzg7umx4xh_gYCErU0kkQI5ArVe71PzUOwGRdo4xjPTRp6ziWIikaf0CYsR3iqrWmGmwa2LqU9JbdQ0MPw0JSvGf4ROjHBf6O1MW2Hr
+BDORb0ZqSMoM0QooIoyJDYsZrpX5R-Cc_eLV
+}
+
+!procedure Effect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/E/Effect', $name, $tech, $desc)
+!endprocedure

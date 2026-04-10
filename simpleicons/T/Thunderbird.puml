@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Thunderbird
+
+sprite $ThunderbirdXs [10x10/16z] LOZL0S1038NgFnNstxRa_8YHjymWbqS9bW_3NNiY5_YCMJPjrGGe8_5caI8_
+
+sprite $ThunderbirdSm [12x12/16z] POk53S0m40ClpF7-srPMnRbdC0yo1qRc5FSNfAwVi2I0vYTfPC1VLqg8RNcsXePxHo9ikH_EqNq05zC0WWpm0G
+
+sprite $ThunderbirdMd [16x16/16z] TOxL0O0m50CFXrhsdxOkNrprUVZXKOMCAyTLyoks3ASw5xmI6hpGgzYRunesMx53FkTMp9TX7npPeDflFXPkqUnwZV9X2yAQLt2x6NelBLRXCcTALP4
+
+sprite $ThunderbirdLg [20x20/16z] {
+VOy55WCX30MnjUZzRzlt2Qctiyf0hFobYWFh3tNuOgzOEjxUA9p52ItL7y3XywGGPN2ApHwEHy_ZmAOKnMjFwNTw8OYznK4BXtwahNCqNpFLoDXex3LTVFHv
+F2fdIayUvQcTqTtrsjCZJNrMKXRioIWFDZPNQh6u0G
+}
+
+!procedure Thunderbird($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Thunderbird', $name, $tech, $desc)
+!endprocedure

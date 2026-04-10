@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Guilded
+
+sprite $GuildedXs [8x10/16z] Oq03hFmGmC0FuGDfPZ0VYC0q6pyJ0mT84g8CpE11w0S
+
+sprite $GuildedSm [10x12/16z] Oy02sFbXW0dEOW0Y202nU15Y80OtM112WEGO-VavG2hvm79WmCAFQWS
+
+sprite $GuildedMd [14x16/16z] VSg30S0m503HgztRVzhQo0i-2SZRgzohs2kqvgGTP1jKS5MJQqxj0jRX4TDxir7dbt6KHt4iXuq
+
+sprite $GuildedLg [17x20/16z] bOtL0KCX54FpS6V_QN7_QWzwBS7_oFZ0tmHv4wZdedQz2TtkZe69CHm9Wg_SNxqx0Ff3A1Nb8m5KOuTLATYQwKDi6NKq1lw90RFw5rRYLp8
+
+!procedure Guilded($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Guilded', $name, $tech, $desc)
+!endprocedure

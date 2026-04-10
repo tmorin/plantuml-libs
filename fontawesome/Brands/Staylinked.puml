@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Staylinked
+
+sprite $StaylinkedXs [8x10/16z] 7So30G0n50FGweot_xJ5jvAaQMyAuuncLrVxt7AiM8SLXq8cpLySqgVvGsRn1m
+
+sprite $StaylinkedSm [10x12/16z] BSY50GD02C30l2lD_jFM3uUFovzklbGdC9MguzFGeesbGxF2KHIgZ_Dz9SBOHbC8RpaA46hm5IxW1G
+
+sprite $StaylinkedMd [14x16/16z] HSs15G0G201H0C3jlwqU0FYer6vD_MRWCyDdXz8k0HjSNJI0lE8t0LSG5kYBFWEXC2Hm25K3R-G9tG5R88Y43N09ugAfz5L9RLe3QC5Y1THfWrNhCwzz0W
+
+sprite $StaylinkedLg [17x20/16z] {
+POk50GGX40DpkAV_Rd-nVHjyI70e-AQJ3pxW18hbHkjohtYR9ZVtD3Nh3EGuvf5z__OFC_vCmpZ6uMQmZ92PdrqOCuaezm9Ei9D1ZcocS3DPZm5ftBJ0DKYh
+lF3pscMBW9g9Ww9rnN1Wym8
+}
+
+!procedure Staylinked($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Staylinked', $name, $tech, $desc)
+!endprocedure

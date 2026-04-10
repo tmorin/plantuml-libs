@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Random
+
+sprite $RandomXs [10x10/16z] POl50O100CE2Ezb_MbnEQg-KJ58fCAiCYomE2jnpCtwmp-CU6Jg0GVcG7G
+
+sprite $RandomSm [12x12/16z] PSm50O100C30uSxwfyNbvG8SaEk4ek1KpBge9NW2LgbbTW1GeEZWf7nQg-THz7daUnxdypYV7G
+
+sprite $RandomMd [16x16/16z] VSs50SGm0CGmb-aIxp_jCqErWDWJtcmAoTPnDgMgHJM0LpHDgpsnDD45e54GDXSuMvGtLNcZu_EVfT77NnGMVVuTaCVVS7Nz7nx_coC
+
+sprite $RandomLg [20x20/16z] {
+ZOy53iH03CIcpFN_VtkQ79LtBOh2LWQLJaoW8pEW2c3-9yn2uDJA1_N3iC0YBR0Epeyo8_II2rEa0g1G8wbpwf_KaV8gEK6xzo0-sNciSHR-7gQJevr7FD1k
+FJfzw3uUUwPZQkTnu0K
+}
+
+!procedure Random($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Random', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FeatherPointed
+
+sprite $FeatherPointedXs [10x10/16z] Ou02PZumnSSF142Q4KX1MFmG068miq5Pp21HPf0k1fWo48CRH2E9mCm6
+
+sprite $FeatherPointedSm [12x12/16z] HOi70a0m00FjpVt_jro3XhQPpO-Pl1sYK4duGELKxhLBUtap0vT3gHWV7dhrFwKD7SekzHyt
+
+sprite $FeatherPointedMd [16x16/16z] LSc54G0W34FHuWxxJujL3lxfI-3DrWwS6JTIH94rWMp7xuU52FcxSKH7OLVdhfiTdO_38URWrYwAHl5RX3WOfeAt0LyB
+
+sprite $FeatherPointedLg [20x20/16z] {
+RSw54G0X34JH17Vwh_PyaSpzKHuM4kdOqhRE_MbAwmXo7zcD9y3CHlcnlgK7fUsgVpVTQkqX1hdRRiARJTFJUah3S0glYP4pmxPXzrF5qpo5U9wo54ejaGdT
+9FkX4m
+}
+
+!procedure FeatherPointed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FeatherPointed', $name, $tech, $desc)
+!endprocedure

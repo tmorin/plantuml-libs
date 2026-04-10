@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/AppleAlt
+
+sprite $AppleAltXs [8x10/16z] Om01VWO81QNvm1mmu0NI40QKveFI3EWq4uG2
+
+sprite $AppleAltSm [10x12/16z] PSU50S0W40F0jBZlFotkl5vGon6q2e5FrQSLy6bHSYi_5ToKd-9JU2NHwP4
+
+sprite $AppleAltMd [14x16/16z] TSV50O1044MnXpk__sfnrYUty1c59wcAXgUDLxNCDT0k4z3B0uNQQ9jiIxGw6l4MUHNuBE0xmma
+
+sprite $AppleAltLg [17x20/16z] XT230SKm04NHLxVHtN_QRyGviQ4VowGOi2dY0CKyECMkiElhi6RMmsRjgoJc94TY5Ic_a_Sm4iXSP3JgC38aygiRfJtXznU4x_WT
+
+!procedure AppleAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/AppleAlt', $name, $tech, $desc)
+!endprocedure

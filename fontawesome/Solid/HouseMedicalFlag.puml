@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HouseMedicalFlag
+
+sprite $HouseMedicalFlagXs [12x10/16z] JKk54S0m22ndzVp-qmPttWwEhELqam00mGUWq2AL56u1PR5NXAgL55jJw7dJlmm
+
+sprite $HouseMedicalFlagSm [15x12/16z] LOm50W1120AvxkF_hzssPbC5O7mGfdgnKD-5NAnSwxjAkR5nzFBW09o1iqkanDDygvHxJzTIn5PkkvO8oHa
+
+sprite $HouseMedicalFlagMd [20x16/16z] XSo53SDG54FHDeps_jlcOHYko3eVViVmkmG2c7oNP9Zai_ALbYJjhMQqMKDcOjLFQdcmGgZBPsdv6U1VkKcwhM_p_xxCEnXsDl4liW
+
+sprite $HouseMedicalFlagLg [25x20/16z] {
+TSq54e0m34JH07NR-z-MgViVJLw5jhIbSu3ulk-jumjJ8KSv1i0Uu4FCRy2GSmjmr7o7kky21E-z9P8OY_1IJ06nOEm4TO-7Q0PpWpnJpjv0ti2jSFyZ3XU0
+3nlKLg0DAFO3
+}
+
+!procedure HouseMedicalFlag($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HouseMedicalFlag', $name, $tech, $desc)
+!endprocedure

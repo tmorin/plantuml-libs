@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Contributorcovenant
+
+sprite $ContributorcovenantXs [10x10/16z] JKa50G0X47jNOFtRSkxJXUR0joZJDLQWbS6FZQX6LLtefa26-5T9JmNpZtUP
+
+sprite $ContributorcovenantSm [12x12/16z] RSt50S0m0810wbxsdxQkIUx53tQD8wTPg4fsYXs7xaqKuUJOfbj-BRk2ND4-oqTWy7pL0AMx6LO
+
+sprite $ContributorcovenantMd [16x16/16z] JOp50SK02CK2TSt-qtwfaXCyWuFPlUUcrPQNnOt6DOdZdTnPvK4PohkxuLRjDetwnoJrpz6c_bsurr_q_IVDrA06MjqoSeq6GWq6tLj6WF2uORndLmzQu0i
+
+sprite $ContributorcovenantLg [20x20/16z] {
+ROw54SH03CJM_j2X-k_snnC61Kz6RGo5daqN2gIRq01L6ZfKrye8IGxNnCXQQBefP71L3aNWLrSlQTVIcVPowSCj7xN-TfEu5wUr8SF56J2hH_PAMHV4ujrd
+Dyz9jdRa9oVeKfCsMMojdAfMsffJAYJjM8KWA_W3
+}
+
+!procedure Contributorcovenant($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Contributorcovenant', $name, $tech, $desc)
+!endprocedure

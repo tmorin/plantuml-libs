@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Screwdriver
+
+sprite $ScrewdriverXs [11x10/16z] Ou01VWIBdn_1mYB81w7v-64iNg0a8vG5LmTcmLKoGbW
+
+sprite $ScrewdriverSm [13x12/16z] HSo52S0044FH6b9z-szRxFZ1uaiGlJ3ymJRYunk-qYGRuXnnjZW5T1J_0G
+
+sprite $ScrewdriverMd [17x16/16z] NSwr0O0030H0tE7stvOorkLzAESkxuGZ_I-iMO-l123_7wwQaBvrUSeF-h-ttzr-Ssx3amHjuQ4llEh_0m
+
+sprite $ScrewdriverLg [22x20/16z] RS_L0S0m30FHCYkt_xHbbk_p1PrPu5Q3CtkLe--zqRNzeQAj8oGfjvtfAyqqZg0l9i1sJj6Fn57-UzfLu8Fs4MO__DsQsryDr-Iu
+
+!procedure Screwdriver($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Screwdriver', $name, $tech, $desc)
+!endprocedure

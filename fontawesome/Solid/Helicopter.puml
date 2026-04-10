@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Helicopter
+
+sprite $HelicopterXs [11x10/16z] Oq01_700vdAZYC6Ot0oyO6a-49C1eXB4v80m6U3QCKq6
+
+sprite $HelicopterSm [13x12/16z] NSl50G0n4090SgxGVxLndzSAOARYL3xaynleVSBI-8tCat8qBYRNuyAyF0eMr8q6lG_1hSG1
+
+sprite $HelicopterMd [17x16/16z] RSZL0KCX0C30F3SW-qzRmQhtUVmLKpVbI7PRKWeNCerNPhpE0V332OFDogmZq781bEpy3dw24ZfJBMQHRbNJoe-B8iHA2flh3W
+
+sprite $HelicopterLg [22x20/16z] {
+VSs55SCm40JHDOkd_sg3zpQSRnuBzCUql8ZAgtdAsMCtUem5kXIe2a2hTurHQvwkjVCYvawlPG3jTN_gVVAakmDNGLOOk8xh8-0AnNKXQe9PLe6HSmVq18AB
+HpCE_R3A9YiuyimrLolJ6G
+}
+
+!procedure Helicopter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Helicopter', $name, $tech, $desc)
+!endprocedure

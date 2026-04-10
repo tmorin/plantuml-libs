@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Prescription
+
+sprite $PrescriptionXs [8x10/16z] 9OY75G0X34B9zQAo_xRodmbTjfKpXt_X6xRhSgtzmRvGPc8JTxXXbVrcXXC
+
+sprite $PrescriptionSm [10x12/16z] NOc50O104CE2Ezb_MfotqxP1tG7mgUfHnIdehZn2U7VSWJ-7wXUesoTeNLu1dIS
+
+sprite $PrescriptionMd [14x16/16z] LSm50iGm24HHO7rB--z_skZK9leY63rfCoXFwHKHNv1YBdwJxjRCv10WUCB34032H5Wst2RXRzRHsQ7eiU8mAVnrAnoF5nM02W
+
+sprite $PrescriptionLg [17x20/16z] {
+NP274eKm3CFCtkZ_l_OD7paV5NGfwHJc6lH0SRU2iyJbze080zrBJCcuvnyR4KNNY0mlwOOruSiT6s2sS7VnM1rz9Li6CewO56u0niHX5r3FSddRc1lsIdp4
+BjF15m
+}
+
+!procedure Prescription($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Prescription', $name, $tech, $desc)
+!endprocedure

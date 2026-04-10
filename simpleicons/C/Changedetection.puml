@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Changedetection
+
+sprite $ChangedetectionXs [10x10/16z] FOk50O003CE2E_t_MvZxAW27LYnaOpdoi1kU_L-FdWCunrPDDioLUubBueXhm7mX_m
+
+sprite $ChangedetectionSm [12x12/16z] JOg54GCm3CGKvlp-s_QlBBFEO9OwF540gZ3devxvf5g6sXRStjTPcBxjFo-9fm92Y85Bf4gsJT95FB5l_1tc78ZNzW4
+
+sprite $ChangedetectionMd [16x16/16z] {
+DSR7WO0m300m0N6eZlUVzWf5Bxb5rZdvP0NswcurSziIYazSvEpJspMflUg0KLKg0jD1iSr6WgMdsr5kw-AsdU1oJGGvxTXdncG-bPeZ9cWHDGzzynaA6JxP
+uRhSfkfVnh5d3VW5
+}
+
+sprite $ChangedetectionLg [20x20/16z] {
+PSm5aaGX34NH6oYSvEr_jIDyHlkKnCCrGhloIr6CdCgI6vVYPpWurFaHywMLKO4I_5Ad2OIxFwl5tJMy4sUyWBBDia1Z0D0coG41YimnI-CA9HuxS_ak7E9C
+3T3v3d5_hNh6z37ELzESKoKxNlXDfeI9NyAAW25-kIjJ1bTHuYREaIM-TIbSycVf7G
+}
+
+!procedure Changedetection($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Changedetection', $name, $tech, $desc)
+!endprocedure

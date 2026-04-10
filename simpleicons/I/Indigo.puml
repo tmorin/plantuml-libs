@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/I/Indigo
+
+sprite $IndigoXs [10x10/16z] Oy00Z222YP-VcO4JNOePayKFn1mCV0pC_20UAuZWGTS6
+
+sprite $IndigoSm [12x12/16z] HKo50G0W3C9k_VzQMra709hcc5OHOFKG3iOHKTgRh86wer9VHQw-CLQI9GNbaK4pRnW
+
+sprite $IndigoMd [16x16/16z] VSk30G0n343HNplxRtis-ig8kyPTvIgMBTaeQbfxcaHOrcrKtOQrmrr30L7in02MdTTmhGi01iWvf-9PR0zxMzdVG5UD74O
+
+sprite $IndigoLg [20x20/16z] {
+ZSs30SH004JH7wmn_LSR-_ZM75vLNec7Hhpo--qs2SLEA9nddSDr15pp-ixoq0fvhZhnAiAQSL0tzprNQKaCbzoiTRnbD9ogK5TqBCrweQKvRYN39cHUXCHV
+rep32
+}
+
+!procedure Indigo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/I/Indigo', $name, $tech, $desc)
+!endprocedure

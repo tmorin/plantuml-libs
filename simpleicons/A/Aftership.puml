@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Aftership
+
+sprite $AftershipXs [10x10/16z] FOQ54O100CE2Ezr_MowyL0EmPqOTKLBo8kAKZJaeX962Eo4gW0woym4
+
+sprite $AftershipSm [12x12/16z] HSV50S800C30uCxjFotKUw-aqTEjcSbhpUiy5yxLY-AhpdZ4gwTJc3h5koUb2vLL-pIvuzHAepy
+
+sprite $AftershipMd [16x16/16z] HSs55S0W40JHZHim_NURTopoevogsZAVXXjRVCnqPnmVW4S98Cv0Yk_YmD4x3vyBV0jv8wkUWI-IxboLwbduBAs0pul_l0uLNBaoAUpCenN2gmcop1PaFm
+
+sprite $AftershipLg [20x20/16z] {
+RP054WCn30DzOVR_NrkGqwYq1z5isB8fIqSG8MwfqOwgIhPAHr0YBX5luQNMnHaEximeEpjL7LK7vZeuhD9jTBN6ndUijHVdE75qQEOVf-hXcaMH2t96ZJmp
+haik0UrBWN2KV5UmNF892qeSvzq1
+}
+
+!procedure Aftership($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Aftership', $name, $tech, $desc)
+!endprocedure

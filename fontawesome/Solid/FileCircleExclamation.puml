@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FileCircleExclamation
+
+sprite $FileCircleExclamationXs [11x10/16z] HSR50O0m0C30u4xsdnRglTU1UW2awTjAUYxMQY-yS-wmEsagIk_PY_u
+
+sprite $FileCircleExclamationSm [13x12/16z] ROo30S1054DVxMR_QOkpzKFGjnRiabbd0XRj4R1g2M2QRbdWGX70SNdGcs-r0DEeDeWVjr5U
+
+sprite $FileCircleExclamationMd [17x16/16z] NSs50GGX00F1dE6m_LVxYWSVJ79ySwl5yezfKFvBU1QuJxWMq0t7155w21DKNS1A2qXA-HnmrKa76OWtvFuBVw32iuCHDHNA5-BpXGDeOm7x1W
+
+sprite $FileCircleExclamationLg [22x20/16z] {
+RSy50eKW00FGcJIx_sb_a3DcFnK6WCGI1mrxik36DzuRdNwmAk9WLGGotjJMDZTb_aLKuv-Q5-cWTMrEUr51ov95T2cuHPAYG3axad5eW1bAMLj-KODK2fEg
+4MUvL5rlinrb3gIckzJv0W
+}
+
+!procedure FileCircleExclamation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FileCircleExclamation', $name, $tech, $desc)
+!endprocedure

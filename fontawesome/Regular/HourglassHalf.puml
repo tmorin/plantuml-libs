@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/HourglassHalf
+
+sprite $HourglassHalfXs [7x10/16z] 7SY50S102CNGJzsp_xRDyN0cMeWS9R9mdkDpVrJ4s_tuRd-MNrgun0y
+
+sprite $HourglassHalfSm [9x12/16z] BOm50S103CGovfr_jLzC6MSrw0WUJoQS--Re2OJJHMQweRAETsNH_prxzJYQ-k7xdceC
+
+sprite $HourglassHalfMd [12x16/16z] JOw30G0n5CNU6KNsdxPMYc_iJ5ucSgY2z3Jzo7Acv83TjeqQ_lW5cvgHrGRyYyhNrKrVDHnxgRcb3Myo8FrqjExZcKG
+
+sprite $HourglassHalfLg [15x20/16z] {
+LSp50SKW50NH2N61wR_Qh-XPFRt1NdeSC1l856RtlfsCKwQ0pSgllyyFJNpDki2JEmWwFmhPh2QQg7FhRfCktOvPvxe3bjplclC4qEV-qHk27PXRfCBZSsLw
+HWTl
+}
+
+!procedure HourglassHalf($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/HourglassHalf', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Pearson
+
+sprite $PearsonXs [10x10/16z] BS450SG0002XUvS9_TFEeUhbs-uEvehgwvdXXsRX4pVXbmX38PTwuCLKpV2h5G
+
+sprite $PearsonSm [12x12/16z] LSR50GH140IWMjTfye_sN7cHkzMUfmRSMqpTK2ITANiT6QnXSYo4GFBtwViCR87xI5OKd4dG2ha3Hv8h
+
+sprite $PearsonMd [16x16/16z] JOm15W0H50830Bh_RRqFc5rg01Q5pUAWkIXB8o-YZknQIYOR0D91rzuq30buDd2IqHbsXoGos-STzVCrud51ydhPcLSc2X70AkzQVViA0eMdvwaAOG
+
+sprite $PearsonLg [20x20/16z] {
+JT253SCm54NHMpQ__RUjFYavPWRIP-aqxgRIc_JKvU1UCdECRUN2M8tGSlcIFj3MsJtM-BH9Lu1ZsKVQoxUn4spYiwxnotqVqeiZry3pPdqA7Mg3PyqRy0Ms
+7xJa9i38mvlSud4zkQee0LN_rBJh2qHqxllddTms7PKEvNtgZkuF
+}
+
+!procedure Pearson($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Pearson', $name, $tech, $desc)
+!endprocedure

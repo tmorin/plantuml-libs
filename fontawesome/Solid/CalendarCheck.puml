@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/CalendarCheck
+
+sprite $CalendarCheckXs [8x10/16z] JSUr0O1000F00ofy_sdVBHuU7FZPVzU_ugcrVRMLkBJt_XDQHm
+
+sprite $CalendarCheckSm [10x12/16z] Os1Wu0PYFWOWOEK74c2C4y2bc1bGXRY16daW0Ym80rZ190z2EpSV1B03
+
+sprite $CalendarCheckMd [14x16/16z] ZOg50O1030CFTxB_jBY-Nxq9mCJR6NNs3AX6QHh7erCfXUnxv7oEdkvpmSS3dt_1_BKr-b381V_hnme
+
+sprite $CalendarCheckLg [17x20/16z] bSwr0SKm0CHGXJdQVzhF4BRzkbDrFDGJJvbyQCx3PByD0m-pAtLlYcPsfQLm1RPxMEsIt2yo7S6VZCprGnvgNHVNYjapZHjChbHitG4
+
+!procedure CalendarCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CalendarCheck', $name, $tech, $desc)
+!endprocedure

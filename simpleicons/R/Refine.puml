@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/R/Refine
+
+sprite $RefineXs [10x10/16z] Om01VY06qo00fC4aEv3a0x60408OUE0i1bGMDvm5ve49g1eU1WO
+
+sprite $RefineSm [12x12/16z] ZOr74W0X2C02Uzdk_t_hn86xKNf3SY3Ba_QU_8qENHv64T-8jtrWn_zSP01bpDXn8HwwWGa
+
+sprite $RefineMd [16x16/16z] dSbL0aGX509GxDRzxtO6szztJBWOV9CuGYEvPxGQnqy1H2EX6a4c5ai1pyaPfQadqwTSUDMJv_rdvw_oCJBn2I0s5B7KdNu
+
+sprite $RefineLg [20x20/16z] {
+jO_L4KCn0CFq84pxJrlokVXTXHnT4DDMnDZSURTZcIonQKrlqskfMW2G5BT3uq5e6rsJwMNtxbZ6Rh9_kRFpu-1lhjczVGGDXJlAtQ7ndjZ6Ub4nDXtZjLvp
+1G
+}
+
+!procedure Refine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Refine', $name, $tech, $desc)
+!endprocedure

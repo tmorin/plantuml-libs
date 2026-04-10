@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/VirusSlash
+
+sprite $VirusSlashXs [11x10/16z] HOZ50S1G58EeUzb_sigtnoM1JM0YSGXAuZHnn0UGgrGjNzYKMm4m_V8KBqe7ZnS
+
+sprite $VirusSlashSm [13x12/16z] HSUr0GGn0C0m7qF0-q_x45IdHu1deGW2IbzGOtkoOgvapP9B4gWPYmo7nh85m3Q0HVMb1fTRmK2bWEyN
+
+sprite $VirusSlashMd [17x16/16z] LSxL0S0W5CNGr1Nk_jFYcXOxN-_HIUpVANtQuY5H-_N37s7vIHcrBbAs0JGPOOSHjdIgazKa2_oZFCIwG0ERZd4mmoAjPGhx9bd3gXrI6k5hae1TdmS
+
+sprite $VirusSlashLg [22x20/16z] {
+PT014iCG50HG0C2__srRMBCcsoRvym2oYDhniq0AMAGJryr6rfTxTstbdpe_xd0JJhsJi6eezsuNcSSHFQVgxxnwLWMCxaw-VAVCIWrWL3FvOOLmx_QgfCK3
+Y0dzAZsw8e7lCtI_xyAkWMKQJNw-zT5yYny
+}
+
+!procedure VirusSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/VirusSlash', $name, $tech, $desc)
+!endprocedure

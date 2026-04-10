@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/TemperatureLow
+
+sprite $TemperatureLowXs [10x10/16z] FSR50S0W0C30rBtPVreSxdN0_W7l0g-AYs3PrSTE7sLltUADfGfrnnXQ4m4
+
+sprite $TemperatureLowSm [12x12/16z] Om02NauGoGycW018SW09HYYR0OdD3sU302gRXPyJpWOoW1oeC1kG3sEpmjWWcei7naQO0m
+
+sprite $TemperatureLowMd [16x16/16z] RSU50O1040F1uCxsNotoRgSP_RNTW_dtRXx0BNK07rTiE91-dyQTDZIb5d2crh-frVG5FGoU2-m275s4CxWtzmwU2ZDeWyMvmvPyTIbV
+
+sprite $TemperatureLowLg [20x20/16z] {
+bSy53iD030NH2VFw_hUjzQr5OLyR6WUHFNs4Dor8CdS2axbRCvC9p1PVS1OsTFosxG9VhJOqTFxGs4yOclpPbZVUDVkyQR2JBV4vviYKOZirRSvtRThMpEI8
+6vtQP9Qz57DkDAQl_umV
+}
+
+!procedure TemperatureLow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TemperatureLow', $name, $tech, $desc)
+!endprocedure

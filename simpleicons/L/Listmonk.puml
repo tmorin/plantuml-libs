@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/L/Listmonk
+
+sprite $ListmonkXs [10x10/16z] Om02Jdus1X3W1mDE28CFY5c1B9041r0Kp89AGLbiS34WueH80Ws3022N5Se
+
+sprite $ListmonkSm [12x12/16z] DOg54O1040E3Ezj_jV2VpEr8L9sBNO5WMzWUabvu5Elk0faXlm1x-Ga4Rsfx67hBvi9uVY3j3m
+
+sprite $ListmonkMd [16x16/16z] NSxLOKCn50HHwJ6V_gjD35hJ_Ct5BG_6qrvBE3sPdqguek6u3xTw1xKqpUI8qbXmnZFmupkY5HLzymE53FIuoWJBRVY0bZvCMHFDtSJy1m
+
+sprite $ListmonkLg [20x20/16z] {
+ROz55e0m50E3Ezp_jDLPf7qCrBv7SBpVlSfOFdW6mMSSc1fEDxsSYwWrAtD-6S84Utxi8WgUqeSm6AbiDklOsUwVkBMrRUN9x1RsqDqxZ1hA-OmraKh7ru9A
+PrHXwQ9CErMb2
+}
+
+!procedure Listmonk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Listmonk', $name, $tech, $desc)
+!endprocedure

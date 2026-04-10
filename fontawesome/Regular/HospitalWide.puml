@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/HospitalWide
+
+sprite $HospitalWideXs [11x10/16z] FOY50GCm3CDKvkh_RyTBpC3sUGqWZPVwafAPWHjOPn2LC1HuhT35371N5rxtNxt_LL_hEdDEVSa3
+
+sprite $HospitalWideSm [13x12/16z] JOq70i0m20ADtPF__xO2NPST1QA02869h7xLFlW8DkGvktciZnt8EauCqUgeU-EZVtnKUNWgxQrKFoFpQNF-EUB71G
+
+sprite $HospitalWideMd [17x16/16z] NSw53G0n34DHEyVe_QSja_f5qIiYHEK-bDH2YaBEHj1HGQ4uFmQJz7yYMPcqG4ZfGYh26-qYWDyIgBzo9W2HYqE4-wtm3aUUkn-X0NTIGu9OXlpF2Q0f3m
+
+sprite $HospitalWideLg [22x20/16z] {
+ZOy55aCX30I3Etl_spP8gBT_dYtpGeGc5KAW0nue8WtIGu4a2qkC8gQBLMxQ33MjKjAJhQvmcgY1oGKjfSGI0oB5Bp3IlC6R5QDOwVjWWLcarptfM4j2Hzas
+9Zguf9Tzuxr3GtcoG7_ggxHyM_dqlHGBMfuq07a1KCSx-GO
+}
+
+!procedure HospitalWide($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/HospitalWide', $name, $tech, $desc)
+!endprocedure

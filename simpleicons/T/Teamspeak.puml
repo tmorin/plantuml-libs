@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/T/Teamspeak
+
+sprite $TeamspeakXs [10x10/16z] JOQ50O1008ImM_QVrlY-X5QEB0P8_WdzCUoYep-5wVwvKEXkk7GJFi2x8-c65m
+
+sprite $TeamspeakSm [12x12/16z] LOg30SLG5CNIFZFxJ_lDooF-gxlgDW8SqevAdu2P7ZNq11RmK4HVho-VkAifVVHTMGhZcGUeGHSTe8c9pRlM2LS
+
+sprite $TeamspeakMd [16x16/16z] {
+NSo55GGX303HMRSiqt-tznBEFqw4zCzoVPwaS2GrQO71q3zSmNdHQH08WKbKhfjGJwZtZQE9eL6dtJ7xV9-c1MdrnWGUz3TXm7RbSnwbSvghFMNQHKzYuss6
+jl2nj1NW0G
+}
+
+sprite $TeamspeakLg [20x20/16z] {
+TSo5iU1030JHbjTihJh_RAzCz_aL2cRuqzmz7G4lhH5Oj7Ya4Z10b5n2QIPfWN9APmZ7K1jLy9vIL0a7IAq1cXogc7WP25bK6Psz5Fk1fmbVxE9fmtntoAIw
+OdWve2TtisoU82ieFHSGMJDGdQTkuML3xSpowiMgHSXhwWrpe3dmJNK-YsdP9ox_
+}
+
+!procedure Teamspeak($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Teamspeak', $name, $tech, $desc)
+!endprocedure

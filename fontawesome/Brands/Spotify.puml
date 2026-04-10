@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Spotify
+
+sprite $SpotifyXs [10x10/16z] 9S710K0m002n0Fnk_scXJS067FrmDX6uIiEjBNQKMgdIe6Y2Vhm
+
+sprite $SpotifySm [12x12/16z] DSY50O0m3031nw7s-szBzUAXEvYALY-LK-xV5BFLJir1iKhgUNeed43f_nAUf5VVds8vK7bTWEnmK-th-mC
+
+sprite $SpotifyMd [16x16/16z] HOu53W11308vzvt___P2Ij9PhQDYMjJCO4RC3y9cywMPA_bxdYH9Fk66It1S0yRdOfY0nsKtZ0CMvsXPdJy00M5LRCbi68qMKmA0flBQD7ERuIBYfHy
+
+sprite $SpotifyLg [20x20/16z] {
+PSu73iKm20DG1xfBullVzWleGlzfcubRKrG7mtZpcI-adL_YqSBAirXaf_N1q7tzm6Fri84qVqHLcgT2xk3N5dEDf4b-lNRo9AbvIQPyD-wKsHbuihqyQj4D
+cVTD6t1cjvPPvdgoMl0N6fpKwDBhO6gxdxSPuGS
+}
+
+!procedure Spotify($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Spotify', $name, $tech, $desc)
+!endprocedure

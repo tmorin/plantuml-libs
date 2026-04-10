@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/GlobeAsia
+
+sprite $GlobeAsiaXs [10x10/16z] 3S470SC000IXwzx5lziyD2_t6YxnAjyAjpJcTMcOvcdkd6zNdKLKUfbdgXjJ1m
+
+sprite $GlobeAsiaSm [12x12/16z] HSR50O0m0C30u4xsdnRglTSHNUva-colfYx0gfRYhWyIEQZN4xkQxC2mv-hBYg24tqfWlnjOl0IFqGO_
+
+sprite $GlobeAsiaMd [16x16/16z] {
+JOu50W8n40DpRctc_w_5ii1DTJtwi7IkGLywOOjP7w3dBJVGf5wcTmE3VbLZ0rXGm01K-iIFgYPSs8jacMam301svJK4RADXIbEju8lOZPlwjZJM51KnfI6M
+zU89
+}
+
+sprite $GlobeAsiaLg [20x20/16z] {
+JT054iGW40NH7y6bxt_RhM6P8Y_USRILIO_w26pZyWJCvx-bUEfQCDMJDnEaWAVAWv506mYJnJpjOYaytd2JNJg7Dt9Zw-JdkQpfWL8c436t0cz1qWs8G-PY
+QApBBlnNnpwQRNfBw_A2os4bK_cwVKWFoMMMyR_e1m
+}
+
+!procedure GlobeAsia($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/GlobeAsia', $name, $tech, $desc)
+!endprocedure

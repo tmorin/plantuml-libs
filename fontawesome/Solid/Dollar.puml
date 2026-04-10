@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Dollar
+
+sprite $DollarXs [6x10/16z] 1S450S10000Xvhxht_O17mXLgq1WgtOGIDM96
+
+sprite $DollarSm [7x12/16z] FSp50O1G30FGXplPVrgSVsdZQ86jGfCaPAdhcW396tazAD-uB4iYh_Ukd
+
+sprite $DollarMd [9x16/16z] HOs50S0W30HRt6__QN4v99x_ElxRu9QDbDHToQJdKKA8qP1F9zifK88StcaUw4AudSyHiKDNoGpAoXzvRFyQ
+
+sprite $DollarLg [12x20/16z] JOw30G0n303phlAt_xIrheWXXKDbuf297_f9uyYvT6uHpV-PoMwfZWwSK_zXwXS5TOTa7XflM-6oeGteW9sw4ZQ_oujLQlvDnvH4LL1_hlqdjka9
+
+!procedure Dollar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Dollar', $name, $tech, $desc)
+!endprocedure

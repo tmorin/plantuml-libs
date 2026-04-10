@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Biohazard
+
+sprite $BiohazardXs [11x10/16z] FOg50S0W4CHIzsR_QN5uFQFK0GDy5JaEJlvFWxbsO5MdIosXZsCj0D5PdfQcrBdww_mJ0G
+
+sprite $BiohazardSm [13x12/16z] DOo50G0X483uJcN_QMsvJYexAvEum7ECGgQ3tKLdiRWjlADuRLm0gXpDumeslIC_kYcUo0dpMwGIzAHXqFqtXaW6
+
+sprite $BiohazardMd [17x16/16z] {
+FSY5bSC0340njGtJtt_Qmxp8RFzEPZp2b4SVk0wtLs38RKurJxbDxOvDSQlZzRwUnzvZXFhbrQ-TfSbOrDiHqQHfptPPTd6bMgS-v4AgUGqdUAboct1rrSBh
+1VrwnZS
+}
+
+sprite $BiohazardLg [22x20/16z] {
+LSz7baKX30FHUfdeslzk6qx_n9rOqipmqk1vM5qce0KB7wRkChxQuRskQvWEnU7QNDTjqw0gN-e6t1hh-dBpShXeJEUhRUHNOj1wpWvekwum8Flvwl5aI6v4
+Wl318PW9BmGknU7U5QYPO8ZNRxiFa0_-5HmwXKLsslamRQSQg7NV8vYsxf1XQmu5-0C
+}
+
+!procedure Biohazard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Biohazard', $name, $tech, $desc)
+!endprocedure

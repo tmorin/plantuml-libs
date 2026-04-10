@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Tumblr
+
+sprite $TumblrXs [6x10/16z] Os3WucS00duGoGmaWGG8G4Y8E1e9110I
+
+sprite $TumblrSm [7x12/16z] Os1WuETd009M2CKFflY1W8-FcHyCc20KL0uRnGYYm7n640K
+
+sprite $TumblrMd [9x16/16z] XSt50S0m3CLGbRb__sdB48u2VZS3eyILN2mFLXsjQr_fRlf0VOwgAk04a4N1jVDi1dG551Ts
+
+sprite $TumblrLg [12x20/16z] fSwr0G0X50FGvDop_xJdE5Iy2hxZjaW7VhfbthDxjxBlJQ_ZEDZAQaflWF9cLhy9_cyp7-l_NamYkhMx
+
+!procedure Tumblr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Tumblr', $name, $tech, $desc)
+!endprocedure

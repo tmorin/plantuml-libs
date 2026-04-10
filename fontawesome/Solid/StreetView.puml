@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/StreetView
+
+sprite $StreetViewXs [10x10/16z] FOd50G0X0CDwYfFzfyKXdqhKGGlOrPxl-NSvzZzDgna4V-9AIAvV24WX0nK
+
+sprite $StreetViewSm [12x12/16z] ROh50O0m0CI2Ezb_MbpRvdFAWJoeIK_sElMzw9Zm-VjfqPa6q06T67KIo1e0cRnfLm
+
+sprite $StreetViewMd [16x16/16z] TSt50GD130H1wPWx_spjPQwVSCJPaDmAvFK3Q5QhcsTKSjlpt9gL6FaxOnhMSxvlx5avlSXYQiLa0BUegUS7lWynJFFlO89tLNUuV-RBJRBB3m
+
+sprite $StreetViewLg [20x20/16z] {
+ZO-50SGm3CIkOTR-qpvZMK6phJS5gna0VaN7YcxCT0dGWabpR0Zp4eD5OGkBmk6aJZmO1tDCJrtzz1Y1fowem_WuF1wZt83QGNVoEzq4PTRzL42T1xtMDdWG
+f2brlbGdNG4
+}
+
+!procedure StreetView($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/StreetView', $name, $tech, $desc)
+!endprocedure

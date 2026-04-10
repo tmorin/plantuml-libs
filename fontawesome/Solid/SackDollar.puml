@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/SackDollar
+
+sprite $SackDollarXs [10x10/16z] DOc50S0W30I_xhtzfmNYoQka1vXaymAA-Vy_rRxlpWja3OjCEloUKfY5gveE
+
+sprite $SackDollarSm [12x12/16z] Om02VY3W1T8mDZ-KpGbZ8W123Pp91-M0AHOmoGiaeQh051k40XDCJ0Ws7rGHFnpm0W
+
+sprite $SackDollarMd [16x16/16z] TSm54WGX40F0hE6G___sAcGelrw1KSYaP1pS9evAWPZBV-KXDyAaVGwNxj0lAMonsqUSx-86z9Zy8kOsiWiD3kyRW-9uFbhhsAQFXOTc-04
+
+sprite $SackDollarLg [20x20/16z] {
+XT053WDH24NH2-C6-rzj5VAciPxOLuoF8xyCoN8YPvrnfsUonPlnp_mn8PxbeWqfFqSNSJlyB8TU703Njp8V9lLNrKwXaDjtuS3QPv7Do0fT1-vEhJTKLoyF
+ieJrQkEebLZFKsQU
+}
+
+!procedure SackDollar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SackDollar', $name, $tech, $desc)
+!endprocedure

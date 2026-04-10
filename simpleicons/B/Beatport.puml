@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/B/Beatport
+
+sprite $BeatportXs [10x10/16z] TSQr0OG000Im_EDw-q-BIqMgG5huN7rbofKnkuuwLH2Kxl5kID9R0G
+
+sprite $BeatportSm [12x12/16z] ZKl50S0W44kBQ_QV5fSlvnT13zgnNk-V_uK9hzOvOvwQ0XYFHUfB3sBURjuV8mGpHlZfhG
+
+sprite $BeatportMd [16x16/16z] fOor0SGm40JNB9x-gtquOUv93XPa59mMNjzmhUSDwtb1pb3cIUNudoSK4mFKSDdgbckhqqdwBmTHnbvrZrC5TibIbGShJLeVblu2
+
+sprite $BeatportLg [20x20/16z] lO_50O0m3023ExV_jDIzRwuQJyGnmYw17tKJhBNkWOwgrft0WM4Egfl4aRmkO1aNO3AgrOYlpmUFVNSM2UqTeTPix6FeKmArdw7A5s9OnztL3LmuJicOqnmA
+
+!procedure Beatport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Beatport', $name, $tech, $desc)
+!endprocedure

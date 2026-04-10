@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Korvue
+
+sprite $KorvueXs [8x10/16z] Ou01VWZWWzCC3CmC49e1J7DoSlB1-12Q5yY0gOVf1m
+
+sprite $KorvueSm [10x12/16z] HScr0S0m00F13yUe_QSrmrK2DarXfIXu12F1rTCDxRN66AlrxaHDr_dhF8sS9dpi_Wm
+
+sprite $KorvueMd [14x16/16z] NOm50W0W20FjZl-_rWxWJ60RmwZuORf22gs6V5tvLUF82gkl78HJ-GL84KWvZ_-L6zUkX13hqhNc2k6eOeWE
+
+sprite $KorvueLg [17x20/16z] POw50KCX30Mltt3OVzeQcd1e_B5p2A18KYYAN7P707AvWNjr0AmP1n0MHm9UQuy3oDsHNKLCkO5BZ0KG3bSzIeUfZdGSHxsFwf1OxK2b63GV
+
+!procedure Korvue($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Korvue', $name, $tech, $desc)
+!endprocedure

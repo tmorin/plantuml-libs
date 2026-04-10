@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/L/Lamborghini
+
+sprite $LamborghiniXs [10x10/16z] DKk30G0n47lMRVQVzcm4byIBAwFMuySBE2exhgvRpmRSKafQlNAjVIsnopM0_kjr5DTW
+
+sprite $LamborghiniSm [12x12/16z] DOo30G0n5CLUxMR_QGz5lgcVZDKb-nXreSdjhCBa329Wmqu5pPkL0uRWLnxa2QKFAwLc5ArPVvfcnUoVCnaabT_iqE45
+
+sprite $LamborghiniMd [16x16/16z] {
+NSpL0S1G24FH-wGA9VjFM_VpXOQ3guM7KGf_EN4R9NMPKz7MsXtXMp_etYT9Kz2bSrsof0JftYgvMsMN8s7g2Yus3eG0osp26jAwRiuyuRtKGs5dn1XbgBJx
+VaA9HnLl2m
+}
+
+sprite $LamborghiniLg [20x20/16z] {
+NShN0KCn24Mn0xZdcRl_jEbTt-8fjYQ_79kTVwMFFfDVSnW4Nq9tpiVMLLDjlEcXVxzSadAxZSwJJzCL2nTFsOQKKi3cOUZ6caB5U4WjzwLwWfHp9m09d1sD
+kwnPoDN0o-REZhuX3kYCpfsBcPQQ52AuEnQgYZagHESksR9jtFJ9JHwH_B9q_bm
+}
+
+!procedure Lamborghini($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Lamborghini', $name, $tech, $desc)
+!endprocedure

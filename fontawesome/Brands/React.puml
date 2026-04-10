@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/React
+
+sprite $ReactXs [10x10/16z] LSkn0KG0002n_0F0xR-jblJnDjqQ8GBMiVk6CFlhfZaX-9it3hV1z-fdZGS
+
+sprite $ReactSm [12x12/16z] LSgtOGCn400mV6BctVxJsWgLKCElJEuOlewWWqDt673dhcNkF5WYX7N9u1HvDqYPRgrV2w-RkSBNrMZWC9xB0BLZ7Vm3
+
+sprite $ReactMd [16x16/16z] {
+RSv7Ti0W44J18bX80cRkVrhdRF_NgrwLVneJ-Yv0UN1EMGLme2Gke1RIxMNWN96PUmQK6546qbfBlPWfyXI535w-p91eabX6wAFfmSXTDx9cL2Yjdll8NkQN
+PvsT4sWuetpwh1RDkMhwsnC
+}
+
+sprite $ReactLg [20x20/16z] {
+TSYtOGCn50KmaAV0-D_-sxfIQPJmd_O0_U7dlbEqh5S0JgFNzs8313w12L2DTXKMmEYlcLJgwm1cwgc6EqVgXHbYyo5z-CPd_Zun0bKDFJv9jC1qSVQZifpL
+-HvobK3VpYSJsaxLdcFc9WzWDwhR3miWK6DXD43W6nW0ys4lzUNwIT8makaVVm
+}
+
+!procedure React($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/React', $name, $tech, $desc)
+!endprocedure

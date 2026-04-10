@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Trilium
+
+sprite $TriliumXs [10x10/16z] NSY50O103C30u4xsdnRdxUgbqEmsSAKkYfExdLulfw5MRYtoSV-tpNyRTp8d
+
+sprite $TriliumSm [12x12/16z] RSR50SGm00InDREd_seFmubUqeFgWluiJ5268YWJUUYpupjM4f05JZ_1eWs4xPsu7OOsU5sy0G
+
+sprite $TriliumMd [16x16/16z] ZSkr0GC15CMmTynV-qyRvYggxVoh0NCU5eUDFKrHRMYtCcRYM4hqa8lYcCSTMsvsD2sLfo6hVDfdHpuOlmCR-L389rNvyln_dG4
+
+sprite $TriliumLg [20x20/16z] {
+dSx5OGH030J1MMPr_j7Qnypr4qi_21WGT2416DYklYi1Z0auQG0K2ImFO-tAem7cMGcWIUe0TL08VHhjS8tLHiaU89v_WAK0vdKMWogwHMRTf1hPRXih5TnD
+t-hSzaKMw4R5qAqCkbVqmZy
+}
+
+!procedure Trilium($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Trilium', $name, $tech, $desc)
+!endprocedure

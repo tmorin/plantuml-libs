@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/M/Mubi
+
+sprite $MubiXs [10x10/16z] FOk50S0m3CCqvkd_QuUjmp6m0IV0hgX0amiIYWxu1d_ZoI0eYJdUATSD
+
+sprite $MubiSm [12x12/16z] NOg50S0m3CCqvkZ_QyVK1arq8n0SrUkC2Z3fyc3cWCw2lBH59JoBRq4dUito4FO0yMI1Kli7Rm
+
+sprite $MubiMd [16x16/16z] {
+ROt50OKm5C22GotxJ_kbTYBjSsCfEt0Mg2pgJLIN6gjQzLtZGmraTQFo683enJlH3EJQLTmkDTRv7IjpVzMBUX9KA2hBlG5xlNw-756dhkSqrycpnbajg5wp
+Vs6R_Ly
+}
+
+sprite $MubiLg [20x20/16z] {
+ZOy35WD150Hh50plVzjiluvTYsz1wuZZJ5nO6ydYYEao9ca9p7pZ2z8FSEyZJxa8OrM-ahn3JC4Ykb6mA50tKVLRWxW4h1kaUr_s0U7UHzNAKBnUSFS_6Ivg
+TqK7DUsNNSpZBcOllLrtCTrwlUjt0W
+}
+
+!procedure Mubi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mubi', $name, $tech, $desc)
+!endprocedure

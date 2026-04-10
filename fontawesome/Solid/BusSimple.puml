@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/BusSimple
+
+sprite $BusSimpleXs [8x10/16z] Os3b1m469X09OO80FpyNAeq1U41Y3FpCC5rWZVnS
+
+sprite $BusSimpleSm [10x12/16z] Os3W1mC-80C1U7b0W0_8Oe00h2pi02pE1I9v86O1HU1od63DhFmC
+
+sprite $BusSimpleMd [14x16/16z] XStL0S0m203HQ_Yft_xJrbrVN00eN0Luq1QUjMaHuocngdzEmQhnMnjEcccDALhJ73STvXMFG6EjndZAfbEbz
+
+sprite $BusSimpleLg [17x20/16z] dS-r0KKX50FGFDop_xHVSJfEWru3P64N0KGkfE0cyuH1__u0m-L5mV3m4j17UsfI_lcwouLL8Ycv-SsJ_sgNOrvF6W257CDBl04
+
+!procedure BusSimple($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BusSimple', $name, $tech, $desc)
+!endprocedure

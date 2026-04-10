@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FillDrip
+
+sprite $FillDripXs [11x10/16z] JSl50G8100F1mPtjlrhaF9yuy0Pwg4wZxaN7KTxGZjx2CRMzZ62_A0wZUePJHNq1
+
+sprite $FillDripSm [13x12/16z] FOc50SCm4CGKDcl_QGinF1pIfzsTDq5jtQboMAS3JijguFBeUG2meVH9RhWcG9Ww0PIfymrKrGmAqBJ2hLy
+
+sprite $FillDripMd [17x16/16z] LSZ5eSC0040XwX9v-q_xjJ6EM8oJnUM5gYNghTwl_TJ0SU2zJDKDneAQpWNcC9V5sCczB9x5tBoglzqvGPipzdEb_ToeQPi7Ad2gdhXMtm
+
+sprite $FillDripLg [22x20/16z] {
+NOu72i0m3CIokwl__xR69dQ9M8V8K0hQUwSVkIJXHXXXuKhfHUbk7pWkaFj_RUSUkqPpZJ2NwmlXS9rrdF2yyt06JFBA6MQshaDbSAi55Ydr5KODBakih7Yh
+OoU5ifuiCsMYDLXInR48EzrT2dX_3pbicFOJ6y87
+}
+
+!procedure FillDrip($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FillDrip', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/ChainSlash
+
+sprite $ChainSlashXs [11x10/16z] FOo50O0040Anszj_M_tk00xKTlaCrcvhYsgsXctFossZ7HxGoeljxpEZ3VdiZUqqWSjch__y0G
+
+sprite $ChainSlashSm [13x12/16z] HSY5WSD034JH5qviQt__rHw3DFoA_zlpRPs_sucPsZ3LmYF6T6b3LgnU8PrGKHCEBMN272fqnR5fi5S3xRvdqFOE
+
+sprite $ChainSlashMd [17x16/16z] {
+LOw50SD024MJSuEt_xOjKCMTFsdNFstoAwgot1-IUuosHK9U-tvsKeLX5VLcZ8LJgaQuiSmRwgScbtWB4YTMFik83R1yaZZNFWFJAmqiTA2eRztVpoBNZLgq
+G2IA2Obze7ibiwz_Akm7
+}
+
+sprite $ChainSlashLg [22x20/16z] {
+ROy75eGm449ZrxH__zikZtMo5ViN9kI2z4Vv0y_BdAp2m1sautRt50Qh-ADYARlf2rZUFNNCIU7MUK-QJ5iH5YaU8e7ddFebh41uCrmf6LyGLQE8CAQxR2Su
+9N_tt1KODSZ2j2SSzEGqnjz7L0RZY2fcPJRXU-qBo4VFUjtcD2fbf96GEyU-mo65-rjmFG
+}
+
+!procedure ChainSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ChainSlash', $name, $tech, $desc)
+!endprocedure

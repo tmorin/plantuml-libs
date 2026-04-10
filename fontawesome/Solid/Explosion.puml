@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Explosion
+
+sprite $ExplosionXs [10x10/16z] JOdL0G0W50Bno_RsdzQkUmbeW0xy2ex7ER1ytCu6mW1kY2nvhxN2eG4
+
+sprite $ExplosionSm [12x12/16z] JSR50K81040XxFRjFwtncnC6mNNpB9h-u3XL53gGTpjSkXvJeC5PxzwtUjQhNEk1ojQrrHS
+
+sprite $ExplosionMd [16x16/16z] LOo50O1G20N1xjj_Mtdwy-Yqdua_FdrzO0atWUhAWrlYr54TpyfWLZw6xL5VQSobIustluQe9uKVn0Fnynxt-CsF7N7of_Dm8DoSTEYeL29VOyz3pmi
+
+sprite $ExplosionLg [20x20/16z] {
+PO-50SGW301JnRdzftt1vLeWBbAn74MAkmsQxIoYfiKruDvDIEDq__k6LngEOmsJm2dYmPG8IH6N72tCf-x_Y0YXzpe4h0Rw2l1088TTER1nYe50r8UYSWFk
+8ADRU4XjIJiMqINfCSP8faaxTiC4Thu
+}
+
+!procedure Explosion($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Explosion', $name, $tech, $desc)
+!endprocedure

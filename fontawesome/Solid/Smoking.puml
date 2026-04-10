@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Smoking
+
+sprite $SmokingXs [11x10/16z] JSQ50S0m4090shYo_xHnknV0vF1Z8VAjtDKyFOgCBLWykFnYPdGCDd09jW8
+
+sprite $SmokingSm [13x12/16z] TSl50SC04CH09MOwzL-jcM6U2wo2bft8JjfWKuaD6nlyV0LNlmtaxWWN7KXScW4
+
+sprite $SmokingMd [17x16/16z] XSYt0K8n5C10_U0SjF-sTFXHSUNnbHuwaGihWPkz2R8yDW8xrPkZ-B8bw799P4OYA_9VcSU0deqg7jULVcEjPKMCCdu
+
+sprite $SmokingLg [22x20/16z] {
+bKq54eH030jEDVz_xTaOq-vPOAqnNB4B43CAI80sd6QTvdFA6h5HiP0zOiBMniTp8fGorcTPpt0ko3QTgD0s1GrddnwlzG-K1JCMxdNuQhl2HQHFPPgcV4rj
+c82iqmC7xm
+}
+
+!procedure Smoking($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Smoking', $name, $tech, $desc)
+!endprocedure

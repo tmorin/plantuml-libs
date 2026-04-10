@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ShareNodes
+
+sprite $ShareNodesXs [10x10/16z] Ou007dOeWny8a5ai33mG1fX4YCEPd40QmMF5OWex
+
+sprite $ShareNodesSm [12x12/16z] PSw50O0020H0xFRsdzPkwURZe4oSr78bCEnX3tcqXffwr4O6upN8ulz9duTd8ONwCTbT48WP
+
+sprite $ShareNodesMd [16x16/16z] VOw30K0n44DJ-xB_jDz6NtaEJX8DBd2YdMRap6ctkrsvsxuOfBbsEWxWIZc6tEiU9kpgyBSvyp68rM96JqVMj7gaQVRrmPpscM0n0W
+
+sprite $ShareNodesLg [20x20/16z] {
+VP055W0X24JPiEl-fxMxnlxmT0G6IKDW53P18ujeXE-6VIkJ6UaO_piIq_wmiZZ19nNh7ZEgtI8oUbPF2ZgH3CLYFeYDlYJmG74mXBgGpka3VFNzlsjTLWi4
+1gbaoG4
+}
+
+!procedure ShareNodes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ShareNodes', $name, $tech, $desc)
+!endprocedure

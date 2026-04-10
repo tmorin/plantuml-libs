@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/CaretUp
+
+sprite $CaretUpXs [6x10/16z] Oy02cFc112C_Fv3Y1m4eYG4
+
+sprite $CaretUpSm [7x12/16z] Oy01M1X192i_Fv1avkS7qVnWm06X6F
+
+sprite $CaretUpMd [9x16/16z] Oo0ISB10Q4v-VYOGpSOF142Q6KY1MVnGm0jZC31102C3AG
+
+sprite $CaretUpLg [12x20/16z] Ow0KC773cSpy_Fn8J7u-C9CHo89oc80qZCCF1xny_0W054SeeW4
+
+!procedure CaretUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CaretUp', $name, $tech, $desc)
+!endprocedure

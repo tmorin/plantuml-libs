@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Clubhouse
+
+sprite $ClubhouseXs [10x10/16z] RSR10K0000IW083RVre0Bxto9rWDBZ64iJ5Q4u5akhRAHOjheBposG4
+
+sprite $ClubhouseSm [12x12/16z] TOk50SCm40FFpDR-qvORpZs3kAE_aunu8v2huakTg5kOqxy_n400eSfgjf_a1MzFKFIcinm4os3PyWG
+
+sprite $ClubhouseMd [16x16/16z] ZSg5OKKX5C3GFCCX-q_RVdSxo5L-r2D7fcCOfN5GCgmkpd8buhLQ3DRMOGo5R9IDiJIvhZicEmVTFNI3Ak39n1ol2yhPOyr32LEOUVOF
+
+sprite $ClubhouseLg [20x20/16z] {
+fS-5SSDG50NHbJx3lEs_se1vCE1Jm0NUqRXHDbo4bOiG1roS0U1EehnI75EUrieI7bRWdAi0KupagQ1zxGrOfwIZkq-3PobB0qrmaMrk5VK0240l3XNG1cGV
+WCUDEnuERmfFfnUBLyVIgFpU9m
+}
+
+!procedure Clubhouse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Clubhouse', $name, $tech, $desc)
+!endprocedure

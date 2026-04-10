@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/CodeCommit
+
+sprite $CodeCommitXs [11x10/16z] Oy0D-FcX37P-882AyK74-O0YZ0mCt109405N0HA2QMH1Cn8
+
+sprite $CodeCommitSm [13x12/16z] Oo0UCFC30Op3py_90-4nClA1Q0v-9Y0BfWHAS_6pCJ3myiFre9h0puVVGW
+
+sprite $CodeCommitMd [17x16/16z] dSi54WCn241Hw5GZ_FlVjd4PMtbHJ6vxUQThJ6PRdCKUVo7TFv3Cp23KllIFHlQPWwAgr6Pugahs09zZf3EAjmnXZxCyVT8V
+
+sprite $CodeCommitLg [22x20/16z] jS_L0KCX30NGFCFXxZyjxlos1tT2_-O025e951TDE1gQ0B3tzQLcsUfIUxNDBug74bi6pYtFw7Qxa58wWBVloUZhrwHMhfz0PEGH22ft1Wn8sd7vqky4
+
+!procedure CodeCommit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CodeCommit', $name, $tech, $desc)
+!endprocedure

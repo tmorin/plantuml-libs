@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Mosque
+
+sprite $MosqueXs [11x10/16z] NSR50G0n449HBgkHtt-rSNyZe0nKtT2wXTwfFlssTO5Nmqawgidl__EF
+
+sprite $MosqueSm [13x12/16z] PSV50O100C2muaxtdnQNa_p2gL1Uash3nTiAKFdWz6ULSZqjeFBHND7uWpoj_dO
+
+sprite $MosqueMd [17x16/16z] bSZ50OK0081GVjZ1_jFQtRuRq2lqpuAjWj7VmQQduooaLJhv0nauWLnPYjsDnqfmvVzYu4OD
+
+sprite $MosqueLg [22x20/16z] dSpL0O1030FGud3Ix3yjRkVoFjiaz500Eh8m3iAuZNZGH-4p64Sd3SCIlGhZsfmNPGvtLvV95BbM4Ht3eRs3O-rLugQ447WGmoKs
+
+!procedure Mosque($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Mosque', $name, $tech, $desc)
+!endprocedure

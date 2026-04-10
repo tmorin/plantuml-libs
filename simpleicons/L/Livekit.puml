@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/L/Livekit
+
+sprite $LivekitXs [10x10/16z] u-Td00D-VdGMY4HbOHF7a04228rW0G
+
+sprite $LivekitSm [12x12/16z] u-VdPu0088i06qIXi244Dv2BoURcvW2nSUg506u82y46
+
+sprite $LivekitMd [16x16/16z] u-VdPsE00I27U3uJ4nCx6nk23sI1IS9yE8S8FidcGm2SGuWF
+
+sprite $LivekitLg [20x20/16z] umS21YG0ubDB3CQcXXYrpQMQsN20u5CY1W
+
+!procedure Livekit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Livekit', $name, $tech, $desc)
+!endprocedure

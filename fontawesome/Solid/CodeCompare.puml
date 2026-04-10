@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CodeCompare
+
+sprite $CodeCompareXs [10x10/16z] TSh50S8044JHZpkl_sgHw2chOrMc3Rago5lfjYQsqKqbPIyenA6-
+
+sprite $CodeCompareSm [12x12/16z] bSO73OG0542ntc3_yFoxHGFDAhYm3tosnbbnLsb-qL-edRvWyk8V4nLNYhIg-b0nmGC
+
+sprite $CodeCompareMd [16x16/16z] jO-75SGW5CESJjV-szut3qOu9o14HpFbS9t6QKGWMWEuGpuSYIRZO3ktKRbbAZ7HsRiqz0SVt4Owf-zRrdKxqSsCC-oymTDQj5uJE6boVW
+
+sprite $CodeCompareLg [20x20/16z] {
+pT250OKm00FHmvtRVzelmJe23mlrbfF4w4Gafr1LOZjpewEE9CN8v987F46jkmufQndTpa7SILaD4x6cw2pZ5MMJplbVJ5cAr3L5WkTk-rfXrgXJLg6m6qDv
+TgXTmq7r31o-
+}
+
+!procedure CodeCompare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CodeCompare', $name, $tech, $desc)
+!endprocedure

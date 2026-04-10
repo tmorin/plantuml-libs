@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Dumpster
+
+sprite $DumpsterXs [11x10/16z] Oy0E-FaP-9bv-O4q7pyl6vI9eW0Ei3BP6DXXJ91Yg1u6
+
+sprite $DumpsterSm [13x12/16z] TOS50e1048ImM_x_MhkzOsC6uYYZT2Qbfeghz6X_o1uyyS5J6hfR87qALZkTmC11mmm
+
+sprite $DumpsterMd [17x16/16z] bOY50S0m40A9UzX_shfxxvN3Eo5dY6vKDpPd0PBmtUXk14dPYp8A2GvKS1HnUDxX7ekq5u0-2lmK2K0bPXGLJhG
+
+sprite $DumpsterLg [22x20/16z] fSZ50SGm4C10XHEJ-k_s_0hkxsJSuV-o2kf4rOsaZlZGogocKMsN2jf5hQmlNMgj2wdV8xdVKFfDt31-WyDlC8KwX8gVIgWhq3uAi8KwwCXLKW0KhYOpnFq
+
+!procedure Dumpster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Dumpster', $name, $tech, $desc)
+!endprocedure

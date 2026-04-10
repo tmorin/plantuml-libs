@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Underline
+
+sprite $UnderlineXs [7x10/16z] RON50S0m08IeUzb_sdX-EG7Su7Fo14M0aNOvdJOXMNekIo8
+
+sprite $UnderlineSm [9x12/16z] VOl50K0X5CFw5IVxJujp9S-b0ZN0ZkO74SScdPgbihe9qfR2fSurooAng
+
+sprite $UnderlineMd [12x16/16z] bSQr0O004C30uFxPVrhSgRZgq62X4Me2T2fXpg8tPJ3Tp-zNjYmKq0He52ZLGMLHg0Qx9E5ZEFNXPG8
+
+sprite $UnderlineLg [15x20/16z] jSUrGKG1042nT_9Til-qk4DBkeIj5rXFk5HjSC7P2npTg1SZ_KydwiAj5oSLghenLtUCjQEg6IyklRY2eq-NIt-xVD7YczKtZm
+
+!procedure Underline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Underline', $name, $tech, $desc)
+!endprocedure

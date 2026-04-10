@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/HeadSideVirus
+
+sprite $HeadSideVirusXs [10x10/16z] NSR50OG00CJ0ELT8_zNYBrQ3o_YpgKsejvzbBkL16GEN_8gVIeswRdi89y8C
+
+sprite $HeadSideVirusSm [12x12/16z] JSR50K81040XxFRjFwtncnDmwM5qRp1NxqA1EhYKrvvAxN2ZF6hFGvLoTLIzLUsgBcXotXpMVG4
+
+sprite $HeadSideVirusMd [16x16/16z] {
+JOw54GGX00Ftt83qt-r_y3sDpO3PeZuwbmfBaS7_MtxLz4m7wVlxrYeVMAK8BYwBwWwYNzmkBDBg-f7_uN7XartuI3BuALWcP1xwaHQPM3HGTqF78SzP7nJE
+gelw0G
+}
+
+sprite $HeadSideVirusLg [20x20/16z] {
+bSs54SGm34JH7uv9st-tDxB2W_U25j8DsLH67bOT5avLjrS8vDhLo5wXP0_l08yEBFu7ZutOSkOdo99D48DcamgOPox3jIq39FdZA34FXWBgqlZSsoBMSxC9
+PAESmQ8E571we_i_rbhc6-FIpj1A-04
+}
+
+!procedure HeadSideVirus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HeadSideVirus', $name, $tech, $desc)
+!endprocedure

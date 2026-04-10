@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/B/Bnbchain
+
+sprite $BnbchainXs [10x10/16z] 5Sl74GC108GmEMVJVxStAzwO3-RPFtCYtkJdv2eqoBcYzK_hvByZoab_ymyE
+
+sprite $BnbchainSm [12x12/16z] DOs55S1024F3kMV_ROky_XESmDdu6IHJk8d-54iDYhu9oc65lhEiuhWdUEeEQ9v2aBClyrCIzRVb9w_l2Oad3Lsp0JdDV
+
+sprite $BnbchainMd [16x16/16z] {
+HSV5OKCn50315NqGRV_L9lOppMru6uJFrC97qydM54k93WUbKO5RCsmlk1IwP6zWBPA0g0wrfmuLVEi0NJYZYMHSK2dzyndtZfiuuuqcP5smlScw0Iud09eX
+tDZbv4SNuHy
+}
+
+sprite $BnbchainLg [20x20/16z] {
+NOy53aKX3C0wdXkz_st_GfPlnRjXlBduvrJN7xEhFTjlqWcHjfNfGJAP3Su3Q8vew5s7aEw49rk0CoX4EfE5IpsmawpuvcG6MeFdxLOuwhpcu06KuT9sDOZz
+xNIucbVUsqtb31YklWayu-ms_h6gEyca0Z42dMAHld3IUl2cpliZ7a-A5m
+}
+
+!procedure Bnbchain($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Bnbchain', $name, $tech, $desc)
+!endprocedure

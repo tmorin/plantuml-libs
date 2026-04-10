@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HeadSideMask
+
+sprite $HeadSideMaskXs [10x10/16z] FSR50SC0542XL_VF_jFM4qvKcxdr1Qnn_lTEemtHZKCWgFBVZ48n1TUhNW
+
+sprite $HeadSideMaskSm [12x12/16z] DOa55WGn2CMoMc_kVzeHvf4M-09G73nqWvHfFga_58YmADhuwd_fQwXW4ATo4pgRt31gwb84J3W1
+
+sprite $HeadSideMaskMd [16x16/16z] JOo54S0m3CHK9iF-s_RUXKHcH4oM5pzRFWmKbXzJFnM8hdQOO4yHOosOtZp7BfUP1eSMrEMIxxwGmc0Gk-g2meFXgq-56QBD1mNlvgss6ZkmPWDk
+
+sprite $HeadSideMaskLg [20x20/16z] {
+LT254GKW30FGu4xsd_PB3odl3Ar1c3BPB9J89M3hlFJHDlP7BSjXvGF2S94e3YZZFAq0oGPCCgwdGyu8h8sEYhQBDTowlNNb8ZZ09M9XGL25bPz62wYp-ICB
+lEs_PsirrPbRK_BgZAtMkcCCQWRu0W
+}
+
+!procedure HeadSideMask($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HeadSideMask', $name, $tech, $desc)
+!endprocedure

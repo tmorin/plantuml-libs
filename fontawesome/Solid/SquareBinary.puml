@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/SquareBinary
+
+sprite $SquareBinaryXs [8x10/16z] Ou01VXZWOk07SnXueJI4Zm0Cx4mG2JQ811y_DpzS2G
+
+sprite $SquareBinarySm [10x12/16z] Oq00Vgm0ACx82MBmiZ7oSt72nBXuqDGnCND3ZU1ZPkE1iNX1OWYb3Dny4C0E
+
+sprite $SquareBinaryMd [14x16/16z] RSV50SD00C0m1ux1-qzRvaO_yItCbq7mLzgRSt-61HlUxOleQuIFkH1ryL120H-O4Pd7Sm1-cAhuYIzd
+
+sprite $SquareBinaryLg [17x20/16z] VSY50SGW5C3Gr738_jEUk_IXFtnRNitWkzxyOS2a2zx1nFeMblDs9qn0VWsc9Pzl_mjq4qpUDR8m4xmxXoJRVW2QTqDjrRFe1xflDZuT0G
+
+!procedure SquareBinary($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SquareBinary', $name, $tech, $desc)
+!endprocedure

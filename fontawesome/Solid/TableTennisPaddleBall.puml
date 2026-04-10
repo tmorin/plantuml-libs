@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/TableTennisPaddleBall
+
+sprite $TableTennisPaddleBallXs [10x10/16z] HSQ50G0X509GhbFPVrhZTy33d8iRP3Z784onmEN48OGS-OyGKAAENaKT
+
+sprite $TableTennisPaddleBallSm [12x12/16z] HOo30S0m402lThF_jC7ptaGuoesobi6hJK56nM7EWgv4dWMB5j_vZo054_3eX-76yx_8yBbbGVAp0G
+
+sprite $TableTennisPaddleBallMd [16x16/16z] LOw50KGX5CFoNQ7xJtjIFEZpaZbYtAcyCdSsepBHPb1b1nPrmCxQsxC61wy61u-xRDNcVs-iTU2P7O2lJNR0-Ip0tDUze6oxJ3OVDcNHp4wggla2
+
+sprite $TableTennisPaddleBallLg [20x20/16z] {
+NP253KKn3CJyk7pxJ_kn4CLYAtXCdgfoO2dw4vXeqhhPPAYpoh03PCaNuYKeUyacLISv95_9BlbAa5nbX4kpyW6A05gljEXFWKUILHeJjwNQJABdTaSLZk5Q
+BzyBkprlmoxBl04
+}
+
+!procedure TableTennisPaddleBall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TableTennisPaddleBall', $name, $tech, $desc)
+!endprocedure

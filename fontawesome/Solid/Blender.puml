@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Blender
+
+sprite $BlenderXs [10x10/16z] O-270WP-69E5du4BBC8056E2oh92QJ20Cn4i180eP8UmW9YB0G
+
+sprite $BlenderSm [12x12/16z] NSsr0O1050JHmHtwhnOu-pRHssYvdnRtjOgVXG8GdyUHNHfeecJNdNaGEt9ROfTldgVvolu
+
+sprite $BlenderMd [16x16/16z] POs50G0X54AvFdl_QKtiP_u2I3VmCsmWxhk7DiM7oro8f1WiAgKODm3jZ64PcS6BzDGI6yRQZOuxYWY6gJTVHnitwB4O_G8
+
+sprite $BlenderLg [20x20/16z] {
+VSo55OGm54JHYH_urd-rwxCu5ysBeCSEc5OKxxvjzTECmrPUy6ap6xusPvg8z6_BiPBUBQN4iPiPW1Oh-AaYmbPp1iNYf3d8WYPGBeGxIVucjbWPwzRWxy-y
+Re9ODuj51l04
+}
+
+!procedure Blender($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Blender', $name, $tech, $desc)
+!endprocedure

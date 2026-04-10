@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonRifle
+
+sprite $PersonRifleXs [10x10/16z] NSR50O100C2muaxtdnRdBA_m4K2b71DXBJg3AhgmVXF9XuIj9m
+
+sprite $PersonRifleSm [12x12/16z] HSQ50SGm30D0FKETtFxJbi4WNOxns4fFwhFmZiFXdxJvZs6jqWF96tQxJEs-HLlzHTJgbEHpEtoV
+
+sprite $PersonRifleMd [16x16/16z] JSW50e0m30J1morX__zRhbYxrOcQYFUJC4eA7dQundthahbBIlJMlMEr7NRAJRXEs9WdlmVxe1eRulSiBUpL4Kg6roVET_zQmL6khXgLMby
+
+sprite $PersonRifleLg [20x20/16z] {
+PSr15i0G54FHW06G_U-s_G2yKSvjWJDoJasMEieoIZBID5rD7QRU_u1CChHX9Xgl894Pg_M-GijwRm73tmAhH4eUNYnM8n_ZPZKWtURgysa_svx7iXhCPker
+G1RmcWOKosa9jMMH93u
+}
+
+!procedure PersonRifle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonRifle', $name, $tech, $desc)
+!endprocedure

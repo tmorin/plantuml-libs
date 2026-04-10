@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CableCar
+
+sprite $CableCarXs [10x10/16z] Om02VZv-1XZWukS7SO0a2v1Y0d4GalmG4WP0V131XiA20GGB
+
+sprite $CableCarSm [12x12/16z] LOW74e0m2C2WU-V_lnMtfWLo4MEbXHtTlJaRO7S5nbxt4923lY_aGbMnsTD34ePCBmHX_PtEwCo--ytFqmO
+
+sprite $CableCarMd [16x16/16z] RSU50O0m30NHZzMRstzQtE5LajF28wFHh5axiku5qCunAzswDncme9Kt87kaLGDUKeykptQsOFqRQU1ECaBZQ9f-VhPsgmwjh_osvKhEPNwiVIVLL-lP4m
+
+sprite $CableCarLg [20x20/16z] {
+bO-55GCX50Ino9V7zjzjS8lF7JOiPYg0YQci-3o-fquGZAcGAqR1zwGJ9EBTTa4e8lHnQ075YBY-0qzdVEjsDpZT5HkQbCL9UG8HrIeInUPIkbQQTlhJgGWW
+jUfd7BnsxeKpUgXW7W
+}
+
+!procedure CableCar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CableCar', $name, $tech, $desc)
+!endprocedure

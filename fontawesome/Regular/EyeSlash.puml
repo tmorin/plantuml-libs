@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/EyeSlash
+
+sprite $EyeSlashXs [11x10/16z] FOo50O0040BFRc__RSKtlWDOvBTDZDMyLtF8b5b7R12EywwU3PcF3MfFamojDHUvjqrrU-MSCby
+
+sprite $EyeSlashSm [13x12/16z] JSsr0SLG5CKmXV6-i_-qdo7kL7cBIqT8KbzbPiy1AlQDdBHJPJj3Ha6BjKWx8Eb2n5kRXzUFIb0VPO8bRTbNdv6npexiTm
+
+sprite $EyeSlashMd [17x16/16z] {
+LSY5WSD04CLGcUqbzL_jNP8VV8kZovrVrGKuUziWcelHYAupmAR4S9fh0LAybxiZHSbr2NZE0YcUS3haLIo0EB-AEtHf4Wgh2oZXm0QVCkc0b3R3mcmd3kyg
+YvLVg_KV
+}
+
+sprite $EyeSlashLg [22x20/16z] {
+PP25ZGH03CHccUF-gts8RdLaiHMS0T8tyw53Ib5F5aW7dFQine2LKjz0k7f3VZQMvn1JdAjBIe-AlRtQgP9yICRaEeK2oQibq3y7au9N34PbwgcFbu0HTFNH
+Sci8qmFZ69BFsTIdvaY2A45uwYrDjgG8qbFV40kKf-RMP7oK0qkN0s0UWJ6llKcqM_qDZ5y
+}
+
+!procedure EyeSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/EyeSlash', $name, $tech, $desc)
+!endprocedure

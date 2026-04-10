@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/G/Gumroad
+
+sprite $GumroadXs [10x10/16z] 9Sd50SC0002XgpVA_jD6-L8r-5O530KJFb7VtWp4-WEf-19rLua6j-e3QWS
+
+sprite $GumroadSm [12x12/16z] BOg54S0m3CHKvch_RNC61Um7WiUJmgBM9jSrQtxenkSStjFPtxrPODQp_2Ts8WXwz_tYFy3cZ_IptG4
+
+sprite $GumroadMd [16x16/16z] JO-50K0X20NXTn3xJsiyh3CF4mAd-i_KKG_kK1_OL4CliVaV-vWY-Wf7u2oDI4QlcFaAd0fRlGgENN2EVuZj5nn7D_ookj7bbLyTuFUJgswKHG4lsMG
+
+sprite $GumroadLg [20x20/16z] {
+LOzH0aGH30Fp083xttQt0inFsb60IMozE5pOFgdVKlqY7dL8bwgviR3hhEyw5vW19RSQQS9m2cXSuJqSqnBD-pgIBlyhePFb82Xf2vqPzNHklaG27zreAe1F
+uQEhu4ty99t2jxvMpus8_GL2UfJ2m3vJYq1HEVG3
+}
+
+!procedure Gumroad($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Gumroad', $name, $tech, $desc)
+!endprocedure

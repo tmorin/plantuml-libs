@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HeartCircleCheck
+
+sprite $HeartCircleCheckXs [11x10/16z] JS650G81002XirlsdzRuXZQkx4DbbaLdezEhGBsFTSJk2eMGYXoZwXhu0W
+
+sprite $HeartCircleCheckSm [13x12/16z] LS65OGC1002XIzwL_QUjA_GVTyqyA-ys6DhyYbyz-N3MN3xKSLK3F8ErBWIJ2Zb5rIswwDtSxTqh
+
+sprite $HeartCircleCheckMd [17x16/16z] ROu50WGX3CIoRa3-_zgpzdo3reSJzZe1B7NXpkGTo0Vy0ZQ_wF2RaTqlUj1a8J01IktVde6M_kp2784At4E5SB-qJUWWLGdFpDqvcWvQGvqDHz2bcYi
+
+sprite $HeartCircleCheckLg [22x20/16z] {
+TT3L5OH050JHmXdj_BFTqnzlyOiNFdmQfn5iY1tOPJwKLInvrtcGZgo7qPS-LD1JXwQ71gikyhAs0fnl7GZbYC3UsumTqJzalcLMx3lAJi-8k-RpxnKsMVOX
+rYLjNa-zawFYwX-QOL9KgAgiSfOTemmAXPCvAZy
+}
+
+!procedure HeartCircleCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HeartCircleCheck', $name, $tech, $desc)
+!endprocedure

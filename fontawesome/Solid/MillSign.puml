@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/MillSign
+
+sprite $MillSignXs [7x10/16z] Om01VWOenSSF1GnWnCq0GY3CXaHnW2XE3dvUHWP-g5u
+
+sprite $MillSignSm [9x12/16z] NSQ50S1040B1ZNlelzftdnCWE3yYmV9Ap7fH1U72-uSovwA-CDtl16o-1nO
+
+sprite $MillSignMd [12x16/16z] JOg50GCn3CHKxgFsdpPC2jW7DFuoy1phmmSSgXVjMpb0BPzFkBpWxFjZxFUoE_TZsPtxszP_YVc3ylcaSzYt2
+
+sprite $MillSignLg [15x20/16z] TO-50GD12C3oxcJ_QUlbFQSuaFJMRD2jLBbyVAY61bWS2WW_TAe6xXZL6bHXLXLeTOBYBpQVcnjnt8lkn7elnbvq9qvcgi45nSWP6mSsX6mnI9u
+
+!procedure MillSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MillSign', $name, $tech, $desc)
+!endprocedure

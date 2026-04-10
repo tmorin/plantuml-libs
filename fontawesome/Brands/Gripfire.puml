@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Gripfire
+
+sprite $GripfireXs [6x10/16z] DOQ50G0X08JuJcN_QMqlOSeweUxk7K2HJxny9LRQS0M9T6K
+
+sprite $GripfireSm [7x12/16z] FOh50S0m08IeUzb_sdXomWj63agS2fs1H_b0KHudzFtacFrmB-uakm0_9JiG0G
+
+sprite $GripfireMd [9x16/16z] JSU5WG8144MnmBg-_giz5pBwlJhurlHzjpRmg15KmbsU7TIgSfInfMVTxcleEPR1tKCzA9H70zopnPTy-yxl
+
+sprite $GripfireLg [12x20/16z] {
+ROz55aKX5CFo7E_-TtjbyhM344vHVdAzjEZbUlbyUP6qaJbT2pDqSrtSgi1oXq3ou79EUW3faPpQVNKxt5iiOKKFkIQ61KyM8vRYYuKlxKIsg5TOJlv_XOsC
+0G
+}
+
+!procedure Gripfire($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Gripfire', $name, $tech, $desc)
+!endprocedure

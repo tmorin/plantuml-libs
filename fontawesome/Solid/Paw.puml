@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Paw
+
+sprite $PawXs [10x10/16z] Oq06_3mC_FmG5Z-4nGHbiVBpiy8bE1ZvOVBy800MXm0K5eXW118
+
+sprite $PawSm [12x12/16z] LOa50eHG48NUhftS_xP-R9aUycKagVb50EkrJyclICP0EbRbgSroqxlua4xtvy2Ta-MrAxf9-rj-sG
+
+sprite $PawMd [16x16/16z] RSo30S0m443Hgn7y_QSjOlFb88CncVyyL3GWea1duu_QweTQP87J5rstWJqr_d23_LwdtK9ZC7BYk_cON8wf_KGStebSF-TiVgl61y2vAUzsl
+
+sprite $PawLg [20x20/16z] {
+TSq5WeCm503HYQ5fvlwdNMcBmqFpbKSfV3wHbLe_dtuVCp2h7c8ZNc8JgZF_OeHHJJGLAFHQeN-DGAq1_2XiL7kr0KEpnazCr87WM-Dp91MI2nWYRwvUi0iT
+zqNtFh7cNkQV1tKNEswPrG4WL3LmwnS
+}
+
+!procedure Paw($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Paw', $name, $tech, $desc)
+!endprocedure

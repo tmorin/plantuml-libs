@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/E/Ente
+
+sprite $EnteXs [10x10/16z] RSQr0OG0002nl0jo-q-BjgIAtGs-zMj7JUrcuxiRbGxNktdKZp5q6Z6tim8
+
+sprite $EnteSm [12x12/16z] TSU50O0m4CNGu4xsdnPtsdVwsIJxLaTNq7c1tbghUWjDfm0gtY9_GQe2P2NW2U3vqn_l3
+
+sprite $EnteMd [16x16/16z] LSh70SDG40BHKSv_-k_MM5dlj0jmgZYjdGxkPg2WJfwWDJOlqEYePMZtS89vq97e3MgZ8Yg3oGzcF-W_Rmz6K-ygmfY9gbW3jI_4ylbZ_BpFf0D-
+
+sprite $EnteLg [20x20/16z] {
+ZSq7ZiGW40NHQZFEuBh_RLTV0MdpF0Nep5GrlylIxDmQeoLrdFcVJi3JyrcT7i0OVagMUgXzRvT6WtvjQX760EC4mg3yXkNDtFVP5Vni57o-In5DPxAhnECd
+D-4ddQXFEUBpE4p7KCTH-Ny
+}
+
+!procedure Ente($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/E/Ente', $name, $tech, $desc)
+!endprocedure

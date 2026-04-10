@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/H/Huggingface
+
+sprite $HuggingfaceXs [10x10/16z] JSQr0GDH00MWT_wT_RTD4wCY_s1zWcJ9j9-ssC0bs0GvsEV-h2Db0RR9PY58lUWl
+
+sprite $HuggingfaceSm [12x12/16z] NOY50GH120Epxap_rRwUGroF0vY_vFZVVpL-bFf2C3IGE6u8o0bdtzoN4QAWUYTi0YbOyAMa1OkvVCf0ee552KmIBBq1
+
+sprite $HuggingfaceMd [16x16/16z] {
+RSg50GCn30J1CwEq_LSRvlmOX3eI39XwSkwwRhXxhYpUudty-MMqcWFqc90c7vwrDatSznrGa0BWacXzSrLA6OeMR1K0j-Y162c52bJVTGVj2U0qmBoBpSq0
+s2wfpAQhCQ9q1W
+}
+
+sprite $HuggingfaceLg [20x20/16z] {
+TSk5jLX124NH2szSEFrtcqM-snx5z3URv-p-9SEhK4g33oQbpcTI0WXItZTJ-P4ku2glqw2Zvm3LIZL2CZ3UhGgIyrtcaYpOUaWvcuhI8Kbwd0BEnUahsYF9
+A66GxYqzP6Aq66nImH3Xli-i380U-pmqDsu5CBW1uDor2gd38fqQSaZgirNILZ9tlNZv_0C
+}
+
+!procedure Huggingface($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Huggingface', $name, $tech, $desc)
+!endprocedure

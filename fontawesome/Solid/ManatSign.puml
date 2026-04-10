@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ManatSign
+
+sprite $ManatSignXs [7x10/16z] Ou033Z39oCyF9FduWO2TWHyaoC_32wRukR5GR6mCR43b
+
+sprite $ManatSignSm [9x12/16z] ZOR50O0m0CI2Ezb_MhJsx6aeTRO17ByxV3I3ZkUmFMJBsREvomje1J330Emt
+
+sprite $ManatSignMd [12x16/16z] bOkr0S0m40FrORxzfmsRArybLC4MP8UNjZBzYfVzbpCZ8C7qxWysu_Y_iD7z-W2QNs_L-i2azj4hYhW
+
+sprite $ManatSignLg [15x20/16z] jOor0SGm40HNp9h-gtq6O-Y9xfPqY5s_ZFEt0OJFK_ZWdj_aXvKYZ5VN0HBmcJBGF9ZFgmOTz7qDi7XrvHkfhwEzNwsv0m
+
+!procedure ManatSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ManatSign', $name, $tech, $desc)
+!endprocedure

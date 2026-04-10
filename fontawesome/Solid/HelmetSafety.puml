@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/HelmetSafety
+
+sprite $HelmetSafetyXs [11x10/16z] Oq03_Fmm1eZ93n628Y26CZdWJ1260oHp616YI4m
+
+sprite $HelmetSafetySm [13x12/16z] NSV50O100C2muaxtdnRdBBz0gL5-rQpLogttZNVy8-mn5SQi6EsiqK9gquWzsau
+
+sprite $HelmetSafetyMd [17x16/16z] TSd50S103CJ03NFKVxLXFDlpb1JevZdx1JPwZDqPgEzx1pfjXayWsmBVW5IbOKp3p4zcG_udeo4na51g1G
+
+sprite $HelmetSafetyLg [22x20/16z] bSg55S0W00FHkfViFotkpbNvBrEzULtNLC4Z8Qr6bzdV6TtmEFGKhy50SGcyOeMP1Yh6SwBYjEPKVvyNefqu3QheI3Fwos-dR0m
+
+!procedure HelmetSafety($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HelmetSafety', $name, $tech, $desc)
+!endprocedure

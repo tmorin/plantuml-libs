@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/ChessKnight
+
+sprite $ChessKnightXs [8x10/16z] 7Kgr0G0m38Abtl3_jN7306KPykVQmf-xIDF-Hsfp2lthzIVvB_RVUukPgr8
+
+sprite $ChessKnightSm [10x12/16z] BOg54S10408txg7_RdyOs9Sx1931-9_bnIldZmvCZMvF-e8dTbItBXyem5DlGUKR
+
+sprite $ChessKnightMd [14x16/16z] HSS54WKn20JHNj_etF-qNnYgqX5u078uJsdp89hojzkwwTh9fj03MG-zOupKL9JYQ0Gi36i1JK17GlvTOejsTQWYEmMFLdm1
+
+sprite $ChessKnightLg [17x20/16z] {
+JSp50KD1203H-Iuhqt-rKKZsNN00PiF1r-8CiEd5XqwPh03T2-Ve0DKAtn6tCvkTFs-KWGKxC4tvjgBBvbis5jMgTpRWkeWw6g0dsSWwM81zg9s0wXHYjMcg
+0Blz2WfC2a3COBNUFmeuQZm1
+}
+
+!procedure ChessKnight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/ChessKnight', $name, $tech, $desc)
+!endprocedure

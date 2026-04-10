@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Temperature4
+
+sprite $Temperature4Xs [6x10/16z] Os1Wu6S04VpyO2OQoGGc-O4adCi3OdC3rJC2
+
+sprite $Temperature4Sm [7x12/16z] TSkf0O0m4031FGoGR_klDg-E6ZL0-G3KjdYAYxYYaHKBBFB1LDTNPG
+
+sprite $Temperature4Md [9x16/16z] bOY50S0m3CCqvkd_Qml-e8aPu7l8gGByVhfcOFCU2I_S2Kxe2VgZmA8ax9frqflPNEPu1G
+
+sprite $Temperature4Lg [12x20/16z] fOpL0S0m50AfUs__QIj4_tEHfw2VWrao0y0jWzbZlYiDO13GclTLJimlwG0wRVxzIJlibUfC-VptBpYJGqz2DZ9TNBMxNW
+
+!procedure Temperature4($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Temperature4', $name, $tech, $desc)
+!endprocedure

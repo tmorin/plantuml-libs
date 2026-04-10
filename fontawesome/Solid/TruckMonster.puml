@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/TruckMonster
+
+sprite $TruckMonsterXs [11x10/16z] Oq05_400Om8HEv1cOsFZ1s5MLdwiW071vEG7QMC2aK380gOP80eWHWC
+
+sprite $TruckMonsterSm [13x12/16z] ZSUr0G81002nmvtiloqL_fOk_O5thbVtLsfZKrcaxvnpBOAYh5kBarEn9rZL2SS7
+
+sprite $TruckMonsterMd [17x16/16z] bSg54KD1203H_QxSzjzj64RYzavGNbjQQoStB7UDlZ-DsqPzC-aua-ONvZ-7VrjyWANl-rdJDYY46pH7C3MO59JwjAFopOFLm4AjfHrcNKRI5hfo0G
+
+sprite $TruckMonsterLg [22x20/16z] {
+jT054WCX44JHnc4N-FU_RGg9IsaUtbCsw2VhXjUGHKySItjD9ML8xwaQM0qc3WNc2OGG5FYFaq_KUPTqGewxrmYdQs3BQcV6TdNCPAwfXrDI1utwUAVzbaRj
+P95caGuO5PQNNxOMaj5aJASQwG8
+}
+
+!procedure TruckMonster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TruckMonster', $name, $tech, $desc)
+!endprocedure

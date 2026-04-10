@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/G/Gnome
+
+sprite $GnomeXs [10x10/16z] LOc30S105CLIkzb_slBuyKWOFsp4JyclR2RYR1fAAqLGX5626TG3RW
+
+sprite $GnomeSm [12x12/16z] DKg30G0W4Cokst_RtZm5h_xqJmG0Z30EuqkmhS72eHCXF6awWQiB5eZ8y0ei8X-6mOfXn7M3WbEDPQaF
+
+sprite $GnomeMd [16x16/16z] LStL0O0m303HmpNS_jFYqFPznKDciE6r2QfSnXcbKmSkYhBg1X3C0dIkN5meZ0k45rwBZ-aTy5KzkQ-18eSy7_cDQWUhmUFPzSzHG-KN_xi3
+
+sprite $GnomeLg [20x20/16z] {
+LP255O0m5CIkZcV_QN6ErzHJ_-ffpFfPaCH9jWeGJt_o2b2484vcktXvULbRD14KTRdbMnJKr5Efaj8CBF6JMPfviTJ6n_WfCC7FDRuhTQjwDzbuhpg-VHNM
+JZxDPbUkKSWEdYKyMqrOEAcwEG
+}
+
+!procedure Gnome($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Gnome', $name, $tech, $desc)
+!endprocedure

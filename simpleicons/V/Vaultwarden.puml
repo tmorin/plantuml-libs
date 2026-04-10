@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/V/Vaultwarden
+
+sprite $VaultwardenXs [10x10/16z] FSc50OC040J1ZNkc_sfnU3cjkhrQvanieaLgKJStLwVW9PfDEc3fSYs_dr85pne1
+
+sprite $VaultwardenSm [12x12/16z] 9SZ5WG90002nmM4j_LTxccVwyxdtxy6BKSMztJJ_TbGeYyhRkHXNzTJnKNQKXzfoxogVBeQYOOVtKiszZoUZAb1z0m
+
+sprite $VaultwardenMd [16x16/16z] {
+JOh50SH03CGKpeAj_giz3Eapo47XWQfvLeEcKrVFM602zJnp6nt-kTgQ5MaVns_8jM471HICulQttGhwstU3ynC2UkIHxWogEuGBQ9HL9Ri2k8XA2VdX2GVH
+GiS2y0O
+}
+
+sprite $VaultwardenLg [20x20/16z] {
+LO-5WGGn30CLvap_rJxOXre8YlH0qT0tg5nWltSYm140Sgm3FQoRueOTxTO1teHcMW316G19EY2ORiKfaDJFqdLoWhmRAd1pSp8W5kXYg_ly5_h0zp1giB_0
+GqHpamf34EtYVhXlbWRRazMdKN8Lh-pAsVNF5S0ATqENAOGZAzsqYDwy0GlOW6zvAKSVUg6ApbZ1Lxy
+}
+
+!procedure Vaultwarden($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/V/Vaultwarden', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Cryptpad
+
+sprite $CryptpadXs [10x10/16z] FSR50OC0002nrBst_xGuv1KjiEnSnyH_tkFnEFdL9PnyUQPE7gZ2YQxB_lpg1fT-OGG
+
+sprite $CryptpadSm [12x12/16z] FKp50G0W4C9ksNzQs-D5m_006uVh9ov7Ly9BuULXv_xoJd-v0ZhTlT8x2vVN_OlBsts-1rHePCM1OriQc
+
+sprite $CryptpadMd [16x16/16z] LSg54GKn409GpfEiq7-rN_QYZF460DOe8jLxSbjzPb-DssUR2Dci6xPVcc_X7jzgaEoEGdzYg3u9pfRN0Y3TyR_hN0-0DU-igWCsoj-Edela5kqB
+
+sprite $CryptpadLg [20x20/16z] {
+PSzH4iGG54JH1Z1ulV_T3YYet0ISBm2U54R7KjYuJMiwkez1qtyCYh6R7CivLwhR47h3wX2l34QoBHkInugKKZIxgHQ79RHYj_sO_4ClK-TXQ8Koh59p6zRC
+b2zJqwhjb8SvOjKDCn7ikpkiCkqoYvqXRJF1anTMXTaV
+}
+
+!procedure Cryptpad($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Cryptpad', $name, $tech, $desc)
+!endprocedure

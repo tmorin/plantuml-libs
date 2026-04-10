@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/FilmSimple
+
+sprite $FilmSimpleXs [8x10/16z] Ou01VYW0CnZP-3b0D0ylFueu0nC_3dKm_G
+
+sprite $FilmSimpleSm [10x12/16z] Oq00VWJWWP4i4546Fduam0SZ4R9uzO9586nkFWXW1m
+
+sprite $FilmSimpleMd [14x16/16z] Oq05h7nmmCl0oeyAc5XW390C0mE82MFmy48u20O2C3316HZw-C1CA8DC-nXGRKC1
+
+sprite $FilmSimpleLg [17x20/16z] hSw30KGn40JGYPtflzhZj_LYxc9E3Kc0OoLp1h3zDFvwsMyuai5MDhpb8O3R-TIhp8PHbNCFPEeuWS8HWwat
+
+!procedure FilmSimple($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FilmSimple', $name, $tech, $desc)
+!endprocedure

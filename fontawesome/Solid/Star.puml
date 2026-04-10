@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Star
+
+sprite $StarXs [11x10/16z] Om01VauG2M7o8rWGONuuG6R2sGWb33YPx60II
+
+sprite $StarSm [13x12/16z] JOh50O0008ImM_QVrjQJpoKNhdmKcg3EZwrcrQcwsi0GNy0KdsD5Wjq_-8QY_SBr7eGT
+
+sprite $StarMd [17x16/16z] NOe54e0m4CJsSC__Nuj3sqtrCj4Bg625A0IKoGnP4itCpLHV3iF5QCai5MRJZSz9j2uM5sHYMfEetZOLtnlNvm
+
+sprite $StarLg [22x20/16z] {
+RT350KGX54FHVCCX_LSxBi_EykBWXwnmCabV-J1iJ7oAfkgTjwDDlerwREz9NWrhnqOFy7a2GSRRBjl2LtSpdwQenwzIo64TilhJji_7R4CUbycEDr5HyBCd
+FDm1
+}
+
+!procedure Star($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Star', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/A/Accuweather
+
+sprite $AccuweatherXs [10x10/16z] BOh50O0000AnM_RVLedxa10h0bzkb1dsYwlSdys9vxR1jDFekNhrpzHZ1o7kaN8V
+
+sprite $AccuweatherSm [12x12/16z] DOx50G0n3CDSvch_QGyA-eHZQn5rc7xWYbivmyWo_YwEZzw92eD5HUfYqtpcvW4vU_8kPVQ1HtAZrPKs8mcgxxHZm25ztHS
+
+sprite $AccuweatherMd [16x16/16z] {
+LOl50O1G5CFwuBjb_sbnpQqINGIzU6amItPbW07aEnUBnTlW465kxFW6ntf6S6SsRdoHEkd9mYT6URA17FxDVt-KlkSHFdTPeRfZDRhJ3ZYPPRfEe02Tf0U7
+JbO
+}
+
+sprite $AccuweatherLg [20x20/16z] {
+JSl5eSLG30FHIIxZz5_jnnSuEriIjmnl1x2ClEdQQj72HUtXJ5F7FRKor8n-7XgQ_uwf6z3IlA0TME9j1G5Mcpumm3JuahQfwkbBMKeq-N8ga6VnWG2AjzQD
+W7fuELIWJCUnLUs7kvtyqK2kWURcehgNQkUo9gVAQU0jokKR
+}
+
+!procedure Accuweather($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Accuweather', $name, $tech, $desc)
+!endprocedure

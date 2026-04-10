@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/UserDoctor
+
+sprite $UserDoctorXs [8x10/16z] Om029WOmuEVdXrByd52Q5IQE2HY1min02H1Y0vByZ2pyt0py
+
+sprite $UserDoctorSm [10x12/16z] TSQr0O0040ImmvtiForQVwharUQteSdBgrppfh84JPUiGgA99OqSez2ou0O
+
+sprite $UserDoctorMd [14x16/16z] XSor0SC030J0DxDl_sb3vYhNY9LDcGiizu9nAmgR_UPHvLdDeCfkt8l_cdcUiocaG_fr-v-QAfablsGLLQ4ENKBK1S7AxWq
+
+sprite $UserDoctorLg [17x20/16z] fSZ5WSHG081Guj_flzhTaNYEysx0gkUYg4wmKIzdSCKgk-hMKUyZkcBp6C5hmr0ryOl8gCemyA7Ri01efLU1qG11WMYcBIWq1IONpEY86a0BDZJZLVe7
+
+!procedure UserDoctor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UserDoctor', $name, $tech, $desc)
+!endprocedure

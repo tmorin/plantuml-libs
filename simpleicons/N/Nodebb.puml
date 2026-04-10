@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/N/Nodebb
+
+sprite $NodebbXs [10x10/16z] RKc30G1134lxPlRVzkmhGipc9hdP5n2moaAjOiilPHPKBOWtv6eVPGm
+
+sprite $NodebbSm [12x12/16z] TOg30S0m44LVxMR_QMFZ-CMmfdtVPxqJ25ERlGX0OzWrlZqM8ilSTymWNdrdYoUVMUrbK0e
+
+sprite $NodebbMd [16x16/16z] bOs50S0m40A9UzX_shfxB_e6-8rZZ-cl8W5oZSdGnG3wE0EY2rZN67tC6a8V3uz5tCqBVUZlVfkuqYzrJleZUlQ7KAv33XTUQG4
+
+sprite $NodebbLg [20x20/16z] {
+hOy5ZiLG30Cdhunp_zkked8htZ-YA6IRdpEwqRWHCFlgMQ4pq9iz05tGykWjYewllObQNPVjtxAiAZGV3KAdY1ZDNeaesnN0SFxBvbPjUm7Ks-SInQpoItwz
+SjHN3fWUlPv_yGS
+}
+
+!procedure Nodebb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Nodebb', $name, $tech, $desc)
+!endprocedure

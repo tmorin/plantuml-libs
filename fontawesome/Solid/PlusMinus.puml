@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/PlusMinus
+
+sprite $PlusMinusXs [7x10/16z] Os1WO6O00tus1CN6ni_51YJ002g8eFXO66204w84
+
+sprite $PlusMinusSm [9x12/16z] Om023WOeuEV3oc3dXm86FZu-VduWWKSn9k25QGS
+
+sprite $PlusMinusMd [12x16/16z] Om03FWOuuELd99hD0mJy_22IcvSV0Q1gc4aoauUV0G4GmWYrSC33XsGN
+
+sprite $PlusMinusLg [15x20/16z] dOo35S1G54FJLpFxJrlh6_SmnCNSu4T5_cMT9-jcfoUR0vceqAZISvKdHPKe_a89Vg2dmg3A3G
+
+!procedure PlusMinus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PlusMinus', $name, $tech, $desc)
+!endprocedure

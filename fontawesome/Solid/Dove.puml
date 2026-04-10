@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Dove
+
+sprite $DoveXs [10x10/16z] LOY50O103CI2Ezb_MlIrFGUGSDh_lZ6BVcp1zakcxJz8ASQbdZe0RW
+
+sprite $DoveSm [12x12/16z] JOq30i0m4C0oU_d_QuSwxLbyd5BGx7JCog7o2plY_VjUeCdN8_YRcHlkngTF_aHNyf2zau-kd7q1
+
+sprite $DoveMd [16x16/16z] NSV50O100C2muaxtdnRdBBzmgnr8gUKtg9PrNT4E1gNoXfSQPXOPhF2s0vl39lZQhbzWCmMK7uhJ5QVAFXhrO5vOl5GabE04
+
+sprite $DoveLg [20x20/16z] {
+RSZ50O0m0C30uDOs-q-BEzpps6Z6IzJ4Ysh9gUg1GXL8Bb07eDMZ1bmqG0zAfk0c1z0ilvqn0rt0uBddvRu1VyVVPJy7_SzrtdH07hnBGEiJ2pTnCUHiQjM2
+by6Icma
+}
+
+!procedure Dove($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Dove', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,20 @@
+' definition of the Item simpleicons-14/R/Rich
+
+sprite $RichXs [10x10/16z] 5Sc50S0W40F0goja_scHboW1XNEPK1AnJ-q6J579x5PNdboIUBsSr_CA6IghNM8vL-mdH0S
+
+sprite $RichSm [12x12/16z] BSI50GGn24JH7qKIeFzgJ_UDW3U-R82leKh61kh-zIk0zGplVG7N-5eEOKl4zFGzoAeZCj7FpfKDkQM1-93oN1rem-_gQGPmPziKo_Ygvzu
+
+sprite $RichMd [16x16/16z] {
+BSZ50G0X402nmM6r_svFymmGXSyHRdrN4USsSPY43pRGNO7QQntrx5ehLG3XOCVbVXgtPNnwS3Fdz7FQQB1W-IrYxr5d1FIPsKUiOEuit48w8YrDedCRUXoQ
+sTG5bCCs6msRnu0cqdhKLVqq0xILauOqsgeyFDmzCvnV9hUP2ou
+}
+
+sprite $RichLg [20x20/16z] {
+FS67WTX024N11so25VhzLsjVdW6cZ5_PV2hBNLNjoztB5i0oYuOYr-ej11QxyaHqx8WpEWG866vly-q01kdPtfNcpkNJvV3d69-UOM0H0M05y5xWg7j9WdIm
+tV51aKzun2u1EwKitNr1HmXOyxXngwQUuyaBL10r0TRQ90MyNfb7U6pV-R806L0wiDWI3hmyvUtj8qVcCO0nGT83nZA_VF8nDRQxj787tyPObszNV8iffN-I
+6lWF
+}
+
+!procedure Rich($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Rich', $name, $tech, $desc)
+!endprocedure

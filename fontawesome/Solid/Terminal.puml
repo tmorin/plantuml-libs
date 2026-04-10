@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Terminal
+
+sprite $TerminalXs [10x10/16z] Oy02kFdXJ3u4an-PYPV13mO8ym
+
+sprite $TerminalSm [12x12/16z] Oy01UFcHEFn4SdXXB4Q8E8A9KCt53GRi_20-123R2m
+
+sprite $TerminalMd [16x16/16z] Oo04k56vlFpyg0ByL110vJFoytCHpMM0SBbXW1VCvU670KBU0m
+
+sprite $TerminalLg [20x20/16z] Ow00SFBpOeXnysCHvC4co4UqIdvIL68HOgMo42St7732LF4Z0KPUY4OkNZZW9ZPC0G
+
+!procedure Terminal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Terminal', $name, $tech, $desc)
+!endprocedure

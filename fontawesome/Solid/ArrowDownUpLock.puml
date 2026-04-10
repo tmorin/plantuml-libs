@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ArrowDownUpLock
+
+sprite $ArrowDownUpLockXs [11x10/16z] BOo50O1058MmM_QVLYyUlnDuYyqq15sIMaZAN2pC3mKRw0cOWwIdoglk-Q4tBVq1
+
+sprite $ArrowDownUpLockSm [13x12/16z] HOk50S1038IeUzX_sjeRSJcWxu6JX04QTV3bgWEEwN6P0VdfFeP8JmakxP86a3xQq8t1hE74-V-ISgJ2bzBm
+
+sprite $ArrowDownUpLockMd [17x16/16z] PSo50O0m3031npNy_jFYteDQZ5NPiWfkkhtr4nXTlGArRfv09aOVJs1by7W7ykaaz0CGdXhEiLccsGe4isTe6cWSHpimj3FRufld_5vu1r2Um08
+
+sprite $ArrowDownUpLockLg [22x20/16z] {
+ZSu50i8m04FHFzSszxyj10tEdxzjRN5D1LTwegBLbogDeLKR83SyQT65KoTT8XKjlKHTKtsnFlL52vSQHNZI2UW21sPVLc1Q5gak3YGVkGPdAV_fAhaLqt4l
+MW1TifwRIQN8RQHUxdTIOxRG0m
+}
+
+!procedure ArrowDownUpLock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ArrowDownUpLock', $name, $tech, $desc)
+!endprocedure

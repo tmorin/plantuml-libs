@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Yahoo
+
+sprite $YahooXs [10x10/16z] Oy00_FnG1WS_5vZ3pm8c-Q48o6I7gU672J6mmbdC_EWc0G
+
+sprite $YahooSm [12x12/16z] ROlL0O0m30KFTsx_QQ7-rNYUq8jTswrRFGU5sA-hlh3wecWMBitss638zrZkWMclE3MkzoZN3m
+
+sprite $YahooMd [16x16/16z] VOx50S0020E1kkNsdxRkbXSIin-4fFCEPBVzl3RGR4TWdJB8BQ3CWKsbvHtJNeDVd61Q6xJkWXFTp85isltIeqxNrQ6n4mJsYG4
+
+sprite $YahooLg [20x20/16z] {
+ZOu50e0W54Eb6-v_M-UmU_JZnuOVKah94qgjDNLY3JeX3nJlmoeFFhN4bd7NED4fJr-5znwGk8UjGy25qJJYryAELKy-8IbAjGiJdR6QM22HuQ4MPXYsEbq3
+2uuGnOhK6d08goSaMFj38m
+}
+
+!procedure Yahoo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Yahoo', $name, $tech, $desc)
+!endprocedure

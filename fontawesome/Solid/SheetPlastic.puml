@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/SheetPlastic
+
+sprite $SheetPlasticXs [7x10/16z] O-070Hu-VYXW048mpG8Y6PduiG461gXQBcuGpSS
+
+sprite $SheetPlasticSm [9x12/16z] O-3X1mCs80q3l0nG1WCl7mDCY1SgnCUF6p0nC41LmKq08ZQO6
+
+sprite $SheetPlasticMd [12x16/16z] ZOgr0SC040ClCQFsdzRuLFeQ8RqSiqcJ5dRzhMKJMByBjdeo_jb-1YXUMjrBIovBtbRW1
+
+sprite $SheetPlasticLg [15x20/16z] fOx50OH040GBXxNEFzhp6tbJg-FDF6HKPaM6nPoJ8rb85tyJkaxClDunHahlPdZCY-ymbcNPtDm09VDzc_cs3aoOf1sgZ0DStZi6Jm
+
+!procedure SheetPlastic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SheetPlastic', $name, $tech, $desc)
+!endprocedure

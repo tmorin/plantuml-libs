@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Dumbbell
+
+sprite $DumbbellXs [12x10/16z] Oy09-FaX50yGWzbW6fdDnuy0EDJm8SpXGZ4T
+
+sprite $DumbbellSm [15x12/16z] Oo04-FcHQ4OU19SRH22u_BnWBYCO01byVFme05Kn7p8NR1OBWii4fhZWzg83
+
+sprite $DumbbellMd [20x16/16z] bOpL0S1G20EVAv3zfwsxzxukIDGFIbYqnca4p2C2z32ITTOfnUuQsCtwm1SpzCZ445XmPZmtUcGCbttnOgOqxsP-aBZEmgWVQG4
+
+sprite $DumbbellLg [25x20/16z] hSt50SGm4C10XMDK_zKUCqFcOo-ph5axJh9oe5PEr9cjCTqLQW9QlIkeq7rRw7siLfyWkHDEtEc_FmvtXLFStXLIS_hcgyB0GKwSTINmapK
+
+!procedure Dumbbell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Dumbbell', $name, $tech, $desc)
+!endprocedure

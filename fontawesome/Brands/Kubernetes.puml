@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Kubernetes
+
+sprite $KubernetesXs [10x10/16z] 7Sc50G0X4CJ0l2ka_sgH7JXd4i8fLPVqtk-H6NtNdEvCcr4hBaLqGwgoQi0SdOSE
+
+sprite $KubernetesSm [12x12/16z] FSZ5OGC100InyJ6h_sh3iJuB_T2V5tYteE3Lw775_98kekLLzyX6JnBKC-KgA_USGZTNXQNuAJzF_AXF
+
+sprite $KubernetesMd [16x16/16z] {
+HSxLeUWm342nK-Pg_saVN5HY_7AVPlLh0KEVDjXyRtmOVAZBmrx3xQLuXrQzpJDxcDfax458rVgCs94bdGBtN4irrUh3UEdjVo5eFhGCq0Bz1zN9zM3-FlZr
+RUk3BtVr5m
+}
+
+sprite $KubernetesLg [20x20/16z] {
+NS-55GCX403HWOlWqt-tOL_yFkuiRyNClsguyDLzk_BKDF2THP-IFa7MhZC3HPSALKjkN2SJH4qijL0SQE9venkDt5X0KJjkEDcIFRaLDnmSSYW-pG8aCWde
+wncHB1UWwJQlEjqgibT6nu3XW5XXQRJ9a0d3RGBv6-pDZL3KPhYh2SBowu3pP6Lx
+}
+
+!procedure Kubernetes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Kubernetes', $name, $tech, $desc)
+!endprocedure

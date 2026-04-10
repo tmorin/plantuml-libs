@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Grip
+
+sprite $GripXs [10x10/16z] Oy06-FaPUFcPW1GGC40m8vXa0Kd10HTOZ0z57GCd8mC39mC3EoT27G
+
+sprite $GripSm [12x12/16z] TOm34i003C3IxZ3d_w-TZTJaZuZPBOaQg3JEv9AtIjz1tHSioKagQ4VUzvlzJwNyC08
+
+sprite $GripMd [16x16/16z] Oo0LSFDm8fFyGC38m0CckVaXW8c15qI2HK5Y30mG4gIOeFcyV5p8937cCq9CXf2CZ42D298G
+
+sprite $GripLg [20x20/16z] hOxL0SCm34HFK33llssDvN3Upu51mjcaJ9QGXG7Aacs6WAg0ImC6zSuN-NUF-dz556XnBIn2HKMa2zct_o9WvdRvxjf2dsznCuQGCUPU94V60Hu
+
+!procedure Grip($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Grip', $name, $tech, $desc)
+!endprocedure

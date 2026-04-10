@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Keybase
+
+sprite $KeybaseXs [8x10/16z] Oy00dFpyZ42AaO6Vdn_2vm8A02aG08ioWMJumO2JWGEi2IWEfha1
+
+sprite $KeybaseSm [10x12/16z] LOg30S105CLIkzb_slBu-KHLNVYg0UqHUaRKQAinj-eFEFJ4MBXENtf1a1KE6lxQRW
+
+sprite $KeybaseMd [14x16/16z] PSV50SDG081Gadmtzf-sxdqdW7-LjttttKvrFgxqgfeVDwFgu6vgqFMufQ9M0FMn1O9NfAo2ldMqlnURRGFODiHh1iY0C8082RREbpC
+
+sprite $KeybaseLg [17x20/16z] {
+ZSsr0OHG50NHmU7Rz5_juXhjoPvU_kN8hTDYgBcO9rTteuwkshlHkGeSichnyRTHUNmPLAbLgoDLFHu1kAceeffXSXFpEIY-3FZI9xHogbXLDMJCBRSwCGbK
+Gf-1QG1vA1LVCm
+}
+
+!procedure Keybase($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Keybase', $name, $tech, $desc)
+!endprocedure

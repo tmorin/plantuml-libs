@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/CircleRadiation
+
+sprite $CircleRadiationXs [10x10/16z] 5SI54SC000CnbRc__xOvom2lxgRcHMcxYN_e5JrtSxE_DsDZ_-gBmgtX
+
+sprite $CircleRadiationSm [12x12/16z] HOY55G0n38Kurr_sd_PSQ9Fmu6HnvCQRNrU5UmI3W0Pc5o456_021jNHa-vEbwPxlG6Y0-XyUU5ENdK7
+
+sprite $CircleRadiationMd [16x16/16z] {
+LOw55GD1508vlzNflziyGdHMlwCdnw0jUZC8Lqm-p9XZmopGdJnIiJcq29BaPuE37fEMMdRfHZh8fF0Pq_AioeU5VqJ2cteKdVWsjjFpUDkdNoUECMEQ1PEg
+1m
+}
+
+sprite $CircleRadiationLg [20x20/16z] {
+PSy53iD040D0Xu_z_zzMrhh1QKEBEbWUR3jkDbgVOBp9L-XI7CeOb5qVcsQfVg94XMv3rIhqf0Ho-G-jUkba9YFKaog0XHnKR6PJWeZ9jYbcZQPYs_a5XivJ
+HxzEvFnyda2s_tlM9eGpNJHZcQOvHQTRBZWbRuoY7m
+}
+
+!procedure CircleRadiation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CircleRadiation', $name, $tech, $desc)
+!endprocedure

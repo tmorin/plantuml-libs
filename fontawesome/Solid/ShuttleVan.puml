@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ShuttleVan
+
+sprite $ShuttleVanXs [11x10/16z] ROR50O104CI2E-c_MkJijQCXr6uLtcmtumyDCTQaQ1gu4Vo7yn_SU04
+
+sprite $ShuttleVanSm [13x12/16z] TSMt0S0m449HbBF-_jkQoftU7Q0tVa4G8pKc8iWlekEt4AWXUJ9ln--n2xf8c7ixaodjkv2yLTQMz04
+
+sprite $ShuttleVanMd [17x16/16z] dSY5OSG030Im2tEq_xJjCxFCpdljV3OcQLr9gCgISjFMSZM4vD2MXEBwKS6whixj5mEg7kXgP2O14hfaabgIGXL3DZ1dOqNk_GC
+
+sprite $ShuttleVanLg [22x20/16z] lSz50a8n4C3GVFVc_hU56TmssAjdLpwtUMS0PXzKeDPrlUG-nAv6BS2KUnkXYV9GcRHxhFXlNMnGD6sGOTG5sijlDqiDM62DDvqJA65nhn0CCsbLuPGdNja1
+
+!procedure ShuttleVan($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ShuttleVan', $name, $tech, $desc)
+!endprocedure

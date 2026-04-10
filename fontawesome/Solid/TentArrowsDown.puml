@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/TentArrowsDown
+
+sprite $TentArrowsDownXs [10x10/16z] HKc50G0X4EAxd_sdLQ-B10WPejJtK-r05TXummDdcP6d4XIOKZt8fWC
+
+sprite $TentArrowsDownSm [12x12/16z] FOg50S0W4CHIzsR_QN5uFGCfDRqCFCk-MfYpB-gQyAj2WjEVICt-wbFGQQqvONir_5MybrTnazG91puZ
+
+sprite $TentArrowsDownMd [16x16/16z] POo50O1030CFTxB_j5W5kvUc5a0uXQdCot_EebALpcnKVHnqi9nvA4jhGj738AcwbFbSh1XAHa-JzfDFcLSMCcVyv7Z8mS52-rfa1m
+
+sprite $TentArrowsDownLg [20x20/16z] {
+TT053eHG40JHnh_N_M-xcLbSAjPvE98AsklePN6odl1XYzaok2oTMQWqY5GtM8YWXYLln8hIHjO491lDg8VYPqPvxbRGKM1hsD_fd3nuuFHYwSNstV2wimru
+yycsbI_MRwCxxFWV9nlmyGC
+}
+
+!procedure TentArrowsDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TentArrowsDown', $name, $tech, $desc)
+!endprocedure

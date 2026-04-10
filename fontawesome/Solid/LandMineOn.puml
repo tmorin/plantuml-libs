@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/LandMineOn
+
+sprite $LandMineOnXs [11x10/16z] Om01BaOGYPN9oi3F3-Q1QJO84oO0a-A4CVdX03iJ
+
+sprite $LandMineOnSm [13x12/16z] TSUr0S0m0C0mbxd-_zf2S8es4Tm3GJET7N3rmEItaq2f1eBJpmY10H-h5QkxcUi5
+
+sprite $LandMineOnMd [17x16/16z] bSY55OH040JHliEXtrR-qUBk_DKfZIWqUWw_RVZzy12ouK5_-6cKGr-3HfIwaDBJZ46bNcKpidF9RFmKleUS3JK
+
+sprite $LandMineOnLg [22x20/16z] jSZ50GGm08J0ZNlelzfpTvqVwA1YTENpswvlI0Q2DZBQwY0FwCI-1vpDg8quT8IUcMmLdSZiwKIvkbnfakVQ_wwuChG4
+
+!procedure LandMineOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/LandMineOn', $name, $tech, $desc)
+!endprocedure

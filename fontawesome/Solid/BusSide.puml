@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/BusSide
+
+sprite $BusSideXs [12x10/16z] NSQ50O105CFGu4xsdnRdx7rfQVn0RM83eHBoxjEdft_AdceSKPyFhiBpJm
+
+sprite $BusSideSm [15x12/16z] PSt50G0X4C30d0lMVxMu4tHU2wRsaLJp0i9H1e-1hDotpMp-PDPOkGRvFVsfbCI_z5_o41m
+
+sprite $BusSideMd [20x16/16z] {
+TOs50GCn3CJqmSTe_sthCYjWzi7YAmk1dtGMHqgf6Lys_4Mh9g18S3X1rgySuqTkL_EFd2EuVe_Saz-vTDdmmRuF_mBruPNukNWySbp-P66Ne3wyYtYvU2Ey
+2YS
+}
+
+sprite $BusSideLg [25x20/16z] {
+dSxL0SCm303H2vEbst_QCdFpVWn2gCC74tkBBynG-ngXx9sEF9n5E-y3eQVuwq3pBb2z2_0KqDFvmhf0vGiriBZMxRG1MjL6JM2wdNqusr10Oo_jeD45ODP5
+WmFDq8g3HIrmK7lQU0i
+}
+
+!procedure BusSide($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BusSide', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/Lightbulb
+
+sprite $LightbulbXs [7x10/16z] 9SN50SC0000XwetU_jD6-O1bmfX73uacOLozy3P3mdyXGhNU_Uq
+
+sprite $LightbulbSm [9x12/16z] DSR5OS00000XufxRVzfwUO7XlK4TPz5cu7s757gF8UY-WEG_3xJJmFLYxhg2eGhyvXC
+
+sprite $LightbulbMd [12x16/16z] 9Sk54S1G3CDGbVbh_srxSTv1q03JwqqpHhS0gq8jhWFmcGHzWTDNRWcLuoNCCcPnfNsYn5xB7YQJSYURCdoUnutoMcRAPQ6fIVu
+
+sprite $LightbulbLg [15x20/16z] {
+LOu5bWKX40CpXaFT_xPBl-ot6eq0hU3eh2oP2pCKP9Y7b01dMmGrTAZ3LgSSp51kGESK-v6b-pATXJuCCkaZmKqJsmwgZBU4nsfvJF2mJ0M5yd4zp8OfWwc_
+CiiCIxsOWAVx0m
+}
+
+!procedure Lightbulb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Lightbulb', $name, $tech, $desc)
+!endprocedure

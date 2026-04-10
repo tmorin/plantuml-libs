@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/EnvelopeOpen
+
+sprite $EnvelopeOpenXs [10x10/16z] DSR50OK0040XVgU-_QUrvGJKmAgR8PHLxzvsrUUCGfzVNFl6EYxEMQVJ3
+
+sprite $EnvelopeOpenSm [12x12/16z] DSY54O1030NHnJtRVxN0NIPlv0kDIjfSUHnQpM_m0GzIg1IjiQZRv0Q4s8fYa9tBbUp5EvOYLvJr0m
+
+sprite $EnvelopeOpenMd [16x16/16z] PSo50SCW503HYnjm-qzRRx27yuMFKnsuwOM6tslL8H-aEw07wCJVeGhPRDLuysF_FPENogMywOGAayAgy7s3waL-Cvy3-PrrRwpHU08
+
+sprite $EnvelopeOpenLg [20x20/16z] {
+VSw54SKm3C1GbIc9zf_sGvdVaS_CJ3Morsfer8oLMW1HkpbJhLF5qghMBAAsS5fTwvW_qddzfdFKdRlCTnjp3OCAwxETTeovCMx7HynPSkHghmcs72IruvY3
+32uvNdEDfYCbU5Poumi
+}
+
+!procedure EnvelopeOpen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/EnvelopeOpen', $name, $tech, $desc)
+!endprocedure

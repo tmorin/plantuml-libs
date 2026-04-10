@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Taxi
+
+sprite $TaxiXs [10x10/16z] HSU50S0m30D1bHly_QSDmncb0b3ppezEclaGKs3JsfjfF2_go
+
+sprite $TaxiSm [12x12/16z] TSl50O0m0C30u4xsdnPtsliVYqhbuA9drRbB0PjqDGgjx0HlWq_qHpMkPwUC2Rjgd04
+
+sprite $TaxiMd [16x16/16z] ZSYr0O1004FHuCxVVrhEjU8r4Na0hx8RPqppn7isEGE5st2CmSlgjw81f0MUn6rQ3xrPwHjzkqHqYZ-M8NdWXK791UeO
+
+sprite $TaxiLg [20x20/16z] bT235KGn54NH--sS_gkDCSPU31wLN0IpRamakZ4_tLqqgoBWyNA0hIyCv6-gUkZYtTarS4eBZzJpxEAbssvcZGItJVVg2Cw3PkC_sutppTPcCBfL_Znm
+
+!procedure Taxi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Taxi', $name, $tech, $desc)
+!endprocedure

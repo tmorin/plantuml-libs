@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/BraveReverse
+
+sprite $BraveReverseXs [8x10/16z] 9SY53GC1000Xwdsz_QTzJOY12cjee6f4UjvNGJAOBR8OVUDnCKDY1m
+
+sprite $BraveReverseSm [10x12/16z] 3SI70SD008F0Ytjd_stp4e2r0iSFvydYzxj7RzwdlcSzgQstCANXwL8QzUarMFse3_o86ykC2_Y4Fm
+
+sprite $BraveReverseMd [14x16/16z] {
+HSI54GCn30J0VIRBrt-t6Grb3xGqQFF_rtEY7SL3tgI-42LZ9Fdg4ykLl4kCH3abkTDlckIfR0bbCbAIpRBQIARazU9YFU9WqZkJuCM39JYqITi_sdkXDcXB
+rcW_
+}
+
+sprite $BraveReverseLg [17x20/16z] {
+HSn5WaKn40B0YdoDSF_JZhoCrB8R03KNlqhEURkinD6IExE3Mi2u6RoJex15pvn9CbPuUqdIP7ecKyuXBNlb748IIKd2CAcPPRmbt9fUIUAMF5cKDqdQJ4Am
+sIayqnddeApaxPhW3aaM5fYmhli6uycnYyjZWPRgLnfZykyzTdFv1
+}
+
+!procedure BraveReverse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/BraveReverse', $name, $tech, $desc)
+!endprocedure

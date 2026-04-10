@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/Z/Zapier
+
+sprite $ZapierXs [10x10/16z] Os3ZXm0WWp1WXL2CGEKCd0JKCi1P
+
+sprite $ZapierSm [12x12/16z] ZSor0S105CDGfpduvFsd3JEhUfNGS2vM_i-fha7ptZ206UD562XEKJuLEsFd3W
+
+sprite $ZapierMd [16x16/16z] hScr5GCn5031FH1_lUs_MZE6Xaa7mgS2lXl-I_8A9h5WNecYHerbmvAWXGfrsRd-zARwfU8xV5EF
+
+sprite $ZapierLg [20x20/16z] lSYr0G8144N1jtf-l_zgSIU62GTQRrPWqwTi_TUiRwMxC1P3Ris6oz29QJKKCaQOBeLvkicisB0TFOL-PjKtz6Mdlki8
+
+!procedure Zapier($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Z/Zapier', $name, $tech, $desc)
+!endprocedure

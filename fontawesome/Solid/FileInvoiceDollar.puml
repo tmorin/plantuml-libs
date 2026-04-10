@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FileInvoiceDollar
+
+sprite $FileInvoiceDollarXs [7x10/16z] FSMn0KG0002n--w1x3yjW3G9IwqWVe91OGHCynrGNnEm0m
+
+sprite $FileInvoiceDollarSm [9x12/16z] LKg30G0W4Bpisd_QhFS9iVG2nbzexhY7hnkKAgIqNH_QB617TfLPNW0RmQCs
+
+sprite $FileInvoiceDollarMd [12x16/16z] TOh50O0m0CI2Ezb_MjnfypcbTAK7Lhi3Q9UcEkhgInXb3Uwm1ksIHDb31KOO6KwRSz_8Xli2U4FjJlNgTuitCm
+
+sprite $FileInvoiceDollarLg [15x20/16z] {
+NSw50O1030J10zubst-rk0zELAEnozgCNBfMnaFISO_ukiU1QHZ0gmBYvAMone6M2mH9zUeGm5R7X5BvsICFYKVIwXTxZ1h6niFzjiUKkCHlAujNRcLd7BuT
+yW8
+}
+
+!procedure FileInvoiceDollar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FileInvoiceDollar', $name, $tech, $desc)
+!endprocedure

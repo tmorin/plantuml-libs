@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Bicycle
+
+sprite $BicycleXs [12x10/16z] PSsd0SC00C0mT-_g_skpWs8avWwTEIsWj0MNtU-e-f1VE2Vn_Llqv_HVv9uwwQVO3eq
+
+sprite $BicycleSm [15x12/16z] RScrGKG1042nTzyz-q-BGqNQz3zSVNjLvzEFXKf_m5-FT5sg6f04PHkrEj4ZWVJioQlSvQn3XuVg1Q_gslfodlKE
+
+sprite $BicycleMd [20x16/16z] {
+VSh5OKC140FH-OohwR_QnCpskon8_9QaUDQeSjNjEq3aRbI1rWRkMi_WBWRYlTZNPWcEceqZZt0jyMY3kE18wLWQOejXTzzBqTO6nOtDem5tN50Km08KQ2mc
+xMS5EAwJ0ejg2zUruPD_
+}
+
+sprite $BicycleLg [25x20/16z] {
+ZO_5GG1030Jtt3FzTmj7S9zFN5R_8gH7ehvYNFILnlauCLxwFhTNOFb8roTuuMk1Smvy7kc053wEX0smIJh4WS7GPN9P0OJ901zBC1D8nY5DO2Gy7kgCfmu4
+2NIDt3fHe4dHO0gaQWRObBTrTQRCFzySbnFS52KOqlRCjLdojnRmfjYuU5V6FMS0fbzu
+}
+
+!procedure Bicycle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Bicycle', $name, $tech, $desc)
+!endprocedure

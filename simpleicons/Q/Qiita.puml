@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/Q/Qiita
+
+sprite $QiitaXs [10x10/16z] 7SQ50S103CD0bRdQVzeFNC0cNUuKszK5riaDBrJq4jDXwWRkmhB095uqkNmwqsQ1
+
+sprite $QiitaSm [12x12/16z] 9SU73S103CImI-_F_RSD31DDIdcSQLgdxx7KaBosy8N0iVBuTYMm1aOuRPd7joR4I2CiALE_OtlPQpxgany
+
+sprite $QiitaMd [16x16/16z] {
+HOy53i0W54EBExt_RKUHx4tW9L-n2OFDu35uI4V9ntpQhF5ntRg2As2d_YGD51Kfq4Y65MougGeO9AutT8hNmKF1yYWDa1lvHV5GtYDpADPTDM_wRfP4qjwi
+Hxnn_BVv
+}
+
+sprite $QiitaLg [20x20/16z] {
+JSw54SKm3C1G1SlH_jD-y9NUeTcSbk7UUMcUZiJ9buNWRUowtgaTe9BK5hiIYKNt1AfWx31aL6VKdQ6XPjL5fNgQK1qgnLEX6Gxm1B4h_kY60gXT1q1fXR-a
+elAowS6X2o-QISQUKo8iwaPe2c5LTGn3kiitRhFXoFnz0G
+}
+
+!procedure Qiita($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Q/Qiita', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/CaretRight
+
+sprite $CaretRightXs [5x10/16z] Oq02_6227qpmmmaU807436nGLG
+
+sprite $CaretRightSm [6x12/16z] Oy02-FaX93-4v4SYkK4a5qYS2rKF
+
+sprite $CaretRightMd [8x16/16z] Oy0Dk24K3py_ZEQ7qVmmcX-DveRGt11vBh0nG0eC6B5P0W
+
+sprite $CaretRightLg [10x20/16z] ZSR50O1000InnPtflrfSp_EAqitS0zxnZdUymx7-tgXhlQwDkjQVKL4hRWK
+
+!procedure CaretRight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CaretRight', $name, $tech, $desc)
+!endprocedure

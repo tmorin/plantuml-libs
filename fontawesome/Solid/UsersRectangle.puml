@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/UsersRectangle
+
+sprite $UsersRectangleXs [11x10/16z] LKc30G0W4Bpisd_QhDSHtnGwBYysAEZNtM0L2_Ggf5iyUWYdZaIdDxzf
+
+sprite $UsersRectangleSm [13x12/16z] Oq01_FW1N04F0oCVa0FbCx3my_8X9FcPs60ia1AGEeXcFWY75SXXXCbmyFEWsC3D1mVi
+
+sprite $UsersRectangleMd [17x16/16z] TSg30KKn50MmFBCz-q_xRQIuvDDONnLZ_jXAtlJKbw89vjoRo4uAKyxABOOyDNqUgcoGuh49-cYk2mA4juqfv9jyyEa8
+
+sprite $UsersRectangleLg [22x20/16z] {
+VSh50SC05CDGXJdQVzgIou5t-M1peDeeGRUMsND3jRhH04Pqi0emP0sWjWRC6a2h3RDPOorhjslK3Fue1qVkjEWrG7ce76XywC65S0KV2d0Y5DPtLnxAT0zq
+xc5ngs7N5G
+}
+
+!procedure UsersRectangle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UsersRectangle', $name, $tech, $desc)
+!endprocedure

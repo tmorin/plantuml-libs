@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Ameba
+
+sprite $AmebaXs [10x10/16z] PSQr0GDH040Xufwt_xJdtQS2Nvn1gMEDas4z2efp7tpk5zs2EXKp
+
+sprite $AmebaSm [12x12/16z] JSQ50O105CFGu4xsdnOv_z8-W0EuYUEEPcjsrzZbthpdw0uvZGRPalNMAnawZRGaXmUUAm2pei0B
+
+sprite $AmebaMd [16x16/16z] NSw50SKW54FHr72u-q_x5Ky5paFrJVx-JgSMQBzc2gkPV6pEANt5MGs7GO7Kx7Ha2PgznEoQCdp8qMp1rUgN0J1VruAxYKW7LtB7lA5NZGUkUjyt
+
+sprite $AmebaLg [20x20/16z] {
+XT250GGG041HtVpzfxsIrzhJn2CKsoibTW1pAoiy6UvEF1lmr-G7ItIro6DfZIwPsaY7IG5Q9DfXGaZT6qzspq_MCZqV1iK3rDDih-Ymsmh8cnwc0KgtZAFV
+nExLAa3I5OHy_WFv_0SHG2sx0W
+}
+
+!procedure Ameba($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Ameba', $name, $tech, $desc)
+!endprocedure

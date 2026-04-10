@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/BoxesStacked
+
+sprite $BoxesStackedXs [10x10/16z] NOQ50O1008ImM_QVrlRh4g0IUQJeHvP4TmlOwPTdTkdbdaSy6sW9T08
+
+sprite $BoxesStackedSm [12x12/16z] TSO72eHG60FXsRLhCFU_hNzu5Ei734FHZaU8rVN-4NByF_zAmYDRAbVDd3QCwTUFxRVq
+
+sprite $BoxesStackedMd [16x16/16z] bSU53SG00810Nkh2_jFMtKk476sXKCfOP6T7v_f3_SxM5yxi-t1Gw9TS2Fg7TXVwgt-Apjt7eDjhC_hRlmO
+
+sprite $BoxesStackedLg [20x20/16z] dSW75eGW00FHs9Kszp_j5dZPNlqAv8sghY0DH5qDW6-Bk7Mo1CIj0FrTgtQq-A8Da-cjlY3DHAdpwg4kYkHLt71hmaPjRPcRxM_nHLEXsIIl8m
+
+!procedure BoxesStacked($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BoxesStacked', $name, $tech, $desc)
+!endprocedure

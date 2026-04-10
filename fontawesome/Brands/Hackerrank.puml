@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Hackerrank
+
+sprite $HackerrankXs [10x10/16z] POZ50S0m3CHKvch_QSDvnJuctqyzym6xdZLcyL1heYSOjgycp3a7kDGP8W
+
+sprite $HackerrankSm [12x12/16z] POo30S1G34GljM__QOFgwyN4pOKFEa-rys6wco9tSKG-BunmksNDSg3f5_idxx3UJpi-uCPxx3qQ
+
+sprite $HackerrankMd [16x16/16z] NOx50G0n3CDyMAxtdxRCUYaSL6wFXPkP4R9XIYIJoPQv0PD3z4Hh1cckBF-8TJ4rObFCj3YpngGzOhFENpt-yBBoeYswE70eYF5jHvVHJ0G
+
+sprite $HackerrankLg [20x20/16z] {
+VO-50S0W30I_kBF_jBZK3pyimKG4t12n4EZ9i3XPoiUDtjUKEXybxIN0dQGUO-bazmVi6ElX_W0vkGWzdFjnbRkpraB_l6SUxXZ_UxyTS9nI9NNmA8GfVSiS
+3HeN7Wiz5C69zhr09mC
+}
+
+!procedure Hackerrank($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Hackerrank', $name, $tech, $desc)
+!endprocedure

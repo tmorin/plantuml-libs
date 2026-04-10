@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Reply
+
+sprite $ReplyXs [10x10/16z] Oq06_Fnm1Z-K0GL01YOJfWv1SF73ZEA3i_WP
+
+sprite $ReplySm [12x12/16z] NOkr0O0m50KFQwBxJmj4lrpr54VD8ciHMMkCyUnoGQe2MfF7jsjortHDEaKFb7pW0m
+
+sprite $ReplyMd [16x16/16z] ROw54S0m3CJUPTR-qvOfVz6Hp5QEcIISm48iP1h7SIYksH-XaGILfAYo-4gK4SLmnQgVUt5BVSTQRgd9FYeB1qBE1W
+
+sprite $ReplyLg [20x20/16z] TSY54S0m0CD0bxdQVzeo9ewETAza6NDCO0X366BOw_E7lfKnGIFYCeEZ3Eh6Rgj_JCz8uxElVVQr_bs6Qnhe53H3I0LaeVN8jm8
+
+!procedure Reply($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Reply', $name, $tech, $desc)
+!endprocedure

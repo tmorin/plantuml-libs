@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Google
+
+sprite $GoogleXs [10x10/16z] LSQt4SD00C0msigH-s-hO_ceG2R8tm0_FJcQad4h7Aee6OPwMQhb0m
+
+sprite $GoogleSm [12x12/16z] 9Oo50S0W40EBE-o_RIE7l2QVI7XYFpAPChbuIETx0I6whI0qJ8Ku7uyuBsDCvUCZ2tcqzP3TUcPn6fZH-GS
+
+sprite $GoogleMd [16x16/16z] NSw54S0m3CNGNsPh_sd3T7s7Sb35ecuYAtbJxJ4lWdiDqqyHS2ewQrugIcjKZbsMXNvJauMsNpF-ImzOQODL8WvAqdvlH9Fge6HsGFsr1m
+
+sprite $GoogleLg [20x20/16z] {
+RP053W0X30JttDd___RIK4sOA4CTnhHCA9pid6vc1ges9gvUYC8DuF9aCIywgWwI7ohD2mSSEYryKVd4xTKrSSyWZhNKWuVawcgZlAOIg8-F7hdGgcktf-NB
+C0FbSVCXE3yHUfOV
+}
+
+!procedure Google($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Google', $name, $tech, $desc)
+!endprocedure

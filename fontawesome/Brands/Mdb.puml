@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Mdb
+
+sprite $MdbXs [11x10/16z] Oo08M44GIBCnCF2383SG0n4BY0DYCZBpym8f42Pe5W
+
+sprite $MdbSm [13x12/16z] dSV50S0m0810wbxsdxQQl2FS2sgIJhH1EqJvZ3iUSRJPLLp5ncxQUMomxmrvtG
+
+sprite $MdbMd [17x16/16z] jOM50SD008I8lX_xJrkReJa17ic4RS8S6unPmK44zIIweIY84WKzVg9AL8mHn93Wxk4fg11TxB-oRy2syvUy0G
+
+sprite $MdbLg [22x20/16z] pOs30G0n54DpHl7sdxR62lrceXNakd8uMY7TTwe5qedB1MmrvNZ9bSARsfiIdQXJUUOjPv_-R6NgnPjJdTOhUJOESAu-LLABFv3XC7NwgIIh5IG2
+
+!procedure Mdb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Mdb', $name, $tech, $desc)
+!endprocedure

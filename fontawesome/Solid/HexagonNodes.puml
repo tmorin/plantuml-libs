@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HexagonNodes
+
+sprite $HexagonNodesXs [8x10/16z] Om02VWOmuEPd198yO3uFFp-8vWSXVWWDb6U32l7ny_E2vO4acdu
+
+sprite $HexagonNodesSm [10x12/16z] FOs50S1030AfExV_jdsBUq1Lq11uHtKpbxX1sy83IwakA94IcTmtbafr8So9yqDSKHKnHtBS9Vu
+
+sprite $HexagonNodesMd [14x16/16z] HOs50O0m4CI2Ezb_MgWtrRSx4ejq1kqXOuk60RYSufT5JvW5pAGejyVmd6KtHg-SwJCYCMAA4JaQSlkBpEcTPT5CTq0dSdGh2RsfPCrEZNu
+
+sprite $HexagonNodesLg [17x20/16z] {
+VOu55WGX3CKoRXro_zlkewnRqFhdIjbvGGsUw5L_POpHf-UiztemgVtDSTYORuuqL2CTWnNsz1rAN--EKQWk2nr5qd7JSNDqWPKj7LOwZDRp29iG0pRLKvre
+3bHHkJb63HgxTZpHgVvrSEf4SW4
+}
+
+!procedure HexagonNodes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HexagonNodes', $name, $tech, $desc)
+!endprocedure

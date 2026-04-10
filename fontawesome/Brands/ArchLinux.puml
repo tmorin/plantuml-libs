@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/ArchLinux
+
+sprite $ArchLinuxXs [11x10/16z] Oq03t4nm9Zy_4XF1Wh6PGKoO83SVXCqAeY1CVWWJQ1uNFpD8W8sV4G
+
+sprite $ArchLinuxSm [13x12/16z] PSU50O1040F1uCxsNosywsb6VJrp0SXvBd5HY0AGDS2Ru4BG3AV5PO7xm2OjJ7Areny
+
+sprite $ArchLinuxMd [17x16/16z] TSu50i0W243HTM___gTTsGAspu36AiTO0PJxiGOefPqhkDXXhrv0Ti71Mbs0CWIm9NZ73KWNtBp_Lze4B6xcSDbTJXoxSj8y
+
+sprite $ArchLinuxLg [22x20/16z] {
+ROo55S0W4CNgEDb_spvSFnvoTxJeOvEJ7JLS6mf-XHBOgU0MwjZ8NXl0ZF06LjbdgXTraSaPEZ-4z-b7EJnjBh45liLHlKnvd81nuPODwlzLrDBkyW0YN3Lm
+7oKVS0RLXhtbzHm_
+}
+
+!procedure ArchLinux($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/ArchLinux', $name, $tech, $desc)
+!endprocedure

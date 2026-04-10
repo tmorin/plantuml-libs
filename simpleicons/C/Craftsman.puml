@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/C/Craftsman
+
+sprite $CraftsmanXs [10x10/16z] Oo0Iy26nkFdP6DYu-VZvU600lru
+
+sprite $CraftsmanSm [12x12/16z] Ow00y26pEVWvcHaO67bvMLZvA30J
+
+sprite $CraftsmanMd [16x16/16z] lS770O1030CmNqbFlF-ul1a097pCxOrxspbksym46qmmWXV9caqG_te
+
+sprite $CraftsmanLg [20x20/16z] pKZ50GCn35F83Fjls_nx0yGMu_6hhsseEWTJJ3-aQfQe2NDj9KEGUvOt2ckkEGVcM5VcRQZuFpnqFm
+
+!procedure Craftsman($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Craftsman', $name, $tech, $desc)
+!endprocedure

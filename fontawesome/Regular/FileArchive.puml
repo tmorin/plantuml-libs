@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/FileArchive
+
+sprite $FileArchiveXs [7x10/16z] 5OK50G0n08HucGlzqqvE03N012o8HCC1HYL0A6A7J-BWgi4LLstK4pS
+
+sprite $FileArchiveSm [9x12/16z] LSQr0GD05CKm1u-VzvyszAke4biTm4vhsu1jxHQ33LemjeYgZHzjyLvnjigG2lpdgUKD
+
+sprite $FileArchiveMd [12x16/16z] VSO50eH03C30tE6Q__-MuavssmwvOt-YaMDbM8biBKUFtrzjCU87_gajmqsBjgrH04QCNXkjFflTbR_DOv_6lG4
+
+sprite $FileArchiveLg [15x20/16z] {
+XS-50SGW04FHu4xst_OQEBV-wgi2xAGQM5dUSkAasGUk4n8exc3KVR6G1n5qNtSjHDcACQ2pnLZ9_N02Rm71wuyXXBveB7PLzDezMDyuyKp7zaoaWIS-EcFZ
+hFVMr9ug5m
+}
+
+!procedure FileArchive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/FileArchive', $name, $tech, $desc)
+!endprocedure

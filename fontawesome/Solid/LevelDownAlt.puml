@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/LevelDownAlt
+
+sprite $LevelDownAltXs [7x10/16z] O-3dOm02VY00KjnW6WHmK_nW0A5XWW
+
+sprite $LevelDownAltSm [9x12/16z] O-3dvs000NuG03FWB2Oc40CCUFZvcV0p-260Xu4HRW0ZX0Qnm3G
+
+sprite $LevelDownAltMd [12x16/16z] dSY74O0m5CDGqplQVrlEfmruQSeFi4TGcwsb_QBKE8wsRc3yrNUJvxuSAWdeZ1-pC0LNdmy
+
+sprite $LevelDownAltLg [15x20/16z] jSVN0O0W54MnO--w_xJIuRu1o5_ul9tYIqxRxx7zrjYhdcWOnqaQtA5ZvmwVWD6MNQS7FUX1Fn0u
+
+!procedure LevelDownAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/LevelDownAlt', $name, $tech, $desc)
+!endprocedure

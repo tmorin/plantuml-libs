@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CloudArrowUp
+
+sprite $CloudArrowUpXs [11x10/16z] LOh50G0X0CDwhf3zfyKrhqeqyS2TqqhW8qOAEQOd9sa3VWARoNwBeY6rv04
+
+sprite $CloudArrowUpSm [13x12/16z] NSg30G0n30NGVqQq_xIrNn5YHMPRpIqwMf5T8J-iAeFvJ_7zOa6WDqRDsvH3-ibgqIYmYsOxF
+
+sprite $CloudArrowUpMd [17x16/16z] RSk50G0X30F0lE9q_sbnXyDfYZDk60OlHUWekrM9QUg6G4cr3tpfUDeRuENihN98mk1zVeeiPNWfq-i7oibQrDB40dP-Rpm
+
+sprite $CloudArrowUpLg [22x20/16z] {
+VP254KGX30K_xhp-gprD1cT7MUBF5QdauWA--54c_8b3DfW4LBOL0sGnadfRFTb_ZKA9NBzqaTIMAWmjrF_HienwCiV434PHWu71fgrjAnJLyhR5qd25VZa_
+oVWSU0C
+}
+
+!procedure CloudArrowUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CloudArrowUp', $name, $tech, $desc)
+!endprocedure

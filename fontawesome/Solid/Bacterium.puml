@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Bacterium
+
+sprite $BacteriumXs [11x10/16z] Ou00FWOeu63Xv-U7i1ZuOKn680F2vaTcCM0HP0DYHf0UY2G4SCF4
+
+sprite $BacteriumSm [13x12/16z] JOo50G0X30F3k__-qqAzFQIQm9WEE1l-__sz-eadKwBn-cp5KmQUyhTozL6ovm0NzPjPlJmglZ3kDT81
+
+sprite $BacteriumMd [17x16/16z] HKu55iKW31lkvFwd_R9ACe7OQny2GKuA9quo2A8BGGIZ1uh6XcB-sO93wlJldsVfNW1L4c9nnW1w_zD1_w7F7IRI8uZWG2Qsx4YDzoy
+
+sprite $BacteriumLg [22x20/16z] {
+RP052WKW44JNJfpxd_Q7EOAFakUsNBGc3m0jMh69iEXSyHeJIv56C2bSSTFqjWh4q1QUN3Ko03EKyztMswAJvYF0KQCoh9MvMdbKZG0GvsRQP8hqioWTPWyG
+aUYeT1MEdTosTAMc9U25-G8
+}
+
+!procedure Bacterium($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Bacterium', $name, $tech, $desc)
+!endprocedure

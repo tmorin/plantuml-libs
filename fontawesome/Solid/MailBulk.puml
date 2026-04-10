@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/MailBulk
+
+sprite $MailBulkXs [11x10/16z] HOp50K0n2CLogSlRVzel5GYke4M0csgbauky7mX1iXP_EbUQsbfOhjqloh6KeaNcumK
+
+sprite $MailBulkSm [13x12/16z] DSY75O103CDGqJlUVrjUOlElAd38A8hDyH8Ld5SxEnJOLhz_ob4HJ_yOwnup7jWtXWSPl7eeZzfD-G
+
+sprite $MailBulkMd [17x16/16z] HS-54GH124JHl-vq_j6UGFNoIcTmG7QJ7hrs_g8_3dzSjFnWk6p_Vpoe_JzEr0zUsMeNeGBrySYG8jGP8yvSlAFA0kSDav0DtkulloCxKpQblkSB
+
+sprite $MailBulkLg [22x20/16z] {
+RT054iCm30NHTGrX__kVjYYDb9c-y8ODF9HqZ6xAtzfotQeXwYH4XNearQjkh5Qvw_hLtZlblThiAYIoookxt0fU8qgLKsUjXpGL5WxzKBoV41MQZqfKxS1G
+1SwL8p_EBbiPsnVsyc6VPXHIhGe5zm8
+}
+
+!procedure MailBulk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MailBulk', $name, $tech, $desc)
+!endprocedure

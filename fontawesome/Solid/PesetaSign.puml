@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/PesetaSign
+
+sprite $PesetaSignXs [8x10/16z] Ou03VY00qK220yG0OsQWC1X0-L1rF50s0mOD
+
+sprite $PesetaSignSm [10x12/16z] NOk50O103CHmX-o_BQ-rrEK6mqUYTF0yiENkJUbAspI_YJIFl7E2kLsBXaBN7gcsQ-ZsLdy
+
+sprite $PesetaSignMd [14x16/16z] XOw30G0n54FFgBB_jBNvokziDKHewEujU89r7CSPJFy8FFg-WDFmw7UZo4YPDtYeonyzJwVnVDwVpGjIGi7Qob4
+
+sprite $PesetaSignLg [17x20/16z] fOw30S1040GtTgR_QcFpCS_pwebe8jHApK9vTL1lZkbjeJmvrC3PeUaJSKRYpB4aklQ0TdL40oKGNeGbEZbAIUSU7ew4N1_q
+
+!procedure PesetaSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PesetaSign', $name, $tech, $desc)
+!endprocedure

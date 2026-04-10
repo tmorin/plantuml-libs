@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CodeMerge
+
+sprite $CodeMergeXs [8x10/16z] BOU50S0m40AfUs__QVEAesTIuFh9FgaMSpSL97wX_ey2xqtsGhK1
+
+sprite $CodeMergeSm [10x12/16z] HOo50S0m20I_xhtzfuq3KLwrV-fh1Vhq__EO1CUOBkHJZVnGfhPK9st7KUVXUsV1g2v_zFrzo
+
+sprite $CodeMergeMd [14x16/16z] TKw30G113CkPRVQVzcqSgm3GYdDnMaUYH3opnYYyJVOR4BVCBR_fUHrD9pdtXR9aa2NBkcG7kS0SdER3MJwpolphR0G
+
+sprite $CodeMergeLg [17x20/16z] {
+PS-rOSHG00N19sPD_zNQnu8_uMQRpFgSmPh3n4Hr1FhiwYEC82Sxffonv095cFEou1riJLtN7KWS-hp3E7gRAXBVbngNa84jgTYBMpcijbnkTsESRvlYTaQT
+mpy
+}
+
+!procedure CodeMerge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CodeMerge', $name, $tech, $desc)
+!endprocedure

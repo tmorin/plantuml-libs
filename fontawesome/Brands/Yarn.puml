@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Yarn
+
+sprite $YarnXs [10x10/16z] FOi50e0m4CDmX_p_jv2oBPEJjfsCNPYHhraiQP7D5Xc04IQus-v-JZjP4hc76HlJQLu
+
+sprite $YarnSm [12x12/16z] 9OW94WGn28HwSj_y_xUxNPAe59B9NkPXXjLoW1irau7aN0Zi7onxniHHjCUrHrlxeK5zC0T8kWHDVvBDzGS
+
+sprite $YarnMd [16x16/16z] {
+HOq55W1124ATRhd_RVV1rfyGsqo4P3yHmX_tuANGtP9PqVWKUq9P56Ryps2EQiXlQWO9h-yGYT-I42QNrCT_KvPx0ynVVtiwY5nOV08dR-st0lYPsq6NHBpO
+mv0NAIy
+}
+
+sprite $YarnLg [20x20/16z] {
+LO-75SCm20LHxsB_RVFuG6nVudQYaXCIVPaCxkCBFvWQ_2QAgXwHdqW6FVFKr-Fb2Pv1iB0bD-i-p3MKjuc2LaESpvHmpyWvvf2xxVtjRCHpRbhCcouAW1kN
+n1HANWu9HHUHXcT8M2lmfFAS68kEl4c8x40PFXWIdJ2kn1G2Fm
+}
+
+!procedure Yarn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Yarn', $name, $tech, $desc)
+!endprocedure

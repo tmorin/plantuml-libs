@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Subscript
+
+sprite $SubscriptXs [11x10/16z] Oy01-Fb16CfcPkD7Y3CYc30MEpy_EvJF3qPy88gNWO6Ndu6P7ybC
+
+sprite $SubscriptSm [13x12/16z] VS750G80540XxFvl_sdjk0d-A6mAB1ewUsjTFgRybAzgZGxOvnBhXbCdQgMXe8l6rxPk
+
+sprite $SubscriptMd [17x16/16z] ZOx50SKm5CDSvcZ_QJyuVAk2ZwqNZFVXzxgJuu59qWfdJW59C2fpyWXMLU04DGo0Ek3fx0qO_4j-6C3pi1ysNIwoOxe8_b_Ioc2bQT9fHqUWdpO1Nm
+
+sprite $SubscriptLg [22x20/16z] {
+hP350S0W301nXzj_shh3in3tHFpn0BK91dXQUGh7qv0Nra0_Q-HLTv2xqWBQe2F8hpK2OJXURspSPTLPoKC1_yc2Akgk1U1Pz53Rpc81kt07nM-R7f5rvMiD
+BckkvIXVQrelDvZHmi3i06O
+}
+
+!procedure Subscript($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Subscript', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/MoneyBillWave
+
+sprite $MoneyBillWaveXs [10x10/16z] Oq03_4Y00OAvONo8D2QB2qZp0J64v8B9yFBpiu3D1
+
+sprite $MoneyBillWaveSm [12x12/16z] POk50OD05CNIucVPVrhSoNTvV6dLhZ7qoPdYHKP5VuHh1Uvqjzwr3_lJJ_jTkvEsCi0lG1ygDYO
+
+sprite $MoneyBillWaveMd [16x16/16z] XSs50G0n20F0r9tiF-sxwzK5mBkG8rQMYyPTS3nf65yrI4PLkT2HL02EaHZzd1LtUNwUSeGfqPW-gwtUaInBYeLS7YjUz
+
+sprite $MoneyBillWaveLg [20x20/16z] {
+XSw54GCn30NHbOz9l_zkC-RmlK6ZbbiX15wSoZQEBPZPTEYdmAXt5wO8N9ANrxkYT6J0eSRJh4WlZEXrECdsrX1TRmrH76jg3h2uLVjSHSy4VThrQkbZ9X8p
+XXJW8_yz
+}
+
+!procedure MoneyBillWave($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MoneyBillWave', $name, $tech, $desc)
+!endprocedure

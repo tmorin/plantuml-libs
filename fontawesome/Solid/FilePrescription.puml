@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FilePrescription
+
+sprite $FilePrescriptionXs [7x10/16z] FSN50SD00CH0VNqq_LSRZXUaiEk0Rb2iWZc-AZ6t5ZGpWIS
+
+sprite $FilePrescriptionSm [9x12/16z] HOg30S1054DJks__QOlxLgGJGB8FahqsnU6O9WjwpdnJBbUa6pZPAjNjp7Yz
+
+sprite $FilePrescriptionMd [12x16/16z] HSq54i1034BHN_To_zDM6SBOOoLXr9iTUEW0rYd5F2L-I_oL3GOvBT34WXYMUCDNZtLuZ7TIqy-KqxUgt
+
+sprite $FilePrescriptionLg [15x20/16z] {
+NSm53WDH30DHTvdd_hTjFaHrTuGlaQpXeRQhD93TXG-_WlJc0swZJi2eyaykaavAprsEJvI36dr_a6uZgtPZn9kBaamnfkH0E4KP7MJZHOlDRGEi7-3aBpsk
+_Gi
+}
+
+!procedure FilePrescription($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FilePrescription', $name, $tech, $desc)
+!endprocedure

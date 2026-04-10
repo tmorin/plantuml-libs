@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Dice
+
+sprite $DiceXs [10x10/16z] 9Ok50S1048EeUzb_shTmBe5l8_nsUkUE_lPE_I_JeUUTkiceokXWSgW8fdDG0G
+
+sprite $DiceSm [12x12/16z] FOh50G0X0CDwYfFzfyKXdwhqPXte-64ZoW2pJd2BQrvaPd_pOH8WODm_WbQqGXQaEx8k6bowjqz_Odic5G
+
+sprite $DiceMd [16x16/16z] {
+HSU5aGGm08LGOcSH-k_svg-5CHxmTohSDCrhwp7zafgJeKub7TrgPLbYrLsqAsyNZdhuNUNBNpJCfCRHERJ4NHCeJMKSDMrs3DGP5unV5PZNFuMolLwcw-Ax
+Vm
+}
+
+sprite $DiceLg [20x20/16z] {
+NOw50S0W3C3AN9l_hyKz4o3KnFFhBXD4dgLJIkKgBcwprEgEv5O54zKE_7XylU8-0Y-etD1r_VBgdP6spuqVk6weuzIhuiwzkhE5_BoonArM1wiykT7rJ-Ka
+ObuyHt6LRh0U1cT0AVGXixket0u
+}
+
+!procedure Dice($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Dice', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/I/Insta360
+
+sprite $Insta360Xs [10x10/16z] HKc50S0m3A9pv_zlHnjFK6ZQowtpJHk9MVQLuW9sOkjmGtXqfUcwLByaT65T5py
+
+sprite $Insta360Sm [12x12/16z] BSUr0GGn0C0mXpdUVzh7KoU-yd72buy3ke6h7OqiEyE16pyNJJBzFbIxNBzICXYQNonHL1UAJa823QZEl7H0zo_06m
+
+sprite $Insta360Md [16x16/16z] {
+BSZ7OHmn0C10NBuDvFHVhIs9Ep-WvJECRvStbr4rCGTm5DvLdQWFz-x3KHl5kmCycqPqnopTUPaDAFVucatB8nwqMsuHPUbDZEumYqzFzhe_ReNwmADwOyrb
+PRrSFbN_0G
+}
+
+sprite $Insta360Lg [20x20/16z] {
+FT254KGX303H1SxGxR_QisJ-6qMYfDAtpWUNihoCmiyqf2UmrFEgfGx_ybSZxBWhQeL-N0sw2ajluD-6_myzULKu2tGMVV5IdT04zQ6LxGzi6qjVMZcckBjh
+Onho7PrKJQ27R2WKdjgpovbNyGLr0BKL87eYV_oyhXM4lOxg0UY6C0YtPJYTlmy
+}
+
+!procedure Insta360($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/I/Insta360', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/SignalMessenger
+
+sprite $SignalMessengerXs [10x10/16z] DSd70S1020F1TSw-_gibCn-GX1k4XtUSdFQimyMK3fiIewsStT7jtnziJ0ShrYW
+
+sprite $SignalMessengerSm [12x12/16z] HSP50G1140InMkPf_sgF8QzmokBHyHdl05hJoGlwsPERe5VB_ZlA_-4__lkYliN3MoCGLO7bOGS
+
+sprite $SignalMessengerMd [16x16/16z] LSV50S0m34Mnvt0A_ljFMqRTn6bICRZZ1cI5iw9g5sm-gyiOHfZGemV3gru8qqVl4_eg-Z-L_uEbRxEZy3apAcy34FrjouJOWBujGGPSDFMIWiy0Am
+
+sprite $SignalMessengerLg [20x20/16z] {
+NSZ7OSH03CLGaCfY-FrNw-pT6JtSmBzICDgKkDdQnRzOi9Hq0YS_jBd-tEG54DkgDmhO5jU80A79SPoaQOOWDODoFNZ8zB16c1xiOZqrOwVHfFX98sidqUZ4
+0EOb83VbTkX76NBOJh0-m5U3DW2an4uHSUtb07m2
+}
+
+!procedure SignalMessenger($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/SignalMessenger', $name, $tech, $desc)
+!endprocedure

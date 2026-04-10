@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/FortAwesome
+
+sprite $FortAwesomeXs [10x10/16z] Om01FWOOuEU7iRWP8G90n0aaWHGOm5Xi81QGW02m42k41PBWWhCuWIG
+
+sprite $FortAwesomeSm [12x12/16z] RSO50i0W3C30p7tv_sld2WJQ7aSpRredFN1MDPPMmtJOJEV6qsokTc_x3F7jCDGV4te5
+
+sprite $FortAwesomeMd [16x16/16z] ZSg54S0m0CD0bTdUVzeoiu9_2NFYc9hYODi7AoaFhbXpc5GOKsMJrnQdKG_khUM_UeUzSgzLXPVNUZvd0tlNlzq1
+
+sprite $FortAwesomeLg [20x20/16z] bSo50S0W00F1u4xsdxRktgzo29OgpbKbvT7OzSKI1CwsZHA48WAHE5l9p7MukTZQrWQtU30b-Z_LMpAzAGdQmtaCuAdLagb7Cm2EXgvuOU6djG
+
+!procedure FortAwesome($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/FortAwesome', $name, $tech, $desc)
+!endprocedure

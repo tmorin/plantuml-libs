@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Make
+
+sprite $MakeXs [10x10/16z] RSQ53O0m04JHIudWR_zfiKgCqvz_4KWAMoLs5b98prwla4evjqoLXcu
+
+sprite $MakeSm [12x12/16z] VOU30S1000ElTc__QMlZun101pOeq6kYqR9TW2wJ--vOQldPlfFrrmhTkg42eWRAaWj6
+
+sprite $MakeMd [16x16/16z] dKl50S102EFg5hB_jEVsgk54v4SOGeJav3lywlVeswG_B4Muqw_vBB-V2EDCFyiSwm-Pofdfi_-lpdJ48wD9wWzPmIdz3-4
+
+sprite $MakeLg [20x20/16z] {
+fKv55aGX3Cit77h_qoALD-p6ieWXBVv6FYQLU09fWgkJY02QU1PnrvQx5XtSwJLAcQDrfCdOhXLEqRecojynssyYWB98t3hz3NLArKv_qn4i-fi6aMGBgOeq
+ojDVU_V2SIwQm8SO
+}
+
+!procedure Make($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Make', $name, $tech, $desc)
+!endprocedure

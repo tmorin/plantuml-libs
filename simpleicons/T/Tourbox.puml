@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Tourbox
+
+sprite $TourboxXs [10x10/16z] RSQr0O1000ImuCxjloqL_gcY8FToJMZPoRR4afqXaS30H9DG-Je
+
+sprite $TourboxSm [12x12/16z] ZSR50OH04031NjVPoJ_QE-23IxsA3tJxQ9fK3osAOe3f4a2JLaLQcWu9IYMnY0C4xL3iQCxBuDOV
+
+sprite $TourboxMd [16x16/16z] bSUt0OD000GmaU7JxJ-jKsSwrCb3v-svFp4jimcpUGbbPgpeWz1GVW-IBML4hdu4kdzzMPgnpCS-Q7GuK2KJOvkhB4lP1gU7tW
+
+sprite $TourboxLg [20x20/16z] {
+hOu5WaGX34E3VAEI-zzs2plkzj1wy6EONlIHTkNBmEOYljRumPAtnXH-1FxlyxXOhdqWrIZ21ih6PVYmPEn9VGzV8fdWGu64O-s-tcSjSKzvighRpkTRltD9
+RApnqP8toLRAwkWZTBJE6C_XVC4V
+}
+
+!procedure Tourbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Tourbox', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HeartPulse
+
+sprite $HeartPulseXs [10x10/16z] DSc50S0W3031kfVVVzfu3k9J22US4p1vOa3uVzmH-pYxP_6yGgy8iHtHX0tF2W
+
+sprite $HeartPulseSm [12x12/16z] LSk50G814CJ0uCxqNotwcdFPLk2NxmK25sjwUC2MQnbbtRlsOujJKDsmmVRt0lRzk67NmFRnAsy
+
+sprite $HeartPulseMd [16x16/16z] PSs54G0X34JHVuvl_ztUB3B6moK9kr03biiDtBAR8WCDduOexKwqv17L597XM41m-8oTaSJBqDgubbghGA_q8iEATzNJnRmORgQi-RgyCtRt0m
+
+sprite $HeartPulseLg [20x20/16z] {
+VS_50GCX503HWNLZ-kysmS9fyt3dyo9EaMgQ0jbcjW4Mm6wrawm2TidcENppy3WaCq0DgqLf7k3s00kkhuc5AB3aqK4bd4IwQPfMFG3JDjL89Wk85cIdsK8o
+2nGwH9hRRkOdZLt3CQQ6MUMF3m
+}
+
+!procedure HeartPulse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HeartPulse', $name, $tech, $desc)
+!endprocedure

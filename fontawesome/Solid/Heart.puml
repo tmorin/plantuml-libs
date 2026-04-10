@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Heart
+
+sprite $HeartXs [10x10/16z] LOgr0S1008I8Ts7_QT-LvfJ9fnyggFvklCCntTaDrFj9inU5Mu08
+
+sprite $HeartSm [12x12/16z] Oq01_FpyO987I800XEJanmwOaDWCo6oe1CGqBfXga0KyO2OBa0MLOOPPpSGBfW
+
+sprite $HeartMd [16x16/16z] VOo30K0X500lk_QVzjlediaRN_mIKzQ0RZEQl4HeAswBeVM9Zvf-RU4-1dCl8HsbOY5lfMOZNQTiFmHVZ
+
+sprite $HeartLg [20x20/16z] ZSl50SC00810shYo_xHnzti3D_x1dr4G_EWbzX90Uq3gAALszCDPxQJA_ARoBFOCJqfoZtvmpk3l7htiUFPgLtycfREGoLe6iChMSHMgF6W1
+
+!procedure Heart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Heart', $name, $tech, $desc)
+!endprocedure

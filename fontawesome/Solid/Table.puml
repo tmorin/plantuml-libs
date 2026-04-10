@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Table
+
+sprite $TableXs [8x10/16z] Ou01VZJ0oyd93qJyN40fJ5c4E0yR6pyGmLG
+
+sprite $TableSm [10x12/16z] Oq00Vlm0g0A44IoYrV4WvBZv880T
+
+sprite $TableMd [14x16/16z] ZOo54S1G24CXrvnX-szRT_iFLpd3t0XXjKDLpUe67qE5uLMM3julrJS4C7mP_D-NS1-2JrvEF-H43m
+
+sprite $TableLg [17x20/16z] dSq30i1034JHgTr__zFMnkgjaKHloLKiSTUrXAWcpRhKIvgb56ZcS14Wh4gVJqgObm8A7jHna-bf1
+
+!procedure Table($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Table', $name, $tech, $desc)
+!endprocedure

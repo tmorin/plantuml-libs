@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Bolt
+
+sprite $BoltXs [8x10/16z] Om01JdumnS_F3A7ueHG_Wk83Kb0c3v3Y1Cd0rJCWA
+
+sprite $BoltSm [10x12/16z] FOo50S0W40FhNcx_QU7TBSdaHlIDc1veDlp42RKQxdcU6sbrFdDQTNX9kHgc60O
+
+sprite $BoltMd [14x16/16z] LSx50S1G20FGrBtPVzhlsBlXG90JNC0G_1XM5lC8RbOZ-5fmZf4k1FoBxwU7gPX7SA1wUh3uMNGB_Ij_2Lw8FZzSzcC6
+
+sprite $BoltLg [17x20/16z] NS-54S0W343Hr9s__xOzDF9E8IuABZ4cu33l6S2y3p9ztsJBUB_u1AfRsrUJlct5YfSIWPnNDjwNsJFRfFh0hqROx2HBCkZRx7PAfhVjOW3pUFm
+
+!procedure Bolt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Bolt', $name, $tech, $desc)
+!endprocedure

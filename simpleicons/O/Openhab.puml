@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/O/Openhab
+
+sprite $OpenhabXs [10x10/16z] DSY52SLG5C3GywL-8VjlM-nX4RZQGQ6BWDc4TINEhBiBD0B4BF7lDF42
+
+sprite $OpenhabSm [12x12/16z] DOY74S102CEKNh7ttpO1xdt5aiWzFkbP2xjTs6KrZHEm1m8kf_XP4acH2qc9SquiKTSsD30EyDvOCQoG__e1
+
+sprite $OpenhabMd [16x16/16z] JOy50WGX009rEvd_l_O2DiHYi8irdkort3f04in1LBE8qtYORdlADake1Rirmyv8y0euPRnNW89NmAu_MejFIvv0bU0jgOmD3dZRYsE-i_g5-gCTbX_-1G
+
+sprite $OpenhabLg [20x20/16z] {
+NT05biCm40JHDfEaklzfTvFCjAaU-NsBbMsDCklMH5Ox4p34ODXCernX3p84JjBaKRbKvHgs4TYnwbe-4JQI3YMkD4nAx06PZ1HCne6v91dbKLU8-Y9ffbVt
+8D-1eZTfkvvjXZw-Hc3jDHP0Sci-Smpw1m
+}
+
+!procedure Openhab($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/O/Openhab', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/Sun
+
+sprite $SunXs [11x10/16z] 9Ke50S1046Bket_RHqunkFYX_zW_ugRXHfqv42lrbVa9cdCJmesogQfU1MsWG0yE0xy1
+
+sprite $SunSm [13x12/16z] DKs55SGm5A9jtDX_s-EJT_6Wy23lZGfCyaLwZ98-1mIBUeKocC9BXkteQiA_ZqrlOtN6dLdcZaV0IFOiyzWfpaUkVy-dOy8ZaRv_
+
+sprite $SunMd [17x16/16z] {
+LSwrWKC15C0mXVFfUVzfZr6bA_jI_cdQV3bNH-uT5MWvMgXzli8LvnDcGBjx5JrXwT16gGlri0QTJCUqi0UTAKjvX5DETURKgDkpGmDQcThukktion6e6gg-
+mjmlNVOyYozJ5-0L
+}
+
+sprite $SunLg [22x20/16z] {
+PSt7TGKX40NHWl5yeFBFLgVVLdSiRIcXYt-sUX4nt0-t2wKF9Nu6t4QZN9xNyWHqT2MwNpuzHKhavxG0BkBKUiQxbEwcRBtHbhrl7I-QIJefzN_ht9hZeAJY
+LOQ-EHONR3sWgQmKQs-w20LZqFn1kB8_dIXn-403GedXrgmpYAcwFPakrKuyfEvCMQzJYLUbb3y
+}
+
+!procedure Sun($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Sun', $name, $tech, $desc)
+!endprocedure

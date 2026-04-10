@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/BlenderPhone
+
+sprite $BlenderPhoneXs [11x10/16z] NOg54S0m30E_pFN-sqQNFunH14LP-PCeNnNuAzl5-msyLCarJE2ESAXIHVW4DW
+
+sprite $BlenderPhoneSm [13x12/16z] LOg55S0W34H_tSl-qoAn1z4p-3QI5RPENYN0bIQKFCycYgKw1r5VStvHUOKimBinr2CbeaJdka6-HWe
+
+sprite $BlenderPhoneMd [17x16/16z] PSYr0S104C0mX_cy_xHXVfM2ofBmqbEh-40DmakW5ankHbQT0gExOHY8FHelJ7kKxbZL2kHkWetQWYV05U_W7IERd5Gvd3Yv6boLhw1_noLd0G
+
+sprite $BlenderPhoneLg [22x20/16z] {
+XSp50OHG54FHYplflzi9V1q_kpm9i6e4rVgGH_I4HTOyJxSG8Gywev5rPShD1HjMlerJch1JnOhJYErfT1p7dMPiUUhjfRC59WLBspQ0x816MPyAdwOGumZF
+KmOt0rtIyi-yPMIjYeEakpE3x7oTRizJLApm
+}
+
+!procedure BlenderPhone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BlenderPhone', $name, $tech, $desc)
+!endprocedure

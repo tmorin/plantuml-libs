@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/PinterestSquare
+
+sprite $PinterestSquareXs [8x10/16z] Ou01VZXWOc05KK0HJf0e6nCxYCtBoy07elb1Ii6gOPh094m_
+
+sprite $PinterestSquareSm [10x12/16z] LOo30G0n5CLIks__QS_CDtdHZwuJCEU8ihkmE-7LEREfmPb966rCGZoV9LFp-Ohp7MsQkPDM
+
+sprite $PinterestSquareMd [14x16/16z] POs55S0W30KFfvRilsrV1Jyadiz8aCf5q8NJMN-L031WI_3y2V-O2r5Jan4rJzuZNyJZ-BScYATsgZiVvyGt2J1_S25xKyyKxt62gz703G
+
+sprite $PinterestSquareLg [17x20/16z] {
+RSt50S0m40F1DOVLVxLXCiplKDJSdmNbvabD2M3KOmAC0NI3yz0y7SkavJSGQ3o7wLx1tDjpsHYV1afuIOwamuWCqpMv3EBOC0GzE5azHk8IqwoNHwzqvxmu
+5cslHw2q0G
+}
+
+!procedure PinterestSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/PinterestSquare', $name, $tech, $desc)
+!endprocedure

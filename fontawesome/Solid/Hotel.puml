@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Hotel
+
+sprite $HotelXs [10x10/16z] O-270JYBbG780K4mYmq4qSGGwlXv6M0i1WOW2P65Y_5p0J4F
+
+sprite $HotelSm [12x12/16z] VOh50O0m5CM2Ezb_MgHwwzTdMEhcA7XXzlIRwv8FCzq80QTgwdgl1Qz0njVEKJCOiBLU
+
+sprite $HotelMd [16x16/16z] TOg53O100CIAExV_jeHtRQGvuLNAZZ8Uye8_ZulsyPVB87W5Bj-FtlkNoqpQ-DN-Hxfv1PwORtvYrWNd5VFlH-sid0y
+
+sprite $HotelLg [20x20/16z] XSo50GGX34JHlwx9z5_jkIm--0F2eJWTIhAHu4JHu3bMBN0n5mmQBZRFqZQRRDv-vluO9icy-ZUr82qp629xRi02uvKkiFE0_h30fB1UQlF7zltKAoSeoNu7
+
+!procedure Hotel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Hotel', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Expeditedssl
+
+sprite $ExpeditedsslXs [10x10/16z] 5SQ53OG0542ndkAy_RSblx4Q7yPVzPwS8MYlitPrDRwVugP34V6EFuM6iNyEyG
+
+sprite $ExpeditedsslSm [12x12/16z] BSE5OSH040J14X-j9lzeZT_WZyE7qjPrDbYLmyXJL6MhN3F7JY9_3osZzTvRnR7IU16kD7kGpPb6a5TxDd1kg2E_R3ViW-t5Dm
+
+sprite $ExpeditedsslMd [16x16/16z] {
+HSt50G0n3CH0XTdRVxN7eE2yp9qB_7axbOsxwQREIauNlHJFLnOzU2SDf7MU1ZObroKn9Ty8EZnFTydC8Nrpf1euBk0Q9cLkc-BbJhwCED8mh5oUb_6GpN4N
+Ym4fBjsLSOzftWuD3EwQrTpDSxG3
+}
+
+sprite $ExpeditedsslLg [20x20/16z] {
+HOvL5W0X30D3SIcv_sttXRNvg4oHuYL4Y9-ngfbr_trnD0epFggNJEuSExdDJQgKHGu8ajWgFAki2f5aS61eUWANuXm1IyzNKE24VYxHJsHMI1vCR_oRayEZ
+N0EGDmGv5rv7ZjirHt-SCzyE2swtYyJZCgBjur1kLwbe_FzDdixCmG_7Wh0TvgDgaZhuG1op0Ipu2Drz-SeuN
+}
+
+!procedure Expeditedssl($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Expeditedssl', $name, $tech, $desc)
+!endprocedure

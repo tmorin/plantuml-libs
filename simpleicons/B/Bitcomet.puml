@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/B/Bitcomet
+
+sprite $BitcometXs [10x10/16z] BOQ70S0W3CFSNI29_h-MxIbrfVngYBbfGEvWUgHJfSDvfFHfo7vmJ12y5EXaOzYJ-jW0wO493G
+
+sprite $BitcometSm [12x12/16z] HSY54GCm3C10XJdQVzjU-StcQStEM_ttGWJYyv19ep4ub1c915AjAy6kd059DqiCQDUmnH8KNS--vxC_bMThuCS5E7w-3m
+
+sprite $BitcometMd [16x16/16z] {
+DSe53aGX303HuJlIplrlkwJ9FgHAkUVeZRy5vQ5C_WPRmbtLMvjHxPCBEgqXryqtc1_lXVSCjY0RC2FUUEc8-u_lqpUhyXGlfoEfV4ekc-RbAuQNYhfCCNSq
+UIot1OXAilw7RLcgBCsIR3y
+}
+
+sprite $BitcometLg [20x20/16z] {
+NSW5iYGm30FHjcV3ZdN_qmwaifzUaTHSOyrPuLjft65SujlWIFWRPTYy8GmhK99_9s70S1A4UOVbU41th2C2er3e58oEnXwjGMEow13MCqCcYlic5m-4GjBx
+oaD8Y9pwn5p8TLieLIKjl-qX3vsbFTJFQXefRVOdAazBVPvZkeekODmPtmccVdAEeczywJgsy_42
+}
+
+!procedure Bitcomet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Bitcomet', $name, $tech, $desc)
+!endprocedure

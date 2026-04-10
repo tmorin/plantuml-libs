@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Elementor
+
+sprite $ElementorXs [10x10/16z] FOY74S0m2CG-lUVtdzPqP0CwGTdV6GQTNILPr43W9aypv--sTTDpyZm_jPEPW3L5
+
+sprite $ElementorSm [12x12/16z] JSY53G0n4CJ0VOPG_zK6ZaTa6SkRBx16AgKAsV9gDD3xgLaD_mqVuTDZDmrIC6Mz0m
+
+sprite $ElementorMd [16x16/16z] NOt50S0m24M1UeFiFstStmdv0Xdw-OKEM-4igtMuhXrNnHtCRs2DGimPPJTcbXnHzuPk-d_xjpmYklgEeeXun4dWjfaO8zDwGOJNjHHbRoG
+
+sprite $ElementorLg [20x20/16z] {
+PT350S0W04FHrF7iFsrnVyUFW-BLHfuOt2mqAWvU98uZiSwABk3Xgap3mGk1ogjhUrfpehQ1hKrSWM7azlresbeNC7bg6s1VQv0M2qajWdJY6LSj08WrHPAZ
+S_bIqg4HZf79apm
+}
+
+!procedure Elementor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Elementor', $name, $tech, $desc)
+!endprocedure

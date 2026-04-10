@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/UtensilSpoon
+
+sprite $UtensilSpoonXs [10x10/16z] Ou005dueWny880nyB5uu0qHYPt3160m
+
+sprite $UtensilSpoonSm [12x12/16z] Ou017buOYny4O4p2R7GcCvJ922GncKnOc7m81Gm
+
+sprite $UtensilSpoonMd [16x16/16z] Oq00HXv-PYGkFmZmmNWi_100bqNbSwBn-M1yDEqigFfvKRdSC9T0cJYvN4Hp6T2uV62Z4
+
+sprite $UtensilSpoonLg [20x20/16z] hSg53G0X4031mntwh_RTJl8nDZvPGDawCfOuZio7-hX2HCqFRbsmyVlPnpJVe71gujL1kQZGrG5N44s_CYV8d605
+
+!procedure UtensilSpoon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UtensilSpoon', $name, $tech, $desc)
+!endprocedure

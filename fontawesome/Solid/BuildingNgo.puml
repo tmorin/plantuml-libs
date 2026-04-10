@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/BuildingNgo
+
+sprite $BuildingNgoXs [11x10/16z] POg35S100CLIkzb_sXg7F7p2v0ad-daRvB7BOAlfeKRoLbwq62TjlQoJTkm
+
+sprite $BuildingNgoSm [13x12/16z] XOh50G0X40Dpxfd-gyNXUuFiHgI9mgqCZRMAjzoZ2jt8JLIwSBc_DJI0-TApMAkpc3uRBInLOBQR9G8
+
+sprite $BuildingNgoMd [17x16/16z] VSnL0iKW34JHMxSmi__LFgaaVnty004stvauipipdA22_O6Xj_lP1N2EWeZVK44ceUjinhSQ-WyNPBO4AYViY4QeG-s43I_kFCSHUi3k1R4t61B2F_W2
+
+sprite $BuildingNgoLg [22x20/16z] {
+dOw50GGX30GNzwJ_RZz_xZRu80k4mXCL8yHBHiihx9rr_rv1hQtzzm3Mjlaa-RxyxRUqy0yo3zECf1MJdwKLCu25zPYPBK2e0PaQKAYCLd7cel-VzDBDzl-s
+Z0YCdMKzsDJRsjlujpy
+}
+
+!procedure BuildingNgo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BuildingNgo', $name, $tech, $desc)
+!endprocedure

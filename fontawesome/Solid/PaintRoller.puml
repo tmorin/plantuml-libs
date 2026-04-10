@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/PaintRoller
+
+sprite $PaintRollerXs [10x10/16z] O-3Z1m4-1Y030ZWO-E606Kepy3D00PW5LGpcWW0xc0LJmuRE0W
+
+sprite $PaintRollerSm [12x12/16z] O-3XXm061X0Jpk772fZuuH9S3FmCS01Zyy6CWXd0WoGB4yRB1W
+
+sprite $PaintRollerMd [16x16/16z] ZSf10a0030F11G3s_wy5e1UOKvk4qWiGNmMCXWRVvACOC4Zqye_ks7aOsFJMwUfULmITIj2hoRz_1W
+
+sprite $PaintRollerLg [20x20/16z] dP050e0m24NN3V_-fxMxtTCL3K8nLbZqAEpfPNoGXKw6Cn8VI1RGnnooMuOs53t83hp9rdvMMS12dcMho3z59fo4G-LsBtEzBDR9x3pEWHO
+
+!procedure PaintRoller($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PaintRoller', $name, $tech, $desc)
+!endprocedure

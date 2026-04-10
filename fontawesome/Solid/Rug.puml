@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Rug
+
+sprite $RugXs [11x10/16z] Oy0AcFWP-440IB4Wc0m89X-gA2QJ1qaK0G
+
+sprite $RugSm [13x12/16z] Oy09-FWP-260dH78H73uo97XmYd3WoA33
+
+sprite $RugMd [17x16/16z] Oo08c7cu6NXWW8C1YFbv6VXXW0l8PE135M3aGbV1X2R0pO0cmCP7kg6CQ08y65em3IK8
+
+sprite $RugLg [22x20/16z] fOu53aGX44FxSIlS_xGhaLMS5v-sBuDZMCg5NDwevqdKheIgNA6gXbYzrWqNArUVwmPRkLv8bQjf65pDKFyiLGsQl93uHY6IME0E
+
+!procedure Rug($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Rug', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/RoadBridge
+
+sprite $RoadBridgeXs [11x10/16z] JOc50O0020JFRd__QKqQFiavz0nsCFvor3ZloCRQAZaaJA8H_WxrcMBo1W
+
+sprite $RoadBridgeSm [13x12/16z] NOk54S0m30E_1-5O-qzR1bq_Q05ErW5IvtZcq7Y71O6C_p2muUnKwUnChXVGWGtLXhF3x42EHemD
+
+sprite $RoadBridgeMd [17x16/16z] TOs50GGn40A9E_HVxSkvJdGDS8CJ7ewq8FFGXCVlilyBMTOEOKy40LDYeG_rBZbeOzVeyPAmU4eWwmVDdfY6iRi0_5qlYPukYKLZN19NlW
+
+sprite $RoadBridgeLg [22x20/16z] {
+VSy30i0W08NXVygu_sbdnJTKNwQUwSu0urwSW8zt1E8eu6ny6Z-5Q84TUtgjA6JqGgZeHc8begSCLQMjY5ldHA_RMRXLNNei7xZrpjKILPrVdKnD8TEGAsTU
+TLIp0G
+}
+
+!procedure RoadBridge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/RoadBridge', $name, $tech, $desc)
+!endprocedure

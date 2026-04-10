@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/CircleDown
+
+sprite $CircleDownXs [10x10/16z] BSE30SG00C30UwF8_jFM0VnwWthuzACHz1BdlmT2KJKRtXyg4jU_G7ZLKAm
+
+sprite $CircleDownSm [12x12/16z] HKe50W0X3B9R-Vzl3tQ5RgESCD7S3M3N3HZDvYmyT7BsTk3nTs7kdwEI2UIDlkZWiRweySNJHIk7BT6ZlK78lG
+
+sprite $CircleDownMd [16x16/16z] {
+LSs55KCn34FH-vcZ_QSj-PHUq2G1qvMZy-PAiLJu_fovAgGOSd85nWEcTAgvfQjd2hpZCTTVB0bT2kG8AjoHBl0EryW95KepPu0Dpk3AX0hdUjg8DHLw-pMu
+0m
+}
+
+sprite $CircleDownLg [20x20/16z] {
+PT053iGm00D1bp7P___svAiZ5ROyvIXjbNFMhObKEYMW3f8MO6jqAlMmtoZ194sXvUY2r-BQerPMKM-M7OQFLVIo0hQEvESSd3QH3acLcIKO4dXsDEeeAlHo
+eVzn1najkGMytx2Hss6zf2lGtuQq71Nkjwo0lPVx0G
+}
+
+!procedure CircleDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/CircleDown', $name, $tech, $desc)
+!endprocedure

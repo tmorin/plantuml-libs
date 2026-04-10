@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ShieldDog
+
+sprite $ShieldDogXs [10x10/16z] DSgt0O0030CmiT31_rzBJRIas5udho4lf4dMSwdD5jwjIyv0NPEaxbhKvmO
+
+sprite $ShieldDogSm [12x12/16z] HOs50S0W3C0oz_7_jKWrK3U47sChWmcuYxDI4aIOqZy0yJlGAm_xy2GjQWOhBjsyuje5AM8LEWq
+
+sprite $ShieldDogMd [16x16/16z] LSw55S0W54FHLtUo_xOzmRbLu1l97EYSifNaKt7rgnoZKLnFawQvMuDEOEdMc7Joo3Ol9vyuO2OAPUt5wyQkui8xoDfyhryBaRARB9JfYyD3OZy
+
+sprite $ShieldDogLg [20x20/16z] {
+POw5hGH13CMyp77_rNwuABVauGVIK8p1WzL_1YWQBVPK9cyS3Mm-QV35IXvBnBBUDTWsw8uZr8KepHb0xLXJYnL8hQ4rQQYlfkCsasnw095MDQrBMu96vNKg
+hJaRkllF1YKMGT6zfRFEZLcZ9Va5
+}
+
+!procedure ShieldDog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ShieldDog', $name, $tech, $desc)
+!endprocedure

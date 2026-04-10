@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Brain
+
+sprite $BrainXs [10x10/16z] XOQr0G0X0CJoqg3PVrgqek8qGChuCwKpyBb8vdXEVJVTXxZeemC
+
+sprite $BrainSm [12x12/16z] TSRL0OK030F0UugJ_QV5wH-Lv20_qmGaaNGmdCwVFfV3N7v9UNwN7tEGSapbBowp0W
+
+sprite $BrainMd [16x16/16z] VSwr0S100810uXxsdpRkydJNmLmdP9PigGrgyN0zWyhT6W5UBCGFyx0tz_7TydH_Suf1rpGtFtvJvjGAjGL6
+
+sprite $BrainLg [20x20/16z] {
+ZT2r0SKm0CHG1StM_jD-PepATzrngbXXq9bRJHsfwdGpZtPQyaM6UBSsdMZIkwb7yyNI1_E3PHXUhOElPXxVJRPPP7mpA6ysKDzi9BuPq5vivLY-s_tKhWwd
+AGBi0G
+}
+
+!procedure Brain($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Brain', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/GlobeEurope
+
+sprite $GlobeEuropeXs [10x10/16z] 5SQ54S10080mwbxst_QFd0NWSYSgXrVP1TnGXGclijnYmhFh3VGMkRG8R0O6
+
+sprite $GlobeEuropeSm [12x12/16z] 9Sd50G0n3CH07QEZ_giDULuB39ytIRr2CuR0xuZduGz4eCueVghykg9fvbkbAoAPkvXvOV02zLp1akTmGGC
+
+sprite $GlobeEuropeMd [16x16/16z] {
+DSS74W0X2C30N6zA_l_ROsHS2uJXw7uBKxTSbQOED7kbPvoapGOz4ssammKrAhT6UAYLUBFRDHsOLd2Q_PbsqgdWObeORaEgos9mgG-b2OHwLthMC75R2Oj3
+a7u
+}
+
+sprite $GlobeEuropeLg [20x20/16z] {
+LT054iGW5C3Gr8rFxd_Q5MIcfFxgqBgoQUVLPYkcJfRWKA-HW5dlJllaqI_OwhDsagQEe9fiDEsSdiKAzJlrQWRBVMTdqDnidki6mg5YZ-drTPC6PFT2Dnr5
+QTPJWnYDS2xNAxr3WKir1e9RrVp053eFGpe-XDDIr8k-
+}
+
+!procedure GlobeEurope($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/GlobeEurope', $name, $tech, $desc)
+!endprocedure

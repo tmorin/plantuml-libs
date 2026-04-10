@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/P/Photobucket
+
+sprite $PhotobucketXs [10x10/16z] 1S47OGD0000XsioVvzzj04PlaFuqYRHwy-hPhWOMzGmmUY6wk4FVMuRtT0eltxhy
+
+sprite $PhotobucketSm [12x12/16z] 9SZ50SH054EnDup-xh_QXKH7yNSyUGdfX05gINsLPOFWOXzjWS0jBqc7V7Wa3941oYYJijxz4ycEScI2rWXhUi3b4Fqw09Ivzmxu0W
+
+sprite $PhotobucketMd [16x16/16z] {
+BOc5jK0n24ClTI6m_xHVUXuIvKrJNeDlDAbNE-PdMOVcSJDurlzgTaQcNakhbgcZdiPaSyZqMuvRDYe36H1M9N5nnF-Kk9Q8O3rVDRXiBlbgN1MmmZvWTzbC
+z3PJqxjcC2WT9rAnb82e0_KoJkO0y49Cin7F0lOlgWV0Bm
+}
+
+sprite $PhotobucketLg [20x20/16z] {
+HSXRUW0X2CNWuAWZ2fpzxxQrr__BK_ZXfPZmRzGmQyCZZH_gJBd1aZPS2VMmoX_Fdwdl32cEf0cZKv0CIU7PIr2qWUXtcOPCpY2mXHmuVLiYDmwRvt09jHu5
+YyJXQYsegVkAmxV7qHFW10kkPMN7HwDuCN69MeYDGoAzpSEI64b2uGqfLbMNgM67Tt0Q9MMkBG4-sPybBNLnxPUPneggb1fSes3fAl5drNwUUR9nVG
+}
+
+!procedure Photobucket($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Photobucket', $name, $tech, $desc)
+!endprocedure

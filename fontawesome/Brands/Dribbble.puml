@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Dribbble
+
+sprite $DribbbleXs [10x10/16z] HKk30S104ClNplxRzcm4q9XXiV74e1uhP6dRcYXxtadztjcb-WqLcCfMMq2Vxwh73m
+
+sprite $DribbbleSm [12x12/16z] 9SZ5WSG0540XnkBvh_zgLpa2l02cxNsqGKzXkvadzqRd_sc6DDLveTSBbdxPURJEW-GLRhAjGGRt2Sq2pvh2Dm
+
+sprite $DribbbleMd [16x16/16z] {
+HOu50iCW34K_3ct9k_zjjuJ9G-AYGohwam43qs4pS3bfBXvxFrohP2c7odIp8H6T6icGzXBUlM-ehf08Ua8EnHHq3lfqPeLoxDkR4dxPrEsgw19PeY9dc6BF
+HbD0c59cfzDJ7nPETlK5
+}
+
+sprite $DribbbleLg [20x20/16z] {
+LSu5WiGW343H7wYtyEz_sfLaPUPLWHY_elFkCit__KqzWPXAEJrv36gtLTGAAD-E-cOQgqUcB0wu94rf6ZGZmofGRohFlkwFYJHc-Eqv6rGOkztNAGkITXtk
+47r83JiTu0FvdWCmnx_DlPKkACaS6t3UKhm8Dm3TACEecZHjfCFSIaF7jXvQ6INEgJuhwHC
+}
+
+!procedure Dribbble($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Dribbble', $name, $tech, $desc)
+!endprocedure

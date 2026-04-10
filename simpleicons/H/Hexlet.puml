@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/H/Hexlet
+
+sprite $HexletXs [10x10/16z] Om01NWOmOE470GYRbPyHJFCpWGXsN2mmO2UW3W
+
+sprite $HexletSm [12x12/16z] Om03NWOeOEC70KO8Xnl8v6100X1nVc98C82oMO60ZPyulG
+
+sprite $HexletMd [16x16/16z] Ou02NWOamCaF0YnG7XiVFmJmCi8KSF3pyx70EAmm1bIQYnz2i_Cpaidd1GC-E1yACDLJpWS
+
+sprite $HexletLg [20x20/16z] jSu33W0m3030sVZ_QsSrMjIBcffiF1A8sjmaUJCY7_4cuqevIXwoZRu9_ImMAyYPdKYZvJIVtjnrSsd1_EMVgm
+
+!procedure Hexlet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Hexlet', $name, $tech, $desc)
+!endprocedure

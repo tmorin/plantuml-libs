@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Wordpress
+
+sprite $WordpressXs [10x10/16z] 9SY70O002CJ0sBlPVrjvF3h4H5jHUxaDmZi9OkSyLPdxwazdpYFRHbbS-4qtzVa
+
+sprite $WordpressSm [12x12/16z] 5S650OGm00ImG1LfR_zfNnAW03pcsmneAt_zvhcVFEyJJimi2SKaKR8EvNqbP2zQp4HAa4EBScGOOskfDjn54ZgS1GDV
+
+sprite $WordpressMd [16x16/16z] {
+HSS7QW0n30NHSSDYhVNS_xQ9KX_m2z_Qu5yFIlBj8IsRHTtcZqM7JXvFVaPIF-1Ho8fMZwOFwEADXg1MN6HWuoYaTmYODAzWl7PGi5NWEUHsaCl1cTA1U-5Q
+iGDOlA32dfG-MEea-141_NI03m
+}
+
+sprite $WordpressLg [20x20/16z] {
+LSj7WWGX581GpD_MAkv_sfdEuItOmKig_9ej0NaMNdeZl2bik0kQBsbaWCxs3GAWbRqyrzvhsu039d3H3VrUIBI0gW9g8XCa4wXnxsBKcN21Ln2t7fTUqA_v
+n5L0xua5fxCRGLPXcuLnhKncVipL3A8q2gS3vk46XsC0Eta2Ad0UT821qDG61mk077Iy8R5uEg1STi3elAMOlSHitFq3
+}
+
+!procedure Wordpress($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Wordpress', $name, $tech, $desc)
+!endprocedure

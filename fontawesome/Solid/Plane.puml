@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Plane
+
+sprite $PlaneXs [11x10/16z] Oq01FFoCS3O_FvXY0LByK3O_7A0mETX1D3ixApiVH2qKOB8
+
+sprite $PlaneSm [13x12/16z] NOx50S0030AJkdBxJrjNxXK5me5lStTb6z4y7NciTDyyU2C1I9gJyxIDYm5cy_44Am
+
+sprite $PlaneMd [17x16/16z] ZOs50SD04CFKXb7xJnjcrkEHpIMQ7XC6RCdKt_GFYgd5AV6ppxZ9Q1I6jJrX1tZWKmAeLNDw8iF9fPfz-wFMR2XLjgWS4ZzcMW
+
+sprite $PlaneLg [22x20/16z] {
+VP250S0W4CIkYfFzjwrx8NZmLmLW-De8D1_RCgCFF7KNcgL9YysdxM5hdglt9PkDb_qoAFnfsL-R-985M6CC6sPXa6PvNTfhmv2tPi5S8T12NgJxYqD-on58
+lo7J1n-yxam
+}
+
+!procedure Plane($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Plane', $name, $tech, $desc)
+!endprocedure

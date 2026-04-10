@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/PersonWalkingDashedLineArrowRight
+
+sprite $PersonWalkingDashedLineArrowRightXs [12x10/16z] RSgr0G81002nuCxjFosyLvywlCBX1exPywaut75eWlGfg3eSlW71zaalG7b-kU8F
+
+sprite $PersonWalkingDashedLineArrowRightSm [15x12/16z] RSo5OSC04C30AvbjxJzjEHmz8mhs4Sxb-k4PMmq_OG3zyC7wBeQ6VbZnaNgfozfqgFCNMDknJrOOVBGnlWAbd2YcVfVn1G
+
+sprite $PersonWalkingDashedLineArrowRightMd [20x16/16z] {
+ZOq53aGX4CNwtO3U_xGhP2QsslXJO501g1AyrRZQn1-OtIAvricz2y2WbYZ1vLL27HZcUL5qB57Dpj4Spgu5inK6I6tQm4fdr9Q_0vq6Me2j40mAIX3I7jfu
+XAOdeLNft04
+}
+
+sprite $PersonWalkingDashedLineArrowRightLg [25x20/16z] {
+bT05Oi0W40NHYI0D2tF_qzQsxdrH73v0KuD7KzuOwlog0NNdqRbuvzZuZwewU1Jo8aolYvyyk3J5ja49G85DbozUve2fgDQH3VjrJyLyBAHfsZysi6tRgPtD
+WyY65tf3MXflpc5_6vPVX3XXc6FQsn2xGkWNKItOz8i8Svdt8PwQ_rhUBNu7
+}
+
+!procedure PersonWalkingDashedLineArrowRight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonWalkingDashedLineArrowRight', $name, $tech, $desc)
+!endprocedure

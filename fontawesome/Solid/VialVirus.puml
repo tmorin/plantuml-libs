@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/VialVirus
+
+sprite $VialVirusXs [11x10/16z] PSR50O100C2muaxtdnQNaxm2dZX5hR7FU_XBYMyz56UhLewV7T1kcJYFXt47
+
+sprite $VialVirusSm [13x12/16z] ZOkr0S1008I8UzX_skXR-NGdmEaBFvQX5pmgmaDN11fiKl3b3mqkVGoy_VgcHaUEj-4XEVqD
+
+sprite $VialVirusMd [17x16/16z] bSYr0O100C30u4xsdnP_AxdoeF9LyTdy46XTrqeMmD_OjgqCTGBMF01igLFu2j7IkghR5okLSa_pne2tMGLs5LOL1MZKZT7RpcrHyRRA2G
+
+sprite $VialVirusLg [22x20/16z] {
+hP1L0iGW4CKoDPnt_zDktVkvmOCF4BN31HrKJifXc_lYRgaz_xQ3cRtjpBUD0Bu-B3GmDtQpZLGb5UbgqOOTjW9LJJFtEMpBSAxFkxLzVvghtGPevjPHbCvG
+DbiRZk0_tX1PiCswGSfDJOm
+}
+
+!procedure VialVirus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/VialVirus', $name, $tech, $desc)
+!endprocedure

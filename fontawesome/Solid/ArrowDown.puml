@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ArrowDown
+
+sprite $ArrowDownXs [7x10/16z] Os1WO6O00tus_1Gl7uZYP-3dusVZvmUA0G583aG2
+
+sprite $ArrowDownSm [9x12/16z] bSOv0O10402nK46ruryjlu5B5JZycjNiVKazALirnRluXWi
+
+sprite $ArrowDownMd [12x16/16z] jST50G0W44HHx8B-_cbnAx3-HiqgwbP6YpaTwrHWMNS0mvr1ZP1napCmEElZ276y1W
+
+sprite $ArrowDownLg [15x20/16z] nSc55G0X30JHSqNwhnOPR3iW_b-M4lPQ90xlbUTqxi9jinndcvVF5-Hyqe0d3tpbGfX0M8IHUkM8
+
+!procedure ArrowDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ArrowDown', $name, $tech, $desc)
+!endprocedure

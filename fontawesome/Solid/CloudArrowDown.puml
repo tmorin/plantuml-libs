@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CloudArrowDown
+
+sprite $CloudArrowDownXs [11x10/16z] Oq01dFpy710M4pyGSFE3cFnG064oyuAP_30cFmyGGpLmWvKnWab-E40o0G
+
+sprite $CloudArrowDownSm [13x12/16z] NOg50S0m3CCqvld_QykiGc9Wv94c4l8iMIGsO54c1JnHg8hpYjOUpDz_JoueA6LH-67-_iYC1G
+
+sprite $CloudArrowDownMd [17x16/16z] ROq30W0W34MpSV_JnkLUcFVH7-Nb7h9OGOlO8HRQN5n0muBC13RDqDcmDiULQ9PtGn23McY_Nij1KwrPiDAFH9jP1DGpAtx8
+
+sprite $CloudArrowDownLg [22x20/16z] {
+VP253G0X40IHTsJxh_PzS_Z4o72kXXXhAhVZOSkbmyUHPOCu8D96PFmMEIwrSSC3QmIyM3u28pFhA3CBSAgerjiovl0oJZPvqaBBDYIHK19j8JQWnbLNu78R
+SWxLuG8
+}
+
+!procedure CloudArrowDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CloudArrowDown', $name, $tech, $desc)
+!endprocedure

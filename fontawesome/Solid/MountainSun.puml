@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/MountainSun
+
+sprite $MountainSunXs [11x10/16z] HSR50O0000GWxFRsdzOENe0PKmq9StArZ-bgPYaq4Dgu5abgLo__qYdpKlpT0G
+
+sprite $MountainSunSm [13x12/16z] FSd50SCm04KnbRbl_saBIMoTFbZS8Oj21QTgbbxQUHUkKInwicyFxbrLWJQ7vMY3ffDdJRodioy
+
+sprite $MountainSunMd [17x16/16z] POs54G0X3C3AkvBzfyMTeCrL9FAUuVc-5A_W7mXl_6aHLSIQVaL0BFhXZmawo08aczXztgj1bOHVD7NaHY4dzEPeXIe9DUM4FkNfnIeJ5W
+
+sprite $MountainSunLg [22x20/16z] {
+TOu55eGm4CLmXzp_jDNf_baBshnKkiPnsS_9z98JL0rmD0kGlnSPaolK-FOMsA2iAbiCFBRKqjAhhDAd_tdhAdjEBHPmviy2e-IbVLmC37Oa9fU2IL3gcQjy
+P1GFVB0gzIZr75-fdRddYwtxGmG
+}
+
+!procedure MountainSun($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MountainSun', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/HandSpock
+
+sprite $HandSpockXs [10x10/16z] BOc30G0n40I3DpBzLtlMijciLiFuEvyBwknV8myDV-vbsRjdVM7eWmSkxjb6HG5yBtTJ
+
+sprite $HandSpockSm [12x12/16z] DSQ5OS0040CnXJct_xJbwi66xV9lg4F1KaFhy-neJiqLQIcDSJnhHnBwdx5QVBkkvrQ-vRyHxWRVyS9Gt_W4
+
+sprite $HandSpockMd [16x16/16z] {
+JOi54eHG3CLI5gVytF-sEyKp-YGKOSyNjOESh_WJHTtkjL_5IBU0pTw6lQZ2VBzH11m7GtUSXyfDpBv2x9L3KknAJBIvSL6FNhrYBuizTowDtPMRGvniLnoa
+2Cq05lCQLej3_0C
+}
+
+sprite $HandSpockLg [20x20/16z] {
+NSu5ZWGn34JHQXeAlFlVTcLrj5H1VsDkzPd_WdgFxHljthkH3NsXesaXF5cr84FKJULpailB22WcjE0TqeiDMmLYtubYkyygbRTvixhVhZlch8WapRLPq-Hb
+J-D1jYoDmk0RhUWDxszcv6BByCpIsr5NWMzHzqx_HfkvNiw5E7AhG_-qFyss1bRK5m
+}
+
+!procedure HandSpock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/HandSpock', $name, $tech, $desc)
+!endprocedure

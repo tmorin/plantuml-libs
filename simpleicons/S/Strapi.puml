@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/S/Strapi
+
+sprite $StrapiXs [10x10/16z] Os3YvGS17WOcVXW0YI00CpCpXC401FnG9WiA2yO6cOF4Wm4
+
+sprite $StrapiSm [12x12/16z] TSR50O1000InmPtjlrhqNF8AxFgj86zNtGJmbz5VEtroXyt_woeFUJS
+
+sprite $StrapiMd [16x16/16z] ZSV70O0W00J1DMUl_shD0lU2-GqCctvh0tA3tAO2IyLb_Blo6BpN0sWpxxjkLefQvkigryZX7Ky
+
+sprite $StrapiLg [20x20/16z] dSYr0SGm00D0cTdQVzh7iAhaoWDi7Tpr363mobkgIZLuItK_np8PFyU2N32cEUVMMrd0FxqvndGkyWgWsAfJPIfeJNYjDm
+
+!procedure Strapi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Strapi', $name, $tech, $desc)
+!endprocedure

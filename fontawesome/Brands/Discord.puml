@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Discord
+
+sprite $DiscordXs [11x10/16z] Oq06hFnSp4py_40MCpyOWDZyS834v0R9G6MXJ2P-PC04KSx30fBb0flEpSm
+
+sprite $DiscordSm [13x12/16z] NOs50S0W4CHIzzx-q-8UU3S6TW6BPXmgmDK6Ql11A7vE7kc6slBNOE1JXiy9q-HFdC13O0SB
+
+sprite $DiscordMd [17x16/16z] TSs30KH1303H-LXZ-g_sRBmral1J3EUvBrpvD02cFWN0DnyVTCCFNARbCWVLfaOe-ip_VI5SvjL_vcULkUvrzB84jSEcN2Nbsn4
+
+sprite $DiscordLg [22x20/16z] {
+XO-50KGX34E3VOViF-rPE4CVMcynmkR7V5M1v07dBKX6YCX_mbFfMFBKicALQucobZYmmQa4HkbFO9CwIrYhuhj6ALlAaWSilwHDhHmxPoGMs9SMGT9bl6GS
+UeJHQ4yEuiCfNPCx
+}
+
+!procedure Discord($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Discord', $name, $tech, $desc)
+!endprocedure

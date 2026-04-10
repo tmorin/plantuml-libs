@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonCircleQuestion
+
+sprite $PersonCircleQuestionXs [12x10/16z] RSQt0O0m0C0mqpl-_riMqgD9mE1Dv4oFkgTggYUy2uoeJ1uAYAYaZuQ_eXy
+
+sprite $PersonCircleQuestionSm [15x12/16z] NSUr0SG000IWUuaB-syRLpeo6yXD--WRVe_nUOnzjG-AkNq_zrV7t9HGPIPpIJZwmQs1H_kU2G
+
+sprite $PersonCircleQuestionMd [20x16/16z] ZSk55G8n50NHjwx9zDyjPt276_qMDK2UjEQURVJvGm6MF01jprtgSpKWvGeQj9Qahtl47EHNDRhae9mkWRlt6KQuosqukBxaXes7N0jqJxbKAFOU
+
+sprite $PersonCircleQuestionLg [25x20/16z] {
+bSx5eOC050J0nPtflzelSG_CyUdc27BdMsDcpKjbcLr6cF9aTVJYyz6IEordmrt3sKfnNo-0w9ECvcDqkW0famcEcqMLSoDPq2_84Sj4KY55UkPpeob9Llh2
+6Dmtm9JgTIEDfyOCa-T683sct3S6h91V
+}
+
+!procedure PersonCircleQuestion($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonCircleQuestion', $name, $tech, $desc)
+!endprocedure

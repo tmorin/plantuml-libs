@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Award
+
+sprite $AwardXs [8x10/16z] Os3W1m8U1WPEVX1WP01nW0m680B9SO9fA9y5H8C0Y0Ebc11S40O
+
+sprite $AwardSm [10x12/16z] DOo55S0m44AfUzb_sppkntEe96Sf0ulXhT7-4MuiXpqpFL5hT2PMt0otnlH9K--3oZCt
+
+sprite $AwardMd [14x16/16z] LOs55O0m34G_xh3_jiHVUt4zOFaS6Bx0wvD2J9Rnr72I5wF4Pn8tr_ahDbXrwvBOKJDp8t1Al0WkynjuuWI2hg1cq6vEEN8VrUWR_
+
+sprite $AwardLg [17x20/16z] {
+LOy55e0W44I_tSxzJsiGEu-lm7O0N2gC96O5MBTbKqCjqC6QX07d3hyqayq_IRnJ1fdzbpSRE9FyNxjJ3gueSYGfn-aSLoLwUZK0t5PNVhh6x-qzeSpjW5M9
+BWAOeahoBMMrdXS
+}
+
+!procedure Award($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Award', $name, $tech, $desc)
+!endprocedure

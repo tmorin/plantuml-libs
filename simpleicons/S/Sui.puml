@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Sui
+
+sprite $SuiXs [10x10/16z] Om01RWOeuE67CXZv6Q1CVZ064H0If0eco06YUE5A-1dH5VFpWHW
+
+sprite $SuiSm [12x12/16z] FOg50S0W30JhNcx_QI7kRvFLErLzB0at9X8Bc0ce_yBWQQzTbhXTyxru2ykv7Sz6dYPtCOB8Hi3W
+
+sprite $SuiMd [16x16/16z] {
+LOw50G0X3CJQTstsdnRNmn9SIbwPOcoZdlnervL3ZEv4nhgcsoXtMd5bJux-9BZJO5Ok24FgdhYLC-ALFUJd2tZtTsvsOGsmbv_1GuOyN72t_wWinYybFp57
+H0y
+}
+
+sprite $SuiLg [20x20/16z] {
+PO-5WGCn30IFp33zL_kVH72qPj78YwijBmsEfwa33rDWh0_ZxnsOLnkaprxeLnFAoOxq-h3A9TB1C_mCOFmeja_bQKmv0xjWZZCv8z-5uRR8ONqtXroWgzOx
+cpgWAZTU0ltQqP9eYZ9XeYRLDlYgokiV
+}
+
+!procedure Sui($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Sui', $name, $tech, $desc)
+!endprocedure

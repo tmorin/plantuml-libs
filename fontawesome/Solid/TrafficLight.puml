@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/TrafficLight
+
+sprite $TrafficLightXs [6x10/16z] O-E703u64Cd8mCqF1mnW0YB22HPXvkVd1eimW6K1
+
+sprite $TrafficLightSm [7x12/16z] O-E70IOECCN00AEW05EGaHrTZWL20H4lK0G
+
+sprite $TrafficLightMd [9x16/16z] PSg30G0n4031VIFglzhOFCvjkgDroW-aQWCH2mbcEZBdgs0ALgnOfNn7_1PCmVnflpa
+
+sprite $TrafficLightLg [12x20/16z] XOs30G0n54DVxNR_QS_cDnFRtgM2M6i9vAKMG5hg3BG_0R-M2YZRUCVnHvmQdd62saeBr26d0mw3csK-1JDHwHqvqmC
+
+!procedure TrafficLight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TrafficLight', $name, $tech, $desc)
+!endprocedure

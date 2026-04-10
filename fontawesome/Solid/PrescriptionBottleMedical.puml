@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/PrescriptionBottleMedical
+
+sprite $PrescriptionBottleMedicalXs [7x10/16z] O-171WnG0E4XA0Os80R9ii5ug4e
+
+sprite $PrescriptionBottleMedicalSm [9x12/16z] O-171mmyKC001r0PNXG6K1ZC02a0CnWP61YHf31qiG4
+
+sprite $PrescriptionBottleMedicalMd [12x16/16z] O-270puWnifXO883HWPam0jNWidcuqQm4IGVq016HWYR2sm6L9Q7WO6B1w6I3yDC7YGs0u8D
+
+sprite $PrescriptionBottleMedicalLg [15x20/16z] ZOl50O0m0CI2E-m_BLRtvdSIBflroZAwaJoTyws9PzlPSGOJZwM7UL6nu-UKiTSnS8De26FhHdQJUXu
+
+!procedure PrescriptionBottleMedical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PrescriptionBottleMedical', $name, $tech, $desc)
+!endprocedure

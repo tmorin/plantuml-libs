@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/HouseUser
+
+sprite $HouseUserXs [10x10/16z] Om01FWOeuEVdXp6WJ7u8W33013EOomdZWXYiK8qW5aGR2uW5qmi
+
+sprite $HouseUserSm [12x12/16z] JKp50S103ABwkSZ-qrRYRW3C16MgEiPODXjjsJKDnrzFyD-EU5kxly8-sap4EOTQpR3McYy
+
+sprite $HouseUserMd [16x16/16z] JOs54S1040A9UxR_QgCt3Fjw1YfE9IqGOGUPw24JCnJD6wvWMcddexBTvj5A_5N7zOOdHSPZsxQRuzzNYsFzE3v-79j1Dm
+
+sprite $HouseUserLg [20x20/16z] NSw53SH034JH2Ip3z5_jOGpo5rbl4TAz4Iia0pKoOkU_msXGkeKMhVodJL_v4aFL22ZyrxUINN8vQphBrJ8bdRWRWrbcHJvlbl3F6vvkPyTJ4Gi14Jc0Dm
+
+!procedure HouseUser($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HouseUser', $name, $tech, $desc)
+!endprocedure

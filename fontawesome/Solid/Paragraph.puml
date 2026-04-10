@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Paragraph
+
+sprite $ParagraphXs [8x10/16z] Os1WumS11du8O09pW11ACqDf1XZDm0McGG0R3G
+
+sprite $ParagraphSm [10x12/16z] Os1WuEK70mOk805XWKaMLdu67ZYB3yvYmCPYu8Aom8085W
+
+sprite $ParagraphMd [14x16/16z] fSYr0S0m0CH0XJc__xH1qzTMT-9fL-Y4Kxc4TbVVaFOks4qopIPSaud1zDIsfQ12swCR
+
+sprite $ParagraphLg [17x20/16z] lSg53S0m00F1BtEz_xHb30hpGfyCK4nw6Y3JBtFFpE-vqmov31XDKFHHc805kGda9a1ZmjwK14OrL9fW1G
+
+!procedure Paragraph($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Paragraph', $name, $tech, $desc)
+!endprocedure

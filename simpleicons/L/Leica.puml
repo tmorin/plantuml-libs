@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/L/Leica
+
+sprite $LeicaXs [10x10/16z] DSZ50G0X0CJ0d2ka_sfnvhD2yNXIsJopw87Er_XwzWu7R8_d4ddrNoDEFBF0CKe6
+
+sprite $LeicaSm [12x12/16z] HSdN0S0m20FHI-_S_jEc6xyVaCHZS-RZvtipc0uqu-R4RXZVjB21BSuJpUujji0AqqI6u7QKzW8
+
+sprite $LeicaMd [16x16/16z] {
+LS-r0GHG20JH1RxRz5_jkRw8oLWzvCqqlMsUwZFvEFy9IzhyCW5fPDxkbyv2vzaRYbOSnvj70uWkeLgdss56QCrAeTBNnfZGJUQcka7yEIhyqlz3HJVhFoNx
+MNC5
+}
+
+sprite $LeicaLg [20x20/16z] {
+PSl5WKKn34DHnK67Rl_L3dnyS9O2lVXc5XraNbRG2mT-Zw3V8yXIvafwxiiXQuzC55YR5mUs-e0oUDc0XMcsjSrG5GzoAGzD4SqDvYnHD2izkEKL_xEoWdPI
+xFoRrT96FCtktkS6M5fScG9NalmUIVtoVCZNrKFZOJr7lm
+}
+
+!procedure Leica($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Leica', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Bold
+
+sprite $BoldXs [7x10/16z] Ou00NduGO61W0c9-NX05f24yFY050X11ECN9pyR6oyy6aG8
+
+sprite $BoldSm [9x12/16z] DOo50G1H24BrEWJsd_QtpqvBRWrQ5aB4oEJTlPb4iyETOpIurYYq4ilaq7ee6Zjmgm
+
+sprite $BoldMd [12x16/16z] PSg54G0n20H0O3wZ7DT_jn_NZQ2oYmeff-2G2mEJcQ4MJfLip_tjHqQYvbtDFrMr8EU-xBcVVIVXMGxW0Ddz
+
+sprite $BoldLg [15x20/16z] VS_50O0m0C10t27xJqlT9R-hTyYQNQFIIqXo8x4CzBe3xeXgNymjvPDmXSSmFJarNATAyeoEKZV57Bky9TSDZass0zT3r9Tyy1Zo1
+
+!procedure Bold($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Bold', $name, $tech, $desc)
+!endprocedure

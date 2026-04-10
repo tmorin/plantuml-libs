@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/WindowRestore
+
+sprite $WindowRestoreXs [11x10/16z] Oq05_1209C30oWO2Z40cBrGMf8mFB0jcmaJv4Ko4CAgX
+
+sprite $WindowRestoreSm [13x12/16z] NST50S1000InANFNlzfZpY-C3YK-Ro8QGia4ga88VfyADNZt9l2suVc33y02
+
+sprite $WindowRestoreMd [17x16/16z] RSZ50G0X00EmdWlI_QV57V8CreHE50BD2jvU_4Jl9MwPFI5kLfUFbeY1B0TrH0feTWGunhwZ3w2B7yDiMB4
+
+sprite $WindowRestoreLg [22x20/16z] ZT2r0G0n34FHS8wr_xJ75BBzojz9YcH_p1EHcAyOaL8LxUh3HpyLYV6gCr9dFKpZurSNzVagl7tCHxKUXMHcMbrHJx9AlZKdKIl21W
+
+!procedure WindowRestore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/WindowRestore', $name, $tech, $desc)
+!endprocedure

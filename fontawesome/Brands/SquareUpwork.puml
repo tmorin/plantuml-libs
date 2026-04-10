@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/SquareUpwork
+
+sprite $SquareUpworkXs [8x10/16z] Ou02HduSW84VACl92wRv-HdvUHcOs84iY1GC8DW
+
+sprite $SquareUpworkSm [10x12/16z] VS750O000CImudxTVrfSVYHy_3Lf7ujehO1e7Q5tdfMw7-dmX8zIDJvOSXat
+
+sprite $SquareUpworkMd [14x16/16z] bSU50S0m4090uXxsdxRktdi5Uw6kLEH_TTWW1Om7KAPa0J9XcpXC86hfjb3i085QIoZEaBWXUK5n2pij
+
+sprite $SquareUpworkLg [17x20/16z] hSYr0SG03C10EGw3jV-qpmnThZo-HBuX_53k8KRj8zo2M5NfDQ58ate6g0oFs6XKEZLHKYWt5bK0vQpnOfvLQfjMdnPyDwT_B7x0TnEVZW
+
+!procedure SquareUpwork($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/SquareUpwork', $name, $tech, $desc)
+!endprocedure

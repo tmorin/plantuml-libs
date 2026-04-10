@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/ObjectUngroup
+
+sprite $ObjectUngroupXs [12x10/16z] JOdJ0K0n00FpZEBsdxRMVOJoolWgP4GkF4MlekgwZmp-WkCuNX0yy3oFWVnDAB9g8m8
+
+sprite $ObjectUngroupSm [15x12/16z] PSV70G9154CnRyv-_NVB-9D1D-cSLQmuUTX9PnW3K32eeB_YZ-viJ304e0vEus13kWOTiw8xLOqE5QyALgx6HW4UcWLk
+
+sprite $ObjectUngroupMd [20x16/16z] XO-35SLG50GtTgR_QZ-2Pyp1DLRZgHlhZK3N_fc1EtVIy29qOwgDyTIXgZTkJP3h9q2JoSr81uW1w2xkN-ulvF_I4VpoNchqqlX_pBobwVNifSbHhOhgBm
+
+sprite $ObjectUngroupLg [25x20/16z] {
+VSy5aiD03011cNdx_wyzL5a7IRh0C8lHjprkMniZzH3fmfJlJNUuNK66tS6Ps9sHgFSDSNFL-wvx7SRkSS3vFopOY8rQjzaZC3SJ30dMY0wjYVt_1Oa5bWHx
+XZWO8tMSaQ5qKQZtgoP6hm9CjM8LhLE6gu9JQJLZyNlTxHq
+}
+
+!procedure ObjectUngroup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/ObjectUngroup', $name, $tech, $desc)
+!endprocedure

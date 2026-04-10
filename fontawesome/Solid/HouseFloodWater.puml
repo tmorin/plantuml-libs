@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/HouseFloodWater
+
+sprite $HouseFloodWaterXs [12x10/16z] JOk30K0n34Jl6yNRVzfQSGuguJK2cETuO3vmQzvsTOp3vujNsk0i2bTKUTnvH
+
+sprite $HouseFloodWaterSm [15x12/16z] POs50G0n30B9kvRzfwrxhXe39Eu57IIl8IB_8VAqwBpyPMgSBnq6X5mn8l4-evHi_lhm-k04bZZuHUydMZ2EEm
+
+sprite $HouseFloodWaterMd [20x16/16z] {
+NOy50eKm34FRubHo_zD-8TZsO5QFN5X9pmoWC-tuCxnD2J8_fiB5TfdmmjysdhHTnkjeRThODXl-dMkqHHfIvStaAoTtsbqCVoPg2L5dVIfPAHlC3TQEC9Q-
+S_r_f6Xz0G
+}
+
+sprite $HouseFloodWaterLg [25x20/16z] {
+ZP5L0iCm28Q1AjR__gUTCAbbyhqakD66dAa50mWw8oZeo8GdJ3iCQ5e2MEbM_O8TQtCeX4ZhinmwgfPBlx8pPCCmdGocZYBKd0xqWDA_-AkNSHtGXRhNN9pr
+2QPPkRvU5PwjFJ_igLonKuRKf_EOrnjXhAsjSq35WGmWPG8G02R9l08
+}
+
+!procedure HouseFloodWater($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HouseFloodWater', $name, $tech, $desc)
+!endprocedure

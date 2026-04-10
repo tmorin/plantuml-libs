@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Jsfiddle
+
+sprite $JsfiddleXs [11x10/16z] TS470G0X00GWVh_p-hSrWM3hHeTPmUG3u3FzdyZ5o-i6GY000S02
+
+sprite $JsfiddleSm [13x12/16z] XSor0S1034FHVups_jk6LAMwPr0d3XR1-GG2G4DFkaBisqIEH5X8X0GPM2dGfhf43RisCNvk
+
+sprite $JsfiddleMd [17x16/16z] ZS470GGX000Wt5lxj_q8V-2pC7S5W0iz0e83512x3l1W0o31G84272mzw0QLG4A3oYuG20EH6A7knJW3sG80Zh0048x_VW
+
+sprite $JsfiddleLg [22x20/16z] {
+hS77WSCW000mGUZ5xB_jFHFxTKtoZ-PiRQxWKzh0AW22E01Q1FALnW7W0ZgVSeJg8SE0EYFYhDYe5HUrgPM3muIAr207p5U00haW1SmSO0UvovKDNGJzPCGp
+mBPv2ftZuNMWhBK_hEH7lW
+}
+
+!procedure Jsfiddle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Jsfiddle', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Plane
+
+sprite $PlaneXs [10x10/16z] RSR50O0m0C30u4xsdnRNjlSw4aQGiW3SjLgYGWlw3iqH5D19bLFBnme
+
+sprite $PlaneSm [12x12/16z] ZOR50O1G08MmM_QVrjQJFrv2XdGSd3hdYwqg-qBdYw7dX8zNBNG5BuPMUnrEFjHvff60TW
+
+sprite $PlaneMd [16x16/16z] bOZ50SDG3CKKJZvf_sbBzhbjPDJZ9li6ymuSuUfswN7edkvwwNcgH_W2zOHJtTCv0PDqXdgg1J2TMUsWwKIYZlU2I9ZUCoIOSdxo1
+
+sprite $PlaneLg [20x20/16z] {
+hSt5WGKX54JHsuP3vHzj2_9sivgFSv3YnwK82DhXr35DKjsZr0ulJTLNt3U4-etdieEjA43-Dlios8CzCwDR-yjopm0ePlIq7P0p6scjfrrcZBjzo6RzBgHl
+Y6RWBTlpZ_8
+}
+
+!procedure Plane($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Plane', $name, $tech, $desc)
+!endprocedure

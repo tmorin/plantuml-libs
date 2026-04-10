@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Cypress
+
+sprite $CypressXs [10x10/16z] 1S690S8W002ngFqBtFxRci2rDj2BBW9-cmVGRMt3BGazxBvbooP0hWrPsFfuumy
+
+sprite $CypressSm [12x12/16z] 5SI50KGn0CBGzxLUzf_s19A0lWiWasC70WW1E9V-orCknvl1Dkw85k-9YAUI8_zODXT211n5AUH4b0qpxTqfV04
+
+sprite $CypressMd [16x16/16z] {
+HSs5WSGm40GmXHpoUlglzk5G3SZ3siVbepAETYNDGsuUKf2Db-hKxIkJO9vD4wOrso19XFEMEjH5bqL8cipGnXHoNyv1LXapcK9FRdeGyN9V74CB3q5G1Hvn
+WvuLMOuq3rF-jO9V
+}
+
+sprite $CypressLg [20x20/16z] {
+LSm5bWGX303HWeRsfEv_sttPyOyJuMcFl0PVfXftQZIUz8BITOUYxQlY052-B0wODhuTWYU_t14urMKA33azX7HmYmU4ODxW2dHEGK3hhrEQlRxnZjg0Q7Wx
+0QVGDHM6KZjsQEUr0nX01Y5lFhhId3n5rYQmEtXmWPHoU5AcjBH36Nery59vsopSdV87
+}
+
+!procedure Cypress($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Cypress', $name, $tech, $desc)
+!endprocedure

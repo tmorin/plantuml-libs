@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Usb
+
+sprite $UsbXs [12x10/16z] Oy04Z70MFpy_aZW_L0pA0D880EHmCJ0mWyHvuSgHT7D1s0W
+
+sprite $UsbSm [15x12/16z] ZScr0OK000FH-uBBxJyj3e6ELqLuuwE4ltljFZaia9tuX08Ch6eEygbhmb4X_gan0m
+
+sprite $UsbMd [20x16/16z] bS_50KCn3C1GVGn7-qzRPkuxcit_Mdy83BNhGz0rQ7a8mRnoKgo0d4qGr8oHCqMVeIx0wCta8Ou0EF5aaabzUCF-56DOdsEmB0jlR04
+
+sprite $UsbLg [25x20/16z] {
+jS-35GGm44NH7pkl_shNDk_nUFGd7OgkP3PqAP0TC7M99XdGaNFR1bq0s3KS4AGAC6p3smCFmt2FXztn2Ur1bChXHFhXKPs9I3B6wDOh_kRp5YQ0hjL-9o47
+eCyi0G
+}
+
+!procedure Usb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Usb', $name, $tech, $desc)
+!endprocedure

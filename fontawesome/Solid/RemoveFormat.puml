@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/RemoveFormat
+
+sprite $RemoveFormatXs [11x10/16z] FSQr0S104C0mX_cy_xPvLgLBXiVcWrTm8eBqG9WW-PJk-nXYNEA5P7lTy24n8Vq7
+
+sprite $RemoveFormatSm [13x12/16z] JSU50GGX4C30_9zh-k_sS0YoEuSCNMwMahplzFQWHt093xAazJg0W54ljV-DJyKZLRUXe8lGz8O8EZy
+
+sprite $RemoveFormatMd [17x16/16z] VSc50SGW0C30r738_jE-k_Jma0sygoxqSNV-RRu2w8vvdlMoSJQSGBbijy9avuKM9zwBl5Fso_WiZijw3zEZhAqxsiHivy8hMAoyMwr7
+
+sprite $RemoveFormatLg [22x20/16z] {
+RP055i0m2CN-tCdzRxj7cO_KKweJA65sNJSFQjSBhBpO8lgBdFLeeP9ac0eBLcfYhbEmkYQ2ga51Q6ZrOOjJCgrCRqgmH3Ufjj7r-h7G_NK5iVTokwvVeVUN
+SkljyON6VFzyOTGT_GMc7G
+}
+
+!procedure RemoveFormat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/RemoveFormat', $name, $tech, $desc)
+!endprocedure

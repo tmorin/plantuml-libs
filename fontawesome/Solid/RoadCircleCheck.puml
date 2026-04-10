@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/RoadCircleCheck
+
+sprite $RoadCircleCheckXs [12x10/16z] LSY50O1030Gmt27xJuk_LzAhohTIKR_sMh3VzPVtZ_SlEvx3unP-lnqyrO8Fk
+
+sprite $RoadCircleCheckSm [15x12/16z] PSkrWSC004DHcTbl_saFeZA_4kQRcunCAMhLJPJQXz8rPBAbGCRall_TsDiAMw-Uu3qbO1kiGgqpfAVtdwP-0G
+
+sprite $RoadCircleCheckMd [20x16/16z] {
+TOq55iH02CL-tSdzRxjl5DRIZWNJNowpKQVPvWfWr0qawMxIauwc9X99kRjmXb2AZIHETsM6EcDrXpJR7TjDlKbolJk5nvtcCWDIkqBgSI2IEztLbxGsbmho
+Gm4Zixm
+}
+
+sprite $RoadCircleCheckLg [25x20/16z] {
+XOy50eKm3CKURXsv_sdnxNVx5fnKzOUgQPfAEkwrF0t0A77Y1LxqfLYUvrfKWW15hPcCAear5ttU0hjVfgxJGqsQokHPaXYlXXQN98fNKEK5aW8FhWLCSQ46
+p6zHFtCF0lmMqcanXLkG2KazXMXaKOFlOIveKSuKXNO
+}
+
+!procedure RoadCircleCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/RoadCircleCheck', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/FileContract
+
+sprite $FileContractXs [7x10/16z] NS710O0W002XgrULolxR-XV2h0NY4hmA7vmAPdVvWGq
+
+sprite $FileContractSm [9x12/16z] VOV50S0W00ElxhtzfyNv4W-lAjHMACxPVyrdsnm3QYzzu0Iusn01
+
+sprite $FileContractMd [12x16/16z] bSUr0O100C30u4xsdnPuhxdkc0rEFhCPe4VVwnsYCzmIOXB-ERfEILd0Vyx1ueRLZ8_9W2kVoy-jrqUnUG4
+
+sprite $FileContractLg [15x20/16z] hS750SD00C0mXtFe_QTjcFwLQAjk0flMIs5LVG0gC3aaBQ1sJQC3ISNJ056BcaFK4KXkW57hoas9oRzfwNmCWBS8FT4BbCAcSTC4RPlLeCaFgZx20W
+
+!procedure FileContract($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FileContract', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Upload
+
+sprite $UploadXs [8x10/16z] Om02FWOmuEVd0rD0m0EasHZu8U9OQIv-8Cd83mSCK1e
+
+sprite $UploadSm [10x12/16z] XSQr0G0X0C30l2ja_sdndgkEAZBeg8xkBgxI2TDfvCVkvXT_koXVxAuC
+
+sprite $UploadMd [14x16/16z] bSU54KCn3C1GVGvh_sdBhI_7LS1-l1j4Ypf10mQBPRZeykR2GopmxYN-qz5QemdFUQZ2mkclbKj96brTr8YfEm
+
+sprite $UploadLg [17x20/16z] jSx50O0m0C30u4xsdnQ7of-hvrKUSqjYrIvx9sNnqcPlhP-WKwNe-8IoummC15VWlt3z6fmfLDlHKm4m6MbWF7TJFTgPOJ7HaDi1
+
+!procedure Upload($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Upload', $name, $tech, $desc)
+!endprocedure

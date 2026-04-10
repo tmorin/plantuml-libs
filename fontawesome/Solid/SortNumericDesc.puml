@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/SortNumericDesc
+
+sprite $SortNumericDescXs [10x10/16z] Oq02_EmWWXz4S84888Io-FcWB7QeB1Z0PK6O2qXoWrdyp51rG0QO3m
+
+sprite $SortNumericDescSm [12x12/16z] LOk55SD03CNKXb7xRvjtpFP7ncCOFmqpOZUFYbUlWl-s31uDGyMhF_1dOBg5OQm5J8P6SXF6-_81
+
+sprite $SortNumericDescMd [16x16/16z] TOm50WGX00AtRUV_hxrOkp20CRQ9R78LZFrrWAeRDb5tnUDOtWzWh_kEhVyFghkvwgx2Ts1v_kdqXFwN2l-7FTJTWWb0_Sq0RBs-
+
+sprite $SortNumericDescLg [20x20/16z] {
+TSu53aCn30DGVoxx_hTT9hU3WaNMAoHOvVYs7GhvgEoqD0kj5CFUWD7kq9k1FVyttECCFEJJczFBhocZxLjlgOuutDishqCPcSrqrKLPedB0iibGwNS_tJn_
+Zcizq5kV5m
+}
+
+!procedure SortNumericDesc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SortNumericDesc', $name, $tech, $desc)
+!endprocedure

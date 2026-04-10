@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Napster
+
+sprite $NapsterXs [10x10/16z] LOg30S1054EJsc__QQlpPwIwPk3xeF7qnelUbgzFYnaQn3-dx2Xzwpx6uUG53m
+
+sprite $NapsterSm [12x12/16z] NOR50KCn08Nu7cV_QMEtbgVyyQe76xzPjHspculPyxui3emu_qP__nTyo6A1IYwK3s7b50xP5JrdRrm00m
+
+sprite $NapsterMd [16x16/16z] {
+TSV5GKL150N1kiDpcPD_j3XyhrMtfzhUrwjBZkLCW7FBcwgoPJkHCpq_UgXmGDjC8V5lIg_RZzVVJDc9IheazevCLDFg9qt1caO5vEJO3x80oKmTsVWn9aa7
+7m
+}
+
+sprite $NapsterLg [20x20/16z] {
+ZT15eiKW40NHQaY2K_jVxNVNT_0x0Pe_HCw9JuhFUBUS2SXQUQ8AvrWjwEfhjdsr152o0o3S8D2LZpJmMpRJzqnkooeeHNrzd0lemjI9MhW428Dt-c6Pda1O
+0RZi46UkWFAikuAp9GxzNBwboWVdrDqJJ-u1
+}
+
+!procedure Napster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Napster', $name, $tech, $desc)
+!endprocedure

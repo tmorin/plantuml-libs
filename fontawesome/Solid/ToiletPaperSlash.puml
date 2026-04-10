@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ToiletPaperSlash
+
+sprite $ToiletPaperSlashXs [11x10/16z] FOd50S0m08IeUzb_sdXohmCk6NlCGu5NlJQTC7zw-KGsCV_FxMtfLp_idtRn7HUV2
+
+sprite $ToiletPaperSlashSm [13x12/16z] JSUtOG81002n-vnV-s_hoe0w7Vfn0Os6pqBTFLX737bxw98pzEgHDxnnonqyWJbm1mKKvpUvVfBp3m
+
+sprite $ToiletPaperSlashMd [17x16/16z] LSk74OGm40J1mIEx-MVxLxVl693haefEdZNTCnim5e0k1paHRg36D61Pc8eQPef8sGBM0CRxzO8cJRuF2OtBOCdVO74OB0-Oble5BImnym-i6azWKti2kzeB
+
+sprite $ToiletPaperSlashLg [22x20/16z] {
+PSm72W0n24JHsTxpxt_RPH2b-6dXHRr0wjqmBvaqBS4FrQe5oEbC0XZ1Bz6b3JVPwiYa3_T84szEIoRyMFnd3jtzb5OmVuHAMogtsMee3Vu4MrrmbpJmcOtK
+ukYpDfwjsPaiQwNWkQdWLLDFt-egUBgQhny
+}
+
+!procedure ToiletPaperSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ToiletPaperSlash', $name, $tech, $desc)
+!endprocedure

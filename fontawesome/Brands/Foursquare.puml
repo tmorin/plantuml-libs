@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Foursquare
+
+sprite $FoursquareXs [7x10/16z] 9KY30G113ClZZEm_RTqOosz-t7RyDkpS3fdjJnlTp3Py-z3wTmctK2W
+
+sprite $FoursquareSm [9x12/16z] DOd70G0n3CAuNXFsdzRTl924vulTAsiR4Ujpnl4oDbRfWqfn1l__i7Ddt4ZKsV8e
+
+sprite $FoursquareMd [12x16/16z] RSR50G0X00EmuaxtdnOv5_8AJ3efyARei9jNgwVjcPFQRckj9EOtgmjZFEDsmKbi9uKGm7obn4QHTBWUSP0iE7K
+
+sprite $FoursquareLg [15x20/16z] NSV50SGm00In3Pkd_seFOhP-qkOx9p4v88OYLzL97EkmOs7FtScKUqtDubetDh7NRjksWqeJGAl9ktDFk9Jzke5HBmIDJPggRfkcBm
+
+!procedure Foursquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Foursquare', $name, $tech, $desc)
+!endprocedure

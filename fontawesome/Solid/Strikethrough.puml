@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Strikethrough
+
+sprite $StrikethroughXs [10x10/16z] Oq06_200Od3omuMuO2nsg1WVI15S9Qf-3X39niR60v63AW8
+
+sprite $StrikethroughSm [12x12/16z] Oq03VFn0m0Dc0caWO86m8R9eR4P6VdusHZ3WuqS01Yo04KcK1yA6A6O7ixdu-FZ0jW8
+
+sprite $StrikethroughMd [16x16/16z] VSc54S100091FgvS_zN6NNx7k46V6i-ohIesMqEHpBQiANNL4cvTu4lP1hpfpPt2ZI8wxZTie-bcq6_DRCct4G
+
+sprite $StrikethroughLg [20x20/16z] XSx50GGn30J1MJIxyu_s68tr4qjzo_QaBpxqbddpUd7WL01K-enC-Wn4_TYfv4nDrfLsJJbtg0HMXHrMlQpdG_nzde-roYLrNG4
+
+!procedure Strikethrough($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Strikethrough', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonCircleExclamation
+
+sprite $PersonCircleExclamationXs [12x10/16z] RSQr0S0m0C0mbxd-_zjCuMWICFcIk3AYdhbQz8P_WncLnLK14PsBl-c_Q
+
+sprite $PersonCircleExclamationSm [15x12/16z] NSU53SH0302mF9HpylxJbjb2nwmGD_sZR_WznkSnzhK-gEPcplsriJHgQ68cvbAIevzd0nxDP08
+
+sprite $PersonCircleExclamationMd [20x16/16z] ZOo54GCn0CCSvcZ_QSlS9vsFJBfY0FrW5pmrl0umWF9jSQFzje3Foy2JpwNXIXsId_tkPJrRN9cwylG0ss4ylAlym-F3QolUvDkpW6lVdYOC89m1
+
+sprite $PersonCircleExclamationLg [25x20/16z] {
+bSx50GGX44N1F-vJ-KUxxhxlI07TEGPvwXFCh7bPMUQlHfZorEhOy-HJI-vgNHhkmBcLulwyO5_q-qNCvGcwdA1C9ZY-BAgS8LcG5Jd6Cf5Ka1dp6Pfo3-i5
+t8EFq7k66IRF44Y_rzp3W1Mo1G
+}
+
+!procedure PersonCircleExclamation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonCircleExclamation', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonWalkingArrowRight
+
+sprite $PersonWalkingArrowRightXs [11x10/16z] PSh50O0040F1nPtjlreat8_vd2Ims5DQ-JiqxuR6W4vFRSY7zh3vYe1Iv3ngayPiDm
+
+sprite $PersonWalkingArrowRightSm [13x12/16z] NOs30S1054DJks__QS_-PY89LAKsWtmmrIFI7TevSdi32-IBuoze_07X3CtZJtMtSDug_vSQ2m
+
+sprite $PersonWalkingArrowRightMd [17x16/16z] NO-50O0m3C22E_d_MfnPflKMw7KbPTITZAsGIsfrAUIGP0PysRVw4LWSrS4BshPztbl1nQDra_rMVBXJtMc7A7--7GaxZIPowqPlbpPMGTBh6n_dFG4
+
+sprite $PersonWalkingArrowRightLg [22x20/16z] {
+ZSw5aSLG34DHFGWdllrtknxjPpx3HYajGDUZ7PZqg09wLff-DCFptGCxT5AKLax68eEY0i7PhjIWx21I2rVN5AHmjKYfWCLTLIK5XwXEKMupoO3bKerBHkTz
+i7jjq9q5f7WO7fr-WeSYaifTjRluMFq3
+}
+
+!procedure PersonWalkingArrowRight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonWalkingArrowRight', $name, $tech, $desc)
+!endprocedure

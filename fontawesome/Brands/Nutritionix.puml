@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Nutritionix
+
+sprite $NutritionixXs [8x10/16z] 9Oc50S104C9IzsR_QT_8AG0BuP1Wladx_UZC6B05DsABbbpFlXDN
+
+sprite $NutritionixSm [10x12/16z] DS450GCm0C2mZddrh_Ry10ZysVdPdYa_aRSv0c4dgFpvip5aBXmnTmJ5UujhAfl8XHrX-PPv0W
+
+sprite $NutritionixMd [14x16/16z] {
+JOw50G0X203jrjj_smU_F0mQZE3C2PtJecK_yc_sJFYYrZZxg6xIsw1lOve7hxdvxsPCvqVxQPCfuibYpKcZKA4ziIMnGD79OnL4NLZ9rhMNI4JxrhQInE9g
+UosKlSi5
+}
+
+sprite $NutritionixLg [17x20/16z] {
+LSZ7OSKW5031VQ1CsFwxDSBfCyVX5Qp2Kbdeq_dKzOgdoH_TJaqi4l-gqm5JVH9JRhCA_nu66M9WQ91TGB71pWqTD6ZAVbCJ4fhVIBNb_cIFyurgXSG13JGn
+zkfzirxUHI6KT542GG4x-Q0mus3mtyCKLtCecU4B
+}
+
+!procedure Nutritionix($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Nutritionix', $name, $tech, $desc)
+!endprocedure

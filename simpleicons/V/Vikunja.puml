@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/V/Vikunja
+
+sprite $VikunjaXs [10x10/16z] 5OQ54S1048J8kzD_jvbR1U3h43ecVGcUlHope9TOktRW6AeOD5G6iL5sx5Co-i4LCF43
+
+sprite $VikunjaSm [12x12/16z] DOo50S1020FfksV_ROlcXSD2ejJ9XNQ1xoYYChC4CRYoWILCZRIsZ9km3wQeVpHxavesgWHZNvN_61DB_HSNVW
+
+sprite $VikunjaMd [16x16/16z] {
+FOs54GL124C3dDlhlzelsHko6XiqCA-bnae02p4ep0NKp34ekV1GE-pIyUTEBe1jJ5K0DNWjKW9SE5NA20ppv5Qql-bUqDLz5FCi_zxxZ_4xUg3f-sJwirll
+_25ZCm-tlW
+}
+
+sprite $VikunjaLg [20x20/16z] {
+LSw55SCm303H2vfz-s_R9vT_E49UjZkT_DhwoAftuQqhkohJdMLeQuVgTUhgCDNaERlMY03nC0z2wQfW63mPRWoLxNhtSIP3ugaRXk7a13QgNnSK_S-Ru1st
+9Rj0pxAxy2xUMg8PvZiTe4r3uZ0SDy0mlFSyk0-UjTixkXFowhoC28OzWY_R8DnR8Jm
+}
+
+!procedure Vikunja($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/V/Vikunja', $name, $tech, $desc)
+!endprocedure

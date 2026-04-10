@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HandHoldingHand
+
+sprite $HandHoldingHandXs [11x10/16z] Oq01_530mCNFpyS7PlBoyp4miO5OS1MyG1fJ6v1YO0JIZ501k5a85WC
+
+sprite $HandHoldingHandSm [13x12/16z] POs30K0X503l6sd_QRExUXOJdoc0QH04ZXWeyvKY2QMr_bYvIjC58anA4IQ52MoX7lt2ZkpEum
+
+sprite $HandHoldingHandMd [17x16/16z] ZSl50SGm0CH01SrM_zKUCsQU2tpa0s3r4JIVeFR7NzSCeTRkfNAyjutDSZyQk9Wzgu32vD4qZkUgU0QGZuNFm4STU9nC07i
+
+sprite $HandHoldingHandLg [22x20/16z] {
+dS-55O0m34NHXtl-_jjoSAToqLg47vMkc4ZFsKmFq6fYPkVPONgdJEfjqgP90zAoBBL8e95g8D5acuIKIna3SP9imPdTMksk3VV0LE1HL78wrscJiTLjwAa7
+FMJmd6NMdRKfin4
+}
+
+!procedure HandHoldingHand($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HandHoldingHand', $name, $tech, $desc)
+!endprocedure

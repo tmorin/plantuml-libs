@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Vault
+
+sprite $VaultXs [10x10/16z] Oq00Vco02op12sGn016G1s41QJ2B1KY144Y40rKdmZm
+
+sprite $VaultSm [12x12/16z] TSg50O0m4C30u4xsdnPtsgkyycJKc6QwQ_TDSfL4OG2LJa465UvytFTpDyEunzuRhUD6ona
+
+sprite $VaultMd [16x16/16z] XSp50GHH50AmZFkd_shNNNDx0bvrvS6cpt-bhSVSJI19CvokT6j56hR3t9qwoKWEQijftgB9mQ0wpRdCGULXBZZzb5oKDTzudQsfELbIsGC
+
+sprite $VaultLg [20x20/16z] {
+bOy30aGn4CNoNR_xdtPHhf4wrGmlMHwOGK-4e3z8npoxU-N8vBTYKHwQd63BhXmnu0HCrTcsjO6jpZSdK7Lh6URXvYm13ISAQt6L2S0yvHtrcKFF49xK2aXq
+h3oS0G
+}
+
+!procedure Vault($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Vault', $name, $tech, $desc)
+!endprocedure

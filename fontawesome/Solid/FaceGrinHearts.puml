@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FaceGrinHearts
+
+sprite $FaceGrinHeartsXs [10x10/16z] HS650G81000XxFRsdrQ_7-3H5MxDd7ELz87mlSSxjBksKg0ykgDmQSGV
+
+sprite $FaceGrinHeartsSm [12x12/16z] JSk50G0X30J1VLTo_LUBsw0naaytsQbY1xcuP6dRIwHytJR-dowG34opMmDni-qhvFz1OcNmfun7Jia50G
+
+sprite $FaceGrinHeartsMd [16x16/16z] NOy54e1G20MVdR3tlwq3ZFNNe4l9P1oTRawAEOo5Bn9xRqlFBHmbjpWRUs9DMS8ns4BUekLex2uoAyzcGF7TW6k6IOLdg2QKET_dc3bX9Xs9Xtu1
+
+sprite $FaceGrinHeartsLg [20x20/16z] {
+TSq3WWKm34NHLxjt_wiT58EFKoE9ZZBfKVeLE8RHalXdIkeyyXwa6YMe4aO69jhytGp6tRgxcNZ6VGvQ84FIANM-CO1wgmSPtkWyYpmJ46LZxRqLPmGC3K2w
+363N77JD_QC0MHitg08p6MChWDKI-2LTcMNiJvy
+}
+
+!procedure FaceGrinHearts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FaceGrinHearts', $name, $tech, $desc)
+!endprocedure

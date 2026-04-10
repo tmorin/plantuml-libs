@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PooStorm
+
+sprite $PooStormXs [10x10/16z] Om01VdumXM3nGm0oYn58yl82MInm2I0FA0na0J436v24QES42g0O1m
+
+sprite $PooStormSm [12x12/16z] FOs54O104CI2Ezj_jqnuoSlvBKX29xcQ8tTpvTLlmAuPpGopBeo3NRf3MBG9inLzsDouCdG56jNz
+
+sprite $PooStormMd [16x16/16z] NOw54SCm40JFRE7ststc8UGLFfyI6Fe5q0yLM1KqWlGSV36xF-pptnuOCqQmxHXT6Z-5jnPcP5x0eSqk34rs7ncJYhJeyXPTMXKiMupubVzhoYO6Bm
+
+sprite $PooStormLg [20x20/16z] {
+RO-50S0W40E3Ex__jBNKuQfO13SYea3USnrVj6pWmQNSP2Tf42LlRg4NSJBN9dFrBTVSuPC1L246WEMVVUpw9TFvKRl4DSUiXsg_f45xosJbE0g_FV0y3yIx
+IM2oMW2jG4nAdCK7nlsWwF50RO-B5G
+}
+
+!procedure PooStorm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PooStorm', $name, $tech, $desc)
+!endprocedure

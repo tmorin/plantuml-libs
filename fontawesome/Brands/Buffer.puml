@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Buffer
+
+sprite $BufferXs [8x10/16z] Oq00RdusC0a2h0mCO1ei0IH1N2O6Tdu-C8iVH3812Ku-49SPIHq
+
+sprite $BufferSm [10x12/16z] LSd70O0030B0itVPVrfRNjud0VoCQS2KLqzI3lNloahBaI2PSIPPb8s6FQ5vsrfNPOSR
+
+sprite $BufferMd [14x16/16z] ROs50S0W30GVTzX_MYofzx3xOFX1vCjLcrHormuaaDg51n3O5GXBnnRLSYqLmCowcvxd2b0kx9oh82sQQo7Ivoj7VdVbn7xzzs4
+
+sprite $BufferLg [17x20/16z] {
+TT254S0m30D0XJdQVzlQLwO_2fhmnnfSUGeS0bV3GHLUk7L_uUzF75Q9QjXRcdd9cB0oZTt0K6I8eTyWxDIZHh8Ph1pLn8NJtojp1iNWsFeA49NKTzjHxDSe
+aMeOt2Q07mi
+}
+
+!procedure Buffer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Buffer', $name, $tech, $desc)
+!endprocedure

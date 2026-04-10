@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Pentagon
+
+sprite $PentagonXs [11x10/16z] Om01VZuW0M410PZ1oGy6Z40XE234P44ePi36P6S
+
+sprite $PentagonSm [13x12/16z] TSr50e100810x9R_lzPkT-V62JRAAT6hUZS5WAS1V8Z6GEC52CTuRpHzZc06
+
+sprite $PentagonMd [17x16/16z] VSl50S1G3CDGbRdQVzeomt-tn3QhIBcgdSGSUXVrKJymoxs8eFCcnGUywvwJYCWRmAiUwBt8WUonWD2ZObRS2YC
+
+sprite $PentagonLg [22x20/16z] ZT350SGW54NH6_Uy_giTYU9mTiXNRfMqunhrLsFPTPfuDNfit2QPglDoasquQtj00NFmTc6Lhw6H3v1d3zwsG2yNVt9ipsPClRE64wUIsu5Jvttz0W
+
+!procedure Pentagon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Pentagon', $name, $tech, $desc)
+!endprocedure

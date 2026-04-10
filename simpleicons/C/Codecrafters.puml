@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Codecrafters
+
+sprite $CodecraftersXs [10x10/16z] 1S670S0W00CWkjoQ_xyjG4y1WT89u0DmEX6L-8X5eRWg51f41svy1-47
+
+sprite $CodecraftersSm [12x12/16z] DSB95O0W40Mmk2im_FwxzKHUGCyBo8udC04XO4FPuORgR2N25bOluX8E3mf4B0y1JAZQ77du0G
+
+sprite $CodecraftersMd [16x16/16z] {
+DSU5eSKW40J0YK7isFwh_VgOqmMEohEOAetbJWEo0Qw2CBMNse0LQf5F7217GpkChIz8uIf25fxWCqUudeKb-cKFndA30OY00ClGBan1DLCTy1Qmv9XFdcja
+m3S
+}
+
+sprite $CodecraftersLg [20x20/16z] {
+LL050i0W2BGRx_-_dGfiK-a68wzEZ6H-BmBL-zH1Las0IWcL1UMijC_q6UEkfPexr2vTJQyqosThmsZzUXWjp1ksClsYH9pg4BS0Bsty9cEJUHQASAQFLV8K
+H-fd_c5WJUOkqBvV_q26qf4AgGrkptszjFLw6Hrh3VONvVIaKyhZbrC0J80uw04
+}
+
+!procedure Codecrafters($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Codecrafters', $name, $tech, $desc)
+!endprocedure

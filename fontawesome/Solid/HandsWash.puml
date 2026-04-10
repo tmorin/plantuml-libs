@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/HandsWash
+
+sprite $HandsWashXs [10x10/16z] 9Oc54S0m3CHKvch_RUC_A_14CSDAS9MptNSQqMosoOD7R9XQWk7__zYcT2-vRmO
+
+sprite $HandsWashSm [12x12/16z] JSl50OLG0C2mmdFj_jD-5t8FNviN3q6Ugjrv0XG4Jc3egcGneZPKdeRuqLdun5Cy_09yEi_p6X9w-BAv0m
+
+sprite $HandsWashMd [16x16/16z] {
+JSk50SCm4CLGXHEJzf-sy8lFU4GSkGSGbzYfJX2MK-0JDh4T4fN9TGTQ8fqLvWgUDFNiq1KAW9fhXQXk-0Co6QC-mE3IQ4z0ym-m6EVy0DG3lz8zPM8X3kNw
+bUy
+}
+
+sprite $HandsWashLg [20x20/16z] {
+NSa50a8X403H8Nu3S__RkjZwO9k7afdgu4DHq9qNhRiNxF9I72XdvKDJTrzjF5o9pKu2ZdJFXueIAcHtS3fDSEZ2xBWk0s38F3dlMUsyNGh-87ko-gs32Lzu
+ok0VWczZweJTfv938YpWDqWgJQUrXWn5JQjEPqW45Pel3Mu
+}
+
+!procedure HandsWash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HandsWash', $name, $tech, $desc)
+!endprocedure

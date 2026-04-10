@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Forward
+
+sprite $ForwardXs [11x10/16z] Oq06_20C9A0KFuW0Ko0CbeG1h4m-k5eUk0dSC7Dvk804
+
+sprite $ForwardSm [13x12/16z] TSU50S1024FHrBr__saFg2kQftjH-UdO409MXDWKls4JP_rYMh6SKGkMCsd1SaP53SljuXW
+
+sprite $ForwardMd [17x16/16z] XSv50i0W00D1xWti_rzRsxe67ouf3wdROHfCHs0717P0O0S4Ta1WXJs_K5T8rhUG4dmBiKTRUyIcrQRnqlb_pm
+
+sprite $ForwardLg [22x20/16z] bSW53eLG50FHViLlzxzQl7d5OMAJWwDU7zt7bAIDQMZeIjgOXeQkf8rfQ6ZgcNeFj3OjDO6aXQR6a132f7zDXQJPC4BfNrD0nOoeMUAi3W
+
+!procedure Forward($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Forward', $name, $tech, $desc)
+!endprocedure

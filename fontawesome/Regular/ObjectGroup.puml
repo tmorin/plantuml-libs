@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/ObjectGroup
+
+sprite $ObjectGroupXs [11x10/16z] BSQ74O0m5CKmqplUVrf8_ZrT4oznlHZWGL54dO0gxEckF7ErREcfuE1BqGlZ-04
+
+sprite $ObjectGroupSm [13x12/16z] HSsr0G0W00F1u4xsdnQNwxvwP8KZkcnvXM8hzK620b9A3CdEe7FbHGL-a5I29vOV97SO72KamxBLEATg6zCE
+
+sprite $ObjectGroupMd [17x16/16z] PS-r0SC00CJ0DxDl_sd3CQgyJkcMx9MArghSCbkdi1TXpHRII8goB7-I3u0J9CKPwhex0_gmmQyJp4bn0bW_CCXUfMpDgYsJTRo_o1QU
+
+sprite $ObjectGroupLg [22x20/16z] {
+RSY50SCm4CNG7pDh_stRCCfuJtPatUjL1XXNcsOOo79Fec0gxLB79GHaNGEAH9LavWxMgZ1ddzeaaPvQFtMKKluwJLTDp4aTT-hHHFnGyLH6pfdmqCASLhLq
+tPfWFeoRCWlotDD4HPLxDgC1KPTcA3y
+}
+
+!procedure ObjectGroup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/ObjectGroup', $name, $tech, $desc)
+!endprocedure

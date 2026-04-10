@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Chess
+
+sprite $ChessXs [10x10/16z] Os1WOEPdW09s68iV2BZXB23526Nnym5vx20MM9mV1uk30So32W8
+
+sprite $ChessSm [12x12/16z] POo30G0n40JVYAR_QcCxjzpyCizMreCfuxwRPyypSQNvJoCRcN_sf4LUTJFBVCLl1rCxVyWZoWyE
+
+sprite $ChessMd [16x16/16z] NOu50W0X20Jtsk3S_x_MxZ77093uU672aCJCDUiXybF4DjSie57K0JPtsEmdX8UmtnDIVnr5mTNlvkzshoS_ehliNolRi72aYmSd6pamRFS390C
+
+sprite $ChessLg [20x20/16z] {
+POw54G0n3CFy30NlFsqvHHtv54JY87UCA0OmyP0NPkOs2WghCytzuk83mBPtZIgc9w_UMnzfLN9dx-JJH-BUtD_Qn4dSO1UtGpFoTUueIz0v3RHHuGMAqwmS
+wLU5dHsbSUkKpSu3
+}
+
+!procedure Chess($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Chess', $name, $tech, $desc)
+!endprocedure

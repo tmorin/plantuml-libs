@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/F/Fastapi
+
+sprite $FastapiXs [10x10/16z] BOk50G0W40AnM_VVrW_E-00Wz9kXFADBGufrDWzjuYF0bRzIao8nAgoY8BFv
+
+sprite $FastapiSm [12x12/16z] HOo50S0W30I_xltzfmNY5rS8zt_0eE5f5D7x-S7IISAZ-STW0tQ9PnrnX6jXvh6yr_yVWpUw7G
+
+sprite $FastapiMd [16x16/16z] JO-53G1120IvFzVjlziF4i94S5aIydcBd0EbQGZdMkWSeWjcSkK1oSgy4qmDVSoryXW3plEzs01leGabQJjWi5TA-AZPJhyR8bIJuw6GWfeV
+
+sprite $FastapiLg [20x20/16z] {
+NOw55SD034F3oQ7sdxPWLFk3vsV1OZnZjcCXJXXzzH689qP4YH5nfjSccWaWrxwJsooXV7iCjuor3SwC2kkwLZ0U87HzBwozVAsHIDTM94CAh0-8JJR6Vrxi
+S8M2NwLmy5RmJAsfIsy
+}
+
+!procedure Fastapi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Fastapi', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Adn
+
+sprite $AdnXs [10x10/16z] DSY54S103CH0XJdglzh0ttZDvZVGJFw0sO3Mgz7weAlU-PqPMC00oC8B
+
+sprite $AdnSm [12x12/16z] JOY50G0n2CJktR_xJzlYa0eX41OOVsDErcPyLYNCyczdAJeMsoUT6xVtPqzmfWAVwGvYzZe
+
+sprite $AdnMd [16x16/16z] LOw50S0W4CHInM7_QN4D-duqheV57IgUXWk33y26nSr8fZ_zlJ3rLSqsX14OsROvdkeioPZHnxoh9QktAxNuiFF2OGFVQSAzp8uQuY41
+
+sprite $AdnLg [20x20/16z] {
+POq54e1030DpYZV__otJcnHTBEnL4AI2Doi7Tll66wc5JxAhpZVk52t2SOtdFID1OSOHSK5q7ioHa-fzKtGNTJxNwASEIhfTsaTMzmuZhJDe_g3m2u2lwlZ9
+7Kv-At6y6aLQp6iQ1YS
+}
+
+!procedure Adn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Adn', $name, $tech, $desc)
+!endprocedure

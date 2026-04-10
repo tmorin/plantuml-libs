@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Keyboard
+
+sprite $KeyboardXs [11x10/16z] Oy0AkFWHW8-1XG68-1Z0F4nHLC02qix7py-C448o5m
+
+sprite $KeyboardSm [13x12/16z] TOo50O10482mM_QVrcx_kKxY-28r7TAwJFjKHLgIX1frt6HBZWa95VvulUrM1XKVy6G6
+
+sprite $KeyboardMd [17x16/16z] XSl54GGn0CJ0CRELVxJ7kDYbhtGkzZyciX8izbR0fcax8BspLHcOWt5hFdeimXZaK9xQN9ZCMxnwSFOXywOdorjl3uz1BEZK5G
+
+sprite $KeyboardLg [22x20/16z] fSp50GGn30D0cJOSzL_jCJFCnspyR_1Uhdn2bKMThksORanWEa30Z-cM2BCOJUenVGwO2K8W7TFdVzqvh72nSKnV2XnDdld3Bjj1vuxn4SIuq_2DDG
+
+!procedure Keyboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Keyboard', $name, $tech, $desc)
+!endprocedure

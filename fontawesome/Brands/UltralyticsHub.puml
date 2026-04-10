@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/UltralyticsHub
+
+sprite $UltralyticsHubXs [10x10/16z] Oq00Vdv-FZYB7y7YvmIp880PokA5YN621C4iT08emyG0OW
+
+sprite $UltralyticsHubSm [12x12/16z] Oq06pFpy_30sFmXWOqC0BumDauEp6A5iFXOW0MNZ9A56mOrW
+
+sprite $UltralyticsHubMd [16x16/16z] XOo30S105CLIkzb_sjey_aTkgr2J7UQEQyVEwmzhjUATkM3R8uw0TCUKS-iAw_bRyV8N5zmkVxFyQo6aom_QZ5-e9VG
+
+sprite $UltralyticsHubLg [20x20/16z] {
+RSk52KL144FHl7MV_glzEeIrO9S3mNr5HC9AyjkOASb_PhAXLkQhhYt6PTgy_j2csTbcd9y041PpA2BjcIs3PngQ1cYTPLYLPT6r4it0QW6PfMa0a80druJV
+J2aMm1i
+}
+
+!procedure UltralyticsHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/UltralyticsHub', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/GithubAlt
+
+sprite $GithubAltXs [10x10/16z] Oy06-A60bO43oWA9mPZyl5153238m08a8Imm2MOmC099E
+
+sprite $GithubAltSm [12x12/16z] TSk35KHH5CNGV3mZ_LSxDlR2vU4lPKdBgh1u1_kpnoVqcNDD0jB4fGYuPCcJimKNO8wMsXYyEG8
+
+sprite $GithubAltMd [16x16/16z] XSU30KLH50EmFFjs_sc_pHpMNylaefux95dN9CS9SlUM2sCUaIURfBXA8b6dmXBDESzPaTJEkKk74bLwCgX0PGkKqbQe-gp-sWC
+
+sprite $GithubAltLg [20x20/16z] {
+fSk30KKn5C3GFDVPVzfl6wUyuY-B5WxwfW3Uc1xa1Y1uwV5ilMzJQDwQs7UVg0cLpinMQw0PZKG56BL34zL0skTcxT69sK9lOqlt1-teE4ecW6hce6j6zgPK
+wbQ9FLzO0m
+}
+
+!procedure GithubAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/GithubAlt', $name, $tech, $desc)
+!endprocedure

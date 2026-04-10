@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Ideal
+
+sprite $IdealXs [10x10/16z] NOc50O0m4CI2Ezb_MfpQoobXRExf1G5Lzb-92hm_uJGxDIx-RQbQQjzPu0G
+
+sprite $IdealSm [12x12/16z] JSc50SGm3C10bS6W_QTzXbvYvi9wQGSGs2EEWNxruHDAZnJYZgK1phaXmUhHdiVh6BvS--7VqpB0y8YnwBUSWJi
+
+sprite $IdealMd [16x16/16z] {
+PSY54GD13CLG7IpPplx-kyqSamQVUDMFeWwBnTdmiyDQQejEBysu66O8USXaYwME-U0-2cUnY1Wxj4LC1gvc9clhKKL7BzVfQVh3f5b4P2B2oq2fQDWRK_I1
+Jty
+}
+
+sprite $IdealLg [20x20/16z] {
+TSY5WS0m3CLGsIa5__xJ7fHHGJzU2gVScDF9Xg8s6tF-du6Lj9lM0cExcpAfkvj6998qOHHSXlW79Cq_JD0GORPAf5Yis4Hq4yG8KIt6r9HY32Q6lmSTkOii
+JMTZV5YZFimeTtF4nLe7ivwpr0nqAVFLBm
+}
+
+!procedure Ideal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Ideal', $name, $tech, $desc)
+!endprocedure

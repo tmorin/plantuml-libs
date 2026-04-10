@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ArrowsSplitUpAndLeft
+
+sprite $ArrowsSplitUpAndLeftXs [10x10/16z] Om03Vdu660FAv6VcPu0BGaX688QfOGUn6Fd1W07CXAY3wM02Kr0r
+
+sprite $ArrowsSplitUpAndLeftSm [12x12/16z] HSgr0SGm04DHkJa8lVsd3Pb-8qo5D0gCraRhOwj6qdnXUF1z_G-e_U8_FlchVd381Di5
+
+sprite $ArrowsSplitUpAndLeftMd [16x16/16z] NSxL0KCX44JHURXF_zN6DelTBmuEZIGmU_XjewHkB8DsJEF1eC4ZuufF7y-pZrXPi9bI_7jmDjVDfwxMZqv3xk_JyWtFhfxdUhicY3S
+
+sprite $ArrowsSplitUpAndLeftLg [20x20/16z] {
+NSxLOKKn3C1G-p9h_sdRHqPz9ISe4O2K1jvTnVXLwO8RZcpZ279pIkvjeZuBYnVNRe2QnRycgSQlPtLxYCoqMFoAyRTg5kCzJCRoFskr0uFqW5craFsXul1y
+x1y
+}
+
+!procedure ArrowsSplitUpAndLeft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ArrowsSplitUpAndLeft', $name, $tech, $desc)
+!endprocedure

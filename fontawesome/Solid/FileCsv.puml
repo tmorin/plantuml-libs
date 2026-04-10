@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FileCsv
+
+sprite $FileCsvXs [11x10/16z] VSR10K0000IW0m3QVre0JxrACEG2rg-v3uct_3SF54QwkqMeYXq
+
+sprite $FileCsvSm [13x12/16z] XSUr0S0m00InCxD__sd3r4MTG9l4IOV-IL9zGrPw4iBKcSj_s5snJCDac3rcC0NoLmoAwYi
+
+sprite $FileCsvMd [17x16/16z] fOor0GCm0CCKvlZ_Qyk1lTgCaFN6iqZw4fSnlr8At8QtQxKCl6Gkeq5GlOpb_clSf_nOHgLEHvqc-l8n2l92bbx7Cd1eKDh4_8m9VHZf2G
+
+sprite $FileCsvLg [22x20/16z] {
+lSYr0SD040315TF_RV_LciGGUy81iZy3Hww2NULJryxQSUxBakQ-B9Eco_P0riiQ7zUT_MkdQdRQbjs-C4I6De8gazSjr16LJjotYBwqOTxITG6LoaB8wpf2
+OOVX6m
+}
+
+!procedure FileCsv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FileCsv', $name, $tech, $desc)
+!endprocedure

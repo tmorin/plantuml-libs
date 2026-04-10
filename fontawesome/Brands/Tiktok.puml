@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Tiktok
+
+sprite $TiktokXs [8x10/16z] Om01VY06qsnGcfyPIlE32B0yFuJcu8UevuNG46a83QO
+
+sprite $TiktokSm [10x12/16z] PSR50O100C2muaxtdnQNaxp2HI7V-4t3QOzovbcjS6sLPwqBJ0w05tXQ03i
+
+sprite $TiktokMd [14x16/16z] PSxL0O1G34FHuCxTVrgiWkKhvsdbWS6AQtc9joXVWf_gPJtLQC9MJJAy98KcWsjDrP9QQEr8wVUcUewVMom-LdMXkFeE
+
+sprite $TiktokLg [17x20/16z] ZOo55SHG3CDyM8xsdxRiClbZb1V9AG0vpq5i0Ros08x1-zs3-0DZxzq3IJyfmC2pQm34Iv91Qh51GBK2bKShABlt3zZrzuUNNhYX72VJa030Aciia1e
+
+!procedure Tiktok($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Tiktok', $name, $tech, $desc)
+!endprocedure

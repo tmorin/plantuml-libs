@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ChartGantt
+
+sprite $ChartGanttXs [10x10/16z] Ou03NduOYvyVYFYXB8GOI90VLGn2WG3253Oe08f30G
+
+sprite $ChartGanttSm [12x12/16z] JSQ54O1G0CMmXplTVrgStizPKXY883FmFtLT-RHTr_q7g9uBpE3NjOAe0wNRTG8
+
+sprite $ChartGanttMd [16x16/16z] NOn50i103089lNKZ_tzjNTZC3KN7Prb5cBiFqMiTY0P9K_towdjHzkdbqhtVTQIhFazKWpJHRobT6AWPD7O
+
+sprite $ChartGanttLg [20x20/16z] VT254SGW40NGjTF8xx_R3EwySLYd6HsVBc1uWtlxmh7cxGT7cpTY4U4cjsZVZjivcpS4NBzz3-UthrUeAdTlSBgt4y2zhZVUvTqHmeXiyZRn
+
+!procedure ChartGantt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ChartGantt', $name, $tech, $desc)
+!endprocedure

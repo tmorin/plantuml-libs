@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Code
+
+sprite $CodeXs [11x10/16z] HKo50S0m39gltl-lZRi7EDIUmstE6BUrXyUvgLB-qjVcH-4YLra7vSNZK8snKkgKXW
+
+sprite $CodeSm [13x12/16z] HSM50S800CJ0mvtiFotK-v80lEsvPqzVm1ETlA0GHU4JwXlqmJM5SEv5EOVUS52JW6xs1FW3
+
+sprite $CodeMd [17x16/16z] NO-30S0m403hnhV_jB7Vnj717YkSR175imQWcwze0Ptz1_884pbP5znHwMIR585dZ73WS7rcKUJ8orzyqqNtYvDuERQOP_VbVhTZSPT70W
+
+sprite $CodeLg [22x20/16z] {
+XP25WKCn3CNqcQFzfxrhQwSC2eFfSK_fUMLKNZayU4L7NcZqmT-Q3eHc8vYr3mT7FW6JkT4EUZNIoTTO1pNUqcsfMLkkwUYS5IhcTQDDshY2EW2hrfzxcDg0
+uNRJp5XRoAHt3v86EgtxEtOBh-Z2AzhyLF4V
+}
+
+!procedure Code($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Code', $name, $tech, $desc)
+!endprocedure

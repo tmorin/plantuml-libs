@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ThumbtackSlash
+
+sprite $ThumbtackSlashXs [11x10/16z] FSQt0S0m0CCmRkxc_zUcHvZGnDi2ndU0cTrFMQcvojREPyylLfmfZXC
+
+sprite $ThumbtackSlashSm [13x12/16z] JSc54G0n30D1FPEJwx_QvzY-8UreGnrlkZlGygBxrOwxGeDBhHgYYgOUJ0qoi_MMAQBanP4WzWi
+
+sprite $ThumbtackSlashMd [17x16/16z] NSj50S1000F1bBdhN-qnppDmiMiXaVUmw2OwvRtCmljdHHzpUKG_9UWJLKDmZ0dqoKTCIW0bsMCoEvDFPdKcVbKWpNnze8Mt3xJoM
+
+sprite $ThumbtackSlashLg [22x20/16z] {
+RSv50W8m30NHZqCbS__JejMGMRvAyW19ZAg-fG-V9f_qBN_uEbIjXEdcJ5A1uhHzqZgiNDminnTjrV-FRobYc6phwuTa-ngmSjectHkVvJEAayPvX-yVWXAe
+Z1Ie80SgUBm
+}
+
+!procedure ThumbtackSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ThumbtackSlash', $name, $tech, $desc)
+!endprocedure

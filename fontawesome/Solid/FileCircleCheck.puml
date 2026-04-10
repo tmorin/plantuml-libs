@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FileCircleCheck
+
+sprite $FileCircleCheckXs [11x10/16z] HSU50O105CFGu4xsdnRlyVKLr0dWaUw5k1TYg3zXRrzMuvDp25iCLKy
+
+sprite $FileCircleCheckSm [13x12/16z] JOk50O0m4CI2Ezb_MgJUlfs1wa9yXdSsO76lWDMbW6cw3Q242e3Zog0FQus043I3Kon0hWBki5u
+
+sprite $FileCircleCheckMd [17x16/16z] LSs50G0X30J1UrVO_gl5tHb88jt4jgksYzpE2ZPVuPXWNs6RG3ii0tpImJj0rXakQO9m_CtQOIk71ZhpRbgLp53W46p8D3WLSQU1LLGYB33kbmS
+
+sprite $FileCircleCheckLg [22x20/16z] {
+RS_L0GGX54FHZE8l_LUxWcRbVfuH0e32Me36aGaU_CTdfpjELaMUh8f4vY_rRSsNqbw9Ql5NRPCDEjTREQiAUjOsqMqWAGgmTf9vQeBhAqZAtOmyp11L7Gfv
+0WTLCsw-cLLtFMsUWSBMANEU
+}
+
+!procedure FileCircleCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FileCircleCheck', $name, $tech, $desc)
+!endprocedure

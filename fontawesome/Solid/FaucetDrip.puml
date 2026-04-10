@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/FaucetDrip
+
+sprite $FaucetDripXs [10x10/16z] Oq01_30Q361Y245640K321O_J9OVhfYJ4sue2m
+
+sprite $FaucetDripSm [12x12/16z] POg50S103089TRtzfwth_yK3Ik5PJcBVmwQqKqz40yoxXPVlZiPntkUuxnirWpISUqwl5G
+
+sprite $FaucetDripMd [16x16/16z] RStL0S0m24LHe6wy_QTjt7EYzmkQU-l_-mBsUa8-I9Wy4VcmYlWCFb3j0RwD0bM5fthQHECWj3P5oqtRuCZYs-4FJnZJpcLcQjnjBY03
+
+sprite $FaucetDripLg [20x20/16z] ZT2r0G0X40H0t67xh_ObmMqYz8niC3QU0Tssc9tH4ei9GB0k9WN6j42Vk0qcq8Yg9AtCpZ0xSmgZBc_Te0FyNuelPuMrLf8RIKo7-m8
+
+!procedure FaucetDrip($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FaucetDrip', $name, $tech, $desc)
+!endprocedure

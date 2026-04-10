@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/M/Materialdesign
+
+sprite $MaterialdesignXs [10x10/16z] 9Oc53S104CDSvdZ_RQle3u80bpiTXTMhOinMrI9UKzMtH1cRQr_5B4HQIjLjEWAxNYr-
+
+sprite $MaterialdesignSm [12x12/16z] FSQ50O0030F1npNz_RV5kKh2PNFceUiOlQfhSoclQawQOAE0uhOq4SOI7PiCSaqjQO9JuJLd7-NflmaC5-lwqT8P3W
+
+sprite $MaterialdesignMd [16x16/16z] {
+JSvN0WCX20RX7pTTOUv_smYaxBnzLbHTdMdwvdJt9joKJQBvR_LXF8CN9cw0TWD6S4LulKGm3ZmzaGnZ2DBQ1mYbPtbYMDdATMxxXbZfXQK9tJadAPYZYnxS
+YKFIZMHcLA7T6m
+}
+
+sprite $MaterialdesignLg [20x20/16z] {
+NSu74iCm20LHS5VT-zys-P3gTNyZCRPNPT8F-sddrV0t0LtF3IX9abSEDUZMhbaD6D642LfcGCwkC4ykfyj6630D2cuC40tMiAdjmm85KmFI1cwDHLReQPvh
+PPs3JHPJrZ3GAHF6I8z9YqpFiFvyElVovvdlWX9FYxoX2Ue0gAM_DhugH2CNFG
+}
+
+!procedure Materialdesign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Materialdesign', $name, $tech, $desc)
+!endprocedure

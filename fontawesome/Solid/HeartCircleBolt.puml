@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HeartCircleBolt
+
+sprite $HeartCircleBoltXs [11x10/16z] JSA55G81042XRxViFwrnpQEDA_jGcMNHsUZqAb3lOnsnkqAXSP5hgRh6ZYy
+
+sprite $HeartCircleBoltSm [13x12/16z] LOk55O105CE2Ezr_MrxmotSf9SaEVLBRosHgi3oG7zHtiqBFVO9b0nhx6lC8woNTyOw3cjQ1tKllHNhsg3q
+
+sprite $HeartCircleBoltMd [17x16/16z] POu30W0X50LdZNJ_qsOtyVl1ogykW4Sz12uJWFoaJmE-qR5XHax-qR7JKXuIhHrIxSrpeBC_T-7sbpyAOaWIEpPj5_6x9mS-sH-viMK7MiVi9roP40pD7WS
+
+sprite $HeartCircleBoltLg [22x20/16z] {
+TS-53SH044FH7uO5zz_joRBWGY-uDC2dSHh11l_4BlDGLh53CGwoJAE7qLiVAkYfGzD3WrNwTovhAy3_qG6pyX-FlRSP-vlSy-SZisBmPFp5oAcJzjzUOPEq
+PeHrIPlV8p0MpvfdVNHVmL-YgkA6ZXo4s9Dj69BZpom5Fm
+}
+
+!procedure HeartCircleBolt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HeartCircleBolt', $name, $tech, $desc)
+!endprocedure

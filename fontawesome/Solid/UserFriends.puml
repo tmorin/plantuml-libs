@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/UserFriends
+
+sprite $UserFriendsXs [11x10/16z] Oq06_FpyJ0WcFuX0OhA2cH02NHiR0oC_9qGfFmSpI34_681544m
+
+sprite $UserFriendsSm [13x12/16z] RKo54G0W44BE2tl_QUrkVHBdOWXXWb1MeSm4zMd03O3wwGP-RPHeUaOYFqH-PfqPmBM_0PkV1
+
+sprite $UserFriendsMd [17x16/16z] RSq53e1030NHmPsv_sr9q-3xejLFGQDsF1XgO5e8gs63ixzh80V0R5ZnR6208I_3vduEA9ksYTFZwHaxcHRMx7W2m-1fmG-oxsd7S
+
+sprite $UserFriendsLg [22x20/16z] {
+VOy55iKm20GXxdl_qtvfeDxEitsJOFG8Tw3pMMB17Et0v1STW3Oj1AqQHwjLVBGI_D_McTlnBwt3MDB4b3BtyZBi1RQMpyvZ8SZjUP45GYKQUdl2IYAhguav
+tD7ztWPgelTsK91qj4wAzZRgx2y
+}
+
+!procedure UserFriends($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UserFriends', $name, $tech, $desc)
+!endprocedure

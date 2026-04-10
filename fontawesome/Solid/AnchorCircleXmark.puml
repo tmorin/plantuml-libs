@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/AnchorCircleXmark
+
+sprite $AnchorCircleXmarkXs [12x10/16z] FOU50S1048EeQvxzfwttEGdX9Zq_QYsI_Buf5LiU1iV7om3gvQqgFAlBBPEFimb4AHfF
+
+sprite $AnchorCircleXmarkSm [15x12/16z] LOt50S1G24DJj_3V_jFMXUO4KPsOGWa0-Mr4VYdytNL-JLBkrpu_EDuUOBWK5-4e8zUCfmgkd8BPota6Lo-84ni
+
+sprite $AnchorCircleXmarkMd [20x16/16z] {
+PSv50iGW40NHdmINhlkVTWGPhHqFQwqoJZy1z6zAs0NVrhdKVko2ne-f0PV-yDH7-VepWx3DMTkJ4QSnalm1_b3Zc3HdX_6U7AY7kSpqOHLCOfYWFQsCppfe
+8g03X6cPRFnjZFmT
+}
+
+sprite $AnchorCircleXmarkLg [25x20/16z] {
+RSy5WeGm44N1ZuntgFkVTgtN9m-da2JVtTmpQG7RC-XcSCawXrCo1uNvpzapwM39h7BaRwlR55QCNt1N7_FSQMbu04loK926GPSaMn_AFIktmKRr5CuVi6Mm
+nnBzR1zAeYT9mu8VM7uW5zo7FSKQUsZ85LJ2WUAHRdb0SgFBAm
+}
+
+!procedure AnchorCircleXmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/AnchorCircleXmark', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Messenger
+
+sprite $MessengerXs [10x10/16z] DSR50SC050MWryQL_QUDVqxaCXbo0_OAQvG5QGJaCjB8JX0bKKdb1
+
+sprite $MessengerSm [12x12/16z] LOo34G0130JVHl_LnjnHSXgO-py7vLVYPFWCvBxrU3Nv3AjOkozi97yMRTqdpb62KJlb-kX2
+
+sprite $MessengerMd [16x16/16z] LO-50G0X24N_dTtxJsk2yKmQCD6fX1zC8VoKld8Wwu55HYyvpjkaVaed0-oREOq00WKPd4AEl0LbxlTlvY-G_E2vlTEWkSMduGoIOzhJDG
+
+sprite $MessengerLg [20x20/16z] {
+RP052WHH3CNUwFVc_hTTodZPuA7wT30LOoIzA71WorN32ulA6Uu8TAaIcKAP0Mq1PrK7s5LT7axI0f-5kZ0kqgKoJZlArlTT2wxig1w74v3vqFxUB8XbYjBa
+hA4gXlNADC-vjfgcG_m
+}
+
+!procedure Messenger($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Messenger', $name, $tech, $desc)
+!endprocedure

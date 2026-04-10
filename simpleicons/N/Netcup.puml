@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/N/Netcup
+
+sprite $NetcupXs [10x10/16z] Os3W1mDU40C1E3avkM3Y350f1ZP-mYnUk148ym
+
+sprite $NetcupSm [12x12/16z] ZSQr0O0m0031nvtVVrgSI9Uh3bPV8nYjPdYytzds6b_ijaNlagEZ4KOd
+
+sprite $NetcupMd [16x16/16z] hOkr0S0m4CJqq8NsdpPaXjAg3a7FAx43dokuNYrVVVoK8G7B9t0tg0RlSRrdulUhXTvxQny
+
+sprite $NetcupLg [20x20/16z] nSYr5O0044J1ZplRVxMuxxkO2GUezJ1aGAQF4MJwMe5cruww39nQFz0DIaa_tk07qGrocHoZLGczrGm
+
+!procedure Netcup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Netcup', $name, $tech, $desc)
+!endprocedure

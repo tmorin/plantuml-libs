@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/GlassMartini
+
+sprite $GlassMartiniXs [10x10/16z] Ou03FduOO00Y801I40pb8oI0D901PJBWPa5COm
+
+sprite $GlassMartiniSm [12x12/16z] XOT50i0m382O-_Z_QoVLOscJ05GMA-WPKJhb9vmGGMC4pI6PlYfTqtT_EdW1
+
+sprite $GlassMartiniMd [16x16/16z] fSgr0S0m34HHESn__sd3ejglEn2bZcGxo0Hecyy0YyXJlieRjT2eXKOjD6h1Ae56TL0gyhx3lcyQLrxlvG8
+
+sprite $GlassMartiniLg [20x20/16z] jSZ50G0X4C30SvV-gyK9_YJepb1hBfg-lsohs73eYpOxWH2O40Y1K8nGZ108HVt_sTd6KTauHdB-lgP9
+
+!procedure GlassMartini($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/GlassMartini', $name, $tech, $desc)
+!endprocedure

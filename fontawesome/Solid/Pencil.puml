@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Pencil
+
+sprite $PencilXs [10x10/16z] FSY53O105C3GSX6SxZyjzgMnbv99DDG0gQ7yckoJQk2MGDR0eW4U
+
+sprite $PencilSm [12x12/16z] NSQr0S1000IWQ-B2_jF6zQd8RMgUOlxSjJxtqKLzbJvFDMNdfv7sRgHMdnsGome
+
+sprite $PencilMd [16x16/16z] ZOj50e0m40E3E_F_r-Aqcrld55LWsnG1SEk1UR33Aw7thrcGsw74JapHYarZiAAJTlhVrYoGhO2zKUO4
+
+sprite $PencilLg [20x20/16z] PSs73GKn20HHp8yNf_zgBw_4ogFyR22yXGpl1V0pIkYHk_8hXNMNiEmI_kh52rTH0uJ-otSft-MKFGKz9SCeKXCj_avndHz4ilPVdFvSlQAqmYHGEm
+
+!procedure Pencil($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Pencil', $name, $tech, $desc)
+!endprocedure

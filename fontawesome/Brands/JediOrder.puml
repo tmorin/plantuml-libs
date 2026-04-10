@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/JediOrder
+
+sprite $JediOrderXs [8x10/16z] FOQ50G0X08JuxcV_QMszXA6LYPaqYPA47RvTET4x_OtdxiEBbk3FMtu3L8W
+
+sprite $JediOrderSm [10x12/16z] LSYr0GH100GWpcLb-g_sNGdnRm1E9YhJpa98MCco9xDTpNQkuRHbcn938P6OCqYNB4Eql7v91pKdhW
+
+sprite $JediOrderMd [14x16/16z] VS75TSH0040ncVqCy_llDkVGIZxRCME2USQ26vgnuNxHZHqrpKlXO2sNYfDglQwQkNYhkIVSaxcxhM9_cIftMPxk-QZXhDlPhC9JYzormrPteoO_V04
+
+sprite $JediOrderLg [17x20/16z] {
+ZKw50GGX32lkPFzjl_9kTwbRW4x1lzNfdcKB4EVKRV7pqV2G0Dnv6WP7ODmQ07nsq9N0rZdD8x3Vrk1ipRvi8oez8akxDnomaEt2bIlfegaDsjCQdOmZOdbA
+F6iahrGALNva_8s38-QecZ24rvVhmC2v8D4tN
+}
+
+!procedure JediOrder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/JediOrder', $name, $tech, $desc)
+!endprocedure

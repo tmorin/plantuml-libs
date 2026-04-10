@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/I/Irobot
+
+sprite $IrobotXs [10x10/16z] Oq00Jdv-1duGO621io00ZGMLPGQH80mHXn9mBYiGGvW
+
+sprite $IrobotSm [12x12/16z] LOg50G0X30E3Ezb_sXUSGze8BaW1_gX_zv8D86Qu44hR1sEt8GIsFPDkrEMtegsZfuwz1MDlGtgoZ9ql
+
+sprite $IrobotMd [16x16/16z] PK_50S0W43lwm27xJuk6gwK2CKH-280LWmK_-1mbOYEHLn0ZKF8e3P0hx8UhRwi54ROkXpF6S6QjtEMrisMiS3HZB9mmTnf6-Rh2bVSbDD01
+
+sprite $IrobotLg [20x20/16z] {
+ZOw50SGm30DL9h-z_xOVgSoza6B6DHPH0tK8RsdgAEMP0A0tGomCG2cVR6jWvSOIYM6oxVXe-qqzY8NnEv6nHthRjMyn5ydHxqnaNp-RPITXMEH-4AUeeLx4
+rd9huDvMJ4ObE4PSjhotH3lPCYF37m
+}
+
+!procedure Irobot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/I/Irobot', $name, $tech, $desc)
+!endprocedure

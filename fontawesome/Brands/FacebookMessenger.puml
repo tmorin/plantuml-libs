@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/FacebookMessenger
+
+sprite $FacebookMessengerXs [10x10/16z] 9SY72O1G3431HwJOtNzREVwb9xRY-fYwlwK-IDt6-DVXzpowWgnK7qVz
+
+sprite $FacebookMessengerSm [12x12/16z] HSR50G81402nmPtqNotERLxfOzCFS9rYod7vYR1ghJrhz8ReRXTaj9xMSThA7Rlg2G
+
+sprite $FacebookMessengerMd [16x16/16z] LOw50G0W3CEAE_l_Mbo3pei94xXech1fqi5Dys81Goy0VIHST-WNxwO6G09nsql3-Aviz6lQKVIFoTEEzCB-WUaNcF7P1eD4IlZe63eL
+
+sprite $FacebookMessengerLg [20x20/16z] {
+NSx50GDH203H-R8kz5zjR6BBk-7mKHeNPGlDV9XHDRM7r4rT0IMotERAq78QHyI6AVSURgfs0VG9JdEsQJ5oQu_H7pwvWyDcxsolrMVwfKG6R2bL08wGHbwk
+ot9kuIFsGgcrWku
+}
+
+!procedure FacebookMessenger($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/FacebookMessenger', $name, $tech, $desc)
+!endprocedure

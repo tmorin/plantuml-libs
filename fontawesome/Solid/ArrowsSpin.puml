@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/ArrowsSpin
+
+sprite $ArrowsSpinXs [10x10/16z] HOlL0S102CLIzsR_QQjta1zuXies0goAkeWAeCW8nIsqKtc4WcMmpkPqPr3HzGO
+
+sprite $ArrowsSpinSm [12x12/16z] HSd50S8004MnXplPVrgeDwSllNdtkZTw8aYXEYCUO-vBck6bpV6xHUt060vzu3XcBpTuZfbEyndkVm
+
+sprite $ArrowsSpinMd [16x16/16z] {
+JSw54S0m30J13wDy_NURdnXty8pIWadFC-btviOEAQJxRsq9uj_vsoPCGLpebt3ZcFvyi8rNes3LQ6QirpLABA-r9iit3zqaRFuxU41WQsxOtTCBnFhtDGp-
+Ole
+}
+
+sprite $ArrowsSpinLg [20x20/16z] {
+ROi53i0m3CHkK8Ry_xS1PJmFJhLSW9G0j1xXhEO65fj5p0PK4gRtL6J5knCY6QfEvmS4wGiDTzESjN6vCdCRJkfGYkWty-kMbT9BVIEiFouJ3L9kzrsTDLND
+LbFhsJGDdfrYK-KRs-Ak0brye2imQUJJwJ8
+}
+
+!procedure ArrowsSpin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ArrowsSpin', $name, $tech, $desc)
+!endprocedure

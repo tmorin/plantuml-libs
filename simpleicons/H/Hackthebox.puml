@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/H/Hackthebox
+
+sprite $HacktheboxXs [10x10/16z] NSh50O1040F0EVZWwRzQt5TZO0GCaHeb1Mr8iB_iP_zKGGG_z6GX-ry
+
+sprite $HacktheboxSm [12x12/16z] POt50S0m30ElpBtzfmtw5pDADFaWvFLnQzNYNJTEeB7rHPs0NNzaKfIvrd3LLTJ8KBykhJuRXU9iK4zgpHa
+
+sprite $HacktheboxMd [16x16/16z] ZSw53GH1581GrdtelzgJdx7u4drHo3r4HUfEQTU1HSVGg0i0bmcuJPGKaZv4e-5dr0j8IXXEVNIa6FI4phEyzA9Jzgxbw-T9LuYIchoWDAf4Nm
+
+sprite $HacktheboxLg [20x20/16z] {
+dT350SCm40NHRxP5qt-rWONGCNDyOYbRkdwQEd1-KOCgO55sG9Ea6VfaCW6Jl0kwf2KcHO0PvKrX5LXD2enXDga2qcvZnIsk1vUKblUGlas5wGyxlcpWJrjU
+TaADBy1j0HGLk3hRYFT4M4LVpT0KtG4
+}
+
+!procedure Hackthebox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Hackthebox', $name, $tech, $desc)
+!endprocedure

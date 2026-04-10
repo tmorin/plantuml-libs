@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonBreastfeeding
+
+sprite $PersonBreastfeedingXs [8x10/16z] LSMf0K0X042XzqyriV-sPYbKgIeSjwgwy5VWYyGa4Neef0q
+
+sprite $PersonBreastfeedingSm [10x12/16z] RSl50SC03CLGbRbl_sdBc4GN-rFLJ2ymyPqQ03uFTJHRwqoKjfpH1Zf1dqcxHLS
+
+sprite $PersonBreastfeedingMd [14x16/16z] LSp5WO1004FHu3wl_sfNSFujcfrHbPk2xbPGFcgxrO2ygF8mRzksdCQ8-wTriIQXDBGzcXIgb2rP_wL_DKkWm9Z1Jh3h6Kaga7uNfyxEBm
+
+sprite $PersonBreastfeedingLg [17x20/16z] {
+VO-55GDH20INSv_-guqWyTnyPH-ge3qslJ83s8l0dVLJECuyUW2zCGrwn-oZYDDys31ysE6p0FFzR57A_1wmS5rrkD2IlapP4aiDWClIHlOF9QtfFEFixYCd
+l6NUHh0yXxy2
+}
+
+!procedure PersonBreastfeeding($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonBreastfeeding', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonMilitaryPointing
+
+sprite $PersonMilitaryPointingXs [10x10/16z] Om03Dbu8pGy441ONFpyV0mJ0X61S2624yHYXyY06bCd9oSdB3pUF7m
+
+sprite $PersonMilitaryPointingSm [12x12/16z] HSt50S0W30NGN_Uo_xHnUHU8msqFmX1J_2U1y4iUtLJrQ1a1MZc4ViSNxLRk0rf4BwwxCpu6
+
+sprite $PersonMilitaryPointingMd [16x16/16z] RSx50KCn30DGVGvh_sqRKbnwDxCXfqjO4fiTozx0f2h2iCemJutnLv6yjP3B0yw4GbkHwLh8It6hDdg-Xm-fdxO6MGqXDniK9pRjWHS
+
+sprite $PersonMilitaryPointingLg [20x20/16z] {
+XP035iKm54IdYBN_rNx4pcsZESyeF5GQrBZ0FT5mGdepYnhYDO4noU1j93Qu2ZDA3fUF-1R5ucdINC7gXwoqO5KRNjwg4wCL-wqN2U6vJ6Lu1O2YNNccjDZL
+yRy
+}
+
+!procedure PersonMilitaryPointing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonMilitaryPointing', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Gun
+
+sprite $GunXs [11x10/16z] Oy02c5dvaG4R1F0YH3XO6HY05900gmUBSO5OVFpyh60XY3m64m
+
+sprite $GunSm [13x12/16z] Oy01-1du-5404mpmem8U11Ea3q834PJ3mywEnE7XWR2v8QhX4WWE1nyVCumD
+
+sprite $GunMd [17x16/16z] XSt50O004CJ0u4xwhnPtdT_fygE0-gYryYu9TxM3fjxv8FAWdPCSn53Ah7G0M3DpnR4nH79ifEno1nmqryPL3m
+
+sprite $GunLg [22x20/16z] bSo55SGW303G57Vsd_Oizt3zBHQ3KtGOZ1nql49g_svHy_6Sulm16_0HhBNkitD06Fs-R2GOIb6yGHr59WL5J08a8OrDqe1d66s2j9c8db-KmO4t
+
+!procedure Gun($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Gun', $name, $tech, $desc)
+!endprocedure

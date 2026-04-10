@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Steam
+
+sprite $SteamXs [10x10/16z] Om01PWOmOES70H03GWCHX06aaLWC40QA13yt0oC_L1SRDrmjX04
+
+sprite $SteamSm [12x12/16z] BOo50GGm20Elxit-qxv0hmeamKWyhlvq01bNvtLt62Xw6zXBc838sW9lWpy3aYa538zbACpeNmirAa1-NRu
+
+sprite $SteamMd [16x16/16z] JSk54GCn50FHFJPl_zM639Ctz46YsmvOJdyQNNMw_jPsthglS27UDC6E2cathls2WkvZfRBTfq9GRtvKW0s0no-w2plq1BBT3hgbWXrmQyvh1NOdXZYxy0O
+
+sprite $SteamLg [20x20/16z] {
+LO-50O0W50MFa8xzfxNefzJzPaWeJeNwgonkwz9qsYKFhmAKvZbGGWL5gdcBn0FkTH6ix158xzkpSgVEYfZPaF7zHEkdR7qnxqwATgQzRrLNLuci6fMpzult
+6W4X1-eH8eQW1p8qQ4HS8twQKGkr3cVWbF0VJhgz7W
+}
+
+!procedure Steam($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Steam', $name, $tech, $desc)
+!endprocedure

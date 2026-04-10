@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Diagnoses
+
+sprite $DiagnosesXs [10x10/16z] NSY53G0n0CF0F9QR_QSjiqKd8qUqI1wQpVSdw49c6XOb8aizIYaeGFSY
+
+sprite $DiagnosesSm [12x12/16z] RSR50OK000MWzpiCzf_MRkL4UZTPuF8Vjp6oLQCO2m_o6-jNUzqJNtTAahYhAKlP-bgr
+
+sprite $DiagnosesMd [16x16/16z] PSlL0O1G3CNGu5PUzfyMTyvFzSAcCUCXzBLG7RYDQl4ED1oAXfSce1ZYkNMJNcEcmhfpWzeZPAPmLIYBtYf4pTCsXtaOwnpRd6LacxNxIRxD
+
+sprite $DiagnosesLg [20x20/16z] {
+RSs50O0m44FHrFN8_jFYLldueuAdJ8ikxkMM38zQSnF3p9GqoncCKKRJ-oKy2iEkpIwUPpPVk1p6g_DbGJoyaFxc_LNXQ7_TxLmJPBfDUtgS9fJFAAVLsr9I
+9bqXf8XvUIW9npO
+}
+
+!procedure Diagnoses($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Diagnoses', $name, $tech, $desc)
+!endprocedure

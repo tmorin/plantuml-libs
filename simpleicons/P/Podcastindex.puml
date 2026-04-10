@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/P/Podcastindex
+
+sprite $PodcastindexXs [10x10/16z] Os3WPm01RY231qY3ANwG88XavGOIG0I2F1pCG185Sl0pS7D0J82IM5a
+
+sprite $PodcastindexSm [12x12/16z] FSY50OKm30N0mvst_xHVeEt5m-YnO8h7768y4MkwY36Mo7IBvEdAVteswxL4RC_FVT07SoVOEezekcYEU7m1
+
+sprite $PodcastindexMd [16x16/16z] {
+NSo5WHi14C30iOzH_LURF9EM4QSFbWbgu8shXRt99rTqlGMU3UhHGylRLZcRikHH6J8rP8xAz9OsVhueLygQ8ZeyEj0DXQsL1jGJ7inz91zS-KL_wyrFdlda
+Fm
+}
+
+sprite $PodcastindexLg [20x20/16z] {
+RSg75O0m409GqdlOVrjpz-oA1Vq1AyIPrBGC6KuZ-wtkMEMrQwg21gIqsqS5cSsGY9p0O8QX3WBRFjNtRlKqjyOMfDoT6UwssyjeLmvuTZGcP3grgUSMHaQ0
+8o6fsbbEq9Y5kf2Y1_RlkSxtd7QF-J77-h76y37I_DZjPmC
+}
+
+!procedure Podcastindex($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Podcastindex', $name, $tech, $desc)
+!endprocedure

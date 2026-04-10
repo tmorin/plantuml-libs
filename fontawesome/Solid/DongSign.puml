@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/DongSign
+
+sprite $DongSignXs [7x10/16z] Om01VZ01170U9vZ3pSy6fC0228g7dmcia0UiX0iC
+
+sprite $DongSignSm [9x12/16z] BS450GGn0C2mZddrh_Rn4dw6VBLsRK3UMpS_Ms3w1Sd9K510mGDSOHf00N_uQX3fFju
+
+sprite $DongSignMd [12x16/16z] NOi50iCm3CGybqFw_si76bTj4liWNXpuIEFYMq5SChEpv2cp0dJdYZZRMPqBsoFetB5lVgK-vdV-Y1Wu9-BygBCcyST0v0O
+
+sprite $DongSignLg [15x20/16z] ROw50SCm30GLDFlsdxOaAEMCufUWqEM3pX0buLYUSvNyRMu0rSs6ecO6yXacpDSmDLVlhkRcvhYA-dF0y3dxsZ5JEeghqg6P9d_KJyhWYpi
+
+!procedure DongSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/DongSign', $name, $tech, $desc)
+!endprocedure

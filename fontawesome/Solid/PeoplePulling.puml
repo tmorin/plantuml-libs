@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/PeoplePulling
+
+sprite $PeoplePullingXs [11x10/16z] JSod0SC04C10fVVS_jEwFBBG8VKuD_sAHZfqmgahOZfpWox_hv7ggheCNtFW4mrlVkh_Nm4
+
+sprite $PeoplePullingSm [13x12/16z] FSZ5WSC00C0mbSFUVzg31lIptHUxvK7P5O_PRdumpIFSve6bQhLLgHggsnNUtzX1cvUnBRo67aZ86dfsLuIsvlRx2m
+
+sprite $PeoplePullingMd [17x16/16z] {
+LSR5eTW0042X5_Um_xJrVk54lNF_dNTrKtyDJ7NGVmpLq7VRTHr_D__92gwQGV7NpOCtS1vOJmYeGzZugogqUK5L4rK3Xx6wMgbwvQheibMdWNeyvQqcAzrK
+L3bk_wkV
+}
+
+sprite $PeoplePullingLg [22x20/16z] {
+TP07ee0W3CKUoztc_hVzLe6_uuZ62T9ArXSkYtq6laQuRfNlrS33pl6b5gZwZtAUvv76oN6kuSHBz3eFdOxN7a7Y6vcWZVe-dSSxHfKAhWjeJBOv1jF6vAqL
+BBnWp9frm3d6M7fbby6k0DG73oLoh_LzZWXfrkt4msmAjQY6DRZrJgdZePLB8E-VsRdq0G
+}
+
+!procedure PeoplePulling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PeoplePulling', $name, $tech, $desc)
+!endprocedure

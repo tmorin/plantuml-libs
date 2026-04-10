@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/BuildingCircleArrowRight
+
+sprite $BuildingCircleArrowRightXs [11x10/16z] RSgr0OG00CNGd2ky_QV5IwelIO5l7OszflTHdpwZCw76Uy7b3Q5mTTJdC-4RFsO
+
+sprite $BuildingCircleArrowRightSm [13x12/16z] POg50OG03CJoWjDc_sbnfte6BfNCvLuBCSB8dO3BUyVKjESIeulT-IwlNcwFoZ9-mFBxvI3wxHUYf8QE
+
+sprite $BuildingCircleArrowRightMd [17x16/16z] PSo50O0m3031notbzvyMT-gz2BGUesORZTSeDXXl63YWo3Ml7W3hVa34ijC3VZtoJ2aQUFU0IFbHikpygBrwKAkXYGtod4q7tQ03Lis99qHq-0HbtPdwk9iP
+
+sprite $BuildingCircleArrowRightLg [22x20/16z] {
+ZP650SGW40GNTxR_RZ-ElKs2pU40A7o8k65FlQJYm6NrHtlaW9-jkaAzZRQGmTO_vks8dHMm9604iAwsuMlHjmqgasPpF13Tl6AJ5vq5k17bbkNBAW3k3Exw
+ijYef9HIG0ssaDPQ0pjOouqAUqsp4MC4k97CdhK7qjrsNW
+}
+
+!procedure BuildingCircleArrowRight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BuildingCircleArrowRight', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/GalacticRepublic
+
+sprite $GalacticRepublicXs [10x10/16z] BSYr0SG0000XtYLo-qyRfmGyWBVCy4Pk8Ebp4nMtXmvVvkjmIuxqzXLutHXP0G
+
+sprite $GalacticRepublicSm [12x12/16z] DSZ50GCn40GmsTvZcFwh3KTF0GFWD1jjXNajpUxWN15DxvI8spNCI48pj7nX_BzZRxU8h1O8uEWNFMRe2quy0G
+
+sprite $GalacticRepublicMd [16x16/16z] {
+HS67aGGX300m6MuPilklzdEGV8lgNpbGZs_BkjNELXvOIh1uKIYA8AbwPQo83AbVK-SIcNalJWyL-M6XHMNbhu2DcvaDMKdwNTao6DjvNlMI8Xs500ac7dqI
+70sKvZGvRBxrqrxz5dW7
+}
+
+sprite $GalacticRepublicLg [20x20/16z] {
+LOy55WGW20NdOoVtl-q-tHwJ1dYXm3-z1ydA_Efp9RleM-oNgYbw4s1pqmmWSp471Etg8gINpaYietUIfwjRJkaIEJUESdXQ6t0gSd6K1u2k9eIPZQkBPe8Q
+0F-XGe3ENsmC5Ti6hAjBmAJHD65jucq9d4HWonpEIOw72Yo-itrchQGCge33v62TxXtYzA39YvKG19YP3sfpZ3aJbmS
+}
+
+!procedure GalacticRepublic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/GalacticRepublic', $name, $tech, $desc)
+!endprocedure

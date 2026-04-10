@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Pastafarianism
+
+sprite $PastafarianismXs [12x10/16z] BSf50SG000In74DX_AijvxU0zniZKDp6GA4Pg7hZypQtUvdqw_I9rzNl1waa8la4kXd32W
+
+sprite $PastafarianismSm [15x12/16z] HSI50K8n5CNGuD0dsNzQu6lF5O1ypeUXG2Yhfnw_kdYDCUJW2g04To2MqnFgvQPhy6gmLOVmvgC3d_r23LQ278PtQ2_03m
+
+sprite $PastafarianismMd [20x16/16z] {
+JSpLOGD1303HMJpKJl_L9hOFtuzOV7Lvug6gHqivRM82uenVINt7GpElsxAQU1GF7FBv_6cMS2Vv0AKv-nO2uSlGoe-t1I0SODhygaC8AQhWI4wWkW9z1Yo4
+a9R2HG63Hr60TWJ-0G
+}
+
+sprite $PastafarianismLg [25x20/16z] {
+RT05aiKW403H7k91-lwdNVb2nLu9pWWlgMKEiowf0Z2eqcMZ603Lo0PVkrcFiqwjVPOv24rRpilkojdY1sVPRlZUN83T0m3TT6Jq1AeIEklPfiUmHxpCR1wG
+PY3M16ZNN02YgIGhcoy99LHILKsWiRf0LgqRCEe0WnKKACf1C-2nLGL0Mt3qRNPeuUKN
+}
+
+!procedure Pastafarianism($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Pastafarianism', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/BriefcaseClock
+
+sprite $BriefcaseClockXs [12x10/16z] JOp50K0n5CBuBfNiFstTyeISK0PG0sb_gpNyuao_h0R-wYK79Sg7VN5xT_VvHm
+
+sprite $BriefcaseClockSm [15x12/16z] TOm50i0m309XLW__V-tSjrur2O0LIHadIivfs0jI7La2kGjFwgK776xaDTpDpC-W6RU9RNbAbdQlurmo7sN44KrRsCi9
+
+sprite $BriefcaseClockMd [20x16/16z] XSu50iCW30NGXFaMkVzjb-BERx67GenQ29feI6lEAYxs92AbgxBwXvwqpMNK6PuDPhaBzQHN9E-z1VfOuMHASBVQNQDi2h_By7xPhpOXlWoJkTcJ9D3Z3m
+
+sprite $BriefcaseClockLg [25x20/16z] {
+bP450WGX24M1wVBV_xIRTlic31h8CEFBJJ6CFoeM793lyg1BW9ZRtiSS9S4p9DYNJQM2cygSk8LIBlnWpvKkKAC59lVfTtVhO308AIk0Bz1ROiaBzdMD1DFV
+YOtENdKmNCbODFG6
+}
+
+!procedure BriefcaseClock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BriefcaseClock', $name, $tech, $desc)
+!endprocedure

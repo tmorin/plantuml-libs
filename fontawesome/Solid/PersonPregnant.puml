@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/PersonPregnant
+
+sprite $PersonPregnantXs [7x10/16z] Os1WuES74c0A0VZ1F3OWnGRYWBcy88e3o8L8yl61DN3n0Ya
+
+sprite $PersonPregnantSm [9x12/16z] Os1WOEJdPu00E8C1Bi0BfddueLBy802ceIn-PhWGWW5NpOx2
+
+sprite $PersonPregnantMd [12x16/16z] ROw50S0W4CGEwfhzfwtY4EHTz600EMoYQwDN0s1qwad87tWPNCR76LMONtrtXaigTUks0JVPm7F3N5Nw3G
+
+sprite $PersonPregnantLg [15x20/16z] ZSx50O0034FHZplPVrgSuF9kzJ8ADC2YOyWG5R090nvf41oYRLKvXm7RqIsMnMxrk5Gx3A7GrXunYBVcaPihHkqIbTiVPIEnVKdn9-m1
+
+!procedure PersonPregnant($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonPregnant', $name, $tech, $desc)
+!endprocedure

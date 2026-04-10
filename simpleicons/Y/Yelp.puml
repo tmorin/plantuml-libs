@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/Y/Yelp
+
+sprite $YelpXs [10x10/16z] FSR50S0W0C30rBtPVreSxdN09DMfHwikRQ_mrCgde3BfLpU8rkJPXXmH
+
+sprite $YelpSm [12x12/16z] JOp50O100CE2Ezb_MkIyhph0AXdgtF2f2Rh2R-4m1nzr1tMZKmcyN7OTY6Vv8OURqYMkmWxJ2m
+
+sprite $YelpMd [16x16/16z] NOt50KGn44BvBf7NVxKhp6KIRhZ-s7jL0i0nyJFn3knJOScyWgIN590A-AMjjduK8akN5e3RqJ0k1Hwe_pFMuN3uBA3klh417hg2O_vIjPk_VWny0G
+
+sprite $YelpLg [20x20/16z] {
+PP056e0W58D7Dxl_RVs6hJE0dzTOCeq5Rr5oBvGf9Vpjmflrm_TdQF0trDhcsr28x3TBOeE7EJZpCaIzodIKF60eZRjWmLwim6L7DOsxZkOCq1p8ZASQEsGU
+RnJ8XYXu5qqnK3gHYgsoLjVcCcFHdL32ad-FQWC
+}
+
+!procedure Yelp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Y/Yelp', $name, $tech, $desc)
+!endprocedure

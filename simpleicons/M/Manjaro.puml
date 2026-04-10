@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/M/Manjaro
+
+sprite $ManjaroXs [10x10/16z] O-070n25dSK00d0-MIm
+
+sprite $ManjaroSm [12x12/16z] O-27023DnuzWywEpUO600Sfa008O6qHJokP3OWC
+
+sprite $ManjaroMd [16x16/16z] O-3ZXm9s1Y310UGY-110cCyB0cmCS2u3123uV63r23x_WF4vqFW
+
+sprite $ManjaroLg [20x20/16z] O-3YHm061X390X52Y841nMAy480i1kI00PeOCmYWYZ63wM4cne953
+
+!procedure Manjaro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Manjaro', $name, $tech, $desc)
+!endprocedure

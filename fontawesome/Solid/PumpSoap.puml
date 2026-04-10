@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/PumpSoap
+
+sprite $PumpSoapXs [6x10/16z] Os3Wv-Tb1f5yx0nWmCYF0XX012C3DuZ9m08Lv0QJ
+
+sprite $PumpSoapSm [7x12/16z] NSN50G0X00Emdk9q_sbnpoU099-dv3qQRH9fURXC2M0YQiJ5xgz5
+
+sprite $PumpSoapMd [9x16/16z] Os1WuEVdvsLc1Z700CBWOK027DnWmCp6ZnSmi49eBYIZM60CPZ23bu4HkrOO0m
+
+sprite $PumpSoapLg [12x20/16z] VOwr0G0W40FX1PVzfyMjughN9AAH6n4HTjtPTTAQUusu3bxGBvoG-PBoZtXB5ASCZxTijNzom5FJLf5j_C4_jRYbgm
+
+!procedure PumpSoap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PumpSoap', $name, $tech, $desc)
+!endprocedure

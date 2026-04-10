@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/KissBeam
+
+sprite $KissBeamXs [10x10/16z] 9Sl53SC0000nbnky_QSDIluQXhwWNduDD8C-qcru_UJnKm3JzmUHt2j3z1G-DHKx
+
+sprite $KissBeamSm [12x12/16z] 7Sd70GC148F0SRouflzgdLuI08vMGCqo1Jt0sVzUm8nqfZbr_CafjG1e7TX3Wbv89qGB3Gl_PAfQ-
+
+sprite $KissBeamMd [16x16/16z] {
+FSk5bS10203HYHim_LTxihpahs8CM_fClD9sCBoVC3k4jXYGyjcSy23re7IZt0HPH6PPJI6XgF6gjERJSTYlapGdu1G3uEcwnUxorKCWtI0C27U0iDOnso5C
+3WNm2m
+}
+
+sprite $KissBeamLg [20x20/16z] {
+NT05OWCn3031FKPf___QWkLhauoPWUv8xvKNYrqCT6fEmAOUJzTDD-hvsbLqWQLr3T1phNIgTTB0xeu97hCdvgYWXnEROE9GDLDWWM5agLgeVBYyfQXrUBgw
+qUbJACrs6W23GJZMDlMUrXxqTUscmA7Lu_XqmQaxpH0wldnfNAaAZzqcQj8t
+}
+
+!procedure KissBeam($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/KissBeam', $name, $tech, $desc)
+!endprocedure

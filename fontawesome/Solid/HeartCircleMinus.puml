@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HeartCircleMinus
+
+sprite $HeartCircleMinusXs [11x10/16z] JS650G81002XirlsdzRuXZQkx4DbbaLdezEhGBsFTSJk2eL0HSxdiwfhu0i
+
+sprite $HeartCircleMinusSm [13x12/16z] LOo53G0W3C0QtFd_Mu93vyfFhGLChQBd7T-TP8G5zG6naWG6LfEO0TbpCNeEqZq5Hc644BsWF9F-fuoY0G
+
+sprite $HeartCircleMinusMd [17x16/16z] PSo30S0m503HgztRVzeQmOlp0RbnQG2wfUFKU8Bd02Cm62amLZCQAK4V7Lny0FDI_ZyLw_F_TA7rii0Lcl7n53LeUPZbf2qw7vJBkk837eMNRWS
+
+sprite $HeartCircleMinusLg [22x20/16z] {
+TS-55SCm40DGnSpQVzi-kM7uGTC1FXbhC2tpPqeK3IaDalbd5lAOveFHreS6y6a0dGyT2BmeFlHwpJOMREev7jBe3dAQJ9nqn77xJroTOW3aexsAo1raa8nw
+6t6QbJdRoI1vcqLZEpU4LJfdgpXnNE47
+}
+
+!procedure HeartCircleMinus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HeartCircleMinus', $name, $tech, $desc)
+!endprocedure

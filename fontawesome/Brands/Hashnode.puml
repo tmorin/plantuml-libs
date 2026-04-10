@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Hashnode
+
+sprite $HashnodeXs [10x10/16z] Om02Hdu62E070ZO80ye4aX0c8v20IF31MGm85Wj84OJB2cL0cK0A
+
+sprite $HashnodeSm [12x12/16z] BOm53W0X30JBIGJz_sk1JcQHhgMH-5S9iIw657If0jeAjJ-fwLoB9UDE3FteLFFx0Y5D8KL83m
+
+sprite $HashnodeMd [16x16/16z] NOm54W0n20FFNVx_sfDjEiXMWIHDORkdnkZk7r-2bKAbOULP6pn_-CLlCoC_kgVLOvfBLSk3LyZeIx1In5ADWzyB
+
+sprite $HashnodeLg [20x20/16z] {
+PSu53iD044FH7-Ru_gSjU4ULgponDM1ATshZtwclYQ0oytF9Sb9X9gToKYKcJzaAtIqRkuhoy273PjcTsL1BiewlNKQDnxsJKSqy76h0OO97I3Czevoan2J9
+RK-QDm
+}
+
+!procedure Hashnode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Hashnode', $name, $tech, $desc)
+!endprocedure

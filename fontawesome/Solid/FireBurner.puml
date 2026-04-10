@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FireBurner
+
+sprite $FireBurnerXs [10x10/16z] FOh50S0m08IeUzb_sdZ2wmGIDur7hKaJBQ1pIN1wfZIbD3ky5RJLmIOZHm
+
+sprite $FireBurnerSm [12x12/16z] PSY50S0W30J0hnVz_QV5dOi7aKN3G28HZ8xs3igkqFVOjZtEBwsf2ttZOg8FdE75pXB6Lje3
+
+sprite $FireBurnerMd [16x16/16z] NSt50GGX44JH6iNv-KUxLhqsxmBjiYcp1SXyOrwcmi3sRzaS5g3g6pV_WEKL9tycoE1mNPPWLOwmzKrdRA_z775tbTHvSMOfi6J-f47Ydoxk
+
+sprite $FireBurnerLg [20x20/16z] {
+PSk50OGm5C3Gu4xsd_QK-gj-ux7lr7OzENeoXtyaWpP9eut7R5Aq7V-dpt8NTAfhbWDOozmTFZowvzzdEKxT_sq3aOynpcqmNiRUow-JmCpM0SEb0pOczBQ5
+ZHDQRm
+}
+
+!procedure FireBurner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FireBurner', $name, $tech, $desc)
+!endprocedure

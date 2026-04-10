@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/CreativeCommonsSampling
+
+sprite $CreativeCommonsSamplingXs [10x10/16z] 7SQ50S0m30F1BtD__scJM6UGA0jnUC-_AN21sLb07dZTmMM-7UvR19zwQPEGBUOLw
+
+sprite $CreativeCommonsSamplingSm [12x12/16z] 9SN5WGH1000XTboxye_sb0_0330QRvtG3SPWt6oXLNWxaS5SOwBvTLUTbqIzHU9fYK-Es6o4DvZQ_wl2Dm
+
+sprite $CreativeCommonsSamplingMd [16x16/16z] {
+HSfLeWGX40F0mbPcWDp_j4zMwwixYQVIVFKyULgPK7UkpxUYu9f1VxmhS8Gi9DcGGo3_SAO4z_VVqk9svc4SeyHpzc_J8urn7hVpgApOmULIHqSwEL3WsOsS
+V5zgCbiPA-7fbdyLVW4
+}
+
+sprite $CreativeCommonsSamplingLg [20x20/16z] {
+LOy5bi0m20M96s7kVzeLQ5UcckJBGrvIaVzi71loCe1TSpVWLvGbcC_lU0wNfyO2GXAVYebiLvTyY08bFRBLBvgBkvTml4V1kaTYYVhrDGMuVWo5BFiGsDvR
+GEYIKYUuoGkYmx03rxqgvdkNqzN_6aqAqRRJ-Xq1RruzfbDcd7HvqSYK33TBPCLMD3p4p45Q1cYBrIS
+}
+
+!procedure CreativeCommonsSampling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/CreativeCommonsSampling', $name, $tech, $desc)
+!endprocedure

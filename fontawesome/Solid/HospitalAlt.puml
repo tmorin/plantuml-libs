@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HospitalAlt
+
+sprite $HospitalAltXs [11x10/16z] Os1WOE470WOmu0S3A9EP5yHa10gmGMNuOAByc02k0AGMPX2OvWOHN5mW4W
+
+sprite $HospitalAltSm [13x12/16z] VSh50S0m30J12tEs_shDe9V785Jm4znAoDPQNE4T8RqVU7NyVC_n4ioXHwButhZ6I9o-VrbxOYDrwbH4EuO7
+
+sprite $HospitalAltMd [17x16/16z] ZOy53e1030GBdDl-_xNd7cDYatgfO57Xr0deV3s0WTa294T0MblrDK2mzXMex9rVQs400hcYDI2A6bBu0t-dXjVF6UytP_Xo1slX_jGAB5Q0S94
+
+sprite $HospitalAltLg [22x20/16z] {
+fSy54eH040F0uB0Z-VzhSGXNHocDherWr_Baa8wYsQ2qk2Gt_ZRR83JRc1bNfSPOI8RPX8g77XkUaipSlYtGZ5p5CVyNzpcRXPhzHjca-yq6u9dD_Mg36miU
+D2iliyQJbr9uKNvAMG
+}
+
+!procedure HospitalAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HospitalAlt', $name, $tech, $desc)
+!endprocedure

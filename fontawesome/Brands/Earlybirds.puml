@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Earlybirds
+
+sprite $EarlybirdsXs [10x10/16z] Oq06R1pyxCmW1ZyOy04P363C0P84OgW01C0P22OtN3CN3uJ5myx
+
+sprite $EarlybirdsSm [12x12/16z] LSR50K81040XxFRjFwtvanFMJiaJq1TidbpR41xQvUQ1UC013PuqizcFW-LTgxFssAWdl04
+
+sprite $EarlybirdsMd [16x16/16z] RSpLeKDH30CmNSOJxp_jmtAhhw1zibd2ugQID81vpx-jWrgGxCYAwiqgtKBRO4LC20XzzZ05fjoXycYMbhjME6_j2DnwSCiujRZlMwkZ0uotusy
+
+sprite $EarlybirdsLg [20x20/16z] {
+TSi52WGn44JHdsvsugdxttOP2Om-l8HF1hq4GZX5IqoIOd9Ej6EAEXciaW9WKWVeMoYj4LB28OdL0CkeP1eCOrKNWCJs5HlJptv3NTczYitGMG9SDmFqK8dH
+T8QpkevsuPJ18wIeiN5lQz1Zi3JVNMFDMex6ILKl7Fu
+}
+
+!procedure Earlybirds($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Earlybirds', $name, $tech, $desc)
+!endprocedure

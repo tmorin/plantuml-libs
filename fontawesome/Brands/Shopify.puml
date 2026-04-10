@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Shopify
+
+sprite $ShopifyXs [8x10/16z] JOkr0G0n58KubmZxJnkh_jCAWgvZhbK5bnuyALfmdZAp_g2kpwS1w
+
+sprite $ShopifySm [10x12/16z] JSY53G0n0810tltPVzkcNc8N6DkdwycQxil4I_KHz6CgOezlZZBgZY9A_ENEcifRZ4K1Hz8V
+
+sprite $ShopifyMd [14x16/16z] JSg53SKm0CHGfnIEzv_sGzcYUzAnD_6gJOu7n8aKJarRLaUQWL3Llwo0MgVubx1eW4l5HjLJMeWl2TpQsNT5T1qJRLT7kPy6jLPFJVkwnDxM_qfy0G
+
+sprite $ShopifyLg [17x20/16z] {
+RSY5OSL03C1GXPCZxJzjoUvd7VhnkJQFFZ_Elwi_mCd5Q5QodTFVkiOyz16C0kQ04mWuODBA3HeiEjCqGBXqOdk0gWTmXzzxXJbXGaCI5bJ6T8CDRG1dGaKT
+oznCwAjPWi3Udo6QpsQl2tm3
+}
+
+!procedure Shopify($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Shopify', $name, $tech, $desc)
+!endprocedure

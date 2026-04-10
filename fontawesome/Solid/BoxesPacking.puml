@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/BoxesPacking
+
+sprite $BoxesPackingXs [11x10/16z] Om02Vdu61Zv-48iJmkG7Co600Gf0JAW87vp9o8TD0Muc
+
+sprite $BoxesPackingSm [13x12/16z] Om025dv-80aYG1IKmmVcW0461mPuW1oOC2y31WS6k95a67c8uZ3m0Wq1
+
+sprite $BoxesPackingMd [17x16/16z] dSsr0O1G5CNGV1gSx3yjxWwdUthfgK2asLZF3SEwaIoDqNLZD3JoSbICFvoDAOS6OGJ5-TFAoVz6uYYdxpO
+
+sprite $BoxesPackingLg [22x20/16z] jSi53e1050FHugpzkVzfSRSe4tzfDTS26ZCmBLKS51PrxufppdFLhM_TsZJRax95BrTxqEnRSxTNBoDTAhblsqrBzknt5Nkb741I3m
+
+!procedure BoxesPacking($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BoxesPacking', $name, $tech, $desc)
+!endprocedure

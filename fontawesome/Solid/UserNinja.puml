@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/UserNinja
+
+sprite $UserNinjaXs [8x10/16z] Om02VZ31niyFOh3mGqJuGG0i0w8m0JjGb1-kZXz60m
+
+sprite $UserNinjaSm [10x12/16z] TSer0i10449HuZBoxt_RB5MgVSq8Q3YHiGF4s1x8JBn1H7ZZm6G9R9g0HHSX5UOcPl_s0G
+
+sprite $UserNinjaMd [14x16/16z] XOh50S0m30DLvjp-quRnrGlO0aKUTaNkKmU1g4uCDEd5x5cJ0XxFn-J5EpGzH5vryjC_qnV_DueJcFAlYOP4npueHkK
+
+sprite $UserNinjaLg [17x20/16z] dSwr0O1G34NHYpjl_sdvBcavNJmakvw9R895mKiqIvCo8ZK3mTXAH-suB-_H6NUgsMBYddQxjEtTgIvv2__DUVpHGttaXNfOlHiE6I1hHTQ5hDC1
+
+!procedure UserNinja($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UserNinja', $name, $tech, $desc)
+!endprocedure

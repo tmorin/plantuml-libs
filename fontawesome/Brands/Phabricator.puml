@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Phabricator
+
+sprite $PhabricatorXs [10x10/16z] Oy0E-3aO-Fd130WNAi8Bn4mW3X3oyeEKS8DuV51rZ7n00gGCg1W9
+
+sprite $PhabricatorSm [12x12/16z] TS75OGG1000XRjsd_sfZlnZmlwSwV0dM81fdHvIgJGrbV4GfKpqlNRJPZAuBEd2TlaoL7zu1
+
+sprite $PhabricatorMd [16x16/16z] ZOd55G0X4CMoxgJ_RlVXLm8Z-SCGy_sUtIQzjzTGZov4FhlUd11C6hkbWzvSXXIhisxWX5zozEKmGjg92xx251KCCANbWHh0L1Lk8oi3_
+
+sprite $PhabricatorLg [20x20/16z] {
+fOi52WHH5CCoxfFxttPvT1rRoPT2QFcVrMBWmQWpT2etvZ95gs-g1JJAoiEjOj2ekPHwBA2I3-qvt44zsxXTM6moGEreQdYRhRVnba3FH0lJZi3e1f4GchGY
+1tYqWkgXpeICbltO9hxZ0W
+}
+
+!procedure Phabricator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Phabricator', $name, $tech, $desc)
+!endprocedure

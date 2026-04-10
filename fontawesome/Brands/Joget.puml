@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Joget
+
+sprite $JogetXs [10x10/16z] DSI70OG008F0-rwL_QUrcm3W1Zn3U5p1I8ntH5t9x_OiFNFLELiGTKDGrp5c
+
+sprite $JogetSm [12x12/16z] HSQ54S0m4C0mb_7Z_RVjDQWZmM-X2hVfyFmh_FQ0H7NCoAOpyEzL_f2MHJSC9N30N-phCikfyaj0wFnt1vWr5FW
+
+sprite $JogetMd [16x16/16z] PSg55GD130FHETgmflzkynI6lsXRF2oypPh4FCgp4pNSQ7dXoRbXteI6zscqsJsog0im0nBKLYxZW4lKCEb9GVpoNyVAGcK62sgpL-jt2REwm1nvE5Whm1K
+
+sprite $JogetLg [20x20/16z] {
+PSo5TGKX54NHYpkd_swpiDZVCzWpFSRfhy8sV-8HWfO6hsX7Ze5THzZ7CtVbhNhcaEfEv8dNPZ2xh0DT5qL8m9dPaTIcGVE6FDLshCSH0LPatoIBE4PhjTPI
+Sgw83rsJ7wEtrWYA7557HXARqNMIB4u7NOjbkOrTrm2oZNDFVKoPG0_QlW
+}
+
+!procedure Joget($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Joget', $name, $tech, $desc)
+!endprocedure

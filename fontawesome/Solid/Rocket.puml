@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Rocket
+
+sprite $RocketXs [10x10/16z] Oq03_400OK1OR6mW4eZvmO2Ndu4BI44aEQ4Ck4u6x2m
+
+sprite $RocketSm [12x12/16z] PSQt0S0W34N1HsW0IN__QPsphph-YgJ2HYi_6bGPIQi1AkX2lrg9kvkwr3XyFkvt5ZC
+
+sprite $RocketMd [16x16/16z] ZOu30W0X50KpFkz_shNPnEabyqvXAhlfn6fHJ-wcQPWy4j4I3TqKJGH3eo-shi5HvHppTFK0Jvekdt6xSukR7HgVdkW1
+
+sprite $RocketLg [20x20/16z] bOg54S0m4CCSvdZ_QSlCLV1rmYjIARaJYYDOoJmvykGAIGVeoIbhRPY3yQcSCO0YCo2vKikOyK2NnPsupj0HpcgcdXNaXHE_NBrms4DIpVyM
+
+!procedure Rocket($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Rocket', $name, $tech, $desc)
+!endprocedure

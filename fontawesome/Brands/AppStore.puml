@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/AppStore
+
+sprite $AppStoreXs [10x10/16z] FKk54G0X3CkxF_jlI-HAlH4e5ZZsng7UMIlmvAlcc4WikWBWRutdTlFz2wPh67RSF3e
+
+sprite $AppStoreSm [12x12/16z] BOm50S1030EpPuv_jojT6M5a1Eyb50vDwProfIjnQLsJvHzz8QctpjCFSzlHGlaeTEgCkDaNY57W7B5RFMtg4zzwUlm3
+
+sprite $AppStoreMd [16x16/16z] {
+HOe54eH030Hd3IVz_zzUHUfe96DAsj171xiDA_kM62m_p-q_dPBeKeyMhZZ-EdkUuopFihmjxereuSSTHtf8ONfn36Z2gp6zccG_n267Ks_twCzmlVXid5xx
+5nKdJdVv0m
+}
+
+sprite $AppStoreLg [20x20/16z] {
+NSg5OKKX40NHuRd1z5zjv6xq7sILRstclyiOwSUcKv93AQSBtswdsgf_iPe0rfQEnDxXadXiX0qdmduHdaWerk8sMlMQ9qeuMr6Ot2j76CQZUZ3zxOcwSZsC
+0qw9smQkp8A3uiKauCrVRhmsVH8cEvGfhUYwmNGbV6ldK9-LU0S
+}
+
+!procedure AppStore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/AppStore', $name, $tech, $desc)
+!endprocedure

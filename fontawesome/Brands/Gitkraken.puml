@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Gitkraken
+
+sprite $GitkrakenXs [11x10/16z] JOg30G0n54FV6KNsdxRMPyHQ7wT4AwNYulBO38lILFw_GWStMx5soiFhtqhoKOANzqKdgO88
+
+sprite $GitkrakenSm [13x12/16z] BSV50SGm40GmXS7sJl_L7kOdmM9Y0ygP40X9meM_qrtRVJm9qjaUJ_U99s2Ju5oDaAIuOvxANLLoOfl69pbl86lL4Rm1
+
+sprite $GitkrakenMd [17x16/16z] {
+BSk50KGX30MmV3Vest_QKuBMmCQ2sP19JnR7CsBsVB0UiCxaXuujzFmit7KuoL-HeqnKVYxw71D60ss-xKRBZgpJN70dLlIcFtY-4nVR58zmhfKJTQ2cvhHb
+8pgcFgLz4rSNFvaNMnP76RRKPsU2Dm
+}
+
+sprite $GitkrakenLg [22x20/16z] {
+JSw5OMWX44JHiyy5cFwh_H9Y5rqVFnpc-UBi7CbWJJ6vNxRy1p7PEl91em8b69cix3VQUh7a2qJVZu7sstjBgzdWYs8ztmXyEI_KSuyAFurzU9zdUardX_re
+wzKAZpT9hT34g1TDJsA1Q9h1bueDpzuM5S6GxJcBDOBxMiU7rt_lDWpGpoN7zEvz62lmlgvyUFjIcKxikOb7ZVZ5tXB9Ky1V
+}
+
+!procedure Gitkraken($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Gitkraken', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Home
+
+sprite $HomeXs [10x10/16z] Om01FWOeuEVdXp6WJ7u8039WW1dEWeknGZLYiBYuk81S
+
+sprite $HomeSm [12x12/16z] VSUd0S10581GKcNOVzhqNzIX7hmTP6enPjAOsOZ5gfkz-1eO6YCk
+
+sprite $HomeMd [16x16/16z] ZSX50eLG08LGVjgo_zNQST_CCmCE8-cjHduqnrTpr9vU0AstD_IcJsVfOmdAFFhphhBVm1WDC3pjy6C6
+
+sprite $HomeLg [20x20/16z] hSwr0O100CNGZplPVreSpg_YbQcYLxtArm5U6i2F8xV2f8bN_QO5extJYgqx4vxU96DS2LM493oDSgrurqrRTVglCPuuwOHZadO
+
+!procedure Home($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Home', $name, $tech, $desc)
+!endprocedure

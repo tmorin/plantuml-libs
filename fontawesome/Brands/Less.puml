@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Less
+
+sprite $LessXs [12x10/16z] ZSQn0K0040Im0m2o_xQgxq2gv8zTJGwTazXfO1TPijlEmzbCv4oH1nS
+
+sprite $LessSm [15x12/16z] bOd50SKm3CKKvhpzf_rGkfLacNc5DDbf0zc9ENx_LKbc3dvAzRTA_9t_hv6i1_tzHoHOYgTwH38SPCSbNm
+
+sprite $LessMd [20x16/16z] hOpL0SHG2C02vq_8_jEUMx_RuChM32t-21EZ5ZrwV_NAmLcZQVRBipSBqqYCkEyfLQhxeKoByBbNWmSsyDnF61TJZOyz_krOCXhPM12DDTm
+
+sprite $LessLg [25x20/16z] {
+nSb9biCW303Hycm3ekv_svPUx-9zKinyVjgXJZvI6F86NEd_SDyBhFUMsvDRGhF0Z5DjLssuB3CIkc0R0b4RDbqJh0OgYqxerdI6KEq6d2bk1NfeanQNCN8J
+LuPSdblCnZuDpkcWeBlmwaZWENdLRxxH7m
+}
+
+!procedure Less($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Less', $name, $tech, $desc)
+!endprocedure

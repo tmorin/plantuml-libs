@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/CriticalRole
+
+sprite $CriticalRoleXs [8x10/16z] 1S470S0m40GWkZFl_Rijm087q7pZabpxYqCuykuUKSZPLVk-Q0esnOUxBNu
+
+sprite $CriticalRoleSm [10x12/16z] 3SC50S0W0031mntwjzrUm0PK8YXApvOZC95kjD9EbTkTV6iP-R8zcblmHkHYx1YKMa88xt-mUNHGuyO7
+
+sprite $CriticalRoleMd [14x16/16z] {
+HSI7OSH020J0uIHGvlglrjd_iy6lsziPIvPVbKgv0d6mEk7oh48uxJXxf-IJCIfqS-JLnRdffCOsCtEffOadJGnQ6jSwEQBqIXttZ3Y23ZOrmL5dV9lVjpJ7
+mCIsW9jfxFx4vG6V
+}
+
+sprite $CriticalRoleLg [17x20/16z] {
+JSZ5WU0m400mZHbYf_zg3vVqb0yZ-IclqNVuyaggklXdLdgeh8AwqSoSu7M682jqn7CrTTbdlQ4kSHVUCNhAgKxz8sPlCTYbnRMZX9WXeaQaInzFrq4HLnAM
+qufMaxYQMBtkNjIfnQs4QVVIQfFI3UhGR_RFRa-ElqwBlzhXoN0Ax0AnWvFfquUyPIxVPbd9Fxy1
+}
+
+!procedure CriticalRole($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/CriticalRole', $name, $tech, $desc)
+!endprocedure

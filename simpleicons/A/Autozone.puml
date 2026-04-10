@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Autozone
+
+sprite $AutozoneXs [10x10/16z] XSB54S0m0C0mbxdUVzh0EwGJGzTsUfFeitEGpJEPCpwcyuUw_VvKH
+
+sprite $AutozoneSm [12x12/16z] ZOg35G0n44HZPt__rPxnSCXof4Qhtf0E55PeKgafisAzCBC7MacAYCUYUWXe496octhVbve1
+
+sprite $AutozoneMd [16x16/16z] hOl50SD030IFIJ3zLnl6Ns9Rh8LmIBJrzLP1ij1zt7zCGGlz_i-EiSXm_MAyT4elCxvAlunOIkWbsEmrKgaJjFc5dWsjO4tmbok-ndzn1W
+
+sprite $AutozoneLg [20x20/16z] {
+lO_5WGH124MhQSDV_jdkZjjn1FjsOlok9hSN3sFTT6VrkbXUaUoqfdFnW0Ys7knzjiB34ltNd2qv7f5ngqXCDU7VdGxf_y5a_RyTCC7_rL5HjUt_X8rUy4eH
+QXyRiCFQhT3thrpWu_K7
+}
+
+!procedure Autozone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Autozone', $name, $tech, $desc)
+!endprocedure

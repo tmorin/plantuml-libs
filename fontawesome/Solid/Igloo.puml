@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Igloo
+
+sprite $IglooXs [11x10/16z] LSO50e0m3C30u4x-_rkAJMvh6ogDpXitlTC3bbi_Bal3olferr5yT7edtDc44-vhk3DWSW4
+
+sprite $IglooSm [13x12/16z] NOo50S0m40BhZT_-qyRzNO1ZjnDico4jaEUsi14GvKTi7t8iBY-9MINS5RDhfOLcydqBpGqp0G
+
+sprite $IglooMd [17x16/16z] TSY50O0m4C30u4xsdnPtsgj-YAY7dblc2cNNUGPp5grtC0MI0_lzf-21Kijl68wGbKT8qnGgWSAKP9bMkInavUx-_aBb1ryp
+
+sprite $IglooLg [22x20/16z] {
+VSW55e0W54JHePlP_suzbAsN_0__X5BYdjXuf8H3vgganKIUAiiUpvMfnR3JiA4HmBiOOxjsa34Qa0HuW2AhVQlCUysXxfMhQW1xnJ0-WW6T65ZHCCrncdNt
+Lkl-QJY1Bp9URG
+}
+
+!procedure Igloo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Igloo', $name, $tech, $desc)
+!endprocedure

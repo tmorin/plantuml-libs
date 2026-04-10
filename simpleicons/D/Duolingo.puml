@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/D/Duolingo
+
+sprite $DuolingoXs [10x10/16z] DS710K00002X0m3QVrilrG1eC87Lmm8aPuwe0Kq9NjBIeR5ogxpiRJPZyli
+
+sprite $DuolingoSm [12x12/16z] HSI5WSK03CDGbodDst_QWu-sfAGzLuaKc0UzgC9i7nRKPOQhatAR4X91P95JiCeaaStmtqMo7lTo9NfYo3NCf3JGn7U_
+
+sprite $DuolingoMd [16x16/16z] {
+LSV7WS0m3C0mkYUn9Uu_xVMA7-3oHpRGwPTOnhMBwBlJpioyb-9xgmR3T-XJLU_cXEDesmwf0HtLHGUju3WgU95MTBuVlKaxMaQz8Hoa0ZILTsAMBZHgbAL9
+wAXrmzQxf4yRgKTFxyVcVyI_jbS
+}
+
+sprite $DuolingoLg [20x20/16z] {
+PSs5SG0n30NHjOvDst-r0JcSFwHv8YZ3dtc0wkm_g6aKPJly36Ve26wFXKw6y8pBhiUPHYvph6FxgOFrBT2Rq0gHJwT32y2QtbPf1omb3TuvnqDPRmzTLlmo
+bzLt6sm4xTCc70qU5IAlDs_UCzMQVnMrJnlloT9hyfX7ZrRECdJ4RkvUsYyreEZZ__2VEl6VNW4
+}
+
+!procedure Duolingo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/D/Duolingo', $name, $tech, $desc)
+!endprocedure

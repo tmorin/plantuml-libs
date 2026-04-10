@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Dizzy
+
+sprite $DizzyXs [10x10/16z] 7OY50SG038HugGlxJriXEGTO77dFRYbq0tv4rCMCPh-5KIqaa2ww5M3GmWq
+
+sprite $DizzySm [12x12/16z] NSdN0O0W5CNGsBlPVre5xXy7NgUwt0aZhP4s7XGEMT0hjvVLQdrl1z7TAfcMeEktR5RrfNWqsny
+
+sprite $DizzyMd [16x16/16z] LS-55SGW403HYNkc_sfFbeTzt5d2ydWDP8_9Hj3ipSFipfkp0Lrvq3rg5nNMg1VrIRV46CErYZwBg9UzmP0tcveHUDEFLjKrh-VVZnnvdjji9GnDD5y
+
+sprite $DizzyLg [20x20/16z] {
+PSs54S0m30J13xEk_supPjgWXOekuzrLsOY-IH6LQmp1FOPWoxCglcoQs0Ic3m5dU4tQWJJf0fWruKWlWFcfFcZrnctdd061ZxsCTYBfpByvb8EVFXoJW-SM
+vhev_ruuJowJS-DPwlGso9JaZQ7e1m
+}
+
+!procedure Dizzy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Dizzy', $name, $tech, $desc)
+!endprocedure

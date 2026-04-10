@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Mandalorian
+
+sprite $MandalorianXs [7x10/16z] 5SZ50GGn00GWLkEP_gizuGcE1rRF2x6HE-kGCqlwuQng_eju1hXUy5vy0G
+
+sprite $MandalorianSm [9x12/16z] DSQt0SD0400Wz3dV_jkwCXN8EGqGBpfqOS8ORzsCSIA-AEAAxSGwU4JWRiQtwCbSq3DW_VCQVW
+
+sprite $MandalorianMd [12x16/16z] HOU54S103CFqZ8dttxPNLi0oG6AqpaNq9crkpBNYerZ40YVg2RTyQaxgfY278YMf8KqaoDiuYu1S4cTfvpyVyZDs3QUZKMZH876HcVoqNqF-DDrw
+
+sprite $MandalorianLg [15x20/16z] {
+JSk52G1H30JH_QwvwR_QSrjaU87eM52EjUfUNGem7qOY41-M04FbLYWA9f4lEge8cBiec8270vDQW2uEDsWEaE9rYrAt4AMqct0yZAPz1ijH4ZfBF-DEEihP
+dEUEID84Bskjwjleuy_KU_vHVSG_c_sbT7C3
+}
+
+!procedure Mandalorian($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Mandalorian', $name, $tech, $desc)
+!endprocedure

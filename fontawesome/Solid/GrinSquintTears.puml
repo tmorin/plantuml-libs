@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/GrinSquintTears
+
+sprite $GrinSquintTearsXs [11x10/16z] DOk50S102CHITxB_jdqZk1oLU244hA2zUuJUpLmrsQ7w1vPKMoEwf7vvmoeL8GyM0du
+
+sprite $GrinSquintTearsSm [13x12/16z] BS65OSG0002XYtlOVzhgGx_czwceLd16xN3PMYfOpySurWNre7nSaolgH7b3g1njeA9VpcgdBl7Sg0YelW4
+
+sprite $GrinSquintTearsMd [17x16/16z] {
+HKu56eKm66BnOidzRok_65Yats0qxgy-P3ibZHn4ClD29DyxdxABvzlrElLAwIxm9i3FHdps36C5krCoOJ_rPcE8bXorqmTA6DejwVh-d7y8hhaPK2_EKHew
+PycDvF12XZ5WmuTp7mS
+}
+
+sprite $GrinSquintTearsLg [22x20/16z] {
+LP054iD030Ct30Vw_siB6ZkWDebdpIQrTzK5e4iZrgHG1Kd5i2dL6IJjECSw93LcLSCISJO83G5FQfNQCBXNG3S-mhefmnvMWr4lEJn6BMEah60wEmDJMrTi
+gQoc91sy4jqGvofJDxjYqSCpvXRSeNcUmOQxaF9CtDKNVtKhebwqaxJ19gkEM5y
+}
+
+!procedure GrinSquintTears($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/GrinSquintTears', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FaceRollingEyes
+
+sprite $FaceRollingEyesXs [10x10/16z] DSY50S102C30rBtPVzft3WVWSgUokMBH3SCbDRwhxco2xWPgqVeLBzZ6aW4
+
+sprite $FaceRollingEyesSm [12x12/16z] JOo30S104C1Ikzb_skATC_avN8aOQL9jKY_q_AEh7bxGIuS_S3k0hbPGFSypvoDmwLAVtiIMeVi2
+
+sprite $FaceRollingEyesMd [16x16/16z] LSxL0GGn24NHDou9tFwxNSBQSF0_b3QZJVeoI8SIFrvFw9BnD0bm7B3i6rmNYduYm62MvDaxWqa2pqwZcgZ4C8U5uDe1qq1GVMXNwEKC4yaLNW
+
+sprite $FaceRollingEyesLg [20x20/16z] {
+POu53e1G34EBw-ZzRqicFsco1zzcBOhhuxj3s5ZOX8B2rKFatKFaDcOf01kdnvw7Tde1kOHE5a_mwRV1tv_7d58ynTDMEN-_iIrFJi-gdHsmOR1C1TaqOvBO
+DkuNbKhVL6PfqIg8UykY7m
+}
+
+!procedure FaceRollingEyes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FaceRollingEyes', $name, $tech, $desc)
+!endprocedure

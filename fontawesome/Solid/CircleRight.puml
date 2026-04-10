@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CircleRight
+
+sprite $CircleRightXs [10x10/16z] FKg34G1037lZbFsdhTr6JUhZD2rO_GJ0DcJd2zlfHFeupaWt-b6P7O01
+
+sprite $CircleRightSm [12x12/16z] JSl50SC040Cmjs7K_jE6IPz3PpTeStBwj5pj35C-gu7-a_fdLzEYQP8IiTlRlNyqUOOvc-dUhW
+
+sprite $CircleRightMd [16x16/16z] JSy50eKW54JHiPMw-r_j3uSwTFFqEZ9nKPEnoqEwqePDwfkBcqLOstTWxM06DXdOAZk120GFTu05yn24UKZHoSo_xqxzf6duMgPelW
+
+sprite $CircleRightLg [20x20/16z] {
+POvL0a0X20JnfUtzJskovdpXk0GnoWVxqSGR62UWmeI2cj5GC-yqotik49jBEJlYf6epCcDs_Re8OERillAqRJtpXC8txtYu6WxAaOCJJvykuEOXwb0PFHlS
+zSwfZkIDBPG
+}
+
+!procedure CircleRight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CircleRight', $name, $tech, $desc)
+!endprocedure

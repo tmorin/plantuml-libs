@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/B/Broadcom
+
+sprite $BroadcomXs [10x10/16z] DKk30G0n4CkpRlUVzcm4a6ZdXyQnQ7viwSyk6qrwsUNGbFdR1PrJxT8DDIN05mS3
+
+sprite $BroadcomSm [12x12/16z] HOo50G0X30F3kvBzfqMgLrTCNbvGg6GgXGJnl_XREw-qrpStTUdAV7uwlf7N8Y-tGbRSFFB_Zy4_izdj
+
+sprite $BroadcomMd [16x16/16z] DS-53KKn3CLGFuQ2zv_smvLoojmGnx0jbA5n4Lfc3KklpJV6WW7TE6gy6SFWH2C6OhJK1pLUZgKfkpnwBYyii3DTsTC_TUTILnu5fX57XLF3M8m1y0K
+
+sprite $BroadcomLg [20x20/16z] {
+RP350GCn40DrPbR_rGPb2Cnd6I7oO0iuy1JzWk11tgvDELr3qkzU5wgqdGPOQUdmNHHPil_jl4jsAT6aJmb3EEb1BP3s3dXmTMPq6gpJz0wolcJDxwqSp6kl
+wyhlqlIpmOF24tEyL42i-lPEkWC
+}
+
+!procedure Broadcom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Broadcom', $name, $tech, $desc)
+!endprocedure

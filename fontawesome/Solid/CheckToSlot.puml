@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/CheckToSlot
+
+sprite $CheckToSlotXs [11x10/16z] JOh50G0n08DoBXNsdxPkl29evQQG8nNJuhErk25QV4ME3FT5HurAiVE9GGG
+
+sprite $CheckToSlotSm [13x12/16z] NSV50S1G08DGwfxiFstzwpi15N_4hVEFM_zLDhHns70Q_CxUtUFZdSC3_g5xQ5-WNKDaDaNJ1G
+
+sprite $CheckToSlotMd [17x16/16z] RSt50GGn40F1NaPR-KTxOAPw3aYCN3POSOoIoGsKdULWeXxSFFM0ISM02LGE39WmM7PSmXPQNbcK7KYMFGzm0vY3q50HQj3w0W
+
+sprite $CheckToSlotLg [22x20/16z] TSx50GGX0CNGZ1lm-wzs5PVWxmJZfYKLSLSUFXMTNNrgXOuUJAqwKAMJ1BPI2mkhAjNfJw-pV-sug8lK_lTKguVNfL2ymXoRyDfqwP1SdOHLsqQtDm
+
+!procedure CheckToSlot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CheckToSlot', $name, $tech, $desc)
+!endprocedure

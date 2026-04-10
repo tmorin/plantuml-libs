@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/IdBadge
+
+sprite $IdBadgeXs [7x10/16z] O-070Hu-VXXWP0GI21udc6A0A8EeuWRom690cXkY3
+
+sprite $IdBadgeSm [9x12/16z] O-3X1mCs80q7J0mClFmu00C3XEO2Cg0Yh5063mzC1YB7008S_6mmhG
+
+sprite $IdBadgeMd [12x16/16z] Os3ZXm4e4m6ucPYOO6ns1WO6VeA02y54Kiy5OYF4cR7fP0FQnGrXCZA002VC50QORbu800eYwGC
+
+sprite $IdBadgeLg [15x20/16z] dSl50KCn009GuXxsdxRzxlwE26Jb945ogLRkAJJc8WiX93-A06SLZLMvgW6OrRdm5B1SewVOSHYm4yI0PE8AAXV27m
+
+!procedure IdBadge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/IdBadge', $name, $tech, $desc)
+!endprocedure

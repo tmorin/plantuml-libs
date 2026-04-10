@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/SuitcaseMedical
+
+sprite $SuitcaseMedicalXs [10x10/16z] Om02Vdv-1Z00KNnWcXy4s80OXSKAOx4ni45PJ0nCC5b6L1q8Km
+
+sprite $SuitcaseMedicalSm [12x12/16z] POk50S0m3CCqAZV-_zenLs4mAquI9_BUw-gxhXCTJWLjRBdfkNjpkAiFGFlpQCkh9sLi0tCB
+
+sprite $SuitcaseMedicalMd [16x16/16z] ZSt50SC04CH09MPK_zMQcUTtk0pib2mSL6jDfv9UNFwmx2XPyOlrZoDAzLiTiQlZFt6sgUazx9loCOzZVT02
+
+sprite $SuitcaseMedicalLg [20x20/16z] bOw30G0n54DJkzb_shDzh_mEHX9x33QGF3bPjy_Unz6C_OSpiAImFFd8lxvepZw1UF152sYxzs4Wx7nE0aBMrtwa4_MlPdVXGpxvD2ve0G
+
+!procedure SuitcaseMedical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SuitcaseMedical', $name, $tech, $desc)
+!endprocedure

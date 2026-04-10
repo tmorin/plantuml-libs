@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/RankingStar
+
+sprite $RankingStarXs [11x10/16z] Oq05JFoyS3O_FmeJ0J15UVdv6S42_2neJ1uW0ye4OW
+
+sprite $RankingStarSm [13x12/16z] ROo50S0m3CESCUl_QyVbAemgOPC7E7pHW3oZJ7KCoWSZu0jyCQzBA83zB_R7NG
+
+sprite $RankingStarMd [17x16/16z] bOvL0e0m34F3S6htFoqkMVzuqtfmqo4HIsqU23cQmv5JvjhHI-0V6j6ptTCKKIqOFuSTNtO4EoQHYHsdNdQKuwRlLRy1
+
+sprite $RankingStarLg [22x20/16z] fT230G0n40J0YttRVxLl6_lCnA4vcGxYiJVfWMAtYYxbY9cEr1reF6YhsYdfJn80lSM8DbijdGhg8xhILj55tsbCAQcjvXusoaSwVDMmXl5hknEj0G
+
+!procedure RankingStar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/RankingStar', $name, $tech, $desc)
+!endprocedure

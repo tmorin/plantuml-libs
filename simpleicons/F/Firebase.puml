@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/F/Firebase
+
+sprite $FirebaseXs [10x10/16z] BOk54O004CE2E-o_BLV9knInKlRX9dmi0sBpeFJTQJSUbG5UIH1JdXPKvPN8-G4
+
+sprite $FirebaseSm [12x12/16z] FSQr0O000CJ0mvtiloqThm5M08xx1l2wvXy9a7_gXGUdX33AWnkhuR0Gujq6mdZJ9Z3MKlW
+
+sprite $FirebaseMd [16x16/16z] {
+LOw54S0m30DTPlt-s_OCXNpGB2jcQzZHtnmmjf-Dd-4r9q_kUEshgw9WE-cpwPdc0Bnj_99DHCBgThoCta5kn-drjpN54_cBTsMvddvHsZERdOS5hAQJIthr
+WM3nxmq
+}
+
+sprite $FirebaseLg [20x20/16z] {
+PO-5eSL02C1IDsZsd_RBoTESui23bIyEamzs1uCt1XT65rv9WSM15optAK-s9lYYzEgVe11g_uyjfGEcJRYZvyhWiZK5HMOMt9yTt5VzxJvrLm9nmujkigGP
+gxGqorP6g7rxlWmHHMf98HtWqeF3cKQOognF5OofsdBn2m
+}
+
+!procedure Firebase($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Firebase', $name, $tech, $desc)
+!endprocedure

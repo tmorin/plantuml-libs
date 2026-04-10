@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Images
+
+sprite $ImagesXs [11x10/16z] JSU50S0m2031hmks_xIL-4Lu6EsHdH1Q5z8lBOMI4q1AvIT_Dd1bYDqPl
+
+sprite $ImagesSm [13x12/16z] NST50S1000InANFNlzfZpYyCb06BlfH_PXLFYhPL7arUoC7xOuXYfiW7PRDBjIkRm08
+
+sprite $ImagesMd [17x16/16z] RSt50SH034FH7-Qe_sg3OrXuHuF4FzDkjehBfeIBD0moLTrnZsEW7MdVTMbYy80j3MfDG0mw7eiDDWeRO0PhMGizWru9rm0gXmKaIaRW1
+
+sprite $ImagesLg [22x20/16z] {
+TSg53SH00CH0XpdRVxKFnpXYo_GDKsh0M9NRJLN9rJl_6Sz_NI2haWcRZ2khpi1UrmieAei0fgmEiF3t9dKXYFKckaBTYRPG2wOUofscCXwf2LDhbvupW_4g
+Dm5y0G
+}
+
+!procedure Images($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Images', $name, $tech, $desc)
+!endprocedure

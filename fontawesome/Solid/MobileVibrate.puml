@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/MobileVibrate
+
+sprite $MobileVibrateXs [11x10/16z] Os1WOE470WOmu0S3L2O_ZCdFomrd8edoCyAOV4YYO1CuEU66SN61c
+
+sprite $MobileVibrateSm [13x12/16z] LOp50K0n24F3TstsdxRU0kyKY20Jc7bGOMEpnvdbEOz5Div3UEc1B6KSx_y7vypZf9kknmwCusSbgmG
+
+sprite $MobileVibrateMd [17x16/16z] RSx50SHG009HYFlqN-rgydrkl1FwjlDhrDt5NNy3JriJlAQmIrmfS85ICEP80NIIGRymf72munHcT942g-GK_3orlMRN9VMmtZ1pznrl
+
+sprite $MobileVibrateLg [22x20/16z] {
+ZP630SH050LVrfx-gpqpdd2_eGUE5qrVF5--qiuNzv6Eiz9YPj8SxZ7pJ0eXq-SH9kZKHLpGxJkJ3ee2PH5N5kOH4i2qY3kmCCthPQp7bQQzERISyrAgEt_I
+1lHI2e3H1_XVqHK
+}
+
+!procedure MobileVibrate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MobileVibrate', $name, $tech, $desc)
+!endprocedure

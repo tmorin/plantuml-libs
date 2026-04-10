@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/MaskFace
+
+sprite $MaskFaceXs [12x10/16z] VSR50O100C2muaxtdnPtkRn2GAScGEH5bvXD2bc-mbGKKCH3pyH9oTq8
+
+sprite $MaskFaceSm [15x12/16z] ZSc55S0W34NHNxUSlFsdhRl1XRWY0AvPstNEpCmguqQW6OWb5YxgULoETOAua5fsXHOEdLuC
+
+sprite $MaskFaceMd [20x16/16z] bSZL0S9000N1ZITt3xR_Qd5tvdFurvAHUyMzWQEfrXhFajHcz9KURx5IMvGJbPpk1Z4Eg6dsrCfQj2iwiQUsHIa-Qg29jmfdSM_YBri
+
+sprite $MaskFaceLg [25x20/16z] {
+jSo50GCX44JHESNv_LSRHUAUXxEYVmZi65sQALHDOIVIvRZZD717XfIvK7uam2n5AZ_rK7CHwCfFge7e3WvN3J33gjHxhS2a3FkLudc51wp4BVbGdRaGHpME
+OjQbEQJeHtrk2m
+}
+
+!procedure MaskFace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MaskFace', $name, $tech, $desc)
+!endprocedure

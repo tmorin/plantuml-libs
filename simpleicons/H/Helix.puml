@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/H/Helix
+
+sprite $HelixXs [10x10/16z] FOm50W0X40BPwxFc_w-rTJi0wTGoQ3ME4KTQPtRlDp0nfmXFUnhmBnN0sjJNf08
+
+sprite $HelixSm [12x12/16z] HSp50O0030F0uCxjFoqk_JIU5FclqFq4oUGcyrpXTuRXGYl2tPLuyT9zyP9tjc2kh0_Eby-dx
+
+sprite $HelixMd [16x16/16z] LSp50GGn34DH3MFo-wzsGU5tCLlIgH5CigdKu2JEgGtmw89PoSwvGBahAq55y33a-GwmQYdt_gQJhjvctBKp-brKSGCiAY9mB9HrEJi0ybpsbl_Ll_u2
+
+sprite $HelixLg [20x20/16z] {
+PSv50eKm00FHmRND_K_x9KXjTZoWAS10cqBNcdI2wqCoQG8u5RcBLdOf6Rqq3lgta2L7rc4PUmtShPQTx3pBwTd2El18PXjTC7N9i6ZcgPkMUoJLoR6HiWp_
+YJMP7-JUZGEexyBTaYnh_ziN
+}
+
+!procedure Helix($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Helix', $name, $tech, $desc)
+!endprocedure

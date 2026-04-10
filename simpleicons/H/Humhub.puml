@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/H/Humhub
+
+sprite $HumhubXs [10x10/16z] Om02NcO62E070IW3mkQ2io0KK8e5nc90Y25q85W8ym
+
+sprite $HumhubSm [12x12/16z] HOl50O003CI2E-o_BVNcTOhoJIIVyBPK1fK9JuXDTCWPpZaqIXydXZ27Tk-N05_VcLHSm0y
+
+sprite $HumhubMd [16x16/16z] JS_50O005CFGu4xsdnQNlklNSkcj2Ak7cTVae-7K-YkWC84cDAQrobQWzhLoySFb7oX1OJK19g3pLv0DIy4bmkm
+
+sprite $HumhubLg [20x20/16z] {
+PT350OHG5CNGu4xwhtOKkt1sNvwoMTQArFer59mATmqxByRzAXJ0R5fXz8xQYubI9Nz0xRHzYqxYhkJPo3vUvsa62ilyE1JbVn9l1c0mjJm_nggYoJ5oRMPr
+7VQMtm
+}
+
+!procedure Humhub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Humhub', $name, $tech, $desc)
+!endprocedure

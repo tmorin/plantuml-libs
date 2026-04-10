@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Codepen
+
+sprite $CodepenXs [10x10/16z] 5S450SG0002XUvaB_TDEeDTPlRxeHQAFIdsmvYT4vVXJw2zJAMgNV7kXkW4
+
+sprite $CodepenSm [12x12/16z] DSl50GGn4CH0BPgj_ACzCDHdi1awswiU38fOn_868NjqWJ1Uj8bY2-hrsW6bgsGVRpHw0ZC4jj6FJvA7qOj91VW2
+
+sprite $CodepenMd [16x16/16z] {
+JO-5WGGW3C22Ezb_sjUpeFMM1vTFfXhXGT3czZp4uI58UBXeXY0mtJGlG14WgXhWg1sQUgzBeQeslLm5gDfGbUD2UrDr0Ka5K3JpgCVqFAuW14sFTdEGvU71
+zFemFj37mDy
+}
+
+sprite $CodepenLg [20x20/16z] {
+NP055i905CIcwvxxtvOtEAJs9LtJYtZqpmIAlWbWpg-KEzU0z1e9a3hI1RmaTrsJ1XItjlIgMUK0rrCWE2XWXWH4M0wCx58bBO2U0CcH31xSjGxbUDGCVK73
+I7BWkYqso5o7uQzj3QXVwmEYNgjspTAKpBBgseRmTLHdK2rzCJ1HFrnVqWq
+}
+
+!procedure Codepen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Codepen', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Diaspora
+
+sprite $DiasporaXs [8x10/16z] HSS54e100810x9R_lrQlRoSOw7Q7qX6G8zJ7ZDteXZU488p67EW42z4F
+
+sprite $DiasporaSm [10x12/16z] LOk30S105CLIkzb_slAORpmgT4lTdhhZBukUWmMq_ao0wWAm-_9BJlvMeVCaCC8D
+
+sprite $DiasporaMd [14x16/16z] TOw50SCm30IbDaot_xG1CvvH_DBWlAx40bgMVYTOiAkrPfZf8t94Gyqqynt4yCTmMSjyWVapBfC5uApT2B31sJWNL0eU
+
+sprite $DiasporaLg [17x20/16z] ZSk30S0m54NHLxjt_sbhnYVyaaUnqHURv4Hc9c1w4orTpcvWKyt0F66m4bBDnw337UKwLPncNRWLEanipgvtO5HnFlV0tQXT0_bLoNHgjSjckQm
+
+!procedure Diaspora($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Diaspora', $name, $tech, $desc)
+!endprocedure

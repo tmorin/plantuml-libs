@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CommentMedical
+
+sprite $CommentMedicalXs [10x10/16z] LOh70O0m4CDCxsZ_QI7HAz7rirCuM5D1NXUvtU8AenPUIE5IQ1lTbX46zFu
+
+sprite $CommentMedicalSm [12x12/16z] Om01RdvE1WZWXm0m4mQWJ4umoGWYs20YV52L3CXiD3KGaWF2PaCs4y7a16fXuEBZ06a7
+
+sprite $CommentMedicalMd [16x16/16z] NOz50WKW44AnM-v_sX-sljNq01gcC4bCAZkXPOARVywJcSR0XiEi6pPQlMH0v-lCF5oVt3pxcBaTGUQ9kFL4e1nfkEJMuKtYu0i
+
+sprite $CommentMedicalLg [20x20/16z] {
+RO_L0OK030CFztJ_QP_GuDnFNK9I38gvvKGVHXKcJYZ7uiBYhWipZ7Q7ORPN4EPOCjNddCc1ykK3p9J_lEGiGGAa35xk2jahYiPUxUePu2LLFbCepapWjh78
+oW3PffeRNm
+}
+
+!procedure CommentMedical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CommentMedical', $name, $tech, $desc)
+!endprocedure

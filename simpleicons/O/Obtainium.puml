@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/O/Obtainium
+
+sprite $ObtainiumXs [10x10/16z] Oq05NFpy_42AYP-17mZ091UO2I5093D42PJ73n67iZd0XZ22XA204yW2
+
+sprite $ObtainiumSm [12x12/16z] PKs50G0X4EBxJVQVrcwl4x0BoLo8K4R9eoVNDeGN-enrNiPqNRsE8Sf76Y3_TSoXHWJx1kBW7W
+
+sprite $ObtainiumMd [16x16/16z] TSo50S0W3031hplilsq9heSJOKZfXqHR1-BGzct1P_QNBRxZ8G5bmc82KlYDBLbYtyUSf-pMWWrZ-qU8AJuNiDOyREtoVCZSDfnxPVi1
+
+sprite $ObtainiumLg [20x20/16z] {
+XSq54WGn24JHFnfFt_-sMr2isniDoXzhqywJAhVmG65uT9Kcw0Rs-1uFCRaA2eNbbZmMOakznM1zQiKD-ptOv2OcqaEXGOqlfsvHcHLJz8WmT9CXBBSe3nQv
+pfDaiOq7iOnt6-O2
+}
+
+!procedure Obtainium($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/O/Obtainium', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/DiagramNext
+
+sprite $DiagramNextXs [8x10/16z] Ou01Vkm09WvI0YLWeWnGILu697K
+
+sprite $DiagramNextSm [10x12/16z] Oq00Vdo01yvYuERZu-C7OdQ8BWZ9oG2IWYhWPsQ0gcLaWEbbW-g507O
+
+sprite $DiagramNextMd [14x16/16z] dSsr0KCn00DHcTdQVzhaC_FhhZgicJefCFm6w-fKAimgnVYJA6IDIDtF89CqgEo89WqSEQQOWvG8fx_H7m
+
+sprite $DiagramNextLg [17x20/16z] fSwr0G9H0C3GVCCX-q_BkJSdhqmLjj9S19U-7w-xkyBNXK8dAPDLI0dIKrE4_hJV_P3wqqnKlp1kG_07BqU104zdWEV1qqa5
+
+!procedure DiagramNext($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/DiagramNext', $name, $tech, $desc)
+!endprocedure

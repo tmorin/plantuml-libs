@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Barcode
+
+sprite $BarcodeXs [8x10/16z] Ou02Nav-1Y1aukSYZsPZ0jEC
+
+sprite $BarcodeSm [10x12/16z] Ou03TZvcRWP-8EJXvsVb1RFugCrYO6DWOk1Xu69W0m
+
+sprite $BarcodeMd [14x16/16z] Oq05F0oCx40IWlZvcNZu6VZu6Hb0QF3oW3GtFmClFmEOX-eX
+
+sprite $BarcodeLg [17x20/16z] vOZL0S0W30MlxhtzfqN_O0IIvtItm4pYL7tv_53cH7muj0xBeCFkWJ_u9Pwiqbu4
+
+!procedure Barcode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Barcode', $name, $tech, $desc)
+!endprocedure

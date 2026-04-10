@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/LocationDot
+
+sprite $LocationDotXs [7x10/16z] DOU50G0X00BlmmxsdzQM1YW9I1fuqC8u8DLTQE6MNGaZAwkX0m
+
+sprite $LocationDotSm [9x12/16z] JKo50S0m36AhA_zVMxUu003-7D6DmtOd_vR2jfBR3BGQIJl-6_CC_-nRnsr531kz0W
+
+sprite $LocationDotMd [12x16/16z] LOw50S0W3C0oz_7_jJYL87K1cDzmKvb2ewbY1E6Tot_ENn7bEz7m11JVbT_V_HBq-iMYRYHmeWQ5KzJUUwKJsiu9
+
+sprite $LocationDotLg [15x20/16z] JOs55S0W4CLIns__RVlm7pHmGkMCLXo3spg9YhF5-bjkYZ-j4iyH5Di66dPKpVLMwlQitszsUFh5b49HVJXL0R4NEEIp4hJz3dSWdfbSLTbyqtu
+
+!procedure LocationDot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/LocationDot', $name, $tech, $desc)
+!endprocedure

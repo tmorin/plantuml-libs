@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ArrowUp
+
+sprite $ArrowUpXs [7x10/16z] VON50G0W08ImNyh-qvf_Bm18tEZZiSdQhGqh0uxuQG4
+
+sprite $ArrowUpSm [9x12/16z] bOP70O0m0CJ21-YCVxNT1dep3Fri1NtEBmf6ww3FY1NbPm8PDd057G
+
+sprite $ArrowUpMd [12x16/16z] jKgr0G0W34lPqFn_BLBxW6eCMWjHGZBXguHA5BR9ekH2JChzN1SgXgOKw_-7zHq
+
+sprite $ArrowUpLg [15x20/16z] pSc55S0m30DHbRct_xIbWEqDcfZ-az8xHhbtmXm4Ir3DWUAKhGCe6TZqylC1gn9VZ-mgL9g9wVs9JU4D
+
+!procedure ArrowUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ArrowUp', $name, $tech, $desc)
+!endprocedure

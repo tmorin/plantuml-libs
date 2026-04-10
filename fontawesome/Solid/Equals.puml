@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Equals
+
+sprite $EqualsXs [8x10/16z] Oy01-A40bpmt3da
+
+sprite $EqualsSm [10x12/16z] Oy0Fk660dHy6y6lWHQXZWW5iwW
+
+sprite $EqualsMd [14x16/16z] Oo0NS2C3NdvaGBQPF4W0tKmc9C18l94
+
+sprite $EqualsLg [17x20/16z] Ow09u4O5dFpeW94N5N3Jn1aOzdAZ2p0mCg40HcfO2m
+
+!procedure Equals($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Equals', $name, $tech, $desc)
+!endprocedure

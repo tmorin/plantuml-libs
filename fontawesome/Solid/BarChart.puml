@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/BarChart
+
+sprite $BarChartXs [10x10/16z] Ou03NduOYvyVY800o48NOy0Y1gOGfh110L0G2W
+
+sprite $BarChartSm [12x12/16z] JSR50O0030F0u4xstnRglTUXsLWdSL8CUem2zcLPfFA3Ft-GRpHot6gLfuK5ovi-
+
+sprite $BarChartMd [16x16/16z] PSsr0G0W40F0F1MU_QV5dUjUWvU_Ir91VEDcRTd9gA4QmQZVUyDgr-gfXrs7sFbUEqupRv3_tZBwWmDlU6G
+
+sprite $BarChartLg [20x20/16z] XT235KGn50JGMNnZ-gysDkznyeoMN_tqa2XHl-tqujlHUCFdQy6_jUjzN-EVlbsqqZTSnWUJUlX5_kraTBktFwDzKA--orhuWZNy6syD4W
+
+!procedure BarChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BarChart', $name, $tech, $desc)
+!endprocedure

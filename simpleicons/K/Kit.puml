@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/K/Kit
+
+sprite $KitXs [10x10/16z] Oo0Iy3CmWWW6PWP-HcO82qImG5Zu0G
+
+sprite $KitSm [12x12/16z] Oo0Hi899DWOcTdPsVWO6BWO680d480XdSm49A9jK
+
+sprite $KitMd [16x16/16z] Ow0nu0TY7aOmpSh6oyO6f7aPeU8Ct22QZui1cS_7oCA5nES3AcPXW_AvgEy-
+
+sprite $KitLg [20x20/16z] pKW50G0X39oyeltJubu0jdCuw7GKCa5iPBgOC0ea0VvIOWlhXfRNxR5WhcMBCOrzevmITvy7
+
+!procedure Kit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/K/Kit', $name, $tech, $desc)
+!endprocedure

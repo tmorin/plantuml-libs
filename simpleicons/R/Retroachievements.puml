@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/R/Retroachievements
+
+sprite $RetroachievementsXs [10x10/16z] VS750K0X5C2mVXUa-s_BkoC9Izk6G1QF0qYAFeAMom0F1WplMnbe
+
+sprite $RetroachievementsSm [12x12/16z] ZKbL0e1G3DhhHEv_MvdVreAq7qDD46zU6lHi36C1fUCGid9vVUmjZUQQri6Q26iL055I619DRmzp0W
+
+sprite $RetroachievementsMd [16x16/16z] fSZ50KD130DHVrgqClrt6oyK49YJdkpF69KzJxCMvJ4igJ1EYUPXYeOxu7tuXQTXxmIBuvbXqZ199mm_A8T7lOOj7dCdvtoZAZlKgkwkaNtP6m
+
+sprite $RetroachievementsLg [20x20/16z] {
+lOs50SGm30CTHkVsdxQW5Hwk3TcMP7y0iKna6CyH7gonLMDttaCqLADCydESb1AcsWBORmquKpK6P5IZBOL4Ejifgj48afwLcRorpLIkakYeLeW4YpHbKDwQ
+FGl36VtX7Dy-BNWvoPjd5_PbRW
+}
+
+!procedure Retroachievements($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Retroachievements', $name, $tech, $desc)
+!endprocedure

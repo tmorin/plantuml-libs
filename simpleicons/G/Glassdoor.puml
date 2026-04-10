@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/G/Glassdoor
+
+sprite $GlassdoorXs [10x10/16z] Om03FYO6AE3dvsT0i1auWG1805b02Tm4H344i45P2AC
+
+sprite $GlassdoorSm [12x12/16z] bOp50S0W4C1QtBF_j3ZyoRb-Y-o-Im5k8Q7SueUFmOFFkGm_w1_yVQqpw9q3TgSD
+
+sprite $GlassdoorMd [16x16/16z] Ou037bO65C0F1EXyVdGL7CXyHf02NWW0qq0-M1irQMPcPZOm3G4WUpdv-RcHdC69uavMa2ukL3upWWi
+
+sprite $GlassdoorLg [20x20/16z] nS-53G0X04FHuWxxRtku3d0lrlneiOcMufOo_xOC1sRVc8NSwDL8RWQcustbvf0wtTQlhQ1vCPpC-qW-prDbhjUPnTqiET87
+
+!procedure Glassdoor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Glassdoor', $name, $tech, $desc)
+!endprocedure

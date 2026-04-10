@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/V/Volvo
+
+sprite $VolvoXs [10x10/16z] 1S450S10000Xvhxht_O1hZRGY-O4BBo0Be0fxzKpOmTO1SYrWB356WC
+
+sprite $VolvoSm [12x12/16z] HOor0G113CDqpF7-qpw3ce21aw7AZIOuioNG-nhV2ei9l_3Hn70j3NgRkSBljz__zvG2ylTw6PPQNYgm0m
+
+sprite $VolvoMd [16x16/16z] {
+LOu30i0m40ItZN6P_x-svWHdw20OJG_6oB52R229hWj08hw9iycwNcmI-k09Gr-mx7rGcC8SDY686fCbjOmlisZrdp_nj_Mpor3a5vRCNlDOjUFFv7lpYODZ
+inK
+}
+
+sprite $VolvoLg [20x20/16z] {
+NT150iKW303HWMhQmDp_jD-Ljus7b-Zcmez5RTcrrLG1D7ceHbK1BRmLFGNbnnHq5Wk_gWMJV-x8u3HaKEoDOugoRNDmJiUqpcXIiqInd5jDWiJiZ5nbC8kL
+VpQQuzXASU5N5mWdlfIxm_WKTkldfUTpelAn-z2UILS
+}
+
+!procedure Volvo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/V/Volvo', $name, $tech, $desc)
+!endprocedure

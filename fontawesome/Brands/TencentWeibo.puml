@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/TencentWeibo
+
+sprite $TencentWeiboXs [6x10/16z] HSU50O0000AmsIt_Nsi73NLmkQSXfZGYGOzOk-lyAC0E
+
+sprite $TencentWeiboSm [7x12/16z] PSN50S0m0CF0AtEz_xJ5_6AGS6pOX-yzx26XQ9U6HjCYOjd22ZJgt
+
+sprite $TencentWeiboMd [9x16/16z] NSk52G0n04FHN_Tc_ssFGB5xU0J8zs2QX2iGLbQkOCwY14cmf4AGKySrrGbmtYqUQiOp1-cSp6jiyZYraFx91m
+
+sprite $TencentWeiboLg [12x20/16z] VSg5SSL0303HDVjm--ys8mtaypiG0kp3IbgTzr4TcMw4BaIQUhixm16VBh6cm8YlgGSKb_XoN3rPx5w0sy2Ti0Zt9CLCmcw5RNAfkTWFM1QIX9_vCZ_dFEH_
+
+!procedure TencentWeibo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/TencentWeibo', $name, $tech, $desc)
+!endprocedure

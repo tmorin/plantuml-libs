@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Bone
+
+sprite $BoneXs [12x10/16z] TS630SG0402mUzJ8_jFMHX9lI6BKqY0T8R4BkyekHumGnEIdZeCU
+
+sprite $BoneSm [15x12/16z] VSh50O100C2muaxtdnPtkRn3M6p5fXFKZeLlaJVtKkVUzAhjOiy52rN8sSK93oC
+
+sprite $BoneMd [20x16/16z] fS654OG00C2mlk3I_RVbSFU4DoBrGozMmHgTZxNIMjxHMkOQhf6wnCUrqhNCsk_RogrXZPurA4mP5IPSLG4
+
+sprite $BoneLg [25x20/16z] hSg30GGn54NH5pkt_shNDkO4drgIoTdeYYz1Kc6Zwm9RXu3JoMHh3lRY2NkJ9m9FQF1GaEKXYSTwurjv7wfEsDCXdENZ9Xj65ohGjA0r
+
+!procedure Bone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Bone', $name, $tech, $desc)
+!endprocedure

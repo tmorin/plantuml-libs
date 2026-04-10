@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Cursor
+
+sprite $CursorXs [10x10/16z] JOg30S105CLIkzb_skBy-SHV5yIlZa1dB91OecOKeHbj1UNJXe4N
+
+sprite $CursorSm [12x12/16z] JOq30i0m4C0oU_d_QuSwxLa4BZAdEWTlCjA1M-P4IOXwHpVueTGtljNVLSxeXnEvcavtuczV
+
+sprite $CursorMd [16x16/16z] NOw50SKW50DJBthxJ_i5XqEVHuMWaGYypNh9xCdQQKH9tWnO2Murl5GB4sIRcCrORSYTPvlPVXSxFtUrGorpwRFHbG02fyREZH9V
+
+sprite $CursorLg [20x20/16z] {
+RT050a0m043HfURV_xHOvzTFJwJqBRha3UmDEN6PB2kvHtgHDDtksTVUnczSeiaRs8gEQA2oaOrR9Ye6djJ466sV6AETSKTMvhTdDGIHohUx0zFzaJCuH9FY
+p6Fn0G
+}
+
+!procedure Cursor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Cursor', $name, $tech, $desc)
+!endprocedure

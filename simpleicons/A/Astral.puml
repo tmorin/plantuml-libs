@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/A/Astral
+
+sprite $AstralXs [10x10/16z] O-372XX00CmWdWN4s0q3
+
+sprite $AstralSm [12x12/16z] O-0d2Z1001Os4nk6E2QR7vsD4m
+
+sprite $AstralMd [16x16/16z] O-170NpyH00EDWZWXd8PO032PoE2pmSaYLOFPXB9nmJuFGW
+
+sprite $AstralLg [20x20/16z] O-370Dpyb086E6112240rSJu-BYfPHwKHveOoO1mG0C
+
+!procedure Astral($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Astral', $name, $tech, $desc)
+!endprocedure

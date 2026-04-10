@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Football
+
+sprite $FootballXs [10x10/16z] LOY54G0W4CDwdE7PVrfSNvFgAv1hgmm3Uq9MmmwcUHyINRSrbzU9_0BHiKC5
+
+sprite $FootballSm [12x12/16z] NKh50S0m2Bpw1zb_MhIMe6UOQbNDrO1ncm2IK99WQPc3e91A_2VTDpNM8-2HANxbhP4kcM-o0f1yUY7A0G
+
+sprite $FootballMd [16x16/16z] ROt70O103CD4xsJ_RV75WHVwIRx2Brq4XB26gE2nWjrsEC2TUZDbW5eN1ywc9wF2z-WTaq9ZRU5WLaZtxxE2aJbOk_TBiqCzMcglq9FS6JRC0m
+
+sprite $FootballLg [20x20/16z] {
+VOi74iGW30CtFQ7-_xU7aJrCFT5N2t-oVHNUFl84iaU3pyuTqDMWp0-W2OMPiKx9RbPWIJ8hw-VEDk453iQ9crnY6wWmc8rKXr6FTsQpwoS64s9I4ghmJRYp
+YwXFRZfAs5LcXCba1dAspCpCqvT9P7zJAHViH7u
+}
+
+!procedure Football($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Football', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/TowerBroadcast
+
+sprite $TowerBroadcastXs [11x10/16z] XSZ50OK030FGzmMNx3yjRZVQkCT50vM8KRez_F-osBaE8cBnMYUmHhp66G
+
+sprite $TowerBroadcastSm [13x12/16z] ZSV50OK050EmVC6b-q-Bsv6dZRi-f3gHGkGFOoDRVnDoTFs4ZDfHv8CC6drBiODrdV0MCm
+
+sprite $TowerBroadcastMd [17x16/16z] jSg5WG8140J10iwjyu_sNGDWTOoR_tNBRwrnPJi_QNJNg8bjeNJg9ghLc2tv4dBFsbVYhBibUrfrKDv_cottwLCuoUT-2goVv5VWES8h
+
+sprite $TowerBroadcastLg [22x20/16z] {
+nSo54SCm5C1G6O86xJzjoHUQe3f-7u30imYWJvoT8DfWEoWie50CL0-jHge11JkW1R0Hp4DNK1tdk6CdcuTsw8851UUX6yVkyJTeE_wk50DDG5Ueffz4AxH3
+Km4553WKc9q1qbEP6JsL_satS_G6
+}
+
+!procedure TowerBroadcast($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TowerBroadcast', $name, $tech, $desc)
+!endprocedure

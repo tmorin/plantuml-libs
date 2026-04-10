@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Battery4
+
+sprite $Battery4Xs [12x10/16z] Oy05-E60Zu4V9iZ83sI31V6nKTN30JkoyG
+
+sprite $Battery4Sm [15x12/16z] XSUr0O000C2muax_lnPtpHQ-1Hw0RRYnnffa0jYETGBeVpUsQBMn00-uw04
+
+sprite $Battery4Md [20x16/16z] bS_L0O0024NHPnTozv_MxlPyqkYxohOATJYIZ2pSSgIQK5isnPYCCRk8yIlckrXukRV0gosu-CFqLGi
+
+sprite $Battery4Lg [25x20/16z] jT2r0G0n40F1CxFLVxNFp3ZfHX9zYMCjrW5RCf40-580ca1BUWWnz_WyO62wW1-3xa9g0nSzwiB13Wwai01Wxoj55PkMeg07IW
+
+!procedure Battery4($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Battery4', $name, $tech, $desc)
+!endprocedure

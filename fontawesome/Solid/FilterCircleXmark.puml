@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FilterCircleXmark
+
+sprite $FilterCircleXmarkXs [11x10/16z] Oy0AUFXXW841mOAn8Mh033uM29kH0ww4WP-3bm7A10hn8PJpy0C
+
+sprite $FilterCircleXmarkSm [13x12/16z] Oy09-FWHW841mMPXGF1OWMmeZnkc3woScnV6Om9BSq0uG3OdFoi_Z0EIH70O67duKUm6
+
+sprite $FilterCircleXmarkMd [17x16/16z] XOw54O1G3CM2E-m_BTAhdf6lzSS_Um7Egz11iK-e7eHgXsSYqEX-jE7fT9ux62_XKCSklkzMnu2an-G9KRMgW_Ryai_hkzL3eseU
+
+sprite $FilterCircleXmarkLg [22x20/16z] {
+fSk53SG04CH0X_7E_LVx_65XB1xjShl1KpFCdWgk681BXBZ0_NfaBVsK1Rk-2FGPzMwTqFjfkLHQ_54t2ZfDMkkyw4IdFL6XBjgHQWUvrPvGwvsIGQiDsR9H
+13_DEh5KKVkB9m
+}
+
+!procedure FilterCircleXmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FilterCircleXmark', $name, $tech, $desc)
+!endprocedure

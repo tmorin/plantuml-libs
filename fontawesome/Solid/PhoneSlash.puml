@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/PhoneSlash
+
+sprite $PhoneSlashXs [11x10/16z] BSR50S104CGmXpdklzh0xEabu29aqbg7vlQqEW2r4VBUYLONMEehXtg16mOUi6Gl
+
+sprite $PhoneSlashSm [13x12/16z] DSdLeSK034EnSx5SxJ_jWu9-4jlLykYaqC4pE2RlWhtogQ3ohVembQ43CdSQiNGx_fcjoXeSoTxcyCXU1Mk_
+
+sprite $PhoneSlashMd [17x16/16z] {
+FSw54S0m3CLGbRdQVzhYFx-Zn0omZn2dqAd4OGkg2v_D7XPVl1RVthC2inF0cW2JCn_r10PNAl3jsdcbPseyABw-VyoPihdLlS8oc0Ge64tz8t-6_BVyWJcx
+RW
+}
+
+sprite $PhoneSlashLg [22x20/16z] {
+LS-5bO105CNGu4xwhtRb8VzmyM0p_5iEA8C2etfyOfkz-iPU6y2OAdP0gq5qskPcrSJkFgdQ94R5LdjkRyIA6QvRdXme_cj9B9F6IFdEOyy-cZSUwjRKDsPm
+sus3I3nztN41BMziB7tYzXcWEt2wSkiFpI_u1G
+}
+
+!procedure PhoneSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PhoneSlash', $name, $tech, $desc)
+!endprocedure

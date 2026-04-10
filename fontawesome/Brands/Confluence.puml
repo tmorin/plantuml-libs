@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Confluence
+
+sprite $ConfluenceXs [10x10/16z] HSc30S0040F0gztiFssDH-YV8a4ooJj-nISKIm_ytJlpyrdLAJ753W
+
+sprite $ConfluenceSm [12x12/16z] LSt50O104CNGu4xwhnPTVQEtJqNJMNqCZG_CQFBxQDBxcCwPt-9dUDxPQCBa7DKTJZNd7d83
+
+sprite $ConfluenceMd [16x16/16z] PS-50GCW30J0nvtVVzfAKa4ETu9BOe8m95xuKhwT2aVLAS1DG-8ABt4PAllT3ENxoEi7L86ew-r0uAg26pUaoQPGwEjH7Y4riZ6X384d
+
+sprite $ConfluenceLg [20x20/16z] {
+RSw50G0X20NGRxViF-sbhSzEm5cE38MW_CqPFSekFS8_Fh82aFuv66qGQ2KFUtWu6cK0wouQ6VzB4WtpALgCD1MUeGYqVUTfaZZ0QIL06yGoYM58EhMlcMzJ
+-Ooyfv3BBA2n7BW1
+}
+
+!procedure Confluence($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Confluence', $name, $tech, $desc)
+!endprocedure

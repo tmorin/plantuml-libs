@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/TurnUp
+
+sprite $TurnUpXs [7x10/16z] Os1WO6O00KP-VX353mGG4im74LWfg0AeCW
+
+sprite $TurnUpSm [9x12/16z] VOd54G0n08JE9KR_tOQP_OVF2fjyM_XXJuhDJ2EykWQ7iIYr0YQGafG9
+
+sprite $TurnUpMd [12x16/16z] Om03FWOOOEJdvuSpGG3AX0084yxXGR11W1V8O06p859C9B1vOMnkRXwOWSY68zl3Xs0o
+
+sprite $TurnUpLg [15x20/16z] hSr55eK034FHVC5fi__TSXvQ67DdrMWpjohIxg_A6CeC_JahTRhMFnTaH1WPmJSwb5_XvJ8eFy8qJMa81XxbvrR-9On6CCC2
+
+!procedure TurnUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TurnUp', $name, $tech, $desc)
+!endprocedure

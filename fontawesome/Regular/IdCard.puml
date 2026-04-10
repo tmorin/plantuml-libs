@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/IdCard
+
+sprite $IdCardXs [11x10/16z] RSZ50O0m0C30u4xsdnRNjlSyFapgRfE0qFQqWkO0hK0DMfxhjMuAeCF72W
+
+sprite $IdCardSm [13x12/16z] ZScr0S0m00F13xEq_xHXK-Uh11HSPo3IKsnOx5ZIinpGJDDNcWQ6VN-BRpoqQtcAXflP54qN
+
+sprite $IdCardMd [17x16/16z] bSg54O0m40NHZplRVxLOF3V6WzZEoHZFtA6H_ywcy0GzEWKk06wVKYWd3euoEC3eGhljM_SSRUic1bvT71EE3wAYsWq
+
+sprite $IdCardLg [22x20/16z] fSp50G9H50F0hFjE_zNY_k74t9ua-Q4fr0cbRVM_gR0XXV6-fR_Cypm_jnkg930zjb0N3GDIR5FrEOFslds0uRuTmKV3wEfzorMJgyd0xcw_8fjIbw-E
+
+!procedure IdCard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/IdCard', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/GraduationCap
+
+sprite $GraduationCapXs [11x10/16z] LSkr0SG040CmFOJ1-qyRHZM7zbOdFv3TA0_k1drI8hPCdKvaixLTDdH8Cc06
+
+sprite $GraduationCapSm [13x12/16z] NSl50OK050EmVCNf_jFYdilJylHENbjRPV57dqERczyx6_93aevv-AQ4BijmVVlSCblVy86YQxym0W
+
+sprite $GraduationCapMd [17x16/16z] XSt50O004CJ0u4xwhnPtdT_fygOkE0WTjInoDp5GUPBxeyOMwcqViDt-HZ0tb5biFZVcl4AtnkRMoAP6v6PDQPrKFEa1
+
+sprite $GraduationCapLg [22x20/16z] {
+ZS-54O0m44HHt67xxvRPNDp_-8lUq6YQnyGEiDcdyORfCBOWwAETIFeMzBS1mn4IFmBmgw-bYv-cgXuvEZ1HsJ0Vepfs6-LbTaAdx3vvIw1IHI-jTw3sPxk7
+4_McMdzfnNu
+}
+
+!procedure GraduationCap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/GraduationCap', $name, $tech, $desc)
+!endprocedure

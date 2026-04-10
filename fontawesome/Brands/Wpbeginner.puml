@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Wpbeginner
+
+sprite $WpbeginnerXs [10x10/16z] Oq06_4303MP009010q0ML09938HPcO1wKCJWca6O7KW
+
+sprite $WpbeginnerSm [12x12/16z] NSs50OH00C2m0kVM_QTzLx90EEbgvYxvjC7c6-XqtkX4aHiLlr2tkDRIW1yTlnZUREzW5g0Dk08
+
+sprite $WpbeginnerMd [16x16/16z] RSt50SDG3C1G1Jw3zf-spCqxcSsXq4TTNzdmhd3Zo_nEjKFo4wW4hhAQVlAENp95lRLk0DK6BFVSBzjFdlZzJrFbNW_yEWC
+
+sprite $WpbeginnerLg [20x20/16z] {
+VS-50S0W30J03-xiFstbwtgu4_mGhPNWhAyoDhaV5AZrCuT9wbVRNHU0csgZgg9rhYprwNs5EjNwia_n8rS2mol2zM6s5h1EgJKMsS8ABctxuijzwMLElSGn
+VP0CVy_d9fwBMqVmQWG
+}
+
+!procedure Wpbeginner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Wpbeginner', $name, $tech, $desc)
+!endprocedure

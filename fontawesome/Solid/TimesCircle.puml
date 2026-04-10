@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/TimesCircle
+
+sprite $TimesCircleXs [10x10/16z] FSYt0S0W00D1sKHLl_-qPBX6GOF9cbXy2wJNC23UNYM_JrpoBL8wfGC
+
+sprite $TimesCircleSm [12x12/16z] HOo50G0X30Fphi3-svBwrHN2DsuOmwYKM6eqoT77iJ5-j8wZnfxUbg8pWhPoxVNSkUff1sdHdG
+
+sprite $TimesCircleMd [16x16/16z] LS-50GGX40J1VZb59lzeSItSMOh3oNpedAgBGeElmydMpTC79URCNMM7afD3KCQkpW9U2pXKc3vi4vzIuNNKbr1NXfvJA_OFdIHs7y9dYIO2
+
+sprite $TimesCircleLg [20x20/16z] {
+NOu73iKW34FTlG3V_xH_D36oU2thAGl9rLXs61kJEadHkAISMyhPLCjHs1Cjtlr4A4naKS0LnmGGo4UZf9HX4vGyW0aJWrrH5xj43F7MclIe79aLRzW4fe1x
+o7pPFAfpXgWHz0K
+}
+
+!procedure TimesCircle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TimesCircle', $name, $tech, $desc)
+!endprocedure

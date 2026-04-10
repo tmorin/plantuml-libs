@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Simplybuilt
+
+sprite $SimplybuiltXs [10x10/16z] Oy02EFZv-O4Ka0IoG02L1PHZ1yc3MInG5gOwX7a
+
+sprite $SimplybuiltSm [12x12/16z] TSPN0e0W3C3GkBUv_srby-M3jk77fX8CwgwUmPswwlsctk5rWYVqI3Z06LecbT7GtMm7tGS
+
+sprite $SimplybuiltMd [16x16/16z] XOs50S0W30JhNjX_sXZkXyR-fn4VONuRVozDB19hHkBlOK9iQCRpB4FJRcAZfUXUe_YoZt7JahxC_6kixh-YVsRnD001
+
+sprite $SimplybuiltLg [20x20/16z] fOw50SCW50KFTzX_sdhZdaE_FsvWsfl4b_R1VvybN_moylquxukWt_y2edvz5S3zXtzzuVSl0r-6R_70roo8zkrBkgcFCYDna2S
+
+!procedure Simplybuilt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Simplybuilt', $name, $tech, $desc)
+!endprocedure

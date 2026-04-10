@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/VialCircleCheck
+
+sprite $VialCircleCheckXs [10x10/16z] O-3b1m961Y3W1m4c1Z0JXD1PG01d0GacC0kY2yO2gOMH25a
+
+sprite $VialCircleCheckSm [12x12/16z] XSXN5e0W50FHsBlP_suz4u5VXdPvsaoxoEbLygZ1wfYQuNrZk3BOOivx6E_ooX-VlCOBI1y
+
+sprite $VialCircleCheckMd [16x16/16z] ZSV50GH14810rhMR_ACzMvlv7IyAF4gETiyQZiAXRTEEsosapV-E24l_ed92d_jZyDVXcyRfGNL5JuUvY0ghodOVg3JgwE511pmQtW
+
+sprite $VialCircleCheckLg [20x20/16z] {
+hSk53SGm5C1GfypUVzg3hvGhhiDF2iok9NAbUwpjLC2EHUmzRrcLKhfOz6WJD-k0mQbWjn56ezt0jTLwAgDIfsm5Kr2BcYsX5ixC5mDQLrl_5fYjK0SArmQ0
+MeLnDRu
+}
+
+!procedure VialCircleCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/VialCircleCheck', $name, $tech, $desc)
+!endprocedure

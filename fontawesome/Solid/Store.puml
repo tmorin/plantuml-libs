@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Store
+
+sprite $StoreXs [10x10/16z] Oq00VXX0iDXGnTZ1B0I0ibaHEh2ns04
+
+sprite $StoreSm [12x12/16z] NSY54G0W30J1nntwhnRtHN8Jt7HQW7JShTuzwLVMlYM_8Y85ChHUlaQS0We
+
+sprite $StoreMd [16x16/16z] PSVN0O0m5090x1tsdzQkINZtTmXc9XsmALT31Ters2ix1grOD87gS3ROMEEpwhpys_hX_LnyRpS7
+
+sprite $StoreLg [20x20/16z] bSk54GCX443HZplqtsrcnx3OFNIDzyn6IsgS85yvnRZ4Dxdkn-rT3hcYN46k8WTILgYSmEG88GVUqj5jeP69CLWu2T_dTazo-asECnLuvmK
+
+!procedure Store($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Store', $name, $tech, $desc)
+!endprocedure

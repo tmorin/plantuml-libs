@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/UsersViewfinder
+
+sprite $UsersViewfinderXs [11x10/16z] DSY50GCm3C0mbxd-_zhn50vNtghhyhVzl00wT544K6R2niVwJL5dxWn45PFyzNKcRt7w1
+
+sprite $UsersViewfinderSm [13x12/16z] LOx50K0n5CAeUxF_jDyrfwU0EkW0KfyfdarA4FGmyUV9qKYM8RXwKT_bpYYwG03Yt5zD564-pVpvHDuuh
+
+sprite $UsersViewfinderMd [17x16/16z] NSw53SG030ImAtEy_xJFM8kYS2QElA0PuPj0vSydqPmI6tcGP5N169wTI4V2bBlMd8UIhzg-SICTf947Hy0SbNH3x857_ddoIC4KmlbrJeduvbgu0W
+
+sprite $UsersViewfinderLg [22x20/16z] {
+TSY5SIDH00N19sdnK-SVxPrjCKtHLESqa5nRK7C4nrphC8QyrVYWcxikxOFkkAeioKO2ytcp9WbAAdBUSrYJudJTS-LyzxrNlK2RSm99Nwv80fHCjZDEvEXS
+Gf9TAZcvw-64B2H0ou5io6jVjUgbbBiSIobam2dNEfJ_
+}
+
+!procedure UsersViewfinder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UsersViewfinder', $name, $tech, $desc)
+!endprocedure

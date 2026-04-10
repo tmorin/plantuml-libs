@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Capricorn
+
+sprite $CapricornXs [11x10/16z] JSZ50O1G0CFGu4xsdnRvtjDhgBiSDrtYKR2Bd64pSeInfLghaMja1-Yb18Zo0W
+
+sprite $CapricornSm [13x12/16z] NSY50O1030J12-xRVxN0kyGdgcDbqGaMz00tZ44d_XKm-Tt1AW1Rng6TZD2ZsoUc0VaOSV7us-tn7lG1
+
+sprite $CapricornMd [17x16/16z] XOo30K0X54Mpw-m_xRSP7gx4xLGpb5ZzjWC6W1LH3KWgxuW0EzI4tO6vrN_0jt0203W1LHQOWGrlN4BZ3bZsUSiiqEOjLCW5Q3iTbh47
+
+sprite $CapricornLg [22x20/16z] {
+bP053iGW00IBE_F_rvwWvpAHJLPQu7YDaararq41z140SCkr08LEE3RDw2gsAw6EED-LRTC0TwvkglzpFLJpw0wUt1mgn3kttoF1gx_Tk_x1LVsb-dLYTqM_
+cW8e5aZ7H4GczV7XCX1tysvtd04
+}
+
+!procedure Capricorn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Capricorn', $name, $tech, $desc)
+!endprocedure

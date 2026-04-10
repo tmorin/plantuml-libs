@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Shrimp
+
+sprite $ShrimpXs [10x10/16z] Oq00VZX04mEIO2Ota0LYSaF4M20A680GeHocYu45nc9a
+
+sprite $ShrimpSm [12x12/16z] JSUr0S0008H0ulxiFstShWB-V4tBpAjnEZ2LGA5TH0KqYizSpM5H3F8elNk08dThOSCbeOGD
+
+sprite $ShrimpMd [16x16/16z] PSV70O0m34MnbzXqXx__jFIERk8hb_5Mo7f1ugLI39lKzPb5gyKWfI8f0RwKusAXnNa1VdzabSuxOfSpgSOa7WQTnpeWXO9T8-M8nAciry3F3
+
+sprite $ShrimpLg [20x20/16z] {
+ROw50SGm3CHKXi3jF-s32q4L8oDTngba13Lmo3Lv4WsBv6vMt3cQT7euhFTarlgEZzCA42GDpfmn04EglRzto-HcZ3Mv006C_NORSxknK-EyShSTjiDv3qcR
+Qu6aECr9AubeBWxq-G8
+}
+
+!procedure Shrimp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Shrimp', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/TowerObservation
+
+sprite $TowerObservationXs [8x10/16z] 9SV50G0n4CD07MFY_gjTd8zimYGfV976Aa14K-_bp8h-bwZE_A-Q0m
+
+sprite $TowerObservationSm [10x12/16z] DSQ10G0G2031083VVrg0fphPTRcngkisRdx9Qwtxab2SSo1BDzcyitSLZcBfbADUYM2NOAycZTy4
+
+sprite $TowerObservationMd [14x16/16z] LOw50G0X00Bv3eFzfpMmppon83QFpiQ47tFXalmS02TfzemCbZSoIMI5OcOnR1g-8ZYqMgBonflQ9gC7IV0ivafcPELFvKxdaYNoO3rd8W
+
+sprite $TowerObservationLg [17x20/16z] {
+PSZ50ODG54N12totqt-tUS5bbgDTZxeh6Az3OxDNvcQH70_I1AHv1JGPqAOoj0LZnHcdJtIjCfDCGRjEaHds6umy4C-ec43JXYgW2xHoD2Y3SKG2PgcnnzHX
+dam4DwdmyeaV
+}
+
+!procedure TowerObservation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TowerObservation', $name, $tech, $desc)
+!endprocedure

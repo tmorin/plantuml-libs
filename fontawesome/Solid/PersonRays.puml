@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonRays
+
+sprite $PersonRaysXs [10x10/16z] DKk30G0n4CkRRVQVzcm4Am3I9mYSpEshvazooTSZZglF4xwFfDjLcUL30G
+
+sprite $PersonRaysSm [12x12/16z] 9SQr0G0n4C0mFqF0-qyREbNQ0RG0Bsxp2JxPP7basbG8JaH3z9hp0_As_fnCbyZon8yDNkERsoDnDZi
+
+sprite $PersonRaysMd [16x16/16z] HSa72iHG3CHGfIU_wVwtNOmnAzeyPl-8LABrse3TjFBv0TqpNZVutCXQhWsc-aAbqIXEiojvMQLrC_eq_M94E4jdQVvkvUCDBikFNt0hyzbciCpd3m
+
+sprite $PersonRaysLg [20x20/16z] {
+NT056eGm34JXmQtDtF-s6sBbsuV_UES6YzeCInvAsGvj9j4TTxKukIDnMkmgenSdP8-IfRHHaydseqPl25PcmrZrVwAGfzDD7cAsr2E53M5u5sj76JPKQaTT
+K_RWQ_CpRBdToAdiflX872ZpKJ8gC-pSyJ737m
+}
+
+!procedure PersonRays($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonRays', $name, $tech, $desc)
+!endprocedure

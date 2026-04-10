@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/City
+
+sprite $CityXs [11x10/16z] RSZ50O0m0C30u4xsdnRNjlSyQW05a2vJ1LJj43pChU2CsEBFivWs-5W1
+
+sprite $CitySm [13x12/16z] TSc50SCW54NHXpjt_sdhZUV0TxrC2QfUSX42y99ADHZe92d2sz1xOF4U45Floz5woGBC-qz3DzoBR3m1
+
+sprite $CityMd [17x16/16z] dSY50SDG203HYnkVst_QkdlpS21X1b8x3WHxt6iU7pF0O8GbjEuEZzupE3oyY3mz6hIgbDuiKIjSweskqhhMgZUheiAbPaOrGsDVgU4Q-60B
+
+sprite $CityLg [22x20/16z] {
+jO_50KD120KdnZgl_sgZt_MKMSK1B04EcAHAXmH95wA-BBJwSJ_GPWqawBIcaJXeDS4jZbftIQs_x7BvQ1rS1ReC7-9IUq9AtUKfVwuYhJBSkpGVROLk2WFz
+ZQ8jSAt9Bm
+}
+
+!procedure City($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/City', $name, $tech, $desc)
+!endprocedure

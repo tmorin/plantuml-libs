@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Binoculars
+
+sprite $BinocularsXs [10x10/16z] Oq02_FmWWXrPY14enW-Mu86p-A4i20RpUU4iVZYB3Su2
+
+sprite $BinocularsSm [12x12/16z] TKc50O0m34jngEJ_Qt7VLedYE-G5WDa5K5NH5SUzfN33h-QjwnMkbiDBiw0H4VsgRUK5
+
+sprite $BinocularsMd [16x16/16z] XSi55i0m309Go7njm_rFEtVboNyHy90K9tm6KLhWDDDin4P6GmXe0vlH8He25zDWUPd3PHPWbraJ9AQvNkOXqwnmcVKp-pOlpKjw
+
+sprite $BinocularsLg [20x20/16z] bSm50e0W44JHiIN__KzhTplq0rPtoR9nJUQD1FXvKwqMvutLROnppigvKgvBDXHc-0j6zEcjkZ1_OHmikp0aCvannM9CjfJ1vMSZN1Z_B6oj71UpDLsa1G
+
+!procedure Binoculars($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Binoculars', $name, $tech, $desc)
+!endprocedure

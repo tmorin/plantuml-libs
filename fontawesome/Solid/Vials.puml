@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Vials
+
+sprite $VialsXs [10x10/16z] O-270KOuYu6VWGsJ00AI2NOm0G
+
+sprite $VialsSm [12x12/16z] O-1700uaDWC_3mC_7o4I22WXkQ4aCyX220a
+
+sprite $VialsMd [16x16/16z] O-170Nny_AY0WO-VbOcNdva9GZCny04n3py32JGlBpyA3GGqf7dHQ6PK6YB10gS1
+
+sprite $VialsLg [20x20/16z] rSQr0O1044N1Xpk__sfntn2xcsYGKRQo0XaDaGIfn7CBWiniuDT2EvYJdKOpfE2m7W
+
+!procedure Vials($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Vials', $name, $tech, $desc)
+!endprocedure

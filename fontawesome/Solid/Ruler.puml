@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Ruler
+
+sprite $RulerXs [11x10/16z] HSQr0S0m44MnVqrYVljFQmPLqW8xIkybsJw2sM9tubzJW3sKnsPPsxUP1W
+
+sprite $RulerSm [13x12/16z] HOh50O100CE2Ezb_Mhn7FbK-HXj2YzO9ZcZrzZLkwZSi-WKXlWBxzAsLyT8LZr8y-RpKlpy1
+
+sprite $RulerMd [17x16/16z] PSx5WSGm50Mm5-Qe_seNnq6TxCyvqUTceSr9ynjfpi2g3ggIJzYW1DHG0blY-WybSkQ7Utwxv8TN_txf_yKUBYTLW3f53PgSMdGflW4
+
+sprite $RulerLg [22x20/16z] {
+TS-53SD00CLGXpdUVzfYyAkrJlIEkQMMa8q_U7uDjRZXwbyklF7QWgwgpeTgYrlJPWLujk7gYnEfV74NAw7Mm4vp-_RFn6bvSIBwuYKGTMQzuSQQIE5MGV26
+mObF
+}
+
+!procedure Ruler($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Ruler', $name, $tech, $desc)
+!endprocedure

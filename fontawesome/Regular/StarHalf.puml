@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/StarHalf
+
+sprite $StarHalfXs [11x10/16z] Om01VZ29nkJdXz7yS2OpGW4_4q8jFrOc3p-CoGvZ
+
+sprite $StarHalfSm [13x12/16z] JOp50O1G04B1xhV_jBP-ED6wWGgSWYBgvHUmTVzc90zcGcZhG-0KSWXm4VN73W
+
+sprite $StarHalfMd [17x16/16z] NOt50O0m54E3Es__QN7Q_kGMrmSg1MmkOC8IXAfTcB80mAPIy1SmGM22s5rONHXSg3L5OOIfu3Mi2g0a9m
+
+sprite $StarHalfLg [22x20/16z] RSwr0KKn3CNG-p0SxJ_jPxIjybJI9v3l39L8pr1nkcnrKF-KLx9QzyMUBR1zVZs33AzUjKAWQg6EK8brIDbhpq2INOCYKu8cNxPm1G
+
+!procedure StarHalf($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/StarHalf', $name, $tech, $desc)
+!endprocedure

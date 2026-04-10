@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Ebay
+
+sprite $EbayXs [12x10/16z] ZSQd0S0m0C0mfoGx_l_Rekuf9FvfwqflhLEhJ4E5OYL87qr34bcjlve1
+
+sprite $EbaySm [15x12/16z] bSV50O0m40NHmPtflrha0iabybO_jNOYyXlH5ayut-E3vvxR8Wihsg6iQo-HEKej6JS
+
+sprite $EbayMd [20x16/16z] jS6r0GD034MnTqos__xJ1hf05v3uXvLvOuKdH-fMGuib7GUy7mXty5n1DiWAtHNeMt74VJCu7X2sGEmTC2BQJXu33piWtXJZJUOxLm
+
+sprite $EbayLg [25x20/16z] {
+nSYtOG0n3C10aFoeXFsdTMnLsrSU_oy7U-akAqcf2eYgZ008xD5DhSkpF5853jy1p2vm2iJfQk2n_0LWT_LXo2dl1F8GkBJWbj4zm7LEI-zcJSztI2X0L4AG
+2MG50HviFRANmT_u1
+}
+
+!procedure Ebay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Ebay', $name, $tech, $desc)
+!endprocedure

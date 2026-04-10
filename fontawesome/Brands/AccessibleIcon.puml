@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/AccessibleIcon
+
+sprite $AccessibleIconXs [8x10/16z] Om03RX31pmz4G8gLdv-H0IB03oGPOHIG0L82ac20q3mCS3vC6G
+
+sprite $AccessibleIconSm [10x12/16z] DOo50S104C9IzsR_QT_F3M2OjKoUM9BLLzTwk-j5chqn6SFxJLR3lPrVGyWn7Vhmrj7fdZfr0p8
+
+sprite $AccessibleIconMd [14x16/16z] JSw50G0X241HxFRlF-sbdSy2sGNzpuqNyA43PGgw0OBxZ-ft3VLYtcMYJim3Icxz5HZ3Lx8uncLly38Vq1ncYunirOg89xyewCAVc7DTwXcxVCiR
+
+sprite $AccessibleIconLg [17x20/16z] {
+FSq7he0m3CPWfsL3yVrF-yQlYa-h8rQ8QJnCors0EeXJlK5rtcEvT0DOTN2fGfGtx2RxT3N1r5IzO7fK7KJo6AyAzDBUReqExdENJzV6wVXAj7Xi48h2a4bB
+uVOWIfj2K-BrwWheMq3VXAK0D8hFfJgA-0K
+}
+
+!procedure AccessibleIcon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/AccessibleIcon', $name, $tech, $desc)
+!endprocedure

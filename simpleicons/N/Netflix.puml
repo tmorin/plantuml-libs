@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/N/Netflix
+
+sprite $NetflixXs [10x10/16z] Os1WuES78GOSB2v-VfWOWiNDpmXbyM6HvMVZPqCs1G
+
+sprite $NetflixSm [12x12/16z] JSQ54O1G0CMmuaxtdnRdtSzP0EtG_HgCci_5rJaVDL-r_wzkUQTvertnBKVNuXsS
+
+sprite $NetflixMd [16x16/16z] NSc53KHH3C2mVkRd_QSzXgeHMeb7YEXfyUvWpbwGVHNRsRDdPBTYErVsZ2iPfkob_C1Ul6GFNDc1fNYEY3i
+
+sprite $NetflixLg [20x20/16z] RSq55i0W00BGTHdS_xR3Lfui-TOI0YPz_5BY9dQpFM9FQ68UZ1Xsra_i0oC6mtw8XPC_iT1XHWiTgzW6WX_DWta62vqdYOMNcnWkiMjYyVs9ERvFiIES7keF
+
+!procedure Netflix($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Netflix', $name, $tech, $desc)
+!endprocedure

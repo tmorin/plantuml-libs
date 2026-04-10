@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Apple
+
+sprite $AppleXs [7x10/16z] Oq009ZumnG_4xFn0mCl03mBSx62AWHbCCK84-M4K0qYU0G
+
+sprite $AppleSm [9x12/16z] Oq05_30Qnk1a11Ay_1300AFPOGnM60CYXL2346856i33mC35mW
+
+sprite $AppleMd [12x16/16z] RKg50S0m38Avy_-rysey69pg6Q4KOQybugKdFrlQdjD0iRg4PumHCyCDidoEXSKr2F274_Aw
+
+sprite $AppleLg [15x20/16z] NSlL0SKm5CDG5SBW_QTz34xrToxWUTlc6Wgc8c59oTdsp--fHxNfKN_AogpQdP1C0x9nmY4BqEgv-dHrS88xyN7OkvIvTWS
+
+!procedure Apple($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Apple', $name, $tech, $desc)
+!endprocedure

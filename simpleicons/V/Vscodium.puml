@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/V/Vscodium
+
+sprite $VscodiumXs [10x10/16z] 9SM74O003090xDtVVrkFynCWjQJAIkTEI4c_x8VXniObtX69w1jKSk7AZ_O7
+
+sprite $VscodiumSm [12x12/16z] HS45WGG1002XkNMdVzftWRxC_ND6HPqugfUzwCkjQAyfF6GXdAJ5orIEqHpAbrw-dFNbOUeNLRq3
+
+sprite $VscodiumMd [16x16/16z] {
+LSd5WOHG042nznd1IV_LhckkwSkZVoPNFTRU6HKJFikeE-QfTmiLMrykrU7UbrDrjtRgeRpBrYN6W7ssHgldIiKKnUbHWmcwi7JtwIg-FFiqDk_wO-VUN_Jf
+5G
+}
+
+sprite $VscodiumLg [20x20/16z] {
+PP254GCn40FrpBVzTvkHCSdlWC1iDHQzs0dBs0e7M0KyCi5f0GAormDtAR7MSl1yIoEls42TEoqUt4qUDd3jSSXhRz3fAIG4O-hiDyoLraBe0fLR7RcRVFq1
+XpQ5nyuYno2XDSlWd3dy8OteltAHkLhJwj0VmFx-vluf7m
+}
+
+!procedure Vscodium($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/V/Vscodium', $name, $tech, $desc)
+!endprocedure

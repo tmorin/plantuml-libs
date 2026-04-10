@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CommentsDollar
+
+sprite $CommentsDollarXs [11x10/16z] HSor0O000CJ0nvtRVrfSKbsL17B5LBWyK7DvfO-B8Q6P943GgVat9HxsFmFi
+
+sprite $CommentsDollarSm [13x12/16z] BSc74S0W3CLGfJT0-s-R-puUk8EnKj8DNTAlohAgym3775xJgBGwBKaD1IrqTT6X5vVgjX8MmebuBPtoMNu
+
+sprite $CommentsDollarMd [17x16/16z] HSg53S1030J13VDl_zr6bXz6OBY3GyD1jQlbT7pK2-8p2jolwavGXUbJFq9iFYlgomnCjQl6DxTxHfL5XM851am5lbnyOPheLT9qMn6odKXQFQJJQg5Qh7u
+
+sprite $CommentsDollarLg [22x20/16z] {
+POy55i0m2CKohRVtF-s41u_9dpQa0j271Zm2ifGcBFKU5YQpNPs1_Vu92fCewsVfeUvKdTe1ejIT1XcqbgJUMKQo9IRxsIWoWNmhcKKNq4yO7eZoJJXhiEZl
+hQxtA-Dmv16m55zACykANwh33tsf4SjN_UCPZ_VJJm
+}
+
+!procedure CommentsDollar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CommentsDollar', $name, $tech, $desc)
+!endprocedure

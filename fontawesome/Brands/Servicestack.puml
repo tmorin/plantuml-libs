@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Servicestack
+
+sprite $ServicestackXs [10x10/16z] Oy0EkFdXJ7v-3YYBZv-V7oe44-K7Cy4i69CV2X260G
+
+sprite $ServicestackSm [12x12/16z] VSUr0OG000ImUy4b-q-BMqMwv8LFBYCvjQvyKb_fTJdpnPaQVdoIs3JamwOd3pC
+
+sprite $ServicestackMd [16x16/16z] ZSs35KDH00FGXrft_sdxRUOm3YTmYJE1wuJVC0jmdN7tbiHl31bkhV0X1MX_4eGVHbpwyQdv6yXTG8idhpRTSU401G
+
+sprite $ServicestackLg [20x20/16z] fOw30K0n34Hh9xV_jDysNXcV-8j4s3ip47TEDAW37yA13tdjP7GinaRPNElCqcMKLK-DXYJYSheQcgL5IuiUrKvolOym8DfhJkk9GqU3cT3faOaMbFOI3wa1
+
+!procedure Servicestack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Servicestack', $name, $tech, $desc)
+!endprocedure

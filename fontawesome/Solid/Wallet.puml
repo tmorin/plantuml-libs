@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Wallet
+
+sprite $WalletXs [10x10/16z] Oq00VZX02E4124baPSoOXZ
+
+sprite $WalletSm [12x12/16z] Oq06_730pS-3BCmD0-pyX00VaX9s1fpAa6MGdG
+
+sprite $WalletMd [16x16/16z] Oq07h7n8W9U1ZHy5C00HCW3oURYH02C_1O0FJJSJ0o-Q0i9cCA3p2G
+
+sprite $WalletLg [20x20/16z] jSgr0O0m0031nvtVVrjQt99SVPmgTdBmWD7Xy9G3TTZgCAsPoRsSpBsHmI25HvJJpi1R2m
+
+!procedure Wallet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Wallet', $name, $tech, $desc)
+!endprocedure

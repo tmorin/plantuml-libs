@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Paypal
+
+sprite $PaypalXs [10x10/16z] DOk50S002CCASyt_rqwGu589ODCFGNIHFRgWkxY06J3hOAfhNDOG-SAX1AAy
+
+sprite $PaypalSm [12x12/16z] JSjL0e10549HxFRkVxSEZ7M-Ne0aYatH49td6Su2prJpaddrt92vSHnwpsgQ3Ufzm4wf37kwaavC3nX_i-82
+
+sprite $PaypalMd [16x16/16z] NSn50WH124DHQ3Sczx_j4ChhhtWj4P4Tp5R9FSXberQzRzx-LIlOPVLzU84vLxy-qivOk9m_vtKWxFUfgXHTvzWw-ippd3HxXF7T4t-s3BWhyiHaoVq1
+
+sprite $PaypalLg [20x20/16z] {
+VT150eH044FHIk6Q-z-Mbk3GVvLvWrk8kNMmCnvD7yRnmoZoC6VjpYtL1EkPw-SgsHYsoogTlOGDcUisF2tjP3ftxS6h6O2QgJPGdDDqVyBuiraFmd4grGgx
+MT-tfWwpCtT7f--aZbUfRwBpYxO1
+}
+
+!procedure Paypal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Paypal', $name, $tech, $desc)
+!endprocedure

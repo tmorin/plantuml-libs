@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Bandage
+
+sprite $BandageXs [11x10/16z] Oy0E-3av-O600OXHcLnSZ5X4kRd1edm8KGOELbPE863WP4Ko5W
+
+sprite $BandageSm [13x12/16z] Oy0361aOmG38OEFdP-070WY5mM7aP-V4BiF0nyA18SE0mi49
+
+sprite $BandageMd [17x16/16z] dSk35S1054JH5plJVxMniRe7dqE0egrfLoLj4-LIZrRDsdmlKCjjaKcvPoITKzyHNWkYY6WpztOZ
+
+sprite $BandageLg [22x20/16z] jOor0GCn0CJEpDR-swO9yvFA0-aeAXGLBaY0YRn9uNkQePVdjAfYz9pIOFR_lCDCedrEcnf6tmtpRQftwP1o2GhbWbHAq7PE
+
+!procedure Bandage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Bandage', $name, $tech, $desc)
+!endprocedure

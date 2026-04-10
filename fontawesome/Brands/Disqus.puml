@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Disqus
+
+sprite $DisqusXs [11x10/16z] DOk50S0m409fuyh-qyQvTm6RNd7XuNRginO_zjo8GghzrLPq4dx5Kr1WeMu2
+
+sprite $DisqusSm [13x12/16z] JOk54S0m3CH2PT3-spR6gmxifoBqzobEHz5_uDGfu6sjMRPD8OLT8aI82rU8BlL_SfJk6q27NDU32fAYvFy1
+
+sprite $DisqusMd [17x16/16z] NSg55O0m303Hmw6IxByjTVjGknUoL-Icqymlxs1zv-B2kGT6WnkOHs7BXtTmfDkRGzqslZNSDTXIoU40p1Y29roa16kjrsW3gmCBg7_Qsr5SMkVX1m
+
+sprite $DisqusLg [22x20/16z] {
+PSg54S1044BHZSiA_NSROgT_b3V8tnwmLQh6m9iF6GsvhS2UTzIDZuAT8vlqqH1sWXtobixuT1X-Za8Te2iOBuLopg-EjOxzrqMMLoMhSKMjR-i_ra9FWCd_
+3LMrm9CI1xG9qnxPqlobQ8s7V9Id2m
+}
+
+!procedure Disqus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Disqus', $name, $tech, $desc)
+!endprocedure

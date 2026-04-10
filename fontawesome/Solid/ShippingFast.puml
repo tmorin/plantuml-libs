@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ShippingFast
+
+sprite $ShippingFastXs [12x10/16z] Oq01_100P77oGm4JH8OPmcFXGuY3bF72s600ruxA1dD1D933pGyX
+
+sprite $ShippingFastSm [15x12/16z] PSd50O100CJ0u4xwhnQNatcja1fzS2fyBK3lRwgvL3x6rS_2AC1NSJO2UIqzLRF2QC_wFW0ge7Ri
+
+sprite $ShippingFastMd [20x16/16z] RSt50O1034JH0TRjzryjxl1EyUYVROVQ7ILkj1WATxrc0UvAZZfmexwks1a1WVSzqABUQuM-pU2m9e4lgVpKCk27uru1f0wGslKMpHoTA9Ae2dHQ0MWs056Q
+
+sprite $ShippingFastLg [25x20/16z] {
+VP430i0W542txEv_scoziMzyBm0S-BjSsWdM57OXI_aghWgsAwGKFT4QC6Z-3EX2hSCBcbEEF_h8o9eSrXB8MbLumuWTGH1YU-SRpDTCJuK6j4eeK4LHFcOs
+BNC7yQG3fJyPvUalk9jY56xu5M82dNzLsPK7
+}
+
+!procedure ShippingFast($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ShippingFast', $name, $tech, $desc)
+!endprocedure

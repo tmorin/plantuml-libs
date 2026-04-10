@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/Eye
+
+sprite $EyeXs [11x10/16z] LSR50OG00CJ0EHSa_NSB7smrhge21RqOPtEzTHFpROpccryPc6NFFSyYLhZp3HZhWmK
+
+sprite $EyeSm [13x12/16z] POc50GDH2CLo_Wso_xHrB_AKlr7Z9NTezfiUq2eOaC5iLN15a9OrmEoWWk0DTeZA94NmsH721BW15FDeEd6VDSPDdW4
+
+sprite $EyeMd [17x16/16z] {
+TSo3bKK154MnV3nZzr_jsCZbql6F-TW7d-h5mOkXhcyNt5kvRYiAsZYh9efYpBqbD5z2kqvDp9sXYbvYTELivEKxiiUbZUBMpLjglOMXSBbmx_IYzYktizsR
+gHTNVta4
+}
+
+sprite $EyeLg [22x20/16z] {
+VP05WiGm202ZLSBy_xT786ThiziMj_IPN6jvj2d1_iUs0rUlXm0vBO2sn1jwI8DXxtBTXttgCWlwKtWpoOiqDE8BHlNewVBIcZAIFUBatBXyY9hL0aU4e6Ht
+6p97YE6J9tMG5dgKazKuUSfmkQn9Df1JtNSXStoN6nEF9qrwh9Dpx1J6Y2ik7H6_61YASQI_o3hl9xu
+}
+
+!procedure Eye($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Eye', $name, $tech, $desc)
+!endprocedure

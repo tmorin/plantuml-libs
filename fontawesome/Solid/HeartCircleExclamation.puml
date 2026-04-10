@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HeartCircleExclamation
+
+sprite $HeartCircleExclamationXs [11x10/16z] JSY50O103C30u4xsdnPvltffhDgZ0cPOC1jD5yGFzmYZsgqE2YenYNDNW3LUBm
+
+sprite $HeartCircleExclamationSm [13x12/16z] LOk55O105CE2Ezr_MruEptSfVv8T-gIsbydKKCe5-K1zDIlqN2TODg2nhp6Fi5xImJk_WTr1a9wzN0u
+
+sprite $HeartCircleExclamationMd [17x16/16z] RSw54O1G3C3Gu4xstvR3lxtJUYcOjmvWs0PEdIVm16049YCLnbfc8pNu6ZZz2M3TwZ_JiB_vsHEzBgrkS9LMF1F_RrsKG7jySDdtgwDJULNghiC1
+
+sprite $HeartCircleExclamationLg [22x20/16z] {
+TO-54GGn30DrOLR_tVvOJuSRtf2DHvnt49icej2mfIP3ifB2RUHVyuApenS6m2iBc5SxWNGqBQRPZx-j3L_w_ZsKDOFqJXOAknBudPlqW-Jk3K1zFQJNaN-M
+C1R9h7vl8Qk46lyMWmDAQEmjolUtg3zs17x02m
+}
+
+!procedure HeartCircleExclamation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HeartCircleExclamation', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/Snowflake
+
+sprite $SnowflakeXs [10x10/16z] DOg50G0X3CJohf3zfyL9lNTKPA022wB7UTxeZsZ4IVSzVNWOkdeXAdqiEvN326G
+
+sprite $SnowflakeSm [12x12/16z] DSI54SC000EnBuUr_xQza0orqst8hzFoGEfhKCgYUARHMensYwaTMpiORVlteVJYCNXeKDwgvmzzkcZt1m
+
+sprite $SnowflakeMd [16x16/16z] {
+JStLeSKm3C1G1HlM_jC-kDZpPJPFMUvYbd1BNIeFXIvD3GXNrIPq0zMceER7lQCBub5dbgDkA5Qwgf4XJrNbQMZtuIo5vwyiHStGrV2ulzJO75NGHZ8SWR8u
+QaDUejKcDrcUVW4
+}
+
+sprite $SnowflakeLg [20x20/16z] {
+TP05ZiH030Gxmrp__-sffRDuAnaosmeMduBVCbXKjXIaeeif6dv_IE05LOscyHgSwr2NAa45z06S_nm0pzuNHx9i0SC90BEPW75XLOvcXlIDeG1WnkFZpHHk
+AM_i2wOkd2poFa3EwtoiYDwZFlmOaC5XkTBX6o1hiGXy55aY0u_7aWckyxxwUyv_
+}
+
+!procedure Snowflake($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Snowflake', $name, $tech, $desc)
+!endprocedure

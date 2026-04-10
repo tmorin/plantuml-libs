@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/Z/Zoom
+
+sprite $ZoomXs [10x10/16z] Oo0ISFCpy3Fm0Gb-1bvk81E463cOkHWOcDW8wGK
+
+sprite $ZoomSm [12x12/16z] fS7B5O0W54F1UzZ0-oNzTsiBAZDSM3KUBEJ2B18EGqaXMX1yzG
+
+sprite $ZoomMd [16x16/16z] jOS50G0n30Dlr7OO_seVH2mSBgFM2Wr-brmoA2yE2wKocYDIvcl2AEIzPjOG6ll_YSju0G
+
+sprite $ZoomLg [20x20/16z] pOW50GH130Dd6Ghnh_RHnBLX7ducwIkGNv5C3iV6f6WlYcKXCKvW5MH02fopirQotjkYslXlPU_Tk1subGcDHzqR
+
+!procedure Zoom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Z/Zoom', $name, $tech, $desc)
+!endprocedure

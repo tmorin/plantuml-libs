@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/FileVideo
+
+sprite $FileVideoXs [7x10/16z] HSN50S1G3CDGbRdQVzh0wIUs7-e6F-25nUxMkDkmNQ87IwE3wvfPdk-kCm4
+
+sprite $FileVideoSm [9x12/16z] NOh50G114C8uNPr9_zMUw_824bKWIQeUGiKbWXGSluhmlGZWA4SF8zIZd7zRkl6LPwwi
+
+sprite $FileVideoMd [12x16/16z] RSp50SCm00D0XT6-_QSjSwENE2DeapmeSnAIn6v-SirgUl8sg_d1xJjt7ZpvKsT3z-1WyUQEUMrga3HDy_nvGhnn1W
+
+sprite $FileVideoLg [15x20/16z] {
+LSq54eGm40319Qux___jLRnkq8Q866NKPMOusK7bMm_c2yXY6FyVnO__ZyDcir53AB0fZ1x5UE_RuAjCAi1bPbGjYsLI-IF_x8TnidwRadBEwMqqMwnekO4e
+lF8F
+}
+
+!procedure FileVideo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/FileVideo', $name, $tech, $desc)
+!endprocedure

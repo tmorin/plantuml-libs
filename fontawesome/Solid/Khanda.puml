@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Khanda
+
+sprite $KhandaXs [10x10/16z] BSQ55S0m4CDGbRdQVzg0N_w1JNSpg3r-qrmmysv-QSz-UIdci5jKJWrWHnzYmnuL
+
+sprite $KhandaSm [12x12/16z] HSs5OGGn4C10_J5F_zM6GVOozSNH7-WB3MXuYamsUKPNlXza_ChRwULRnRzSM9mOYjUYoVUz--Ricp6zgdS
+
+sprite $KhandaMd [16x16/16z] {
+JSw50GCn30J12yUawR_QCFmQn90FFLjso8RpnkOLVecMb4ieHotb5FQnFqd9O728yqLK9kXPM4y_3GcCzrHKni-R-lpj1CS4D0NrtlNqscBmNN_YaXzwHCkV
+9M_k
+}
+
+sprite $KhandaLg [20x20/16z] {
+NSc5bIKX5431-wszgVoptSFwJC7p_ZhwxiFe6rD_RQCUSCtwh1eKlvUyQgE6bODdDuzGT7dcwiEzeenEZzozSQE8zRIqO-0phwQ2kLURgHuGd0LtmUWs1Q-7
+QUd1z3oyTgPgOnf-QpeuYgl7u5NJKi5Ph_wwdIyF-i_dRdYbhuPtl_q
+}
+
+!procedure Khanda($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Khanda', $name, $tech, $desc)
+!endprocedure

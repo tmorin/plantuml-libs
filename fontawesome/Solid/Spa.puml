@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Spa
+
+sprite $SpaXs [11x10/16z] Oq03_9mm5Yi_FroG7ym6an3C0MHpGoJ013iVX0a3x0mmDY-o2G
+
+sprite $SpaSm [13x12/16z] PSV50O1G081Gx9RzfxNZ1oSUUMlpVwq_z5VvGbr0OTLUjO115LLflV4ty4luj78th4i7i0C
+
+sprite $SpaMd [17x16/16z] TSx50SGm40J1CRCx_sWFn5WlQLaz-w3C0if07ha1nhm0NltDzp5ACu3vFI_0Ae5ht35y7mWV8GyiByQfYOo_mPlqSu4tonZ0UDJo1G
+
+sprite $SpaLg [22x20/16z] {
+XSY53GH1581GRjtflzlBpwphYn7uaiELjboCQiv9QU14GyD1OSBiHwWqZ2I6OeuQw5Gd3JdqvlFJngI739pXjl5ohPcSjLJRrXdWHGtNFS1rZynwDoMRxlgk
+_W
+}
+
+!procedure Spa($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Spa', $name, $tech, $desc)
+!endprocedure

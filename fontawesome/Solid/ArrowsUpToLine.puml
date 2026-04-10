@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ArrowsUpToLine
+
+sprite $ArrowsUpToLineXs [8x10/16z] O-2704OepG03V20cFpiNI0o4cS1y1a8q
+
+sprite $ArrowsUpToLineSm [10x12/16z] O-270GuuYm49S8D9JWO6a3Y8vEO3idWP8Eh0Ibc19Cai
+
+sprite $ArrowsUpToLineMd [14x16/16z] O-170dny_CY0WGa9C3AW0KOk99eHf1nEWtK3EH13eJmUE0qnYWV8fWsF6yhZ1l8
+
+sprite $ArrowsUpToLineLg [17x20/16z] pSYr0OH000NHkSDPcVwhnJqYv2LVy2va7txUPTxeQZQXP98qi50B24vw9jb9qRkem5KmEwd1jG7AgZF35u_A12C
+
+!procedure ArrowsUpToLine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ArrowsUpToLine', $name, $tech, $desc)
+!endprocedure

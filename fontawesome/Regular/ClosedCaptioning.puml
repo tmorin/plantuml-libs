@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/ClosedCaptioning
+
+sprite $ClosedCaptioningXs [10x10/16z] PSQ50O1040F1nPtqNosywvmaq3lrUXAiC2vSGekv_R0DxDacUujfmJKf8la1
+
+sprite $ClosedCaptioningSm [12x12/16z] TOo30S105CLIks__QSipyargA60AkjDZ6wUEDs_49oQ7n_vy4fzfOjuRnhrxyXMBmly4t
+
+sprite $ClosedCaptioningMd [16x16/16z] XOs50GCX40I78tb3jlzgtrq7peql_d4FXSwmPupB6C35wAUuqg17DSPHr1aPMmn3p18FNnwvCVv9QdRpO6vG1bpkeoDyq04
+
+sprite $ClosedCaptioningLg [20x20/16z] fSY53KKn049Hwbxsd_RBSzSJ8LoyKRXa8bbd-8U5r3Lhy2ERQLlWZsWE-qOQpzHE61eGPJkOD0mpDePsJD_-GZD34oGBe7wJqRQ5hLQek0PT5XAk-W8
+
+!procedure ClosedCaptioning($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/ClosedCaptioning', $name, $tech, $desc)
+!endprocedure

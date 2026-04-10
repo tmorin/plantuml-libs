@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/B/Beijingsubway
+
+sprite $BeijingsubwayXs [10x10/16z] 7SQ54SD00C0mjs7q_jl6zpeIsTyLud1H86w8EMlxW_2EcQbDhEuYveTiaWAJAHy
+
+sprite $BeijingsubwaySm [12x12/16z] 9SY73S103CD0flTm_sqVWixTnFEVbDMLK59pu8zWC7a9qlgxBwfxT_n_SS5W5QMyG5VWwEyrJXW
+
+sprite $BeijingsubwayMd [16x16/16z] {
+JO-50KGn24DJTxB_jlTfpbuL1rpoiHNmOLDqYIGVO-YaIJmGvh_rNF7YYWmIeADFv8RhTEMycI5vKpdIr-uCrg_T0StbtfihZN_v5m8DnHNY6wTHeayWXOrz
+I3PS0XrDym8
+}
+
+sprite $BeijingsubwayLg [20x20/16z] {
+RSx50GD13C107I-h_sg33cT-PXDI7stdpMeO4y4tbPlnh4z3ItHb25MFswxC7A0fw0130Ite0jfRxofiUYYWCu1orV_anblEK2Etl3s_lELsJIafca0397iy
+6QRxoAI35nKutfF6ErbDmBGqum5OVE4fUTCNhiu
+}
+
+!procedure Beijingsubway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Beijingsubway', $name, $tech, $desc)
+!endprocedure

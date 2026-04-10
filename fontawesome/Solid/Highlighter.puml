@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Highlighter
+
+sprite $HighlighterXs [11x10/16z] FOdN0O1058DYxxB_j7htMhu2ABOg1zJJQt_Xrc3F6gFVqT0kTptyJOB3tioks0y
+
+sprite $HighlighterSm [13x12/16z] FOs54S004C9IzsR_QQj_vEGL84XeDDFcYKUzE3BQr0lW1Z3zlVKZR5A3uX1JDGdf3pefTYNS
+
+sprite $HighlighterMd [17x16/16z] LSk55SC020JGe-v__sdhuGM7awn3HkmOo9Nx6a65-h-5jwaLHwxlrO8xs_TwEBVzimvjy4Fw3mY70V2OlpRa1coMVvExHrNpP0GcyW8
+
+sprite $HighlighterLg [22x20/16z] {
+PP050eKm241Hr_NkVzeVDkpfYWOnX24p5LYja1qjyq1PZNW0stuyicMmFnD4vTt-IkWgTpZpgTpxfVCKrZaV7hBAlei1qL8MsJSZfO5_X96BPhgV9z3PKK7t
+rY7dh0QLH5eNXGEIM0R09Fq2
+}
+
+!procedure Highlighter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Highlighter', $name, $tech, $desc)
+!endprocedure

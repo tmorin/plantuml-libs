@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Brave
+
+sprite $BraveXs [8x10/16z] 7SR50O100CJ0EVZWwRzQR3MeqAzTe6bsMTzcCwGF-twaqzQmljKdg7W
+
+sprite $BraveSm [10x12/16z] BSY5OSG030J1CREt_sg3BnrZgM2OgrgfQRQE9VDWd3K-d90MjzUR8igR8LeCvL_Kgy9K5Juhtm
+
+sprite $BraveMd [14x16/16z] BSU73S0m3CH0kgQB-syR2FQfFid4fYa07bEO2ZfOFiMNrg6S3Mq2vKPWY3VG243HYvji_L2X2LKhJG41rxgUjyQCdQp0hVSwdeHAShiXNQOAcmRf1m
+
+sprite $BraveLg [17x20/16z] {
+NO-5eSKW4C32KKUo_xHVu6dJ0kS2G3ZWINBI6VZ92LrhjUIrzqlTkULMDAMy0d5a3aju0ASaCw1O0Jfac0OFI1Suz4BJbQL4oB-SELJ00WmnEUGIJyEuPs9C
+NrTRWaqrcCBrN8gdq8ZtliKNYS7wrfyCjV31gS7W5m
+}
+
+!procedure Brave($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Brave', $name, $tech, $desc)
+!endprocedure

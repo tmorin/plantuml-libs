@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Map
+
+sprite $MapXs [10x10/16z] Oq02_4008i4qFmm09OXcmG0Bc6HYOE3Yv-Tc
+
+sprite $MapSm [12x12/16z] dOR50S0W0CHIzsR_QUi2F3aDaNgr1RGo4PG1aytZp-jzosm9e2li
+
+sprite $MapMd [16x16/16z] lSUr0S0m0CH0XJc__xG1C_I-IgBMIPfzcJCMKuVfuL06wExykHg-LlEPMruFXuoEuJ_Z_0vU
+
+sprite $MapLg [20x20/16z] rSW50G0n34FHZBdnh_QOGS3Ui1y_LAK4R1m9e96Bk9G9Aa_2Aq7Was0IFXhwQcnsQI-M5w8J3ncSQCpoKihoNSf2fRIy8m
+
+!procedure Map($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Map', $name, $tech, $desc)
+!endprocedure

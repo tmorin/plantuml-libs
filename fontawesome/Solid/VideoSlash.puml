@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/VideoSlash
+
+sprite $VideoSlashXs [11x10/16z] JSR50G0m30B0FElilstZ3ZT1ERlvG4O4iu3p2kN4Jl5BiWy9rJYKW_q1
+
+sprite $VideoSlashSm [13x12/16z] NSU55SC04CDGjM7K_jE6mI-7_fr43HyTLGF8T0h4-HB7o1oO2JWHS2HWZoC3_rCj3aJPhm
+
+sprite $VideoSlashMd [17x16/16z] NSg54G0X00F1lEAa_sfnFtm7nHzxXiyXbhOslZgsNkJy1T_000_XcR23OeOa7LYXIuSk0xeCwBA31yeQG8ShBJ0TG-wqzXwQGrwQ2
+
+sprite $VideoSlashLg [22x20/16z] {
+TSe5ZeL00C3GVfontl-s6ro6RVobiqBTFno_ENZLx_Q3TEDTkmJngKKw4wIxwgB66uExBfnhDInSwSgrEaEfrR1mfKuhGtweyy89maFj5uum25wDe8cbNyfd
+pN87gDFupVCV
+}
+
+!procedure VideoSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/VideoSlash', $name, $tech, $desc)
+!endprocedure

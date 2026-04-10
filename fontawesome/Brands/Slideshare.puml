@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Slideshare
+
+sprite $SlideshareXs [10x10/16z] JOQ50O1008ImM_QVrlY-XCKek8YIew5nu-W3QKX_i5qu8wYp2Yow1s3NCH8wABm
+
+sprite $SlideshareSm [12x12/16z] VOh50O0m5CM2Ezb_MhGzLRu-ep4MI2mhk57qn_k7Lsm59rRv4_eT0FyYu3w7zo_VmWq
+
+sprite $SlideshareMd [16x16/16z] TSc53GH10810JjQ5_gjzTo4w0QRF2ep8imx2isrzz_hRmutTVdTJKSlDzUPyyYhGXTK6kwpQKWoacAS2PE_jN58TgbnQBkk_kNlU75Hk-mW
+
+sprite $SlideshareLg [20x20/16z] {
+fSz70i8m44DHkNVh_hTb49rabmyfUbaPAFnf0_2C_hjC82xyThTnqIARtSVs7qia9xRTmziMBT3gicnMRIrPDFEUPcX6CCow8vBTE-S0PwMfms5JPQeAvVa9
+pufM_x6X5N-idrWuCMZfItkRqwdiDZHl
+}
+
+!procedure Slideshare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Slideshare', $name, $tech, $desc)
+!endprocedure

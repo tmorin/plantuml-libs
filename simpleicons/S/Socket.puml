@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Socket
+
+sprite $SocketXs [10x10/16z] JSY55G0X3C3G4zoo_xIu1Ub_VLhnwNbQkWgm4Rh4GzVznRt3BacQ6Zjw0mK
+
+sprite $SocketSm [12x12/16z] HSn50W0X241HOdgC-zzMwM_mLe3MmVkdT0jdP2Ouq_ALw-_okNzoZ_qBsPOECKWydH8w5m
+
+sprite $SocketMd [16x16/16z] NO-30G0n00FpPfhzfwrzpw12OY4wVWNk96urWZRXX-IW_NVIUwyFu6UdqVM3pnj7qNVwKVpKeaPzHlb4lKciSU1JOXtFiw6orx83
+
+sprite $SocketLg [20x20/16z] {
+PP050eGm30IJEwoQ_xyMMsGJ1kbswfMReOddL-mWwMCWm0nb7d8ffHPSHt1kY0xf5rn7ScuvGWhzceeQZq1pFyl2Bj51KEdAnq37iRF37Ioi_2qiyf5PYD0B
+p6PD1Mm
+}
+
+!procedure Socket($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Socket', $name, $tech, $desc)
+!endprocedure

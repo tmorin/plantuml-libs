@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Quora
+
+sprite $QuoraXs [8x10/16z] FOc50G0G44Lry_QVLdFnK_ofmAG5diahGwh3vVeq6LRl494JmkptK0O
+
+sprite $QuoraSm [10x12/16z] JOg30S105CLIkzb_skBy-KHRfnu1kC4XeCIRq2r3p5nsU4O4kkYci0Nc2YoUfz93Z2cnbeiN
+
+sprite $QuoraMd [14x16/16z] POs30S1040Gtnc7whpPsvlyi_Ud3gzCFqXps69hTT8jsq4gnMHYr0RQgwenGzOhqZKO1m-R8GAM1mNKeW5eh1kQGqh35pT0FI-Ze9A_UYna
+
+sprite $QuoraLg [17x20/16z] {
+ROw50O0m40C3rEtsdnPtkEfxz4yt3BqkF2lvi2iOgM_GQG7G_MCXR8u1okRlj04Sz-amwf-EgE7fIEyIlpjY8ntzyzA9XQCTj4qkC2oE7jBgFnLsGCvi1MaJ
+tTYm3PqO5foUdgWF4m
+}
+
+!procedure Quora($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Quora', $name, $tech, $desc)
+!endprocedure

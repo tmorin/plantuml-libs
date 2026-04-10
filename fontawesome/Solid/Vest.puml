@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Vest
+
+sprite $VestXs [8x10/16z] Os3WPm1Z9duW0D5GFZi_8mCtaERdvmLYVbwG94W50He
+
+sprite $VestSm [10x12/16z] Os3Wuc1WOE1b0XBy401cCJ2320O4mG8bmCfOmMfvGGH45s4McWu
+
+sprite $VestMd [14x16/16z] fOnL4e1G58MEtRB_tIfZVyiBvcQIPOgidVy8zFKC6ErUWEcEL7D7fMD7PDUXBgavvWzng45Svo0lnayq_Omwf3uYDW
+
+sprite $VestLg [17x20/16z] nOo55G0n24DpTONzfwtR1bVXvm490C41ur2UP6OI-5nZterzQ3S-dwALJsFGFmtLIQiXMYFkhCaflauB-DtOOg27q10vy-IOlEVlXfnmkq4L
+
+!procedure Vest($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Vest', $name, $tech, $desc)
+!endprocedure

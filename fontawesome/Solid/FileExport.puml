@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/FileExport
+
+sprite $FileExportXs [11x10/16z] LSkr0O1000F0qE6t_xGuBsdY2QOy07kHiHSPPQ2JoW0b7QhKtau
+
+sprite $FileExportSm [13x12/16z] POp50S103CDSF4oq_xHbhdv62I1eXutw485y2qN29OR1sSNEHt2849nGs4Hj6gSwlzh_m2ND
+
+sprite $FileExportMd [17x16/16z] NSw50OGm50FGKFViF-q9zH-elIeG-8_1Z6UFdz3waBGNMDLtRO0cdmCoO7_LXgaIj0GM0UPNEk2NhWDgAOL5MJPnHXDdH01LlkFPy3xz2m
+
+sprite $FileExportLg [22x20/16z] TS_50O1G30JHnPtflrhSDypnVOsa0TOQFUDiV616n3bxLRkogVgLJTN1yD5c_yr76PTSr_wr2HKYBU7Mv_J4wZSaaBf28TSLJVVIK3KyiTfj1W
+
+!procedure FileExport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FileExport', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FlagUsa
+
+sprite $FlagUsaXs [8x10/16z] DOc50G0n4CBoKXVsdxRUd08SD77VEkXYf0ZKg-lK3YEdpSxnx0iT
+
+sprite $FlagUsaSm [10x12/16z] JSR50OLG0C2mmdFj_jD-5t8AcGzVtY6uV3cnSHnuGQumr-45GDVbopgEeVsWg5lv-EyE
+
+sprite $FlagUsaMd [14x16/16z] NSp50SH03CLG3OLZzL_jOlYTZ9_WGajJ1xv6rJuyfP2okgbrTOIKGTt6onBgKlXmKyVGYHyVrWhaE2xrpDmjYrzZWjwlMJD_2TYwJPWulG4
+
+sprite $FlagUsaLg [17x20/16z] {
+RT3L0O0m34NHc-2rj_-qkCFvgqGfF4aPwsEesPXEfRQcQ14IKNTzb09ihyjJ7qXA3kO6abBMAhTDlwSB_P1qocmQBNpF8mLZuRehUypWPcs-v_2k1OAa1fqw
+01lq8pK6leypN7rGzTs-ZvkVYw38mmG
+}
+
+!procedure FlagUsa($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FlagUsa', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/KipSign
+
+sprite $KipSignXs [7x10/16z] BOc30S1054DVxMR_QUyR8JsJO1UpU8JJBuAKLKuxfxKwBpO8BGC
+
+sprite $KipSignSm [9x12/16z] Oq00VZ313iICG0mYW9WV8ieAfC4C2Ct83mLm4P1YC0kgYmN2OE056SW34cPd
+
+sprite $KipSignMd [12x16/16z] LOh50SKm08MeIuJzf_tQ6ASdC1BvCiLlT08sBVdKyybHL_uvA_op9Qv9NR_Caus_Cr7yh6l9qw5NoSmQImRDGFXbb9ut
+
+sprite $KipSignLg [15x20/16z] PSzL0e10549Hi9lzxzQ9Xtc_F4xZ5nlK6Y8bLHrI9KF7JKaRp3PfXjad3J2tf0PcpbYMh7KfzTGha4fDB7cjJodiajURHFBn83P93s9DvasCoS_tDlwuEm4
+
+!procedure KipSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/KipSign', $name, $tech, $desc)
+!endprocedure

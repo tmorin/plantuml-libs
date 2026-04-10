@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/F/Flower
+
+sprite $FlowerXs [10x10/16z] NS750S0m400WwjxiFstqTm1JCYHym3mdXj-GPYR38ah7BLZl2WK
+
+sprite $FlowerSm [12x12/16z] RSh50S0m3C10XJdUVzeoD_SoY8rmC0Agi-aOQVGZQ4h8TwpA4KLiu-0D5yT5kNXlcL4ZgmRC
+
+sprite $FlowerMd [16x16/16z] VOw30K0n44DJ-xB_jDz6NtaEDfXnuhAWvBQRKjUKkDjpUjFWQiulLJ0gdt5ejRmhPKtJkzte3QbmGeCRnDEkzRHgeE2AUkPtxSgPkiWP0G
+
+sprite $FlowerLg [20x20/16z] {
+dSs54GD134FHRsMFbjH_jM7cv0rvJE8evCOjLqUsTUbap-peQjN0d3CizRgdfcJmJQ_6jZTdJYfGUkTwhntBiSpN8MAh1nVgFMTxuPPNF31VzgAswQRXoPbx
+oVoLaVAMyzQb5ohUaTZR
+}
+
+!procedure Flower($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Flower', $name, $tech, $desc)
+!endprocedure

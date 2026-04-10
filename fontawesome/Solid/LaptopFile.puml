@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/LaptopFile
+
+sprite $LaptopFileXs [11x10/16z] VSR70O1020NHCMT__zrAlFfsWO5BxiKedPwuftDOHoebFImo-B-7J8Vxomy
+
+sprite $LaptopFileSm [13x12/16z] XSZ50G0X44FHhE2I_gl5xSP3_m0FknS5fnRepZWdf3g34e8LsldaY2f2-c96TucG0G
+
+sprite $LaptopFileMd [17x16/16z] fSwr0S0m00D1XStQVrepj_dogWSWsRgHKXmT2HpFsajH0BLpm6Z0OumvPc1g0vtagGSPGC9CGETuO8AwTgOmeFO34
+
+sprite $LaptopFileLg [22x20/16z] lSv55i0m24LHgBUHl__LnfMJST_mHe122ZtBbBEOAeovhohrBDH2ZPLtIqBvkgvDwecO5egSMIYd9KwKhgn4yHCZzDqlW5XeUN2kjFUpxXKDUG
+
+!procedure LaptopFile($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/LaptopFile', $name, $tech, $desc)
+!endprocedure

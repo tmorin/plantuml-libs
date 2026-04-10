@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Ship
+
+sprite $ShipXs [12x10/16z] LSo50O0m40F0nvtRVrfSsdT94gUnn6lu9--MrSSF6n6e7dXufF0hdT_co0A3MOiT
+
+sprite $ShipSm [15x12/16z] PSl50OC004FHr8k-_QV5dN-APgBXbnqucJseF2Sy9biliUTY2obz5elHBkVlRk_jGh5BNacfJVB08v0_UW
+
+sprite $ShipMd [20x16/16z] {
+LS-52G0n40NHEO___hizblX31kAXoP8-Dac6LPHCyj0SccYYt5b91rKIJT6vZDs1V6nZMOh8jB5Bfeq9ZBOnZt7R65KRQrbu0gkxVkg8ySGaJfcROCcSYNQk
+nS5Z_G4
+}
+
+sprite $ShipLg [25x20/16z] {
+RT655O0m0CJGmxtPVrjUNJzES9Hy08Sw7rYhMbZTAIUPcPJCL79uO8vsoAUy62KmDs4UXmCqmTm4omOhXuCw86yYXxfquP5tjK5H4oxLNasxMalytDEck2Pf
+1tZJrvp2itx0TU1NlltpQxBB9_uJCzlJ3B3_
+}
+
+!procedure Ship($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Ship', $name, $tech, $desc)
+!endprocedure

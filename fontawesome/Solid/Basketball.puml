@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Basketball
+
+sprite $BasketballXs [10x10/16z] 9Kg50S0m36A--l_V5ebYKAqdRt7MJm0ZF99EoxHFgIc3_XZG-P4CrpWgwFUVQ0C
+
+sprite $BasketballSm [12x12/16z] BSs55K0X509GVeTos7zRUO5rRMJqeY78IJDzMI9sc05f1yq-HIGhHRv5xpXcDaf82WIVtB75_ikGLnS
+
+sprite $BasketballMd [16x16/16z] {
+HSx50KGX40JH-gv3vH_j2htIjmTZa7WDV5CUg6xXedkt8OiGdb0kp1oTvO2wWA5ox9aH-iRX0ZJz1nRLQjUNB2V043ON69h-9f-zfTX26N8OeRrbUFDyir0x
+CxDX0Jm1
+}
+
+sprite $BasketballLg [20x20/16z] {
+HO-73GGn3CEeVBkk_RTzM8WHNWtXIYDV7rXyRB3jMqpikB1rsd8NmK8-676mV-3Zad0dYhrJ10cBybRk09XH1M60tCegS-VRQW5ok7ovvnBogRbMTnGHsnlt
+N3PGQJUtUwvphZbGHrbSAWbiQzIv9hGodpdlwdsn9RZP4lU-1yKV
+}
+
+!procedure Basketball($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Basketball', $name, $tech, $desc)
+!endprocedure

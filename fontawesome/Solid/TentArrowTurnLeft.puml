@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/TentArrowTurnLeft
+
+sprite $TentArrowTurnLeftXs [10x10/16z] Os1WOe02VZW33XZukI52N51nk3oOpGfdWKaWPeInW1hXCW
+
+sprite $TentArrowTurnLeftSm [12x12/16z] JKk50G0X23o-K_UVrg0Dk0GA_DG_O9mRTNEP7nN1cdlPkZI-vBRYN_31Ip1Bx1Aguwi3
+
+sprite $TentArrowTurnLeftMd [16x16/16z] POo50S0W30I_xhtzfwtW43Ilqh2gN0Dd3QbawhMhqXSKY37O_RS1GyAzpzwcSgyXp0q-4Xxybx3s1YjyoRZvRww2UW4
+
+sprite $TentArrowTurnLeftLg [20x20/16z] {
+RO-54SKm3CLKRl3jF-t7XgCZdTc0N-c9ycCeZg6EUA4HIvIZGG9rGIl07y2gjDweMNN_VEFBhSJ6drKrQT4GF2OnEuabJsykTMpJZxEA9NDDR4sob1WnIHNR
+_l86
+}
+
+!procedure TentArrowTurnLeft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TentArrowTurnLeft', $name, $tech, $desc)
+!endprocedure

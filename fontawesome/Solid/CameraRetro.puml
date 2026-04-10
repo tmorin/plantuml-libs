@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/CameraRetro
+
+sprite $CameraRetroXs [10x10/16z] JSQ50O105CFGu4xsdnOvVrzQ6YwdlyDi-yJOzrsO_48Fm60lJUXjOVO2
+
+sprite $CameraRetroSm [12x12/16z] Oq01_FmCBFnWmCYF7O1KyG9fDY0D4q2MOuIp4H8S82OSyC19k3ukFXXW0m
+
+sprite $CameraRetroMd [16x16/16z] VSw53S0m34JHNsRV_jjMPq4nUOA0aQ_OWJtiW5aFa-eQwtoBl6BImAp8Qy9kHTWXCz8YimdJi-2nIUpwXvvuEG4
+
+sprite $CameraRetroLg [20x20/16z] ZSZL0S0W5CNGMxTNil-qTHVW_2NwbcIP9jacrGIeP1nCZfUEECtAhg550pWWqQoT6MXIG3jZfKN1HQSL5yN7QpyUMkHSEKrI7dh3f-9DnbEk3oC
+
+!procedure CameraRetro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CameraRetro', $name, $tech, $desc)
+!endprocedure

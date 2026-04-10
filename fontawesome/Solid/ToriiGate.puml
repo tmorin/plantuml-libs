@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ToriiGate
+
+sprite $ToriiGateXs [8x10/16z] Ou02VduGoSJFnmy13Dpyd4383XHY0446c3WJa0tauw81
+
+sprite $ToriiGateSm [10x12/16z] Ou03VduO0m5WR90S6B42IKP-HYP-HdOW2rMM0IHBB0i
+
+sprite $ToriiGateMd [14x16/16z] fSj50iGW44JHGbP3qV_-fvsuPvU7jka2jCjCkYV1dQwHEZN5U4oHP99YF6OCVX2ndl8sDp5rdPiOVOZQ6hKn6W
+
+sprite $ToriiGateLg [17x20/16z] nOp50SCm5CMUcQtzfoqtV8y-euxGTwK5DYtF1PC3EjH3Ab1AUxi1GIz0SczNcBfeT7RuuzCc-tdwOK3-_VZm-N538p2a9m
+
+!procedure ToriiGate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ToriiGate', $name, $tech, $desc)
+!endprocedure

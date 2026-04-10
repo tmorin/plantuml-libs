@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/YenSign
+
+sprite $YenSignXs [7x10/16z] Ou02VWZ1pmOaWMmm0Z7vkS0I46aWG50WjI00KW
+
+sprite $YenSignSm [9x12/16z] FKd50K1H28AV5sF_QL_PakZnWvV3jzf8lm7TpXRu4t7Kk3T7417fnauioY3Wtyq4
+
+sprite $YenSignMd [12x16/16z] NOg30K0n4CNk6qNsdxPsYiEBZFn7Ro2t9yYFJJriyOkMGOL_YzPUL1qisAMe5YEP0yYT8hD9ODyjvxwdLclGMiN-8ICPa-NIoue7
+
+sprite $YenSignLg [15x20/16z] RSg53S0m00D1bpc__xPL64zeK6EQfMYHO8y9RXa8wOHD4vWusk62nQOFYdQ3IzOCRooj5vOF9WLOjw8580QYfuvdF6pnsvzDZ5TtxgE5qSWF
+
+!procedure YenSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/YenSign', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Spider
+
+sprite $SpiderXs [10x10/16z] 5SY55S10381Gwbxst_OUFnuuDq2eHQh5-dPvgtvY0gkPmDEyFeizRmLHaRPy3
+
+sprite $SpiderSm [12x12/16z] JOx50SKm5CDK22TF-q_x6Me-6X2-kLss2JQ8H5GRAX4YXlfUVm3lCLvhllRItSqti1xkIpr7J9YDiEFEzSCT
+
+sprite $SpiderMd [16x16/16z] {
+LSst4KCn4CHGV4TFelzkDJSNwINOR85B2DtiC7jv4PmaU-Q6EYzOmX4xH_rYUqktgvxZrSHJkkaPIZ4bWDkKF_ufsD0KFrLq6wRziIsy7mDJ1FnOwikHu25P
+2LK8L_G7
+}
+
+sprite $SpiderLg [20x20/16z] {
+PT25RGL140JHMZXSgFopjSRq3vvWe8KDiBi0GNbjXnK8JfvnzNZzcWcApjZDC6LwK0nnbkRYWPxTK7MWAFYlKUqCTNgLOUjUjKoebq_wF2u6gFjc2BdhZXAl
+4C3PB9jMDPoAxfDfHaEdMQh0OMOtm112ia5kum3qrIaE84m9VrNn1G
+}
+
+!procedure Spider($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Spider', $name, $tech, $desc)
+!endprocedure

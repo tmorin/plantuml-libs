@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/P/Popos
+
+sprite $PoposXs [10x10/16z] LSI53SC044MnLsxG-syRdJZ-KBNuDXXBEIjySYHF5deauum7NyJjMpJcFqPT
+
+sprite $PoposSm [12x12/16z] BOh50S0W00DJns__QP7G-qIro0HjsDX-qh43w3szLJdBPOQcbLwCZq1myExCqT9VbRI0J-Ax5xLfKW6t0m
+
+sprite $PoposMd [16x16/16z] {
+BSk54S0m3CLGbT7M_jls_gKlQ8BOocSYeXmE27scnQWH4iOBbJRXD2PKy62H36qvB1jTe9Ogi7fo-ziplQ7w6A1Rgqx6XRQ1njJZr-pwteCAbFnsTu3NNyAO
+D3h_3m
+}
+
+sprite $PoposLg [20x20/16z] {
+HSv5ee0m303HmRMT-v_sInBWRIfHoj6zL_WibZPGz7CGj0_0RZZhYt0PbkW5UC5e0hN16O4stkfEHd1WS2IUX-e50pHXKEt-gn7GVFLyPPgtOM1MCQo61cyZ
+CSrqjwlYpJGgHzwYxNq-Qeb3UKtrEEttGqV2ueVNRcYPz0i
+}
+
+!procedure Popos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Popos', $name, $tech, $desc)
+!endprocedure

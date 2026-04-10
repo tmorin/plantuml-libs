@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/SuitcaseRolling
+
+sprite $SuitcaseRollingXs [7x10/16z] Os3Wv-VdOm1I30nyG18LiBEoylAZ0Q12X3fk20K
+
+sprite $SuitcaseRollingSm [9x12/16z] Os1Wu0S21Y1W199W1ZC_8oC_8mCRFnR00D60LugRcvi7IHnk3W
+
+sprite $SuitcaseRollingMd [12x16/16z] Os1WuEG70GOmu07H_4neR3OUFduU7Xv-7cv6DdvY0Dm4821TFJSGuDFAWCG6
+
+sprite $SuitcaseRollingLg [15x20/16z] dSUr0O100C30u4xsdnRN1ldhZechb9K2iTLxQo-Yt9-QRE66LM60AbcuOPMxwfjPwwl66telgX4
+
+!procedure SuitcaseRolling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SuitcaseRolling', $name, $tech, $desc)
+!endprocedure

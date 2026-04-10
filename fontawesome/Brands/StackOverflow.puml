@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/StackOverflow
+
+sprite $StackOverflowXs [7x10/16z] Oq02N12A7qA2Q3OWoGJcWGIv-Vbv6RWPU7bvkVYv8Og0GY
+
+sprite $StackOverflowSm [9x12/16z] LOc50G0n4C9ubqhstxPkEGMqGdliby-FsEBTT953poNsd3dUk5-8bapsOcPsJqH49yFdAm4
+
+sprite $StackOverflowMd [12x16/16z] PSO50WGn2C30h4iB-VzhLyzlMY3mR_veEnv6UX_PkLBamS1onGgAPxTQgVAW-RYk3Gii1Penj9rBIPeB9O_sSlVjR5-I3pi
+
+sprite $StackOverflowLg [15x20/16z] {
+TSs35S1054JH5wmn_LSR6_VmS_ZJtAgaUornA0qe7sMLnSfTwaZUpZqGbFTpgOALw5a4gRJD9Sf9UoMblg4Nn-ei04aisb0CwfBeougjr6eh3qlP7ynSNdNS
+ZG
+}
+
+!procedure StackOverflow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/StackOverflow', $name, $tech, $desc)
+!endprocedure

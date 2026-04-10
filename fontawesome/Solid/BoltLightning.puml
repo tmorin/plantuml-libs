@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/BoltLightning
+
+sprite $BoltLightningXs [7x10/16z] O-070WO698eBGh410JyOy04nH9ODI89bMI4K0mY0I
+
+sprite $BoltLightningSm [9x12/16z] O-3Y1m868E37oc07Cw200yRWWmc0P7cXoXb0D9J11gOPOGBSO1e
+
+sprite $BoltLightningMd [12x16/16z] VOp50G0X30Jdt8_-gyLXys9UoHgpov1mm_ioD-P-8y_gn6tkNoTCYNGUP3PDyUiadhlklvsh4Znk9H4
+
+sprite $BoltLightningLg [15x20/16z] LStL0K0X34FHFCNf_jFYbll5mGf4QGMqZ8okHZ_PDE-AwUJ3oSXqVmsNK3_Jaqma0jhKXcRzwjGrHezq9UZkpzowIR0YBz6FLGO
+
+!procedure BoltLightning($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BoltLightning', $name, $tech, $desc)
+!endprocedure

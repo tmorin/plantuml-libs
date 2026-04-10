@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Navicon
+
+sprite $NaviconXs [8x10/16z] Oq03tFmGW2xEXqES7qqS
+
+sprite $NaviconSm [10x12/16z] Oy02UFbXW8491f2a6M603w4E6-260NOiwW
+
+sprite $NaviconMd [14x16/16z] VS6f0G0m30Cnfp3l_jkM7h8afw7cI0z2piBiaG9a5SsHZ0y
+
+sprite $NaviconLg [17x20/16z] dS750K0X50Emlgzuzz-MAsu9zcaMB0kGAoFOzp0N0WjGElFYWCrfbiJdBAOY
+
+!procedure Navicon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Navicon', $name, $tech, $desc)
+!endprocedure

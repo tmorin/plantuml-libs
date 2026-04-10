@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/SimCard
+
+sprite $SimCardXs [7x10/16z] O-070Yu6FduGuEN73XWO-87gkC4K181u865k20S
+
+sprite $SimCardSm [9x12/16z] O-3X1m4640rXyHC5c1WO-1auGEf131HDO04618CD9W4
+
+sprite $SimCardMd [12x16/16z] fSgr0G0n5CDG1Pk0zf_s60R8QpxOL6-1RzM2l-AI2IZ1Gxntkbf221h2yFTqXBkJdltgZE4uAFvs
+
+sprite $SimCardLg [15x20/16z] jS-r0SG00810_kFA_jF6NQjSHmd_saa4_5tbKBjHuaxkbs80IwZiCUTld_WEK7fN6Vn--kiKMhYp_yzQ
+
+!procedure SimCard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SimCard', $name, $tech, $desc)
+!endprocedure

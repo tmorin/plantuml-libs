@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Threema
+
+sprite $ThreemaXs [7x10/16z] DOY50G0X30Fl1PViForE6mTA0hB6_KXyMkUdE93IDlRErdinnP131m
+
+sprite $ThreemaSm [9x12/16z] JSc50O0m4C30u4xsdnQfN_iETFV9po3KwrPNFTqCvcqzqndqo0qcvDh1V5yzBL7a1G
+
+sprite $ThreemaMd [12x16/16z] NSR50OLG0C2m0i-j-q_xNSaf0Dkm0lVv11o-WMhPXhgAEhBuKfVXVG1ExtwFNtpBzniRaAPZvwnqc30oe6GJoXK
+
+sprite $ThreemaLg [15x20/16z] {
+RSw50O0m34JH3zJjzfyMTtXrJLXqgLNFpcXJM2ITEh2w0IqirFL-MFjE3PsYbsxBZgux0wYn-bdcvtBjOfWj1vMecuwgYmMftLBkEi2LrdBFhsvjH-Sas9e5
+xBKqJ
+}
+
+!procedure Threema($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Threema', $name, $tech, $desc)
+!endprocedure

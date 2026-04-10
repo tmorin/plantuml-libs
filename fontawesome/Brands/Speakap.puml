@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Speakap
+
+sprite $SpeakapXs [8x10/16z] Ou03Hdv-VY35pWy2Z0mW3f2080W1vqDe9Y3c0ub1D89PB
+
+sprite $SpeakapSm [10x12/16z] JSh50OG05CJGhEAa_sgHd7YNBpCyVTKMiyFMOtT0DvnKTETZMtrjswojFwYD1i2GOLs_d
+
+sprite $SpeakapMd [14x16/16z] POq55i0W34E3Ezp_jkiZw_IZjGH_R9lLw7-H7UUbMC38qo38AzU-gyloDaPc4KQ0lwFL9MP4t1t1162tXDDtSBulnK6e6e5q3TyS
+
+sprite $SpeakapLg [17x20/16z] {
+TSu50iCm243H7wsJ-zzsOq3ch_vBXJzoAOad6Gyxfeu9LU8gYXvFW7G_4TZdQDEpZ4yETqHOerYeG98PL0Oy10jYeHqHTlIp6ofhIDPNeEl9vJU2n6Z0dRCK
+JFoePBxS
+}
+
+!procedure Speakap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Speakap', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/M/Mural
+
+sprite $MuralXs [10x10/16z] ZOR50O0m0CI2Ezb_MhJsx6aeD04q0wW7lYkB22f3DIb8qWq
+
+sprite $MuralSm [12x12/16z] Oy05-840Gd6oyFEoyVC3cSmGGH2RXu6HJ3Ol4fiVp4Qs5W
+
+sprite $MuralMd [16x16/16z] jSUr0GDH081GJhuB-qyRR-BLlGhugsZXQkeEtl28l6kCkgDkNQS3kWDTGRL3SnxyZfVtyRLcIFLgWLfvSGO
+
+sprite $MuralLg [20x20/16z] pObL0W0X24J7Rhd_RPVjhZ-V0XFuWREp4iwWfnAJXeHw0a0Z1OjqcfUol83GotuL8ZbOXTeNo1mEmlJPA4EZMIsdhESfmqSw
+
+!procedure Mural($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mural', $name, $tech, $desc)
+!endprocedure

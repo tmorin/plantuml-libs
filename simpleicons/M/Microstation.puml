@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Microstation
+
+sprite $MicrostationXs [10x10/16z] Oq05_60C8lY162R4Y122iVZ1B5OWnGpHn04rWOqVRXOBb04
+
+sprite $MicrostationSm [12x12/16z] POg30G0n40JVYAR_QcFdkDgM4dur4H9UWbTuMazomYGi_5Um9zbNCWwsyqpv9AHwEIf6LUW
+
+sprite $MicrostationMd [16x16/16z] TOs50G0X30DnX-m_BIwlQA-IaB_5sWCCe2E8cCKq66RoewmwKyHTJlrLcqLlaWDTQsS0mYe32PvETma4D2kaMUQZRxJpqRPNRptBFSlnXWK
+
+sprite $MicrostationLg [20x20/16z] {
+ZOy53WCn40FlmZp_VstHgLOHrGAF9hZNFscC7qDL6uKwRUNbdDasGHtFexVPbg3PMyNkLSMuMunnxSjO1v0on0RXgoBVU4spNokhtsziN-MWN4fLBzZg_AyD
+SAgkvqtyhFUvxGa
+}
+
+!procedure Microstation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Microstation', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Java
+
+sprite $JavaXs [7x10/16z] Oy00h62IXH_2uuFms844FpiR5vZcucVc15ASG2KSd20TR
+
+sprite $JavaSm [9x12/16z] 1S410G0G002W003_toe0G00SmDF0SO7i0IOe4GaYM014xKpOP_HnYWy
+
+sprite $JavaMd [12x16/16z] ROp50KCn34CLCWRsdxRzpEzaY_11n05TJZvEfx0_KeuJ3IrTHiPn1_JrA7H44OcPvhpCVmY152dYJXoj3PuFmqwQkw920Td-
+
+sprite $JavaLg [15x20/16z] {
+TSxL0SCm34NHQsQ__QSjDvoZFp5tB5kUBJFOCDfsnq58wzoa11R385OLv5XrijXmQxVr00Q81JHJ2AdqOQ1z2-iEi1gr3WcRu4opbgvloNimrbe-ijhl7nEx
+1t3kLJMloDay0G
+}
+
+!procedure Java($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Java', $name, $tech, $desc)
+!endprocedure

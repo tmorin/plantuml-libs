@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Rocketchat
+
+sprite $RocketchatXs [11x10/16z] DSe50SC040F0R6Ky_shBpw7iIwemRUllWvOLYRdSdqgwKduQQqIfeYq__e7hXOgS
+
+sprite $RocketchatSm [13x12/16z] HScr0GGn0C0m7uUz_xIF0RMYD1PLXcoNWRt7eU1DfvTCbimffbrmaqcCT3P6FJPe1NysEDHAzmO
+
+sprite $RocketchatMd [17x16/16z] {
+LSw55KCn3CLGVOQ0zj-svnNJ6qQRoy9eCHXKlsO8ZTRJRm3Q9uZT_DUo7Q4hdWpq56XG9hOT3glfTpILoKrWXmsc6KxnPg0S_r5Wk7Bh0ZXdPjHtBjrMUhyN
+egWU_3m
+}
+
+sprite $RocketchatLg [22x20/16z] {
+NT35eS0W44NHXsku_LVx9JuvInXNNWodZyhEozhOjRwjMTtzZ36zULsZJtPtYQoJd-pF7hfUtFuCLHOq1_f8q4cIrYODf8oN11EtrtQ289ZxQo5BwasgGuhJ
+xQy2VMIM9bs6Wo11j1FijITPjxXWpmKlBMv-_mMv-t7Oayce-rkHzGi
+}
+
+!procedure Rocketchat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Rocketchat', $name, $tech, $desc)
+!endprocedure

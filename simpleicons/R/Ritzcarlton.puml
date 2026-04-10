@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/R/Ritzcarlton
+
+sprite $RitzcarltonXs [10x10/16z] 7SI50GCn30GmFORZ_QSjM0VIbAx60VaJLFLyf2qkqESr0yve4Ul4KONtbS81dl4iV04
+
+sprite $RitzcarltonSm [12x12/16z] BKm50eGm34i5sAh_V-q9NLsIOEp1CG7qfdVSKDmQSzu6nZuOCtZFl4MQSsPQylJBrL_MGJ2b1DTeYkyc7PsixFGrCbji2G5V
+
+sprite $RitzcarltonMd [16x16/16z] {
+HOs70GGX20I7Co8Sz5_jP_qnadRPIEVFb8hQATKAZjLVtAaL3SrVN2p0RQdmHOasfmQRfk3tYTtlaT9Fl5HAICgnJtgKxHz3mee6lhvYPf1W_XsGSdLFTtJB
+isgMm7_nVGqce-vwfNmEm1C
+}
+
+sprite $RitzcarltonLg [20x20/16z] {
+JL1NWW0n17r8OGZtF-tspV29Lz4cW3wyzZFLjAqa302A-AviWG19NlQ-KM12mP4TUW0VgCQe4wMRdzcbj-uzp5UrtSg1LIMdlGqEJK6rtIEXKg55VLV4LdBf
+c55ggr0u-0zYZF8vfn-wFT2Zm0_NqlN_9pY82dAoLbm01GZbtMLcX4Taldy-pVSSno1t9xBtLD7z-_O9
+}
+
+!procedure Ritzcarlton($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Ritzcarlton', $name, $tech, $desc)
+!endprocedure

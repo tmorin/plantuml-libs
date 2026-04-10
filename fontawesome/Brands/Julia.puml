@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Julia
+
+sprite $JuliaXs [12x10/16z] Oy06M93O_0Y2dn54CuFPB0piO2468EHdPUQ3iK48pkRW18d3ZUBcPuIp0G
+
+sprite $JuliaSm [15x12/16z] ZOe30e1044Mpwzt_j6dj7NurjSNrtKwGjkj-nFBVbGjCSdtF-86tLrZfFcJHvYBcSWhAJwtgM6pw
+
+sprite $JuliaMd [20x16/16z] dSk53GHH201HlZlJVxMtxj4Z1Y-3_3Ua3oLqM-mXHgopPjauUWeus7fpM4TqDTEaDyawcrE9gcdf1AIm_WR4yxJbiNqClRgssNoupJACpGpePgyPr8-9DH-Q
+
+sprite $JuliaLg [25x20/16z] {
+hSt50GGn0CD0XpdglzfZPbW_DG4jiV2amtW7nfwhaRNE7WB4GywK3e9oWFGOND0Pb2HxUA4Xa0fv0tusTSRk3fUGQ1C97e29Jq0E7iBMpk0qpt_u4rXWd6-S
+dtemavz00uA-sHe
+}
+
+!procedure Julia($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Julia', $name, $tech, $desc)
+!endprocedure

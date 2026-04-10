@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/K/Koreader
+
+sprite $KoreaderXs [10x10/16z] DScr0OG00C30UrV8_jFYT16eXmVHJxr5nle8zmxAuwHSLYgUl-zAF3XltYjLtJnd
+
+sprite $KoreaderSm [12x12/16z] RSc53S10581GwlgF_RUjUwCl01r94zJGnc9mX7unB6lrmZyBbuNDfguCYDa6i7T1XSNDGcDnMQwMXWa
+
+sprite $KoreaderMd [16x16/16z] TSp50KCn40FH-SoU_giD68F7joi9w1bLWGN08HhGiphIkRYBh9uZc_cmGFI_FGMAVJW89EiEG31xYeGh-OBJU4tkM5M58neYtHcNTmyRTm
+
+sprite $KoreaderLg [20x20/16z] {
+NSs5aGKX50J0_ki--MTxHRqzO_36i24jC-OFd56suCaCUUsiOTn-hT7TRFyrFFblEFFVBgPq5ioz5NOMJBtbm-VNTcaP6fQrtB3aF8uV-wWSILdHC1U-jZ4c
+oOFkt-HcAtkuKq7PHTwCp0kc-zUmyGK
+}
+
+!procedure Koreader($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/K/Koreader', $name, $tech, $desc)
+!endprocedure

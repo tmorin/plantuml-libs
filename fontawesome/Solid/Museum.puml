@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Museum
+
+sprite $MuseumXs [10x10/16z] Oq01_FpyC1gCsVc104mmiF938L0M2d6msC2GWOiV1W
+
+sprite $MuseumSm [12x12/16z] bSmr0i0m0810wbx-_zgw9bDkOeAGocdMINkWLqMrc7s1r3E2W5GfFRYBdYi
+
+sprite $MuseumMd [16x16/16z] hSVL0O0m5CNGu4xsdnPt-jdpz1Ac0xV1LSMkLeTCDGKoLmckHZftlRlCDnW4OTnF_Anzl_Ow3VWoZhxD
+
+sprite $MuseumLg [20x20/16z] nOt50SKm5CCSvcZ_QJzZwLe57zawm0pA8jMv4_KbyiQzCfux_jNx49ey-7GN9LxCpu_16la0uN4gvVQPmKW2QTwEkxiofLDpCTvFfSRuo0MMcCgQhTmL
+
+!procedure Museum($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Museum', $name, $tech, $desc)
+!endprocedure

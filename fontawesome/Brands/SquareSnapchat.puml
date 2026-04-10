@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/SquareSnapchat
+
+sprite $SquareSnapchatXs [8x10/16z] Ou01VZZW0h4HW06AcO2O1oIDn8UeP0Ep8
+
+sprite $SquareSnapchatSm [10x12/16z] LOo30G0W44Mpw-y_RTQzCza3XBHZBl0h6mjs98ft9p7JtOURDwKxZO4OJgh2xNlLLsDPs0O
+
+sprite $SquareSnapchatMd [14x16/16z] POs50S0W3C1ASSt_ryvzWRh96pykkWJ-U2rtu01z1hGpCW2Z745d2zrkP3ExfkUxdx07e1reHqipr-tXDNCo6jUc6tan0m
+
+sprite $SquareSnapchatLg [17x20/16z] ROs50G0X54AnM_UVziAkP_u2dB0P2gILuDCT07AEsNSy6p7Djvu6ykrTZsi2giInov7wclf1h0bhXbHMvodDBK7kTWwxQE1KHK-eJXFAj4_QG5XZWPqN
+
+!procedure SquareSnapchat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/SquareSnapchat', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Sidequest
+
+sprite $SidequestXs [10x10/16z] LOg50G0X30FlNI7xRqjnk7eJ9hIk-njdpE-2s-Rlu_Kios9J-XGX4dVkV0aTuEAoYcem5W8
+
+sprite $SidequestSm [12x12/16z] NS750GD100GWpjUd_sfZpu1_cNC6zjCg-wrZBQ8hLEcxAMA0g_IF_5WGnt4OHnBxjaxt8mO9iKpOX6s_mP4ltW
+
+sprite $SidequestMd [16x16/16z] {
+RSp7OSKW00KmmNUdlFsdJSF7Q03vLnQWS1sexGPf94rCsCz9ZRim4MFQ3aFqejMI7wOzeyMqD86Mbtq3iKnfFtmkoOYxbknb4izZxIPA3tVKmtP1tyXzYNYD
+JocbfdfT2xu1
+}
+
+sprite $SidequestLg [20x20/16z] {
+TSi7YkKm50J0aXprDLRV_xRB0sFY5hc3__lD5v-MNlRyK5RZ6QsH5ahFGlAuf-jFYRKpqkGzLJcZ1kkqz20aVxzeSMHQXpcqmY8fudLCurPcFbrGmYksrOip
+QfjwIdd89jdR8cINXhX3ZsEwZGVc7JpPBOIIGK-YHIxAG3ey8pvtNisdbGB_
+}
+
+!procedure Sidequest($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Sidequest', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ChartSimple
+
+sprite $ChartSimpleXs [10x10/16z] Oq01_FoSS1O_46DZyO982CR30Y4-1Xv-a2u
+
+sprite $ChartSimpleSm [12x12/16z] ZKh50S0m48Awi_-qZUihfnZwakuA2s31bvJnOvS5ln8JjZKDu92_xRuFi7-41GO
+
+sprite $ChartSimpleMd [16x16/16z] hSwr0G0W300mtEN_Qt67aNgsWdSOnpTwxrVRP0I0CdorIdErUTawlZfVSBe4-cXUVc1bblk82
+
+sprite $ChartSimpleLg [20x20/16z] Oy07c9cPq8NuWO0JLOYH7mHmY059BZGnBX259iP3aXWVq0reOhmWWX5930QOw2_61t4B0rIC6qo1n1aW2g3Xo8Cjo04
+
+!procedure ChartSimple($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ChartSimple', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Icons
+
+sprite $IconsXs [10x10/16z] 9Ok50S0W4CHIzsR_QO5tE-5dlG6ENvLRdVBouq7T48KPh8ky4jONt3IQj49r1OTq
+
+sprite $IconsSm [12x12/16z] FOo30S104C1Iuv7zforUEPDmabP-Gl07ijhoNNTfUUGMLEOGWrBG-3zfEN2mgqUfoHQO5CrGOW4iDgLHmmi
+
+sprite $IconsMd [16x16/16z] {
+JOo53S0m40FTC7l_RMifUCy8nmzfOF8DHtB8L7W-03E6fovoc6LMQX3gsjD4TPb_AZq-fSRE6g8h_V0mRz9CzreZT3DHETX1KUVrTa4JfPaBg_UgTIvFuRES
+QXA8zr-MuGS
+}
+
+sprite $IconsLg [20x20/16z] {
+LP05WWGX3C0omWgM_x_sfD2JZ1Aa0hF3FIl9Sw3wLYV0yLQT9b0D_hduzE7npuq3cdGN5oXSRUOE2-5UQmTrhQfJgTjnTc3ccRxOfFjFAW6kloiEXUcc0znQ
+Q9eKU6fcTvVeH6HIZt305Suat15kvN-uacpRvNd92vvvK7B0IkWJ
+}
+
+!procedure Icons($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Icons', $name, $tech, $desc)
+!endprocedure

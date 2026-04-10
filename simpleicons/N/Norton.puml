@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/N/Norton
+
+sprite $NortonXs [10x10/16z] 5SQ53GC104KXwjwt_xQNJmnuTJUDvs8YqzCphah_d2kwXP2ONvvTMBWr7
+
+sprite $NortonSm [12x12/16z] 7SY73S90000n0-djzjyMVQnkmzd6gs4pr1UkACElWtSfnn7DYfweGbkuMlca1JkUbDSoiYu-Jm_S3Ij_
+
+sprite $NortonMd [16x16/16z] {
+FOc53KGn3CNy6ThK-qzx44Lrq7eaUzWMABh9MQh6UTmD8jKnWmTYQYYWfPT2x1bliEZ6PVS2FT4NT7Z0eoemVBs1mrGKyrbTfczGT8DJo-eDFIlrgAj3Is4n
+6G1V
+}
+
+sprite $NortonLg [20x20/16z] {
+JP050eGm40D33MV-_zgJRe0ElX6WCkl5qJHGCUaPWLcbvHrLIPgaokhHCKQYwnn7wL622nQf2QhCrbjMbh1Hf0JqymbHqDoIuF9DfyNj0VAGtVzKOV9dNFsw
+WonB-CAX23-Sa3Gn3biyBK1-N3Qi06jAUH-MiFAYXuNE6QOl
+}
+
+!procedure Norton($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Norton', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Kaaba
+
+sprite $KaabaXs [10x10/16z] 5SM53GC104MXL_Uo_xQNJuJcLVFapAM7H_Crdw1EsFpglklAT_FHAmHlgB0F
+
+sprite $KaabaSm [12x12/16z] DOs50G0X483uJcN_QMtHwwBnCBWrw0veeB3Q-2aiKIcYNrCNxAeke09doy2bF-g6yb-_Z-jYL3z0bTl9GM4UoG
+
+sprite $KaabaMd [16x16/16z] {
+HSxL0KCn5CDGFGvh_saBWVRyNh2P8lmblswwIosmDsqRkxQ3uNOe6rz7KwDTtB8TRDKbWTTygHlGj_elu5H7U0HQhv20uh03wbdah3iUKTllrUaN3ZCq0u_B
+pbHd1hm1
+}
+
+sprite $KaabaLg [20x20/16z] {
+NT050e0m30F0ODDk-VzhaHG_N5R3PShu6WeF0RV4dOqyJDZDJIzm2DoL8PACU1X5lxdO-LA1aISCcH_Tam_z_Jl0fkpB4rQLiNaXgipZbRi3lqsuFzBk9GfY
+p7fX7AyQgn50tdS6bKDP5Cyek6ij5CKSZMzbW4HUnj-WUuJR
+}
+
+!procedure Kaaba($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Kaaba', $name, $tech, $desc)
+!endprocedure

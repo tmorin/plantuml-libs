@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HotTub
+
+sprite $HotTubXs [8x10/16z] Ou01VY02GaP-BWP-RdvkY1W8yaEO4C3B3mVC85aupGqL1G
+
+sprite $HotTubSm [10x12/16z] PSY50O103C30u4xsdnQNbwkNtzg02AM2TIUu0Z8Afx53F9ydNvq1tZJVMbyx
+
+sprite $HotTubMd [14x16/16z] XSU50GGX4CNGhE6G_gizTtsZdnSJq0KdG8KeM65M0MMpWHRESNNZoeaXMo_d1A47ZnREV8IlbeUnSfx2lsI_3pxQ0m
+
+sprite $HotTubLg [17x20/16z] {
+ZOk5TGD15CIqS0pglzky2PkjnJ_00ueLd04EBH4My8oW7dcid4vGleKQnPGERNmfaFelcuNc2doBpGvkg96ZfCYYOQzyuoKxlWFaghd6F-7hwcyABKzTrBBh
+vXMSNh1-
+}
+
+!procedure HotTub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HotTub', $name, $tech, $desc)
+!endprocedure

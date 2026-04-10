@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/Laugh
+
+sprite $LaughXs [10x10/16z] BS650S90002nu5J-R_zfqIQmT0TryMYX7NGJeEKYzhjosEuFVKcgTbbY8TngAzu
+
+sprite $LaughSm [12x12/16z] FSR50S80542nuFfv-q-Bjpd5nwspdvhJ57JmSMyjCoAsqMqOtAYJHUVHrrLox8DqTwbsEj7uw07JnuaN
+
+sprite $LaughMd [16x16/16z] {
+NSxL0SCm303H2yUast_Qaihlno04W6tO9bw6wSZdwz8T-OIqs678s-Q41zG5g2k4cwyI0rQ7VDE_TnDQf0sS1D_xd69dCe71xiAY6j05XXim0TqzzuuLECqd
+h_e0k08
+}
+
+sprite $LaughLg [20x20/16z] {
+NT23WG0n0031FL-u_LVxY1uJ6moXccz-kHpAng3M0tZKCBiomwxnNrThNN2DhabxWgErJ-3rnGheldRHuC6SdBq1hV9FKVadcGNsOzgWUlk0Im958JbjR1QA
+EpXaMdlJSPY-yBHcK80ddCmkYFhIR4NtNrzQKbLbUMrAd_G9
+}
+
+!procedure Laugh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Laugh', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Hips
+
+sprite $HipsXs [12x10/16z] TOR50O0008ImM_QVrhgNTGa_CWrFib0AgnOeAr8XQ0kq6XPXQg5jss8E0ct1Kpi
+
+sprite $HipsSm [15x12/16z] VOk30S0m54IlRhp_jB7rmd_05lMuwsZ6ixWMA3p-iNoul039b0-VTfGkQFKuEkEp2JiUeSRTXK1wypZ5
+
+sprite $HipsMd [20x16/16z] fOx50G8140Fdt3FzLul3oGTRYRt27sC0AakE6Ti8rO0mwdp3wD0gCZjqoiq6IX5BmCOKh1c0RQMkMGLOGE6QcSNWhFC4pCpOBEbXohBsik0mX-opEGC
+
+sprite $HipsLg [25x20/16z] {
+hSa5Wi0W4C30jCMEPPl_l_RStO8p_5yHt7QHhq2vJRVtWPtNC3KW4fWwWKCTtaKAtiQkUke6mvgILgZc53WKsEqfBe2qwDfu3WsWow76SqY0Ks3Jvs106BNV
+y7EuBQctHsi0RIyDSulOWR9Muracp_eE70T_wWe
+}
+
+!procedure Hips($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Hips', $name, $tech, $desc)
+!endprocedure

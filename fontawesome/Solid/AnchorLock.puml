@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/AnchorLock
+
+sprite $AnchorLockXs [12x10/16z] FSU50S0W4C30rBtPVreSWlmzkM-bfuv5lg_xKKREb3RtOdrGgp5_sPic76PRpASMHm
+
+sprite $AnchorLockSm [15x12/16z] LKt50S103ABkPVzfAnVdbQ1es2uay4D-1vINDwkxp-_9fBIt5KghlfXkKUJjbhlDj9UwVd4_EVYBintjVG4
+
+sprite $AnchorLockMd [20x16/16z] NSg55S0W5CNGLxSFsN_Q6axmUr3iO5ONW6jfnq_GccEITJQ1qPbUOLAFZAewfihi-7OFQpQ0iBD5im-aPO1bYEQ2lTkxHmCpDaa7Bjh5L_nemNoqBqADoJVs
+
+sprite $AnchorLockLg [25x20/16z] {
+RSs5WOHG54MnYplflzgLSNa79r_oQB6cg07TDxXMmPIsXY6fmOvwS_eKdJIfsfrvhxMymS9u_S-H9som9Zqudi3rskpm16ToIfAEf8A6yGa7jqqIFA1nAxUF
+4Z9XFPpB_W6PNVk2D1jOd_0B
+}
+
+!procedure AnchorLock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/AnchorLock', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Tenge
+
+sprite $TengeXs [7x10/16z] Ou00VWZ0uF6p0Gdy51SG0m
+
+sprite $TengeSm [9x12/16z] Ou017dueO803RYXWHvRYvmCI93FO6O44
+
+sprite $TengeMd [12x16/16z] Oq02J7nmmCl1Zm0Co80R0NZHrV3niy3LyV8pqe3DW0u
+
+sprite $TengeLg [15x20/16z] Oq03p2Y07nMWoZAXw-L61fneUXbvGO2FdnzCSqDqi0BD18D1nMNWvsF01W
+
+!procedure Tenge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Tenge', $name, $tech, $desc)
+!endprocedure

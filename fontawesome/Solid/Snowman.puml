@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Snowman
+
+sprite $SnowmanXs [12x10/16z] FOp50S103CDSvch_QOy2UYKcTG0vdBp4_KFUoE_PywycpdwwzTd1uOkTN8_xezCcAW
+
+sprite $SnowmanSm [15x12/16z] LOs50O1030CFTxB_jl1QzpOXYtv9kNMX5zetrufPlbqUNUsIiRwAGM9jKCdFL6vlYYkKqzUOfjYIpjxG9jc03m
+
+sprite $SnowmanMd [20x16/16z] JSk54S0W4031YplNVxSPv0SMVQEwpHXDLWoIx7Awqkd-UIPlEdNZquDkqmkLKT9JDs01vbT0imGupPCQgVZ2PnNlINQgFfWjLBCTpMBsc17wx9WBDs4oaFq
+
+sprite $SnowmanLg [25x20/16z] {
+TT25iSCm40N0PsPl_zL-XfmcsM7fEBzkO4xZyADBnNcn8SL8GYPIJFwa670aa0fNWZFLZFwi2T-pxmyTx4cstftav7z3zp9rk9FBdp61T2SE3ovivHpf_vE-
+TK2_jIiEYlR3SRSV0TAz-DXki3m_Bdbqeixw3W
+}
+
+!procedure Snowman($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Snowman', $name, $tech, $desc)
+!endprocedure

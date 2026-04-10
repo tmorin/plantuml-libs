@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Slash
+
+sprite $SlashXs [11x10/16z] u-HdW0Dk93OFCfiFmUP5PlCYs7p8R1u4cn-PpGq
+
+sprite $SlashSm [13x12/16z] u-HdG0BSU7YyU7XyA3n-L1uV2eyN3uyRbGS
+
+sprite $SlashMd [17x16/16z] jSYd0S0m402nnBtV_jkQVi4MLATysYIQMMusmSpXTsFYuzqS4x-Rm7Qpp4Jc1G
+
+sprite $SlashLg [22x20/16z] bOot0G0m3C8okll_R_E06uo0n9clI5DhNKj6LLidgTzGxM3jLHrWRL2jLPtTM-gtDkyF
+
+!procedure Slash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Slash', $name, $tech, $desc)
+!endprocedure

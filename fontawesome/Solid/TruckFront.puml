@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/TruckFront
+
+sprite $TruckFrontXs [8x10/16z] Ou01VdJ0oyd92QAno_BpC83a-A4o81gi3
+
+sprite $TruckFrontSm [10x12/16z] Oq00VYZWuUB71dZXYZWWB1m0BC75mC_5pmFH1n91o86qilBp0G
+
+sprite $TruckFrontMd [14x16/16z] VOw35K0n3023X_hsd_RRw1Knv45fEr64AuqkLHUC1TlRFQq-pRTcY_IZl99WDHPvswn80zy7B9ykLfwi4G
+
+sprite $TruckFrontLg [17x20/16z] dSYr0SGm0C10XJdQVzg7eA7pbKUkRWB0RgJlBJETPY_SsZJgF4g1fuLATNzY0frrsxsiAiPMMdKxgN84fqc5verEvGi
+
+!procedure TruckFront($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TruckFront', $name, $tech, $desc)
+!endprocedure

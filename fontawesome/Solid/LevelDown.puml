@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/LevelDown
+
+sprite $LevelDownXs [7x10/16z] O-3dPsHWO63av-Td00D-DW8KFoy_6qWnFrGBY0G
+
+sprite $LevelDownSm [9x12/16z] bSQ73S0W00D1HoqDkFstHHu1rmzIFL2eh6EWOEJ28Ydfb_eR
+
+sprite $LevelDownMd [12x16/16z] hOt50G0X3C1gdzFiForE9o18arU5XilWf_FFC3C7IJxqh3_JzMaAtNNi0pu2Rfd1r1bJPpnzL
+
+sprite $LevelDownLg [15x20/16z] nSg53S0m4C30Jvcz_xQLrT06TV2a3soDtCDNPigyekk0dlFlJ92vU0s0z3Yo0OjRPKEMRihEQavXBm
+
+!procedure LevelDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/LevelDown', $name, $tech, $desc)
+!endprocedure

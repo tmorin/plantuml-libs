@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/H/Hashicorp
+
+sprite $HashicorpXs [10x10/16z] Om02BWOc1Z3WvmSYCCqFuJ20Q1YB7ud5ZqMCWGD4y848Ddv-TeHv
+
+sprite $HashicorpSm [12x12/16z] JOo55S0W4CLIzsR_RNcuSr-9Q-OYhyC5ZTEaJd7-GQCUPt73fSsJ-zndxVF2ECTJvbmDQ_QaQee10W
+
+sprite $HashicorpMd [16x16/16z] PSx50O0m0CNGuCxVVrgeQqvzTLm3ZEHUmQGpw9ISvRJ8D7lF6Z0wW60Pst7bGPtVzotjAZtFQtU-zhZ2NJZy3EvWgmsRyoZTX2PdR3y
+
+sprite $HashicorpLg [20x20/16z] {
+XSm53e0m00J1nQ5s__yjkGJNHJiLbW9GSwoN06Ns99i_gqHJMQq3HhcErQGAomG7I_W79fsjW7Ipwj7M_Ys4y7lUQgM-sMY_60JPeAn6BpS0LAjP0akxSMYI
+hGKt0m
+}
+
+!procedure Hashicorp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Hashicorp', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Broom
+
+sprite $BroomXs [11x10/16z] Ou03JZYBYnyk1cKnCd30nFZv-M4C88AoW0m8auKV8Gy2Q2m
+
+sprite $BroomSm [13x12/16z] JOor0G0n30EV8NJxJni6kR5ua_E20w9pJEouEcApt2lEqsNOOAemfgZNyuUGKvnRKma
+
+sprite $BroomMd [17x16/16z] XSd50GGn0CD0XpdglzfZNFHlP2qs5uQb-udd5qsQJtzV-DAey6DWgi6FeMbGdmuyLcIVrkZFyhRKdk7ZpdyOBvSTwme
+
+sprite $BroomLg [22x20/16z] RSk53S1004BHkhViFstjb03nbqzZjkuE0SKDk0INW7A7AnbRXmtGpG5Plz6xNpvcl084vU_1V0GDDQUXheRXZDpLd13KvbbS23MzNDay
+
+!procedure Broom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Broom', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ThumbsUp
+
+sprite $ThumbsUpXs [10x10/16z] Oq05_Fnm1ZE8OWEnsDZO6FY153yOu6Mn035GBOXausTb036v6G
+
+sprite $ThumbsUpSm [12x12/16z] XOZ50O0008ImM_QVrkwypm5S5-Z6xXng290fpclSMVyxLuucJA4jWRnj6-W1
+
+sprite $ThumbsUpMd [16x16/16z] XSv50e1034FHKXoQvFwdnLt_QjwuFPTB9qlo0yl1bsKkmuZCYi68eNPSaONspiR5_hE_l7Y-lrqPivDjsJZ_R5s-rGC
+
+sprite $ThumbsUpLg [20x20/16z] VT250S0W40F0u0xxJriNz5FbS415bS9wAqSw2XCxIRJacsPAgwTPr5U0T1G2HAaYhpTqRM5YOcAOc9-O7SrXDFcOgWoFeQQha05HsJMIUaxXJC0yEm
+
+!procedure ThumbsUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ThumbsUp', $name, $tech, $desc)
+!endprocedure

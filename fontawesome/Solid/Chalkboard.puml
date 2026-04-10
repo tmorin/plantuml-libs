@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Chalkboard
+
+sprite $ChalkboardXs [11x10/16z] Oy0E-E60WHygn4mC4w8Lo4G2ICO2
+
+sprite $ChalkboardSm [13x12/16z] Oy0DkFdXW961dvi92lZv6FWvOMf8v83C0dFukBd1nWC9TduaWE8
+
+sprite $ChalkboardMd [17x16/16z] hSu35i0m00JHhTsz_srhnFpnF0KUklcdtDyK02lBpy1Y3_YqUSEmVq88t4rdsCy3T-kqS5ueWTC6
+
+sprite $ChalkboardLg [22x20/16z] pSZ50OC004Mnt-BwzfyMTtV8CRf0mD1V-ZCccV3liQjLZ_6vZSWDb-v641GeX4487fD-qOH0EwG
+
+!procedure Chalkboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Chalkboard', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Airbnb
+
+sprite $AirbnbXs [8x10/16z] HSY54O0030F0nvtilosNCzgu_yuCDPEdLkbm3v6kLqtB8p0priDkpM2F3m
+
+sprite $AirbnbSm [10x12/16z] HS710K1000Em0A2d-s_hAO7VqmMm2504h1XGVUF6ON8hWrtPXRgf6SMZrA0y5tBw
+
+sprite $AirbnbMd [14x16/16z] POgr0GGn0CCKvdZ_QH-EGOqHtgJfEEY5QOyq0S7A02ZXdCvn65mwnachoA5rMdHG_VeNq1Tf3ghxF-Zh2p4luiMQrYqFm7TG7OAmoeql
+
+sprite $AirbnbLg [17x20/16z] {
+TOw50GCn54AvkBF_jYLIRr-SV07_i0QlN1HuWGxe0GzyN-fBm0LHAWwEHtyB43sTZaCQcHyXmw7DbuvuKjUNgxYu0lmMGbdthNQdXztHLUamFE4qfp8J7KIe
+Hm3xjj2Egqe52_Ltkbrzm301YJDgkHI39Bwv0G
+}
+
+!procedure Airbnb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Airbnb', $name, $tech, $desc)
+!endprocedure

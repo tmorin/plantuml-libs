@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/SquareDeskpro
+
+sprite $SquareDeskproXs [8x10/16z] Ou02Bdvq0185qK223KKSYA3o70XHHYWD
+
+sprite $SquareDeskproSm [10x12/16z] Ou03Pdwi02Z32sNnyJBmG5WGZ00GFYy3XCN219NauE12KyG71Rm
+
+sprite $SquareDeskproMd [14x16/16z] Oq05l7m8mCLF080qS21uB2nC30nm7fXWH-QnC60t1KGmCY3nk1Xua6o06yBFmS61rKtSgEQX
+
+sprite $SquareDeskproLg [17x20/16z] dSwr0GCm34JHRsPh_sd3U4tWbS835TwvRdz907v80TApW9qu-dl1u5vemSvAC2Kh3YdWdeMvPWRDiUrkrbhRicyvBQ2E
+
+!procedure SquareDeskpro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/SquareDeskpro', $name, $tech, $desc)
+!endprocedure

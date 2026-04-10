@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Section
+
+sprite $SectionXs [5x10/16z] Os3Wv-S7OH051Fmy30oS80uta0kKW0a3CPGB
+
+sprite $SectionSm [6x12/16z] 5SY53S004CD0boalxxzjbHCVH8CL0JufTOYdsa4iE4Of0NQnVW
+
+sprite $SectionMd [8x16/16z] HOg50G0W48JERc__RNqRMm1C9sd0ZP6fjKQdmQGmOJ9zjLBlJ4-lAbcOHJPEtrmdz0uWc3BFIVzdQQrr4YSR
+
+sprite $SectionLg [10x20/16z] NOsr0S104CCSvcZ_QPzPrO51qeL7MedS8Z5TC2i0AFAKIS2xvSbpw2AFqJ7_a1mJoCSlqm9LACrlwXshvZ9DVfeyFuXILmOB
+
+!procedure Section($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Section', $name, $tech, $desc)
+!endprocedure

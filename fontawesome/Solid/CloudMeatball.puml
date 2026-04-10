@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CloudMeatball
+
+sprite $CloudMeatballXs [10x10/16z] HSR50S80002nmvtiFotKcrUgpwsPoRv7MNsjJZZqH5VTt5CAvIsu7rMX-WC
+
+sprite $CloudMeatballSm [12x12/16z] ROo55O10582mM_RVrcTVyJk1sfg7LTszQn_2V0RBDAfGdu753eJDXkeCsd361KyujUR-k0Wmwnav
+
+sprite $CloudMeatballMd [16x16/16z] VSu53aD1203H-QxitF-sBJGXtXVRnG7cyG8j_5fvByfa8pss2I1ixmAc5fV_BQO762RYzmkWpe0PJ4mJS1-mcEeJEc69FErK6AQJNG6wljqQ1-a3
+
+sprite $CloudMeatballLg [20x20/16z] {
+VO-54S0m30CLHiVxRzjJcVzOO02neWbNH0bWdTcagWkq6XRqZ7dH2eYzQ4AnwHtZzCduqwJjcbijSpeKdGhtk-q63qGUwfAgP4O56qfEdyLTOsPeu-F7UnNS
+sIzQ1hUWYRrqYuJ7ZWDZXnQBXGa
+}
+
+!procedure CloudMeatball($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CloudMeatball', $name, $tech, $desc)
+!endprocedure

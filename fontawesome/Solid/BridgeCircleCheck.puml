@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/BridgeCircleCheck
+
+sprite $BridgeCircleCheckXs [11x10/16z] HSo30S0040J1YPthlzeO-wQV9I-4LhIqQVlvS5Cd3ytofAprTKV_tBMSoPdMbptVv6G7
+
+sprite $BridgeCircleCheckSm [13x12/16z] JSU50O103CNGuDQI_QV5vLxrKnhyWHd6rIDO8MyNlX3Glm6M1ARhHNM4x-zyGuXVa5J81LWzxG
+
+sprite $BridgeCircleCheckMd [17x16/16z] PSo50O0m3031npNz_QV5dQitmazw2WXV2cZDyrYMtR9oe192i061CHn7rvMMDHRuLkAbOUDfAy-1raKgCjBvhuv0xIOWwLMBFZuAYTT7HQb2N2LR6qwPcsO6
+
+sprite $BridgeCircleCheckLg [22x20/16z] {
+TO-50S0m20IlHkE__xHrbulYm3VD2o3hHGPxQmE08Y23HXsOu4zhlRAPKvglO1RLTw0tvQKDdUM7jbHit2Dn9RTmDXmyE2rK-tGHPkK6K6t1e8LMIgjW0Fqs
+hwHLsm8KgIc5SDVcvMrqrzhoqQbzz1xXfDK68m
+}
+
+!procedure BridgeCircleCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BridgeCircleCheck', $name, $tech, $desc)
+!endprocedure

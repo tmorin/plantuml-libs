@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ShieldHeart
+
+sprite $ShieldHeartXs [10x10/16z] Om01FWOmOEG70I237mP0B6v-BWWBf8G9p6A6g67W0mbo8cjXW34X9a8O
+
+sprite $ShieldHeartSm [12x12/16z] LSs50G0X30J1VLUu_gl5TN19Gc8f3aKByAhQKKTwjfnbJpJll_m8RTQblD-KGQkmacpbrWC
+
+sprite $ShieldHeartMd [16x16/16z] NOw55S0W44DJtBF_jdsuVFGyw8Y20yUAGYTpuY-hv_2csULpL6BRQ7oFNRyESTcs_LR2nsNNLzV7LQdSFFea6jCC69Ib7dlKXyeF
+
+sprite $ShieldHeartLg [20x20/16z] {
+PO-55O0m44E3UxF_jhopweVQUH3i2HqtXQqO9cPUinni-2RWOSy43jnkIuyyYiqRdW2IF2uxuCpoM73NjiLwkCkWK4vXrm6jhXklugQtVcqgjJsT2WyiF41l
+J0YMnjH6lcWuoJJ3-04
+}
+
+!procedure ShieldHeart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ShieldHeart', $name, $tech, $desc)
+!endprocedure

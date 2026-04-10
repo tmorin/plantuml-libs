@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/BoxOpen
+
+sprite $BoxOpenXs [12x10/16z] PSYr0S1030D0VPYr_xHcLxb6W40qkcXF9Ba1QrqU7Ay5NUw0Bly-keRFscwf
+
+sprite $BoxOpenSm [15x12/16z] LOh50SDG08Leuyh-qyQ-Ste20JSAc-eGIwyhdFf_cnwGGwVkeUaFJnQT3p_uFWDJa6QQggLEfV9HMk2Vomq
+
+sprite $BoxOpenMd [20x16/16z] LSu54e1G203HjTkz_sbjcS-RfE4tsv9rtYZKwbQdxAvMGAikqLJp6hzMBnkFoiiEZVRg_EsuD6W5YxhvwL5NmC1bUYTJ3c-REPV5ouOnFWqDlpNUA7bPUPq
+
+sprite $BoxOpenLg [25x20/16z] {
+RP454iKW34ItkEV-j_spao7yogkjr00SaWW-24B6AvTDkyMTaGSghzdYHbjKBsgdUjvUSD56AYV4YcXMb0xYbhe5_dtGZrP03CUlsGyOK_HFXxxoG6-lmQsm
+HahuBWwdA9y5UUKBtqs3uUGmS2Fj_CAJfcko-G4
+}
+
+!procedure BoxOpen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BoxOpen', $name, $tech, $desc)
+!endprocedure

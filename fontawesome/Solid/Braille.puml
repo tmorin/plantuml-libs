@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Braille
+
+sprite $BrailleXs [7x10/16z] O-3dPm1YFY351iGG7WC4G7dy83bENbGv5Y2BaP-VXuSVn0G
+
+sprite $BrailleSm [9x12/16z] DSct0SG05C9GNNJsstzRLvy6a68jd2YiCzfLNzzUlwfVhr5Gqf2QiDRbFhsLh2xbyW
+
+sprite $BrailleMd [12x16/16z] NSor0G0n049HJkDX_sdZJlEeFaXAe22P1WZs0IvprNyN7ZgalPKvJuhAxFYbWtVlVBu4Adj79bn2qDLEmXC_0Njs8W
+
+sprite $BrailleLg [15x20/16z] {
+PO-5WGGn200dxg7_QbTW_yycYWD3H2eNSk6Yw0DJFrll0gAOCe7fiHlI_IxSaibDtDBvnerjIZzNvJysQEBnoZoIFAZNVKpZOMfBB14hy0Ivu52yvuTkcT2e
+y3DWPzk03XtmkZDS-l0pu0a
+}
+
+!procedure Braille($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Braille', $name, $tech, $desc)
+!endprocedure

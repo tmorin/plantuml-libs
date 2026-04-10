@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/U/Ubiquiti
+
+sprite $UbiquitiXs [10x10/16z] DSV50K0n08FGV9SA-qzR3wV7ytqQfGW3o1BMyreeM1nO0WRGGs_ikL01
+
+sprite $UbiquitiSm [12x12/16z] LOl50G0n0CAeUxF_jEVA2qignUWK7UnfarxVpUN_duu-thRR3mZG3my8C9jDbuS642KkpOi2ahG2
+
+sprite $UbiquitiMd [16x16/16z] LOs53GH130Dzl3pzL_jmaInb5aFsKslTP1Z0BhEb62d5UnyfrappRUnfVY3bUAqEZYVm05K1G5mlc-FbSEW2O7LUGiLSOUFGGbRv0W
+
+sprite $UbiquitiLg [20x20/16z] {
+ZOvH0iGG50EVtRO0kVzj6mNuCe0Hq9OecOWkWFncf-_T8OYSE570WNkqDcPpeTntu8XVNGGnNzSTCd-GjBhIwrc5SYjiLULsXKBm2GLkQgn8nYwg_klQKWLJ
+H2oX5m
+}
+
+!procedure Ubiquiti($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/U/Ubiquiti', $name, $tech, $desc)
+!endprocedure

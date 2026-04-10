@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PlaneCircleExclamation
+
+sprite $PlaneCircleExclamationXs [12x10/16z] VSQr0OG000Im-ySr-q-BIqUgP4TsN_-zB-1iStQkaXRQGace8lp9JXZFarbO0G
+
+sprite $PlaneCircleExclamationSm [15x12/16z] ZOp50O003CGgE0VPVrhSNwIkjW5k3o1-booyA_XMqgEgMAYta8m6Wy1y_KdjHxb1z_otHf1W1W
+
+sprite $PlaneCircleExclamationMd [20x16/16z] hSZ50S8000Imgtkp_xGurBxacNmW9zMVRyLmB62-5jTQadgT3oK1wrQAe9nP4an5HUhFISOYIKMcxPBjhBP3IbIJpnNGPcL1SmS
+
+sprite $PlaneCircleExclamationLg [25x20/16z] {
+nS-rOSLG50JH_Inyf_zgJMAAFU5St4oyqUI45kM_2k3ASxlm-yhTH7VXwoIDxZxufuacQPUDRpD9ZnJCTqkXpWFIeHiALT9oJvaBaler9KzO2XDBeR8fz3o6
+tdPJi1nCXNRnmq4Ko3S
+}
+
+!procedure PlaneCircleExclamation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PlaneCircleExclamation', $name, $tech, $desc)
+!endprocedure

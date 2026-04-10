@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/F/Facepunch
+
+sprite $FacepunchXs [10x10/16z] DOU50K0X58JudSh-qzhouZY0nvEA-kbJfVS3wVY8OzzffvpTa8uy3e732cG
+
+sprite $FacepunchSm [12x12/16z] BSY50G0n2C30l6l9_jFM3uVcysPme3Bc1mm64pAjVcA8Zlgzq0DlyOnQ7oBJAShW1RhqRr0brVOj
+
+sprite $FacepunchMd [16x16/16z] {
+HOy5WW913C2oCYxv_sjFAB0PhRUyICjny64Qb13L15HT8MQ2vVo_FY9i3zmyQFAcCE5AxM2xv515bQB2L6YQI0uv7_lmi7AI21I53wURxFg8OLlkZzKKuxXA
+gXeYqO3XzWi
+}
+
+sprite $FacepunchLg [20x20/16z] {
+LT052W0X443HFx9b_llVTX5aun6s4onvs0u-TfSUB4wj3jMyjfvP32rhAs39kiE-jfQgi1u-z4AP0aWas3KhQ3CePXleiB6fxdIrWsg1fa9ITz3c8AjMd40F
+XNPiGeWReMZmLUrqEr-Q2CtmK86izRSr5NK7YAAcfwKF7fTEFJ7T
+}
+
+!procedure Facepunch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Facepunch', $name, $tech, $desc)
+!endprocedure

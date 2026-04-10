@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Mosquito
+
+sprite $MosquitoXs [11x10/16z] FSA54SD00C0mvvcz_xJbHYSWy7Bn9XTzyTR2nU9ZQPEtj7tPYSlRKPTkbSzcKLwELJu4Bk49
+
+sprite $MosquitoSm [13x12/16z] TSS54eH044FH0EFI__wttKh9Egyr-dBXxMMew7o5dULW2uBixzm15bi7TmHa2Ag33iN9tduCzRCXMGjlXmS
+
+sprite $MosquitoMd [17x16/16z] XS-r0GGm4CH0sNUF1lLVxJFZPAjiUL2vQ78YLpPQmScLsrFOS6KzhYbNqz3cceUYrxtsIId-i_5egAuzGZMisWsrGIc4A4BXh8iTWoiJOFZnxHu
+
+sprite $MosquitoLg [22x20/16z] {
+RSxLeGDH203HWNMT_gjzmerdpnyE9RaB7WP76kL98OJ5dQVUeRBAYzcix2ul55Q3oUHfLtGUbLUpwgd1GxyStXrptxg-PNZbyCffix_rf6MqLMOBYohjtxLU
+Le0Cy4HdN222kyfEUF1YTu0E3fE7L4ee3vr1ixJiBm
+}
+
+!procedure Mosquito($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Mosquito', $name, $tech, $desc)
+!endprocedure

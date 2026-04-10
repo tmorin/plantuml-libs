@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Sitrox
+
+sprite $SitroxXs [8x10/16z] Os1WOEC70WO6806YcQ0q3331U71XBcHfVWY0qZmC
+
+sprite $SitroxSm [10x12/16z] Om02BduGO61W0f8G5f20YK410nn0PJb0B1umaml4P85eG01k682RneTaBW
+
+sprite $SitroxMd [14x16/16z] RSp50G1120F0SvV-grt5ONv8CbJJ-tTr-4aTv7IeQPpOO9nlTSEq_DtNnn-yVRnX7C0ODju2L00rxNAg9Ha
+
+sprite $SitroxLg [17x20/16z] VS-r0S1030D0XJdQVzfdfYlDXZ6_zA1CT7o0HU0l0om3SmODau68pW_dfpS3nLsmPdeldAqOC_HaxlAHjmoW26nvu3F_I
+
+!procedure Sitrox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Sitrox', $name, $tech, $desc)
+!endprocedure

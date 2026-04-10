@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/VolumeXmark
+
+sprite $VolumeXmarkXs [11x10/16z] BSR50O1G0CMmXplTVrhuqfmIwI1wi2jOcboms43UNlRdJJOWcbhL-mC
+
+sprite $VolumeXmarkSm [13x12/16z] NSV50O100C2muaxtdnRdBBz0QP5WCsOtn0TLIuTVi3UcjWwfH5Yt9xyX3LqQgfx72G
+
+sprite $VolumeXmarkMd [17x16/16z] TSZ50GGn0810rZtqN-svHFanDDfxae9cduB6S9n-e0S6Bls2WKly0sgVm6uWXjNLa-KFBWn2rnzlYDfoOCs1AOAyEm
+
+sprite $VolumeXmarkLg [22x20/16z] VSY54SCm4031CxEl_sh39FrFTdZvhssJN3JcPhA7QfRbDkEezGxgTqy13onsKtIebbKTgHULi7fumbcipZows7a2re6xwRsb8LswT6dIXM9pLm
+
+!procedure VolumeXmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/VolumeXmark', $name, $tech, $desc)
+!endprocedure

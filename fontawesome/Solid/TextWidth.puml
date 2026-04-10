@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/TextWidth
+
+sprite $TextWidthXs [8x10/16z] O-171TmS30pyO0Gb43HGbW49y41a-DdPsDZu-TcW-W4
+
+sprite $TextWidthSm [10x12/16z] O-371XWO6A0OIZ92ML30n0yH0EjcPq01Z306DrWv2pyJ1znSe7e-4E3d1m
+
+sprite $TextWidthMd [14x16/16z] ROs50SGW5CKUxcJ_QK_hRU2xYGED2y5QE_4VFPWOIN_TaT4M_VqjqaCqOVOr-9_PgkQ3dZ1riUshreaA4j3_09CZ0lJ3Gdq3
+
+sprite $TextWidthLg [17x20/16z] ZSp50GCn44DHcTc__sh3dALt6fG6Nz9Wtz250rr1etyFPFGvUBGV0nqSP83F4NV-uwHS11t6r0FjaVZe4nG9wF41A8CVaHzAl48De3C
+
+!procedure TextWidth($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TextWidth', $name, $tech, $desc)
+!endprocedure

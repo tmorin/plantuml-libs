@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/U/Uservoice
+
+sprite $UservoiceXs [10x10/16z] HOY50O0m30GFTsx_QQ7Uv9ryQwIdgEGJON8p9rQcaXoiYJkdrQjlBQcxy0C
+
+sprite $UservoiceSm [12x12/16z] HSsr0GH10810Rjtflzft8PeClbq0ug3g0H81T0Y85KyJc3I-bXF_Dlsz-Dl5rq5n3G4T7l4zLdEkS0S
+
+sprite $UservoiceMd [16x16/16z] NSw50SGm30J12yUu_LVxO6OOawHUzYrD4LaaUN35ZaGm_RRdV9CZydJ_OKUlzq61mM6vltbjpFVTubZz9E-U-p-bj7N10I-8P44gvqQY51EL-0K
+
+sprite $UservoiceLg [20x20/16z] {
+XP053iGm0CFSTapv_syloZ5Ryi230ayC1SAnsXcpIpapI2oMgf2uJh2DqAHbTxkJncJ99_IMUylb-D8ejlBSjW7szjJwpENbMv_AMvjiUscosz__3JwjBwrA
+rRsmI7Qx_4zsZuTgsknuIARWJD252HrS6P9QTjAS
+}
+
+!procedure Uservoice($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/U/Uservoice', $name, $tech, $desc)
+!endprocedure

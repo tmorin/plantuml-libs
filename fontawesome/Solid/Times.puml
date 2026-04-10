@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Times
+
+sprite $TimesXs [7x10/16z] Oq01tFmWaf-1dnz8SW0nFpyFM8GVGe9e2EQ3geG
+
+sprite $TimesSm [9x12/16z] Oy00lFnWYf6VWPyVH8D880RJ81Q4PW3BGkHHr370rB71rC5D1W
+
+sprite $TimesMd [12x16/16z] TOn50W0X3CIwHwZz_xLhOOv5avfDomMNP_V15_gzu3O4H42aDK8zjBrBwChGLg-0IFw8sB0U
+
+sprite $TimesLg [15x20/16z] bSs54GCn44DH7QFz-wysj10c3RvPaFx9J56aWGtIWFPm0_HIXNgcIJPlGZOF-Hm6PO2QQ83xlhu0gS7_foIRXoxplOPitfIKj6xwc2C
+
+!procedure Times($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Times', $name, $tech, $desc)
+!endprocedure

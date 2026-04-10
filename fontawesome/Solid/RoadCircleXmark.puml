@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/RoadCircleXmark
+
+sprite $RoadCircleXmarkXs [12x10/16z] LSY50S1024FHKFU__xGzT-GHZUy6WKKJJJ7Pbl8r-4tP5mw2vp2p-IvLexluWnS7
+
+sprite $RoadCircleXmarkSm [15x12/16z] POk53GCn40JloMnF_zr6HwAiQ9RaNmlaXYSiRd7tu0gxtUHQIHwgSjfRP2rrjzyAG8th5kOv3TzIBnJJ3iEjfwFob1y
+
+sprite $RoadCircleXmarkMd [20x16/16z] {
+TSs55SCm54DHcTb__srhvLJbll2D0NyRUtlUofFiv37FdVYqWCM7A1WZFMtOCwUfR7bZNQOzyCZVhG5npzVbWYPicbRNoteQuhbMnhd3oyOrpsZznJAmQ5dc
+psKRj6VRhj8D
+}
+
+sprite $RoadCircleXmarkLg [25x20/16z] {
+XOy55iCW40K_40zXxd_RTYlxaCf4OLZJ7q9AAKZtTrHD0jWa35LGYwKNfuHHcap6nHCv1mt1HS5fYu2Hdp_xFEj5nBlAgZbTR5QG7FK45tuer099b_zx2Ikh
+1Di52N8zHLI1IGG1zHGIc15FGIl2A98o15asg6ja2OhzmAcMtTFU
+}
+
+!procedure RoadCircleXmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/RoadCircleXmark', $name, $tech, $desc)
+!endprocedure

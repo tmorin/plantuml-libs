@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Microblog
+
+sprite $MicroblogXs [8x10/16z] FS650OG0002X--vd_sbjXGvtL7_m2E7bLV7c5I9d0bxrWZQd4G
+
+sprite $MicroblogSm [10x12/16z] JOo30G0n5CNU6KNsdxPMlgcL1pXoGgKcD-1ALfm19IxuoUdJ1cg-ySyl6OkngBCh0W
+
+sprite $MicroblogMd [14x16/16z] PSm56e0W50FWqStkVrk_YUrlm4ly-JwhmLAuM0MJfm9qIgGOS0TUoLOTIbMJlW5HhL8KN0CHuH5vScOjWE4DWBq22ybNwMReyBO1
+
+sprite $MicroblogLg [17x20/16z] {
+TSvL0WCn24NH6nz_-rzj1QXtpbU2SoANajv-SZjkrLC5sFMcG9EPvK2EYApfEpE_fdjiqyt1NT7T8WD4S_QmDHWyN2IiUwNRqJOfUW-zQO2LXeFNFhCHKkab
+CxJpAOjVLm
+}
+
+!procedure Microblog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Microblog', $name, $tech, $desc)
+!endprocedure

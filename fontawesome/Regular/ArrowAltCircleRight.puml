@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/ArrowAltCircleRight
+
+sprite $ArrowAltCircleRightXs [10x10/16z] DSC50OG00C30UrTO_xGu4_Zq17NpwaD_q4FiVsweyyhl-KAHC2AVG7ZKhvW1
+
+sprite $ArrowAltCircleRightSm [12x12/16z] BOe54i1020DJrtJ__zkIuVO48WeFfnhmOSZAfl0orgcUhSx8zxZS2OXnw25SudHtxlgwdpNxguQZddlzyfiYxWy
+
+sprite $ArrowAltCircleRightMd [16x16/16z] {
+FOi73WH12CEoVIh-_szFW3XFTHGKF9jvgDWaNsfz5ZkrUXVBot9Y-k5GbAjbF2WzWXkltsO6KF4awHBJq-CuW2690mMf3R7INONfvLAnlBnv_lhcOtVCkZe7
+WVd_1m
+}
+
+sprite $ArrowAltCircleRightLg [20x20/16z] {
+JT054i0W34JHK4V__KzROpEJhUwhWYbvq0uBsL5wSWB6-XvF83irKnOeWHJOltU9akFSl7ovk8pX9eJCwYQ4WNu2X7qUAfxybVPPocy0wbi61wVDY0mCPA94
+jyuoRVpqzmGMSlurGo2L0jUKr649KzhhWFZ81R_Fcnu
+}
+
+!procedure ArrowAltCircleRight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/ArrowAltCircleRight', $name, $tech, $desc)
+!endprocedure

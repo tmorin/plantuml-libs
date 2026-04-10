@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/SquareNfi
+
+sprite $SquareNfiXs [8x10/16z] NOM50S0m08EO-_B_jNMF03aQyadtvSmxSsiMpE2zpyXv2CaM
+
+sprite $SquareNfiSm [10x12/16z] Oq00Vho0ZPs17wAAXO613qWny45O36mW5YjCZ9UFbP-HdvyLIIiFdCN0pGS1x
+
+sprite $SquareNfiMd [14x16/16z] ZOhL0OKm40Gtxfd-gts2ymKJkLlHdJ0FXWBlCRI8CIRz1iWQ8Sdzna_zG1CkIkghId_LvvRrQtFme_E8xkh65m
+
+sprite $SquareNfiLg [17x20/16z] dSY53KKX0CNG-roX-q_x1PSeJMD7VKlPB55dNaQoOE2wBiC38Bd_lJeTh0xkspuw7CZ1yr23TDUmR4Hu7K029Z4Bi7eOwA19XgfDRLy
+
+!procedure SquareNfi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SquareNfi', $name, $tech, $desc)
+!endprocedure

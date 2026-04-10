@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Lumon
+
+sprite $LumonXs [12x10/16z] bS750O10000WxDv_NP_6DMWnpjvsJjUsEhO1Uan6p0iOUoat
+
+sprite $LumonSm [15x12/16z] bSY50SC02031nwdkFsvTuuV3Hf8Mu6LSwJMAknG-58Iz6OaVuepxqVdNgMfNrzPm9TTFXB7e0W
+
+sprite $LumonMd [20x16/16z] jSp5WGC134FHB_Dm_zKk11e8FED9V85YBFzFjU1VTBcD_NCh7o18dXmGKGWs275kvxbYi8PWXrYMxUJQeWX0-cyG9ZqodAS6442Qxez1o7cmhhJ95k_w1G
+
+sprite $LumonLg [25x20/16z] {
+nSb5GaHH4CNGt7gb_Mt_gyKTnlGP9joTlCe2C5yTuesR398NWgPVEy4dUvq1uazHi450-KRivtdDkN2u-SS8d_sqtWvtN-xGCvffewcSMOKCaI0Wu5E1mCrT
+igKN9IcrU14UGW0a1CKdgymowoWJ_-OH
+}
+
+!procedure Lumon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Lumon', $name, $tech, $desc)
+!endprocedure

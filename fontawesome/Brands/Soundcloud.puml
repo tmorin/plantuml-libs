@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Soundcloud
+
+sprite $SoundcloudXs [12x10/16z] VSQn0G0G00Em0W3z_rg0aKp1bsAvTHpEqxn3O82iN0eZHDb7LO0_V-W
+
+sprite $SoundcloudSm [15x12/16z] dSVL0OC05CNGvorwzvyMTuTyvT2N01Hh8hfJ7OYIaoJCPI1GfdypdcXXAZIHXhYBhgi1
+
+sprite $SoundcloudMd [20x16/16z] hSgr0SCm04JHBsRT_jE6OopjrnrmZrmJ1teBBAB5wiFmPUa3fu_9cmiU2Qy_LqZwT46BIJjrxV_pMe2VbjQn-ikip1UNF04
+
+sprite $SoundcloudLg [25x20/16z] {
+lSn50iH044BHt-xD_Kyx6iy-Rra5yBGcANCNz6CuC41Q7ZgSJMLGraTbPNr3jFMXd014yQaZUj3E5IEcpyE8SNneMbc5SdyCAoEVRrDAYEbYGzJZOuBerbKc
+wVZWnAnunXi
+}
+
+!procedure Soundcloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Soundcloud', $name, $tech, $desc)
+!endprocedure

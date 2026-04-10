@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Tractor
+
+sprite $TractorXs [11x10/16z] JOh50G0n0C9oBXNsdxPkuOEneaIt9xhXhdOJc6mxoKtxOKQ0SRXpL5R29ciL0G
+
+sprite $TractorSm [13x12/16z] LSV50K81042XPxViFwtvankjRN0VitU_crEKCJd-Ss8KgzJSQrs1pOPYktqyzm9AQVFaMUtm1W
+
+sprite $TractorMd [17x16/16z] RSY50SGm3C10bHkozf_s6KeA-hXeY8Z69b_jeE-B6LY_yBlMFyowWVReUHjjWN0NUePft43M7jZEiWKwJJ3gqFVQXuH6Km6Xa-oh1jYemh1g7W5wTRW3
+
+sprite $TractorLg [22x20/16z] {
+TOy50i0m2CGEvgla_w-TkwIU6kWNAsQUbfLlozEMKWMr9gYlLdazJBXPWtYtjKraS3EYsMfVI8atwlYoDH2x_B109obSvNBc-MNKbqN6ccaFk7jByewe5aWr
+ivIKa7IBh5W-jSNg_6F2fn6wTGgcXJLyZG
+}
+
+!procedure Tractor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Tractor', $name, $tech, $desc)
+!endprocedure

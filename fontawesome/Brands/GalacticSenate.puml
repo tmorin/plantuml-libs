@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/GalacticSenate
+
+sprite $GalacticSenateXs [10x10/16z] POl50O1G04AnsxV_jFexkT2gSIH5fqQEoQjtmOVJZNYbbMrcOZvTpFDKtny
+
+sprite $GalacticSenateSm [12x12/16z] XOt50G11309Pzz1_jUUkyua2k94EFNzxNr9hsvQ1InkgBUHmvq1M7853ewELYeeHeR_czW
+
+sprite $GalacticSenateMd [16x16/16z] TSsr0GD14CNGRzmTLF_LcjbtobuahJH-t3_ccziV7x-zpv4V9ClT-sqCOMygTowuwMYH30t2vq41TR4TcuW6bLJjnP5AoHy_G9_1q69d
+
+sprite $GalacticSenateLg [20x20/16z] {
+VP15WWC1408PdzRw_sjtuvxKiHNGJuOFDVimndjj-b2p3xLWU5kjs9-BeoYBwR4uq5G4y51i5cTzB0smAipKSB-Vyw5ghEqN3MScxPpePGMsUIvyQcnU7518
+gc84DpAbTTO5AEej0juDW-a7_m
+}
+
+!procedure GalacticSenate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/GalacticSenate', $name, $tech, $desc)
+!endprocedure

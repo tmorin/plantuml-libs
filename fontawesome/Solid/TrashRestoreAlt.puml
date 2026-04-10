@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/TrashRestoreAlt
+
+sprite $TrashRestoreAltXs [8x10/16z] Os1WuEVdPs3WvOS01XY0yH4q2mCFc0PB0X4QXW
+
+sprite $TrashRestoreAltSm [10x12/16z] PSd50O1000F1nPtqNosSwxmYm249s1HnHsJnV5rQOeB99mOumelKfJScP_y1
+
+sprite $TrashRestoreAltMd [14x16/16z] TSx50O1034JHZ_ka_sfnM7-tU01gkt2HP3T9wsO-Qaz5IEPaemKlMe0_MhXyqL0l6E5SARBsZVn70Jyw
+
+sprite $TrashRestoreAltLg [17x20/16z] ZT350S0m34FHN-Pg_sdB67wdA6p3fj61Gx7HgTs6-IH3RKuGL-edVMA0tyJ8vfquCzax0SEMwP-9UHIe_xq2KcIYyNwiC2VujQXY1G
+
+!procedure TrashRestoreAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TrashRestoreAlt', $name, $tech, $desc)
+!endprocedure

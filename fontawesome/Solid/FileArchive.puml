@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/FileArchive
+
+sprite $FileArchiveXs [7x10/16z] O-3dv-TbOE3Z1pB0c1yYmiy0fA605yBaXd8P8HIo6
+
+sprite $FileArchiveSm [9x12/16z] O-3X1m861Y3DpWvcyVCpCl83II02yw4aDoihFmJ0n34Ps04RZ04
+
+sprite $FileArchiveMd [12x16/16z] ZOg34S000CHIkzb_szhCuKdgG0tqTWRG25hR8GnxhGp12OOmVvX3qtX7FCmp8JIhBpVV4leVtEW
+
+sprite $FileArchiveLg [15x20/16z] dSlL0S0W34NHXBhbxJyjxl3LMu63a1BuBd8ff3v70Up_i_IJyB-mFNuViOsiKP5kknyEdzZj_u6BcLz0R9Waprl9tssvrKHBHNT5uGk_UbgIrBeC
+
+!procedure FileArchive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FileArchive', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Dropbox
+
+sprite $DropboxXs [11x10/16z] Oq06ZFmWaX-4WO0NH00vG1Q8u0F9mGbMa1Gpa80eXX10m0tKnSO5CGwi7Geum2G
+
+sprite $DropboxSm [13x12/16z] NSlL0O0m40FGrBtPVrj8STx7-U6d9yNX5RcxebUoIT5eDQ4u8ACepdJ_cDVF6RNgZWGR5ah5QP85Dujb0m
+
+sprite $DropboxMd [17x16/16z] TOtL0GD144Bdrft-grqbddi_eu3yGrsdUiuLoAi2iBDSs5nsb_PSYDcboYG1aL9B5veQZXRGgqPWpyUCTMezDg6SglWYnIk6BB7NPwc5yDt8aqR35mQG6mO
+
+sprite $DropboxLg [22x20/16z] {
+XSz7WaCn2C1G_Twj-vzs9WMSdhoLDZR05-sRQdIFr2DgzQm55izwe3CSc80jicU96kFR_4wr41RRgDcUr1T2MujT7I1cJ9mDTN1NYydKctAmxdIrOh0shUwC
+QalQE6B_bUh-x7khLmqFcg8kl9ZbXty
+}
+
+!procedure Dropbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Dropbox', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/WindowMaximize
+
+sprite $WindowMaximizeXs [10x10/16z] Oy02kFZn0fWoRcmiPeGoE
+
+sprite $WindowMaximizeSm [12x12/16z] Oy05-8a1V330pyyErucRpOLW8vkFR2q
+
+sprite $WindowMaximizeMd [16x16/16z] Oo04M7cG0GCRFwK0nNIgyndGRIC
+
+sprite $WindowMaximizeLg [20x20/16z] Ow04yFAZ0rOkVde0T8Tm3v0OBpypDjUnyA81RgA35
+
+!procedure WindowMaximize($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/WindowMaximize', $name, $tech, $desc)
+!endprocedure

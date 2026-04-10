@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Tty
+
+sprite $TtyXs [10x10/16z] Oq06_200ec60Yv-V6yBdXiimyCDK8-k4G2P-1cO6LZOsDYQ863zOFG
+
+sprite $TtySm [12x12/16z] LSg30G0n44JHYPtVVxLdlc2fFmCmzinoam2oQm0Jk1VJ9nUw1FH5hmXXwDBEoEo15DbfPcLZvavPAm
+
+sprite $TtyMd [16x16/16z] RSk50G0X30F0l4jj_scHlClXDCMlILq6x2GE8u0nxW0UCdUBywPrQr1PlVhHjoTRTb77QoWkJBu86gdxVj5e9CeEuGLeNhDcwColGSo_PG
+
+sprite $TtyLg [20x20/16z] {
+ZSs50SH02031FOidst-rRxpxd0l05xcKahYpUZ74HLgzDmAzpo3MTMnbN8pzvD5CyDx3tVpcZgX5I8kwCLcvDvduLt9ZS6AreYI5h4mkQ47JyGZfViH20LeN
+SXmZzY8LZHgz5w2yimS
+}
+
+!procedure Tty($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Tty', $name, $tech, $desc)
+!endprocedure

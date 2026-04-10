@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Pinterest
+
+sprite $PinterestXs [10x10/16z] FOk50S0W30IlxhtzfyKXdXToB9JOp07ikd7cKz6phCdfaTzP95stw8IMKc0PbdpainmH
+
+sprite $PinterestSm [12x12/16z] 9SZ5WGH1002Xsd5jye_sb2VzcUlV04SL3Bn_MnLJTA0FaJOZ9c-wYKYS4MFqFhsqCt-cpw1wDM2hceBg6m
+
+sprite $PinterestMd [16x16/16z] {
+HOo50K8120KVPSljlwtoCOvEBHRwunoqbYTVwblsDM_Jy5qs3Gb8mExKDAw2nxiyVMS6AKm1DMiE8QJxr0s2kwO5Fkwm-xxrSSruUMftnhVQBNUWWhDOD3Xk
+ttBnPc-b5m
+}
+
+sprite $PinterestLg [20x20/16z] {
+LOm55WGX3CM2ZaBlVzjzlzsneBLmaGfVTdFcas_sGB3PcwnKDz60zUwCukCTyUIeh14b1HFCsS1lB-WSxffcC_bFakg_JQh87NXV256UInbtN6buTCOjgMtx
+2hUkKKma70y04p0p-T2tmoCFJaHIRdjImJ0iwDoaEjNJS7u
+}
+
+!procedure Pinterest($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Pinterest', $name, $tech, $desc)
+!endprocedure

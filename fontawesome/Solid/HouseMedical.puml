@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/HouseMedical
+
+sprite $HouseMedicalXs [10x10/16z] Om01FWOeuEVdXp6WJ7u8039WW1dCXn5W9QnGBep5Zy9Y
+
+sprite $HouseMedicalSm [12x12/16z] HKp50O103AlWblsd1QwQLvmC3nK0D4t1Has84HEAXl4d9elF3e06LoQ-ZKSdU9ys_m
+
+sprite $HouseMedicalMd [16x16/16z] XSm54i0W30J0mvtx_slhcMIqMu4eFXkM9maLU8E8f4rK2dU7dSe3arOOtqNE8AksN4Xk1pZtXdVSSTEO4-ZJn7JOr5Zzn0ad
+
+sprite $HouseMedicalLg [20x20/16z] bSnL0eKW04JHePlP_sfVgFINr-GGQEcAFKToeq3k67ad1YMsTAF2aRsfSixzYLl-93BsZKRczglQ3p3zNfyG01ckbGQFuKhmDDbiFkymirdhXG479k0B
+
+!procedure HouseMedical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HouseMedical', $name, $tech, $desc)
+!endprocedure

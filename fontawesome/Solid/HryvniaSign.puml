@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/HryvniaSign
+
+sprite $HryvniaSignXs [7x10/16z] DS650S0W0C2mpXNw_xKu2TEg0L1SgBoZ3TrXWnlLgRh2yW0P
+
+sprite $HryvniaSignSm [9x12/16z] JS650O0m0C2muax_lnQP9xHs3pu6GCT7eb5k4xBJX56YNkYc0p2WU04
+
+sprite $HryvniaSignMd [12x16/16z] PSm50SD00C30h7sc-5Sxvfw0us1BF4nl9bT97KaJLoTkb3Tbcm_gB7xmPVd1fcrxE6ImnRu1pOV5LRdV6pyk
+
+sprite $HryvniaSignLg [15x20/16z] RS650O003C2m3lV-VotkaF0lWbFbecGrk2jOE6iYL5R1IXDkD8Kuj1eCFaHxr_3K-f3x08DoemCtlGAHv4tDB3onADorRAgc2FvC
+
+!procedure HryvniaSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HryvniaSign', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Tablets
+
+sprite $TabletsXs [10x10/16z] Ou00VcOe3GHm5WE42M90M20667E26K02HA40PeGOd04
+
+sprite $TabletsSm [12x12/16z] HSY54S0m3C30CZVQVzg0KG7_URA-ttK0krc8McWMcjU9uLCMnCysIPkaNYGralfCDW
+
+sprite $TabletsMd [16x16/16z] PSp50G0n24HHeXUi_sfN1rRoRoy1AEkcXPxyRE40nqrrMC6mWE42dXucT6GdHrwUoIj2tH6yL57OqS-38lrm1m
+
+sprite $TabletsLg [20x20/16z] {
+VP254GCn40FrQBRwhpOSZNc7z_XGufaEL0I-iQNYbrATV1C15-NYByiLgVyi5avPXOl_hCBj_2l_dfZ80FmLjPS3Dhx9sfwy01pssBH-qpgA3Ijs8NLGR99I
+6MBhnkfBeH1F
+}
+
+!procedure Tablets($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Tablets', $name, $tech, $desc)
+!endprocedure

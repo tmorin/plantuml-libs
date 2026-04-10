@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Ambulance
+
+sprite $AmbulanceXs [11x10/16z] Oq02_100Oo6O43uJJ0288Q9m9YPWvkS5Iq6Kyu887du6
+
+sprite $AmbulanceSm [13x12/16z] TOg50S0m3CCqvlN_QyiC2iUcG7Zi7l77RFkpcN70ORKdkVrdiZPi7xDyff-tTWOpOLj0gpSA
+
+sprite $AmbulanceMd [17x16/16z] ZOy54WDH24FptU7-fwsHUhkxRoI34toHvKwsM9-4Qq9V68z4nxoAZCv4GrToIu2j4ujP9WOW-XYnHBN4ygOYUX3VJ6FbNNwpOC5GHCLDmyFEeWfm1W
+
+sprite $AmbulanceLg [22x20/16z] {
+hSx50KCX54JHmMB8xR_QhnENLSuAdkkBz23AUDAqQJpJXbzHwU8HjOQ7w8cRA5P1akEZ0-bXMF8JM-yCiJeQiVlSfxk2V7X9gV0lEM4rLdnmbugZla2bhz4J
+e_VkQDLYCBR_rj4WQpE0fDK5k4YQ0G
+}
+
+!procedure Ambulance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Ambulance', $name, $tech, $desc)
+!endprocedure

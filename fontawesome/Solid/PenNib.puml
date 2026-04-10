@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PenNib
+
+sprite $PenNibXs [10x10/16z] Ou027XY3dvyVGZFmWLXSG3w82PQ0oW59C0j8SiDP351PE8C390W6
+
+sprite $PenNibSm [12x12/16z] FOs55G0X34FF5VZxRqiTZRrcoNKV1JjyYHkW_mz3YE0DC28g134yp1AuWtc_oUUonX21PCIXbQu2z-YR
+
+sprite $PenNibMd [16x16/16z] JSu10e0G00F05G3u_sl1G84RWESpxXLIAUMXxxo11kAnuoZIQeZ182ZE7TyWzC5lhtl_SL7U1gq6us1ub_EbU_cXvUcamVaoPzRN
+
+sprite $PenNibLg [20x20/16z] {
+PP054eH030Hp2gpD_r-BJMM9T7d78vwbIQG3U6KLPSEDA1yKaM7SSbSLPexB511cCWqmih0GLke6XYyTuswFFpXAdQPLTTjqxThPtBNS1HjiwK1xLAMpMPi-
+KLMPFrgfmditPXWE
+}
+
+!procedure PenNib($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PenNib', $name, $tech, $desc)
+!endprocedure

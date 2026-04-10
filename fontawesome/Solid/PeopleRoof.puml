@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/PeopleRoof
+
+sprite $PeopleRoofXs [11x10/16z] JSg50SC030D1jM6y_QSDqvijPOUSC3iEdBTEBYJzwMttgumsatoPPQ8i_KCWTvf-h
+
+sprite $PeopleRoofSm [13x12/16z] JOo54O0030CVzsJ_RRa6_ReIR1uSdhI1tXPRfM6qIUgZV0_QQUf2o_t9-_sneyXIkglTtbENbLl-XPWb3cb3Qau
+
+sprite $PeopleRoofMd [17x16/16z] {
+NSY54O0m5C3GuD1UV_QV5lTtcd18sl0Ot5KSMhLGgGBKUsuQDSWQ5QTERQpPv9vDBmUrvZGgg2qeG2XWGBrVAXEd26vvWfDAemgQODA2cmaLOjlg-IkAbi_u
+Mm
+}
+
+sprite $PeopleRoofLg [22x20/16z] {
+VP254SD030JbPxx-kyteFcRO0J7AIWPWv4m46KT_eiT3MMGIrEZBMRjdGAf6pNL2tYVxVGhbMYj7YcPheTSEISWSrYbqJbkzZY89WuFUVcpesUSLawsm8OBk
+bNZH0C0sxE_cwnRGIwSEcgQZi9XyUiyT-ce-yWC
+}
+
+!procedure PeopleRoof($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PeopleRoof', $name, $tech, $desc)
+!endprocedure

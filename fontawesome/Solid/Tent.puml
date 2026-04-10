@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Tent
+
+sprite $TentXs [10x10/16z] Oq01ZFnG1Zy806bsVWW0Yi004WkD096iS1OZc0LY0W
+
+sprite $TentSm [12x12/16z] PSQ50S0W34JH5lVRVrhS-P3aVK-OyW1K5KKhCs0aFgmktxkUVxFg_ieEEPVDGqW
+
+sprite $TentMd [16x16/16z] ZOor0S0m40FrORxzfmsJLVaweR9eWP_aPBpLm4DvXHzpAg4oFPZcqPrfXMaj7CIhhwJvz9Zyt0KP6m
+
+sprite $TentLg [20x20/16z] bOo53G1120JX_PJ-gpqN2B6Vs6ODVe940IIEAXTpBfeiAz3cQyvBahqJfbCUGb3U0QGuj-VZ46PxW4CuvithmBsfaNksgvjvisY4P-JMGoNsL9C1
+
+!procedure Tent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Tent', $name, $tech, $desc)
+!endprocedure

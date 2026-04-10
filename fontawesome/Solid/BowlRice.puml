@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/BowlRice
+
+sprite $BowlRiceXs [10x10/16z] Oq01_408fI5iLWOs86HXO09YLY1aPc1av8S1RZYB0S62Ci7cG1a
+
+sprite $BowlRiceSm [12x12/16z] NSY55K0X3CNGV5Tu-s-BQv3UKwPseQHZu-RnpxVjNgz_eFSH_YnwwLhKCftfRIjFE38NVByD-Qq3
+
+sprite $BowlRiceMd [16x16/16z] ROc55SGm5CCKvdZ_QG_BhJxgcKSaD0zklhsYyGqrllsbU4gaXEy3jkCwzjU-GzBUMLmnEZCl7Y_ErUDPmUus-N5Chxm1
+
+sprite $BowlRiceLg [20x20/16z] {
+TSs5eO0m303Hg-5m-q_x1TTNboHy6spHo5bZOPH3E4O8p1fbj9jZ5MPT9dMHkeEs1Q14g9X7oip7fFIEQ8E6h40EK9X7JFFnJV1Xy4NlK_097-fdaH7WLfLP
+vo6mSZVnuHS
+}
+
+!procedure BowlRice($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BowlRice', $name, $tech, $desc)
+!endprocedure

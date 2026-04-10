@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ChevronUp
+
+sprite $ChevronUpXs [8x10/16z] Oy02-A4KFp-40Y4G1X8ylFnG9JW
+
+sprite $ChevronUpSm [10x12/16z] VKh50G0W4C9ksNzQswTUKdYLkA3IRb0Og2V8b4XKs0U5mj6SB4uO2T_g
+
+sprite $ChevronUpMd [14x16/16z] Oo0LS2Dp-FdvuMn6VX10o721PE4SY68u1y854Pm8e_X073YNWH5X3v1D9W
+
+sprite $ChevronUpLg [17x20/16z] lOor0O1000E3ExV_j3XlxKkgk1A2BT2m-jftW6Q5nT6TjCFiQcc3wTFzbppERlJ3Xmr6xxrtzDDH4Pm
+
+!procedure ChevronUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ChevronUp', $name, $tech, $desc)
+!endprocedure

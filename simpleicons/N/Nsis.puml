@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/N/Nsis
+
+sprite $NsisXs [10x10/16z] 7S650OG0002X-xHb_saj6B3s-9gfv3LU8k8deJTgluHNGPBWHGHlxPMTtma
+
+sprite $NsisSm [12x12/16z] BSh50S0m4CJ03RFLVxUHOLu7Ej2IRdE4YB1DoD6P5Krhcs-RsTBvWMbaNr5Qbg0oceLId5QSMPTLmVbjsLSsufZm0TiF
+
+sprite $NsisMd [16x16/16z] {
+FSov0OGm5CJGySrfzT_jZly2BrEYGKXwDQn0HDv5Wuev2svglfVB6KrbcRK-NShA1YNQbM73_7EQsX6aF8DOPfC89G7NkOlypSxp-SsEbPDegchGlw_dSO_c
+TjhA0_ekvy9zOlq7
+}
+
+sprite $NsisLg [20x20/16z] {
+HT07Sk1020NH3yeJwFkVTjS6gjpAJtaUgdNgholfUraDZ-ixWV41E-d5jVR5FQ3nuzVOThxLeq4PSL9TuopBTT42jNbmDC6HPW32DvbSqyXatacAJbHcqggc
+FEaCrnAPWQ3Vc-yChtSUb24mCWlQE7Ls2jgae3BVQJbmkmOMxlLZeMn1N02NzAYRyuR4_m
+}
+
+!procedure Nsis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Nsis', $name, $tech, $desc)
+!endprocedure

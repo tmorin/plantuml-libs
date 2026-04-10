@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HouseFire
+
+sprite $HouseFireXs [12x10/16z] FSR50O1G00MWPxViFwtjvqHkGugLKdYxAVTMUNRqYVjkzsKc_oT9_NwEP742
+
+sprite $HouseFireSm [15x12/16z] LSg54S0m5CDGbxdUVzf255JmtNtHgghUFeicVzr9imdjO48NMiJu3PNcUGyRvtjeE4irnNK4Zzv-lW
+
+sprite $HouseFireMd [20x16/16z] NSs50SKW303HgolS_jD-BUuyI49gaRwDQaUJzhXeZwlsU2O9f7PNT7U_18rx1AQAqY4TJ-9ZIxA9eQx-9mxrf3BWIhVATXs1K1kw0b7_gtfpwCYXl04
+
+sprite $HouseFireLg [25x20/16z] {
+ZP250GGX30I3Ezj_jM_1tsvEsK53aohe4mg0-f1BFB5qei6u8xVen3F_Q18cT26lMsw6L9Z8PuwQUTiOfDbGJnFcH1Yimg_R3aEule_AknbYBCV-5FDxYioh
+7gA-japa08oIn-X8pf5gBSfhS5MoF0VU0G
+}
+
+!procedure HouseFire($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HouseFire', $name, $tech, $desc)
+!endprocedure

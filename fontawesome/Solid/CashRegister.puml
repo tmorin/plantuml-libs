@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CashRegister
+
+sprite $CashRegisterXs [10x10/16z] HSI50O0m0CJ0u4xsdnRglHSm8B9V1D7giGPWXNF8wkMe6EDhH-PbzGC
+
+sprite $CashRegisterSm [12x12/16z] NSR50SG040IWYVlIVxNd6bua80_MQPfMZtkeF3Ijjid3wgs9EanwCr5bVbzD8bXHLfkpl1bzNG4
+
+sprite $CashRegisterMd [16x16/16z] XSA54S0m4C0mb-aJxpzj6O-g4xJkE3MUE2JPMR0hF74fIoqBBcE4ng46FogKNhfzRqQ7RAzzteghj0zNZJfXx5VXduf7SfKUYbyB
+
+sprite $CashRegisterLg [20x20/16z] {
+ZSl5OGH14CLGDGwNye_MNcPwnm_0wb7Xmel6IN6yb9naOpgOZUUlNAMSTSY96wrtdVf91f8F0bOVPNIZERAOKD26MaEhhbt7HMTyicNLXSb22EwDgf4sbwmz
+knV-Z3lPlNIdw-8pmaVJFm
+}
+
+!procedure CashRegister($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CashRegister', $name, $tech, $desc)
+!endprocedure

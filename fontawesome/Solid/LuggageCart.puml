@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/LuggageCart
+
+sprite $LuggageCartXs [11x10/16z] bSP90O10540X333_zK_hRW0vONosOcf1klskJnyqM3a
+
+sprite $LuggageCartSm [13x12/16z] ZSV50SC040GnXJdJVxL1qzCwN9cT2yyAnARDfo7t_f3dkd1TXeKUjn7x9gWjb3S
+
+sprite $LuggageCartMd [17x16/16z] dSp50O0m44JHmPtVVxN4zSY3s9eur7W1MG_mo1b3W6MSIJNISNFVTXqnC99C8J2HpBy3_L2x25w5GElclYgIQCYAXoPOL0S4Wmm
+
+sprite $LuggageCartLg [22x20/16z] nS-r0SGm40NHRyRTwR_REwCmznDF9k6j2WvCEhGS6XqQ01sSW-a6uO2ujWJDMo6mQlMFgX6iuLDjzsWLQW5iIosIDWhwcm3i0c2R3WwkYuNh26Do_G4
+
+!procedure LuggageCart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/LuggageCart', $name, $tech, $desc)
+!endprocedure

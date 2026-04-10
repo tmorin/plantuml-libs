@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Cmplid
+
+sprite $CmplidXs [12x10/16z] VOh50G0X40DphZ3zLulRYzMOPaLQc_0VrWHs0zUz4nrgPBraAqR_ga1h09vxDP6DvG4
+
+sprite $CmplidSm [15x12/16z] ZSZL0SKm5CFGKwOatd_Rn_XLNPIT80j2dkgZunM3FguzvaeJMTLLa0dnRF5KKtlg54FK75SSsYmZ-zLwry2r_xa
+
+sprite $CmplidMd [20x16/16z] hOw53SC04CGSvdZ_QGDN51OjFID_mFNKjP4hTj728bUAQET3bhCtK0bMXvIKpjr1IplGIKGvi7bUvvXxjtM9FRUlrno91n_VzH9PdAU3WgbBj-aDUS61oBli
+
+sprite $CmplidLg [25x20/16z] {
+jOu53WCn30GdSEpB_l-tbUDA4PHX0cRW7nmMShSq34SQChuWwHo1C89g4ywYsRyLIBjrl3qq0QSIpBe2yOWlIJbr82UI398QRChW8aQigeJHT6TPtGdasBZe
+8AH1SiEy9-mjuPWARFwTqj61_O0skYje46_Covq4yOZl0ou
+}
+
+!procedure Cmplid($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Cmplid', $name, $tech, $desc)
+!endprocedure

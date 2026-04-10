@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/CartFlatbed
+
+sprite $CartFlatbedXs [11x10/16z] O-1ZW056Vdu6EE1du0S3afam019328DiuULd
+
+sprite $CartFlatbedSm [13x12/16z] dSUr0S0m0C0mbxd-_zfYQ8us8Tci56Joz-Mio5gcuB55q9i0sW8eDm
+
+sprite $CartFlatbedMd [17x16/16z] hOr50e0m40C7T_B_rsBrxfMfhYLeeU2KH47x9fRTiRYUD-dfNA9JeFyhOLtUupXnYP9T-vO1g02NuQMJ1l84KiCD
+
+sprite $CartFlatbedLg [22x20/16z] rSY53O100CNGZplTVrhWt2RWnPgAkrVZ1XRLEZvIozoLP8eNali7zoBPurK_1BtYRS5rbBRl7ZJqMVXSZir3nWMtLESCSv4l
+
+!procedure CartFlatbed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CartFlatbed', $name, $tech, $desc)
+!endprocedure

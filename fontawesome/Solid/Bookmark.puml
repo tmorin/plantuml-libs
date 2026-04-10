@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Bookmark
+
+sprite $BookmarkXs [7x10/16z] O-070Hu-Vd815mFG2
+
+sprite $BookmarkSm [9x12/16z] O-3X1mCs84rzmCODflWOW82V7m
+
+sprite $BookmarkMd [12x16/16z] Os3ZXm4WSp02BZYBcu610KJp0TqA1Ypy_
+
+sprite $BookmarkLg [15x20/16z] vS450G0X04MnVwxm-gV5hGERLalpQMLaBLEu94EZQ2FuO5FnW0S
+
+!procedure Bookmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Bookmark', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/I/Immich
+
+sprite $ImmichXs [10x10/16z] 9Sgr0SC00CH0XMEy_QSrgddivDiDF4wpXb7XIymGJFS7hHI65e9EvtRXYNO
+
+sprite $ImmichSm [12x12/16z] HSorWGG14CH0tJ9N_j4-Wvo1XhvO-WNk_vsgX-d2PGkUpO47wWudhxk2H2tVLNYvbdd__WGgF7plBuHw1m
+
+sprite $ImmichMd [16x16/16z] JOw50G0X30E3Ezr_sfUWXzQ3WV6u2F9pR25jMXgHTbTcvXPcb2goSlz7_vyWsw5amo6THTzHtkufuBRBxECJ4c1zS2kjLo65DcSDbeqJvzXMQOCinHN02m
+
+sprite $ImmichLg [20x20/16z] {
+RO_L0KKX5CEAEzr_sYUzBlc27CU6ZnPN1ly4dE2AUN5j4tqwJ8gQc05O_fWcoRbEphqi6lxGBrkk54CEEVRD1LXQdkXQee6YQIr3I5A0x6YKCnGTcAeuDY_x
+4-p1AlauVxlaKb6EfROycdCUhgxZMA7PFKrKaWQ1d1u_lW
+}
+
+!procedure Immich($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/I/Immich', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/FileExcel
+
+sprite $FileExcelXs [7x10/16z] JOZ50S0W5CLIBvhzfyLEV7aIr0SgOC1XhyyqNwVnX0MvXkbkV-LA9Own0m
+
+sprite $FileExcelSm [9x12/16z] BSQr0G0n4C0mFsFE-qyRLYL-zG7-kAxV02-umfZ1Q46rfMbvMPQUM-d1eEVJjMS3y7Gg
+
+sprite $FileExcelMd [12x16/16z] HSU50GCn4CH0FPlLVxL1m-4ijz_QWKuDW09Olg5xIpx3EydGRIdwDrzqZmnf-yxVpSEp6wqin-5iTE-kD-tgxYMkUWC
+
+sprite $FileExcelLg [15x20/16z] {
+JSc54S0W40313-xNVxSPd4DtNbIZLsMasEdEnZSVnWTaqlNvfTW-l-nMYuNiN895eNSfobfREczfCdcH-Xs2olX3HNyF9SBt40YNcGpg44IJ3cUTcPPE80rk
+yGS
+}
+
+!procedure FileExcel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/FileExcel', $name, $tech, $desc)
+!endprocedure

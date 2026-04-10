@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/HandRock
+
+sprite $HandRockXs [7x10/16z] Os1WO6G14Vn0mC30n0-c-P410pB5mm05A78
+
+sprite $HandRockSm [9x12/16z] NSP50G0W00ImmntwfyLzhw7Y1argMjEmOzCFVpZW6uKZ3M6d
+
+sprite $HandRockMd [12x16/16z] Om03VaO8pS8F0jni83OFFmJmi87OC83CPkOd31YGs2Z6m2LuGPOnWG4Z0ohWH5BFYzK93
+
+sprite $HandRockLg [15x20/16z] XOt50G0X30G3zy6d_shF3PzViYONBig38pb0w-lamUOdnFoaFCb8v0nLoIuhjh_ZzbFnu6M6ogkMuQcpSmC
+
+!procedure HandRock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HandRock', $name, $tech, $desc)
+!endprocedure

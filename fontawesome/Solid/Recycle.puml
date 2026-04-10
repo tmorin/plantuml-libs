@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Recycle
+
+sprite $RecycleXs [10x10/16z] BOg50O104CE2Ezb_MdZfQGrWa5wF1hwm6W0Aki3LKK9JFb4c47VGzPR90LL-
+
+sprite $RecycleSm [12x12/16z] HSor0S10581GuXxsdpPozgbU1N-p7INLinfMYLGu5UYIJURoIev9Np2erBoI3m5HsKt1TjBhVS-y
+
+sprite $RecycleMd [16x16/16z] NO-50G0W0CBiLlw_rcxCWKc671GvOcWw37YM40_xRZ9oYyqzAgNE4cY7JdTFcasxmLDZ0_JZpbqF-2_SSJyZ8C9qz60zhpNvzX_4452Pz_imTJsMzqa1
+
+sprite $RecycleLg [20x20/16z] {
+PSy54eGm4031WJWs___jLMhFwRXd8Io7Wr-7K-7BQU2Bdh3yJbu2LAqCVbsgJEaw25trPmsdyzKfJBjgVwrUXANipCRfzXRhobis9wttAENjVbTFhpYLi4Ul
+A6hFCMMjzL0Pgetcsm8f6WqN7wjAU
+}
+
+!procedure Recycle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Recycle', $name, $tech, $desc)
+!endprocedure

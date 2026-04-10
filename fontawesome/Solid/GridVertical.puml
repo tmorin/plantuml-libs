@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/GridVertical
+
+sprite $GridVerticalXs [6x10/16z] FSZ50O1000EmuaxsdnRdygb4dGN2O0zvj4z7Y3wRF7RAVm8
+
+sprite $GridVerticalSm [7x12/16z] HOl50G0W30EluONlFoqkzKQe6UeCt5wQRI2n8mx0dcJIZBva61s_VQuE
+
+sprite $GridVerticalMd [9x16/16z] XOl50S0W34LVNMBxJrilS89ulX3HWuJ55N2DTCX_qFT0rtUaK1jWCscwA5qYu-MIlU8w0G
+
+sprite $GridVerticalLg [12x20/16z] VOw50SCm30JFpDR-qxPXJiIifubee8Y48HG1Aoj1kCQZwQ366AKriBe3ARKwEy_pTRFFiPlSe1v6M9atogLO89NYrzsl-_w0-Gy
+
+!procedure GridVertical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/GridVertical', $name, $tech, $desc)
+!endprocedure

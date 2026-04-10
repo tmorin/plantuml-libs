@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/B/Beatstars
+
+sprite $BeatstarsXs [10x10/16z] O-2705O668kV2SXY008cVZPK5ZyNZ0N4B41nxEfuWO0Fn8821W
+
+sprite $BeatstarsSm [12x12/16z] O-3WXm861WIR7ypc1G4ecm44iB612CvcvkVdPcM0i3auKDLZiY40ZGq
+
+sprite $BeatstarsMd [16x16/16z] XSe53e000810x9R_lzRkP7aRu1vmibSxEvgADpDtSd9q1DNHQ0EQh6xLTDJifFNymzMyUklVq0C
+
+sprite $BeatstarsLg [20x20/16z] dSvL0eOW00FWgNJj_gVzauOdfjH70XmY0Sn6iJ7U6rFPa7EVMfoDZ-DiYkJpiN0ZMswIa42pIFxtngUO0C3DlURipJ4d5PkoCsGRwGq
+
+!procedure Beatstars($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Beatstars', $name, $tech, $desc)
+!endprocedure

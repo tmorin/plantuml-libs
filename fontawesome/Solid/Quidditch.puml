@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Quidditch
+
+sprite $QuidditchXs [11x10/16z] FSY53S104CJ03NFSVxLF1nQDhEnAtUHpJJfT0W82L_VWEknt448VL
+
+sprite $QuidditchSm [13x12/16z] JOp50S0m30DLvjx-qnQIc3uMAzsLy4tIwHsVZ0sXWodYp4q6WQjWKm1cg3ToT1hC0IR30bu
+
+sprite $QuidditchMd [17x16/16z] NSp50S1030D1XJdRVxN7x9T71Wtr3uRHp-1ty5VnUF_LNlt3YyRuvGSQmwEFEthpXajpjBut9jbI2dnxtzMaR_h8FpG1LAV00W
+
+sprite $QuidditchLg [22x20/16z] {
+RS_L0SKW343HkiFTVzedHIFySUA3yyxRGx1uGJHu93JbU9aIHmy7cFQ4Kb4upaVY7cE2fBBsaVmaJTaoDMLtZoKaPUgv8EdcUnOTAB-hnwEExf3MBOhCORW1
+-08
+}
+
+!procedure Quidditch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Quidditch', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/StoreAltSlash
+
+sprite $StoreAltSlashXs [11x10/16z] HKl50G102E9fi_-qrs5BAF72UMBSyKx-UrH-69bhhQvy9ohMUItt1Bq3
+
+sprite $StoreAltSlashSm [13x12/16z] NKt50S0m4AAVkEo_RMFdhf0dbDH9uhk2Jis7EQJ3zi5t-t7dU0hiCBZPiT-crzeABX7_xYQD9NLFomy
+
+sprite $StoreAltSlashMd [17x16/16z] NSZL0SKm3C10bI6njV-q3yltUOiZTyKnT_6RwiLluX8BD0rv6L2kCxBj0UyJa08eqDkp1_e8z16OmnQrb191erly1Uq_rYqAT5RkUiiR
+
+sprite $StoreAltSlashLg [22x20/16z] {
+PSy54e0m30NHnQNoxtzR9WHjThIllaaGswLk-DGx9pKvxutkphdXqy8X6opAOJL8IYtFoBbyDVcP-vyxG0AC2y2c2gzIZOCQHpNEGTUJNot9qcIiMvyM2EhZ
+wlhvBPQK21bl1m
+}
+
+!procedure StoreAltSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/StoreAltSlash', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/PeopleArrows
+
+sprite $PeopleArrowsXs [10x10/16z] FKm50S1046Bket_QFtS5W1zcrE09gzIqqyG5w-xVVVg8Hn_rzthOgduLu_RVtIfNJ08
+
+sprite $PeopleArrowsSm [12x12/16z] ROY54S002CHITxB_jZqugS8x17NZ3cfbtMvvXAPYkMRfcOoCHgEiAjOjk3jZu47aEf5tvA8P6_ypkfy
+
+sprite $PeopleArrowsMd [16x16/16z] {
+ZOp73SG03CEOtgtzjpr5CEuTFWIwmYgQjHoBf2vZZtD8VQKUakPl0w5jkU-vo_E-1Z_PMV87IgQO7Q_2Mz-eEMobjAUXz32uS0iAzZlhL1f1wfz3oljJlIMX
+xGS
+}
+
+sprite $PeopleArrowsLg [20x20/16z] {
+dP15Wa9H3C3ovBla_gSTQN5OaKrTWVtankW4e0h9gkxGL6SI_u7wBuOdNyXRmwAsK0ftKk_ZsBWoZcE1dBJiKCuQnVkX1smABTi7XSKhXIqaU6DX3jbZnsNP
+eysXamfaluDe4_M5Ke56L3RQwmyaVIk9N_YM9z-dF_y2
+}
+
+!procedure PeopleArrows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PeopleArrows', $name, $tech, $desc)
+!endprocedure

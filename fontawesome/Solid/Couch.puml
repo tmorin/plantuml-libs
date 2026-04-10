@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Couch
+
+sprite $CouchXs [12x10/16z] Oy09-A601udD3vA0CtdvOMn641yAG6m4O4PY8viE
+
+sprite $CouchSm [15x12/16z] XSV50O0m0CNGuCxVVrfSwiqfZrnwcor9lSq52kPN9IoQU7dDJFTqSIc-v8P3knq
+
+sprite $CouchMd [20x16/16z] bSZ50O0m00F0u4xsdnQjU-zvgB7iqYYcf-a_qiivS6YzEYOCLktJGJOmR-EhDUx4BiuWRhUS34Be2jq
+
+sprite $CouchLg [25x20/16z] hSk35KKn00FGr6xsd_RpsRh70HuMEQBHu9JlzbEYEqn4V1bEPO6_nNsbWk88a1WAoScbGlDdMXJOhfZOAAvGN05TbYISzmO
+
+!procedure Couch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Couch', $name, $tech, $desc)
+!endprocedure

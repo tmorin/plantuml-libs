@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Republican
+
+sprite $RepublicanXs [12x10/16z] Oq01_100OS8vNFoCG0e8-JaHmlmyg3eHuWWsBm_KD23DpS_F1cQpyuDC0W
+
+sprite $RepublicanSm [15x12/16z] NSk50O0m34JHmvs__xH8FNdLcBoP94HKCJpY3l4DNTmXf2MFbWalGZJs7q0nxD9GEFUjttclqgKN
+
+sprite $RepublicanMd [20x16/16z] TOw50SKm24JXInrk_srBt5yKFrfmQK2Ev55K7BtByNC-U-_gm5oFVSslvD_WGmzFVLEqPrhBTwTEm4_uVHpYahAFoU7-V481pJxNnlSNcl02
+
+sprite $RepublicanLg [25x20/16z] {
+bP030W0X403JAVx_jvVDoQqNJ44uWh9lhWg-yAzgH5VVGAC1ApTb_ga-iP528CnD6W494JwzPDWqhn7q-CQ22RW7Ee_H_GQPW20BRWGmxwVPQLVmcbtUPWT9
+O3BwmbUN7m
+}
+
+!procedure Republican($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Republican', $name, $tech, $desc)
+!endprocedure

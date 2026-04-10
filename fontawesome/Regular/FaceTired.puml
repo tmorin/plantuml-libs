@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/FaceTired
+
+sprite $FaceTiredXs [10x10/16z] 5S450SG0000XNkPo_TDE09P6h_gPMcZtQf0VDYq_Uw9u3RPneYAfccN9Amor5JS
+
+sprite $FaceTiredSm [12x12/16z] FSR5OGH1400n6HTxAlzepJwz1AvsGCqs1Rs1kqUPaNMZJTVGA6fpW5VjWxgHg5gasytJqaO3MZ1zs_W4
+
+sprite $FaceTiredMd [16x16/16z] {
+DSa93e0W4CNGkcjawFrlQtucFdOASPJlmgzi5yH_6LO_eMqEAE5tkE259p5kfeU0RfG5koLSJbZj8ZmGwmw-4a_jX8if1d2B0pHUS7AwuPPM387oe0tFFkQU
+RfwnQ4o03m
+}
+
+sprite $FaceTiredLg [20x20/16z] {
+JT05ZW0n3CLGDuD5t_-q2zNG4yR2V2vvs7O-DYyzSL770XngPjB69RHyqaKts6nyAIYC1QPwS7hYWEm886k0PXUWQT0KG8SpjGJika1NWSnbMw7QX2cMn3JS
+FG1s_m6WwETX8Ddf1dWvcNTIC2SWMk5G82jShWH5JwRKDJwJzZfKUPnEFG3u1G
+}
+
+!procedure FaceTired($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/FaceTired', $name, $tech, $desc)
+!endprocedure

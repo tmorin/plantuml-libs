@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/HandsClapping
+
+sprite $HandsClappingXs [10x10/16z] BOY55G0n34B_kRRiFss5Hu83V0XyykSodB2o98gyXBmvhGxULeUAOCtK0G
+
+sprite $HandsClappingSm [12x12/16z] 9SQ50KGn3CDGVInN-qzxaBo0pT-55uCWteU4oitDtvYGRd61iLNSU29UJTJp4RowsRSOZaSqCGKJ2koeLRu
+
+sprite $HandsClappingMd [16x16/16z] {
+HOo55GGX4CMoxlp-kxtHTrc1124OCCk-WqHYCTSeNy8VqKpn5jKBdSZ3z03sdHLUpVRnSMNup3yXMRXM6RDB1hKl1zBszxYjc7BlryvaduNYut6lK5Sxizk0
+yS4F
+}
+
+sprite $HandsClappingLg [20x20/16z] {
+VSe53WHH381GEgwV-zzsqtJTYBz0DUs01z2uTJYKQNT79MtsvDuYkBBAdtR7Lr129x8EY0xMmZmrG2ciKpj2QVlZJEiKBTpLjARSq2ShRCzssc5rjyuN35Hw
+FHu6AdG-Qg0xvFdOcW9FPz0fL9lg2hW15m
+}
+
+!procedure HandsClapping($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HandsClapping', $name, $tech, $desc)
+!endprocedure

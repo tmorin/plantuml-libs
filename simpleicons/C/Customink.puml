@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Customink
+
+sprite $CustominkXs [10x10/16z] 9SY50S102C30rBtPVzj73eTmkPFKCxAMEfUedxu_c0cl-L_hPyomo5vND3ORgUS
+
+sprite $CustominkSm [12x12/16z] FOo52G110CFoxf_zjptAIR1I8poULDHVhVAh1ZHdrvT3UPbFlmiVAdz6mbgx_im4RSPuE_IE4qr4_51D2W
+
+sprite $CustominkMd [16x16/16z] {
+HOw54KCn5CFym-pzj-qzkYeaXw7Ko_qXk3GQ598NI3fO95mES4YMoFn0pH-I6g5y1my6APP42nrne8jcZKPJJrYKzSkE3E2HHAMkrlYFjsU_JxAdNrkFhmty
+-R_o0m
+}
+
+sprite $CustominkLg [20x20/16z] {
+LS-50SCm34JHRmnAj_-sbHj-0JCSfyMrTrwQJfOuQTXc3VFJjHEImdBFWc5IADTUxrtEmjzz4pdLpHqbd2HRSaeKwuISQ0pRJbLem5mwf5Mt0jHhFvt7NpO5
+DXbKCHWKgPnf3HpknFs8wPgUIAx0BYajLrzJo1guOpPVhzJPB7CvvtsD08d33m
+}
+
+!procedure Customink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Customink', $name, $tech, $desc)
+!endprocedure

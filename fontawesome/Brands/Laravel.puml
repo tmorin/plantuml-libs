@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Laravel
+
+sprite $LaravelXs [10x10/16z] HSQ30S0000F1gztiFssDy5dy6b2ezM9XhAsYdsSFSTCenKd1I4q4v0twZB03
+
+sprite $LaravelSm [12x12/16z] JOY50S0W30GFTzX_sWgUl7DVwUYdWn1EGyOAtGUQXJ9p9S3ESkM8iwNd2XZVzmG492X05i02P528G3zfLUtX1G
+
+sprite $LaravelMd [16x16/16z] {
+HSt7WSGW30300SjaVFrNUtaNvNa93IVouZcC0G_Oap1YH61Sj19aWhmIPHwpbkkOpF6-PTQ_o-0ffVjrsf0--FLEi6NyV_xjZ2l1Rb0WBOJ_0-uks4xCFWFm
+1G
+}
+
+sprite $LaravelLg [20x20/16z] {
+PSe5aWCn3031rlBQykd_hpqA9rFSDJ3msjwjwQK2_GJcm7Bs_xSWnhmbIyYZA8m3Mbk2BnIo8yQu6mvvvgczceKFcrujCXSJUxzRRqHjKLnjxK1jhXO5z3Qv
+MdPSthkPYoYkDYzW7GlOk3ueY0h0rgwMA_VoK5hpKcIbUpy
+}
+
+!procedure Laravel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Laravel', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/BuildingShield
+
+sprite $BuildingShieldXs [11x10/16z] ROg50O0m4CI2Ezb_MbpRlfw1gZrSI4-8j1UixMPJ0UWl5U_BSReNYjfNjPQk
+
+sprite $BuildingShieldSm [13x12/16z] POgr0G0n08HuzsV_QUEfGdK2MFZ9sAdb-_p-Na3GKSjKYwun7VsXlgMygF2ZJjJYKFH0SOy
+
+sprite $BuildingShieldMd [17x16/16z] TSo50KCX5CNGV7Uo_xGLj7hn0pnOpPc9MQmP8eG6Hu6Xrtwo0SJHu3mVuuhmfqRVASC9xpLWMZCO3FJ6J15qH9KncA0d0IJO-0jpWo62EvqQBUYet04
+
+sprite $BuildingShieldLg [22x20/16z] {
+bT650SGW00F0u4xsdxQEl7zJl-80AEo9QE6SUg7YGoxL7_Mu0_vPrVLhrcWB6MoTz6Pl0dR_DX9uxMrFj5s3ohkAm3r5ZNOTJlFxhQj5xoutLS3Gq1G0Kdkh
+iyhsnbbnlNc6gqICqS2sxkSD0YB9J0gi
+}
+
+!procedure BuildingShield($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BuildingShield', $name, $tech, $desc)
+!endprocedure

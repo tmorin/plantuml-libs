@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/TruckDroplet
+
+sprite $TruckDropletXs [11x10/16z] Oq02_100PI6Ol10-4qm0X15Cx80PgWkYXXT4yF0p
+
+sprite $TruckDropletSm [13x12/16z] ROg30K0X54NFDwlzfysknokQKh4IJimJSRhx7Pua_xDxuHcNJy5MVF6eUMt2tVkroHGceGsi-s8
+
+sprite $TruckDropletMd [17x16/16z] ZO_L0GCX5C1okBF_j3MqVla9yfGtJ1cOTgyBoOsw4TT3KucXFz0ylpAGRaxazYe0qMgKMSmrttH78rlLKayYVBDolM-V8jCkiQ9kkblETN9tWIi
+
+sprite $TruckDropletLg [22x20/16z] {
+hP3L0SGW44Hnb_wxFTRY_Dt49WzOKnlPYup0ULCZsEPTvzOjJM9QhLfelvqowZnNq8s-NXPjFODT3iKRDKp7bPwRm_8TdRVMpt_9MN7LLFXOwioVOy2Fxq3J
+QgftfDpKc0F_yKHRyPP3l28fcKLPtny
+}
+
+!procedure TruckDroplet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TruckDroplet', $name, $tech, $desc)
+!endprocedure

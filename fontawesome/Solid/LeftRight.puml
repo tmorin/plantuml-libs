@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/LeftRight
+
+sprite $LeftRightXs [10x10/16z] JSl50O100CJ0u4xwhnOvd-SAZ2IJEy5WXbvR0B4jHZ9j7t6krlO5
+
+sprite $LeftRightSm [12x12/16z] Os1Wu6E00tv-92O_8nJmyYC0I1nTFGAWciO8aeQQmGpKXs8EGWqdd0ra0W
+
+sprite $LeftRightMd [16x16/16z] POw50O0m4CHmX-m_BMxff_f-sSwI2SXbscPdUXbdp1clyXVLkx-9EYP8RVRxXOCmFtyvGhtgPMRZOMu
+
+sprite $LeftRightLg [20x20/16z] ZS_50O1034JHmPtVVxMuhhzZFDgKiqmbT4Qe0dgpoeeLs2PiEZFTHoMTymokcA2Ic_tH2N35SCL8_wFjFd0yO8VSBvsX5G
+
+!procedure LeftRight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/LeftRight', $name, $tech, $desc)
+!endprocedure

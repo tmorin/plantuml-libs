@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Motorcycle
+
+sprite $MotorcycleXs [12x10/16z] NSY50SD030J13VDF_zM6oPQEcz-Wt-5bknY7rtZaDP-m5vOf2-SX2KQIRMgXYw9gIJS
+
+sprite $MotorcycleSm [15x12/16z] ROq50e0m4CDmX_p_jxJeNDDikwhK5eY37cX-F5x41qr-nuUtqBWJ9azrmK5rnpI2sL3BxfghosiS-9SQiAgswVv-bJy1
+
+sprite $MotorcycleMd [20x16/16z] {
+VSc5OKKX40NHGPu3qt-tOUDV3x9oUQEftClPSs-DMvTJvhzYo7_nmUcK4Y6avfS5ljH-WTFGSH4C7HL3W-4HN-dITKIB0r9oxABPXEA5Nx3XGJGosU6hJRFT
+jExA5Ercj8TJ9aHhufaF
+}
+
+sprite $MotorcycleLg [25x20/16z] {
+XSk5TGDH34JHMVoirt-tEPemsNT1hESQ4D9l5y2XFsqGmAPVWhJhfy6t0Mcz9xrLlPbhkODDVNVoJids2MCJgTu0JQbZbu2XuFtiWBxbaHfugn-05FWmM3i8
+yYyub762XNnqgT65h-ojedWGL2cFLWRO7BXqGCj-TXnF2P0qi2eBp5ldUsODG0-y
+}
+
+!procedure Motorcycle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Motorcycle', $name, $tech, $desc)
+!endprocedure

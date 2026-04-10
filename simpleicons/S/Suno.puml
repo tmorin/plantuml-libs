@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/S/Suno
+
+sprite $SunoXs [10x10/16z] Om03PZu62E070WIB7yn0O_731JZ135w4QbGM0um1
+
+sprite $SunoSm [12x12/16z] Ou02VXOOYuiV262Y8C06PlBnWm5469FDZoJ6ZIdF2sR3XA6A4FOWc
+
+sprite $SunoMd [16x16/16z] TOu35W1134FJhfdxdtOnvdyi0WGsZeW8V-9Cm-t7YnR9pa6XnRmKyyaQzSRPvrpCwCq7Sa7HV4MssFpm0W
+
+sprite $SunoLg [20x20/16z] VT350S0m4CJ02tEs_sh38AEUOxQXQbbhSrjqPanFe5vF4wS54vlV-d2QreWfRooSi4Pi02sFbR0siZb-8xGoMCgJ3Nt4PjpZR0S
+
+!procedure Suno($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Suno', $name, $tech, $desc)
+!endprocedure

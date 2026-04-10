@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Awwwards
+
+sprite $AwwwardsXs [10x10/16z] Oy0F-1duWOWFpWABCS9OO24W2uR061C
+
+sprite $AwwwardsSm [12x12/16z] XS450OG0002nlU9S_xOKG3QUJT5E46KDcZwb6URsAG5bAmmKRUpn-VA5oOK3
+
+sprite $AwwwardsMd [16x16/16z] fSk52KDH40NH-IvFflzkmutZaGEiBtywtA4xW1Bsb8KKeGmggmjnEcnMKMuyk-Dxds-BApT51pJhmSI48u79n7bEc02sZIzT
+
+sprite $AwwwardsLg [20x20/16z] {
+lSt55SD0301HIMRQwR_R29xIG60EtrwMFtI0UwUdcu46M3XwRWyuGkl3GmnuGgaKV7vtJ-v-1NGGAp3rtCsLMm_t7LuhidFMtDhcrxtIE-qvcMV7vdf1pqc-
+t0i
+}
+
+!procedure Awwwards($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Awwwards', $name, $tech, $desc)
+!endprocedure

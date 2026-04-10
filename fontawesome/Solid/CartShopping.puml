@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CartShopping
+
+sprite $CartShoppingXs [12x10/16z] u-FdO400VXZ0m-Q2Chc1R4Oe6w8Pmo1628S5Y5aXJ1v-a2Oc1WO
+
+sprite $CartShoppingSm [15x12/16z] u-FdPq01_0Z03UHo8RWyG2uZWik4gfe17vSFpELbHR692Ih93XS00nYFYnzi7oEK2pQIXvyNI08
+
+sprite $CartShoppingMd [20x16/16z] TSo50SCm34JHKndrzv-sOCQNc4GEQ6H7l7KFKNhRs9kMXzYDLfndj0uAQ6cEkIB7CcLFDAEm6hH3ekfvQuxe1I7KzbwXEVG5
+
+sprite $CartShoppingLg [25x20/16z] {
+XT254SGW50JGnPtjlzhJ23fvu_2zagnO425K6ZN0J-34uqjnel33YTXzuE4ZSr3nPpbmsDJ2vgCs7w6XSCd4ccK95uC6MsW9UH7ed0M4HkUiOCY2XZalMaWk
+CpIPyVC6
+}
+
+!procedure CartShopping($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CartShopping', $name, $tech, $desc)
+!endprocedure

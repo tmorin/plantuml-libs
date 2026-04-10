@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/S/Stencil
+
+sprite $StencilXs [10x10/16z] Oy01-840ZG4520OR1mI0fLc08ammXQmePW4
+
+sprite $StencilSm [12x12/16z] Oy07-FY10CBaHJ1PEO40mkJWXm46DWIJYGy6e1eGUfaHJ2Om4nq
+
+sprite $StencilMd [16x16/16z] ZSsb0G0m0CJ0CiF-qvRHVTof42mJUdfJvPxV58Dnam-cJIgUclEJ_6b-MlA7_LWU4QWA
+
+sprite $StencilLg [20x20/16z] hSyr0e104C30uCx-_xNO-Ms3JPak_A0Gez6f8n2ZrsaaA2m2oG2BJgBJh5FRfmYQoI2enIX3giIe2VG_Yz7mq0u
+
+!procedure Stencil($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Stencil', $name, $tech, $desc)
+!endprocedure

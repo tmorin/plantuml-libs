@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/FileImage
+
+sprite $FileImageXs [7x10/16z] DSQ53O000CJ0XXX--q-ByzgmrGxo3-NNycC3L1DhbSMZ4m
+
+sprite $FileImageSm [9x12/16z] JSY50O103C30u4xsdnPvltev_K2S2d4e-OwEQRB1QSOO9p3vwVbiyV5nrkW5
+
+sprite $FileImageMd [12x16/16z] LOx50S0m482eVchxRziGFruGFSvFRa0j0DLUepefkXlTQmpUPVZA7RRMeS3G7Y2Bkb6uZQVW48CV
+
+sprite $FileImageLg [15x20/16z] PSw30S104031ZPtjlzeOZtdpZdBLqy2fzBLmMFq1FffHbs39f0PBpdCVBJ3vMm-QAp04iu5nEDfYe89WNNEOWvX1-Zs4Qrw5fwfu33ffYDN0i0C
+
+!procedure FileImage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FileImage', $name, $tech, $desc)
+!endprocedure

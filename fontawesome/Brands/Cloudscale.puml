@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Cloudscale
+
+sprite $CloudscaleXs [8x10/16z] FS710K00002X083RVri_vJTLk9eS3L9fBqvrWkP0WYrZhGKL7m
+
+sprite $CloudscaleSm [10x12/16z] JOh50S0m30FLCD_-qmRywfajwKy2R046hBSezCzHXLYGAiqiqqnE1Xd9G4HR5XgsTlnryqXwrFNc0G
+
+sprite $CloudscaleMd [14x16/16z] PSd50SD00CH0sJuczLzjc3El1VxjVLKUidSRmD1nx57TRyz6xOcee5lmgbJNuQG33j1fIC0GcEg-GUPgs4myBL6U58slgx5fVHI1NPrZgJnNjVBh3
+
+sprite $CloudscaleLg [17x20/16z] {
+TSu5KWL1303H7bcT9Nt_qo9J0Rw-qdXuexPM-AVJ2TFcdzcrgmT0g43LW6sSbQhEFCKV4Lqxsl1eHrPZLmPpj43JC6Z0SCq737wqaHzTcQXCsfL_c_BtSKum
+j9Ak-RowCNraj-grxlyN2TD1gluOlFG5
+}
+
+!procedure Cloudscale($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Cloudscale', $name, $tech, $desc)
+!endprocedure

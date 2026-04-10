@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonFallingBurst
+
+sprite $PersonFallingBurstXs [11x10/16z] BOk54O1040CNTxR_RfaCURcBadCnPFc2IA3uP9Vq-CD70ikGui3LjcPu0teC_W
+
+sprite $PersonFallingBurstSm [13x12/16z] JOk54S0m3CHKvch_QGk-a89-85ZfubNOnJJ4aL4uJxQGp-JjaDYrBGGz8QGn3IcG1jofp0vrIA4N
+
+sprite $PersonFallingBurstMd [17x16/16z] POo54SD04CHazgFwhpPq7zRGpX91tdZH09H322bWVnXr6SRf2GV56Gvt5lrwAheIXA_E8Ql6hOOnbmH91mHDlfqkw3hFpVOojd4s9e_xpZUQ_fo9B-PnUGK
+
+sprite $PersonFallingBurstLg [22x20/16z] {
+ZT05hiCm403HyOPnxd_Q3tLNMLNK4UR5JBOTG2EB041XDV7KEtKp1wi2Ouvj-gXUEMe5udQ4IwFhkV2kgISVXIfaunW0MlbIWRth_boW0POMCetBR7wqZg_Q
+p7lVHPdxzwXLENIgRpcD0DoQL5FvcYTlUhy
+}
+
+!procedure PersonFallingBurst($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonFallingBurst', $name, $tech, $desc)
+!endprocedure

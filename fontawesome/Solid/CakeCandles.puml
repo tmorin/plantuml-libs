@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CakeCandles
+
+sprite $CakeCandlesXs [8x10/16z] Os1WOU07GWPkVX3Do003JFmGSMP-BY1aOE171I0b8CKmFZUK1W
+
+sprite $CakeCandlesSm [10x12/16z] PSQ50OC000F1gnVD_jFYJlJ9b9P7dkzeWdfAPUYK0Y4-CNGMkOksHDF8cpOLPJPzD-e1
+
+sprite $CakeCandlesMd [14x16/16z] VSo50SH040B0YVlHVxNlBbaN07b9oN3A_f9kqt19LAXlNJLZkNLhAjifbzotSier6FEqIbwjl6tzTZwrzN1ULdGrQ5koeByeg4fspDjs1
+
+sprite $CakeCandlesLg [17x20/16z] {
+XSlL0KCn34DHXJdQVzjQPNxdumODO0qBcn9W70baPIX08pEszhG8gMzRtoQ-QjdIasN4-qXG6lUlYzw7iaZe-eK3tomUWUlM27FVG9mYNDecyhB9F3Ru1fil
+-Wa
+}
+
+!procedure CakeCandles($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CakeCandles', $name, $tech, $desc)
+!endprocedure

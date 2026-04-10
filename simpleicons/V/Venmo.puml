@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/V/Venmo
+
+sprite $VenmoXs [10x10/16z] Oo0Ii30ni76mi3CmS3BpypFoytAmCZ4G2m
+
+sprite $VenmoSm [12x12/16z] fS670O0W402neyFN_RTr1PM42qOFt2E2RBierIFJEuDLA6qC1Xyz
+
+sprite $VenmoMd [16x16/16z] lST70S1030InlTvi3t-qAI0I_QIVdKQrYE2Le3mveZeo-WcXHcKrUaEuFdO3
+
+sprite $VenmoLg [20x20/16z] pKS50GD04EBzdFvfv-lmEBWSS_ODUKbcEme5T5j8bB3JgPLPKeUZthyfBKDglGvUB90CpVt_WSln1
+
+!procedure Venmo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/V/Venmo', $name, $tech, $desc)
+!endprocedure

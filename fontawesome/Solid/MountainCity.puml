@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/MountainCity
+
+sprite $MountainCityXs [12x10/16z] FOY50S0m48IeUzb_sagIz-UWbC8Og9nKxdjr_d7YF5MBtkZiEt_yk_h-PhYelgfoLckec_m2
+
+sprite $MountainCitySm [15x12/16z] FSl50O1G0CFGuixRVrgSdribUK6ovsE5-EDcfLBzMJPOlr03-sSccorl56tAQagKjL8jhB5NT_II0Nj6VtwY4iDw0W
+
+sprite $MountainCityMd [20x16/16z] {
+LOk53KGn3CNycT9u_saF8rLrCG-WQEe9IUTH5PmOOZeDskCnfn6seulEbPKY8CD1quUDr8CixVGIQ3hpb6PYSchlXh0uervJTJsOGvbwLrrKJr93WKKBg0Ur
+QDog_9un2Dfvk5JU
+}
+
+sprite $MountainCityLg [25x20/16z] {
+ZSs5eOGm50NHYqFaJV_LuX3viZiu9wAK0_2IJ4KpPq4DIm6Hg-zXmfBskVWCq5FJIamZDJJGQJG3i0ZaEwVdy4AFUQPV0AuhLdjCkECM3WMts0Fmt5snL2HA
+1fXqmdH12pZE1lNP7aPAiXT6ifpq0aMIIy-yAFq91WHj
+}
+
+!procedure MountainCity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MountainCity', $name, $tech, $desc)
+!endprocedure

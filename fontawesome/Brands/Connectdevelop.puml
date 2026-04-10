@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Connectdevelop
+
+sprite $ConnectdevelopXs [11x10/16z] LOh74S0m381mx_R-suPlKEV4Zsw5ZTmwa6oDIW3K3sLXz0FK10korWSjMJ5YpYaze5KaMUeeoWy
+
+sprite $ConnectdevelopSm [13x12/16z] DSE30GD1443HDpXZ-wyspWS0m397nBe1isgB0UUC_ub6dWm4i4e0JWSWKh00pXip0BW4OO0Oruk19m
+
+sprite $ConnectdevelopMd [17x16/16z] RSA5RG0n400mXowl3zp-qvR5jUm_FU-tJ80BZt20oGW64yYWQ93m3XZWBNWDbC1uauDGU4srT0TUE902K_0A9gu7BV3Qw2-qYcU1HFdzWj813Y01PG9g_e5F
+
+sprite $ConnectdevelopLg [22x20/16z] {
+VSy5ZiKW403GXtIeS__Rxf-4DBuFYS2OVyptP-QPFjU-INSvxyBoX2uQWzVoYksek30wgR-nenhI9Bs7G3b9zm7R485UfR6_C77GsN3OoyFPCBOAOT0yrOGe
+JRgaVci7pg9QVvdh18eDnsPqkBL0MLDxfUjgHwsrjzv-OjPlOahLe3n8emULFErXcQ59tN6mz2jghNd6v7EsdxpwBlq1
+}
+
+!procedure Connectdevelop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Connectdevelop', $name, $tech, $desc)
+!endprocedure

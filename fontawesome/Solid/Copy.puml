@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Copy
+
+sprite $CopyXs [8x10/16z] Os1WuEBdvs400duGWD6C_12QduiW3GRSKDq
+
+sprite $CopySm [10x12/16z] XScr0O0m00NHmvtRVrg8jtdL5u9N9J8PMfApfjkQxAMd9OOnG0cM2TPwy0C
+
+sprite $CopyMd [14x16/16z] bSUr0S0m00InTvXl_sdDM4QT56m4iwA5v8XxoCvXQB-xRH1MBSEc7xk7cM7I51c5DV16O6AB40S
+
+sprite $CopyLg [17x20/16z] jSYr0S0m40D0XLdQVzgGsL_xoiDlqc-3DyiZ72KchZg4uIYZaygWYzpLA5W751qkqFLE1n-9nCuXfoyE9Jq-L73Yym
+
+!procedure Copy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Copy', $name, $tech, $desc)
+!endprocedure

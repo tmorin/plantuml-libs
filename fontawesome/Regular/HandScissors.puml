@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/HandScissors
+
+sprite $HandScissorsXs [10x10/16z] RSUt0S0m4810dBFPVrg5_rPN0IFgZBhFFzmAygZjUBzZ8ZpOP3MH4hdlhuHjcwW
+
+sprite $HandScissorsSm [12x12/16z] TSZ50S0m3C10bRdQVzf2y9KpcvRZwW7redSrB5pYlK1t2dBx0_2wEnB7yYRrhkwpTSVV3DKB
+
+sprite $HandScissorsMd [16x16/16z] ZSVL0OKm40NH6_TC_zK-mU6B4zaTlPPx-GzW9hDCgBAuoa9I91kQ-sy3gjHH0HX9AyHcwu4pEb5fOm9xQm2JinUPTclDTUbx5_eF16qwm3Hw-W8
+
+sprite $HandScissorsLg [20x20/16z] {
+fSe53eH004FHFmwCzFwdNTo9xeirF-KlpXaMLfDg02sotPSYLYLahT9wDbQDYHcMzn8RJL8RxDnTxW09ibQDLH4wiCggIjQmEvjplkl3sT3kqd0JwrMkRNKU
+Zt5EUsifJeeKs7bj8XS-J0pVHW
+}
+
+!procedure HandScissors($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/HandScissors', $name, $tech, $desc)
+!endprocedure

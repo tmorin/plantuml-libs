@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Trakt
+
+sprite $TraktXs [10x10/16z] BOZ50K0n58FuBfNilssVSKa0ffmEkZ2aQruAhat4kJViZIUEj-4ddjTwJkzT1MxX2m
+
+sprite $TraktSm [12x12/16z] DSh50S0m4CJ0ZPdLVxSnwZK7KkRa9CXf1JuJE4tcnvHPnyCs_Ram7oQdaGsbJYwZtYQFqIQLsy2Xo-_eL7y
+
+sprite $TraktMd [16x16/16z] JSg53K0X5CNGYplTVzhlGj6JF4cTjoAfiYOnPVrLXb0wuYjaWLrvmCD8B_lfgP1VdgvECSToyZBLw-Dfglbu-feOBAPE05tdJnJC-9WwWgYt3X9hsW4
+
+sprite $TraktLg [20x20/16z] {
+NOo54S0W4C22Ex__jYrIJGK8kGTSbuVAG7wKgHmNmpcS2FcTEQkxk9zIySn-LMIxi9G_A-foskchEjLqgX7qKqtNIJXtLtiUJUtgSGrxLPUR9U5IbskagKg_
+t61LSInqUMF6PTKVntojClR2KALJnlnwCKe5IJvqnG4
+}
+
+!procedure Trakt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Trakt', $name, $tech, $desc)
+!endprocedure

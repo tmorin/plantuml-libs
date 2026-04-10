@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/LiraSign
+
+sprite $LiraSignXs [7x10/16z] Ou03VdvsCCd6pm6am4BS_5nSN0mm7ZyG05cCK1ux6niR8qIG7m
+
+sprite $LiraSignSm [9x12/16z] JSR50S0m5CDGbRdUVzg0JdaVR4RNlvdfJC2RqP_k1vwWH3QqPqA9JhvVL
+
+sprite $LiraSignMd [12x16/16z] VSh50SGm4C10XS6W_gizDBqoXaKU93zYJMDK-VZ_-G9ETwhBbI9OJ6M_cBFcZmGS5dpiIgKJHTRu4y26qHi
+
+sprite $LiraSignLg [15x20/16z] ZSs53KGX54JH-UxS_hlT34vqJmIUwm_Od8ETv95D_cqNi3fyGVO46PpgmAJcXk-Ed9sfFjaCQfODpiKcHupDomjBhXe4DM6ukqFOCxVst3k4eny
+
+!procedure LiraSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/LiraSign', $name, $tech, $desc)
+!endprocedure

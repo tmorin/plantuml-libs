@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/NodeJs
+
+sprite $NodeJsXs [8x10/16z] 9SN50O1G00KWxFRjFwt-u0BiO8mWCEI5a_AmIFj9Vn9FsOmdo8O8Fm
+
+sprite $NodeJsSm [10x12/16z] FSd70ODG0CFGHuVVlF-qwU5aIm8du8WiaFbBHmMCGIGn3JBjN9-d9_FdhHYtCud05AvFl41Ay0G
+
+sprite $NodeJsMd [14x16/16z] {
+HSc53GD14CLGB-FCxx_Q90UhFA5b7fq_qrBZqTG1KmI2DhSWfobm57c6KXXc3VogqRU1pLDkG3w5IUgd342djdBOZjjTfBaoE9hiniq5G-AobBZjGD7a5VJ-
+Bm
+}
+
+sprite $NodeJsLg [17x20/16z] {
+JSwr0SL0081Gpc8dx3_jb_WhgU0q9zwosWCtNM3OE6nM_g8Me6ZWD2kp4o_LiG4XGDdM01p13MtD-eGY47n2iEO0Jw3uzuGKWMYvGnN0V0U6QWVx6I0b0754
+NE_t3bKD_0ND_4LspOrJqBWeBwicTby
+}
+
+!procedure NodeJs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/NodeJs', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/FileMedicalAlt
+
+sprite $FileMedicalAltXs [7x10/16z] O-3dv-TbOE3Z1m46A06cW3GSiF221HX0WdmCB60n9X313P47
+
+sprite $FileMedicalAltSm [9x12/16z] LOU50O0m0CE2E_d_MdHQBxig_AtmbnB_ZsqOhC2iJjCfJAjD0stJTEg00UUNOxmt
+
+sprite $FileMedicalAltMd [12x16/16z] TOS50i0W3CGojzlk_w-TEn1ecr1xGy2g9y1fatqxQzo-nUrt9EZm3UJ7eHce05agWFN86p3wfdG8Bry
+
+sprite $FileMedicalAltLg [15x20/16z] TOe55aGX483uNUhS_xQxTcFo65OZZWVBAX4DO2G3nE_nsfwLp_Qis1xr1DSZvezCq9KPA7K3tu75tfRJVuwD6s2B0qX6kx7CYqpuQiMKzlm
+
+!procedure FileMedicalAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FileMedicalAlt', $name, $tech, $desc)
+!endprocedure

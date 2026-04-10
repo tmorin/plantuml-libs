@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Pushed
+
+sprite $PushedXs [8x10/16z] HOM50S0m08EOhvh_hwrB1DZnCd3o1CbTM23oyDCJXAFdwx9TKhTfp
+
+sprite $PushedSm [10x12/16z] 1S670O0m300WrEwH_F-j000yEnEHkpqM2ZpU9Y7PCl2uFDW2X7D1cW4i0U01kC0F
+
+sprite $PushedMd [14x16/16z] RSV5OGHH500WHhxBwx_Qk6UvuQ5x9916h7OpSPGyrexLUpeGteNpsYA3u-Pk-WBn5kwtZlTOANt7iedq7jTXthdoRiZn5Pllk4s-jU6XPm
+
+sprite $PushedLg [17x20/16z] {
+TSu5WG0n40Imx36q7VzgdncY8FvNK_5cFfFqBU1EqhP2DPXsjHmjpyQrpOGtGqrpZCwBRSPvs_laHN1SL8iNDqU3p1SqzXiq7RgzUr6Ri2_RxKtiksoTDvrH
+e-4pKEc-k1c-YcForIbyLTdzxn4
+}
+
+!procedure Pushed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Pushed', $name, $tech, $desc)
+!endprocedure

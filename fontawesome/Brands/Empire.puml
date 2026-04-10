@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Empire
+
+sprite $EmpireXs [10x10/16z] 7SI50SG008F0UwsN_QUj9G3u0FyvlV5_kiQCy99gIv-eIFe_zK8OAVI7L_z6JW
+
+sprite $EmpireSm [12x12/16z] 3SY50S0m30CmbSV-_zirCGCDu5bVJrkmSkFRkbU4_bPB8OQDADdtwMSBTgQ-ujdnJRsc1e7BUYSltuKxQQvS4-eunxpm0m
+
+sprite $EmpireMd [16x16/16z] {
+HSxN0SCm24NHAm4k4FJstpPEzQ7_mSSmRZEjufpDH-qINCq3e4h1opKdp1Y0wzNsW4nU11Fwm1wKnbAT6YX7DGnT7e3Cke7_FJWNO-cbGC5qjeLh344tlVCY
+NlO9dXju0wiJYD3wlAITbnbBWrrdydMa4Jq1dW
+}
+
+sprite $EmpireLg [20x20/16z] {
+LSq7bY0X24NHXu41gvo__ztsGJlUYX8fnJf_PRYRU_x4tPS4NMgRAxkq_zMFz4GxLPNdUgKyiMtrMQhFiDYGYwEB8ym8mP3XCgQWhS3LsJgsr93IAW-kKd-F
+ejzOgDnTrTkWRPLby2fn1OzsDQCxZrGrGAllXZ4dtHebnD6YSkzo8BS1_zVqMo5n3CaVIiiyKPCqAtHiMv9B8vnl5XaZSt9y
+}
+
+!procedure Empire($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Empire', $name, $tech, $desc)
+!endprocedure

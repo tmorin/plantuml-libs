@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Arduino
+
+sprite $ArduinoXs [10x10/16z] VOV50S0020C3TRtzfqNUbNZq3s3K3PFjTQwrWbR7M2cyGqwLLRmX0G
+
+sprite $ArduinoSm [12x12/16z] ZOG70G0n48FuFLlyg-qqS0b0QEipku3vCg6jPmBquKBNIv1RyYBWbtj9wiu_6bW5
+
+sprite $ArduinoMd [16x16/16z] fSor0SL0081GafmR-q_xNGOucjV1Vh6UByFBosT_BS3oiBviyam7ZASBBMH1CoPvfaBaaFThVPomrCRRpcvt
+
+sprite $ArduinoLg [20x20/16z] {
+lSo14G0H34JH3m1i_ztU9AE6M_10-2UXZ_JKdkJ9m7KLE5g1PBpQWNYLW-PxVTIVjY24u8Hm0bqI-7GK2QQi8JnLCWsxn4cHeekiRRivheHfZMCYIbuVWkdm
+Ipu
+}
+
+!procedure Arduino($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Arduino', $name, $tech, $desc)
+!endprocedure

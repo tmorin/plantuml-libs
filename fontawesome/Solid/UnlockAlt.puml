@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/UnlockAlt
+
+sprite $UnlockAltXs [7x10/16z] Os3Wv-VdPW1IOCG4n3mC31pyR6niJBpyQ82T7Kpn8YIu8HG
+
+sprite $UnlockAltSm [9x12/16z] RSQr0S104C0mXpdUVzhdybG9i01Gy0ESuB6diViD_R_D0h-1tI43
+
+sprite $UnlockAltMd [12x16/16z] bSUr0S0m0CH0cTc__xHXQ9Eh921fnq7ATfvJb86pkmpWvzk788s-QoRglm3eqesn-WYzLW
+
+sprite $UnlockAltLg [15x20/16z] fS_50K0X201Gkv7zfxNpzkFPBQG0R1XfLEbQNwe-x1rQviQGroPY64FQMY3Ni9E8HdLb6ay1y2-jjTaZkWDf023YQ_uUakiAcm4
+
+!procedure UnlockAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UnlockAlt', $name, $tech, $desc)
+!endprocedure

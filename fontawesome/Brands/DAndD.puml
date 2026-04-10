@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/DAndD
+
+sprite $DAndDXs [11x10/16z] DSQr0GCm0C0mXpd-_zfoDGc8XvzpYx-EohyjZt-TohfABJMB0Cgry2l1kUAxFOZg-owAyWG
+
+sprite $DAndDSm [13x12/16z] FOk5OGGm3CGKvcZ_QTjdimy0zkGNRltT4dxFF6FydknQyNCdXqVQq0ajxkZ7fPBj_VCa6CyHG3VODTx0rAke1gWgpEVz3m
+
+sprite $DAndDMd [17x16/16z] {
+LOu54W0X30E3E_l_tzvqpeFJHcHes-iBWFvxd-l1mlq_qjxZzp7fgwM_9Zj8VenTZK5OZ6Nc3MUQCRJio66VX0Q8qeHEPCXAUgDDEF_jw5uQOD9K83ea3vG2
+0LXmSkmkx3AC7e4c-LFu
+}
+
+sprite $DAndDLg [22x20/16z] {
+NOm5ZWGW00EBE_F_rvuWsR0JQsfQs36SlW6WwsKm5S0-vZQWlsuXIZ0Ur_YUN0RtTXEUuj4BC6X-wMZiDQcTWQGs9y2_cmc9sP526TwMlSaXHBn0dsz3Xs1o
+RzNXhvi15ATe0LqiaFv5WwYB0yAw6b3LPEVfzdyN2e0HJH90bW6s12HD3aK0dFl8eac4RIvCWswlcaxw1G
+}
+
+!procedure DAndD($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/DAndD', $name, $tech, $desc)
+!endprocedure

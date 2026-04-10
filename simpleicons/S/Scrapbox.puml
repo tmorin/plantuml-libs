@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Scrapbox
+
+sprite $ScrapboxXs [10x10/16z] BOg50G1020A_E_QVrkHi8GZpjw1yO-hoxApwSc7A8k70tVx7rtsjIvz_cIYjmim
+
+sprite $ScrapboxSm [12x12/16z] BOm50S0m4CIobV7ygotd6TaKHIwwl1J-uwNwfWtfJucgHLbvCoHTqjjHl2zChn9d4N7pzdR2TXs-uw5f4s02
+
+sprite $ScrapboxMd [16x16/16z] {
+DOu54WGX4CIoRa3-_zkheUk2ZZUJe_ij_Ec6AwPgt-OTC--cDkXr1tL1tVe3D8j3NJdT35qztO7NFmz1zRD8_w4k1jndHom-MDsQ3auZ9uAY_Yjp6NeI8Nvb
+nOJqT03y
+}
+
+sprite $ScrapboxLg [20x20/16z] {
+NSu5ZWGm34DHbxc-_srNgRCqJrJzKk36vQxuez2T0CS_nfyqWNYry7JnH5iNlRNXWaKTwxg1IzDVYyXis7H3RJ5XqBtZYnbcVWmbD5kd8qpcK-c0mAr_y7kV
+0wyT79e309NDMaHGaQvNtbWJuicdwa3Oclyf_8KVNU7eq1S
+}
+
+!procedure Scrapbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Scrapbox', $name, $tech, $desc)
+!endprocedure

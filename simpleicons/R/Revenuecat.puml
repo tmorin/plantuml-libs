@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/R/Revenuecat
+
+sprite $RevenuecatXs [10x10/16z] DSZ50OK0040XVgU-_QUrvGWNgwjMsf2mnJTi-pdlgmj5XihbURNg_t7_jxfKDZC
+
+sprite $RevenuecatSm [12x12/16z] JOq30W0X50LdZV3kVzgigM_1JcL36TZL72b_gFufYc-z7jFy16_psSNQZrMYh3-0wn8gc6Fxf8lCxQHo-A4I0G
+
+sprite $RevenuecatMd [16x16/16z] {
+LSU50SKW4C3Gr738_jD-hJxaBZ1D76Rm9m79lngQGjOUGjS5gfdVmdyKo-hWtsaEIhNj_LKfPyUW2wlklJ8hQ3gQOQBwzsqKWbyy177NypnjEWIOjZBy2jbj
+Qv5BKyULRm
+}
+
+sprite $RevenuecatLg [20x20/16z] {
+NOu72WKX30KdRhEilllVzeS8olu1KoOsm8nDCj2aXYXHHmnOyzr1auO1vtGk4wu8fZDtFZwtcx7wMYvej7zNuoEs7EO1abIMYxP6QTlDc3tsd4jR_tkXQv9R
+nRbQysYrZo61NVULsBZJejShMUhIgm9svbUBPuXDogK-O0huOCrL_wWV
+}
+
+!procedure Revenuecat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Revenuecat', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/RulerCombined
+
+sprite $RulerCombinedXs [8x10/16z] Ou02Ldv-VX3D3wL194u-4C9eA82p
+
+sprite $RulerCombinedSm [10x12/16z] Oq00Vdv-HXY3dm_6OeABiR9Yo782IOGOFv26is20bny9CF3oGG0F
+
+sprite $RulerCombinedMd [14x16/16z] NSh50S0m509GwWxxJrjFlhmRWcWdEPPmw56ISjhQrgK9HNxcrCOd2V30ogay9UnIJiMXR0e9mGK
+
+sprite $RulerCombinedLg [17x20/16z] VSp50GGn509GGbpflzhLSNktBu0JsW-3XTSFbuN-olF2asQtm9Q-niZF7RtM-DmHhILeBM3jsf4rG2rEYueYmMhL97MTN6rnVC3H6m
+
+!procedure RulerCombined($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/RulerCombined', $name, $tech, $desc)
+!endprocedure

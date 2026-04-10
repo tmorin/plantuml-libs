@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Quinscape
+
+sprite $QuinscapeXs [10x10/16z] Om01PWOmOE470I232KX1c62A7SG4OH10PJ41QMu-a3fU807L0cM1A4uMe0m
+
+sprite $QuinscapeSm [12x12/16z] HSQ54S0m4C0mbxdUVzjSy7Kao1QQp-pCjVdWjPim0owb5MRfXVZArwzUJBg06HnAVyv_vYO
+
+sprite $QuinscapeMd [16x16/16z] NOu30aGn34Gd7pNkVzegM4pvOh3enaVKZvfWxgfNKNLfi0gGJoJowt72LebPEpLc3nKp_bcdUYlYUkYuElzaqlTmPSTZB94Ptusfxj5Et0G
+
+sprite $QuinscapeLg [20x20/16z] {
+NT05beHG30NHmftQ_sf7-kKqSj7lIQ0q7K-B7-VLttiXHYCQWDOd05zscBHiqreJJwDDHEg00KLthjEYyQm-Bfg-aSjmK0V4vWaBd_Fxxw4wDOdvu9y1cPXf
+qP6ejrSVUtKQpLN09HyFIZDl-zfrfmxm2m
+}
+
+!procedure Quinscape($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Quinscape', $name, $tech, $desc)
+!endprocedure

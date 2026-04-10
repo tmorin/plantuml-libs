@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Bridge
+
+sprite $BridgeXs [10x10/16z] ROR50O0m0CI2Ezb_MgY_UXgQ7giGygokQvwUU1I6EFZ4CSxPQ01U-G4
+
+sprite $BridgeSm [12x12/16z] ZSQ52S100CNGrBr__sdhUXxW4JurUaFpg6ayH2LJSQg4Q7Se3pcW-tnc_JYoDpUi
+
+sprite $BridgeMd [16x16/16z] bOc55GCn3CKKvdZ_QSizHXdrFalwZDfa3bwq3g_vNeKHfbERrEd8JV2VutNvAdmFwDSDG1Dny0tuklfutVRoyU_3YYS
+
+sprite $BridgeLg [20x20/16z] hSh50S0m34DHbSAnzf-sp4p_z0pOAzkKHcvJt0Om06XmAgKeIYbIJUBFGVNmDlPAW9OHTGcRq3G2nSZ-hQSCS3TtTjh50Kc_a_wyhG8
+
+!procedure Bridge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Bridge', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/DiceD6
+
+sprite $DiceD6Xs [10x10/16z] VSJ50OG000InEHSa_LUB_ibAEvrWhYQdPpvsTvbZYd3hXrpSjxAh5G
+
+sprite $DiceD6Sm [12x12/16z] ZSZL0O0m303HmvtRVrlg_UN5GoALmGl1RRQ37J9f40QwyhfnAmOm6k2Fpblsaw0--G
+
+sprite $DiceD6Md [16x16/16z] fS_50O0m5C3Gu4xsdnQhtdbrxoSOfTBuoiFJOEErMOoWjHNFl7z1qOxMnmcBadejdG_opHh6lzeDZcgyv6XszI3gItmt
+
+sprite $DiceD6Lg [20x20/16z] {
+dT35WOLG0CNGYplflzkPuB3y1m_-SXgeyjRmRoqUfKBMinGBjo6oFDN9p5SL63jk9Ko19fcEqleecsyhB8jVW4rzqlXrCsUJdpl0tTG5lgt_eItVvizzMt-F
+r9HZSsWvvM4udwG_
+}
+
+!procedure DiceD6($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/DiceD6', $name, $tech, $desc)
+!endprocedure

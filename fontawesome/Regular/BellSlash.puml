@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/BellSlash
+
+sprite $BellSlashXs [11x10/16z] DSQ70S0m2CH0kLVu_QTDZspWXe30qnAIvkEj2hPUEo2Up7ysp5xUootjco44V0iOTqWypGbQ9m
+
+sprite $BellSlashSm [13x12/16z] JOY50G0n38GkxrhsdxPkHBaRHJOLNj9mDEENGR4_NpJPxbGo5ssXIEmuMInjN14ix__xqqaywMZ0M-wLKvu
+
+sprite $BellSlashMd [17x16/16z] {
+LOw50GGX30GNFytqN-qBa9D1uxjIzMULivCa5SxedeCOwBZd19CKReyH-akyFUCnEJ3wkpazs-qOdjGT8p0yqy7cVJ2zAYqHkjBEgG13IHX84TERn7uheqdA
+x5y
+}
+
+sprite $BellSlashLg [22x20/16z] {
+RP250O0m30IfUt__QP48_cWldW8iB3ENIrLnWx_XHXYaUlUU5fZHLM1Sk0E8z3VGNab8_7DwImCUyG-ZNncEZ8nlzL1EVAU9wez7kGfxVEQ1krAoAtPQhb82
+ndrtCU9gM8IzE4CL3goxi4LboMNvqKIzR_yG9smNBRYgbmq
+}
+
+!procedure BellSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/BellSlash', $name, $tech, $desc)
+!endprocedure

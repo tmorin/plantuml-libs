@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/OldRepublic
+
+sprite $OldRepublicXs [10x10/16z] HSR50S80002nuCxjFotKcrVOdPveZDKptIZdu9RZez0PVHtT8pbhxE7SkSiJGlm1
+
+sprite $OldRepublicSm [12x12/16z] LSZ50OH050Mmy1bSNl_LhckEyMzVSOoGUXM7KYERiaxbn5vX2KYDfK-GR4McwAHbSWw9Nj9YaMXTqd1AzXnjXZ5ZJUcu0W
+
+sprite $OldRepublicMd [16x16/16z] {
+RSUvjOGm4031rgrbq7J-qVw3Xxdb5LyKS_QTvsr40Q1aVJe27lqkKA9LA1C81B7GImUkLJSP7X30QBAE1a_zHDRXKe2fzKxskVFznvQ8BcYKhOWCBQKJdZa6
+PDEpEwO8p9lGeVif3EiuNWnvXPaw0Nu1
+}
+
+sprite $OldRepublicLg [20x20/16z] {
+TShLOKCn5C1G6PzP-q_RSFBLOxZ8lvgkkLoHZ-JWnSDBDLHUhcHuRR7v60WWAq9wxSvO5lI10SnN1Be8aYqmEm_7L3lchC01k3HnmXfP3HIWgGFZxEEPHK3D
+8ZkOVhtLHKJB6SG8jcbdSyXg8ILOQfY5QcHxw1cqDmJCmsFOEJpZR026aDLyN8MnUOYMk7tep0Clnyh3jFCLXkffFDq
+}
+
+!procedure OldRepublic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/OldRepublic', $name, $tech, $desc)
+!endprocedure

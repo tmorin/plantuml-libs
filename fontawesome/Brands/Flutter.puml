@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Flutter
+
+sprite $FlutterXs [8x10/16z] Om01Vdv-98eFGl50A7OW1P5a0c9U1WOEDEKCR52QWHl8
+
+sprite $FlutterSm [10x12/16z] Om03Ndv-VZ231yRWWZ4uO0ms68C5nc00Ci042v04CzXXmXnW1YDS9GCJ6XC
+
+sprite $FlutterMd [14x16/16z] Ou029duWuCR9uO9oc0bm21h00ENmWm2OomdZW00AXm76GUMHn0K
+
+sprite $FlutterLg [17x20/16z] VStL0S0W30JGu0xxRzlYpdtbNH1eqI66DykZPRCuMZNpnInPDzF59Dai_lUOn23mqJOkoW2-kbqC3W15ng44b_CjPRyK7jOcR8r_DUtZ3m
+
+!procedure Flutter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Flutter', $name, $tech, $desc)
+!endprocedure

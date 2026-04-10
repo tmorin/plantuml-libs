@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/TradeFederation
+
+sprite $TradeFederationXs [10x10/16z] BSR50OLG000Wz7NlF-rFEG4k86xaRsvtplcmAMVlUPE-NED2sRXvjkLdbVLRXwjTg_86
+
+sprite $TradeFederationSm [12x12/16z] FSc5OGGW402muCx-sxRlWNClmSUQDVPQeNkfaqLUuM564-k6a5HbUhhLuqhS5uxswuUATp_LykddCzghdmLYdMTC_0C
+
+sprite $TradeFederationMd [16x16/16z] {
+JSX70aGX2C3GW0eZbhd_QNzlRvTm4LxIRCoM-vLHbPsR7jcuw4z1AfYuxDoXAIGf_xR9tR5ecxrpXSQWvfmbRmIoJ7Pb2ZkbiV4oEHGIkwjrqEtJeV3f4e0w
+LvSV7AEnaGWkthAMeMnM
+}
+
+sprite $TradeFederationLg [20x20/16z] {
+NSi9bi0W20FGn1MGsllVTWHd_wrR7i4tuY-Lf0LVsjWJmOVZaZ7mPGdlL25GnlKgZfogip6vEQ0x-vFl3buA8CQWt2HHYKSWy1vmbc4HIo5e6c1cZgC91O6J
+6rU9Rl2J4Mb4D_tCROMkVvaqbF4tcr5q-vD9p_tvbTb2e1entBCOKN8-MjaVYU8tKH7LXlG1
+}
+
+!procedure TradeFederation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/TradeFederation', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/TrashArrowUp
+
+sprite $TrashArrowUpXs [8x10/16z] HOU50S0m0C8oNvN_hwqB3Y09WZgOc7_tZMyDAAAstMX3LCML0G
+
+sprite $TrashArrowUpSm [10x12/16z] HS650G81002XirlsdrQ_7we7gfjLxrKxYtTmmJFKYLjV7UhXs0lXq0EXhlYY3e3-
+
+sprite $TrashArrowUpMd [14x16/16z] ROkr0G0X00FpWjl-q-8ELqKHULq22MkjoqIXZPl1E_5WHSz3YCLH5r6exii6A0x50CsnDowhctvNv_x5PUpY608
+
+sprite $TrashArrowUpLg [17x20/16z] XP250GCW30GVTxB_jarngeSV7Znnr413CTJnt9M5Nh2l0l_HhplKgv2lGhGs0KFqJWQpHHz3R04a7YCIbIvgPaSyfeXzMF_Vgx1Rz9ZeBZQ2HNdzlBp50m
+
+!procedure TrashArrowUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TrashArrowUp', $name, $tech, $desc)
+!endprocedure

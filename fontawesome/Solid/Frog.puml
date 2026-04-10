@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Frog
+
+sprite $FrogXs [11x10/16z] NOf50S100CCwviM_scFEfwYHdpCv4D4aeeiMtkMPOlbUiB19PzpAyzu5U_Hy0Wi
+
+sprite $FrogSm [13x12/16z] ROp50O1G34E3Es__QP7lbaiRLGC3ToGi3FOxWGbOVpKW_Vb_xPkyyJ_B_shW0jWCkMBLpiRoSHiSqds_
+
+sprite $FrogMd [17x16/16z] TOu53e1G34EtuL3-k_zjoOBRYqtRsZ-zxdq1Bgtto1ZtTY3fWHBPS-NPi_QJjR2I5Mwqws5hbdq0NGFpgXY-tXBPTp2JZBu6MpiecURgASb7q7H98TCQxCu2
+
+sprite $FrogLg [22x20/16z] {
+XS_5OSKm40N0PsPF_zK6DlXvRj9oNckx9ZTEpBaoSf0BAyQm_sjuWdC0QyhkIarnv_TmvtU1eqacFuO4zdIsDCgHPAkXCsJ5MUTLPdNHfOgJgghCQaTbriUF
+j4Wkr-gJdihsQnt7CHt6iPrSo00kBpjIttBNEm
+}
+
+!procedure Frog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Frog', $name, $tech, $desc)
+!endprocedure

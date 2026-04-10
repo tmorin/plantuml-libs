@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/P/Paychex
+
+sprite $PaychexXs [10x10/16z] Oo0PiF0pyFCpyl3pyHEh0m
+
+sprite $PaychexSm [12x12/16z] Ow04S36mCx2nSt9nSJAoyFDpSVCoyl7mC_1JOYG
+
+sprite $PaychexMd [16x16/16z] lS470O0040EnildLy-yMJ42Ylp4Lkm4LhvsEvD22WzDRgXIXMJEYIgMFFG
+
+sprite $PaychexLg [20x20/16z] rSX70S1030InlTvi3t-qAImIFQK_2cyimWUh-ZohdLtXQ9DHSWEY8SkoOZozaByvbZxk1W
+
+!procedure Paychex($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Paychex', $name, $tech, $desc)
+!endprocedure

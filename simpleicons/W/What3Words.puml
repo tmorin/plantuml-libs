@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/W/What3Words
+
+sprite $What3WordsXs [10x10/16z] uoS8UFZv-S0CTdu680G2CCq4Pd429U7gM76O
+
+sprite $What3WordsSm [12x12/16z] uoS3CFBpyG09C600Gau-C9EF4yI3AU7bGrR2nKUasG
+
+sprite $What3WordsMd [16x16/16z] uwS5u6FWvsS0aL30nCdFmi7FmWxZCq0GBkNCd424Mpa_8v038ga1
+
+sprite $What3WordsLg [20x20/16z] nKt50O1033ltDljlI_h1tr3N1F-AMtH0tNa63BeFnwXwZYDzdiuQNJ1FhmRJwU7qcWqgyrHFh_sLTTvOmRVLcGIVoGO
+
+!procedure What3Words($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/W/What3Words', $name, $tech, $desc)
+!endprocedure

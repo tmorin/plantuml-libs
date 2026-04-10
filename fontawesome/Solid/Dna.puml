@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Dna
+
+sprite $DnaXs [7x10/16z] Om03Dbv-C63W1_6050ZmC81ei0YKv0RHC9LiGC3F1-41
+
+sprite $DnaSm [9x12/16z] FSM70O103090xDtRVrgxVmcGCOzjzwcjjrrOBYGCmxsfN7BhlvtjL4ddaLZh2xrYVpW1
+
+sprite $DnaMd [12x16/16z] HSV50O000CImmvtiFoqkURLPyrfP7un-eRpKX6KwqIOUQvA2ESYfSCgj_NDWfNYopdHDuPNGbAVPN3BVcFrMPMwp7G
+
+sprite $DnaLg [15x20/16z] LSpL0K9H50EmubpD_jFYFCdNqMOUiYXrSlgxCEnSx8IM7tegxMjoI5ZKlE2Mms3axO02oTBJydU5_1NWyEqQSlltTzHI9duvYsHo_Bfn2VNwWs9dsgb65Zm1
+
+!procedure Dna($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Dna', $name, $tech, $desc)
+!endprocedure

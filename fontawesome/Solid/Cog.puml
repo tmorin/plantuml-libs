@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Cog
+
+sprite $CogXs [10x10/16z] Om02VdvU80bXyOCf6E21io1I41BAWl8uW2G7YZg80C8y
+
+sprite $CogSm [12x12/16z] LOq30i0m4C0oU_d_QySoxLcyg4IYV-wSwjeuOcOgD8CAH3r5NsD-sirG-aCJnllgxWq
+
+sprite $CogMd [16x16/16z] LSU50OG040Emuaxsd_O59wVDfaCULZIvmPpDGW-i4qMypTu2fYHWI5OaIO4soNpa7DTn6wm9K6mHaxTuIsl82EfYbXrCkIsejkyB
+
+sprite $CogLg [20x20/16z] {
+POw54S0W40Glk7__tGRNnMuMUtGe4t7mKU5q_7HEvYbMfu3FvidHpGTwY85Ulh79FZaYC5RqI2EnwdnE2SDzDTdXT76okjIlklM8wTyQwWIRHipk0Q-oO7aM
+yvPjJt-ZYb7HW5M7aztz
+}
+
+!procedure Cog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Cog', $name, $tech, $desc)
+!endprocedure

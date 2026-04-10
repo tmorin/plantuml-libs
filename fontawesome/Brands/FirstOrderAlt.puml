@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/FirstOrderAlt
+
+sprite $FirstOrderAltXs [10x10/16z] DSQr0G0W402nmntsdnR_LE4mNDw0kd6CCNG1mpWCd1pLo3pghu2-GK4vvQckA5W
+
+sprite $FirstOrderAltSm [12x12/16z] DSZ50SD044FHFn2jMVrt6-Ex2BWLhv6ZPtJLI8UFMRfU3zkpf-IgbxbXX1zKjJzYFjww1CopBqKXURxgMe2cnWlruvIKudh_
+
+sprite $FirstOrderAltMd [16x16/16z] {
+HOl5WSG04CCql47tN-rXG3-3-CS2u0tPmUUAu-5rm51_iMrKQc7cO6vQj4g7P434Pz4_iSo0wyN3CckzqXH47te1WdwY0Q3hiKlPV8OxhXOEc48jQTcwW39R
+L39P__lEE91HN4m0xG3V
+}
+
+sprite $FirstOrderAltLg [20x20/16z] {
+LSfPbiKm20FH0XFecCJQ_shxpTFLNntnOeDVwPX1V7eoTW1hwfsAdYtJPc7-I5iXJPLEf--DIgtMSLrAn8GSiBJqaCCnV6_rA_MIHG9JtyQHPlGyzD8zouUX
+7sSwOFdvpR3TmVIZEedUpdo5imJ1m5pgHv8e0sf3jJIlgzL60bXpVuQ4ySUDUxZ5N5RKBJrCugXjRonviqntp-3k0W
+}
+
+!procedure FirstOrderAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/FirstOrderAlt', $name, $tech, $desc)
+!endprocedure

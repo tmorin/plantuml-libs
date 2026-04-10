@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PiggyBank
+
+sprite $PiggyBankXs [11x10/16z] HOo30G0m40DJkzb_sXht9WQ1n863d_gJmGYGkrVsIk85FqB_xctN_SkOsUi
+
+sprite $PiggyBankSm [13x12/16z] RSc50S0W4C30rBtPVzgw0WVlxDI1csfw6BJWc9yy7FaoG-QBrbFPw__2RtWc3de6Am
+
+sprite $PiggyBankMd [17x16/16z] ROx50S103CDSvdh_QOyvqKz18x3GWGPwdh7meVBxmZRi_5Z9ATeFJB5Q3gp0nLHusJ37WPQsWAqK2cfXhvBYVbbAs3bx4tmhEIq
+
+sprite $PiggyBankLg [22x20/16z] {
+RT7L0S0W30JGmvtRVzgwGjvFbIWkYJiCUAZuqQJmi-99Z10XX6X08mjEXG1SKcSf5eVstEOtTkMX5PuKTXnqVGITbE7NXYgyxRZ-xM84AxsLVdPpQHsNobVu
+JQmxvuPPNeDujh42
+}
+
+!procedure PiggyBank($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PiggyBank', $name, $tech, $desc)
+!endprocedure

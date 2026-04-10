@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/B/Battledotnet
+
+sprite $BattledotnetXs [10x10/16z] JOm30W11549RO_3kVzgnlb5fDV1rs56T7fo7ionlUUofaZDNKkxRaITTnk6A28-AlRzCxX4
+
+sprite $BattledotnetSm [12x12/16z] HOo50S0m20I1kFx-s_PB9OUh49MV1QGlHrCmLCz3CAuDaIviwi8qxxzNaRvvtYjxsQOF1sw_wSmVSs_XUqzK3kh51G
+
+sprite $BattledotnetMd [16x16/16z] {
+RKw50SCm30jpel-_dMdKLcQsUq03y1i3bl0MJv93Jh2un1ZO7oJnT4HV5x023HMkwzo6EMJUUnFRFYGimycP6Q1bxf3serCH75EL4Wa5E9cdQSdQ85THmV1_
+xrTQTi5Iym8
+}
+
+sprite $BattledotnetLg [20x20/16z] {
+PSG7biCW40JH0aPPchh_RVS1csp_3aoLTqqzU6MNlD1pItUwmb0LIEaQGtYtrcgjm3WszRdJBaY0lO0BGDbLON9dgcfbo8J9IuFkaCcJL02h38jmAL2ixW3L
+GbE1Iwf0k1-g3L38XSjdrQVHQL1CJ_uuRVnpgpxNndzxdi2rygbiJ5y
+}
+
+!procedure Battledotnet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Battledotnet', $name, $tech, $desc)
+!endprocedure

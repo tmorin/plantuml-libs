@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/C/Clubforce
+
+sprite $ClubforceXs [10x10/16z] O-0d01YOcFZP82meXd0WB4u6e0A820zEem
+
+sprite $ClubforceSm [12x12/16z] O-0d2Z0p006CpG8Y-E1iTWO8cns86S1iY3mxt6oONgWoV
+
+sprite $ClubforceMd [16x16/16z] dSV50SDG3C1GjM6ozfysZAV0-s0BBy8F4YRjgUkwrZJsdlxWt46pTp5ziBSswk_ed7z0uwu5l2Xy9hmQ
+
+sprite $ClubforceLg [20x20/16z] jOn50WCn30DdAPpe_wyj-1AwjXEqBGbjPFs32-EPUyTvdaLoRUXLUs_MNjCvzPeKu1Xwtku7XfvaUNdgHR3MgO4R7aYQA81McjSloDfv0m
+
+!procedure Clubforce($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Clubforce', $name, $tech, $desc)
+!endprocedure

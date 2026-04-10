@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/SchoolFlag
+
+sprite $SchoolFlagXs [11x10/16z] Om01Vdv-88d6P8EoM84C461ZvEK7ou9vV42AWGE8-L40I9G18WhM3wAuGH9SN20I
+
+sprite $SchoolFlagSm [13x12/16z] Om03VY00qPWS92OtI88TfeAVYmz40WaG3HI3Ca2O1QIE7mtm034ZAvJ10D63K0Orb0rP1m
+
+sprite $SchoolFlagMd [17x16/16z] TSp50S0m241HwaRozv-sGhJsBZWISTea-6kqxMDXbMB6T5QCgYHEjHqnFhmrWm2ZYBKL2BFmDtpp13bz6jhyrBSkNVVL3wUvWHA4HY0y7
+
+sprite $SchoolFlagLg [22x20/16z] {
+dStL0KGn24JHUHANwR_QrGHOb_EP01U25nZ-UysuvvzCBfqNEkwyhrJ1-mNWj2-PGsqSqYMeW6vU0nQUzEihWNWvD5RsdKRR4Z_AMt-ijL5pWAdvyJfhtjEy
+Dg-ryJeL3ZNdhAdEH_a8
+}
+
+!procedure SchoolFlag($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SchoolFlag', $name, $tech, $desc)
+!endprocedure

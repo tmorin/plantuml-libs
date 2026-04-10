@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/LastfmSquare
+
+sprite $LastfmSquareXs [8x10/16z] Ou01Vbo0dO-NaPkVdukVdu45f8g1YOMD4KCLJ3y
+
+sprite $LastfmSquareSm [10x12/16z] VSR50G0X44FHlov8-gyMbnjl967IckFGpvSQ-fzqfGaBfLrywIUVPDDDTZIChvu8
+
+sprite $LastfmSquareMd [14x16/16z] bOl50K0n2CLIzxB_jD_rI71v_0dpOH14GwrRwkKSy1u9HFOX615hZ3jFrkvtCHot_MEogUY73koU40Nyfnyh
+
+sprite $LastfmSquareLg [17x20/16z] hSYr0KCn34NHQsQ__QSDgFdG1OvOm5quyw2hDVKN2s2h05rlO4MJythPp7TRk2wpsPA80fezR0GaUVG6hI3e0sIIyrqxE9VqbQ8RbYuITqy
+
+!procedure LastfmSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/LastfmSquare', $name, $tech, $desc)
+!endprocedure

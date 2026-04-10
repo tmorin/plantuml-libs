@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Chain
+
+sprite $ChainXs [11x10/16z] PSZ50OG034JHjox8xxzQz4Woxd8LFCfBKMCXfuqayiYhkNDxvXEgqzu_hpUe0LW1
+
+sprite $ChainSm [13x12/16z] RSYtGGG10C0m_UNi_QSbGuKwst_E6drvSTzruAaUpF4q6hzkdk08QIIYxlWQobVSRQz24wuApkhsvphnvHq
+
+sprite $ChainMd [17x16/16z] {
+VOvL0WCm24DJz-R-jzqepELzaGJ37z8QBvg2MQuF1mmVoIfwKx0sxVL-gpDuSctp01gnHDSCnwaZf8roIGCxlHf2jWP9bcbq1ljgadIFxatLqiArn3nAvwyK
+_EG2
+}
+
+sprite $ChainLg [22x20/16z] {
+ZP075iCm348Lx-txtxPKg7kIXVu39x7y8-VT2rlxhFn4-rPr6_s6q8tmS5xXP6PSrn58oS1jAJr0DTbiLITCuLB8QLooZN01L8piMC33yIOHiGB7rY5IS8KD
+iaYjOl1A2t-fA9Hi566JJPEutVzVXMrfLTXO4zarOusR3kxURvq
+}
+
+!procedure Chain($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Chain', $name, $tech, $desc)
+!endprocedure

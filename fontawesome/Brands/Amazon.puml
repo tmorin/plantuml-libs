@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Amazon
+
+sprite $AmazonXs [8x10/16z] Oq00Vdv-2CN0pmuLuG0IdFpSO1f8G6X-c4961WOc1Z2JWH6c7m
+
+sprite $AmazonSm [10x12/16z] LOo50G0X548lRNtxJsldxm2kmu0ns3P-lYpjQCOxjpPvnjSH18WXGkv_OprtFkdSdQzlKri2
+
+sprite $AmazonMd [14x16/16z] ROw50SCm40CLDj_-qnRqvUQCpz89PMGzQTnPmrWXJq1OgNUfsWhcRRoiX0bZX_cTQNVxie3DLWOOq6GA54tLGlJ4Zj6ccDddSNymJRzS0G
+
+sprite $AmazonLg [17x20/16z] {
+TO_50SLG20G7Y1lzL_ibzdnEEBiq43E9KlEJE4yhlt26gB3knrKM8jB2uYSI7vsYmY-qU4NE-r51puAUpo_ynU8V7Ey4_JMzWYbRB4_bWCGbEp2uhwFPlFlE
+oLdwiL7b2m
+}
+
+!procedure Amazon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Amazon', $name, $tech, $desc)
+!endprocedure

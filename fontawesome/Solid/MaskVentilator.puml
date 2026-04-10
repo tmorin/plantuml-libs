@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/MaskVentilator
+
+sprite $MaskVentilatorXs [12x10/16z] Oq07_Fpy22Q4myYF17WP89WFIeFLCV2pyOCeE06bmDBCO3R20Z09
+
+sprite $MaskVentilatorSm [15x12/16z] RSS54e10581GxFeZzp-jtUwR0b8gvHOkyYtxOHZSBD647w0Z72MTijYsar1iq3mJNM0SGTpRiN5RRWQR6G
+
+sprite $MaskVentilatorMd [20x16/16z] {
+VSe5bWKX44FHu4xslzi9DT_jTcFl57wfA-9Pu84db7iiGtYnXhZCJo90wTXd45WwF9ps35W4fhLcTxcqnOH1LjsjUKthT5qBKukw55BtersRZI9iogrDN5pR
+neDfBUE9jOi_
+}
+
+sprite $MaskVentilatorLg [25x20/16z] {
+ZP055e0m34E3QvlxtvQN5VUFR7N13x8YnnqKpQrUzBTwKI-QOX36bK5qoFY0asQstECmYnk0vUoY_gh8TQGXngEd74SaLeFh728Wpm2LozHIBPKCGAbV8nzb
+X3eVaw5Q3AsJso1b69m10FGnS1WelCB2QhYiqHR3pU9b41-62G
+}
+
+!procedure MaskVentilator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MaskVentilator', $name, $tech, $desc)
+!endprocedure

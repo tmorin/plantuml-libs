@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/UserEdit
+
+sprite $UserEditXs [12x10/16z] TSQr0S104C0m7tG1xpzj6AfN9Kx1QrRVEtYz_pa3hSjvmTCr-kfwtLDem0u
+
+sprite $UserEditSm [15x12/16z] NOor0S104CFyXrsq_xHXLcVKZkd51DGZsRYLVwL-CcxrOM3Qg8vpT4v1Zh170S-l0Rxj3dcg1G
+
+sprite $UserEditMd [20x16/16z] RT253S0m44DHdyju-syRvdnHzKfM42FwrFPrvBjh4WtLjamCC_iyTRz-BAsDTFyRB6sYQXmjjDUxfLD3bnl5vRN4YcnIZVi2lQXC4AWsC9-D0G
+
+sprite $UserEditLg [25x20/16z] {
+XSq53e0m44JHmPr__zkIJGQ7zaNQTHrAVMa0rkzyq1CswQu4qrtrLn2s_XMQd-kBtaPO6sKKCFtaeV1_9lHIYA1KMC2aYYug2bpo9J4uV_I7xhnrzWUVmYRf
+cXTOuQMo5PEk-Gq
+}
+
+!procedure UserEdit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UserEdit', $name, $tech, $desc)
+!endprocedure

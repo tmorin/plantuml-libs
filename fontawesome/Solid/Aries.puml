@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Aries
+
+sprite $AriesXs [10x10/16z] JOc30S105CLIkzb_skByyGW2J3UeFOPX5w65FgamJaLPrP1KAI6e5m
+
+sprite $AriesSm [12x12/16z] JSR70SCm08104lVA_jjQNUB3mNr1wDt147ctuLjWs2K1uM5uyuWJIcW9fkOosD7luBtvbjO_-mC
+
+sprite $AriesMd [16x16/16z] PSZL0SDG581GdiLpsN_QUgFd3w34p4UE1L2r08jgorf61RJs6XO8ORI7rTa1PWkQG56epYXCIfFj5-53CTXfSsQt6XPslGgxV6dk7PVkEGeJ7qy
+
+sprite $AriesLg [20x20/16z] {
+ROn5eeG05CE2Exd_QRzq1YUhF6c1mOalpRhMGANgaDMgkeA6abtd8QEQtGXZzaIWZ1OwHIg58TeeAKLBvg_9gB6Mr5NfBybkGYioVfaKBJZJQQDSA7LMhgYl
+k_5bLt5bLk5Ayx93rvVTn9tLXY-_
+}
+
+!procedure Aries($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Aries', $name, $tech, $desc)
+!endprocedure

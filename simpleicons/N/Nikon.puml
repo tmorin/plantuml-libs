@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/N/Nikon
+
+sprite $NikonXs [10x10/16z] Oo0MyFDpSq5OFFnWmCN80nG40pxyMW4
+
+sprite $NikonSm [12x12/16z] fS470S0W0C2mxezR_sv10YTXXyH7kEYgPrBH4l0-Ydehane
+
+sprite $NikonMd [16x16/16z] jKU50SGm42AUdB7_jF_r2LeSV0tlIRtwyqcPaJX5elGPssTc9-SMtjX2cCCppRO5reoQSqN5QDZhPVm1
+
+sprite $NikonLg [20x20/16z] pOe50G0n30Cpvfr_jSzWOLTkefKmvamhev-EQ6rKz0E5GAQEKI0PJbC7YmKS3Ye6X-vVnN6QQgHFJV9vNrxXPjT2x
+
+!procedure Nikon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Nikon', $name, $tech, $desc)
+!endprocedure

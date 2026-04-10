@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/HexagonNodesBolt
+
+sprite $HexagonNodesBoltXs [11x10/16z] FSR50OC0002nrBst_xGuv1NuEnJm9UweboXK2KIfxkgS-ZxwzP1EX2cbeFar0W
+
+sprite $HexagonNodesBoltSm [13x12/16z] HOs50O0020Inszj_MpqmwFmFXVW5-9k5heh1gUPounxZp2s-jFLK9pcnMWXQqCyS-A-pLhF4cO-d9oyr70Lm0G
+
+sprite $HexagonNodesBoltMd [17x16/16z] {
+LOo5aKG12CNotKd_tTu0jvOnU4PndVnmwleZN7hmOXW0VLqiEaC8kwOIQWlQFTKvH2-AU0XrsXckUsg1MqlkUimtEXrgJCPikwWxAURVmWYpehIW0vkI38e6
+jotaSGmMMmbh3apMxXy
+}
+
+sprite $HexagonNodesBoltLg [22x20/16z] {
+XSs5OU0m40NHRoPPh_zgxv8DyzYYMSep_SfNqBwr_iwTsrYwKjUMOi7uOW-KXUF5mbmrqCgE7Jt5OSD5udwRPiYYieOiDzVmR1D806lPuKgdfq7VcGB6a43B
+XWPJGavL33UsbAL6v298oZRSoLAcE1d6IhwyMLn1EgnlLWQ0F7EprA66_mS
+}
+
+!procedure HexagonNodesBolt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HexagonNodesBolt', $name, $tech, $desc)
+!endprocedure

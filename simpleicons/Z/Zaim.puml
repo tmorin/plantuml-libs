@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/Z/Zaim
+
+sprite $ZaimXs [10x10/16z] RSZ50O0m0C30u4xsdnRNjlSyNcqEp6Q0EJiPtOmvpXpAklNMoQLB7LvO0G
+
+sprite $ZaimSm [12x12/16z] LS650SCm0C0mXzkG_xzsZ19_J25FJG32NR12rCRTmX6OFWrUn2yi4782Dhe2G54qBzKHPMwUWj1y2Lm1
+
+sprite $ZaimMd [16x16/16z] {
+PSg50S0W34JHgm11__xJrhqFYUedqXRGUctmU-mBLOjAr67091dKNZiKeHYBcYrL4jfPOp62qwKXtWJghQtIkCzrA_j-InP2BCU-jyhUxVdi6nAqEFPTFuOA
+GTAmn9sND0C
+}
+
+sprite $ZaimLg [20x20/16z] {
+VP050iCm203Z8th_V-s4rUtQ60xccWRAo6uM2TCr3HXMhvLYPcncg0MWv-oMvu3PpiA0IYPQSZyHbX4qadGcwi1i22aX1eXs5KR8XYCgQxxCeNhnGsLc3_aG
+pyf3F9VdU2sxktW2iecNTHwPFV6lV5KDE7hnwl81
+}
+
+!procedure Zaim($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Z/Zaim', $name, $tech, $desc)
+!endprocedure

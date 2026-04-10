@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Milanote
+
+sprite $MilanoteXs [10x10/16z] FOZ50K0n34BvKk74_jF6AY-28A0w4XKCisdXOlCO7xa9QjHlbnjy8LHIkMtZ
+
+sprite $MilanoteSm [12x12/16z] DOc50S0m20Ilxltzjmrw2V22y-WaKHAoSTbyhdiUcnSnL_aAkJwzgnoVUPufNHpGyiVuEXq
+
+sprite $MilanoteMd [16x16/16z] LO-50SGm00AfIuJzfts1w5MH6CIH61PK4irboKQsx4INEujYP9AtVe_gtf1MVIKUK9hMFsaTf6yGrelcGttPXD6EJevWtj297t6GOXbEymK
+
+sprite $MilanoteLg [20x20/16z] {
+PT050eH0049Hx6Ba_gVT4EnlFtkGfbNiSQbJAXMIBasXMtFeLfTdtSfbuBQfjwCnjc6TAwPS1_vejgqs4JKKKqmrk1jZFm9ZlQs6HFIsh37_wltUWc9pZR-o
+qhLSCBq9c7MjlWnfmj5eABxe2m
+}
+
+!procedure Milanote($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Milanote', $name, $tech, $desc)
+!endprocedure

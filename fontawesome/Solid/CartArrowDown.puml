@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CartArrowDown
+
+sprite $CartArrowDownXs [12x10/16z] HSY50SD02030Q-FA_jF6tWxdZ5aJ3_58E-THzfxqNz_ZgGs_I41eqlkNZXv3MlVW5tzk
+
+sprite $CartArrowDownSm [15x12/16z] LSgr0SH00CH0sSUe_gjzniaMjlB7kutg0Bgwdd42Xye1Iy_t6vhAExhyYtVx4LVYr-bJuLqyl5CNE3nuyXwd2xW2
+
+sprite $CartArrowDownMd [20x16/16z] PSi73WGn24DH4xON_lrFkuLKJPwA4U00T6HE97d6FRTKyfPZvyYVjx5xjybaGEJkHby2t7Ddf9P5YPNsNRHTO9sw9zenc0OhZQRdRKRpWbojtIiieIy
+
+sprite $CartArrowDownLg [25x20/16z] {
+TT054iGW00F0jCKj_t_j6NBeZcP2AYII2HkNjOdo-RbmFrdkB0i5nypyYcSjoYG7s4yXSxYw8W4txXBGBrA_pa9E4K0gPpB5kc6cKN22Gv6wmdOUD87OKup_
+WKI7FVIkkxamaCWkWG79-gznE5zlD9BSBWGPyFC6
+}
+
+!procedure CartArrowDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CartArrowDown', $name, $tech, $desc)
+!endprocedure

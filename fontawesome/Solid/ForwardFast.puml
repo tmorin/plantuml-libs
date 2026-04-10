@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ForwardFast
+
+sprite $ForwardFastXs [10x10/16z] Ou03FduW0SP002H16Cm4Oro01yw0gUE1wcNZWPa7
+
+sprite $ForwardFastSm [12x12/16z] Oq02xFmW4a800GC38v20iFb1R7uecvyHBCAF5_0Wc5m8zLm8SxZWvZDmWApa1H4y
+
+sprite $ForwardFastMd [16x16/16z] dSSn6aG04CNWQNTva_kV5WHGIlD_gNUZP3zWjLTSM5_2bi_v-9oFJ_ZMloLejGIjbg3L4dgp8YFrQWO
+
+sprite $ForwardFastLg [20x20/16z] hSY53GD14CLGXsbktN-rmJzXyLbaFVwr-fxbSkXZTUhHeC65BpJOPimf5ZJuCZ4O-sWuIsNQsHt9R1QcWX1jHo3KLW2Xs97OXeTjBUxLWq3vqmK
+
+!procedure ForwardFast($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ForwardFast', $name, $tech, $desc)
+!endprocedure

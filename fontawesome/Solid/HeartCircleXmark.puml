@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/HeartCircleXmark
+
+sprite $HeartCircleXmarkXs [11x10/16z] JS650G81002XirlsdzRuXZQkx4DbbaLdezEhGBsFTSJk2eLSNwc8tggkuUaB
+
+sprite $HeartCircleXmarkSm [13x12/16z] LS65OGC1002XIzwL_QUjA_GVTyqyA-ys6DhyoXyzVJfhBjxLSLK3F8ErBiHcKY6UKNMB7gVUpTtUlG8
+
+sprite $HeartCircleXmarkMd [17x16/16z] PSm54e0m3031mvtx_s-PPF1klH4epLi7C6m3eJF0UO0VCFbHuLVBx4SDUXeWUGBMhNv-6lRp_-n2RzeWGoln5_jPrCL6Ra5xTCzoqhwZxCREgJ8D1m
+
+sprite $HeartCircleXmarkLg [22x20/16z] {
+TS-55KCX5C3GVCN9_jlsGDqkxZp-MhULQRbt83gCeKDbI3gjYpwd_RAEhLyg-Ar3yqk3Kr_busm5yAalt9NN-uYzxGmlaz5f0NRl_UZDonsWfUZ-6buXQAHj
+g0nT3RTwDanptDJzTPPgvTI3VlAS9GfELGilTc-u
+}
+
+!procedure HeartCircleXmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HeartCircleXmark', $name, $tech, $desc)
+!endprocedure

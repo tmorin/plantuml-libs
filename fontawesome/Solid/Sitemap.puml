@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Sitemap
+
+sprite $SitemapXs [10x10/16z] Oq01_Fpy62ncVeGqX8G2PX0VWfdv-O72x10f1WXc0vDSG0m
+
+sprite $SitemapSm [12x12/16z] XOg30S1054DJEs__QMlhFYFT2mXYxJ2A8iOTKSPM4kcQwHAHhzWv40jG0pjkGRRKkbHa3m
+
+sprite $SitemapMd [16x16/16z] ROw50SCm40FLXb7xRnjVq7J6PwdEjg-nkTh-ns7iBFvJH8yPqJfAtWFccZ0T8_tzvNCtaSr_zOm0Bz8lt4R9hG_ZihVNkwFiraTS6GS
+
+sprite $SitemapLg [20x20/16z] ZO-50G0X30E3Ezb_sdTN3gst-40gfQuwZfnLeb679vqgZBWIANvqYKVCbls06dNr54kELsxHAGuiMHrWk2AtsTA3Bh_vsKE-2BX9VA07
+
+!procedure Sitemap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Sitemap', $name, $tech, $desc)
+!endprocedure

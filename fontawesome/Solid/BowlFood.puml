@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/BowlFood
+
+sprite $BowlFoodXs [10x10/16z] Oq02xFmW0681AJ2Jcny665bXW14kXf1bWBCGUe40oW
+
+sprite $BowlFoodSm [12x12/16z] NSQr0S0m00In2pQ6ttzQCwiIkmz9pvshnesUM5oQt7BM-z4VljQBnFhiXmW
+
+sprite $BowlFoodMd [16x16/16z] RSs54O0m44HHtE7tNornsyaRFTsXQm9oyP7ihjmfR4dZUscTKWzYfFL9lUczrfk-dyY-mMl2XG4
+
+sprite $BowlFoodLg [20x20/16z] VT254O1034JH3Uw__sfntu4tTXhJZnBwrxvcqJ1eqt0NMl3GBYUcQN43Bd8dkS1qu5fSu8GfFKdl_NO-cD2Eqw0F4m
+
+!procedure BowlFood($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BowlFood', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/SolarPanel
+
+sprite $SolarPanelXs [11x10/16z] Oq06_530mC33nm0a-S44AuJ91nI20o0VXfWGJ2G54FCue0QpGeK
+
+sprite $SolarPanelSm [13x12/16z] Oq05_3301UBmy40H0mC742CGWiK1v200I8YL6op30UPmSe0uG8ogZ8492FZvG2JCObuqDm0P
+
+sprite $SolarPanelMd [17x16/16z] {
+ROo53KD13CNocUwTzz-sWN9hoGh7_d3r9wivdJSMRy0uqjpBLJRStMsLJwoUpAwgqVXWyEPrNM7FvCWj2xTCo5z3v5CrHdfheZc469_8R4mWms0FmDvO9P1U
+3OepyXi
+}
+
+sprite $SolarPanelLg [22x20/16z] {
+TSvL0eGm34NHbnhEtVzkfp8ud8z8DVha_9cfucPK5hXJDhFco5m2Mn1bmHYErLHZb3nfMrrP9GTT22DZ205oM47gUQgVEUTcV8uBCKTmWbxIWh8Uon46KQkr
+haP27NLne7tLrKaw46yqy-GaSmsChj6X3dDd1eEPpY8RdQJRwWy
+}
+
+!procedure SolarPanel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SolarPanel', $name, $tech, $desc)
+!endprocedure

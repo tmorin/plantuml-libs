@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/PlugCircleExclamation
+
+sprite $PlugCircleExclamationXs [12x10/16z] LSR50K81040XxFRjFwtvanDuHB1-WyKlYvlEyu1DTTwrBpnBRGkaxjEVgJS
+
+sprite $PlugCircleExclamationSm [15x12/16z] POg50S0m3CCqvld_RykiGcB08i4i7AESf6bQxGjPPWfXvAEM9u6Wu7sBP9VbYEqF-rufviTKIRuRMRAKbQzD3G
+
+sprite $PlugCircleExclamationMd [20x16/16z] {
+ZSs55GGn409Greq9_NTxR-JSblYFmMFodaBbj7K79PBH7sc77jCbye56l5kFrykuPIqnO6miBAj92xFwqT-ZPFU36ClgsTrdnwDvBAtfsNf9m_5WL8Sc-NVJ
+1G
+}
+
+sprite $PlugCircleExclamationLg [25x20/16z] {
+hO_L0ODG4C22Ezb_sigxul3NuEIKHANfgGqBVnMp9nRXcOoWz4Z5GmeFehiL0mj7qGAzOqxG-gE7uJ3O8c1IcTS9ggLjaVIeZc6w97BcHImf597kKGJp8bgF
+OhA8sE4YnaYXFMxQESOKCS4R
+}
+
+!procedure PlugCircleExclamation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PlugCircleExclamation', $name, $tech, $desc)
+!endprocedure

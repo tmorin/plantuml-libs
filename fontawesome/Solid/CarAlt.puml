@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CarAlt
+
+sprite $CarAltXs [10x10/16z] HSQt4OC0002njokozj-M8wjIVJQ7VwM3MjzvJJ-772gi7Z4UY0xi
+
+sprite $CarAltSm [12x12/16z] LOo54G0n3CESPxJtdxQCAeHqmOmIVqw_YEwOBuZy0YvLDTcTKhqndb8qU2fXPjNeTjdvYJY9X14U
+
+sprite $CarAltMd [16x16/16z] RSm54a9H28NXmxMLnx__tJg4xJT1ep-EMoGt5PxEMHgiieUiWwMsLGOQAzCpR0zW1xwP6BTSHWfEPWOdBLf_Jq5nTuhuf82zDGV9mTHke6zt
+
+sprite $CarAltLg [20x20/16z] {
+TSw55GD124NHl-xp-gysma6YTrn1_tI3wnKQnNTNNib0Ku3Ln_hcWXhS0FwqAt18V5atVjdLuVAXXM5xE62qXV4C2Tzx5z_4bqi3S6oX0RAzNk6mlGvGMdpr
+vGu
+}
+
+!procedure CarAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CarAlt', $name, $tech, $desc)
+!endprocedure

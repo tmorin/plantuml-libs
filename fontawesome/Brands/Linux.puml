@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Linux
+
+sprite $LinuxXs [8x10/16z] BKg30G0m39kD_wyjKqP1wilg-mv6n2ymGbAmL49wpz3q_s5YzBomoW
+
+sprite $LinuxSm [10x12/16z] HSU50O0m40F0mvtVVrgq4W-8Xdz4aB2dRXnfjLtxpqYsJJZIJRd35j9bKD4JMsZS
+
+sprite $LinuxMd [14x16/16z] HOw50GGW3CI25k_-qxwWGUl796hcabMrNMle67gjw37FgX2UDInE3OiWm2sSh-bz6VjPmMPMVkr0A4nyKY06krAqW8KU0VTq0X7mgyIRQgTbnU8jrXBW2m
+
+sprite $LinuxLg [17x20/16z] {
+JP055i0W34E3Exd_RJUihvdc0pKScS409STVcdGkQU28fa7kWr63jXuDfhScQT3X04xnjFiSy_MLhpXx8xIxSPn3lRvwozagHn7fDqYl6jO50dBStaQM0dWv
+57Jt0kxnTSRO-xTrns7TMl7UxDqUotu
+}
+
+!procedure Linux($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Linux', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Lungs
+
+sprite $LungsXs [11x10/16z] BOc70G0X20FplV_jFwqAv1H8KR3Ay712AlwGeraiYT3y8HtiwLF-bkOhgHXf1Ze
+
+sprite $LungsSm [13x12/16z] JSV50KCn042XLzU4_QUjo-T6BuU-LZ9sUc5jJA_vPb_RL-P4-Ji4ey0MrZNXkenb1bH72ACAxW
+
+sprite $LungsMd [17x16/16z] XO-50O0m30GFTtx_QP77jLUD9wpK2ISwa2XBLYJXdMFwNI7BgGw5DJehCknWUjzmY1T51BK_hHMdP2hlYkwkK52H-iuFXIUfC3QD
+
+sprite $LungsLg [22x20/16z] {
+VP653aCn30Fz69lx_wyTH7B6k_B95bN567gZ6oHOyYmcE0Ih09aU2Dl3bcVBgAIzMb8ElDdJVOWLw76uvuEGJj_F7YFvraiw81b4jLIHO_vcERxQ-6hvQzkB
+tI6PqmOayfdqBWxPg4-9b5S
+}
+
+!procedure Lungs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Lungs', $name, $tech, $desc)
+!endprocedure

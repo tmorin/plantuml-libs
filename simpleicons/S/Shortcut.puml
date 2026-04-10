@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Shortcut
+
+sprite $ShortcutXs [10x10/16z] FSk53SC04CNGLyQJzv-sc4JqqKnLDzfVmgNd7g7RXPzDVhQiblQBdJtPY92QcQet
+
+sprite $ShortcutSm [12x12/16z] HOo30GH15CLoM2FzLpis_YEirlK1FVKuZjDtbOoXiELxy_EH3iG6T6M2VDy6Iay7dZJGUpG_lFQrHW
+
+sprite $ShortcutMd [16x16/16z] NOs53SH00CFy30NlFstn8Ah5GU2lXJVmCW4dG3dGlz25XqeAlYM4hnZ2ruaKd205WRUQmgKoc9NshyH_4Sh_emYFyXzCh
+
+sprite $ShortcutLg [20x20/16z] {
+LO-54S0W0CJ-wahsdxQ2VqvQ84Wa3JUDNJy1PujJWzOY_7_B0FeOwkG05uCYTHAYPcPWPvNC1C5Wviwj3TJCVDXkvcVz76RkjSFEZ1sxcRd3pxpJ89hUKKtl
+YAPtLFD87TmHFW9HNp1kwGK
+}
+
+!procedure Shortcut($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Shortcut', $name, $tech, $desc)
+!endprocedure

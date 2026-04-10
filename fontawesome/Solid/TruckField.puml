@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/TruckField
+
+sprite $TruckFieldXs [12x10/16z] LSQr0OG0002nj2zm-q-BQwfuQlDyVQyEUd_ivdr7HWOXuHyCCGC
+
+sprite $TruckFieldSm [15x12/16z] NSU54SKm5C0m5yFn_jD-XdVLeRZoBUmjnMx3CC4pT5jqOHfrZ2OwVUlQG71TrraO1R0FWTLJdcg1vyS2Tm
+
+sprite $TruckFieldMd [20x16/16z] RSY54O00581GxFxiFwtT-guu-5N4PhWjJtsViHgyArXuoL9zBK6JpyiTNYyYD2h23tuc33-lr39tLoq5z4AOpa8ObaLfYh5LWZsBK5cfycy2
+
+sprite $TruckFieldLg [25x20/16z] {
+bSp55SD00CHGnOoh_hlDCpFzwm0tedWIiUPAoo9o9sCGknT1ftKjZZJGSGiAFG_GwZne5C1pAS5pK7iAuiy1kyCQr01WW9zDr0a2hH4TXTo2Jc4A2ftA3WCx
+5Ki2Ir9ovmy
+}
+
+!procedure TruckField($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TruckField', $name, $tech, $desc)
+!endprocedure

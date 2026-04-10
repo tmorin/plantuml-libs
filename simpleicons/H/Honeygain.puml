@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/H/Honeygain
+
+sprite $HoneygainXs [10x10/16z] TKZ50G0W4C9ksNzRMr_UqVXVuacU5RexE_ft9M8FljD1TjteQu9dIfvurm
+
+sprite $HoneygainSm [12x12/16z] XS750SKW00Mmr0ru-q_xNKzDd4ddRJV5s1uIkX7I4u54LmncNQosJjLdYi1iIeg605kIwiyL
+
+sprite $HoneygainMd [16x16/16z] bS7L0K8n44N14xVDtlwhnUqBU3CSq0EVWXQVH5Y2cE_gDWiBhN8rL9eMjCvLLmBcH5oPYn8CKGRWCqsYEWQ-Xvmqk3AWYzGHLm8aJU45s0qQa5okPMhyT0O
+
+sprite $HoneygainLg [20x20/16z] {
+hS-rOKKn5C1GFJDh_sd3d2RmJsTVvdQKh-RtlqjeNxvNQ-uZmKyoWEbZ-so3CU79CKC4mVZIVGjzBAhq2L3CVS5nWl3KG9aL281mRTr8spm90cX4Bdco1d3K
+PUTCW2uG9j3KwOnV3ejzhZqJlt0F
+}
+
+!procedure Honeygain($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Honeygain', $name, $tech, $desc)
+!endprocedure

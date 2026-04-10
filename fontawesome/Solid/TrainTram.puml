@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/TrainTram
+
+sprite $TrainTramXs [7x10/16z] uuS0LWO63WOG076091yd9v3c1uk0nVZX511o0Wbk48SHh8IP7m
+
+sprite $TrainTramSm [9x12/16z] LOk50G0X30FlNI7xJujhlH7L-0-mUsXWqRa0QsOWDkX3VpeCcPcEK3PEgr-XLcZsDxiy
+
+sprite $TrainTramMd [12x16/16z] PSq70WD1141H9JtCl_zjW_JTDxs0FwfwGWlI3hDeZSizYRjBuINgbjHYrB_4fCLk_xBRfyEgqVzC5Zx_7O8Pau3HXLbIj1UGeSG3
+
+sprite $TrainTramLg [15x20/16z] ZOu52i0m34NhtlxxttQDJB4zu44y-589BF94N8R095kGDLGo58uwBkmEpssTwvx4b7UOtc7JyEHNo6FscjKR5P0t1aHBhZ-V3i0a5XSjRM5sDuq6eqpq0m
+
+!procedure TrainTram($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TrainTram', $name, $tech, $desc)
+!endprocedure

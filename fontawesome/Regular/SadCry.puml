@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/SadCry
+
+sprite $SadCryXs [10x10/16z] BSY53G9H042nudn9tlxJejTuONG7TV5eq0RTP65fN99K3kl-ECtJqQUvaeoceN2hLRm1
+
+sprite $SadCrySm [12x12/16z] 9SY50SKm203HgyN9xJ_jb_9m-9isaaODVTU7l-MxfWX43wRYZED2PAELWsGBv9P3pB3clcHv7bf10GutGAZlzmi
+
+sprite $SadCryMd [16x16/16z] {
+JSU50SHG2C3Gr0t8_jEUrDyN2BiXtHekwM5YTorX7Wc7pe2Kss234r4B43LH3X8rs53_lpTbQLXXRLX0XOQRcs13bn3xUhJwxrcCLrkC3didOGYaDj10w0Zx
+783vIA1nLm1V
+}
+
+sprite $SadCryLg [20x20/16z] {
+JP074eCm3C1ameP4__zjpuVRecnbc-8OtYil5eiU5EfemAOUfRmf9ZrVgj05bb9_-PJrsaYkAzZTST1L8LGRUcIzquH3K7G86qzfC0LT1O8NbtSwTuXMbmvN
+DyAJKA6AakuiHzZfJkckSZacD5qhjobmg2UqWtHASlwY4Ehq2cc_HgqgzWhpi-W3
+}
+
+!procedure SadCry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/SadCry', $name, $tech, $desc)
+!endprocedure

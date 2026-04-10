@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/P/Perl
+
+sprite $PerlXs [10x10/16z] 9SY50SC030F1ApVu-qyRjCKmz0M1WG0VAgmDYExUTLzOxmaqPe3VPPyFhUm
+
+sprite $PerlSm [12x12/16z] HSZ50SH00CGmXPEbwR_QO_1F1ZKd8307_ijmTg2pjGmSISKQQXv1tft-CFb9WCJ1W6K-1_I3sW_k
+
+sprite $PerlMd [16x16/16z] {
+DSe74i1024BHdrvPxd_RE4nyMrM8JNuccaHPlHE6JlrbcryGq_dS4C-4S25iRybPkOl-mSxkIBsxFSJJzJH3T7pmk_qE3VQbwzi848Hvj5FUt8WgOxAsvVIW
+V
+}
+
+sprite $PerlLg [20x20/16z] {
+PSY5ZGKn4C1GP_vYoFrtUygoT2yuvh9twyB7RFcb55jlYOkPc_lr9bur_qlGPfWplotBBGaI3fowRcH8iMcwa-x1eEryXfuO5gsnUk7aHqt_u_BZqhtHU4mw
+j6z3rrmCaZmC2O4zSrcbxZBamicPrO1XTcQGBe_DLdAr1SCV
+}
+
+!procedure Perl($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Perl', $name, $tech, $desc)
+!endprocedure

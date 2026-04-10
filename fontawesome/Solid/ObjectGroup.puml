@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ObjectGroup
+
+sprite $ObjectGroupXs [11x10/16z] HSR50O0m0C30u4xsdnRglTVnaWtNQuC7IIpg05Fftilpf0QhbaxlEqmElckYbyqF
+
+sprite $ObjectGroupSm [13x12/16z] TSsr0O100CNGZplPVrhqN5wNAjfx6Ukq4nXXDq0iCZZV08vgT0qcNlW04wiCs9BfQS0D
+
+sprite $ObjectGroupMd [17x16/16z] XS-r0GH10CImEUPL_zK-CofqvWmbTxMgHxb1yIAK-WOfSjUhJW6sr-1l6CCjd3JFOUKvRDXEWToDcXxhpPSNkS4U
+
+sprite $ObjectGroupLg [22x20/16z] bSY5RSG050Mm5oRbU_zfopr6YvskrfnfQakBwaxqg7BBwfPWoIciwScPZlmkqDpS-QrjskjDTljn_pMusj7ruiPszQtvtP6S6KY36azCK6xPt99YogbY_GG
+
+!procedure ObjectGroup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ObjectGroup', $name, $tech, $desc)
+!endprocedure

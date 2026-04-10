@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Meetup
+
+sprite $MeetupXs [11x10/16z] NSUr0SC04C302tEq_xI6BtsLvEY9KJLphhxrGq6n__SnAJnhSgSFhjC_erTY1G
+
+sprite $MeetupSm [13x12/16z] LSo50SCm34JHBsZ3klsd3UCpMy1gugiuoRHgE6ZdVjpfG6LWgJ-6rnQg47IEP4TMK2wn6eMaxTWqEhnQSsa8HeC5
+
+sprite $MeetupMd [17x16/16z] RSh50SD00CH0cO_LVxNcSEQtm67cZoBlSkruiVTKUF0sTHn6RS6kbST7VHm7O1urGQIXtaL7Dp1DskudI44DywEm4r-FKDKEpPo23zoy11uM3qCRU9cF7c03
+
+sprite $MeetupLg [22x20/16z] {
+TSx5OSKm403HCTkYwR_Qa2ZqtsrvgGelcVZ7pGyRP3N4i329tSqK71PQ_sgLLA_SRgg5sXBDCB8RrQd2moegKFhLyK064jSsirnwG5ef1FMYr0i2SjweEYx0
+RZ1mv975xkBK2ADxejbno0opcGscJP_DmkNA3-iDK9Fl
+}
+
+!procedure Meetup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Meetup', $name, $tech, $desc)
+!endprocedure

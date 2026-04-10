@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/R/Render
+
+sprite $RenderXs [10x10/16z] Ou00NaueWny8829m5Z-CnGTcGKX669yHBiE0YmK
+
+sprite $RenderSm [12x12/16z] Ou02Ddv669CV2FXWeY005SPa8vXiV12Q6IJ41sKYs0n4im4
+
+sprite $RenderMd [16x16/16z] Oq00Bdus91uhFmWW-FmG05UCnkV7nqTmUT6vV30c9qI63yv5vJFGY0y
+
+sprite $RenderLg [20x20/16z] nOsr0S1054A9UzX_skWvlxzNeaXf3ox8EVaogKIsIP6Ug1s6HjMQHDFg7ay3cF3IHcdF_AEHpW68rXWQgcit
+
+!procedure Render($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Render', $name, $tech, $desc)
+!endprocedure

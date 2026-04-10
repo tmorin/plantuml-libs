@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/FrancSign
+
+sprite $FrancSignXs [6x10/16z] Ou00VX1Wu6S3izcmYZ3ny_CnmsHv6844
+
+sprite $FrancSignSm [7x12/16z] Ou02LduGOE3Yvm4280KIGr10m8igo0SIGrO2COODH
+
+sprite $FrancSignMd [9x16/16z] RShL0S1G34BHMrV2_jFMlU_yH83R62kHURSiNRvQbfhLSmb98sSvqIda6CS2MgyQ-7V05Iyp
+
+sprite $FrancSignLg [12x20/16z] Oq05p530nC303mVeR3QeOdni3aOG0BDX08rDs1nUg68k89k93yZWu-DZHbQ3byt3pyY02G
+
+!procedure FrancSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FrancSign', $name, $tech, $desc)
+!endprocedure

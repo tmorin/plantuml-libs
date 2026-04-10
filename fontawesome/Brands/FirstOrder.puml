@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/FirstOrder
+
+sprite $FirstOrderXs [8x10/16z] BOU54S103CDKVepsdxQGgza0dSJY1MZtw54qh5gQYLApHXd_ptT9swyos82fy
+
+sprite $FirstOrderSm [10x12/16z] HOo30G1H3CNUjvlzfpqZDNKoT9CYNIUpZpQpAKSyK0YL01YvLnOdhTSpEJbwVwPdpnMSGHp7zn4mKjB9YdRu7G
+
+sprite $FirstOrderMd [14x16/16z] {
+HSf50G1130F0BfVZN-qnp2z0DwEVSej6j-eTGCboXgmGige-ZMRpw1Y0CrXueS9m95HKNdA6A-QHgE4IHQxjTQRw1hSZcTiLLk18MF0y0WIrH4T5WGT73wB5
+d2oA7fLEFWAiYrvvd4ux
+}
+
+sprite $FirstOrderLg [17x20/16z] {
+JOy55iKW3C1moYgv_sadl2_BqmHj-Z1pUbEZYRuyf4Do-UYq6hYZpSkjcMpH6sgDBfv6dwn2e1pBeveq31O4Ymdp3ci6cxNc4vm_-WILuwCXUyVM3n5tiAPy
+aFBiYE2pALXFO7ISJT4TM2WOO_yZUzD872Ws6C_CytPBqYkUoUb1PGBHR6xzJ3p4qmlHA6bp0G
+}
+
+!procedure FirstOrder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/FirstOrder', $name, $tech, $desc)
+!endprocedure

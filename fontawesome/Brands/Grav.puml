@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Grav
+
+sprite $GravXs [10x10/16z] 1S470SD0002Xwsv-uTzjeEhohGfn5NHzVO8iBlGiqAYEBuzY2u4k7QW-e6u
+
+sprite $GravSm [12x12/16z] DOg54SH04CFqc6FrNst8aqKJLtKBAVNUG9bq0_svliuRjtUnQByWly9CW0KJBOhW_TISlD_hXXlO8o-0-QW7
+
+sprite $GravMd [16x16/16z] {
+JO-50SD03CGKJfwq_xIbA-dHRFDYwzQ93rtjwXvHLNJOlwACiYusw96tmxhgHCIBgfivsfcNH7QJU1fG3HjCS2oeLONpiVL09-suCHl8ZM6mgvLg0Bg38r8c
+QAFzYp1zOe4x
+}
+
+sprite $GravLg [20x20/16z] {
+NT05be0W00N0Roi2S__JRklZxT0T-NDrTSzWywTD-GEamZLscUysBvIXIyfb3zkmrtPnhaZyAJcf1ywdh-R8Meu6br_9xDcyWpqbtp6tn_RR4Kb7XMJgIJ2d
+i4EcTw_M2Dgb3bkrD31dWh7Ua-wHvCA_hgGegHxp-wMll4wWpVds2G
+}
+
+!procedure Grav($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Grav', $name, $tech, $desc)
+!endprocedure

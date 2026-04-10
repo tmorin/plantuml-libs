@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Vcard
+
+sprite $VcardXs [11x10/16z] Oq02_3W00oCGGwHH58558IGdXC-7pHWa0G
+
+sprite $VcardSm [13x12/16z] Oq01_FW05nARWO45H32mGZWSA0h1Can0YXFPI1GBk8601yBaGT78pGS7x
+
+sprite $VcardMd [17x16/16z] ZSx50O0034FHu1h-_jFYxkzMhoxIPizA-QNaI1AWmJw1Uum2YOlzYCCWg87-3GQL1ZahJLYv6fWduaHd7G
+
+sprite $VcardLg [22x20/16z] bSl50O0m50FGu4xsdnQjUz_bQn3HULg00SVEMjj6NmSqVE13GVPZytAsZWrO_-Qnqu7FoS-vFDv-wnuJFoi-YvVxq7G6jzot7tCcXk2WRq3G3G
+
+!procedure Vcard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Vcard', $name, $tech, $desc)
+!endprocedure

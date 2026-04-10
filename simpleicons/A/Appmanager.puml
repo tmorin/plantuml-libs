@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Appmanager
+
+sprite $AppmanagerXs [10x10/16z] Oq05_0WM7vp53vVavu2oO2hPuNhumG31XPl5nGy
+
+sprite $AppmanagerSm [12x12/16z] POtL0O1G24K9kyx-qzhw0dw0cnA6_5woEn7hm9Za7UaMFANC3s6hJklutCmcuf1w54kLS
+
+sprite $AppmanagerMd [16x16/16z] TS-55S0W303Hr0su_RVjmztvU6IIQAqgRb1PmLSQ3PNbuCvy485iktQpvTjjcpTms5QpUDvcDzXal36NNNd0SnMVTh3SyZCyGXM5_W4
+
+sprite $AppmanagerLg [20x20/16z] {
+VOw53SKm34J3hBpzf_rGTYprsj2HR5w1fXnDSH5jx31L7Q0vriP42B3Q_gj8hXkJfR5WDxENqH_QSvoyXop8DkkSvJPs8YSEAa1pzf_jq8zalahQOQIA0Vwa
+7Bu1TbWZCF5V
+}
+
+!procedure Appmanager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Appmanager', $name, $tech, $desc)
+!endprocedure

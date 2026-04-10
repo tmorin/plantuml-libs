@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Jenkins
+
+sprite $JenkinsXs [8x10/16z] BSd50SH0400W8kio_LTx6hx0Mh0J3fLWky2bL_9r04u7efnqgCAE2F7i6m
+
+sprite $JenkinsSm [10x12/16z] 7Sl7OGCm0CF0K-_I_jCcjfya071k1AFWebQ_tr8211SAsOw9OD41X8UMwg2hHfUOGUVUq7_PvW6j-GS
+
+sprite $JenkinsMd [14x16/16z] {
+BSQ5bS0m50CmjM7UVzg3lEg3xNhN6JwbLRmRJ8zheuv6mxCJKJLSoqF0wo6pneiOF2jRjNHNbdmLMgDbrmgvOK29DODAedSRLgBUh5eIoYYdpBSy1qn6LssV
+h3I_
+}
+
+sprite $JenkinsLg [17x20/16z] {
+DSu5OG0n402mzFfGFlzgnuk20FIJe_WNAokb7S0s00bMUVqxk3CQQq7FuD3S08D6G8MhqmEu2AqhsmuyoQIvZAS2B4s5VrLd2w2yBU925b1pzrEXFA17OOF5
+Yr8zrU-TLj3RkiXmzielyqohJxW6iGua_qQYp5g-nQs_TRorVm8
+}
+
+!procedure Jenkins($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Jenkins', $name, $tech, $desc)
+!endprocedure

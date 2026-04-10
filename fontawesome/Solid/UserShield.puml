@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/UserShield
+
+sprite $UserShieldXs [11x10/16z] HOd50S1G58DIzxB_j9N_Z5C2-kWL0Akj4y3cMbEsYjqi0a0zDhM9cDRM6KPU
+
+sprite $UserShieldSm [13x12/16z] XSUr0O000C2muax_lnPtpHP68PjAZLce-fz0vIp8cAGPQgkWYWejpHxnbWp5j0S
+
+sprite $UserShieldMd [17x16/16z] VSs50SCm4CLGXT7M_jCMVXbVq8T4mujEzJbcS3SQBJUhCJwDY3yp4gbyCSmyQOq1wFDLfQ_2fjgJ07XTEZy26jV0-0Xq2RYYiL2rLuu
+
+sprite $UserShieldLg [22x20/16z] {
+TSw50SGm3C10bJdQVzf7fzmBeqqekPfKUuwINhTB0tkpeM9dCJJiz0OE_4jmlImdvQ8JpyQMasBmQua46xNdlzT7XCglbXooc8NIqow3uD_0b7UJ30RAlAkO
+GGoz0sOzhIfrN0WmghCMl04
+}
+
+!procedure UserShield($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UserShield', $name, $tech, $desc)
+!endprocedure

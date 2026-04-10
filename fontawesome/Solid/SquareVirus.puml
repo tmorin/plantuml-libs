@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/SquareVirus
+
+sprite $SquareVirusXs [8x10/16z] Ou01VdJ0pSt03cPmG2JXgk2A8HGg6m
+
+sprite $SquareVirusSm [10x12/16z] Oq00VXm09e5Gn01aCyE444nsDfWwHWPalJm8exZv880T
+
+sprite $SquareVirusMd [14x16/16z] XSt50SGm3031DRFLVxK7OSwyn6BFzKN3oPkAB500UieK1YZpc150zI43G0Fp94h8Cc8mVzP5aLsKMKSkiCzslW
+
+sprite $SquareVirusLg [17x20/16z] ZSt50OK050Emu4xtd_QxAxazhNVLev8yM-PifSpTggkPk3SkSaKgJ3cRIr92bPEAbvi94iMQ2oXAOoxcjvGkAvddF2YwVF4siEH9uzKU
+
+!procedure SquareVirus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SquareVirus', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/NotEqual
+
+sprite $NotEqualXs [8x10/16z] Oq01_12AWv-17mh0edmeilnCG88RAWyNPO0e0W
+
+sprite $NotEqualSm [10x12/16z] NOg50G0X4CFwYjFzfyKzS1wStEmTFM0odiO8TkgjMthgEcStlLlpkJC0NRTign4
+
+sprite $NotEqualMd [14x16/16z] TSvL0W0X24NHP_seSFU_s-aUZvsWaQuRqANXIx-3tffnTpvodGBe0aMd3iTi1dtr_ZD6m-CcIF6LKjA_2G
+
+sprite $NotEqualLg [17x20/16z] VSm30aKX54NHyv2nvp_QRwQLkz3IqRmJzU-zGT8lu97tbg6c56XjvGMu7qal7cpJiJPl_ju6x2mXq4WqjEq7rFrjavHXQpf6_G6jN04
+
+!procedure NotEqual($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/NotEqual', $name, $tech, $desc)
+!endprocedure

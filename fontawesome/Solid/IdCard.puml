@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/IdCard
+
+sprite $IdCardXs [11x10/16z] Oq02_720BeYGuENdPsLb0pCHKjn0357AX11bOsFZ0pEGZ
+
+sprite $IdCardSm [13x12/16z] NS650SCm00InDxDl_sdRC4bwuQ7r1ptnuJL1KWQGB9Sf8AV4QlG9nfW6Q17OT1xKvYNz0G
+
+sprite $IdCardMd [17x16/16z] RSt50G0X30J0FS6j_sfnXtd5WmErCmFgDkyEEtSbjxmCJWl7vel77UOL5R-dirfhatA3P7waax5vdDe5
+
+sprite $IdCardLg [22x20/16z] bSw50GGX30J0nPtqN-thEJwu9cWG1GvGHOfKWmMqAWFfEqRreQyXpz3vkbjW0ADI2Bz1LjF2TPS3nHU_pN8xwvzysJ9KWqGbXQet
+
+!procedure IdCard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/IdCard', $name, $tech, $desc)
+!endprocedure

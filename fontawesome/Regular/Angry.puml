@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Regular/Angry
+
+sprite $AngryXs [10x10/16z] BSA54SC0000XwXBv_QUDSy2lDwY7JpyQGIyvzNkegvdFtV3-E2MtYlm2uLL3iG8
+
+sprite $AngrySm [12x12/16z] FSQt0G8104KXpF7VstzREwa0dvw0scC5tS2tVzda3TxwpAaKzI14pm58N2gahxWVUj101wog1py
+
+sprite $AngryMd [16x16/16z] {
+JSk5WGDH203HMLUO_gkzIo3slcAK9Rm6tiAsKTwVs-WGskGD8Rmj3bJpMxe8Ui4KocorgsZIF_00F04l-UNGyN6l0Bjum-GJOB8waG6uS0k42-rsxIVdckqG
+1ai2_0C
+}
+
+sprite $AngryLg [20x20/16z] {
+NT25WS0m3C10bT7M_jC-9EKBCt1OqdtaOV0G3GSrEs1IbwFBdKEhwwFhe0CC7bq7hUbfTiQaSwtdzI7eOWUfBbXoD0NGM0WD85I0EZBP0fkxVAIZ4s-A0hJf
+yOJ686oXiOBIRXHsUs0N9WKMXSFH1QlE54re-_ZIs5Br-V0YwgHV
+}
+
+!procedure Angry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Angry', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/MattressPillow
+
+sprite $MattressPillowXs [11x10/16z] Oy0AkFY1W84V3FWO68XcyiEPp0WJaCm5
+
+sprite $MattressPillowSm [13x12/16z] Oy0D-440I4804nCtWWEKfOp3mmqt6iKU50S
+
+sprite $MattressPillowMd [17x16/16z] Oo0Cs7Z0W84BGZEoyKC00my_370pCR6Y283q3O00FpSt7v800xfB2NiM
+
+sprite $MattressPillowLg [22x20/16z] pT2r0GCn0CNGRsPx_scJOsP-fKhXl90gGAffcuQrmYcbSLWZCdooiY_MX8mSrUYSJ_tA9Zz0X0eGAWvx_04
+
+!procedure MattressPillow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MattressPillow', $name, $tech, $desc)
+!endprocedure

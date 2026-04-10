@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/D/Denodeploy
+
+sprite $DenodeployXs [10x10/16z] BOh70G0W30A9lgpiFwtjlFI0BivYsjDtwRxmggmqYUqoPO7LMMPyJ-1yf0q
+
+sprite $DenodeploySm [12x12/16z] FSg54O1G3C3Gu4xstvQh7EzBbJ2vqGn_-fwEjL2wpQa8jmw45zmahI3jd5WdYlN2Q7vpR3iIBDC7
+
+sprite $DenodeployMd [16x16/16z] NSs55OHG50FHmPtflzeLWj_lalE8pedBu5zt7MrMaIZKHSSZiXf7uhzfLPEeLM2oOXu0JR22KgZdvQeaL0iNCmxbwxm8p5xFRUhdM1qRNVjsKYkYzy0N
+
+sprite $DenodeployLg [20x20/16z] {
+LSzN4iGW30JHaLbdGz__jblpeHAqytC2PG-zQQdZnan0Xm4BeOxkieygZQm-sG0USC4XzmAx541JnrIVuVDkiepBkxRQy2waA0FlDcLbzsglPy5CW_21NhI1
+t5qOS2edSeNbXS_WBgeQnaFsRle3
+}
+
+!procedure Denodeploy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/D/Denodeploy', $name, $tech, $desc)
+!endprocedure

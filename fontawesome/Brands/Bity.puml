@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Bity
+
+sprite $BityXs [10x10/16z] Om02JdvM1X3WPm4Il60s0l23COB5nCJ0mCtEm8kiXWUkYX-CUC4ac605OW
+
+sprite $BitySm [12x12/16z] DKo54G0W4C9ktNzRZ-z-0BJrEjHUvNev-Ycp19QfXyXbwnpuVS29x0dz0WCLRfTFU8dDvajzbNX1csb-
+
+sprite $BityMd [16x16/16z] {
+LKy30e0039noxVx_snhIR5227TYORjYn2fbZA1TJnu-D_Y2bkE9umll7zv-Fg6MylgnHSnKffenvJbXzwHhqxje4siRlS0xhyQUiWaRbnOlt0nw7ZdZEv_ZC
+qZm1
+}
+
+sprite $BityLg [20x20/16z] {
+TP055WCn24JPk13c_gUjiDFKvydduI1KDsYM5oL0Uni6FOG24gq5vkObMn67_DU1au6a_SRrvIk2bze83mJpRQBxfiVecwY-dRXFJaO5RB0fVI_I8JhVTnI4
+XxtPxbIZxnK6BkyRLdP5OQ-9yl9JVvfZw-rhLm
+}
+
+!procedure Bity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Bity', $name, $tech, $desc)
+!endprocedure

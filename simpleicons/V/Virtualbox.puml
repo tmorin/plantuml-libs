@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/V/Virtualbox
+
+sprite $VirtualboxXs [10x10/16z] FS650OG0002X--vd_sbjXGuFL4ZEVIGz1FardPHs2fHJAlNqrFEfGXW1
+
+sprite $VirtualboxSm [12x12/16z] JOQ50O1008Imszj_Mx6VImgM262lPDi2zwGZ5MF0_rYemq-guY_c0YQJ7kjEUB-mMKW_30pc
+
+sprite $VirtualboxMd [16x16/16z] NOt50GKX4CMohaFwh_RBAf3Hd1uLuy7pqlfd0BRZGxjEuNWsKV3mW4bcEpPXz00CMZTyN0h2fl3E1KXw05mh_SWymP77aJZRFuw6GiHn8AxWurHy0G
+
+sprite $VirtualboxLg [20x20/16z] {
+POu5TiKm40CLnktS_xPzgweVvu4WiItfc-4FcTWDywC6SqH9PmHxXr7I1MglasejfrFkHl2jdKBEmQ25a7DLcwuAqWxweizzTqlB3S6pgZjUEw_H0AE1N9Y9
+ZJLhk5wx7VRTq_UzZHgCjCGqGsn5zSql
+}
+
+!procedure Virtualbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/V/Virtualbox', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/SchoolCircleExclamation
+
+sprite $SchoolCircleExclamationXs [12x10/16z] FSh50O1000F1uCxqNotExIUQcpa550jLaWeIY2slxzTuIVRkzSP6I_dKvS7A0dDsuGG
+
+sprite $SchoolCircleExclamationSm [15x12/16z] JSl50SC040D1cUcIwR_Qe6bVmlnerzoOSRd2uTVjoTnZswwc0o55CfkJAGwIgiJXHfYESNWKR4YQmqAErmW8LRm1
+
+sprite $SchoolCircleExclamationMd [20x16/16z] {
+NOy55e0m34DnI-N-joLz2_gHBVLsOl3kpvAPFzEHHVysMJPcwHK8ocrm_W7qhH3PwSr6NPOkMYbLw6aRIWHjT-Tyu8HJsDSc4Jos8UuwER2EgrxrdMGZ0Uq5
+sSHjY_pQ1fuZIiYesRssFW4
+}
+
+sprite $SchoolCircleExclamationLg [25x20/16z] {
+RP430i1030JtxEp_NrkanfGN0oTMFFw890k-5Avql6dS67WYF10SkDQQohFDgbhE3e3XJW1WZuFJ83AuW1LUgLJKxueIajmLNMlhEE233A2osxUYdWsPfm9O
+wz2khXpYd8LJjQPyLYM7GkdjwkDIA4z5vbUXjet7Mwcrviq5UPL3UB7jIoMO0G
+}
+
+!procedure SchoolCircleExclamation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SchoolCircleExclamation', $name, $tech, $desc)
+!endprocedure

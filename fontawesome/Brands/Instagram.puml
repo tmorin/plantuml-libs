@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Instagram
+
+sprite $InstagramXs [8x10/16z] DSI50O0m00Emu4x_lnRTKb4TUGr6w8-TCzFXD3HM8kYShFAU9ZGEhv2N6m
+
+sprite $InstagramSm [10x12/16z] JSpL0SCm34NHQqRvxJzj6qxEZrXywB107BnAE99YPX1bWdRDHTAJdJstPNR-WHuAfuMo0zmKf6dBXkSF
+
+sprite $InstagramMd [14x16/16z] NSV5WKG13CKmVwQykFzg5uTr4v-sIdToJS1grvyeE7DtkSbDn3GGTMF0BeWmk81U8C3gwmR1_jq0LC04DZTAmAk1IGFW94zYFHFmeNZt3G
+
+sprite $InstagramLg [17x20/16z] {
+RSq55iD024NH3nCTU_lVRG-atjxeeFh7lIGtXSORZtCrNSmdBggUYfWxUkhuHi_03Y0RCaO4JdfPoHIJU9_vdx_ntb1Odu7Z2lWpKB08L5upK8HR_EOMWmaZ
+9rSKAYpNd8BULSHxn6agqCyZrS6CyE3fqAyR
+}
+
+!procedure Instagram($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Instagram', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Microchip
+
+sprite $MicrochipXs [10x10/16z] Os1Wu6NW0q8Gu0T1C0C267Y16C87I_A3fFdumInqCOGw240o3m
+
+sprite $MicrochipSm [12x12/16z] LSs53GGW5C3G1lVkF-svlWXy1m8SAW-h8WO0NmPXkiETJgeXv9nPLZ1abIN7pz_VVFMvxP6_BxXxv8PFuU_k5G
+
+sprite $MicrochipMd [16x16/16z] PO-50SKm20LV_0lazf-sxhqe3fg8JUhptZ2KaOYhMC0SCpoiueaK_-1n1UpVW7Za0SadcPb9bfIlSiqTBlBR_vJx90VrP_xey5-On1IbmCanJqM1f9N_PRuH
+
+sprite $MicrochipLg [20x20/16z] {
+TP050aGX20M1JINU_M-xy8tjiSU62d4YZb4M2g8EfWRPphxS6QyCXpSqZrS5N2QdakfPlvqyjfVpA2HTFMUuG74QZdj_T-Yj1cyk8UPt5_pxlDRAoQautjBk
+CUONnv14iZOTf0hXh__ULlWGFiljV_n6d5kwUvRa0G
+}
+
+!procedure Microchip($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Microchip', $name, $tech, $desc)
+!endprocedure

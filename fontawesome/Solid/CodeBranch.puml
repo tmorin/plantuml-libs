@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CodeBranch
+
+sprite $CodeBranchXs [8x10/16z] BOK50G0n08HubmdzqyvFWB01x_rbOTDN0KMw_-KTHq1c34FnT_XmkW8
+
+sprite $CodeBranchSm [10x12/16z] JSO50W0X20NHlvqozp-jNQF0q-cKGZkGO9YjMUbnHHdeGIaKjSHSLcvBKcuMk0edL8aL1
+
+sprite $CodeBranchMd [14x16/16z] LOx50S0m3CHSvch_QGCNrajcc_st2Ga11L5-R5VqO2SF-wVeuWm2l37A0WeaBPfoz0jO5MLkKpH5kk7AD4JGXJzsjkZMGw8-LF
+
+sprite $CodeBranchLg [17x20/16z] {
+RSt5OKDH40D0VUOt_LSRZjSqnmKfsStvSnWJEFC3zesDBbzsDfZJzFbo6TAi8Dys6cdOAcDEL0jpdWRJms0XNoZjUP1lNDkFjQ_eycRGqP8Ka7AwGbU3PWrz
+3GQGb1rzoYS
+}
+
+!procedure CodeBranch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CodeBranch', $name, $tech, $desc)
+!endprocedure

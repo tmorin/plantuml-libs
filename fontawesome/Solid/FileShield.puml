@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FileShield
+
+sprite $FileShieldXs [11x10/16z] HOhL0O1G08ImM_QVrlOUNnU0El7WpPw8Uo96C765EUvD8bE9Fd7ijVK4
+
+sprite $FileShieldSm [13x12/16z] PSV50GCn0C0m5yFn_jEsnwYVG3Kmqr4z99Zt40rRFf_k5fKj2HvX3MhNFT2FyHu3Yjy_
+
+sprite $FileShieldMd [17x16/16z] NStL0SKm3CLGbJ7H_jC-RF3--PXWLtKcPVEVDK7ybxeqC8ywDy2iGmKNB9uL9AtXXXeMODaBHCRKI5zKcQCjG8Az1nzO2qm_y6Jumq7KMNa3
+
+sprite $FileShieldLg [22x20/16z] {
+RSu50WGX509Gx9RxdtRxhydq6mC0ZPyapA6aJsXuO_iZdmTFYZfuKXIoRXg_RJPbVsNMEQTMitUGZR9V5L29xpGpT_XQv2jJt_zszQffQ48HxKC9BSfPyNj4
+9cZH22_R0sZ2G2PPIOKd
+}
+
+!procedure FileShield($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FileShield', $name, $tech, $desc)
+!endprocedure

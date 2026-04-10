@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Alipay
+
+sprite $AlipayXs [8x10/16z] Ou01VWI0i9cP6PYPWJG71mSZa69dOE24Ac83gMRaPm4AGqKG3
+
+sprite $AlipaySm [10x12/16z] PSQr0S104C0mX_cy_xHXVbNYuMLI7RoGB296r00wGgtL5aOjTC8U57BLjlD25uTo0G
+
+sprite $AlipayMd [14x16/16z] TOo30G0n302lThF_j6_ZOdB7jBvJCV8cybELKXoJQqjLMT3NPS8I51DfkxHzNLvdQjr30rdcLurvJyy-054ML9FRutjrOmG
+
+sprite $AlipayLg [17x20/16z] {
+VS_L0O0m54FHYtko_xIuGtk-Aa_vIhER1FpKjVudY3pqSx4Kijdvhm4aUTVMgtUPWMh_Pv6TPVj4jYfclHUbDomAsyrnxuU4cSsomHw_FcZvo8xTy5lk5rxx
+9xnD
+}
+
+!procedure Alipay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Alipay', $name, $tech, $desc)
+!endprocedure

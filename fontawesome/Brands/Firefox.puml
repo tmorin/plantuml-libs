@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Firefox
+
+sprite $FirefoxXs [10x10/16z] HOd70G0W4CAmlpJxJslNwq2qAiYAVQX75hPl2BOiXAiu6Owd3lX2kc8
+
+sprite $FirefoxSm [12x12/16z] HSY53S103CLGbxb__scFarZqP5eB15PTpP80VV1sWbOAvxLPrIVTI_5_n2-7ITKHPn2-mHrWjfi1
+
+sprite $FirefoxMd [16x16/16z] LSk55O0m0CJGu4xstvPtU8Eqly9TmwyHwaq_xokmsGTLezO0MuQgVGWA9gvs9y9nkxng5Gy--pRnUbl5gujn6ILhA0pq9Q4kcARdBXm
+
+sprite $FirefoxLg [20x20/16z] {
+PSo54S0024FHr9s__xGLBlLtWgDBfRTsgAeXY5O_0PBrG3WfbTWjIYFamP9RbkdOiIjaSUGaZUvsCBWteQiN1QJblgN2tCldMAF3acCkLJ5mc1LyrUhuybUx
+7_Cowr2-MxQy3gqOujYfbJO
+}
+
+!procedure Firefox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Firefox', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Crunchyroll
+
+sprite $CrunchyrollXs [10x10/16z] DSZ50O0m00F0mvtiFotQtYS2IqQGpqBII1YaUIyiKLf-65D9kLTBKow6PdWVDm
+
+sprite $CrunchyrollSm [12x12/16z] HOk53G110CBwheJzfpsNnb0odsyghbHv0MpEajssGFZAqlN6N3TzmNrdtM3g4szg6Z13Wa0-W0W
+
+sprite $CrunchyrollMd [16x16/16z] {
+LSp50GCm40F1DRFLVxK1Gs1UXs89Gyrm3MrfjwiqkAvnMez99KBlwtYVA48sI7wr-tW6QRVo9pkTlfvmaxIjlecYOmuv8nVr1UhyzKaCNHaOtuF1My_qizsC
+0Clo1
+}
+
+sprite $CrunchyrollLg [20x20/16z] {
+NS-5hSDG40NHCREd_se_FD2DSiJBItEytYl4OlCCD1f7GbSj62xF7XhWK1_0fSw2qs84X59bGh2ZLw-IuZnwMMB3gno95Ifs3yMj6CjqojfZ0Shz7NiSyDC9
+WnUF1i2Hmlno2cz2rUB0qcR5VWt4Bm
+}
+
+!procedure Crunchyroll($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Crunchyroll', $name, $tech, $desc)
+!endprocedure

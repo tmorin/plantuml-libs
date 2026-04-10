@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Angellist
+
+sprite $AngellistXs [7x10/16z] 1S470S0m00CWzcyQ_suB15X_3Qsx38-RimsFGNHl_itz_VpIbJf2JG
+
+sprite $AngellistSm [9x12/16z] 7Oa50SH04CJI7cFygtrO6WGMn9Y0BIoCXNRnVG6vhr6hqVGLyHQlHIPx2dBMCIhpULv2dzHy-08
+
+sprite $AngellistMd [12x16/16z] DSI7TGGn08JGBrtOz5RqNwspPm2yB_xNzKRzLBpFvudSZ-yCdDji993MUoxGKTR4gzPpkmlPWsVScxudlVDSlKYlqMmmqvht2lVREakCqCRBim6hjGgV
+
+sprite $AngellistLg [15x20/16z] {
+JSu5aaGX303HHkOR97t_sswHidsu9W3VufzflW2Frc5GepZgb7Ey5pO06O8qERnnFBAIuvO8FnmK6SgKygHbSwZI-bmApEHnSFX24zICO6yU3OPDxyflLdK1
+iN6qRfW0FdYIq1_GR2oNhho0573rmI_WaxfY1xesolBu0Fu
+}
+
+!procedure Angellist($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Angellist', $name, $tech, $desc)
+!endprocedure

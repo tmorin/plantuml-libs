@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/Bookmark
+
+sprite $BookmarkXs [7x10/16z] O-070Hu-1X3Wv0TJpCHG88rSpFpyh0mClFm
+
+sprite $BookmarkSm [9x12/16z] O-3X1mCs7ZvsCE3dPsS00_8PZFpyO0OlFmCRFnVGS5w83
+
+sprite $BookmarkMd [12x16/16z] Os3ZXm484y650Rgp6Vdv-Q1i7dv-88-L0UmYDWO6e00V448r0AK
+
+sprite $BookmarkLg [15x20/16z] pST50GD100ImEOQ5-5TR9WdDBncxZvBHhzuD-UZ8r_dVdNuxe7vQAPWU7J0cExM0cWSeZ7avk08
+
+!procedure Bookmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Bookmark', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/SkiingNordic
+
+sprite $SkiingNordicXs [11x10/16z] POh70OG048IuCqVwxrPvo-QTuSFcHkWVYP-dGYo7yGDEj0IXEMH5Lbj5yMhTJ_VzpTq7
+
+sprite $SkiingNordicSm [13x12/16z] ROk50O1030EJudhxJuixNsz4oO3ZiEzd09fBKJVGduy0HlOx0mziJtUuZxPXEwhGW7myonrYkseUCGC
+
+sprite $SkiingNordicMd [17x16/16z] VSw53SDG303H2t--_RUjh3Bb2StcnAgyKHCtksNYK6us0nFSA5NbDM7Ws6y9cZfK2Kweegu0IuTRROy4tfvORucIO43IMy9RuBWcnioXK6yZGITGGXj-k
+
+sprite $SkiingNordicLg [22x20/16z] {
+ZSq5iiGW40RX7tVw_gTzCkk-7PcgBm7qJOlzY0re3zg1hai0tiOTcZjTSf0dG90kLR2JmEbIOGYiTFc2rmAenzsjDIM0hMflooDJz5yuAbbIDhve-HzH4U2Y
+EDbvgbnqZty4ALyqO4YKO1tL0fADe6EzzmdxRspe5YnuRFq2
+}
+
+!procedure SkiingNordic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SkiingNordic', $name, $tech, $desc)
+!endprocedure

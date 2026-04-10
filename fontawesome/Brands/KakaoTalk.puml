@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/KakaoTalk
+
+sprite $KakaoTalkXs [11x10/16z] FSQ50G0X3C30lFjd_sbnE6WRilkY-2qsiBlmVVNNl2vvSNbzSeBx8WvSev9UEH-A2
+
+sprite $KakaoTalkSm [13x12/16z] HSV50GGn0810rkFqN-rfP5x0rv4JdLtl3dGvX0qH3rLgQ0YQbIz1qMjpEu_DHwhJoReReFbL-56wDm
+
+sprite $KakaoTalkMd [17x16/16z] PSx50SCm5C1G9J6Jzf-sp7qd-pDtkRV8I_CXSBNv0S1F2_nMi6rR6CsWmQpDLHWWIjWVVS92GUswoB2Xa9J7P6un5B_L_plW-_yLIRm2kRN4Y_9s1W
+
+sprite $KakaoTalkLg [22x20/16z] {
+RSzL0e1024NHQyiC-FQ_MhlrVD9mw5Aschl2TJ0EW-wQAtYN0FHXaFLL88MxQt6EybO2o20XqMQ6BM_8mTTeXP_JLTHrkKPXYUGj2h1De99Kh54ZWW1e0vVG
+3wFI5s1_GMZ_We1kCeUuNkLobTmKKWbt4m
+}
+
+!procedure KakaoTalk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/KakaoTalk', $name, $tech, $desc)
+!endprocedure

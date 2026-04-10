@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Wind
+
+sprite $WindXs [10x10/16z] HSZ50O0000GWxFRsdzOEdhWiyKX2SIbZoAtsM_FoodNC2GG3ae0T
+
+sprite $WindSm [12x12/16z] HSlL0SCm00FHQyDu-qyRblq-1Rm61qBTA5PPZ1c6pm_u1UnML3QgpxQpJQihDudoEW4
+
+sprite $WindMd [16x16/16z] RStL0KKX3C3GN3SW-q_xNB3pLIy_kf49gcJ6KI6NXCiSp5aMw4YvcQIvn92P57BHpxyP6Awett_0gIxVEO1X-6HH-RlKdOyx
+
+sprite $WindLg [20x20/16z] ZSYr0SD00C106PvYqFxJchdAbSV3e8ctnXLlhWfVWmEBwg7M7Ze_AYY-jVolzMEi6VKhaykRobUbb4tW57JqKBFeNRMUMBYgsDNAgfIMNLL5vKLNl7nh1W
+
+!procedure Wind($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Wind', $name, $tech, $desc)
+!endprocedure

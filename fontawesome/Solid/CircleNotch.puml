@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CircleNotch
+
+sprite $CircleNotchXs [10x10/16z] FSQt0G81540Xp5gz_QVrygS2er8_2lGIeD-isNlct2U_pl2gYWK
+
+sprite $CircleNotchSm [12x12/16z] LOo30G0n54DpPllsdxOsVwXvmIyWZldTeOwHCwgZNZw6t33VmopsCXfQpyOL8szYRHQ1o7e
+
+sprite $CircleNotchMd [16x16/16z] ROu50W0H50Mt4tF_q-fcvE-tJ92mB0BkO0B2FWfKC6NmhzullHc0rPxIw83JroP0ShIJs1hxvwninOfgwlsCn6U3LncuG-XvX2XSxXM0b8fW1k50Q6m
+
+sprite $CircleNotchLg [20x20/16z] {
+TT253OLG04MnYplTVzhlYfmOASzpLeEaP2dUXBiLC7neBNElnVYY8U_GtDUwqoychFcDFjH_jZ2GlohMhHKui7bh9UtMUaB_PonP-AMECWN-JYB9y8FT-tl4
+KXL5sKFvUT9FVmU0fSozAm
+}
+
+!procedure CircleNotch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CircleNotch', $name, $tech, $desc)
+!endprocedure

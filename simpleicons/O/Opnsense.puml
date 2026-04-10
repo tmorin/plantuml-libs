@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/O/Opnsense
+
+sprite $OpnsenseXs [10x10/16z] VOat0S1008J0GF2lDktB-2nN0Ak4sHBr-iYAZpetTyEsSBO7
+
+sprite $OpnsenseSm [12x12/16z] ZSSt0G0m08H053p-rQQtCKm7O2-CVCOzAZFps1_dCNbCd05de08
+
+sprite $OpnsenseMd [16x16/16z] hOkb0G10009fqDX_stSZ_oKK5G-4YIFmWk7Dhd6E2k_VNk71y2tmSsHuyF85
+
+sprite $OpnsenseLg [20x20/16z] pSe74S1G0CBGW83YtsttHi3FxNTXIJaJQs-BYqN5rbDhqzrwPesxzIoMaKp5S36KP-ov62g6tpO3
+
+!procedure Opnsense($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/O/Opnsense', $name, $tech, $desc)
+!endprocedure

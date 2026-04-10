@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/ChevronCircleDown
+
+sprite $ChevronCircleDownXs [10x10/16z] DSQr0S104C0mXpdUVzhdKoMAovtAveheXk5ILAmMvDUzjaOCN17OHZ8
+
+sprite $ChevronCircleDownSm [12x12/16z] JOo50S0W30I_xhtzfyKXkRWgyt2gGiMbu58-b_F0iW3wA6YkksTxKGAP2SiBXptzbVXwDm8
+
+sprite $ChevronCircleDownMd [16x16/16z] LSwr0G0n30D0FOH1-qyRnklCHYC2tOCfi5DekCGPJdusJmzu4ssEbMDHszyszErH89HGhIO28-GpEtf8i0lp8yaJxeSa2d-7m3DdYmm
+
+sprite $ChevronCircleDownLg [20x20/16z] {
+PSs55OGm44NHXnFz_LUxGlGm5yqebSkA9vD3LLgeD74s97aRaeu-Qm8oRcIvEUFADzUn9KHMjy4KYYMuWuDwE7lbQ4JLtggKI7fRMKmCS3O4_jNvEEQgxguR
+Iz4N
+}
+
+!procedure ChevronCircleDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ChevronCircleDown', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/FlaskVial
+
+sprite $FlaskVialXs [12x10/16z] NSR50S0030B0ow_E_jFMFG8dwnoXRXSnnZ2AdvElG-fn6tRkGtTxWDDP
+
+sprite $FlaskVialSm [15x12/16z] XSU55O0m4C3Gu4xstvQ7UvlAtSSvglaVeLxf4c3FFEURngblDZCzw03fJXANHXXdkiNi-c3Dqi49
+
+sprite $FlaskVialMd [20x16/16z] bSYr0O005CJGuFwp_xIuKv7gxk5QS0r2r-XqBLcnI0TJwCtJC6Tk-OCi1c7wpuR1Z-bgkdZzCVHklULgwSsqdmlZijeZ85VDyAm3UfNCA_R2hwLtcm
+
+sprite $FlaskVialLg [25x20/16z] {
+jSgr0GDH081GpkKB-qyRFvSkhmNy2P3yoW3PIL4xwO32PNC2GANGA802MluX54Lx7jJxqFt2k0-QWAYxK6a55DfkG_gjMLSXWOjo2IN1HOHf1DS0UjMMmRK0
+KCOqG7Q3cLUXTgtZ2G
+}
+
+!procedure FlaskVial($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/FlaskVial', $name, $tech, $desc)
+!endprocedure

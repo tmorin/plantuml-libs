@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/TreeCity
+
+sprite $TreeCityXs [12x10/16z] TKh50S1024lTc_sdnNaU6aFKH-905icPyUpuwxFxsnB3pzEclx_pY8_M1rW1
+
+sprite $TreeCitySm [15x12/16z] XSd50S8044JHZpkl_sfn8gUiZFORr7NYt5AXkBgl5Pnp3KmHP_1jrxdCs-veQ6kbOiL-PR1WmJu1
+
+sprite $TreeCityMd [20x16/16z] {
+bOq54aGX3CNotKhV_M-xWyFu1WyL6a7I3KxdLGIq05os0wR8cbsyXkZELJAJNToAHBUW3A4vj-hKt1tlDwwWENV5z7NNeBjhYRcB2nRJnfGBQMjzuqPtZJ_S
+bzobnWy
+}
+
+sprite $TreeCityLg [25x20/16z] {
+lOtL0GKX3C1oxcN_QN4fJtulEAcWM8n7W7j5Cve4c8Ul12rk_vZv5kcrH05hjYT3lWKHjmoJ5ligLTnQo1FlOL_CTwanr9T_uj92GpwVACv3mlsul23sk-XA
+4QvXFo2BDVVeXU95iH1FXJW
+}
+
+!procedure TreeCity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TreeCity', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/W/Weread
+
+sprite $WereadXs [10x10/16z] Os3W1mC-88CKm0vdSKDrmirXOELdG0RC
+
+sprite $WereadSm [12x12/16z] bSQt0O0m4C10VKC6xJyjoR7rLGU7oGesXmDcYokWddOZBdih7_dj53u
+
+sprite $WereadMd [16x16/16z] hS750SGm00InCREt_seFm_b60ZUrwe1EejFPr6CCLWTCaj6EB-q2qBMR6hhh_6GP_Ym_Zfz1JEm6Rm
+
+sprite $WereadLg [20x20/16z] pS750SC000GWufxRVzgw-xE08JVM6dKUaIVpa3zGOyYTJaJk05DkJI3tIipvsUgeIHP7LLqwcPrCLW-gdhalRrHJRmi
+
+!procedure Weread($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/W/Weread', $name, $tech, $desc)
+!endprocedure

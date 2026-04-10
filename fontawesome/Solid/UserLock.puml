@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/UserLock
+
+sprite $UserLockXs [11x10/16z] LOY50G0X3CJkNI7xJujhQkafiAe2tDb-0bdlhkfM_pUdgmYr4LXUG93tf1u
+
+sprite $UserLockSm [13x12/16z] XOk30S004CHIkzb_sjhC6yT8o4QbnklWoFyGhFrEey5Oqom12Tj5qc0GjpIEK4_PUMXlGmy
+
+sprite $UserLockMd [17x16/16z] bSwr0S0m44DHXJb__sa3PgZyoaF9w9GP0D8QXe8Pem-57MFEJq1z8w_SPlbG1Y0lI2REY14A1yQXXVDayq_fX26Q2oy
+
+sprite $UserLockLg [22x20/16z] fSpL0SKW5C3GMyN9_jC-nU6lgN8GIUqovm3qW15ctabrwhCUhOQiLwjwUO8aZ0NQnJAq1t2_FmKguR3BZWg_vzV5jx3_9Vpq81MojiWc5jB1bEg_cANoLDy
+
+!procedure UserLock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UserLock', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ImagePortrait
+
+sprite $ImagePortraitXs [7x10/16z] O-070Hu-VZJ0m82W468Ch60A8SeDeG
+
+sprite $ImagePortraitSm [9x12/16z] O-3X1mCs48q9U60q0mEK1MVmmmKO644q8mCGS04PlDn0WAI03SO
+
+sprite $ImagePortraitMd [12x16/16z] Os3ZXm4uap3WGZ0P61ZWeY0sGfmPcqvsHaOcNgWACE20is6wkS605xVj34Xi
+
+sprite $ImagePortraitLg [15x20/16z] bSt50S0m509GuXxsdxRktdVx2cJb8a5ogrR-b_As0c2s0PsrBFkI5YYyaqDdgIG6PVDtVIRt9TCeyqtQbwZRAhG
+
+!procedure ImagePortrait($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ImagePortrait', $name, $tech, $desc)
+!endprocedure

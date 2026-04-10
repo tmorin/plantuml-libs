@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/Clone
+
+sprite $CloneXs [10x10/16z] HSQ70S0W24JHIuzz_ssbynLueCQY6k4ke2RD-x0QxjSqocDQG0fBWxTYjrafrWO
+
+sprite $CloneSm [12x12/16z] LSp50S0m34DHbRdQVzf2p3_WTpB-s9eRj-MFpMXLasvk22_LkgSPPsjgrjJp-N-Kfiyl
+
+sprite $CloneMd [16x16/16z] XOo34G0n00GVCVklDZPtU7m2I2UYX4bbG-WdSTTGY5RxvqQ7nwlcWtvrG_2_n9Dqfj7w6_IR2jsH1G
+
+sprite $CloneLg [20x20/16z] bSy30WKX04NHxBhxN-t7s7Y3wcGnf38cZyGYhIT356CQVUcma-KNPfpR6i36Aj7QZS6_V6fsQzkxZMONeF-spPt1kMLQ6fAd_hRSiQSl
+
+!procedure Clone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Clone', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/L/Lightburn
+
+sprite $LightburnXs [10x10/16z] HOg50O0m30GFTsx_QT4sdZVEyrI_Ey6gkg3EgAZvdCe7YjGM22as2grdIVRU
+
+sprite $LightburnSm [12x12/16z] DOW93i1028Iczot__sr9JTbL2Ia1t0zmhJjDCgn3ycctFGKRpJL2ipo_HURMzOwKzYIwO0ssTkuHsWifrV82
+
+sprite $LightburnMd [16x16/16z] TSpL0GDH24JHkxxFcFwxJO2ud2zq67ObvqKrVJe9HtO3bY6r2Snx9YNB0RhRMFLN7qLFXFvOBWtN7ibfbuD94o7xMLIJzoFVFIdwgWV8lhsqiqaN
+
+sprite $LightburnLg [20x20/16z] {
+RSm7aeCm50JH9YEjzEV-frtRGmwFt5KC9NvaOMFHkmcWoKUe3PjkJGbQsGp8e6hJGhZf16RFwImcNKowARNzwww9bGv1NkCntxHSMvGMXhKr-zQW1cYFHKYY
+Y-fEslVyYrkxffnztmV3zKYzf75DBTQ7f0y
+}
+
+!procedure Lightburn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Lightburn', $name, $tech, $desc)
+!endprocedure

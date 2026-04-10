@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/ArrowsToEye
+
+sprite $ArrowsToEyeXs [12x10/16z] Oq06_408f_cXR32JdnM8GJHOY0Sc2QQP-BdX7AW280N3p71pKCm7
+
+sprite $ArrowsToEyeSm [15x12/16z] NSsrOGHH0CHGxNv6zL-jVKoAtaJ3JnuzFjNaS9N7749V5ggUw3X9fQ3gF2wwjjoWWNjwmjB7h0gFfHvJzPnQkBX0Iw3v0kVpDtiW9_SAX_y
+
+sprite $ArrowsToEyeMd [20x16/16z] {
+RO-5OSH03C2K7AFsdxRSn-ZGR7E5ZRFSf0bckcrwqtbk3sZgNUUtwXmgLDqdw1fGr8bwU-yXbQMT6_rR1Ietr1DOEcwweFlLZwakzRoBqbKzKGLE5KWj03fF
+OBla7wSDz7YQjvd91yzaFW4
+}
+
+sprite $ArrowsToEyeLg [25x20/16z] {
+TOy75iKW3CD4w8OVt_-qVuM-RdLRBeD7kW8OEp9OXIAdYer9bgG4B_b1p1gb0Nv6Hz7oKa9CBbKBKMR8-W4AAcCB6lhY-b8uu54Q98sijA3V5Gu3sRh2n4QI
+jBI6isVvctHOp_nbfAXX4Mpxc2DFxGMmCPxaUJQYaO7Jm24SC6ceHv5VFrCriEYmMN0P96umFW
+}
+
+!procedure ArrowsToEye($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ArrowsToEye', $name, $tech, $desc)
+!endprocedure

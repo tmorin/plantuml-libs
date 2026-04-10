@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Print
+
+sprite $PrintXs [10x10/16z] Os3WuWS2JWOWu8S0P1O2yAC39YGsDrGjY8Ama4q1
+
+sprite $PrintSm [12x12/16z] Os1Wu0S380F4H73uOG25ZGBuiG4CKLuU4039CF4pWVNnW6WO6zLy
+
+sprite $PrintMd [16x16/16z] XSY30S003031hztVVzhQl3X0wgncahXXrBZxlU-Ivg0EKZzGU9AtNesV99mrAaCFcTN60HplkJSBPUGEUW
+
+sprite $PrintLg [20x20/16z] ZT235S0m403GsDX_sjhDuJy6Hx58_HJ5eVPRFUxwo-Wk3kxguAu9Y7mx8jz2wZGr27Ioi-KzoQbi8qlrlclRuNDtp6lagGntaBSx-ztf3
+
+!procedure Print($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Print', $name, $tech, $desc)
+!endprocedure

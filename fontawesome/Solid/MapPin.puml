@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/MapPin
+
+sprite $MapPinXs [6x10/16z] Os1WucTWOE3dP-3dP00IG0OV1uW4OY095W39Cs0X0G
+
+sprite $MapPinSm [7x12/16z] VON50S1G58EeUxF_j4_lFmB0zm2RNWbYwQXITojpa_w9w64e1m
+
+sprite $MapPinMd [9x16/16z] dOc50G0X4CFohf3zfyKd8ATjWJN-LAmyyBg1BlXmgm5PhU3oZwVpZa3W6XSmClja
+
+sprite $MapPinLg [12x20/16z] hSc50SCm30NHAyUast_R6ZV8CmW-tREQMCBX6gtw91pHpmeK5SQh3XS6JntAwA_JXyUNomC8pxfhfnqUcZdqkhqFtwFy0G
+
+!procedure MapPin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MapPin', $name, $tech, $desc)
+!endprocedure

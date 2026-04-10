@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/CreativeCommonsPd
+
+sprite $CreativeCommonsPdXs [10x10/16z] BOc53S104CDS5BRUVzg7A0T1zbnaNhz78-85VtGphV1wi9c4bL8OA6h22G
+
+sprite $CreativeCommonsPdSm [12x12/16z] BSgr0GC140GncVcc_sxzf6o1rSLXQke9VQtwCL_ktpkTrKo_a3nRAdGPkjM3H57VnAjYrZVMV_W5b-xMiXN-
+
+sprite $CreativeCommonsPdMd [16x16/16z] {
+HSy72WGX343HRmKPD__-jzqmzL4rdKjfVAgduFBpLu2kWxHzSWyhrFEvzWAseCvYse0B-_D8soBmDAVRhlTI2-JhUaDNnnG7X8wZb509WL03YXqyI9Mam71p
+qUUStTiCXSlIL4b_
+}
+
+sprite $CreativeCommonsPdLg [20x20/16z] {
+LOy7aiCm3CHMSYyY_l_R6tBjIm9NOLZrqYRzSbB4nw_0s9OZjSm1woU-Fr7wP_71xtxUPuPiZ0eFwIRP90LD92DxddibS8YX9VMY1w9L0id-EAOAS3gtdJZi
+f1qOlHnscwUhw4ZNAAG-OD74zI_RkyAxRK-ZyCcrJ70x0A8hMKbb1WzEDEq8u5vK_04
+}
+
+!procedure CreativeCommonsPd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/CreativeCommonsPd', $name, $tech, $desc)
+!endprocedure

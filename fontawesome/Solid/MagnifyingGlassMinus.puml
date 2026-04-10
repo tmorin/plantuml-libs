@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/MagnifyingGlassMinus
+
+sprite $MagnifyingGlassMinusXs [10x10/16z] FSY53G0W34JHZqEi-szBwlfom9Q5bMWLbBkaH-zZLKQgsD1wq88eFm
+
+sprite $MagnifyingGlassMinusSm [12x12/16z] JOs30G0n303VBFQVDjQriHRYd-UYJ64Jrp3VWx_uLltPdDCf_H_vc_bl7FXU2OnNkenl8W
+
+sprite $MagnifyingGlassMinusMd [16x16/16z] TSp50S1G20FGKFVkF-rt1zu93RpZ_rOKtnySYFxiITjYJkiYH3NIkkHGV5yNvupz-ZU6l0zz889x7Cpfs0yIeXI5GXbO
+
+sprite $MagnifyingGlassMinusLg [20x20/16z] {
+ROy53i0W34N_32Uz_ssN3od-Dg0kA9WiwSD8b8hl9kbC9gKdTfo6hO7cOCiKp4iyHQkfgEWyYK8Cf8W6m2Sp82URdqpciCU3W_52nMdYKo8LwmsVgqTsfaYY
+aJX4_W
+}
+
+!procedure MagnifyingGlassMinus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MagnifyingGlassMinus', $name, $tech, $desc)
+!endprocedure

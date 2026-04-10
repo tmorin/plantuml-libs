@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/HandBackFist
+
+sprite $HandBackFistXs [7x10/16z] DOM54O0m5CLo_1EWalsdhVT90du1ID8wDF9lXIpzCILktJZ3izG1
+
+sprite $HandBackFistSm [9x12/16z] JSR50S103C0mboaNxpzjcVGIT2K6TfMHAlJ1BcGvWuESTBWpvnrSs2q9qGB1ZwVoPWC
+
+sprite $HandBackFistMd [12x16/16z] PSU50KKX3CNGFCVl_jD-nGdIKy37Hnk_bFjv1-v3yjcmFUB81cqInPcBNRKNKhOiPGa2sBVwzrdbWD3PLxy1
+
+sprite $HandBackFistLg [15x20/16z] bSd50GGn0CD0XpdglzfZXWNznjQfCTnikcMuDIu4Qr42w1VgseJvv6MGUM55lB6Hz4BGNqug-KaG-BiQGGRiyvGic8i6NglnR1-F
+
+!procedure HandBackFist($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/HandBackFist', $name, $tech, $desc)
+!endprocedure

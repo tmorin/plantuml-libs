@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Openai
+
+sprite $OpenaiXs [10x10/16z] 7SA55OG0040XBct__jDQ3w0lyEPR8S7W7xs6IXPzD0alUJuqb9UoObtic8eu0G
+
+sprite $OpenaiSm [12x12/16z] 3Sl50O0m50FGXqFbP_zjwIKUk782X2q9R9lP4MegAeVhs5_Lrk787KiZv7EdS7y8zPZtXipcYQLZairtxK5OR8AlycorymC
+
+sprite $OpenaiMd [16x16/16z] {
+HSc5iKKn481G8bSYk_HVxPUdZ9w1Hs7dsyfAc5uygWim2hSF9spBumYNqWTCRGZov_FqXemashzT650jylY03d1SwFKmOv88pVbmcOm_N70xVLZESreFxyU_
+aX8G2wfKDs07o81H0J1t25JvbAOF_W8
+}
+
+sprite $OpenaiLg [20x20/16z] {
+LOzNbW1010IPdEl-jrrixW-Xq6z6FZLvHVwfSeRHrB9-euJ7GkYBOMTwYUFp0csiP5gLVQ7xuJL6k4AsQ5tJO0bKEXIaNmbssGnRNk3dmRRrVkg7r628IU6g
+PEOnm3UJ6NDKh0gMYPidbMRjitWXcCVdrWcs1YiHErI_3bP84eRR3VG-Nw_Vl_RiR-nVpNl96d-Q-tzfOee5blpLnjIZ_
+}
+
+!procedure Openai($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Openai', $name, $tech, $desc)
+!endprocedure

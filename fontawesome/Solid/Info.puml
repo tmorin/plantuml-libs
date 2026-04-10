@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Info
+
+sprite $InfoXs [3x10/16z] Os1XOE3dPm02DWOsVaO67WJYvES7
+
+sprite $InfoSm [4x12/16z] Os3WOs3WuMS44WmWmCxF3nG2OWPCpClFpmy
+
+sprite $InfoMd [6x16/16z] Os1WuMC00dv-VZ392-8mCi003myt0mClK98Hn26E16lWvU7Z1m4
+
+sprite $InfoLg [7x20/16z] dON50K0X08NudSh-qvetZxu08BvGg7kHUXVjofZZF87V4ZYxO9tKhWkFBMzN1W
+
+!procedure Info($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Info', $name, $tech, $desc)
+!endprocedure

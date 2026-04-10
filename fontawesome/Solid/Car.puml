@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Car
+
+sprite $CarXs [10x10/16z] Oq02VFmWm0HayGCncEI5i_Yn0OWegXmd6F3mim4rGJG3
+
+sprite $CarSm [12x12/16z] TSQr0O100C30u4xsd_QrGQywxYoEsZrpoM_93c6MIl0FkrcB_tOgvMoefZC2
+
+sprite $CarMd [16x16/16z] ZSV50GCn0CJ0DRFLVxLXpj6y92s8OrvrenjUydKDs1iFrvzOtOrRWHxiDJEC9p21FLw3Etkh9XwgE2AOfm4JZ9uQwCSP
+
+sprite $CarLg [20x20/16z] bS-55GGX34NHFuhp-gzsDPoioyMTw9rfCRE6ZhFPo2rTGDS0qLg_fe4tPW4xEZae4azYucUtdzwrsLoz2MFYh1PSuZ_fHkLADtPWXwvRWCoj8m
+
+!procedure Car($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Car', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/R/Redis
+
+sprite $RedisXs [10x10/16z] JOg50O103CI2Ezb_MkGzzTxHeZ-m69d0yx13WL71g_7nTqNy0Lsj1w322m
+
+sprite $RedisSm [12x12/16z] NSkr0SC000F13yTu-s_hpgH6t0t0eL3XJxpB4FNohq9T3nKy65jR6ItLOa30Csg1gLGDF6e3
+
+sprite $RedisMd [16x16/16z] ROo50GCn3CJkcQFzfosOYWhAfBySF5bT9egdyaOBRmVCye8Lkj6-epViwZopktjBhvDmd0-zN37rQPrqeGPaP-FOB7aIQFHKQ2VPfILLmo1ZNP-cEm
+
+sprite $RedisLg [20x20/16z] {
+TP053iKm3CMIyLRm_M_xV_J6O57bXkqR7rE5klXkPWva9iwKK2DN-hzh2PO2c6_PGBO4U2J95Tm68FtVVJZHdNAYoL6oMpZ2EB5e1u8Cg6WzehRM84M5KNKo
+sGf1T9aq2wxrpssA3k1dfmxTUHxTJiNzD9s5acrSZny
+}
+
+!procedure Redis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Redis', $name, $tech, $desc)
+!endprocedure

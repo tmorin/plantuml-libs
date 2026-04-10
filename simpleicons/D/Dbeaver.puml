@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/D/Dbeaver
+
+sprite $DbeaverXs [10x10/16z] 9SR70OCm000nfVVS_jC2jlKIu0-5IoEvOutlYLUzwOUwgEQCNKPTrMFiNyNet0u
+
+sprite $DbeaverSm [12x12/16z] HOg30GH15CLoM2FzLpl6vnEjpZrV_S3dveA_Yjb9at6kDOqbvBC0wb4kxIuL7nF3T64NEyP7EyQA8m
+
+sprite $DbeaverMd [16x16/16z] HOu55WCn509PYGltlstvVQITw135drKzReW4Gu6dAwXyxTSzS0Wl6Y-rREzncdcEuzfmKyVjqsDueh0NR-Zs7Tx9RATVhF7DdrVoqfViOXFyqiyVJORP3l01
+
+sprite $DbeaverLg [20x20/16z] {
+POy50e0W34MVHSFkVrfZXFMLUckUsegZoMtjP4XEJO17bbK485yidWV0B47TL1X3qytK2p3sPWw8YQbmimq8Kj1yNbbFdPSxOG6iTd2pvLtDwUtDUBD5MRhO
+rFA96OwujJbQUiPphIYRwOvbaIOOSBlP3V-CgDDelWC
+}
+
+!procedure Dbeaver($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/D/Dbeaver', $name, $tech, $desc)
+!endprocedure

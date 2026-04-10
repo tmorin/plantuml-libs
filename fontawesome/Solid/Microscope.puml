@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Microscope
+
+sprite $MicroscopeXs [10x10/16z] Os1WuEBdO800Vdv-J1OOG5aW0YuBn30r46MyS34GduiV1W
+
+sprite $MicroscopeSm [12x12/16z] NOo30S0m403hnhV_jB7lpIC2ugXeeELcoxKwMvuPEoUCspSF_lzA8ULdfEL4N3exncTX6GG
+
+sprite $MicroscopeMd [16x16/16z] XOxL0S0W34I3ExV_jiKXNtre_AXJ04-NYCPZvswB7pkd85wxKnvRaMythw_8tKvdtdbGgLD1ZD9jcJlfv3jqHeJ9xgQXSXWgApWV
+
+sprite $MicroscopeLg [20x20/16z] fSw53KGX54JH-OR3z5_j6cwnlJ5oU0X-6P8ANPhVxixSp_GV5gnLns2nmNp4yJuRiJF8-FcuczS-3HxDHJU9iMDlJ7byKj4yOoOEU0oHF86ZINt8mN1kPMy
+
+!procedure Microscope($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Microscope', $name, $tech, $desc)
+!endprocedure

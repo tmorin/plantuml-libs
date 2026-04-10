@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/FantasyFlightGames
+
+sprite $FantasyFlightGamesXs [10x10/16z] BSQ73O000CEmi3Vv_rlK2ckPsFczferf0gI9tEwRyAule-o22UsKmAP9stm
+
+sprite $FantasyFlightGamesSm [12x12/16z] HOt50K1H3CBotCl-qtwNNAe05vMFeS93bopVRLDbhdHl7L3FopXRMHYMYmOMSmHbiWaJN5PfDK1tH5ggJml9_YpodRG3
+
+sprite $FantasyFlightGamesMd [16x16/16z] {
+JOk54SKm5CDKo8EIzv_sOqW7fZELW9dBV8xd8xSHZrkQYhorulBILu15RlKB9gl5zOtmA9zFuMvQ26483gsOAtVN0wHs-1OBgqEeyALy2sginHMgiHOrLioq
+CsDhDMy
+}
+
+sprite $FantasyFlightGamesLg [20x20/16z] {
+PSm53WGn34FHFmm5t_-q2sbLBrWGUWeZ9t-vbesVr5lB-QDkILrQIMhIAa-i8QqQiBnYDIr0IAjJWjnaLv2AqX7oM2H0TTgf1ypIoRP8IuqMM5JYKPUQkm92
+0bPOidGrv7qMAu1ZaJIKfPMbbQLNJm
+}
+
+!procedure FantasyFlightGames($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/FantasyFlightGames', $name, $tech, $desc)
+!endprocedure

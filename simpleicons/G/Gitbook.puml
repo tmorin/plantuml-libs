@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/G/Gitbook
+
+sprite $GitbookXs [10x10/16z] LOZL0S0m58IeUzb_siZzXQS70shkQOWmBAqw7tBpAxFpiZY1tuPlt2IiSJ-DEAW
+
+sprite $GitbookSm [12x12/16z] NS650OH00C2m0kVM_QTzLnBEXl9qU3S0V3lme-L5ym4y0gYmJ1Kda6mB3wh51OB2XE4Ex4wgbQVi1BW2
+
+sprite $GitbookMd [16x16/16z] RS65OSH00C0m9pacxpzj-ymIloKNJxjdbPlbpG7GV073LnLVRNG1hn9q5ns2EY5h4wrmmAP5t4WQG2T8Cq9NtTWKYkum8mmdPyC5LDsvqQMPfwr5Blu1
+
+sprite $GitbookLg [20x20/16z] {
+VSq7aiKW3C1G6T83wFwttV6st_EcKYnpfVQT9wQDEuU_Ahysxv32HmU4poe-swXAzQO3pVijFM1LuG26wWH5ROAk4CSCqVEcMCbU09pPcsLOo5wBMKVa0sYx
+wuKAT5qojG5DDz9qrnlysRML9NlS-UqzAS6lBm
+}
+
+!procedure Gitbook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Gitbook', $name, $tech, $desc)
+!endprocedure

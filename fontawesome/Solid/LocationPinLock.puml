@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/LocationPinLock
+
+sprite $LocationPinLockXs [10x10/16z] FKp50G102E9vgVjFQtS302uXRBERJnnsxELx72ccCr-hkoSKY9XhAg6Q5
+
+sprite $LocationPinLockSm [12x12/16z] JOl50O100CE2Ezb_MkIyhrg0_ZuXog36UWEzEgnnk7M4w4zTmQr5rUgPRthL7hlbZWDnXDQJ_Gi
+
+sprite $LocationPinLockMd [16x16/16z] NSg73GGX44FHlv7CzD_j7S4WhOblP80pMsJ7HXOLKKcDP_k5iwXG6cVjcEy9p3hXxzAS8QlOCdvifmQuv3ACwjLoDgS1INDSV-iovMFCWlm3
+
+sprite $LocationPinLockLg [20x20/16z] {
+RO-50GGX30I3E_HVxKkClEpPtX25j_muku9LEAHvKJigGL79XSUgKtdqmmSJE11fWbFdsIqqiDyi4Ej0Ab8cdebpPKdcMlFzQPpCmVBuBxQFIUxA5EAlBjFH
+JQro0mS4o-0VItyOrFV4ofu
+}
+
+!procedure LocationPinLock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/LocationPinLock', $name, $tech, $desc)
+!endprocedure

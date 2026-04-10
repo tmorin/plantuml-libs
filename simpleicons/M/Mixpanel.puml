@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Mixpanel
+
+sprite $MixpanelXs [10x10/16z] Oq00Vdu8oSd026QY4OmyhCmyF12bJFm8BMpyRCZgsA0ic7bS_Fm
+
+sprite $MixpanelSm [12x12/16z] JKs50G0W3B9R-VzQMzSz45mQi3EWLrYbsWbmEu95TtvoLV-_ujMbAcLg4km-FM1HrqIkS9B5vwq3
+
+sprite $MixpanelMd [16x16/16z] TOu30e1044Mpwzt_j6aKrZlwA3whMm6DWV5yBHyb0WPhzru-r-UlB9y505Gk0vi4cNpRLWa2kC1qfUL7Pn6ivq0d709m_nrmPSn1p04
+
+sprite $MixpanelLg [20x20/16z] {
+bKu55a9127H_1t7_smhuTi3MpGdgycAHg2g3Qh3ughHxfFrKDFzR1nMcjXWw0tcNCH03ZUXSshMJQ1x7aOYsEkU0aByqbFPHbfkq6ppI11e2dOQs1tVgaoxG
+qlP_BLfBBzOHH7nD6EjqUWK
+}
+
+!procedure Mixpanel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mixpanel', $name, $tech, $desc)
+!endprocedure

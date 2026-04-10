@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/W/Watchtower
+
+sprite $WatchtowerXs [10x10/16z] DSQ50OHG50EmdA1Vkl-qE7dImbY_89UHFFvNA-TRNBb6eOYHWNyfPKPUfe3WbnCx
+
+sprite $WatchtowerSm [12x12/16z] BOu54a0X20NnXotS_xJ4mpNOgHqewFkdH02dNg2N0zzoOYmgNFzQVowqoAbIa0jjiYiol18F8OPqZMy7ddHcxwrLty8
+
+sprite $WatchtowerMd [16x16/16z] {
+JSo50GKX30FGu5QQ_QVzSZbxE1KSuhIEsw8KFNdRUZuCCBu5w7Idv7czzlyv3K2ORjwy1m0BFm6H3GNNEwAmwntGrYZjF-gm2f3BN6npevA4wBR9AAHQyX8X
+uzc_
+}
+
+sprite $WatchtowerLg [20x20/16z] {
+NT073WCn20J0TJV7uVt_RnDBeA2CUozmKr-fI3gT5ZWc4xWECubPMGS6_wLfIhUZpyXZlosVtvnlzG5UN28qqoCJbqO-EO6_Fk6Eld6ptLL5f-fU00fUSbat
+Uxx1bgrxYiNLuc1Mb5k5wzvOgGzH5sR-iSqO3X1cBm3gABW-
+}
+
+!procedure Watchtower($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/W/Watchtower', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/Moon
+
+sprite $MoonXs [10x10/16z] NSY54S0m40D1XJdNVxLcVjoHN5riyWLB5AzGA9HqBLaeQp-yXl0AnDyD7WyB
+
+sprite $MoonSm [12x12/16z] JOo30SL05C3oMHoo_xJLCS_a9hXIqAIKz8Unfoyf264lQKYGlYLtWH1AlYPWsYUNelpJJoaIyF8EaBnPu0G
+
+sprite $MoonMd [16x16/16z] NOu53aGX34JxtNdtl-scdkoW8z2AOVjufF2XU9F28OErgSZ6t67LXYGuT2kwwNLf_lrnz3erV-oQnTEwCD8M9UmiBhnJLjZqE212BqERFs7FFmtMymy
+
+sprite $MoonLg [20x20/16z] {
+PT230S0m54NHL_lV_QUjOkl4aG-RSKxAmeGBNIB0XXscd4vf0LMaWgQVLjRC89R9hB6DeJ53ZK5h9xxgayqiNzLZxM9ZItRvLR17wo3Kp5sy8U4um5rNEwmA
+BRhiIw_38B_c2h-xunu
+}
+
+!procedure Moon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Moon', $name, $tech, $desc)
+!endprocedure

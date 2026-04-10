@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/HeadSideCough
+
+sprite $HeadSideCoughXs [10x10/16z] O-1dPe00VY10iFXXB3v-JYWBY24ic3oCmSu8PN0mie5ei1p253u
+
+sprite $HeadSideCoughSm [12x12/16z] O-3dP801VY3WWx7102kRWGU8eMmMVZWRheeHokG6ilaGejmCO0OK0G4lDqYSYG_PV7u
+
+sprite $HeadSideCoughMd [16x16/16z] NSs50O0m44FH7Ev__sc1kgJwgkAPLGMNipFqlZjJUppWgkpxoW_a0-HuMkinQ_ERpN-cNHRdiGr-RxGLzUTTDerFu2IVaGy
+
+sprite $HeadSideCoughLg [20x20/16z] RSy50e0m30F0jBWr_tyjhYL1jjqSmQ70DzpJ2IELKLalZCcckFPvx2YK-MDFb55Od9AfWNcQw2pIcUiMXhgvcjFsY-tt3BasfVtkQ_INZJWJKvy9Kom
+
+!procedure HeadSideCough($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/HeadSideCough', $name, $tech, $desc)
+!endprocedure

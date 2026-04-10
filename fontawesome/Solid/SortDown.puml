@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/SortDown
+
+sprite $SortDownXs [7x10/16z] Oo0QyF630GEK0jCWSH09
+
+sprite $SortDownSm [9x12/16z] Ow0CiFD30GESmGYb6I0ii396C0q
+
+sprite $SortDownMd [12x16/16z] Ow0du8C37Zv-1610CBaO611C880nmG3AX76uGHG
+
+sprite $SortDownLg [15x20/16z] OnWIW1aPCF7nem0sL2u31mgF0PaFDem3mKFcmotZWF4GV4Om0m
+
+!procedure SortDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/SortDown', $name, $tech, $desc)
+!endprocedure

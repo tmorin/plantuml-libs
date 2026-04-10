@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/EarthAfrica
+
+sprite $EarthAfricaXs [10x10/16z] 9Okr0S0040A9X-hsd_RrAbI5UTN0fG-tOFpJwgEbDsEmHhx0gidtvvPRFAn8
+
+sprite $EarthAfricaSm [12x12/16z] DOk50S1038IeUzb_slSGbwFoUDBHx_orjRsyjbPkuFkmiG8-waRjEbG-FQD_bN6PZ7wgvG07_r3rRGO
+
+sprite $EarthAfricaMd [16x16/16z] HOq73i0W00BTTY7__ss3QBnEHZ1CAlZ6i05DjoIvR5XAYynFxjHFqmnZe75di9wb0f2m58sRUCvzfPFrfuW2x-u7cbKVSZsHZYq-lPfdn98YMWtz_m
+
+sprite $EarthAfricaLg [20x20/16z] {
+NT250SCm34HHEMoy_RUjw4e__1oMh2wCIxuwaSr2WhRhzWPGFxJ4su0MH8kZK-z5QpLHbqZl1RS73stDsLLAkO0QbA-Mu_5U4ZtuL2MRq8PRe_dX1O-s_C29
+d3UV-BTD2gtetJXOYVVNhHk-s_XBFmdZ-yyuwGK
+}
+
+!procedure EarthAfrica($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/EarthAfrica', $name, $tech, $desc)
+!endprocedure

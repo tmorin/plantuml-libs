@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Shoelace
+
+sprite $ShoelaceXs [10x10/16z] 1S450S10000Xvhxht_O1V1SW0ZC27Yj0DwW8GOT3u5m8124C
+
+sprite $ShoelaceSm [12x12/16z] 1S670OC0400XKkpwj_-s0l3S09yXGFW0GW3Z0E0Cs2k2xuPhN5O1qqs02pSGcEVxsOCN
+
+sprite $ShoelaceMd [16x16/16z] HSs54SGm34JHdyGCslwhFTmPFpD8mdOy75FF7Hli5e30nksprO8_cIweS2WAPakOlau-LG1DQeC2spMLOowO3pPLW7rZpmH82vENTl8wBYAaYwyt
+
+sprite $ShoelaceLg [20x20/16z] {
+NOy54i0m20GlhkJ-_ziEcGhfHd70WnSsd2psDkbW4EfT20FDS-FNeRE2oA4R06A5nL6yS_ZHoNvuURyBBHEdg3o86zOTgm-J-jygXKGHjAAHU6XSfAWdyL4P
+z0bM9-EkQdHqPgp_bmntYMapRwQ_vGi
+}
+
+!procedure Shoelace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Shoelace', $name, $tech, $desc)
+!endprocedure

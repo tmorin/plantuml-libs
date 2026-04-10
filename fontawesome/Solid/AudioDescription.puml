@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/AudioDescription
+
+sprite $AudioDescriptionXs [10x10/16z] Oy02kFYH0933oGTYC70ny3Cmy81O340MFnk81O8CoCgPuIo4UG
+
+sprite $AudioDescriptionSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiTCKP19THhUqH6zeDul49AN5Kc9eblFFym0m
+
+sprite $AudioDescriptionMd [16x16/16z] XSg54OG044FHVuT3Tj9_jRZh6utm9TCUkR-Llyp-_Vvph82_wKtvZy64qPovonAn__Uy8uLlSCuVEW
+
+sprite $AudioDescriptionLg [20x20/16z] fSk30KKn5C3GFDVPVzfl6wUyuX_LMrFo6ochDSPsph3HPAFt0DB482GefvoDVl_CfnpiSpx8PPRRsGqFw9H9Df9V6Bp7M6zaFhK6
+
+!procedure AudioDescription($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/AudioDescription', $name, $tech, $desc)
+!endprocedure

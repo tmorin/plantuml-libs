@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/ThumbsDown
+
+sprite $ThumbsDownXs [10x10/16z] Oq01_4301gR0F3040NOMC0ii26EnyIE9WH4V7nzKBp_SF7OW2G
+
+sprite $ThumbsDownSm [12x12/16z] NSZ50GCn00F1DRFLVxN9CSr7m9TMW3597b2WxWyueMJsphEdyVZTtUlnQqNNq6HsLZ4Y48ScRVyV
+
+sprite $ThumbsDownMd [16x16/16z] ZSdL0K813CNGuDOs-q-BmtCvNrSOTwsd0r_fnnaunoNTVsUugkvusnae8LzfjqUli_wF5x_z1hxKzbLKAFaenGkuuUycHsbHaxS7
+
+sprite $ThumbsDownLg [20x20/16z] {
+bSk30GGn503HMSQP_gizs_V2BpuPfxs1g-R9oicencbFhns1esg4x5xbP5BmT3W9pZpckfd77FfJRjK_PpECdiHJJXYqxqrGhKLTeJjoeZeheDoghZpcqAQ1
+ExDQEDa2
+}
+
+!procedure ThumbsDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/ThumbsDown', $name, $tech, $desc)
+!endprocedure

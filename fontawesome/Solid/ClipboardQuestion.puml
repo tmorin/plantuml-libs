@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ClipboardQuestion
+
+sprite $ClipboardQuestionXs [7x10/16z] Os3WuUVdO63WXm8-HaP-9C300Y8vEQ3o48eFmc42wkI6C04
+
+sprite $ClipboardQuestionSm [9x12/16z] PKh50G0W4C9ktNzQczSr1M2CqTzZWLHMfuDkrGLrG7_9_L1XMjTzFDa2
+
+sprite $ClipboardQuestionMd [12x16/16z] XSgr0O1050JHmPtflrhiDECbNtQ1mSV9kvq6n_VishQT37Yq_bbDHk0qe9F6W3FiGUbuOZ5LAnQXZSKD
+
+sprite $ClipboardQuestionLg [15x20/16z] dSUr0O100C30u4xsdnP_Qxdkk4pUzePRi_aPQZ2thkhEmw2kBgF_TB0QrLmM0t2ZIktTmMI0mGHwC-rgRYowWRbszh5OO3SpdG
+
+!procedure ClipboardQuestion($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ClipboardQuestion', $name, $tech, $desc)
+!endprocedure

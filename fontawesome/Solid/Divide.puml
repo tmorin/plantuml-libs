@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Divide
+
+sprite $DivideXs [8x10/16z] Oq02_12AcvyHmk14akFZXm1ywbc06
+
+sprite $DivideSm [10x12/16z] Oq05R306FpytbCNBpuAgXX46-FXXW05D1S8KBZYB3KK9
+
+sprite $DivideMd [14x16/16z] XSsb0G0n0CNG7DIK_lxRLfNfkQXm9GMAJn9LNpoin4Q8Ql4qM36Ewkb-Rtzt-fWb
+
+sprite $DivideLg [17x20/16z] ZSz50e0W503HiTkv_srrI_Dsy9jUaoy13Nz6Vt76IM2VwJKRUbyZx4TWeTUg1EBLXzmjEu69aWy
+
+!procedure Divide($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Divide', $name, $tech, $desc)
+!endprocedure

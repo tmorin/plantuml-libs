@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/MoneyBillTrendUp
+
+sprite $MoneyBillTrendUpXs [10x10/16z] Ou00Vdv-1YW0iJX013yGWcYO55m1742PFDnW3WCZc0FH3mJSC6K
+
+sprite $MoneyBillTrendUpSm [12x12/16z] NShL0SC030FHQyDWt_xJXldz62GEQd0QJM1mNDSg8KL7uOV9Tdzv2QDtr-YwGg7XvgmseGMZ5eQt6G
+
+sprite $MoneyBillTrendUpMd [16x16/16z] POm54e1030EBQsx__ricnM5F8zEu0OW7LNzg9jyruYmgPU0QH0kMqLkMx5Wcu_Fv8vuCuakaNykt_yR3_9P3FmUDW8wyTfObfGm6tcm
+
+sprite $MoneyBillTrendUpLg [20x20/16z] {
+bOu55eGm30KJ72fp_zlkotwypnYq4xKxXS0U-9fkRZ31wGR8KgnLRW6eKYQtWKTx3sNUHr0T4dybAFekKb_OUDEtIcjp8riADw4r5FE4q8hEWsh1rO50Mn-e
+XDwbB04fSMU3deRw0m
+}
+
+!procedure MoneyBillTrendUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MoneyBillTrendUp', $name, $tech, $desc)
+!endprocedure

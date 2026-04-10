@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Sketch
+
+sprite $SketchXs [10x10/16z] JSY53S0m0CH0bxdUVzied1CyC9YCOfijrSNe5I_R6Vq2wnqhqQVVJFBwKgGI
+
+sprite $SketchSm [12x12/16z] LSY50O003CJ0nvtiloq4v-hDtum6rzLjXYvfmMk4X7L1FOJB08aTPSUAxwWQhg_QbJvIJvr74sq
+
+sprite $SketchMd [16x16/16z] RSs54O1034JHnM4pTx__Qd67DnQF_XHTj6wAFMk1H0kvND8o880MM7BCmA9R2-2UJP-nx3OEjjL07FtrmB9-M1-aVQ2ZqUeOi7RR_wIJWQnB6JIwAz2_2G
+
+sprite $SketchLg [20x20/16z] {
+VSs5WSCm44JHiPX__zKU96PwHYtgsMJCPAPz020HW367Z0FY_F2DOI3mhOMgFmE3vsDa1bvAO0EBsa0gfIYNHGYb90t8h1eG9VR1D2_PnGPq_JDRq8E-76NU
+2bgakJ1XjEe5eC-X9HY1u7NGe3IT9Bmkcjxy0W
+}
+
+!procedure Sketch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Sketch', $name, $tech, $desc)
+!endprocedure

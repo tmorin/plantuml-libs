@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Baby
+
+sprite $BabyXs [7x10/16z] Ou03VduunSlFmCp0o0zaWm03YEP3KWX18Cm7LCK2L0q
+
+sprite $BabySm [9x12/16z] JScr0SHG040XpYNozfysLdrQ3BxbKatuUnRJKW_UPUhov5PbDE5-luPYRQLkb5-p7G
+
+sprite $BabyMd [12x16/16z] POs50KGX34E3Ezr_MYISV7b8lS439I9VNnR-uiVj50NB7f-wI0OKi1mszDQtOJT9M5Iw-gmdUAkQlPhANE3EQlxCy3TRgPwc0BeJ
+
+sprite $BabyLg [15x20/16z] {
+RS-50K8n303H-rw__QV5WiEhUyC_JO-FaSvmvrNv76vSbGIhAanrwogGDjZLf5hdQTg7Aiat4qp3k_lTXap8OUEl-tThDCDRvnv5YkytzNvllhSZ6XUedzDg
+vqOhQ0FE
+}
+
+!procedure Baby($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Baby', $name, $tech, $desc)
+!endprocedure

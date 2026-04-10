@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/VolumeOff
+
+sprite $VolumeOffXs [6x10/16z] Ou037duWmSVFpy36ZmRuG0HGbXDCWkH1wfdu0G
+
+sprite $VolumeOffSm [7x12/16z] Oq02_9nWafyVH88eVjo0WOUN7wAI2q8nS48e1bP6
+
+sprite $VolumeOffMd [9x16/16z] TSQ50O1G409GkvNzfpKEiFy5lEmrinees082uuJ03118epMol9Y9VUP0A10AS3O
+
+sprite $VolumeOffLg [12x20/16z] bSR50O0m00F0u4xsdnQjU-zr26aRrPsKFQX-KltT-tOSAJvG0Ij_6eVnrs8Sit6CnZ4OH_lUS0C
+
+!procedure VolumeOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/VolumeOff', $name, $tech, $desc)
+!endprocedure

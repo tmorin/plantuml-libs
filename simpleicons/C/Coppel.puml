@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/C/Coppel
+
+sprite $CoppelXs [10x10/16z] Oy02-B43c3Wd7pjO6Lm8kmQ4UG
+
+sprite $CoppelSm [12x12/16z] Oy01-8a328Lyt4XQ6PZO-C4KYEHa0P4iR7WCGG
+
+sprite $CoppelMd [16x16/16z] fSk35K1H30FGFBlTVzfl6_UeI70Zyd_5hLQFh1Sh60e3rUuEKUWMq1K9nd9B2EvbVWnY3Hir
+
+sprite $CoppelLg [20x20/16z] lSx50G0X30J0nHtwh_RSNPbVF7WXvKB05nb1ILhSDpH2BRupp8CjFsQWmopWKek2zTUCIwziZUEY4W
+
+!procedure Coppel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Coppel', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Bed
+
+sprite $BedXs [11x10/16z] Oq00NZuuan-5oSyFH420mWJBuG5yS0FOEE1C
+
+sprite $BedSm [13x12/16z] Oq06x7n877v-L0uZDmC3Dn1mWJZy80m240Old0DHJH0mmG6GWsGD0nk2mmq
+
+sprite $BedMd [17x16/16z] bSg30SLG5C3GVDJ8_jFMTi_39JiPQ_gaySs-a6Ij00M7hrKC-Gy7ouq1FITbpnT-tuLKPIcsbAL8jce
+
+sprite $BedLg [22x20/16z] hT054e0W0011k_N-_rgxwLYbRfWYaSjbSMIIL9nhrwNht1_Qix8wvaEsrPnLyQhSTpEX3Z0aGZtmaP-8BFl9GVOEgbhHI6eYjG
+
+!procedure Bed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Bed', $name, $tech, $desc)
+!endprocedure

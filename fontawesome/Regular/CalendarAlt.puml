@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/CalendarAlt
+
+sprite $CalendarAltXs [8x10/16z] Os3WPs1Wu0HYVZ3cukS30NuW3mIO-6409CcFoOVH351X
+
+sprite $CalendarAltSm [10x12/16z] JSc50SGW40J0_K-0y-s_shWDd0FuR-7OjDmIztZCE1MjdSYgy-zN7-1n7Uc3ChPzx3_ZSuriwOsz4LwdiG8
+
+sprite $CalendarAltMd [14x16/16z] VSk50O0W54NHQxTl_sbjQJZaBw0PkUqyLd5J1NIhjDwqhNJoOKMH3zhly4JDT-B8LzV3TVhhrCKvVnBF2G
+
+sprite $CalendarAltLg [17x20/16z] hSo30S1044JHYRs__sfZM-zy2zKoNwt2KmVK8jlzC1R256o6ckQYlG-ROu-afDcisQ8R7ol_D8t036pSLB0GQAq2
+
+!procedure CalendarAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/CalendarAlt', $name, $tech, $desc)
+!endprocedure

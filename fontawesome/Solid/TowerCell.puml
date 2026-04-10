@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/TowerCell
+
+sprite $TowerCellXs [11x10/16z] BSZ50G8144MnuCxhlrfOcLo-E1W7kK4wtZwKbznV1-KjELxdHSTtTbNJdlGrvznze9i_
+
+sprite $TowerCellSm [13x12/16z] JOY50O1058MmM_QVrhZc9u-E1f70Zjm86jBXGhOWgVegFUe1265laj1bSKxYTPwt1CvmasWWs10sdV02
+
+sprite $TowerCellMd [17x16/16z] {
+POq30i104CHIuv3_lxPsSrpDyCEEyX55PDs43ZhfBTOBr06ai99nJxWda7PFD6jKYWLdHoD1x83HGG4Ss50g4nUb6VHEkDC_4kN2tP8j0PBbUyApPRoztY-L
+7Sm
+}
+
+sprite $TowerCellLg [22x20/16z] {
+NT25OKGn3C1GVGvQ-qzRZ0ltmWomyMg38IyUTnHyI4us6mvkBxWqW12CtOSfeDgX2tfu4zaRy0YAXUu6gXUCrHli5d871ISAiNFhKEWFbuKY03hH1-2GvT2T
+eV1NA6nwyfTByCSmxVpIjig0L3M_IqZ-qLbkdKieYqwIFcHj9mqVu1q
+}
+
+!procedure TowerCell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/TowerCell', $name, $tech, $desc)
+!endprocedure

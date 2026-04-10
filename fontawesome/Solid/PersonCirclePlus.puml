@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonCirclePlus
+
+sprite $PersonCirclePlusXs [12x10/16z] RSQt0O0m0C0mqpl-_riMqgD9mE1Dv4oFkgSggIUy2uoeJAg0Y8xfAsluwwWV
+
+sprite $PersonCirclePlusSm [15x12/16z] TSc53S100CF0fCpUVzioFLXuihPcqATXOpwW_0dy4rpgC51ldAQDPQUTQjXgjOKsmZp1JLFO1PcxSMy5
+
+sprite $PersonCirclePlusMd [20x16/16z] ZSs55OGm403HZNkc_sxl7UxmqQpAdmBaG5_4f63bWmOasM5G3bL_sv6EsRPJyPURYErL_eWoL_7NDqk6JmBQ5FlV5j0LsCGAKOlIVH_hLQNADgOlUgKpS3y
+
+sprite $PersonCirclePlusLg [25x20/16z] {
+bSr50aGX3C3Gy5t9_KyxXepRMnBQadZ2dMzXqyXBJSDV5azMdaIJvylPpft1QhuB5b73_Nj80ITWSMjo6CcXWTMJD1bQIe3TZ4JtLQ7rX4tTIkWRXLY3zq7t
+fY4q_NE8mq0tB8zXUxUA6jQ7C9jn1
+}
+
+!procedure PersonCirclePlus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonCirclePlus', $name, $tech, $desc)
+!endprocedure

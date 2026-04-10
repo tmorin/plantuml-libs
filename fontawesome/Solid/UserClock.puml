@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/UserClock
+
+sprite $UserClockXs [11x10/16z] Om029WOOuEVdvu2mUFY10CBaG30P82m4u6E1Y391536121W24rniC2O8
+
+sprite $UserClockSm [13x12/16z] Om019WOuuERdvsU1SVX1W3274Sv66CCBeTdO8Mev81I8O0TIl30E8oUOueUIC0uVc08
+
+sprite $UserClockMd [17x16/16z] VSs50SCm40D0cTdQVzg22k5Sq8yGWmt7btMCWhz8iVz0fSJL2BcPeSZ4YJuiLkQ_qUidahEH0sXyQNY_tgdlqW15BGbArBVtVs22ee30KD8J
+
+sprite $UserClockLg [22x20/16z] {
+TS_L0O0m34NHXzVl_jEYmU7yL6CojTuYCwUx0k_h6gEhX6bqaJ6TBXn6DsoAfFTdFTGPedwvajlN7QjAguvPVU-biQsOAG3fc3TkN-NjnsPGOQQgjZUxpSn2
+tmF29FKSTExERJothLgC9W
+}
+
+!procedure UserClock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UserClock', $name, $tech, $desc)
+!endprocedure

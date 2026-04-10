@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Mound
+
+sprite $MoundXs [10x10/16z] Oy01-Fcve0mGW3FuUU0iVY031jZWB0PE642O1G
+
+sprite $MoundSm [12x12/16z] Oy0B6E4iVY3WWp7X77P-2808mpbyS3OBH1Yg1OcDoqO
+
+sprite $MoundMd [16x16/16z] dScr0S100090uXxsdpRwHlDs5O8gpR9Dy4w-5gb-66ZXG-TywqPFxXT0CRPK9nKQXOGR
+
+sprite $MoundLg [20x20/16z] jSgr0O1G04F1uCxRVrhSqm7_wbCO4K2jgvPLhaF7BjCcuwGD5wqM5LUHDUWqwRbBf9WdRv3bk1wdocJwO0G
+
+!procedure Mound($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Mound', $name, $tech, $desc)
+!endprocedure

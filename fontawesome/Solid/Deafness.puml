@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Deafness
+
+sprite $DeafnessXs [10x10/16z] DSY50S1020J1Ytks_suV7HorkvS7QvYu-3Gjn2QusPHc3XLaFkiyiTJhjhQ2RGC
+
+sprite $DeafnessSm [12x12/16z] NOs30S1054DJks__QS_-Pg8gVoqXHf-PGhdCa7VHVBsmRynneLEw9WQKcEvSJX9VASNXYNtvnsiB
+
+sprite $DeafnessMd [16x16/16z] {
+LSvN0aCX24JHGLCjtFslDWr8ykRBer9qZ1za48VBcbqIZBUkVDBKps_UOBJczLTWDeVkUDGo3K3vOT0c4hQncdEMfZnTWNgUmVc_LOTaRBNf_rGz1mTfZov5
+FG4
+}
+
+sprite $DeafnessLg [20x20/16z] {
+PO-50SKm48MeUzb_sg-lJfpO7G_6yQ4cVIfNVbIhwW0iHgq6TXPTkxASJxBI1PeYaznSwTM5GUEq-pOTqIREeh45HOTJy41NeXqtQkME9pSv9lJg5FC453hT
+qwwKi4GnwFbKZiq9BAfMBU9ogjKrYZS
+}
+
+!procedure Deafness($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Deafness', $name, $tech, $desc)
+!endprocedure

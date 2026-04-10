@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Packt
+
+sprite $PacktXs [10x10/16z] TSY70S0W30D19VIg_RVb1u1pjwxAN_h_5SanExjxJojlRi8fqy2P6Sa2lvS3
+
+sprite $PacktSm [12x12/16z] ZSA54O0m0C30u4xsdnQdfvM_fuYrQZyBzhZJoMuh27ZN-oPsuEgYk7Ep9R0bwGG
+
+sprite $PacktMd [16x16/16z] dOp50SD03C0KFBAh_QSjuxEH6VcVQMAwkRj1EeStwExGt0XpsfLqcWq80RsRFklJlMPp42RBSqQwF_-b2tT2rfKF8V1R7-K2
+
+sprite $PacktLg [20x20/16z] {
+jOs53GGn40CTHcNwx_QrH-Bdc-2IhVyJI_6bg0ylLugC03w3CTLPbeCeo-K9NLXoqMGvISLkg1DakMD4yg15F_lyqMTNKZv-Y6FkyaKTP0p8q2sLmEaWWqvU
+vUxZ0G
+}
+
+!procedure Packt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Packt', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/I/Iveco
+
+sprite $IvecoXs [10x10/16z] Oo0MC38mCZA2I7u69WOERWu6VgAr0W
+
+sprite $IvecoSm [12x12/16z] Ow00yF8oC3BoyhBpClBmyZEmSdDnS_CnC30oK08
+
+sprite $IvecoMd [16x16/16z] lOK50S0m4CGothD_jGKHxK72vXJAVsJ47p5L1CPhve1p_PDy8eWSh_miJWS
+
+sprite $IvecoLg [20x20/16z] pOQ50S102CG2rB7zfwqFyQTXUCbRaVl_jhGGqcQcRiODqKAgqvkxRa33aR0NR9d9NTqpWy5r0G
+
+!procedure Iveco($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/I/Iveco', $name, $tech, $desc)
+!endprocedure

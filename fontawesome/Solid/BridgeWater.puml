@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/BridgeWater
+
+sprite $BridgeWaterXs [12x10/16z] Oy09-640ZStEpy_8m0raWW2OGcDZ6iGBn3193dv640C
+
+sprite $BridgeWaterSm [15x12/16z] XOo30G1H34FpxMR_QS_cguaVUE2pRCks1WfPCLB9kQllvPsK1wUA7pqZMsPfGsGW_FIln77KT0y
+
+sprite $BridgeWaterMd [20x16/16z] bOxL0S0m44A9UxB_jYrrb_TpVe3FnBo7lTpsY1yzk4OiujmYJ1b57pr6ChUceLnxEFNyb6df91umoJE8c0H8Wcp4834Ko3GRgQCFCvPdEW
+
+sprite $BridgeWaterLg [25x20/16z] {
+hO-35GL134MJx9ZzLpl6D_SUn7XmAl4UVtQ1pp0i1_jrR97Tqp09FJyhV1NSxZB5fKS5yQp0hme2leQCPVrpRTLSsjyj55MwERL4sAKIcgwD8niYLOscVhUU
+H7X61W
+}
+
+!procedure BridgeWater($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/BridgeWater', $name, $tech, $desc)
+!endprocedure

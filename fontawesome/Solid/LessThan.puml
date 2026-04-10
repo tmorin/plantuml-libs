@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/LessThan
+
+sprite $LessThanXs [10x10/16z] Oy00_FnG6i9WukVd1T4S_FpiO74-e3X2BM4sDpy
+
+sprite $LessThanSm [12x12/16z] Oy0A-DcX34P-Vdv6C8iDpk80iY2olFpyV525V10nX2vc9DFumUOXL78ZUDmeSXmC
+
+sprite $LessThanMd [16x16/16z] VOx50O104CJENVgl5WyE-QsCY3zKEK-sztvCeKzefZGDJJALQQeCiarJ5j0dmc7JC0MFxoMtsqklXib722KA0oK5m0W
+
+sprite $LessThanLg [20x20/16z] ZSqv0WCn24DHO5PlwFwtJLIPgCeldmtOFuMhF01-fU5RLbbWiS4dOVgM05kskvFIYhnWJv6Ja66rf9dKYIjKmIxHkwYSGXSzaZfC0aj17rJJHh7Q1m
+
+!procedure LessThan($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/LessThan', $name, $tech, $desc)
+!endprocedure

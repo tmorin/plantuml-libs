@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/RectangleAd
+
+sprite $RectangleAdXs [10x10/16z] Oy02kFYH09p3mCN0pyZ01cG1bV0pSO1P80WKGm1cE0jX7W
+
+sprite $RectangleAdSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiTCKP1fQBQ8y9n48zNI86hoiGkINtX-OSP
+
+sprite $RectangleAdMd [16x16/16z] XSg35S000CJGr6xsdxOs_-E1FqbzHEg_F4WS1KuA8DIwffvoY22mPSPiSyvD-VJVjMtZ7TVyemS
+
+sprite $RectangleAdLg [20x20/16z] fSk35GHH0CNGZB_JVxLh6_VuWNzKRqt9RwJiNZubR3JTO7OFqiIW7LnaDdhXAjlOPBtX9ckCfjVVJfciR2G_DtYFiTx8V6eD
+
+!procedure RectangleAd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/RectangleAd', $name, $tech, $desc)
+!endprocedure

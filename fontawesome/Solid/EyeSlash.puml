@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/EyeSlash
+
+sprite $EyeSlashXs [11x10/16z] FOo50S0m382O-_Z_stg8woN18sPg_bhPSiRxJw0JogV7hh-ISz4wuVzUPLPoNlrg1f_nxiXv0W
+
+sprite $EyeSlashSm [13x12/16z] JSU5WG8100F1XNET_gjz5-BPz893uVfzld1ylSkZ9iwwxouqCePkXAyEVov2Ay-lHtMnVxsfQe4rHryOh_DHzdS
+
+sprite $EyeSlashMd [17x16/16z] {
+LKo54GCn30jpelsthVsAsxxkZ8AEujwOYDBRNja-2n74kf-DB-xdOEgm3_JZvx2FDHbUMWlIDZ_ZwOSFfuCUVJ8oyx6qyPDaZSuap5cs19cU33zFPf0YAXJJ
+HQat4kO7
+}
+
+sprite $EyeSlashLg [22x20/16z] {
+PP073WGX30DDtmR-_szFYKMHRbH21bDl4lZdaKP8AMBpckuKxKWFRiBK7q_AiKdTyzb7dtK3eKmTW4o-wdpWLUMTbsYeLkwgoQaHl8nffUSMosAG7ScZyrJf
+hZPgISVKrdq0eWRIUx_YMoKWI4DaxX-poqywHRRqWyKtmqh_Gzu_
+}
+
+!procedure EyeSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/EyeSlash', $name, $tech, $desc)
+!endprocedure

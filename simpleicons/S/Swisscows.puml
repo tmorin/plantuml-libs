@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Swisscows
+
+sprite $SwisscowsXs [10x10/16z] DSY50S102C30rBtPVzft3eTcPPWrLiy3IgB_3XER5SISWROqEiTsn--XoG
+
+sprite $SwisscowsSm [12x12/16z] DSR50SG000CWpgMI_QUjXnSSdjGj6LLYv0PZ0b_yitiQo67I3GvxLO_NEAaRRrKh
+
+sprite $SwisscowsMd [16x16/16z] TSp50O1044FHZplflrjatTvfDBISqaL44cFIpzq1pFxyxLuTdqElup2DQL-BITXbx3SlEHrSX0dUPBPUzxOxyVuUYFGRdP81gGxl0G
+
+sprite $SwisscowsLg [20x20/16z] {
+PSs54S0W44JHZqSkRF_LnetXZPukFv5Ej7ckDBns8wr9Mf3ZJz9W1I1nCqaP3gLyBTLmTJs7KPTfjWmEI7ev08Egctblj3i2dESGT34ExfSfHqE7m9-JD7aQ
+IPEW5SJKTKLlfhVmjm4
+}
+
+!procedure Swisscows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Swisscows', $name, $tech, $desc)
+!endprocedure

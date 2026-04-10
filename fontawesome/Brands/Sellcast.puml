@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Sellcast
+
+sprite $SellcastXs [8x10/16z] Ou01VWZWuOS31cw883C3bCyFPV11Q0O6Hdv-TfXY2CKD
+
+sprite $SellcastSm [10x12/16z] JSd50G0X40F0u4xwh_O4tNb5S1LEpb9I04O8bfK323jJ_MAVCGIRHl2XWGFqEC4DgWyLBm
+
+sprite $SellcastMd [14x16/16z] PSUr0GGn00InEJDl_zK-Wq6PsAJnqHreCh8E3S3f0piI-eWewISWAByI5VYjO8Kc_JUFiHXz42wodfncz2aUPdS
+
+sprite $SellcastLg [17x20/16z] PSxL0SCm34NH6sQ__QSjDwBpOn12DPWUM1I0edRQ_Mnsl-3DLowRVyzSx_BGUcMN6T05amnTsc02dOHz9Xs4PopXpOzXwkXEVInAKBGJVpQA9m
+
+!procedure Sellcast($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Sellcast', $name, $tech, $desc)
+!endprocedure

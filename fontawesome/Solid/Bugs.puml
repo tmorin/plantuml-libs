@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Bugs
+
+sprite $BugsXs [11x10/16z] BOk50S0m3CCqvkd_QmUD2uaHH7Bq3khKhk2kRWLLnVied0652iEeGPq6f_02
+
+sprite $BugsSm [13x12/16z] NOt50O1G5CE2Ezb_MfnlkJnj2uik13Js6YSj9rYPucNKU567T-8-QC_BfhhoichCpjvGEqu
+
+sprite $BugsMd [17x16/16z] NOy30aGX54NlLwwp_zKEyxCXYUBH32VO9G1mJ7u4OCclaQDGUyv_8050qeCeIqlhyzLFj0X0LPng4AWmtmkuuV_loprYu1_PJjwU9aXl
+
+sprite $BugsLg [22x20/16z] {
+TT150e0W54NHPojrzxzQkwWpeVaXgGM1KWOOb088IdWEHf66IvC-l-ap62vBL_bXf1EaFpGGiDejbekT90V4yUuSd-t-cJT4cGTS564iPhxezdsLjCHwBgvB
+gldYfJyunJYrIeGxhGq
+}
+
+!procedure Bugs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Bugs', $name, $tech, $desc)
+!endprocedure

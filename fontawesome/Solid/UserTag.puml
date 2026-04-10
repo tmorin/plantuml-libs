@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/UserTag
+
+sprite $UserTagXs [12x10/16z] Om01HWOOuE7dvuUn-N6mcS5iJC0250PAmPM3U41H21j1CZ62I
+
+sprite $UserTagSm [15x12/16z] POk50O0m40E3ExV_j53Ngtv4Zb45Bx3c4KkQfdeKzJXNKyUwJGB6L5r6PZyJnWax-_7q3rh3Em9CFm
+
+sprite $UserTagMd [20x16/16z] ZSs53S0W04JHAYxxJukx_zZbjS0LUgusQU8DkKX9j_ILzaOh6nbtr3nD3NtNQLm85lVZNs35GqX6SpFy5GtnyAUCHiCGXSM5iqLabmO
+
+sprite $UserTagLg [25x20/16z] {
+dT350OHG34NHXtjk_zME9uFRsS6FAwHQK_1Y6_zVDCTFfwaKfwaCjrNAjXuAhRyCMch12jsGlOnla_IyUAjMRe1uiD4B_1yI4I_3-A4lyPU4qKF8f7xqqJ2w
+0S6aRdHD8tHIwo5F
+}
+
+!procedure UserTag($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/UserTag', $name, $tech, $desc)
+!endprocedure

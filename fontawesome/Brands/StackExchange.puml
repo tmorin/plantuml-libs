@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/StackExchange
+
+sprite $StackExchangeXs [8x10/16z] O-3W1m5c1du8O802d7mc283pUS0K6rWDK3K
+
+sprite $StackExchangeSm [10x12/16z] Os3YXm061Y01PRB2048CYSK80qXYl320LGSO06ae034
+
+sprite $StackExchangeMd [14x16/16z] dSsr0S0m0CH0XJc__xH1mxlrTQe4kw8PP5RaACaXn-8u7NALXmd6-RLBSqkqg25RlhW1
+
+sprite $StackExchangeLg [17x20/16z] hSy35a0X40NGbztiVxNVDhf7OGXeccK6E5fXe3MFlEQnGslX_g583Rx64DViVXU_Vk1OluZLG0ahbB4st6i
+
+!procedure StackExchange($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/StackExchange', $name, $tech, $desc)
+!endprocedure

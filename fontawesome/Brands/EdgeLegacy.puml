@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/EdgeLegacy
+
+sprite $EdgeLegacyXs [8x10/16z] DSY50G0n20F0l6kR_QV5EHoO3OxEnxtwSYtn-y7l-qYy3B0C3nS4XbuK
+
+sprite $EdgeLegacySm [10x12/16z] HScr0S0m40J1DRFLVxM2nuaE61R4KOP5WyPoq_LuJFp09wCXqrmkr3JsGTu9hWUs8dfYbJGr
+
+sprite $EdgeLegacyMd [14x16/16z] FOtL0S1G20DJzsR_QIlmZlk3c991q3c9Op6CgTp7qLHxZjJwdxsbJA3UTLKB4d3j49SWhbuGBKSdTRDJ177MnUGblG
+
+sprite $EdgeLegacyLg [17x20/16z] {
+NS_50KGX34NHYtubh_zgHpA2d1t4-OgHBjno5xXTV_dxxX84JywXoe798WdWz10wGJYzdGKqVjpGP9Vp3q0JgEl7BSawCF-ckzUFqi-YZxS4a6vzL-w-NJfS
+Mpy8XqbgUu0d
+}
+
+!procedure EdgeLegacy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/EdgeLegacy', $name, $tech, $desc)
+!endprocedure

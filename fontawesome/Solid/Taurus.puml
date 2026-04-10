@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Taurus
+
+sprite $TaurusXs [7x10/16z] FOR50G0X4CIohrD8_zNYC1e4y9nW1Xqq6WBeD-vs70Oy4gfK
+
+sprite $TaurusSm [9x12/16z] LSn70SD0400nfVST_cXjtpC285akwGoV5FIbVbDe6GgdvfJbqSJIDvQ_vyQt9rFrj0C
+
+sprite $TaurusMd [12x16/16z] PSw50GC120F0l3kt_xHrB-uaAdSYVCRDBLoj6Rc6tSqTr8u-IGFK8-mp8s5-dDcRZvkx_X4NsaUyMqp_65fIwX4E2Uh0bYGRRjKp
+
+sprite $TaurusLg [15x20/16z] {
+LSo5TS0m54Mn5-Pe_saB_zY56vGf36dTZh1rSeRdbriEfhvM4imbjMw4-y6RxoQjqWPlzwYTTPNhLQsi0qjQBoSDxSnV3hp_kVlbHZWxUNApTHdh_Kp3i6dh
+zAvKEtZ699y
+}
+
+!procedure Taurus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Taurus', $name, $tech, $desc)
+!endprocedure

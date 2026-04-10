@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/VestPatches
+
+sprite $VestPatchesXs [8x10/16z] 9SS50SC000F17wzu_jKMmobTViBLz_zvD2cMiFoI7wya43mJ8Em
+
+sprite $VestPatchesSm [10x12/16z] DOo50S104C9IzsR_QT_F3O3x1BuPi5kRMEXJbAMMjHPrgyNFNt6jyroda8WMqy_Vfy_uPW
+
+sprite $VestPatchesMd [14x16/16z] HOo50SH020GtdfnD_zt-0-V2ggIQPQizzYRWFGjWwFzN84zatpNHRh50G8xlaKuY7n_nNVvNb1ExO7ES1KaWXudcZDTEFTQboaBImKBrPA87MsSWVW
+
+sprite $VestPatchesLg [17x20/16z] {
+NOy75e0m24C1PnVS_xIEQ1pLjk5zjeXOPC7dxTA8S1DT3sq4_9n0KotBy07Gz04ZQjx03b1OYteQUkeYaWXeGCuY3gErg9DXeWYhmIWyBWgIJGbOW64fjI_u
+BlG74qRuWDP5z3M6IrO2tm4
+}
+
+!procedure VestPatches($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/VestPatches', $name, $tech, $desc)
+!endprocedure

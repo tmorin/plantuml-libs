@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/PlaneDeparture
+
+sprite $PlaneDepartureXs [11x10/16z] Oq06lFoCS3O_Fp-Gv08HRFmGm04I1WCcACtD01LYm0Cu-U4
+
+sprite $PlaneDepartureSm [13x12/16z] XSp50O000810x9RzfxKxxmzSj2KxDMKLEuWobK7jecsWSPA3YoKVH8VplyQ37W
+
+sprite $PlaneDepartureMd [17x16/16z] bSs50O0m40F0F6uX-q-BkrGEwY_uaXXkD7dVS8rbEY-5PWsQ8xRJwKnQbNDefPtT7gjRD6zD-mnN6IBnhgCUHW
+
+sprite $PlaneDepartureLg [22x20/16z] hSwr0SD044JHaNHCl_zgpNmG-MNBguLDlGhq-GPGkZmtJJS9dAvsxf9CuqetZc-wAtmgWQwvxGBIKJvIzqjyokesbhrx5gSl3eZwlwsdo4XYv0m
+
+!procedure PlaneDeparture($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PlaneDeparture', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/D/Duckduckgo
+
+sprite $DuckduckgoXs [10x10/16z] 1S450S10000XvlxNl-q0hdQGoaLTgcKZl3LVPNRNMO7Q2vDMUgbkrz9wNC4sizpy
+
+sprite $DuckduckgoSm [12x12/16z] 9Oo50S0m2C1OtVF_jqE2gnYR8S7p74iRQG3hQXUg2D2ru1JnekvDqVm0Lk_uW8m1cjtZmLn2cSAqHiryNSTzo-L-JvHRrKtj_W
+
+sprite $DuckduckgoMd [16x16/16z] {
+DSq5aaGX303H3jzXID__jelKldXPMAvk2_xroX3vi2JfL4jVP_4bdFX1HyUWEbn1JPE0q-7mGb-6utMe7NteGFXe4MrigJHK1fSpOjyFd9gT_3GWJ9NaALfF
+AAIr0Vl3xtgotZSmrYCUIDew8Qo5ioV37m
+}
+
+sprite $DuckduckgoLg [20x20/16z] {
+JSg55I0X303H8Mi4c_wxlPVpZqJvBO_hvJ-F6T2kjHk_-R4iBoUXd9PdR2tH1u1DCq3BbGyyNwe1t9OcY4ffItL79vSEe5WmG-sCW6jO-ZfK82YxX-uKTLBA
+iHQRAaKjQxoNAfJMs7eVrgC6a7ikLJORTG5eLtC4xOHAewxQ1B9Voir7eaWPsVPznlLeRmQKnw1S3FchkxAFiuFo0m
+}
+
+!procedure Duckduckgo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/D/Duckduckgo', $name, $tech, $desc)
+!endprocedure

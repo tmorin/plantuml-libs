@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Cryptomator
+
+sprite $CryptomatorXs [10x10/16z] LSh50O0030F0mvtiFotM5zMONoMx0c80JRjtFSpvYbKYwOdK3AcQJb99rEdT
+
+sprite $CryptomatorSm [12x12/16z] NSQ50GCn3CLG7KD0-s_RNsvFYUt7jUhwfhDpVNAmDNqwg7gGV5Q4iGPeZHtY8IwbGtbu785kKLU7M665Xzb8I_OD
+
+sprite $CryptomatorMd [16x16/16z] {
+RSt5WSHG30Mm5ywdgFzgbs589xFpshpVPXEC_zmqIIqtxJ4w-R7LLexQwlHzgllHVURh1Ht5zp4SGMyzsGLMZ4FslGQ28rUfwTj0HyluVC46JZsVI2dMhFpa
+o-TOQOuyUGS
+}
+
+sprite $CryptomatorLg [20x20/16z] {
+VO-50SH020GvYmBJVxKly2xPv6nmELJv10r0ttrGSBTNnYeL4SQh6vWfyC9AgqDhg_rEQkCXNPEnl32sP1gly5wPhsX308eee9rmI-RXPmMkQ0Ips7Snp6N9
+gFMMOPSnAiABvkejvwyUO7jCia1i80_MeBGm1aj5xcoLBhzr1W
+}
+
+!procedure Cryptomator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Cryptomator', $name, $tech, $desc)
+!endprocedure

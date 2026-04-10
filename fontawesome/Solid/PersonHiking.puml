@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonHiking
+
+sprite $PersonHikingXs [8x10/16z] FSUt0G0W30F1LqV5xpyj6SUp00LAto_wLVlBKCPipvKcsma
+
+sprite $PersonHikingSm [10x12/16z] FOc50S104CAeUxF_j6_d0aJI0R9QNMNjdFF8VZY1FrKtFmT6-wPIggtBhbwaeLPMKnK
+
+sprite $PersonHikingMd [14x16/16z] LSk53GCm00D1Xpc__xJb1bvubgnN1j3ANbB5wLkiQsoAO0MyXNYf0Inrtes-z4qJJ5y_6QcozEwMWRbK9MW_LVgRNtdGaW6xz0G
+
+sprite $PersonHikingLg [17x20/16z] {
+NSor0S104CJ0zJEh_shDh70EjEM0gbSHQ7e767soawxA-pgZ06W2mWO30GWE-G9XccwuUq4O1umBtFbKAKzVsCf_q83s0G6y84eLyWsT8ZMu846Ip0qEsFo2
+2OOEC1ii
+}
+
+!procedure PersonHiking($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonHiking', $name, $tech, $desc)
+!endprocedure

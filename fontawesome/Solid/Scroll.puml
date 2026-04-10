@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Scroll
+
+sprite $ScrollXs [11x10/16z] Oq02_100OZ6mmjZyR9nmOLOEE9E11Oa9eI1Cg2aG9i8y20i
+
+sprite $ScrollSm [13x12/16z] VOkr0O100CI2E-m_BUykgKv9-2mRS3w3TQfO2DNrXPsYQpR9P0s3nXYxVAtnhttYLQm8
+
+sprite $ScrollMd [17x16/16z] bS-r0S0m50FH2_FN_jC6pQvodLudwWvppRmf2S344A07P3G1Li2qxnaWLm1eVi12070vW6r_smB8rPJWxj2wRLHT
+
+sprite $ScrollLg [22x20/16z] hSy30W0X50JGoUxV_xHh6ysYUXaduM8E7p7JAZrgIdhFRQ6MoaULIvMzQkqsEixUQElARhIFBACQOnOgSQG0pNcjOgEXnHRqukeH9wa1
+
+!procedure Scroll($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Scroll', $name, $tech, $desc)
+!endprocedure

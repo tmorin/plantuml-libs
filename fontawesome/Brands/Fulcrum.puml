@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Fulcrum
+
+sprite $FulcrumXs [5x10/16z] 1S570S0m000X-kdAEFzk0u0FkZJxOaUy57eHF1m
+
+sprite $FulcrumSm [6x12/16z] Oy0EEBXu6HaO-468Xu61Yu616IZ8oy0291cnQW
+
+sprite $FulcrumMd [8x16/16z] PS470SD0400WydkVVxSLKF3l0pGmJTm8npT35vh3INR2HI1l0K82smS680C-0FW1
+
+sprite $FulcrumLg [10x20/16z] FSQt0S0m00CWqhlr_xVPn0IehRkwhui9NcBZIbvnIPOGmpLm3W7RnnJ8XEU4SDz0111lTtPB1_1qHxU07m
+
+!procedure Fulcrum($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Fulcrum', $name, $tech, $desc)
+!endprocedure

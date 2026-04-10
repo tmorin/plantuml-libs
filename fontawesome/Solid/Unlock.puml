@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Unlock
+
+sprite $UnlockXs [7x10/16z] Os3Wv-VdPW1IOCG4n3mC31pyR6niJBpy104tX08
+
+sprite $UnlockSm [9x12/16z] Os1Wu0S21Z0DnBmW1YC30pS_b06MWG0-Vh806um1
+
+sprite $UnlockMd [12x16/16z] lSV50S0m0810wbxsdxOItI3t0c3nHw1hVyVPN87OfnqmthM3IQ_pTtIpxM3r0W
+
+sprite $UnlockLg [15x20/16z] pSX50S0m04FHZ7dVlzeoEkYx1EHy1BE27RWU8CvO9hZINEJyl6bEyZvrCzhWt2Dtqte_HlJGqK_ZiW
+
+!procedure Unlock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Unlock', $name, $tech, $desc)
+!endprocedure

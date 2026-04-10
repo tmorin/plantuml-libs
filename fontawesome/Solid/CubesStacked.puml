@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/CubesStacked
+
+sprite $CubesStackedXs [10x10/16z] Om02Bdv61WZWv-T7Po40FoDGb1aY1yHSO34WGYY4o44nWWK
+
+sprite $CubesStackedSm [12x12/16z] ROl50O100CEAEzb_MkJSyghgvsQL1sZghezIoQBtgnlmMX3VaUEGzcFv1VvvGgfV
+
+sprite $CubesStackedMd [16x16/16z] VOw54G1120EHiTFqt-rFuDts58yam9GJ0u3zs1s0oWapcXyqE7kClfbiDlSM82VRQPv7-FWPqLgDk-MDAEinWWQnr1_UkSSruWi
+
+sprite $CubesStackedLg [20x20/16z] {
+XOv50iKW30KdwPUYkVzfwoumcsSjm88tC-6CZN12AjtjtnEgGWs9EgkS3XDG6sYETmhDA9w9oLjxwaY3pylcsCeyolc9IfKGWWFSeBB4vHrC2i5M55cw-DRv
+sJDA0ZTg3m
+}
+
+!procedure CubesStacked($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CubesStacked', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Subtitleedit
+
+sprite $SubtitleeditXs [10x10/16z] JSZ15K105CNGmD_0I__L0Z3tP1N6t1Xj33KSLAhcAW_u0cRGV3jsS1JZ2ryx
+
+sprite $SubtitleeditSm [12x12/16z] TSUr0SC00CJ0Iypu-qzhXifNISoNYNpv8vYIcFCmlDrYu9VCvoOvUXoPnd5l2AfCUSbh1G
+
+sprite $SubtitleeditMd [16x16/16z] RSk50S0W3031htkp_xIumw4nUFvi1wdTqdkVHnx7XLZktcouiB_l-ukvGbag6woxULPpv_bdWya4lrH3e_YR9-2Vvzd57zXHB1lNjYQc3dSD
+
+sprite $SubtitleeditLg [20x20/16z] {
+TSY50GGn3CH01VmGslwhFMQOe0MndMIWw2f6tLMzi11COMOQ_Hb5CT44CBDFbWqq0zqyDt2-o0DUiyOaPy1DGOEIaWUbbFBQ9Z1zZws0ZiqnScBGvXOOXUKj
+Kxl9kaCtZQYBIWy
+}
+
+!procedure Subtitleedit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Subtitleedit', $name, $tech, $desc)
+!endprocedure

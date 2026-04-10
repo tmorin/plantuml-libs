@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Regular/Truck
+
+sprite $TruckXs [11x10/16z] JOc30G0n54DpHl7sdxRMHwXbg9DL3SmYuPafCsMcBu8ljxm7JgNCFIw3GH4
+
+sprite $TruckSm [13x12/16z] LOh50O1G08MmM_QVrlp9wGLK6FZop4VhMuPeR7DH9ezSm5nUiZQznVqh9wUptV4qvrNHtoUc3WvTkG4
+
+sprite $TruckMd [17x16/16z] TOy50e0m202ns_l_QtNTkoKDKh6-djNAH2Qju1KFLwbuhojNQCeGA1H26T9H524lR4QXN-1WF53ophmpe5Kk_14hNCYCc7UqurYZR-e7
+
+sprite $TruckLg [22x20/16z] {
+ZT255SGW403HnPtflziZRyEvJVp7aG-vk-n67kgAdUHkJLH1xceVjBVcN_KelQWL0-7TS-6TbXVL_bDPPTMOpTRgJhMiocrGLC4xVL2bsKPfE6281BJzjM4S
+cfbZZ5ERhEOIVK9O0bv46PpeWw6kxGK
+}
+
+!procedure Truck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/Truck', $name, $tech, $desc)
+!endprocedure

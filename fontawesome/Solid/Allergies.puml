@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Allergies
+
+sprite $AllergiesXs [10x10/16z] Om01FWO8u0T318iFncBZHsN100Cg1f4WYWc86U7g6
+
+sprite $AllergiesSm [12x12/16z] VOcr0S1008I8UzX_shTezLHtGE7aPh8HhxsNtVwtPtLVd8TJtjEPDYOmJG_m0ZlAkIhbN3C2
+
+sprite $AllergiesMd [16x16/16z] dSX50WCn3CLGbS7mxt_QcSHnQLljdkYIhvpK0QSpJRkERI_7yFFNhZ_zZfko7MMJSjWLbAdj1Pl6r1bbdXFSrvez93rocjL1bGCx
+
+sprite $AllergiesLg [20x20/16z] {
+hT150i8m04N1NyMP-vyMIxrTyfOJJyRQPzOr2UTKzKnNzt09LSRkdeFLX-QviuwTzV-nPMdO6OoM6gI21tLDVIrMa0Iqo8WAfTY8TG_6hrbixPOXSrdy_BXX
+aZS
+}
+
+!procedure Allergies($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Allergies', $name, $tech, $desc)
+!endprocedure

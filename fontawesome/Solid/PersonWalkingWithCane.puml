@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/PersonWalkingWithCane
+
+sprite $PersonWalkingWithCaneXs [11x10/16z] POg50O0m40E3ExV_j53NrvXCWM9ngAkH5E1Ac8FhylWnkhHx_K3oCkCICFwF_
+
+sprite $PersonWalkingWithCaneSm [13x12/16z] ROp50O0m5CM2Ezb_MbpRvlBb2O3EFEX0aap7Uo_r3QdsTjU1jgsV0wgt6-xw-hoEVP9SpckqE9V15G
+
+sprite $PersonWalkingWithCaneMd [17x16/16z] VSw50SKW303Hg-5m-q_xtQKFruIpefbNzNE3qTcrg8Mdu5dZRl8gSjDSr4sdUmHHvyLxf7xTu5NG1P27h3CeDvMeW9MBQAO8RCwt7s0sNYF2VCt0mQK_0W
+
+sprite $PersonWalkingWithCaneLg [22x20/16z] {
+ZSrL0eKm30NHYtjc_wjzWaDrFa-RH5i0keggmI2tibHUXG7sdcRBGPU1oMMe1c3gORghLjK43-rNLLTSkYpIffBrkZM2xJVkF00RNsQ5skrtnt8xMAhPlXdz
+YLmxeJYmaSJsgpncQBNgiX-Ulm
+}
+
+!procedure PersonWalkingWithCane($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/PersonWalkingWithCane', $name, $tech, $desc)
+!endprocedure

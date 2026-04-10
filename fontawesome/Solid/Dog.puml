@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Dog
+
+sprite $DogXs [11x10/16z] Ou00Vdu6AE3avuLn-460Zn_AveG8e4ZoOp1PkBbPO4m61dGc
+
+sprite $DogSm [13x12/16z] TSV50S1020NH7_TC_zMkmust0gC1a9bXzVoXt0UBOkVO2kbMGVUfOGZYzV0_ZWm
+
+sprite $DogMd [17x16/16z] bKp50G0n33ftmlxJrilr6wh19e49xIl2QAPvoORHzB3YxTHRPxmykkVcFEUk1lpjmbm94_4wY1t4EXBbTH0GyUGd0W
+
+sprite $DogLg [22x20/16z] hSYr0O0m00J0no7s-szBtCjSUQZHCkWSzAxZGEMpfK4B5Kthx9UPfCfh6Ds6HBRP-RuNs4cQu8LrmPCiDBATqsTjxPwxD78x-uMpVdSuUzuV
+
+!procedure Dog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Dog', $name, $tech, $desc)
+!endprocedure

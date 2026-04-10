@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/ArrowPointer
+
+sprite $ArrowPointerXs [8x10/16z] Ou019dusACtF3wFvOJG_ZEP7acVWvuFG34041loy3
+
+sprite $ArrowPointerSm [10x12/16z] LSor0G0X0CNGVm8DalsdnJNLgo85pM2BBUmISGcsw5gNGRmqTDtVeWm
+
+sprite $ArrowPointerMd [14x16/16z] PSs53S0m44DHbxb__scB8IiMlaEfcrLa1nUDYTd4QOBMn6m25r5ZyqI_UiWtLps5gFSNHEdJe29GwGO
+
+sprite $ArrowPointerLg [17x20/16z] NS-50GCX44JHEST__zN6ams3yz2LD1RD2P83tG4M1qu7YWCumEP0SQ0xK0FoAoq1v_Jiqk4VaXQu0eQa0G6VRlz0twJO4cc5PPRnYkKE
+
+!procedure ArrowPointer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/ArrowPointer', $name, $tech, $desc)
+!endprocedure

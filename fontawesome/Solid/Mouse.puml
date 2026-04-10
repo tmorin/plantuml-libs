@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Mouse
+
+sprite $MouseXs [7x10/16z] Os1WPULZP63WvsVbu-TdX53y48e10lYn0GPaYXC
+
+sprite $MouseSm [9x12/16z] TSQd0S0m0CH0iVHe_sdT7_hG0I_t2PpAhU2CRs92k7Sc9AnH0G
+
+sprite $MouseMd [12x16/16z] bSR50OG00C2mdk3I_QV5tSah07cA2QrICzIeQty3d6w-k8jpmfVYnLa-cWl1r1e
+
+sprite $MouseLg [15x20/16z] hSUt0OD044N1TzxVxxzQUG6RCza0-Bb1ZQyjlIjr0EbV2VQroUbQJLlPhey9wmFBMxfFjSLiqQzrS5a2oFfQ3fu
+
+!procedure Mouse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Mouse', $name, $tech, $desc)
+!endprocedure

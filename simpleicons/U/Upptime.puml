@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/U/Upptime
+
+sprite $UpptimeXs [10x10/16z] Oq05_706Fp-SmSy7PG0n9mC37v01uZ9nGDM0940aEmCJN2K4S80P
+
+sprite $UpptimeSm [12x12/16z] POe50a1G68Dryzt_jinu-UUggOe4Slpm0cR30zKWk2W1F73mqsqDJGGtKMkTFLUA-_DzDm
+
+sprite $UpptimeMd [16x16/16z] TSw30KDH30NGrExPVzhYwpbsRWpeNAOlXpozOvyDWoqzaXVs4Aa0SzMSplu4aSrTyJoplNuWRaxpx8HgDoE5lrynmIKItH1T-W8
+
+sprite $UpptimeLg [20x20/16z] {
+VO-55S0W34HJnSd-q-9klmNknGD7hjb4SJBzYAFnHazV2mEgjM523oOUhivqW_GFYoRbzU-4zkA5h5YR0A6CwAhGVeOufauJK7wdsPbtvG0IZ6L6NdPx8IEY
+hUEDc_NGpZHZ0G
+}
+
+!procedure Upptime($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/U/Upptime', $name, $tech, $desc)
+!endprocedure

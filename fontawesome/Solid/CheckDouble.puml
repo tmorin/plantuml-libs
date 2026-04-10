@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/CheckDouble
+
+sprite $CheckDoubleXs [7x10/16z] Oq00VWZ93CH0mC300QGHmXmWaeSVoE852m4bsU3Q
+
+sprite $CheckDoubleSm [9x12/16z] LOhL0O0m50ClFpZS_jFYqFPfZARC-mNesPxlUXioklukBE_77lGrecyWxuVq00S
+
+sprite $CheckDoubleMd [12x16/16z] POo50S0m40AfUs__QIlnvDq06Rj8uq2UON3za6vEDzwmUSIC00BmpzcFMwIVqAWU7Z769noU7rJZ4aUlsjeB
+
+sprite $CheckDoubleLg [15x20/16z] RSx5WSGm04MnFn06zL_jGfYUKISxpt7Km6jNIPiz95FTAnatuTLJJEY75-WdLMHofXZpx_SYsUlvxYhexa-_JCUu_FADfAFEL8qtGxARvEXFzXfD7li5
+
+!procedure CheckDouble($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/CheckDouble', $name, $tech, $desc)
+!endprocedure

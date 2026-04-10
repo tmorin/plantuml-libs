@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Dungeon
+
+sprite $DungeonXs [10x10/16z] NSQr0OG0002nl3zw-q-BbQGA_Fk0rEfF9VKctiRHaFIbMjF_MRZ6qFzQb_js
+
+sprite $DungeonSm [12x12/16z] TOg50O003CE2E_d_MuRxjCPSdJLhfQXKCupVI19lFYamp1WISBvfvu1hptLWgdB3LKN2XfFacld34m
+
+sprite $DungeonMd [16x16/16z] bOor0O100CI2oqlsdnRtZdIdi58d0mzS2BUWKC6qItk21Me4ihk_wf65QdN3cW2rDVHbBMC1mQG9nqKxuivJ3ngVcXLtlP_7xj8XXk_-hvu1
+
+sprite $DungeonLg [20x20/16z] {
+hOy54iGW40Gddc3z_zzURMqKAB_1crMTsWjfqKS1q_00WWHG9FOJmQ0La3A44u5v3ne1Pelkp3G_Lp_jFxXhF9C5piiM3ZohiHKFNu1yifrHd2eLIq3yiZFp
+mqurx03sJWx-nvu-3kjjCCOF
+}
+
+!procedure Dungeon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Dungeon', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Solid/Robot
+
+sprite $RobotXs [12x10/16z] JSUr0G0n581GgdW--qzxBdaLS977qjaRW8z1QqeL73eLdKy_XY044WFmKVWcO0S
+
+sprite $RobotSm [15x12/16z] NStL0OKm40NHkmB4f_zgdoidEb-h9uRUJZbu2TtnSI-30rZjdWkZIF0uW84cn2S_X8gn9rd8YRfaP10xFZWFUkZheKYw0W
+
+sprite $RobotMd [20x16/16z] {
+ROu75iGW449HPpikzxzj7fEU-AtJmGfLi3FslKbAdMJ3WWvmoT8H93yTSLU23eQMkzYkwOEMkr2phw4hxzrtmBw_hoFb9xXd0BAcx8UIMbW_UjMkrkmpRQ0P
+r4x3c0a
+}
+
+sprite $RobotLg [25x20/16z] {
+dT055e0W00JHfPkz_srzTXTZ-qsmPaYiDOBcje8voKCpy9YwWx125QBqfnpi196b1z7x-DxK0_iE47TGWJA-Ld07kvx1ZbmooLp8cki8u-T6GFMxgL_j_aEf
+mYGLQQKX_Ghx18vo75wnEv_nM0S
+}
+
+!procedure Robot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Robot', $name, $tech, $desc)
+!endprocedure

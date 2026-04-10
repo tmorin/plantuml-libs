@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/GgCircle
+
+sprite $GgCircleXs [10x10/16z] Om01PWOmOE470H0VI46O888VJ88PS0gLmu-aZW6c5mYW3
+
+sprite $GgCircleSm [12x12/16z] DSZ50O0m00F0uCxjFotQtYUIJvVY04iUYlD_JpE681cR1Y6xd4j3TAF8zz1-OoDe_ogZAidkD-NHrlS6
+
+sprite $GgCircleMd [16x16/16z] JOe54iGm58MeUxd_QLVUj4c8mdmU1YgTXaTFVPW13YlJCtpfdG1HU7u7qLFEDG6zENN019HPEeT1-lWJed5P6BQetBb7YKvW2wGtsWOUrjW8y0K
+
+sprite $GgCircleLg [20x20/16z] {
+LSw74OGm34JH1UUe_hizsMiTy2TfdYEio-5RaTrCiBmyWMLvTqDpyWqQfxMPjqwxFY2BpHSEbQ54h21rASXo48UI8QqXwlw5Km3Q7pVHY1UC1WPHwOPzuXRY
+v1yqu0nJh0p3VmEhwqkdBbR2KvuAFM3t0m
+}
+
+!procedure GgCircle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/GgCircle', $name, $tech, $desc)
+!endprocedure

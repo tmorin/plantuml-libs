@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Music
+
+sprite $MusicXs [10x10/16z] Ou02LZOGoSSF0a06Y4AmcDd0B90AE8k71ye2gmDY28iNeekD2SI5cWq
+
+sprite $MusicSm [12x12/16z] LKk50S0m2ClSr_-lhU1K80ex3w-bZFCFWH3ZD-CBW60WuQqO_Ya_Mg3vVeodCHSozNoReWO
+
+sprite $MusicMd [16x16/16z] TOx50K0X3CNULnpsdnPtoIdreeVeghSmWUYNZbvZOSPOxcBrUIdnZKYDiOkvqNrSzb6fJJtIfPEe4YCyoS1g35nb3SKH1m
+
+sprite $MusicLg [20x20/16z] bSw50O0W443Hi-jY_sbjkh_zL02y9fx1gjz8dinh-TAs6j26ZOO3p9RXrC6JPVnSwWq5FTlbpRPEb0tFvRL1csZJtv4nM3vIXlzAjlwvVDQ3JY4Kkm
+
+!procedure Music($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Music', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Rendact
+
+sprite $RendactXs [10x10/16z] BSd50SG008H0pYKo_LSRvxD2EuyENg1wSrK-lDzlaVaL3waYTOj33GCehb9NMG4
+
+sprite $RendactSm [12x12/16z] DSY54SDG5C0mjs7q_jlc_WCTYp1HNeSTmFACRNzqGXc9SkjpZFGad8hysN702rWTs6t0Ore1_hqV
+
+sprite $RendactMd [16x16/16z] JSx50KCn3C1GVUPe_stRSDxDRB9fePir2YNyhBOOldPpRQv0lQPF9s3reYRBfabVZY_CCLONXOClXhUAWRYLkj2FgCN1P_fxsmEEWCsEQEvXSTLP-04
+
+sprite $RendactLg [20x20/16z] {
+PSu75eGW34NH7nYxvEr_jtDYx5uhaAQ3LJtDRFpQxxWeJToLsEfvYZrUMfPlmmZCVG0JnBixoXjCoXA0TrsNFmOKbQwkHnZK39FcQtX19oigff-x4tJKlePQ
+vIowIeLE5Nm972JnqkkpkIgKprPepyHaaqTCfyqV
+}
+
+!procedure Rendact($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Rendact', $name, $tech, $desc)
+!endprocedure

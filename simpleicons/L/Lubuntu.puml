@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/L/Lubuntu
+
+sprite $LubuntuXs [10x10/16z] DSY50S102C30rBtPVzft3eVYSgUokVfoBBeXTfVLPuNTthz7VEf9gMj6WSqACW
+
+sprite $LubuntuSm [12x12/16z] NSZ50SGm00Cmboc9zf_s6AkF8NU7DK-0RqLYHpVFJOtq6d28PuM-XmEhja8GdFeyi2GO-afBaWhtzme
+
+sprite $LubuntuMd [16x16/16z] {
+DS-5iS0m30MmLyPO-q_x8TV8VEnqM_DC6HhTaOwXnicx5TwadV1CPvvYYkGYFfjrhzND2ngXYjKdCrZ0mzHel0TCc5-eG0ptXCfErzAGzB5FtyoVbnNzx2QC
+Rtu1
+}
+
+sprite $LubuntuLg [20x20/16z] {
+JT253SGm341Hfnpy-szxYa7dLpPA5LSNuv7aniqI8P8QeQpbq2idsxrdNMnN-OxI5o1Y5nJ2jsFS5Ig4kcDO_yGi60KO4-PCsm-CFmSiOVMX6r4FK4lKlH2f
+LPV5j7dAv4-gPgIaaFZ3SjHwH6Xhsj2QpunVcll3XvfMz0C
+}
+
+!procedure Lubuntu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Lubuntu', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/W/Wine
+
+sprite $WineXs [10x10/16z] Om027cu6CE3av-TdW00W0m5OiR3OeJGR0v8G9k036GG
+
+sprite $WineSm [12x12/16z] Om02HZvk1YZW1m8aDYECpStFoS0CPKC5CG4pJZb-N5guu2mce7L0Pm
+
+sprite $WineMd [16x16/16z] Om03Jdvk1WJW1m5qFXigdu4PmUVcvsTaG09C32G2HdG15dH3MD5LS1CoWnUDpy_BouFg1JuG0m
+
+sprite $WineLg [20x20/16z] PSp50O1044FHZplqNothcdSRIGZc-xjeN9ypKZa-xw0MLgliBgJlfJFXBLG6l1bL_ih7HaTt8wYrr1N3FIAs4RMZNjHt3aF_zZbK7hUu9nm3
+
+!procedure Wine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/W/Wine', $name, $tech, $desc)
+!endprocedure

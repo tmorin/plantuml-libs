@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Viber
+
+sprite $ViberXs [10x10/16z] HSl50S800CNGXplPVrgez-ifE7nw6JyGkJc_vk_fb10lFX3aXKfYXpqgk_u
+
+sprite $ViberSm [12x12/16z] 9SQr0GH100GWpjUd_sfVYO1xPHmWQyUPIJPiABVeSL-Dc4Pe9z48olx_qq0ib2H4m8njaGsSWMabUK1jW3S
+
+sprite $ViberMd [16x16/16z] {
+DSkt0O0m44FHHmQ7q_xRKlbNYk1ebVa29DMU-vr9XpIBAiPaetyGGi_b_lQTRmX9UB-7FSAU6xQD2Ee3-_Ao0SjB9Gz7LZMJCBgtW6ti1AbrFjFW3NDMaWFu
+pEt4uciiVW
+}
+
+sprite $ViberLg [20x20/16z] {
+NSs5eSKW0CNG81Kq-q_xXQVjmVMoX7FeQ1ileQcZzp7Latz13rww4y31bs27K-00Sci0Xp25veIzXWfWmWFK2Z550Ii6A2k6KZDWnqzEIqGO0ryVBm7cSuyX
+BtPC_9lksSupex4q_m4UbFTNKmTa0rXusG1TcJtmalLhhENzur9XghCTl1KwTwL6llm2
+}
+
+!procedure Viber($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Viber', $name, $tech, $desc)
+!endprocedure

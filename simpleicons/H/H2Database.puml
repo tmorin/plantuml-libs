@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/H/H2Database
+
+sprite $H2DatabaseXs [10x10/16z] DOk50S1038IeUzb_slSGbwDmkLEHoXKDR7tfMxVHrTBPOYUzGxceQCWB6G
+
+sprite $H2DatabaseSm [12x12/16z] JOt50G0W203lPSV-qze2ftInoJrmkRPYy3kRCqSAqFiLil6FlVWW-MsCNuzVgLrEdOwtTpC1
+
+sprite $H2DatabaseMd [16x16/16z] {
+LK-54G0n2AFkpVxRVWxUcWh1GHHfOJXvCBsAManjd-DKQT0x1gaVdRyJvW9a0Pl_JdBeVgbUI-b0ykIglv3nZmUM--kPhBvw8F6I7rs4IzXCXWqRTUZlW9bp
+LhhPE4Dn0G
+}
+
+sprite $H2DatabaseLg [20x20/16z] {
+POm74iGm20C57dTi_V-rLqnwDaN3Kh1H9otXGkpgQO8DuY1LpuuBqewfYun0_4_sYXNb__TDSc25_QD0NwvNl5oONj3C1ZbxKoZTNH5pDrKra2EGrFYyHnR4
+gsi8fC8kReqHa7ou0eo_0ghWWAHNLU7ecdTYNo7SS5jwK3dS5m
+}
+
+!procedure H2Database($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/H2Database', $name, $tech, $desc)
+!endprocedure

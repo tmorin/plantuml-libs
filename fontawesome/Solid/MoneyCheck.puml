@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/MoneyCheck
+
+sprite $MoneyCheckXs [10x10/16z] Oy02kFYn0QWSXXYgAcQ471m
+
+sprite $MoneyCheckSm [12x12/16z] Oy05-742TWW0inaX05q9BzW4V01P5jbQ
+
+sprite $MoneyCheckMd [16x16/16z] Oo04M7cG0GCRFyc06MuM3qI03mQmg-Tc1044dmsibqZBqDKHyXu
+
+sprite $MoneyCheckLg [20x20/16z] Ow04yFAZ0rOkVie04nRZaQqarNmUJZ20S53DOyQcZbJ0Z4MCWOKN3N0J7QG
+
+!procedure MoneyCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/MoneyCheck', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Solid/Magnet
+
+sprite $MagnetXs [8x10/16z] Ou02Ndv-8CaF110Q9iwF9WvJ1qIC35mW6W9WQW
+
+sprite $MagnetSm [10x12/16z] HOe50O0030HnX-lVbhdlRQZQGT-8bg8LfcaoRvhMTJMmhkqs-XmTC0iHf9Rw3ufcYBH20py
+
+sprite $MagnetMd [14x16/16z] VOo50O1030CFTzX_MjvTxhLj4bBUzxQ_vxq_oQ0B_KsgKO9ciBz0nzUjJdLyWeyvRAKmffFX2m1pA3IlbO4
+
+sprite $MagnetLg [17x20/16z] XOw50O0W44NfXjj_MxsmWsVmWr8FhBNwf4s75V4HY2F8hu519D27FZ4GqGdrVDDvSBufRHWevG0G_cVns7KWcenEYlF-_k8HU_920MG4r0i
+
+!procedure Magnet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Magnet', $name, $tech, $desc)
+!endprocedure

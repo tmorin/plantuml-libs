@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Android
+
+sprite $AndroidXs [11x10/16z] Oq06J0nO0Jy8y85PK01YWJbW6Wwu4Kpi9W4
+
+sprite $AndroidSm [13x12/16z] Oo02S8D9NWPkVdvE1YOmXny2UC5iE02nES0iDY22IS0448096U2s5m
+
+sprite $AndroidMd [17x16/16z] bSh50SGm34JHCRD__zKkeqx9CmXrnDP7V0KxsYeBfdT9JuENrofVmzHGfGofyw0DZuNGU70RfZ0wXhTqtXK
+
+sprite $AndroidLg [22x20/16z] jSe54iCm30LHMULMxjx_jCN468Otf5bzcKaxgvV4DMoiS_9mxkO1EtxEK1t1CyGRAVr7WpfVANqhS1CQNlxPWCE_XhyA7Un0bmTTj9Fiv0q
+
+!procedure Android($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Android', $name, $tech, $desc)
+!endprocedure

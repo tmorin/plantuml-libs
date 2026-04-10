@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Regular/SquareFull
+
+sprite $SquareFullXs [10x10/16z] O-3ZXm1kFWO808h0MDoKiBZvk2207m
+
+sprite $SquareFullSm [12x12/16z] O-3XXm4s7dvs6E3dPsU00PgpsVWH
+
+sprite $SquareFullMd [16x16/16z] Os3ZHmO8Ba886GnvFWEQxm
+
+sprite $SquareFullLg [20x20/16z] xSYn5G0G44J1VHS1-_llLWfqOC9Hc5LLSB3Hnd1SVTo_YiiAP7Pv
+
+!procedure SquareFull($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Regular/SquareFull', $name, $tech, $desc)
+!endprocedure

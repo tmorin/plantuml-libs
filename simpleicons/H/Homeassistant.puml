@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/H/Homeassistant
+
+sprite $HomeassistantXs [10x10/16z] Om015WOeuEVdXp900Ce0OOW8cE22io2Am78W0ggBZG4k2nK2
+
+sprite $HomeassistantSm [12x12/16z] FSU53GD04C2mbBdUVzhYwonA-jatU4pYFhbTWthy1WIFgzKNIpRTyOYU7M3NJLbwPXHu0m
+
+sprite $HomeassistantMd [16x16/16z] LKo50G0X4C9ksN_QJpx4F0g2nm9ohED2y4B_ZSsAa7e_NUCv5tNmXjvHV_Db-MR0tlzvpHC8weea9XAfsP1uHyw4G8rY4A1lepAQTm
+
+sprite $HomeassistantLg [20x20/16z] {
+PSo50SD034FH7ywHlV-qvKe51UyPK5R-ajd_w9v_KgT9dQOo3tLgbxwYUFzql6jdlFv4MVJNwhULV4KsjCfMRUSS3mkWldO2TmirsI1IsM6wMtwbCvtgCkAs
+NMYx0W
+}
+
+!procedure Homeassistant($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Homeassistant', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/L/Letterboxd
+
+sprite $LetterboxdXs [10x10/16z] Oo00c1WOcC687mdmG2Y467up
+
+sprite $LetterboxdSm [12x12/16z] bOO50G0X00Fl5MVzq-81O7gSoYkIvCYw7qbVgzSKhTVwq9ex4swU07_hXYe
+
+sprite $LetterboxdMd [16x16/16z] hOhL0S0W44E3E-o_ROCFKDx7NGpFiKa29YcgVXg9_QH-IkZNpNCGbKUNrk_Pvr6XFvLuP3yAWC0zl_a
+
+sprite $LetterboxdLg [20x20/16z] nOl10G0G3CGE0B3_j00mWJmIQF4FGdlOCKyLYMOBtmAaJkZstT6Dq1wa2_-ygH7PJTFzvRfrjm7grG7r6WXeh9luHG4
+
+!procedure Letterboxd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Letterboxd', $name, $tech, $desc)
+!endprocedure

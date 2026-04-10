@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Flickr
+
+sprite $FlickrXs [8x10/16z] Ou02LdvSW861du4HIZC0QNPEVYOigg0q
+
+sprite $FlickrSm [10x12/16z] Oq00Vc81Ar0jH3a3cCKCPF4niFCp4ZI2WGyAU
+
+sprite $FlickrMd [14x16/16z] Oq05F7m8mCxBJpvWOWKHR10Eq60c4C4Cup50211WP63W0l6uoBUB7OM7wY4
+
+sprite $FlickrLg [17x20/16z] Oy00JCmeW86LdrQ03qh20D1oJZ390U6pWvp3pm4cmO0PnEHZHGZmW9cyO18cmWGaUO4arHo91XZG-BmO8GW
+
+!procedure Flickr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Flickr', $name, $tech, $desc)
+!endprocedure

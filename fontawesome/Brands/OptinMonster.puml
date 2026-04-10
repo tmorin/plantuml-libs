@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/OptinMonster
+
+sprite $OptinMonsterXs [11x10/16z] PON50SD00CDqpFR-qxQ1PmmIdvHNqs20XZC-PfEJdo0ecX2Sm4QpTBm92Q1mKB--ug47QlVPHrR_0m
+
+sprite $OptinMonsterSm [13x12/16z] PS75OGCm0C10cTdQVzes-CeTlmARhnkpl2c48W7cLA9HMsD57wxQAbHZWDKTi8mriSuu1f34mmeN53Pqy6mRWuUDYt1Q7m-zslu1
+
+sprite $OptinMonsterMd [17x16/16z] {
+TSYrOSL05031VSSwyFPVhU6J8ayu_6TFkQMjA-AEReFbQtgeH4AXGAv93nXwSi00jMjIQuAWgLvJbGn4iLy4SCm0MiT-H3_wY4qk2NhCHwJ10Y0L18uDMkEn
+kdPrqmOjc47zkhAxBbxETb1hvsDMVW
+}
+
+sprite $OptinMonsterLg [22x20/16z] {
+XS-5eMWX3C3Gb8jRzf_skpuzk5C-CQ-BjwJoOhnS_TpAlwO6q9HV8fAwu06za05QGysW7Cta3T7IL5UV-gZED25o-J48jQl21UPOVhVFzRie5M0KRqmO4Cdp
+982bUxBvddCPQW3gPDqvQtdwHjs_8fZy4hDg0C43bn_AWFFhsWSO3M8bu6Yzkvy3xQPbAWVeXcjuSbtyadOERTHgrtlstkT777Vq1gK6VtqV9xu2
+}
+
+!procedure OptinMonster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/OptinMonster', $name, $tech, $desc)
+!endprocedure

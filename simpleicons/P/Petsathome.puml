@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Petsathome
+
+sprite $PetsathomeXs [10x10/16z] RKd50G0W4C9ksNzQszyL2N7q5rox3tKfnskpBcfnHm5I0mrtJwTJWZGJ
+
+sprite $PetsathomeSm [12x12/16z] ZOV50SD00CEKOzR-qnR-XPZD7QWT201cF1ivEvkR67OyuEkEomrY0iMbm7MzWtU67OYzjCetF04
+
+sprite $PetsathomeMd [16x16/16z] fOlL0S9G40JtkT_qNotk_40ovxBQImHCJn8IFGLHvPChbvb8OYOAWWdcYGHtgahqrEak4wJCHI_0kA1lsbp9kT57x3epraWAVSxQz3T7
+
+sprite $PetsathomeLg [20x20/16z] {
+jSx5WGCm34JHCUtQ5lp-gmtpENatiVG3LPyuQs_5Ggh0jVh8nRMN3XGWlLzpGmIeKRGKN4ndW0GvL62FYgrotLgIwpubsmXsiWB9baxMkUJq1kN-zVnut0EH
+ux-kDTU-vY9GjhRqDwPtVTqH
+}
+
+!procedure Petsathome($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Petsathome', $name, $tech, $desc)
+!endprocedure

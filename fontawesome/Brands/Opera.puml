@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Opera
+
+sprite $OperaXs [10x10/16z] NOk30S1G34IlTj_-qtuxpa4kBZRv03IpI3-4DtOyopMFMBnsTtpPSa4aUDrX0G
+
+sprite $OperaSm [12x12/16z] FOs50G0X24Kvhkot_xIscC0l6IlYP2r0vN6xNEyfn-_wpOVPhyxQz-BKRixThDEiCRx2F-DOn20_N0SczRy1
+
+sprite $OperaMd [16x16/16z] PKw50GCX40lkiF-qQDgtdFjXGvUMy4TkhLKZlSP6cm3arEaA0J5j0Fmq4WjgUlyoEyjI7jTU-MzVezzuzMl6YN6vzjMJt5YZWbcMy_yi1FFyE0BQWn3v_zK
+
+sprite $OperaLg [20x20/16z] {
+TP050e0W3027BQl_lzPOs9x94Gi8Pb7guKAdErHhBQdC302DghIkP5VxpxJ_zASo-lWj-tS4Xqp6vtfqOszCPGUXkHQIQWjzTJBzkVVUSFKMetxcKg9OWsE1
+BIndV-uzc2zRA7k5JFszfqgiSA6C5UTCSmK
+}
+
+!procedure Opera($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Opera', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/T/Toll
+
+sprite $TollXs [10x10/16z] Oo0ICF7py_830GC_0mE8PEK4ibWOk7ZPk7ZPUV7h1G
+
+sprite $TollSm [12x12/16z] fS450G0X0C30lUAiVrig87SS-59AVrGl116B-413Ux8fYmO
+
+sprite $TollMd [16x16/16z] jSV50G0n4810pYL2_zN6UjZX1T7kPs1rZZcEq-T9v-Kf-C0dlgY5LnYpEPmk1Ei
+
+sprite $TollLg [20x20/16z] pOI90SCm48F87_jEPVzfssQBI00lt-gpuAxURgnEeDokljbjXGYW3-ZX00M6-w9ZsZh6nngm1sQIy-cuakP5-m4
+
+!procedure Toll($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Toll', $name, $tech, $desc)
+!endprocedure
