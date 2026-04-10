@@ -2,6 +2,75 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [18.0.0](https://github.com/tmorin/plantuml-libs/compare/v17.0.0...v18.0.0) (2026-04-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* Package name changed from 'azure-23' to 'azure'.
+All references to azure-23 must be updated to azure in PlantUML diagrams.
+Example: include('azure/Item/Compute/ServiceVirtualMachine') instead of include('azure-23/Item/Compute/ServiceVirtualMachine')
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
+* Package name has changed from 'eip-1' to 'eip'.
+Users importing this package must update include statements:
+  FROM: include('eip-1/...')
+  TO:   include('eip/...')
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
+* The package URN changes from 'fontawesome-6' to 'fontawesome'
+
+MIGRATION GUIDE:
+- Update all PlantUML includes from 'fontawesome-6/*' to 'fontawesome/*'
+- Update any build configurations or scripts referencing the old URN
+- Regenerate diagrams to reflect the new package structure
+
+Changes:
+- Rename package directory: source/library/packages/fontawesome-6 → fontawesome
+- Rename package class: Fontawesome6Factory → FontawesomeFactory
+- Rename template directory: source/templates/fontawesome-6 → fontawesome
+- Update all template references in domainstorytelling examples
+- Rename distribution directory and update 550+ generated files
+- Update GitHub workflow matrix configuration
+- Update website generator skip patterns
+- Update README.md documentation links
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
+* Both packages have been renamed. Users must update their references to use the new package names.
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
+* Distribution package renamed from simpleicons-14 to simpleicons. Users must update references from distribution/simpleicons-14/ to distribution/simpleicons/
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
+* **simpleicons:** Major version upgrade (8.15.0 → 16.9.0) may result in:
+- Different icon names/slugs
+- Removal of some icons
+- Addition of new icons
+- Changes to icon organization
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
+
+### Features
+
+* **azure:** refresh the package ([5cc2b08](https://github.com/tmorin/plantuml-libs/commit/5cc2b08c5e5ea63d45f2c6fe0e4da27c033abd0e))
+* **fontawesome:** update icons from Font Awesome 6.5.1 to 7.2.0 ([d8e1dbd](https://github.com/tmorin/plantuml-libs/commit/d8e1dbdce0d98a2c58d6158d4fcad2fa8593f00f))
+* **fontawesome:** upgrade to latest ([bf1956d](https://github.com/tmorin/plantuml-libs/commit/bf1956dc5345feecd3b3b34157a55ff632ab8de8))
+* rename eip-1 package to eip ([850e759](https://github.com/tmorin/plantuml-libs/commit/850e75939b7723987963518561385772cf326439))
+* rename material-4 and simpleicons-14 packages ([59b0bd0](https://github.com/tmorin/plantuml-libs/commit/59b0bd05c983796a3600ab64293e6553848e7339))
+* **simpleicons:** upgrade to 16.9.0 ([b3bce1c](https://github.com/tmorin/plantuml-libs/commit/b3bce1c6945029a38ab86b67251a0d92463b1047))
+
+
+### Bug Fixes
+
+* remove azure-23 references from codebase ([df1e68b](https://github.com/tmorin/plantuml-libs/commit/df1e68b7dfa23641562ee99140734e686980d3e2))
+* remove trailing slash from $IMAGE_BASE_PATH to prevent double slash in icon URLs ([967511f](https://github.com/tmorin/plantuml-libs/commit/967511fac409b78e5f0c07f98cd6197ee0d012e3))
+* update resolve-azure-icons test assertion to match new newVersion format ([d7f705a](https://github.com/tmorin/plantuml-libs/commit/d7f705ae6b9676acdd02f06f811a0d72cb6079a3))
+
+
+* rename azure-23 to azure ([e3970f3](https://github.com/tmorin/plantuml-libs/commit/e3970f3e08649943e868c922360d0a2940bca43f))
+* rename fontawesome-6 package to fontawesome ([67d82d2](https://github.com/tmorin/plantuml-libs/commit/67d82d26162ba6e7302b7eb6b57e079ef7b1f02c))
+* rename simpleicons-14 package to simpleicons ([#50](https://github.com/tmorin/plantuml-libs/issues/50)) ([52d94da](https://github.com/tmorin/plantuml-libs/commit/52d94da43583569028e2f1f3320357ba23267c3c))
+
 ## [17.0.0](https://github.com/tmorin/plantuml-libs/compare/v16.0.0...v17.0.0) (2025-12-22)
 
 
