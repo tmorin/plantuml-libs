@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [18.1.0](https://github.com/tmorin/plantuml-libs/compare/v18.0.0...v18.1.0) (2026-04-10)
+
+
+### Features
+
+* switch to OIDC trusted publishers for npm publishing ([eae83dc](https://github.com/tmorin/plantuml-libs/commit/eae83dc0e66c09e70c34ef31151ea105e0c2d3a6))
+
+
+### Bug Fixes
+
+* add missing generate:workdir step in NpmPublication workflow ([72e2ff1](https://github.com/tmorin/plantuml-libs/commit/72e2ff13b5fe3501c92c4e8ad79e931e69416d5a))
+
 ## [18.0.0](https://github.com/tmorin/plantuml-libs/compare/v17.0.0...v18.0.0) (2026-04-10)
 
 
