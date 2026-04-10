@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [18.1.1](https://github.com/tmorin/plantuml-libs/compare/v18.1.0...v18.1.1) (2026-04-10)
+
+
+### Bug Fixes
+
+* **ci:** grant read access for npm trusted publishing ([0e5cd87](https://github.com/tmorin/plantuml-libs/commit/0e5cd876653ac84530926d205da07d55b7a3bfe5))
+
 ## [18.1.0](https://github.com/tmorin/plantuml-libs/compare/v18.0.0...v18.1.0) (2026-04-10)
 
 
