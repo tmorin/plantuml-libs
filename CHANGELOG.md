@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [18.1.4](https://github.com/tmorin/plantuml-libs/compare/v18.1.3...v18.1.4) (2026-04-11)
+
+
+### Bug Fixes
+
+* **ci:** grant release permissions ([a931a14](https://github.com/tmorin/plantuml-libs/commit/a931a14c8c657ce4e7b544d6f01d21563149bf56))
+* **ci:** scope workflow permissions ([97d4efd](https://github.com/tmorin/plantuml-libs/commit/97d4efdce37b92c4678fd0a1b08943cf11e4334d))
+
 ### [18.1.3](https://github.com/tmorin/plantuml-libs/compare/v18.1.2...v18.1.3) (2026-04-11)
 
 ### [18.1.2](https://github.com/tmorin/plantuml-libs/compare/v18.1.1...v18.1.2) (2026-04-11)
