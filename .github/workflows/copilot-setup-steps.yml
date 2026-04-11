@@ -31,7 +31,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '24'
 
       - name: Install system dependencies
         run: |
@@ -42,9 +42,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-node22-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node24-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-node22-
+            ${{ runner.os }}-node24-
             ${{ runner.os }}-
 
       - name: Install npm dependencies
