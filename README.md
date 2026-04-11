@@ -11,6 +11,8 @@ Each package focus on a particular technology/approach: Amazon Web Services (AWS
 Additionally, a CLI utility, working with NodeJS, is also provided within the NPN package.
 Its purpose is to speed up the rendering of PlantUML source files, i.e. the generation of PNG.
 
+This repository targets Node.js 24 LTS for development and CI.
+
 [PlantUML]: https://plantuml.com
 
 ## Contributing
