@@ -9,13 +9,13 @@ jobs:
     name: Generate the working directory
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: "Setup NodeJs"
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v6
         with:
           node-version: '24'
       - name: "Cache the dependencies"
-        uses: actions/cache@v3
+        uses: actions/cache@v5
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node24-${{ hashFiles('**/package-lock.json') }}
@@ -31,7 +31,7 @@ jobs:
           tar cf tmp.tar .tmp
         working-directory: .workdir
       - name: "Upload the workdir"
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: workdir
           overwrite: true
@@ -61,11 +61,11 @@ jobs:
     container: docker://thibaultmorin/plantuml-generator:1
     needs: [ generate-workdir ]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           pattern: workdir
           merge-multiple: true
@@ -78,7 +78,7 @@ jobs:
       - name: "Tar the package directory"
         run: tar cf "${{ matrix.PACKAGE_URN }}-distribution.tar" "distribution/${{ matrix.PACKAGE_URN }}"
       - name: "Upload the package directory"
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: "${{ matrix.PACKAGE_URN }}-distribution"
           overwrite: true
@@ -89,8 +89,8 @@ jobs:
     runs-on: ubuntu-22.04
     needs: [ generate-package ]
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/download-artifact@v4
+      - uses: actions/checkout@v6
+      - uses: actions/download-artifact@v8
         with:
           pattern: "*-distribution"
           merge-multiple: true
@@ -114,7 +114,7 @@ jobs:
           git add -A
           git commit -m "feat: refresh the library"
       - name: "Push the changes"
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
