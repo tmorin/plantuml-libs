@@ -1,15 +1,26 @@
 import { describe, it } from "mocha"
 import fetchLatestAzureIconPackage from "../scripts/resolve-azure-icons.mjs"
 import assert from "assert"
+import { readFileSync } from "fs"
+import { resolve } from "path"
+
+function mockFetch(html) {
+  return async () => ({
+    ok: true,
+    text: async () => html,
+  })
+}
 
 describe("fetchLatestAzureIconPackage", () => {
-  it("should fetch and parse the latest Icon Package from the live Azure website", async () => {
-    const result = await fetchLatestAzureIconPackage()
+  it("should fetch and parse the latest Icon Package", async () => {
+    const html = readFileSync(resolve("test/fixtures/azure-valid.html"), "utf8")
+    const result = await fetchLatestAzureIconPackage(mockFetch(html))
 
-    assert.match(result.newVersion, /^\d+$/, "newVersion should be a number")
-    assert.ok(result.downloadUrl.includes("Azure_Public_Service_Icons_V"), "downloadUrl should include 'Azure_Public_Service_Icons_V'")
-    assert.match(result.version, /\d+/, "version should be a number")
-
-    console.log("Live test result:", result)
+    assert.equal(result.newVersion, "23")
+    assert.equal(
+      result.downloadUrl,
+      "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V23.zip",
+    )
+    assert.equal(result.version, "23")
   })
 })
