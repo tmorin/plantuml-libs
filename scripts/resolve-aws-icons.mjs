@@ -2,10 +2,11 @@
 
 import fetch from "node-fetch"
 import * as cheerio from "cheerio"
+import { fileURLToPath } from "url"
 
-async function fetchLatestAWSIconPackage() {
+async function fetchLatestAWSIconPackage(fetchImpl = fetch) {
   const url = "https://aws.amazon.com/architecture/icons/"
-  const response = await fetch(url)
+  const response = await fetchImpl(url)
 
   if (!response.ok) {
     throw new Error(`Failed to fetch ${url}: ${response.statusText}`)
@@ -68,14 +69,16 @@ async function fetchLatestAWSIconPackage() {
   }
 }
 
-;(async () => {
-  try {
-    const result = await fetchLatestAWSIconPackage()
-    console.log(JSON.stringify(result, null, 2))
-  } catch (error) {
-    console.error(error.message)
-    process.exit(1)
-  }
-})()
+if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
+  ;(async () => {
+    try {
+      const result = await fetchLatestAWSIconPackage()
+      console.log(JSON.stringify(result, null, 2))
+    } catch (error) {
+      console.error(error.message)
+      process.exit(1)
+    }
+  })()
+}
 
 export default fetchLatestAWSIconPackage

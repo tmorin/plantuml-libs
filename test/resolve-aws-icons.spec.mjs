@@ -1,18 +1,26 @@
 import { describe, it } from "mocha"
 import fetchLatestAWSIconPackage from "../scripts/resolve-aws-icons.mjs"
 import assert from "assert"
+import { readFileSync } from "fs"
+import { resolve } from "path"
+
+function mockFetch(html) {
+  return async () => ({
+    ok: true,
+    text: async () => html,
+  })
+}
 
 describe("fetchLatestAWSIconPackage", () => {
-  it("should fetch and parse the latest Icon Package from the live AWS website", async () => {
-    const result = await fetchLatestAWSIconPackage()
+  it("should fetch and parse the latest Icon Package", async () => {
+    const html = readFileSync(resolve("test/fixtures/valid.html"), "utf8")
+    const result = await fetchLatestAWSIconPackage(mockFetch(html))
 
-    assert.ok(result.newVersion.startsWith("aws-q"), "newVersion should start with 'aws-q'")
-    assert.ok(
-      result.downloadUrl.includes("Asset-Package") || result.downloadUrl.includes("Icon-package"),
-      "downloadUrl should include 'Asset-Package' or 'Icon-package'"
+    assert.equal(result.newVersion, "aws-q1-2026")
+    assert.equal(
+      result.downloadUrl,
+      "https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/architecture/approved/architecture-icons/Icon-package_01302026.31b40d126ed27079b708594940ad577a86150582.zip",
     )
-    assert.match(result.publishedDate, /\d{4}-\d{2}-\d{2}/, "publishedDate should match YYYY-MM-DD format")
-
-    console.log("Live test result:", result)
+    assert.equal(result.publishedDate, "2026-01-30")
   })
 })

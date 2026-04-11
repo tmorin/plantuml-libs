@@ -2,10 +2,11 @@
 
 import fetch from "node-fetch"
 import * as cheerio from "cheerio"
+import { fileURLToPath } from "url"
 
-async function fetchLatestAzureIconPackage() {
+async function fetchLatestAzureIconPackage(fetchImpl = fetch) {
   const url = "https://learn.microsoft.com/en-us/azure/architecture/icons/"
-  const response = await fetch(url)
+  const response = await fetchImpl(url)
 
   if (!response.ok) {
     throw new Error(`Failed to fetch ${url}: ${response.statusText}`)
@@ -48,14 +49,16 @@ async function fetchLatestAzureIconPackage() {
   }
 }
 
-;(async () => {
-  try {
-    const result = await fetchLatestAzureIconPackage()
-    console.log(JSON.stringify(result, null, 2))
-  } catch (error) {
-    console.error(error.message)
-    process.exit(1)
-  }
-})()
+if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
+  ;(async () => {
+    try {
+      const result = await fetchLatestAzureIconPackage()
+      console.log(JSON.stringify(result, null, 2))
+    } catch (error) {
+      console.error(error.message)
+      process.exit(1)
+    }
+  })()
+}
 
 export default fetchLatestAzureIconPackage
