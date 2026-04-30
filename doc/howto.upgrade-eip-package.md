@@ -74,7 +74,9 @@ npm run generate:workdir -- -p eip
 
 Check the output:
 - `.workdir/library.yaml` should list the `eip` package with correct modules and examples
-- Verify the total number of items and module names match expectations (the expected shape count is ~61 items across 7 modules: MessageConstruction, MessageRouting, MessageTransformation, MessagingChannels, MessagingEndpoints, MessagingSystems, SystemManagement)
+- Verify the total number of items: expected ~61 items across 7 modules
+  - `MessageConstruction`, `MessageRouting`, `MessageTransformation`
+  - `MessagingChannels`, `MessagingEndpoints`, `MessagingSystems`, `SystemManagement`
 - Changes in item count indicate new/updated shapes from the upstream repository
 
 ### 5. Commit and push the branch
@@ -99,15 +101,15 @@ git push -u origin feat/upgrade-eip-icons
 
 ### 6. Trigger the Package Builder pipeline
 
-**Primary (CLI)**:
+**Primary (CLI)** (replace `<branch-name>` with your actual branch, e.g. `feat/upgrade-eip-icons`):
 ```bash
 gh workflow run package-builder.yaml \
   -f pkgName=eip \
-  --ref feat/upgrade-eip-icons
+  --ref <branch-name>
 ```
 
 **Manual fallback** (if the CLI returns a 403 or permission error):
-Go to the [Package Builder workflow](https://github.com/tmorin/plantuml-libs/actions/workflows/package-builder.yaml) in the GitHub Actions tab, click **Run workflow**, select the branch `feat/upgrade-eip-icons`, and set `pkgName` to `eip`.
+Go to the [Package Builder workflow](https://github.com/tmorin/plantuml-libs/actions/workflows/package-builder.yaml) in the GitHub Actions tab, click **Run workflow**, select your branch, and set `pkgName` to `eip`.
 
 The pipeline will:
 1. Generate the work directory
