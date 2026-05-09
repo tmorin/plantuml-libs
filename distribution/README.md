@@ -86,7 +86,7 @@ include('aws-20200911/bootstrap')
 ```plantuml
 @startuml level1-system
 !include ../../../ref/c4.puml
-!global $IMAGE_BASE_PATH="../../" + $LIB_BASE_LOCATION + "/"
+!global $IMAGE_BASE_PATH="../../" + $LIB_BASE_LOCATION
 !global $LIB_BASE_LOCATION="../../" + $LIB_BASE_LOCATION
 ' description of the diagram below
 ' .....
@@ -97,7 +97,7 @@ include('aws-20200911/bootstrap')
 ```plantuml
 @startuml infrastructure-production
 !include ../../../ref/aws.puml
-!global $IMAGE_BASE_PATH="../../" + $LIB_BASE_LOCATION + "/"
+!global $IMAGE_BASE_PATH="../../" + $LIB_BASE_LOCATION
 !global $LIB_BASE_LOCATION="../../" + $LIB_BASE_LOCATION
 ' description of the diagram below
 ' .....
