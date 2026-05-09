@@ -74,8 +74,10 @@ npm run generate:workdir -- -p eip
 
 Check the output:
 - `.workdir/library.yaml` should list the `eip` package with correct modules and examples
-- `.workdir/.cache/eip` should contain all expected shape modules
-- Verify the number of items against the previous version (changes indicate new/updated shapes)
+- Verify the total number of items: expected ~61 items across 7 modules
+  - `MessageConstruction`, `MessageRouting`, `MessageTransformation`
+  - `MessagingChannels`, `MessagingEndpoints`, `MessagingSystems`, `SystemManagement`
+- Changes in item count indicate new/updated shapes from the upstream repository
 
 ### 5. Commit and push the branch
 
@@ -99,25 +101,15 @@ git push -u origin feat/upgrade-eip-icons
 
 ### 6. Trigger the Package Builder pipeline
 
-**Primary (MCP)**: Use `github-mcp-server-create_dispatch_event` or similar to trigger the workflow
-```
-create_dispatch_event(owner="tmorin", repo="plantuml-libs", event_type="package-builder", 
-  client_payload={"pkgName": "eip", "pkgVersion": "latest", "branch": "feat/upgrade-eip-icons"})
-```
-
-Alternatively, use the MCP workflow trigger method (check your MCP server's available tools):
-```
-trigger_workflow(owner="tmorin", repo="plantuml-libs", workflow_id="package-builder.yaml",
-  inputs={"pkgName": "eip", "pkgVersion": "latest"}, ref="feat/upgrade-eip-icons")
-```
-
-**Fallback (CLI)**:
+**Primary (CLI)** (replace `<branch-name>` with your actual branch, e.g. `feat/upgrade-eip-icons`):
 ```bash
 gh workflow run package-builder.yaml \
   -f pkgName=eip \
-  -f pkgVersion=latest \
-  --ref feat/upgrade-eip-icons
+  --ref <branch-name>
 ```
+
+**Manual fallback** (if the CLI returns a 403 or permission error):
+Go to the [Package Builder workflow](https://github.com/tmorin/plantuml-libs/actions/workflows/package-builder.yaml) in the GitHub Actions tab, click **Run workflow**, select your branch, and set `pkgName` to `eip`.
 
 The pipeline will:
 1. Generate the work directory
@@ -130,9 +122,6 @@ Processing typically takes several minutes. Monitor the run at the GitHub Action
 
 Once the pipeline completes, pull the generated files:
 
-**Primary (MCP)**: Use `github-mcp-server-get_commit` to verify changes and pull
-
-**Fallback (CLI)**:
 ```bash
 git pull origin feat/upgrade-eip-icons
 ```
@@ -146,9 +135,9 @@ ls -la distribution/eip/
 ```
 
 Verify:
-- `distribution/eip/Item/` - all shapes render correctly as PlantUML files
-- `distribution/eip/Group/` - all groups are properly styled
-- `distribution/eip/README.md` - auto-generated with updated shape counts
+- `distribution/eip/MessageConstruction/`, `distribution/eip/MessageRouting/`, etc. - all shapes render correctly as PlantUML files
+- Each item has `.puml`, `.Local.puml`, `.Remote.puml`, `.png`, `.Local.png`, `.md`, and Group variants
+- `distribution/eip/README.md` - auto-generated with updated shape counts and module list
 
 ### 9. Create a pull request
 
@@ -217,6 +206,26 @@ Then re-run the pipeline.
 - Check `.workdir/library.yaml` structure matches expectations
 - Verify TypeScript compilation: `npm run lint` should pass
 - For detailed build process information, see [doc/howto.build-package.md](./howto.build-package.md)
+
+---
+
+## Lessons Learned
+
+### Workflow Trigger Permissions
+
+The Package Builder pipeline uses `workflow_dispatch` which requires the `workflows` scope on the GitHub token. The Copilot agent's token may not have this permission, causing `gh workflow run` to return a 403 error. In that case, the repository maintainer must trigger the pipeline manually via the GitHub Actions UI.
+
+### Workdir Validation is the Key Local Check
+
+Running `npm run generate:workdir -- -p eip` is the best local validation. It downloads the upstream shapes, applies the discovery logic, and writes `library.yaml`. Verifying the item counts (expected ~61 items across 7 modules) before pushing gives confidence that the source code is correct.
+
+### Additional Icons Override Upstream Shapes
+
+The `source/library/packages/eip/icons/` directory contains hand-crafted SVG files that complement the upstream shapes. The `unifyItems()` call merges additional icons (priority) with upstream shapes, so local icons take precedence when both have the same URN.
+
+### No `.workdir/.cache` Directory
+
+Unlike some packages, the EIP workdir does not create a `.cache` directory. Generated artifacts are stored in `.workdir/.tmp/eip/` during the run and only `library.yaml` and `source/` are persisted for the pipeline.
 
 ---
 
