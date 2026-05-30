@@ -1,5 +1,6 @@
 import P from "path"
 import yargs from "yargs"
+import { hideBin } from "yargs/helpers"
 import { ExtractStage } from "./extract"
 import { TransformStage } from "./transform"
 import { LoadStage } from "./load"
@@ -14,7 +15,7 @@ interface YamlGeneratorArgs {
   [x: string]: unknown
 }
 
-const argv = yargs
+const argv = yargs(hideBin(process.argv))
   .usage("$0 [args]")
   .option("i", {
     alias: "input-directory",

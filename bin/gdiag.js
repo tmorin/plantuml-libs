@@ -3,12 +3,15 @@
 const P = require("path")
 const F = require("fs")
 const CP = require("child_process")
-const fetch = require("node-fetch")
+const fetchModule = require("node-fetch")
+const fetch = fetchModule.default ?? fetchModule
 const moment = require("moment")
 const glob = require("glob")
 
 function getArgs() {
-  return require("yargs")
+  const { hideBin } = require("yargs/helpers")
+  const yargs = require("yargs/yargs")
+  return yargs(hideBin(process.argv))
     .scriptName("gdiag")
     .env("GDIAG_")
     .option("work-directory", {
