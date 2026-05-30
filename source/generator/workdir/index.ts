@@ -1,6 +1,7 @@
 import F from "fs"
 import { stringify } from "yaml"
 import yargs from "yargs"
+import { hideBin } from "yargs/helpers"
 import create, { PACKAGES } from "../../library"
 import { FactoryContext } from "./factories"
 import {
@@ -20,7 +21,7 @@ export interface YamlGeneratorArgs {
   [x: string]: unknown
 }
 
-const argv = yargs
+const argv = yargs(hideBin(process.argv))
   .usage("$0  [args]")
   .option("p", {
     alias: "packages",
