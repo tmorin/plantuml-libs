@@ -19,13 +19,13 @@ jobs:
     name: Generate the workdir
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: "Setup NodeJs"
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: '24'
       - name: "Cache the dependencies"
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node24-${{ hashFiles('**/package-lock.json') }}
@@ -58,7 +58,7 @@ jobs:
       options: --user root
     needs: [ generate-workdir ]
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
@@ -84,7 +84,7 @@ jobs:
     runs-on: ubuntu-22.04
     needs: [ generate-distribution ]
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: "Delete distribution"
         run: rm -Rf distribution
       - uses: actions/download-artifact@v8
@@ -97,12 +97,13 @@ jobs:
           rm distribution.tar
       - run: ls -hla
       - name: "Format the commit message"
-        uses: haya14busa/action-cond@v1
         id: commit_message
-        with:
-          cond: "${{ env.PACKAGE_VERSION != null && env.PACKAGE_VERSION != '' }}"
-          if_true: "feat(${{ env.PACKAGE_URN }}): upgrade to ${{ env.PACKAGE_VERSION }}"
-          if_false: "feat(${{ env.PACKAGE_URN }}): refresh the package"
+        run: |
+          if [ -n "${PACKAGE_VERSION}" ]; then
+            echo "value=feat(${PACKAGE_URN}): upgrade to ${PACKAGE_VERSION}" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=feat(${PACKAGE_URN}): refresh the package" >> "$GITHUB_OUTPUT"
+          fi
       - name: "Commit changes"
         run: |
           git config --local user.email "package_builder@users.noreply.github.com"
