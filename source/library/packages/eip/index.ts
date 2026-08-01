@@ -50,7 +50,7 @@ export class EipFactory implements PackageFactory {
         const imageName = P.basename(relativeImagePathToGlob)
         const parts = relativeImagePathToGlob
           .split(P.sep)
-          .pop()
+          .pop()!
           .replace("EIP_", "")
           .split(/__|_/)
           .reduce((all, current) => {
@@ -128,14 +128,17 @@ export class EipFactory implements PackageFactory {
     const elementItems = unifyItems([...additionalItems, ...originalItems])
 
     elementItems.sort((a, b) => a.urn.localeCompare(b.urn))
-    const itemsByModules = elementItems.reduce((urns, item) => {
-      const urn = item.urn.split(P.sep).slice(0, 2).join("/")
-      if (!urns[urn]) {
-        urns[urn] = []
-      }
-      urns[urn].push(item)
-      return urns
-    }, {})
+    const itemsByModules = elementItems.reduce<Record<string, Array<Item>>>(
+      (urns, item) => {
+        const urn = item.urn.split(P.sep).slice(0, 2).join("/")
+        if (!urns[urn]) {
+          urns[urn] = []
+        }
+        urns[urn].push(item)
+        return urns
+      },
+      {}
+    )
 
     return {
       urn: this.getUrn(),

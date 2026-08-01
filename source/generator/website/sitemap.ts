@@ -44,7 +44,7 @@ export class Sitemap {
           !resource.relInputPath.endsWith("CHANGELOG.md") &&
           !resource.relInputPath.endsWith("SECURITY.md")
       )
-      .reduce(
+      .reduce<LibraryEntry>(
         (library, { relInputPath }) => {
           const itemUrn = relInputPath.replace(/.md$/, "")
           const itemUrnParts = itemUrn.split("/")
@@ -128,9 +128,9 @@ export class Sitemap {
         ...p,
         readme: contextualizeLink(p.readme),
         modules,
-        modulesByUrn: modules.reduce(
-          (all, m) => () => {
-            all[m.urn] = all
+        modulesByUrn: modules.reduce<Record<string, ModuleEntry>>(
+          (all, m) => {
+            all[m.urn] = m
             return all
           },
           {}
@@ -143,9 +143,9 @@ export class Sitemap {
       changelog: contextualizeLink(this.library.changelog),
       security: contextualizeLink(this.library.security),
       packages: packages,
-      packageByUrns: packages.reduce(
-        (all, p) => () => {
-          all[p.urn] = all
+      packageByUrns: packages.reduce<Record<string, PackageEntry>>(
+        (all, p) => {
+          all[p.urn] = p
           return all
         },
         {}

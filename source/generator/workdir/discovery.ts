@@ -6,7 +6,7 @@ import { toCamelCase, toCapitalize } from "./naming"
 import { PackageFactory } from "./factories"
 
 export function unifyItems(items: Array<Item>) {
-  const newItems = {}
+  const newItems: Record<string, boolean> = {}
   return items.filter((item) => {
     if (newItems[item.urn]) {
       return false

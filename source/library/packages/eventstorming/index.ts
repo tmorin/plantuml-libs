@@ -27,10 +27,10 @@ async function writeAllElementTemplates(
   const procedureClauses = element_items
     .map((item) => item.elements[0])
     .filter((element) => element.shape.type === "Custom")
-    .map(
-      (element) =>
-        `${element.shape["properties"].name}('${element.shape["properties"].name}')`
-    )
+    .map((element) => {
+      const name = element.shape["properties"]!.name
+      return `${name}('${name}')`
+    })
   await render(
     P.join(__dirname, "templates", "examples", "all_elements.tera"),
     P.join(

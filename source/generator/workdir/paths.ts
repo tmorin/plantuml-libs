@@ -43,7 +43,7 @@ export async function copyTemplates(workDirPath: string) {
   })
 }
 
-const TEMPLATES = {}
+const TEMPLATES: Record<string, ReturnType<typeof template>> = {}
 
 export async function render(
   source: string,

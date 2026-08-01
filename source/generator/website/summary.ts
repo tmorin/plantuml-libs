@@ -1,6 +1,6 @@
 import template from "lodash/template"
 import { marked } from "marked"
-import { Sitemap } from "./sitemap"
+import { ItemEntry, Sitemap } from "./sitemap"
 
 export interface Summary {
   readonly sitemap: Sitemap
@@ -16,12 +16,18 @@ export class ItemsSummaryAsJson implements Summary {
   }
 
   render(): string {
-    const items = this.sitemap.library.packages.reduce((allItems, p) => {
-      const packageItems = p.modules.reduce((modulesItems, m) => {
-        return [...modulesItems, ...m.items]
-      }, [])
-      return [...allItems, ...packageItems]
-    }, [])
+    const items = this.sitemap.library.packages.reduce<Array<ItemEntry>>(
+      (allItems, p) => {
+        const packageItems = p.modules.reduce<Array<ItemEntry>>(
+          (modulesItems, m) => {
+            return [...modulesItems, ...m.items]
+          },
+          []
+        )
+        return [...allItems, ...packageItems]
+      },
+      []
+    )
     return JSON.stringify(items, null, 2)
   }
 }
