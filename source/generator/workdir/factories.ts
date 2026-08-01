@@ -37,12 +37,13 @@ export interface PackageContext extends FactoryContext {
 }
 
 export class DefaultPackageContext implements PackageContext {
-  tmpDirPath: string
-  tplDirPath: string
-  cleanPkgTmpDir: boolean
-  dstYamlPath: string
-  absoluteDstYamlDirPath: string
-  packages: Array<string>
+  // assigned at runtime via merge(this, libraryContext) in the constructor
+  tmpDirPath!: string
+  tplDirPath!: string
+  cleanPkgTmpDir!: boolean
+  dstYamlPath!: string
+  absoluteDstYamlDirPath!: string
+  packages!: Array<string>
 
   constructor(
     libraryContext: FactoryContext,
@@ -87,7 +88,7 @@ export class DefaultPackageContext implements PackageContext {
   }
 
   private delegateToConsole(
-    level: string,
+    level: "debug" | "info" | "warn" | "error",
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     message?: any,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any

@@ -92,8 +92,6 @@ export class BinaryCopyResource extends TransformedResource {
 
 export class MdtoHtmlResource extends TransformedResource {
   readonly inputResource: InputResource
-  readonly absOutputPath: string
-  readonly relOutputPath: string
   config: Config
   readonly sitemap: Sitemap
 

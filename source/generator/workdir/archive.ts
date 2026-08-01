@@ -9,11 +9,15 @@ async function download(context: PackageContext, url: string, zipFile: string) {
   if (!F.existsSync(zipFile)) {
     context.info("download (%s) to (%s)", url, zipFile)
     const resource = await fetch(url)
+    const body = resource.body
+    if (!body) {
+      throw new Error(`no response body for (${url})`)
+    }
     const dest = F.createWriteStream(zipFile)
-    resource.body.pipe(dest)
+    body.pipe(dest)
     return new Promise((resolve, reject) => {
-      resource.body.on("end", resolve)
-      resource.body.on("error", reject)
+      body.on("end", resolve)
+      body.on("error", reject)
     })
   }
 }
