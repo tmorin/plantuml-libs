@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [18.2.0](https://github.com/tmorin/plantuml-libs/compare/v18.1.4...v18.2.0) (2026-08-01)
+
+
+### Features
+
+* **eip:** refresh the package ([b880bcb](https://github.com/tmorin/plantuml-libs/commit/b880bcb4898d485e54e2166e5772eb93c9278569))
+* **eip:** refresh the package ([f613242](https://github.com/tmorin/plantuml-libs/commit/f6132426064db47a86ff70b748fe111df82007ca))
+* **eip:** refresh the package ([2c75adf](https://github.com/tmorin/plantuml-libs/commit/2c75adfcb6045acb029f5db4b2025ea1c0a45774))
+
+
+### Bug Fixes
+
+* **generator:** resolve TypeScript errors surfaced by TS 6.0.3 ([a0085a2](https://github.com/tmorin/plantuml-libs/commit/a0085a23fcc164e49626f59482eb5575b0b0e331))
+* **test:** stabilize resolver tests ([5fc952b](https://github.com/tmorin/plantuml-libs/commit/5fc952b6e35a851d49d213612dbd80aaa11707b0))
+
 ### [18.1.4](https://github.com/tmorin/plantuml-libs/compare/v18.1.3...v18.1.4) (2026-04-11)
 
 
