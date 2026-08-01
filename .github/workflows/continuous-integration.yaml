@@ -8,15 +8,15 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: "Checkout repository"
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: "Setup node"
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: '24'
       - name: "Install system dependencies"
         run: sudo apt install graphviz zip
       - name: "Cache Node.js modules"
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node24-${{ hashFiles('**/package-lock.json') }}
@@ -51,7 +51,7 @@ jobs:
       contents: write
     steps:
       - name: "Checkout repository"
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: "Download all artifacts"
         uses: actions/download-artifact@v8
         with:
@@ -76,13 +76,13 @@ jobs:
       contents: write
     steps:
       - name: "Checkout repository"
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: "Setup Node"
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: '24'
       - name: "Cache Node.js modules"
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node24-${{ hashFiles('**/package-lock.json') }}
@@ -117,9 +117,9 @@ jobs:
     if: ${{ startsWith(github.ref, 'refs/tags/') }}
     steps:
       - name: "Checkout repository"
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: "Setup node"
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: '24'
           registry-url: 'https://registry.npmjs.org'
@@ -127,7 +127,7 @@ jobs:
       - name: "Install system dependencies"
         run: sudo apt install graphviz zip
       - name: "Cache Node.js modules"
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node24-${{ hashFiles('**/package-lock.json') }}
