@@ -148,10 +148,15 @@ wave: 001
   `docs/bkg/parked/` and `check-backlog.py` have nothing to run against
   and are skipped, per the dispatch brief. No ADR/canonical register
   exists either, so Canonical Impact close-out is "not applicable" — no
-  obligation to discharge. Not committed to git, and not pushed — per the
-  dispatch brief, pushing/PR-creation and committing on the human's
-  explicit go-ahead are left to the human; the working tree is left with
-  `package.json`/`package-lock.json` modified and ready to commit.
+  obligation to discharge. Committed locally as `3d2e52d896`
+  (`chore(deps): upgrade npm dependencies, including 3 of 4 pending
+  majors`) on branch `chore/upgrade-deps-and-ci-wave`, scoped to
+  `package.json`, `package-lock.json`, and this run's own four documents
+  only — not pushed, and no PR opened, per the dispatch brief (pushing/PR
+  creation is left to the human). The wave-level files
+  (`wav-001-dependency-ci-refresh.md`, `wbc-001-dependency-ci-refresh.md`,
+  `prg-001-dependency-ci-refresh.md`) remain untouched and uncommitted by
+  this run, as instructed — they stay the orchestrator's to land.
 
 ## Lessons Learnt
 
