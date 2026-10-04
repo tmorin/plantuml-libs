@@ -1,6 +1,18 @@
 name: Continuous Integration
 
-on: [ push, pull_request ]
+on:
+  push:
+    # `branches` alone would stop matching tag pushes, which would silently
+    # disable GithubRelease, GithubPages and NpmPublication below.
+    branches: [ master ]
+    tags: [ '**' ]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.event.pull_request.number || github.ref }}
+  # never cancel a release run: a half-published tag would leave npm ahead of
+  # GitHub Pages.
+  cancel-in-progress: ${{ !startsWith(github.ref, 'refs/tags/') }}
 
 jobs:
   Build:
