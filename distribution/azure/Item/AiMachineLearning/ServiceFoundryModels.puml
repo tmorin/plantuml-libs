@@ -1,0 +1,27 @@
+' definition of the Item azure/Item/AiMachineLearning/ServiceFoundryModels
+
+sprite $ServiceFoundryModelsXs [10x10/16z] BKg30G0m3CjKz_zpvp82UckunLmoBch2yH2WSBl0T4zJGJ-2o63ia9f7SCiY6sG2qZf-iRw_
+
+sprite $ServiceFoundryModelsSm [12x12/16z] DOdN0GDG209vLK3TVzpqt0_bWB7Mme-8xlfrRjI_wz2P_o6avwVQnfME27oyU29G9Pnpx-KTNKTsLZVGcvHi3-06XJ_1_MjF
+
+sprite $ServiceFoundryModelsMd [16x16/16z] {
+HOp50G0n40A9mahwB_TSveS2Q0S57oHzhV5faSZCJvlAKAQ_kcYeH0G-p3WY_9Dk7UvUPJnrk5ybAoOUCg8TMj8WYPRlLG7OaPb5PXwHkOIwqldALO2r89s5
+0mBecfCDFwGC-AbK_zKE
+}
+
+sprite $ServiceFoundryModelsLg [20x20/16z] {
+NP07Ti0W34F5YeN7_QzRqKdpC_aFl23c4FY7YQhgBzMgCYz7yW4pS_wviGc3NDmRRP4p8ZOkjhRAURkKG7DtRUmTugpaSDx3pX7Xedrj9qWpO9v849FaMdPS
+olsKDHlCEYmp7t1lzmZzkxQLlkDFLMfxLJRoMrML0pXlIchdWH23pvXpuZq-xS9BoisNMyQ1cmy
+}
+
+!procedure ServiceFoundryModels($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceFoundryModels', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFoundryModelsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFoundryModelsLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFoundryModelsGroup($id, $name='Service Foundry Models', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFoundryModelsLg>', $name, $tech)
+!endprocedure

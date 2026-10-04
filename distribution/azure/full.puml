@@ -534,6 +534,30 @@ sprite $ServiceLanguageLg [20x20/16z] XT150e0W04JH2SRxtzXk1TxoqpWHxZB3X_wQiIaNuj
 !procedure ServiceLanguageGroup($id, $name='Service Language', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceLanguageLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/AiMachineLearning/ServiceFrdQa
+
+sprite $ServiceFrdQaXs [10x10/16z] LSR50G0m20F0K06o_y1rlTSXQeT6pspuvyEPvZxjH07cHYMqDMfGR98g
+
+sprite $ServiceFrdQaSm [12x12/16z] PSt50S0m5CDGbsHt_u7B453evVGbhdG6_yT77EVqpTu9ECdjC_CP60-lZxKSFiDe-ePD7FvYtW4
+
+sprite $ServiceFrdQaMd [16x16/16z] PSV50GGn34Mn7yEpqt_12yEWcwHavLfm6BSdiRmMNbcNypwL-xc-ksYywUqxs1v_2Ux_pxaSY97B-Ki8nV85LIv-7-iRHeGkmZL3TzE_
+
+sprite $ServiceFrdQaLg [20x20/16z] {
+RSg54KHH24DHD43_3U_p_NOpUYP4YXED1htG3_Y7wJ74JDlYPlvXzZ8yBJEHrgQPoo9ZcLti1FWso4XX9YRhXrwWnOnXLTbR9jmiAttLZ8P5hH0HJ4ujFeO0
+AMZ4AuF3IkaLbxrHYdy
+}
+
+!procedure ServiceFrdQa($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceFrdQa', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFrdQaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFrdQaLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFrdQaGroup($id, $name='Service Frd Qa', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFrdQaLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/AiMachineLearning/ServiceCognitiveServicesDecisions
 
 sprite $ServiceCognitiveServicesDecisionsXs [10x10/16z] JOd50G0m48DEIlRVk6vy8Y1RQ9Qm3M3CGvAhbyojycjXPTLmOD-hoGuD
@@ -665,7 +689,7 @@ sprite $ServiceAiStudioSm [12x12/16z] HSY74O000C90h0JttzUEvjfVTBUkcvv6x1fm_3X0Sd
 
 sprite $ServiceAiStudioMd [16x16/16z] PSg50S0W44FHuWdx3zpWzgkFkwzbOqpncoN5F6a0o7QEeKWCa-sWqr6XLSUrn_KjUiwgTs8vzt7eTjOQSQvNREvCbw_r7m
 
-sprite $ServiceAiStudioLg [20x20/16z] ZSi54e0m34JHDhxX_kV5tJ_KtapA4fjPKjbLlS-Qt5j4z9XPzpPYmZRo60DYCs0sh5JH5qiocWCxrT4mjpDQRTn7mzghwSbANs0fqLUFesL9Rmolvlz6wq8T
+sprite $ServiceAiStudioLg [20x20/16z] ZSy50eGW54LH6jwV_QztLBhXsiS2bfB661AiYjitywFQd7Cl4l7QF19C8Ujy08e1Wt6ykPJoPe5AjJV4AXFP_DuRgZQcE_DpG8hmnjjNMKfF35kpTw_oH0y
 
 !procedure ServiceAiStudio($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceAiStudio', $name, $tech, $desc)
@@ -677,6 +701,288 @@ sprite $ServiceAiStudioLg [20x20/16z] ZSi54e0m34JHDhxX_kV5tJ_KtapA4fjPKjbLlS-Qt5
 
 !procedure ServiceAiStudioGroup($id, $name='Service Ai Studio', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceAiStudioLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/AiMachineLearning/ServiceAiFoundry
+
+sprite $ServiceAiFoundryXs [10x10/16z] LKo34S0047jx_tLhvXJ33ynyCLMVWxXx3kuiCyjCDzRT7E47QQc2YnqNEpkMVRCL
+
+sprite $ServiceAiFoundrySm [12x12/16z] NSQ34G0m402m-hd_khLpYlbvxtdMXX1rFbNhM4a8hK0LfDGk5HFYVZKhBUzjl-s7rj1R
+
+sprite $ServiceAiFoundryMd [16x16/16z] RSl50S1030F1OrJwRpUImx2_CRZ_KixzniYMso0puBekxEQgCFbaz4qXCtCV2ZeoJmiw4lEq8c-wB30dthrNNfx_zeUZ2eTM
+
+sprite $ServiceAiFoundryLg [20x20/16z] {
+VSo53KDH34FHnn3OVztMoMUwuYFBuQjS_bq8wOaILbNcqIhg8iTPG-DatPeYASRLXaLIa5ET5X4UgXkjuQ6viPS93zrdYnN6jkmp66WQfSrYIZ5OSxEmnMjf
+expPmumUB7pr0m
+}
+
+!procedure ServiceAiFoundry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceAiFoundry', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAiFoundryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAiFoundryLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAiFoundryGroup($id, $name='Service Ai Foundry', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAiFoundryLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/AiMachineLearning/ServiceFoundryApplication
+
+sprite $ServiceFoundryApplicationXs [10x10/16z] BSQ50G0W449Hx8_x3snSmfFK-nZZzbntkAE7si3zGYpy15nuB3he2IPUm_iAtzbRYQT4Em
+
+sprite $ServiceFoundryApplicationSm [12x12/16z] HSR7OGKm34CnMYLwrFu3nx_Z14bPrTtvs3nmIT_YVFIWmQvRXdFyF0c7iNkWG1vlys2TltqyiCExcv3T-UWAVEs3zEi_
+
+sprite $ServiceFoundryApplicationMd [16x16/16z] {
+LSv70WGW24DHbPPu_mCFOVgtlXshC_TGjbJM1EN_16m9NQP8sWW7TKJwq82eeYpY05xxj4FKySqQ0zXu-mQwlkWRcrSUqidc-3IvXzVQfjanlAjD9Sh-pxNi
+Zmy
+}
+
+sprite $ServiceFoundryApplicationLg [20x20/16z] {
+PSY50GGX34JHBB49_HTy37RsqJnXQcO-Krb5xi3yZzW_eLGEHLETLD131gYHgcmH1CXyICSG0GJC_HhGG6kLD9y4fHccTPzal5AkOIG0YjQgz-waZ46LgLxN
+b5HHb6EDL7fCQUeZ3GeJMgssGPnqXOd8eMCg8_qKF28l
+}
+
+!procedure ServiceFoundryApplication($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceFoundryApplication', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFoundryApplicationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFoundryApplicationLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFoundryApplicationGroup($id, $name='Service Foundry Application', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFoundryApplicationLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/AiMachineLearning/ServiceFoundryProject
+
+sprite $ServiceFoundryProjectXs [10x10/16z] NSR50G0X40ImMPV--pqN8A_WOzqTrw8FTd8x_SEv0npmXnoB28q5-BK3
+
+sprite $ServiceFoundryProjectSm [12x12/16z] NSY30G1H203GhFttFNw_7ApeqLOFeYhzztoOVluXSwV_i9SOMVCyu9t-G7VpXfdy18iR
+
+sprite $ServiceFoundryProjectMd [16x16/16z] XSU30G0n343HMFllUpRQLoGVEhmY8iiUNRhnNEZETF5iOjXwnGPe9p43uRDnQblQbzQfYPQUqVJGJyXC_iqU3GyZ
+
+sprite $ServiceFoundryProjectLg [20x20/16z] bSZ50KDH30CmX-o-xBzlcJ_hAEnK_I1yg77JFUphdaxrfl7mLSNwc5owv_zvELxt54NFI7u3QI3u9Olq-3tZr-aX97cclYGbcNuW8hnq47mACou
+
+!procedure ServiceFoundryProject($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceFoundryProject', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFoundryProjectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFoundryProjectLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFoundryProjectGroup($id, $name='Service Foundry Project', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFoundryProjectLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/AiMachineLearning/ServicePlanetaryComputerPro
+
+sprite $ServicePlanetaryComputerProXs [10x10/16z] FSgv0KCX500Wr7Vklt2gV6hyNQWgyBBLpQ51qzcPLT46AhMEgeY9xoLJkVQEwzbT_
+
+sprite $ServicePlanetaryComputerProSm [12x12/16z] NSQtWG0W400Wr8lx3_ovUYhybrNQ_LjbMV8-v2dqw_UEE9ohgUSymUKLvLoASOAJeMfgkEy5-ZHfUcqFNeRTXKy
+
+sprite $ServicePlanetaryComputerProMd [16x16/16z] {
+LOS55W9G2C16W_S_iFwmHkoDFvIBg42N3el8V6q2kolIaFJ4RQLIIuWkUw89c4ifqBMHYBHQ3Kk6msq4oFnqk02tnoE3FW2K840aMK2BCTlImC1aEp8s0XB0
+pDHCitXq1rWOcoS
+}
+
+sprite $ServicePlanetaryComputerProLg [20x20/16z] {
+NSh50GCW30302n1X_u7hhnuIzI-MFpdT0pZrbXOkY7gHLRKv1RjpD-giIWFHIoLs2ntGJOEcDqJ_b50xDxepto-ZglQfnYJPK8hLc8C5LKdyzjGfYFFRwpbA
+nJcdvvmQHExAEdj-4h89CEH0vTgci4VCHewwUIvkhJjmiU-zxz6z2QlPp7qRu5rLGF3p1
+}
+
+!procedure ServicePlanetaryComputerPro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServicePlanetaryComputerPro', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePlanetaryComputerProCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePlanetaryComputerProLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServicePlanetaryComputerProGroup($id, $name='Service Planetary Computer Pro', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePlanetaryComputerProLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/AiMachineLearning/ServiceAzureAiFoundryIq
+
+sprite $ServiceAzureAiFoundryIqXs [10x10/16z] 9Ko53G0m3AAIXT7-_-uKZm4Wqjrn8Ad92HnH8EMqkm1vPznMUKbtLGVnmP01nvCdhuVT6x8bOGC
+
+sprite $ServiceAzureAiFoundryIqSm [12x12/16z] BKm70W0X24Az2h3_V_UsUm00eexCn6EqUuigO8NXpgbLGG5sleNvp-7Sbl2ixjnjltFlwZadNcCvxshUXR03CX4YZj9qQpn_5CbFu08
+
+sprite $ServiceAzureAiFoundryIqMd [16x16/16z] {
+HOw74GCm20FbXa5Y_td3uLpohdIX66kVMU3Xf9JXxgkZ9279FAu1DmO1Yh1xkOP7e6potTDzzY-wjEo1FwQPARB_99Mpp9-jp2r-xUKUwOjTRsOjhMo-_cpJ
+GSO0kkU8SAnOOP28mnKeocifMTTquw8SRNu
+}
+
+sprite $ServiceAzureAiFoundryIqLg [20x20/16z] {
+LSi7ZWL0289XfWlC_S-xkg__QVebe6fZpDahl0h9lfUHZGSfenAJo5QqUn9eNsnodGaS1lZO0x526YqYyMcPiXuHxM52zR2ER9rpK3MvnvrpZ8PAbTrzRUcy
+BEdseeyLUIPzhEZ6SE2tY27rrwuzAAtkZp6jxgZ7PMZ1E1X9ZATj9GBOWuoDQxSbQQ0QZEnUgyAZKSP4YyZ-
+}
+
+!procedure ServiceAzureAiFoundryIq($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceAzureAiFoundryIq', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureAiFoundryIqCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureAiFoundryIqLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureAiFoundryIqGroup($id, $name='Service Azure Ai Foundry Iq', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureAiFoundryIqLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/AiMachineLearning/ServiceAzureMachineLearning
+
+sprite $ServiceAzureMachineLearningXs [10x10/16z] LS710S0G00Im03ZsdxVl9duYW3Y0QmE61Imyd0r97FUjjMlqXBuFEeWF
+
+sprite $ServiceAzureMachineLearningSm [12x12/16z] NOh50S103CDqd3ZTVzqowsFaXmdbn_lBMpgz1-FoWd9-HWVCWMu3W531ZPqYaRjYIiEy0582cWj8N2m
+
+sprite $ServiceAzureMachineLearningMd [16x16/16z] VSo5OGCW50JGGqzW_tNRk2SFvmi-glKuRqe2-_TRUdYl1VAXtGRwmtiE02mukwIMxVDBR3ZAIaUnHPpb0747DUVaA0e1E6kda3BBwPdWeCiUE4Z56OCt_m
+
+sprite $ServiceAzureMachineLearningLg [20x20/16z] {
+bSx50G0X34JHGPCCz5_likxsJ_1G_8iaI3cPsPNbawdkhHHfbdPMAn3bOFrKTcUpeEN5hIGIq9UhBPj4bgSOUp7LcS0-3pDJZpbjPX1Jv5Ahz6dm900No5Ag
+kaPgvlf3aNteHxqHVKQR_vNC8lfSn1fnNGS
+}
+
+!procedure ServiceAzureMachineLearning($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceAzureMachineLearning', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureMachineLearningCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureMachineLearningLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureMachineLearningGroup($id, $name='Service Azure Machine Learning', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureMachineLearningLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/AiMachineLearning/ServiceFoundryAgentService
+
+sprite $ServiceFoundryAgentServiceXs [10x10/16z] LS770OH050KWDlxmnlxRzInucAg6FSUl-sqcmOoUNRkX6_xdKasZLR-oLF4zqLsWfp_S
+
+sprite $ServiceFoundryAgentServiceSm [12x12/16z] NSQt0S0m30InKsHuxh-kapgZ0d_suAYDkMyOqRIWUMmyMZw7vSzv7Yc1EnzLOWuqODhtJC0sc4h9TXj0hpRTlV6nY0dS
+
+sprite $ServiceFoundryAgentServiceMd [16x16/16z] {
+RSw53KGX44NHXux-_jlTaOJOtXW7n_yemak-HSHChGrtO79qWYB33D5X4U0-0nGc5gW6M7MWFTEgblikCxffxiyLVs5AhpeBYb7QwiP9OHmoDrCCvd2cxXl4
+ONJrA-Q1rnOvo7u
+}
+
+sprite $ServiceFoundryAgentServiceLg [20x20/16z] {
+NSy7WeKW34NH5nX8PV_RdII_gTT-R81VX6URcSTDMBaI_8fpC9D4-2r64G5WIJNwDILtHxL5L07IZtNQ9cbcLZ1vOhQ9egtsxWDlmowZ90zk4tpQ7d4U1aWR
+lqqsAf8oBbjcQNsP-p9oDrjzqKRC7f7OaslB_auQOqhMrDMPQ17XKuccJTmQgWle_W4
+}
+
+!procedure ServiceFoundryAgentService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceFoundryAgentService', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFoundryAgentServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFoundryAgentServiceLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFoundryAgentServiceGroup($id, $name='Service Foundry Agent Service', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFoundryAgentServiceLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/AiMachineLearning/ServiceFoundryControlPlane
+
+sprite $ServiceFoundryControlPlaneXs [10x10/16z] 3SU70O1020F0imQUttzUJGzSvmcEsH8SlL1DgYivrfmnFB5FNeHhvD5_MdqafK8N_uV47Zu
+
+sprite $ServiceFoundryControlPlaneSm [12x12/16z] 9Sl50GGn4CJ0MlAGyq_ti44_WVCy_TEpHToGrSXyY2nGlKJe-d7EO13iqpytzxK9pd64QH5NzX7XgOAZ4ay6P_TVYtZsu0q
+
+sprite $ServiceFoundryControlPlaneMd [16x16/16z] {
+DOu50iGW40E3Pkt-_zqZRHbaNV0mUkyDbvrLa-HdheW46caGqpqacvdBV8KSJq1fuJR8tIEpgqqUlvIUrTMrb2wj__fM3mYrOQ-k_wYMm3vsTf3dHMAHo8Y-
+IPgFRMeUxWs2RfHqCpaiN0jB8niym_51qgj2wXy
+}
+
+sprite $ServiceFoundryControlPlaneLg [20x20/16z] {
+FOy75WGX24FjrBt_TJV4vsHQ_09nsjMO0w9z939_0fqFTO_8rbRHLsNkZY-WgjugDGCYX3KYrVfIswnQH51lfYfGt-wXdNF3hJEZ7SIDGc3iB2y9LgliDwCM
+ueFXxwp2rqZkBIBtyZ8pJdqtLkPHLbg47nXKYhcL4zIxxGx77yCZ4ntGRXJFpj7w37hCu0XL61pXJbGIPcH6xFPfLmJOhVe3
+}
+
+!procedure ServiceFoundryControlPlane($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceFoundryControlPlane', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFoundryControlPlaneCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFoundryControlPlaneLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFoundryControlPlaneGroup($id, $name='Service Foundry Control Plane', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFoundryControlPlaneLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/AiMachineLearning/ServiceFoundryLabs
+
+sprite $ServiceFoundryLabsXs [10x10/16z] HST50GC04C2m30_zsnr3Nmt_3h5pXKnerCig5Hb4GBxMKCMcNJ3jC0SEBX1PS0S
+
+sprite $ServiceFoundryLabsSm [12x12/16z] LOa50aGX20N79Ez_tOsVEWgyOATPXd4WqdjlvP3AWNKObwwgL2Wg4rIEMbKExNzZ3N8ImO5c9xCT-iY6gAfp8Ih7_G8
+
+sprite $ServiceFoundryLabsMd [16x16/16z] {
+JKw50S0m3Af3Al-_kyYCQWn8WPB-67kl-KMO_vZadN_Ykv05zlZjW9T4JmUwj-eD_m2Uhi4az592LXQR4V5H5Lqhgpt27EwZyLuFlzfohpN2ifPPQYAjbDf6
+oeyFa6Ab1vryQXS
+}
+
+sprite $ServiceFoundryLabsLg [20x20/16z] {
+NSy74iGm24DHaMA4uVxdNOKPjhtqdsPZdFZdLHduOkwbbkkJt3qpzzuN1cNEzwTXtC434h60mI2xGQxhEW4OILEx-zpT8Kv_6eISsFiM5E-pPtz3F5GlIAbv
+4XBIgGX49ZwkgbBh_SYi3PZQEOcP2R6TPLtCm1jeovtaznpbV68OVYr-FVG2
+}
+
+!procedure ServiceFoundryLabs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceFoundryLabs', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFoundryLabsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFoundryLabsLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFoundryLabsGroup($id, $name='Service Foundry Labs', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFoundryLabsLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/AiMachineLearning/ServiceFoundryLocal
+
+sprite $ServiceFoundryLocalXs [10x10/16z] FSY53O0m54NHc_2Til-wr4_a2KydGbTLRsiVbyAyG1nHLVFH-WNc4dYaOz5Rvt5QXASaNUPeFm
+
+sprite $ServiceFoundryLocalSm [12x12/16z] HOg50SGW54E3Vzj_takkzbeWXY7cX8Y8p2BKSyubzW3SMNI6P-2Q3Eg3YpMb8ykqQ6PmcWNOfXPdVPeFjJ_Qjr-QZ_GF
+
+sprite $ServiceFoundryLocalMd [16x16/16z] NSq50WGn30B0h9LG-VztZt2-LASQXtCguNHbZ37dN7dpYbkWHhAExEK6d_VfoyR7wtnQ7_biu9HJ-zgriRLyESjvbPqJ4PdjOssMyN6-p1-pWM-JgdT3VW
+
+sprite $ServiceFoundryLocalLg [20x20/16z] {
+TSq50eGm34JHi4qp4w3tl-v6rkNZZugCMnfTfDkhupZEQ8qVTlwm1VbkMjmyoe5xRw08VCwqDemNMzfceggpCeEMGK0IKWM64Jat9cvjs9GF2ooRPSZ9lYFG
+I2kxXS1luvUH72XplfY2RkglvXF-Rkv_3MbN
+}
+
+!procedure ServiceFoundryLocal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceFoundryLocal', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFoundryLocalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFoundryLocalLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFoundryLocalGroup($id, $name='Service Foundry Local', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFoundryLocalLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/AiMachineLearning/ServiceFoundryModels
+
+sprite $ServiceFoundryModelsXs [10x10/16z] BKg30G0m3CjKz_zpvp82UckunLmoBch2yH2WSBl0T4zJGJ-2o63ia9f7SCiY6sG2qZf-iRw_
+
+sprite $ServiceFoundryModelsSm [12x12/16z] DOdN0GDG209vLK3TVzpqt0_bWB7Mme-8xlfrRjI_wz2P_o6avwVQnfME27oyU29G9Pnpx-KTNKTsLZVGcvHi3-06XJ_1_MjF
+
+sprite $ServiceFoundryModelsMd [16x16/16z] {
+HOp50G0n40A9mahwB_TSveS2Q0S57oHzhV5faSZCJvlAKAQ_kcYeH0G-p3WY_9Dk7UvUPJnrk5ybAoOUCg8TMj8WYPRlLG7OaPb5PXwHkOIwqldALO2r89s5
+0mBecfCDFwGC-AbK_zKE
+}
+
+sprite $ServiceFoundryModelsLg [20x20/16z] {
+NP07Ti0W34F5YeN7_QzRqKdpC_aFl23c4FY7YQhgBzMgCYz7yW4pS_wviGc3NDmRRP4p8ZOkjhRAURkKG7DtRUmTugpaSDx3pX7Xedrj9qWpO9v849FaMdPS
+olsKDHlCEYmp7t1lzmZzkxQLlkDFLMfxLJRoMrML0pXlIchdWH23pvXpuZq-xS9BoisNMyQ1cmy
+}
+
+!procedure ServiceFoundryModels($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceFoundryModels', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFoundryModelsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFoundryModelsLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFoundryModelsGroup($id, $name='Service Foundry Models', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFoundryModelsLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/AiMachineLearning/ServiceCognitiveSearch
 
@@ -1494,171 +1800,6 @@ jiaNhG4
 !procedure ServiceAzureHybridCenterGroup($id, $name='Service Azure Hybrid Center', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureHybridCenterLg>', $name, $tech)
 !endprocedure
-' definition of the Item azure/Item/AzureStack/ServiceMultiTenancy
-
-sprite $ServiceMultiTenancyXs [10x10/16z] JSp50O0030D094RstnUt-zGx_4YQhymxTDcp96vxJ3d1pJ4SPNTFVKAQ2tn_0gmtcpS
-
-sprite $ServiceMultiTenancySm [12x12/16z] LSg30G0m30J05D7lls_DAqBwYSX9jI6tdcl7GAR6hFM0dagEKGoGiHBQ0n1w7jjp0TYcB4B91ycYjEIM2orzfm8
-
-sprite $ServiceMultiTenancyMd [16x16/16z] TSk50SD030D0cM7_WQio9VTeme6axv3mKZVeNVcCbsvnDZaOpYsMwauWdkKCaSnU4Y0uAy9hbe0YYw99njelpXchLvYU1TWyj3DElFWjZhEOF0su
-
-sprite $ServiceMultiTenancyLg [20x20/16z] {
-TStP0OGm24LHrWUc_u8doBZh_Jm9G5yv0BaIrlHCKX8HHBm_M7HaOuobJJOR5NMvTZLfMcVpJr0FWL7iPW2O6IZg8ngpIJ4hgvzHEKUr34migpIgDEGqorCm
-19pod9KHwN9arlzEMHlu8DuCTAfDwPfu3Vu
-}
-
-!procedure ServiceMultiTenancy($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/AzureStack/ServiceMultiTenancy', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceMultiTenancyCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceMultiTenancyLg>', 'AzureStack', $funcName, $content)
-!endprocedure
-
-!procedure ServiceMultiTenancyGroup($id, $name='Service Multi Tenancy', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceMultiTenancyLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/AzureStack/ServiceInfrastructureBackup
-
-sprite $ServiceInfrastructureBackupXs [10x10/16z] ROg35S1G5CMAP-m_Resl75ra-W4aGfYFX9AP26UACwrdCdT3W2DTd1wTm3ppdTnic7O
-
-sprite $ServiceInfrastructureBackupSm [12x12/16z] ZOkr0S0m30HjCUu_RfZANFKulX3n3XpQjRiPOTTyCEZDJysoSUk3ENSjEu3xcG-T4V5Bhm
-
-sprite $ServiceInfrastructureBackupMd [16x16/16z] fSc53S0m4C30Xp3iFsx3BAw59yEJw76tT27cf13TnbQJuEOUaMYshdteTiqiXAXkhTzZn6hL8f73PU-aC7vtxeTriO04
-
-sprite $ServiceInfrastructureBackupLg [20x20/16z] {
-lSor0O1044JHbPdpwxzSt27cXsz5FiFPnHZcEA5kneZKvn8Lkp7LnG85s6tlQgqlJUQxHSJ5CWrmMuobpfNb5gz_ul8orTN27XnJhbTBq2cBLykrpFrbE69C
-ARh82
-}
-
-!procedure ServiceInfrastructureBackup($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/AzureStack/ServiceInfrastructureBackup', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceInfrastructureBackupCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceInfrastructureBackupLg>', 'AzureStack', $funcName, $content)
-!endprocedure
-
-!procedure ServiceInfrastructureBackupGroup($id, $name='Service Infrastructure Backup', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceInfrastructureBackupLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/AzureStack/ServiceCapacity
-
-sprite $ServiceCapacityXs [10x10/16z] BOY55K0n30BvqZZxZrk_2FV0iy2YkNlxZv4ybcIrOvbwR27o0R99zMqU7krs9eAROWC
-
-sprite $ServiceCapacitySm [12x12/16z] PSp50S0m40D1uqgX_iiDi-Trg10FOLDtvQZBjAf7VMZdRDutm1h5HWozkwFk97LdZQmQpXe9Zje6bmK
-
-sprite $ServiceCapacityMd [16x16/16z] ZSf50iGm509GsYRmn-v_tBYlvkqGu6fGkQvbJ_ibNz-p-Cj6Rixzxtz3Jzufin8foIwCo1HVlcM-NvQy0NOoyTcoCHKjY8N3M3CY0W
-
-sprite $ServiceCapacityLg [20x20/16z] {
-PSu93eGm28LXN5xPPkv_NGDH8Edl_gbjYOwAlgwxAmCq0uR9_S_QRhZkLWqppyz-G5cFDumzusdTRYkwqjORny4i7DRaRYnwb8daTwB3bffP78X_AnPXlYbj
-O8nAXE-vJaURy7kTwvE8GVG
-}
-
-!procedure ServiceCapacity($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/AzureStack/ServiceCapacity', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceCapacityCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceCapacityLg>', 'AzureStack', $funcName, $content)
-!endprocedure
-
-!procedure ServiceCapacityGroup($id, $name='Service Capacity', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceCapacityLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/AzureStack/ServiceOffers
-
-sprite $ServiceOffersXs [10x10/16z] LOg34G0140DpLl_rlhc347_CVUWoXTgCUspaPJ8JPx5NmLiXYOsaFEw7lGokPWK
-
-sprite $ServiceOffersSm [12x12/16z] PSb95e1020FHu410xtzVguUTjVelqQ_8j1SFUCcBij_7cxTT1Pr610bcQTsB2gSnf63irYgwu2usFm
-
-sprite $ServiceOffersMd [16x16/16z] TSk74GGn20H1P6TvvH_lEQJtDsLx2-okViGdX_iRKRR1edKOUcYoGGMaYnGuB8auvaWqAPaHIUf12rKyNyz1NOmXIRLF7eD4Sq-XEGJNuFDuXQrs
-
-sprite $ServiceOffersLg [20x20/16z] {
-VSe53W1134BHTgJGpFtlks7TYVBoxNyjD3zJb-H8lrMaaNwfaCLAna5M0GmCz8NKR6FRAm2r02JhjQBcgj1jfQWaLE6848GgXAt2jT8l6uLenMYYneIj0-b1
-MeYsAUf8qGKTeWkcgjjMkgxRiGa
-}
-
-!procedure ServiceOffers($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/AzureStack/ServiceOffers', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceOffersCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceOffersLg>', 'AzureStack', $funcName, $content)
-!endprocedure
-
-!procedure ServiceOffersGroup($id, $name='Service Offers', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceOffersLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/AzureStack/ServiceUserSubscriptions
-
-sprite $ServiceUserSubscriptionsXs [10x10/16z] JOg70GC1209HuPBz5_xUpYxeIv8vbaxWs0QkJR-DOt6gCh8CPMP6mEorkKwsxNzYhG
-
-sprite $ServiceUserSubscriptionsSm [12x12/16z] NOo30G0m30JZx_uBrxwOzE7kkjB6pAF1EmTcdm543NsVcLrKk9-ok9fPl-HgMj-YejLMtgWhb2OXL
-
-sprite $ServiceUserSubscriptionsMd [16x16/16z] TKm50W0X3782k_-_-Cekp55X1qgoOHo8VtIli_yupzSFXO5uPV2VecXc4X0-0fBo33ArHNFNEn6vtBuBYAMStmMaxWBEyr_FXZV-
-
-sprite $ServiceUserSubscriptionsLg [20x20/16z] {
-TSu55eGm34NHfbzczhzXQ7E2myClblOT9SP5GXdEfkf4FS4s3gCh7GPNR4U_Aax6idREKpm_qx4F72C9G0EBrDE84L6JC68SaGrp5Z7dAwg1qVCmAN-PAVT0
-htcF-6QSzh-aj1QN9gq
-}
-
-!procedure ServiceUserSubscriptions($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/AzureStack/ServiceUserSubscriptions', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceUserSubscriptionsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceUserSubscriptionsLg>', 'AzureStack', $funcName, $content)
-!endprocedure
-
-!procedure ServiceUserSubscriptionsGroup($id, $name='Service User Subscriptions', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceUserSubscriptionsLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/AzureStack/ServicePlans
-
-sprite $ServicePlansXs [10x10/16z] Oq03N0WM5uB5XQQA1GZ035Pc842JP4Kt4m
-
-sprite $ServicePlansSm [12x12/16z] LOi50W0W20Fj-lz_LHhE8BQbG8Rl-Fxu_cW_Fzm30_gQsYTZFsnVVD_GKoRq78P-CJiz
-
-sprite $ServicePlansMd [16x16/16z] PSc10S0G4C300B3_lW10MZZFbpKjjqpBnTi-niVZmT4FNpgC44BAPij8L7iKIjV4CDzSj-ImkEO1BSPS3ZCQvhAFEyW
-
-sprite $ServicePlansLg [20x20/16z] VSrH0iGG303H0U3-zzrj2m3p-KZ2Ffjpj3Gf5tSMTnPt5dSMHnFjEeQ-OXP4gfa2dHBupMmnPL2fzi_fjY-PfTLCQw5Jaf3Dj3FLMbSRCl07
-
-!procedure ServicePlans($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/AzureStack/ServicePlans', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServicePlansCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServicePlansLg>', 'AzureStack', $funcName, $content)
-!endprocedure
-
-!procedure ServicePlansGroup($id, $name='Service Plans', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServicePlansLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/AzureStack/ServiceUpdates
-
-sprite $ServiceUpdatesXs [10x10/16z] NSYt4S0m3C10ICpSVs0hLKRr1rPpnKuYgguWyw_kdZ30tKM4ZR6mgQfhJbPcnj9hwGC
-
-sprite $ServiceUpdatesSm [12x12/16z] NOa54W0n20Dps4pk__-j-xP010MfeFEJFx-X0MBgIjVAaTTXYLMQH4HeeMYDS6r0LCrgWK8HFlJWrHa
-
-sprite $ServiceUpdatesMd [16x16/16z] ZStL0GGn409G1bZjlzzDmhdV-ni5mS35iaTTwp88lTH_xLTXqaoJgSK-NxTzTmBJcpkh0mXeb8eqR9aA4YX9HZOGVNlAWzHN-gjk
-
-sprite $ServiceUpdatesLg [20x20/16z] {
-bSe54eH034JHU63kV-1DcY0bQn-TLqr7Cj6TheaVjkUUMQ-d1INnHjitMzEd7QlOM9ucjVFLXGX4yShSGC1Z74YxmdRr5WC1cRH063J8AfMPk3i0MQN6jRwD
-exAu3PbtHhVT_Mal
-}
-
-!procedure ServiceUpdates($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/AzureStack/ServiceUpdates', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceUpdatesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceUpdatesLg>', 'AzureStack', $funcName, $content)
-!endprocedure
-
-!procedure ServiceUpdatesGroup($id, $name='Service Updates', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceUpdatesLg>', $name, $tech)
-!endprocedure
 ' definition of the Item azure/Item/Blockchain/ServiceBlockchainApplications
 
 sprite $ServiceBlockchainApplicationsXs [10x10/16z] NOk50G0X3CG2rFVVzrr9NOwTmKbNLNRq1B2zLksT6NLr7PbsoCOZ5WvCp80L
@@ -2106,6 +2247,51 @@ yM-Jkd5Kzchm-9yF
 !procedure ServiceAzureComputeGalleriesGroup($id, $name='Service Azure Compute Galleries', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureComputeGalleriesLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/Compute/ServiceStageMaps
+
+sprite $ServiceStageMapsXs [10x10/16z] NSd70G112090pDf_mHStpqS1_1YDcVsFHWJz7wg-XHKlV-2NYPCqnDhT
+
+sprite $ServiceStageMapsSm [12x12/16z] PSh50G0m20D07FPVkEwz5oI1YVQbgkD4AyOj717rO0GP-xB4SZTjEepbXwPoumIiMmO
+
+sprite $ServiceStageMapsMd [16x16/16z] PSZ50G0W3C30Uc7_WN7dVWbiI73IuaYoQYMhLwi5Gi57bq5Ge8XmxK4htctLJl1GmC7ZaJ-a3KlpQUGcTii
+
+sprite $ServiceStageMapsLg [20x20/16z] XSs53S1030D0FuJs7xXC0Qad3jXmUaVGvYPCwU16WmyDhpdbu6OGtGZS36fcRrq_Pg6kkndnOGoy-BIDNbqES4Gt21fr_6lTmsO43PK-2voj
+
+!procedure ServiceStageMaps($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Compute/ServiceStageMaps', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceStageMapsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStageMapsLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStageMapsGroup($id, $name='Service Stage Maps', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStageMapsLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Compute/ServiceScheduledActions
+
+sprite $ServiceScheduledActionsXs [10x10/16z] NOg50G0n20ElXku_xxlsS18-oCQnnC6qMU_ztDhHAvoQCZXjGISt2k0Sz26i
+
+sprite $ServiceScheduledActionsSm [12x12/16z] LOn70i1G14JzXd7_0oTQobinZNvC9kOyJVd69EuaxuErLjqm07LF-81gvwUhAs_rM_fcluT3pg52vD05
+
+sprite $ServiceScheduledActionsMd [16x16/16z] TSc33GG05C3GVcF_VS_62vloJSH3v5vLUL75nMvVxDxxJdwtQtDY_txeSE8wBSy_WoBvQENKc3y-113tRl3NHZWfvyuCCdWbfpm2
+
+sprite $ServiceScheduledActionsLg [20x20/16z] {
+dSi53W9030NHMQbo__FYqCNbnPf9Foz9vuwULCWCFSdCIoj_j3w3WxuqyPW7McqHjHsdkw7f_TJKGWw6CEZMbYq21asgXN9i-BWsJo0xp5b_3dC0DjbSjCvH
+T8es01DMCyIqKlK6Em
+}
+
+!procedure ServiceScheduledActions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Compute/ServiceScheduledActions', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceScheduledActionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceScheduledActionsLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceScheduledActionsGroup($id, $name='Service Scheduled Actions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceScheduledActionsLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/Compute/ServiceComputeFleet
 
 sprite $ServiceComputeFleetXs [10x10/16z] NOc53S1030CleBuLxpzlMVG18zlunK3sKe7jaRfB3w_kHduuvrTHyQkY0TwMTuuWami
@@ -2159,6 +2345,30 @@ MFufzE-dasfbgskc5ipRBwsf0Y2TDdBV-TFrCGQ0j3xy
 
 !procedure ServiceAksAutomaticGroup($id, $name='Service Aks Automatic', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceAksAutomaticLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Compute/ServiceAzureLinux
+
+sprite $ServiceAzureLinuxXs [10x10/16z] FSR50S0m34Mn5p9yxpzlkT59t0OVir9-AN5p_zRst1leRW1F-pj4x6LxwGG
+
+sprite $ServiceAzureLinuxSm [12x12/16z] JOk35G0m44DJ7VUVjzP_2Z594Pj8nA9fQY9nioa3axkjc9cxva_RqYCgquZC98-754nw4GKBDkZHwBg43JS
+
+sprite $ServiceAzureLinuxMd [16x16/16z] JSk54S0m241HeaZttxU4m_xfGy1R2rhtTP9RzNqYuKSrEGUYURaF8ZvVD_fUocXUGRiKFo1QVcU3GGYUVH1jWn-eNNggdisWPjvbPFLemGy
+
+sprite $ServiceAzureLinuxLg [20x20/16z] {
+PSu74eGW44JH0KewSF_phfcm_ifFWOvUAV5NlVfIiwrEso5efws_jTFGAG6LbvLk6m1TjdL3D_QZmznVm9azRpabnL4-i5wKY3v1ThwEacFLSoLPeyThOoPB
+ZAuz96CnVQpQaQKyMp42KbfoX5HMox43
+}
+
+!procedure ServiceAzureLinux($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Compute/ServiceAzureLinux', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureLinuxCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureLinuxLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureLinuxGroup($id, $name='Service Azure Linux', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureLinuxLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Compute/ServiceVirtualMachine
 
@@ -2660,13 +2870,13 @@ hcbDP13U6dzfcWrIgRgtIiET
 !endprocedure
 ' definition of the Item azure/Item/Compute/ServiceHostGroups
 
-sprite $ServiceHostGroupsXs [10x10/16z] HSQ10G0G20311x3_mA2geth26ltBjnHCnRh6_LXLc5A5xv-eS
+sprite $ServiceHostGroupsXs [10x10/16z] HSc70S0W2031fyF-0wT7J-biK_dGg_j0VvXBNHyc7vx_qPkRyGj-bS09
 
-sprite $ServiceHostGroupsSm [12x12/16z] NSg50S0m20J0ns7_WQlnYw1OLUNlpTD_8eYCtvD_jEy_udbhBa3sdF4JJ6lEEDq
+sprite $ServiceHostGroupsSm [12x12/16z] NSg54S0m30D0tHcr_y1jc3vWn8dChkRfdGWYeojvetE_YFAU_PpxMlT5nAL09zZSTfvH_ny
 
-sprite $ServiceHostGroupsMd [16x16/16z] ZSp50G1120F0uD1_mUUkEoyqk9BQqT1hkUt6Fdnb3b1ch3GmqDW1TEh6_qdabh_tUj-lPApvqgErVzS3
+sprite $ServiceHostGroupsMd [16x16/16z] NSk50S0m20J0ns7_WQlnYs8uIKq4GCjjUkFmpXoWpEWqyD2O0DgYT_xhz_SIVcCVnDyuZWdFpXAT43PdRBg5585D9Zut
 
-sprite $ServiceHostGroupsLg [20x20/16z] dOu30W0X44N7kF-1rsRrulZ38tb25v_R0QR9TtI9sEJpCuClukWG7NsZzmJiYDork4zteK_eBIzEFYOum0m7sdtjz
+sprite $ServiceHostGroupsLg [20x20/16z] bOu50iGm20GZm6x-_-2xUYFKfff1WqjfqCt1Ad9QNAr4RCrhcHnP2z7PpRQXcYyoxW8ixyrPZUGlknHMYDBP1TKkEMy_3qvbJ3FJtWbWO-sHzWS
 
 !procedure ServiceHostGroups($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'azure/Item/Compute/ServiceHostGroups', $name, $tech, $desc)
@@ -2724,6 +2934,57 @@ CXYokT9anAhKKTCjzpb2NGwYibSNlnmctixkJeMm0qaMXnDZznPmeIi
 !procedure ServiceAzureSpringAppsGroup($id, $name='Service Azure Spring Apps', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSpringAppsLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/Containers/ServiceServiceGroups
+
+sprite $ServiceServiceGroupsXs [10x10/16z] HKo50G0W338N_n-iwqvWjDqR3QmkAJeHW4-NO5-Vv0mwWIGZIKM8QOvZtrDwvmC
+
+sprite $ServiceServiceGroupsSm [12x12/16z] JSO74W0X349HB9_e_I-yjini2ZpzftExK7rumtsbySvj3vlhjhAqz9f-R6YQ4MqvmijpiDp24dF8e3TrYMVq0G
+
+sprite $ServiceServiceGroupsMd [16x16/16z] PSm50aGX24NH9t21sV-6vtVP7WbD0-wdoS4k1sGUIRxTkRi1lstTcLmUrEBWj9jYkMuVlGu3I5PLR2v8gN_LlRjoSn-cCYGjjiKC7MDvE0Ak3uZbl2oaFm
+
+sprite $ServiceServiceGroupsLg [20x20/16z] {
+RT053i0W44JHGVuilV-1AtIJwey_7FtNkwveXm0NLQ00HKUbdTh0rWoWwWYdTGD-6cFOJoEcqIvhwB0c7gRQfRVDd7PTcuZefv7tg8l38ot2dhPuV2tIL1oU
+xuhTc5QardMTszqWuVei2RYev9HIT7N81W
+}
+
+!procedure ServiceServiceGroups($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Containers/ServiceServiceGroups', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceServiceGroupsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceServiceGroupsLg>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure ServiceServiceGroupsGroup($id, $name='Service Service Groups', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceServiceGroupsLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Containers/ServiceAksNetworkPolicy
+
+sprite $ServiceAksNetworkPolicyXs [10x10/16z] JOY54G0m20CVX_qNxkMq4EU_w40s0yn45w1BfQeY4ReRQ8pTrS2X2rfHLCBF0Hu
+
+sprite $ServiceAksNetworkPolicySm [12x12/16z] NSgr0S1034FHRtRs7_YuociC4Z-MF552b04kN2aPN2ROtYC2Dt2mp0Gq2UXkN54-jht3FSIGt8VHnIElDm4
+
+sprite $ServiceAksNetworkPolicyMd [16x16/16z] {
+ROs50SCm30J5iF_2VMCfbnW49zCZhf-HX4VmkdDa-iTfs0v14MutXE4h5dTiDeREE01K9f7Xwue1ZiAH0CAOFcEjuksJ5MqGAgPLhZ2NZqipv9uFJuKRq2Ty
+Roy
+}
+
+sprite $ServiceAksNetworkPolicyLg [20x20/16z] {
+VSm5OaCX48JXVss0-r-udKey-Px0AXyqZqfISQkrabngVjNwLhTNPOjRwf56tEcwvWh_EW5-SsFGxHApW905KRvNRw1aXOqKpiMom5B3zdNRPHzo8z71DSSP
+BkftbhmanvUHN3mRsoU1qFn5GgxSodFSzC4N
+}
+
+!procedure ServiceAksNetworkPolicy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Containers/ServiceAksNetworkPolicy', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAksNetworkPolicyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAksNetworkPolicyLg>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAksNetworkPolicyGroup($id, $name='Service Aks Network Policy', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAksNetworkPolicyLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/Containers/ServiceAzureRedHatOpenShift
 
 sprite $ServiceAzureRedHatOpenShiftXs [10x10/16z] JOh50S0W00ElnSF-y-9sdoWlwYnZKhTESt7CuHSehpE9xHJYScYo5dce
@@ -2747,6 +3008,57 @@ VOv75aCn20FT3Shzpvj2YrP_LdvZG6eFx2joEXia8qt7dylgpAKkVnUqTkpvmlSw03wz_VukC-L4Pga1
 
 !procedure ServiceAzureRedHatOpenShiftGroup($id, $name='Service Azure Red Hat Open Shift', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureRedHatOpenShiftLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Containers/ServiceKubernetesHub
+
+sprite $ServiceKubernetesHubXs [10x10/16z] BOk10GDH14FZjm7x3tpW0H0yzsZmSFoYaXah1uHqCwdEdLHdTIKnS-pEE3lSBaibXkOlItu
+
+sprite $ServiceKubernetesHubSm [12x12/16z] DOo30G0m30G_nlxxrhsOG6RM9W77PrKB3jg-bfEEz9EJcKT5dZp3pEhaYCXOWzltbUVVIOkzqy2kGjvFaD92qVpGdW
+
+sprite $ServiceKubernetesHubMd [16x16/16z] {
+NOu55WGn34AfK4ZkVzyLtkhyQXpWsAuN2oZEBwv3X85GDMD99xPZhovPVDcBf6n98pPDaMfxlcoPfEsPVaEoSn2RPghb-R8bdal-UUNt131jYUD7trPUrFRu
+fL5TNthV0G
+}
+
+sprite $ServiceKubernetesHubLg [20x20/16z] {
+NSm73aCn28DXPu0TUl_xDhIy-MkXJuc1hcmTEG3A7d7rBhmQIrPdzrRNMcNSsSE6VKJ9vsdDTY5chKnkvhHOfEmmYRRpqCEqYN-BjCvjEHSYoaJpRLczgptH
+xVZhjUUrLmO_zsRkHHhQ_5a7JaiLwq9Gg7gh0Z7RirZeyMpJ5m
+}
+
+!procedure ServiceKubernetesHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Containers/ServiceKubernetesHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceKubernetesHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceKubernetesHubLg>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure ServiceKubernetesHubGroup($id, $name='Service Kubernetes Hub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceKubernetesHubLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Containers/ServiceAzureContainerStorage
+
+sprite $ServiceAzureContainerStorageXs [10x10/16z] DOo30G1024N_6Uq_R-vbmkX8AbdfJJETk4V16j3itkkxTDwpP4E9sBRwa_-QUG4
+
+sprite $ServiceAzureContainerStorageSm [12x12/16z] JOq55W8n34IdZJ_kVrzYiFlRkA6vhTSzwn6bp_TTpfAa_kYju0h1tSp0wQLVWBe_F2Ao1Gg0QOy81XqjIeA5xaNo1G
+
+sprite $ServiceAzureContainerStorageMd [16x16/16z] LSY50S0W3031Zw7xxrkizkY5dIY_H7y37RO7BeZiT-Iy1QUofxhLQiyv1oEByUGodISCMIuZ1eHHELOMyTvhDS3uvq3umVFrH2JN97nIJdzV
+
+sprite $ServiceAzureContainerStorageLg [20x20/16z] {
+VP055aCX30HtOzZzxzlcaK-zWmyUN53mZgZfXmFuQjGa6nCKTCE5-sxukaNILVyihSA-PeHBEJC1-cYp9O2v9izEKX3bUW8XSX6V7S_Rrsnpt15i0llYeJMk
+KXodeK_6QWaZ00y3s_Cco_XHtcDA-nVJ6m
+}
+
+!procedure ServiceAzureContainerStorage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Containers/ServiceAzureContainerStorage', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureContainerStorageCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureContainerStorageLg>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureContainerStorageGroup($id, $name='Service Azure Container Storage', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureContainerStorageLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Containers/ServiceKubernetesServices
 
@@ -3065,6 +3377,81 @@ _-8kaX_x_93p7m
 
 !procedure ServiceOracleDatabaseGroup($id, $name='Service Oracle Database', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceOracleDatabaseLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Databases/ServiceSqlDatabaseFleetManager
+
+sprite $ServiceSqlDatabaseFleetManagerXs [10x10/16z] JOYt0S1048EuMCZxp-lyWKO27eAFh2f6AMD7sOQr6uU48JqlB2o_9-bvy3nWlGi
+
+sprite $ServiceSqlDatabaseFleetManagerSm [12x12/16z] JSZ50S104CD0BHqu_TSR9ht6vYnuggp8sncKtNS3sZaYml08trdka-xUTqjkHfSkzr5vUv4q3lCtd3xrUGC
+
+sprite $ServiceSqlDatabaseFleetManagerMd [16x16/16z] NSU50S0m3CH06JuDx3zlcHMmZxFWbU727uUKqcCNy5WbWLBieBcz1bQcAUqO3enMMnlxw6DpxnDcHk-NBLKKVhls3FLuUUjqUrdi7JQk_jPkjXO
+
+sprite $ServiceSqlDatabaseFleetManagerLg [20x20/16z] {
+bSi55aCX34JHcHYs__qsfExj_GAy772XUAAEU-RbFhiJwlPySGykFA8c4SHRL4iAq3P1chG8POFJ8qIPRQsvTUGwvboN1f24pfi6CNCp-arJfIZPxRRbbzQd
+bkjj6pWvDwH_6terHJa
+}
+
+!procedure ServiceSqlDatabaseFleetManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Databases/ServiceSqlDatabaseFleetManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceSqlDatabaseFleetManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSqlDatabaseFleetManagerLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSqlDatabaseFleetManagerGroup($id, $name='Service Sql Database Fleet Manager', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlDatabaseFleetManagerLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Databases/ServiceAzureDocumentDb
+
+sprite $ServiceAzureDocumentDbXs [10x10/16z] Oq02Z2mWm0XYCR9piZE2M5nSd9oSN5mOB3O8Yu4J2535C7K
+
+sprite $ServiceAzureDocumentDbSm [12x12/16z] ROp50KD120MnbM7xhpVvxdE2Pt93FMPilHjGpQTxD5UrmfZlJ21plUdOVXlGjbi0_T2Zu-HpHxPRv0y
+
+sprite $ServiceAzureDocumentDbMd [16x16/16z] TOt50K0X34Ef4LBsd_UxopjL8kK3DPzHMLVndUKGehMH3I6sx1sX8gB1lkwPdCdytOLiSku8akNSeqwxyDWDyuvVFS-yTv_Szmbikq_p2
+
+sprite $ServiceAzureDocumentDbLg [20x20/16z] {
+bSxL0SCm34LHFR7I_VTjcF5-sST8Lu5PkXYO13edMCmy8jnQuzuAW4LMXW28tdvDcA2DrQgPhAtwsi5tWxO2snXLcylHWjT6Lbseupvvk6z-z_EVUMCq1i-U
+qlhf7m
+}
+
+!procedure ServiceAzureDocumentDb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Databases/ServiceAzureDocumentDb', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureDocumentDbCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDocumentDbLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDocumentDbGroup($id, $name='Service Azure Document Db', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDocumentDbLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Databases/ServiceAzureManagedRedis
+
+sprite $ServiceAzureManagedRedisXs [10x10/16z] JOQ50S0m382enF-_Tow522nqEUndyABa2UCmuLgZhX864cTnL5NbMOqVmJZO0G
+
+sprite $ServiceAzureManagedRedisSm [12x12/16z] NOlL0S10348vY-w_RsDVVISH03y8BqxG_zHbXLw0e-Tzet-nTprWwRqx09qzD7hhlRb7kFPMIBHWefSG4ewJtGS
+
+sprite $ServiceAzureManagedRedisMd [16x16/16z] {
+ROy54WGX30GdXlx_lvT9jYYxNcqWXdy4Rv7F1WdYfNYebf-F3KkTvNlJ6K5dAgbz-ZtgE6YVwJS0-CxpKViJhZl3kA_fFYymqrtAYzEEzUglpcz2UWvYFZtl
+27yJiOgK_G
+}
+
+sprite $ServiceAzureManagedRedisLg [20x20/16z] {
+TT055eKW54NH-vgO_tXL-kUnzy82VrC1hAyh5jDdOtxMIQuzwQdqKORJl5yKPPUxcN-OCCIwAG0UHltUMXW4WyvxeO_Lb45bMqIpWbPkPWg8FKOWpubAWGF3
+3BdVCosYZOjQtN9fvklUtaFdth9BmoZmMZTOYfMx4sQcGFJr9FGwppS
+}
+
+!procedure ServiceAzureManagedRedis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Databases/ServiceAzureManagedRedis', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureManagedRedisCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureManagedRedisLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureManagedRedisGroup($id, $name='Service Azure Managed Redis', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureManagedRedisLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Databases/ServiceAzureCosmosDb
 
@@ -3521,6 +3908,30 @@ gQwBfIM25MP-jSPE4kWdcxvRt0oqBka9Odth
 
 !procedure ServiceSqlServerRegistriesGroup($id, $name='Service Sql Server Registries', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlServerRegistriesLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/DeveloperTools/ServiceAzureAppTesting
+
+sprite $ServiceAzureAppTestingXs [10x10/16z] JSQ74SDG508m_cjmxBzlucxhcl2LJwfdPj_QiozRqaY1sMAHmXRQbB3LDlRjY4jd9ly
+
+sprite $ServiceAzureAppTestingSm [12x12/16z] NOW55WHH2CEAbJxkVz_TSSiNGl0XBlF88kl8IHvBgSM5hROaBi-nZPbU2hJGXsFB4xOwYbfduQ32ub36Gly1
+
+sprite $ServiceAzureAppTestingMd [16x16/16z] RSx50GD1241H77RwBpXOVF_jZG9tyGyPIPLMn2oYbhtsXwOjP5UtRdOzF2AIuNDOunM2ZCxnBAAEPzSvLp8DivqMRTFJW7K_K-iF01pUAH4WlIsSsOixeJy
+
+sprite $ServiceAzureAppTestingLg [20x20/16z] {
+TSi53aHH24FHuXtslz_l_Z8doWt5NuQ1cE93pTnouVTmIHwHArpC8tU1WzIMdezE1idSw3da9fChNPF7Vlou4qW6Dzsi1La0Zw_ktX89S5FzR7ui5maXQG3Y
+qx29J7B_ACLBOP5uIZDJSNkaSDlKSvcxYXa
+}
+
+!procedure ServiceAzureAppTesting($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/DeveloperTools/ServiceAzureAppTesting', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureAppTestingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureAppTestingLg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureAppTestingGroup($id, $name='Service Azure App Testing', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureAppTestingLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Devops/ServiceApplicationInsights
 
@@ -6012,6 +6423,60 @@ fO-53GGn30JDq7_3xytJeUX6Yc72T4C0_eLuwWpG2Zf1V-jMPF-kIy0h1EB1vS-vcH-SpM2hWNC2d19W
 !procedure ServiceSearchGridGroup($id, $name='Service Search Grid', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceSearchGridLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/HybridMulticloud/ServiceArcKubernetes
+
+sprite $ServiceArcKubernetesXs [10x10/16z] JOc50G1H24BveS2v_xpNzKm008y-cBJeunibBZgoSjgKaU_tGtJH4ttUtupvW7pO
+
+sprite $ServiceArcKubernetesSm [12x12/16z] NOk55S102CN2FRpxprltuF81AT31JdPbPltx0M9xeJEzgpeoFlsAi7DgfzYrgcUlQghgkw_zddNlKBzW0G
+
+sprite $ServiceArcKubernetesMd [16x16/16z] {
+TKu5WWH029emOFp_Vmzlkx3R8KmkAOmR012dm1_nEGXKmVwZsMPvgoLbF235cGb-YNkwI6vs_0KJ1AjkzypliPckcVCQmnIOaEr8jN5xHemG_59fTumTT-Zf
+Fm
+}
+
+sprite $ServiceArcKubernetesLg [20x20/16z] {
+ZP254SGm30GDfnDD-c_tvJnprhncjKLNNOsYtO2fkvjhLH-S_t9pozgaMzot3gcgNseiqzNIdDJQBAhcNex7N8j8muXmxJF2jBTlC6e78zrCBchQ_kPqDNUC
+CWDuSi0e1Sjocb5EKGWMt1jTzNA2LpZ99oia6_ZAEIwy8RF42G
+}
+
+!procedure ServiceArcKubernetes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/HybridMulticloud/ServiceArcKubernetes', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceArcKubernetesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceArcKubernetesLg>', 'HybridMulticloud', $funcName, $content)
+!endprocedure
+
+!procedure ServiceArcKubernetesGroup($id, $name='Service Arc Kubernetes', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceArcKubernetesLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/HybridMulticloud/ServiceWorkloadOrchestration
+
+sprite $ServiceWorkloadOrchestrationXs [10x10/16z] JOc50S0m20GFX_qNRkf1NjadhKa01O7al3enWAhJ6Ype4trXsg25dfNFsTuJ9-Jz1m
+
+sprite $ServiceWorkloadOrchestrationSm [12x12/16z] NSJ5WGCm40GmsOlfl-03FwC1Nxht5hZ7MSAJzps5fKb7pohUc0Mn8te-HwyzqM4-Sf61kHVXkPww9ng_
+
+sprite $ServiceWorkloadOrchestrationMd [16x16/16z] {
+ROx50GCn3C0Ki_TVk1TyLG4py9UHLVei5puRisFE1ByQCTFPACYK6JjWwm_FECaoXMPMJ7D55rLNomOibaEpD7lWeLG7beKRlegx5HTmp9cqO6yhdlQ6o0kC
+y8-b_W
+}
+
+sprite $ServiceWorkloadOrchestrationLg [20x20/16z] {
+VK-70GGX21D2tN_X5_EzvKwbawn_oCeNNyAGrIlY7Z8xTRLl5uPSMNnkLW9Zthlydf6KOpEeEh-dt6luvk0-IsXuPAKl0kjcLDKJ_rDfUGr6nhPxh02gTr0Z
+IuQ_nF13Jp1oCbF5_cxd2kYoe32qaYFl6rnVtbSJGTFYkKNDmx682m
+}
+
+!procedure ServiceWorkloadOrchestration($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/HybridMulticloud/ServiceWorkloadOrchestration', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceWorkloadOrchestrationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceWorkloadOrchestrationLg>', 'HybridMulticloud', $funcName, $content)
+!endprocedure
+
+!procedure ServiceWorkloadOrchestrationGroup($id, $name='Service Workload Orchestration', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWorkloadOrchestrationLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/HybridMulticloud/ServiceAzureOperator5GCore
 
 sprite $ServiceAzureOperator5GCoreXs [10x10/16z] RSR50S1030CmX-Fz1ovpJozXpDtF78q8IMJ28xJAf4GZkXtPZSn00YGMGS7J3
@@ -6138,6 +6603,51 @@ ptqOHNrQPYfdQ6HkuumaJqlZ84qxbMshqGy
 !procedure ServiceAzureProgrammableConnectivityGroup($id, $name='Service Azure Programmable Connectivity', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureProgrammableConnectivityLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/HybridMulticloud/ServiceAzureLocal
+
+sprite $ServiceAzureLocalXs [10x10/16z] JSR10G0G302n0y3-ym9eymhO0tpOt5-0c3RtXrRR1lOk-oyGBpi
+
+sprite $ServiceAzureLocalSm [12x12/16z] NSQ53S1054EnrwyafVtdBUDPPAWRu9FKlBjjxqz9yw_vD8tWvv9yKyKw9P2BMG4
+
+sprite $ServiceAzureLocalMd [16x16/16z] PS-53S1040D17mVwhpVm32DSMMI01_XOewHJcoojVzC0d-WavhQzTtTpsGNGtPqtaOxxhH_hld8TcCD_zl7V_r2z8k05
+
+sprite $ServiceAzureLocalLg [20x20/16z] ZSbL0a9H549HJh-O_tmLyvQn_rW0q3vSysZJcCrcSqp6mAIFbDLczPSbPgkaBTlFjZffHqi7QDQRdgxgdPtRwIowAEb3aSZCY3TmWjYbOCARXT_W0W
+
+!procedure ServiceAzureLocal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/HybridMulticloud/ServiceAzureLocal', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureLocalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureLocalLg>', 'HybridMulticloud', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureLocalGroup($id, $name='Service Azure Local', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureLocalLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/HybridMulticloud/ServiceEdgeStorageAccelerator
+
+sprite $ServiceEdgeStorageAcceleratorXs [10x10/16z] BSg50G0X243HJrsu_y1Ipo19eWm7wuPFjLG5hKOZdVFdmrnLixCzF5yAZzYzTW4
+
+sprite $ServiceEdgeStorageAcceleratorSm [12x12/16z] LOs50G0W20JV17x_VUqyfGiTxx5m0GZ3MpOkzH5Y9_W-a8SlSCqdYTmaZ54VewRk33-GmpEQLzeuHbLHvVGd5G
+
+sprite $ServiceEdgeStorageAcceleratorMd [16x16/16z] LOo53O1G34JhSliFJ1FWoukUqei87PYoc6vvLTZaj7Nt3fTLpUQ6X6bm-tarEds8njl7O1G0tZ-B43EjphcoJOBU-y5C6fzE02u5rAldtkRVib-DnQlzb_K
+
+sprite $ServiceEdgeStorageAcceleratorLg [20x20/16z] {
+NSw7RS1030D05NxTV-3mOPKavqvGWYMecVnbS7VuxyZHZw3vxbu9QXKoKlaFlSBSx1NKezqyVckYpUYjU_TUjC-zWiZei7z934A-MLD0DmVu2TW79C0ICl-0
+xCrAxJliwEtCzmlD-3WhUmF083vspx9npdqwQnB6Zk0i_G4
+}
+
+!procedure ServiceEdgeStorageAccelerator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/HybridMulticloud/ServiceEdgeStorageAccelerator', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEdgeStorageAcceleratorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEdgeStorageAcceleratorLg>', 'HybridMulticloud', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEdgeStorageAcceleratorGroup($id, $name='Service Edge Storage Accelerator', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEdgeStorageAcceleratorLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/HybridMulticloud/ServiceAzureMonitorPipeline
 
 sprite $ServiceAzureMonitorPipelineXs [10x10/16z] RSP50S1040ImMGR_VilSooiOS_SziQ8psha3EWsrMEUWTGl7YbK3jna
@@ -6161,6 +6671,30 @@ Bum
 
 !procedure ServiceAzureMonitorPipelineGroup($id, $name='Service Azure Monitor Pipeline', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureMonitorPipelineLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/HybridMulticloud/ServiceAiAtEdge
+
+sprite $ServiceAiAtEdgeXs [10x10/16z] BSP50G0m302nMxd-1O_p2hfnU1vlZB-Ig6ASRTZcXPHl6hrvHBoPPzYP1y8L70i
+
+sprite $ServiceAiAtEdgeSm [12x12/16z] FSW14W0H30J10SZ_FtpPt9Q6J8KXb7aAiWvvtBUukMJFERndohzVCdV8sidDSYi5zEsDlVm
+
+sprite $ServiceAiAtEdgeMd [16x16/16z] POe50a0X24C7Z1dtl-_lr6V00XO7kF1oSUcSDGhuwdhnQbJJhYFiqApRvy4WkUkiUyoJemyfcJjKE-2WArCRZvRdRj3ro9r0zetYakF5_X9Ku685
+
+sprite $ServiceAiAtEdgeLg [20x20/16z] {
+NSi73WGn349HOcFYlV-1fwNl5sfF0l2MOLRgIDEYpdQJlpkjuDrkETjDbl9cnRevqf1PuNpRls3l-vOCUnQC9z8Vu_Sj3tqvuzUR5jIoq9Slqq3wDBpNMaL2
+Yrh4C8GKW1bMb8I_5gqEkW4
+}
+
+!procedure ServiceAiAtEdge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/HybridMulticloud/ServiceAiAtEdge', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAiAtEdgeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAiAtEdgeLg>', 'HybridMulticloud', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAiAtEdgeGroup($id, $name='Service Ai At Edge', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAiAtEdgeLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Identity/ServiceSecurity
 
@@ -6206,6 +6740,30 @@ kxpx4gy8h9bZekAjITTzoGBbFEcXecLtyZyN-o3C7MCPtCQXFyq
 
 !procedure ServiceAdministrativeUnitsGroup($id, $name='Service Administrative Units', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceAdministrativeUnitsLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Identity/ServiceMultiTenancy
+
+sprite $ServiceMultiTenancyXs [10x10/16z] JSp50O0030D094RstnUt-zGx_4YQhymxTDcp96vxJ3d1pJ4SPNTFVKAQ2tn_0gmtcpS
+
+sprite $ServiceMultiTenancySm [12x12/16z] LSg30G0m30J05D7lls_DAqBwYSX9jI6tdcl7GAR6hFM0dagEKGoGiHBQ0n1w7jjp0TYcB4B91ycYjEIM2orzfm8
+
+sprite $ServiceMultiTenancyMd [16x16/16z] TSk50SD030D0cM7_WQio9VTeme6axv3mKZVeNVcCbsvnDZaOpYsMwauWdkKCaSnU4Y0uAy9hbe0YYw99njelpXchLvYU1TWyj3DElFWjZhEOF0su
+
+sprite $ServiceMultiTenancyLg [20x20/16z] {
+TStP0OGm24LHrWUc_u8doBZh_Jm9G5yv0BaIrlHCKX8HHBm_M7HaOuobJJOR5NMvTZLfMcVpJr0FWL7iPW2O6IZg8ngpIJ4hgvzHEKUr34migpIgDEGqorCm
+19pod9KHwN9arlzEMHlu8DuCTAfDwPfu3Vu
+}
+
+!procedure ServiceMultiTenancy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Identity/ServiceMultiTenancy', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceMultiTenancyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMultiTenancyLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMultiTenancyGroup($id, $name='Service Multi Tenancy', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMultiTenancyLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Identity/ServiceVerifiableCredentials
 
@@ -6552,6 +7110,60 @@ qsd1E4Eq6crtMnqFkA4RBM_KDe2q98-XDAJgrhWuFUBnDiqRlVnAyWC
 !procedure ServiceEntraInternetAccessGroup($id, $name='Service Entra Internet Access', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceEntraInternetAccessLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/Identity/ServiceExternalId
+
+sprite $ServiceExternalIdXs [11x10/16z] BSfR5e1G249Hz3wL-S-tqwhzfO0-T-bdkuKvPN0jS1NdXhisvpcddCkNQSJqYscC9QxGXcPcpdt0YDK3
+
+sprite $ServiceExternalIdSm [14x12/16z] HSpH0K8110NG2r3stpUetla1mCyhyQY6HO1L8pHhygl4stzJOvJ8RMvHp3jaDTMgVC-kc16PUUTUw1VSNoWpUoy6z4IEO4AJ3m
+
+sprite $ServiceExternalIdMd [18x16/16z] {
+LSs70GCW30D16KJz_VSD9lqME7tLtVLdS-X7a9QUx53dKefsk9AsKhj42gL-oS3GDIuefO1I7SU4NGmeUSw-WRA0BhavehOEZQHwdeXtjiITNF8QSqxxDRKX
+koQxZIVvRSmNMSbw
+}
+
+sprite $ServiceExternalIdLg [23x20/16z] {
+PSu70iCm24DHa6Mme_lVjzHqzsN_BEmBzZNiprQvVclgo9-iXzSdMVxoc7VypRFX-ziURVOastvoQagXv-JPjaI0qkeyEwi0-_trM6lbrVaroo3T7Gn9mUSm
+hDagrpukdLTgPvY59m_hQf35uOmOZbWb03np19q3no167f5f_13vT7_Q3z3dUg733hZT
+}
+
+!procedure ServiceExternalId($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Identity/ServiceExternalId', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceExternalIdCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceExternalIdLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceExternalIdGroup($id, $name='Service External Id', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceExternalIdLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Identity/ServiceExternalIdModified
+
+sprite $ServiceExternalIdModifiedXs [10x10/16z] BSc53S1030H1ioDj-c_tUKG7idtoTBzO1NP31QoGcPu99-oalyHIBlltG2kH3VD-iTpC9W
+
+sprite $ServiceExternalIdModifiedSm [12x12/16z] FOq73i0m30Azm57e_zzRjHcduGdOXm-xTFTfoPvrMWuflXP0OagxJK2F3BidxR7weFUd-8OsOCe-fEoXMaF1GV44PsMz
+
+sprite $ServiceExternalIdModifiedMd [16x16/16z] {
+JOw70GGX2C2KgiRzvtt-Ugon0EqaH_iIcVbHpI8UbOYOe9VsKX-0d1w5sW8EzKBLdUBHSjzxS-ZbCtekkuXO0_3M3lKqwrT4gLlwaVCgSe5cJkG-q6NQdOIt
+HdMfwV8iH5Nj1m
+}
+
+sprite $ServiceExternalIdModifiedLg [20x20/16z] {
+NT250OGm44JHh2ytz5_lPN3u-CCppgh7jwgkBx5-KSwgsn_aDCpq8YDvFr6IcI_4muAPHO0zY7RWJRHSPp_IRO4KMJLyQsuoUwqVe3hyBCLa70yyj2KYP58E
+Pku9y3EZiOoZ1c1L1MZ33XGiQgQ5u0FFB48Y3UXu3fULcghwPJqhLTxn1m
+}
+
+!procedure ServiceExternalIdModified($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Identity/ServiceExternalIdModified', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceExternalIdModifiedCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceExternalIdModifiedLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceExternalIdModifiedGroup($id, $name='Service External Id Modified', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceExternalIdModifiedLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/Identity/ServiceEntraConnectSync
 
 sprite $ServiceEntraConnectSyncXs [10x10/16z] DSW50i0m20F0j432XFz_TwiT3WPlM7COIqpdGxA5isfij1X42U5L8QCmNnBxsf2Pu73zFW
@@ -6578,6 +7190,30 @@ VDZ9LuQtHJ3REezvW2F2usKMICJGSC1kcdEESV0oI1u5y0C
 
 !procedure ServiceEntraConnectSyncGroup($id, $name='Service Entra Connect Sync', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceEntraConnectSyncLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Identity/ServiceUserSubscriptions
+
+sprite $ServiceUserSubscriptionsXs [10x10/16z] JOg70GC1209HuPBz5_xUpYxeIv8vbaxWs0QkJR-DOt6gCh8CPMP6mEorkKwsxNzYhG
+
+sprite $ServiceUserSubscriptionsSm [12x12/16z] NOo30G0m30JZx_uBrxwOzE7kkjB6pAF1EmTcdm543NsVcLrKk9-ok9fPl-HgMj-YejLMtgWhb2OXL
+
+sprite $ServiceUserSubscriptionsMd [16x16/16z] TKm50W0X3782k_-_-Cekp55X1qgoOHo8VtIli_yupzSFXO5uPV2VecXc4X0-0fBo33ArHNFNEn6vtBuBYAMStmMaxWBEyr_FXZV-
+
+sprite $ServiceUserSubscriptionsLg [20x20/16z] {
+TSu55eGm34NHfbzczhzXQ7E2myClblOT9SP5GXdEfkf4FS4s3gCh7GPNR4U_Aax6idREKpm_qx4F72C9G0EBrDE84L6JC68SaGrp5Z7dAwg1qVCmAN-PAVT0
+htcF-6QSzh-aj1QN9gq
+}
+
+!procedure ServiceUserSubscriptions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Identity/ServiceUserSubscriptions', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceUserSubscriptionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceUserSubscriptionsLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceUserSubscriptionsGroup($id, $name='Service User Subscriptions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceUserSubscriptionsLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Identity/ServiceEntraDomainServices
 
@@ -7137,6 +7773,57 @@ sprite $ServiceLogicAppsLg [20x20/16z] hSm50e0W341HHhFxtzVwTjTJQcLWOMRaRipXXnYSS
 !procedure ServiceLogicAppsGroup($id, $name='Service Logic Apps', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceLogicAppsLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/Integration/ServicePubsub
+
+sprite $ServicePubsubXs [10x10/16z] 5Ok50G0m3CBelFd_u47gWewP9o0nC4VIi8bJLGpcuBWeLmyQTfCTGr6W_4L154a7Cv8-
+
+sprite $ServicePubsubSm [12x12/16z] 9Oe93W112C8G4m_-_-2LdSvfKvJ9-X6neamHmFqRfS91C29KIuQRkKRtmUkJXBUnlmtxKiVBzlv0tv-0VTflsXlAV
+
+sprite $ServicePubsubMd [16x16/16z] {
+NSm75aGX24FH43q2sV-2Hs3w-_NQSAOrdtsaE2bHqn5kMKxFwoYRc_lzNdkR8CtiEktceXGxhfLxEU9pdfnAcAP56aZ2sCsyH8IgjnCnJY2k5G3BtbzA0Cf9
+UdjpbITgsdz-
+}
+
+sprite $ServicePubsubLg [20x20/16z] {
+PStN0SKm24DH2HU2zjytJSwhz_FO0CPqeyrL34crIShGqvHmLj-6Erj3kwniGKGGmFon87cPUBTc8tHPnHd6zrr5QAAzRMGccTd0V6hNuBqUZDMQbP8OSc-B
+QRJHfXDdsHh0spG0RBVXp3O1ZDiwILkHz3zbogQQ9vtcR2x-hGu
+}
+
+!procedure ServicePubsub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Integration/ServicePubsub', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePubsubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePubsubLg>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServicePubsubGroup($id, $name='Service Pubsub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePubsubLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Integration/ServiceLogicAppsTemplate
+
+sprite $ServiceLogicAppsTemplateXs [10x10/16z] Os1WOc5WOM05GZXWnS9Y0s9cPXYBYGdA0kfb0RBOWHICnGeq2wIF0wuN
+
+sprite $ServiceLogicAppsTemplateSm [12x12/16z] HOc50S0m40AlBpJxBnoNL-2098B44rxvTofuO6apcrf3kr_zfG4vj1Sl6lh7tUTE7K7qLTVctjUG5Kw91W
+
+sprite $ServiceLogicAppsTemplateMd [16x16/16z] TOw30G0n54EZOl-5pyOhluE9CkqWyqD0k27hOCqzuPyjSRFhPkjcsxx7SukJdLpjjiyyxIJBfH-xbB9S1ed-q5Ulje4H
+
+sprite $ServiceLogicAppsTemplateLg [20x20/16z] {
+bSg55G8n50NHUV8N-cyOT-V6vmJ0KpYiEIuGpy83vLw1uK7-Rjwvj8M3xFpIxFYnqN1KT6XBWzeU6oiWZS2xuzBKrj2TkvQRfdsRcS3iNFuXYSknb3KF2etl
+nB05
+}
+
+!procedure ServiceLogicAppsTemplate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Integration/ServiceLogicAppsTemplate', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceLogicAppsTemplateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLogicAppsTemplateLg>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLogicAppsTemplateGroup($id, $name='Service Logic Apps Template', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLogicAppsTemplateLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/Integration/ServicePowerPlatform
 
 sprite $ServicePowerPlatformXs [10x10/16z] LSW54S1030J0CFhNM-v3SETWgyogxWinT1VT4FCxlQGUyU2wZWYt8k0hbw7ldm
@@ -7275,27 +7962,6 @@ sprite $ServiceStorSimpleDeviceManagersLg [20x20/16z] VSk50S0m20J0ns7_XHkfsqKn_1
 !procedure ServiceStorSimpleDeviceManagersGroup($id, $name='Service Stor Simple Device Managers', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceStorSimpleDeviceManagersLg>', $name, $tech)
 !endprocedure
-' definition of the Item azure/Item/Integration/ServiceAzureStackEdge
-
-sprite $ServiceAzureStackEdgeXs [10x10/16z] TSQ35G0m40Mmmo_sNxWsyXJwi4c9otfAeV25gagj2BKH4cQcHGG
-
-sprite $ServiceAzureStackEdgeSm [12x12/16z] VSR50SCm542nPt_UV-0sp8bEuekvorAFWMqTC8WLw21dNK5ZlaX3bgEY6ZLgCBnnymS
-
-sprite $ServiceAzureStackEdgeMd [16x16/16z] dScr0SKm5CLGsK-c_GV-66u2fxh08zQFijRsCm-vJVXARP41ggKjG4DRdoM1SEa69jQU3py6wlZhW5zSzGO
-
-sprite $ServiceAzureStackEdgeLg [20x20/16z] hSj50WH124FH0B_i_WSUwzBTs5iXYVw1d9Df5_cYnKkND9L95oiRzj3Hpa0k6oaW8DMb23UPKRPZ40evR3T2mdJS79VEN1A40DgG976nYxfh-TmT
-
-!procedure ServiceAzureStackEdge($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/Integration/ServiceAzureStackEdge', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceAzureStackEdgeCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureStackEdgeLg>', 'Integration', $funcName, $content)
-!endprocedure
-
-!procedure ServiceAzureStackEdgeGroup($id, $name='Service Azure Stack Edge', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureStackEdgeLg>', $name, $tech)
-!endprocedure
 ' definition of the Item azure/Item/Integration/ServiceDataFactories
 
 sprite $ServiceDataFactoriesXs [10x10/16z] Oq005Y20iBY003kBcu4DmkBcPkC6ixY109N5mCx0mCc090O
@@ -7430,13 +8096,13 @@ MWwqO80qY6gSLVlb1G
 !endprocedure
 ' definition of the Item azure/Item/Integration/ServiceEventGridDomains
 
-sprite $ServiceEventGridDomainsXs [10x10/16z] Oq00DXXWO8E9G4WMX1fE2CNCo01bG6bM68tGYp0F
+sprite $ServiceEventGridDomainsXs [10x10/16z] Oq00DXXWO8E9G4WMX1fE2CNCo01bG6bMA8yLeHTX7W
 
-sprite $ServiceEventGridDomainsSm [12x12/16z] JSl50G1124FHFmxz5xoAlHEIKEt47kwPCJOj9k3ZLBMHrZ6zpAorictJJXGt
+sprite $ServiceEventGridDomainsSm [12x12/16z] JSl50G1124FHZqF_1Q_Bl1EIiCeVQQzZvdLFWGFlw3FFY2WFNMOYml_sFUMFnGu
 
-sprite $ServiceEventGridDomainsMd [16x16/16z] XSu73i0W30D0rt8YyVy7TxTiSbgGZOZNu4Hc_VzX9Y4pdCJyTKafvI-sN4uQAQ50pFJtY9bxTt_Z
+sprite $ServiceEventGridDomainsMd [16x16/16z] XOw54S0m30DLLVPTzX-ut31ym0nOuILm8c6j_M8cvVxx4vFfaa989hQKJXfPbEEkt8M2DwFTHqouD_jNd
 
-sprite $ServiceEventGridDomainsLg [20x20/16z] ZT254KCn30DGoTJh_WD_fd3UOS28ML5gt271yEyTxxjRX1cHS82QN-tu_tslH4ZgVlTUAMX9e8Uxcmc-T3yAKcAxDn0fj_PiwTtahWmLAm
+sprite $ServiceEventGridDomainsLg [20x20/16z] ZT350GCn40F05GNwBpWvPjBF8tCzpMkV4rklmojBmsZplZRMIveIsb6xxljU4Wb0hSsaWbSByqfYivPHEsHXXNIVSU7SM2tu-cspFVmhrq7-
 
 !procedure ServiceEventGridDomains($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'azure/Item/Integration/ServiceEventGridDomains', $name, $tech, $desc)
@@ -7538,13 +8204,13 @@ sprite $ServiceSendGridAccountsLg [20x20/16z] hSY54S1G3CFGpvJzz-tPAJEzGyaSAmrI1F
 !endprocedure
 ' definition of the Item azure/Item/Integration/ServiceEventGridSubscriptions
 
-sprite $ServiceEventGridSubscriptionsXs [10x10/16z] Oq00DXXWO8E9G4WMX1fE2CNCo01bG6bM68tGYp0F
+sprite $ServiceEventGridSubscriptionsXs [10x10/16z] Oq00DXXWO8E9G4WMX1fE2CNCo01bG6bMA8yLeHTX7W
 
-sprite $ServiceEventGridSubscriptionsSm [12x12/16z] JSl50G1124FHFmxz5xoAlHEIKEt47kwPCJOj9k3ZLBMHrZ6zpAorictJJXGt
+sprite $ServiceEventGridSubscriptionsSm [12x12/16z] JSl50G1124FHZqF_1Q_Bl1EIiCeVQQzZvdLFWGFlw3FFY2WFNMOYml_sFUMFnGu
 
-sprite $ServiceEventGridSubscriptionsMd [16x16/16z] XSu73i0W30D0rt8YyVy7TxTiSbgGZOZNu4Hc_VzX9Y4pdCJyTKafvI-sN4uQAQ50pFJtY9bxTt_Z
+sprite $ServiceEventGridSubscriptionsMd [16x16/16z] XOw54S0m30DLLVPTzX-ut31ym0nOuILm8c6j_M8cvVxx4vFfaa989hQKJXfPbEEkt8M2DwFTHqouD_jNd
 
-sprite $ServiceEventGridSubscriptionsLg [20x20/16z] ZT254KCn30DGoTJh_WD_fd3UOS28ML5gt271yEyTxxjRX1cHS82QN-tu_tslH4ZgVlTUAMX9e8Uxcmc-T3yAKcAxDn0fj_PiwTtahWmLAm
+sprite $ServiceEventGridSubscriptionsLg [20x20/16z] ZT350GCn40F05GNwBpWvPjBF8tCzpMkV4rklmojBmsZplZRMIveIsb6xxljU4Wb0hSsaWbSByqfYivPHEsHXXNIVSU7SM2tu-cspFVmhrq7-
 
 !procedure ServiceEventGridSubscriptions($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'azure/Item/Integration/ServiceEventGridSubscriptions', $name, $tech, $desc)
@@ -7668,6 +8334,30 @@ _zi1
 !procedure ServiceDeviceSecurityWindowsGroup($id, $name='Service Device Security Windows', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceDeviceSecurityWindowsLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/Intune/ServiceEngageCenterConnect
+
+sprite $ServiceEngageCenterConnectXs [10x10/16z] JScr0G113C0m7oVUV-1dK2l-IeLLWB6JAinTrxN7BhNlMzk8OUxPojdCaphNXPyD
+
+sprite $ServiceEngageCenterConnectSm [12x12/16z] TOg50KD124DpEDb_uFQxlnE8u1jtLtRnlvfxnCZ6N_ot_qvs_uFy0pB_kveFLxDgJ6MDQ6VWNvR_IvAQA_5dst7b1m
+
+sprite $ServiceEngageCenterConnectMd [16x16/16z] ZOm50WKW24D1oTt_llRlV2QmZVwWg0fH0ddAIMGfWLcFmio68DbdmnQC0QtQ9tIjQPPrvQrQfIeheGeuLnppk584s6cLvvq1w4wlgyQW-etHKx-39hUoq1iw
+
+sprite $ServiceEngageCenterConnectLg [20x20/16z] {
+bSr7WaGX20JG8fGezp_m24odvNyR9UCHCQt78WJ_MA1PpdzgQ0ggyCgjoy0yZjorR0ttl2IwyJyt--w3AmPEvUY9CYbKyg2F25rfHkoWfny2Hb94IEvKo-J_
+1HEfvtXaZN8LwIVwYc4rdITBMBGLO-hn0yNtD-A9Fm
+}
+
+!procedure ServiceEngageCenterConnect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Intune/ServiceEngageCenterConnect', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEngageCenterConnectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEngageCenterConnectLg>', 'Intune', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEngageCenterConnectGroup($id, $name='Service Engage Center Connect', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEngageCenterConnectLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/Intune/ServiceIntune
 
 sprite $ServiceIntuneXs [10x10/16z] Oq00LWXWOq05Z4nm5WkSoG1cSO815nTOX8kB6KX2HDaHwjZOs
@@ -7736,13 +8426,13 @@ sprite $ServiceClientAppsLg [20x20/16z] ZSl50O1G30FG16V_XI71-TPtg1TPWxnYluyceIEE
 !endprocedure
 ' definition of the Item azure/Item/Intune/ServiceDevices
 
-sprite $ServiceDevicesXs [10x10/16z] LSR50G0W2010k_RVLwNXNfVKgUoSp7ZZeytl511N5u0bj3vPMmy
+sprite $ServiceDevicesXs [10x10/16z] Ou03BcOeuE9YX08eYmM8aLXC8C2AmcBc004G2s8M6r0SmkBWOE4
 
-sprite $ServiceDevicesSm [12x12/16z] RSO10W0H24JHNQYQ-zyN0F2e_hTGIJpbxV0FlOaSqMWQpHbCSRLMfRzAicUpI0G
+sprite $ServiceDevicesSm [12x12/16z] LOc50G0W20JjsdzVbOPJu2Cvzlhq0RkTh8WUeuqX6bRG1V5wWju4waHCA5alhzTSwm4
 
-sprite $ServiceDevicesMd [16x16/16z] bSU34S00402mj_RVjxQRO-30QX1P0oZSYlkBcQZPveFJQI8--7lFIOo56SVWzXBXsmCDMW
+sprite $ServiceDevicesMd [16x16/16z] dSU50KCn24LHd9Vils_xtVr4uD96r0vAFwdo4ixR8imZvkx7hcNmiRCCq3UDL3gdRK02e8bq_W
 
-sprite $ServiceDevicesLg [20x20/16z] dSc55K0X241H6Wxxx_kxKxts4nwWNWcayPacfE0P_pOoCv5XkxJ1V_D52gsukkb3SzsiZMEtDZXO_ngRojekUW
+sprite $ServiceDevicesLg [20x20/16z] bOo50O1G448l06F_VUrkd_uwmYvm7e7LoZsihORloTTPI0AwRJkRhdanm_KiPf9_PxoO5LoPPbckp3FRCDLmEzF5RAhMTjPNejliWXO
 
 !procedure ServiceDevices($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'azure/Item/Intune/ServiceDevices', $name, $tech, $desc)
@@ -7823,13 +8513,16 @@ z08
 !endprocedure
 ' definition of the Item azure/Item/Intune/ServiceDeviceEnrollment
 
-sprite $ServiceDeviceEnrollmentXs [10x10/16z] FSor0G0m3C2mKl3_WnlsfCbhqbkfxgg4LeeiFGSNfj3alDooaOcj5J4__W
+sprite $ServiceDeviceEnrollmentXs [10x10/16z] HSOr0G1140ImMGR_VXyEKmL7oz9Dovh-lMDsk8tvD_yckGVW7pDZoDHy0G
 
-sprite $ServiceDeviceEnrollmentSm [12x12/16z] JSnH0W0H201HOAhkVzzT00EzhyAJQQlI_-Bnj0q5ZfbEEKhFKuBCSeO4tMOIs-hXFecWhUP2ut9FLLH_
+sprite $ServiceDeviceEnrollmentSm [12x12/16z] JSp50S0m3C30XcJOVz-6GG7Voz-JQQlG_-pXj0qPjllN7TDoZ91OReZJPXBQwkun2H1RpHdGvPwgg5O
 
-sprite $ServiceDeviceEnrollmentMd [16x16/16z] TSh50S0m40D19TQjeVz-mmpp4-Y1jYYrBTIwg_AV3GwuvCKhznD3xxoOyvI08mTqruojbAQyg1MdCqlo-YyBJI11d5bzX5nAtlDQBaO
+sprite $ServiceDeviceEnrollmentMd [16x16/16z] TOe50WKW24EdZYTm__l-xdW6BFG1VI7hEjNZbVol3GvuwkluqlE4ORxeam8UEc2yQcojXIzwL-7rr99yxSyBEW4Bugar8-JCdPbwSCsF
 
-sprite $ServiceDeviceEnrollmentLg [20x20/16z] XSe53W11349HQapJ-nzutML-b1VmaiGzHz6kHQ5ShbdNbAGxoPkDzQsjbUjOa7Ixs2WWUTXC0HvOyM8jWfYJpIoptNyOsosNCBLQdaqu5dBOqJZ3Lxit
+sprite $ServiceDeviceEnrollmentLg [20x20/16z] {
+XSg55K0X34FHq3P1zj_tk-l3xm4F9LuBDFavDhH8v_pNJ5B4i1rjkVg3nRFP42M5ysY3O5W76ucZQJK-M2Q5gRIQbvAl_p2qcKqHOq-MHc3Ad18EbL8OmuQ7
+UW
+}
 
 !procedure ServiceDeviceEnrollment($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'azure/Item/Intune/ServiceDeviceEnrollment', $name, $tech, $desc)
@@ -8244,6 +8937,30 @@ OdF4uuNnGUQrI8p_16zZJQ7Rs7o_9vEPlam-wMwi
 !procedure ServiceAzureIoTOperationsGroup($id, $name='Service Azure Io T Operations', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureIoTOperationsLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/Iot/ServiceHybridConnectivityHub
+
+sprite $ServiceHybridConnectivityHubXs [10x10/16z] FSQ14G0n14JH0EY_uMDtvdw2z-fwMtV_aXOAKRglPpMzdMPiJ4HMMybsKhOIGny
+
+sprite $ServiceHybridConnectivityHubSm [12x12/16z] HSO15W0X101H0Dp_m5lXxHG--0jk4N7DRLJ6jP-_PZSEbzyHT9nnQcUo2GiY7B_mzAnCtJ7G55N0qmS
+
+sprite $ServiceHybridConnectivityHubMd [16x16/16z] JSe55W0X24LH6hxxt-y4JFZCwv7oYQQikyirlc2PjZdOa_LtnJqtUy_NIF4KAm3SdlztqaPDOo0rIgtugWs_PhCz2NTZLtbZB83ahwrRQotw7-G4
+
+sprite $ServiceHybridConnectivityHubLg [20x20/16z] {
+TSW73iGm20H0YWEx-Vz_qz5XIpVg8oEBb46WrE6-VFHp3PX6iftf1bqE0MHWkjBFBM2M89dp1IwqzuZIZkjnv_20UyBKnk-Ir-dZkvVhgrtgSfjRyvxOvF-f
+Tx9VHApN2G
+}
+
+!procedure ServiceHybridConnectivityHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Iot/ServiceHybridConnectivityHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceHybridConnectivityHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceHybridConnectivityHubLg>', 'Iot', $funcName, $content)
+!endprocedure
+
+!procedure ServiceHybridConnectivityHubGroup($id, $name='Service Hybrid Connectivity Hub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceHybridConnectivityHubLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/Iot/ServiceFunctionApps
 
 sprite $ServiceFunctionAppsXs [10x10/16z] LOY70S10209FWUJtNpYzAft_INhIOGER7dl0GCzJu-sAe0RtiQkY8y1jJrW1
@@ -8309,33 +9026,6 @@ sprite $ServiceNotificationHubNamespacesLg [20x20/16z] bSYr0GD10CH0-HRwxzYG-9aca
 
 !procedure ServiceNotificationHubNamespacesGroup($id, $name='Service Notification Hub Namespaces', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceNotificationHubNamespacesLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/Iot/ServiceAzureStack
-
-sprite $ServiceAzureStackXs [10x10/16z] LSY50O10243HVpJxBoosFXf-D7RxPYIJ-vQxVRb_YjMEuUwBVNEVt7zgPaGqaBlg3G
-
-sprite $ServiceAzureStackSm [12x12/16z] NOh10G1110Dj0FqtVE1rCn-Iq1zRzYOVvnOlztQCTKbv6way1a8rgYf1KTVJ9hHp00Apo5kykryCcHy
-
-sprite $ServiceAzureStackMd [16x16/16z] {
-RSw52GH150JH_ZQMVy1NP-i5DBpLqNFjtzyMOSpVNHvYDcTLCfiRCPZSZy-RI_Lpbo8aZLzTY8eqvFZFoezJIX3C82daxfRv_k74ugZXc31roc865lNnQQxL
-NW
-}
-
-sprite $ServiceAzureStackLg [20x20/16z] {
-VSk55SDG34DH-Hkx_yArmdp3xoZueB6HhsOE2O3dtWAI0Cz3Cylvt5jktlzLC_DpK-vSDUUJpQPM6-6Ad5HA-cJQcai1QrEV6NS3Onr1-XPLtM22GMOIxVVZ
-IjHcs1iacuqHVBAHvwRM1l6OUSCV
-}
-
-!procedure ServiceAzureStack($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/Iot/ServiceAzureStack', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceAzureStackCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureStackLg>', 'Iot', $funcName, $content)
-!endprocedure
-
-!procedure ServiceAzureStackGroup($id, $name='Service Azure Stack', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureStackLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Iot/ServiceAzureCosmosDb
 
@@ -8531,13 +9221,16 @@ Y7GZwFYZ9h8LBiWyNETG
 !endprocedure
 ' definition of the Item azure/Item/Iot/ServiceIoTEdge
 
-sprite $ServiceIoTEdgeXs [10x10/16z] LSQ50S1024FHZxF_mlMUF2JXvhpYDihTCbFkHrGLp_Vw7ttn-u5c-hKyZCq9
+sprite $ServiceIoTEdgeXs [10x10/16z] DSp50G0W34FHZuRz5mPghteAPXAMYIU_lNUpnPA4xwbQd6_QWhxt_9qn9Adz_G
 
-sprite $ServiceIoTEdgeSm [12x12/16z] VSV70G0W20F0qDb_ORloywZ1H4euRAft1t5tux76x-lGsEen46GUZTh8ITS6tezDyTC1
+sprite $ServiceIoTEdgeSm [12x12/16z] HSt50G0W243Hh-J-2zlnw1DCHGk7JMyzXxYxrT40NwEChXv3GURG-9sST7LuEvlol5T3XC_H0G
 
-sprite $ServiceIoTEdgeMd [16x16/16z] dSh50SCm343HB-x-2pTWlkOPX3JgogBnC3g9HbVPyCY7QTp_BBqdWRRn66GrWhR4wupy6kyHEMe5SkqpETzS
+sprite $ServiceIoTEdgeMd [16x16/16z] LSu50W0X20J0fSxx_uUjnHex0QIkE3G6Gv8WFKl2y0scqVkzz9m4bCTSTuK4oecNTyHFdYFaMUluwDp7vdWmkKsOt3O-vQm1
 
-sprite $ServiceIoTEdgeLg [20x20/16z] hScr0S0W54NH2z-o_y9Hd3QdUaALLPYflHXOHIDMAPza0rxcBydgjt5Am9TAAB-Ks-B3hMJtA24XKMZiYQC8FIfQx05qsOn7Dh-fFvIHiXF-S04
+sprite $ServiceIoTEdgeLg [20x20/16z] {
+PS-73G0X30D0GnhxJ_nMdixHB4SD35K59xM4ZNLRAJPeRufjaCoJL7NQgyBegOS-bpws-85wTeyU2YGwZJUXTQ5jm8mh07fr1b0r9_MyiLFSZ73f_pi4tLqZ
+T1y
+}
 
 !procedure ServiceIoTEdge($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'azure/Item/Iot/ServiceIoTEdge', $name, $tech, $desc)
@@ -8645,13 +9338,13 @@ VS-54SGm34JH5IlzDtmhmtZmNlY7RFoJQMRkZYSoOs3JL4XIa9wthXYsMr6eUBstXGbG0w8cdmOFfxcx
 !endprocedure
 ' definition of the Item azure/Item/Iot/ServiceEventGridSubscriptions
 
-sprite $ServiceEventGridSubscriptionsXs [10x10/16z] Oq00DXXWO8E9G4WMX1fE2CNCo01bG6bM68tGYp0F
+sprite $ServiceEventGridSubscriptionsXs [10x10/16z] Oq00DXXWO8E9G4WMX1fE2CNCo01bG6bMA8yLeHTX7W
 
-sprite $ServiceEventGridSubscriptionsSm [12x12/16z] JSl50G1124FHFmxz5xoAlHEIKEt47kwPCJOj9k3ZLBMHrZ6zpAorictJJXGt
+sprite $ServiceEventGridSubscriptionsSm [12x12/16z] JSl50G1124FHZqF_1Q_Bl1EIiCeVQQzZvdLFWGFlw3FFY2WFNMOYml_sFUMFnGu
 
-sprite $ServiceEventGridSubscriptionsMd [16x16/16z] XSu73i0W30D0rt8YyVy7TxTiSbgGZOZNu4Hc_VzX9Y4pdCJyTKafvI-sN4uQAQ50pFJtY9bxTt_Z
+sprite $ServiceEventGridSubscriptionsMd [16x16/16z] XOw54S0m30DLLVPTzX-ut31ym0nOuILm8c6j_M8cvVxx4vFfaa989hQKJXfPbEEkt8M2DwFTHqouD_jNd
 
-sprite $ServiceEventGridSubscriptionsLg [20x20/16z] ZT254KCn30DGoTJh_WD_fd3UOS28ML5gt271yEyTxxjRX1cHS82QN-tu_tslH4ZgVlTUAMX9e8Uxcmc-T3yAKcAxDn0fj_PiwTtahWmLAm
+sprite $ServiceEventGridSubscriptionsLg [20x20/16z] ZT350GCn40F05GNwBpWvPjBF8tCzpMkV4rklmojBmsZplZRMIveIsb6xxljU4Wb0hSsaWbSByqfYivPHEsHXXNIVSU7SM2tu-cspFVmhrq7-
 
 !procedure ServiceEventGridSubscriptions($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'azure/Item/Iot/ServiceEventGridSubscriptions', $name, $tech, $desc)
@@ -9276,6 +9969,27 @@ XSw5aSKm301H-Rp2wx_VFs5ETlWP91bgjYHh_SxyVyZJDsEqeWxcCUG7YnoAlSNmDgdOMmqOUR2b3ykb
 !procedure ServiceArcMachinesGroup($id, $name='Service Arc Machines', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceArcMachinesLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/ManagementGovernance/ServiceServiceGroupRelationships
+
+sprite $ServiceServiceGroupRelationshipsXs [10x10/16z] HKg30G1043fL-q_ynZ7Phh9J03Q6YZn81zb0Fbx-C3OY8Jz8sZ86Mb87
+
+sprite $ServiceServiceGroupRelationshipsSm [12x12/16z] NSt50G0m30B0Ako_SJLA9PSNvQVs8faxGcv3J23vBvXdZhVjr-REDpPPlp4PtFkhtVxz2m
+
+sprite $ServiceServiceGroupRelationshipsMd [16x16/16z] TSx10G0G34FHGfFz9mO0-2SF83FdPCbeoin5pVaneMGot682Vqkrp41e7VLRTRuq3SrX6ecacKRYvV5xLospP3yG0G
+
+sprite $ServiceServiceGroupRelationshipsLg [20x20/16z] XSwr0GGn0CH0mqB_5JyScgrm8eKgvD2K-IjMn3EKv4Eeocn0QitQMwxj3AV5K4Khz_iizrDbrVvfq45oV8sIGBirUcByTmxWjchqjDJiqmX5Nm
+
+!procedure ServiceServiceGroupRelationships($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/ManagementGovernance/ServiceServiceGroupRelationships', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceServiceGroupRelationshipsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceServiceGroupRelationshipsLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceServiceGroupRelationshipsGroup($id, $name='Service Service Group Relationships', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceServiceGroupRelationshipsLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/ManagementGovernance/ServiceResourcesProvider
 
 sprite $ServiceResourcesProviderXs [10x10/16z] BOc74G0W3099ETl-0_jofWAlLuFzFvgVPJsnKe-3jDgeXHeZkgtwH0vK0fMfhJVwDuV_1G
@@ -9575,27 +10289,6 @@ sprite $ServiceDataBoxLg [20x20/16z] TSg5aSL03C1GhV7M_VTxdnnEth16F9FuK7Oysk5gjYR
 
 !procedure ServiceDataBoxGroup($id, $name='Service Data Box', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceDataBoxLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/Migrate/ServiceAzureStackEdge
-
-sprite $ServiceAzureStackEdgeXs [10x10/16z] TSQ35G0m40Mmmo_sNxWsyXJwi4c9otfAeV25gagj2BKH4cQcHGG
-
-sprite $ServiceAzureStackEdgeSm [12x12/16z] VSR50SCm542nPt_UV-0sp8bEuekvorAFWMqTC8WLw21dNK5ZlaX3bgEY6ZLgCBnnymS
-
-sprite $ServiceAzureStackEdgeMd [16x16/16z] dScr0SKm5CLGsK-c_GV-66u2fxh08zQFijRsCm-vJVXARP41ggKjG4DRdoM1SEa69jQU3py6wlZhW5zSzGO
-
-sprite $ServiceAzureStackEdgeLg [20x20/16z] hSj50WH124FH0B_i_WSUwzBTs5iXYVw1d9Df5_cYnKkND9L95oiRzj3Hpa0k6oaW8DMb23UPKRPZ40evR3T2mdJS79VEN1A40DgG976nYxfh-TmT
-
-!procedure ServiceAzureStackEdge($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/Migrate/ServiceAzureStackEdge', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceAzureStackEdgeCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureStackEdgeLg>', 'Migrate', $funcName, $content)
-!endprocedure
-
-!procedure ServiceAzureStackEdgeGroup($id, $name='Service Azure Stack Edge', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureStackEdgeLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Migrate/ServiceAzureMigrate
 
@@ -10419,6 +11112,30 @@ Jt23oFvzyG22-eht_Shie2-lgjSphIf3v8YOUMzMtKr3U-TPcgcyXcMPop06M1Tggg_M8kGASpSFEg-H
 !procedure ServiceDnsPrivateResolverGroup($id, $name='Service Dns Private Resolver', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceDnsPrivateResolverLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/Networking/ServiceEdgeActions
+
+sprite $ServiceEdgeActionsXs [10x10/16z] LSQ30G1030F06liF_6QH7Fn36wQsqDH9xcxkJH6nSia3KhCfLKboA0NEL
+
+sprite $ServiceEdgeActionsSm [12x12/16z] VSR70S0m24DHcYJOV-3qTigtWMT_HUac2V8aj5dQbDgY3lVMUVHnsv2pUO1nG8S7PULWH91Tzca5
+
+sprite $ServiceEdgeActionsMd [16x16/16z] ZSp50SGm50DHsIkDy_jlUCDqoWIVIT_gpfs_c5mC2N2m0ujPrSOIosjX7xUQD2trvSprv-wbsOpTCBkcKAihIJMIiTgr3CYc3fSjDLrPx_u
+
+sprite $ServiceEdgeActionsLg [20x20/16z] {
+bSe54aGX38DX-eZG-rzui-xsZuJvwFYtskQJ0SIzJ96Kxevqj1iixKs9rolR0QUZR3ucNwnyds9U-ux_wr3soVnWjdEOfR97q-6zcbGVhPjfbKdwOYrYRW2x
+BnO4Hg76g3fOPOtnQpi
+}
+
+!procedure ServiceEdgeActions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Networking/ServiceEdgeActions', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEdgeActionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEdgeActionsLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEdgeActionsGroup($id, $name='Service Edge Actions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEdgeActionsLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/Networking/ServiceAzureCommunicationsGateway
 
 sprite $ServiceAzureCommunicationsGatewayXs [10x10/16z] BOkt0K1H20BlgL2u_xu_SesIU35XDo-paw_50T2X3WT9bca9N7YeJCXOszbw0Mu
@@ -10497,6 +11214,30 @@ apwiymLLgyPYIYdYjBHhiD7OKUVQAIFPCzrxnxPxptbs6liHQ_HFUvXqVXN_wVFBDm
 !procedure ServiceDnsSecurityPolicyGroup($id, $name='Service Dns Security Policy', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceDnsSecurityPolicyLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/Networking/ServiceVNetAppliance
+
+sprite $ServiceVNetApplianceXs [10x10/16z] HSY50S102C30F9BA_llMvN0IF2luFQSYOptCad1kSbhj8V3zf6Trai02bDyE
+
+sprite $ServiceVNetApplianceSm [12x12/16z] JOo54G813C1IHVOVc0lmaheM0qkcySQm6yPDODTUcHEyXS3c-sd-uxtJvcakc7Vyylh_CHHBj_-hapiV
+
+sprite $ServiceVNetApplianceMd [16x16/16z] VO-54GH120G7cxlT_0D-vDsQiYxSa2WSp0Ya_aS0Kb44cLfkxKn7fiHsi-xpnizk6e-jxJ5vjJXMvtdBhyxplP-0npgBfUmyAIYSQL7kztiSRrYze8YCoje5
+
+sprite $ServiceVNetApplianceLg [20x20/16z] {
+POy50aCn24E3fNB_0uyEEisNfAy69Y3oJO_ZcYw0dlTwAkE_g50pgq6bcSb9lIl82icYaXIZmYLsQsgoLGik6pWo-MH4AWJ5RErOnRJtJZ92YY5wxnpRU-y4
+_ixh_YwRjpSFpi5KMdHzJjfNR_fa_ibCy2Vz8rNVHBwXnnSy_G4
+}
+
+!procedure ServiceVNetAppliance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Networking/ServiceVNetAppliance', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceVNetApplianceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVNetApplianceLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVNetApplianceGroup($id, $name='Service V Net Appliance', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVNetApplianceLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/Networking/ServiceDnsMultistack
 
 sprite $ServiceDnsMultistackXs [10x10/16z] NSY54S102031Dxp_VdCmddtXXjNsmQ-kW6cHkKPc1gPUi7pliNAdL3MIM0ucgarz
@@ -10568,6 +11309,81 @@ Cti
 
 !procedure ServiceIpAddressManagerGroup($id, $name='Service Ip Address Manager', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceIpAddressManagerLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Networking/ServiceNetworkFoundationHub
+
+sprite $ServiceNetworkFoundationHubXs [10x10/16z] BSQn0G0G0C0mWDR__m8o9IJm2Aa_OEyjniXP8nBp7l7Poq0ZxQL7eMLprg7c4uFVM
+
+sprite $ServiceNetworkFoundationHubSm [12x12/16z] DSc70K0H34LHaNQV_VVzbKFw681UF6t_GFJ3BNYeEzmm-m-HJM0WF6U-McBYG54IENz8u8r2BYs4kvw_qUWnbevr0m
+
+sprite $ServiceNetworkFoundationHubMd [16x16/16z] {
+LSY50G0X34DHgadOVzzp_UZh64rILp66m3UfSNSD2A1jAnwdUT7AS9ZjD181E-tkTXphq-maQMHmdgxDJheETsKt79sRnSpogeeE76Om95IdDBU169dQpsOT
+8QEetQ5VSsX-onK
+}
+
+sprite $ServiceNetworkFoundationHubLg [20x20/16z] {
+PSi53WH024DHd7RkV-0TM_yXza9532loLYBI-8bcwCysubfbv9sGsA8x-x3Gr8QRQrz3AK81A5ot4T0eowhId7Uiz3DWJ4i33BCCmAxvjNfRVVoraTCcV7RD
+4r4alUcu1gzoifsUd3Q8oHvUZ9XqR5U-0hSr_neo_eXYuoVA0m
+}
+
+!procedure ServiceNetworkFoundationHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Networking/ServiceNetworkFoundationHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceNetworkFoundationHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceNetworkFoundationHubLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceNetworkFoundationHubGroup($id, $name='Service Network Foundation Hub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceNetworkFoundationHubLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Networking/ServiceNetworkSecurityHub
+
+sprite $ServiceNetworkSecurityHubXs [10x10/16z] FOQ70GD13CAuYl3--oRVPGFIoTODc7KjsCk8Y-rSrkt34XX0L4dcPuaPkfNI0PLgqXy
+
+sprite $ServiceNetworkSecurityHubSm [12x12/16z] DSU70SCm24HHLA_iFt2Es7ugVEhlrWS2LuTqIG3vInmC3AJNN95VPSPaf2LoVHtxxRDFv9-LHUsumch9HiipymS
+
+sprite $ServiceNetworkSecurityHubMd [16x16/16z] JOc70S0m2CESYV7_1nVeYZ8byB1nGgVFLwOxpOoq7XRIo0oxnmjdUfLcHgXUgtbvFmbt9fr5kcSPloUl6xJc3m68CteopSEfvGMN6ZBuWpgA8QK97vIUuGK
+
+sprite $ServiceNetworkSecurityHubLg [20x20/16z] {
+NSY50G0n24FHL0dPVzyJwEchyd4f4tzqil-BcP43OVg1f1qO2loykU8ePgohXNzBysX-jFfpDgPPQU5ixjaQKxIizck7LokOocZzQa1H_vX7W-J35nlqXeYl
+viIfYBxGXKLQJOOReqe5RrDIHTe1
+}
+
+!procedure ServiceNetworkSecurityHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Networking/ServiceNetworkSecurityHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceNetworkSecurityHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceNetworkSecurityHubLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceNetworkSecurityHubGroup($id, $name='Service Network Security Hub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceNetworkSecurityHubLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Networking/ServiceVpnClientWindows
+
+sprite $ServiceVpnClientWindowsXs [10x10/16z] HOY50G0X30Fl5KBsdnUNDawzL_GBgkSNgWMIxPQ4H_gaaVvNZlzlObre4vnKZH6OIm4
+
+sprite $ServiceVpnClientWindowsSm [12x12/16z] POpL0G0X34EB4xB_laVb_7srCL4QYZW3cwKV5059nCtV7ObCJa7lUgS-gXG0j8mDhUjEO1FegG-vx3HqRtC
+
+sprite $ServiceVpnClientWindowsMd [16x16/16z] NSvLWWL124FHG2cT_Uzti7bslt9Q2zMnXNUMtToxCEqXQS1D0fFHlmtFZ_dXcRRqEI9Gtr1LzxIzPT6zzcRz_1Zh-RRH7IstVBXFIDPv1DdsMUoq7lw8F3N-
+
+sprite $ServiceVpnClientWindowsLg [20x20/16z] {
+RSq5aWKm28FXr2WXzx_lLjZdtnZpLq3gJiERmSCBKfbC8NKibPV1gUFH9e1uQoTItqtlpN-qCKXA9LiXDekLph0QQ6RzB72iaQSjnc2NffQvcdEJux4YByQZ
+vVUhwT5maQ40YfQ1H6d5J4Ykg-15ox_UKHtf3m
+}
+
+!procedure ServiceVpnClientWindows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Networking/ServiceVpnClientWindows', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceVpnClientWindowsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVpnClientWindowsLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVpnClientWindowsGroup($id, $name='Service Vpn Client Windows', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVpnClientWindowsLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Networking/ServiceVirtualNetworks
 
@@ -10852,13 +11668,13 @@ wBq_
 
 sprite $ServiceApplicationGatewaysXs [10x10/16z] LSR50SG030Cm7GRstxVWNmEsFERtHx3p5vHLGQrl5LMoOULHVm5A00qd
 
-sprite $ServiceApplicationGatewaysSm [12x12/16z] NOU50S0m40A9FFVD_llM7KT_T3-JoVSC3yenAQD1sQQLZjwGG1LjiHsR8wG22BQvdIAZ0oL9tJZc0W
+sprite $ServiceApplicationGatewaysSm [12x12/16z] NOY50S0m20GlUZJxxrjtUET_jJ_HgT-nzM4wecaKJLliH6kr24gMJRRIkuT0Kjd8NXBRUfGmkE-82m
 
 sprite $ServiceApplicationGatewaysMd [16x16/16z] RSW70i0W24FHhmB1tl--tRkD0rxuZyMB4NTANL4kkiUGAWTL6KfAPQUyb-vQYtaqK0-iIg3rSsJCNWlmsIm6YkRCNiAISXgE0jf9AAcMAy_Yu97SvmG
 
 sprite $ServiceApplicationGatewaysLg [20x20/16z] {
-VOi7WeGm3CGch6sn-Vz_ANE5ZY1DKVH6L3khhAfB1NKiiphVF9G1kUWE_sL2wjD3m5OnPl4T2vUkGBqh8oXmvRlCHFeCFhbICWYarQMQNLjTs9KMC8ipLYxj
-DkMI6bHiocLujjhAq4cfZGlen5cvt1xE
+VSjH0aH030JH7f8KS__xGly0z2ueZ_uMrUufg-gXeAuogpFdHGRabZjOMa5gx27WK4nPDK-5fHMeTqK41LP-bvb8u-0dAoM3GDfRghcrlOLRQHlUrZmdIxSZ
+MLA3YYDPXizEXmpTajgq3TrsJvR7Xoi
 }
 
 !procedure ServiceApplicationGateways($id, $name="", $tech="", $desc="")
@@ -11184,33 +12000,6 @@ sprite $ServicePublicIpPrefixesLg [20x20/16z] ZSY54G0X30J0097hl-AVoBknuqkJEc-s0t
 !procedure ServicePublicIpPrefixesGroup($id, $name='Service Public Ip Prefixes', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServicePublicIpPrefixesLg>', $name, $tech)
 !endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceLoadBalancerHub
-
-sprite $ServiceLoadBalancerHubXs [10x10/16z] LSQ50S103090U0dG_GUkMmGElubqeR5qm6f3ti0jHYjl8XQGXgU0JXDmWcpOnfis73om0W
-
-sprite $ServiceLoadBalancerHubSm [12x12/16z] NOU50GDH348VgGJ-_lksvuR34-xlCR_gxp6rdRHTzdpobG6hcqZr6fGKsWh2Yg2J4CzpFYOfM0_x10_DzGS
-
-sprite $ServiceLoadBalancerHubMd [16x16/16z] {
-RSc50GGW34FHf4WJzX_usdF3_mF_XvGVcKFxFSbuWSJn1fPIeSo6Jag1eKNbDQS85P3QCCc0pqOzbf5cc73_ZteKXEiExTdPK0EsJbGr70UsEnz0p7lUGKLu
-XtjU
-}
-
-sprite $ServiceLoadBalancerHubLg [20x20/16z] {
-VSe50iCm34DHAp58kV-1v_5MKldtsTN8s2PLiRPg8fX_YWD0_ahICVl8hnHP5ODUHRwJamnqYD13Ii3pjtCWnKuQy7GBJSi0-lbWFLkB1lIObWgumd9D8u5Q
-C6F7alLc9tRgrIf9RaKMrx37kBg5INgffvHWKtgfj-oxdkeh0_LIlxBLPhC-wGO
-}
-
-!procedure ServiceLoadBalancerHub($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceLoadBalancerHub', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceLoadBalancerHubCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceLoadBalancerHubLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceLoadBalancerHubGroup($id, $name='Service Load Balancer Hub', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceLoadBalancerHubLg>', $name, $tech)
-!endprocedure
 ' definition of the Item azure/Item/NewIcons/ServiceToolchainOrchestrator
 
 sprite $ServiceToolchainOrchestratorXs [10x10/16z] JOc50S0m20GFX_qNRkf1NjadhKa01O7al3enWAhJ6Ype4trXsg25dfNFsTuJ9-Jz1m
@@ -11238,105 +12027,6 @@ IuQ_nF13Jp1oCbF5_cxd2kYoe32qaYFl6rnVtbSJGTFYkKNDmx682m
 !procedure ServiceToolchainOrchestratorGroup($id, $name='Service Toolchain Orchestrator', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceToolchainOrchestratorLg>', $name, $tech)
 !endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceWorkloadOrchestration
-
-sprite $ServiceWorkloadOrchestrationXs [10x10/16z] JOc50S0m20GFX_qNRkf1NjadhKa01O7al3enWAhJ6Ype4trXsg25dfNFsTuJ9-Jz1m
-
-sprite $ServiceWorkloadOrchestrationSm [12x12/16z] NSJ5WGCm40GmsOlfl-03FwC1Nxht5hZ7MSAJzps5fKb7pohUc0Mn8te-HwyzqM4-Sf61kHVXkPww9ng_
-
-sprite $ServiceWorkloadOrchestrationMd [16x16/16z] {
-ROx50GCn3C0Ki_TVk1TyLG4py9UHLVei5puRisFE1ByQCTFPACYK6JjWwm_FECaoXMPMJ7D55rLNomOibaEpD7lWeLG7beKRlegx5HTmp9cqO6yhdlQ6o0kC
-y8-b_W
-}
-
-sprite $ServiceWorkloadOrchestrationLg [20x20/16z] {
-VK-70GGX21D2tN_X5_EzvKwbawn_oCeNNyAGrIlY7Z8xTRLl5uPSMNnkLW9Zthlydf6KOpEeEh-dt6luvk0-IsXuPAKl0kjcLDKJ_rDfUGr6nhPxh02gTr0Z
-IuQ_nF13Jp1oCbF5_cxd2kYoe32qaYFl6rnVtbSJGTFYkKNDmx682m
-}
-
-!procedure ServiceWorkloadOrchestration($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceWorkloadOrchestration', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceWorkloadOrchestrationCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceWorkloadOrchestrationLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceWorkloadOrchestrationGroup($id, $name='Service Workload Orchestration', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceWorkloadOrchestrationLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceDataVirtualization
-
-sprite $ServiceDataVirtualizationXs [10x10/16z] HSor0G0n400WedVPV-1twQYW0KG4q3BJAAsore0EmhWK7gYc08DXpacBwRzavWu
-
-sprite $ServiceDataVirtualizationSm [12x12/16z] DSm70GCW40ImCFuF_0lkRWI4pLzt0-maawg5Smx569WAqmQYcD0K6q8B40kr6ZKeAmbMB_Av0VVU9m
-
-sprite $ServiceDataVirtualizationMd [16x16/16z] JSt50SGm300mrPHc_u6FeNgPJQIhUU0driF00UfyM6Hd5JppL8tZNTZPWeF2ov3rooj4zkzp3_LCoykYnYcyH8l1u6KWGiyCh8DePZt0h6ci9txE9nTxxxW3
-
-sprite $ServiceDataVirtualizationLg [20x20/16z] {
-NT150aCX303HYPVx7xYIz1kpV3Y06LkUtpQhZdj-cKLucxqw848mLu2c-X60E01hhGebw5pu9wc0ExXof6MpsW_9H8Vii4eOyeEyXb8vY5A812tbg804q114
-sZ9WLciU7o8bWCVn8OrMDSDs_oGn0P3ZG-ur9HkkLNm
-}
-
-!procedure ServiceDataVirtualization($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceDataVirtualization', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceDataVirtualizationCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDataVirtualizationLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceDataVirtualizationGroup($id, $name='Service Data Virtualization', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataVirtualizationLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceEdgeActions
-
-sprite $ServiceEdgeActionsXs [10x10/16z] LSQ30G1030F06liF_6QH7Fn36wQsqDH9xcxkJH6nSia3KhCfLKboA0NEL
-
-sprite $ServiceEdgeActionsSm [12x12/16z] VSR70S0m24DHcYJOV-3qTigtWMT_HUac2V8aj5dQbDgY3lVMUVHnsv2pUO1nG8S7PULWH91Tzca5
-
-sprite $ServiceEdgeActionsMd [16x16/16z] ZSp50SGm50DHsIkDy_jlUCDqoWIVIT_gpfs_c5mC2N2m0ujPrSOIosjX7xUQD2trvSprv-wbsOpTCBkcKAihIJMIiTgr3CYc3fSjDLrPx_u
-
-sprite $ServiceEdgeActionsLg [20x20/16z] {
-bSe54aGX38DX-eZG-rzui-xsZuJvwFYtskQJ0SIzJ96Kxevqj1iixKs9rolR0QUZR3ucNwnyds9U-ux_wr3soVnWjdEOfR97q-6zcbGVhPjfbKdwOYrYRW2x
-BnO4Hg76g3fOPOtnQpi
-}
-
-!procedure ServiceEdgeActions($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceEdgeActions', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceEdgeActionsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceEdgeActionsLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceEdgeActionsGroup($id, $name='Service Edge Actions', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceEdgeActionsLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceFrdQa
-
-sprite $ServiceFrdQaXs [10x10/16z] LSR50G0m20F0K06o_y1rlTSXQeT6pspuvyEPvZxjH07cHYMqDMfGR98g
-
-sprite $ServiceFrdQaSm [12x12/16z] PSt50S0m5CDGbsHt_u7B453evVGbhdG6_yT77EVqpTu9ECdjC_CP60-lZxKSFiDe-ePD7FvYtW4
-
-sprite $ServiceFrdQaMd [16x16/16z] PSV50GGn34Mn7yEpqt_12yEWcwHavLfm6BSdiRmMNbcNypwL-xc-ksYywUqxs1v_2Ux_pxaSY97B-Ki8nV85LIv-7-iRHeGkmZL3TzE_
-
-sprite $ServiceFrdQaLg [20x20/16z] {
-RSg54KHH24DHD43_3U_p_NOpUYP4YXED1htG3_Y7wJ74JDlYPlvXzZ8yBJEHrgQPoo9ZcLti1FWso4XX9YRhXrwWnOnXLTbR9jmiAttLZ8P5hH0HJ4ujFeO0
-AMZ4AuF3IkaLbxrHYdy
-}
-
-!procedure ServiceFrdQa($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceFrdQa', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceFrdQaCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceFrdQaLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceFrdQaGroup($id, $name='Service Frd Qa', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceFrdQaLg>', $name, $tech)
-!endprocedure
 ' definition of the Item azure/Item/NewIcons/ServiceLandingZone
 
 sprite $ServiceLandingZoneXs [10x10/16z] JSQ50G0n2C30uEm_yKirBN3SQMRgh_fQz-sew6v3tlqAmru2vZZ2cx_o3nB1-ta
@@ -11361,105 +12051,6 @@ V8AVXn8Z9oQNcIqV0GO
 !procedure ServiceLandingZoneGroup($id, $name='Service Landing Zone', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceLandingZoneLg>', $name, $tech)
 !endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceServiceGroups
-
-sprite $ServiceServiceGroupsXs [10x10/16z] HKo50G0W338N_n-iwqvWjDqR3QmkAJeHW4-NO5-Vv0mwWIGZIKM8QOvZtrDwvmC
-
-sprite $ServiceServiceGroupsSm [12x12/16z] JSO74W0X349HB9_e_I-yjini2ZpzftExK7rumtsbySvj3vlhjhAqz9f-R6YQ4MqvmijpiDp24dF8e3TrYMVq0G
-
-sprite $ServiceServiceGroupsMd [16x16/16z] PSm50aGX24NH9t21sV-6vtVP7WbD0-wdoS4k1sGUIRxTkRi1lstTcLmUrEBWj9jYkMuVlGu3I5PLR2v8gN_LlRjoSn-cCYGjjiKC7MDvE0Ak3uZbl2oaFm
-
-sprite $ServiceServiceGroupsLg [20x20/16z] {
-RT053i0W44JHGVuilV-1AtIJwey_7FtNkwveXm0NLQ00HKUbdTh0rWoWwWYdTGD-6cFOJoEcqIvhwB0c7gRQfRVDd7PTcuZefv7tg8l38ot2dhPuV2tIL1oU
-xuhTc5QardMTszqWuVei2RYev9HIT7N81W
-}
-
-!procedure ServiceServiceGroups($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceServiceGroups', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceServiceGroupsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceServiceGroupsLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceServiceGroupsGroup($id, $name='Service Service Groups', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceServiceGroupsLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceEngageCenterConnect
-
-sprite $ServiceEngageCenterConnectXs [10x10/16z] JScr0G113C0m7oVUV-1dK2l-IeLLWB6JAinTrxN7BhNlMzk8OUxPojdCaphNXPyD
-
-sprite $ServiceEngageCenterConnectSm [12x12/16z] TOg50KD124DpEDb_uFQxlnE8u1jtLtRnlvfxnCZ6N_ot_qvs_uFy0pB_kveFLxDgJ6MDQ6VWNvR_IvAQA_5dst7b1m
-
-sprite $ServiceEngageCenterConnectMd [16x16/16z] ZOm50WKW24D1oTt_llRlV2QmZVwWg0fH0ddAIMGfWLcFmio68DbdmnQC0QtQ9tIjQPPrvQrQfIeheGeuLnppk584s6cLvvq1w4wlgyQW-etHKx-39hUoq1iw
-
-sprite $ServiceEngageCenterConnectLg [20x20/16z] {
-bSr7WaGX20JG8fGezp_m24odvNyR9UCHCQt78WJ_MA1PpdzgQ0ggyCgjoy0yZjorR0ttl2IwyJyt--w3AmPEvUY9CYbKyg2F25rfHkoWfny2Hb94IEvKo-J_
-1HEfvtXaZN8LwIVwYc4rdITBMBGLO-hn0yNtD-A9Fm
-}
-
-!procedure ServiceEngageCenterConnect($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceEngageCenterConnect', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceEngageCenterConnectCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceEngageCenterConnectLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceEngageCenterConnectGroup($id, $name='Service Engage Center Connect', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceEngageCenterConnectLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServicePubsub
-
-sprite $ServicePubsubXs [10x10/16z] 5Ok50G0m3CBelFd_u47gWewP9o0nC4VIi8bJLGpcuBWeLmyQTfCTGr6W_4L154a7Cv8-
-
-sprite $ServicePubsubSm [12x12/16z] 9Oe93W112C8G4m_-_-2LdSvfKvJ9-X6neamHmFqRfS91C29KIuQRkKRtmUkJXBUnlmtxKiVBzlv0tv-0VTflsXlAV
-
-sprite $ServicePubsubMd [16x16/16z] {
-NSm75aGX24FH43q2sV-2Hs3w-_NQSAOrdtsaE2bHqn5kMKxFwoYRc_lzNdkR8CtiEktceXGxhfLxEU9pdfnAcAP56aZ2sCsyH8IgjnCnJY2k5G3BtbzA0Cf9
-UdjpbITgsdz-
-}
-
-sprite $ServicePubsubLg [20x20/16z] {
-PStN0SKm24DH2HU2zjytJSwhz_FO0CPqeyrL34crIShGqvHmLj-6Erj3kwniGKGGmFon87cPUBTc8tHPnHd6zrr5QAAzRMGccTd0V6hNuBqUZDMQbP8OSc-B
-QRJHfXDdsHh0spG0RBVXp3O1ZDiwILkHz3zbogQQ9vtcR2x-hGu
-}
-
-!procedure ServicePubsub($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServicePubsub', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServicePubsubCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServicePubsubLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServicePubsubGroup($id, $name='Service Pubsub', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServicePubsubLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceStorageHubs
-
-sprite $ServiceStorageHubsXs [10x10/16z] Os3YX0069aOeOE5av800HbmiTcOs20kibGaYoyA6eew11MeU9m
-
-sprite $ServiceStorageHubsSm [12x12/16z] JSg50G0n30B0EB3_mE_IgqJDzA0P_IKvUCkKCulPu8HytlwHyr5dxltjj6wnxFIPznpttA7dtBnC6RVI3W
-
-sprite $ServiceStorageHubsMd [16x16/16z] VSl70SGW34HHPStqN_2kSxOV5q3w8iMTYx1ius2LxczLqWox-UtGzgoUttgPQt3rqYlygq-kRDxlyVJU9m93Fh_zqBVIeKSKdiGV
-
-sprite $ServiceStorageHubsLg [20x20/16z] {
-VOrL0aG1209juVu7tWwV6_Efm8WO3xI8DBice1br4PUiseobAbbQcFZjrd1efqVsuxPpThiP-2RrSPlySoZywgZ_3fqEk-_55qSZuEZ8wk78oxMonYstew7g
-Wwj367g44EC2SWO
-}
-
-!procedure ServiceStorageHubs($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceStorageHubs', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceStorageHubsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceStorageHubsLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceStorageHubsGroup($id, $name='Service Storage Hubs', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageHubsLg>', $name, $tech)
-!endprocedure
 ' definition of the Item azure/Item/NewIcons/ServiceServiceGroupRelationships
 
 sprite $ServiceServiceGroupRelationshipsXs [10x10/16z] HKg30G1043fL-q_ynZ7Phh9J03Q6YZn81zb0Fbx-C3OY8Jz8sZ86Mb87
@@ -11481,677 +12072,194 @@ sprite $ServiceServiceGroupRelationshipsLg [20x20/16z] XSwr0GGn0CH0mqB_5JyScgrm8
 !procedure ServiceServiceGroupRelationshipsGroup($id, $name='Service Service Group Relationships', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceServiceGroupRelationshipsLg>', $name, $tech)
 !endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceStageMaps
+' definition of the Item azure/Item/NewIcons/ServiceAzureAccessPoint
 
-sprite $ServiceStageMapsXs [10x10/16z] NSd70G112090pDf_mHStpqS1_1YDcVsFHWJz7wg-XHKlV-2NYPCqnDhT
+sprite $ServiceAzureAccessPointXs [10x10/16z] JKo50S0m2CCX_n-yrRqbIi_YY1X3zkNUfgfgGn-1waCVizbYULMLSaqoMzZDU5M6jUS7
 
-sprite $ServiceStageMapsSm [12x12/16z] PSh50G0m20D07FPVkEwz5oI1YVQbgkD4AyOj717rO0GP-xB4SZTjEepbXwPoumIiMmO
+sprite $ServiceAzureAccessPointSm [12x12/16z] LSk50GDH20FGuB3_mWqzVrynV6McuH15eg1QGVmtnH9WPl8GGF11BYmp0uT0mhz0-UFjviPtHNeaBYcW7m
 
-sprite $ServiceStageMapsMd [16x16/16z] PSZ50G0W3C30Uc7_WN7dVWbiI73IuaYoQYMhLwi5Gi57bq5Ge8XmxK4htctLJl1GmC7ZaJ-a3KlpQUGcTii
+sprite $ServiceAzureAccessPointMd [16x16/16z] RO-50GCn30CDijBilt0DXQTx58Ja0ITvbAluoJKWS9HHb7uL8xjnaDs8lJT_f04MmY6NwpNTXJbj2ilR2yj5Cz9yMlV_l007DAkDWa0-UZfHo96lUWC
 
-sprite $ServiceStageMapsLg [20x20/16z] XSs53S1030D0FuJs7xXC0Qad3jXmUaVGvYPCwU16WmyDhpdbu6OGtGZS36fcRrq_Pg6kkndnOGoy-BIDNbqES4Gt21fr_6lTmsO43PK-2voj
-
-!procedure ServiceStageMaps($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceStageMaps', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceStageMapsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceStageMapsLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceStageMapsGroup($id, $name='Service Stage Maps', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceStageMapsLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceLogicAppsTemplate
-
-sprite $ServiceLogicAppsTemplateXs [10x10/16z] Os1WOc5WOM05GZXWnS9Y0s9cPXYBYGdA0kfb0RBOWHICnGeq2wIF0wuN
-
-sprite $ServiceLogicAppsTemplateSm [12x12/16z] HOc50S0m40AlBpJxBnoNL-2098B44rxvTofuO6apcrf3kr_zfG4vj1Sl6lh7tUTE7K7qLTVctjUG5Kw91W
-
-sprite $ServiceLogicAppsTemplateMd [16x16/16z] TOw30G0n54EZOl-5pyOhluE9CkqWyqD0k27hOCqzuPyjSRFhPkjcsxx7SukJdLpjjiyyxIJBfH-xbB9S1ed-q5Ulje4H
-
-sprite $ServiceLogicAppsTemplateLg [20x20/16z] {
-bSg55G8n50NHUV8N-cyOT-V6vmJ0KpYiEIuGpy83vLw1uK7-Rjwvj8M3xFpIxFYnqN1KT6XBWzeU6oiWZS2xuzBKrj2TkvQRfdsRcS3iNFuXYSknb3KF2etl
-nB05
+sprite $ServiceAzureAccessPointLg [20x20/16z] {
+TT250OH044FHqIpNVyCN22uVV_ZQPmtaLHnB5nigxiAQoN6Y3IT5KeUXbIuSFpRrAU9iE9V47jfhgA85bxJ8iDg_qsTFHYN1BfRcNhPP9OlYNig8MSMvT87G
+qSNQ_Jg0tMYxfW-xbRRr1m
 }
 
-!procedure ServiceLogicAppsTemplate($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceLogicAppsTemplate', $name, $tech, $desc)
+!procedure ServiceAzureAccessPoint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureAccessPoint', $name, $tech, $desc)
 !endprocedure
 
-!procedure ServiceLogicAppsTemplateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceLogicAppsTemplateLg>', 'NewIcons', $funcName, $content)
+!procedure ServiceAzureAccessPointCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureAccessPointLg>', 'NewIcons', $funcName, $content)
 !endprocedure
 
-!procedure ServiceLogicAppsTemplateGroup($id, $name='Service Logic Apps Template', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceLogicAppsTemplateLg>', $name, $tech)
+!procedure ServiceAzureAccessPointGroup($id, $name='Service Azure Access Point', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureAccessPointLg>', $name, $tech)
 !endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceAksNetworkPolicy
+' definition of the Item azure/Item/NewIcons/ServiceAzureDataTransfer
 
-sprite $ServiceAksNetworkPolicyXs [10x10/16z] JOY54G0m20CVX_qNxkMq4EU_w40s0yn45w1BfQeY4ReRQ8pTrS2X2rfHLCBF0Hu
+sprite $ServiceAzureDataTransferXs [10x10/16z] LSQ52S0040F0mCUw_y9rE-pmurn9sZlYp34CEM0IMLkr3HiEkfd1PjdWRmK
 
-sprite $ServiceAksNetworkPolicySm [12x12/16z] NSgr0S1034FHRtRs7_YuociC4Z-MF552b04kN2aPN2ROtYC2Dt2mp0Gq2UXkN54-jht3FSIGt8VHnIElDm4
+sprite $ServiceAzureDataTransferSm [12x12/16z] PSV70O003CD0fnko_xpqZbudV0k_c5NSvOlefgjBYk5k0bXL6RRnMifSRR4GWCeoohMnsrmmhE5evRyP
 
-sprite $ServiceAksNetworkPolicyMd [16x16/16z] {
-ROs50SCm30J5iF_2VMCfbnW49zCZhf-HX4VmkdDa-iTfs0v14MutXE4h5dTiDeREE01K9f7Xwue1ZiAH0CAOFcEjuksJ5MqGAgPLhZ2NZqipv9uFJuKRq2Ty
-Roy
+sprite $ServiceAzureDataTransferMd [16x16/16z] ZOdN0SKW4CDypIRPVzzquEULY2eTtf2KEDKajHPTUMb6-ADsQ6KFxWfdNG48weHPUGRBIqsiEzIf2O1v-Jr75HUU0Us4nrbfRi1o0nHk7frm9Rwo0m
+
+sprite $ServiceAzureDataTransferLg [20x20/16z] {
+bSe54W8m44FHTBtq_lTbfy6TF_uI_9T5fjvJH7PsIv9TLTr8aDnKvMIK9clKJUumH8PRTp9O_npGqv70t4yuJXQUSS6JGKGSW-Wdsnt0O-qyQgwrfZO2TQxt
+1HQJ9G31gPFXhk3heSJNZW
 }
 
-sprite $ServiceAksNetworkPolicyLg [20x20/16z] {
-VSm5OaCX48JXVss0-r-udKey-Px0AXyqZqfISQkrabngVjNwLhTNPOjRwf56tEcwvWh_EW5-SsFGxHApW905KRvNRw1aXOqKpiMom5B3zdNRPHzo8z71DSSP
-BkftbhmanvUHN3mRsoU1qFn5GgxSodFSzC4N
+!procedure ServiceAzureDataTransfer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureDataTransfer', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureDataTransferCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDataTransferLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDataTransferGroup($id, $name='Service Azure Data Transfer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDataTransferLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/NewIcons/ServiceAgenticWebApps
+
+sprite $ServiceAgenticWebAppsXs [10x10/16z] JSQ50S103CD0FIhD_lkMwG8sF-fuoWuedWYq58iGDKv4vsaifzYFNNP0sDLCs
+
+sprite $ServiceAgenticWebAppsSm [12x12/16z] LSY50O1030J1ZTv3__tYEl7m9-dQGhkwlWSQKgrGRRsHKhw52lauLMLoxHZKT83Omh2qWC7ss8nCD7Cf0Ii
+
+sprite $ServiceAgenticWebAppsMd [16x16/16z] RSd50KGn54BH-uX0qd-_upx_h10EQFJwQBxvh9-3NpG_RvlfZkqQ9PKjCyk9uuj4GqHvOOnkFderUhthjK-l1-pO2q59D23qmOrMJKXVFEsTlGT_pW
+
+sprite $ServiceAgenticWebAppsLg [20x20/16z] {
+TSY50K0X203H0n7G_VVztV5CZbyYFCIYSYgnSNOQ9pPneUu2I5nHqy4ZNDqaIfdRL9tfOr95GcLk3YcULxXR3RstccR9DLKamM-DfOMr4slBQzg6H0L4Yp1j
+I6ZAfXSBeD62GyjkzEpEXVP9y6C4
 }
 
-!procedure ServiceAksNetworkPolicy($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAksNetworkPolicy', $name, $tech, $desc)
+!procedure ServiceAgenticWebApps($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAgenticWebApps', $name, $tech, $desc)
 !endprocedure
 
-!procedure ServiceAksNetworkPolicyCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAksNetworkPolicyLg>', 'NewIcons', $funcName, $content)
+!procedure ServiceAgenticWebAppsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAgenticWebAppsLg>', 'NewIcons', $funcName, $content)
 !endprocedure
 
-!procedure ServiceAksNetworkPolicyGroup($id, $name='Service Aks Network Policy', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAksNetworkPolicyLg>', $name, $tech)
+!procedure ServiceAgenticWebAppsGroup($id, $name='Service Agentic Web Apps', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAgenticWebAppsLg>', $name, $tech)
 !endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceMicrosoftDiscovery
+' definition of the Item azure/Item/NewIcons/ServiceResiliency
 
-sprite $ServiceMicrosoftDiscoveryXs [10x10/16z] LS590GD1400XTgvg_uhp3lYJWLkyzuLw1wxkUuclCrECJYMqmwSR3CZ63m
+sprite $ServiceResiliencyXs [10x10/16z] LOQ50S0W4CI0ztJ_UUl6QTeagUlhqa5Qeuo3l0QSLDo4_yZ8Q0S2IpirE7O3
 
-sprite $ServiceMicrosoftDiscoverySm [12x12/16z] NSUt0GCm0CCmk4d-_-7qAPX8_pgkduEH4awoC8rFTn9b9MbyTkrxgrnPk-roO2SjWMGvPuQz9iCPFd8cF04
+sprite $ServiceResiliencySm [12x12/16z] NOq50W0X20HjPVx_tmlYmZ5eDkra2Q_9JRbTCK3z8ONcVhly7Zw5eJuq8Z-OwkjE59Tmrq7_4m
 
-sprite $ServiceMicrosoftDiscoveryMd [16x16/16z] {
-RSV5OGK034En5x2T_HSkSxzkuh7u_AE6hu-q3KmaDm6yiG0m1Ymxy_u0aUmOQa2mO_lY2j3pyhsxa89B--LvOGmdoAuT0yi0cIGb82oWoT0bgnaxkq38yS6m
-nG_AHvy1
+sprite $ServiceResiliencyMd [16x16/16z] TOw50SGW00DnIFOV-95xRwy24IJSe2_L96NcfKlGbzOB6rsbDFzVsgE_T9EJ6_s1hZvwZbzvy8ocLaFBSvQNovKC2l2MqAQa38dn0G
+
+sprite $ServiceResiliencyLg [20x20/16z] {
+VS_L0KCX50HHdDr9__N6dXlpUT0RXjMBPDj7AVAl7XVmiOi1YnLRoUvrR_eQLEsijRyLTgRAnRoP_mRizlLf7xIsMfh6WgA_jGvX2XfG0Kr79rpo17jyXLs2
+wSrz2GY3FW
 }
 
-sprite $ServiceMicrosoftDiscoveryLg [20x20/16z] {
-VOw5WGGn3CGKqxZ_YZ_pJ7TQZ8myOpJY9uBTypCBY8AJzhGkTYxF4qewxQjdvdpKo1yXZUh3kSgcvpspWcYxQYivrOKEAlFANSSmEYYhzo9aDtkcx6JcLBrj
-tv_EPQxqTxhdKa04ZHtf92jECVvwR3hK6u9IjtDCirjyK0d8bNoXnDK_YQ-Y5m
+!procedure ServiceResiliency($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceResiliency', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceResiliencyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceResiliencyLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceResiliencyGroup($id, $name='Service Resiliency', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceResiliencyLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/NewIcons/ServiceDDoSCustomPolicy
+
+sprite $ServiceDDoSCustomPolicyXs [10x10/16z] PScr0S0m44FHRvQz_y0vwl8g0JzhGNjcMT8s7kOnMAZ4XU6lz01resdfo2nSknVt0G
+
+sprite $ServiceDDoSCustomPolicySm [12x12/16z] RSl74KCn24NHIqRqNx3dZRV_A9BuvALxxg0gYDlkgwecMaPVSlJ5U_GNpK1icDdk3h2ExaNtdo5Fz9L-3-G7
+
+sprite $ServiceDDoSCustomPolicyMd [16x16/16z] VSX90W8m34BHq97a_WUMKklIj-8JVyqMXlhc2ccPLQcS9wkurbOxCVSoE6Fig_UvS1j0srf8jwadwtO8T37F8BUHYH0IfevZyOcBQKxRBtyou_a
+
+sprite $ServiceDDoSCustomPolicyLg [20x20/16z] {
+ZSg52GG130NH7vV-2xva5HQxXm-3VwZXmJWOc-EatN5Uoef1qT4BPkO6eBlItRERTD9Ud7wX-r9_o7L1umRC9LSpZ6rWwU-7gBivBujHXI6PwIjoj6DbXfoc
+Dkx6f_aK1ywNuHBVjBnE0hoe5Zuq2AyV
 }
 
-!procedure ServiceMicrosoftDiscovery($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceMicrosoftDiscovery', $name, $tech, $desc)
+!procedure ServiceDDoSCustomPolicy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceDDoSCustomPolicy', $name, $tech, $desc)
 !endprocedure
 
-!procedure ServiceMicrosoftDiscoveryCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceMicrosoftDiscoveryLg>', 'NewIcons', $funcName, $content)
+!procedure ServiceDDoSCustomPolicyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDDoSCustomPolicyLg>', 'NewIcons', $funcName, $content)
 !endprocedure
 
-!procedure ServiceMicrosoftDiscoveryGroup($id, $name='Service Microsoft Discovery', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceMicrosoftDiscoveryLg>', $name, $tech)
+!procedure ServiceDDoSCustomPolicyGroup($id, $name='Service D Do S Custom Policy', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDDoSCustomPolicyLg>', $name, $tech)
 !endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceScheduledActions
+' definition of the Item azure/Item/NewIcons/ServiceDisconnectedOperations
 
-sprite $ServiceScheduledActionsXs [10x10/16z] NOg50G0n20ElXku_xxlsS18-oCQnnC6qMU_ztDhHAvoQCZXjGISt2k0Sz26i
+sprite $ServiceDisconnectedOperationsXs [10x10/16z] LSOr0S0000InUoZuDrp6JE771hGlGLU2VQKJCksMQGAsp9izsL68ZstXiW8
 
-sprite $ServiceScheduledActionsSm [12x12/16z] LOn70i1G14JzXd7_0oTQobinZNvC9kOyJVd69EuaxuErLjqm07LF-81gvwUhAs_rM_fcluT3pg52vD05
+sprite $ServiceDisconnectedOperationsSm [12x12/16z] NSQ50KCn2431mohx3rpz_XBWN8luRUGFFrAVVapnPKjKT-lxNQO_F-73UNmZcUStnMyuqfbl
 
-sprite $ServiceScheduledActionsMd [16x16/16z] TSc33GG05C3GVcF_VS_62vloJSH3v5vLUL75nMvVxDxxJdwtQtDY_txeSE8wBSy_WoBvQENKc3y-113tRl3NHZWfvyuCCdWbfpm2
+sprite $ServiceDisconnectedOperationsMd [16x16/16z] VSi54WDH20JHPlYH-vyu35ctBkDHm7E1KtXQE2ac2cN5GamnK3CcVgQtKPaLASmikY1iyVfsmeiqEuJ0n-vDYsGgcc9NFl87
 
-sprite $ServiceScheduledActionsLg [20x20/16z] {
-dSi53W9030NHMQbo__FYqCNbnPf9Foz9vuwULCWCFSdCIoj_j3w3WxuqyPW7McqHjHsdkw7f_TJKGWw6CEZMbYq21asgXN9i-BWsJo0xp5b_3dC0DjbSjCvH
-T8es01DMCyIqKlK6Em
+sprite $ServiceDisconnectedOperationsLg [20x20/16z] {
+bSk73KC120FHm_vj_uaZ2AJNfmOdcV-4fEXp4YdYFjckOv889w5hmWM4PgXEomuHFPoqPmHOIgOa9BYcmZHOzuOGbPQZxHY3OJq6v1Jmw3yJxNeRkOapySJy
+uWG
 }
 
-!procedure ServiceScheduledActions($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceScheduledActions', $name, $tech, $desc)
+!procedure ServiceDisconnectedOperations($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceDisconnectedOperations', $name, $tech, $desc)
 !endprocedure
 
-!procedure ServiceScheduledActionsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceScheduledActionsLg>', 'NewIcons', $funcName, $content)
+!procedure ServiceDisconnectedOperationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDisconnectedOperationsLg>', 'NewIcons', $funcName, $content)
 !endprocedure
 
-!procedure ServiceScheduledActionsGroup($id, $name='Service Scheduled Actions', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceScheduledActionsLg>', $name, $tech)
+!procedure ServiceDisconnectedOperationsGroup($id, $name='Service Disconnected Operations', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDisconnectedOperationsLg>', $name, $tech)
 !endprocedure
-' definition of the Item azure/Item/NewIcons/ServicePromethus
+' definition of the Item azure/Item/NewIcons/ServiceAzureDataSharing
 
-sprite $ServicePromethusXs [10x10/16z] HKg30G0m39kN_n-kZMX87UoX1QlZGEzID8qVe2FNqLRDu6XqWF-_yOLZ1WC
+sprite $ServiceAzureDataSharingXs [10x10/16z] RSQr0S1040InCHri__sQwK6Hw31T_BT9qWBCpuuVap0xPiBT6Gw9yTa
 
-sprite $ServicePromethusSm [12x12/16z] NKj70W0H4CEq_F_3qq-oYzHJ4F0PO31KaGdGBd4_TZQbV2lyLvml5zsWHmKqbxMfHqsj78DUApS
+sprite $ServiceAzureDataSharingSm [12x12/16z] TSY30G0120NGdx7_lcVZvV33UWVuPHVRJNjCBmRms3MgAgU2GtFwPvT7XFe2AKau4Av6
 
-sprite $ServicePromethusMd [16x16/16z] HOy50W0W20FDmVy_R6t8cJIKHpEVvMDEEiNtnRqjH5GwGSv7tHi_4LZVpwbzC4NAquEiuvDLlkQU9X6IqSZhg9-OT5VtzJ1Z0l0rFd8qrTa
+sprite $ServiceAzureDataSharingMd [16x16/16z] bSp50S0m30D09MRlls-PkVSo2ZzfRfHpBxO1W8Q1Kkt8q6V7qRlkTS5AO1tsaHcb2-ArhzRZvTYTtB5ImF6g1G
 
-sprite $ServicePromethusLg [20x20/16z] {
-NOy50i0m20EhmFzVF4P2BLljy48DDUdbK3DA5efd1Hr06WztxlyvbrSpl_2QkOgp2MObp-hMqf4Ih6SrGBgVJ1-sDIycKRq2LT0ezKmP1fKKXjOZ7KAHuMP-
-e4Dr7NrDUZ9o5nixa1fi5auV
+sprite $ServiceAzureDataSharingLg [20x20/16z] fS-r0GGX54NHzrtwxtTb38XMvk0t0pUGhnY0zof-Q68htLfl39kl6xRc6zE30MgzsOxQlW3rtlWxKRpvt11dkvXcIAG3D9G0xhZb2G
+
+!procedure ServiceAzureDataSharing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureDataSharing', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureDataSharingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDataSharingLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDataSharingGroup($id, $name='Service Azure Data Sharing', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDataSharingLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/NewIcons/ServiceAiGateway
+
+sprite $ServiceAiGatewayXs [10x10/16z] LOk50O1024NVqUo_iDXw0J_vdR0RADqxI8CTxY3IgIAPsJ0eyHqKEpp13Yy0iZVP
+
+sprite $ServiceAiGatewaySm [12x12/16z] NOY50S0m3CCqZFt_mODo6vJCMlSreZsaMUA691dl44W4_pCW8a3EUH8oPicOnGL16Ly
+
+sprite $ServiceAiGatewayMd [16x16/16z] RSk53K0n549Hgl3s7_XhlILwRWAEYocbaJc3cWXlvWRMy904QgZCV2yIK4Y5Fp0zrhEtlwO7ilH--HyS45W9zmLK_g6o1bzP9vjebJS
+
+sprite $ServiceAiGatewayLg [20x20/16z] {
+VSu70W9120F0hIJv_uTbezYLwtEqzYVMtdkyqevOxOD6e_Ja4J7peSGdSgkdp03gTsKcdSAnUcLMLWIu3vAztR80aCs8DA_C37ajCYtohH_IzMMt2MTkcIRT
+OJhJKMJ46rNcCrLcKKKFz24zavVsu9Veu7tw1G
 }
 
-!procedure ServicePromethus($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServicePromethus', $name, $tech, $desc)
+!procedure ServiceAiGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAiGateway', $name, $tech, $desc)
 !endprocedure
 
-!procedure ServicePromethusCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServicePromethusLg>', 'NewIcons', $funcName, $content)
+!procedure ServiceAiGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAiGatewayLg>', 'NewIcons', $funcName, $content)
 !endprocedure
 
-!procedure ServicePromethusGroup($id, $name='Service Promethus', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServicePromethusLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceKubernetesHub
-
-sprite $ServiceKubernetesHubXs [10x10/16z] BOk10GDH14FZjm7x3tpW0H0yzsZmSFoYaXah1uHqCwdEdLHdTIKnS-pEE3lSBaibXkOlItu
-
-sprite $ServiceKubernetesHubSm [12x12/16z] DOo30G0m30G_nlxxrhsOG6RM9W77PrKB3jg-bfEEz9EJcKT5dZp3pEhaYCXOWzltbUVVIOkzqy2kGjvFaD92qVpGdW
-
-sprite $ServiceKubernetesHubMd [16x16/16z] {
-NOu55WGn34AfK4ZkVzyLtkhyQXpWsAuN2oZEBwv3X85GDMD99xPZhovPVDcBf6n98pPDaMfxlcoPfEsPVaEoSn2RPghb-R8bdal-UUNt131jYUD7trPUrFRu
-fL5TNthV0G
-}
-
-sprite $ServiceKubernetesHubLg [20x20/16z] {
-NSm73aCn28DXPu0TUl_xDhIy-MkXJuc1hcmTEG3A7d7rBhmQIrPdzrRNMcNSsSE6VKJ9vsdDTY5chKnkvhHOfEmmYRRpqCEqYN-BjCvjEHSYoaJpRLczgptH
-xVZhjUUrLmO_zsRkHHhQ_5a7JaiLwq9Gg7gh0Z7RirZeyMpJ5m
-}
-
-!procedure ServiceKubernetesHub($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceKubernetesHub', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceKubernetesHubCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceKubernetesHubLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceKubernetesHubGroup($id, $name='Service Kubernetes Hub', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceKubernetesHubLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceAzureLocal
-
-sprite $ServiceAzureLocalXs [10x10/16z] JSR10G0G302n0y3-ym9eymhO0tpOt5-0c3RtXrRR1lOk-oyGBpi
-
-sprite $ServiceAzureLocalSm [12x12/16z] NSQ53S1054EnrwyafVtdBUDPPAWRu9FKlBjjxqz9yw_vD8tWvv9yKyKw9P2BMG4
-
-sprite $ServiceAzureLocalMd [16x16/16z] PS-53S1040D17mVwhpVm32DSMMI01_XOewHJcoojVzC0d-WavhQzTtTpsGNGtPqtaOxxhH_hld8TcCD_zl7V_r2z8k05
-
-sprite $ServiceAzureLocalLg [20x20/16z] ZSbL0a9H549HJh-O_tmLyvQn_rW0q3vSysZJcCrcSqp6mAIFbDLczPSbPgkaBTlFjZffHqi7QDQRdgxgdPtRwIowAEb3aSZCY3TmWjYbOCARXT_W0W
-
-!procedure ServiceAzureLocal($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureLocal', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceAzureLocalCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureLocalLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceAzureLocalGroup($id, $name='Service Azure Local', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureLocalLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceAzureAppTesting
-
-sprite $ServiceAzureAppTestingXs [10x10/16z] JSQ74SDG508m_cjmxBzlucxhcl2LJwfdPj_QiozRqaY1sMAHmXRQbB3LDlRjY4jd9ly
-
-sprite $ServiceAzureAppTestingSm [12x12/16z] NOW55WHH2CEAbJxkVz_TSSiNGl0XBlF88kl8IHvBgSM5hROaBi-nZPbU2hJGXsFB4xOwYbfduQ32ub36Gly1
-
-sprite $ServiceAzureAppTestingMd [16x16/16z] RSx50GD1241H77RwBpXOVF_jZG9tyGyPIPLMn2oYbhtsXwOjP5UtRdOzF2AIuNDOunM2ZCxnBAAEPzSvLp8DivqMRTFJW7K_K-iF01pUAH4WlIsSsOixeJy
-
-sprite $ServiceAzureAppTestingLg [20x20/16z] {
-TSi53aHH24FHuXtslz_l_Z8doWt5NuQ1cE93pTnouVTmIHwHArpC8tU1WzIMdezE1idSw3da9fChNPF7Vlou4qW6Dzsi1La0Zw_ktX89S5FzR7ui5maXQG3Y
-qx29J7B_ACLBOP5uIZDJSNkaSDlKSvcxYXa
-}
-
-!procedure ServiceAzureAppTesting($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureAppTesting', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceAzureAppTestingCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureAppTestingLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceAzureAppTestingGroup($id, $name='Service Azure App Testing', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureAppTestingLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceAzureContainerStorage
-
-sprite $ServiceAzureContainerStorageXs [10x10/16z] DOo30G1024N_6Uq_R-vbmkX8AbdfJJETk4V16j3itkkxTDwpP4E9sBRwa_-QUG4
-
-sprite $ServiceAzureContainerStorageSm [12x12/16z] JOq55W8n34IdZJ_kVrzYiFlRkA6vhTSzwn6bp_TTpfAa_kYju0h1tSp0wQLVWBe_F2Ao1Gg0QOy81XqjIeA5xaNo1G
-
-sprite $ServiceAzureContainerStorageMd [16x16/16z] LSY50S0W3031Zw7xxrkizkY5dIY_H7y37RO7BeZiT-Iy1QUofxhLQiyv1oEByUGodISCMIuZ1eHHELOMyTvhDS3uvq3umVFrH2JN97nIJdzV
-
-sprite $ServiceAzureContainerStorageLg [20x20/16z] {
-VP055aCX30HtOzZzxzlcaK-zWmyUN53mZgZfXmFuQjGa6nCKTCE5-sxukaNILVyihSA-PeHBEJC1-cYp9O2v9izEKX3bUW8XSX6V7S_Rrsnpt15i0llYeJMk
-KXodeK_6QWaZ00y3s_Cco_XHtcDA-nVJ6m
-}
-
-!procedure ServiceAzureContainerStorage($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureContainerStorage', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceAzureContainerStorageCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureContainerStorageLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceAzureContainerStorageGroup($id, $name='Service Azure Container Storage', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureContainerStorageLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceExternalId
-
-sprite $ServiceExternalIdXs [11x10/16z] BSfR5e1G249Hz3wL-S-tqwhzfO0-T-bdkuKvPN0jS1NdXhisvpcddCkNQSJqYscC9QxGXcPcpdt0YDK3
-
-sprite $ServiceExternalIdSm [14x12/16z] HSpH0K8110NG2r3stpUetla1mCyhyQY6HO1L8pHhygl4stzJOvJ8RMvHp3jaDTMgVC-kc16PUUTUw1VSNoWpUoy6z4IEO4AJ3m
-
-sprite $ServiceExternalIdMd [18x16/16z] {
-LSs70GCW30D16KJz_VSD9lqME7tLtVLdS-X7a9QUx53dKefsk9AsKhj42gL-oS3GDIuefO1I7SU4NGmeUSw-WRA0BhavehOEZQHwdeXtjiITNF8QSqxxDRKX
-koQxZIVvRSmNMSbw
-}
-
-sprite $ServiceExternalIdLg [23x20/16z] {
-PSu70iCm24DHa6Mme_lVjzHqzsN_BEmBzZNiprQvVclgo9-iXzSdMVxoc7VypRFX-ziURVOastvoQagXv-JPjaI0qkeyEwi0-_trM6lbrVaroo3T7Gn9mUSm
-hDagrpukdLTgPvY59m_hQf35uOmOZbWb03np19q3no167f5f_13vT7_Q3z3dUg733hZT
-}
-
-!procedure ServiceExternalId($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceExternalId', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceExternalIdCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceExternalIdLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceExternalIdGroup($id, $name='Service External Id', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceExternalIdLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceExternalIdModified
-
-sprite $ServiceExternalIdModifiedXs [10x10/16z] BSc53S1030H1ioDj-c_tUKG7idtoTBzO1NP31QoGcPu99-oalyHIBlltG2kH3VD-iTpC9W
-
-sprite $ServiceExternalIdModifiedSm [12x12/16z] FOq73i0m30Azm57e_zzRjHcduGdOXm-xTFTfoPvrMWuflXP0OagxJK2F3BidxR7weFUd-8OsOCe-fEoXMaF1GV44PsMz
-
-sprite $ServiceExternalIdModifiedMd [16x16/16z] {
-JOw70GGX2C2KgiRzvtt-Ugon0EqaH_iIcVbHpI8UbOYOe9VsKX-0d1w5sW8EzKBLdUBHSjzxS-ZbCtekkuXO0_3M3lKqwrT4gLlwaVCgSe5cJkG-q6NQdOIt
-HdMfwV8iH5Nj1m
-}
-
-sprite $ServiceExternalIdModifiedLg [20x20/16z] {
-NT250OGm44JHh2ytz5_lPN3u-CCppgh7jwgkBx5-KSwgsn_aDCpq8YDvFr6IcI_4muAPHO0zY7RWJRHSPp_IRO4KMJLyQsuoUwqVe3hyBCLa70yyj2KYP58E
-Pku9y3EZiOoZ1c1L1MZ33XGiQgQ5u0FFB48Y3UXu3fULcghwPJqhLTxn1m
-}
-
-!procedure ServiceExternalIdModified($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceExternalIdModified', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceExternalIdModifiedCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceExternalIdModifiedLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceExternalIdModifiedGroup($id, $name='Service External Id Modified', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceExternalIdModifiedLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceVNetAppliance
-
-sprite $ServiceVNetApplianceXs [10x10/16z] HSY50S102C30F9BA_llMvN0IF2luFQSYOptCad1kSbhj8V3zf6Trai02bDyE
-
-sprite $ServiceVNetApplianceSm [12x12/16z] JOo54G813C1IHVOVc0lmaheM0qkcySQm6yPDODTUcHEyXS3c-sd-uxtJvcakc7Vyylh_CHHBj_-hapiV
-
-sprite $ServiceVNetApplianceMd [16x16/16z] VO-54GH120G7cxlT_0D-vDsQiYxSa2WSp0Ya_aS0Kb44cLfkxKn7fiHsi-xpnizk6e-jxJ5vjJXMvtdBhyxplP-0npgBfUmyAIYSQL7kztiSRrYze8YCoje5
-
-sprite $ServiceVNetApplianceLg [20x20/16z] {
-POy50aCn24E3fNB_0uyEEisNfAy69Y3oJO_ZcYw0dlTwAkE_g50pgq6bcSb9lIl82icYaXIZmYLsQsgoLGik6pWo-MH4AWJ5RErOnRJtJZ92YY5wxnpRU-y4
-_ixh_YwRjpSFpi5KMdHzJjfNR_fa_ibCy2Vz8rNVHBwXnnSy_G4
-}
-
-!procedure ServiceVNetAppliance($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceVNetAppliance', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceVNetApplianceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceVNetApplianceLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceVNetApplianceGroup($id, $name='Service V Net Appliance', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceVNetApplianceLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceMonitorIssues
-
-sprite $ServiceMonitorIssuesXs [10x10/16z] HSh50G113090uh3zztikyua0Vdqvjvbt9US4O4aY2KGTbhaw-f0PH3xzGSqj1Ds07G
-
-sprite $ServiceMonitorIssuesSm [12x12/16z] LSpL0S1020FGd42W--_RStjVQF3GhfTfrB7NR4QThI9xBQIvEtCzaKe_WLeShvanEVACL1XoJs6xWzW2nwK
-
-sprite $ServiceMonitorIssuesMd [16x16/16z] XSV50SKW54N10poxwR_V6DzrTiDVSNLvvkNZyYd2vckNXykrgyEy7sgHiWh6y9CMfuMCozqSzmIBoMXEt1-MKFlpmYr23Qy7gFMdKxpO
-
-sprite $ServiceMonitorIssuesLg [20x20/16z] {
-ZS-53G1130D1XvFhl-1dnfL58pH-vrjoOsgpHTzYljZQPjateyPiLJaNjbXhDTQZvoXaKzKgFR8CKB4LZS1UuX1RKo1D2X1VqXw5iZTTpSGDaDoRAnmKrDlo
-eP-QUoPWSKoYe7cC4O6iVG50S5C7
-}
-
-!procedure ServiceMonitorIssues($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceMonitorIssues', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceMonitorIssuesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceMonitorIssuesLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceMonitorIssuesGroup($id, $name='Service Monitor Issues', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceMonitorIssuesLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceAzureConsumptionCommitment
-
-sprite $ServiceAzureConsumptionCommitmentXs [10x10/16z] FSkt0S1030GWFakt_y3kJ0_K0pk6Tv6dZ0aKeYRDYWL5wC6vzpAUQO_taEIUK__k3m
-
-sprite $ServiceAzureConsumptionCommitmentSm [12x12/16z] HSc50G9130J0EOlGVxyuV6GLPYSmRnjLlbZCH5s_VVMOog2Pml8jvYTZv3c7roz617PFQwpC0TQh_cfarNm
-
-sprite $ServiceAzureConsumptionCommitmentMd [16x16/16z] {
-JOw50GGX30GNulJVxqda_nQTE5uj3iE8NMajZMZEZpxsawYknKGPqTRtyWri__CEm3YnYfrX_p4vKjxnNGyBBTUTKx6oghxp259APbR567YWETiTNqhKnQUG
-MdmuN4Je1W
-}
-
-sprite $ServiceAzureConsumptionCommitmentLg [20x20/16z] {
-LO-50S1020Dnst_W0lLKSu_2AOvq-0XPXSMY4cyaLVq_riikbgNz3fuAnLSO-CKGgPPbcvlr9yOKt6p4OorUTeU44_M7CZSCPWQ_Hisa9uxpdZmsljuUOtbE
-DZeIS7VIijK6AjvR2byGooTpcAAtO62cDc9NrPlDpgCq7HhmbKih_coTv8zPsaWF
-}
-
-!procedure ServiceAzureConsumptionCommitment($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureConsumptionCommitment', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceAzureConsumptionCommitmentCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureConsumptionCommitmentLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceAzureConsumptionCommitmentGroup($id, $name='Service Azure Consumption Commitment', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureConsumptionCommitmentLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceEdgeStorageAccelerator
-
-sprite $ServiceEdgeStorageAcceleratorXs [10x10/16z] BSg50G0X243HJrsu_y1Ipo19eWm7wuPFjLG5hKOZdVFdmrnLixCzF5yAZzYzTW4
-
-sprite $ServiceEdgeStorageAcceleratorSm [12x12/16z] LOs50G0W20JV17x_VUqyfGiTxx5m0GZ3MpOkzH5Y9_W-a8SlSCqdYTmaZ54VewRk33-GmpEQLzeuHbLHvVGd5G
-
-sprite $ServiceEdgeStorageAcceleratorMd [16x16/16z] LOo53O1G34JhSliFJ1FWoukUqei87PYoc6vvLTZaj7Nt3fTLpUQ6X6bm-tarEds8njl7O1G0tZ-B43EjphcoJOBU-y5C6fzE02u5rAldtkRVib-DnQlzb_K
-
-sprite $ServiceEdgeStorageAcceleratorLg [20x20/16z] {
-NSw7RS1030D05NxTV-3mOPKavqvGWYMecVnbS7VuxyZHZw3vxbu9QXKoKlaFlSBSx1NKezqyVckYpUYjU_TUjC-zWiZei7z934A-MLD0DmVu2TW79C0ICl-0
-xCrAxJliwEtCzmlD-3WhUmF083vspx9npdqwQnB6Zk0i_G4
-}
-
-!procedure ServiceEdgeStorageAccelerator($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceEdgeStorageAccelerator', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceEdgeStorageAcceleratorCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceEdgeStorageAcceleratorLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceEdgeStorageAcceleratorGroup($id, $name='Service Edge Storage Accelerator', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceEdgeStorageAcceleratorLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceOperationCenter
-
-sprite $ServiceOperationCenterXs [10x10/16z] LS7H0G5H40ImW7qpst-_kCzBtBG1NMzvi6Dc9CDSaC_vcou9UZYHra9v56W_-04
-
-sprite $ServiceOperationCenterSm [12x12/16z] NSa74W8m24JHdmOizp-mo-WqNqBddrHyfGvP2slntgEAqvimvtAwEI3cbeDkV3j0zeMpVTeImUovskXYKqhyf3Rs0G
-
-sprite $ServiceOperationCenterMd [16x16/16z] {
-RS_50KHH24FH-mH8wB_VSPz_jcWuPXTlPPSqk1lT2PJkBMep8u8fJUXUxBo8MqiQPjx1L6YmwmvM8nLrXxjXIzpixWclItQn00LBiZsG0IIGW-ddeFFMFpxZ
-l0FTMxWx0m
-}
-
-sprite $ServiceOperationCenterLg [20x20/16z] {
-VSm7aWKW20JHngymm_qFlB8vFqEbhk4V8H--AbyAFgos5oabRznTh1r8h-dkTd2kpPcKYH9E3fXqdJQGhm8ctS3EDrpQAbZr1bOt9HtgLRxEFpHf31vk1qEJ
-3hkBeM19ciY6pLKIyzdUqCruJ1HoGTh12rbSOITlPcgHLl2PhyCtAtdp1
-}
-
-!procedure ServiceOperationCenter($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceOperationCenter', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceOperationCenterCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceOperationCenterLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceOperationCenterGroup($id, $name='Service Operation Center', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceOperationCenterLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceSqlDatabaseFleetManager
-
-sprite $ServiceSqlDatabaseFleetManagerXs [10x10/16z] JOYt0S1048EuMCZxp-lyWKO27eAFh2f6AMD7sOQr6uU48JqlB2o_9-bvy3nWlGi
-
-sprite $ServiceSqlDatabaseFleetManagerSm [12x12/16z] JSZ50S104CD0BHqu_TSR9ht6vYnuggp8sncKtNS3sZaYml08trdka-xUTqjkHfSkzr5vUv4q3lCtd3xrUGC
-
-sprite $ServiceSqlDatabaseFleetManagerMd [16x16/16z] NSU50S0m3CH06JuDx3zlcHMmZxFWbU727uUKqcCNy5WbWLBieBcz1bQcAUqO3enMMnlxw6DpxnDcHk-NBLKKVhls3FLuUUjqUrdi7JQk_jPkjXO
-
-sprite $ServiceSqlDatabaseFleetManagerLg [20x20/16z] {
-bSi55aCX34JHcHYs__qsfExj_GAy772XUAAEU-RbFhiJwlPySGykFA8c4SHRL4iAq3P1chG8POFJ8qIPRQsvTUGwvboN1f24pfi6CNCp-arJfIZPxRRbbzQd
-bkjj6pWvDwH_6terHJa
-}
-
-!procedure ServiceSqlDatabaseFleetManager($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceSqlDatabaseFleetManager', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceSqlDatabaseFleetManagerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceSqlDatabaseFleetManagerLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceSqlDatabaseFleetManagerGroup($id, $name='Service Sql Database Fleet Manager', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlDatabaseFleetManagerLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceBreeze
-
-sprite $ServiceBreezeXs [10x10/16z] JSW55e0m30JHmJTs_-FYq4ub_uM-PLdNxS4f4yoNJB9BrpJ3J9P-XgpESUbQn9aWdk2Xmm4
-
-sprite $ServiceBreezeSm [12x12/16z] LOo50S0m20IfuEm_Rn_g5xjWz6TX5f7HdTlLTaJ7rSqGRZVWJhopEIJWZgnNW2I4O0FYsJ6WH2r3ptyLTCBm7W
-
-sprite $ServiceBreezeMd [16x16/16z] RSl70GCX34JHSG2KJF_bUYJ2QV_jAU2fR-liUzXQUUZURgj8CLraP7bJNzkY11FewA8fcxzf2bq8jonGTs4dK6wtXkzQUcK0WZXrCByfAhlRa_2r8Vi3
-
-sprite $ServiceBreezeLg [20x20/16z] {
-TSm5WiKW34NHXyUw_-rEKZ9ylrKEWj_rCRts8iFDMmEPInhHobN75YVsOyJajITB8WvAunkyWkKMmbkyWHZm_HAx8blOG6ocicFiKzJaD172bpnLqPZbBDBO
-3o19_oEtQGaPegNF5RoZ56Jr49ugOwrPiVi3
-}
-
-!procedure ServiceBreeze($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceBreeze', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceBreezeCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceBreezeLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceBreezeGroup($id, $name='Service Breeze', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceBreezeLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceNetworkFoundationHub
-
-sprite $ServiceNetworkFoundationHubXs [10x10/16z] BSQn0G0G0C0mWDR__m8o9IJm2Aa_OEyjniXP8nBp7l7Poq0ZxQL7eMLprg7c4uFVM
-
-sprite $ServiceNetworkFoundationHubSm [12x12/16z] DSc70K0H34LHaNQV_VVzbKFw681UF6t_GFJ3BNYeEzmm-m-HJM0WF6U-McBYG54IENz8u8r2BYs4kvw_qUWnbevr0m
-
-sprite $ServiceNetworkFoundationHubMd [16x16/16z] {
-LSY50G0X34DHgadOVzzp_UZh64rILp66m3UfSNSD2A1jAnwdUT7AS9ZjD181E-tkTXphq-maQMHmdgxDJheETsKt79sRnSpogeeE76Om95IdDBU169dQpsOT
-8QEetQ5VSsX-onK
-}
-
-sprite $ServiceNetworkFoundationHubLg [20x20/16z] {
-PSi53WH024DHd7RkV-0TM_yXza9532loLYBI-8bcwCysubfbv9sGsA8x-x3Gr8QRQrz3AK81A5ot4T0eowhId7Uiz3DWJ4i33BCCmAxvjNfRVVoraTCcV7RD
-4r4alUcu1gzoifsUd3Q8oHvUZ9XqR5U-0hSr_neo_eXYuoVA0m
-}
-
-!procedure ServiceNetworkFoundationHub($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceNetworkFoundationHub', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceNetworkFoundationHubCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceNetworkFoundationHubLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceNetworkFoundationHubGroup($id, $name='Service Network Foundation Hub', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceNetworkFoundationHubLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceAzureLinux
-
-sprite $ServiceAzureLinuxXs [10x10/16z] FSR50S0m34Mn5p9yxpzlkT59t0OVir9-AN5p_zRst1leRW1F-pj4x6LxwGG
-
-sprite $ServiceAzureLinuxSm [12x12/16z] JOk35G0m44DJ7VUVjzP_2Z594Pj8nA9fQY9nioa3axkjc9cxva_RqYCgquZC98-754nw4GKBDkZHwBg43JS
-
-sprite $ServiceAzureLinuxMd [16x16/16z] JSk54S0m241HeaZttxU4m_xfGy1R2rhtTP9RzNqYuKSrEGUYURaF8ZvVD_fUocXUGRiKFo1QVcU3GGYUVH1jWn-eNNggdisWPjvbPFLemGy
-
-sprite $ServiceAzureLinuxLg [20x20/16z] {
-PSu74eGW44JH0KewSF_phfcm_ifFWOvUAV5NlVfIiwrEso5efws_jTFGAG6LbvLk6m1TjdL3D_QZmznVm9azRpabnL4-i5wKY3v1ThwEacFLSoLPeyThOoPB
-ZAuz96CnVQpQaQKyMp42KbfoX5HMox43
-}
-
-!procedure ServiceAzureLinux($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureLinux', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceAzureLinuxCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureLinuxLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceAzureLinuxGroup($id, $name='Service Azure Linux', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureLinuxLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceNetworkSecurityHub
-
-sprite $ServiceNetworkSecurityHubXs [10x10/16z] FOQ70GD13CAuYl3--oRVPGFIoTODc7KjsCk8Y-rSrkt34XX0L4dcPuaPkfNI0PLgqXy
-
-sprite $ServiceNetworkSecurityHubSm [12x12/16z] DSU70SCm24HHLA_iFt2Es7ugVEhlrWS2LuTqIG3vInmC3AJNN95VPSPaf2LoVHtxxRDFv9-LHUsumch9HiipymS
-
-sprite $ServiceNetworkSecurityHubMd [16x16/16z] JOc70S0m2CESYV7_1nVeYZ8byB1nGgVFLwOxpOoq7XRIo0oxnmjdUfLcHgXUgtbvFmbt9fr5kcSPloUl6xJc3m68CteopSEfvGMN6ZBuWpgA8QK97vIUuGK
-
-sprite $ServiceNetworkSecurityHubLg [20x20/16z] {
-NSY50G0n24FHL0dPVzyJwEchyd4f4tzqil-BcP43OVg1f1qO2loykU8ePgohXNzBysX-jFfpDgPPQU5ixjaQKxIizck7LokOocZzQa1H_vX7W-J35nlqXeYl
-viIfYBxGXKLQJOOReqe5RrDIHTe1
-}
-
-!procedure ServiceNetworkSecurityHub($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceNetworkSecurityHub', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceNetworkSecurityHubCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceNetworkSecurityHubLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceNetworkSecurityHubGroup($id, $name='Service Network Security Hub', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceNetworkSecurityHubLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceHybridConnectivityHub
-
-sprite $ServiceHybridConnectivityHubXs [10x10/16z] FSQ14G0n14JH0EY_uMDtvdw2z-fwMtV_aXOAKRglPpMzdMPiJ4HMMybsKhOIGny
-
-sprite $ServiceHybridConnectivityHubSm [12x12/16z] HSO15W0X101H0Dp_m5lXxHG--0jk4N7DRLJ6jP-_PZSEbzyHT9nnQcUo2GiY7B_mzAnCtJ7G55N0qmS
-
-sprite $ServiceHybridConnectivityHubMd [16x16/16z] JSe55W0X24LH6hxxt-y4JFZCwv7oYQQikyirlc2PjZdOa_LtnJqtUy_NIF4KAm3SdlztqaPDOo0rIgtugWs_PhCz2NTZLtbZB83ahwrRQotw7-G4
-
-sprite $ServiceHybridConnectivityHubLg [20x20/16z] {
-TSW73iGm20H0YWEx-Vz_qz5XIpVg8oEBb46WrE6-VFHp3PX6iftf1bqE0MHWkjBFBM2M89dp1IwqzuZIZkjnv_20UyBKnk-Ir-dZkvVhgrtgSfjRyvxOvF-f
-Tx9VHApN2G
-}
-
-!procedure ServiceHybridConnectivityHub($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceHybridConnectivityHub', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceHybridConnectivityHubCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceHybridConnectivityHubLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceHybridConnectivityHubGroup($id, $name='Service Hybrid Connectivity Hub', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceHybridConnectivityHubLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceAzureManagedRedis
-
-sprite $ServiceAzureManagedRedisXs [10x10/16z] JOQ50S0m382enF-_Tow522nqEUndyABa2UCmuLgZhX864cTnL5NbMOqVmJZO0G
-
-sprite $ServiceAzureManagedRedisSm [12x12/16z] NOlL0S10348vY-w_RsDVVISH03y8BqxG_zHbXLw0e-Tzet-nTprWwRqx09qzD7hhlRb7kFPMIBHWefSG4ewJtGS
-
-sprite $ServiceAzureManagedRedisMd [16x16/16z] {
-ROy54WGX30GdXlx_lvT9jYYxNcqWXdy4Rv7F1WdYfNYebf-F3KkTvNlJ6K5dAgbz-ZtgE6YVwJS0-CxpKViJhZl3kA_fFYymqrtAYzEEzUglpcz2UWvYFZtl
-27yJiOgK_G
-}
-
-sprite $ServiceAzureManagedRedisLg [20x20/16z] {
-TT055eKW54NH-vgO_tXL-kUnzy82VrC1hAyh5jDdOtxMIQuzwQdqKORJl5yKPPUxcN-OCCIwAG0UHltUMXW4WyvxeO_Lb45bMqIpWbPkPWg8FKOWpubAWGF3
-3BdVCosYZOjQtN9fvklUtaFdth9BmoZmMZTOYfMx4sQcGFJr9FGwppS
-}
-
-!procedure ServiceAzureManagedRedis($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureManagedRedis', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceAzureManagedRedisCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureManagedRedisLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceAzureManagedRedisGroup($id, $name='Service Azure Managed Redis', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureManagedRedisLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceAiAtEdge
-
-sprite $ServiceAiAtEdgeXs [10x10/16z] BSP50G0m302nMxd-1O_p2hfnU1vlZB-Ig6ASRTZcXPHl6hrvHBoPPzYP1y8L70i
-
-sprite $ServiceAiAtEdgeSm [12x12/16z] FSW14W0H30J10SZ_FtpPt9Q6J8KXb7aAiWvvtBUukMJFERndohzVCdV8sidDSYi5zEsDlVm
-
-sprite $ServiceAiAtEdgeMd [16x16/16z] POe50a0X24C7Z1dtl-_lr6V00XO7kF1oSUcSDGhuwdhnQbJJhYFiqApRvy4WkUkiUyoJemyfcJjKE-2WArCRZvRdRj3ro9r0zetYakF5_X9Ku685
-
-sprite $ServiceAiAtEdgeLg [20x20/16z] {
-NSi73WGn349HOcFYlV-1fwNl5sfF0l2MOLRgIDEYpdQJlpkjuDrkETjDbl9cnRevqf1PuNpRls3l-vOCUnQC9z8Vu_Sj3tqvuzUR5jIoq9Slqq3wDBpNMaL2
-Yrh4C8GKW1bMb8I_5gqEkW4
-}
-
-!procedure ServiceAiAtEdge($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAiAtEdge', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceAiAtEdgeCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAiAtEdgeLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceAiAtEdgeGroup($id, $name='Service Ai At Edge', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAiAtEdgeLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServiceVpnClientWindows
-
-sprite $ServiceVpnClientWindowsXs [10x10/16z] HOY50G0X30Fl5KBsdnUNDawzL_GBgkSNgWMIxPQ4H_gaaVvNZlzlObre4vnKZH6OIm4
-
-sprite $ServiceVpnClientWindowsSm [12x12/16z] POpL0G0X34EB4xB_laVb_7srCL4QYZW3cwKV5059nCtV7ObCJa7lUgS-gXG0j8mDhUjEO1FegG-vx3HqRtC
-
-sprite $ServiceVpnClientWindowsMd [16x16/16z] NSvLWWL124FHG2cT_Uzti7bslt9Q2zMnXNUMtToxCEqXQS1D0fFHlmtFZ_dXcRRqEI9Gtr1LzxIzPT6zzcRz_1Zh-RRH7IstVBXFIDPv1DdsMUoq7lw8F3N-
-
-sprite $ServiceVpnClientWindowsLg [20x20/16z] {
-RSq5aWKm28FXr2WXzx_lLjZdtnZpLq3gJiERmSCBKfbC8NKibPV1gUFH9e1uQoTItqtlpN-qCKXA9LiXDekLph0QQ6RzB72iaQSjnc2NffQvcdEJux4YByQZ
-vVUhwT5maQ40YfQ1H6d5J4Ykg-15ox_UKHtf3m
-}
-
-!procedure ServiceVpnClientWindows($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceVpnClientWindows', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceVpnClientWindowsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceVpnClientWindowsLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServiceVpnClientWindowsGroup($id, $name='Service Vpn Client Windows', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceVpnClientWindowsLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/NewIcons/ServicePlanetaryComputerPro
-
-sprite $ServicePlanetaryComputerProXs [10x10/16z] FSgv0KCX500Wr7Vklt2gV6hyNQWgyBBLpQ51qzcPLT46AhMEgeY9xoLJkVQEwzbT_
-
-sprite $ServicePlanetaryComputerProSm [12x12/16z] NSQtWG0W400Wr8lx3_ovUYhybrNQ_LjbMV8-v2dqw_UEE9ohgUSymUKLvLoASOAJeMfgkEy5-ZHfUcqFNeRTXKy
-
-sprite $ServicePlanetaryComputerProMd [16x16/16z] {
-LOS55W9G2C16W_S_iFwmHkoDFvIBg42N3el8V6q2kolIaFJ4RQLIIuWkUw89c4ifqBMHYBHQ3Kk6msq4oFnqk02tnoE3FW2K840aMK2BCTlImC1aEp8s0XB0
-pDHCitXq1rWOcoS
-}
-
-sprite $ServicePlanetaryComputerProLg [20x20/16z] {
-NSh50GCW30302n1X_u7hhnuIzI-MFpdT0pZrbXOkY7gHLRKv1RjpD-giIWFHIoLs2ntGJOEcDqJ_b50xDxepto-ZglQfnYJPK8hLc8C5LKdyzjGfYFFRwpbA
-nJcdvvmQHExAEdj-4h89CEH0vTgci4VCHewwUIvkhJjmiU-zxz6z2QlPp7qRu5rLGF3p1
-}
-
-!procedure ServicePlanetaryComputerPro($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServicePlanetaryComputerPro', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServicePlanetaryComputerProCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServicePlanetaryComputerProLg>', 'NewIcons', $funcName, $content)
-!endprocedure
-
-!procedure ServicePlanetaryComputerProGroup($id, $name='Service Planetary Computer Pro', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServicePlanetaryComputerProLg>', $name, $tech)
+!procedure ServiceAiGatewayGroup($id, $name='Service Ai Gateway', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAiGatewayLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Other/ServiceAzureVirtualDesktop
 
@@ -12416,33 +12524,6 @@ kLbmd2UJtHO
 
 !procedure ServiceLogAnalyticsQueryPackGroup($id, $name='Service Log Analytics Query Pack', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceLogAnalyticsQueryPackLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/Other/ServiceArcKubernetes
-
-sprite $ServiceArcKubernetesXs [10x10/16z] JOc50G1H24BveS2v_xpNzKm008y-cBJeunibBZgoSjgKaU_tGtJH4ttUtupvW7pO
-
-sprite $ServiceArcKubernetesSm [12x12/16z] NOk55S102CN2FRpxprltuF81AT31JdPbPltx0M9xeJEzgpeoFlsAi7DgfzYrgcUlQghgkw_zddNlKBzW0G
-
-sprite $ServiceArcKubernetesMd [16x16/16z] {
-TKu5WWH029emOFp_Vmzlkx3R8KmkAOmR012dm1_nEGXKmVwZsMPvgoLbF235cGb-YNkwI6vs_0KJ1AjkzypliPckcVCQmnIOaEr8jN5xHemG_59fTumTT-Zf
-Fm
-}
-
-sprite $ServiceArcKubernetesLg [20x20/16z] {
-ZP254SGm30GDfnDD-c_tvJnprhncjKLNNOsYtO2fkvjhLH-S_t9pozgaMzot3gcgNseiqzNIdDJQBAhcNex7N8j8muXmxJF2jBTlC6e78zrCBchQ_kPqDNUC
-CWDuSi0e1Sjocb5EKGWMt1jTzNA2LpZ99oia6_ZAEIwy8RF42G
-}
-
-!procedure ServiceArcKubernetes($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/Other/ServiceArcKubernetes', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceArcKubernetesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceArcKubernetesLg>', 'Other', $funcName, $content)
-!endprocedure
-
-!procedure ServiceArcKubernetesGroup($id, $name='Service Arc Kubernetes', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceArcKubernetesLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Other/ServiceAzureVMwareSolution
 
@@ -14364,6 +14445,33 @@ sprite $ServiceAzureDeploymentEnvironmentsLg [20x20/16z] TP050e0m24LfyVu7rdNlMT_
 !procedure ServiceAzureDeploymentEnvironmentsGroup($id, $name='Service Azure Deployment Environments', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDeploymentEnvironmentsLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/Other/ServiceMicrosoftDiscovery
+
+sprite $ServiceMicrosoftDiscoveryXs [10x10/16z] LS590GD1400XTgvg_uhp3lYJWLkyzuLw1wxkUuclCrECJYMqmwSR3CZ63m
+
+sprite $ServiceMicrosoftDiscoverySm [12x12/16z] NSUt0GCm0CCmk4d-_-7qAPX8_pgkduEH4awoC8rFTn9b9MbyTkrxgrnPk-roO2SjWMGvPuQz9iCPFd8cF04
+
+sprite $ServiceMicrosoftDiscoveryMd [16x16/16z] {
+RSV5OGK034En5x2T_HSkSxzkuh7u_AE6hu-q3KmaDm6yiG0m1Ymxy_u0aUmOQa2mO_lY2j3pyhsxa89B--LvOGmdoAuT0yi0cIGb82oWoT0bgnaxkq38yS6m
+nG_AHvy1
+}
+
+sprite $ServiceMicrosoftDiscoveryLg [20x20/16z] {
+VOw5WGGn3CGKqxZ_YZ_pJ7TQZ8myOpJY9uBTypCBY8AJzhGkTYxF4qewxQjdvdpKo1yXZUh3kSgcvpspWcYxQYivrOKEAlFANSSmEYYhzo9aDtkcx6JcLBrj
+tv_EPQxqTxhdKa04ZHtf92jECVvwR3hK6u9IjtDCirjyK0d8bNoXnDK_YQ-Y5m
+}
+
+!procedure ServiceMicrosoftDiscovery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Other/ServiceMicrosoftDiscovery', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceMicrosoftDiscoveryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMicrosoftDiscoveryLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMicrosoftDiscoveryGroup($id, $name='Service Microsoft Discovery', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMicrosoftDiscoveryLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/Other/ServiceAzureDevTunnels
 
 sprite $ServiceAzureDevTunnelsXs [10x10/16z] FSV70S0m3CD0fiUazb_NJULU0ARNBYoFBQlCxTWhIFyiQTLNzKQHx_IJuBDzn1s-0G
@@ -14384,6 +14492,30 @@ sprite $ServiceAzureDevTunnelsLg [20x20/16z] fSv50e0W441HEkV-vvL9OkktdmeugKpeqHt
 
 !procedure ServiceAzureDevTunnelsGroup($id, $name='Service Azure Dev Tunnels', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDevTunnelsLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Other/ServicePromethus
+
+sprite $ServicePromethusXs [10x10/16z] HKg30G0m39kN_n-kZMX87UoX1QlZGEzID8qVe2FNqLRDu6XqWF-_yOLZ1WC
+
+sprite $ServicePromethusSm [12x12/16z] NKj70W0H4CEq_F_3qq-oYzHJ4F0PO31KaGdGBd4_TZQbV2lyLvml5zsWHmKqbxMfHqsj78DUApS
+
+sprite $ServicePromethusMd [16x16/16z] HOy50W0W20FDmVy_R6t8cJIKHpEVvMDEEiNtnRqjH5GwGSv7tHi_4LZVpwbzC4NAquEiuvDLlkQU9X6IqSZhg9-OT5VtzJ1Z0l0rFd8qrTa
+
+sprite $ServicePromethusLg [20x20/16z] {
+NOy50i0m20EhmFzVF4P2BLljy48DDUdbK3DA5efd1Hr06WztxlyvbrSpl_2QkOgp2MObp-hMqf4Ih6SrGBgVJ1-sDIycKRq2LT0ezKmP1fKKXjOZ7KAHuMP-
+e4Dr7NrDUZ9o5nixa1fi5auV
+}
+
+!procedure ServicePromethus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Other/ServicePromethus', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePromethusCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePromethusLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServicePromethusGroup($id, $name='Service Promethus', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePromethusLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Other/ServiceAzureSustainability
 
@@ -14454,32 +14586,32 @@ VVDpKLk2oqv52T5OS9MSiggJFJQsyo6d3nq
 !procedure ServiceOsConfigGroup($id, $name='Service Os Config', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceOsConfigLg>', $name, $tech)
 !endprocedure
-' definition of the Item azure/Item/Other/ServiceVirtualEnclaves
+' definition of the Item azure/Item/Other/ServiceAzureEnclaves
 
-sprite $ServiceVirtualEnclavesXs [10x10/16z] 9SQ70SCm30F14mMbaFlFcsAZFWZ0ZWt3CoauxtPGUcgwI4uY_-h9j8NLpOPatK02Nm
+sprite $ServiceAzureEnclavesXs [10x10/16z] 9SQ70SCm30F14mMbaFlFcsAZFWZ0ZWt3CoauxtPGUcgwI4uY_-h9j8NLpOPatK02Nm
 
-sprite $ServiceVirtualEnclavesSm [12x12/16z] FOt70SDG34AV1B_X_UTDZ-at-C3SiFLR0SdwpHsP0J2pBkMzMqdxP1fiZRTbKvLOLtO3fNFYmm6MF09T07ARK_Tl0pm1
+sprite $ServiceAzureEnclavesSm [12x12/16z] FOt70SDG34AV1B_X_UTDZ-at-C3SiFLR0SdwpHsP0J2pBkMzMqdxP1fiZRTbKvLOLtO3fNFYmm6MF09T07ARK_Tl0pm1
 
-sprite $ServiceVirtualEnclavesMd [16x16/16z] {
+sprite $ServiceAzureEnclavesMd [16x16/16z] {
 LOu7WeGm3CI4BI0P_l_Vy_LTfReFtxIyeQ-EdDf_dcFFgMDSV34coLB246gPSQp90YHvl3gvEU7GDRRzH0Mrpt4EhGNsvBVrv5HWipEUyKg06pp6KuKmf7Nd
 XBh_n5U3Yn-wrF32d_WF
 }
 
-sprite $ServiceVirtualEnclavesLg [20x20/16z] {
+sprite $ServiceAzureEnclavesLg [20x20/16z] {
 NOm73WGX3CHCCcn9_l_V6z1rqoqBU98Q_34a_QahbylycFCUI4iFdlG4ZZDa7yzggQWgXpIR6-QyxNpibxV1LQLkxvLSc0Zyw8Zegiil8-cmyk4mVS3QSquP
 fhQ37RJtxAfrBCV-BxN_8mOmnL4LPL45nQ9XZ3AOF5d4dL8u0w9v8iC0ygrmDwICEddoIVznnvC7
 }
 
-!procedure ServiceVirtualEnclaves($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/Other/ServiceVirtualEnclaves', $name, $tech, $desc)
+!procedure ServiceAzureEnclaves($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Other/ServiceAzureEnclaves', $name, $tech, $desc)
 !endprocedure
 
-!procedure ServiceVirtualEnclavesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceVirtualEnclavesLg>', 'Other', $funcName, $content)
+!procedure ServiceAzureEnclavesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureEnclavesLg>', 'Other', $funcName, $content)
 !endprocedure
 
-!procedure ServiceVirtualEnclavesGroup($id, $name='Service Virtual Enclaves', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceVirtualEnclavesLg>', $name, $tech)
+!procedure ServiceAzureEnclavesGroup($id, $name='Service Azure Enclaves', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureEnclavesLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Other/ServiceAksIstio
 
@@ -15072,6 +15204,33 @@ c2zDskCSHEgffSGXfC-k9SFWQBW3uGt04a0QMfKheDVWek3G7BnenvRuOZdSkFm1
 !procedure ServiceHdiAksClusterGroup($id, $name='Service Hdi Aks Cluster', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceHdiAksClusterLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/Other/ServiceAzureConsumptionCommitment
+
+sprite $ServiceAzureConsumptionCommitmentXs [10x10/16z] FSkt0S1030GWFakt_y3kJ0_K0pk6Tv6dZ0aKeYRDYWL5wC6vzpAUQO_taEIUK__k3m
+
+sprite $ServiceAzureConsumptionCommitmentSm [12x12/16z] HSc50G9130J0EOlGVxyuV6GLPYSmRnjLlbZCH5s_VVMOog2Pml8jvYTZv3c7roz617PFQwpC0TQh_cfarNm
+
+sprite $ServiceAzureConsumptionCommitmentMd [16x16/16z] {
+JOw50GGX30GNulJVxqda_nQTE5uj3iE8NMajZMZEZpxsawYknKGPqTRtyWri__CEm3YnYfrX_p4vKjxnNGyBBTUTKx6oghxp259APbR567YWETiTNqhKnQUG
+MdmuN4Je1W
+}
+
+sprite $ServiceAzureConsumptionCommitmentLg [20x20/16z] {
+LO-50S1020Dnst_W0lLKSu_2AOvq-0XPXSMY4cyaLVq_riikbgNz3fuAnLSO-CKGgPPbcvlr9yOKt6p4OorUTeU44_M7CZSCPWQ_Hisa9uxpdZmsljuUOtbE
+DZeIS7VIijK6AjvR2byGooTpcAAtO62cDc9NrPlDpgCq7HhmbKih_coTv8zPsaWF
+}
+
+!procedure ServiceAzureConsumptionCommitment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Other/ServiceAzureConsumptionCommitment', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureConsumptionCommitmentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureConsumptionCommitmentLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureConsumptionCommitmentGroup($id, $name='Service Azure Consumption Commitment', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureConsumptionCommitmentLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/Other/ServiceMonitorHealthModels
 
 sprite $ServiceMonitorHealthModelsXs [10x10/16z] BOe50G0m3CFoOVqRFWzBa0OHGFqYpZs7xewc0Jh83IyMyim3PDBENQZ1Anbm5lBK0W
@@ -15122,6 +15281,30 @@ kYz4QYs8O101n5ie8i80jDi6
 
 !procedure ServiceWacInstallerGroup($id, $name='Service Wac Installer', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceWacInstallerLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Other/ServiceBreeze
+
+sprite $ServiceBreezeXs [10x10/16z] JSW55e0m30JHmJTs_-FYq4ub_uM-PLdNxS4f4yoNJB9BrpJ3J9P-XgpESUbQn9aWdk2Xmm4
+
+sprite $ServiceBreezeSm [12x12/16z] LOo50S0m20IfuEm_Rn_g5xjWz6TX5f7HdTlLTaJ7rSqGRZVWJhopEIJWZgnNW2I4O0FYsJ6WH2r3ptyLTCBm7W
+
+sprite $ServiceBreezeMd [16x16/16z] RSl70GCX34JHSG2KJF_bUYJ2QV_jAU2fR-liUzXQUUZURgj8CLraP7bJNzkY11FewA8fcxzf2bq8jonGTs4dK6wtXkzQUcK0WZXrCByfAhlRa_2r8Vi3
+
+sprite $ServiceBreezeLg [20x20/16z] {
+TSm5WiKW34NHXyUw_-rEKZ9ylrKEWj_rCRts8iFDMmEPInhHobN75YVsOyJajITB8WvAunkyWkKMmbkyWHZm_HAx8blOG6ocicFiKzJaD172bpnLqPZbBDBO
+3o19_oEtQGaPegNF5RoZ56Jr49ugOwrPiVi3
+}
+
+!procedure ServiceBreeze($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Other/ServiceBreeze', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceBreezeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceBreezeLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceBreezeGroup($id, $name='Service Breeze', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBreezeLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Other/ServiceAzureA
 
@@ -15391,9 +15574,9 @@ LOy70WGX20D1aeZ___0Hhy_sMMeyII3-KHsZhnbHFATP5I_MH7IDA50lXnugbxhdRnY2rCGiRSkqEvXR
 
 sprite $ServiceDetonationXs [10x10/16z] LSOr0G0m40ImAppwzrl6JC67chn35FguepO15D97resfk_T4JKGpM4ug
 
-sprite $ServiceDetonationSm [12x12/16z] NSY50S0W3031kEs_RnL_x0YSwTja-x3zyJjsTN-ElWxa88pV-VOPjDu-MgY5DH80ms1huGq
+sprite $ServiceDetonationSm [12x12/16z] NSY50G0X30J1Yql__RuBiDWGhDdPmFiZVYVdE2pYE7OwIL8eRzVPPLYVNVGqJt_8WE3Zqy0T
 
-sprite $ServiceDetonationMd [16x16/16z] RSV50KCn50Em5p2a--zRSEcJRgfhUEd_VXoAcGxm0pb81JbojHfIBnAvFMM3viovFb21TGj-JdXRcuXlLLMzrRznQcZV1m
+sprite $ServiceDetonationMd [16x16/16z] RSV50KCn50Em5p2a--zRSEcJRgfhUEdRng6OwG0_a3-h84UkLaFgHIAtfspId3dN1ogmRi7F2Mzh4_6jgggtsZIE3Utx
 
 sprite $ServiceDetonationLg [20x20/16z] {
 VOy50WCn20HZxExr_mzkb5AxYKyCqXtLEYsQOfiMrPUqG3vlmJ4xn_3YE5Xkx5Yft9UDxBrKKw8xI527lVfxbtFUoqPt7g2P7fFBxAGX6DGDWvAgJQAQOyaf
@@ -15813,6 +15996,54 @@ sprite $ServiceAzureHcpCacheLg [20x20/16z] VSrL0aGX241HG2Nsl-0fyasTpwi0_754X76M9
 !procedure ServiceAzureHcpCacheGroup($id, $name='Service Azure Hcp Cache', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureHcpCacheLg>', $name, $tech)
 !endprocedure
+' definition of the Item azure/Item/Storage/ServiceDataVirtualization
+
+sprite $ServiceDataVirtualizationXs [10x10/16z] HSor0G0n400WedVPV-1twQYW0KG4q3BJAAsore0EmhWK7gYc08DXpacBwRzavWu
+
+sprite $ServiceDataVirtualizationSm [12x12/16z] DSm70GCW40ImCFuF_0lkRWI4pLzt0-maawg5Smx569WAqmQYcD0K6q8B40kr6ZKeAmbMB_Av0VVU9m
+
+sprite $ServiceDataVirtualizationMd [16x16/16z] JSt50SGm300mrPHc_u6FeNgPJQIhUU0driF00UfyM6Hd5JppL8tZNTZPWeF2ov3rooj4zkzp3_LCoykYnYcyH8l1u6KWGiyCh8DePZt0h6ci9txE9nTxxxW3
+
+sprite $ServiceDataVirtualizationLg [20x20/16z] {
+NT150aCX303HYPVx7xYIz1kpV3Y06LkUtpQhZdj-cKLucxqw848mLu2c-X60E01hhGebw5pu9wc0ExXof6MpsW_9H8Vii4eOyeEyXb8vY5A812tbg804q114
+sZ9WLciU7o8bWCVn8OrMDSDs_oGn0P3ZG-ur9HkkLNm
+}
+
+!procedure ServiceDataVirtualization($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Storage/ServiceDataVirtualization', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDataVirtualizationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataVirtualizationLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDataVirtualizationGroup($id, $name='Service Data Virtualization', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataVirtualizationLg>', $name, $tech)
+!endprocedure
+' definition of the Item azure/Item/Storage/ServiceStorageHubs
+
+sprite $ServiceStorageHubsXs [10x10/16z] Os3YX0069aOeOE5av800HbmiTcOs20kibGaYoyA6eew11MeU9m
+
+sprite $ServiceStorageHubsSm [12x12/16z] JSg50G0n30B0EB3_mE_IgqJDzA0P_IKvUCkKCulPu8HytlwHyr5dxltjj6wnxFIPznpttA7dtBnC6RVI3W
+
+sprite $ServiceStorageHubsMd [16x16/16z] VSl70SGW34HHPStqN_2kSxOV5q3w8iMTYx1ius2LxczLqWox-UtGzgoUttgPQt3rqYlygq-kRDxlyVJU9m93Fh_zqBVIeKSKdiGV
+
+sprite $ServiceStorageHubsLg [20x20/16z] {
+VOrL0aG1209juVu7tWwV6_Efm8WO3xI8DBice1br4PUiseobAbbQcFZjrd1efqVsuxPpThiP-2RrSPlySoZywgZ_3fqEk-_55qSZuEZ8wk78oxMonYstew7g
+Wwj367g44EC2SWO
+}
+
+!procedure ServiceStorageHubs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Storage/ServiceStorageHubs', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceStorageHubsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageHubsLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStorageHubsGroup($id, $name='Service Storage Hubs', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageHubsLg>', $name, $tech)
+!endprocedure
 ' definition of the Item azure/Item/Storage/ServiceStorageActions
 
 sprite $ServiceStorageActionsXs [10x10/16z] JOc70SCm3CDWMrl_tzjc9z0a2LD41Y0NYwmJPLuVP1nXwYTrYUs6c6LT6DSruw03_W
@@ -16010,27 +16241,6 @@ sprite $ServiceDataBoxLg [20x20/16z] TSg5aSL03C1GhV7M_VTxdnnEth16F9FuK7Oysk5gjYR
 
 !procedure ServiceDataBoxGroup($id, $name='Service Data Box', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ServiceDataBoxLg>', $name, $tech)
-!endprocedure
-' definition of the Item azure/Item/Storage/ServiceAzureStackEdge
-
-sprite $ServiceAzureStackEdgeXs [10x10/16z] TSQ35G0m40Mmmo_sNxWsyXJwi4c9otfAeV25gagj2BKH4cQcHGG
-
-sprite $ServiceAzureStackEdgeSm [12x12/16z] VSR50SCm542nPt_UV-0sp8bEuekvorAFWMqTC8WLw21dNK5ZlaX3bgEY6ZLgCBnnymS
-
-sprite $ServiceAzureStackEdgeMd [16x16/16z] dScr0SKm5CLGsK-c_GV-66u2fxh08zQFijRsCm-vJVXARP41ggKjG4DRdoM1SEa69jQU3py6wlZhW5zSzGO
-
-sprite $ServiceAzureStackEdgeLg [20x20/16z] hSj50WH124FH0B_i_WSUwzBTs5iXYVw1d9Df5_cYnKkND9L95oiRzj3Hpa0k6oaW8DMb23UPKRPZ40evR3T2mdJS79VEN1A40DgG976nYxfh-TmT
-
-!procedure ServiceAzureStackEdge($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'azure/Item/Storage/ServiceAzureStackEdge', $name, $tech, $desc)
-!endprocedure
-
-!procedure ServiceAzureStackEdgeCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureStackEdgeLg>', 'Storage', $funcName, $content)
-!endprocedure
-
-!procedure ServiceAzureStackEdgeGroup($id, $name='Service Azure Stack Edge', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureStackEdgeLg>', $name, $tech)
 !endprocedure
 ' definition of the Item azure/Item/Storage/ServiceAzureNetAppFiles
 

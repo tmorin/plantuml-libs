@@ -1,0 +1,27 @@
+' definition of the Item azure/Item/AiMachineLearning/ServiceFoundryControlPlane
+
+sprite $ServiceFoundryControlPlaneXs [10x10/16z] 3SU70O1020F0imQUttzUJGzSvmcEsH8SlL1DgYivrfmnFB5FNeHhvD5_MdqafK8N_uV47Zu
+
+sprite $ServiceFoundryControlPlaneSm [12x12/16z] 9Sl50GGn4CJ0MlAGyq_ti44_WVCy_TEpHToGrSXyY2nGlKJe-d7EO13iqpytzxK9pd64QH5NzX7XgOAZ4ay6P_TVYtZsu0q
+
+sprite $ServiceFoundryControlPlaneMd [16x16/16z] {
+DOu50iGW40E3Pkt-_zqZRHbaNV0mUkyDbvrLa-HdheW46caGqpqacvdBV8KSJq1fuJR8tIEpgqqUlvIUrTMrb2wj__fM3mYrOQ-k_wYMm3vsTf3dHMAHo8Y-
+IPgFRMeUxWs2RfHqCpaiN0jB8niym_51qgj2wXy
+}
+
+sprite $ServiceFoundryControlPlaneLg [20x20/16z] {
+FOy75WGX24FjrBt_TJV4vsHQ_09nsjMO0w9z939_0fqFTO_8rbRHLsNkZY-WgjugDGCYX3KYrVfIswnQH51lfYfGt-wXdNF3hJEZ7SIDGc3iB2y9LgliDwCM
+ueFXxwp2rqZkBIBtyZ8pJdqtLkPHLbg47nXKYhcL4zIxxGx77yCZ4ntGRXJFpj7w37hCu0XL61pXJbGIPcH6xFPfLmJOhVe3
+}
+
+!procedure ServiceFoundryControlPlane($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceFoundryControlPlane', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFoundryControlPlaneCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFoundryControlPlaneLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFoundryControlPlaneGroup($id, $name='Service Foundry Control Plane', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFoundryControlPlaneLg>', $name, $tech)
+!endprocedure

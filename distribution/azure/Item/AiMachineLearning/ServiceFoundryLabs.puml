@@ -1,0 +1,27 @@
+' definition of the Item azure/Item/AiMachineLearning/ServiceFoundryLabs
+
+sprite $ServiceFoundryLabsXs [10x10/16z] HST50GC04C2m30_zsnr3Nmt_3h5pXKnerCig5Hb4GBxMKCMcNJ3jC0SEBX1PS0S
+
+sprite $ServiceFoundryLabsSm [12x12/16z] LOa50aGX20N79Ez_tOsVEWgyOATPXd4WqdjlvP3AWNKObwwgL2Wg4rIEMbKExNzZ3N8ImO5c9xCT-iY6gAfp8Ih7_G8
+
+sprite $ServiceFoundryLabsMd [16x16/16z] {
+JKw50S0m3Af3Al-_kyYCQWn8WPB-67kl-KMO_vZadN_Ykv05zlZjW9T4JmUwj-eD_m2Uhi4az592LXQR4V5H5Lqhgpt27EwZyLuFlzfohpN2ifPPQYAjbDf6
+oeyFa6Ab1vryQXS
+}
+
+sprite $ServiceFoundryLabsLg [20x20/16z] {
+NSy74iGm24DHaMA4uVxdNOKPjhtqdsPZdFZdLHduOkwbbkkJt3qpzzuN1cNEzwTXtC434h60mI2xGQxhEW4OILEx-zpT8Kv_6eISsFiM5E-pPtz3F5GlIAbv
+4XBIgGX49ZwkgbBh_SYi3PZQEOcP2R6TPLtCm1jeovtaznpbV68OVYr-FVG2
+}
+
+!procedure ServiceFoundryLabs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceFoundryLabs', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFoundryLabsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFoundryLabsLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFoundryLabsGroup($id, $name='Service Foundry Labs', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFoundryLabsLg>', $name, $tech)
+!endprocedure

@@ -13,7 +13,7 @@ import {
   unifyItems,
 } from "../../../generator/workdir/discovery"
 
-const ICONS_VERSION = "23"
+const ICONS_VERSION = "24"
 const ICONS_URL = `https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V${ICONS_VERSION}.zip`
 
 export class AzureFactory implements PackageFactory {

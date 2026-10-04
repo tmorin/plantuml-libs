@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/NewIcons/ServiceDisconnectedOperations
+
+sprite $ServiceDisconnectedOperationsXs [10x10/16z] LSOr0S0000InUoZuDrp6JE771hGlGLU2VQKJCksMQGAsp9izsL68ZstXiW8
+
+sprite $ServiceDisconnectedOperationsSm [12x12/16z] NSQ50KCn2431mohx3rpz_XBWN8luRUGFFrAVVapnPKjKT-lxNQO_F-73UNmZcUStnMyuqfbl
+
+sprite $ServiceDisconnectedOperationsMd [16x16/16z] VSi54WDH20JHPlYH-vyu35ctBkDHm7E1KtXQE2ac2cN5GamnK3CcVgQtKPaLASmikY1iyVfsmeiqEuJ0n-vDYsGgcc9NFl87
+
+sprite $ServiceDisconnectedOperationsLg [20x20/16z] {
+bSk73KC120FHm_vj_uaZ2AJNfmOdcV-4fEXp4YdYFjckOv889w5hmWM4PgXEomuHFPoqPmHOIgOa9BYcmZHOzuOGbPQZxHY3OJq6v1Jmw3yJxNeRkOapySJy
+uWG
+}
+
+!procedure ServiceDisconnectedOperations($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceDisconnectedOperations', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDisconnectedOperationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDisconnectedOperationsLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDisconnectedOperationsGroup($id, $name='Service Disconnected Operations', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDisconnectedOperationsLg>', $name, $tech)
+!endprocedure

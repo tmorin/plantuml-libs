@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/NewIcons/ServiceAzureDataTransfer
+
+sprite $ServiceAzureDataTransferXs [10x10/16z] LSQ52S0040F0mCUw_y9rE-pmurn9sZlYp34CEM0IMLkr3HiEkfd1PjdWRmK
+
+sprite $ServiceAzureDataTransferSm [12x12/16z] PSV70O003CD0fnko_xpqZbudV0k_c5NSvOlefgjBYk5k0bXL6RRnMifSRR4GWCeoohMnsrmmhE5evRyP
+
+sprite $ServiceAzureDataTransferMd [16x16/16z] ZOdN0SKW4CDypIRPVzzquEULY2eTtf2KEDKajHPTUMb6-ADsQ6KFxWfdNG48weHPUGRBIqsiEzIf2O1v-Jr75HUU0Us4nrbfRi1o0nHk7frm9Rwo0m
+
+sprite $ServiceAzureDataTransferLg [20x20/16z] {
+bSe54W8m44FHTBtq_lTbfy6TF_uI_9T5fjvJH7PsIv9TLTr8aDnKvMIK9clKJUumH8PRTp9O_npGqv70t4yuJXQUSS6JGKGSW-Wdsnt0O-qyQgwrfZO2TQxt
+1HQJ9G31gPFXhk3heSJNZW
+}
+
+!procedure ServiceAzureDataTransfer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureDataTransfer', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureDataTransferCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDataTransferLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDataTransferGroup($id, $name='Service Azure Data Transfer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDataTransferLg>', $name, $tech)
+!endprocedure
