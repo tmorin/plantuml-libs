@@ -34,7 +34,21 @@ git checkout -b feat/upgrade-gcp-icons
 
 ### 2. Check if new icons are available
 
-GCP uses a fixed URL: `https://cloud.google.com/icons/files/google-cloud-icons.zip`
+GCP uses a fixed URL — currently
+`https://services.google.com/fh/files/misc/google-cloud-legacy-icons.zip`
+("Legacy console icons"). Google restructured its icon library in
+2024-2025: the old URL
+(`https://cloud.google.com/icons/files/google-cloud-icons.zip`) now 404s,
+and the site serves three separate archives — "category icons" and "core
+product icons" (a new, much smaller redesigned icon system), plus the
+"legacy console icons" above, which is the one this package tracks because
+it preserves this package's existing flat `<name>/<name>.svg` layout and
+icon set. If `cloud.google.com/icons` has moved the download links again,
+render the page in a browser (it is JS-driven; a plain HTTP fetch of the
+page cannot see the real `<a href>` links) and look for the "Legacy
+console icons" download button. See run 0006's TDD/prg for the full
+investigation that found this:
+`docs/wav/wav-001-dependency-ci-refresh/run/run-0006-gcp-icons-refresh/`.
 
 Proceed to Step 3 to update the package. If new icons have been released by Google, the workdir generation in Step 4 will detect the changes.
 
@@ -42,9 +56,10 @@ Proceed to Step 3 to update the package. If new icons have been released by Goog
 
 Edit `source/library/packages/gcp/index.ts` and verify the setup:
 
-1. Check line 17 contains the correct URL:
+1. Check the `ICONS_URL` constant contains the correct, currently-resolving URL:
    ```typescript
-   const ICONS_URL = "https://cloud.google.com/icons/files/google-cloud-icons.zip"
+   const ICONS_URL =
+     "https://services.google.com/fh/files/misc/google-cloud-legacy-icons.zip"
    ```
 
 2. If Google has changed the icon directory structure, update:
@@ -173,7 +188,7 @@ gh pr create \
 **Solution**:
 - Check `source/templates/gcp/bootstrap.tera` and `source/templates/gcp/examples/` for hardcoded icon references
 - Verify all icon paths match the new Google Cloud archive structure
-- Extract the google-cloud-icons.zip locally and inspect the directory structure to understand changes
+- Extract the `google-cloud-legacy-icons.zip` (current `ICONS_URL` target) locally and inspect the directory structure to understand changes
 
 ### Icon count differs significantly from previous version
 

@@ -14,7 +14,18 @@ import {
 } from "../../../generator/workdir/discovery"
 
 // https://cloud.google.com/icons/
-const ICONS_URL = "https://cloud.google.com/icons/files/google-cloud-icons.zip"
+// Google restructured its icon library in 2024-2025, splitting it into a new
+// "category icons" set, a new "core product icons" set, and this "legacy
+// console icons" set — the direct, content-preserving continuation of the
+// old fixed URL above (`google-cloud-icons.zip`), which now returns HTTP 404.
+// The legacy set keeps this package's expected flat `<name>/<name>.svg`
+// layout; GCP publishes no version string or dated URL to pin against, so
+// this comment is the closest available freshness checkpoint.
+// Last verified: 2026-10-04 — 216 icons, 22 groups (unchanged from the prior
+// checked-in distribution). See run 0006's TDD/prg for the full comparison:
+// docs/wav/wav-001-dependency-ci-refresh/run/run-0006-gcp-icons-refresh/
+const ICONS_URL =
+  "https://services.google.com/fh/files/misc/google-cloud-legacy-icons.zip"
 
 export class GcpFactory implements PackageFactory {
   getUrn(): string {
@@ -105,6 +116,11 @@ export class GcpFactory implements PackageFactory {
       "**/*.svg"
     )
     context.info("found (%s) icons", iconItems.length)
+    if (iconItems.length === 0) {
+      throw new Error(
+        `GCP icon discovery returned 0 icons from (${ICONS_URL}) — upstream may have moved or changed structure again; see doc/howto.upgrade-gcp-package.md`
+      )
+    }
 
     const groupItems: Array<Item> = await csvToCustomGroups(
       this,
