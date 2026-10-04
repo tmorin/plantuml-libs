@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureDataTransferCard
+include('azure/Item/NewIcons/ServiceAzureDataTransfer')
+
+' renders the element
+ServiceAzureDataTransferCard('ServiceAzureDataTransferCard', 'Service Azure Data Transfer Card', 'an optional description')
+@enduml

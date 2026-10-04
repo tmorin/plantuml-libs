@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure/bootstrap')
+
+' loads the Item which embeds the element ServiceAiFoundryCard
+include('azure/Item/AiMachineLearning/ServiceAiFoundry')
+
+' renders the element
+ServiceAiFoundryCard('ServiceAiFoundryCard', 'Service Ai Foundry Card', 'an optional description')
+@enduml

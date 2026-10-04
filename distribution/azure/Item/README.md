@@ -1,16 +1,16 @@
 # Item
 
-The module contains 700 items.
+The module contains 708 items.
 
 - [AiMachineLearning](#family-aimachinelearning)
 - [Analytics](#family-analytics)
 - [AppServices](#family-appservices)
 - [AzureEcosystem](#family-azureecosystem)
-- [AzureStack](#family-azurestack)
 - [Blockchain](#family-blockchain)
 - [Compute](#family-compute)
 - [Containers](#family-containers)
 - [Databases](#family-databases)
+- [DeveloperTools](#family-developertools)
 - [Devops](#family-devops)
 - [General](#family-general)
 - [HybridMulticloud](#family-hybridmulticloud)
@@ -37,10 +37,13 @@ The module contains 700 items.
 ## AiMachineLearning
 | |Name|
 |:---:|---|
+| ![illustration of azure/Item/AiMachineLearning/ServiceAiFoundry](../../azure/Item/AiMachineLearning/ServiceAiFoundry.png) | [azure/Item/AiMachineLearning/ServiceAiFoundry](../../azure/Item/AiMachineLearning/ServiceAiFoundry.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceAiStudio](../../azure/Item/AiMachineLearning/ServiceAiStudio.png) | [azure/Item/AiMachineLearning/ServiceAiStudio](../../azure/Item/AiMachineLearning/ServiceAiStudio.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceAnomalyDetector](../../azure/Item/AiMachineLearning/ServiceAnomalyDetector.png) | [azure/Item/AiMachineLearning/ServiceAnomalyDetector](../../azure/Item/AiMachineLearning/ServiceAnomalyDetector.md) |
+| ![illustration of azure/Item/AiMachineLearning/ServiceAzureAiFoundryIq](../../azure/Item/AiMachineLearning/ServiceAzureAiFoundryIq.png) | [azure/Item/AiMachineLearning/ServiceAzureAiFoundryIq](../../azure/Item/AiMachineLearning/ServiceAzureAiFoundryIq.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceAzureAppliedAiServices](../../azure/Item/AiMachineLearning/ServiceAzureAppliedAiServices.png) | [azure/Item/AiMachineLearning/ServiceAzureAppliedAiServices](../../azure/Item/AiMachineLearning/ServiceAzureAppliedAiServices.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceAzureExperimentationStudio](../../azure/Item/AiMachineLearning/ServiceAzureExperimentationStudio.png) | [azure/Item/AiMachineLearning/ServiceAzureExperimentationStudio](../../azure/Item/AiMachineLearning/ServiceAzureExperimentationStudio.md) |
+| ![illustration of azure/Item/AiMachineLearning/ServiceAzureMachineLearning](../../azure/Item/AiMachineLearning/ServiceAzureMachineLearning.png) | [azure/Item/AiMachineLearning/ServiceAzureMachineLearning](../../azure/Item/AiMachineLearning/ServiceAzureMachineLearning.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceAzureObjectUnderstanding](../../azure/Item/AiMachineLearning/ServiceAzureObjectUnderstanding.png) | [azure/Item/AiMachineLearning/ServiceAzureObjectUnderstanding](../../azure/Item/AiMachineLearning/ServiceAzureObjectUnderstanding.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceAzureOpenAi](../../azure/Item/AiMachineLearning/ServiceAzureOpenAi.png) | [azure/Item/AiMachineLearning/ServiceAzureOpenAi](../../azure/Item/AiMachineLearning/ServiceAzureOpenAi.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceBatchAi](../../azure/Item/AiMachineLearning/ServiceBatchAi.png) | [azure/Item/AiMachineLearning/ServiceBatchAi](../../azure/Item/AiMachineLearning/ServiceBatchAi.md) |
@@ -55,6 +58,14 @@ The module contains 700 items.
 | ![illustration of azure/Item/AiMachineLearning/ServiceCustomVision](../../azure/Item/AiMachineLearning/ServiceCustomVision.png) | [azure/Item/AiMachineLearning/ServiceCustomVision](../../azure/Item/AiMachineLearning/ServiceCustomVision.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceFaceApIs](../../azure/Item/AiMachineLearning/ServiceFaceApIs.png) | [azure/Item/AiMachineLearning/ServiceFaceApIs](../../azure/Item/AiMachineLearning/ServiceFaceApIs.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceFormRecognizers](../../azure/Item/AiMachineLearning/ServiceFormRecognizers.png) | [azure/Item/AiMachineLearning/ServiceFormRecognizers](../../azure/Item/AiMachineLearning/ServiceFormRecognizers.md) |
+| ![illustration of azure/Item/AiMachineLearning/ServiceFoundryAgentService](../../azure/Item/AiMachineLearning/ServiceFoundryAgentService.png) | [azure/Item/AiMachineLearning/ServiceFoundryAgentService](../../azure/Item/AiMachineLearning/ServiceFoundryAgentService.md) |
+| ![illustration of azure/Item/AiMachineLearning/ServiceFoundryApplication](../../azure/Item/AiMachineLearning/ServiceFoundryApplication.png) | [azure/Item/AiMachineLearning/ServiceFoundryApplication](../../azure/Item/AiMachineLearning/ServiceFoundryApplication.md) |
+| ![illustration of azure/Item/AiMachineLearning/ServiceFoundryControlPlane](../../azure/Item/AiMachineLearning/ServiceFoundryControlPlane.png) | [azure/Item/AiMachineLearning/ServiceFoundryControlPlane](../../azure/Item/AiMachineLearning/ServiceFoundryControlPlane.md) |
+| ![illustration of azure/Item/AiMachineLearning/ServiceFoundryLabs](../../azure/Item/AiMachineLearning/ServiceFoundryLabs.png) | [azure/Item/AiMachineLearning/ServiceFoundryLabs](../../azure/Item/AiMachineLearning/ServiceFoundryLabs.md) |
+| ![illustration of azure/Item/AiMachineLearning/ServiceFoundryLocal](../../azure/Item/AiMachineLearning/ServiceFoundryLocal.png) | [azure/Item/AiMachineLearning/ServiceFoundryLocal](../../azure/Item/AiMachineLearning/ServiceFoundryLocal.md) |
+| ![illustration of azure/Item/AiMachineLearning/ServiceFoundryModels](../../azure/Item/AiMachineLearning/ServiceFoundryModels.png) | [azure/Item/AiMachineLearning/ServiceFoundryModels](../../azure/Item/AiMachineLearning/ServiceFoundryModels.md) |
+| ![illustration of azure/Item/AiMachineLearning/ServiceFoundryProject](../../azure/Item/AiMachineLearning/ServiceFoundryProject.png) | [azure/Item/AiMachineLearning/ServiceFoundryProject](../../azure/Item/AiMachineLearning/ServiceFoundryProject.md) |
+| ![illustration of azure/Item/AiMachineLearning/ServiceFrdQa](../../azure/Item/AiMachineLearning/ServiceFrdQa.png) | [azure/Item/AiMachineLearning/ServiceFrdQa](../../azure/Item/AiMachineLearning/ServiceFrdQa.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceGenomics](../../azure/Item/AiMachineLearning/ServiceGenomics.png) | [azure/Item/AiMachineLearning/ServiceGenomics](../../azure/Item/AiMachineLearning/ServiceGenomics.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceGenomicsAccounts](../../azure/Item/AiMachineLearning/ServiceGenomicsAccounts.png) | [azure/Item/AiMachineLearning/ServiceGenomicsAccounts](../../azure/Item/AiMachineLearning/ServiceGenomicsAccounts.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceImmersiveReaders](../../azure/Item/AiMachineLearning/ServiceImmersiveReaders.png) | [azure/Item/AiMachineLearning/ServiceImmersiveReaders](../../azure/Item/AiMachineLearning/ServiceImmersiveReaders.md) |
@@ -66,6 +77,7 @@ The module contains 700 items.
 | ![illustration of azure/Item/AiMachineLearning/ServiceMachineLearningStudioWorkspaces](../../azure/Item/AiMachineLearning/ServiceMachineLearningStudioWorkspaces.png) | [azure/Item/AiMachineLearning/ServiceMachineLearningStudioWorkspaces](../../azure/Item/AiMachineLearning/ServiceMachineLearningStudioWorkspaces.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceMetricsAdvisor](../../azure/Item/AiMachineLearning/ServiceMetricsAdvisor.png) | [azure/Item/AiMachineLearning/ServiceMetricsAdvisor](../../azure/Item/AiMachineLearning/ServiceMetricsAdvisor.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServicePersonalizers](../../azure/Item/AiMachineLearning/ServicePersonalizers.png) | [azure/Item/AiMachineLearning/ServicePersonalizers](../../azure/Item/AiMachineLearning/ServicePersonalizers.md) |
+| ![illustration of azure/Item/AiMachineLearning/ServicePlanetaryComputerPro](../../azure/Item/AiMachineLearning/ServicePlanetaryComputerPro.png) | [azure/Item/AiMachineLearning/ServicePlanetaryComputerPro](../../azure/Item/AiMachineLearning/ServicePlanetaryComputerPro.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceQnAMakers](../../azure/Item/AiMachineLearning/ServiceQnAMakers.png) | [azure/Item/AiMachineLearning/ServiceQnAMakers](../../azure/Item/AiMachineLearning/ServiceQnAMakers.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceServerlessSearch](../../azure/Item/AiMachineLearning/ServiceServerlessSearch.png) | [azure/Item/AiMachineLearning/ServiceServerlessSearch](../../azure/Item/AiMachineLearning/ServiceServerlessSearch.md) |
 | ![illustration of azure/Item/AiMachineLearning/ServiceSpeechServices](../../azure/Item/AiMachineLearning/ServiceSpeechServices.png) | [azure/Item/AiMachineLearning/ServiceSpeechServices](../../azure/Item/AiMachineLearning/ServiceSpeechServices.md) |
@@ -114,18 +126,6 @@ The module contains 700 items.
 | ![illustration of azure/Item/AzureEcosystem/ServiceAzureHybridCenter](../../azure/Item/AzureEcosystem/ServiceAzureHybridCenter.png) | [azure/Item/AzureEcosystem/ServiceAzureHybridCenter](../../azure/Item/AzureEcosystem/ServiceAzureHybridCenter.md) |
 | ![illustration of azure/Item/AzureEcosystem/ServiceCollaborativeService](../../azure/Item/AzureEcosystem/ServiceCollaborativeService.png) | [azure/Item/AzureEcosystem/ServiceCollaborativeService](../../azure/Item/AzureEcosystem/ServiceCollaborativeService.md) |
 
-<span id="family-azurestack"></span>
-## AzureStack
-| |Name|
-|:---:|---|
-| ![illustration of azure/Item/AzureStack/ServiceCapacity](../../azure/Item/AzureStack/ServiceCapacity.png) | [azure/Item/AzureStack/ServiceCapacity](../../azure/Item/AzureStack/ServiceCapacity.md) |
-| ![illustration of azure/Item/AzureStack/ServiceInfrastructureBackup](../../azure/Item/AzureStack/ServiceInfrastructureBackup.png) | [azure/Item/AzureStack/ServiceInfrastructureBackup](../../azure/Item/AzureStack/ServiceInfrastructureBackup.md) |
-| ![illustration of azure/Item/AzureStack/ServiceMultiTenancy](../../azure/Item/AzureStack/ServiceMultiTenancy.png) | [azure/Item/AzureStack/ServiceMultiTenancy](../../azure/Item/AzureStack/ServiceMultiTenancy.md) |
-| ![illustration of azure/Item/AzureStack/ServiceOffers](../../azure/Item/AzureStack/ServiceOffers.png) | [azure/Item/AzureStack/ServiceOffers](../../azure/Item/AzureStack/ServiceOffers.md) |
-| ![illustration of azure/Item/AzureStack/ServicePlans](../../azure/Item/AzureStack/ServicePlans.png) | [azure/Item/AzureStack/ServicePlans](../../azure/Item/AzureStack/ServicePlans.md) |
-| ![illustration of azure/Item/AzureStack/ServiceUpdates](../../azure/Item/AzureStack/ServiceUpdates.png) | [azure/Item/AzureStack/ServiceUpdates](../../azure/Item/AzureStack/ServiceUpdates.md) |
-| ![illustration of azure/Item/AzureStack/ServiceUserSubscriptions](../../azure/Item/AzureStack/ServiceUserSubscriptions.png) | [azure/Item/AzureStack/ServiceUserSubscriptions](../../azure/Item/AzureStack/ServiceUserSubscriptions.md) |
-
 <span id="family-blockchain"></span>
 ## Blockchain
 | |Name|
@@ -147,6 +147,7 @@ The module contains 700 items.
 | ![illustration of azure/Item/Compute/ServiceAutomanagedVm](../../azure/Item/Compute/ServiceAutomanagedVm.png) | [azure/Item/Compute/ServiceAutomanagedVm](../../azure/Item/Compute/ServiceAutomanagedVm.md) |
 | ![illustration of azure/Item/Compute/ServiceAvailabilitySets](../../azure/Item/Compute/ServiceAvailabilitySets.png) | [azure/Item/Compute/ServiceAvailabilitySets](../../azure/Item/Compute/ServiceAvailabilitySets.md) |
 | ![illustration of azure/Item/Compute/ServiceAzureComputeGalleries](../../azure/Item/Compute/ServiceAzureComputeGalleries.png) | [azure/Item/Compute/ServiceAzureComputeGalleries](../../azure/Item/Compute/ServiceAzureComputeGalleries.md) |
+| ![illustration of azure/Item/Compute/ServiceAzureLinux](../../azure/Item/Compute/ServiceAzureLinux.png) | [azure/Item/Compute/ServiceAzureLinux](../../azure/Item/Compute/ServiceAzureLinux.md) |
 | ![illustration of azure/Item/Compute/ServiceAzureSpringApps](../../azure/Item/Compute/ServiceAzureSpringApps.png) | [azure/Item/Compute/ServiceAzureSpringApps](../../azure/Item/Compute/ServiceAzureSpringApps.md) |
 | ![illustration of azure/Item/Compute/ServiceBatchAccounts](../../azure/Item/Compute/ServiceBatchAccounts.png) | [azure/Item/Compute/ServiceBatchAccounts](../../azure/Item/Compute/ServiceBatchAccounts.md) |
 | ![illustration of azure/Item/Compute/ServiceCloudServices](../../azure/Item/Compute/ServiceCloudServices.png) | [azure/Item/Compute/ServiceCloudServices](../../azure/Item/Compute/ServiceCloudServices.md) |
@@ -172,8 +173,10 @@ The module contains 700 items.
 | ![illustration of azure/Item/Compute/ServiceOsImages](../../azure/Item/Compute/ServiceOsImages.png) | [azure/Item/Compute/ServiceOsImages](../../azure/Item/Compute/ServiceOsImages.md) |
 | ![illustration of azure/Item/Compute/ServiceRestorePoints](../../azure/Item/Compute/ServiceRestorePoints.png) | [azure/Item/Compute/ServiceRestorePoints](../../azure/Item/Compute/ServiceRestorePoints.md) |
 | ![illustration of azure/Item/Compute/ServiceRestorePointsCollections](../../azure/Item/Compute/ServiceRestorePointsCollections.png) | [azure/Item/Compute/ServiceRestorePointsCollections](../../azure/Item/Compute/ServiceRestorePointsCollections.md) |
+| ![illustration of azure/Item/Compute/ServiceScheduledActions](../../azure/Item/Compute/ServiceScheduledActions.png) | [azure/Item/Compute/ServiceScheduledActions](../../azure/Item/Compute/ServiceScheduledActions.md) |
 | ![illustration of azure/Item/Compute/ServiceServiceFabricClusters](../../azure/Item/Compute/ServiceServiceFabricClusters.png) | [azure/Item/Compute/ServiceServiceFabricClusters](../../azure/Item/Compute/ServiceServiceFabricClusters.md) |
 | ![illustration of azure/Item/Compute/ServiceSharedImageGalleries](../../azure/Item/Compute/ServiceSharedImageGalleries.png) | [azure/Item/Compute/ServiceSharedImageGalleries](../../azure/Item/Compute/ServiceSharedImageGalleries.md) |
+| ![illustration of azure/Item/Compute/ServiceStageMaps](../../azure/Item/Compute/ServiceStageMaps.png) | [azure/Item/Compute/ServiceStageMaps](../../azure/Item/Compute/ServiceStageMaps.md) |
 | ![illustration of azure/Item/Compute/ServiceVirtualMachine](../../azure/Item/Compute/ServiceVirtualMachine.png) | [azure/Item/Compute/ServiceVirtualMachine](../../azure/Item/Compute/ServiceVirtualMachine.md) |
 | ![illustration of azure/Item/Compute/ServiceVirtualMachines](../../azure/Item/Compute/ServiceVirtualMachines.png) | [azure/Item/Compute/ServiceVirtualMachines](../../azure/Item/Compute/ServiceVirtualMachines.md) |
 | ![illustration of azure/Item/Compute/ServiceVmImages](../../azure/Item/Compute/ServiceVmImages.png) | [azure/Item/Compute/ServiceVmImages](../../azure/Item/Compute/ServiceVmImages.md) |
@@ -184,13 +187,17 @@ The module contains 700 items.
 ## Containers
 | |Name|
 |:---:|---|
+| ![illustration of azure/Item/Containers/ServiceAksNetworkPolicy](../../azure/Item/Containers/ServiceAksNetworkPolicy.png) | [azure/Item/Containers/ServiceAksNetworkPolicy](../../azure/Item/Containers/ServiceAksNetworkPolicy.md) |
 | ![illustration of azure/Item/Containers/ServiceAppServices](../../azure/Item/Containers/ServiceAppServices.png) | [azure/Item/Containers/ServiceAppServices](../../azure/Item/Containers/ServiceAppServices.md) |
+| ![illustration of azure/Item/Containers/ServiceAzureContainerStorage](../../azure/Item/Containers/ServiceAzureContainerStorage.png) | [azure/Item/Containers/ServiceAzureContainerStorage](../../azure/Item/Containers/ServiceAzureContainerStorage.md) |
 | ![illustration of azure/Item/Containers/ServiceAzureRedHatOpenShift](../../azure/Item/Containers/ServiceAzureRedHatOpenShift.png) | [azure/Item/Containers/ServiceAzureRedHatOpenShift](../../azure/Item/Containers/ServiceAzureRedHatOpenShift.md) |
 | ![illustration of azure/Item/Containers/ServiceBatchAccounts](../../azure/Item/Containers/ServiceBatchAccounts.png) | [azure/Item/Containers/ServiceBatchAccounts](../../azure/Item/Containers/ServiceBatchAccounts.md) |
 | ![illustration of azure/Item/Containers/ServiceContainerInstances](../../azure/Item/Containers/ServiceContainerInstances.png) | [azure/Item/Containers/ServiceContainerInstances](../../azure/Item/Containers/ServiceContainerInstances.md) |
 | ![illustration of azure/Item/Containers/ServiceContainerRegistries](../../azure/Item/Containers/ServiceContainerRegistries.png) | [azure/Item/Containers/ServiceContainerRegistries](../../azure/Item/Containers/ServiceContainerRegistries.md) |
+| ![illustration of azure/Item/Containers/ServiceKubernetesHub](../../azure/Item/Containers/ServiceKubernetesHub.png) | [azure/Item/Containers/ServiceKubernetesHub](../../azure/Item/Containers/ServiceKubernetesHub.md) |
 | ![illustration of azure/Item/Containers/ServiceKubernetesServices](../../azure/Item/Containers/ServiceKubernetesServices.png) | [azure/Item/Containers/ServiceKubernetesServices](../../azure/Item/Containers/ServiceKubernetesServices.md) |
 | ![illustration of azure/Item/Containers/ServiceServiceFabricClusters](../../azure/Item/Containers/ServiceServiceFabricClusters.png) | [azure/Item/Containers/ServiceServiceFabricClusters](../../azure/Item/Containers/ServiceServiceFabricClusters.md) |
+| ![illustration of azure/Item/Containers/ServiceServiceGroups](../../azure/Item/Containers/ServiceServiceGroups.png) | [azure/Item/Containers/ServiceServiceGroups](../../azure/Item/Containers/ServiceServiceGroups.md) |
 
 <span id="family-databases"></span>
 ## Databases
@@ -203,6 +210,8 @@ The module contains 700 items.
 | ![illustration of azure/Item/Databases/ServiceAzureDatabaseMySqlServer](../../azure/Item/Databases/ServiceAzureDatabaseMySqlServer.png) | [azure/Item/Databases/ServiceAzureDatabaseMySqlServer](../../azure/Item/Databases/ServiceAzureDatabaseMySqlServer.md) |
 | ![illustration of azure/Item/Databases/ServiceAzureDatabasePostgreSqlServer](../../azure/Item/Databases/ServiceAzureDatabasePostgreSqlServer.png) | [azure/Item/Databases/ServiceAzureDatabasePostgreSqlServer](../../azure/Item/Databases/ServiceAzureDatabasePostgreSqlServer.md) |
 | ![illustration of azure/Item/Databases/ServiceAzureDatabasePostgreSqlServerGroup](../../azure/Item/Databases/ServiceAzureDatabasePostgreSqlServerGroup.png) | [azure/Item/Databases/ServiceAzureDatabasePostgreSqlServerGroup](../../azure/Item/Databases/ServiceAzureDatabasePostgreSqlServerGroup.md) |
+| ![illustration of azure/Item/Databases/ServiceAzureDocumentDb](../../azure/Item/Databases/ServiceAzureDocumentDb.png) | [azure/Item/Databases/ServiceAzureDocumentDb](../../azure/Item/Databases/ServiceAzureDocumentDb.md) |
+| ![illustration of azure/Item/Databases/ServiceAzureManagedRedis](../../azure/Item/Databases/ServiceAzureManagedRedis.png) | [azure/Item/Databases/ServiceAzureManagedRedis](../../azure/Item/Databases/ServiceAzureManagedRedis.md) |
 | ![illustration of azure/Item/Databases/ServiceAzureSql](../../azure/Item/Databases/ServiceAzureSql.png) | [azure/Item/Databases/ServiceAzureSql](../../azure/Item/Databases/ServiceAzureSql.md) |
 | ![illustration of azure/Item/Databases/ServiceAzureSqlEdge](../../azure/Item/Databases/ServiceAzureSqlEdge.png) | [azure/Item/Databases/ServiceAzureSqlEdge](../../azure/Item/Databases/ServiceAzureSqlEdge.md) |
 | ![illustration of azure/Item/Databases/ServiceAzureSqlServerStretchDatabases](../../azure/Item/Databases/ServiceAzureSqlServerStretchDatabases.png) | [azure/Item/Databases/ServiceAzureSqlServerStretchDatabases](../../azure/Item/Databases/ServiceAzureSqlServerStretchDatabases.md) |
@@ -216,12 +225,19 @@ The module contains 700 items.
 | ![illustration of azure/Item/Databases/ServiceOracleDatabase](../../azure/Item/Databases/ServiceOracleDatabase.png) | [azure/Item/Databases/ServiceOracleDatabase](../../azure/Item/Databases/ServiceOracleDatabase.md) |
 | ![illustration of azure/Item/Databases/ServiceSqlDataWarehouses](../../azure/Item/Databases/ServiceSqlDataWarehouses.png) | [azure/Item/Databases/ServiceSqlDataWarehouses](../../azure/Item/Databases/ServiceSqlDataWarehouses.md) |
 | ![illustration of azure/Item/Databases/ServiceSqlDatabase](../../azure/Item/Databases/ServiceSqlDatabase.png) | [azure/Item/Databases/ServiceSqlDatabase](../../azure/Item/Databases/ServiceSqlDatabase.md) |
+| ![illustration of azure/Item/Databases/ServiceSqlDatabaseFleetManager](../../azure/Item/Databases/ServiceSqlDatabaseFleetManager.png) | [azure/Item/Databases/ServiceSqlDatabaseFleetManager](../../azure/Item/Databases/ServiceSqlDatabaseFleetManager.md) |
 | ![illustration of azure/Item/Databases/ServiceSqlElasticPools](../../azure/Item/Databases/ServiceSqlElasticPools.png) | [azure/Item/Databases/ServiceSqlElasticPools](../../azure/Item/Databases/ServiceSqlElasticPools.md) |
 | ![illustration of azure/Item/Databases/ServiceSqlManagedInstance](../../azure/Item/Databases/ServiceSqlManagedInstance.png) | [azure/Item/Databases/ServiceSqlManagedInstance](../../azure/Item/Databases/ServiceSqlManagedInstance.md) |
 | ![illustration of azure/Item/Databases/ServiceSqlServer](../../azure/Item/Databases/ServiceSqlServer.png) | [azure/Item/Databases/ServiceSqlServer](../../azure/Item/Databases/ServiceSqlServer.md) |
 | ![illustration of azure/Item/Databases/ServiceSqlServerRegistries](../../azure/Item/Databases/ServiceSqlServerRegistries.png) | [azure/Item/Databases/ServiceSqlServerRegistries](../../azure/Item/Databases/ServiceSqlServerRegistries.md) |
 | ![illustration of azure/Item/Databases/ServiceSsisLiftAndShiftIr](../../azure/Item/Databases/ServiceSsisLiftAndShiftIr.png) | [azure/Item/Databases/ServiceSsisLiftAndShiftIr](../../azure/Item/Databases/ServiceSsisLiftAndShiftIr.md) |
 | ![illustration of azure/Item/Databases/ServiceVirtualClusters](../../azure/Item/Databases/ServiceVirtualClusters.png) | [azure/Item/Databases/ServiceVirtualClusters](../../azure/Item/Databases/ServiceVirtualClusters.md) |
+
+<span id="family-developertools"></span>
+## DeveloperTools
+| |Name|
+|:---:|---|
+| ![illustration of azure/Item/DeveloperTools/ServiceAzureAppTesting](../../azure/Item/DeveloperTools/ServiceAzureAppTesting.png) | [azure/Item/DeveloperTools/ServiceAzureAppTesting](../../azure/Item/DeveloperTools/ServiceAzureAppTesting.md) |
 
 <span id="family-devops"></span>
 ## Devops
@@ -347,12 +363,17 @@ The module contains 700 items.
 ## HybridMulticloud
 | |Name|
 |:---:|---|
+| ![illustration of azure/Item/HybridMulticloud/ServiceAiAtEdge](../../azure/Item/HybridMulticloud/ServiceAiAtEdge.png) | [azure/Item/HybridMulticloud/ServiceAiAtEdge](../../azure/Item/HybridMulticloud/ServiceAiAtEdge.md) |
+| ![illustration of azure/Item/HybridMulticloud/ServiceArcKubernetes](../../azure/Item/HybridMulticloud/ServiceArcKubernetes.png) | [azure/Item/HybridMulticloud/ServiceArcKubernetes](../../azure/Item/HybridMulticloud/ServiceArcKubernetes.md) |
+| ![illustration of azure/Item/HybridMulticloud/ServiceAzureLocal](../../azure/Item/HybridMulticloud/ServiceAzureLocal.png) | [azure/Item/HybridMulticloud/ServiceAzureLocal](../../azure/Item/HybridMulticloud/ServiceAzureLocal.md) |
 | ![illustration of azure/Item/HybridMulticloud/ServiceAzureMonitorPipeline](../../azure/Item/HybridMulticloud/ServiceAzureMonitorPipeline.png) | [azure/Item/HybridMulticloud/ServiceAzureMonitorPipeline](../../azure/Item/HybridMulticloud/ServiceAzureMonitorPipeline.md) |
 | ![illustration of azure/Item/HybridMulticloud/ServiceAzureOperator5GCore](../../azure/Item/HybridMulticloud/ServiceAzureOperator5GCore.png) | [azure/Item/HybridMulticloud/ServiceAzureOperator5GCore](../../azure/Item/HybridMulticloud/ServiceAzureOperator5GCore.md) |
 | ![illustration of azure/Item/HybridMulticloud/ServiceAzureOperatorInsights](../../azure/Item/HybridMulticloud/ServiceAzureOperatorInsights.png) | [azure/Item/HybridMulticloud/ServiceAzureOperatorInsights](../../azure/Item/HybridMulticloud/ServiceAzureOperatorInsights.md) |
 | ![illustration of azure/Item/HybridMulticloud/ServiceAzureOperatorNexus](../../azure/Item/HybridMulticloud/ServiceAzureOperatorNexus.png) | [azure/Item/HybridMulticloud/ServiceAzureOperatorNexus](../../azure/Item/HybridMulticloud/ServiceAzureOperatorNexus.md) |
 | ![illustration of azure/Item/HybridMulticloud/ServiceAzureOperatorServiceManager](../../azure/Item/HybridMulticloud/ServiceAzureOperatorServiceManager.png) | [azure/Item/HybridMulticloud/ServiceAzureOperatorServiceManager](../../azure/Item/HybridMulticloud/ServiceAzureOperatorServiceManager.md) |
 | ![illustration of azure/Item/HybridMulticloud/ServiceAzureProgrammableConnectivity](../../azure/Item/HybridMulticloud/ServiceAzureProgrammableConnectivity.png) | [azure/Item/HybridMulticloud/ServiceAzureProgrammableConnectivity](../../azure/Item/HybridMulticloud/ServiceAzureProgrammableConnectivity.md) |
+| ![illustration of azure/Item/HybridMulticloud/ServiceEdgeStorageAccelerator](../../azure/Item/HybridMulticloud/ServiceEdgeStorageAccelerator.png) | [azure/Item/HybridMulticloud/ServiceEdgeStorageAccelerator](../../azure/Item/HybridMulticloud/ServiceEdgeStorageAccelerator.md) |
+| ![illustration of azure/Item/HybridMulticloud/ServiceWorkloadOrchestration](../../azure/Item/HybridMulticloud/ServiceWorkloadOrchestration.png) | [azure/Item/HybridMulticloud/ServiceWorkloadOrchestration](../../azure/Item/HybridMulticloud/ServiceWorkloadOrchestration.md) |
 
 <span id="family-identity"></span>
 ## Identity
@@ -379,14 +400,18 @@ The module contains 700 items.
 | ![illustration of azure/Item/Identity/ServiceEntraPrivateAccess](../../azure/Item/Identity/ServiceEntraPrivateAccess.png) | [azure/Item/Identity/ServiceEntraPrivateAccess](../../azure/Item/Identity/ServiceEntraPrivateAccess.md) |
 | ![illustration of azure/Item/Identity/ServiceEntraPrivlegedIdentityManagement](../../azure/Item/Identity/ServiceEntraPrivlegedIdentityManagement.png) | [azure/Item/Identity/ServiceEntraPrivlegedIdentityManagement](../../azure/Item/Identity/ServiceEntraPrivlegedIdentityManagement.md) |
 | ![illustration of azure/Item/Identity/ServiceEntraVerifiedId](../../azure/Item/Identity/ServiceEntraVerifiedId.png) | [azure/Item/Identity/ServiceEntraVerifiedId](../../azure/Item/Identity/ServiceEntraVerifiedId.md) |
+| ![illustration of azure/Item/Identity/ServiceExternalId](../../azure/Item/Identity/ServiceExternalId.png) | [azure/Item/Identity/ServiceExternalId](../../azure/Item/Identity/ServiceExternalId.md) |
+| ![illustration of azure/Item/Identity/ServiceExternalIdModified](../../azure/Item/Identity/ServiceExternalIdModified.png) | [azure/Item/Identity/ServiceExternalIdModified](../../azure/Item/Identity/ServiceExternalIdModified.md) |
 | ![illustration of azure/Item/Identity/ServiceExternalIdentities](../../azure/Item/Identity/ServiceExternalIdentities.png) | [azure/Item/Identity/ServiceExternalIdentities](../../azure/Item/Identity/ServiceExternalIdentities.md) |
 | ![illustration of azure/Item/Identity/ServiceGroups](../../azure/Item/Identity/ServiceGroups.png) | [azure/Item/Identity/ServiceGroups](../../azure/Item/Identity/ServiceGroups.md) |
 | ![illustration of azure/Item/Identity/ServiceIdentityGovernance](../../azure/Item/Identity/ServiceIdentityGovernance.png) | [azure/Item/Identity/ServiceIdentityGovernance](../../azure/Item/Identity/ServiceIdentityGovernance.md) |
 | ![illustration of azure/Item/Identity/ServiceManagedIdentities](../../azure/Item/Identity/ServiceManagedIdentities.png) | [azure/Item/Identity/ServiceManagedIdentities](../../azure/Item/Identity/ServiceManagedIdentities.md) |
 | ![illustration of azure/Item/Identity/ServiceMultiFactorAuthentication](../../azure/Item/Identity/ServiceMultiFactorAuthentication.png) | [azure/Item/Identity/ServiceMultiFactorAuthentication](../../azure/Item/Identity/ServiceMultiFactorAuthentication.md) |
+| ![illustration of azure/Item/Identity/ServiceMultiTenancy](../../azure/Item/Identity/ServiceMultiTenancy.png) | [azure/Item/Identity/ServiceMultiTenancy](../../azure/Item/Identity/ServiceMultiTenancy.md) |
 | ![illustration of azure/Item/Identity/ServiceSecurity](../../azure/Item/Identity/ServiceSecurity.png) | [azure/Item/Identity/ServiceSecurity](../../azure/Item/Identity/ServiceSecurity.md) |
 | ![illustration of azure/Item/Identity/ServiceTenantProperties](../../azure/Item/Identity/ServiceTenantProperties.png) | [azure/Item/Identity/ServiceTenantProperties](../../azure/Item/Identity/ServiceTenantProperties.md) |
 | ![illustration of azure/Item/Identity/ServiceUserSettings](../../azure/Item/Identity/ServiceUserSettings.png) | [azure/Item/Identity/ServiceUserSettings](../../azure/Item/Identity/ServiceUserSettings.md) |
+| ![illustration of azure/Item/Identity/ServiceUserSubscriptions](../../azure/Item/Identity/ServiceUserSubscriptions.png) | [azure/Item/Identity/ServiceUserSubscriptions](../../azure/Item/Identity/ServiceUserSubscriptions.md) |
 | ![illustration of azure/Item/Identity/ServiceUsers](../../azure/Item/Identity/ServiceUsers.png) | [azure/Item/Identity/ServiceUsers](../../azure/Item/Identity/ServiceUsers.md) |
 | ![illustration of azure/Item/Identity/ServiceVerifiableCredentials](../../azure/Item/Identity/ServiceVerifiableCredentials.png) | [azure/Item/Identity/ServiceVerifiableCredentials](../../azure/Item/Identity/ServiceVerifiableCredentials.md) |
 | ![illustration of azure/Item/Identity/ServiceVerificationAsAService](../../azure/Item/Identity/ServiceVerificationAsAService.png) | [azure/Item/Identity/ServiceVerificationAsAService](../../azure/Item/Identity/ServiceVerificationAsAService.md) |
@@ -403,7 +428,6 @@ The module contains 700 items.
 | ![illustration of azure/Item/Integration/ServiceAzureDataboxGateway](../../azure/Item/Integration/ServiceAzureDataboxGateway.png) | [azure/Item/Integration/ServiceAzureDataboxGateway](../../azure/Item/Integration/ServiceAzureDataboxGateway.md) |
 | ![illustration of azure/Item/Integration/ServiceAzureServiceBus](../../azure/Item/Integration/ServiceAzureServiceBus.png) | [azure/Item/Integration/ServiceAzureServiceBus](../../azure/Item/Integration/ServiceAzureServiceBus.md) |
 | ![illustration of azure/Item/Integration/ServiceAzureSqlServerStretchDatabases](../../azure/Item/Integration/ServiceAzureSqlServerStretchDatabases.png) | [azure/Item/Integration/ServiceAzureSqlServerStretchDatabases](../../azure/Item/Integration/ServiceAzureSqlServerStretchDatabases.md) |
-| ![illustration of azure/Item/Integration/ServiceAzureStackEdge](../../azure/Item/Integration/ServiceAzureStackEdge.png) | [azure/Item/Integration/ServiceAzureStackEdge](../../azure/Item/Integration/ServiceAzureStackEdge.md) |
 | ![illustration of azure/Item/Integration/ServiceBusinessProcessTracking](../../azure/Item/Integration/ServiceBusinessProcessTracking.png) | [azure/Item/Integration/ServiceBusinessProcessTracking](../../azure/Item/Integration/ServiceBusinessProcessTracking.md) |
 | ![illustration of azure/Item/Integration/ServiceDataFactories](../../azure/Item/Integration/ServiceDataFactories.png) | [azure/Item/Integration/ServiceDataFactories](../../azure/Item/Integration/ServiceDataFactories.md) |
 | ![illustration of azure/Item/Integration/ServiceEventGridDomains](../../azure/Item/Integration/ServiceEventGridDomains.png) | [azure/Item/Integration/ServiceEventGridDomains](../../azure/Item/Integration/ServiceEventGridDomains.md) |
@@ -414,10 +438,12 @@ The module contains 700 items.
 | ![illustration of azure/Item/Integration/ServiceIntegrationServiceEnvironments](../../azure/Item/Integration/ServiceIntegrationServiceEnvironments.png) | [azure/Item/Integration/ServiceIntegrationServiceEnvironments](../../azure/Item/Integration/ServiceIntegrationServiceEnvironments.md) |
 | ![illustration of azure/Item/Integration/ServiceLogicApps](../../azure/Item/Integration/ServiceLogicApps.png) | [azure/Item/Integration/ServiceLogicApps](../../azure/Item/Integration/ServiceLogicApps.md) |
 | ![illustration of azure/Item/Integration/ServiceLogicAppsCustomConnector](../../azure/Item/Integration/ServiceLogicAppsCustomConnector.png) | [azure/Item/Integration/ServiceLogicAppsCustomConnector](../../azure/Item/Integration/ServiceLogicAppsCustomConnector.md) |
+| ![illustration of azure/Item/Integration/ServiceLogicAppsTemplate](../../azure/Item/Integration/ServiceLogicAppsTemplate.png) | [azure/Item/Integration/ServiceLogicAppsTemplate](../../azure/Item/Integration/ServiceLogicAppsTemplate.md) |
 | ![illustration of azure/Item/Integration/ServicePartnerNamespace](../../azure/Item/Integration/ServicePartnerNamespace.png) | [azure/Item/Integration/ServicePartnerNamespace](../../azure/Item/Integration/ServicePartnerNamespace.md) |
 | ![illustration of azure/Item/Integration/ServicePartnerRegistration](../../azure/Item/Integration/ServicePartnerRegistration.png) | [azure/Item/Integration/ServicePartnerRegistration](../../azure/Item/Integration/ServicePartnerRegistration.md) |
 | ![illustration of azure/Item/Integration/ServicePartnerTopic](../../azure/Item/Integration/ServicePartnerTopic.png) | [azure/Item/Integration/ServicePartnerTopic](../../azure/Item/Integration/ServicePartnerTopic.md) |
 | ![illustration of azure/Item/Integration/ServicePowerPlatform](../../azure/Item/Integration/ServicePowerPlatform.png) | [azure/Item/Integration/ServicePowerPlatform](../../azure/Item/Integration/ServicePowerPlatform.md) |
+| ![illustration of azure/Item/Integration/ServicePubsub](../../azure/Item/Integration/ServicePubsub.png) | [azure/Item/Integration/ServicePubsub](../../azure/Item/Integration/ServicePubsub.md) |
 | ![illustration of azure/Item/Integration/ServiceRelays](../../azure/Item/Integration/ServiceRelays.png) | [azure/Item/Integration/ServiceRelays](../../azure/Item/Integration/ServiceRelays.md) |
 | ![illustration of azure/Item/Integration/ServiceSendGridAccounts](../../azure/Item/Integration/ServiceSendGridAccounts.png) | [azure/Item/Integration/ServiceSendGridAccounts](../../azure/Item/Integration/ServiceSendGridAccounts.md) |
 | ![illustration of azure/Item/Integration/ServiceSoftwareAsAService](../../azure/Item/Integration/ServiceSoftwareAsAService.png) | [azure/Item/Integration/ServiceSoftwareAsAService](../../azure/Item/Integration/ServiceSoftwareAsAService.md) |
@@ -438,6 +464,7 @@ The module contains 700 items.
 | ![illustration of azure/Item/Intune/ServiceDeviceSecurityWindows](../../azure/Item/Intune/ServiceDeviceSecurityWindows.png) | [azure/Item/Intune/ServiceDeviceSecurityWindows](../../azure/Item/Intune/ServiceDeviceSecurityWindows.md) |
 | ![illustration of azure/Item/Intune/ServiceDevices](../../azure/Item/Intune/ServiceDevices.png) | [azure/Item/Intune/ServiceDevices](../../azure/Item/Intune/ServiceDevices.md) |
 | ![illustration of azure/Item/Intune/ServiceEBooks](../../azure/Item/Intune/ServiceEBooks.png) | [azure/Item/Intune/ServiceEBooks](../../azure/Item/Intune/ServiceEBooks.md) |
+| ![illustration of azure/Item/Intune/ServiceEngageCenterConnect](../../azure/Item/Intune/ServiceEngageCenterConnect.png) | [azure/Item/Intune/ServiceEngageCenterConnect](../../azure/Item/Intune/ServiceEngageCenterConnect.md) |
 | ![illustration of azure/Item/Intune/ServiceEntraIdentityRolesAndAdministrators](../../azure/Item/Intune/ServiceEntraIdentityRolesAndAdministrators.png) | [azure/Item/Intune/ServiceEntraIdentityRolesAndAdministrators](../../azure/Item/Intune/ServiceEntraIdentityRolesAndAdministrators.md) |
 | ![illustration of azure/Item/Intune/ServiceExchangeAccess](../../azure/Item/Intune/ServiceExchangeAccess.png) | [azure/Item/Intune/ServiceExchangeAccess](../../azure/Item/Intune/ServiceExchangeAccess.md) |
 | ![illustration of azure/Item/Intune/ServiceIntune](../../azure/Item/Intune/ServiceIntune.png) | [azure/Item/Intune/ServiceIntune](../../azure/Item/Intune/ServiceIntune.md) |
@@ -456,7 +483,6 @@ The module contains 700 items.
 | ![illustration of azure/Item/Iot/ServiceAzureDataboxGateway](../../azure/Item/Iot/ServiceAzureDataboxGateway.png) | [azure/Item/Iot/ServiceAzureDataboxGateway](../../azure/Item/Iot/ServiceAzureDataboxGateway.md) |
 | ![illustration of azure/Item/Iot/ServiceAzureIoTOperations](../../azure/Item/Iot/ServiceAzureIoTOperations.png) | [azure/Item/Iot/ServiceAzureIoTOperations](../../azure/Item/Iot/ServiceAzureIoTOperations.md) |
 | ![illustration of azure/Item/Iot/ServiceAzureMapsAccounts](../../azure/Item/Iot/ServiceAzureMapsAccounts.png) | [azure/Item/Iot/ServiceAzureMapsAccounts](../../azure/Item/Iot/ServiceAzureMapsAccounts.md) |
-| ![illustration of azure/Item/Iot/ServiceAzureStack](../../azure/Item/Iot/ServiceAzureStack.png) | [azure/Item/Iot/ServiceAzureStack](../../azure/Item/Iot/ServiceAzureStack.md) |
 | ![illustration of azure/Item/Iot/ServiceAzureStackHciSizer](../../azure/Item/Iot/ServiceAzureStackHciSizer.png) | [azure/Item/Iot/ServiceAzureStackHciSizer](../../azure/Item/Iot/ServiceAzureStackHciSizer.md) |
 | ![illustration of azure/Item/Iot/ServiceDeviceProvisioningServices](../../azure/Item/Iot/ServiceDeviceProvisioningServices.png) | [azure/Item/Iot/ServiceDeviceProvisioningServices](../../azure/Item/Iot/ServiceDeviceProvisioningServices.md) |
 | ![illustration of azure/Item/Iot/ServiceDigitalTwins](../../azure/Item/Iot/ServiceDigitalTwins.png) | [azure/Item/Iot/ServiceDigitalTwins](../../azure/Item/Iot/ServiceDigitalTwins.md) |
@@ -464,6 +490,7 @@ The module contains 700 items.
 | ![illustration of azure/Item/Iot/ServiceEventHubClusters](../../azure/Item/Iot/ServiceEventHubClusters.png) | [azure/Item/Iot/ServiceEventHubClusters](../../azure/Item/Iot/ServiceEventHubClusters.md) |
 | ![illustration of azure/Item/Iot/ServiceEventHubs](../../azure/Item/Iot/ServiceEventHubs.png) | [azure/Item/Iot/ServiceEventHubs](../../azure/Item/Iot/ServiceEventHubs.md) |
 | ![illustration of azure/Item/Iot/ServiceFunctionApps](../../azure/Item/Iot/ServiceFunctionApps.png) | [azure/Item/Iot/ServiceFunctionApps](../../azure/Item/Iot/ServiceFunctionApps.md) |
+| ![illustration of azure/Item/Iot/ServiceHybridConnectivityHub](../../azure/Item/Iot/ServiceHybridConnectivityHub.png) | [azure/Item/Iot/ServiceHybridConnectivityHub](../../azure/Item/Iot/ServiceHybridConnectivityHub.md) |
 | ![illustration of azure/Item/Iot/ServiceIndustrialIoT](../../azure/Item/Iot/ServiceIndustrialIoT.png) | [azure/Item/Iot/ServiceIndustrialIoT](../../azure/Item/Iot/ServiceIndustrialIoT.md) |
 | ![illustration of azure/Item/Iot/ServiceIoTCentralApplications](../../azure/Item/Iot/ServiceIoTCentralApplications.png) | [azure/Item/Iot/ServiceIoTCentralApplications](../../azure/Item/Iot/ServiceIoTCentralApplications.md) |
 | ![illustration of azure/Item/Iot/ServiceIoTEdge](../../azure/Item/Iot/ServiceIoTEdge.png) | [azure/Item/Iot/ServiceIoTEdge](../../azure/Item/Iot/ServiceIoTEdge.md) |
@@ -515,6 +542,7 @@ The module contains 700 items.
 | ![illustration of azure/Item/ManagementGovernance/ServiceResourcesProvider](../../azure/Item/ManagementGovernance/ServiceResourcesProvider.png) | [azure/Item/ManagementGovernance/ServiceResourcesProvider](../../azure/Item/ManagementGovernance/ServiceResourcesProvider.md) |
 | ![illustration of azure/Item/ManagementGovernance/ServiceSchedulerJobCollections](../../azure/Item/ManagementGovernance/ServiceSchedulerJobCollections.png) | [azure/Item/ManagementGovernance/ServiceSchedulerJobCollections](../../azure/Item/ManagementGovernance/ServiceSchedulerJobCollections.md) |
 | ![illustration of azure/Item/ManagementGovernance/ServiceServiceCatalogMad](../../azure/Item/ManagementGovernance/ServiceServiceCatalogMad.png) | [azure/Item/ManagementGovernance/ServiceServiceCatalogMad](../../azure/Item/ManagementGovernance/ServiceServiceCatalogMad.md) |
+| ![illustration of azure/Item/ManagementGovernance/ServiceServiceGroupRelationships](../../azure/Item/ManagementGovernance/ServiceServiceGroupRelationships.png) | [azure/Item/ManagementGovernance/ServiceServiceGroupRelationships](../../azure/Item/ManagementGovernance/ServiceServiceGroupRelationships.md) |
 | ![illustration of azure/Item/ManagementGovernance/ServiceServiceProviders](../../azure/Item/ManagementGovernance/ServiceServiceProviders.png) | [azure/Item/ManagementGovernance/ServiceServiceProviders](../../azure/Item/ManagementGovernance/ServiceServiceProviders.md) |
 | ![illustration of azure/Item/ManagementGovernance/ServiceSolutions](../../azure/Item/ManagementGovernance/ServiceSolutions.png) | [azure/Item/ManagementGovernance/ServiceSolutions](../../azure/Item/ManagementGovernance/ServiceSolutions.md) |
 | ![illustration of azure/Item/ManagementGovernance/ServiceUniversalPrint](../../azure/Item/ManagementGovernance/ServiceUniversalPrint.png) | [azure/Item/ManagementGovernance/ServiceUniversalPrint](../../azure/Item/ManagementGovernance/ServiceUniversalPrint.md) |
@@ -532,7 +560,6 @@ The module contains 700 items.
 |:---:|---|
 | ![illustration of azure/Item/Migrate/ServiceAzureDataboxGateway](../../azure/Item/Migrate/ServiceAzureDataboxGateway.png) | [azure/Item/Migrate/ServiceAzureDataboxGateway](../../azure/Item/Migrate/ServiceAzureDataboxGateway.md) |
 | ![illustration of azure/Item/Migrate/ServiceAzureMigrate](../../azure/Item/Migrate/ServiceAzureMigrate.png) | [azure/Item/Migrate/ServiceAzureMigrate](../../azure/Item/Migrate/ServiceAzureMigrate.md) |
-| ![illustration of azure/Item/Migrate/ServiceAzureStackEdge](../../azure/Item/Migrate/ServiceAzureStackEdge.png) | [azure/Item/Migrate/ServiceAzureStackEdge](../../azure/Item/Migrate/ServiceAzureStackEdge.md) |
 | ![illustration of azure/Item/Migrate/ServiceCostManagementAndBilling](../../azure/Item/Migrate/ServiceCostManagementAndBilling.png) | [azure/Item/Migrate/ServiceCostManagementAndBilling](../../azure/Item/Migrate/ServiceCostManagementAndBilling.md) |
 | ![illustration of azure/Item/Migrate/ServiceDataBox](../../azure/Item/Migrate/ServiceDataBox.png) | [azure/Item/Migrate/ServiceDataBox](../../azure/Item/Migrate/ServiceDataBox.md) |
 | ![illustration of azure/Item/Migrate/ServiceRecoveryServicesVaults](../../azure/Item/Migrate/ServiceRecoveryServicesVaults.png) | [azure/Item/Migrate/ServiceRecoveryServicesVaults](../../azure/Item/Migrate/ServiceRecoveryServicesVaults.md) |
@@ -593,6 +620,7 @@ The module contains 700 items.
 | ![illustration of azure/Item/Networking/ServiceDnsPrivateResolver](../../azure/Item/Networking/ServiceDnsPrivateResolver.png) | [azure/Item/Networking/ServiceDnsPrivateResolver](../../azure/Item/Networking/ServiceDnsPrivateResolver.md) |
 | ![illustration of azure/Item/Networking/ServiceDnsSecurityPolicy](../../azure/Item/Networking/ServiceDnsSecurityPolicy.png) | [azure/Item/Networking/ServiceDnsSecurityPolicy](../../azure/Item/Networking/ServiceDnsSecurityPolicy.md) |
 | ![illustration of azure/Item/Networking/ServiceDnsZones](../../azure/Item/Networking/ServiceDnsZones.png) | [azure/Item/Networking/ServiceDnsZones](../../azure/Item/Networking/ServiceDnsZones.md) |
+| ![illustration of azure/Item/Networking/ServiceEdgeActions](../../azure/Item/Networking/ServiceEdgeActions.png) | [azure/Item/Networking/ServiceEdgeActions](../../azure/Item/Networking/ServiceEdgeActions.md) |
 | ![illustration of azure/Item/Networking/ServiceExpressRouteCircuits](../../azure/Item/Networking/ServiceExpressRouteCircuits.png) | [azure/Item/Networking/ServiceExpressRouteCircuits](../../azure/Item/Networking/ServiceExpressRouteCircuits.md) |
 | ![illustration of azure/Item/Networking/ServiceFirewalls](../../azure/Item/Networking/ServiceFirewalls.png) | [azure/Item/Networking/ServiceFirewalls](../../azure/Item/Networking/ServiceFirewalls.md) |
 | ![illustration of azure/Item/Networking/ServiceFrontDoorAndCdnProfiles](../../azure/Item/Networking/ServiceFrontDoorAndCdnProfiles.png) | [azure/Item/Networking/ServiceFrontDoorAndCdnProfiles](../../azure/Item/Networking/ServiceFrontDoorAndCdnProfiles.md) |
@@ -602,8 +630,10 @@ The module contains 700 items.
 | ![illustration of azure/Item/Networking/ServiceLoadBalancers](../../azure/Item/Networking/ServiceLoadBalancers.png) | [azure/Item/Networking/ServiceLoadBalancers](../../azure/Item/Networking/ServiceLoadBalancers.md) |
 | ![illustration of azure/Item/Networking/ServiceLocalNetworkGateways](../../azure/Item/Networking/ServiceLocalNetworkGateways.png) | [azure/Item/Networking/ServiceLocalNetworkGateways](../../azure/Item/Networking/ServiceLocalNetworkGateways.md) |
 | ![illustration of azure/Item/Networking/ServiceNat](../../azure/Item/Networking/ServiceNat.png) | [azure/Item/Networking/ServiceNat](../../azure/Item/Networking/ServiceNat.md) |
+| ![illustration of azure/Item/Networking/ServiceNetworkFoundationHub](../../azure/Item/Networking/ServiceNetworkFoundationHub.png) | [azure/Item/Networking/ServiceNetworkFoundationHub](../../azure/Item/Networking/ServiceNetworkFoundationHub.md) |
 | ![illustration of azure/Item/Networking/ServiceNetworkInterfaces](../../azure/Item/Networking/ServiceNetworkInterfaces.png) | [azure/Item/Networking/ServiceNetworkInterfaces](../../azure/Item/Networking/ServiceNetworkInterfaces.md) |
 | ![illustration of azure/Item/Networking/ServiceNetworkSecurityGroups](../../azure/Item/Networking/ServiceNetworkSecurityGroups.png) | [azure/Item/Networking/ServiceNetworkSecurityGroups](../../azure/Item/Networking/ServiceNetworkSecurityGroups.md) |
+| ![illustration of azure/Item/Networking/ServiceNetworkSecurityHub](../../azure/Item/Networking/ServiceNetworkSecurityHub.png) | [azure/Item/Networking/ServiceNetworkSecurityHub](../../azure/Item/Networking/ServiceNetworkSecurityHub.md) |
 | ![illustration of azure/Item/Networking/ServiceNetworkWatcher](../../azure/Item/Networking/ServiceNetworkWatcher.png) | [azure/Item/Networking/ServiceNetworkWatcher](../../azure/Item/Networking/ServiceNetworkWatcher.md) |
 | ![illustration of azure/Item/Networking/ServiceOnPremisesDataGateways](../../azure/Item/Networking/ServiceOnPremisesDataGateways.png) | [azure/Item/Networking/ServiceOnPremisesDataGateways](../../azure/Item/Networking/ServiceOnPremisesDataGateways.md) |
 | ![illustration of azure/Item/Networking/ServicePrivateLink](../../azure/Item/Networking/ServicePrivateLink.png) | [azure/Item/Networking/ServicePrivateLink](../../azure/Item/Networking/ServicePrivateLink.md) |
@@ -621,56 +651,30 @@ The module contains 700 items.
 | ![illustration of azure/Item/Networking/ServiceSpotVmss](../../azure/Item/Networking/ServiceSpotVmss.png) | [azure/Item/Networking/ServiceSpotVmss](../../azure/Item/Networking/ServiceSpotVmss.md) |
 | ![illustration of azure/Item/Networking/ServiceSubnet](../../azure/Item/Networking/ServiceSubnet.png) | [azure/Item/Networking/ServiceSubnet](../../azure/Item/Networking/ServiceSubnet.md) |
 | ![illustration of azure/Item/Networking/ServiceTrafficManagerProfiles](../../azure/Item/Networking/ServiceTrafficManagerProfiles.png) | [azure/Item/Networking/ServiceTrafficManagerProfiles](../../azure/Item/Networking/ServiceTrafficManagerProfiles.md) |
+| ![illustration of azure/Item/Networking/ServiceVNetAppliance](../../azure/Item/Networking/ServiceVNetAppliance.png) | [azure/Item/Networking/ServiceVNetAppliance](../../azure/Item/Networking/ServiceVNetAppliance.md) |
 | ![illustration of azure/Item/Networking/ServiceVirtualNetworkGateways](../../azure/Item/Networking/ServiceVirtualNetworkGateways.png) | [azure/Item/Networking/ServiceVirtualNetworkGateways](../../azure/Item/Networking/ServiceVirtualNetworkGateways.md) |
 | ![illustration of azure/Item/Networking/ServiceVirtualNetworks](../../azure/Item/Networking/ServiceVirtualNetworks.png) | [azure/Item/Networking/ServiceVirtualNetworks](../../azure/Item/Networking/ServiceVirtualNetworks.md) |
 | ![illustration of azure/Item/Networking/ServiceVirtualRouter](../../azure/Item/Networking/ServiceVirtualRouter.png) | [azure/Item/Networking/ServiceVirtualRouter](../../azure/Item/Networking/ServiceVirtualRouter.md) |
 | ![illustration of azure/Item/Networking/ServiceVirtualWaNs](../../azure/Item/Networking/ServiceVirtualWaNs.png) | [azure/Item/Networking/ServiceVirtualWaNs](../../azure/Item/Networking/ServiceVirtualWaNs.md) |
 | ![illustration of azure/Item/Networking/ServiceVirtualWanHub](../../azure/Item/Networking/ServiceVirtualWanHub.png) | [azure/Item/Networking/ServiceVirtualWanHub](../../azure/Item/Networking/ServiceVirtualWanHub.md) |
+| ![illustration of azure/Item/Networking/ServiceVpnClientWindows](../../azure/Item/Networking/ServiceVpnClientWindows.png) | [azure/Item/Networking/ServiceVpnClientWindows](../../azure/Item/Networking/ServiceVpnClientWindows.md) |
 | ![illustration of azure/Item/Networking/ServiceWebApplicationFirewallPolicies](../../azure/Item/Networking/ServiceWebApplicationFirewallPolicies.png) | [azure/Item/Networking/ServiceWebApplicationFirewallPolicies](../../azure/Item/Networking/ServiceWebApplicationFirewallPolicies.md) |
 
 <span id="family-newicons"></span>
 ## NewIcons
 | |Name|
 |:---:|---|
-| ![illustration of azure/Item/NewIcons/ServiceAiAtEdge](../../azure/Item/NewIcons/ServiceAiAtEdge.png) | [azure/Item/NewIcons/ServiceAiAtEdge](../../azure/Item/NewIcons/ServiceAiAtEdge.md) |
-| ![illustration of azure/Item/NewIcons/ServiceAksNetworkPolicy](../../azure/Item/NewIcons/ServiceAksNetworkPolicy.png) | [azure/Item/NewIcons/ServiceAksNetworkPolicy](../../azure/Item/NewIcons/ServiceAksNetworkPolicy.md) |
-| ![illustration of azure/Item/NewIcons/ServiceAzureAppTesting](../../azure/Item/NewIcons/ServiceAzureAppTesting.png) | [azure/Item/NewIcons/ServiceAzureAppTesting](../../azure/Item/NewIcons/ServiceAzureAppTesting.md) |
-| ![illustration of azure/Item/NewIcons/ServiceAzureConsumptionCommitment](../../azure/Item/NewIcons/ServiceAzureConsumptionCommitment.png) | [azure/Item/NewIcons/ServiceAzureConsumptionCommitment](../../azure/Item/NewIcons/ServiceAzureConsumptionCommitment.md) |
-| ![illustration of azure/Item/NewIcons/ServiceAzureContainerStorage](../../azure/Item/NewIcons/ServiceAzureContainerStorage.png) | [azure/Item/NewIcons/ServiceAzureContainerStorage](../../azure/Item/NewIcons/ServiceAzureContainerStorage.md) |
-| ![illustration of azure/Item/NewIcons/ServiceAzureLinux](../../azure/Item/NewIcons/ServiceAzureLinux.png) | [azure/Item/NewIcons/ServiceAzureLinux](../../azure/Item/NewIcons/ServiceAzureLinux.md) |
-| ![illustration of azure/Item/NewIcons/ServiceAzureLocal](../../azure/Item/NewIcons/ServiceAzureLocal.png) | [azure/Item/NewIcons/ServiceAzureLocal](../../azure/Item/NewIcons/ServiceAzureLocal.md) |
-| ![illustration of azure/Item/NewIcons/ServiceAzureManagedRedis](../../azure/Item/NewIcons/ServiceAzureManagedRedis.png) | [azure/Item/NewIcons/ServiceAzureManagedRedis](../../azure/Item/NewIcons/ServiceAzureManagedRedis.md) |
-| ![illustration of azure/Item/NewIcons/ServiceBreeze](../../azure/Item/NewIcons/ServiceBreeze.png) | [azure/Item/NewIcons/ServiceBreeze](../../azure/Item/NewIcons/ServiceBreeze.md) |
-| ![illustration of azure/Item/NewIcons/ServiceDataVirtualization](../../azure/Item/NewIcons/ServiceDataVirtualization.png) | [azure/Item/NewIcons/ServiceDataVirtualization](../../azure/Item/NewIcons/ServiceDataVirtualization.md) |
-| ![illustration of azure/Item/NewIcons/ServiceEdgeActions](../../azure/Item/NewIcons/ServiceEdgeActions.png) | [azure/Item/NewIcons/ServiceEdgeActions](../../azure/Item/NewIcons/ServiceEdgeActions.md) |
-| ![illustration of azure/Item/NewIcons/ServiceEdgeStorageAccelerator](../../azure/Item/NewIcons/ServiceEdgeStorageAccelerator.png) | [azure/Item/NewIcons/ServiceEdgeStorageAccelerator](../../azure/Item/NewIcons/ServiceEdgeStorageAccelerator.md) |
-| ![illustration of azure/Item/NewIcons/ServiceEngageCenterConnect](../../azure/Item/NewIcons/ServiceEngageCenterConnect.png) | [azure/Item/NewIcons/ServiceEngageCenterConnect](../../azure/Item/NewIcons/ServiceEngageCenterConnect.md) |
-| ![illustration of azure/Item/NewIcons/ServiceExternalId](../../azure/Item/NewIcons/ServiceExternalId.png) | [azure/Item/NewIcons/ServiceExternalId](../../azure/Item/NewIcons/ServiceExternalId.md) |
-| ![illustration of azure/Item/NewIcons/ServiceExternalIdModified](../../azure/Item/NewIcons/ServiceExternalIdModified.png) | [azure/Item/NewIcons/ServiceExternalIdModified](../../azure/Item/NewIcons/ServiceExternalIdModified.md) |
-| ![illustration of azure/Item/NewIcons/ServiceFrdQa](../../azure/Item/NewIcons/ServiceFrdQa.png) | [azure/Item/NewIcons/ServiceFrdQa](../../azure/Item/NewIcons/ServiceFrdQa.md) |
-| ![illustration of azure/Item/NewIcons/ServiceHybridConnectivityHub](../../azure/Item/NewIcons/ServiceHybridConnectivityHub.png) | [azure/Item/NewIcons/ServiceHybridConnectivityHub](../../azure/Item/NewIcons/ServiceHybridConnectivityHub.md) |
-| ![illustration of azure/Item/NewIcons/ServiceKubernetesHub](../../azure/Item/NewIcons/ServiceKubernetesHub.png) | [azure/Item/NewIcons/ServiceKubernetesHub](../../azure/Item/NewIcons/ServiceKubernetesHub.md) |
+| ![illustration of azure/Item/NewIcons/ServiceAgenticWebApps](../../azure/Item/NewIcons/ServiceAgenticWebApps.png) | [azure/Item/NewIcons/ServiceAgenticWebApps](../../azure/Item/NewIcons/ServiceAgenticWebApps.md) |
+| ![illustration of azure/Item/NewIcons/ServiceAiGateway](../../azure/Item/NewIcons/ServiceAiGateway.png) | [azure/Item/NewIcons/ServiceAiGateway](../../azure/Item/NewIcons/ServiceAiGateway.md) |
+| ![illustration of azure/Item/NewIcons/ServiceAzureAccessPoint](../../azure/Item/NewIcons/ServiceAzureAccessPoint.png) | [azure/Item/NewIcons/ServiceAzureAccessPoint](../../azure/Item/NewIcons/ServiceAzureAccessPoint.md) |
+| ![illustration of azure/Item/NewIcons/ServiceAzureDataSharing](../../azure/Item/NewIcons/ServiceAzureDataSharing.png) | [azure/Item/NewIcons/ServiceAzureDataSharing](../../azure/Item/NewIcons/ServiceAzureDataSharing.md) |
+| ![illustration of azure/Item/NewIcons/ServiceAzureDataTransfer](../../azure/Item/NewIcons/ServiceAzureDataTransfer.png) | [azure/Item/NewIcons/ServiceAzureDataTransfer](../../azure/Item/NewIcons/ServiceAzureDataTransfer.md) |
+| ![illustration of azure/Item/NewIcons/ServiceDDoSCustomPolicy](../../azure/Item/NewIcons/ServiceDDoSCustomPolicy.png) | [azure/Item/NewIcons/ServiceDDoSCustomPolicy](../../azure/Item/NewIcons/ServiceDDoSCustomPolicy.md) |
+| ![illustration of azure/Item/NewIcons/ServiceDisconnectedOperations](../../azure/Item/NewIcons/ServiceDisconnectedOperations.png) | [azure/Item/NewIcons/ServiceDisconnectedOperations](../../azure/Item/NewIcons/ServiceDisconnectedOperations.md) |
 | ![illustration of azure/Item/NewIcons/ServiceLandingZone](../../azure/Item/NewIcons/ServiceLandingZone.png) | [azure/Item/NewIcons/ServiceLandingZone](../../azure/Item/NewIcons/ServiceLandingZone.md) |
-| ![illustration of azure/Item/NewIcons/ServiceLoadBalancerHub](../../azure/Item/NewIcons/ServiceLoadBalancerHub.png) | [azure/Item/NewIcons/ServiceLoadBalancerHub](../../azure/Item/NewIcons/ServiceLoadBalancerHub.md) |
-| ![illustration of azure/Item/NewIcons/ServiceLogicAppsTemplate](../../azure/Item/NewIcons/ServiceLogicAppsTemplate.png) | [azure/Item/NewIcons/ServiceLogicAppsTemplate](../../azure/Item/NewIcons/ServiceLogicAppsTemplate.md) |
-| ![illustration of azure/Item/NewIcons/ServiceMicrosoftDiscovery](../../azure/Item/NewIcons/ServiceMicrosoftDiscovery.png) | [azure/Item/NewIcons/ServiceMicrosoftDiscovery](../../azure/Item/NewIcons/ServiceMicrosoftDiscovery.md) |
-| ![illustration of azure/Item/NewIcons/ServiceMonitorIssues](../../azure/Item/NewIcons/ServiceMonitorIssues.png) | [azure/Item/NewIcons/ServiceMonitorIssues](../../azure/Item/NewIcons/ServiceMonitorIssues.md) |
-| ![illustration of azure/Item/NewIcons/ServiceNetworkFoundationHub](../../azure/Item/NewIcons/ServiceNetworkFoundationHub.png) | [azure/Item/NewIcons/ServiceNetworkFoundationHub](../../azure/Item/NewIcons/ServiceNetworkFoundationHub.md) |
-| ![illustration of azure/Item/NewIcons/ServiceNetworkSecurityHub](../../azure/Item/NewIcons/ServiceNetworkSecurityHub.png) | [azure/Item/NewIcons/ServiceNetworkSecurityHub](../../azure/Item/NewIcons/ServiceNetworkSecurityHub.md) |
-| ![illustration of azure/Item/NewIcons/ServiceOperationCenter](../../azure/Item/NewIcons/ServiceOperationCenter.png) | [azure/Item/NewIcons/ServiceOperationCenter](../../azure/Item/NewIcons/ServiceOperationCenter.md) |
-| ![illustration of azure/Item/NewIcons/ServicePlanetaryComputerPro](../../azure/Item/NewIcons/ServicePlanetaryComputerPro.png) | [azure/Item/NewIcons/ServicePlanetaryComputerPro](../../azure/Item/NewIcons/ServicePlanetaryComputerPro.md) |
-| ![illustration of azure/Item/NewIcons/ServicePromethus](../../azure/Item/NewIcons/ServicePromethus.png) | [azure/Item/NewIcons/ServicePromethus](../../azure/Item/NewIcons/ServicePromethus.md) |
-| ![illustration of azure/Item/NewIcons/ServicePubsub](../../azure/Item/NewIcons/ServicePubsub.png) | [azure/Item/NewIcons/ServicePubsub](../../azure/Item/NewIcons/ServicePubsub.md) |
-| ![illustration of azure/Item/NewIcons/ServiceScheduledActions](../../azure/Item/NewIcons/ServiceScheduledActions.png) | [azure/Item/NewIcons/ServiceScheduledActions](../../azure/Item/NewIcons/ServiceScheduledActions.md) |
+| ![illustration of azure/Item/NewIcons/ServiceResiliency](../../azure/Item/NewIcons/ServiceResiliency.png) | [azure/Item/NewIcons/ServiceResiliency](../../azure/Item/NewIcons/ServiceResiliency.md) |
 | ![illustration of azure/Item/NewIcons/ServiceServiceGroupRelationships](../../azure/Item/NewIcons/ServiceServiceGroupRelationships.png) | [azure/Item/NewIcons/ServiceServiceGroupRelationships](../../azure/Item/NewIcons/ServiceServiceGroupRelationships.md) |
-| ![illustration of azure/Item/NewIcons/ServiceServiceGroups](../../azure/Item/NewIcons/ServiceServiceGroups.png) | [azure/Item/NewIcons/ServiceServiceGroups](../../azure/Item/NewIcons/ServiceServiceGroups.md) |
-| ![illustration of azure/Item/NewIcons/ServiceSqlDatabaseFleetManager](../../azure/Item/NewIcons/ServiceSqlDatabaseFleetManager.png) | [azure/Item/NewIcons/ServiceSqlDatabaseFleetManager](../../azure/Item/NewIcons/ServiceSqlDatabaseFleetManager.md) |
-| ![illustration of azure/Item/NewIcons/ServiceStageMaps](../../azure/Item/NewIcons/ServiceStageMaps.png) | [azure/Item/NewIcons/ServiceStageMaps](../../azure/Item/NewIcons/ServiceStageMaps.md) |
-| ![illustration of azure/Item/NewIcons/ServiceStorageHubs](../../azure/Item/NewIcons/ServiceStorageHubs.png) | [azure/Item/NewIcons/ServiceStorageHubs](../../azure/Item/NewIcons/ServiceStorageHubs.md) |
 | ![illustration of azure/Item/NewIcons/ServiceToolchainOrchestrator](../../azure/Item/NewIcons/ServiceToolchainOrchestrator.png) | [azure/Item/NewIcons/ServiceToolchainOrchestrator](../../azure/Item/NewIcons/ServiceToolchainOrchestrator.md) |
-| ![illustration of azure/Item/NewIcons/ServiceVNetAppliance](../../azure/Item/NewIcons/ServiceVNetAppliance.png) | [azure/Item/NewIcons/ServiceVNetAppliance](../../azure/Item/NewIcons/ServiceVNetAppliance.md) |
-| ![illustration of azure/Item/NewIcons/ServiceVpnClientWindows](../../azure/Item/NewIcons/ServiceVpnClientWindows.png) | [azure/Item/NewIcons/ServiceVpnClientWindows](../../azure/Item/NewIcons/ServiceVpnClientWindows.md) |
-| ![illustration of azure/Item/NewIcons/ServiceWorkloadOrchestration](../../azure/Item/NewIcons/ServiceWorkloadOrchestration.png) | [azure/Item/NewIcons/ServiceWorkloadOrchestration](../../azure/Item/NewIcons/ServiceWorkloadOrchestration.md) |
 
 <span id="family-other"></span>
 ## Other
@@ -681,7 +685,6 @@ The module contains 700 items.
 | ![illustration of azure/Item/Other/ServiceAppRegistrations](../../azure/Item/Other/ServiceAppRegistrations.png) | [azure/Item/Other/ServiceAppRegistrations](../../azure/Item/Other/ServiceAppRegistrations.md) |
 | ![illustration of azure/Item/Other/ServiceAquila](../../azure/Item/Other/ServiceAquila.png) | [azure/Item/Other/ServiceAquila](../../azure/Item/Other/ServiceAquila.md) |
 | ![illustration of azure/Item/Other/ServiceArcDataServices](../../azure/Item/Other/ServiceArcDataServices.png) | [azure/Item/Other/ServiceArcDataServices](../../azure/Item/Other/ServiceArcDataServices.md) |
-| ![illustration of azure/Item/Other/ServiceArcKubernetes](../../azure/Item/Other/ServiceArcKubernetes.png) | [azure/Item/Other/ServiceArcKubernetes](../../azure/Item/Other/ServiceArcKubernetes.md) |
 | ![illustration of azure/Item/Other/ServiceArcPostgreSql](../../azure/Item/Other/ServiceArcPostgreSql.png) | [azure/Item/Other/ServiceArcPostgreSql](../../azure/Item/Other/ServiceArcPostgreSql.md) |
 | ![illustration of azure/Item/Other/ServiceArcSqlManagedInstance](../../azure/Item/Other/ServiceArcSqlManagedInstance.png) | [azure/Item/Other/ServiceArcSqlManagedInstance](../../azure/Item/Other/ServiceArcSqlManagedInstance.md) |
 | ![illustration of azure/Item/Other/ServiceArcSqlServer](../../azure/Item/Other/ServiceArcSqlServer.png) | [azure/Item/Other/ServiceArcSqlServer](../../azure/Item/Other/ServiceArcSqlServer.md) |
@@ -694,9 +697,11 @@ The module contains 700 items.
 | ![illustration of azure/Item/Other/ServiceAzureCloudShell](../../azure/Item/Other/ServiceAzureCloudShell.png) | [azure/Item/Other/ServiceAzureCloudShell](../../azure/Item/Other/ServiceAzureCloudShell.md) |
 | ![illustration of azure/Item/Other/ServiceAzureCommunicationServices](../../azure/Item/Other/ServiceAzureCommunicationServices.png) | [azure/Item/Other/ServiceAzureCommunicationServices](../../azure/Item/Other/ServiceAzureCommunicationServices.md) |
 | ![illustration of azure/Item/Other/ServiceAzureComputeGalleries](../../azure/Item/Other/ServiceAzureComputeGalleries.png) | [azure/Item/Other/ServiceAzureComputeGalleries](../../azure/Item/Other/ServiceAzureComputeGalleries.md) |
+| ![illustration of azure/Item/Other/ServiceAzureConsumptionCommitment](../../azure/Item/Other/ServiceAzureConsumptionCommitment.png) | [azure/Item/Other/ServiceAzureConsumptionCommitment](../../azure/Item/Other/ServiceAzureConsumptionCommitment.md) |
 | ![illustration of azure/Item/Other/ServiceAzureDeploymentEnvironments](../../azure/Item/Other/ServiceAzureDeploymentEnvironments.png) | [azure/Item/Other/ServiceAzureDeploymentEnvironments](../../azure/Item/Other/ServiceAzureDeploymentEnvironments.md) |
 | ![illustration of azure/Item/Other/ServiceAzureDevTunnels](../../azure/Item/Other/ServiceAzureDevTunnels.png) | [azure/Item/Other/ServiceAzureDevTunnels](../../azure/Item/Other/ServiceAzureDevTunnels.md) |
 | ![illustration of azure/Item/Other/ServiceAzureEdgeHardwareCenter](../../azure/Item/Other/ServiceAzureEdgeHardwareCenter.png) | [azure/Item/Other/ServiceAzureEdgeHardwareCenter](../../azure/Item/Other/ServiceAzureEdgeHardwareCenter.md) |
+| ![illustration of azure/Item/Other/ServiceAzureEnclaves](../../azure/Item/Other/ServiceAzureEnclaves.png) | [azure/Item/Other/ServiceAzureEnclaves](../../azure/Item/Other/ServiceAzureEnclaves.md) |
 | ![illustration of azure/Item/Other/ServiceAzureHpcWorkbenches](../../azure/Item/Other/ServiceAzureHpcWorkbenches.png) | [azure/Item/Other/ServiceAzureHpcWorkbenches](../../azure/Item/Other/ServiceAzureHpcWorkbenches.md) |
 | ![illustration of azure/Item/Other/ServiceAzureLoadTesting](../../azure/Item/Other/ServiceAzureLoadTesting.png) | [azure/Item/Other/ServiceAzureLoadTesting](../../azure/Item/Other/ServiceAzureLoadTesting.md) |
 | ![illustration of azure/Item/Other/ServiceAzureManagedGrafana](../../azure/Item/Other/ServiceAzureManagedGrafana.png) | [azure/Item/Other/ServiceAzureManagedGrafana](../../azure/Item/Other/ServiceAzureManagedGrafana.md) |
@@ -715,6 +720,7 @@ The module contains 700 items.
 | ![illustration of azure/Item/Other/ServiceAzurite](../../azure/Item/Other/ServiceAzurite.png) | [azure/Item/Other/ServiceAzurite](../../azure/Item/Other/ServiceAzurite.md) |
 | ![illustration of azure/Item/Other/ServiceBackupVault](../../azure/Item/Other/ServiceBackupVault.png) | [azure/Item/Other/ServiceBackupVault](../../azure/Item/Other/ServiceBackupVault.md) |
 | ![illustration of azure/Item/Other/ServiceBareMetalInfrastructure](../../azure/Item/Other/ServiceBareMetalInfrastructure.png) | [azure/Item/Other/ServiceBareMetalInfrastructure](../../azure/Item/Other/ServiceBareMetalInfrastructure.md) |
+| ![illustration of azure/Item/Other/ServiceBreeze](../../azure/Item/Other/ServiceBreeze.png) | [azure/Item/Other/ServiceBreeze](../../azure/Item/Other/ServiceBreeze.md) |
 | ![illustration of azure/Item/Other/ServiceCapacityReservationGroups](../../azure/Item/Other/ServiceCapacityReservationGroups.png) | [azure/Item/Other/ServiceCapacityReservationGroups](../../azure/Item/Other/ServiceCapacityReservationGroups.md) |
 | ![illustration of azure/Item/Other/ServiceCentralServiceInstanceForSap](../../azure/Item/Other/ServiceCentralServiceInstanceForSap.png) | [azure/Item/Other/ServiceCentralServiceInstanceForSap](../../azure/Item/Other/ServiceCentralServiceInstanceForSap.md) |
 | ![illustration of azure/Item/Other/ServiceCeres](../../azure/Item/Other/ServiceCeres.png) | [azure/Item/Other/ServiceCeres](../../azure/Item/Other/ServiceCeres.md) |
@@ -773,6 +779,7 @@ The module contains 700 items.
 | ![illustration of azure/Item/Other/ServiceManagedInstanceApacheCassandra](../../azure/Item/Other/ServiceManagedInstanceApacheCassandra.png) | [azure/Item/Other/ServiceManagedInstanceApacheCassandra](../../azure/Item/Other/ServiceManagedInstanceApacheCassandra.md) |
 | ![illustration of azure/Item/Other/ServiceMedTechService](../../azure/Item/Other/ServiceMedTechService.png) | [azure/Item/Other/ServiceMedTechService](../../azure/Item/Other/ServiceMedTechService.md) |
 | ![illustration of azure/Item/Other/ServiceMicrosoftDevBox](../../azure/Item/Other/ServiceMicrosoftDevBox.png) | [azure/Item/Other/ServiceMicrosoftDevBox](../../azure/Item/Other/ServiceMicrosoftDevBox.md) |
+| ![illustration of azure/Item/Other/ServiceMicrosoftDiscovery](../../azure/Item/Other/ServiceMicrosoftDiscovery.png) | [azure/Item/Other/ServiceMicrosoftDiscovery](../../azure/Item/Other/ServiceMicrosoftDiscovery.md) |
 | ![illustration of azure/Item/Other/ServiceMissionLandingZone](../../azure/Item/Other/ServiceMissionLandingZone.png) | [azure/Item/Other/ServiceMissionLandingZone](../../azure/Item/Other/ServiceMissionLandingZone.md) |
 | ![illustration of azure/Item/Other/ServiceMobileNetworks](../../azure/Item/Other/ServiceMobileNetworks.png) | [azure/Item/Other/ServiceMobileNetworks](../../azure/Item/Other/ServiceMobileNetworks.md) |
 | ![illustration of azure/Item/Other/ServiceModularDataCenter](../../azure/Item/Other/ServiceModularDataCenter.png) | [azure/Item/Other/ServiceModularDataCenter](../../azure/Item/Other/ServiceModularDataCenter.md) |
@@ -784,6 +791,7 @@ The module contains 700 items.
 | ![illustration of azure/Item/Other/ServicePeeringService](../../azure/Item/Other/ServicePeeringService.png) | [azure/Item/Other/ServicePeeringService](../../azure/Item/Other/ServicePeeringService.md) |
 | ![illustration of azure/Item/Other/ServicePeerings](../../azure/Item/Other/ServicePeerings.png) | [azure/Item/Other/ServicePeerings](../../azure/Item/Other/ServicePeerings.md) |
 | ![illustration of azure/Item/Other/ServicePrivateEndpoints](../../azure/Item/Other/ServicePrivateEndpoints.png) | [azure/Item/Other/ServicePrivateEndpoints](../../azure/Item/Other/ServicePrivateEndpoints.md) |
+| ![illustration of azure/Item/Other/ServicePromethus](../../azure/Item/Other/ServicePromethus.png) | [azure/Item/Other/ServicePromethus](../../azure/Item/Other/ServicePromethus.md) |
 | ![illustration of azure/Item/Other/ServiceReservedCapacity](../../azure/Item/Other/ServiceReservedCapacity.png) | [azure/Item/Other/ServiceReservedCapacity](../../azure/Item/Other/ServiceReservedCapacity.md) |
 | ![illustration of azure/Item/Other/ServiceResourceGuard](../../azure/Item/Other/ServiceResourceGuard.png) | [azure/Item/Other/ServiceResourceGuard](../../azure/Item/Other/ServiceResourceGuard.md) |
 | ![illustration of azure/Item/Other/ServiceResourceMover](../../azure/Item/Other/ServiceResourceMover.png) | [azure/Item/Other/ServiceResourceMover](../../azure/Item/Other/ServiceResourceMover.md) |
@@ -798,7 +806,6 @@ The module contains 700 items.
 | ![illustration of azure/Item/Other/ServiceTestBase](../../azure/Item/Other/ServiceTestBase.png) | [azure/Item/Other/ServiceTestBase](../../azure/Item/Other/ServiceTestBase.md) |
 | ![illustration of azure/Item/Other/ServiceUpdateManagementCenter](../../azure/Item/Other/ServiceUpdateManagementCenter.png) | [azure/Item/Other/ServiceUpdateManagementCenter](../../azure/Item/Other/ServiceUpdateManagementCenter.md) |
 | ![illustration of azure/Item/Other/ServiceVideoAnalyzers](../../azure/Item/Other/ServiceVideoAnalyzers.png) | [azure/Item/Other/ServiceVideoAnalyzers](../../azure/Item/Other/ServiceVideoAnalyzers.md) |
-| ![illustration of azure/Item/Other/ServiceVirtualEnclaves](../../azure/Item/Other/ServiceVirtualEnclaves.png) | [azure/Item/Other/ServiceVirtualEnclaves](../../azure/Item/Other/ServiceVirtualEnclaves.md) |
 | ![illustration of azure/Item/Other/ServiceVirtualInstanceForSap](../../azure/Item/Other/ServiceVirtualInstanceForSap.png) | [azure/Item/Other/ServiceVirtualInstanceForSap](../../azure/Item/Other/ServiceVirtualInstanceForSap.md) |
 | ![illustration of azure/Item/Other/ServiceVirtualVisitsBuilder](../../azure/Item/Other/ServiceVirtualVisitsBuilder.png) | [azure/Item/Other/ServiceVirtualVisitsBuilder](../../azure/Item/Other/ServiceVirtualVisitsBuilder.md) |
 | ![illustration of azure/Item/Other/ServiceVmAppDefinitions](../../azure/Item/Other/ServiceVmAppDefinitions.png) | [azure/Item/Other/ServiceVmAppDefinitions](../../azure/Item/Other/ServiceVmAppDefinitions.md) |
@@ -839,11 +846,11 @@ The module contains 700 items.
 | ![illustration of azure/Item/Storage/ServiceAzureFileshares](../../azure/Item/Storage/ServiceAzureFileshares.png) | [azure/Item/Storage/ServiceAzureFileshares](../../azure/Item/Storage/ServiceAzureFileshares.md) |
 | ![illustration of azure/Item/Storage/ServiceAzureHcpCache](../../azure/Item/Storage/ServiceAzureHcpCache.png) | [azure/Item/Storage/ServiceAzureHcpCache](../../azure/Item/Storage/ServiceAzureHcpCache.md) |
 | ![illustration of azure/Item/Storage/ServiceAzureNetAppFiles](../../azure/Item/Storage/ServiceAzureNetAppFiles.png) | [azure/Item/Storage/ServiceAzureNetAppFiles](../../azure/Item/Storage/ServiceAzureNetAppFiles.md) |
-| ![illustration of azure/Item/Storage/ServiceAzureStackEdge](../../azure/Item/Storage/ServiceAzureStackEdge.png) | [azure/Item/Storage/ServiceAzureStackEdge](../../azure/Item/Storage/ServiceAzureStackEdge.md) |
 | ![illustration of azure/Item/Storage/ServiceDataBox](../../azure/Item/Storage/ServiceDataBox.png) | [azure/Item/Storage/ServiceDataBox](../../azure/Item/Storage/ServiceDataBox.md) |
 | ![illustration of azure/Item/Storage/ServiceDataLakeStorageGen1](../../azure/Item/Storage/ServiceDataLakeStorageGen1.png) | [azure/Item/Storage/ServiceDataLakeStorageGen1](../../azure/Item/Storage/ServiceDataLakeStorageGen1.md) |
 | ![illustration of azure/Item/Storage/ServiceDataShareInvitations](../../azure/Item/Storage/ServiceDataShareInvitations.png) | [azure/Item/Storage/ServiceDataShareInvitations](../../azure/Item/Storage/ServiceDataShareInvitations.md) |
 | ![illustration of azure/Item/Storage/ServiceDataShares](../../azure/Item/Storage/ServiceDataShares.png) | [azure/Item/Storage/ServiceDataShares](../../azure/Item/Storage/ServiceDataShares.md) |
+| ![illustration of azure/Item/Storage/ServiceDataVirtualization](../../azure/Item/Storage/ServiceDataVirtualization.png) | [azure/Item/Storage/ServiceDataVirtualization](../../azure/Item/Storage/ServiceDataVirtualization.md) |
 | ![illustration of azure/Item/Storage/ServiceImportExportJobs](../../azure/Item/Storage/ServiceImportExportJobs.png) | [azure/Item/Storage/ServiceImportExportJobs](../../azure/Item/Storage/ServiceImportExportJobs.md) |
 | ![illustration of azure/Item/Storage/ServiceManagedFileShares](../../azure/Item/Storage/ServiceManagedFileShares.png) | [azure/Item/Storage/ServiceManagedFileShares](../../azure/Item/Storage/ServiceManagedFileShares.md) |
 | ![illustration of azure/Item/Storage/ServiceRecoveryServicesVaults](../../azure/Item/Storage/ServiceRecoveryServicesVaults.png) | [azure/Item/Storage/ServiceRecoveryServicesVaults](../../azure/Item/Storage/ServiceRecoveryServicesVaults.md) |
@@ -852,6 +859,7 @@ The module contains 700 items.
 | ![illustration of azure/Item/Storage/ServiceStorageAccounts](../../azure/Item/Storage/ServiceStorageAccounts.png) | [azure/Item/Storage/ServiceStorageAccounts](../../azure/Item/Storage/ServiceStorageAccounts.md) |
 | ![illustration of azure/Item/Storage/ServiceStorageActions](../../azure/Item/Storage/ServiceStorageActions.png) | [azure/Item/Storage/ServiceStorageActions](../../azure/Item/Storage/ServiceStorageActions.md) |
 | ![illustration of azure/Item/Storage/ServiceStorageExplorer](../../azure/Item/Storage/ServiceStorageExplorer.png) | [azure/Item/Storage/ServiceStorageExplorer](../../azure/Item/Storage/ServiceStorageExplorer.md) |
+| ![illustration of azure/Item/Storage/ServiceStorageHubs](../../azure/Item/Storage/ServiceStorageHubs.png) | [azure/Item/Storage/ServiceStorageHubs](../../azure/Item/Storage/ServiceStorageHubs.md) |
 | ![illustration of azure/Item/Storage/ServiceStorageSyncServices](../../azure/Item/Storage/ServiceStorageSyncServices.png) | [azure/Item/Storage/ServiceStorageSyncServices](../../azure/Item/Storage/ServiceStorageSyncServices.md) |
 
 <span id="family-web"></span>

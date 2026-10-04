@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/NewIcons/ServiceDDoSCustomPolicy
+
+sprite $ServiceDDoSCustomPolicyXs [10x10/16z] PScr0S0m44FHRvQz_y0vwl8g0JzhGNjcMT8s7kOnMAZ4XU6lz01resdfo2nSknVt0G
+
+sprite $ServiceDDoSCustomPolicySm [12x12/16z] RSl74KCn24NHIqRqNx3dZRV_A9BuvALxxg0gYDlkgwecMaPVSlJ5U_GNpK1icDdk3h2ExaNtdo5Fz9L-3-G7
+
+sprite $ServiceDDoSCustomPolicyMd [16x16/16z] VSX90W8m34BHq97a_WUMKklIj-8JVyqMXlhc2ccPLQcS9wkurbOxCVSoE6Fig_UvS1j0srf8jwadwtO8T37F8BUHYH0IfevZyOcBQKxRBtyou_a
+
+sprite $ServiceDDoSCustomPolicyLg [20x20/16z] {
+ZSg52GG130NH7vV-2xva5HQxXm-3VwZXmJWOc-EatN5Uoef1qT4BPkO6eBlItRERTD9Ud7wX-r9_o7L1umRC9LSpZ6rWwU-7gBivBujHXI6PwIjoj6DbXfoc
+Dkx6f_aK1ywNuHBVjBnE0hoe5Zuq2AyV
+}
+
+!procedure ServiceDDoSCustomPolicy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceDDoSCustomPolicy', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDDoSCustomPolicyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDDoSCustomPolicyLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDDoSCustomPolicyGroup($id, $name='Service D Do S Custom Policy', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDDoSCustomPolicyLg>', $name, $tech)
+!endprocedure

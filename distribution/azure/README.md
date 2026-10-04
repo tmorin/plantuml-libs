@@ -45,7 +45,7 @@ Include locally the resources:
 
 The package provides 2 modules.
 
-- [azure/Item](../azure/Item/README.md) with 700 items
+- [azure/Item](../azure/Item/README.md) with 708 items
 - [azure/Group](../azure/Group/README.md) with 7 items
 
 

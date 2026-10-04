@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/AiMachineLearning/ServiceAzureMachineLearning
+
+sprite $ServiceAzureMachineLearningXs [10x10/16z] LS710S0G00Im03ZsdxVl9duYW3Y0QmE61Imyd0r97FUjjMlqXBuFEeWF
+
+sprite $ServiceAzureMachineLearningSm [12x12/16z] NOh50S103CDqd3ZTVzqowsFaXmdbn_lBMpgz1-FoWd9-HWVCWMu3W531ZPqYaRjYIiEy0582cWj8N2m
+
+sprite $ServiceAzureMachineLearningMd [16x16/16z] VSo5OGCW50JGGqzW_tNRk2SFvmi-glKuRqe2-_TRUdYl1VAXtGRwmtiE02mukwIMxVDBR3ZAIaUnHPpb0747DUVaA0e1E6kda3BBwPdWeCiUE4Z56OCt_m
+
+sprite $ServiceAzureMachineLearningLg [20x20/16z] {
+bSx50G0X34JHGPCCz5_likxsJ_1G_8iaI3cPsPNbawdkhHHfbdPMAn3bOFrKTcUpeEN5hIGIq9UhBPj4bgSOUp7LcS0-3pDJZpbjPX1Jv5Ahz6dm900No5Ag
+kaPgvlf3aNteHxqHVKQR_vNC8lfSn1fnNGS
+}
+
+!procedure ServiceAzureMachineLearning($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceAzureMachineLearning', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureMachineLearningCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureMachineLearningLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureMachineLearningGroup($id, $name='Service Azure Machine Learning', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureMachineLearningLg>', $name, $tech)
+!endprocedure

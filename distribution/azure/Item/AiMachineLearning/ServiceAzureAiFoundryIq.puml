@@ -1,0 +1,27 @@
+' definition of the Item azure/Item/AiMachineLearning/ServiceAzureAiFoundryIq
+
+sprite $ServiceAzureAiFoundryIqXs [10x10/16z] 9Ko53G0m3AAIXT7-_-uKZm4Wqjrn8Ad92HnH8EMqkm1vPznMUKbtLGVnmP01nvCdhuVT6x8bOGC
+
+sprite $ServiceAzureAiFoundryIqSm [12x12/16z] BKm70W0X24Az2h3_V_UsUm00eexCn6EqUuigO8NXpgbLGG5sleNvp-7Sbl2ixjnjltFlwZadNcCvxshUXR03CX4YZj9qQpn_5CbFu08
+
+sprite $ServiceAzureAiFoundryIqMd [16x16/16z] {
+HOw74GCm20FbXa5Y_td3uLpohdIX66kVMU3Xf9JXxgkZ9279FAu1DmO1Yh1xkOP7e6potTDzzY-wjEo1FwQPARB_99Mpp9-jp2r-xUKUwOjTRsOjhMo-_cpJ
+GSO0kkU8SAnOOP28mnKeocifMTTquw8SRNu
+}
+
+sprite $ServiceAzureAiFoundryIqLg [20x20/16z] {
+LSi7ZWL0289XfWlC_S-xkg__QVebe6fZpDahl0h9lfUHZGSfenAJo5QqUn9eNsnodGaS1lZO0x526YqYyMcPiXuHxM52zR2ER9rpK3MvnvrpZ8PAbTrzRUcy
+BEdseeyLUIPzhEZ6SE2tY27rrwuzAAtkZp6jxgZ7PMZ1E1X9ZATj9GBOWuoDQxSbQQ0QZEnUgyAZKSP4YyZ-
+}
+
+!procedure ServiceAzureAiFoundryIq($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceAzureAiFoundryIq', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureAiFoundryIqCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureAiFoundryIqLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureAiFoundryIqGroup($id, $name='Service Azure Ai Foundry Iq', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureAiFoundryIqLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/Databases/ServiceAzureDocumentDb
+
+sprite $ServiceAzureDocumentDbXs [10x10/16z] Oq02Z2mWm0XYCR9piZE2M5nSd9oSN5mOB3O8Yu4J2535C7K
+
+sprite $ServiceAzureDocumentDbSm [12x12/16z] ROp50KD120MnbM7xhpVvxdE2Pt93FMPilHjGpQTxD5UrmfZlJ21plUdOVXlGjbi0_T2Zu-HpHxPRv0y
+
+sprite $ServiceAzureDocumentDbMd [16x16/16z] TOt50K0X34Ef4LBsd_UxopjL8kK3DPzHMLVndUKGehMH3I6sx1sX8gB1lkwPdCdytOLiSku8akNSeqwxyDWDyuvVFS-yTv_Szmbikq_p2
+
+sprite $ServiceAzureDocumentDbLg [20x20/16z] {
+bSxL0SCm34LHFR7I_VTjcF5-sST8Lu5PkXYO13edMCmy8jnQuzuAW4LMXW28tdvDcA2DrQgPhAtwsi5tWxO2snXLcylHWjT6Lbseupvvk6z-z_EVUMCq1i-U
+qlhf7m
+}
+
+!procedure ServiceAzureDocumentDb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/Databases/ServiceAzureDocumentDb', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureDocumentDbCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDocumentDbLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDocumentDbGroup($id, $name='Service Azure Document Db', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDocumentDbLg>', $name, $tech)
+!endprocedure
