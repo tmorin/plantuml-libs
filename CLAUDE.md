@@ -20,7 +20,7 @@ Check `package.json` for exact dependency versions rather than assuming.
 - `source/library/` — one factory per technology package (`source/library/packages/{name}/index.ts`), each producing raw PlantUML sprite/icon resources. Packages are independent but follow shared patterns.
 - `source/generator/workdir/` — orchestrates all library packages into a single `.workdir/library.yaml` manifest plus supporting assets. Run: `npm run generate:workdir`
 - `source/generator/website/` — ETL pipeline (Extract → Transform → Load) that turns `.workdir/library.yaml` into the documentation site and `distribution/` output. Each stage implements the generic `Stage<I, O>` interface (`source/generator/website/stage.ts`).
-- Full build: `scripts/generate-library.sh` chains workdir → website → distribution/. Requires Podman/Docker and the `plantuml-generator` image.
+- Full build: `scripts/generate-library.sh` chains workdir → website → distribution/. Requires Podman/Docker and the `plantuml-generator` image (`docker.io/thibaultmorin/plantuml-generator:1`).
 - Single-package build: `scripts/generate-package.sh <package>` (invoked via `npm run generate:package -- -p <package>`) regenerates the workdir then builds just that one package through Podman.
 
 ## Code Conventions
