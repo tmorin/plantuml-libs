@@ -18,8 +18,8 @@ import {
 
 // https://aws.amazon.com/architecture/icons/
 
-const FOLDER_DATE = "07312025"
-const ICONS_URL = `https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/architecture/approved/architecture-icons/Asset-Package_07312025.49d3aab7f9e6131e51ade8f7c6c8b961ee7d3bb1.zip`
+const FOLDER_DATE = "07312026"
+const ICONS_URL = `https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/architecture-icon-release/Icon-package_07312026.5846e92413caa21490223536cc97f1269e44fa92.zip`
 
 type FamiliesCsvRow = {
   name: string
