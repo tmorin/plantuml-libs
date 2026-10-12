@@ -19,6 +19,7 @@ cd "$REPOSITORY_PATH" && npm run generate:workdir -- -p "$1"
 
 podman run --rm \
   --userns=keep-id \
+  --user "$(id -u):$(id -g)" \
   -v "$REPOSITORY_PATH/.workdir:/workdir:z,U" \
   -v "$REPOSITORY_PATH/distribution:/distribution:z,U"  \
   docker.io/thibaultmorin/plantuml-generator:1 \
