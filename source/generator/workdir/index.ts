@@ -60,7 +60,12 @@ const context: FactoryContext = {
 copyTemplates(workDirPath)
   .then(() => create(context))
   .then((library) =>
-    promisify(F.writeFile)(context.dstYamlPath, stringify(library))
+    promisify(F.writeFile)(context.dstYamlPath, stringify(library)),
   )
   .then(() => console.info("generation done"))
-  .catch((e) => console.error("generation failed", e))
+  .catch((e) => {
+    console.error("generation failed", e)
+    // without a non-zero exit code, callers (e.g. scripts/generate-package.sh)
+    // cannot tell that the generation failed and carry on with stale input
+    process.exitCode = 1
+  })
