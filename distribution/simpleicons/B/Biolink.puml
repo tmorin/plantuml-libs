@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/B/Biolink
+' definition of the Item simpleicons/B/Biolink
 
-sprite $BiolinkXs [10x10/16z] FSR50S0W0C30rBtPVreSxdKCud8u2vvvv35cdfym2Fw7l9OvHfbFMmG
+sprite $BiolinkXs [10x10/16z] 5OQ50G1H248nqP_xJtj1lceDgGAmafKzzQCHpE17czKSqmCMKBZXjuZYYryaLrVDNeZiaxnoGN8s9vjfhk5QBm
 
-sprite $BiolinkSm [12x12/16z] JSk50S0W34JHgtl__jFYaA0l9hVuMCXlzl5bgnYcuP5_SZwhl7vnwDkOor0roLlpcynIhUIPj9f51
+sprite $BiolinkSm [12x12/16z] 7Ko50G0m2CA9w-d_rwxi06epoQXD08GkJgxMtro73ZQ-sVbd_VUykEYZMaDYGe8g8BVZBNATyQI2otgPT_OKe-joUREEETNlJ77j5kprkcKnv4Hf1m
 
-sprite $BiolinkMd [16x16/16z] RSw55G8m34NHN-yXylQV5dUetrgYhm9G3G5visWN5-FcykMWFFpt_hZPyZB8pBQsQTgXQEcdW1G8TKGPF9nNypGN3yh3FX617hubGeTIdYu9a5UlYnid
+sprite $BiolinkMd [16x16/16z] {
+HS-50KGX30FGr72Q_QSz-Oe_l56geYYY1Fw9Sn8CusGvh4B9S2BRuRKIF5mFjyhNx_x3_UVC18inQKO1H85_9tBskBghPm3q87Op8lTffyrgTEhjiN_U2vVt
+FDxusN-sMFvtKBY7qoF1QWJdFzuG2OHAWPKl
+}
 
 sprite $BiolinkLg [20x20/16z] {
-TSk5SGKW50NHnPtRVxTvvBijVcQ0ptHoGGLP-MeK1JEluQMRXQjLxbQd_BijoTtjy--dDIJsDZjvCoTh7SPR3cmvkm6Ehwq5ZCLSTY-iRY81IsmLrD1qUZ9T
-h2i-MT0nWuVD_cdefrKbMUDYLSUGkbLgftNecLxf_Gy
+ZSi5aaKX34JH9lAKqFlVxGGRA_iNFrLe1eZbKYqOCMju26CcqofkuY9EYj6t9IGVBBADmLYcsve7_rl5kGoI9jsYlCDE-a4hh6dPsqr9De0NFevrRX5m5cCf
+hDjgXpvFsezTtirQ-_dBkBgzF7xihT6jqh-jFSvkpi2FOPZS56R6wFnqAy9NC_GfA0RqgLy
 }
 
 !procedure Biolink($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/B/Biolink', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/B/Biolink', $name, $tech, $desc)
 !endprocedure

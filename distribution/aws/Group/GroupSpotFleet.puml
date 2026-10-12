@@ -1,12 +1,15 @@
 ' definition of the Item aws/Group/GroupSpotFleet
 
-sprite $SpotFleetXs [10x10/16z] OySA6DYPM1bXJ2XWOcU2ibdXWen82c1CJ
+sprite $SpotFleetXs [10x10/16z] OqS1h6nGcfMDZPKLn08pMA4C5bQG0f082qGfI0gg3WXWkjd0D08
 
-sprite $SpotFleetSm [12x12/16z] VS414S1020EmEw2DVyTJi4-yv02cAD2nQo7iSN3s462f0OK1x6MiNny
+sprite $SpotFleetSm [12x12/16z] TOh50G01088-2ljFVDt1n_G97APfrqYOipDTXYKGsuRClgJ1h9-65jS16sTc4yHVHW
 
-sprite $SpotFleetMd [16x16/16z] bShL5K8n44NHnPKv_LSCFCrtTcIKVGEMF9IB2Z3cLa6IPsuOG8ZJ5QHdBdB-Qpz81NEQYGGVmiMSnALKhOFPzmC
+sprite $SpotFleetMd [16x16/16z] ZOkb0G1H5CF4Ivlz9pu6-wEABb7o6yf9agUSgeQ_DtzVlAtSDGOpyVj1YKylaadQn-V4aZwUg0slDmoqzQCkiWC
 
-sprite $SpotFleetLg [20x20/16z] hS77WKGX30Kmyy1M_nLld7p-aYiChuhaT1RX9WFCmisKJo6cVuYR85NHjdzpc2BJUlnhkWZQJUZi7HmtYpOKuMPqDsAuMMwAcv3TVJAsL-CItm
+sprite $SpotFleetLg [20x20/16z] {
+hSf7Sk0000B1AZ4m-l-7TvqKxdRV2FxUUb1VigQKxEcNgkSfU6ap2zZTDuUmRDmtzI1bNjs1XNDa7lKB5RAYPduf9ojK5tz4GZIMgnjkKrClqAbhiwkhWoF1
+rRVEl_0V
+}
 
 !procedure GroupSpotFleet($id, $name='Spot fleet', $tech='')
   IconGroupElement($id, 'GroupSpotFleet', '<$SpotFleetLg>', $name, $tech)

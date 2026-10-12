@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/C/Claudecode
+
+sprite $ClaudecodeXs [10x10/16z] RS750S1030Cm5yFn_jCMxXq94-DYW8cJBWRjABAYrPfB6uILMHHWamkuPCFa1G
+
+sprite $ClaudecodeSm [12x12/16z] TSh50S0W30NGNpo-_xR5hZmaYfSaJ1DB0afOJ1PbvfvYIbuW7ZhJ-Rc8nMKozw-v3nxZ-yPWJ3ab8AMCfny
+
+sprite $ClaudecodeMd [16x16/16z] bOsr0S1030FbbCRzfmtpyncl4eQny9EmpUF5xaw-_Tj9FHe0_eYVUR6ddNcmoLu749BdZB8
+
+sprite $ClaudecodeLg [20x20/16z] {
+fSxL0SCm30JGCoOntVxRrfBAtERz68JOnxihNhyIRoHCaJUY_OrGgMeOvpziL1lqpxjrvZMgDlDMv_abgRqnQv_l4ZehUwcrw2L0EA8cJAc23ieJBMFA3VGm
+3kvosUa
+}
+
+!procedure Claudecode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/C/Claudecode', $name, $tech, $desc)
+!endprocedure

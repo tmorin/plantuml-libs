@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsLicenseManager
+
+sprite $AwsLicenseManagerXs [10x10/16z] JKo30G0147h5_VTzwuogwM4vmfJKx2xGivjz8W2TavR5ruHv_cxIWwDEjKZftpO
+
+sprite $AwsLicenseManagerSm [12x12/16z] HKt50S1027iGe_llMpl3DRccz4X9dD4qmPJ_fYKPc7CHqgWL89ergpXhgqgUzo73GM01yYRjKytk0G
+
+sprite $AwsLicenseManagerMd [16x16/16z] POw55GD124HVmWZGVx_dldyLdrwedVvGvoEAP5uE42hzV3YAbbE1onOMn3EVQTA-xMO4-xRz9y8FE-Asntni_H9rwKC4gELxa7RsHTLvtvxJcW4
+
+sprite $AwsLicenseManagerLg [20x20/16z] {
+VT054iHG28FX6H8atF--wm8h_UjV_VKjtUfVBTMjWMg2rwnQRmkokksD5yk8hA9XcZj9JmuB-YN6j5AIgPgcDC1IomWdkAm04DZtXe4MMYO2r3Ia8ZEKU5lG
+SSaPJxjjFSBNQ4aQcydgWyu
+}
+
+!procedure AwsLicenseManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsLicenseManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsLicenseManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsLicenseManagerLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsLicenseManagerGroup($id, $name='Aws License Manager', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsLicenseManagerLg>', $name, $tech)
+!endprocedure

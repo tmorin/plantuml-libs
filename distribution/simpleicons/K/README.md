@@ -1,6 +1,6 @@
 # K
 
-The module contains 93 items.
+The module contains 95 items.
 
 
 
@@ -18,6 +18,7 @@ The module contains 93 items.
 | ![illustration of simpleicons/K/Kamailio](../../simpleicons/K/Kamailio.png) | [simpleicons/K/Kamailio](../../simpleicons/K/Kamailio.md) |
 | ![illustration of simpleicons/K/Kando](../../simpleicons/K/Kando.png) | [simpleicons/K/Kando](../../simpleicons/K/Kando.md) |
 | ![illustration of simpleicons/K/Kaniko](../../simpleicons/K/Kaniko.png) | [simpleicons/K/Kaniko](../../simpleicons/K/Kaniko.md) |
+| ![illustration of simpleicons/K/Karakeep](../../simpleicons/K/Karakeep.png) | [simpleicons/K/Karakeep](../../simpleicons/K/Karakeep.md) |
 | ![illustration of simpleicons/K/Karlsruherverkehrsverbund](../../simpleicons/K/Karlsruherverkehrsverbund.png) | [simpleicons/K/Karlsruherverkehrsverbund](../../simpleicons/K/Karlsruherverkehrsverbund.md) |
 | ![illustration of simpleicons/K/Kasasmart](../../simpleicons/K/Kasasmart.png) | [simpleicons/K/Kasasmart](../../simpleicons/K/Kasasmart.md) |
 | ![illustration of simpleicons/K/Kashflow](../../simpleicons/K/Kashflow.png) | [simpleicons/K/Kashflow](../../simpleicons/K/Kashflow.md) |
@@ -51,6 +52,7 @@ The module contains 93 items.
 | ![illustration of simpleicons/K/Kick](../../simpleicons/K/Kick.png) | [simpleicons/K/Kick](../../simpleicons/K/Kick.md) |
 | ![illustration of simpleicons/K/Kickstarter](../../simpleicons/K/Kickstarter.png) | [simpleicons/K/Kickstarter](../../simpleicons/K/Kickstarter.md) |
 | ![illustration of simpleicons/K/Kik](../../simpleicons/K/Kik.png) | [simpleicons/K/Kik](../../simpleicons/K/Kik.md) |
+| ![illustration of simpleicons/K/Kimi](../../simpleicons/K/Kimi.png) | [simpleicons/K/Kimi](../../simpleicons/K/Kimi.md) |
 | ![illustration of simpleicons/K/Kingstontechnology](../../simpleicons/K/Kingstontechnology.png) | [simpleicons/K/Kingstontechnology](../../simpleicons/K/Kingstontechnology.md) |
 | ![illustration of simpleicons/K/Kinopoisk](../../simpleicons/K/Kinopoisk.png) | [simpleicons/K/Kinopoisk](../../simpleicons/K/Kinopoisk.md) |
 | ![illustration of simpleicons/K/Kinsta](../../simpleicons/K/Kinsta.png) | [simpleicons/K/Kinsta](../../simpleicons/K/Kinsta.md) |

@@ -1,6 +1,6 @@
 # F
 
-The module contains 142 items.
+The module contains 145 items.
 
 
 
@@ -14,6 +14,7 @@ The module contains 142 items.
 | ![illustration of simpleicons/F/Faceit](../../simpleicons/F/Faceit.png) | [simpleicons/F/Faceit](../../simpleicons/F/Faceit.md) |
 | ![illustration of simpleicons/F/Facepunch](../../simpleicons/F/Facepunch.png) | [simpleicons/F/Facepunch](../../simpleicons/F/Facepunch.md) |
 | ![illustration of simpleicons/F/Fairphone](../../simpleicons/F/Fairphone.png) | [simpleicons/F/Fairphone](../../simpleicons/F/Fairphone.md) |
+| ![illustration of simpleicons/F/Faker](../../simpleicons/F/Faker.png) | [simpleicons/F/Faker](../../simpleicons/F/Faker.md) |
 | ![illustration of simpleicons/F/Falco](../../simpleicons/F/Falco.png) | [simpleicons/F/Falco](../../simpleicons/F/Falco.md) |
 | ![illustration of simpleicons/F/Falcon](../../simpleicons/F/Falcon.png) | [simpleicons/F/Falcon](../../simpleicons/F/Falcon.md) |
 | ![illustration of simpleicons/F/Fampay](../../simpleicons/F/Fampay.png) | [simpleicons/F/Fampay](../../simpleicons/F/Fampay.md) |
@@ -31,6 +32,7 @@ The module contains 142 items.
 | ![illustration of simpleicons/F/Fathom](../../simpleicons/F/Fathom.png) | [simpleicons/F/Fathom](../../simpleicons/F/Fathom.md) |
 | ![illustration of simpleicons/F/Fauna](../../simpleicons/F/Fauna.png) | [simpleicons/F/Fauna](../../simpleicons/F/Fauna.md) |
 | ![illustration of simpleicons/F/Favro](../../simpleicons/F/Favro.png) | [simpleicons/F/Favro](../../simpleicons/F/Favro.md) |
+| ![illustration of simpleicons/F/Fawry](../../simpleicons/F/Fawry.png) | [simpleicons/F/Fawry](../../simpleicons/F/Fawry.md) |
 | ![illustration of simpleicons/F/Fcc](../../simpleicons/F/Fcc.png) | [simpleicons/F/Fcc](../../simpleicons/F/Fcc.md) |
 | ![illustration of simpleicons/F/Fdroid](../../simpleicons/F/Fdroid.png) | [simpleicons/F/Fdroid](../../simpleicons/F/Fdroid.md) |
 | ![illustration of simpleicons/F/Fedex](../../simpleicons/F/Fedex.png) | [simpleicons/F/Fedex](../../simpleicons/F/Fedex.md) |
@@ -87,6 +89,7 @@ The module contains 142 items.
 | ![illustration of simpleicons/F/Fluke](../../simpleicons/F/Fluke.png) | [simpleicons/F/Fluke](../../simpleicons/F/Fluke.md) |
 | ![illustration of simpleicons/F/Flutter](../../simpleicons/F/Flutter.png) | [simpleicons/F/Flutter](../../simpleicons/F/Flutter.md) |
 | ![illustration of simpleicons/F/Flux](../../simpleicons/F/Flux.png) | [simpleicons/F/Flux](../../simpleicons/F/Flux.md) |
+| ![illustration of simpleicons/F/Fluxer](../../simpleicons/F/Fluxer.png) | [simpleicons/F/Fluxer](../../simpleicons/F/Fluxer.md) |
 | ![illustration of simpleicons/F/Flydotio](../../simpleicons/F/Flydotio.png) | [simpleicons/F/Flydotio](../../simpleicons/F/Flydotio.md) |
 | ![illustration of simpleicons/F/Flyway](../../simpleicons/F/Flyway.png) | [simpleicons/F/Flyway](../../simpleicons/F/Flyway.md) |
 | ![illustration of simpleicons/F/Fmod](../../simpleicons/F/Fmod.png) | [simpleicons/F/Fmod](../../simpleicons/F/Fmod.md) |

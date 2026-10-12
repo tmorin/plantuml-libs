@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Appium
-include('simpleicons-14/A/Appium')
+include('simpleicons/A/Appium')
 
 ' renders the element
 Appium('Appium', 'Appium', 'an optional tech label', 'an optional description')

@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Nextcloud
-include('simpleicons-14/N/Nextcloud')
+include('simpleicons/N/Nextcloud')
 
 ' renders the element
 Nextcloud('Nextcloud', 'Nextcloud', 'an optional tech label', 'an optional description')

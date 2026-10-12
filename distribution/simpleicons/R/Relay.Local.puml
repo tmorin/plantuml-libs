@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Relay
-include('simpleicons-14/R/Relay')
+include('simpleicons/R/Relay')
 
 ' renders the element
 Relay('Relay', 'Relay', 'an optional tech label', 'an optional description')

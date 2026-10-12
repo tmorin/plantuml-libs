@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Wind
 
-sprite $WindXs [10x10/16z] HSZ50O0000GWxFRsdzOEdhWiyKX2SIbZoAtsM_FoodNC2GG3ae0T
+sprite $WindXs [10x10/16z] 9SQr0G0W00InmvtVVreqLRYCPFXChRHvZAQ0TPUt47EwSdmhfUG-hFEEmwlDfWfJ0OZYappN1W
 
-sprite $WindSm [12x12/16z] HSlL0SCm00FHQyDu-qyRblq-1Rm61qBTA5PPZ1c6pm_u1UnML3QgpxQpJQihDudoEW4
+sprite $WindSm [12x12/16z] LSQ53G0n40Emb7kax3_jCrfad4Z1hJGMv7B8PJjlYfzfUl9nt7nZD3mw3mLeHiibP-Lsxm1IjS15o7nk1G
 
-sprite $WindMd [16x16/16z] RStL0KKX3C3GN3SW-q_xNB3pLIy_kf49gcJ6KI6NXCiSp5aMw4YvcQIvn92P57BHpxyP6Awett_0gIxVEO1X-6HH-RlKdOyx
+sprite $WindMd [16x16/16z] RS_50G0X40F0u4xwh_PSi7aXgtWbCW9ex_He2LP0seSnbWLWImBIV3GMCXlLdlUMGqkIigqa-5BFX4wUapYMwrvjC-ad3flaTjCT
 
-sprite $WindLg [20x20/16z] ZSYr0SD00C106PvYqFxJchdAbSV3e8ctnXLlhWfVWmEBwg7M7Ze_AYY-jVolzMEi6VKhaykRobUbb4tW57JqKBFeNRMUMBYgsDNAgfIMNLL5vKLNl7nh1W
+sprite $WindLg [20x20/16z] {
+TS_50O1034JHMSV2xxzQtEKTuz4f0gtkQe3k4SovXg0dY5AeweiMlCJ3lAJOJT4V_o39U4fdx1IVlS4mFMNORccyPivvmzZvESGiRh_rT7iiQLEmhNaBX9oV
+snope1k3Fkeq0W
+}
 
 !procedure Wind($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Wind', $name, $tech, $desc)

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/C/Cline
+
+sprite $ClineXs [10x10/16z] BS450GGn0C2mZddrh_Rn4e1p-0b9Km2QFmry4EpimJ1qCwDI7CNCh5GBxkp9HxZ-GV8dyGO
+
+sprite $ClineSm [12x12/16z] LOo50SC040AltiXp-qyRrtS1c2rXjvU-rgbDD6c1niqQA5DQiI0-ICT3-Hhe_w2_tsNUCKy3fLcYxfhqwzZ32
+
+sprite $ClineMd [16x16/16z] {
+LOw50G0X4CEAEzb_sdSDUbuTMB3wKA6zbhKTkhqo0Wz1ak63aUBNZeVTV8Ng-s5NaCGuAfiipDrkaW2NBhkVTZ9_soY3amUh0FcSDxYk-CXx1SxNd99aEXVT
+I2i
+}
+
+sprite $ClineLg [20x20/16z] {
+TOw53KKn00AfUzb_sY_akLpzaXAm4CY02_nXpifSdS-v_5tDsIzgyC2GgZnHbNv2gUR55PYcNx-T5eWa0LXogPGKDx6ufNguks3lpg9UyweUZ41JU25fbtvZ
+BljxPuopcb3w2Gl9lfl-Lry
+}
+
+!procedure Cline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/C/Cline', $name, $tech, $desc)
+!endprocedure

@@ -1,6 +1,6 @@
 # Q
 
-The module contains 38 items.
+The module contains 40 items.
 
 
 
@@ -10,6 +10,7 @@ The module contains 38 items.
 | ![illustration of simpleicons/Q/Qase](../../simpleicons/Q/Qase.png) | [simpleicons/Q/Qase](../../simpleicons/Q/Qase.md) |
 | ![illustration of simpleicons/Q/Qatarairways](../../simpleicons/Q/Qatarairways.png) | [simpleicons/Q/Qatarairways](../../simpleicons/Q/Qatarairways.md) |
 | ![illustration of simpleicons/Q/Qbittorrent](../../simpleicons/Q/Qbittorrent.png) | [simpleicons/Q/Qbittorrent](../../simpleicons/Q/Qbittorrent.md) |
+| ![illustration of simpleicons/Q/Qdrant](../../simpleicons/Q/Qdrant.png) | [simpleicons/Q/Qdrant](../../simpleicons/Q/Qdrant.md) |
 | ![illustration of simpleicons/Q/Qemu](../../simpleicons/Q/Qemu.png) | [simpleicons/Q/Qemu](../../simpleicons/Q/Qemu.md) |
 | ![illustration of simpleicons/Q/Qgis](../../simpleicons/Q/Qgis.png) | [simpleicons/Q/Qgis](../../simpleicons/Q/Qgis.md) |
 | ![illustration of simpleicons/Q/Qi](../../simpleicons/Q/Qi.png) | [simpleicons/Q/Qi](../../simpleicons/Q/Qi.md) |
@@ -41,6 +42,7 @@ The module contains 38 items.
 | ![illustration of simpleicons/Q/Quizlet](../../simpleicons/Q/Quizlet.png) | [simpleicons/Q/Quizlet](../../simpleicons/Q/Quizlet.md) |
 | ![illustration of simpleicons/Q/Quora](../../simpleicons/Q/Quora.png) | [simpleicons/Q/Quora](../../simpleicons/Q/Quora.md) |
 | ![illustration of simpleicons/Q/Qwant](../../simpleicons/Q/Qwant.png) | [simpleicons/Q/Qwant](../../simpleicons/Q/Qwant.md) |
+| ![illustration of simpleicons/Q/Qwen](../../simpleicons/Q/Qwen.png) | [simpleicons/Q/Qwen](../../simpleicons/Q/Qwen.md) |
 | ![illustration of simpleicons/Q/Qwik](../../simpleicons/Q/Qwik.png) | [simpleicons/Q/Qwik](../../simpleicons/Q/Qwik.md) |
 | ![illustration of simpleicons/Q/Qwiklabs](../../simpleicons/Q/Qwiklabs.png) | [simpleicons/Q/Qwiklabs](../../simpleicons/Q/Qwiklabs.md) |
 | ![illustration of simpleicons/Q/Qzone](../../simpleicons/Q/Qzone.png) | [simpleicons/Q/Qzone](../../simpleicons/Q/Qzone.md) |

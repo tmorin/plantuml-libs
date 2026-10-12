@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Jira
-include('simpleicons-14/J/Jira')
+include('simpleicons/J/Jira')
 
 ' renders the element
 Jira('Jira', 'Jira', 'an optional tech label', 'an optional description')

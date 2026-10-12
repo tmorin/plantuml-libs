@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/ApplicationIntegration/AmazonMq
+
+sprite $AmazonMqXs [10x10/16z] HKp50G102FgenFxxNeSTW2txbD7EWiI8UIr8DITcPLRHnfh6-ty_uwjyvGu
+
+sprite $AmazonMqSm [12x12/16z] NKw54O002BJusdzVEpZfvfFufFp9940TKRGWhiMnGqhQJHmN5g1GpX7N7VUPljjlTkeODW
+
+sprite $AmazonMqMd [16x16/16z] RK_L0K0X4Fe1JjX_tzUfNdTa0hOlyOOUiIcLIAdY8rX4sI8Sxtw3zZXv-NH08atP8xKxjKcXOaV4wPDd0TjLpycyOTzr3wvx9lVE_dbW1G
+
+sprite $AmazonMqLg [20x20/16z] {
+VL054i0m2BjTGXFO__yxTsbnX_fxcNSz3_Om7yO8WQIerPZLed6K3I5h3JUfgKUGesMDawqgoMr97gF737LafzuS3HCmEBxCaKHm2OI0rKPXoJNShxc2A-yz
+_3VBS-RdRiyR_Dzgwl7t1W
+}
+
+!procedure AmazonMq($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ApplicationIntegration/AmazonMq', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonMqCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonMqLg>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonMqGroup($id, $name='Amazon Mq', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonMqLg>', $name, $tech)
+!endprocedure

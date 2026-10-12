@@ -1,12 +1,15 @@
 ' definition of the Item aws/Resource/GeneralIcons/Servers
 
-sprite $ServersXs [10x10/16z] Oq009YXWOM1WXOemyC800nSKS3Cmy49b4M88TGXPX7a
+sprite $ServersXs [10x10/16z] RSd50S10200m7FPVk3ttV0FK02D2mGmDKxWb4VHSpwjv2QjbaIl17m
 
-sprite $ServersSm [12x12/16z] Oq06t730my2844LbCp620JCZ8mCJiZWZd8qY3kCm0p4ECv7j1G
+sprite $ServersSm [12x12/16z] LSp50K01209G0NF_WN_dkzWQ7YRn14ds45qN9xBpC0K1Ti9_Fy8F6MJcaKOclpk2NU1u_sC5
 
-sprite $ServersMd [16x16/16z] bSor0G0130B0L15W_tNVtV-gA7R4dJJkjkhwsFN7FI1CICIXlyh3ZxoqAjK4gBZ8oySyxMGB
+sprite $ServersMd [16x16/16z] bSo53GDG409Gu3pv-wzRT--BdO87d8WyYw4Cn8L9kkqb5Qapbk2rucILW-KNuVLN7b_dXP_awppSvRLaPxi6keCj
 
-sprite $ServersLg [20x20/16z] fT035aKX543Hyv1h_iFzPiPU39Vax0dmU-GyyB3pQt_SYSmToLs87G21ZqC3U1jnXNmGEkhcykNhXjXItUp-zYF65G
+sprite $ServersLg [20x20/16z] {
+ZT35eOLG303HIHwvCVflzxlWS9QpYN34tSDNe11aWOA05qi1mKP0YI1B1MRHDdvOXnbCd-tFHvkWLKIN6WAK9J_U9Tb8I8_qFncUeEgjhnzQGnLwc8sbFhuj
+aEd93-ROc3do3W
+}
 
 !procedure Servers($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'aws/Resource/GeneralIcons/Servers', $name, $tech, $desc)

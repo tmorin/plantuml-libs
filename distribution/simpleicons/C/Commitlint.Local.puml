@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Commitlint
-include('simpleicons-14/C/Commitlint')
+include('simpleicons/C/Commitlint')
 
 ' renders the element
 Commitlint('Commitlint', 'Commitlint', 'an optional tech label', 'an optional description')

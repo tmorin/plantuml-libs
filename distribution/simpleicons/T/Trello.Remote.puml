@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Trello
-include('simpleicons-14/T/Trello')
+include('simpleicons/T/Trello')
 
 ' renders the element
 Trello('Trello', 'Trello', 'an optional tech label', 'an optional description')

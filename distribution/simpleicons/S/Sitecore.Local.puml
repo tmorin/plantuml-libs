@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Sitecore
-include('simpleicons-14/S/Sitecore')
+include('simpleicons/S/Sitecore')
 
 ' renders the element
 Sitecore('Sitecore', 'Sitecore', 'an optional tech label', 'an optional description')

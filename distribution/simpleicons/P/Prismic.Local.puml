@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Prismic
-include('simpleicons-14/P/Prismic')
+include('simpleicons/P/Prismic')
 
 ' renders the element
 Prismic('Prismic', 'Prismic', 'an optional tech label', 'an optional description')

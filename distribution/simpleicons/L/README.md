@@ -1,6 +1,6 @@
 # L
 
-The module contains 127 items.
+The module contains 133 items.
 
 
 
@@ -11,6 +11,7 @@ The module contains 127 items.
 | ![illustration of simpleicons/L/Lada](../../simpleicons/L/Lada.png) | [simpleicons/L/Lada](../../simpleicons/L/Lada.md) |
 | ![illustration of simpleicons/L/Lamborghini](../../simpleicons/L/Lamborghini.png) | [simpleicons/L/Lamborghini](../../simpleicons/L/Lamborghini.md) |
 | ![illustration of simpleicons/L/Langchain](../../simpleicons/L/Langchain.png) | [simpleicons/L/Langchain](../../simpleicons/L/Langchain.md) |
+| ![illustration of simpleicons/L/Langchaincorporate](../../simpleicons/L/Langchaincorporate.png) | [simpleicons/L/Langchaincorporate](../../simpleicons/L/Langchaincorporate.md) |
 | ![illustration of simpleicons/L/Langflow](../../simpleicons/L/Langflow.png) | [simpleicons/L/Langflow](../../simpleicons/L/Langflow.md) |
 | ![illustration of simpleicons/L/Langgraph](../../simpleicons/L/Langgraph.png) | [simpleicons/L/Langgraph](../../simpleicons/L/Langgraph.md) |
 | ![illustration of simpleicons/L/Languagetool](../../simpleicons/L/Languagetool.png) | [simpleicons/L/Languagetool](../../simpleicons/L/Languagetool.md) |
@@ -78,6 +79,7 @@ The module contains 127 items.
 | ![illustration of simpleicons/L/Linkfire](../../simpleicons/L/Linkfire.png) | [simpleicons/L/Linkfire](../../simpleicons/L/Linkfire.md) |
 | ![illustration of simpleicons/L/Linksys](../../simpleicons/L/Linksys.png) | [simpleicons/L/Linksys](../../simpleicons/L/Linksys.md) |
 | ![illustration of simpleicons/L/Linktree](../../simpleicons/L/Linktree.png) | [simpleicons/L/Linktree](../../simpleicons/L/Linktree.md) |
+| ![illustration of simpleicons/L/Linkvertise](../../simpleicons/L/Linkvertise.png) | [simpleicons/L/Linkvertise](../../simpleicons/L/Linkvertise.md) |
 | ![illustration of simpleicons/L/Linphone](../../simpleicons/L/Linphone.png) | [simpleicons/L/Linphone](../../simpleicons/L/Linphone.md) |
 | ![illustration of simpleicons/L/Lintcode](../../simpleicons/L/Lintcode.png) | [simpleicons/L/Lintcode](../../simpleicons/L/Lintcode.md) |
 | ![illustration of simpleicons/L/Linux](../../simpleicons/L/Linux.png) | [simpleicons/L/Linux](../../simpleicons/L/Linux.md) |
@@ -100,18 +102,22 @@ The module contains 127 items.
 | ![illustration of simpleicons/L/Livewire](../../simpleicons/L/Livewire.png) | [simpleicons/L/Livewire](../../simpleicons/L/Livewire.md) |
 | ![illustration of simpleicons/L/Llvm](../../simpleicons/L/Llvm.png) | [simpleicons/L/Llvm](../../simpleicons/L/Llvm.md) |
 | ![illustration of simpleicons/L/Lmms](../../simpleicons/L/Lmms.png) | [simpleicons/L/Lmms](../../simpleicons/L/Lmms.md) |
+| ![illustration of simpleicons/L/Lmstudio](../../simpleicons/L/Lmstudio.png) | [simpleicons/L/Lmstudio](../../simpleicons/L/Lmstudio.md) |
 | ![illustration of simpleicons/L/Lobsters](../../simpleicons/L/Lobsters.png) | [simpleicons/L/Lobsters](../../simpleicons/L/Lobsters.md) |
 | ![illustration of simpleicons/L/Local](../../simpleicons/L/Local.png) | [simpleicons/L/Local](../../simpleicons/L/Local.md) |
 | ![illustration of simpleicons/L/Localsend](../../simpleicons/L/Localsend.png) | [simpleicons/L/Localsend](../../simpleicons/L/Localsend.md) |
 | ![illustration of simpleicons/L/Localxpose](../../simpleicons/L/Localxpose.png) | [simpleicons/L/Localxpose](../../simpleicons/L/Localxpose.md) |
+| ![illustration of simpleicons/L/Locust](../../simpleicons/L/Locust.png) | [simpleicons/L/Locust](../../simpleicons/L/Locust.md) |
 | ![illustration of simpleicons/L/Lodash](../../simpleicons/L/Lodash.png) | [simpleicons/L/Lodash](../../simpleicons/L/Lodash.md) |
 | ![illustration of simpleicons/L/Logmein](../../simpleicons/L/Logmein.png) | [simpleicons/L/Logmein](../../simpleicons/L/Logmein.md) |
 | ![illustration of simpleicons/L/Logseq](../../simpleicons/L/Logseq.png) | [simpleicons/L/Logseq](../../simpleicons/L/Logseq.md) |
 | ![illustration of simpleicons/L/Logstash](../../simpleicons/L/Logstash.png) | [simpleicons/L/Logstash](../../simpleicons/L/Logstash.md) |
+| ![illustration of simpleicons/L/Longhorn](../../simpleicons/L/Longhorn.png) | [simpleicons/L/Longhorn](../../simpleicons/L/Longhorn.md) |
 | ![illustration of simpleicons/L/Looker](../../simpleicons/L/Looker.png) | [simpleicons/L/Looker](../../simpleicons/L/Looker.md) |
 | ![illustration of simpleicons/L/Loom](../../simpleicons/L/Loom.png) | [simpleicons/L/Loom](../../simpleicons/L/Loom.md) |
 | ![illustration of simpleicons/L/Loop](../../simpleicons/L/Loop.png) | [simpleicons/L/Loop](../../simpleicons/L/Loop.md) |
 | ![illustration of simpleicons/L/Loopback](../../simpleicons/L/Loopback.png) | [simpleicons/L/Loopback](../../simpleicons/L/Loopback.md) |
+| ![illustration of simpleicons/L/Loops](../../simpleicons/L/Loops.png) | [simpleicons/L/Loops](../../simpleicons/L/Loops.md) |
 | ![illustration of simpleicons/L/Lootcrate](../../simpleicons/L/Lootcrate.png) | [simpleicons/L/Lootcrate](../../simpleicons/L/Lootcrate.md) |
 | ![illustration of simpleicons/L/Lospec](../../simpleicons/L/Lospec.png) | [simpleicons/L/Lospec](../../simpleicons/L/Lospec.md) |
 | ![illustration of simpleicons/L/Lotpolishairlines](../../simpleicons/L/Lotpolishairlines.png) | [simpleicons/L/Lotpolishairlines](../../simpleicons/L/Lotpolishairlines.md) |

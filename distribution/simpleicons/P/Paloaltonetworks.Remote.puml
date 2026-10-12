@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Paloaltonetworks
-include('simpleicons-14/P/Paloaltonetworks')
+include('simpleicons/P/Paloaltonetworks')
 
 ' renders the element
 Paloaltonetworks('Paloaltonetworks', 'Paloaltonetworks', 'an optional tech label', 'an optional description')

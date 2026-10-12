@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsResourceAccessManager
+
+sprite $AwsResourceAccessManagerXs [10x10/16z] JOYr0G1H58EQ5s7_WS_bqoJ0JnmV11mriiysZiwMerN9sToxkUEwv_FCA0QQj6LX1m
+
+sprite $AwsResourceAccessManagerSm [12x12/16z] POg34S0000EBSF-5UxN-4FQ53rPBowRejJPgIgiNgHpUOaDvzMjbKSS_aRrwUOQOjGyr0p3JbQG_5W
+
+sprite $AwsResourceAccessManagerMd [16x16/16z] ZOgt0SD04CCS67__VHNFjOME1FeNyqQ4pqr5Teo8rqw-MgNeU_kZZ_CDDDjKrd5aUa4DoDd2Gi85ZoTuv4Hc5r2J_hO1WiZT2_hYn51lJ2Tzn0u
+
+sprite $AwsResourceAccessManagerLg [20x20/16z] {
+fOy5ZiC040ELZ1US-_zxmoI-jYEB5cr_GB_m0I2TWcCA--XdsFHUaysubQImhXfPs4DFGrsr6gMnfe9yvfnrtRjh4caZwQurVyQRzFuHOPF9K-kWx9JUFqAA
+xfvyrLY5Ge8hXo7H1YhmGJjHhjZj7ra
+}
+
+!procedure AwsResourceAccessManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsResourceAccessManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsResourceAccessManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsResourceAccessManagerLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsResourceAccessManagerGroup($id, $name='Aws Resource Access Manager', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsResourceAccessManagerLg>', $name, $tech)
+!endprocedure

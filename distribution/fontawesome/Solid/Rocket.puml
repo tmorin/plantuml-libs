@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Rocket
 
-sprite $RocketXs [10x10/16z] Oq03_400OK1OR6mW4eZvmO2Ndu4BI44aEQ4Ck4u6x2m
+sprite $RocketXs [10x10/16z] FSR50S0m0CImSvcz_xJbH2_bHTDyMTItktJtbktG8AEV9Nxs19YVlD2jRYaRSxi
 
-sprite $RocketSm [12x12/16z] PSQt0S0W34N1HsW0IN__QPsphph-YgJ2HYi_6bGPIQi1AkX2lrg9kvkwr3XyFkvt5ZC
+sprite $RocketSm [12x12/16z] FOs50G0G54Hry_QVLlCxxyGLALzb6d3AI8qmDqewcFtq2e0HjGbFWzlo94m4Qps0kuYhUV2MXlerzRFYTnu
 
-sprite $RocketMd [16x16/16z] ZOu30W0X50KpFkz_shNPnEabyqvXAhlfn6fHJ-wcQPWy4j4I3TqKJGH3eo-shi5HvHppTFK0Jvekdt6xSukR7HgVdkW1
+sprite $RocketMd [16x16/16z] XSV50SKm04EnLswJsDv_si-CkeblXgt92nUTScGkJR8iYIvNii2I1htjvF8Db8jbIGRcF13aKGUoVPawBagEk3lMtFd_rNEdp9pj0G
 
-sprite $RocketLg [20x20/16z] bOg54S0m4CCSvdZ_QSlCLV1rmYjIARaJYYDOoJmvykGAIGVeoIbhRPY3yQcSCO0YCo2vKikOyK2NnPsupj0HpcgcdXNaXHE_NBrms4DIpVyM
+sprite $RocketLg [20x20/16z] {
+XO-54G0X3C2270xTVzftr-31MdvGBiGG53kwo4JObPE5S5B5-AFJCW2usTcSSsg3ge0HSVE91Gj5H8tzJXqVdTy-eU6g7F2Wi6x0jzaqpOwQPUA8drm-EVTm
+phsUipTND2Vct1Tw
+}
 
 !procedure Rocket($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Rocket', $name, $tech, $desc)

@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsSecurityIncidentResponse
+
+sprite $AwsSecurityIncidentResponseXs [10x10/16z] LKj50S103Fi4_GiUxw3SGBTmykp8n7FTnuFQ0cIlLsF0UeIGz9dpx1ad
+
+sprite $AwsSecurityIncidentResponseSm [12x12/16z] VOkd0G0n30E1hBR_m5z3aoEsMlT44lA_jCNVbWam-luEEVaIvlsxV06A_l58NcEFf1wu0G
+
+sprite $AwsSecurityIncidentResponseMd [16x16/16z] ZSf74aGX54BHAkK-mVtljwDX-i-Ca6VySHE2ravKnQPMcbMMX3FM7DIxY7xHJ0HYuflhv2YbBjNwPoJwc5IMpXY6B6u2LGx7pZDl
+
+sprite $AwsSecurityIncidentResponseLg [20x20/16z] {
+hOl75GDG3CBoFjW6zjytlUUIfYD8_fIyJjEjrltIO1KsbTjKKEp1t5jHaLHyhI6j8cl9E4_330cG4vxoT6LGtOL9TQuR3nlFsxKbxrgRCWieHl2L34ZQcDl6
+9Sb2-yPQP07ZEsOq8_-17G
+}
+
+!procedure AwsSecurityIncidentResponse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsSecurityIncidentResponse', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSecurityIncidentResponseCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSecurityIncidentResponseLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsSecurityIncidentResponseGroup($id, $name='Aws Security Incident Response', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsSecurityIncidentResponseLg>', $name, $tech)
+!endprocedure

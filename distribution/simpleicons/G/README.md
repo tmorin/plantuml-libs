@@ -1,6 +1,6 @@
 # G
 
-The module contains 182 items.
+The module contains 185 items.
 
 
 
@@ -35,6 +35,7 @@ The module contains 182 items.
 | ![illustration of simpleicons/G/Getx](../../simpleicons/G/Getx.png) | [simpleicons/G/Getx](../../simpleicons/G/Getx.md) |
 | ![illustration of simpleicons/G/Ghost](../../simpleicons/G/Ghost.png) | [simpleicons/G/Ghost](../../simpleicons/G/Ghost.md) |
 | ![illustration of simpleicons/G/Ghostery](../../simpleicons/G/Ghostery.png) | [simpleicons/G/Ghostery](../../simpleicons/G/Ghostery.md) |
+| ![illustration of simpleicons/G/Ghostfolio](../../simpleicons/G/Ghostfolio.png) | [simpleicons/G/Ghostfolio](../../simpleicons/G/Ghostfolio.md) |
 | ![illustration of simpleicons/G/Ghostty](../../simpleicons/G/Ghostty.png) | [simpleicons/G/Ghostty](../../simpleicons/G/Ghostty.md) |
 | ![illustration of simpleicons/G/Gimp](../../simpleicons/G/Gimp.png) | [simpleicons/G/Gimp](../../simpleicons/G/Gimp.md) |
 | ![illustration of simpleicons/G/Gin](../../simpleicons/G/Gin.png) | [simpleicons/G/Gin](../../simpleicons/G/Gin.md) |
@@ -59,6 +60,7 @@ The module contains 182 items.
 | ![illustration of simpleicons/G/Gitpod](../../simpleicons/G/Gitpod.png) | [simpleicons/G/Gitpod](../../simpleicons/G/Gitpod.md) |
 | ![illustration of simpleicons/G/Gitter](../../simpleicons/G/Gitter.png) | [simpleicons/G/Gitter](../../simpleicons/G/Gitter.md) |
 | ![illustration of simpleicons/G/Glance](../../simpleicons/G/Glance.png) | [simpleicons/G/Glance](../../simpleicons/G/Glance.md) |
+| ![illustration of simpleicons/G/Glass](../../simpleicons/G/Glass.png) | [simpleicons/G/Glass](../../simpleicons/G/Glass.md) |
 | ![illustration of simpleicons/G/Glassdoor](../../simpleicons/G/Glassdoor.png) | [simpleicons/G/Glassdoor](../../simpleicons/G/Glassdoor.md) |
 | ![illustration of simpleicons/G/Gldotinet](../../simpleicons/G/Gldotinet.png) | [simpleicons/G/Gldotinet](../../simpleicons/G/Gldotinet.md) |
 | ![illustration of simpleicons/G/Gleam](../../simpleicons/G/Gleam.png) | [simpleicons/G/Gleam](../../simpleicons/G/Gleam.md) |
@@ -81,6 +83,7 @@ The module contains 182 items.
 | ![illustration of simpleicons/G/Gocd](../../simpleicons/G/Gocd.png) | [simpleicons/G/Gocd](../../simpleicons/G/Gocd.md) |
 | ![illustration of simpleicons/G/Godaddy](../../simpleicons/G/Godaddy.png) | [simpleicons/G/Godaddy](../../simpleicons/G/Godaddy.md) |
 | ![illustration of simpleicons/G/Godotengine](../../simpleicons/G/Godotengine.png) | [simpleicons/G/Godotengine](../../simpleicons/G/Godotengine.md) |
+| ![illustration of simpleicons/G/Godox](../../simpleicons/G/Godox.png) | [simpleicons/G/Godox](../../simpleicons/G/Godox.md) |
 | ![illustration of simpleicons/G/Gofundme](../../simpleicons/G/Gofundme.png) | [simpleicons/G/Gofundme](../../simpleicons/G/Gofundme.md) |
 | ![illustration of simpleicons/G/Gogdotcom](../../simpleicons/G/Gogdotcom.png) | [simpleicons/G/Gogdotcom](../../simpleicons/G/Gogdotcom.md) |
 | ![illustration of simpleicons/G/Gojek](../../simpleicons/G/Gojek.png) | [simpleicons/G/Gojek](../../simpleicons/G/Gojek.md) |

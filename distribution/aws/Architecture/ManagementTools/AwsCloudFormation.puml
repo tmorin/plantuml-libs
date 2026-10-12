@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsCloudFormation
+
+sprite $AwsCloudFormationXs [10x10/16z] BKk34G0m43irsd_WlXqaSLLr3_VTW03sGG0c2k4Z636DDQowAAfjVRMeIr8ZNHSV
+
+sprite $AwsCloudFormationSm [12x12/16z] FOt50S0m30DVEalUVzysV8cPUf11BxPDdmYoeuIoo0WibTB5z55Hxl673uKWopUsLtybU6-rG5bNygwUWuSV
+
+sprite $AwsCloudFormationMd [16x16/16z] TObLWWL0281-Z87x7tXrNnUJe5zXUDPBky_iYBxbFIcHBQkTbPamxnXcLPkeqOBLKJtjG5vyP4vrrisjiq5T7ydZ1TplNi35ex82yG9dm9_0ShC_
+
+sprite $AwsCloudFormationLg [20x20/16z] {
+XOy5ZWGn30IbYUs6_F-z0u7ZsoqBo-nNIB-LhTz6NslraAsblzTcsXd5BGaW0Jko3IchvSD1ssZoY52MUuukn7ACoCnA5XtoT7M3Ae9ekow3lPHnm-sUYg1k
+xDsRAWJtryEvs_tf6cRVLrc7lZw6Ue3y1WtUb5q
+}
+
+!procedure AwsCloudFormation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsCloudFormation', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudFormationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudFormationLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudFormationGroup($id, $name='Aws Cloud Formation', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsCloudFormationLg>', $name, $tech)
+!endprocedure

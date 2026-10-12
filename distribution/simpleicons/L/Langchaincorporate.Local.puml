@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Langchaincorporate
+include('simpleicons/L/Langchaincorporate')
+
+' renders the element
+Langchaincorporate('Langchaincorporate', 'Langchaincorporate', 'an optional tech label', 'an optional description')
+@enduml

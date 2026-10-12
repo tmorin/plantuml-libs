@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Vitess
-include('simpleicons-14/V/Vitess')
+include('simpleicons/V/Vitess')
 
 ' renders the element
 Vitess('Vitess', 'Vitess', 'an optional tech label', 'an optional description')

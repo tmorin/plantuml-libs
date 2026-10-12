@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/C/Cachyos
+
+sprite $CachyosXs [10x10/16z] JSd50G0W509Gx9RzjnLkFlsDpzhxT4YZ13M1Z2fPDnR8q6U5fGrVtGraseNClTU9-3m
+
+sprite $CachyosSm [12x12/16z] LSsn0G0G0CJ0002__xIWSrMwy74bfLGCbww1iP2aMghXC5BY20cw9fVtK6u_iI1bdYQ2L8yMEQOUms7kAtj-6m
+
+sprite $CachyosMd [16x16/16z] PS-54O0m40NHnPtjlreaVpAMXyPEeDK5n6LnGvcQZ1uMW2ow4QlQ9Kp_lzIPuZR1Bc8OWAq4hlOHTO6Oz7_iYMwV_mXH3_PM0mbY76q_hHS
+
+sprite $CachyosLg [20x20/16z] {
+bT2r0G0X40J0nHtwx_Qn_OiP8kmC3s8jHmQPGHRm2alZKGKGzfaVf41ZIahF1Khpg7DJ6YOz9YT_r4rGGThmQmE4oHfz7dg8kOLZ5VzPFn6p9YYdRcRYZpoe
+I-GXXo37MLM35ny
+}
+
+!procedure Cachyos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/C/Cachyos', $name, $tech, $desc)
+!endprocedure

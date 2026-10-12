@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ApplicationIntegration/AmazonManagedWorkflowsForApacheAirflow
+
+sprite $AmazonManagedWorkflowsForApacheAirflowXs [10x10/16z] HKo34G0m33pbjV--jHkydCHPHL1CZWt4sCOQJWp5XCK1rS8eBanmVB3Xg8cP0vksdzm1
+
+sprite $AmazonManagedWorkflowsForApacheAirflowSm [12x12/16z] JKs30G0147h5_VTzwypgNsAbjNr4KWs8evROa7GRA7jzpK6RRoqBrmtLzuRK-tl404kwwrxUNATTiW4
+
+sprite $AmazonManagedWorkflowsForApacheAirflowMd [16x16/16z] {
+TKy50iGm33efKFZ_VxSrEPTAN23nSLAgTUgqSXm1B4KeTg0vifJWycTmA0giF05aAGhjromQrrGzWKaDWNpr-QVU63CEZzFrycXVvNTV80mVEZMWy59FDdwo
+UkEx0m
+}
+
+sprite $AmazonManagedWorkflowsForApacheAirflowLg [20x20/16z] {
+TP05SWGn30IhLYEOtl-_Ds25SsTsYmLW6_QsUJhyNyyHYi5CI4g3iOmQqwBB-33kF2mxCfU5ybgc9jPXTRVzpaQgJxq6O19Td_ucOxfAMTc2topNd_7rPMj5
+Oy2UWHE3JHvJ8S4xo_Bcul2jFgooWpDY77COgRLb8Wh_w07B_RjN2v-DJxrN
+}
+
+!procedure AmazonManagedWorkflowsForApacheAirflow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ApplicationIntegration/AmazonManagedWorkflowsForApacheAirflow', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonManagedWorkflowsForApacheAirflowCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonManagedWorkflowsForApacheAirflowLg>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonManagedWorkflowsForApacheAirflowGroup($id, $name='Amazon Managed Workflows For Apache Airflow', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonManagedWorkflowsForApacheAirflowLg>', $name, $tech)
+!endprocedure

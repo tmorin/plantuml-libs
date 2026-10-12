@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Mercadopago
-include('simpleicons-14/M/Mercadopago')
+include('simpleicons/M/Mercadopago')
 
 ' renders the element
 Mercadopago('Mercadopago', 'Mercadopago', 'an optional tech label', 'an optional description')

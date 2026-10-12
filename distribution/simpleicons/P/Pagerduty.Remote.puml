@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Pagerduty
-include('simpleicons-14/P/Pagerduty')
+include('simpleicons/P/Pagerduty')
 
 ' renders the element
 Pagerduty('Pagerduty', 'Pagerduty', 'an optional tech label', 'an optional description')

@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Messenger
-include('simpleicons-14/M/Messenger')
+include('simpleicons/M/Messenger')
 
 ' renders the element
 Messenger('Messenger', 'Messenger', 'an optional tech label', 'an optional description')

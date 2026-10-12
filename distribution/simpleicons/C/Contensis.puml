@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/C/Contensis
+
+sprite $ContensisXs [10x10/16z] 9Oor0G0m20JHABB_j55ugmxkOOVVElEDxZEodk5LKfgFiw0RZJ7lqgRERu4LkXMYXw5n61QCRWZdE59ERG
+
+sprite $ContensisSm [12x12/16z] DOtL0GDG30BlkGRsdxRU-ua2VBdyoSFrszLOzkUGvEvpD1BSpN8fsWUKy2p3FK0PzNfsqQTFTsxokwzq0LNGF7U6wGQawreTwHVcR-mJ
+
+sprite $ContensisMd [16x16/16z] {
+JO_L0SHG40BPvpxzLtiNJ-Pl5T1DolfYyAbA7f3kAj0ACCxABNfYjhMYFm-zGRQn2YP5J8KPrOZ4lPOQ8QI5l-kCJtvstRMLMWhsrFA4RBfg9qVNXjjhWnId
+sye4jXlepBIRPDZZS0oMqqDwqlm1
+}
+
+sprite $ContensisLg [20x20/16z] {
+NP25WSL020NVkiBqN-tfZqwoXeDkMD2RpdWAOax0mt1G7AWwgP0dWEb3TgW3snDF-J3Q8SDC3Ug_EnG9VAWkYY4fO5B6vb24j0Ydp6FExiHzoYAefsOcEsMo
+KPSsyIvJfcsI7Z8ZHEaZ4x-xVVeFy7iigBybVEfV-cN2BabIDfZw9nci63POqabs0C_l8TFruHi
+}
+
+!procedure Contensis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/C/Contensis', $name, $tech, $desc)
+!endprocedure

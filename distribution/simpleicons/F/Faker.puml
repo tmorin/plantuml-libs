@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/F/Faker
+
+sprite $FakerXs [10x10/16z] 7OY50SHG24DVGhyB-qzxKeZpdkuGhIhSC_VA3S3Ekm1rQJr-yeSC4_S4loOyAWyW3Ew2WWJmpc4v35y
+
+sprite $FakerSm [12x12/16z] BOU5OKLH349FoBikx3zj-ms77_ef40bIiptItXcWxMjFlZWUXWUT5MegSIrvEnBrlOEqILJzH04G8j3p08K8oFwEV5_UU0HGf2m9_0C
+
+sprite $FakerMd [16x16/16z] {
+JSk50GGW243HZuI5n_xJNjSpANxcSVwCkbFQIHVlqVCHRttSneEiUig_aSkimvCjXnfQYjT2QsKIZObM5bANLKPWvCmDabN1GELKDLjW1ew8rO36au4-Nriy
+B720xl5y6kYpzNaDVIQ51x7tXmYp6FwCRW
+}
+
+sprite $FakerLg [20x20/16z] {
+LSs5WGGX44JHtxR8IEUVxM5dRvGgX7_g4y9_FOS6g2lhOpMN3_9aFb5xk7jzS-XwggFaC9j7-14ZkaR4OGQqx9wfe0wCEXr9aRpNw4RpZff61wlKR4_2Cvfy
+yK22h2NBEVI5DZB99nChXjsFpOnWr8LIbEq31RqA83XB0nS6ZtBlJ2wGOBgaoFa1Aaln7TbUnW-_bAMTK3_zj_PMIcczACiN
+}
+
+!procedure Faker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/F/Faker', $name, $tech, $desc)
+!endprocedure

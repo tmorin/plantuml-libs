@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Rust
-include('simpleicons-14/R/Rust')
+include('simpleicons/R/Rust')
 
 ' renders the element
 Rust('Rust', 'Rust', 'an optional tech label', 'an optional description')

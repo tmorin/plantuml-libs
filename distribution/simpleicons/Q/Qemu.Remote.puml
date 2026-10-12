@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Qemu
-include('simpleicons-14/Q/Qemu')
+include('simpleicons/Q/Qemu')
 
 ' renders the element
 Qemu('Qemu', 'Qemu', 'an optional tech label', 'an optional description')

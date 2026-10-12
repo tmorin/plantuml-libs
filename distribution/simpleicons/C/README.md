@@ -1,6 +1,6 @@
 # C
 
-The module contains 244 items.
+The module contains 250 items.
 
 
 
@@ -8,6 +8,7 @@ The module contains 244 items.
 |:---:|---|
 | ![illustration of simpleicons/C/C](../../simpleicons/C/C.png) | [simpleicons/C/C](../../simpleicons/C/C.md) |
 | ![illustration of simpleicons/C/Cachet](../../simpleicons/C/Cachet.png) | [simpleicons/C/Cachet](../../simpleicons/C/Cachet.md) |
+| ![illustration of simpleicons/C/Cachyos](../../simpleicons/C/Cachyos.png) | [simpleicons/C/Cachyos](../../simpleicons/C/Cachyos.md) |
 | ![illustration of simpleicons/C/Caddy](../../simpleicons/C/Caddy.png) | [simpleicons/C/Caddy](../../simpleicons/C/Caddy.md) |
 | ![illustration of simpleicons/C/Cadillac](../../simpleicons/C/Cadillac.png) | [simpleicons/C/Cadillac](../../simpleicons/C/Cadillac.md) |
 | ![illustration of simpleicons/C/Cafepress](../../simpleicons/C/Cafepress.png) | [simpleicons/C/Cafepress](../../simpleicons/C/Cafepress.md) |
@@ -80,6 +81,7 @@ The module contains 244 items.
 | ![illustration of simpleicons/C/Cilium](../../simpleicons/C/Cilium.png) | [simpleicons/C/Cilium](../../simpleicons/C/Cilium.md) |
 | ![illustration of simpleicons/C/Cinema4D](../../simpleicons/C/Cinema4D.png) | [simpleicons/C/Cinema4D](../../simpleicons/C/Cinema4D.md) |
 | ![illustration of simpleicons/C/Cinnamon](../../simpleicons/C/Cinnamon.png) | [simpleicons/C/Cinnamon](../../simpleicons/C/Cinnamon.md) |
+| ![illustration of simpleicons/C/Cinny](../../simpleicons/C/Cinny.png) | [simpleicons/C/Cinny](../../simpleicons/C/Cinny.md) |
 | ![illustration of simpleicons/C/Circle](../../simpleicons/C/Circle.png) | [simpleicons/C/Circle](../../simpleicons/C/Circle.md) |
 | ![illustration of simpleicons/C/Circleci](../../simpleicons/C/Circleci.png) | [simpleicons/C/Circleci](../../simpleicons/C/Circleci.md) |
 | ![illustration of simpleicons/C/Circuitverse](../../simpleicons/C/Circuitverse.png) | [simpleicons/C/Circuitverse](../../simpleicons/C/Circuitverse.md) |
@@ -93,10 +95,12 @@ The module contains 244 items.
 | ![illustration of simpleicons/C/Claris](../../simpleicons/C/Claris.png) | [simpleicons/C/Claris](../../simpleicons/C/Claris.md) |
 | ![illustration of simpleicons/C/Clarivate](../../simpleicons/C/Clarivate.png) | [simpleicons/C/Clarivate](../../simpleicons/C/Clarivate.md) |
 | ![illustration of simpleicons/C/Claude](../../simpleicons/C/Claude.png) | [simpleicons/C/Claude](../../simpleicons/C/Claude.md) |
+| ![illustration of simpleicons/C/Claudecode](../../simpleicons/C/Claudecode.png) | [simpleicons/C/Claudecode](../../simpleicons/C/Claudecode.md) |
 | ![illustration of simpleicons/C/Clerk](../../simpleicons/C/Clerk.png) | [simpleicons/C/Clerk](../../simpleicons/C/Clerk.md) |
 | ![illustration of simpleicons/C/Clevercloud](../../simpleicons/C/Clevercloud.png) | [simpleicons/C/Clevercloud](../../simpleicons/C/Clevercloud.md) |
 | ![illustration of simpleicons/C/Clickhouse](../../simpleicons/C/Clickhouse.png) | [simpleicons/C/Clickhouse](../../simpleicons/C/Clickhouse.md) |
 | ![illustration of simpleicons/C/Clickup](../../simpleicons/C/Clickup.png) | [simpleicons/C/Clickup](../../simpleicons/C/Clickup.md) |
+| ![illustration of simpleicons/C/Cline](../../simpleicons/C/Cline.png) | [simpleicons/C/Cline](../../simpleicons/C/Cline.md) |
 | ![illustration of simpleicons/C/Clion](../../simpleicons/C/Clion.png) | [simpleicons/C/Clion](../../simpleicons/C/Clion.md) |
 | ![illustration of simpleicons/C/Clockify](../../simpleicons/C/Clockify.png) | [simpleicons/C/Clockify](../../simpleicons/C/Clockify.md) |
 | ![illustration of simpleicons/C/Clojure](../../simpleicons/C/Clojure.png) | [simpleicons/C/Clojure](../../simpleicons/C/Clojure.md) |
@@ -131,6 +135,7 @@ The module contains 244 items.
 | ![illustration of simpleicons/C/Codacy](../../simpleicons/C/Codacy.png) | [simpleicons/C/Codacy](../../simpleicons/C/Codacy.md) |
 | ![illustration of simpleicons/C/Codeberg](../../simpleicons/C/Codeberg.png) | [simpleicons/C/Codeberg](../../simpleicons/C/Codeberg.md) |
 | ![illustration of simpleicons/C/Codeblocks](../../simpleicons/C/Codeblocks.png) | [simpleicons/C/Codeblocks](../../simpleicons/C/Codeblocks.md) |
+| ![illustration of simpleicons/C/Codebuddy](../../simpleicons/C/Codebuddy.png) | [simpleicons/C/Codebuddy](../../simpleicons/C/Codebuddy.md) |
 | ![illustration of simpleicons/C/Codecademy](../../simpleicons/C/Codecademy.png) | [simpleicons/C/Codecademy](../../simpleicons/C/Codecademy.md) |
 | ![illustration of simpleicons/C/Codeceptjs](../../simpleicons/C/Codeceptjs.png) | [simpleicons/C/Codeceptjs](../../simpleicons/C/Codeceptjs.md) |
 | ![illustration of simpleicons/C/Codechef](../../simpleicons/C/Codechef.png) | [simpleicons/C/Codechef](../../simpleicons/C/Codechef.md) |
@@ -185,6 +190,7 @@ The module contains 244 items.
 | ![illustration of simpleicons/C/Contactlesspayment](../../simpleicons/C/Contactlesspayment.png) | [simpleicons/C/Contactlesspayment](../../simpleicons/C/Contactlesspayment.md) |
 | ![illustration of simpleicons/C/Containerd](../../simpleicons/C/Containerd.png) | [simpleicons/C/Containerd](../../simpleicons/C/Containerd.md) |
 | ![illustration of simpleicons/C/Contao](../../simpleicons/C/Contao.png) | [simpleicons/C/Contao](../../simpleicons/C/Contao.md) |
+| ![illustration of simpleicons/C/Contensis](../../simpleicons/C/Contensis.png) | [simpleicons/C/Contensis](../../simpleicons/C/Contensis.md) |
 | ![illustration of simpleicons/C/Contentful](../../simpleicons/C/Contentful.png) | [simpleicons/C/Contentful](../../simpleicons/C/Contentful.md) |
 | ![illustration of simpleicons/C/Contentstack](../../simpleicons/C/Contentstack.png) | [simpleicons/C/Contentstack](../../simpleicons/C/Contentstack.md) |
 | ![illustration of simpleicons/C/Continente](../../simpleicons/C/Continente.png) | [simpleicons/C/Continente](../../simpleicons/C/Continente.md) |

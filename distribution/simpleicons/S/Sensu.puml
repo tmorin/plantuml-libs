@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/S/Sensu
+' definition of the Item simpleicons/S/Sensu
 
-sprite $SensuXs [10x10/16z] BOp50G0W30Fpmk7sdnPBhwvw50KGASWfb_LIc5ueoA121iHxyPmd6ITEBmS
+sprite $SensuXs [10x10/16z] 9SR50G0n30InELY7u_wh3UebbX2ubBFO_WvDEruN5zO_bg-RLNXVg8Qyf5HSW3fqiQaKSPcnJ
 
-sprite $SensuSm [12x12/16z] HOhL0O1G58MmM_RVrkjBlav0OgVnklM8Quj4oJ6pHlJc9yekP0PPPL67Y4HnYfh_nIHaLdFC9SSF
+sprite $SensuSm [12x12/16z] POw54O1G34FxxzBWlFsdnPswDx6I7ISbv1L678ce9ACjf6lRZYKnUKxQBBwKnU0r7nVQ-qA7sP88zFzrOPW1
 
-sprite $SensuMd [16x16/16z] LOw50SGW0CJkfJXa_sbhUD0SgeRJ1jXL2mcpwbSHiweKC5qBGAO6ZnJl8hm1y57b0Ej8sxEonESxmLIL38cE7amTVp3k2Nrp3sBJXg5h3xfU
+sprite $SensuMd [16x16/16z] {
+LK-30G0n3Ao2v-q_RStOC0sOpGu129jB405jRgvcq7GlwvozGDsTG6tKoyvQnsyPodZScECUC4FN7W7dUZ7q_Fz3sGrztglwzdbbubtKFKyiBRsu1yvxpt_E
+VnC
+}
 
 sprite $SensuLg [20x20/16z] {
-POq74eH03CDCx-J_lpt7RCs9hj5W57RyyTgAW94zLZVr6YhTzxuYAcjr6datbhbgMVFYCy9Pq_gRUp7SB7Up0Is76HPUpZWEMG4imK4XvInQEVRpqqAbI5Kk
-euB_BogLKQcK2YKoFm
+PT074iKW20HG81FiUl_RVcP_OpQRwhChtxWBvpxdVj3UWTHADLeIYMGCsYQgOXluQRNcYOo5bY2KUn_n0OAA2g85w26I4kfXcat3FkimByNjinwinDT1bkyq
+SRlCheOPyZOU6pb6H6V0PqL8H6V_0W
 }
 
 !procedure Sensu($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/S/Sensu', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/S/Sensu', $name, $tech, $desc)
 !endprocedure

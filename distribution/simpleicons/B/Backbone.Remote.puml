@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Backbone
-include('simpleicons-14/B/Backbone')
+include('simpleicons/B/Backbone')
 
 ' renders the element
 Backbone('Backbone', 'Backbone', 'an optional tech label', 'an optional description')

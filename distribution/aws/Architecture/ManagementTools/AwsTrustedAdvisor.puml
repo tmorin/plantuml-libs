@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsTrustedAdvisor
+
+sprite $AwsTrustedAdvisorXs [10x10/16z] LKl70G111FmmgV-2R_4wsOJyGjhbe1i7WUp5_2xOZsI_u3lS1DX-h494Flkjswy_
+
+sprite $AwsTrustedAdvisorSm [12x12/16z] HSot0S1034BH2lZI_WFRbnLVHVzLStOzLgJKL2DR_9Y6wRzH8dxyOqloDBB-oN3ILiSxE3dnzUx31m
+
+sprite $AwsTrustedAdvisorMd [16x16/16z] RS_50S0m30F0ZotQVzyoDogUmzbZPyyjtqoaFCYkQjw5tkBRa7ZQcxdQ6sM0H4lnPh2N49kNe5ONlBjBxAQgzl7aKkk4kFUBTcvjZpzdoZ0p
+
+sprite $AwsTrustedAdvisorLg [20x20/16z] {
+VP054aGn24D7YD3x7tZpbVNKtnHTVzJHExdsGPcYjyiW0rK5hHv616QzCbaklZABnh2SE-jY7YTI2vIojNQOpTLWLJwNvsFb3y8d6HOsLGPFqwwO6DdsM-zG
+p8dA9gxHV9ckP0Jbzl9lclBo-PyU
+}
+
+!procedure AwsTrustedAdvisor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsTrustedAdvisor', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsTrustedAdvisorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsTrustedAdvisorGroup($id, $name='Aws Trusted Advisor', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsTrustedAdvisorLg>', $name, $tech)
+!endprocedure

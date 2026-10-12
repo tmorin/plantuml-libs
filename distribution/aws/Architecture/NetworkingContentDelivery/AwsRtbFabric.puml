@@ -1,0 +1,21 @@
+' definition of the Item aws/Architecture/NetworkingContentDelivery/AwsRtbFabric
+
+sprite $AwsRtbFabricXs [10x10/16z] HKo50OG04FgGsdzXBuph0Ep4QoAjSWV4SU1WBA3EgCceLhDd0clgxzAQmRRqgZBxLJu1
+
+sprite $AwsRtbFabricSm [12x12/16z] LOw50S0W30HhBzb_uUAGG-9YHtWXJYq4VaIXwG8-u5N9BMvBHD6314WdFUVKFd21RFg7ofXLCjixTlW1
+
+sprite $AwsRtbFabricMd [16x16/16z] TO_50GC1408ZQFy5HyvrVgj0phJTbWAuAGi5n0z2dUk1Dphiax4aYl-w9fdOGpqVw1sVwis-btrXEF_3MSyP5j6j7xpLsUyfpnrV
+
+sprite $AwsRtbFabricLg [20x20/16z] fP053ePX288t4ONx7_YFhtFrFYvjq1W0WkgPDITNCcTmo1LdOfrDSCuLeOLkMVK3oZdZn2ziIMmiERGLPAJhEVSwEzzGytzZpG4Pj6QEFp_bY8Kd3mRv0W
+
+!procedure AwsRtbFabric($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/NetworkingContentDelivery/AwsRtbFabric', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsRtbFabricCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsRtbFabricLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsRtbFabricGroup($id, $name='Aws Rtb Fabric', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsRtbFabricLg>', $name, $tech)
+!endprocedure

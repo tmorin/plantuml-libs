@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Penny
-include('simpleicons-14/P/Penny')
+include('simpleicons/P/Penny')
 
 ' renders the element
 Penny('Penny', 'Penny', 'an optional tech label', 'an optional description')

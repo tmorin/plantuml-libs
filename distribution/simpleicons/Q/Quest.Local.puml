@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Quest
-include('simpleicons-14/Q/Quest')
+include('simpleicons/Q/Quest')
 
 ' renders the element
 Quest('Quest', 'Quest', 'an optional tech label', 'an optional description')

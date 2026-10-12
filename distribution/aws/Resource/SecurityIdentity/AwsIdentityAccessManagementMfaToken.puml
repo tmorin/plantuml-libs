@@ -1,0 +1,24 @@
+' definition of the Item aws/Resource/SecurityIdentity/AwsIdentityAccessManagementMfaToken
+
+sprite $AwsIdentityAccessManagementMfaTokenXs [10x10/16z] LOo50S0m40Bl8Dr_vBhbNG30H0xhKygzAvSfIqSSH6BDzFmOdygdl04
+
+sprite $AwsIdentityAccessManagementMfaTokenSm [12x12/16z] JOv70i002C8IjFt_Zxk7SPmK032H2zjdON5HGlFGHD5mx-wbYXKIOjfqYFAWytTgJg-POGS
+
+sprite $AwsIdentityAccessManagementMfaTokenMd [16x16/16z] PS-55G0n20JHOHTurt_3vvuVzy0kLjpSbjQAG-jerSVmtXaDMDnaA5wAC1FHgbXR724wCrL42MtZj6nJMTlO22GGma7pKiDxmt-6_uBBqbfnU-9T
+
+sprite $AwsIdentityAccessManagementMfaTokenLg [20x20/16z] {
+TT255S9G343H5yyf-yyBrFr-T-6LL_wLiz4s9jQwJMApJDM2NKqpcztITEF470eSLCHzgb6Gy146CmCTW9nYXQN-8wwsz8bhY9aZ7RNE2n0pmPNGQI4NzNYN
+-vsVttR_W_jVFV_finy
+}
+
+!procedure AwsIdentityAccessManagementMfaToken($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/SecurityIdentity/AwsIdentityAccessManagementMfaToken', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementMfaTokenCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementMfaTokenLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementMfaTokenGroup($id, $name='Aws Identity Access Management Mfa Token', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsIdentityAccessManagementMfaTokenLg>', $name, $tech)
+!endprocedure

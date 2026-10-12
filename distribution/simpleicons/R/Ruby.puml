@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/R/Ruby
+' definition of the Item simpleicons/R/Ruby
 
-sprite $RubyXs [10x10/16z] DOc50S0W30I_xhtzfmNYoQjo9aTW0sa58piJMV4OsfzAbKtW-vDzSAaE
+sprite $RubyXs [10x10/16z] 7Ok50G0m2CCwT_B_jJESYcxauH9HSWOfW1mtxZzb62MKqXFGrM1LI59uRr2vDcZjJOPH284VAOxExAraTm
 
-sprite $RubySm [12x12/16z] FOo50O0m4CGETxB_j4YWpRkcikeR8C3Rm0YcvY4DfiEs7p5j3Rec9J_pi01lXDb1SnfanwSIPWet
+sprite $RubySm [12x12/16z] BSh70S0W3CLGnJXq_FUVDfLtbNYTtUXn01RIC6b1qgF25ARNspkXXtj4J5UynpkEAYa1aXhjD0V6KmtyoQb9HKxNpsEYpO_LOerMYpit
 
-sprite $RubyMd [16x16/16z] JSg53GKn30JH3NEc_se_H3xbHkIdjTxbO8S7XWCuN01RqynfIWMCjWJEiyroeSZRR6_tkvYDqdNLjPz9lVozZuSjJGd0SVoqDqdvkWSGjw9Du6aszmK
+sprite $RubyMd [16x16/16z] {
+JOw5OGCm30JFpFxzjwsfILxCuiAb067c6zaXoSMbJY99EoOl3SiS60WxJZSiTn2h2-j2BgNHNyWn_PKTr3CLjXu6E5uoqamxl8iYni9idgLN7BnxbURRqdwE
+-y63MSpyYPEoqKzC6dMENb8CtXh37m
+}
 
 sprite $RubyLg [20x20/16z] {
-NSy53WGX38NXXurs-Ez_sqrJklR527NzAQUKwWGa0xe2k3fmSerGLVEliwoAp78cT_iVIU6G9allwwdASai46U7IvuzmH7itbPkvWNjq0fkMREmEE4l-NJBb
-6ukzZiB8lzI0l2xL4ugCRqLWuk-lGSNDvxwErchH2m
+LP25eS0m20LVh9Q4st_QBr2zDeQ3Bd9h__iO-PPqO6W7E8KRZYh0TD4CaKdPW9U8NP86l4Ga_RFQ7GisIRcKsfK98cjS3ku45QSdWfcayxwMK_UggOMkoOc0
+LMqUJIM44R38CUWrII7BGtVmtZnWxcIfyKRUvU25HSjyPHcMoflkq-us-h6qMagC-1S
 }
 
 !procedure Ruby($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/R/Ruby', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/R/Ruby', $name, $tech, $desc)
 !endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AmazonCloudWatch
+
+sprite $AmazonCloudWatchXs [10x10/16z] BKk50S0W39j5_pzuEBJHDjr_Z7Z1r1G77eT35OSa3s2fbS8F72WI29mwy7dkoJp6mXdZ1m
+
+sprite $AmazonCloudWatchSm [12x12/16z] BKs30GG137iqt7_VO-saRHwxPClaBKrgLq5Aw5xs7ZRKSt6LKkW-DMTmrQceeSSBhF_yjU2rDLcwnrVoy9u
+
+sprite $AmazonCloudWatchMd [16x16/16z] {
+JKw55OKm4FjoadJ_WJbznObpwY3xVT4byXCCaWifgffVWmNdc5W81Q7PO2u9qerscZ05zOIk5dTXfFR__ws348ki7XL35xX315fzi-hX_zd-RgOSzfkXDM7G
+c2vucHu
+}
+
+sprite $AmazonCloudWatchLg [20x20/16z] {
+XP05ZWDH34EbiGFs_U-xsqOfamV_2yUV9Uc5xEicsPtrG6MHIShMZJ5j9wgiczlK23AjPK7BSnzbBRfcqdeAcef9rXoMsGw0I6DZGrA3bMJ6fWvEVnRO7caU
+WK7YMcoy2-21aEy7xApc4JUsCOfUjb2QrBzMUzC_
+}
+
+!procedure AmazonCloudWatch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AmazonCloudWatch', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonCloudWatchCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudWatchGroup($id, $name='Amazon Cloud Watch', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AmazonCloudWatchLg>', $name, $tech)
+!endprocedure

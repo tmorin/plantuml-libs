@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/P/Planet
+' definition of the Item simpleicons/P/Planet
 
-sprite $PlanetXs [10x10/16z] DKk30G0n4CkpRlUVzcm4a6ZxWyQnsV800fQtDkUrGkFqN2d-TMobChxg9WO
+sprite $PlanetXs [10x10/16z] HSpN0K9H20FG8-6s_GUsw_k1T3AxPp02DIIlJsMoJnzci-devhHpqozthJ0J0-hvwxjoBJy
 
-sprite $PlanetSm [12x12/16z] JOo50S1020FVNVRVjXornoM9mTegvhPDSLhxTo8UcvInqvHlRSmFQHzpKOmfIyMuEmkNP-P6-qGLDIj5hXS
+sprite $PlanetSm [12x12/16z] LSu50SH0302m3ExQ3lshVKO52Lhs7WtK26EX04eRcUQrCRR0sIsDwDYmqZkEmLpqn5wr8jl81iQcc43zMQz3Dbm1
 
-sprite $PlanetMd [16x16/16z] LSU5ZK0X502mVWD2dkm_xRasMk2EsWU0h1DF3w01dlnNpY01O1qAP_ORwFl0sHSxKU7Zq1Zz_y_syKa5rl5yFBe3IdySe8m7tq_a2M0_40jG3t1qpMTLmIi
+sprite $PlanetMd [16x16/16z] {
+PKy50eCm4AkENeBy_xSZeLFENT89EGWmShfWe4WL3BliQKAdidPdOAICKzTKyL00EOhKmSvTCu8AnwOvgY3akxWf1VkkyZguVXnHul3oQzxIriYUvtrSbFC-
+trFx-vxRlRT_Vlzz0W
+}
 
 sprite $PlanetLg [20x20/16z] {
-NP050WGX202nY_Z_R-yKs9fDno306CnOu44HJ374pXHS2O8ZmxxFFJXDFQ7_i22yaNthZ_p9-xTtG7Nxy2aM9vaxPvqtSrHNzxiUjoGyyXhgC3xsoaaEIrU7
-GYIU0zjvSQrcMGEP0uSZ18r_kRJ70p-bRIRT9adqbcfmIydemhXGI1Vz
+RP275SKW24KVTZqW-q_x2wJ7czZe02En_E24WoWZsZaamkb2s23fBc9Su6wEkF5tDqSYX9etTwHXUMTJKRMy8x5dr4b0Kxkpm6NXVsYnYBlCaxQRB9vsKt36
+6qfcj-VeEbNzpcdiyLA4CHA4J7PfUU-D3vd4nGpMirhFT9_zF6R_1G
 }
 
 !procedure Planet($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/P/Planet', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/P/Planet', $name, $tech, $desc)
 !endprocedure

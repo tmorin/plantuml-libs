@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Influxdb
-include('simpleicons-14/I/Influxdb')
+include('simpleicons/I/Influxdb')
 
 ' renders the element
 Influxdb('Influxdb', 'Influxdb', 'an optional tech label', 'an optional description')

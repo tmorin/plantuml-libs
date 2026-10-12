@@ -1,13 +1,16 @@
-' definition of the Item simpleicons-14/P/Pixiv
+' definition of the Item simpleicons/P/Pixiv
 
-sprite $PixivXs [10x10/16z] Os3W1mC-20CJC0011uJ52SGG5WX3PM4Q6PZ133v-VXw8HeHv
+sprite $PixivXs [10x10/16z] LKor0S0038hKZV-lZJ6L2RSFWsy8AN2kBlk8NRGe6U12zaArsI65czwnlXn_lyCY2G
 
-sprite $PixivSm [12x12/16z] LSR50O100C2muaxtdnOzpIjm-5l1xB2o30sSuT11l4fJdF36XJKSQ0ptjvfH_0O
+sprite $PixivSm [12x12/16z] POt50S1020JdtA7_QkCUNgpJzBYsl_kjRzTUJcm0old71hBzcCL7tdzKC_NqsrNRUOEJ_VVnCV0VRim
 
-sprite $PixivMd [16x16/16z] XOs50O0m40CFTxB_jBZKUzMt11fzB80i-aPv1YQWCk8R8ruawB-ukis--7HPZVZy5LHnlI_yvX-MyrhrWMpex707
+sprite $PixivMd [16x16/16z] NO-50SGm200FUOkn_xHlRMCNnG5lqMcEny9fxVp5r28zStG40RIxAeY1TlcNjK7g_YLQE8zkV_tlPvT9zGvro3-UevuhckB2gFs_zxlFiy_x0G
 
-sprite $PixivLg [20x20/16z] bOu30aKX50NdERV_rNuZO-Br0RGFS2Tm-1Jm6Kxx2IHc9Pac-I1Ytwu5O4EVVAjOGz_hNQ7d4uLQDYS1szEoySaAPmIursriw3jz3hbBWijSTm
+sprite $PixivLg [20x20/16z] {
+XP255SKm24KVSONzf_rQYPxUDeO34AKZ0gWoK6-hnb9sn2GSVE1Mfc3n9JGoZGFNsa4LpW2uiVizFaBVoDJl16mZe-_1RK3rVsWWjJAG8a3DjL1N7tb5waxQ
+v6tXmW-3YQkPhcR_1W
+}
 
 !procedure Pixiv($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/P/Pixiv', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/P/Pixiv', $name, $tech, $desc)
 !endprocedure

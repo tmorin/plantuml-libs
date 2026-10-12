@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Samsungpay
-include('simpleicons-14/S/Samsungpay')
+include('simpleicons/S/Samsungpay')
 
 ' renders the element
 Samsungpay('Samsungpay', 'Samsungpay', 'an optional tech label', 'an optional description')

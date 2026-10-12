@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/R/Radiantearth
+
+sprite $RadiantearthXs [10x10/16z] 3S650SH0300W8YTvsN_T5lXzgzR1ghEnHHCJEZ9WrsGYQYBoTPT5vh-nPKPXfmgRk6oS_ju-F
+
+sprite $RadiantearthSm [12x12/16z] 5SV7WGGX300m0GvZBlJVxGRzHFntLazWp_nizEPXpQ0fs0zZ1JXJT-s3bPFsXxmjbhFNxs_XyUs5DHGDTzFivbnw8wR_Rqtm1W
+
+sprite $RadiantearthMd [16x16/16z] {
+DS-rWS1030J0aU58ig__Qfy_MuW6nrepCojFSEsT0L4Nb9XxWiBLORm7siK84C_1CKY0TBt9zD-V5lE_dsiKVdlqPuNrry_QCuY_ltO3hICP1_06CRXkq1Bt
+XGViGC5TGIt_7cTMxVhpVW8
+}
+
+sprite $RadiantearthLg [20x20/16z] {
+LP07YeKX30R7-EoQx_wtNSBVs04qlG6ajeyazpCI5qLQHc3D2q7oCgJ2fIW1p1hPKhwIPhmEGLNdKMrpSrQysw1sNcE1dmhq7v-n-PuDXd6Jkdh21ipRLivk
+2x1vsspeP6nVjiYjVYtIEX2vpHLb0i_0Rq1Huy8KRs__PfxFpFWRbdZKLIwRhtXBlCzvgjAdKBncJ8kKcmeNQHoN_Btz7m
+}
+
+!procedure Radiantearth($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/R/Radiantearth', $name, $tech, $desc)
+!endprocedure

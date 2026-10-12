@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Crowdsource
-include('simpleicons-14/C/Crowdsource')
+include('simpleicons/C/Crowdsource')
 
 ' renders the element
 Crowdsource('Crowdsource', 'Crowdsource', 'an optional tech label', 'an optional description')

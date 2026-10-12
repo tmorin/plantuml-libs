@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/InternetArchive
+
+sprite $InternetArchiveXs [8x10/16z] DKc50O002ADXC_x_rfPOYlMsjGcsU_QkgBYkMa8bfSVAT7J6ycP-7d-VdkxboVKPdW
+
+sprite $InternetArchiveSm [10x12/16z] FKk54GGn2DoVms6I_hlzECuAVf_tPXyWTOAr8cDK2H42euX5qJ2AHMnU7QpZwkloTzbbPNeJeuZ91ivZKDI9-0C
+
+sprite $InternetArchiveMd [14x16/16z] {
+ROo30GHH44FVDqRzLtlsxHX9WDHsnAe9A5FCtQuf8tUL_J3HMar4z9vUK1WTwWHDAK04fa7a58bz_VjzouZzRZCkMptUXX-fm5wNJIzRIYlH6jJ1PQogAd9F
+RV9bPm
+}
+
+sprite $InternetArchiveLg [17x20/16z] {
+TOx50K0X34E3Ku7kF-rtbtUeIp3ZYvecZnaNfcH7YaTa9gehHCm-zdQb-w32pCARQGuSWKnOJL30Ag26oNIWs5gGkI1J8Sy5sGewcR8Lz2ouPy7_5VvN0AFz
+xLueTs6hz8hL187dEa6xOH_bJcnwfuq
+}
+
+!procedure InternetArchive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/InternetArchive', $name, $tech, $desc)
+!endprocedure

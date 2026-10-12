@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Waze
-include('simpleicons-14/W/Waze')
+include('simpleicons/W/Waze')
 
 ' renders the element
 Waze('Waze', 'Waze', 'an optional tech label', 'an optional description')

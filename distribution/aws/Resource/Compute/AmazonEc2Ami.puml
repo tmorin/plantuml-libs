@@ -1,12 +1,15 @@
 ' definition of the Item aws/Resource/Compute/AmazonEc2Ami
 
-sprite $AmazonEc2AmiXs [10x10/16z] Oq005YZD3aGGm0JYCWC5M84iLbOsLdPMa1WJ521a4ImalUnGPMm
+sprite $AmazonEc2AmiXs [10x10/16z] DSG50S000CEmPluzdvz1Fkc5DVyf3Nk0CLYFiQ3Xbqyd
 
-sprite $AmazonEc2AmiSm [12x12/16z] ROo30G113C1Ixp_n6wVKfANanH1Uyb88i26lXpFNXsb_dRV_BL_O0G
+sprite $AmazonEc2AmiSm [12x12/16z] ROo50GDH5CAI_FrdRi_zkG3OPg9ibfgZXkj8J65Q3AOenMmAMV5-uTdcfoOYKoGUnXy
 
-sprite $AmazonEc2AmiMd [16x16/16z] dSg50S0W30319xh_n7NtSaYKaumDIBQKm5SuGO608NogTI53BQlZVbLjgw7UK41z1Iq
+sprite $AmazonEc2AmiMd [16x16/16z] ZK-35S0m4FtSV-HQoLFF1i0F08XULm653-mvrQdTkBjx5FWWFBusUlp8bMhbyB7HpKSWShoHmcdUl_ccIzQqZZI_zux_6FE_Am
 
-sprite $AmazonEc2AmiLg [20x20/16z] fOy30aHH200dt__4Yszp7dEnYMLDYR_AcLEGgpYXY9g2DZf0h8qYRkf-PFwk-fzMjw3HYKxfOaN4_bVzJcxLUAzRpnii-2lAT4eaFsG6y0K
+sprite $AmazonEc2AmiLg [20x20/16z] {
+bP250SGm30Db2_RVkDpc6IvyOUCL5VcMB2vFQm01TSCcX8YCIOTKTcS0N7UjbOTJlN6wSGivgyFTiplTmjq5W1leTSkVRz6n3ZSkLMLMqKidksiErD2BM1cB
+j6wmyP8P
+}
 
 !procedure AmazonEc2Ami($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'aws/Resource/Compute/AmazonEc2Ami', $name, $tech, $desc)

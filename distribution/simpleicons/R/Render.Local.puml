@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Render
-include('simpleicons-14/R/Render')
+include('simpleicons/R/Render')
 
 ' renders the element
 Render('Render', 'Render', 'an optional tech label', 'an optional description')

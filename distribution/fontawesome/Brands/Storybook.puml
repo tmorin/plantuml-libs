@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Storybook
+
+sprite $StorybookXs [8x10/16z] 7Oo50G0W40Anszj_MkExWCQp4UQ0aZUZ4oJzBdN7R1IvTs-iykyP-QGrCqdoVsSDKrYcT04
+
+sprite $StorybookSm [10x12/16z] BSQr0GH140InNeQ1oZ_QnvEbbNpLuHT89xa7kbJupgIcmTsVbUpdEvfqu2vWIfixE5gcoksuFiPtxABETuzRhaSaSDu
+
+sprite $StorybookMd [14x16/16z] {
+FSs50O0m44FHrFKk-szBi7xqGIMREPy2s3l_HcTlLBlcGV9LXmhKIoLTxn5ehmp818gaIs-exlmqeVOlUXIN5CcTadKWljB0x4U4UdS8qWv2uIjbc_nrwgXz
+RJDtgdO1
+}
+
+sprite $StorybookLg [17x20/16z] {
+TT350GGX44JHnftAFzlj6koq7tz7REzZOkKb8aQyeiqN7WQmRCNuyI3ArpWmz65qUGAtgWyqRXjuRt0s4nmqqGBOXYwiF00SfHAiRhFKqIY4jOb1KPWRUA_X
+0QQiF3QW2NFuO8BLb3iUhFw1ZQas_kC42py
+}
+
+!procedure Storybook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Storybook', $name, $tech, $desc)
+!endprocedure

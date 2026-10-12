@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsPrivateCertificateAuthority
+
+sprite $AwsPrivateCertificateAuthorityXs [10x10/16z] HOg50S1020DhiVqNxZk7awGG1sqZy8AVsXQ98TDdYxxHPAk-TUTKqV3Njh1XASKF
+
+sprite $AwsPrivateCertificateAuthoritySm [12x12/16z] LSsr0S1030H1ms7_1Pjn7pIP-YlnVdPwnjxCtQh0UCvcHwMBmnQjdCv6Nox9d5OWnhjBRDauD-mr_RK2
+
+sprite $AwsPrivateCertificateAuthorityMd [16x16/16z] XScv3SHG549HQJxRe_z-nxjJNw8ZvZDJF1BTdSKF2y3QbzcZ4eA95q-dLCG6kXnsTrwRMaE_7YZ6F7PDqdt_ycWtJsl4KDKwV-DCuVKtF7Ff-Mm3
+
+sprite $AwsPrivateCertificateAuthorityLg [20x20/16z] {
+bT052W1H30DH-4dRfFU_xxgZE_Z3np_ItKdW5TYx3To6t4YeKf6XKfBQZBOHIRhrC6Qt6LstYL9IV1a4-6tDi1lvD9iCBFwqog92J-iQ30vPfw5KKSgm4xkP
+Hs4X3kiyLIQ-ispvHpC
+}
+
+!procedure AwsPrivateCertificateAuthority($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsPrivateCertificateAuthority', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsPrivateCertificateAuthorityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsPrivateCertificateAuthorityLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsPrivateCertificateAuthorityGroup($id, $name='Aws Private Certificate Authority', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsPrivateCertificateAuthorityLg>', $name, $tech)
+!endprocedure

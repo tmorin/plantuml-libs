@@ -1,0 +1,24 @@
+' definition of the Item aws/Category/ManagementTools
+
+sprite $ManagementToolsXs [10x10/16z] HKor0G1132g27Eo_xxka2Jw3wsQcRP9sq5ga0iIorZgHPFj2jWzyeaiwjUQK53mhwVpBEm
+
+sprite $ManagementToolsSm [12x12/16z] JOu53W0m20CJo5hA__yxjvlWukORSrCdbIcPTn40A7dNkrf037qukpPriWoTIoV0fODn_K6GNFcPx23afelzEpG
+
+sprite $ManagementToolsMd [16x16/16z] NSy72W0n30D1o4KhnV__x_M-fWscQMgVfYQ_KckkLzuyAdIfayDL1A7eiC66KQVbrORBf8DzMt7CxK5ibEUFrtHx12SPjojYJHpU6kkjkVtt_FSk
+
+sprite $ManagementToolsLg [20x20/16z] {
+RP074iCW40F7GG99_tzmZiJTNlhIZvy7_2p41IvbSwDs8YuIIohZuE_YpeQPHrQN30ZieB2lqnYpAA5MrzWvWNSdkdT9Bd4ujLOhnyN5nSZ53P1OBkkGYS_h
+ZBaCbNquMttMoU4IWt-EVnJwutAliNgBwLlilm
+}
+
+!procedure ManagementTools($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Category/ManagementTools', $name, $tech, $desc)
+!endprocedure
+
+!procedure ManagementToolsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ManagementToolsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ManagementToolsGroup($id, $name='Management Tools', $tech='')
+  IconGroupElement($id, 'ManagementTools', '<$ManagementToolsLg>', $name, $tech)
+!endprocedure

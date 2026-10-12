@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Knime
-include('simpleicons-14/K/Knime')
+include('simpleicons/K/Knime')
 
 ' renders the element
 Knime('Knime', 'Knime', 'an optional tech label', 'an optional description')

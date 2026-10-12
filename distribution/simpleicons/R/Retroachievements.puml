@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/R/Retroachievements
+' definition of the Item simpleicons/R/Retroachievements
 
-sprite $RetroachievementsXs [10x10/16z] VS750K0X5C2mVXUa-s_BkoC9Izk6G1QF0qYAFeAMom0F1WplMnbe
+sprite $RetroachievementsXs [10x10/16z] ROi50S1030Fl6PFvTxiA-783F6BEcI0ji7nWkQAhkEGTVJjLG-dRvx9zD5P9iuuUHXxn0m
 
-sprite $RetroachievementsSm [12x12/16z] ZKbL0e1G3DhhHEv_MvdVreAq7qDD46zU6lHi36C1fUCGid9vVUmjZUQQri6Q26iL055I619DRmzp0W
+sprite $RetroachievementsSm [12x12/16z] TSZ50K0n309GwWRil-tNNllYmK48yPzFoV9p1HFmeWPGgGXHxC2o6-Jt4zsdeBLOqDuzcP5AUZ4486muk04
 
-sprite $RetroachievementsMd [16x16/16z] fSZ50KD130DHVrgqClrt6oyK49YJdkpF69KzJxCMvJ4igJ1EYUPXYeOxu7tuXQTXxmIBuvbXqZ199mm_A8T7lOOj7dCdvtoZAZlKgkwkaNtP6m
+sprite $RetroachievementsMd [16x16/16z] {
+bOo70G0n20ADVXTq_stVb0LogIeWcrZHrhU_BFBkvPLP3H3u-aVYPVNJlmHLH8DWhvDZ_Y0PskkNRm_2wtnw7UuLph2RbC3pW2OV0dHOkKl3dWOYgQhIjDEi
+8vly
+}
 
 sprite $RetroachievementsLg [20x20/16z] {
-lOs50SGm30CTHkVsdxQW5Hwk3TcMP7y0iKna6CyH7gonLMDttaCqLADCydESb1AcsWBORmquKpK6P5IZBOL4Ejifgj48afwLcRorpLIkakYeLeW4YpHbKDwQ
-FGl36VtX7Dy-BNWvoPjd5_PbRW
+hOk7aGGm20DnjW6X_hjz-5J1hGDYPoGVPXNZV_jEZ8Jseq3E7Afc-dXATHxtd2H0DvHxS6DBfqy3vIhJutnFub9JZSnXKIvuK0rHG67itmxAtwfiu9Pxl755
+PhgZp7A6iNcoxEvmjnE3nYaqUClqaD3Nc4twh3D6NycSyc6-
 }
 
 !procedure Retroachievements($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/R/Retroachievements', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/R/Retroachievements', $name, $tech, $desc)
 !endprocedure

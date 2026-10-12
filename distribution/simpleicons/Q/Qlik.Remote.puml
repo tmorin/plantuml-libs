@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Qlik
-include('simpleicons-14/Q/Qlik')
+include('simpleicons/Q/Qlik')
 
 ' renders the element
 Qlik('Qlik', 'Qlik', 'an optional tech label', 'an optional description')

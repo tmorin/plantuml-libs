@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/LetsEncrypt
+
+sprite $LetsEncryptXs [10x10/16z] LOc50GC1308lqhw7_QTzrui264Im7HzO6NpRKHNR-LEPuXzOo4rfG6c3bKbDe_f-kbFVWGK
+
+sprite $LetsEncryptSm [12x12/16z] HOo30G0n34MZG_dtdxR6YqcTvw594c8cIJrd9JCofa46qACbqPR0D5ah7KJWvXCC_fKx1tmhLxrv27UdC_h4WvPK
+
+sprite $LetsEncryptMd [16x16/16z] {
+VSn50WKn20FG01NAIEv_sh7skxmTag2h5JVLRxDVI-6CoqJ1nM3kXeIRmaDla5n4kAgk52bPjCKn5o1JDS9mS8PPqD45XwNFxJRFZrdr_zpyDd_sLIwNrV5f
+1m
+}
+
+sprite $LetsEncryptLg [20x20/16z] {
+VSw55S0m20JG8-wt_xRbrVt75R391ITHe6g3aeJPeDNUEUqC1p2h5Co43Hi3vDRBF3bm9ZXfP8nZUsb9Mf0USAGsqi4O0ypFvdvUAfF9548Yipa27B3gnzQu
+x9Nyk3U0yNXh31zxmN_6-Cibv9HdAGTyc
+}
+
+!procedure LetsEncrypt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/LetsEncrypt', $name, $tech, $desc)
+!endprocedure

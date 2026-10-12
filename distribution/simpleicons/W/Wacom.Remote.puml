@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Wacom
-include('simpleicons-14/W/Wacom')
+include('simpleicons/W/Wacom')
 
 ' renders the element
 Wacom('Wacom', 'Wacom', 'an optional tech label', 'an optional description')

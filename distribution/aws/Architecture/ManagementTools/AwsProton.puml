@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsProton
+
+sprite $AwsProtonXs [10x10/16z] HKp50S0m46fZoFu39xmu5q2szJmDQJ4iAfRn0DlEk462xjHl6LMfyWK
+
+sprite $AwsProtonSm [12x12/16z] JKx50SLG2FlIwFxxzia9TqZJ8vTIfqbkRl3w70Kaqyr9HGdkJVp85j8PpvcvEs_ENnF30W
+
+sprite $AwsProtonMd [16x16/16z] NO-30S0030IBwBB_lZK_Dhg1_W0NFowU3NUGzl3wvjCC1ugdeTBSncgkWPQRhcSmxb6HQTceh_KwJ_VfFNgl_gF_hW
+
+sprite $AwsProtonLg [20x20/16z] {
+RL074WGn29gS2eF__-zjxwJ72hGVQkbhMewdYL6h_HQkwC9YkCBLbI5mYzDHZa55LSLlZToz8P6iLEjgCt0yJriomG8GkPkzZODNhkbXi1ZCXflHm6lbDVLZ
+0W
+}
+
+!procedure AwsProton($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsProton', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsProtonCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsProtonLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsProtonGroup($id, $name='Aws Proton', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsProtonLg>', $name, $tech)
+!endprocedure

@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Woocommerce
-include('simpleicons-14/W/Woocommerce')
+include('simpleicons/W/Woocommerce')
 
 ' renders the element
 Woocommerce('Woocommerce', 'Woocommerce', 'an optional tech label', 'an optional description')

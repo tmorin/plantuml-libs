@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsShield
+
+sprite $AwsShieldXs [10x10/16z] JOh70O0m009jjFq7LjF32xZB7ikj40zOka4AgiqAt9lh5wYOfUa17gPMoTdp0G
+
+sprite $AwsShieldSm [12x12/16z] NSst0GC138NGHg2l_GUsBoUgrp7VSgd1tYaKS3W63u_ZmvoEKhsw2wpT8w3dAfblVm
+
+sprite $AwsShieldMd [16x16/16z] ZSw50KCn24NH2lSX--_RVdUBdnZaSQarH2mi9F2HXkpRT0r6E65Yj4LGYtCwixRZIuV9VBH2uWkzlJao0Lhaqph7uetpMVa3
+
+sprite $AwsShieldLg [20x20/16z] {
+fSi5YWDG38HXTaVpUl_prXsf_GJxcCndhVqzYma_gg5KO6y4DVXtZLoeB2JjnLfNapRMAXxCws1ypyREF9b8pYLAUmjZNPuNZTeM_dmT1Y7Wy-wSaQG2DBT2
+4fdEp-q
+}
+
+!procedure AwsShield($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsShield', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsShieldCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsShieldLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsShieldGroup($id, $name='Aws Shield', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsShieldLg>', $name, $tech)
+!endprocedure

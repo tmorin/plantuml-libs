@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Kibana
-include('simpleicons-14/K/Kibana')
+include('simpleicons/K/Kibana')
 
 ' renders the element
 Kibana('Kibana', 'Kibana', 'an optional tech label', 'an optional description')

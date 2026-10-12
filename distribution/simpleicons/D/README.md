@@ -1,6 +1,6 @@
 # D
 
-The module contains 145 items.
+The module contains 149 items.
 
 
 
@@ -51,6 +51,7 @@ The module contains 145 items.
 | ![illustration of simpleicons/D/Deepl](../../simpleicons/D/Deepl.png) | [simpleicons/D/Deepl](../../simpleicons/D/Deepl.md) |
 | ![illustration of simpleicons/D/Deepmind](../../simpleicons/D/Deepmind.png) | [simpleicons/D/Deepmind](../../simpleicons/D/Deepmind.md) |
 | ![illustration of simpleicons/D/Deepnote](../../simpleicons/D/Deepnote.png) | [simpleicons/D/Deepnote](../../simpleicons/D/Deepnote.md) |
+| ![illustration of simpleicons/D/Deepseek](../../simpleicons/D/Deepseek.png) | [simpleicons/D/Deepseek](../../simpleicons/D/Deepseek.md) |
 | ![illustration of simpleicons/D/Deezer](../../simpleicons/D/Deezer.png) | [simpleicons/D/Deezer](../../simpleicons/D/Deezer.md) |
 | ![illustration of simpleicons/D/Deliveroo](../../simpleicons/D/Deliveroo.png) | [simpleicons/D/Deliveroo](../../simpleicons/D/Deliveroo.md) |
 | ![illustration of simpleicons/D/Dell](../../simpleicons/D/Dell.png) | [simpleicons/D/Dell](../../simpleicons/D/Dell.md) |
@@ -83,7 +84,9 @@ The module contains 145 items.
 | ![illustration of simpleicons/D/Diagramsdotnet](../../simpleicons/D/Diagramsdotnet.png) | [simpleicons/D/Diagramsdotnet](../../simpleicons/D/Diagramsdotnet.md) |
 | ![illustration of simpleicons/D/Dialogflow](../../simpleicons/D/Dialogflow.png) | [simpleicons/D/Dialogflow](../../simpleicons/D/Dialogflow.md) |
 | ![illustration of simpleicons/D/Diaspora](../../simpleicons/D/Diaspora.png) | [simpleicons/D/Diaspora](../../simpleicons/D/Diaspora.md) |
+| ![illustration of simpleicons/D/Dicebear](../../simpleicons/D/Dicebear.png) | [simpleicons/D/Dicebear](../../simpleicons/D/Dicebear.md) |
 | ![illustration of simpleicons/D/Dictionarydotcom](../../simpleicons/D/Dictionarydotcom.png) | [simpleicons/D/Dictionarydotcom](../../simpleicons/D/Dictionarydotcom.md) |
+| ![illustration of simpleicons/D/Dify](../../simpleicons/D/Dify.png) | [simpleicons/D/Dify](../../simpleicons/D/Dify.md) |
 | ![illustration of simpleicons/D/Digg](../../simpleicons/D/Digg.png) | [simpleicons/D/Digg](../../simpleicons/D/Digg.md) |
 | ![illustration of simpleicons/D/Digikeyelectronics](../../simpleicons/D/Digikeyelectronics.png) | [simpleicons/D/Digikeyelectronics](../../simpleicons/D/Digikeyelectronics.md) |
 | ![illustration of simpleicons/D/Digitalocean](../../simpleicons/D/Digitalocean.png) | [simpleicons/D/Digitalocean](../../simpleicons/D/Digitalocean.md) |
@@ -103,6 +106,7 @@ The module contains 145 items.
 | ![illustration of simpleicons/D/Dji](../../simpleicons/D/Dji.png) | [simpleicons/D/Dji](../../simpleicons/D/Dji.md) |
 | ![illustration of simpleicons/D/Dlib](../../simpleicons/D/Dlib.png) | [simpleicons/D/Dlib](../../simpleicons/D/Dlib.md) |
 | ![illustration of simpleicons/D/Dlna](../../simpleicons/D/Dlna.png) | [simpleicons/D/Dlna](../../simpleicons/D/Dlna.md) |
+| ![illustration of simpleicons/D/Dlthub](../../simpleicons/D/Dlthub.png) | [simpleicons/D/Dlthub](../../simpleicons/D/Dlthub.md) |
 | ![illustration of simpleicons/D/Dm](../../simpleicons/D/Dm.png) | [simpleicons/D/Dm](../../simpleicons/D/Dm.md) |
 | ![illustration of simpleicons/D/Dmm](../../simpleicons/D/Dmm.png) | [simpleicons/D/Dmm](../../simpleicons/D/Dmm.md) |
 | ![illustration of simpleicons/D/Docker](../../simpleicons/D/Docker.png) | [simpleicons/D/Docker](../../simpleicons/D/Docker.md) |

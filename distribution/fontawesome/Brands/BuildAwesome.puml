@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/BuildAwesome
+
+sprite $BuildAwesomeXs [8x10/16z] FSM70S0m30B1T-zY_sdJOmauw583vWZI82sgf3XZkb3hSztsgESYTcFWRptW9CVs1
+
+sprite $BuildAwesomeSm [10x12/16z] BOp50SKW50GdXiFqN-sNFFQq3iVGVW2dCwads3XLUIIf-jJEIop5iTdbniKCCdc7yS8L6K63KBG0Nm
+
+sprite $BuildAwesomeMd [14x16/16z] JSu53W0X34JHFmdGzRd_QTUH5wsNMzdjlV3IuTSXRlOglJ6mU8RoHWloWVnJSh3NA1M7N9NaGT8OYSND0XfBa6kGuGrhq3uzHFL4LCctnEq2
+
+sprite $BuildAwesomeLg [17x20/16z] {
+JSW7KWGn3031iSjfa-R_lwK4t7bRMQHsXt4t_fN7FqyXrLnNc2f0Q8Tf2iYjGGzD4y8Zsx-WQkNMZzeKt5hJFjnQDMsLy2rW-RQW-5Q0wJP9jnytQNykFePf
+i9tgoLPC1JwQgP5-
+}
+
+!procedure BuildAwesome($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/BuildAwesome', $name, $tech, $desc)
+!endprocedure

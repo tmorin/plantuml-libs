@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Opnsense
-include('simpleicons-14/O/Opnsense')
+include('simpleicons/O/Opnsense')
 
 ' renders the element
 Opnsense('Opnsense', 'Opnsense', 'an optional tech label', 'an optional description')

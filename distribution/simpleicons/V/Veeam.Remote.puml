@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Veeam
-include('simpleicons-14/V/Veeam')
+include('simpleicons/V/Veeam')
 
 ' renders the element
 Veeam('Veeam', 'Veeam', 'an optional tech label', 'an optional description')

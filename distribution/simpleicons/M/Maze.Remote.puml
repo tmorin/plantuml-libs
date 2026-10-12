@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Maze
-include('simpleicons-14/M/Maze')
+include('simpleicons/M/Maze')
 
 ' renders the element
 Maze('Maze', 'Maze', 'an optional tech label', 'an optional description')

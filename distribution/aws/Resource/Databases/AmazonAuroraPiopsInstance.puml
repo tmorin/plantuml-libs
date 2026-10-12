@@ -1,0 +1,21 @@
+' definition of the Item aws/Resource/Databases/AmazonAuroraPiopsInstance
+
+sprite $AmazonAuroraPiopsInstanceXs [10x10/16z] dSX70S0m0CD0IpL_oir4aFjun2lcygcrNolhGzQb0fe1
+
+sprite $AmazonAuroraPiopsInstanceSm [12x12/16z] fSP90O104C2mjhF-BNE30V8AVIWU5P_VdsgomDQiBe2A8xra1m
+
+sprite $AmazonAuroraPiopsInstanceMd [16x16/16z] pO_70S0m308FiAtz9qxl4-HUwWAmRe3k1nsP1zOlyfwqf7UTkOTJSQxvtOoYhn_G0vW1
+
+sprite $AmazonAuroraPiopsInstanceLg [20x20/16z] rP350SC030FF87d_YSiDBv0pmqjSaIDlq2GC1mR40O4vu3ljWdWd_NPILoijz_AdAYTMHwEV1as-_neSVQNLJrDP7onDSiKJ
+
+!procedure AmazonAuroraPiopsInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/Databases/AmazonAuroraPiopsInstance', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonAuroraPiopsInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraPiopsInstanceLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAuroraPiopsInstanceGroup($id, $name='Amazon Aurora Piops Instance', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$AmazonAuroraPiopsInstanceLg>', $name, $tech)
+!endprocedure

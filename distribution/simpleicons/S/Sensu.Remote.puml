@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Sensu
-include('simpleicons-14/S/Sensu')
+include('simpleicons/S/Sensu')
 
 ' renders the element
 Sensu('Sensu', 'Sensu', 'an optional tech label', 'an optional description')

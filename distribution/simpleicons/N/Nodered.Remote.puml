@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Nodered
-include('simpleicons-14/N/Nodered')
+include('simpleicons/N/Nodered')
 
 ' renders the element
 Nodered('Nodered', 'Nodered', 'an optional tech label', 'an optional description')

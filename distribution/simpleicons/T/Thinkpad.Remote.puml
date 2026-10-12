@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Thinkpad
-include('simpleicons-14/T/Thinkpad')
+include('simpleicons/T/Thinkpad')
 
 ' renders the element
 Thinkpad('Thinkpad', 'Thinkpad', 'an optional tech label', 'an optional description')

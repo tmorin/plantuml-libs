@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/A/Await
+
+sprite $AwaitXs [10x10/16z] NSo53S000091g1lv_QUjU_HY9tc0mLe102j7gccg62LmOjX4NNEgwox1JpcGBPoIoT82
+
+sprite $AwaitSm [12x12/16z] PSQ55S10409HthbF_zN6FIlm9Pa6pMYTm3PXeO6-dP4AHMDifKwtO9TQlSZ2wH1kmz_Zz93yQQzb3ArX5im
+
+sprite $AwaitMd [16x16/16z] dOhLTGGm40DbPa__tUOfXzytXbs1J3rmgfx42-P6cS2ROEtkXUlfDk1E412b-gshr81p7e_sq1pfyAL9YIzjVjNvMsT9PSo7cAFemM8CbimV
+
+sprite $AwaitLg [20x20/16z] {
+jP3L0GKX30GtmNNxh_P9plc_mGSF32sJd4LnKRXJJZLuCdRLUAEPyYIdUQlyttNhP3BRTFyfuGz580EKFmvNP913x7u1zBZnk5rF5u6ukYxI5sUyvcHrSWNl
+6K9rxX3EAGu2cH8PO7m1
+}
+
+!procedure Await($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/A/Await', $name, $tech, $desc)
+!endprocedure

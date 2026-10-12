@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Solid/Lotus
+
+sprite $LotusXs [11x10/16z] DSc50G0X30J1ook-_LUBCn3NO3fkxjC2ysOoe6U3V5coAqC2Nhtqxg60e-T7WIL8-Xb-JTTrZT8
+
+sprite $LotusSm [13x12/16z] PSR50K815C2mFiEX-q-B-yyfB9J5cyhBnfCRhhg3KeleLlTmWhrwy2f9RnzloflXvCiHmfVWQkFDXgU8uEO2
+
+sprite $LotusMd [17x16/16z] NSU53GGW44N1Xor1V__TNXRE9pgy_8axyaCItvgs6Xz1Bi1BbikujOT1afJ0nbvobR03LMxATM3Scuv6qs7eQhh0zAq0JHyDPtenhb3dMclMWFlt
+
+sprite $LotusLg [22x20/16z] {
+XSi75e0W30JHX8ubU__RklQktmBC2_8ZfQS8tBC3kMljGVqb1ap2m-W-759GBjv0vhbLfkcGUMY1baksgM2Ic1aJ9jPXLeKgPbt2eeWKB99YvJrMkW-O7Qw9
+uSA451SgKpOScCeYxp7BWS-brfAzV1a
+}
+
+!procedure Lotus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Solid/Lotus', $name, $tech, $desc)
+!endprocedure

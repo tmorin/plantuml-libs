@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Wyze
-include('simpleicons-14/W/Wyze')
+include('simpleicons/W/Wyze')
 
 ' renders the element
 Wyze('Wyze', 'Wyze', 'an optional tech label', 'an optional description')

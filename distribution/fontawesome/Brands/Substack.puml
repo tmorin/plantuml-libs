@@ -1,0 +1,13 @@
+' definition of the Item fontawesome/Brands/Substack
+
+sprite $SubstackXs [8x10/16z] FSA53S0m00EmR6NC_zSMergcGB9OCSAddqift2nWoOGZJG
+
+sprite $SubstackSm [10x12/16z] uuS39ZXWX0E4B0CSiC81Fo70nyJ41sQmWZG2rNCnGinWv08
+
+sprite $SubstackMd [14x16/16z] fSr50S1044MnWJ9z_shBzCuR0n5CO10WgC5W19LOCcOzpgRMgRLRAurkBnys
+
+sprite $SubstackLg [17x20/16z] jS750G0X00Emuaxtd_RSzKN2N_8AL-QAL-KAl-eL6mhIyo1B039pKJLckdBai7Da4ZWIgGS
+
+!procedure Substack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Substack', $name, $tech, $desc)
+!endprocedure

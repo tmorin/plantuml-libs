@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Serverfault
-include('simpleicons-14/S/Serverfault')
+include('simpleicons/S/Serverfault')
 
 ' renders the element
 Serverfault('Serverfault', 'Serverfault', 'an optional tech label', 'an optional description')

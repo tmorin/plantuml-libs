@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Kaniko
-include('simpleicons-14/K/Kaniko')
+include('simpleicons/K/Kaniko')
 
 ' renders the element
 Kaniko('Kaniko', 'Kaniko', 'an optional tech label', 'an optional description')

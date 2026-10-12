@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Wine
-include('simpleicons-14/W/Wine')
+include('simpleicons/W/Wine')
 
 ' renders the element
 Wine('Wine', 'Wine', 'an optional tech label', 'an optional description')

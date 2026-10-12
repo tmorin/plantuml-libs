@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Mastodon
-include('simpleicons-14/M/Mastodon')
+include('simpleicons/M/Mastodon')
 
 ' renders the element
 Mastodon('Mastodon', 'Mastodon', 'an optional tech label', 'an optional description')

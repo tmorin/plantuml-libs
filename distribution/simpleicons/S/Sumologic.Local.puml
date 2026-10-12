@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Sumologic
-include('simpleicons-14/S/Sumologic')
+include('simpleicons/S/Sumologic')
 
 ' renders the element
 Sumologic('Sumologic', 'Sumologic', 'an optional tech label', 'an optional description')

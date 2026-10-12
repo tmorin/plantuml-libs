@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Rabbitmq
-include('simpleicons-14/R/Rabbitmq')
+include('simpleicons/R/Rabbitmq')
 
 ' renders the element
 Rabbitmq('Rabbitmq', 'Rabbitmq', 'an optional tech label', 'an optional description')

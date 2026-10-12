@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Wallabag
-include('simpleicons-14/W/Wallabag')
+include('simpleicons/W/Wallabag')
 
 ' renders the element
 Wallabag('Wallabag', 'Wallabag', 'an optional tech label', 'an optional description')

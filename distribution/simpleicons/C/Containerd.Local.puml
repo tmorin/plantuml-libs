@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Containerd
-include('simpleicons-14/C/Containerd')
+include('simpleicons/C/Containerd')
 
 ' renders the element
 Containerd('Containerd', 'Containerd', 'an optional tech label', 'an optional description')

@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Boeing
-include('simpleicons-14/B/Boeing')
+include('simpleicons/B/Boeing')
 
 ' renders the element
 Boeing('Boeing', 'Boeing', 'an optional tech label', 'an optional description')

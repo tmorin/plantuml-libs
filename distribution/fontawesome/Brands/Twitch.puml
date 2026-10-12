@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Brands/Twitch
 
-sprite $TwitchXs [8x10/16z] BSM54S0m5CFGTrG8UVzf2_zYa4X5L1AMMOwKXr56JrhJnfbAiuM05m
+sprite $TwitchXs [8x10/16z] 9SM75S10209GYDUBxhzjvDrN07kET8v3QbpGQ4LRM2nN-jio8xoqc0YP0ByeX1J83m
 
-sprite $TwitchSm [10x12/16z] NOo30S105CLUxMR_QS_EDoKI0aNeCxGjGpRiaJCsF3Ti-UyI1vyIVmmM
+sprite $TwitchSm [10x12/16z] DOg50S10309v_oZxJrllnGEOD7Tpoy661-6zLJJiUok2-BO9nUBlit_RIfgKAY7WXP42H2GP4pShyD6_UG8
 
-sprite $TwitchMd [14x16/16z] ZSUr0S0m00In2xD__sdDs4MT03KWSnG6wQFub3R3DDK9dklNed6BkksAbLRapUIbe0flt_TJUlUTRD9BCzqK3W
+sprite $TwitchMd [14x16/16z] LSV50SC05CKmlnz6xpzjkG7T18idPZkIGCY-Ql6tgmraWZd718_LRVGmyDzNLEl8hFOfI1ed_A1JHxxR5tK0_Ei04YQtIlWPTouw3ay
 
-sprite $TwitchLg [17x20/16z] bP150eKW04IVBJdtF-rFcfLlvvG0ODG2jwAlwEllL6Gq24h26U4AZN3zrXu9XuVJLo4n2t4GWlQluAqrOAsDsj2VY4_PBFpA6qb8BFJ2GgA-G1KMUg7zVWC
+sprite $TwitchLg [17x20/16z] {
+TSa50e0W4031fPlx_s_5xbLg3hJSGebuksU2p7EEvl4V53zMl40BqFC5we2QBY0HUhc0KlCwuCZU0IFb1auoCxJI3RRLAeKPvgoPzym1TTuICvn5vjoeYsJh
+B4TD4hTwv9xdqWG
+}
 
 !procedure Twitch($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Brands/Twitch', $name, $tech, $desc)

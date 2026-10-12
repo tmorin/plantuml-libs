@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Ansible
-include('simpleicons-14/A/Ansible')
+include('simpleicons/A/Ansible')
 
 ' renders the element
 Ansible('Ansible', 'Ansible', 'an optional tech label', 'an optional description')

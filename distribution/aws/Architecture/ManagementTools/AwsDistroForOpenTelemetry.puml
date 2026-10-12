@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsDistroForOpenTelemetry
+
+sprite $AwsDistroForOpenTelemetryXs [10x10/16z] BKY50SC03DhQ2F3_mOtZufnKdDkCpF2KmWmHMIbhiOgYn0m2xM-Wfae0QAIeEfwkwmC
+
+sprite $AwsDistroForOpenTelemetrySm [12x12/16z] DKs50SCm3DlQYlp_l-6OKQej6RBIxU_K6ALfa1_WKRyV8aQpLeWF7FFCQpBHh8glBCtn65BrCXUpJfciV1WlUGS
+
+sprite $AwsDistroForOpenTelemetryMd [16x16/16z] ZKu54WCW3BjR8wJ_V_0eivDPe6xfZqWwnswyig_SCZHDSWIo075YGfL4ozOZdbxrEdLdEoo2qx_VVCexw_jsME7ZM9PGRfvpVOQ3j2uJtFbC6WztqF_Y2W
+
+sprite $AwsDistroForOpenTelemetryLg [20x20/16z] {
+XP054WD030Ad5o9B___UkkkEHm7_1zuAjmes9pxEJKMSYXIW8olN28DPoX0mOLrhKQNSJbfkhdDPYgbDhy72sBJjAYcbwC1SXQ9EUvGtxJMT3dm5sqlPLjFD
+kJIbrCALKbvgdKdBPkcsUxiQPQx54yRWL_WJw1jx
+}
+
+!procedure AwsDistroForOpenTelemetry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsDistroForOpenTelemetry', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDistroForOpenTelemetryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDistroForOpenTelemetryLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsDistroForOpenTelemetryGroup($id, $name='Aws Distro For Open Telemetry', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsDistroForOpenTelemetryLg>', $name, $tech)
+!endprocedure

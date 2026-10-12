@@ -1,6 +1,6 @@
 # A
 
-The module contains 257 items.
+The module contains 263 items.
 
 
 
@@ -49,6 +49,7 @@ The module contains 257 items.
 | ![illustration of simpleicons/A/Aframe](../../simpleicons/A/Aframe.png) | [simpleicons/A/Aframe](../../simpleicons/A/Aframe.md) |
 | ![illustration of simpleicons/A/Afterpay](../../simpleicons/A/Afterpay.png) | [simpleicons/A/Afterpay](../../simpleicons/A/Afterpay.md) |
 | ![illustration of simpleicons/A/Aftership](../../simpleicons/A/Aftership.png) | [simpleicons/A/Aftership](../../simpleicons/A/Aftership.md) |
+| ![illustration of simpleicons/A/Agentskills](../../simpleicons/A/Agentskills.png) | [simpleicons/A/Agentskills](../../simpleicons/A/Agentskills.md) |
 | ![illustration of simpleicons/A/Agora](../../simpleicons/A/Agora.png) | [simpleicons/A/Agora](../../simpleicons/A/Agora.md) |
 | ![illustration of simpleicons/A/Aib](../../simpleicons/A/Aib.png) | [simpleicons/A/Aib](../../simpleicons/A/Aib.md) |
 | ![illustration of simpleicons/A/Aidungeon](../../simpleicons/A/Aidungeon.png) | [simpleicons/A/Aidungeon](../../simpleicons/A/Aidungeon.md) |
@@ -78,6 +79,7 @@ The module contains 257 items.
 | ![illustration of simpleicons/A/Alacritty](../../simpleicons/A/Alacritty.png) | [simpleicons/A/Alacritty](../../simpleicons/A/Alacritty.md) |
 | ![illustration of simpleicons/A/Alamy](../../simpleicons/A/Alamy.png) | [simpleicons/A/Alamy](../../simpleicons/A/Alamy.md) |
 | ![illustration of simpleicons/A/Albertheijn](../../simpleicons/A/Albertheijn.png) | [simpleicons/A/Albertheijn](../../simpleicons/A/Albertheijn.md) |
+| ![illustration of simpleicons/A/Albumoftheyear](../../simpleicons/A/Albumoftheyear.png) | [simpleicons/A/Albumoftheyear](../../simpleicons/A/Albumoftheyear.md) |
 | ![illustration of simpleicons/A/Alby](../../simpleicons/A/Alby.png) | [simpleicons/A/Alby](../../simpleicons/A/Alby.md) |
 | ![illustration of simpleicons/A/Alchemy](../../simpleicons/A/Alchemy.png) | [simpleicons/A/Alchemy](../../simpleicons/A/Alchemy.md) |
 | ![illustration of simpleicons/A/Aldinord](../../simpleicons/A/Aldinord.png) | [simpleicons/A/Aldinord](../../simpleicons/A/Aldinord.md) |
@@ -95,6 +97,7 @@ The module contains 257 items.
 | ![illustration of simpleicons/A/Alliedmodders](../../simpleicons/A/Alliedmodders.png) | [simpleicons/A/Alliedmodders](../../simpleicons/A/Alliedmodders.md) |
 | ![illustration of simpleicons/A/Alltrails](../../simpleicons/A/Alltrails.png) | [simpleicons/A/Alltrails](../../simpleicons/A/Alltrails.md) |
 | ![illustration of simpleicons/A/Almalinux](../../simpleicons/A/Almalinux.png) | [simpleicons/A/Almalinux](../../simpleicons/A/Almalinux.md) |
+| ![illustration of simpleicons/A/Alphaxiv](../../simpleicons/A/Alphaxiv.png) | [simpleicons/A/Alphaxiv](../../simpleicons/A/Alphaxiv.md) |
 | ![illustration of simpleicons/A/Alpinedotjs](../../simpleicons/A/Alpinedotjs.png) | [simpleicons/A/Alpinedotjs](../../simpleicons/A/Alpinedotjs.md) |
 | ![illustration of simpleicons/A/Alpinelinux](../../simpleicons/A/Alpinelinux.png) | [simpleicons/A/Alpinelinux](../../simpleicons/A/Alpinelinux.md) |
 | ![illustration of simpleicons/A/Alternativeto](../../simpleicons/A/Alternativeto.png) | [simpleicons/A/Alternativeto](../../simpleicons/A/Alternativeto.md) |
@@ -135,6 +138,7 @@ The module contains 257 items.
 | ![illustration of simpleicons/A/Apache](../../simpleicons/A/Apache.png) | [simpleicons/A/Apache](../../simpleicons/A/Apache.md) |
 | ![illustration of simpleicons/A/Apacheairflow](../../simpleicons/A/Apacheairflow.png) | [simpleicons/A/Apacheairflow](../../simpleicons/A/Apacheairflow.md) |
 | ![illustration of simpleicons/A/Apacheant](../../simpleicons/A/Apacheant.png) | [simpleicons/A/Apacheant](../../simpleicons/A/Apacheant.md) |
+| ![illustration of simpleicons/A/Apachearrow](../../simpleicons/A/Apachearrow.png) | [simpleicons/A/Apachearrow](../../simpleicons/A/Apachearrow.md) |
 | ![illustration of simpleicons/A/Apacheavro](../../simpleicons/A/Apacheavro.png) | [simpleicons/A/Apacheavro](../../simpleicons/A/Apacheavro.md) |
 | ![illustration of simpleicons/A/Apachecassandra](../../simpleicons/A/Apachecassandra.png) | [simpleicons/A/Apachecassandra](../../simpleicons/A/Apachecassandra.md) |
 | ![illustration of simpleicons/A/Apachecloudstack](../../simpleicons/A/Apachecloudstack.png) | [simpleicons/A/Apachecloudstack](../../simpleicons/A/Apachecloudstack.md) |
@@ -229,6 +233,7 @@ The module contains 257 items.
 | ![illustration of simpleicons/A/Atari](../../simpleicons/A/Atari.png) | [simpleicons/A/Atari](../../simpleicons/A/Atari.md) |
 | ![illustration of simpleicons/A/Atlasos](../../simpleicons/A/Atlasos.png) | [simpleicons/A/Atlasos](../../simpleicons/A/Atlasos.md) |
 | ![illustration of simpleicons/A/Atlassian](../../simpleicons/A/Atlassian.png) | [simpleicons/A/Atlassian](../../simpleicons/A/Atlassian.md) |
+| ![illustration of simpleicons/A/Atomgit](../../simpleicons/A/Atomgit.png) | [simpleicons/A/Atomgit](../../simpleicons/A/Atomgit.md) |
 | ![illustration of simpleicons/A/Auchan](../../simpleicons/A/Auchan.png) | [simpleicons/A/Auchan](../../simpleicons/A/Auchan.md) |
 | ![illustration of simpleicons/A/Audacity](../../simpleicons/A/Audacity.png) | [simpleicons/A/Audacity](../../simpleicons/A/Audacity.md) |
 | ![illustration of simpleicons/A/Audi](../../simpleicons/A/Audi.png) | [simpleicons/A/Audi](../../simpleicons/A/Audi.md) |
@@ -258,6 +263,7 @@ The module contains 257 items.
 | ![illustration of simpleicons/A/Avianca](../../simpleicons/A/Avianca.png) | [simpleicons/A/Avianca](../../simpleicons/A/Avianca.md) |
 | ![illustration of simpleicons/A/Avira](../../simpleicons/A/Avira.png) | [simpleicons/A/Avira](../../simpleicons/A/Avira.md) |
 | ![illustration of simpleicons/A/Avm](../../simpleicons/A/Avm.png) | [simpleicons/A/Avm](../../simpleicons/A/Avm.md) |
+| ![illustration of simpleicons/A/Await](../../simpleicons/A/Await.png) | [simpleicons/A/Await](../../simpleicons/A/Await.md) |
 | ![illustration of simpleicons/A/Awesomelists](../../simpleicons/A/Awesomelists.png) | [simpleicons/A/Awesomelists](../../simpleicons/A/Awesomelists.md) |
 | ![illustration of simpleicons/A/Awesomewm](../../simpleicons/A/Awesomewm.png) | [simpleicons/A/Awesomewm](../../simpleicons/A/Awesomewm.md) |
 | ![illustration of simpleicons/A/Awwwards](../../simpleicons/A/Awwwards.png) | [simpleicons/A/Awwwards](../../simpleicons/A/Awwwards.md) |

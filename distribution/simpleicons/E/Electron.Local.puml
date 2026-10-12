@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Electron
-include('simpleicons-14/E/Electron')
+include('simpleicons/E/Electron')
 
 ' renders the element
 Electron('Electron', 'Electron', 'an optional tech label', 'an optional description')

@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Lvgl
-include('simpleicons-14/L/Lvgl')
+include('simpleicons/L/Lvgl')
 
 ' renders the element
 Lvgl('Lvgl', 'Lvgl', 'an optional tech label', 'an optional description')

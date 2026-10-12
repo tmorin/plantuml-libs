@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/M/Moonshotai
+
+sprite $MoonshotaiXs [10x10/16z] 3Kp50S1028EUuTb_s-O3SH4zqRL4v03fRaiqF86XLEZm-wQVUGEFqgPapwUE6YNdm7LDyvpSz2-mvBD3-1LC-Ny
+
+sprite $MoonshotaiSm [12x12/16z] DKu55e1G28FVkTt_jWwVqitCpDiXgWKTxj4dZi86YgwRMpcZZmMkh8aehk83F2fUSiPYLb53aIRRiLbLdDeVVK75x_mQfOF8Ry8YLzp2_X0U
+
+sprite $MoonshotaiMd [16x16/16z] {
+HKw73GGX3AD3-lxRlZb0RxMuAccZQeIld0wchZuMfFLH3S1ezY42MiJYWtzkjZNwP0VlUs1jXn5Ua88hnm4Xsa167xG7f9mwhWLD8Ec0vj-qbbI_0UhwAVrB
+Dra9q_IzMzE75K9lu7jOxczbc7w92M6Lz4VUqzQ--mS
+}
+
+sprite $MoonshotaiLg [20x20/16z] {
+FOzX6W0H24IX0CpzRxlRmFpgUxmgn_WEOBNeNc9MqJeDNre0pAeYkG6DgE9abXHYpSPoMvVsOuwQVgkJrK0K-LuaQkRtaOCRrslPUstyaH-Sz4BgCslKEcbf
+S3ksVXBHkc2b-f-jjreeOvUnuyH4BsK2moTQ02tZ6bnMM_bORaU0KJJI0dhYy4ArcjKMYmlNje8SFPesgvmfbvg5VWxv
+}
+
+!procedure Moonshotai($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/M/Moonshotai', $name, $tech, $desc)
+!endprocedure

@@ -1,6 +1,6 @@
 # Z
 
-The module contains 44 items.
+The module contains 47 items.
 
 
 
@@ -17,8 +17,10 @@ The module contains 44 items.
 | ![illustration of simpleicons/Z/Zcash](../../simpleicons/Z/Zcash.png) | [simpleicons/Z/Zcash](../../simpleicons/Z/Zcash.md) |
 | ![illustration of simpleicons/Z/Zcool](../../simpleicons/Z/Zcool.png) | [simpleicons/Z/Zcool](../../simpleicons/Z/Zcool.md) |
 | ![illustration of simpleicons/Z/Zdf](../../simpleicons/Z/Zdf.png) | [simpleicons/Z/Zdf](../../simpleicons/Z/Zdf.md) |
+| ![illustration of simpleicons/Z/Zdotai](../../simpleicons/Z/Zdotai.png) | [simpleicons/Z/Zdotai](../../simpleicons/Z/Zdotai.md) |
 | ![illustration of simpleicons/Z/Zebpay](../../simpleicons/Z/Zebpay.png) | [simpleicons/Z/Zebpay](../../simpleicons/Z/Zebpay.md) |
 | ![illustration of simpleicons/Z/Zebratechnologies](../../simpleicons/Z/Zebratechnologies.png) | [simpleicons/Z/Zebratechnologies](../../simpleicons/Z/Zebratechnologies.md) |
+| ![illustration of simpleicons/Z/Zectrix](../../simpleicons/Z/Zectrix.png) | [simpleicons/Z/Zectrix](../../simpleicons/Z/Zectrix.md) |
 | ![illustration of simpleicons/Z/Zedindustries](../../simpleicons/Z/Zedindustries.png) | [simpleicons/Z/Zedindustries](../../simpleicons/Z/Zedindustries.md) |
 | ![illustration of simpleicons/Z/Zelle](../../simpleicons/Z/Zelle.png) | [simpleicons/Z/Zelle](../../simpleicons/Z/Zelle.md) |
 | ![illustration of simpleicons/Z/Zenbrowser](../../simpleicons/Z/Zenbrowser.png) | [simpleicons/Z/Zenbrowser](../../simpleicons/Z/Zenbrowser.md) |
@@ -49,6 +51,7 @@ The module contains 44 items.
 | ![illustration of simpleicons/Z/Zotero](../../simpleicons/Z/Zotero.png) | [simpleicons/Z/Zotero](../../simpleicons/Z/Zotero.md) |
 | ![illustration of simpleicons/Z/Zsh](../../simpleicons/Z/Zsh.png) | [simpleicons/Z/Zsh](../../simpleicons/Z/Zsh.md) |
 | ![illustration of simpleicons/Z/Zulip](../../simpleicons/Z/Zulip.png) | [simpleicons/Z/Zulip](../../simpleicons/Z/Zulip.md) |
+| ![illustration of simpleicons/Z/Zx](../../simpleicons/Z/Zx.png) | [simpleicons/Z/Zx](../../simpleicons/Z/Zx.md) |
 | ![illustration of simpleicons/Z/Zyte](../../simpleicons/Z/Zyte.png) | [simpleicons/Z/Zyte](../../simpleicons/Z/Zyte.md) |
 
 

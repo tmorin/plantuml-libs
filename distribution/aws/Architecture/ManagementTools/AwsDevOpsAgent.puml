@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsDevOpsAgent
+
+sprite $AwsDevOpsAgentXs [10x10/16z] 9Kk50SCW46oJdB7_li2xdQmRILPlzxmfcAh346WszWatxqN3I5sDmEMYBZnsKRMh6ZW
+
+sprite $AwsDevOpsAgentSm [12x12/16z] JKo53S1048eykl_0pH7hkG0zIzBVaAvGTRP5903j3f6isCC-w84lJSsyliZDWGvFJuT5YKvMTpxumbxlwWG_
+
+sprite $AwsDevOpsAgentMd [16x16/16z] {
+JK-53GCn35JVze6p_xuD5SA7KdeEk_-7r_hdh7-Ncp6fYNo9Ig2YT99wePyYkzY-EXssmeT0i38IYLwCoiYXccjZbnN2eutdoiJqkue7Jtv0e_BsDxDILRT-
+daQ1VU6z_xza-w8t
+}
+
+sprite $AwsDevOpsAgentLg [20x20/16z] {
+TSy5OWKm20FGVKY0PFS_xxGohVTLyRz9_xc-JwaVBEjfh95jRJ800P6KzKaLT3seLEL2Ds1Ys7uUdBCLy4HtTTRQg8uYY2WI7oOFMW4ROqDUve-QQM5_CK4-
+a6GB-pV4z7H8G6qJncRPo1k9afqQGfRl5pE1ygA5bcnTkl9lUWK
+}
+
+!procedure AwsDevOpsAgent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsDevOpsAgent', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDevOpsAgentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDevOpsAgentLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsDevOpsAgentGroup($id, $name='Aws Dev Ops Agent', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsDevOpsAgentLg>', $name, $tech)
+!endprocedure

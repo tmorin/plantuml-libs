@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/O/Openbao
+
+sprite $OpenbaoXs [10x10/16z] RSQr0S0m40Im2ppJ_jC6N5kLi7LaTnv_GeWqlkfn0nSC55Y2Pam_DWEg-IHXvmK
+
+sprite $OpenbaoSm [12x12/16z] VSf50iG020F0uAoH_xzswyTsBaY21zxjnoR3tuyZMFtCLKDdNTCbW4Rasf2hAcIfhRH86vx60F7gBXVSMW
+
+sprite $OpenbaoMd [16x16/16z] dSVL0SDG34FHw_0pQVzfo_JR7ACuO_4gNtYnbggaDXwqnxBjI-xYBfmDCrlmu4PO6Xm79cwt-UY3q4-MegNEb_kFwuTpC--ZRiO-yxyh
+
+sprite $OpenbaoLg [20x20/16z] {
+hT2t0SGm3CLGM2AjpB__j9VpjNubId24RUDR7Y75oBmjIH6I5a-AfjHQKWjnDqLQrCfCQ7ALbF7CHTt8IbmqmQg0XK4q8AdpeIlX-croNLX-CLrK_Qbuw4iu
+5saVKpTpxEddmH7E
+}
+
+!procedure Openbao($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/O/Openbao', $name, $tech, $desc)
+!endprocedure

@@ -1,12 +1,15 @@
 ' definition of the Item aws/Category/Serverless
 
-sprite $ServerlessXs [10x10/16z] OqS03XX0PR4oe8a18GC76vZ5mW5am6LniG
+sprite $ServerlessXs [10x10/16z] HOg50G0m3CAcoFy7poNrGlv8iWPhuzr0S6v6fGeyVb2f0kUsM3xEN9jNvay7
 
-sprite $ServerlessSm [12x12/16z] OqS67730Ye_DpiRE0cE36CmGDXi78mSJ44BLCm8LWjaipAmWZCTCLZXW0G
+sprite $ServerlessSm [12x12/16z] LKu13WC114kWhVz_U85jTm10tTo6Eg2EQDwkggrRLn8TcwcOGgewLWBAKCSfUahPCK0aER60LVE-kFhwzSJm0G
 
-sprite $ServerlessMd [16x16/16z] ZOx50G0W24Lfs7zXkqy-a_x-mde2hd7oQIkp7hQLuxZjzWsQjeL3G74qksPxJ_4UBnjhK6Qzj8k_zPmst6G
+sprite $ServerlessMd [16x16/16z] PK-54S103Bhx46J_WUlUrpXGuxLgW8-5CHXVArpytTe3XnzHkVqGxBvz8ucWRFvgDKoKilbG2cmBUpqSDvpiVWY20hiFV56EgHlVnyCVtw-UhzuP
 
-sprite $ServerlessLg [20x20/16z] hSq53W0W241H6kv_OcVdshz-2lWhm3DmZBClfW1-66NMtInol9XI-UH2mzmYW8CixsYMlw99lk7UJFA4c6OR-qYDB9JDgDdPVuChJ
+sprite $ServerlessLg [20x20/16z] {
+RP274S00208lAWBx3vpUaxzk1H0V44FbWneYoYyg8gq7pglcJysY_AmPMGdxLdENB6JVvrAMhAIF6XFAKbScZrhI7AgBOkurbaMYR1czprNR06gxkD-hcKrF
+Ntyfxxglset_sczMVvd-PJy1
+}
 
 !procedure Serverless($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'aws/Category/Serverless', $name, $tech, $desc)

@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/A/Ameba
+' definition of the Item simpleicons/A/Ameba
 
-sprite $AmebaXs [10x10/16z] PSQr0GDH040Xufwt_xJdtQS2Nvn1gMEDas4z2efp7tpk5zs2EXKp
+sprite $AmebaXs [10x10/16z] BSR50GD134MnDqosV__L9aiw2PA39xWcCtsxF1jdxpFkURhulRtcNFkPSjQzeGD70rA9tgCa8CjT6Vu
 
-sprite $AmebaSm [12x12/16z] JSQ50O105CFGu4xsdnOv_z8-W0EuYUEEPcjsrzZbthpdw0uvZGRPalNMAnawZRGaXmUUAm2pei0B
+sprite $AmebaSm [12x12/16z] 9Ot50K0n24DJTzx-qtufd8XBQbEQJVS6hJ7yxm3T_sLWwxw1CaOX_7z28OZq_v4yHYQwXr9mpw99ZJzSEF_MeUYYCVoJDckn9Rq
 
-sprite $AmebaMd [16x16/16z] NSw50SKW54FHr72u-q_x5Ky5paFrJVx-JgSMQBzc2gkPV6pEANt5MGs7GO7Kx7Ha2PgznEoQCdp8qMp1rUgN0J1VruAxYKW7LtB7lA5NZGUkUjyt
+sprite $AmebaMd [16x16/16z] {
+TKx50S0W40lkPFzjU_YhgK3a10BByQV5Hc05AiFZ0_-yj45RsLGnvr9ofbhSIB9MH9h57IKZ7jtnFNA6FmleqMoqr2VFC8UwQu_p1BWkcbjNslQkTUz6gzjW
+z7FOa7i8P1tt3m
+}
 
 sprite $AmebaLg [20x20/16z] {
-XT250GGG041HtVpzfxsIrzhJn2CKsoibTW1pAoiy6UvEF1lmr-G7ItIro6DfZIwPsaY7IG5Q9DfXGaZT6qzspq_MCZqV1iK3rDDih-Ymsmh8cnwc0KgtZAFV
-nExLAa3I5OHy_WFv_0SHG2sx0W
+XOw5aKKX34N3u7hwxtRd2Sb-nqckoJ4SyRWYJdH4y28UuaEDd7cfmUzQPG4igjMeXJaf5IrvAAvtLy3lMgA9W4WpmKAu7i44uu5hnoRjMc3x4gm6mxa1Lcim
+Ztj2qyHGzQ4b-l7gxAAFkLR2cQJcgAadz7whcWcjeHPRACOjAty
 }
 
 !procedure Ameba($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/A/Ameba', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/A/Ameba', $name, $tech, $desc)
 !endprocedure

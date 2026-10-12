@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/Q/Qwen
+
+sprite $QwenXs [10x10/16z] 9Sg54S1G3CDGVOPSg_sdBRwZn3PGBNmIXpiwAIV6c7CdA-bljanT9B2X538XxNs-8InxegQ7cKywDt03
+
+sprite $QwenSm [12x12/16z] BSU50S0m30F1ZnicxRzjGsSKIvNdCURqFh1yE6sT41oNPqNRm8XQUG63Bamo0ckKw9saLD5iE8Sap_0iLSPYRfKIZut9yWC
+
+sprite $QwenMd [16x16/16z] {
+HSV70SGm4CGmpZhRajX_jPS3Vk1f7IxyLIqE_XQYZc7_bERRIgvCK7dRE8NY8w7Re3rTOGwb4uiF2x32uO2k7JPIe2kJJgmMEr73rS27ayjnBLGuV0Yh0Ohe
+pDDPLJCqBtvIauQ_kRlpT0S
+}
+
+sprite $QwenLg [20x20/16z] {
+LSq7WWGX24JH3ugTk-v_snNSDC-SIeezhmQVDfV4X-xiqjbZujiWzvQZico7fbyELtY0DM-JDuz1Lq3ZJy0h6TPzCLh08PtPfvmng8kU_VGoPNgNRWXD0Li5
+SjNYaHu8-TglH_uTyHx7lQ9sE2_Ob88n7-q7k65ATpqYDJZpGRbE9eTMmKjFUttT-SyYCkfJlE_hb2y
+}
+
+!procedure Qwen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/Q/Qwen', $name, $tech, $desc)
+!endprocedure

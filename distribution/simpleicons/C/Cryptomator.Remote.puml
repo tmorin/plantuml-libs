@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Cryptomator
-include('simpleicons-14/C/Cryptomator')
+include('simpleicons/C/Cryptomator')
 
 ' renders the element
 Cryptomator('Cryptomator', 'Cryptomator', 'an optional tech label', 'an optional description')

@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Ticktick
-include('simpleicons-14/T/Ticktick')
+include('simpleicons/T/Ticktick')
 
 ' renders the element
 Ticktick('Ticktick', 'Ticktick', 'an optional tech label', 'an optional description')

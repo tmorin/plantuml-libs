@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Trpc
-include('simpleicons-14/T/Trpc')
+include('simpleicons/T/Trpc')
 
 ' renders the element
 Trpc('Trpc', 'Trpc', 'an optional tech label', 'an optional description')

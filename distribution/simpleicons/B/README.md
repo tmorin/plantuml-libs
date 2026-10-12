@@ -1,6 +1,6 @@
 # B
 
-The module contains 156 items.
+The module contains 157 items.
 
 
 
@@ -31,6 +31,7 @@ The module contains 156 items.
 | ![illustration of simpleicons/B/Barmenia](../../simpleicons/B/Barmenia.png) | [simpleicons/B/Barmenia](../../simpleicons/B/Barmenia.md) |
 | ![illustration of simpleicons/B/Basecamp](../../simpleicons/B/Basecamp.png) | [simpleicons/B/Basecamp](../../simpleicons/B/Basecamp.md) |
 | ![illustration of simpleicons/B/Baserow](../../simpleicons/B/Baserow.png) | [simpleicons/B/Baserow](../../simpleicons/B/Baserow.md) |
+| ![illustration of simpleicons/B/Baseui](../../simpleicons/B/Baseui.png) | [simpleicons/B/Baseui](../../simpleicons/B/Baseui.md) |
 | ![illustration of simpleicons/B/Basicattentiontoken](../../simpleicons/B/Basicattentiontoken.png) | [simpleicons/B/Basicattentiontoken](../../simpleicons/B/Basicattentiontoken.md) |
 | ![illustration of simpleicons/B/Bastyon](../../simpleicons/B/Bastyon.png) | [simpleicons/B/Bastyon](../../simpleicons/B/Bastyon.md) |
 | ![illustration of simpleicons/B/Bat](../../simpleicons/B/Bat.png) | [simpleicons/B/Bat](../../simpleicons/B/Bat.md) |

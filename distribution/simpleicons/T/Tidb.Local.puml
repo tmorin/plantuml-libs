@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons/bootstrap')
+
+' loads the Item which embeds the element Tidb
+include('simpleicons/T/Tidb')
+
+' renders the element
+Tidb('Tidb', 'Tidb', 'an optional tech label', 'an optional description')
+@enduml

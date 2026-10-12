@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Heart
 
-sprite $HeartXs [10x10/16z] LOgr0S1008I8Ts7_QT-LvfJ9fnyggFvklCCntTaDrFj9inU5Mu08
+sprite $HeartXs [10x10/16z] FSR50O1G00KWxFRjFwtjvmHDHTLG9sdR9FMUJqcob5J_AjsR3iET0VH9xrLLS08
 
-sprite $HeartSm [12x12/16z] Oq01_FpyO987I800XEJanmwOaDWCo6oe1CGqBfXga0KyO2OBa0MLOOPPpSGBfW
+sprite $HeartSm [12x12/16z] NOc50GGX30G7TxR_Ql_FRI392XW3nwxIC6P8XQA5ETUzoI-VefXR6_mfFP1scLZ9gypi12bmOlRp1m
 
-sprite $HeartMd [16x16/16z] VOo30K0X500lk_QVzjlediaRN_mIKzQ0RZEQl4HeAswBeVM9Zvf-RU4-1dCl8HsbOY5lfMOZNQTiFmHVZ
+sprite $HeartMd [16x16/16z] RSU53SKm54Mnep3Tb_sd_LXkBJGtHMeEN9CAOFFBkVbbr7bowPqkJUSdx5W3Txm3yjxCLrrR-QldGlcsi0jIuD4R
 
-sprite $HeartLg [20x20/16z] ZSl50SC00810shYo_xHnzti3D_x1dr4G_EWbzX90Uq3gAALszCDPxQJA_ARoBFOCJqfoZtvmpk3l7htiUFPgLtycfREGoLe6iChMSHMgF6W1
+sprite $HeartLg [20x20/16z] {
+VP253S1030Fz72ZilsrLVZwH5OxH9n0bSmgJYC8fxBQV921TOZF06Je9uH4RU6-WhOsreNvmapOcheqvQ1rImDInyoLVXZnEYhCPD_A712-QpV-GkkeaFduL
+E2A72GS
+}
 
 !procedure Heart($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Heart', $name, $tech, $desc)

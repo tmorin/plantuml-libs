@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Apachekafka
-include('simpleicons-14/A/Apachekafka')
+include('simpleicons/A/Apachekafka')
 
 ' renders the element
 Apachekafka('Apachekafka', 'Apachekafka', 'an optional tech label', 'an optional description')

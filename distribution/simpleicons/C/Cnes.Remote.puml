@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Cnes
-include('simpleicons-14/C/Cnes')
+include('simpleicons/C/Cnes')
 
 ' renders the element
 Cnes('Cnes', 'Cnes', 'an optional tech label', 'an optional description')

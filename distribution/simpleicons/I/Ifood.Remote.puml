@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Ifood
-include('simpleicons-14/I/Ifood')
+include('simpleicons/I/Ifood')
 
 ' renders the element
 Ifood('Ifood', 'Ifood', 'an optional tech label', 'an optional description')

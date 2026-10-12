@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Rook
-include('simpleicons-14/R/Rook')
+include('simpleicons/R/Rook')
 
 ' renders the element
 Rook('Rook', 'Rook', 'an optional tech label', 'an optional description')

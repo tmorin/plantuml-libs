@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Hackaday
-include('simpleicons-14/H/Hackaday')
+include('simpleicons/H/Hackaday')
 
 ' renders the element
 Hackaday('Hackaday', 'Hackaday', 'an optional tech label', 'an optional description')

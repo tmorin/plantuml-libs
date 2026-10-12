@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/N/Notesnook
+
+sprite $NotesnookXs [10x10/16z] HOo50S0W40Dnb_stxP4Q-b6JjrPcgDw7oRXtC34QHgQWonhWvCyKozubIWMtSQRv939ZKClVV04
+
+sprite $NotesnookSm [12x12/16z] JSx50GD130F0fN3awR_QC9m_9b4R0JBQu7m-dc14jMU5e2r61_MwjG9NlpczddD-61UWJ-P2gA_cWDC9nZR37G
+
+sprite $NotesnookMd [16x16/16z] NO-30S0m403lKMl_QQiuRmFyk28S3inN1JF-IbCLdVx0Ltm28iZVyWdOhclxIty8bf5y_MTEbBcDVx9yQYJtZ-6QC_dsoItVwTM-FwZVFHgQmcnDz_R_zFy-
+
+sprite $NotesnookLg [20x20/16z] {
+RP255GGX44E3E_HVxSa6VMpmFuC5W2rjgbZybTkXt55vDA7zzHMK9xHbCAK0pJCRcQo_GI2qAQ0o9XORSu75l5biwM8LC-y-JwDUhDNj7CQBJ8jv2BxPhuyq
+mxyP8ZioDm-cVSkhLq_VlFy2
+}
+
+!procedure Notesnook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/N/Notesnook', $name, $tech, $desc)
+!endprocedure

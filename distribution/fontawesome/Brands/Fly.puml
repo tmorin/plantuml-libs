@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Brands/Fly
 
-sprite $FlyXs [6x10/16z] HOI70O0m08DmR_d_Mkrk0i3g24xUFcA5qjrDq1j0-eGV
+sprite $FlyXs [6x10/16z] FOZ50S0m24LVF47ttxQS2jzvuXjrSgtSv6nvIlkhPKnYoeOMte3U-LK4FW
 
-sprite $FlySm [7x12/16z] 3SC50SD00C30syeO_sxx0RmtIgwvl-vVKOfUsaRZv205xml-m0yeFW
+sprite $FlySm [7x12/16z] JOU50G0n20Elhi3-qxvBuo7EAP5aBbbCflUIizppiXtb4vfJp-2qJGTu2ooOLpfpi0C
 
-sprite $FlyMd [9x16/16z] NOg50O0m4CI2Ezb_MfpQwndGxriDL8gTuBlE7-Zz004ClnN2J8uuZBoqMe7hxN9NhRpLKvRh3mHE
+sprite $FlyMd [9x16/16z] DSQ55GD03CDG7UEBzf-st83zOKR41AwvspRBJRUchUs5mzBwmgL-SHZ7ySBWP8DcRfLbUc41ZdusGFP41g1Q-KxwDUtV_bIim1C
 
-sprite $FlyLg [12x20/16z] ROl5OSH00CHaUvdKVxN9CUir292cVUTCqQpD7ReUwC0D5LHOK_j57tIrN7GagFcY4_jwRjhBLzPTryXsFfzF0bNHYuJbxXg12sghtD39WyvFWl1hhvV3Fm
+sprite $FlyLg [12x20/16z] {
+ROn50W8n54DJRvdvUVS_BUwGLLpICCIKf6ncnZEo4eG4LKuRj0ktoWxa2qSA85rvqdhpDqEvy-WmBtnNdpA-VOPK80kqLKcJ9UOuw8AWUkswmNRSgH8aFKNI
+NuIVj49xrkthu0G
+}
 
 !procedure Fly($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Brands/Fly', $name, $tech, $desc)

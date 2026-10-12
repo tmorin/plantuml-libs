@@ -1,13 +1,16 @@
-' definition of the Item simpleicons-14/S/Statuspage
+' definition of the Item simpleicons/S/Statuspage
 
-sprite $StatuspageXs [10x10/16z] Oy0A-C601yY00H2B4Km2fRb174QuGeGMk6uKqm
+sprite $StatuspageXs [10x10/16z] LSb50W0X241HiFlV_xG6gvcdj7neo3deRIgcoeBL-xnPYN7E57btBdaSQ-6iNROpESlF0G
 
-sprite $StatuspageSm [12x12/16z] TSQ50O0m50FHmvtRVrhSQT-NXBZALNQrLJ9uOxtHFj4HQbmn0YIkuDjvTdfRFcO
+sprite $StatuspageSm [12x12/16z] NSo50G0X243HRpViF-rr-cm99iOvmo7f8OFNXn_RLcjjsp6GPef8CKtWIWiSccxQfr7XjDKBD-UOhG
 
-sprite $StatuspageMd [16x16/16z] ZScr0GGn00F1DRFLVxMFnv4d4h0cvSZEQJCDO7GnYBf3Npti1rxAJ4cD8G65NvKgYJ_ziR6FphEFNqtSXiAADm
+sprite $StatuspageMd [16x16/16z] ZOu30aGX500dk-v_sjrlQy8p-81qgPJav6ZfsYQgxipKDcIcO2bJYke_uxptfWyfJ7FTwx2uPW2167DLfmxuqOvmRUlHjfCvxL1OiJaxFl47
 
-sprite $StatuspageLg [20x20/16z] fS-35KGn50JGYPtflzh5jtcFWaUyvWl_aa97S2BZBt7E0bp9aMie_9CYCy3nppJ90gcxMJBWfunz14H2XpqCnCKtRBs5eST4wjUQ4Y5PtFG5
+sprite $StatuspageLg [20x20/16z] {
+bSor0O1G40FGd03Vi_-qk5FngjFW9pLJtCXGkQf1zadYJLgcFLzwP7xa_R6aOKXbVqTP9cefb-oQbmP0eqEvCZWRPg80Tm8LR3hk1fm6xY9EFNS19-7ESGbS
+PTmDPzgT6VwQ
+}
 
 !procedure Statuspage($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/S/Statuspage', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/S/Statuspage', $name, $tech, $desc)
 !endprocedure

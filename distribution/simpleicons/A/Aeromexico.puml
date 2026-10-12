@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/A/Aeromexico
+' definition of the Item simpleicons/A/Aeromexico
 
-sprite $AeromexicoXs [10x10/16z] LSh50S0m30J13NEk_sejUcaCGfhfF4bowxN3BtUTgXvvNOOr8G6tOzkWzXe3
+sprite $AeromexicoXs [10x10/16z] LSV50KHH2CNGEyB3eVzgl-jP9NZY2ASjUc4b-5btog3V48dsvI3CN4i5GCfYqWnyI8omap_UPW
 
-sprite $AeromexicoSm [12x12/16z] VSe30e10443HdrttFsrhuos6T7pIVVbKWtcHuPqP1wxhbhcgtOBAZzTGER0gDX_6UPvnfec2
+sprite $AeromexicoSm [12x12/16z] PSZ50SH0509GHk6FqN-rgpabxuBWfb5g2L_onvhz-txh5lT6xSi-FLe1GsDvqpP2xFhrGAeXnPHTWIIICzM6hnQZu99RmiCR
 
-sprite $AeromexicoMd [16x16/16z] ZSVL0GCX50J0tJESrt-tmI5-ypUuuuYIwNuf3fpi7LAtNJ93yamtnjHBY0SEwRmaa9U7gXq9hs8SB2AST_NRaH3Jbc3XBF750m
+sprite $AeromexicoMd [16x16/16z] {
+TSi50aGX20JG-IfXmVrlkxFTpwJmsq5uc9aq3KGzBxGl0taIxHsv0T6HDAIX7e9cCfDavSu3FZejJlFaX9dIlDHvGTLfpBZKGUBcfY7p5giRXrP1BGSkfFim
+F5MtXbTi_ES4
+}
 
 sprite $AeromexicoLg [20x20/16z] {
-bSe54e0m3031grje_lzQt1bZeNOJVZ8nb-ouqqFw94-HoCBeWm2-wwwNc0TLI2Ao9QfOKzZjRTjnPJEShMt7ZlrmksiE_6LlBFfcd-iiwauXXC3A6EiNbWTT
-y2GYcTyc
+bSp50S0W44JHmTU0_hiD4Ztc7VyAVd69rKmb1zoqBvN4NqdwrbAfbJ1P_v2HOkQ-SFJmaIf09UzRzSq29y3bOJTEVGA89w9sjuInLQPxhmKGqMgrdMt-Su5f
+AYPN6tBAGp9rRRI0mGbJ6NjAymgNA3pWmutpvF4HX3F-Em
 }
 
 !procedure Aeromexico($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/A/Aeromexico', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/A/Aeromexico', $name, $tech, $desc)
 !endprocedure

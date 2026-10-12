@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/F/Fireship
+' definition of the Item simpleicons/F/Fireship
 
-sprite $FireshipXs [10x10/16z] LSQr0OG0002nUtyq-szBXQLADrx77E68pwC-G6Ey8H4YpmAbdcPj
+sprite $FireshipXs [10x10/16z] BSQ53GDH5C2mV8QdDljFUsoHWTpuTCktlwOdGuqxnLlAuBjMfoDKzbwIzRUTIKYga2lCl1Cd
 
-sprite $FireshipSm [12x12/16z] NSR50K81042XPxViFwtjBqwqPEoLuV3h3GwVxe2s5Q3pKEt52aGKBduFh4graMDF
+sprite $FireshipSm [12x12/16z] FOk50G0X4CEAEzb_sbSWvr8zHAj3mvmUs6q6wjywNZw9uIF9I_tlcuRnKFuzCLCq0P_97YypU75gMH9KtXgDb4rusXi
 
-sprite $FireshipMd [16x16/16z] LS-30SG040J0ZPtflzetShQI9oofuAm-hkw0lQRfVku8r3HJTSbSN8baAluGxDl7xyX7Omp2aMnmF3cdDKaF-Fqoql5Sc6rCCcbQGt87
+sprite $FireshipMd [16x16/16z] {
+LO-54G11308vzwF_Rd_8-ux50p0wVZZ-2vd_mY9PtZHIUDpGc7SwoUz0uqN1S5g-QKWBsEJUTqwdjbiK0OifQoyhNNwGAUYk5Mp9OIg_hrQ9xQU8L3aWiWPA
+G9U50m
+}
 
 sprite $FireshipLg [20x20/16z] {
-POy54e0m3C2AE_d_RxaQrg3BLXEdaKf7LznAbL0bobUT5DdYJ2z7KXKCsUZAWyYXQk3ZM3FoSISHsJzEUpULpQpIwojt3Ha8jsJNnsbHia5huxqRXr7UqbQG
-Gm-x9ZBcrSRPM-7KF1S
+NT230S0m04JHtzYt_xIrNsnmY0x-YYn_G_zEZ5RcltJ3swHTuQNfOBabdHeNfvl1NMVU0hwTLxiba8EeNr-7lLhkjLOoQzAu9qENd9FahqjdqoNPhJM16LeT
+6JIDpriKWUj3kbJMr8z6OrDKQFVpl6SL7FIzjW
 }
 
 !procedure Fireship($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/F/Fireship', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/F/Fireship', $name, $tech, $desc)
 !endprocedure

@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/C/Commerzbank
+' definition of the Item simpleicons/C/Commerzbank
 
-sprite $CommerzbankXs [10x10/16z] Oq06_200PG0nBmC38uZF2oJ0Gc2I4wA42QI43weDY11wmO0Lo6A1YW4
+sprite $CommerzbankXs [10x10/16z] 7Sh50G0X0C2mdk9q_scnl0CyztsnLLir0wzUbpxGZP1iP0Kk3SMFvRVTbSDxbwM7NRREtlTomGG
 
-sprite $CommerzbankSm [12x12/16z] LOs50O0m30GFTtx_RObXryQDFuUaSM_3DxSnARTrDKERgT1LNSqkqWbLi1yCvkmZYHgJuW2cylDkqC85
+sprite $CommerzbankSm [12x12/16z] 7Sg50G0X40F1nPtqN-rB1Za5mWSiIbhtkjnIoby9V673aH9SANZnCAJEPqfjIVo2TCFDM5LaZ69ZUcY7JvSbVi605m
 
-sprite $CommerzbankMd [16x16/16z] ROs50SCW44L_58Vzj-rvBG_E3G_aGTHzytWH5ydGS93R9IaT6tj0KgFToUm9N9gFlfZ39AyLKlFZ3bYColwn6X0DEwcy6tVZoRQ2f5t18V7jOSC_Bm
+sprite $CommerzbankMd [16x16/16z] {
+PSm50WGX20NGFs4BtF-sIsq_MmBuHqGy-sW8GqIMRV5nY8hzWDfwgK3NOmAuzMGeKIV0UbnGHI_aQHkEh71b6tNfbK-MZZH5RhHz81rMUV6QGysn1cb_B7af
+aVMqu2gJumF_7W
+}
 
 sprite $CommerzbankLg [20x20/16z] {
-TOu54e0m40CNT_Z_Qv6RKEz2xIoXHjCPX5p6-Au9iLgejPsmhE7yZWDZrxrH3dG5E5oXXHRSjOCf63thRaSVgitBjvy8-N5QE1a6NoOJBUsu8bIekHw-K1AS
-LZwMC3P0LeZeVMYamWC
+TSw55GGX40FGu4xwx_PUu6pjupg39tdnpXjyH4eT91tUA7wTJ6nPYmvCZH5YAGPm54ZJh1nc_dTgA1OOlrzGzi_vFneeeV4_gx1kA6h3rrWVfKa3-IGs05SJ
+_dIwVNr-SDIsh_-PnK3g_vx5OlYJyUPB_i2J5m
 }
 
 !procedure Commerzbank($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/C/Commerzbank', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/C/Commerzbank', $name, $tech, $desc)
 !endprocedure

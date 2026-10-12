@@ -1,12 +1,15 @@
 ' definition of the Item aws/Category/Storage
 
-sprite $StorageXs [10x10/16z] OyS161bXB0Ps5dH9LX20oh80PGa
+sprite $StorageXs [10x10/16z] HSY73S0m08J0D9xz9uwxZTg9zwJ6MjF7co78Dzy7NT3OLQT39EEPchwd0W
 
-sprite $StorageSm [12x12/16z] RSo54S0m30F0iw3UV-9oECO_KkxBi_5EjLbi5pjkutYjZ43YDwdVz5EOybsB5m
+sprite $StorageSm [12x12/16z] JSw53S1G20JGXBFz9sw_ExoB0UeSbBEEgrgLs4EtQU9OaO_5uS4UkXK3ZeOTjpTiZUFKE-lTuGS
 
-sprite $StorageMd [16x16/16z] PSV70K0X34EnKEot_yI_5o2wYLNJA12Z-vRauGse7kv6YV4LF5mHyLzLXou_xs0RwdVP6d_wttHxFigFsGu
+sprite $StorageMd [16x16/16z] NO-54S0m30EljcZ_XSkKVF2j8tKDTBNueZrLV9BZg8hx2w1v37Yxp8K_9yt-EsGC3ZuUzYuachbSmKxqkW_tv_7EcmitEdmFNwAQ-ynzDm
 
-sprite $StorageLg [20x20/16z] ZSk53S0m34HHy-q_SHc3_cteIKOhuZ82esnalAM5-UvI637Ov6zcsoxbR6sw5LzpLzzZZySCT_8rigt2M4IYi6fM_UwnehnH5Qy
+sprite $StorageLg [20x20/16z] {
+RP254S0m30EljcHf_uaRAlV37pRZ0sD3Fi0M0SitP4IaEjNG99kpP2IGeOvFrrPLvDEnsGpuwMZNspLuTm87q78ICnADrb2Q3hG8K2PkZW44dqveFDQLDVzQ
+fsF_MGEuxb2TgBdVMFt5z2_sEm
+}
 
 !procedure Storage($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'aws/Category/Storage', $name, $tech, $desc)

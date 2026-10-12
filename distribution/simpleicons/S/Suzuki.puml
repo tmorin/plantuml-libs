@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/S/Suzuki
+' definition of the Item simpleicons/S/Suzuki
 
-sprite $SuzukiXs [10x10/16z] HKc30G0n4CkRRVQVjZWZn9mNDYI5FyxPS4owAR6WzbMqHCYoP2eiyXhO0G
+sprite $SuzukiXs [10x10/16z] BOc30G0m30IJshV_j7Nmb3sfo1sjq7LpP1GWY0LQQaTA1k9kRmzP9FmIUoHbt5uxL9Kx9HrS
 
-sprite $SuzukiSm [12x12/16z] FSo53O0034JHmvst_xQaISElQrAS-K5dcs9ACcA1Dw6QYbvvioQ5ehFrXhERGuyUs3ZINqd3NE43
+sprite $SuzukiSm [12x12/16z] DSg50G0X509GhXIJ_RSzh6VynC2CeqZzml2foGBmEbIsyL-WZEngB_38yWqCTvOztc_gN7kugaFZ-BqVD2fz6Auk5HoP67u
 
-sprite $SuzukiMd [16x16/16z] FSw54SGm44FH7oRRwh_R6_aq-y9P95wiI89oolOAHiUQGw-c5H9QD3Ne2JNV5s1FYAA_VEq7ZwQhOakbPDBnoGOarAyi10xPIgp--h2eu0y
+sprite $SuzukiMd [16x16/16z] {
+NS-50GCn30D0XTdQVzg2NFmBSmmt9dvDqYBUCgL2mkAPcZW1YEhsHic8fiugIsq3VCbgcRlhpjUMWOzEyTM-PwdsV_fzdSNtPvhEp0Y4GtKFLu3KzsUSltW9
+iCFT0G
+}
 
 sprite $SuzukiLg [20x20/16z] {
-NP254GKW34E3Ezb_sYz5ZtTILsmoNXJP7rVWdt0dTGuQ5eK78vue2QfnK02t4cnSceBYIj0d4tbvfIX2M0bCkEWxTQ4Kx79wyOXQmREssRkai_P9K5VvJb2I
-Zm4t6Pjytd8mx_k4IhtKBm
+PL250S0m3Afxa_-ldSAKIIdn6A9syqLJ5VTIlEYE_92g0jD2YTkbJAZnK8wm7kYxbGeCIv4i63D0cs_dkPTF42NOc3sAE85Qp0EPhcpRvsW3NTCUrrW0udZq
+4jEZbmvQmy7ad8J35iwsmKwbxwyNyUO9jxcs_wBlk1K
 }
 
 !procedure Suzuki($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/S/Suzuki', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/S/Suzuki', $name, $tech, $desc)
 !endprocedure

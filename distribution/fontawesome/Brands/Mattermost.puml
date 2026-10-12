@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Mattermost
+
+sprite $MattermostXs [10x10/16z] 7Sc53G0m00B1hri8-qzRknW2IOt0LHN8dKeq17TcKWLv4EGClXk-bNZtuEN8CnNz_Z3kKFmL82vxHJW
+
+sprite $MattermostSm [12x12/16z] DOo54GD14CEKOrR_tMQUbi4sa4_djRr-i0dNEAyYSPC4cWTctWj-AiJZWA3dgwGU8BdCdzvEchYicLWwKopR2TTosJL2MheIy0S
+
+sprite $MattermostMd [16x16/16z] {
+HOy50W0X20INimFt_xyzsp5fG4SYCnw1wW2JjbZO9GWJJ1tMAK8P0GO8TJbrEmnbcHsd34QbMUPP8fDJJYJzVWE6GMS7bSg6IqyULwBJIXG-HSyc26ni_fFF
+jvMhy5BsF9jmqaPbpope_
+}
+
+sprite $MattermostLg [20x20/16z] {
+NT250SKW40FGm_so_xIL85zIvU48uogQ_CGDa8ezb84eJpoicBo9zHPm8dZHBHAbbVSrK4aTD86UPXdB8bnz_8d16yzXgu9cZnaeG1EQeUq_SGg4rKE1BD_9
+qCg6E-nQ7O1nXCjqCbuqkrLd2uStF1ARzi8pVd8EvfzufYl3oOch2cXTSWC
+}
+
+!procedure Mattermost($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Mattermost', $name, $tech, $desc)
+!endprocedure

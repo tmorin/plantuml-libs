@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Istio
-include('simpleicons-14/I/Istio')
+include('simpleicons/I/Istio')
 
 ' renders the element
 Istio('Istio', 'Istio', 'an optional tech label', 'an optional description')

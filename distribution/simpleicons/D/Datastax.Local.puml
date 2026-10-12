@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Datastax
-include('simpleicons-14/D/Datastax')
+include('simpleicons/D/Datastax')
 
 ' renders the element
 Datastax('Datastax', 'Datastax', 'an optional tech label', 'an optional description')

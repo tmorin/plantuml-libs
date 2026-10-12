@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Emby
-include('simpleicons-14/E/Emby')
+include('simpleicons/E/Emby')
 
 ' renders the element
 Emby('Emby', 'Emby', 'an optional tech label', 'an optional description')

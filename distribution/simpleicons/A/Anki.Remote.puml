@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Anki
-include('simpleicons-14/A/Anki')
+include('simpleicons/A/Anki')
 
 ' renders the element
 Anki('Anki', 'Anki', 'an optional tech label', 'an optional description')

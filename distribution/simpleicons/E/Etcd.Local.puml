@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Etcd
-include('simpleicons-14/E/Etcd')
+include('simpleicons/E/Etcd')
 
 ' renders the element
 Etcd('Etcd', 'Etcd', 'an optional tech label', 'an optional description')

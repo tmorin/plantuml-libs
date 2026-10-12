@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element What3Words
-include('simpleicons-14/W/What3Words')
+include('simpleicons/W/What3Words')
 
 ' renders the element
 What3Words('What3Words', 'What3 Words', 'an optional tech label', 'an optional description')

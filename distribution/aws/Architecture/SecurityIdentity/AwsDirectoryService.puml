@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsDirectoryService
+
+sprite $AwsDirectoryServiceXs [10x10/16z] RSd10O1G20BGAe1i_ts_wjbtKI0sdvhhCoK2hWys2FxLKU2hMGtr5sfqR18
+
+sprite $AwsDirectoryServiceSm [12x12/16z] TOjL0W0X508tWD7x7tW3lvtNmTmo5crjwOkq3rYwH_T4patxH79xnTpnzQins1RpWyNSyW8
+
+sprite $AwsDirectoryServiceMd [16x16/16z] bSt50K0X30FGBv6M_VT5km2vlGJ9-uIZicdm1DgMobLCjam2_7cCkVs2FxIpsrubQYSHFuHlsv0rRKwVmgfFScTHjXLvdG4
+
+sprite $AwsDirectoryServiceLg [20x20/16z] {
+jSv70W8n20LGpIy1xdzWfwJirNaxElc0w4kC5A69gf7htacFdD5j2pmWHavre4XZvHeFpMJ7Uyuo3gGjjfKpbGH0OkL4zNQ4V8rzaexHlEzoV1tD5qb63fO7
+zPngoHzz
+}
+
+!procedure AwsDirectoryService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsDirectoryService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDirectoryServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDirectoryServiceLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsDirectoryServiceGroup($id, $name='Aws Directory Service', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsDirectoryServiceLg>', $name, $tech)
+!endprocedure

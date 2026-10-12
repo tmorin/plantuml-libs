@@ -1,0 +1,13 @@
+' definition of the Item simpleicons/G/Godox
+
+sprite $GodoxXs [10x10/16z] Oo0IC3CnCZ6oCJCnCN9miRDni7AoSBCpWYGOWP
+
+sprite $GodoxSm [12x12/16z] fS470G0X40EmNiSFmBzUB30IN70gnIyo-Rs3xUNWCq8XHSCYiMa2
+
+sprite $GodoxMd [16x16/16z] jOK50KGn5CCUjsF_QW-_XHKIkHrxZB-oXtPAZHQzoghRd68xP0v170KHf9DP892YyjrV5_86
+
+sprite $GodoxLg [20x20/16z] pSZ70SCm30D0G68dxVstJSyEkWyApYJyDrl_LWI_L_fUCyhfUzTacEJ5wW5w5l9In8eRixLALuUpezXQGsO2MO3NWlRMHST1dW
+
+!procedure Godox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/G/Godox', $name, $tech, $desc)
+!endprocedure

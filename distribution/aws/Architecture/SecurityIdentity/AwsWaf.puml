@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsWaf
+
+sprite $AwsWafXs [10x10/16z] HOpL0O1G3CImIzhz1yRXvQToqeEgrcSB0QuLr_IrgLdHUqEuh5JmzG6flj2hQt
+
+sprite $AwsWafSm [12x12/16z] NOs50SG030B_st21_GUkUrmXNx6FGaP5zpOioz5MOuOnPXj7Z6FAsmbjbhJV56mtQHcwlDMDX7LpVMK6
+
+sprite $AwsWafMd [16x16/16z] XOh1ZKKn30ALDGP8_mNljwoStvm09f_8ISWyN6QZGFSRD57mTb8wbIjkHtnGc32muXPEt-BssoADR0yksL7VzKEb_p3ETaEnmlBsDl63XlCOTwHF_W4
+
+sprite $AwsWafLg [20x20/16z] {
+fL150iCm36iZcRJ__tSUUJaEsd1YKVttMVGGP6ndiJ9WX26IhyE4buUKZfo7Jld1NldK8ulWQUgAnucYDtOQ5qlsV4XqZo2EA73EkeQUvWAdDY7cXTwrUd68
+XlJx-z5IPGliujWqPvUeDisyU-loo3KFtnc4RMVtsY-_Am
+}
+
+!procedure AwsWaf($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsWaf', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsWafCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsWafLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsWafGroup($id, $name='Aws Waf', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsWafLg>', $name, $tech)
+!endprocedure

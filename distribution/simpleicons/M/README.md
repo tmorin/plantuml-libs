@@ -1,11 +1,12 @@
 # M
 
-The module contains 186 items.
+The module contains 189 items.
 
 
 
 | |Name|
 |:---:|---|
+| ![illustration of simpleicons/M/M5Stack](../../simpleicons/M/M5Stack.png) | [simpleicons/M/M5Stack](../../simpleicons/M/M5Stack.md) |
 | ![illustration of simpleicons/M/Maas](../../simpleicons/M/Maas.png) | [simpleicons/M/Maas](../../simpleicons/M/Maas.md) |
 | ![illustration of simpleicons/M/Macos](../../simpleicons/M/Macos.png) | [simpleicons/M/Macos](../../simpleicons/M/Macos.md) |
 | ![illustration of simpleicons/M/Macpaw](../../simpleicons/M/Macpaw.png) | [simpleicons/M/Macpaw](../../simpleicons/M/Macpaw.md) |
@@ -92,6 +93,7 @@ The module contains 186 items.
 | ![illustration of simpleicons/M/Mermaid](../../simpleicons/M/Mermaid.png) | [simpleicons/M/Mermaid](../../simpleicons/M/Mermaid.md) |
 | ![illustration of simpleicons/M/Messenger](../../simpleicons/M/Messenger.png) | [simpleicons/M/Messenger](../../simpleicons/M/Messenger.md) |
 | ![illustration of simpleicons/M/Meta](../../simpleicons/M/Meta.png) | [simpleicons/M/Meta](../../simpleicons/M/Meta.md) |
+| ![illustration of simpleicons/M/Metaai](../../simpleicons/M/Metaai.png) | [simpleicons/M/Metaai](../../simpleicons/M/Metaai.md) |
 | ![illustration of simpleicons/M/Metabase](../../simpleicons/M/Metabase.png) | [simpleicons/M/Metabase](../../simpleicons/M/Metabase.md) |
 | ![illustration of simpleicons/M/Metacritic](../../simpleicons/M/Metacritic.png) | [simpleicons/M/Metacritic](../../simpleicons/M/Metacritic.md) |
 | ![illustration of simpleicons/M/Metafilter](../../simpleicons/M/Metafilter.png) | [simpleicons/M/Metafilter](../../simpleicons/M/Metafilter.md) |
@@ -163,6 +165,7 @@ The module contains 186 items.
 | ![illustration of simpleicons/M/Moo](../../simpleicons/M/Moo.png) | [simpleicons/M/Moo](../../simpleicons/M/Moo.md) |
 | ![illustration of simpleicons/M/Moodle](../../simpleicons/M/Moodle.png) | [simpleicons/M/Moodle](../../simpleicons/M/Moodle.md) |
 | ![illustration of simpleicons/M/Moonrepo](../../simpleicons/M/Moonrepo.png) | [simpleicons/M/Moonrepo](../../simpleicons/M/Moonrepo.md) |
+| ![illustration of simpleicons/M/Moonshotai](../../simpleicons/M/Moonshotai.png) | [simpleicons/M/Moonshotai](../../simpleicons/M/Moonshotai.md) |
 | ![illustration of simpleicons/M/Moq](../../simpleicons/M/Moq.png) | [simpleicons/M/Moq](../../simpleicons/M/Moq.md) |
 | ![illustration of simpleicons/M/Moqups](../../simpleicons/M/Moqups.png) | [simpleicons/M/Moqups](../../simpleicons/M/Moqups.md) |
 | ![illustration of simpleicons/M/Morrisons](../../simpleicons/M/Morrisons.png) | [simpleicons/M/Morrisons](../../simpleicons/M/Morrisons.md) |

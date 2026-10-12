@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Contentful
-include('simpleicons-14/C/Contentful')
+include('simpleicons/C/Contentful')
 
 ' renders the element
 Contentful('Contentful', 'Contentful', 'an optional tech label', 'an optional description')

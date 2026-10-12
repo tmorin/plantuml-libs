@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Roll20
-include('simpleicons-14/R/Roll20')
+include('simpleicons/R/Roll20')
 
 ' renders the element
 Roll20('Roll20', 'Roll20', 'an optional tech label', 'an optional description')

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/A/Alphaxiv
+
+sprite $AlphaxivXs [10x10/16z] NOHH0i0G5CC2WExT_xRmjKsRXEzYE7KWgPqo1gwxBZImV8f35NLN87M6m1h1di5Us4IkBG
+
+sprite $AlphaxivSm [12x12/16z] PKs30G1H5Aflj_-qPzyp2n_XNHR9B2are0bU1cdnAXZZJ1JNgP73Mi9iPHAz0I2xbeXBfhWT8DGDaa-glym
+
+sprite $AlphaxivMd [16x16/16z] ZOq54W0X30E3E_t_Ru_Git6yINPQdAoGh1RwTH49B9nq04FYiYAbM9LaA0sB12iEiBUCMcaAyvCsWiwRzZqbFr9xBMrLqiYRf_oMIH77wm8
+
+sprite $AlphaxivLg [20x20/16z] {
+hSt55GCm30DGXzdQVzlwMIcTMuL_I7xEL6t2XCNnmB981vkaCG6JT88FQaC4kWJrkJYbBj7ka7ZA3XLvaknBK_oYUDOtTIg9ZsnCjqEwlnE15pakjtB9KPFr
+3HRIEqrrof_o
+}
+
+!procedure Alphaxiv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/A/Alphaxiv', $name, $tech, $desc)
+!endprocedure
