@@ -1,6 +1,6 @@
 # R
 
-The module contains 164 items.
+The module contains 166 items.
 
 
 
@@ -12,6 +12,7 @@ The module contains 164 items.
 | ![illustration of simpleicons/R/Racket](../../simpleicons/R/Racket.png) | [simpleicons/R/Racket](../../simpleicons/R/Racket.md) |
 | ![illustration of simpleicons/R/Radar](../../simpleicons/R/Radar.png) | [simpleicons/R/Radar](../../simpleicons/R/Radar.md) |
 | ![illustration of simpleicons/R/Radarr](../../simpleicons/R/Radarr.png) | [simpleicons/R/Radarr](../../simpleicons/R/Radarr.md) |
+| ![illustration of simpleicons/R/Radiantearth](../../simpleicons/R/Radiantearth.png) | [simpleicons/R/Radiantearth](../../simpleicons/R/Radiantearth.md) |
 | ![illustration of simpleicons/R/Radiofrance](../../simpleicons/R/Radiofrance.png) | [simpleicons/R/Radiofrance](../../simpleicons/R/Radiofrance.md) |
 | ![illustration of simpleicons/R/Radixui](../../simpleicons/R/Radixui.png) | [simpleicons/R/Radixui](../../simpleicons/R/Radixui.md) |
 | ![illustration of simpleicons/R/Radstudio](../../simpleicons/R/Radstudio.png) | [simpleicons/R/Radstudio](../../simpleicons/R/Radstudio.md) |
@@ -167,6 +168,7 @@ The module contains 164 items.
 | ![illustration of simpleicons/R/Runrundotit](../../simpleicons/R/Runrundotit.png) | [simpleicons/R/Runrundotit](../../simpleicons/R/Runrundotit.md) |
 | ![illustration of simpleicons/R/Rust](../../simpleicons/R/Rust.png) | [simpleicons/R/Rust](../../simpleicons/R/Rust.md) |
 | ![illustration of simpleicons/R/Rustdesk](../../simpleicons/R/Rustdesk.png) | [simpleicons/R/Rustdesk](../../simpleicons/R/Rustdesk.md) |
+| ![illustration of simpleicons/R/Rustfs](../../simpleicons/R/Rustfs.png) | [simpleicons/R/Rustfs](../../simpleicons/R/Rustfs.md) |
 | ![illustration of simpleicons/R/Rxdb](../../simpleicons/R/Rxdb.png) | [simpleicons/R/Rxdb](../../simpleicons/R/Rxdb.md) |
 | ![illustration of simpleicons/R/Ryanair](../../simpleicons/R/Ryanair.png) | [simpleicons/R/Ryanair](../../simpleicons/R/Ryanair.md) |
 | ![illustration of simpleicons/R/Rye](../../simpleicons/R/Rye.png) | [simpleicons/R/Rye](../../simpleicons/R/Rye.md) |

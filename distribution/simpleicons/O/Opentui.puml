@@ -1,0 +1,13 @@
+' definition of the Item simpleicons/O/Opentui
+
+sprite $OpentuiXs [10x10/16z] OuK3VYJ0omTby36mmbaiM5Yiw3eG064o
+
+sprite $OpentuiSm [12x12/16z] OqO2_3W19oiVdCt4m4qa6w4NFq1s0m
+
+sprite $OpentuiMd [16x16/16z] OqG3_AG3RauU53u30pED-0Zxo0Re_WK
+
+sprite $OpentuiLg [20x20/16z] Oy02-B00VWe15YFuG5ODJZ5CDrFkVqo0BUm1
+
+!procedure Opentui($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/O/Opentui', $name, $tech, $desc)
+!endprocedure

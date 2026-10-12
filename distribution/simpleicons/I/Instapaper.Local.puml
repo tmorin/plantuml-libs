@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Instapaper
-include('simpleicons-14/I/Instapaper')
+include('simpleicons/I/Instapaper')
 
 ' renders the element
 Instapaper('Instapaper', 'Instapaper', 'an optional tech label', 'an optional description')

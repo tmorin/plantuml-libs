@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Observable
-include('simpleicons-14/O/Observable')
+include('simpleicons/O/Observable')
 
 ' renders the element
 Observable('Observable', 'Observable', 'an optional tech label', 'an optional description')

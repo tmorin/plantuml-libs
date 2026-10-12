@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Myob
-include('simpleicons-14/M/Myob')
+include('simpleicons/M/Myob')
 
 ' renders the element
 Myob('Myob', 'Myob', 'an optional tech label', 'an optional description')

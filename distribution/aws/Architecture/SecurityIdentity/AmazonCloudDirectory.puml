@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AmazonCloudDirectory
+
+sprite $AmazonCloudDirectoryXs [10x10/16z] JSR50O0m00Gmx6p_WO5wyqfs-jKGDbXNrPbqdGH8TS-l3sYB9MVt0G
+
+sprite $AmazonCloudDirectorySm [12x12/16z] NOo34G1030G7oQ7_Xj_ScFuGgPa2933oGCrZR42PrOtScLwv8ZJpZ4gEJpN9YFapKTK3LVnH
+
+sprite $AmazonCloudDirectoryMd [16x16/16z] ZSTL0W1H24BH3q5Xzh_VwUxxGezlQyQxLkohbMH9HIwEoR4ObK0MLbkal7EHjRSYj9c5lk9gi0-hCRSuaNr8Bscm_ASE
+
+sprite $AmazonCloudDirectoryLg [20x20/16z] {
+bSi93WGX44BHn085xt_WOVQoi_PtVuc-rRQb7Dqc2fcp4I4dWNyRa4B2-1lu_aiqypQPhPisqzPfc1CNiwliqu0guBHXqkCm52eJtPZnt9gnk58E_rj4ud9l
+lxTxFG
+}
+
+!procedure AmazonCloudDirectory($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AmazonCloudDirectory', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonCloudDirectoryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudDirectoryLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudDirectoryGroup($id, $name='Amazon Cloud Directory', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AmazonCloudDirectoryLg>', $name, $tech)
+!endprocedure

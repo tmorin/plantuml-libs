@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Dlna
-include('simpleicons-14/D/Dlna')
+include('simpleicons/D/Dlna')
 
 ' renders the element
 Dlna('Dlna', 'Dlna', 'an optional tech label', 'an optional description')

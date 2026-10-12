@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsComputeOptimizer
+
+sprite $AwsComputeOptimizerXs [10x10/16z] DOp50G0m309VWN3xxrjlN008l8Axzn1Sbho6hC6fW4fhj62rDRiXrLeMWgKDPO_Erxas0G
+
+sprite $AwsComputeOptimizerSm [12x12/16z] HKs50G112FeYTF-1tsix8JEZUGjD734dIP1qHgbXoL3RW1HijF47KGmuimg12hH_L2t23TUqCUUX3oofUf0Ujfb-
+
+sprite $AwsComputeOptimizerMd [16x16/16z] {
+FKy50aDH25e8YBl_VIU_U4cyS087yy2N-0WDkozzmO-AHKNO8M0aepWE9rsYVyGuTg4aeltjN5gbcg-C4SBHGeFKYk44p2yewhmF2lZSBzWgp80HPjC50hnu
+b1vtzqslST6ZtepGFm
+}
+
+sprite $AwsComputeOptimizerLg [20x20/16z] {
+TT25ZGH140D0xHfwxCi_tiUM7g-66VfKtZG_kxP8-kM04tsDjl7bO21vErDJKxiItMpVr6_Q6ir7Lu1WHfnQEm-UsvM356oQvkQvSou_D0rtQIrKBbBkF1oV
+-3AdmprsW4Xs1UNhBl73OuOuUncZEIEs7NGPzr2qB7xz0JazVfFcww--wYjfcW_ztoi
+}
+
+!procedure AwsComputeOptimizer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsComputeOptimizer', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsComputeOptimizerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsComputeOptimizerLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsComputeOptimizerGroup($id, $name='Aws Compute Optimizer', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsComputeOptimizerLg>', $name, $tech)
+!endprocedure

@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/P/Personio
+' definition of the Item simpleicons/P/Personio
 
-sprite $PersonioXs [10x10/16z] LSA54SC000GWAd7v_QUDAuVTDp-GdXufFiYxv8lGnwxjdU8q-dgQ0G
+sprite $PersonioXs [10x10/16z] DSA74S90300mVRTziF-ur4GdC29YOMJGWfgsLYHjZQ8w-pc1UBZqxJA6wTPWnpxdqni
 
-sprite $PersonioSm [12x12/16z] NSQ50OG040EmlE9q_sbnpqbhLuT5cu90qsFfhxnqblhfb_m5FIJ_9PPgy-zwfpZLT9xUEoC
+sprite $PersonioSm [12x12/16z] NSM50GCn30F02xUX_RSjuvyjoKDeiyy4eVT4x3Ztq323i1BzDb4OI2Klz8BJhY18VNkBfVd8sKUZHGTrzeVHN04
 
-sprite $PersonioMd [16x16/16z] RSp50GCn30NHMMRz_hjDP1sCi_XCvAPRTvR9ZkLMO9RMj2HicldufmdOVExRdVvwBSt0eiNv4Vw45-zTkWblSJwvKnRCDRxEsWPyI_RZfqmCip9-
+sprite $PersonioMd [16x16/16z] {
+RSi54WGn20NHZin4WVlVTkklsok9G2EIcdbixihoNc0s9Bjrn0h0zi8ikaojXfPSJ-KrCkh9eIOvqbiB5PoEM2YL2kcmIBoCiGOVPk63yo4RfE1JugyS7dSU
+bGi
+}
 
 sprite $PersonioLg [20x20/16z] {
-bS-r5GD14C1G7UES-k_MRycmcN-aLFmOJsFYonmQv-L2S-XDSbyKgwu3cJF9f0k398yabmSGDu0FYP8uVNMG3CBXIN9BjecEP6vaeHVL9Scjq1z8v-GEwBb0
-pu7U981yEnvWb3-5l-05
+VSt5eKCn34JHgsUPOVglzaCSfhCJ3dSiJqc96vzQnKFKmLcMiW4WF-z8xdjU181DPUWT8EtJg06W01JvNeu0Xu2vjxBEVpg-3x1pYrMRCkV4U9vf66VH0SjI
+u47NLEMH6NAUcNYH9e1nRnMWwt7F08zySOH707e2lm
 }
 
 !procedure Personio($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/P/Personio', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/P/Personio', $name, $tech, $desc)
 !endprocedure

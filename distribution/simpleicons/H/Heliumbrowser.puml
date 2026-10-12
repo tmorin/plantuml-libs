@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/H/Heliumbrowser
+
+sprite $HeliumbrowserXs [10x10/16z] HKo50S0m3ABkuVzhvojn0N1PhVZCxAvk1VIEi9mZIsk5T82VvFI09dt5a8gKJm
+
+sprite $HeliumbrowserSm [12x12/16z] JOw50KGn24DVtPlzfptvYZi4WDPuI3gzzx3tuPsK68CaEOhKncXI0GXRsW6miPsnk_Qc_MKnV04
+
+sprite $HeliumbrowserMd [16x16/16z] PO-30SH044N_sllwh_QCP38sz8RMTOG8yUW721_JLVyGu2HV7s91aa1AiAGEDEsj1ZodnWbhxmKpVaOKW6VprRVrTfxTP--nzzf_xBzt
+
+sprite $HeliumbrowserLg [20x20/16z] {
+RP250GKn24EfUz_-qtxNkwIAG-oDtks83kEecqBNe7sbCltjJf1kZv_bhk8XHOWF2pTbPaCt3zuwDo6RkG6mxduBO3gxmPND6yNP6s4-dCD3K3eLgsgeNbJF
+OZR1WUHASwgulm8
+}
+
+!procedure Heliumbrowser($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/H/Heliumbrowser', $name, $tech, $desc)
+!endprocedure

@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Regular/ChessRook
 
-sprite $ChessRookXs [7x10/16z] O-2700Ok1ZO6Pdu6881J362Q7q9nmYaGWF20R2uGu0K
+sprite $ChessRookXs [7x10/16z] 9OU70O0W30GJx9wU-syhaE_l-tLAx9qG0pZB_UXvx7dtkZFeHJG1czbV-XH-
 
-sprite $ChessRookSm [9x12/16z] HSQr0S0m0C0m5yFn_zUMGPFmLOCX6ZHG873cela9SWgorZF2dpOS16_f_CdgOmS
+sprite $ChessRookSm [9x12/16z] JSY50S1020F0F58dsN_QkXqETQ5QB5YYIRZybi0XPBeUXh9zMW7LzgNj2pdFCuaeFrGeSKXDkamR
 
-sprite $ChessRookMd [12x16/16z] VSd50O100CJ0u4xwhnPtkNcjuA7t1eHEM7B4OibyvDnuYutiHsOEsz5A8BUBNgZSWGqij9DDPEvf1
+sprite $ChessRookMd [12x16/16z] NSY5bGKm20NH5mEYqt-rkz_jHfZ3ucKnog2rsw2gR6aNLMXwQ53rKC7ru0JvdfdGElS-IshScoRPi-rt_s0IqzmkTwA17XYiscxgmdYnVm
 
-sprite $ChessRookLg [15x20/16z] bSc54GD1581Gpc_jqt-rSVUyKGQybNq4k892FkK4qKvvzIsRqpL3RdQoCHcdwXMkUtRyEwzsENW3jEEak2vMBbJpLTXvAxO
+sprite $ChessRookLg [15x20/16z] {
+XSg3bGLG54FHF0skJl_LVfjxCN1kEKGK6Kb5027zqjJubU8GkqcoVeuNts8oBccG7PgE6dGjJ4V6adGJ9RMRs9wYy7Ran_DLanpxFp9S4zUPCujsYOs2k8B1
+hR45
+}
 
 !procedure ChessRook($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Regular/ChessRook', $name, $tech, $desc)

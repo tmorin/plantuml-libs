@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/G/Ghost
+' definition of the Item simpleicons/G/Ghost
 
-sprite $GhostXs [10x10/16z] FSg50S0W4C30rBtPVreS3dabkTp9zEJt0ZyoDwJo6fa_rRf_LEB8wkAJ_yqC8W
+sprite $GhostXs [10x10/16z] DOo30S10303lZMZ_QUjUJ2ZcRXdejw_HoCvDYkoDXsQHUR7WGoozIT8Y_mLT4cb4v_aSbk44
 
-sprite $GhostSm [12x12/16z] JOs50S0m48Ie-x7_j7KZUJSE9dikD4FqTDix0qvFUK5kQYTvqCzF__dozvypXTspDEOmY-gHtG
+sprite $GhostSm [12x12/16z] JOx50K0n34AfQs3_QRzBtoKU090eCUB469tBccVQhuuxYYJWAIBFzaMX4bua_-LaV5FFPDzAWkMxgxDfCxWmJgtLmmu
 
-sprite $GhostMd [16x16/16z] JSx50SKW403HYJlJVxLVWkqxmJglvV4Qg1wpBN_ru6VM9tyXqniUUwCEACsWYpVTxUD2e19vIUGWmIBUuMzYDQuZ77JfcfUcUPXkypVNgIP-lW
+sprite $GhostMd [16x16/16z] {
+LO-50KKX203XXQst_xG_RC-aGNweAr2SIiD2j2Q1hMB4rFSgn6fzf9EneaIPW5hk9T_OZCeY5P2DXng-1PH3DZXs6QUyImoes5b0K-quySmnnYVu2DZXw81Y
+QzmN
+}
 
 sprite $GhostLg [20x20/16z] {
-NP3L0KKX5CDw7S_-qpv5JxveAAgABwHR4nULl3K5u3Rj1V1DjUcjGAXAdGpNRozD01AusVqoR39tyA0LA5WNWMBSII8OTtEJZGFP_JQoCfkfxTeeImiapJUC
-r13W-0qSm6w-jBL60_A_z0O
+NP370O1G2CNU5oiAsNzQUy-HJgGDyuHqquq5a0745Ut1hKYb1Vepb9LE9jY21aLw1KqAMhr8GWPwKu4veGyTdWpwGaBxYur0zOivIVd5fdJi6ogu_NSCcEBR
+t16ICNuMO9k39zYynD1jgfhSGc-dy3XztCVbVW4
 }
 
 !procedure Ghost($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/G/Ghost', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/G/Ghost', $name, $tech, $desc)
 !endprocedure

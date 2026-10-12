@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Sprout
 
-sprite $SproutXs [10x10/16z] Ou02Rdu8pGy538mW4ammG0We2LK3rSO2PC40JXO
+sprite $SproutXs [10x10/16z] FOg50S0m3CDKvlZ_QyThqCHJOSbAov3rbOiobNOTCJL05moX0cv8XQz6_L5jFseRbITt0W
 
-sprite $SproutSm [12x12/16z] Ou01PZv-68iV27Y1c8c1WHy4k4043uGD8Pb1550MAWJM2M4ZcS401up4im4
+sprite $SproutSm [12x12/16z] TSh50S0W40313UxqNoqElmnook5ABL99u2lrCFWPGjx5_3zTRv2GPgw97uEVgnoVB94d_kGfyNZFr04
 
-sprite $SproutMd [16x16/16z] hSt50O0m40NHmPtVVxLOib80Bpgd9UaEdRX9B_PzuNKeQMXLhELfEKgY0lmfsBy4wqOhhxvsECk8xFov3r7S
+sprite $SproutMd [16x16/16z] hOq50S0m3C1ofe9_jOTX1JnRcUXiwYujcZnnkSaAp3dKR2PMJsmbCIB9idc68VTHuXLBOTlBiiL3HcUzBCSTztzZ4J8F
 
-sprite $SproutLg [20x20/16z] nSt50SGW54NH6q-mrt-r8pWqaBE1xumsAnbwZo8wocB9hm114rYKUTEIH_vjIzSvVAA7JJy1kAP6XdChtcym93SwjwARmHxYaTbRkQ2Tx0i
+sprite $SproutLg [20x20/16z] {
+nSpL0GD124NHExhAlFwhZS5Q1Ja_E3oqVKWRDtNe9xLQixTcEP-C3dI5JSwWAbHJW2d6tyJju8yoIOVgymgtnU_SCb-x0go5iCebRgh5yuTKbkZTvJ_rCEFm
+1W
+}
 
 !procedure Sprout($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Sprout', $name, $tech, $desc)

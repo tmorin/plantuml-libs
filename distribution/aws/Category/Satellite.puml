@@ -1,12 +1,15 @@
 ' definition of the Item aws/Category/Satellite
 
-sprite $SatelliteXs [10x10/16z] OqS0JXZ0OB72MGnW5YkSnSZ605F7nWbYOZC5
+sprite $SatelliteXs [10x10/16z] HSl50S0m40F1nA2L-o_O3FCvL7pAjZlbsI7bsLbdbp2PqIa9hOJ1izlYqm
 
-sprite $SatelliteSm [12x12/16z] ROo30S1034MBVEq_SEtUYwadkM0h7uSZ7mV9UrwhxNrd0Vk-uiAHPrXCHnxL_pylQWO
+sprite $SatelliteSm [12x12/16z] JOw34G1134LdWe_qt-yP-nOnCl8XCcGTs5QaBqGvyt89YLi7q7NxeHaL3zsi4L7MgMU3uAdBQXA-_0Ua3-vPFfzYtM47
 
-sprite $SatelliteMd [16x16/16z] VOw50S0W30JZil_2zU8S6d_l4Qi1jwpPsA9KxFC9bz_cqyFadqtdEUDVVlZJw-jdSVfOwBC9KF9q__D2pqFrV9NezIniQ3a
+sprite $SatelliteMd [16x16/16z] NS-73G0n24DHYHWRi_--rsj-wbDdnAyH49-42FckRKNmfbZcnm0UPoQ5kWtPn50VRghj9dYwXhS4sBixGs8oTTgLmRApBhkL9EJRTadswVFJVJoAUPvvtXK
 
-sprite $SatelliteLg [20x20/16z] fP250S0m20IHFBB_m7LtkJQ6Wnz1l8MSSyitcK1kP2u5Yf1Oo4gtAyaie-n0phB0c7BEgzR5L62MWTE4F3rdMG3HrJBB1k-WJH-1uZzcCCje1zS
+sprite $SatelliteLg [20x20/16z] {
+RT254S0m34FHQoBPblRVjypjFtxXi7rY6_1gQ0tM8sEs9vLU5b5wcjdHovS5cKNcDQ_0J923BaDQSe0up4bl6o8EKyj5b0q-Z3sj2X2fmw8t0b56tS-0R25q
+Cn7aJ0zJHPOkUuNVl_hxqx-_dm
+}
 
 !procedure Satellite($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'aws/Category/Satellite', $name, $tech, $desc)

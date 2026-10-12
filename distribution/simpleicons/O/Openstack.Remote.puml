@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Openstack
-include('simpleicons-14/O/Openstack')
+include('simpleicons/O/Openstack')
 
 ' renders the element
 Openstack('Openstack', 'Openstack', 'an optional tech label', 'an optional description')

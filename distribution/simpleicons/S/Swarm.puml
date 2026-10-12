@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/S/Swarm
+' definition of the Item simpleicons/S/Swarm
 
-sprite $SwarmXs [10x10/16z] NSOn4a100C3071MG___MfC9jjNmCGE5ILnggb3euUtInDgPvxyfEvLOU
+sprite $SwarmXs [10x10/16z] 9Sgr0GC040GWNk9o-qyRfGOOxEtIEai-UeD9SlDNdEjy1vswv0gR_IJSAa-N9vKzvD-qEV86
 
-sprite $SwarmSm [12x12/16z] PSQr0OG0002nl2lS_jEY7QIAiqUuLdyA_rOQeDNzOlUuC6gqAzNnBtMz5wGoX5j_DTgzBeeP
+sprite $SwarmSm [12x12/16z] 9Sg50O0m4C30G5sp_xJeLLxv7IT0pczGm4Vdj0FJHpqwhwQh00VyUlgtW6WyjV7AJrI18mKbAL1bsya9ICP31xy3mWat
 
-sprite $SwarmMd [16x16/16z] TSg30KKn5C3GFDJ8_jD-6wUuvAykPr7hEMPTWE9P1lMwvLb10sTUaHQkfchbapiwdgKRQkDgrOWgLxjEnhtU0YhSQoVg85phHTdLoCrmKjJEmm8f04S
+sprite $SwarmMd [16x16/16z] {
+PS-50GGX3031vP2SPlklzjr_S2VyATmqjrkJkbT04y2Re5mhu51D6ovSbVI6bx7kIuC6I-LbawxBQvFIJ3jtgvQY9bSJYtPIvIffcaoFzMf3dMcEns6Qsdbe
+Qz3LzX_e6G
+}
 
 sprite $SwarmLg [20x20/16z] {
-XP054eH03C22--R_hpth72w1jNhB4tq7GP4Hg759gkDNNAdVaycWW47bo-Wix9N0F-JE6JIeM56hGmQCC9gnebGojLl98gIQpw9M1LLdMN-GTNHgHRUI6Q70
-LTFnQibccIPwOmRzt8jPZ2DVzsACpP8TqTWR
+XSw5OGKm24NH6tVU_jlsaxgVk0B_Q5QvOfyjuQfak2vt8d2aWzEB3EQzEteHE7hzJY-Cd7WHZvnrFWgbvW2CGP9bFjYgJ4aLNZMfqVKGUNMaITR3ufL91f8F
+LwYS-shfWMjjcgHDUBtdCszI8Ru6xZuPBp43LpOfiFKvkr0xj6EhyhCd
 }
 
 !procedure Swarm($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/S/Swarm', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/S/Swarm', $name, $tech, $desc)
 !endprocedure

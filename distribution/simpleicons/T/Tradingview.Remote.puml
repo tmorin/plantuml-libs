@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Tradingview
-include('simpleicons-14/T/Tradingview')
+include('simpleicons/T/Tradingview')
 
 ' renders the element
 Tradingview('Tradingview', 'Tradingview', 'an optional tech label', 'an optional description')

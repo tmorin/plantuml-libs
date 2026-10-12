@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Boat
-include('simpleicons-14/B/Boat')
+include('simpleicons/B/Boat')
 
 ' renders the element
 Boat('Boat', 'Boat', 'an optional tech label', 'an optional description')

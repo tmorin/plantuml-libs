@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Zerotier
-include('simpleicons-14/Z/Zerotier')
+include('simpleicons/Z/Zerotier')
 
 ' renders the element
 Zerotier('Zerotier', 'Zerotier', 'an optional tech label', 'an optional description')

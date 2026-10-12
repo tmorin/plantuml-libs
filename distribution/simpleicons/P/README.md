@@ -1,6 +1,6 @@
 # P
 
-The module contains 235 items.
+The module contains 238 items.
 
 
 
@@ -25,6 +25,7 @@ The module contains 235 items.
 | ![illustration of simpleicons/P/Pandas](../../simpleicons/P/Pandas.png) | [simpleicons/P/Pandas](../../simpleicons/P/Pandas.md) |
 | ![illustration of simpleicons/P/Pandoc](../../simpleicons/P/Pandoc.png) | [simpleicons/P/Pandoc](../../simpleicons/P/Pandoc.md) |
 | ![illustration of simpleicons/P/Pandora](../../simpleicons/P/Pandora.png) | [simpleicons/P/Pandora](../../simpleicons/P/Pandora.md) |
+| ![illustration of simpleicons/P/Pangolin](../../simpleicons/P/Pangolin.png) | [simpleicons/P/Pangolin](../../simpleicons/P/Pangolin.md) |
 | ![illustration of simpleicons/P/Pantheon](../../simpleicons/P/Pantheon.png) | [simpleicons/P/Pantheon](../../simpleicons/P/Pantheon.md) |
 | ![illustration of simpleicons/P/Paperlessngx](../../simpleicons/P/Paperlessngx.png) | [simpleicons/P/Paperlessngx](../../simpleicons/P/Paperlessngx.md) |
 | ![illustration of simpleicons/P/Paperspace](../../simpleicons/P/Paperspace.png) | [simpleicons/P/Paperspace](../../simpleicons/P/Paperspace.md) |
@@ -81,6 +82,7 @@ The module contains 235 items.
 | ![illustration of simpleicons/P/Phpbb](../../simpleicons/P/Phpbb.png) | [simpleicons/P/Phpbb](../../simpleicons/P/Phpbb.md) |
 | ![illustration of simpleicons/P/Phpmyadmin](../../simpleicons/P/Phpmyadmin.png) | [simpleicons/P/Phpmyadmin](../../simpleicons/P/Phpmyadmin.md) |
 | ![illustration of simpleicons/P/Phpstorm](../../simpleicons/P/Phpstorm.png) | [simpleicons/P/Phpstorm](../../simpleicons/P/Phpstorm.md) |
+| ![illustration of simpleicons/P/Pi](../../simpleicons/P/Pi.png) | [simpleicons/P/Pi](../../simpleicons/P/Pi.md) |
 | ![illustration of simpleicons/P/Piaggiogroup](../../simpleicons/P/Piaggiogroup.png) | [simpleicons/P/Piaggiogroup](../../simpleicons/P/Piaggiogroup.md) |
 | ![illustration of simpleicons/P/Piapro](../../simpleicons/P/Piapro.png) | [simpleicons/P/Piapro](../../simpleicons/P/Piapro.md) |
 | ![illustration of simpleicons/P/Picardsurgeles](../../simpleicons/P/Picardsurgeles.png) | [simpleicons/P/Picardsurgeles](../../simpleicons/P/Picardsurgeles.md) |
@@ -200,6 +202,7 @@ The module contains 235 items.
 | ![illustration of simpleicons/P/Progress](../../simpleicons/P/Progress.png) | [simpleicons/P/Progress](../../simpleicons/P/Progress.md) |
 | ![illustration of simpleicons/P/Prometheus](../../simpleicons/P/Prometheus.png) | [simpleicons/P/Prometheus](../../simpleicons/P/Prometheus.md) |
 | ![illustration of simpleicons/P/Pronounsdotpage](../../simpleicons/P/Pronounsdotpage.png) | [simpleicons/P/Pronounsdotpage](../../simpleicons/P/Pronounsdotpage.md) |
+| ![illustration of simpleicons/P/Prosemirror](../../simpleicons/P/Prosemirror.png) | [simpleicons/P/Prosemirror](../../simpleicons/P/Prosemirror.md) |
 | ![illustration of simpleicons/P/Prosieben](../../simpleicons/P/Prosieben.png) | [simpleicons/P/Prosieben](../../simpleicons/P/Prosieben.md) |
 | ![illustration of simpleicons/P/Proteus](../../simpleicons/P/Proteus.png) | [simpleicons/P/Proteus](../../simpleicons/P/Proteus.md) |
 | ![illustration of simpleicons/P/Protocolsdotio](../../simpleicons/P/Protocolsdotio.png) | [simpleicons/P/Protocolsdotio](../../simpleicons/P/Protocolsdotio.md) |

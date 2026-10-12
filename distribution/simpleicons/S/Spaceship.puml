@@ -1,13 +1,16 @@
-' definition of the Item simpleicons-14/S/Spaceship
+' definition of the Item simpleicons/S/Spaceship
 
-sprite $SpaceshipXs [10x10/16z] Oq01VFoCK1O_Fp-SmSyBP_53650c1vp53mDyS1PG3AeD
+sprite $SpaceshipXs [10x10/16z] DSR50G0n40Cn-nWp_LSRNhsaQbaq63psmjkpKgrjgItL77I7nAGdrdAlwmruKxUv
 
-sprite $SpaceshipSm [12x12/16z] NSor0O1000D0tE7sdnQ7brJn8iUc-JaYQdbe2uBzYkNbPR29g27YDfZB3OhlkR0T
+sprite $SpaceshipSm [12x12/16z] DSR50G0W30F0u4xsdnPjxtMuZ86ofDKFSaWz3__FvpN_vrD3OO2ght2aUbM3B0vmvHGEmc43
 
-sprite $SpaceshipMd [16x16/16z] RSt50SC030GmbnlK_jE67TRFU76lyjgNF-nhQBUo1iyi7sPPC_lDvLlASQh7ih39yQxHsdk7UtKkRC4LnFCJcs_q
+sprite $SpaceshipMd [16x16/16z] RSsr0S104CJ08pDi_zKQdadPHA9X2cXfV1LSVw-931T77zv7e2AatdVqxJW3iJc-Ol4LMqbG9MVjmDriXsi2jl3LxICn5J6z
 
-sprite $SpaceshipLg [20x20/16z] PS_L0SKm5CDGbRdQVzh7K2Vdzw99QLXR2gVQ43fL2RvCN8o-rMrwyBFwrMHRDfx-TRoqNl5Yc7cOJV-sEBDPQh1odjPsNuuEciKtL8T8kK53wGu
+sprite $SpaceshipLg [20x20/16z] {
+VSw54SKm30DGXpdQVzeF3SFr7Hj5BqHAWbOCFumM4JzntSHZsSwbbcdGg3Hrw7h9eNDKS4nupr6CF18BLN9CIXw3ZI660miuZ9BtQ5A9AkX7k5AYa4kX42u5
+kla2
+}
 
 !procedure Spaceship($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/S/Spaceship', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/S/Spaceship', $name, $tech, $desc)
 !endprocedure

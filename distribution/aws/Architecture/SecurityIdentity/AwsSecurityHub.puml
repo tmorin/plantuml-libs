@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsSecurityHub
+
+sprite $AwsSecurityHubXs [10x10/16z] uqG171mm5YiR9vZDmWO4B60vLcPcLh0OEuW5bMM5od9oGNI0vTbHJGK
+
+sprite $AwsSecurityHubSm [12x12/16z] VKor0G1132fYmFxxdZUlSG7uPn5dG35IYJcdPSGewr5kvZWOTuyzZ_UOBVTTctlJd2y-h0C
+
+sprite $AwsSecurityHubMd [16x16/16z] ZSwr0SKm30JGuiZd_VVz44xdrudLDHclS93Z4RLKcoCqFQLfw8n1WAHxC7xIYqNIyuYqzuCvuvIieVSzto-4V3_eTCqN
+
+sprite $AwsSecurityHubLg [20x20/16z] {
+hSy53eKn30BWf407k_zzdxlB_yKcrIn1oeqfiNDZ04vySLScDICe1sYuWNOrpd4iR9GuSc8I87F952bcvgZ1Ka7LyZ48NGR9KK8EXB6VXL0k67GotkvcCajO
+0m
+}
+
+!procedure AwsSecurityHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsSecurityHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSecurityHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSecurityHubLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsSecurityHubGroup($id, $name='Aws Security Hub', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsSecurityHubLg>', $name, $tech)
+!endprocedure

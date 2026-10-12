@@ -19,10 +19,10 @@ include('aws/bootstrap')
 
 The package provides 4 modules.
 
-- [aws/Architecture](../aws/Architecture/README.md) with 309 items
-- [aws/Category](../aws/Category/README.md) with 25 items
+- [aws/Architecture](../aws/Architecture/README.md) with 305 items
+- [aws/Category](../aws/Category/README.md) with 26 items
 - [aws/Group](../aws/Group/README.md) with 17 items
-- [aws/Resource](../aws/Resource/README.md) with 493 items
+- [aws/Resource](../aws/Resource/README.md) with 482 items
 
 
 

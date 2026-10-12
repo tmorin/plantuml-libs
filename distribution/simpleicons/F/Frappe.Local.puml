@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Frappe
-include('simpleicons-14/F/Frappe')
+include('simpleicons/F/Frappe')
 
 ' renders the element
 Frappe('Frappe', 'Frappe', 'an optional tech label', 'an optional description')

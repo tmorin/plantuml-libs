@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/E/Effect
+' definition of the Item simpleicons/E/Effect
 
-sprite $EffectXs [10x10/16z] HSY50O0030Emu4x_lnQNhGuMm9gaHPtxp7cFF_0vLA5IH9Zy6oBO0G
+sprite $EffectXs [10x10/16z] 9Sc30GGn40NGjx7JVxN7mIUUjHvGxsVgZ_zJylcBav_sRzkJ9sCmCpMJAw5uMdkKG4sa2a9h0My
 
-sprite $EffectSm [12x12/16z] HSQ55O0m50F0mvtiloqFQ-zBmktmEv9CRbDUZIQLLEIp4_OaFU6EcJKmvBu6nygQWNF1NMm7jpP3u08
+sprite $EffectSm [12x12/16z] FSg30S0m443H7-Eq_xPrNt3ab5GJZncdoQd5g-7nysVZtPfTuYHzqZrHt0l9E-p9QGgaJBRMz0o98L0hoE2q9ip58-kvSZe
 
-sprite $EffectMd [16x16/16z] LSx50SGm4C10XJdglze3i-TZM2HvQBtgJdOQJVojLWE3dMUr1u_L5didhmUumfnIUMJo0Gv78FonfLNkiC0GRYFxlrd8N4BJComQeqDQT2FwjnozA4QLu0i
+sprite $EffectMd [16x16/16z] {
+LOu50e1040AvRlR_lrLivt8R7FYrF1vSivtcBZFRHPOLQG-CMFPZ9NvD9c2-vWHS7Q6ULWsZkgIkVkun3oHBbvGONr6HGyzWr2DPnNAs8g6ADWM7GcT6OTQJ
+MN3HwJqxNZpfpzy6
+}
 
 sprite $EffectLg [20x20/16z] {
-PSvLjiH030FHQWpQslzg7umx4xh_gYCErU0kkQI5ArVe71PzUOwGRdo4xjPTRp6ziWIikaf0CYsR3iqrWmGmwa2LqU9JbdQ0MPw0JSvGf4ROjHBf6O1MW2Hr
-BDORb0ZqSMoM0QooIoyJDYsZrpX5R-Cc_eLV
+PSu54WGX34JHnfs-_sqtOSTvPUYlu637i7WnXQ8Ot38F6OSmUPdX7-ABP1ithN9JOHjVcjKWN_Iei9Z8GpIoXMT_pzpfuIQ35dhNNu7JGKHEYyLEHXmAkv50
+bzRIalOQKsBJNcg0NJt9hb0uEe7ZxWKSzDlg9TnCrLurUB5JGeSV
 }
 
 !procedure Effect($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/E/Effect', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/E/Effect', $name, $tech, $desc)
 !endprocedure

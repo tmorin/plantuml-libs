@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws/bootstrap')
+
+' loads the Item which embeds the element AwsPartnerCentralCard
+include('aws/Architecture/ManagementTools/AwsPartnerCentral')
+
+' renders the element
+AwsPartnerCentralCard('AwsPartnerCentralCard', 'Aws Partner Central Card', 'an optional description')
+@enduml

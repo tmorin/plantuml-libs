@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Clickup
-include('simpleicons-14/C/Clickup')
+include('simpleicons/C/Clickup')
 
 ' renders the element
 Clickup('Clickup', 'Clickup', 'an optional tech label', 'an optional description')

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/L/Linkvertise
+
+sprite $LinkvertiseXs [10x10/16z] 3ShN0S10209GuzcliF-suNqf89-Rsn82zV1Gu4Nnu7Nzy1fL-17jR5kTQR8TPXp7zGlxkAruWF6O1WdPKbMH7m
+
+sprite $LinkvertiseSm [12x12/16z] FOk54KH124C3_6Lzqd-t5yxUM1JmY7W2nQJeEoMjPAwEqd_PIhU-jwClD_P-OMVCyNXVkG8tEprs1-R9HhhLJMUI0Q4PXLMwUya1OU4cW1S
+
+sprite $LinkvertiseMd [16x16/16z] {
+BS_N0S0W24LH55B0oDj_sr2yVySkHICJEXagrgUepMbErMwkvZ7RLxZQq_2E8Exol30KWw0YONuznjK-On0vhtNlsEet0oII5_cUa8bmRAo3eS4m6MMvjznX
+DN5eXrPK5T_PIrrzjli1
+}
+
+sprite $LinkvertiseLg [20x20/16z] {
+PSu54aGX38FX19vIoVrlkuEi_-CVqk8TTxowOfJ6_QcfcSDK9nsB32O-NpvlkGfUjcZTgcMPqpN_B-8qnwqpnKwDUpVdfXqbSv3tUqvhyyuXGmJGekyrVbEx
+wNBGQ2feEh2fCYJ7NZhrwvTkXBhXMAjM6KFJxhhsChgMuOTa_wGJhxzoKM9sxiNRDJhmQYVUFG
+}
+
+!procedure Linkvertise($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/L/Linkvertise', $name, $tech, $desc)
+!endprocedure

@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Instructure
-include('simpleicons-14/I/Instructure')
+include('simpleicons/I/Instructure')
 
 ' renders the element
 Instructure('Instructure', 'Instructure', 'an optional tech label', 'an optional description')

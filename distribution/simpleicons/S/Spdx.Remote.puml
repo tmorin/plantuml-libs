@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Spdx
-include('simpleicons-14/S/Spdx')
+include('simpleicons/S/Spdx')
 
 ' renders the element
 Spdx('Spdx', 'Spdx', 'an optional tech label', 'an optional description')

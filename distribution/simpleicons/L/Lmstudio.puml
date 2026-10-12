@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/L/Lmstudio
+
+sprite $LmstudioXs [10x10/16z] HSor0G0X0CNGVugJ_RV58TMh8a_FDqpognMhaxbhNsDkaW6ZfWp4hycaHhL-pkMS2m
+
+sprite $LmstudioSm [12x12/16z] NStL0O0m30JGIDrk_sq9rxy-g4Ua75n52bSgEEdd3M49PL0rDtVVZ5CBkYBcxbXZntC4LL0MMWZDMVQ0SM_ZK-G3
+
+sprite $LmstudioMd [16x16/16z] NO_50S0m30CTvcZ_QTimtSjiYSXb3B8ZeeI3H0uNPTXnqU2shW221WAT6Bmh-3HFoMSYo8wmDRDYf06LVKzE4QdV2n7FX6W2OASYX_pgVVsyVdy
+
+sprite $LmstudioLg [20x20/16z] {
+RT254KGX40FGnGA3fVzgJ_ETDugiclawkPlLcrdYJJBF1r_vK2SPtQx-SfB33e7IWFnNU1XHGe1wOh33e6wp82cy05aqqQskRX52bC53KIpGABUwl_ZgTf6S
+gnsiThNQwMhtRm
+}
+
+!procedure Lmstudio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/L/Lmstudio', $name, $tech, $desc)
+!endprocedure

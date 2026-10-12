@@ -1,0 +1,24 @@
+' definition of the Item aws/Resource/SecurityIdentity/AwsWafManagedRule
+
+sprite $AwsWafManagedRuleXs [10x10/16z] DOd70S00488Gx_OVEJqV2u11OzYkGBHne9YnTrawmsllUgoDUjkF3VbNZBus9m
+
+sprite $AwsWafManagedRuleSm [12x12/16z] JSh70SD04CD04DphlsHRMPeV0qIe6vZf2XlDqWwaQ4qB1bdj59EACsMJAAS6hOUa6WxvVeQdDn4V_04
+
+sprite $AwsWafManagedRuleMd [16x16/16z] LSU5GGHG30JHcOrywBzWE9SNNG21U0FqpagkN9b9yYCtogQhQe0vn5J2ie0GEUb9DzFLVQIslDwR4frjkOecuUaqqU93wUcdgZeQdeHyvlFxdLEecmyhVk4V
+
+sprite $AwsWafManagedRuleLg [20x20/16z] {
+TSq5WaKn24FHI_f8wEn_lsFVxTG5uBtAT57nd-u1iW-ypKM31hNObnWQV2nNv0PMfZ0C1Yq6G73w9olgHbBzZe1ooRTE1iWSU1xg5kNfuaIX8Toi7J0qJngo
+xkXt1A8dUOejYWPpPxx0JtUEFjKTt_Gl3-_y
+}
+
+!procedure AwsWafManagedRule($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/SecurityIdentity/AwsWafManagedRule', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsWafManagedRuleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsWafManagedRuleLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsWafManagedRuleGroup($id, $name='Aws Waf Managed Rule', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsWafManagedRuleLg>', $name, $tech)
+!endprocedure

@@ -1,12 +1,15 @@
 ' definition of the Item aws/Category/Games
 
-sprite $GamesXs [10x10/16z] OqS03XX0OJ40IKOGYv4Hn0EpM1cO69Z0B8GwF2m
+sprite $GamesXs [10x10/16z] JOm50G0n201VXlKlF1mErt_Wn38ojGp1q8oE9SSo04G0qYcW2DhKjkraVHak
 
-sprite $GamesSm [12x12/16z] VSor0G0n20NG1FYo_yBdaehNu6Zb3vey5JaKTp-c1Lxvh8Y1lFlquUxdMMSqF_6f7G
+sprite $GamesSm [12x12/16z] LOw54G0m20Fla13s7xYkNy55HMNGbU0YHCaSa2ea406G8eGtpD7rhdPxw32qEtG0cUthUe0D14TFSdpVh7U72W
 
-sprite $GamesMd [16x16/16z] ZOl50GG138JYeV-6JzUTtmYznNE9TBBaKVQmY32lVowSHidyvyHef6FCcc9c6ZxkE62CFWbGOyORWD5VSfzbpHi
+sprite $GamesMd [16x16/16z] PO-5ZKG120KJP83-6pxarkVB2mug7wWORvW8bK-AjaVp_tTsC3PnTk6ecRfn-OuJwStbAvYxuNgskIbeozbU7bNHidPDOTDIQoUvyDYdpcxXPz_lUxxl_GC
 
-sprite $GamesLg [20x20/16z] hSYt0SC044BHYy3-2zlAkPC-5OzFcLypkgwzDvXhYEQR4P831IfMStcHIgLXDmoW7bQRUOT5X5NaPb9hA2HiDjsXsgsHd2oHgrtwtkoM_m4
+sprite $GamesLg [20x20/16z] {
+RT074WGX24JH4XgwkV-1ToVWv3z1VMKbmbw53VWj33FK8vXvwLPvMtkTLg9gQLscqSEnj2oSvYHzVOFUHd0mf4XBiE-Dr79StnnjTC2GkVpWqr22QllXj8YI
+rlyqmQ6rRTCcggEctVgsprbzpVHhzdy
+}
 
 !procedure Games($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'aws/Category/Games', $name, $tech, $desc)

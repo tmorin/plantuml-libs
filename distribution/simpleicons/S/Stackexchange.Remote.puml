@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Stackexchange
-include('simpleicons-14/S/Stackexchange')
+include('simpleicons/S/Stackexchange')
 
 ' renders the element
 Stackexchange('Stackexchange', 'Stackexchange', 'an optional tech label', 'an optional description')

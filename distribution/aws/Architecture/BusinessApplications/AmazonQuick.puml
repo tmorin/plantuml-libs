@@ -1,0 +1,21 @@
+' definition of the Item aws/Architecture/BusinessApplications/AmazonQuick
+
+sprite $AmazonQuickXs [10x10/16z] LOo50G0W40Bjm_q7jlCxWFmPpAu4INs8VOrg4meGsjHx57g-3sEfl5O1
+
+sprite $AmazonQuickSm [12x12/16z] NKs50O104B88tNzVl_CwuTt5xYK1rc4gXBo2FqT3lZ0V2Ra6f2SEzXj3_RTZTgvT0W
+
+sprite $AmazonQuickMd [16x16/16z] ZOwr0G1120G31ks_ttVN8m9MistC3aSvgdYjjn9PWSPyid2TvHxr8qCM-e283weLP_W8msU-9GRjwB7YldHOxb2YCj2tFdlV_-a1
+
+sprite $AmazonQuickLg [20x20/16z] fP053W0W24KtQUv_OBjT-bVmQEnVheZg6p424I1RA2StYO07ocMzGKCAeyH16yFaIAcZC5WkGlRKTkGbCu64rR6pG6MsfBQexndlNTuxZzlG_F63VqK
+
+!procedure AmazonQuick($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/BusinessApplications/AmazonQuick', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonQuickCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonQuickLg>', 'BusinessApplications', $funcName, $content)
+!endprocedure
+
+!procedure AmazonQuickGroup($id, $name='Amazon Quick', $tech='')
+  IconGroupElement($id, 'BusinessApplicationsFamily', '<$AmazonQuickLg>', $name, $tech)
+!endprocedure

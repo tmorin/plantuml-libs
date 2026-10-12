@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Rocksdb
-include('simpleicons-14/R/Rocksdb')
+include('simpleicons/R/Rocksdb')
 
 ' renders the element
 Rocksdb('Rocksdb', 'Rocksdb', 'an optional tech label', 'an optional description')

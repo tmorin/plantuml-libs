@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Helpdesk
-include('simpleicons-14/H/Helpdesk')
+include('simpleicons/H/Helpdesk')
 
 ' renders the element
 Helpdesk('Helpdesk', 'Helpdesk', 'an optional tech label', 'an optional description')

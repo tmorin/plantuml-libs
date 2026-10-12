@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Sonarr
-include('simpleicons-14/S/Sonarr')
+include('simpleicons/S/Sonarr')
 
 ' renders the element
 Sonarr('Sonarr', 'Sonarr', 'an optional tech label', 'an optional description')

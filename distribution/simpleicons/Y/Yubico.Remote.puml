@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Yubico
-include('simpleicons-14/Y/Yubico')
+include('simpleicons/Y/Yubico')
 
 ' renders the element
 Yubico('Yubico', 'Yubico', 'an optional tech label', 'an optional description')

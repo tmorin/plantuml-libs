@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Myget
-include('simpleicons-14/M/Myget')
+include('simpleicons/M/Myget')
 
 ' renders the element
 Myget('Myget', 'Myget', 'an optional tech label', 'an optional description')

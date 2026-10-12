@@ -1,0 +1,24 @@
+' definition of the Item aws/Resource/Databases/AmazonRdsMultiAz
+
+sprite $AmazonRdsMultiAzXs [10x10/16z] NS470S0m0CCmn-duGzx_4ZmITYqEDYOfjYePJh42PMXhKg8O8hia_2m
+
+sprite $AmazonRdsMultiAzSm [12x12/16z] TOn50a1H208PU7h_6_-EbRCn24q4mhCkS4aOcVCXDsMV_tQPsBh-2Rd_IySM7ly5V-V83W
+
+sprite $AmazonRdsMultiAzMd [16x16/16z] XKwr0S0022E2_FzmtRRYJkANGFAJ9W4adsxlrZvYR6hPblOQcG4TOrj_H3OmARacQ-k50HvhMrAY2ZWkxRPmzDkPMJulAyZhtar5WCKlNhtPBwq
+
+sprite $AmazonRdsMultiAzLg [20x20/16z] {
+hSY9GKL124FH6m9XNly5k-iKu3_iy2-UoOpWYWLeY-iH037NpaasQw3pmJ1yKOCFe0SEN_hhbmy7pkxCx7xCfm020vBGG9-nSo1yAODDYS0p9SgFGLkI5w9E
+Kcq0smM4BsgkRG5r2gwUxBHuZNS
+}
+
+!procedure AmazonRdsMultiAz($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/Databases/AmazonRdsMultiAz', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRdsMultiAzCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRdsMultiAzLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRdsMultiAzGroup($id, $name='Amazon Rds Multi Az', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$AmazonRdsMultiAzLg>', $name, $tech)
+!endprocedure

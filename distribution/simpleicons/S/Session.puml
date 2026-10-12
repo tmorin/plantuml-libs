@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/S/Session
+' definition of the Item simpleicons/S/Session
 
-sprite $SessionXs [10x10/16z] 5S450SG0000XNkPo_TDEW4-lYG0v0GbmEb4_-2OjgC8gG5P00d83
+sprite $SessionXs [10x10/16z] BOg50G0W3CC2p93_tyKpNujMtqIGZKiMuszQT0zNSJ0bzN4b6psXUtLH1xOjyp3vcsKYV5EL1G
 
-sprite $SessionSm [12x12/16z] VSor0O1040NHmPtflrha947khKOVM0q0TgAbGJBVVz_teq0OMm8Nf3FyNQynRvmAES54jrN192S
+sprite $SessionSm [12x12/16z] HOw30G0n34L_L6F_QG_bAsA0IXeK0p9X4aaL2x6jZuJo2Ux5H_vaON082OCK0WyNEFhIFua2obYecboT8WOZmVOEX1S
 
-sprite $SessionMd [16x16/16z] NSx5OGHH50Cm3SC7zrzjiamwFZJKFCnGiWntOmzJzzR9u6tPnOSsoUXb3m9ojSEU0TboU4W8DPExEIsG7LjkG9YxjsCH7zRVF8EzVBI3dlwGy0y
+sprite $SessionMd [16x16/16z] {
+HS494eGm24N1npV4mWfm_zFEFgORbFNJ0QW7VrT0YgtC4hObMsmgA0Cm7-vHWb40tftpu6ssWv_Au2TIfyFioTinizi1Qe0wt8SRW1MKs9PfmPPcnQQ4kFWR
+BI2wVbBm1
+}
 
 sprite $SessionLg [20x20/16z] {
-dSy5SWKX403HPbd5-lwdZGmnAgN_bS8u7rBpnqNerkU7yi71NrNOP6MYZFz_jR18mYCBH_o7v5JvCERdfkQSc9fd_54jX9bop9tquTlbkEL3jY_T2L5VB3aG
-if1CBzs6SCgY3S2sPCsKuQz8U0S
+RT25bS0W44NHDqDES7x_rQx4xU8kW7UTgW7Coi5teSd05RXg1MhcnWSC_-WpRcg57hdm8eD9BAAaiT-bQYdIw8hiiZAG4t6PnSAQ8Ya3HPbTL1y9m5INeYwR
+xvjf0bCnBc9VxdXZNs_xwCiLIkCgoC7KBb-QDUztENG7VW4
 }
 
 !procedure Session($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/S/Session', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/S/Session', $name, $tech, $desc)
 !endprocedure

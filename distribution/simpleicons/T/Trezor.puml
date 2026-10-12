@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/T/Trezor
+
+sprite $TrezorXs [10x10/16z] NSQt0O0m34N1fqI6l_-qjjLorG4b5SqK8UlL2sy18RM0b2_A7ij_1jQpH-UfnrZy-noO
+
+sprite $TrezorSm [12x12/16z] POdL0G0n24C3LxViFsq5Fk-rG0INJ6OuYJapkMO12aqggqYbNYbqh6262BBhy7Pm7T-EVytuf6djl0o5eNEQEW
+
+sprite $TrezorMd [16x16/16z] dSu50G0n30F0Z3dnh_Qv4_0tnXOtrwNki54NmZHLeAhPUWaNBRmSvG5l3xAs_Awv7hHrnQF-MoSrIolXKiJoZDGpUaegHH8z7c7eCWEsC6rr0W
+
+sprite $TrezorLg [20x20/16z] {
+jP2r0GGn4CIESNRKVxN7XkYpbrdcRLvwOVLDpSp3NAaUF4s6hhWDtutPYWlMkrc9NsuJM1S6VRjDXTDEBnycabCwHlzpaLmKnzhUdNObEG5iRRi1-PWX-F1G
+1L2tIO7EDYAR4m
+}
+
+!procedure Trezor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/T/Trezor', $name, $tech, $desc)
+!endprocedure

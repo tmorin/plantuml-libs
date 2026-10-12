@@ -1,0 +1,13 @@
+' definition of the Item simpleicons/N/Neon
+
+sprite $NeonXs [10x10/16z] uqS05aOmOE7dPsG00qPq5WkSnSyEP_5pC45PZDmGKvZv6HWueOO2nTa1
+
+sprite $NeonSm [12x12/16z] POt50S103CDopD7-qvQv-WHjywJwiE4hU3dm4Cu-_7kJ7tlgesTSMe9gFZmnClOi7x4YXOEbbpG3
+
+sprite $NeonMd [16x16/16z] hSyr0W0X0CJ0tNFF_rzxRa1BkYb3qlBhe7ujkUp5eQ68J1buWVhlle3-jHZaNO-zMvg-dzFgUJkjRWC
+
+sprite $NeonLg [20x20/16z] jT2r0O1000J1U_U__gl54jnXmmcNbulQJDAnDuDPvaUJPcs2PiCODenfmvXNbiWAFJUXEumBW-nXOH1ryahxmO3CMOCXRXXy2m
+
+!procedure Neon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/N/Neon', $name, $tech, $desc)
+!endprocedure

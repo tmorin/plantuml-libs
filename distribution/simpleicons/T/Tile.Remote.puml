@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Tile
-include('simpleicons-14/T/Tile')
+include('simpleicons/T/Tile')
 
 ' renders the element
 Tile('Tile', 'Tile', 'an optional tech label', 'an optional description')

@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Macports
-include('simpleicons-14/M/Macports')
+include('simpleicons/M/Macports')
 
 ' renders the element
 Macports('Macports', 'Macports', 'an optional tech label', 'an optional description')

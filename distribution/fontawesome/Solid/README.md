@@ -1,6 +1,6 @@
 # Solid
 
-The module contains 2000 items.
+The module contains 2001 items.
 
 - [A](#family-a)
 - [B](#family-b)
@@ -1170,6 +1170,7 @@ The module contains 2000 items.
 | ![illustration of fontawesome/Solid/LongArrowLeft](../../fontawesome/Solid/LongArrowLeft.png) | [fontawesome/Solid/LongArrowLeft](../../fontawesome/Solid/LongArrowLeft.md) |
 | ![illustration of fontawesome/Solid/LongArrowRight](../../fontawesome/Solid/LongArrowRight.png) | [fontawesome/Solid/LongArrowRight](../../fontawesome/Solid/LongArrowRight.md) |
 | ![illustration of fontawesome/Solid/LongArrowUp](../../fontawesome/Solid/LongArrowUp.png) | [fontawesome/Solid/LongArrowUp](../../fontawesome/Solid/LongArrowUp.md) |
+| ![illustration of fontawesome/Solid/Lotus](../../fontawesome/Solid/Lotus.png) | [fontawesome/Solid/Lotus](../../fontawesome/Solid/Lotus.md) |
 | ![illustration of fontawesome/Solid/LowVision](../../fontawesome/Solid/LowVision.png) | [fontawesome/Solid/LowVision](../../fontawesome/Solid/LowVision.md) |
 | ![illustration of fontawesome/Solid/LuggageCart](../../fontawesome/Solid/LuggageCart.png) | [fontawesome/Solid/LuggageCart](../../fontawesome/Solid/LuggageCart.md) |
 | ![illustration of fontawesome/Solid/Lungs](../../fontawesome/Solid/Lungs.png) | [fontawesome/Solid/Lungs](../../fontawesome/Solid/Lungs.md) |

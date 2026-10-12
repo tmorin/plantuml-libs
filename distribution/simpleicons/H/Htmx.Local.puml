@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Htmx
-include('simpleicons-14/H/Htmx')
+include('simpleicons/H/Htmx')
 
 ' renders the element
 Htmx('Htmx', 'Htmx', 'an optional tech label', 'an optional description')

@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Netapp
-include('simpleicons-14/N/Netapp')
+include('simpleicons/N/Netapp')
 
 ' renders the element
 Netapp('Netapp', 'Netapp', 'an optional tech label', 'an optional description')

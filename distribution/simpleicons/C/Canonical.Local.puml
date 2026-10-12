@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Canonical
-include('simpleicons-14/C/Canonical')
+include('simpleicons/C/Canonical')
 
 ' renders the element
 Canonical('Canonical', 'Canonical', 'an optional tech label', 'an optional description')

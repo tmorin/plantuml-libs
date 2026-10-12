@@ -1,0 +1,27 @@
+' definition of the Item aws/Resource/SecurityIdentity/AwsNetworkFirewallEndpoints
+
+sprite $AwsNetworkFirewallEndpointsXs [10x10/16z] FOo50G0n308FoVuZlxQD2m3O5W3P9U2pZm4KgYb1LflgFpU7fKDU1VtADm
+
+sprite $AwsNetworkFirewallEndpointsSm [12x12/16z] JOw50S0W30JpqiB-2-DsI5oYGH8nWB6-WAQh2qSmnLGQFyoXV6ZNEV0rFQpFLDCxCgVYRb1TkJsVMKrxTwW
+
+sprite $AwsNetworkFirewallEndpointsMd [16x16/16z] {
+NO-50GD020C9aDJstxUFLEyL1sjmi3UXS0_wYl9LSyIt9qgHPULbFFp8v_NR-fPGiimV6tPDjqiWBnTpgcH4GWawZbn0plIjatsbCUhTUc3arllhvx_V_td-
+vtq2
+}
+
+sprite $AwsNetworkFirewallEndpointsLg [20x20/16z] {
+TL054WCn2CJXxlyFxiQgT2V1dVx2Ce3KbqLgArRy37gvIrRKCctaZAmftt4YyNtMqZWL3Bgii9jqrsBy6UVuXRGLauNeA5NpSbAxVDf44i_nUTfcBcE2CFXd
+xlfaTfdYhnvx5Wf1z9xbp2pkorlTRiqDcblrD-tn
+}
+
+!procedure AwsNetworkFirewallEndpoints($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/SecurityIdentity/AwsNetworkFirewallEndpoints', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsNetworkFirewallEndpointsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsNetworkFirewallEndpointsLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsNetworkFirewallEndpointsGroup($id, $name='Aws Network Firewall Endpoints', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsNetworkFirewallEndpointsLg>', $name, $tech)
+!endprocedure

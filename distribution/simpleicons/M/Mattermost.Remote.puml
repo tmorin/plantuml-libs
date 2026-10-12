@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Mattermost
-include('simpleicons-14/M/Mattermost')
+include('simpleicons/M/Mattermost')
 
 ' renders the element
 Mattermost('Mattermost', 'Mattermost', 'an optional tech label', 'an optional description')

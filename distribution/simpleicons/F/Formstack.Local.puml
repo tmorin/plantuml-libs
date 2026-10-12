@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Formstack
-include('simpleicons-14/F/Formstack')
+include('simpleicons/F/Formstack')
 
 ' renders the element
 Formstack('Formstack', 'Formstack', 'an optional tech label', 'an optional description')

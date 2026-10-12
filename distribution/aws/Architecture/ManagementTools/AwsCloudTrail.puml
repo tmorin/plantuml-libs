@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsCloudTrail
+
+sprite $AwsCloudTrailXs [10x10/16z] JSUx0SDG58FGwkaAzjytyT-cEgZYtUjo43EfWZEIgAHrNxkoqbqKElKRP_e7
+
+sprite $AwsCloudTrailSm [12x12/16z] NKt50GC13Fe4tN_VzjpY2lr8aglSsgCqVKngXCpUOCc2rpl9sITB8A5q-n6bfLVpPThaC_q3
+
+sprite $AwsCloudTrailMd [16x16/16z] ZOkr0GCn54CReVVVzvXS9UypQFn5sscyuXdZZlOP1SDxSrsnPS2NhiYUSomsjvlZyLfGHevNZkvgIK0I-fWjnzpOtoTwf9VncnK
+
+sprite $AwsCloudTrailLg [20x20/16z] {
+hOu73aCn34Ab7mE6-n-uokZMRb-cD_a3zhThdYzdV-LYr9ZUbq8WwT4TFrmUyzOr63zSdBVZYpa-AfuaBfnCmCMZSMnLAb45B6lvOW62ga3oJ76BJOi4CTLy
+SLn-9Jzo0m
+}
+
+!procedure AwsCloudTrail($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsCloudTrail', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudTrailCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudTrailLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudTrailGroup($id, $name='Aws Cloud Trail', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsCloudTrailLg>', $name, $tech)
+!endprocedure

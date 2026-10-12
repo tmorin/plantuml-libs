@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Appmanager
-include('simpleicons-14/A/Appmanager')
+include('simpleicons/A/Appmanager')
 
 ' renders the element
 Appmanager('Appmanager', 'Appmanager', 'an optional tech label', 'an optional description')

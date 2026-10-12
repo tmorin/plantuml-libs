@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsResilienceHub
+
+sprite $AwsResilienceHubXs [10x10/16z] 9SU73G0m30915JVOV-2yYEjXotyvkb2-sS7K95ZUy-n2X7UHo1Cmi0FhP03_FW
+
+sprite $AwsResilienceHubSm [12x12/16z] HOs30S0040FBuFRVjyQR2T3Bu2tRkupaPzMrQCsvH8P4lYxeQbdXh1LoNe6aI0cNMExaXyUIIn-oX_llTW
+
+sprite $AwsResilienceHubMd [16x16/16z] {
+LS-r0GC03CJ0WE6b_VSDexfh33u27tt53pK8l4brjyhB5PqQvC6qw6uf8hMQ6ROGdDMjtTuTmOwKcfw7KvdHNXOHRvmzJpuBj19p7545gUdUoFVY_3u1_qz-
+SGK
+}
+
+sprite $AwsResilienceHubLg [20x20/16z] {
+TL1N0W9G2Af45Ev_tuRljOilt8B_GvBVCOdthEnclMLb0GHawvb3sYQgh6VRt4Y0EtaBh24-rMOCpIZG2gvaQ5PA7UMfppOpXqP3wohjeT5CMkji59e2lS-k
+F9f7EkVkNMs7PTSX9xUp5IIUIYPhaJNaYUUQTrVb_xW
+}
+
+!procedure AwsResilienceHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsResilienceHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsResilienceHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsResilienceHubLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsResilienceHubGroup($id, $name='Aws Resilience Hub', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsResilienceHubLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws/Resource/Databases/AmazonAuroraTrustedLanguageExtensionsForPostgreSql
+
+sprite $AmazonAuroraTrustedLanguageExtensionsForPostgreSqlXs [10x10/16z] 7S610S8m00GXxXFt7rbjGVixCBWV11Q0wDo3sBefG4L031JjnGy
+
+sprite $AmazonAuroraTrustedLanguageExtensionsForPostgreSqlSm [12x12/16z] NOk50G0X30CZmFuRl-3jrIM0VemVwizklMVFfU7Gp-pUUwhOgwzaNJzTRYffoTEle_jY0hm
+
+sprite $AmazonAuroraTrustedLanguageExtensionsForPostgreSqlMd [16x16/16z] TOo35S1004EZOl-5Qnx-OmX0FC59h1tFkVJb3nb_EfvvwGiAFtHenKnU7NY4-UgOc_Dg0XgOSDCN_FuL_-bgdjgw6AuRNkno1G
+
+sprite $AmazonAuroraTrustedLanguageExtensionsForPostgreSqlLg [20x20/16z] fSw53KDH5CFG-E9hzz-tpFZ1ekY8ei-DEfUzuMfr7PR5gtdOrbwCzChpR3sKUekh6PBpP8EcQ1wjv97A9sjhCbhF9ea6x6P-lgk8vDUN-62rmaRToWvzRWy
+
+!procedure AmazonAuroraTrustedLanguageExtensionsForPostgreSql($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/Databases/AmazonAuroraTrustedLanguageExtensionsForPostgreSql', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonAuroraTrustedLanguageExtensionsForPostgreSqlCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraTrustedLanguageExtensionsForPostgreSqlLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAuroraTrustedLanguageExtensionsForPostgreSqlGroup($id, $name='Amazon Aurora Trusted Language Extensions For Postgre Sql', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$AmazonAuroraTrustedLanguageExtensionsForPostgreSqlLg>', $name, $tech)
+!endprocedure

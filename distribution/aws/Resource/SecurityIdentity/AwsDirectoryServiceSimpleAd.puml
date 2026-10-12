@@ -1,0 +1,24 @@
+' definition of the Item aws/Resource/SecurityIdentity/AwsDirectoryServiceSimpleAd
+
+sprite $AwsDirectoryServiceSimpleAdXs [10x10/16z] DOf50G1040An_fLFLeOFXWUnP8sV2jM-BZBBCBIve_ZbEdr8r5QMk
+
+sprite $AwsDirectoryServiceSimpleAdSm [12x12/16z] HOo50GC1308vOljFtBx73T1fw3Dcvr3kABopdZclOkVpfkqAnQTg5xQ3vPYTbH3eCP3-
+
+sprite $AwsDirectoryServiceSimpleAdMd [16x16/16z] ROo54SKm34E5lUo_yCToyuvi4QPuNF_8vxV4SdePW3t-PSsih5rJF6p4fB-d-Vj790zkDWBownNR_q7aSBvu_R5n_TSP7x-QDBZp1W
+
+sprite $AwsDirectoryServiceSimpleAdLg [20x20/16z] {
+ZO-50G0n20EH9FtkF_2x-rLni1V8YyfByREk6VQHa1dZudPs18OxUN8Ra6repfIWa7CVSmQvcsEKbivOmYDOzwcPaPa-PAqsmxKIygghce5MtSPV7UXc7iUn
+WpsmMpe
+}
+
+!procedure AwsDirectoryServiceSimpleAd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/SecurityIdentity/AwsDirectoryServiceSimpleAd', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDirectoryServiceSimpleAdCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDirectoryServiceSimpleAdLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsDirectoryServiceSimpleAdGroup($id, $name='Aws Directory Service Simple Ad', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsDirectoryServiceSimpleAdLg>', $name, $tech)
+!endprocedure

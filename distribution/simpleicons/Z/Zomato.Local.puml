@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Zomato
-include('simpleicons-14/Z/Zomato')
+include('simpleicons/Z/Zomato')
 
 ' renders the element
 Zomato('Zomato', 'Zomato', 'an optional tech label', 'an optional description')

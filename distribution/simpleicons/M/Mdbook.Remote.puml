@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Mdbook
-include('simpleicons-14/M/Mdbook')
+include('simpleicons/M/Mdbook')
 
 ' renders the element
 Mdbook('Mdbook', 'Mdbook', 'an optional tech label', 'an optional description')

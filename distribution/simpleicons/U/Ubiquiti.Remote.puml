@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Ubiquiti
-include('simpleicons-14/U/Ubiquiti')
+include('simpleicons/U/Ubiquiti')
 
 ' renders the element
 Ubiquiti('Ubiquiti', 'Ubiquiti', 'an optional tech label', 'an optional description')

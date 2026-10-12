@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Cheerio
-include('simpleicons-14/C/Cheerio')
+include('simpleicons/C/Cheerio')
 
 ' renders the element
 Cheerio('Cheerio', 'Cheerio', 'an optional tech label', 'an optional description')

@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Pinboard
-include('simpleicons-14/P/Pinboard')
+include('simpleicons/P/Pinboard')
 
 ' renders the element
 Pinboard('Pinboard', 'Pinboard', 'an optional tech label', 'an optional description')

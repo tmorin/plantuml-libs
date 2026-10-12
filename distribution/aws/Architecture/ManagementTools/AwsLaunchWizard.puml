@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsLaunchWizard
+
+sprite $AwsLaunchWizardXs [10x10/16z] DSZN0OC030FH1B2jk_ttfVD-LFmWGCz4CqnLZKZihgXqjgvHF4l2NSBphEDGA14OHF720G
+
+sprite $AwsLaunchWizardSm [12x12/16z] JKg50SH027ifHFRVj-U2ncn9laeGgVOXH2rMN0K6CffkmXaJ0_nbotJZdoA6_eSUUy9wnNR-QINpgNYDUgYTBXG
+
+sprite $AwsLaunchWizardMd [16x16/16z] {
+HKu93WCm24gwWiB_7pmDpUQDjqCA_KA7nYTiOAIcE67H9C72OhNQTK60rkjNKqHdGHyPdoaZM3GF-WQlyi8kldvZu4LAgShLJdVWXDrUNsSXht0MJZWkZxrd
+ulJyblx-2m
+}
+
+sprite $AwsLaunchWizardLg [20x20/16z] {
+TO-5bGDG2C1UYoRxxtjIrtp5mHjmEj_X7w_NMUM9ZiWvHeXYv-HOOtQRgBhBOaLbHuVUsUwbU-NInAoQFP5vqSaX9IAg3Jo12vb77lCXMOdRFN9NnMwYpohx
+iFAiGbIULUhEnP2HwsaGut1IufozM9mIB-0BmFtvnYy
+}
+
+!procedure AwsLaunchWizard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsLaunchWizard', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsLaunchWizardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsLaunchWizardLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsLaunchWizardGroup($id, $name='Aws Launch Wizard', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsLaunchWizardLg>', $name, $tech)
+!endprocedure

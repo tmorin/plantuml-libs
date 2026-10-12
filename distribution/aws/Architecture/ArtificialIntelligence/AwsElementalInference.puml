@@ -1,0 +1,21 @@
+' definition of the Item aws/Architecture/ArtificialIntelligence/AwsElementalInference
+
+sprite $AwsElementalInferenceXs [10x10/16z] NKo30G1H53g6_GV-zZCg9RFLZEZJ_v6bay3BFFtumNrgty4uL9fo1
+
+sprite $AwsElementalInferenceSm [12x12/16z] POtL0S0m449hoEq_S2sUl9zJm0jgBKuv_fs2CF3r12NW_FkB1Aob1vb_chRtNBCo3m
+
+sprite $AwsElementalInferenceMd [16x16/16z] RK-54O0043hz0FOVs6xyxk0_I6-_w-t6MAJsqbwD9hFt90B8pAvXIwDOe90BxirPgEWIwBxN7_DYdsVxx9xxNl_7OGO
+
+sprite $AwsElementalInferenceLg [20x20/16z] bP254GC140AJO4__1SVzdHlTEODXhtgjV_7atvOh8gWlvZjN6-JL9hGchtqwvDKcABOXGdsrFSRfIdqsujg7ewui6QROrEpKZUbVfd-UzlRAO3shTLq
+
+!procedure AwsElementalInference($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ArtificialIntelligence/AwsElementalInference', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsElementalInferenceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalInferenceLg>', 'ArtificialIntelligence', $funcName, $content)
+!endprocedure
+
+!procedure AwsElementalInferenceGroup($id, $name='Aws Elemental Inference', $tech='')
+  IconGroupElement($id, 'ArtificialIntelligenceFamily', '<$AwsElementalInferenceLg>', $name, $tech)
+!endprocedure

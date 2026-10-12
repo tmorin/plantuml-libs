@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Kamailio
-include('simpleicons-14/K/Kamailio')
+include('simpleicons/K/Kamailio')
 
 ' renders the element
 Kamailio('Kamailio', 'Kamailio', 'an optional tech label', 'an optional description')

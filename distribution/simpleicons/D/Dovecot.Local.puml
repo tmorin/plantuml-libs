@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Dovecot
-include('simpleicons-14/D/Dovecot')
+include('simpleicons/D/Dovecot')
 
 ' renders the element
 Dovecot('Dovecot', 'Dovecot', 'an optional tech label', 'an optional description')

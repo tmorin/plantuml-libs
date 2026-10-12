@@ -1,6 +1,6 @@
 # H
 
-The module contains 111 items.
+The module contains 113 items.
 
 
 
@@ -48,6 +48,7 @@ The module contains 111 items.
 | ![illustration of simpleicons/H/Hedera](../../simpleicons/H/Hedera.png) | [simpleicons/H/Hedera](../../simpleicons/H/Hedera.md) |
 | ![illustration of simpleicons/H/Hedgedoc](../../simpleicons/H/Hedgedoc.png) | [simpleicons/H/Hedgedoc](../../simpleicons/H/Hedgedoc.md) |
 | ![illustration of simpleicons/H/Helium](../../simpleicons/H/Helium.png) | [simpleicons/H/Helium](../../simpleicons/H/Helium.md) |
+| ![illustration of simpleicons/H/Heliumbrowser](../../simpleicons/H/Heliumbrowser.png) | [simpleicons/H/Heliumbrowser](../../simpleicons/H/Heliumbrowser.md) |
 | ![illustration of simpleicons/H/Helix](../../simpleicons/H/Helix.png) | [simpleicons/H/Helix](../../simpleicons/H/Helix.md) |
 | ![illustration of simpleicons/H/Hellofresh](../../simpleicons/H/Hellofresh.png) | [simpleicons/H/Hellofresh](../../simpleicons/H/Hellofresh.md) |
 | ![illustration of simpleicons/H/Hellyhansen](../../simpleicons/H/Hellyhansen.png) | [simpleicons/H/Hellyhansen](../../simpleicons/H/Hellyhansen.md) |
@@ -114,6 +115,7 @@ The module contains 111 items.
 | ![illustration of simpleicons/H/Hyper](../../simpleicons/H/Hyper.png) | [simpleicons/H/Hyper](../../simpleicons/H/Hyper.md) |
 | ![illustration of simpleicons/H/Hyperskill](../../simpleicons/H/Hyperskill.png) | [simpleicons/H/Hyperskill](../../simpleicons/H/Hyperskill.md) |
 | ![illustration of simpleicons/H/Hyperx](../../simpleicons/H/Hyperx.png) | [simpleicons/H/Hyperx](../../simpleicons/H/Hyperx.md) |
+| ![illustration of simpleicons/H/Hypit](../../simpleicons/H/Hypit.png) | [simpleicons/H/Hypit](../../simpleicons/H/Hypit.md) |
 | ![illustration of simpleicons/H/Hypothesis](../../simpleicons/H/Hypothesis.png) | [simpleicons/H/Hypothesis](../../simpleicons/H/Hypothesis.md) |
 | ![illustration of simpleicons/H/Hyprland](../../simpleicons/H/Hyprland.png) | [simpleicons/H/Hyprland](../../simpleicons/H/Hyprland.md) |
 | ![illustration of simpleicons/H/Hyundai](../../simpleicons/H/Hyundai.png) | [simpleicons/H/Hyundai](../../simpleicons/H/Hyundai.md) |

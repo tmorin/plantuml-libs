@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Opsgenie
-include('simpleicons-14/O/Opsgenie')
+include('simpleicons/O/Opsgenie')
 
 ' renders the element
 Opsgenie('Opsgenie', 'Opsgenie', 'an optional tech label', 'an optional description')

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/A11YProject
+
+sprite $A11YProjectXs [10x10/16z] 9OQ54GH148IeiVCb_sXVMu6uz0gWDKURi2khshYyDjW_vqVWNy-VBjqgZm-4nh6d1ksiPsmWRhq3tW
+
+sprite $A11YProjectSm [12x12/16z] DOs50GCm40A96_dRVzfwtnKaLOEhtc8e3Vmf3wLpi2eZVMHGBt2aTpB0bVZB_ip1GAsv0wv0sYCJL1cBg_WHB9YVKce1qIGz0G
+
+sprite $A11YProjectMd [16x16/16z] {
+HO_50GCm30CLvjp-qnRiWbv6WLu8_SBfGOu6Z0KqQnTm9O1bstqWT-xPD0L8acAKb21quAnNbzS1-WMWI0C0RybIXp-IgVuFb4FqriwETfFrFM36EEQBeCRb
+VHmIrnmlTr6Z-_qnUvvVtkjvdm
+}
+
+sprite $A11YProjectLg [20x20/16z] {
+RP15OWGm30Er6mPx_l_QGk9ovsYKf4EQ3ZwJFab6O55L1zXwd6h_Aj4a-omcC7Ee0zmCacJuFNfFEQO4x55E8TUvWJIvd2kNwL-r9nVdRut0lzUSmrAIY5By
+gBAc7J_YsKEO2eSak-UU48ujL0qDABUV8eCi1rFz7inevz6Aqh-P_it-5G
+}
+
+!procedure A11YProject($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/A11YProject', $name, $tech, $desc)
+!endprocedure

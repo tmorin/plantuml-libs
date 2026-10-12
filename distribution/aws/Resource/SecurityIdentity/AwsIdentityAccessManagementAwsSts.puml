@@ -1,0 +1,24 @@
+' definition of the Item aws/Resource/SecurityIdentity/AwsIdentityAccessManagementAwsSts
+
+sprite $AwsIdentityAccessManagementAwsStsXs [10x10/16z] ROk55S0m44BXyxh_oFLupW_H9e3u3k1P7tH4Ji9x2HFSMF8xj8aB
+
+sprite $AwsIdentityAccessManagementAwsStsSm [12x12/16z] TOfR4e0W4CDeodZ_8vjPlZSAz7Ks864uJSg4lgctoWMViH4jQbFK5vcDuFe-QL8UfXi_
+
+sprite $AwsIdentityAccessManagementAwsStsMd [16x16/16z] bSwr0GH134FHBydGVyMt65ssRnXjlkggf5wD0XQlMAATVjUMqW8cu_MrtkiLCYQLUpq2NwQbb83H1LzToyF3SY3X5V_dyzK1
+
+sprite $AwsIdentityAccessManagementAwsStsLg [20x20/16z] {
+hOvN0W91348d1QBU_y0osDtVPMfUwZfRF4Zi4EGDal5csFkI-kaIrdPGLnZYDhmYTXnHme8AZ1KiCw1RB2nG3CYedTjMFNkuSltECiJazonqgT-PXqD2rqkp
+pjOT
+}
+
+!procedure AwsIdentityAccessManagementAwsSts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/SecurityIdentity/AwsIdentityAccessManagementAwsSts', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementAwsStsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementAwsStsLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementAwsStsGroup($id, $name='Aws Identity Access Management Aws Sts', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsIdentityAccessManagementAwsStsLg>', $name, $tech)
+!endprocedure

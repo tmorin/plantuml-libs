@@ -1,0 +1,27 @@
+' definition of the Item aws/Resource/Databases/AmazonElastiCacheElastiCacheForValkey
+
+sprite $AmazonElastiCacheElastiCacheForValkeyXs [10x10/16z] FOg50S1020Dp1zr_vRwZiRookdfCIGyyVY7ANCatqHU6HS88u1WfIGoCCufn9QjO_mS
+
+sprite $AmazonElastiCacheElastiCacheForValkeySm [12x12/16z] HSI70O105C9GGkwx_yXsVPJaLpz5b-keWjGPYnGbER-DSpnZsj4STCgc77GZoSewcii4ZhkqqEO1EUq
+
+sprite $AmazonElastiCacheElastiCacheForValkeyMd [16x16/16z] {
+ROU7GKHH40A1XP_wBrYUUlbc0mpUyJnXAF3GabcBQdOcNRS26NAOS6KWKOnd7BPMcPqet4tMuRYx3XGj6R-iHbxR779jZjakWgofm2AnE8W4FF1F0Blnv4zH
+77VnZHy
+}
+
+sprite $AmazonElastiCacheElastiCacheForValkeyLg [20x20/16z] {
+TSw5WSLG24JHYyn0_mslV9VaF5VWI7o1xQw-jDkmi8IQwimkMi52IgLspgHR9IMucif48gleCWmAsfwncn03eaFDHNS8WL5lSL7Rmc0YVNjRhi3Wh3GtjyLi
+vNOKL6YpTc16xUIIVRermuL1cGBpi0ORl3muOGRIFCpNv99h_Bda_fJz9pdt2m
+}
+
+!procedure AmazonElastiCacheElastiCacheForValkey($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/Databases/AmazonElastiCacheElastiCacheForValkey', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElastiCacheElastiCacheForValkeyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElastiCacheElastiCacheForValkeyLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElastiCacheElastiCacheForValkeyGroup($id, $name='Amazon Elasti Cache Elasti Cache For Valkey', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$AmazonElastiCacheElastiCacheForValkeyLg>', $name, $tech)
+!endprocedure

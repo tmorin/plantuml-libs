@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Statamic
-include('simpleicons-14/S/Statamic')
+include('simpleicons/S/Statamic')
 
 ' renders the element
 Statamic('Statamic', 'Statamic', 'an optional tech label', 'an optional description')

@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/R/Railway
+' definition of the Item simpleicons/R/Railway
 
-sprite $RailwayXs [10x10/16z] FSZ50G0n4090pYL2_zrcVJu8nCiBYkRBGhbxR-tJ3T79GrhOgydt9NnqybzH5W
+sprite $RailwayXs [10x10/16z] HSor0KKn5CDGvsBO-q_xuU6fL0cGGGu143muK3CZ9oaU4MDwvx2VFhei_aj_DaL5LCNIovv_OvRx4dZFNm
 
-sprite $RailwaySm [12x12/16z] JSg30G0n3030DulzfurrHRYmVpwBcYfJAJQoxvtoRkt1yRo8RD1rDLyjpv6xikWBwTv5
+sprite $RailwaySm [12x12/16z] JSv70WGW4091rW7ZAFz_xUPKjxur0AQTn4FwAG6CaxdFCuee1hbjgjNQxHN7oJlrFXKs7-B1Bl7MvxWqrIS9s7xR09QV5l3_S0C
 
-sprite $RailwayMd [16x16/16z] LS-50S0W3031hnVD_jFYUhWJYjk9EUYSL2-53AuE9ml7cLpNPIGxy9LJQ4cOTv2tE9d8PP5FtCz4tRFXsC2tBuEJwI6n-n2E9Pe8
+sprite $RailwayMd [16x16/16z] {
+RS_50S0m30D06G85H_jlM-RUroZCf3QoLS6cS5Um67aQ06H6cvqTkX1HwpcJ7ECiMbJ99AlEJ7lEj2DREcK7IRyOWhIBB_rYUZ0tLvHJpha0bJSLmC3Jy9Dd
+9ZN8g8BP1
+}
 
 sprite $RailwayLg [20x20/16z] {
-PSn50WKX30FGu4xlVzgnyANCsrKIB7b83_WJP1a6Y_mfUaMLA-rkjJTtgK90wvVMMYqEJcuPa-JcmCUbSsdbCaKnZN_A_LYROkhxhyW5xWsfx0oCx5YXu5RL
-ok8HjY_AN7G-dG
+RT054WKn20DGjh16f-J-f_rIjrSbuw68rG1Jfee3ib3I1vrdYNB8c30r1x_u2oImo7kzwC0VEqdmvsAeaY6AhvsP9EG1S5Qo5u1mHzWPO4vwjm5GEWOKFLu7
+_Y4IJ7ZjuDvtjUzqxVuB
 }
 
 !procedure Railway($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/R/Railway', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/R/Railway', $name, $tech, $desc)
 !endprocedure

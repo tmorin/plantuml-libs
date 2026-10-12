@@ -1,0 +1,21 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AmazonMacie
+
+sprite $AmazonMacieXs [10x10/16z] XOQ70S0G54GJN67_VNzPWAjlFsHLtKGOYmLQcE1IaKqT5LsL
+
+sprite $AmazonMacieSm [12x12/16z] bSWr0G0n00F09UpVxqCTz9P0xybjT6ge4F_H0b-ZyD_ernUajru
+
+sprite $AmazonMacieMd [16x16/16z] jKk50SD027mvW_ttRMCZ93WdzK4aptm2-_o0vvMiOCdicmO90-BfQ4rhRQIuBe7JPVbWx7ez_W
+
+sprite $AmazonMacieLg [20x20/16z] pKs54S103BeF4Dj_txfjq8yhr0pIdpfmPiOx0rJb8IBl3wcH0OnsNkz98OWYaTTtQqWoRJS1yhmpLOF4mMBraSmprN-o0W
+
+!procedure AmazonMacie($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AmazonMacie', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonMacieCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonMacieLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AmazonMacieGroup($id, $name='Amazon Macie', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AmazonMacieLg>', $name, $tech)
+!endprocedure

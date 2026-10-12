@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Meetup
-include('simpleicons-14/M/Meetup')
+include('simpleicons/M/Meetup')
 
 ' renders the element
 Meetup('Meetup', 'Meetup', 'an optional tech label', 'an optional description')

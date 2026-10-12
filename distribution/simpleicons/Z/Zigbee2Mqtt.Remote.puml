@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Zigbee2Mqtt
-include('simpleicons-14/Z/Zigbee2Mqtt')
+include('simpleicons/Z/Zigbee2Mqtt')
 
 ' renders the element
 Zigbee2Mqtt('Zigbee2Mqtt', 'Zigbee2 Mqtt', 'an optional tech label', 'an optional description')

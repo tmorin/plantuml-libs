@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Gift
 
-sprite $GiftXs [10x10/16z] Os1Wu0TZ4062K2upFvWF1snm5WC2WBYu2NOeYm4
+sprite $GiftXs [10x10/16z] FKc30GDH50k-kV-qxVaX1DSczo9GXJcX2e_YELs6zpSyHk8vEHMofCop3k40Qwzj7o2-6K4Pi8W_
 
-sprite $GiftSm [12x12/16z] ZSor0OG040NHYUw0bUc_Mjn2tchqWGoW_m1MYs41WkP-GoEDxVX2FtXpi-_-y4zGMy8w4mi
+sprite $GiftSm [12x12/16z] PSQ50GGn44BH7_VGVxKdw_960Ae635N0JSeFqq7e844Fz2cDEOSqkou0C8P5Z351-WL6FyxfnopTsbTdx7q0nfZjVG4
 
-sprite $GiftMd [16x16/16z] bSdL0O0m40JHnPtflrjkxnFFYqwYiExUEmObGYlCESU-KSTJdRrupxyAvmhB0gktM2VxgVLbnnQHodixjKvzSW
+sprite $GiftMd [16x16/16z] bSsr0GD130NHESRLzD-j_JSnPFV4aO1BPvZr8WxNqs7mNDrpkqAhQh2QkowOT8AhKcfLAilbdzFwuic_UGdeOmOZ_pjettTxVe_jJJ1pvDyB
 
-sprite $GiftLg [20x20/16z] lOZL0SCm30MLc2su_QSjCt_r10zaZr4FgZGvajXprJsGnPWd7QVky9IvLxzsYOEisEwh0hh_eMhWElYH-gAJNqaSMSKvyfzkUT59U-Za9Li
+sprite $GiftLg [20x20/16z] {
+fSm5heL038NXFxG4HjAp_zKYvSbr_M2ingP9XKsH6eUk2FN_SsCgK3MEgb1aR3mFRRB0CvP39cdAqGubGb94v9RNeXTvBHUgSylWbi2I3r1r01qgp9Un6Sfb
+h7mNiykO0LOIb6JSj08
+}
 
 !procedure Gift($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Gift', $name, $tech, $desc)

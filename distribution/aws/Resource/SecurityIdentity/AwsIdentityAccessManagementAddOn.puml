@@ -1,0 +1,21 @@
+' definition of the Item aws/Resource/SecurityIdentity/AwsIdentityAccessManagementAddOn
+
+sprite $AwsIdentityAccessManagementAddOnXs [10x10/16z] TS790S0W0CCmEzb_vfRh2H9NSXJ3b0OJGrfGAyMoAKy_
+
+sprite $AwsIdentityAccessManagementAddOnSm [12x12/16z] ZOkr0G1020DZ-w_yBYtNG0mbRDqt04rn6BA9yP8UVuR3GGZFtjyQTJe
+
+sprite $AwsIdentityAccessManagementAddOnMd [16x16/16z] hSS50SC030J02sx-3Oz1G7l1Trnt-SiXri--TrrxDuZgRY85DSzS3G4NHZwVUWcoiU4dPYQSvGu
+
+sprite $AwsIdentityAccessManagementAddOnLg [20x20/16z] lSh50SH03CLGcN__3I-4qy0ymqaiaXMyXS9SoOCFV-r4uC7Vu5kZdlwV0-MzfxPl5MGamyq4Gyg0cTuC4CLV5W_Lzd-yU7KvYtq1
+
+!procedure AwsIdentityAccessManagementAddOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/SecurityIdentity/AwsIdentityAccessManagementAddOn', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementAddOnCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementAddOnLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementAddOnGroup($id, $name='Aws Identity Access Management Add On', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsIdentityAccessManagementAddOnLg>', $name, $tech)
+!endprocedure

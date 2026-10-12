@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Makerbot
-include('simpleicons-14/M/Makerbot')
+include('simpleicons/M/Makerbot')
 
 ' renders the element
 Makerbot('Makerbot', 'Makerbot', 'an optional tech label', 'an optional description')

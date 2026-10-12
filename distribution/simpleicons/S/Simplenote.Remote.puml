@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Simplenote
-include('simpleicons-14/S/Simplenote')
+include('simpleicons/S/Simplenote')
 
 ' renders the element
 Simplenote('Simplenote', 'Simplenote', 'an optional tech label', 'an optional description')

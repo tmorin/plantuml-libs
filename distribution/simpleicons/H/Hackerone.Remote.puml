@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Hackerone
-include('simpleicons-14/H/Hackerone')
+include('simpleicons/H/Hackerone')
 
 ' renders the element
 Hackerone('Hackerone', 'Hackerone', 'an optional tech label', 'an optional description')

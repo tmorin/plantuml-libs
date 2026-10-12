@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Codecov
-include('simpleicons-14/C/Codecov')
+include('simpleicons/C/Codecov')
 
 ' renders the element
 Codecov('Codecov', 'Codecov', 'an optional tech label', 'an optional description')

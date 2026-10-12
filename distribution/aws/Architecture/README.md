@@ -1,9 +1,9 @@
 # Architecture
 
-The module contains 309 items.
+The module contains 305 items.
 
 - [Analytics](#family-analytics)
-- [AppIntegration](#family-appintegration)
+- [ApplicationIntegration](#family-applicationintegration)
 - [ArtificialIntelligence](#family-artificialintelligence)
 - [Blockchain](#family-blockchain)
 - [BusinessApplications](#family-businessapplications)
@@ -11,20 +11,20 @@ The module contains 309 items.
 - [Compute](#family-compute)
 - [Containers](#family-containers)
 - [CustomerEnablement](#family-customerenablement)
-- [Database](#family-database)
+- [Databases](#family-databases)
 - [DeveloperTools](#family-developertools)
 - [EndUserComputing](#family-endusercomputing)
 - [FrontEndWebMobile](#family-frontendwebmobile)
 - [Games](#family-games)
 - [GeneralIcons](#family-generalicons)
 - [InternetOfThings](#family-internetofthings)
-- [ManagementGovernance](#family-managementgovernance)
+- [ManagementTools](#family-managementtools)
 - [MediaServices](#family-mediaservices)
 - [MigrationModernization](#family-migrationmodernization)
 - [NetworkingContentDelivery](#family-networkingcontentdelivery)
 - [QuantumTechnologies](#family-quantumtechnologies)
 - [Satellite](#family-satellite)
-- [SecurityIdentityCompliance](#family-securityidentitycompliance)
+- [SecurityIdentity](#family-securityidentity)
 - [Storage](#family-storage)
 
 
@@ -44,7 +44,6 @@ The module contains 309 items.
 | ![illustration of aws/Architecture/Analytics/AmazonManagedServiceForApacheFlink](../../aws/Architecture/Analytics/AmazonManagedServiceForApacheFlink.png) | [aws/Architecture/Analytics/AmazonManagedServiceForApacheFlink](../../aws/Architecture/Analytics/AmazonManagedServiceForApacheFlink.md) |
 | ![illustration of aws/Architecture/Analytics/AmazonManagedStreamingForApacheKafka](../../aws/Architecture/Analytics/AmazonManagedStreamingForApacheKafka.png) | [aws/Architecture/Analytics/AmazonManagedStreamingForApacheKafka](../../aws/Architecture/Analytics/AmazonManagedStreamingForApacheKafka.md) |
 | ![illustration of aws/Architecture/Analytics/AmazonOpenSearchService](../../aws/Architecture/Analytics/AmazonOpenSearchService.png) | [aws/Architecture/Analytics/AmazonOpenSearchService](../../aws/Architecture/Analytics/AmazonOpenSearchService.md) |
-| ![illustration of aws/Architecture/Analytics/AmazonQuickSight](../../aws/Architecture/Analytics/AmazonQuickSight.png) | [aws/Architecture/Analytics/AmazonQuickSight](../../aws/Architecture/Analytics/AmazonQuickSight.md) |
 | ![illustration of aws/Architecture/Analytics/AmazonRedshift](../../aws/Architecture/Analytics/AmazonRedshift.png) | [aws/Architecture/Analytics/AmazonRedshift](../../aws/Architecture/Analytics/AmazonRedshift.md) |
 | ![illustration of aws/Architecture/Analytics/AmazonSageMaker](../../aws/Architecture/Analytics/AmazonSageMaker.png) | [aws/Architecture/Analytics/AmazonSageMaker](../../aws/Architecture/Analytics/AmazonSageMaker.md) |
 | ![illustration of aws/Architecture/Analytics/AwsCleanRooms](../../aws/Architecture/Analytics/AwsCleanRooms.png) | [aws/Architecture/Analytics/AwsCleanRooms](../../aws/Architecture/Analytics/AwsCleanRooms.md) |
@@ -54,20 +53,20 @@ The module contains 309 items.
 | ![illustration of aws/Architecture/Analytics/AwsGlueDataBrew](../../aws/Architecture/Analytics/AwsGlueDataBrew.png) | [aws/Architecture/Analytics/AwsGlueDataBrew](../../aws/Architecture/Analytics/AwsGlueDataBrew.md) |
 | ![illustration of aws/Architecture/Analytics/AwsLakeFormation](../../aws/Architecture/Analytics/AwsLakeFormation.png) | [aws/Architecture/Analytics/AwsLakeFormation](../../aws/Architecture/Analytics/AwsLakeFormation.md) |
 
-<span id="family-appintegration"></span>
-## AppIntegration
+<span id="family-applicationintegration"></span>
+## ApplicationIntegration
 | |Name|
 |:---:|---|
-| ![illustration of aws/Architecture/AppIntegration/AmazonAppFlow](../../aws/Architecture/AppIntegration/AmazonAppFlow.png) | [aws/Architecture/AppIntegration/AmazonAppFlow](../../aws/Architecture/AppIntegration/AmazonAppFlow.md) |
-| ![illustration of aws/Architecture/AppIntegration/AmazonEventBridge](../../aws/Architecture/AppIntegration/AmazonEventBridge.png) | [aws/Architecture/AppIntegration/AmazonEventBridge](../../aws/Architecture/AppIntegration/AmazonEventBridge.md) |
-| ![illustration of aws/Architecture/AppIntegration/AmazonManagedWorkflowsForApacheAirflow](../../aws/Architecture/AppIntegration/AmazonManagedWorkflowsForApacheAirflow.png) | [aws/Architecture/AppIntegration/AmazonManagedWorkflowsForApacheAirflow](../../aws/Architecture/AppIntegration/AmazonManagedWorkflowsForApacheAirflow.md) |
-| ![illustration of aws/Architecture/AppIntegration/AmazonMq](../../aws/Architecture/AppIntegration/AmazonMq.png) | [aws/Architecture/AppIntegration/AmazonMq](../../aws/Architecture/AppIntegration/AmazonMq.md) |
-| ![illustration of aws/Architecture/AppIntegration/AmazonSimpleNotificationService](../../aws/Architecture/AppIntegration/AmazonSimpleNotificationService.png) | [aws/Architecture/AppIntegration/AmazonSimpleNotificationService](../../aws/Architecture/AppIntegration/AmazonSimpleNotificationService.md) |
-| ![illustration of aws/Architecture/AppIntegration/AmazonSimpleQueueService](../../aws/Architecture/AppIntegration/AmazonSimpleQueueService.png) | [aws/Architecture/AppIntegration/AmazonSimpleQueueService](../../aws/Architecture/AppIntegration/AmazonSimpleQueueService.md) |
-| ![illustration of aws/Architecture/AppIntegration/AwsAppSync](../../aws/Architecture/AppIntegration/AwsAppSync.png) | [aws/Architecture/AppIntegration/AwsAppSync](../../aws/Architecture/AppIntegration/AwsAppSync.md) |
-| ![illustration of aws/Architecture/AppIntegration/AwsB2BDataInterchange](../../aws/Architecture/AppIntegration/AwsB2BDataInterchange.png) | [aws/Architecture/AppIntegration/AwsB2BDataInterchange](../../aws/Architecture/AppIntegration/AwsB2BDataInterchange.md) |
-| ![illustration of aws/Architecture/AppIntegration/AwsExpressWorkflows](../../aws/Architecture/AppIntegration/AwsExpressWorkflows.png) | [aws/Architecture/AppIntegration/AwsExpressWorkflows](../../aws/Architecture/AppIntegration/AwsExpressWorkflows.md) |
-| ![illustration of aws/Architecture/AppIntegration/AwsStepFunctions](../../aws/Architecture/AppIntegration/AwsStepFunctions.png) | [aws/Architecture/AppIntegration/AwsStepFunctions](../../aws/Architecture/AppIntegration/AwsStepFunctions.md) |
+| ![illustration of aws/Architecture/ApplicationIntegration/AmazonAppFlow](../../aws/Architecture/ApplicationIntegration/AmazonAppFlow.png) | [aws/Architecture/ApplicationIntegration/AmazonAppFlow](../../aws/Architecture/ApplicationIntegration/AmazonAppFlow.md) |
+| ![illustration of aws/Architecture/ApplicationIntegration/AmazonEventBridge](../../aws/Architecture/ApplicationIntegration/AmazonEventBridge.png) | [aws/Architecture/ApplicationIntegration/AmazonEventBridge](../../aws/Architecture/ApplicationIntegration/AmazonEventBridge.md) |
+| ![illustration of aws/Architecture/ApplicationIntegration/AmazonManagedWorkflowsForApacheAirflow](../../aws/Architecture/ApplicationIntegration/AmazonManagedWorkflowsForApacheAirflow.png) | [aws/Architecture/ApplicationIntegration/AmazonManagedWorkflowsForApacheAirflow](../../aws/Architecture/ApplicationIntegration/AmazonManagedWorkflowsForApacheAirflow.md) |
+| ![illustration of aws/Architecture/ApplicationIntegration/AmazonMq](../../aws/Architecture/ApplicationIntegration/AmazonMq.png) | [aws/Architecture/ApplicationIntegration/AmazonMq](../../aws/Architecture/ApplicationIntegration/AmazonMq.md) |
+| ![illustration of aws/Architecture/ApplicationIntegration/AmazonSimpleNotificationService](../../aws/Architecture/ApplicationIntegration/AmazonSimpleNotificationService.png) | [aws/Architecture/ApplicationIntegration/AmazonSimpleNotificationService](../../aws/Architecture/ApplicationIntegration/AmazonSimpleNotificationService.md) |
+| ![illustration of aws/Architecture/ApplicationIntegration/AmazonSimpleQueueService](../../aws/Architecture/ApplicationIntegration/AmazonSimpleQueueService.png) | [aws/Architecture/ApplicationIntegration/AmazonSimpleQueueService](../../aws/Architecture/ApplicationIntegration/AmazonSimpleQueueService.md) |
+| ![illustration of aws/Architecture/ApplicationIntegration/AwsAppSync](../../aws/Architecture/ApplicationIntegration/AwsAppSync.png) | [aws/Architecture/ApplicationIntegration/AwsAppSync](../../aws/Architecture/ApplicationIntegration/AwsAppSync.md) |
+| ![illustration of aws/Architecture/ApplicationIntegration/AwsB2BDataInterchange](../../aws/Architecture/ApplicationIntegration/AwsB2BDataInterchange.png) | [aws/Architecture/ApplicationIntegration/AwsB2BDataInterchange](../../aws/Architecture/ApplicationIntegration/AwsB2BDataInterchange.md) |
+| ![illustration of aws/Architecture/ApplicationIntegration/AwsExpressWorkflows](../../aws/Architecture/ApplicationIntegration/AwsExpressWorkflows.png) | [aws/Architecture/ApplicationIntegration/AwsExpressWorkflows](../../aws/Architecture/ApplicationIntegration/AwsExpressWorkflows.md) |
+| ![illustration of aws/Architecture/ApplicationIntegration/AwsStepFunctions](../../aws/Architecture/ApplicationIntegration/AwsStepFunctions.png) | [aws/Architecture/ApplicationIntegration/AwsStepFunctions](../../aws/Architecture/ApplicationIntegration/AwsStepFunctions.md) |
 
 <span id="family-artificialintelligence"></span>
 ## ArtificialIntelligence
@@ -75,6 +74,7 @@ The module contains 309 items.
 |:---:|---|
 | ![illustration of aws/Architecture/ArtificialIntelligence/AmazonAugmentedAiA2I](../../aws/Architecture/ArtificialIntelligence/AmazonAugmentedAiA2I.png) | [aws/Architecture/ArtificialIntelligence/AmazonAugmentedAiA2I](../../aws/Architecture/ArtificialIntelligence/AmazonAugmentedAiA2I.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AmazonBedrock](../../aws/Architecture/ArtificialIntelligence/AmazonBedrock.png) | [aws/Architecture/ArtificialIntelligence/AmazonBedrock](../../aws/Architecture/ArtificialIntelligence/AmazonBedrock.md) |
+| ![illustration of aws/Architecture/ArtificialIntelligence/AmazonBedrockAgentCore](../../aws/Architecture/ArtificialIntelligence/AmazonBedrockAgentCore.png) | [aws/Architecture/ArtificialIntelligence/AmazonBedrockAgentCore](../../aws/Architecture/ArtificialIntelligence/AmazonBedrockAgentCore.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AmazonCodeGuru](../../aws/Architecture/ArtificialIntelligence/AmazonCodeGuru.png) | [aws/Architecture/ArtificialIntelligence/AmazonCodeGuru](../../aws/Architecture/ArtificialIntelligence/AmazonCodeGuru.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AmazonCodeWhisperer](../../aws/Architecture/ArtificialIntelligence/AmazonCodeWhisperer.png) | [aws/Architecture/ArtificialIntelligence/AmazonCodeWhisperer](../../aws/Architecture/ArtificialIntelligence/AmazonCodeWhisperer.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AmazonComprehend](../../aws/Architecture/ArtificialIntelligence/AmazonComprehend.png) | [aws/Architecture/ArtificialIntelligence/AmazonComprehend](../../aws/Architecture/ArtificialIntelligence/AmazonComprehend.md) |
@@ -86,7 +86,6 @@ The module contains 309 items.
 | ![illustration of aws/Architecture/ArtificialIntelligence/AmazonKendra](../../aws/Architecture/ArtificialIntelligence/AmazonKendra.png) | [aws/Architecture/ArtificialIntelligence/AmazonKendra](../../aws/Architecture/ArtificialIntelligence/AmazonKendra.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AmazonLex](../../aws/Architecture/ArtificialIntelligence/AmazonLex.png) | [aws/Architecture/ArtificialIntelligence/AmazonLex](../../aws/Architecture/ArtificialIntelligence/AmazonLex.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AmazonLookoutForEquipment](../../aws/Architecture/ArtificialIntelligence/AmazonLookoutForEquipment.png) | [aws/Architecture/ArtificialIntelligence/AmazonLookoutForEquipment](../../aws/Architecture/ArtificialIntelligence/AmazonLookoutForEquipment.md) |
-| ![illustration of aws/Architecture/ArtificialIntelligence/AmazonLookoutForMetrics](../../aws/Architecture/ArtificialIntelligence/AmazonLookoutForMetrics.png) | [aws/Architecture/ArtificialIntelligence/AmazonLookoutForMetrics](../../aws/Architecture/ArtificialIntelligence/AmazonLookoutForMetrics.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AmazonLookoutForVision](../../aws/Architecture/ArtificialIntelligence/AmazonLookoutForVision.png) | [aws/Architecture/ArtificialIntelligence/AmazonLookoutForVision](../../aws/Architecture/ArtificialIntelligence/AmazonLookoutForVision.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AmazonMonitron](../../aws/Architecture/ArtificialIntelligence/AmazonMonitron.png) | [aws/Architecture/ArtificialIntelligence/AmazonMonitron](../../aws/Architecture/ArtificialIntelligence/AmazonMonitron.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AmazonNova](../../aws/Architecture/ArtificialIntelligence/AmazonNova.png) | [aws/Architecture/ArtificialIntelligence/AmazonNova](../../aws/Architecture/ArtificialIntelligence/AmazonNova.md) |
@@ -102,10 +101,10 @@ The module contains 309 items.
 | ![illustration of aws/Architecture/ArtificialIntelligence/AmazonTranslate](../../aws/Architecture/ArtificialIntelligence/AmazonTranslate.png) | [aws/Architecture/ArtificialIntelligence/AmazonTranslate](../../aws/Architecture/ArtificialIntelligence/AmazonTranslate.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/ApacheMxNetOnAws](../../aws/Architecture/ArtificialIntelligence/ApacheMxNetOnAws.png) | [aws/Architecture/ArtificialIntelligence/ApacheMxNetOnAws](../../aws/Architecture/ArtificialIntelligence/ApacheMxNetOnAws.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AwsAppStudio](../../aws/Architecture/ArtificialIntelligence/AwsAppStudio.png) | [aws/Architecture/ArtificialIntelligence/AwsAppStudio](../../aws/Architecture/ArtificialIntelligence/AwsAppStudio.md) |
-| ![illustration of aws/Architecture/ArtificialIntelligence/AwsDeepComposer](../../aws/Architecture/ArtificialIntelligence/AwsDeepComposer.png) | [aws/Architecture/ArtificialIntelligence/AwsDeepComposer](../../aws/Architecture/ArtificialIntelligence/AwsDeepComposer.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AwsDeepLearningAmIs](../../aws/Architecture/ArtificialIntelligence/AwsDeepLearningAmIs.png) | [aws/Architecture/ArtificialIntelligence/AwsDeepLearningAmIs](../../aws/Architecture/ArtificialIntelligence/AwsDeepLearningAmIs.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AwsDeepLearningContainers](../../aws/Architecture/ArtificialIntelligence/AwsDeepLearningContainers.png) | [aws/Architecture/ArtificialIntelligence/AwsDeepLearningContainers](../../aws/Architecture/ArtificialIntelligence/AwsDeepLearningContainers.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AwsDeepRacer](../../aws/Architecture/ArtificialIntelligence/AwsDeepRacer.png) | [aws/Architecture/ArtificialIntelligence/AwsDeepRacer](../../aws/Architecture/ArtificialIntelligence/AwsDeepRacer.md) |
+| ![illustration of aws/Architecture/ArtificialIntelligence/AwsElementalInference](../../aws/Architecture/ArtificialIntelligence/AwsElementalInference.png) | [aws/Architecture/ArtificialIntelligence/AwsElementalInference](../../aws/Architecture/ArtificialIntelligence/AwsElementalInference.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AwsHealthImaging](../../aws/Architecture/ArtificialIntelligence/AwsHealthImaging.png) | [aws/Architecture/ArtificialIntelligence/AwsHealthImaging](../../aws/Architecture/ArtificialIntelligence/AwsHealthImaging.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AwsHealthLake](../../aws/Architecture/ArtificialIntelligence/AwsHealthLake.png) | [aws/Architecture/ArtificialIntelligence/AwsHealthLake](../../aws/Architecture/ArtificialIntelligence/AwsHealthLake.md) |
 | ![illustration of aws/Architecture/ArtificialIntelligence/AwsHealthOmics](../../aws/Architecture/ArtificialIntelligence/AwsHealthOmics.png) | [aws/Architecture/ArtificialIntelligence/AwsHealthOmics](../../aws/Architecture/ArtificialIntelligence/AwsHealthOmics.md) |
@@ -120,18 +119,17 @@ The module contains 309 items.
 | |Name|
 |:---:|---|
 | ![illustration of aws/Architecture/Blockchain/AmazonManagedBlockchain](../../aws/Architecture/Blockchain/AmazonManagedBlockchain.png) | [aws/Architecture/Blockchain/AmazonManagedBlockchain](../../aws/Architecture/Blockchain/AmazonManagedBlockchain.md) |
-| ![illustration of aws/Architecture/Blockchain/AmazonQuantumLedgerDatabase](../../aws/Architecture/Blockchain/AmazonQuantumLedgerDatabase.png) | [aws/Architecture/Blockchain/AmazonQuantumLedgerDatabase](../../aws/Architecture/Blockchain/AmazonQuantumLedgerDatabase.md) |
 
 <span id="family-businessapplications"></span>
 ## BusinessApplications
 | |Name|
 |:---:|---|
-| ![illustration of aws/Architecture/BusinessApplications/AlexaForBusiness](../../aws/Architecture/BusinessApplications/AlexaForBusiness.png) | [aws/Architecture/BusinessApplications/AlexaForBusiness](../../aws/Architecture/BusinessApplications/AlexaForBusiness.md) |
 | ![illustration of aws/Architecture/BusinessApplications/AmazonChime](../../aws/Architecture/BusinessApplications/AmazonChime.png) | [aws/Architecture/BusinessApplications/AmazonChime](../../aws/Architecture/BusinessApplications/AmazonChime.md) |
 | ![illustration of aws/Architecture/BusinessApplications/AmazonChimeSdk](../../aws/Architecture/BusinessApplications/AmazonChimeSdk.png) | [aws/Architecture/BusinessApplications/AmazonChimeSdk](../../aws/Architecture/BusinessApplications/AmazonChimeSdk.md) |
 | ![illustration of aws/Architecture/BusinessApplications/AmazonConnect](../../aws/Architecture/BusinessApplications/AmazonConnect.png) | [aws/Architecture/BusinessApplications/AmazonConnect](../../aws/Architecture/BusinessApplications/AmazonConnect.md) |
 | ![illustration of aws/Architecture/BusinessApplications/AmazonPinpoint](../../aws/Architecture/BusinessApplications/AmazonPinpoint.png) | [aws/Architecture/BusinessApplications/AmazonPinpoint](../../aws/Architecture/BusinessApplications/AmazonPinpoint.md) |
 | ![illustration of aws/Architecture/BusinessApplications/AmazonPinpointApIs](../../aws/Architecture/BusinessApplications/AmazonPinpointApIs.png) | [aws/Architecture/BusinessApplications/AmazonPinpointApIs](../../aws/Architecture/BusinessApplications/AmazonPinpointApIs.md) |
+| ![illustration of aws/Architecture/BusinessApplications/AmazonQuick](../../aws/Architecture/BusinessApplications/AmazonQuick.png) | [aws/Architecture/BusinessApplications/AmazonQuick](../../aws/Architecture/BusinessApplications/AmazonQuick.md) |
 | ![illustration of aws/Architecture/BusinessApplications/AmazonSimpleEmailService](../../aws/Architecture/BusinessApplications/AmazonSimpleEmailService.png) | [aws/Architecture/BusinessApplications/AmazonSimpleEmailService](../../aws/Architecture/BusinessApplications/AmazonSimpleEmailService.md) |
 | ![illustration of aws/Architecture/BusinessApplications/AmazonWorkDocs](../../aws/Architecture/BusinessApplications/AmazonWorkDocs.png) | [aws/Architecture/BusinessApplications/AmazonWorkDocs](../../aws/Architecture/BusinessApplications/AmazonWorkDocs.md) |
 | ![illustration of aws/Architecture/BusinessApplications/AmazonWorkDocsSdk](../../aws/Architecture/BusinessApplications/AmazonWorkDocsSdk.png) | [aws/Architecture/BusinessApplications/AmazonWorkDocsSdk](../../aws/Architecture/BusinessApplications/AmazonWorkDocsSdk.md) |
@@ -149,6 +147,7 @@ The module contains 309 items.
 | ![illustration of aws/Architecture/CloudFinancialManagement/AwsBudgets](../../aws/Architecture/CloudFinancialManagement/AwsBudgets.png) | [aws/Architecture/CloudFinancialManagement/AwsBudgets](../../aws/Architecture/CloudFinancialManagement/AwsBudgets.md) |
 | ![illustration of aws/Architecture/CloudFinancialManagement/AwsCostAndUsageReport](../../aws/Architecture/CloudFinancialManagement/AwsCostAndUsageReport.png) | [aws/Architecture/CloudFinancialManagement/AwsCostAndUsageReport](../../aws/Architecture/CloudFinancialManagement/AwsCostAndUsageReport.md) |
 | ![illustration of aws/Architecture/CloudFinancialManagement/AwsCostExplorer](../../aws/Architecture/CloudFinancialManagement/AwsCostExplorer.png) | [aws/Architecture/CloudFinancialManagement/AwsCostExplorer](../../aws/Architecture/CloudFinancialManagement/AwsCostExplorer.md) |
+| ![illustration of aws/Architecture/CloudFinancialManagement/AwsFinOpsAgent](../../aws/Architecture/CloudFinancialManagement/AwsFinOpsAgent.png) | [aws/Architecture/CloudFinancialManagement/AwsFinOpsAgent](../../aws/Architecture/CloudFinancialManagement/AwsFinOpsAgent.md) |
 | ![illustration of aws/Architecture/CloudFinancialManagement/ReservedInstanceReporting](../../aws/Architecture/CloudFinancialManagement/ReservedInstanceReporting.png) | [aws/Architecture/CloudFinancialManagement/ReservedInstanceReporting](../../aws/Architecture/CloudFinancialManagement/ReservedInstanceReporting.md) |
 | ![illustration of aws/Architecture/CloudFinancialManagement/SavingsPlans](../../aws/Architecture/CloudFinancialManagement/SavingsPlans.png) | [aws/Architecture/CloudFinancialManagement/SavingsPlans](../../aws/Architecture/CloudFinancialManagement/SavingsPlans.md) |
 
@@ -180,7 +179,6 @@ The module contains 309 items.
 | ![illustration of aws/Architecture/Compute/AwsWavelength](../../aws/Architecture/Compute/AwsWavelength.png) | [aws/Architecture/Compute/AwsWavelength](../../aws/Architecture/Compute/AwsWavelength.md) |
 | ![illustration of aws/Architecture/Compute/Bottlerocket](../../aws/Architecture/Compute/Bottlerocket.png) | [aws/Architecture/Compute/Bottlerocket](../../aws/Architecture/Compute/Bottlerocket.md) |
 | ![illustration of aws/Architecture/Compute/ElasticFabricAdapter](../../aws/Architecture/Compute/ElasticFabricAdapter.png) | [aws/Architecture/Compute/ElasticFabricAdapter](../../aws/Architecture/Compute/ElasticFabricAdapter.md) |
-| ![illustration of aws/Architecture/Compute/NiceEnginFrame](../../aws/Architecture/Compute/NiceEnginFrame.png) | [aws/Architecture/Compute/NiceEnginFrame](../../aws/Architecture/Compute/NiceEnginFrame.md) |
 
 <span id="family-containers"></span>
 ## Containers
@@ -188,7 +186,6 @@ The module contains 309 items.
 |:---:|---|
 | ![illustration of aws/Architecture/Containers/AmazonEcsAnywhere](../../aws/Architecture/Containers/AmazonEcsAnywhere.png) | [aws/Architecture/Containers/AmazonEcsAnywhere](../../aws/Architecture/Containers/AmazonEcsAnywhere.md) |
 | ![illustration of aws/Architecture/Containers/AmazonEksAnywhere](../../aws/Architecture/Containers/AmazonEksAnywhere.png) | [aws/Architecture/Containers/AmazonEksAnywhere](../../aws/Architecture/Containers/AmazonEksAnywhere.md) |
-| ![illustration of aws/Architecture/Containers/AmazonEksCloud](../../aws/Architecture/Containers/AmazonEksCloud.png) | [aws/Architecture/Containers/AmazonEksCloud](../../aws/Architecture/Containers/AmazonEksCloud.md) |
 | ![illustration of aws/Architecture/Containers/AmazonEksDistro](../../aws/Architecture/Containers/AmazonEksDistro.png) | [aws/Architecture/Containers/AmazonEksDistro](../../aws/Architecture/Containers/AmazonEksDistro.md) |
 | ![illustration of aws/Architecture/Containers/AmazonElasticContainerRegistry](../../aws/Architecture/Containers/AmazonElasticContainerRegistry.png) | [aws/Architecture/Containers/AmazonElasticContainerRegistry](../../aws/Architecture/Containers/AmazonElasticContainerRegistry.md) |
 | ![illustration of aws/Architecture/Containers/AmazonElasticContainerService](../../aws/Architecture/Containers/AmazonElasticContainerService.png) | [aws/Architecture/Containers/AmazonElasticContainerService](../../aws/Architecture/Containers/AmazonElasticContainerService.md) |
@@ -209,21 +206,21 @@ The module contains 309 items.
 | ![illustration of aws/Architecture/CustomerEnablement/AwsSupport](../../aws/Architecture/CustomerEnablement/AwsSupport.png) | [aws/Architecture/CustomerEnablement/AwsSupport](../../aws/Architecture/CustomerEnablement/AwsSupport.md) |
 | ![illustration of aws/Architecture/CustomerEnablement/AwsTrainingCertification](../../aws/Architecture/CustomerEnablement/AwsTrainingCertification.png) | [aws/Architecture/CustomerEnablement/AwsTrainingCertification](../../aws/Architecture/CustomerEnablement/AwsTrainingCertification.md) |
 
-<span id="family-database"></span>
-## Database
+<span id="family-databases"></span>
+## Databases
 | |Name|
 |:---:|---|
-| ![illustration of aws/Architecture/Database/AmazonAurora](../../aws/Architecture/Database/AmazonAurora.png) | [aws/Architecture/Database/AmazonAurora](../../aws/Architecture/Database/AmazonAurora.md) |
-| ![illustration of aws/Architecture/Database/AmazonDocumentDb](../../aws/Architecture/Database/AmazonDocumentDb.png) | [aws/Architecture/Database/AmazonDocumentDb](../../aws/Architecture/Database/AmazonDocumentDb.md) |
-| ![illustration of aws/Architecture/Database/AmazonDynamoDb](../../aws/Architecture/Database/AmazonDynamoDb.png) | [aws/Architecture/Database/AmazonDynamoDb](../../aws/Architecture/Database/AmazonDynamoDb.md) |
-| ![illustration of aws/Architecture/Database/AmazonElastiCache](../../aws/Architecture/Database/AmazonElastiCache.png) | [aws/Architecture/Database/AmazonElastiCache](../../aws/Architecture/Database/AmazonElastiCache.md) |
-| ![illustration of aws/Architecture/Database/AmazonKeyspaces](../../aws/Architecture/Database/AmazonKeyspaces.png) | [aws/Architecture/Database/AmazonKeyspaces](../../aws/Architecture/Database/AmazonKeyspaces.md) |
-| ![illustration of aws/Architecture/Database/AmazonMemoryDb](../../aws/Architecture/Database/AmazonMemoryDb.png) | [aws/Architecture/Database/AmazonMemoryDb](../../aws/Architecture/Database/AmazonMemoryDb.md) |
-| ![illustration of aws/Architecture/Database/AmazonNeptune](../../aws/Architecture/Database/AmazonNeptune.png) | [aws/Architecture/Database/AmazonNeptune](../../aws/Architecture/Database/AmazonNeptune.md) |
-| ![illustration of aws/Architecture/Database/AmazonRds](../../aws/Architecture/Database/AmazonRds.png) | [aws/Architecture/Database/AmazonRds](../../aws/Architecture/Database/AmazonRds.md) |
-| ![illustration of aws/Architecture/Database/AmazonTimestream](../../aws/Architecture/Database/AmazonTimestream.png) | [aws/Architecture/Database/AmazonTimestream](../../aws/Architecture/Database/AmazonTimestream.md) |
-| ![illustration of aws/Architecture/Database/AwsDatabaseMigrationService](../../aws/Architecture/Database/AwsDatabaseMigrationService.png) | [aws/Architecture/Database/AwsDatabaseMigrationService](../../aws/Architecture/Database/AwsDatabaseMigrationService.md) |
-| ![illustration of aws/Architecture/Database/OracleDatabaseAtAws](../../aws/Architecture/Database/OracleDatabaseAtAws.png) | [aws/Architecture/Database/OracleDatabaseAtAws](../../aws/Architecture/Database/OracleDatabaseAtAws.md) |
+| ![illustration of aws/Architecture/Databases/AmazonAurora](../../aws/Architecture/Databases/AmazonAurora.png) | [aws/Architecture/Databases/AmazonAurora](../../aws/Architecture/Databases/AmazonAurora.md) |
+| ![illustration of aws/Architecture/Databases/AmazonDocumentDb](../../aws/Architecture/Databases/AmazonDocumentDb.png) | [aws/Architecture/Databases/AmazonDocumentDb](../../aws/Architecture/Databases/AmazonDocumentDb.md) |
+| ![illustration of aws/Architecture/Databases/AmazonDynamoDb](../../aws/Architecture/Databases/AmazonDynamoDb.png) | [aws/Architecture/Databases/AmazonDynamoDb](../../aws/Architecture/Databases/AmazonDynamoDb.md) |
+| ![illustration of aws/Architecture/Databases/AmazonElastiCache](../../aws/Architecture/Databases/AmazonElastiCache.png) | [aws/Architecture/Databases/AmazonElastiCache](../../aws/Architecture/Databases/AmazonElastiCache.md) |
+| ![illustration of aws/Architecture/Databases/AmazonKeyspaces](../../aws/Architecture/Databases/AmazonKeyspaces.png) | [aws/Architecture/Databases/AmazonKeyspaces](../../aws/Architecture/Databases/AmazonKeyspaces.md) |
+| ![illustration of aws/Architecture/Databases/AmazonMemoryDb](../../aws/Architecture/Databases/AmazonMemoryDb.png) | [aws/Architecture/Databases/AmazonMemoryDb](../../aws/Architecture/Databases/AmazonMemoryDb.md) |
+| ![illustration of aws/Architecture/Databases/AmazonNeptune](../../aws/Architecture/Databases/AmazonNeptune.png) | [aws/Architecture/Databases/AmazonNeptune](../../aws/Architecture/Databases/AmazonNeptune.md) |
+| ![illustration of aws/Architecture/Databases/AmazonRds](../../aws/Architecture/Databases/AmazonRds.png) | [aws/Architecture/Databases/AmazonRds](../../aws/Architecture/Databases/AmazonRds.md) |
+| ![illustration of aws/Architecture/Databases/AmazonTimestream](../../aws/Architecture/Databases/AmazonTimestream.png) | [aws/Architecture/Databases/AmazonTimestream](../../aws/Architecture/Databases/AmazonTimestream.md) |
+| ![illustration of aws/Architecture/Databases/AwsDatabaseMigrationService](../../aws/Architecture/Databases/AwsDatabaseMigrationService.png) | [aws/Architecture/Databases/AwsDatabaseMigrationService](../../aws/Architecture/Databases/AwsDatabaseMigrationService.md) |
+| ![illustration of aws/Architecture/Databases/OracleDatabaseAtAws](../../aws/Architecture/Databases/OracleDatabaseAtAws.png) | [aws/Architecture/Databases/OracleDatabaseAtAws](../../aws/Architecture/Databases/OracleDatabaseAtAws.md) |
 
 <span id="family-developertools"></span>
 ## DeveloperTools
@@ -250,8 +247,7 @@ The module contains 309 items.
 ## EndUserComputing
 | |Name|
 |:---:|---|
-| ![illustration of aws/Architecture/EndUserComputing/AmazonAppStream2](../../aws/Architecture/EndUserComputing/AmazonAppStream2.png) | [aws/Architecture/EndUserComputing/AmazonAppStream2](../../aws/Architecture/EndUserComputing/AmazonAppStream2.md) |
-| ![illustration of aws/Architecture/EndUserComputing/AmazonWorkSpacesFamily](../../aws/Architecture/EndUserComputing/AmazonWorkSpacesFamily.png) | [aws/Architecture/EndUserComputing/AmazonWorkSpacesFamily](../../aws/Architecture/EndUserComputing/AmazonWorkSpacesFamily.md) |
+| ![illustration of aws/Architecture/EndUserComputing/AmazonWorkSpaces](../../aws/Architecture/EndUserComputing/AmazonWorkSpaces.png) | [aws/Architecture/EndUserComputing/AmazonWorkSpaces](../../aws/Architecture/EndUserComputing/AmazonWorkSpaces.md) |
 
 <span id="family-frontendwebmobile"></span>
 ## FrontEndWebMobile
@@ -280,8 +276,6 @@ The module contains 309 items.
 ## InternetOfThings
 | |Name|
 |:---:|---|
-| ![illustration of aws/Architecture/InternetOfThings/AwsIoTAnalytics](../../aws/Architecture/InternetOfThings/AwsIoTAnalytics.png) | [aws/Architecture/InternetOfThings/AwsIoTAnalytics](../../aws/Architecture/InternetOfThings/AwsIoTAnalytics.md) |
-| ![illustration of aws/Architecture/InternetOfThings/AwsIoTButton](../../aws/Architecture/InternetOfThings/AwsIoTButton.png) | [aws/Architecture/InternetOfThings/AwsIoTButton](../../aws/Architecture/InternetOfThings/AwsIoTButton.md) |
 | ![illustration of aws/Architecture/InternetOfThings/AwsIoTCore](../../aws/Architecture/InternetOfThings/AwsIoTCore.png) | [aws/Architecture/InternetOfThings/AwsIoTCore](../../aws/Architecture/InternetOfThings/AwsIoTCore.md) |
 | ![illustration of aws/Architecture/InternetOfThings/AwsIoTDeviceDefender](../../aws/Architecture/InternetOfThings/AwsIoTDeviceDefender.png) | [aws/Architecture/InternetOfThings/AwsIoTDeviceDefender](../../aws/Architecture/InternetOfThings/AwsIoTDeviceDefender.md) |
 | ![illustration of aws/Architecture/InternetOfThings/AwsIoTDeviceManagement](../../aws/Architecture/InternetOfThings/AwsIoTDeviceManagement.png) | [aws/Architecture/InternetOfThings/AwsIoTDeviceManagement](../../aws/Architecture/InternetOfThings/AwsIoTDeviceManagement.md) |
@@ -293,46 +287,48 @@ The module contains 309 items.
 | ![illustration of aws/Architecture/InternetOfThings/AwsIoTTwinMaker](../../aws/Architecture/InternetOfThings/AwsIoTTwinMaker.png) | [aws/Architecture/InternetOfThings/AwsIoTTwinMaker](../../aws/Architecture/InternetOfThings/AwsIoTTwinMaker.md) |
 | ![illustration of aws/Architecture/InternetOfThings/FreeRtos](../../aws/Architecture/InternetOfThings/FreeRtos.png) | [aws/Architecture/InternetOfThings/FreeRtos](../../aws/Architecture/InternetOfThings/FreeRtos.md) |
 
-<span id="family-managementgovernance"></span>
-## ManagementGovernance
+<span id="family-managementtools"></span>
+## ManagementTools
 | |Name|
 |:---:|---|
-| ![illustration of aws/Architecture/ManagementGovernance/AmazonCloudWatch](../../aws/Architecture/ManagementGovernance/AmazonCloudWatch.png) | [aws/Architecture/ManagementGovernance/AmazonCloudWatch](../../aws/Architecture/ManagementGovernance/AmazonCloudWatch.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AmazonManagedGrafana](../../aws/Architecture/ManagementGovernance/AmazonManagedGrafana.png) | [aws/Architecture/ManagementGovernance/AmazonManagedGrafana](../../aws/Architecture/ManagementGovernance/AmazonManagedGrafana.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AmazonManagedServiceForPrometheus](../../aws/Architecture/ManagementGovernance/AmazonManagedServiceForPrometheus.png) | [aws/Architecture/ManagementGovernance/AmazonManagedServiceForPrometheus](../../aws/Architecture/ManagementGovernance/AmazonManagedServiceForPrometheus.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsAppConfig](../../aws/Architecture/ManagementGovernance/AwsAppConfig.png) | [aws/Architecture/ManagementGovernance/AwsAppConfig](../../aws/Architecture/ManagementGovernance/AwsAppConfig.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsApplicationAutoScaling](../../aws/Architecture/ManagementGovernance/AwsApplicationAutoScaling.png) | [aws/Architecture/ManagementGovernance/AwsApplicationAutoScaling](../../aws/Architecture/ManagementGovernance/AwsApplicationAutoScaling.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsAutoScaling](../../aws/Architecture/ManagementGovernance/AwsAutoScaling.png) | [aws/Architecture/ManagementGovernance/AwsAutoScaling](../../aws/Architecture/ManagementGovernance/AwsAutoScaling.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsBackintAgent](../../aws/Architecture/ManagementGovernance/AwsBackintAgent.png) | [aws/Architecture/ManagementGovernance/AwsBackintAgent](../../aws/Architecture/ManagementGovernance/AwsBackintAgent.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsChatbot](../../aws/Architecture/ManagementGovernance/AwsChatbot.png) | [aws/Architecture/ManagementGovernance/AwsChatbot](../../aws/Architecture/ManagementGovernance/AwsChatbot.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsCloudFormation](../../aws/Architecture/ManagementGovernance/AwsCloudFormation.png) | [aws/Architecture/ManagementGovernance/AwsCloudFormation](../../aws/Architecture/ManagementGovernance/AwsCloudFormation.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsCloudTrail](../../aws/Architecture/ManagementGovernance/AwsCloudTrail.png) | [aws/Architecture/ManagementGovernance/AwsCloudTrail](../../aws/Architecture/ManagementGovernance/AwsCloudTrail.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsComputeOptimizer](../../aws/Architecture/ManagementGovernance/AwsComputeOptimizer.png) | [aws/Architecture/ManagementGovernance/AwsComputeOptimizer](../../aws/Architecture/ManagementGovernance/AwsComputeOptimizer.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsConfig](../../aws/Architecture/ManagementGovernance/AwsConfig.png) | [aws/Architecture/ManagementGovernance/AwsConfig](../../aws/Architecture/ManagementGovernance/AwsConfig.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsConsoleMobileApplication](../../aws/Architecture/ManagementGovernance/AwsConsoleMobileApplication.png) | [aws/Architecture/ManagementGovernance/AwsConsoleMobileApplication](../../aws/Architecture/ManagementGovernance/AwsConsoleMobileApplication.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsControlTower](../../aws/Architecture/ManagementGovernance/AwsControlTower.png) | [aws/Architecture/ManagementGovernance/AwsControlTower](../../aws/Architecture/ManagementGovernance/AwsControlTower.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsDistroForOpenTelemetry](../../aws/Architecture/ManagementGovernance/AwsDistroForOpenTelemetry.png) | [aws/Architecture/ManagementGovernance/AwsDistroForOpenTelemetry](../../aws/Architecture/ManagementGovernance/AwsDistroForOpenTelemetry.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsHealthDashboard](../../aws/Architecture/ManagementGovernance/AwsHealthDashboard.png) | [aws/Architecture/ManagementGovernance/AwsHealthDashboard](../../aws/Architecture/ManagementGovernance/AwsHealthDashboard.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsLaunchWizard](../../aws/Architecture/ManagementGovernance/AwsLaunchWizard.png) | [aws/Architecture/ManagementGovernance/AwsLaunchWizard](../../aws/Architecture/ManagementGovernance/AwsLaunchWizard.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsLicenseManager](../../aws/Architecture/ManagementGovernance/AwsLicenseManager.png) | [aws/Architecture/ManagementGovernance/AwsLicenseManager](../../aws/Architecture/ManagementGovernance/AwsLicenseManager.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsManagementConsole](../../aws/Architecture/ManagementGovernance/AwsManagementConsole.png) | [aws/Architecture/ManagementGovernance/AwsManagementConsole](../../aws/Architecture/ManagementGovernance/AwsManagementConsole.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsOrganizations](../../aws/Architecture/ManagementGovernance/AwsOrganizations.png) | [aws/Architecture/ManagementGovernance/AwsOrganizations](../../aws/Architecture/ManagementGovernance/AwsOrganizations.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsProton](../../aws/Architecture/ManagementGovernance/AwsProton.png) | [aws/Architecture/ManagementGovernance/AwsProton](../../aws/Architecture/ManagementGovernance/AwsProton.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsResilienceHub](../../aws/Architecture/ManagementGovernance/AwsResilienceHub.png) | [aws/Architecture/ManagementGovernance/AwsResilienceHub](../../aws/Architecture/ManagementGovernance/AwsResilienceHub.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsResourceExplorer](../../aws/Architecture/ManagementGovernance/AwsResourceExplorer.png) | [aws/Architecture/ManagementGovernance/AwsResourceExplorer](../../aws/Architecture/ManagementGovernance/AwsResourceExplorer.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsServiceCatalog](../../aws/Architecture/ManagementGovernance/AwsServiceCatalog.png) | [aws/Architecture/ManagementGovernance/AwsServiceCatalog](../../aws/Architecture/ManagementGovernance/AwsServiceCatalog.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsServiceManagementConnector](../../aws/Architecture/ManagementGovernance/AwsServiceManagementConnector.png) | [aws/Architecture/ManagementGovernance/AwsServiceManagementConnector](../../aws/Architecture/ManagementGovernance/AwsServiceManagementConnector.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsSystemsManager](../../aws/Architecture/ManagementGovernance/AwsSystemsManager.png) | [aws/Architecture/ManagementGovernance/AwsSystemsManager](../../aws/Architecture/ManagementGovernance/AwsSystemsManager.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsTelcoNetworkBuilder](../../aws/Architecture/ManagementGovernance/AwsTelcoNetworkBuilder.png) | [aws/Architecture/ManagementGovernance/AwsTelcoNetworkBuilder](../../aws/Architecture/ManagementGovernance/AwsTelcoNetworkBuilder.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsTrustedAdvisor](../../aws/Architecture/ManagementGovernance/AwsTrustedAdvisor.png) | [aws/Architecture/ManagementGovernance/AwsTrustedAdvisor](../../aws/Architecture/ManagementGovernance/AwsTrustedAdvisor.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsUserNotifications](../../aws/Architecture/ManagementGovernance/AwsUserNotifications.png) | [aws/Architecture/ManagementGovernance/AwsUserNotifications](../../aws/Architecture/ManagementGovernance/AwsUserNotifications.md) |
-| ![illustration of aws/Architecture/ManagementGovernance/AwsWellArchitectedTool](../../aws/Architecture/ManagementGovernance/AwsWellArchitectedTool.png) | [aws/Architecture/ManagementGovernance/AwsWellArchitectedTool](../../aws/Architecture/ManagementGovernance/AwsWellArchitectedTool.md) |
+| ![illustration of aws/Architecture/ManagementTools/AmazonCloudWatch](../../aws/Architecture/ManagementTools/AmazonCloudWatch.png) | [aws/Architecture/ManagementTools/AmazonCloudWatch](../../aws/Architecture/ManagementTools/AmazonCloudWatch.md) |
+| ![illustration of aws/Architecture/ManagementTools/AmazonManagedGrafana](../../aws/Architecture/ManagementTools/AmazonManagedGrafana.png) | [aws/Architecture/ManagementTools/AmazonManagedGrafana](../../aws/Architecture/ManagementTools/AmazonManagedGrafana.md) |
+| ![illustration of aws/Architecture/ManagementTools/AmazonManagedServiceForPrometheus](../../aws/Architecture/ManagementTools/AmazonManagedServiceForPrometheus.png) | [aws/Architecture/ManagementTools/AmazonManagedServiceForPrometheus](../../aws/Architecture/ManagementTools/AmazonManagedServiceForPrometheus.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsAppConfig](../../aws/Architecture/ManagementTools/AwsAppConfig.png) | [aws/Architecture/ManagementTools/AwsAppConfig](../../aws/Architecture/ManagementTools/AwsAppConfig.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsApplicationAutoScaling](../../aws/Architecture/ManagementTools/AwsApplicationAutoScaling.png) | [aws/Architecture/ManagementTools/AwsApplicationAutoScaling](../../aws/Architecture/ManagementTools/AwsApplicationAutoScaling.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsAutoScaling](../../aws/Architecture/ManagementTools/AwsAutoScaling.png) | [aws/Architecture/ManagementTools/AwsAutoScaling](../../aws/Architecture/ManagementTools/AwsAutoScaling.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsBackintAgent](../../aws/Architecture/ManagementTools/AwsBackintAgent.png) | [aws/Architecture/ManagementTools/AwsBackintAgent](../../aws/Architecture/ManagementTools/AwsBackintAgent.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsChatbot](../../aws/Architecture/ManagementTools/AwsChatbot.png) | [aws/Architecture/ManagementTools/AwsChatbot](../../aws/Architecture/ManagementTools/AwsChatbot.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsCloudFormation](../../aws/Architecture/ManagementTools/AwsCloudFormation.png) | [aws/Architecture/ManagementTools/AwsCloudFormation](../../aws/Architecture/ManagementTools/AwsCloudFormation.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsCloudTrail](../../aws/Architecture/ManagementTools/AwsCloudTrail.png) | [aws/Architecture/ManagementTools/AwsCloudTrail](../../aws/Architecture/ManagementTools/AwsCloudTrail.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsComputeOptimizer](../../aws/Architecture/ManagementTools/AwsComputeOptimizer.png) | [aws/Architecture/ManagementTools/AwsComputeOptimizer](../../aws/Architecture/ManagementTools/AwsComputeOptimizer.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsConfig](../../aws/Architecture/ManagementTools/AwsConfig.png) | [aws/Architecture/ManagementTools/AwsConfig](../../aws/Architecture/ManagementTools/AwsConfig.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsConsoleMobileApplication](../../aws/Architecture/ManagementTools/AwsConsoleMobileApplication.png) | [aws/Architecture/ManagementTools/AwsConsoleMobileApplication](../../aws/Architecture/ManagementTools/AwsConsoleMobileApplication.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsControlTower](../../aws/Architecture/ManagementTools/AwsControlTower.png) | [aws/Architecture/ManagementTools/AwsControlTower](../../aws/Architecture/ManagementTools/AwsControlTower.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsDevOpsAgent](../../aws/Architecture/ManagementTools/AwsDevOpsAgent.png) | [aws/Architecture/ManagementTools/AwsDevOpsAgent](../../aws/Architecture/ManagementTools/AwsDevOpsAgent.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsDistroForOpenTelemetry](../../aws/Architecture/ManagementTools/AwsDistroForOpenTelemetry.png) | [aws/Architecture/ManagementTools/AwsDistroForOpenTelemetry](../../aws/Architecture/ManagementTools/AwsDistroForOpenTelemetry.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsHealthDashboard](../../aws/Architecture/ManagementTools/AwsHealthDashboard.png) | [aws/Architecture/ManagementTools/AwsHealthDashboard](../../aws/Architecture/ManagementTools/AwsHealthDashboard.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsLaunchWizard](../../aws/Architecture/ManagementTools/AwsLaunchWizard.png) | [aws/Architecture/ManagementTools/AwsLaunchWizard](../../aws/Architecture/ManagementTools/AwsLaunchWizard.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsLicenseManager](../../aws/Architecture/ManagementTools/AwsLicenseManager.png) | [aws/Architecture/ManagementTools/AwsLicenseManager](../../aws/Architecture/ManagementTools/AwsLicenseManager.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsManagementConsole](../../aws/Architecture/ManagementTools/AwsManagementConsole.png) | [aws/Architecture/ManagementTools/AwsManagementConsole](../../aws/Architecture/ManagementTools/AwsManagementConsole.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsOrganizations](../../aws/Architecture/ManagementTools/AwsOrganizations.png) | [aws/Architecture/ManagementTools/AwsOrganizations](../../aws/Architecture/ManagementTools/AwsOrganizations.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsPartnerCentral](../../aws/Architecture/ManagementTools/AwsPartnerCentral.png) | [aws/Architecture/ManagementTools/AwsPartnerCentral](../../aws/Architecture/ManagementTools/AwsPartnerCentral.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsProton](../../aws/Architecture/ManagementTools/AwsProton.png) | [aws/Architecture/ManagementTools/AwsProton](../../aws/Architecture/ManagementTools/AwsProton.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsResilienceHub](../../aws/Architecture/ManagementTools/AwsResilienceHub.png) | [aws/Architecture/ManagementTools/AwsResilienceHub](../../aws/Architecture/ManagementTools/AwsResilienceHub.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsResourceExplorer](../../aws/Architecture/ManagementTools/AwsResourceExplorer.png) | [aws/Architecture/ManagementTools/AwsResourceExplorer](../../aws/Architecture/ManagementTools/AwsResourceExplorer.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsServiceCatalog](../../aws/Architecture/ManagementTools/AwsServiceCatalog.png) | [aws/Architecture/ManagementTools/AwsServiceCatalog](../../aws/Architecture/ManagementTools/AwsServiceCatalog.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsServiceManagementConnector](../../aws/Architecture/ManagementTools/AwsServiceManagementConnector.png) | [aws/Architecture/ManagementTools/AwsServiceManagementConnector](../../aws/Architecture/ManagementTools/AwsServiceManagementConnector.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsSustainability](../../aws/Architecture/ManagementTools/AwsSustainability.png) | [aws/Architecture/ManagementTools/AwsSustainability](../../aws/Architecture/ManagementTools/AwsSustainability.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsSystemsManager](../../aws/Architecture/ManagementTools/AwsSystemsManager.png) | [aws/Architecture/ManagementTools/AwsSystemsManager](../../aws/Architecture/ManagementTools/AwsSystemsManager.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsTelcoNetworkBuilder](../../aws/Architecture/ManagementTools/AwsTelcoNetworkBuilder.png) | [aws/Architecture/ManagementTools/AwsTelcoNetworkBuilder](../../aws/Architecture/ManagementTools/AwsTelcoNetworkBuilder.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsTrustedAdvisor](../../aws/Architecture/ManagementTools/AwsTrustedAdvisor.png) | [aws/Architecture/ManagementTools/AwsTrustedAdvisor](../../aws/Architecture/ManagementTools/AwsTrustedAdvisor.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsUserNotifications](../../aws/Architecture/ManagementTools/AwsUserNotifications.png) | [aws/Architecture/ManagementTools/AwsUserNotifications](../../aws/Architecture/ManagementTools/AwsUserNotifications.md) |
+| ![illustration of aws/Architecture/ManagementTools/AwsWellArchitectedTool](../../aws/Architecture/ManagementTools/AwsWellArchitectedTool.png) | [aws/Architecture/ManagementTools/AwsWellArchitectedTool](../../aws/Architecture/ManagementTools/AwsWellArchitectedTool.md) |
 
 <span id="family-mediaservices"></span>
 ## MediaServices
 | |Name|
 |:---:|---|
-| ![illustration of aws/Architecture/MediaServices/AmazonElasticTranscoder](../../aws/Architecture/MediaServices/AmazonElasticTranscoder.png) | [aws/Architecture/MediaServices/AmazonElasticTranscoder](../../aws/Architecture/MediaServices/AmazonElasticTranscoder.md) |
 | ![illustration of aws/Architecture/MediaServices/AmazonInteractiveVideoService](../../aws/Architecture/MediaServices/AmazonInteractiveVideoService.png) | [aws/Architecture/MediaServices/AmazonInteractiveVideoService](../../aws/Architecture/MediaServices/AmazonInteractiveVideoService.md) |
 | ![illustration of aws/Architecture/MediaServices/AmazonKinesisVideoStreams](../../aws/Architecture/MediaServices/AmazonKinesisVideoStreams.png) | [aws/Architecture/MediaServices/AmazonKinesisVideoStreams](../../aws/Architecture/MediaServices/AmazonKinesisVideoStreams.md) |
 | ![illustration of aws/Architecture/MediaServices/AwsDeadlineCloud](../../aws/Architecture/MediaServices/AwsDeadlineCloud.png) | [aws/Architecture/MediaServices/AwsDeadlineCloud](../../aws/Architecture/MediaServices/AwsDeadlineCloud.md) |
@@ -351,7 +347,6 @@ The module contains 309 items.
 | ![illustration of aws/Architecture/MediaServices/AwsThinkboxDeadline](../../aws/Architecture/MediaServices/AwsThinkboxDeadline.png) | [aws/Architecture/MediaServices/AwsThinkboxDeadline](../../aws/Architecture/MediaServices/AwsThinkboxDeadline.md) |
 | ![illustration of aws/Architecture/MediaServices/AwsThinkboxFrost](../../aws/Architecture/MediaServices/AwsThinkboxFrost.png) | [aws/Architecture/MediaServices/AwsThinkboxFrost](../../aws/Architecture/MediaServices/AwsThinkboxFrost.md) |
 | ![illustration of aws/Architecture/MediaServices/AwsThinkboxKrakatoa](../../aws/Architecture/MediaServices/AwsThinkboxKrakatoa.png) | [aws/Architecture/MediaServices/AwsThinkboxKrakatoa](../../aws/Architecture/MediaServices/AwsThinkboxKrakatoa.md) |
-| ![illustration of aws/Architecture/MediaServices/AwsThinkboxSequoia](../../aws/Architecture/MediaServices/AwsThinkboxSequoia.png) | [aws/Architecture/MediaServices/AwsThinkboxSequoia](../../aws/Architecture/MediaServices/AwsThinkboxSequoia.md) |
 | ![illustration of aws/Architecture/MediaServices/AwsThinkboxStoke](../../aws/Architecture/MediaServices/AwsThinkboxStoke.png) | [aws/Architecture/MediaServices/AwsThinkboxStoke](../../aws/Architecture/MediaServices/AwsThinkboxStoke.md) |
 | ![illustration of aws/Architecture/MediaServices/AwsThinkboxXMesh](../../aws/Architecture/MediaServices/AwsThinkboxXMesh.png) | [aws/Architecture/MediaServices/AwsThinkboxXMesh](../../aws/Architecture/MediaServices/AwsThinkboxXMesh.md) |
 
@@ -365,7 +360,6 @@ The module contains 309 items.
 | ![illustration of aws/Architecture/MigrationModernization/AwsDataTransferTerminal](../../aws/Architecture/MigrationModernization/AwsDataTransferTerminal.png) | [aws/Architecture/MigrationModernization/AwsDataTransferTerminal](../../aws/Architecture/MigrationModernization/AwsDataTransferTerminal.md) |
 | ![illustration of aws/Architecture/MigrationModernization/AwsMainframeModernization](../../aws/Architecture/MigrationModernization/AwsMainframeModernization.png) | [aws/Architecture/MigrationModernization/AwsMainframeModernization](../../aws/Architecture/MigrationModernization/AwsMainframeModernization.md) |
 | ![illustration of aws/Architecture/MigrationModernization/AwsMigrationEvaluator](../../aws/Architecture/MigrationModernization/AwsMigrationEvaluator.png) | [aws/Architecture/MigrationModernization/AwsMigrationEvaluator](../../aws/Architecture/MigrationModernization/AwsMigrationEvaluator.md) |
-| ![illustration of aws/Architecture/MigrationModernization/AwsMigrationHub](../../aws/Architecture/MigrationModernization/AwsMigrationHub.png) | [aws/Architecture/MigrationModernization/AwsMigrationHub](../../aws/Architecture/MigrationModernization/AwsMigrationHub.md) |
 | ![illustration of aws/Architecture/MigrationModernization/AwsTransferFamily](../../aws/Architecture/MigrationModernization/AwsTransferFamily.png) | [aws/Architecture/MigrationModernization/AwsTransferFamily](../../aws/Architecture/MigrationModernization/AwsTransferFamily.md) |
 | ![illustration of aws/Architecture/MigrationModernization/AwsTransform](../../aws/Architecture/MigrationModernization/AwsTransform.png) | [aws/Architecture/MigrationModernization/AwsTransform](../../aws/Architecture/MigrationModernization/AwsTransform.md) |
 
@@ -385,8 +379,9 @@ The module contains 309 items.
 | ![illustration of aws/Architecture/NetworkingContentDelivery/AwsCloudWan](../../aws/Architecture/NetworkingContentDelivery/AwsCloudWan.png) | [aws/Architecture/NetworkingContentDelivery/AwsCloudWan](../../aws/Architecture/NetworkingContentDelivery/AwsCloudWan.md) |
 | ![illustration of aws/Architecture/NetworkingContentDelivery/AwsDirectConnect](../../aws/Architecture/NetworkingContentDelivery/AwsDirectConnect.png) | [aws/Architecture/NetworkingContentDelivery/AwsDirectConnect](../../aws/Architecture/NetworkingContentDelivery/AwsDirectConnect.md) |
 | ![illustration of aws/Architecture/NetworkingContentDelivery/AwsGlobalAccelerator](../../aws/Architecture/NetworkingContentDelivery/AwsGlobalAccelerator.png) | [aws/Architecture/NetworkingContentDelivery/AwsGlobalAccelerator](../../aws/Architecture/NetworkingContentDelivery/AwsGlobalAccelerator.md) |
-| ![illustration of aws/Architecture/NetworkingContentDelivery/AwsPrivate5G](../../aws/Architecture/NetworkingContentDelivery/AwsPrivate5G.png) | [aws/Architecture/NetworkingContentDelivery/AwsPrivate5G](../../aws/Architecture/NetworkingContentDelivery/AwsPrivate5G.md) |
+| ![illustration of aws/Architecture/NetworkingContentDelivery/AwsInterconnect](../../aws/Architecture/NetworkingContentDelivery/AwsInterconnect.png) | [aws/Architecture/NetworkingContentDelivery/AwsInterconnect](../../aws/Architecture/NetworkingContentDelivery/AwsInterconnect.md) |
 | ![illustration of aws/Architecture/NetworkingContentDelivery/AwsPrivateLink](../../aws/Architecture/NetworkingContentDelivery/AwsPrivateLink.png) | [aws/Architecture/NetworkingContentDelivery/AwsPrivateLink](../../aws/Architecture/NetworkingContentDelivery/AwsPrivateLink.md) |
+| ![illustration of aws/Architecture/NetworkingContentDelivery/AwsRtbFabric](../../aws/Architecture/NetworkingContentDelivery/AwsRtbFabric.png) | [aws/Architecture/NetworkingContentDelivery/AwsRtbFabric](../../aws/Architecture/NetworkingContentDelivery/AwsRtbFabric.md) |
 | ![illustration of aws/Architecture/NetworkingContentDelivery/AwsSiteToSiteVpn](../../aws/Architecture/NetworkingContentDelivery/AwsSiteToSiteVpn.png) | [aws/Architecture/NetworkingContentDelivery/AwsSiteToSiteVpn](../../aws/Architecture/NetworkingContentDelivery/AwsSiteToSiteVpn.md) |
 | ![illustration of aws/Architecture/NetworkingContentDelivery/AwsTransitGateway](../../aws/Architecture/NetworkingContentDelivery/AwsTransitGateway.png) | [aws/Architecture/NetworkingContentDelivery/AwsTransitGateway](../../aws/Architecture/NetworkingContentDelivery/AwsTransitGateway.md) |
 | ![illustration of aws/Architecture/NetworkingContentDelivery/AwsVerifiedAccess](../../aws/Architecture/NetworkingContentDelivery/AwsVerifiedAccess.png) | [aws/Architecture/NetworkingContentDelivery/AwsVerifiedAccess](../../aws/Architecture/NetworkingContentDelivery/AwsVerifiedAccess.md) |
@@ -404,37 +399,38 @@ The module contains 309 items.
 |:---:|---|
 | ![illustration of aws/Architecture/Satellite/AwsGroundStation](../../aws/Architecture/Satellite/AwsGroundStation.png) | [aws/Architecture/Satellite/AwsGroundStation](../../aws/Architecture/Satellite/AwsGroundStation.md) |
 
-<span id="family-securityidentitycompliance"></span>
-## SecurityIdentityCompliance
+<span id="family-securityidentity"></span>
+## SecurityIdentity
 | |Name|
 |:---:|---|
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AmazonCloudDirectory](../../aws/Architecture/SecurityIdentityCompliance/AmazonCloudDirectory.png) | [aws/Architecture/SecurityIdentityCompliance/AmazonCloudDirectory](../../aws/Architecture/SecurityIdentityCompliance/AmazonCloudDirectory.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AmazonCognito](../../aws/Architecture/SecurityIdentityCompliance/AmazonCognito.png) | [aws/Architecture/SecurityIdentityCompliance/AmazonCognito](../../aws/Architecture/SecurityIdentityCompliance/AmazonCognito.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AmazonDetective](../../aws/Architecture/SecurityIdentityCompliance/AmazonDetective.png) | [aws/Architecture/SecurityIdentityCompliance/AmazonDetective](../../aws/Architecture/SecurityIdentityCompliance/AmazonDetective.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AmazonGuardDuty](../../aws/Architecture/SecurityIdentityCompliance/AmazonGuardDuty.png) | [aws/Architecture/SecurityIdentityCompliance/AmazonGuardDuty](../../aws/Architecture/SecurityIdentityCompliance/AmazonGuardDuty.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AmazonInspector](../../aws/Architecture/SecurityIdentityCompliance/AmazonInspector.png) | [aws/Architecture/SecurityIdentityCompliance/AmazonInspector](../../aws/Architecture/SecurityIdentityCompliance/AmazonInspector.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AmazonMacie](../../aws/Architecture/SecurityIdentityCompliance/AmazonMacie.png) | [aws/Architecture/SecurityIdentityCompliance/AmazonMacie](../../aws/Architecture/SecurityIdentityCompliance/AmazonMacie.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AmazonSecurityLake](../../aws/Architecture/SecurityIdentityCompliance/AmazonSecurityLake.png) | [aws/Architecture/SecurityIdentityCompliance/AmazonSecurityLake](../../aws/Architecture/SecurityIdentityCompliance/AmazonSecurityLake.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AmazonVerifiedPermissions](../../aws/Architecture/SecurityIdentityCompliance/AmazonVerifiedPermissions.png) | [aws/Architecture/SecurityIdentityCompliance/AmazonVerifiedPermissions](../../aws/Architecture/SecurityIdentityCompliance/AmazonVerifiedPermissions.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsArtifact](../../aws/Architecture/SecurityIdentityCompliance/AwsArtifact.png) | [aws/Architecture/SecurityIdentityCompliance/AwsArtifact](../../aws/Architecture/SecurityIdentityCompliance/AwsArtifact.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsAuditManager](../../aws/Architecture/SecurityIdentityCompliance/AwsAuditManager.png) | [aws/Architecture/SecurityIdentityCompliance/AwsAuditManager](../../aws/Architecture/SecurityIdentityCompliance/AwsAuditManager.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsCertificateManager](../../aws/Architecture/SecurityIdentityCompliance/AwsCertificateManager.png) | [aws/Architecture/SecurityIdentityCompliance/AwsCertificateManager](../../aws/Architecture/SecurityIdentityCompliance/AwsCertificateManager.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsCloudHsm](../../aws/Architecture/SecurityIdentityCompliance/AwsCloudHsm.png) | [aws/Architecture/SecurityIdentityCompliance/AwsCloudHsm](../../aws/Architecture/SecurityIdentityCompliance/AwsCloudHsm.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsDirectoryService](../../aws/Architecture/SecurityIdentityCompliance/AwsDirectoryService.png) | [aws/Architecture/SecurityIdentityCompliance/AwsDirectoryService](../../aws/Architecture/SecurityIdentityCompliance/AwsDirectoryService.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsFirewallManager](../../aws/Architecture/SecurityIdentityCompliance/AwsFirewallManager.png) | [aws/Architecture/SecurityIdentityCompliance/AwsFirewallManager](../../aws/Architecture/SecurityIdentityCompliance/AwsFirewallManager.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsIamIdentityCenter](../../aws/Architecture/SecurityIdentityCompliance/AwsIamIdentityCenter.png) | [aws/Architecture/SecurityIdentityCompliance/AwsIamIdentityCenter](../../aws/Architecture/SecurityIdentityCompliance/AwsIamIdentityCenter.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsIdentityAndAccessManagement](../../aws/Architecture/SecurityIdentityCompliance/AwsIdentityAndAccessManagement.png) | [aws/Architecture/SecurityIdentityCompliance/AwsIdentityAndAccessManagement](../../aws/Architecture/SecurityIdentityCompliance/AwsIdentityAndAccessManagement.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsKeyManagementService](../../aws/Architecture/SecurityIdentityCompliance/AwsKeyManagementService.png) | [aws/Architecture/SecurityIdentityCompliance/AwsKeyManagementService](../../aws/Architecture/SecurityIdentityCompliance/AwsKeyManagementService.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsNetworkFirewall](../../aws/Architecture/SecurityIdentityCompliance/AwsNetworkFirewall.png) | [aws/Architecture/SecurityIdentityCompliance/AwsNetworkFirewall](../../aws/Architecture/SecurityIdentityCompliance/AwsNetworkFirewall.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsPaymentCryptography](../../aws/Architecture/SecurityIdentityCompliance/AwsPaymentCryptography.png) | [aws/Architecture/SecurityIdentityCompliance/AwsPaymentCryptography](../../aws/Architecture/SecurityIdentityCompliance/AwsPaymentCryptography.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsPrivateCertificateAuthority](../../aws/Architecture/SecurityIdentityCompliance/AwsPrivateCertificateAuthority.png) | [aws/Architecture/SecurityIdentityCompliance/AwsPrivateCertificateAuthority](../../aws/Architecture/SecurityIdentityCompliance/AwsPrivateCertificateAuthority.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsResourceAccessManager](../../aws/Architecture/SecurityIdentityCompliance/AwsResourceAccessManager.png) | [aws/Architecture/SecurityIdentityCompliance/AwsResourceAccessManager](../../aws/Architecture/SecurityIdentityCompliance/AwsResourceAccessManager.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsSecretsManager](../../aws/Architecture/SecurityIdentityCompliance/AwsSecretsManager.png) | [aws/Architecture/SecurityIdentityCompliance/AwsSecretsManager](../../aws/Architecture/SecurityIdentityCompliance/AwsSecretsManager.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsSecurityHub](../../aws/Architecture/SecurityIdentityCompliance/AwsSecurityHub.png) | [aws/Architecture/SecurityIdentityCompliance/AwsSecurityHub](../../aws/Architecture/SecurityIdentityCompliance/AwsSecurityHub.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsSecurityIncidentResponse](../../aws/Architecture/SecurityIdentityCompliance/AwsSecurityIncidentResponse.png) | [aws/Architecture/SecurityIdentityCompliance/AwsSecurityIncidentResponse](../../aws/Architecture/SecurityIdentityCompliance/AwsSecurityIncidentResponse.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsShield](../../aws/Architecture/SecurityIdentityCompliance/AwsShield.png) | [aws/Architecture/SecurityIdentityCompliance/AwsShield](../../aws/Architecture/SecurityIdentityCompliance/AwsShield.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsSigner](../../aws/Architecture/SecurityIdentityCompliance/AwsSigner.png) | [aws/Architecture/SecurityIdentityCompliance/AwsSigner](../../aws/Architecture/SecurityIdentityCompliance/AwsSigner.md) |
-| ![illustration of aws/Architecture/SecurityIdentityCompliance/AwsWaf](../../aws/Architecture/SecurityIdentityCompliance/AwsWaf.png) | [aws/Architecture/SecurityIdentityCompliance/AwsWaf](../../aws/Architecture/SecurityIdentityCompliance/AwsWaf.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AmazonCloudDirectory](../../aws/Architecture/SecurityIdentity/AmazonCloudDirectory.png) | [aws/Architecture/SecurityIdentity/AmazonCloudDirectory](../../aws/Architecture/SecurityIdentity/AmazonCloudDirectory.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AmazonCognito](../../aws/Architecture/SecurityIdentity/AmazonCognito.png) | [aws/Architecture/SecurityIdentity/AmazonCognito](../../aws/Architecture/SecurityIdentity/AmazonCognito.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AmazonDetective](../../aws/Architecture/SecurityIdentity/AmazonDetective.png) | [aws/Architecture/SecurityIdentity/AmazonDetective](../../aws/Architecture/SecurityIdentity/AmazonDetective.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AmazonGuardDuty](../../aws/Architecture/SecurityIdentity/AmazonGuardDuty.png) | [aws/Architecture/SecurityIdentity/AmazonGuardDuty](../../aws/Architecture/SecurityIdentity/AmazonGuardDuty.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AmazonInspector](../../aws/Architecture/SecurityIdentity/AmazonInspector.png) | [aws/Architecture/SecurityIdentity/AmazonInspector](../../aws/Architecture/SecurityIdentity/AmazonInspector.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AmazonMacie](../../aws/Architecture/SecurityIdentity/AmazonMacie.png) | [aws/Architecture/SecurityIdentity/AmazonMacie](../../aws/Architecture/SecurityIdentity/AmazonMacie.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AmazonSecurityLake](../../aws/Architecture/SecurityIdentity/AmazonSecurityLake.png) | [aws/Architecture/SecurityIdentity/AmazonSecurityLake](../../aws/Architecture/SecurityIdentity/AmazonSecurityLake.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AmazonVerifiedPermissions](../../aws/Architecture/SecurityIdentity/AmazonVerifiedPermissions.png) | [aws/Architecture/SecurityIdentity/AmazonVerifiedPermissions](../../aws/Architecture/SecurityIdentity/AmazonVerifiedPermissions.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsArtifact](../../aws/Architecture/SecurityIdentity/AwsArtifact.png) | [aws/Architecture/SecurityIdentity/AwsArtifact](../../aws/Architecture/SecurityIdentity/AwsArtifact.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsAuditManager](../../aws/Architecture/SecurityIdentity/AwsAuditManager.png) | [aws/Architecture/SecurityIdentity/AwsAuditManager](../../aws/Architecture/SecurityIdentity/AwsAuditManager.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsCertificateManager](../../aws/Architecture/SecurityIdentity/AwsCertificateManager.png) | [aws/Architecture/SecurityIdentity/AwsCertificateManager](../../aws/Architecture/SecurityIdentity/AwsCertificateManager.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsCloudHsm](../../aws/Architecture/SecurityIdentity/AwsCloudHsm.png) | [aws/Architecture/SecurityIdentity/AwsCloudHsm](../../aws/Architecture/SecurityIdentity/AwsCloudHsm.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsDirectoryService](../../aws/Architecture/SecurityIdentity/AwsDirectoryService.png) | [aws/Architecture/SecurityIdentity/AwsDirectoryService](../../aws/Architecture/SecurityIdentity/AwsDirectoryService.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsFirewallManager](../../aws/Architecture/SecurityIdentity/AwsFirewallManager.png) | [aws/Architecture/SecurityIdentity/AwsFirewallManager](../../aws/Architecture/SecurityIdentity/AwsFirewallManager.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsIamIdentityCenter](../../aws/Architecture/SecurityIdentity/AwsIamIdentityCenter.png) | [aws/Architecture/SecurityIdentity/AwsIamIdentityCenter](../../aws/Architecture/SecurityIdentity/AwsIamIdentityCenter.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsIdentityAndAccessManagement](../../aws/Architecture/SecurityIdentity/AwsIdentityAndAccessManagement.png) | [aws/Architecture/SecurityIdentity/AwsIdentityAndAccessManagement](../../aws/Architecture/SecurityIdentity/AwsIdentityAndAccessManagement.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsKeyManagementService](../../aws/Architecture/SecurityIdentity/AwsKeyManagementService.png) | [aws/Architecture/SecurityIdentity/AwsKeyManagementService](../../aws/Architecture/SecurityIdentity/AwsKeyManagementService.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsNetworkFirewall](../../aws/Architecture/SecurityIdentity/AwsNetworkFirewall.png) | [aws/Architecture/SecurityIdentity/AwsNetworkFirewall](../../aws/Architecture/SecurityIdentity/AwsNetworkFirewall.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsPaymentCryptography](../../aws/Architecture/SecurityIdentity/AwsPaymentCryptography.png) | [aws/Architecture/SecurityIdentity/AwsPaymentCryptography](../../aws/Architecture/SecurityIdentity/AwsPaymentCryptography.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsPrivateCertificateAuthority](../../aws/Architecture/SecurityIdentity/AwsPrivateCertificateAuthority.png) | [aws/Architecture/SecurityIdentity/AwsPrivateCertificateAuthority](../../aws/Architecture/SecurityIdentity/AwsPrivateCertificateAuthority.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsResourceAccessManager](../../aws/Architecture/SecurityIdentity/AwsResourceAccessManager.png) | [aws/Architecture/SecurityIdentity/AwsResourceAccessManager](../../aws/Architecture/SecurityIdentity/AwsResourceAccessManager.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsSecretsManager](../../aws/Architecture/SecurityIdentity/AwsSecretsManager.png) | [aws/Architecture/SecurityIdentity/AwsSecretsManager](../../aws/Architecture/SecurityIdentity/AwsSecretsManager.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsSecurityAgent](../../aws/Architecture/SecurityIdentity/AwsSecurityAgent.png) | [aws/Architecture/SecurityIdentity/AwsSecurityAgent](../../aws/Architecture/SecurityIdentity/AwsSecurityAgent.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsSecurityHub](../../aws/Architecture/SecurityIdentity/AwsSecurityHub.png) | [aws/Architecture/SecurityIdentity/AwsSecurityHub](../../aws/Architecture/SecurityIdentity/AwsSecurityHub.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsSecurityIncidentResponse](../../aws/Architecture/SecurityIdentity/AwsSecurityIncidentResponse.png) | [aws/Architecture/SecurityIdentity/AwsSecurityIncidentResponse](../../aws/Architecture/SecurityIdentity/AwsSecurityIncidentResponse.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsShield](../../aws/Architecture/SecurityIdentity/AwsShield.png) | [aws/Architecture/SecurityIdentity/AwsShield](../../aws/Architecture/SecurityIdentity/AwsShield.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsSigner](../../aws/Architecture/SecurityIdentity/AwsSigner.png) | [aws/Architecture/SecurityIdentity/AwsSigner](../../aws/Architecture/SecurityIdentity/AwsSigner.md) |
+| ![illustration of aws/Architecture/SecurityIdentity/AwsWaf](../../aws/Architecture/SecurityIdentity/AwsWaf.png) | [aws/Architecture/SecurityIdentity/AwsWaf](../../aws/Architecture/SecurityIdentity/AwsWaf.md) |
 
 <span id="family-storage"></span>
 ## Storage

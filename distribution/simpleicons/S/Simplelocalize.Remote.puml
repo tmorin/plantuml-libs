@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Simplelocalize
-include('simpleicons-14/S/Simplelocalize')
+include('simpleicons/S/Simplelocalize')
 
 ' renders the element
 Simplelocalize('Simplelocalize', 'Simplelocalize', 'an optional tech label', 'an optional description')

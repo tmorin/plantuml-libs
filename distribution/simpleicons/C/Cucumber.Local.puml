@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Cucumber
-include('simpleicons-14/C/Cucumber')
+include('simpleicons/C/Cucumber')
 
 ' renders the element
 Cucumber('Cucumber', 'Cucumber', 'an optional tech label', 'an optional description')

@@ -1,13 +1,16 @@
-' definition of the Item simpleicons-14/F/Ford
+' definition of the Item simpleicons/F/Ford
 
-sprite $FordXs [10x10/16z] XOU54O0030EhQAw__xJ80X2F_I8xtYeQDpW6qFbyJ33YLDidRW
+sprite $FordXs [10x10/16z] VS450S1040EmTbGO-NVx3Yx1ZASiNOJ_D-tt_SdV9kfly72gavWj
 
-sprite $FordSm [12x12/16z] bOk54S1G24F3D-mW-qzRsQ1z9n33RqGjCbIVrrbvIacU9brNGeA4jH2RkylVmTQZ6z-u0G
+sprite $FordSm [12x12/16z] ZOl50K0X34DnQ1FQ_QVzBbUYfnTM5UFzMHIgc9A3kCjGfKqNSSWOlJLp2RaBQHJ9Fxke7G
 
-sprite $FordMd [16x16/16z] jKt50GD02ECCX-m_RLqMQ27w2ltXnXPXaVLicgtAqO4oeP50SWXkvy3fcnjgnwvrwo16hRqzYwQXWsY9LmDTgVgTc8D-SbS
+sprite $FordMd [16x16/16z] hOpL0G0W24HjWIFsdzQQmVT3NAJ_r3bP83JglQO584p3msqcZWWcWbaepdfkmYJgRNG_TnecmrbKIQx_zJ4EVFk-im4
 
-sprite $FordLg [20x20/16z] nSV50OHG40FGi8pcI_gl5Zbj2RpHu6EdkVt-qPBat7jDikC0a2R9fNo27ei8ljTegLT8ggr7osQC4svy4qeg7WkzCmSepG9cQElfAQsXcOxNBxBvwh03txa1
+sprite $FordLg [20x20/16z] {
+nKu50S0m31ilnVXNU_RmCZVbJsfzxOjMRr-Xmq9DxP8CGo-bIf90RC4GCfdob2ZOy2kdWLVnhkshg9XjOYIVmU3gq26mkLOof3u_B7clfllpuyCoRoZpml8d
+dG
+}
 
 !procedure Ford($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/F/Ford', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/F/Ford', $name, $tech, $desc)
 !endprocedure

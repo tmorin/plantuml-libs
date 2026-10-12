@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/VisualStudio
+
+sprite $VisualStudioXs [10x10/16z] 5SY73GCn3CLGddj1pFst3VvJ5r7Mbr4hwgqChTlivVehzwcdwERcoTPsyjf5W-7i1fJ2qrs8hmD_
+
+sprite $VisualStudioSm [12x12/16z] BSc50G0X30J12_u2st-r-41SHxPJP_dXZvAhl69fPWsYPqiEiFYok09Dvs82ykwZ3m7u0JcmoYPx2OwbQdlXzRh2IWC
+
+sprite $VisualStudioMd [16x16/16z] {
+JOo50S0W40CFTxB_jYrK3tbDU72EFruQqR0mEO4stK8xOqGt45Omzgv7evnXajIr2Qm_O-CZsGfFUchc3lVS6sjNh7dzhT95rGFafVtNj_Qf8ORRKiLmuwJg
+-M7C3WS
+}
+
+sprite $VisualStudioLg [20x20/16z] {
+NT053WGX38NX7zd1--v_sqqJHhy8JeM715ycAv6N8RTAm1LJ8UhqWo8NCPs0AKVGwPWWD_p1UNToo6LMQThI_Yf0quaajw1hipEtSkz5GjYpkhSwRUqarvJB
+dN26EK4q_pAzzdv-fJ2VUv2NPQ8sot2gSZrz6ZWofwy_
+}
+
+!procedure VisualStudio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/VisualStudio', $name, $tech, $desc)
+!endprocedure

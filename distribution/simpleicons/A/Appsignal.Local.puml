@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Appsignal
-include('simpleicons-14/A/Appsignal')
+include('simpleicons/A/Appsignal')
 
 ' renders the element
 Appsignal('Appsignal', 'Appsignal', 'an optional tech label', 'an optional description')

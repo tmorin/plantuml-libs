@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Flatpak
-include('simpleicons-14/F/Flatpak')
+include('simpleicons/F/Flatpak')
 
 ' renders the element
 Flatpak('Flatpak', 'Flatpak', 'an optional tech label', 'an optional description')

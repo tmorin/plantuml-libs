@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Traccar
-include('simpleicons-14/T/Traccar')
+include('simpleicons/T/Traccar')
 
 ' renders the element
 Traccar('Traccar', 'Traccar', 'an optional tech label', 'an optional description')

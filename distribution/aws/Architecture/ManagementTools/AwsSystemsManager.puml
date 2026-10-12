@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsSystemsManager
+
+sprite $AwsSystemsManagerXs [10x10/16z] BSn50G1130F0mv1_lqlbpYivvJhaWWk0Dv6OYw6Y7xyIOMCh8l0J9m0VFcVH4PtDpfu
+
+sprite $AwsSystemsManagerSm [12x12/16z] HKw50GG12FeYTF-17xsoMxgxLa-oxueeEi4mqm6tWwbPJ6Xr2w741HV8YIiDKbz1norCOu_cAWXDTI-hDdnG_04
+
+sprite $AwsSystemsManagerMd [16x16/16z] VKz50W8W43pi1CF_7omfdjpkw1Coe3_84L_NLAO-hjYCbbiNJ5LGpquFOrhmS6Rp2fEXPu9jrfI4xKkpMo9hRo146R1uLqoVnqzMFUqw9vnvfT-ZoJyllPS_
+
+sprite $AwsSystemsManagerLg [20x20/16z] {
+TP254SKm34Fl8icq_xw5qCUgc6TsFIhpUhxGkj-HWx3-jv4XCscLRn3z020wx97i7f4nZFS_l7Bysl3CGjmeWutf6B7iY509zApfLtS2C-vOX-HKI7HnrWrt
+R-c2FDkgV8aAoaBS6-WDqSnxlg5Pry3tyKP_CT26-tc3ELvVMk04
+}
+
+!procedure AwsSystemsManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsSystemsManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSystemsManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerGroup($id, $name='Aws Systems Manager', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsSystemsManagerLg>', $name, $tech)
+!endprocedure

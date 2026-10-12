@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Producthunt
-include('simpleicons-14/P/Producthunt')
+include('simpleicons/P/Producthunt')
 
 ' renders the element
 Producthunt('Producthunt', 'Producthunt', 'an optional tech label', 'an optional description')

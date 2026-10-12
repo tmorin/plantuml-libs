@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/Q/Qdrant
+
+sprite $QdrantXs [10x10/16z] FOp50K0n34A1xyh-qzQRTqem59u7ZTs5lHo_B-3o3td5lcEnPExLZ8lrQcwvUaFrQYidpR5C8GC
+
+sprite $QdrantSm [12x12/16z] NOs53G0n54AfE-o_xOMqiNkHhm3CN06NAadLNQAKiyI480slkXI29Y8LCTqF-1_Zt_k7z-TflR-UXUvV5Z49cBM017m
+
+sprite $QdrantMd [16x16/16z] {
+NK-50G0W3C9k_VzRPmVc6j31Gc0uq8MWboLpwSYofqRw9iuJFP6AyWh8zWDY2MI4VfNOR0lPoYNiibspxMUxPV_vkr-tyoRIxCs7vLc_-RR--T8ZuHB3hRTP
+5G
+}
+
+sprite $QdrantLg [20x20/16z] {
+hP350SCm40J53FrNQvZWvfqrQexFF6LxjqQLzwNyJSBQQCKNSOCpV3XGnQL-_PXo_tJxg7F_5x8lVu6KhfTVL2gy_TnxUZpAaxcDtB-Orj1UODApip2TZNnP
+Tm0hkYjO_Drf8RFk7d82
+}
+
+!procedure Qdrant($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/Q/Qdrant', $name, $tech, $desc)
+!endprocedure

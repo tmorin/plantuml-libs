@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Jellyfin
-include('simpleicons-14/J/Jellyfin')
+include('simpleicons/J/Jellyfin')
 
 ' renders the element
 Jellyfin('Jellyfin', 'Jellyfin', 'an optional tech label', 'an optional description')

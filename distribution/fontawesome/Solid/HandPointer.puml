@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/HandPointer
 
-sprite $HandPointerXs [8x10/16z] Os1Wu6E007vSD120QGW0YmD9VWZDoC_FmS43PFE0PG4
+sprite $HandPointerXs [8x10/16z] BOQ50S0m3CESCaR_NpkiKL9h-ZJ6-Vv_zsZV0oDLDURQi6PFAM7GSyueWJjBBx3j1W
 
-sprite $HandPointerSm [10x12/16z] VSR10K0000IW0m3QVre0JxtAOSY3_zNVq7vZ4LABuDdmBHvvgjy1
+sprite $HandPointerSm [10x12/16z] RSQt0O1040InVUzl-gyM3n6A98ca1_LR-TdgCTmxzPoyiBKMGA2a52i18ySK2ghGQYi3QN8faee1LJi
 
-sprite $HandPointerMd [14x16/16z] dOtL0O0m30LnXzj_MsZyctkLUBe6NU6akjT_3yQhU8rhJQ-nSZTlPFh42LER8cg7Extc5czetjtKl6x7kTk68PmN
+sprite $HandPointerMd [14x16/16z] ZSgr0KGn30DGEJ4TMVjF-vdItUi4M2G5jwBzdNH8gV98P7r_LzhyAfeUwH1Bil1m9J-a_TXDlJTokzsfSM4HuROa62yV0Cv32HRohcqHp
 
-sprite $HandPointerLg [17x20/16z] lSf54e0m04FHu53B_KzRz-xvazMR86PE397y1uIvHqWj82Woj0uoWWmJoNG0V1A4YG_UFI3V6c2192BiOuIBNHgJ82MPCXiS
+sprite $HandPointerLg [17x20/16z] {
+lSk54GD134DHBRFLVxSvhmEk87_uZGIjCyCNoFCNeB34ui0QY0wiZgJWsZm0APbrI3PhU1mIoWJ9gZzHY0QOrEvYN80e75qiWsWJYl3e52XqPJnbVckmsg5s
+Cl02
+}
 
 !procedure HandPointer($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/HandPointer', $name, $tech, $desc)

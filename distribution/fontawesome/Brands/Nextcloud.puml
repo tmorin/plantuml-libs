@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Nextcloud
+
+sprite $NextcloudXs [12x10/16z] NOc50KG124AnlMJ_QN_tCm4yoF-_vXlyr1_urOT190KG1lZhoLZY_g4Cx2Qii12vNi69kfcggHckZ
+
+sprite $NextcloudSm [15x12/16z] POo55S1024CJhWhloFxJrhqVL-0F8uDxsWSfBouoUaIwSWGmI9uXGrqCCDN5hkcuJT7vTUlT-_CVCovWDID0AtPGVWSp
+
+sprite $NextcloudMd [20x16/16z] {
+VOw50SH020GNZGBzT_latYrpYYzE83FwSAtLRBZXcTQkcMXkfsKwfegijHOqxQoCcce7eehGK5K0Uns-_F1DbI-rwwY5HnYsnum8nutjgUK9gp9EKO001lK6
+8CEdBbseK1Pb4mo8Zcl0zAVh1G
+}
+
+sprite $NextcloudLg [25x20/16z] {
+fP45WWCX301Zh27p_zyUSkvjPmM99_8VzDjRoq3sBug9HNgzYGQN61mgUe3B1Iqa6EJCAOETaXb4PHUZio8h7UloEcyAD5aqo5DUETvRoB8ug07jNOoZR-TD
+I7h9wbnPsNDMBsnCHVQlbHUWk3n2wChKHBL_SpizUhBOB9cvYPicrRG4VH-kNH0cVHFkOVvrKBesl_04
+}
+
+!procedure Nextcloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Nextcloud', $name, $tech, $desc)
+!endprocedure

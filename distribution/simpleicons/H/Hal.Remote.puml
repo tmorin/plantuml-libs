@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Hal
-include('simpleicons-14/H/Hal')
+include('simpleicons/H/Hal')
 
 ' renders the element
 Hal('Hal', 'Hal', 'an optional tech label', 'an optional description')

@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Tryhackme
-include('simpleicons-14/T/Tryhackme')
+include('simpleicons/T/Tryhackme')
 
 ' renders the element
 Tryhackme('Tryhackme', 'Tryhackme', 'an optional tech label', 'an optional description')

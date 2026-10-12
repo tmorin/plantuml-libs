@@ -1,6 +1,6 @@
 # T
 
-The module contains 194 items.
+The module contains 203 items.
 
 
 
@@ -22,6 +22,7 @@ The module contains 194 items.
 | ![illustration of simpleicons/T/Talos](../../simpleicons/T/Talos.png) | [simpleicons/T/Talos](../../simpleicons/T/Talos.md) |
 | ![illustration of simpleicons/T/Tamiya](../../simpleicons/T/Tamiya.png) | [simpleicons/T/Tamiya](../../simpleicons/T/Tamiya.md) |
 | ![illustration of simpleicons/T/Tampermonkey](../../simpleicons/T/Tampermonkey.png) | [simpleicons/T/Tampermonkey](../../simpleicons/T/Tampermonkey.md) |
+| ![illustration of simpleicons/T/Tangled](../../simpleicons/T/Tangled.png) | [simpleicons/T/Tangled](../../simpleicons/T/Tangled.md) |
 | ![illustration of simpleicons/T/Tanstack](../../simpleicons/T/Tanstack.png) | [simpleicons/T/Tanstack](../../simpleicons/T/Tanstack.md) |
 | ![illustration of simpleicons/T/Taobao](../../simpleicons/T/Taobao.png) | [simpleicons/T/Taobao](../../simpleicons/T/Taobao.md) |
 | ![illustration of simpleicons/T/Tapas](../../simpleicons/T/Tapas.png) | [simpleicons/T/Tapas](../../simpleicons/T/Tapas.md) |
@@ -50,6 +51,7 @@ The module contains 194 items.
 | ![illustration of simpleicons/T/Telenor](../../simpleicons/T/Telenor.png) | [simpleicons/T/Telenor](../../simpleicons/T/Telenor.md) |
 | ![illustration of simpleicons/T/Telequebec](../../simpleicons/T/Telequebec.png) | [simpleicons/T/Telequebec](../../simpleicons/T/Telequebec.md) |
 | ![illustration of simpleicons/T/Temporal](../../simpleicons/T/Temporal.png) | [simpleicons/T/Temporal](../../simpleicons/T/Temporal.md) |
+| ![illustration of simpleicons/T/Tencenthy](../../simpleicons/T/Tencenthy.png) | [simpleicons/T/Tencenthy](../../simpleicons/T/Tencenthy.md) |
 | ![illustration of simpleicons/T/Tensorflow](../../simpleicons/T/Tensorflow.png) | [simpleicons/T/Tensorflow](../../simpleicons/T/Tensorflow.md) |
 | ![illustration of simpleicons/T/Teradata](../../simpleicons/T/Teradata.png) | [simpleicons/T/Teradata](../../simpleicons/T/Teradata.md) |
 | ![illustration of simpleicons/T/Teratail](../../simpleicons/T/Teratail.png) | [simpleicons/T/Teratail](../../simpleicons/T/Teratail.md) |
@@ -99,8 +101,10 @@ The module contains 194 items.
 | ![illustration of simpleicons/T/Thurgauerkantonalbank](../../simpleicons/T/Thurgauerkantonalbank.png) | [simpleicons/T/Thurgauerkantonalbank](../../simpleicons/T/Thurgauerkantonalbank.md) |
 | ![illustration of simpleicons/T/Thymeleaf](../../simpleicons/T/Thymeleaf.png) | [simpleicons/T/Thymeleaf](../../simpleicons/T/Thymeleaf.md) |
 | ![illustration of simpleicons/T/Ticketmaster](../../simpleicons/T/Ticketmaster.png) | [simpleicons/T/Ticketmaster](../../simpleicons/T/Ticketmaster.md) |
+| ![illustration of simpleicons/T/Tickettailor](../../simpleicons/T/Tickettailor.png) | [simpleicons/T/Tickettailor](../../simpleicons/T/Tickettailor.md) |
 | ![illustration of simpleicons/T/Ticktick](../../simpleicons/T/Ticktick.png) | [simpleicons/T/Ticktick](../../simpleicons/T/Ticktick.md) |
 | ![illustration of simpleicons/T/Tidal](../../simpleicons/T/Tidal.png) | [simpleicons/T/Tidal](../../simpleicons/T/Tidal.md) |
+| ![illustration of simpleicons/T/Tidb](../../simpleicons/T/Tidb.png) | [simpleicons/T/Tidb](../../simpleicons/T/Tidb.md) |
 | ![illustration of simpleicons/T/Tiddlywiki](../../simpleicons/T/Tiddlywiki.png) | [simpleicons/T/Tiddlywiki](../../simpleicons/T/Tiddlywiki.md) |
 | ![illustration of simpleicons/T/Tide](../../simpleicons/T/Tide.png) | [simpleicons/T/Tide](../../simpleicons/T/Tide.md) |
 | ![illustration of simpleicons/T/Tidyverse](../../simpleicons/T/Tidyverse.png) | [simpleicons/T/Tidyverse](../../simpleicons/T/Tidyverse.md) |
@@ -143,6 +147,7 @@ The module contains 194 items.
 | ![illustration of simpleicons/T/Tqdm](../../simpleicons/T/Tqdm.png) | [simpleicons/T/Tqdm](../../simpleicons/T/Tqdm.md) |
 | ![illustration of simpleicons/T/Traccar](../../simpleicons/T/Traccar.png) | [simpleicons/T/Traccar](../../simpleicons/T/Traccar.md) |
 | ![illustration of simpleicons/T/Tradingview](../../simpleicons/T/Tradingview.png) | [simpleicons/T/Tradingview](../../simpleicons/T/Tradingview.md) |
+| ![illustration of simpleicons/T/Trae](../../simpleicons/T/Trae.png) | [simpleicons/T/Trae](../../simpleicons/T/Trae.md) |
 | ![illustration of simpleicons/T/Traefikmesh](../../simpleicons/T/Traefikmesh.png) | [simpleicons/T/Traefikmesh](../../simpleicons/T/Traefikmesh.md) |
 | ![illustration of simpleicons/T/Traefikproxy](../../simpleicons/T/Traefikproxy.png) | [simpleicons/T/Traefikproxy](../../simpleicons/T/Traefikproxy.md) |
 | ![illustration of simpleicons/T/Trailforks](../../simpleicons/T/Trailforks.png) | [simpleicons/T/Trailforks](../../simpleicons/T/Trailforks.md) |
@@ -153,11 +158,13 @@ The module contains 194 items.
 | ![illustration of simpleicons/T/Transportforireland](../../simpleicons/T/Transportforireland.png) | [simpleicons/T/Transportforireland](../../simpleicons/T/Transportforireland.md) |
 | ![illustration of simpleicons/T/Transportforlondon](../../simpleicons/T/Transportforlondon.png) | [simpleicons/T/Transportforlondon](../../simpleicons/T/Transportforlondon.md) |
 | ![illustration of simpleicons/T/Travisci](../../simpleicons/T/Travisci.png) | [simpleicons/T/Travisci](../../simpleicons/T/Travisci.md) |
+| ![illustration of simpleicons/T/Traxsource](../../simpleicons/T/Traxsource.png) | [simpleicons/T/Traxsource](../../simpleicons/T/Traxsource.md) |
 | ![illustration of simpleicons/T/Treehouse](../../simpleicons/T/Treehouse.png) | [simpleicons/T/Treehouse](../../simpleicons/T/Treehouse.md) |
 | ![illustration of simpleicons/T/Trello](../../simpleicons/T/Trello.png) | [simpleicons/T/Trello](../../simpleicons/T/Trello.md) |
 | ![illustration of simpleicons/T/Trendmicro](../../simpleicons/T/Trendmicro.png) | [simpleicons/T/Trendmicro](../../simpleicons/T/Trendmicro.md) |
 | ![illustration of simpleicons/T/Tresorit](../../simpleicons/T/Tresorit.png) | [simpleicons/T/Tresorit](../../simpleicons/T/Tresorit.md) |
 | ![illustration of simpleicons/T/Treyarch](../../simpleicons/T/Treyarch.png) | [simpleicons/T/Treyarch](../../simpleicons/T/Treyarch.md) |
+| ![illustration of simpleicons/T/Trezor](../../simpleicons/T/Trezor.png) | [simpleicons/T/Trezor](../../simpleicons/T/Trezor.md) |
 | ![illustration of simpleicons/T/Tricentis](../../simpleicons/T/Tricentis.png) | [simpleicons/T/Tricentis](../../simpleicons/T/Tricentis.md) |
 | ![illustration of simpleicons/T/Trilium](../../simpleicons/T/Trilium.png) | [simpleicons/T/Trilium](../../simpleicons/T/Trilium.md) |
 | ![illustration of simpleicons/T/Triller](../../simpleicons/T/Triller.png) | [simpleicons/T/Triller](../../simpleicons/T/Triller.md) |
@@ -168,6 +175,7 @@ The module contains 194 items.
 | ![illustration of simpleicons/T/Tripdotcom](../../simpleicons/T/Tripdotcom.png) | [simpleicons/T/Tripdotcom](../../simpleicons/T/Tripdotcom.md) |
 | ![illustration of simpleicons/T/Trivago](../../simpleicons/T/Trivago.png) | [simpleicons/T/Trivago](../../simpleicons/T/Trivago.md) |
 | ![illustration of simpleicons/T/Trivy](../../simpleicons/T/Trivy.png) | [simpleicons/T/Trivy](../../simpleicons/T/Trivy.md) |
+| ![illustration of simpleicons/T/Trmnl](../../simpleicons/T/Trmnl.png) | [simpleicons/T/Trmnl](../../simpleicons/T/Trmnl.md) |
 | ![illustration of simpleicons/T/Trove](../../simpleicons/T/Trove.png) | [simpleicons/T/Trove](../../simpleicons/T/Trove.md) |
 | ![illustration of simpleicons/T/Trpc](../../simpleicons/T/Trpc.png) | [simpleicons/T/Trpc](../../simpleicons/T/Trpc.md) |
 | ![illustration of simpleicons/T/Truenas](../../simpleicons/T/Truenas.png) | [simpleicons/T/Truenas](../../simpleicons/T/Truenas.md) |
@@ -194,6 +202,7 @@ The module contains 194 items.
 | ![illustration of simpleicons/T/Twinkly](../../simpleicons/T/Twinkly.png) | [simpleicons/T/Twinkly](../../simpleicons/T/Twinkly.md) |
 | ![illustration of simpleicons/T/Twinmotion](../../simpleicons/T/Twinmotion.png) | [simpleicons/T/Twinmotion](../../simpleicons/T/Twinmotion.md) |
 | ![illustration of simpleicons/T/Twitch](../../simpleicons/T/Twitch.png) | [simpleicons/T/Twitch](../../simpleicons/T/Twitch.md) |
+| ![illustration of simpleicons/T/Ty](../../simpleicons/T/Ty.png) | [simpleicons/T/Ty](../../simpleicons/T/Ty.md) |
 | ![illustration of simpleicons/T/Typeform](../../simpleicons/T/Typeform.png) | [simpleicons/T/Typeform](../../simpleicons/T/Typeform.md) |
 | ![illustration of simpleicons/T/Typeorm](../../simpleicons/T/Typeorm.png) | [simpleicons/T/Typeorm](../../simpleicons/T/Typeorm.md) |
 | ![illustration of simpleicons/T/Typer](../../simpleicons/T/Typer.png) | [simpleicons/T/Typer](../../simpleicons/T/Typer.md) |

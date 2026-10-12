@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Simpleanalytics
-include('simpleicons-14/S/Simpleanalytics')
+include('simpleicons/S/Simpleanalytics')
 
 ' renders the element
 Simpleanalytics('Simpleanalytics', 'Simpleanalytics', 'an optional tech label', 'an optional description')

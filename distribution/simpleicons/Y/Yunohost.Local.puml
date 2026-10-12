@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Yunohost
-include('simpleicons-14/Y/Yunohost')
+include('simpleicons/Y/Yunohost')
 
 ' renders the element
 Yunohost('Yunohost', 'Yunohost', 'an optional tech label', 'an optional description')

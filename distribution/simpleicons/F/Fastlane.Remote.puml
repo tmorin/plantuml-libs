@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Fastlane
-include('simpleicons-14/F/Fastlane')
+include('simpleicons/F/Fastlane')
 
 ' renders the element
 Fastlane('Fastlane', 'Fastlane', 'an optional tech label', 'an optional description')

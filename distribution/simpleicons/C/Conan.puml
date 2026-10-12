@@ -1,13 +1,16 @@
-' definition of the Item simpleicons-14/C/Conan
+' definition of the Item simpleicons/C/Conan
 
-sprite $ConanXs [10x10/16z] Om013WO8uEVdusS7qmpSGCpFmGyYuO0JX6204Pd536SnC41PK0D1D
+sprite $ConanXs [10x10/16z] NOR50S103CDqZ8dtdxRygb50iXbvlgTSMi1KaNBJa5QihazBlZ_yKTmFcGhacmgFvWh02G
 
-sprite $ConanSm [12x12/16z] XSUt0GCn0810xC-H_QTLbjg_2YXscf_9rkhF2kdK1VLtMh2_3YE_COtSWRlK0qLAaWW
+sprite $ConanSm [12x12/16z] PSQr0S10300n-vbl_sd375MIXQKPsRXHdOjPbtMSvcALh81u80vMLMtZCg1m-Z_Vxs8wgpgyBFnw9uTQLHOp
 
-sprite $ConanMd [16x16/16z] dSYr0GDH081GJhuB-qyRztJtEk1koNnOlKXm5tMiBEr-aWhD0TE45m6lgDvrYbywHF_K8zr-6kPdhy3swiXTyohnfXEkpW
+sprite $ConanMd [16x16/16z] ZSlL0SKW50FGu9xiF-sJ6l3NWrx3mR4PF3mrEkkL2LGsni0VcKZ98qe3e8hH3uwx1UgKOLFJehimVhTsMRlo9Wvxt84oOphysA53ZhWSGmcBrWmENm
 
-sprite $ConanLg [20x20/16z] jSZL0KCn34DHXJdQVzlQZ-ct9-YBNSXu21G95uLYNcib6Q0icI461T3sHofLGA0ggDmLMAh9Ym1OD_bGodBppVobkOy6b4Vh1kBMf2pyqJnEZIhZnWnMR7u
+sprite $ConanLg [20x20/16z] {
+fSsr0KDH509GdZlilss-UvTJNW5i_AW6LzD4a-iqKahE-7PCawG8M6TWXieqpPe4M4qwq3HDDGEeMGZKBiAHr5q4JDPJ7P9OzCBqCSj_p-nupIeGxxtTObQE
+MQR7nevjPd4HDCcuCwqPR7u
+}
 
 !procedure Conan($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/C/Conan', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/C/Conan', $name, $tech, $desc)
 !endprocedure

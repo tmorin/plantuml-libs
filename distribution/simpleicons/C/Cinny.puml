@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/C/Cinny
+
+sprite $CinnyXs [10x10/16z] 7S674S8m4031cmyaIN_zLmlOkn1BTm3jhGazpwF6ya3qSka3MADJm4lr2R3KbGMC6dIHQWFv75V03m
+
+sprite $CinnySm [12x12/16z] FOs50G0G54IVRlQVLlCxxm1TMikQ9RbjoR_SZPvH2RUQTQj029VRkW18-ookqkuoySVPg8-hsJUF82hyBS74ree61W
+
+sprite $CinnyMd [16x16/16z] {
+HOy55W0X20N1xd__qsu03ySS4-Y3sm5EOr8gZ2gwu2pVzHFy3ok4384RW454APIsWVzb1Fh9VG6_7j41euj6ivD8QAOzga_rnbjzgJErAduZNjMZNFhKZj5s
+5UuttnS
+}
+
+sprite $CinnyLg [20x20/16z] {
+NT050eL020JGqLbRcFkVzWTWlkqE1Auk-KgSQ2fEf5atyxthtacz4B0S9KSb0siCwEdkqLZrCyM-GDSMbzOSGHWbLoOPmgJBXD19nQr76bHy7r0MbRKPogf2
+U4FQb0oWa5G8OF6wN9fhymRWx4fq6_RSYpYr_VxtNm
+}
+
+!procedure Cinny($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/C/Cinny', $name, $tech, $desc)
+!endprocedure

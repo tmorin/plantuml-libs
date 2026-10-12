@@ -1,6 +1,6 @@
 # Y
 
-The module contains 25 items.
+The module contains 26 items.
 
 
 
@@ -17,6 +17,7 @@ The module contains 25 items.
 | ![illustration of simpleicons/Y/Ycombinator](../../simpleicons/Y/Ycombinator.png) | [simpleicons/Y/Ycombinator](../../simpleicons/Y/Ycombinator.md) |
 | ![illustration of simpleicons/Y/Yelp](../../simpleicons/Y/Yelp.png) | [simpleicons/Y/Yelp](../../simpleicons/Y/Yelp.md) |
 | ![illustration of simpleicons/Y/Yeti](../../simpleicons/Y/Yeti.png) | [simpleicons/Y/Yeti](../../simpleicons/Y/Yeti.md) |
+| ![illustration of simpleicons/Y/Yew](../../simpleicons/Y/Yew.png) | [simpleicons/Y/Yew](../../simpleicons/Y/Yew.md) |
 | ![illustration of simpleicons/Y/Yii](../../simpleicons/Y/Yii.png) | [simpleicons/Y/Yii](../../simpleicons/Y/Yii.md) |
 | ![illustration of simpleicons/Y/Yoast](../../simpleicons/Y/Yoast.png) | [simpleicons/Y/Yoast](../../simpleicons/Y/Yoast.md) |
 | ![illustration of simpleicons/Y/Yolo](../../simpleicons/Y/Yolo.png) | [simpleicons/Y/Yolo](../../simpleicons/Y/Yolo.md) |

@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Scan
-include('simpleicons-14/S/Scan')
+include('simpleicons/S/Scan')
 
 ' renders the element
 Scan('Scan', 'Scan', 'an optional tech label', 'an optional description')

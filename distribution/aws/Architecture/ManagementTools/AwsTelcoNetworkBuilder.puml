@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsTelcoNetworkBuilder
+
+sprite $AwsTelcoNetworkBuilderXs [10x10/16z] DSof0GC058DGzPF0_llsBkefy1jAMJkHf2FJbRQWB7KHb-NQQUXTY2vlPIAkyCR__0G
+
+sprite $AwsTelcoNetworkBuilderSm [12x12/16z] BOl50G0m20DVnFOVk4Xnk11d8jUj3daNK22Bin2G7Uvz470FQ1ue3K5LGPL4Q80o6xfFQ32Yw3GpEiqqPTB-vG4
+
+sprite $AwsTelcoNetworkBuilderMd [16x16/16z] {
+HK-50GG12FeG4FRVzqClx8uajcF_vO2NHuuGEasmBzU2Mk1MDO2ngDZfwfW5E9xwZWX7E4TZS-ZT04I5ichIP5mYCTQK2IZ2njzN6HHK3SLnHAFqbdJVphhC
+-MrLBhYSBm
+}
+
+sprite $AwsTelcoNetworkBuilderLg [20x20/16z] {
+ROu54aD124Dd2Wbo_mCtdx9rLlFG_czLSzNy5brxyDBHRko2oq9wc5CNgEnqFoa55n-ZRorZPHGSbzpSk1vZqFBq3ILZP9X2rW1oEdeU25DnuoqQllC2EfwU
+oXUS9ZupnB1-35XMBMb0g8R4v7gAqODUZcr2JnhQF80puDncgnUMzhdUx2N-qpi
+}
+
+!procedure AwsTelcoNetworkBuilder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsTelcoNetworkBuilder', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsTelcoNetworkBuilderCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTelcoNetworkBuilderLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsTelcoNetworkBuilderGroup($id, $name='Aws Telco Network Builder', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsTelcoNetworkBuilderLg>', $name, $tech)
+!endprocedure

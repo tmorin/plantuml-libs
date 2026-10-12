@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/M/Metaai
+
+sprite $MetaaiXs [10x10/16z] 1S470S0m40GWCh_x_Bije6M2fYNMD9FQtygddSzaP3C7hExC2MUIJ4XsSwHTTuShwyuBFTJa1m
+
+sprite $MetaaiSm [12x12/16z] DSh50GGn34DH1Go3l_zg0mllOf2qTBh-78hsURpHm89OENH5VKcffMi1hJsqbLuLKBMiql9ek-6CB7UgzcPjfz3-QO4QuDhELsfxdG
+
+sprite $MetaaiMd [16x16/16z] {
+JS-50SCm34JH4uGJ_VstRGs5PsPBtSsYVq1eCklZHyuXwGHYWJB0v3IA9vF2f0FOzRP2jTRSr5je7JzFJHwf078E2whwBHsq0Mms9jgon-62LEvfuMeMk0ru
+D2HW3yMXpW1PmQPXxT56Z_05
+}
+
+sprite $MetaaiLg [20x20/16z] {
+NP25bSKm30JN7DpflzlpYtoV9Z699GNPhlfX0tw5EnD9jOHRxrc5ITK9RNbnwG1QmPoIc9WwlU-vU6GdlEBVGDUa7UVrY4AVz4so7r6wSDQBCfgIWQP5Dd0T
+aI58lB0M3GERmQdiAvl1JMdqnoMfNMTHIWe6fel9zJMeC-8VMbJWLlzA9yCcDSDuoOhlA3ao_04
+}
+
+!procedure Metaai($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/M/Metaai', $name, $tech, $desc)
+!endprocedure

@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Fusionauth
-include('simpleicons-14/F/Fusionauth')
+include('simpleicons/F/Fusionauth')
 
 ' renders the element
 Fusionauth('Fusionauth', 'Fusionauth', 'an optional tech label', 'an optional description')

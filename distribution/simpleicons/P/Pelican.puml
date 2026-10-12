@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/P/Pelican
+' definition of the Item simpleicons/P/Pelican
 
-sprite $PelicanXs [10x10/16z] HKg30S1044lj_lxJdeq8__i-pxr1QdYTm2va4mYfKuyYZtmPd9rVRhoZ8utyCm
+sprite $PelicanXs [10x10/16z] DSY50S0m24JH7mz4RlzfwtquOUas4uIKfowHK6Ee57N86KBV1R2I9GEkiLlaufgyfC8ZIRps_pe1
 
-sprite $PelicanSm [12x12/16z] POp50G0X4CI2E_HVxUdm8klA7BstLZClQyE7suLzt83svS42PNGjORHljAr74_7rpdokvSxs3G
+sprite $PelicanSm [12x12/16z] BSY50S0m2031ZwV6xpzj_N1IU8iu9hSwDXy7f9AfMrcrFV_6C-oGQuOKX_SWxwE7LcxtTEiyaWQ_feFVhebFrftVuV6_kG
 
-sprite $PelicanMd [16x16/16z] TSp50S0m30J13OEe_sh377jUmYDCLKLa73isyS2gwDGVWw40okLjxKUWZ-WnGFQ31YXG-cgvOg4cPp2RpeUgNzkELN6dRsnBhjWz7-zpRh87vSwhfVNiUWO
+sprite $PelicanMd [16x16/16z] {
+JStL0S0m203HYtlOVzj2_VvU1DWY-seMh2PV7YoVvKwHQt34uSAw7yHS4mq8Gw8zYFe0t2nT79fFxfxRiDpSe--NBB5skxSvK-8jAGTVNHr-5kt7gEm_RxNx
+_zxBVpm
+}
 
 sprite $PelicanLg [20x20/16z] {
-XSlL0KGX34JHmPtflziD-zpF3v9SzDwgA28dXmcF30RFWuYPIbn1q4DePXUtkf1DeQdfkiLo8OOwxTNU4gP-KDZh50sJBDTSE1HC55SQiyA_wXHM719MQug3
-kgqTK_MPvgVqMdQ5dHy
+POy54e0m30IlXiN-_rlca38P5kssCLZun6JWGYFHGUfwM9Oe87qwfrDT6Z0CQ4vv7HgYLY6LnoM2tyfNGzdGH-qU8FlRmy5GmSDWaYrcEg2md0MnHq7YGJjU
+xXEZuQFVhKvckHM9sVr7fJ8ajdyeuXygL2EfdIFqf4u
 }
 
 !procedure Pelican($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/P/Pelican', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/P/Pelican', $name, $tech, $desc)
 !endprocedure

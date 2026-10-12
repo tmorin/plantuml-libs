@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Mlflow
-include('simpleicons-14/M/Mlflow')
+include('simpleicons/M/Mlflow')
 
 ' renders the element
 Mlflow('Mlflow', 'Mlflow', 'an optional tech label', 'an optional description')

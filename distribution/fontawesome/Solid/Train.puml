@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Train
 
-sprite $TrainXs [7x10/16z] Os3X1m869X09PW41FpytCeKA-81gk84OgXoaWPaV
+sprite $TrainXs [7x10/16z] 5OQ50G0W3CEAE_d_MjYgoRWoT-zz8KWA81T4smXSir-qipH7nXp4LYNL_W4
 
-sprite $TrainSm [9x12/16z] Os3W1m5UA0tXy0017v3100PO6DW10oEGO05YFZ2F4oBAnC3F1TR42m
+sprite $TrainSm [9x12/16z] JSQ55G0W409Gx3xstzPd-oz0DGvjv6fCQiYam-2-4Z54aY9Z1_4hML18Xb57GegnfWX2mz1Y1m
 
-sprite $TrainMd [12x16/16z] VSV50G0W509Gx9RzfxNrwFi94BWfW4y9tBOg5pL_YIr_VeMjyAigFW9r7iqfSy8ycm58389rlpla3W
+sprite $TrainMd [12x16/16z] TSor0G0n34DHXLNbxp_jCSDhp5PZqzPqDQTzmIng4UUkDlqll--VVzv2UENcO3LOJvjaulhICacBX4S
 
-sprite $TrainLg [15x20/16z] fSv50eH04C30xEBIa_-_5lSZr6Xk3VzmqmAT5zdVc_29NNrFFcJc6m4kahD-p_m-Ek550Qt6BEaFcEz5htFbRC9k1
+sprite $TrainLg [15x20/16z] {
+TO-50O0m30I34_tzjuKQpg4lDUeD3UkfnvMI7IHbeWaf2LE3avmEEIKv7t9-oLVP3baNZGZV7_pXir_biVT0Og6bgFNgOYKkFyVs0pmc6B4h0Hy74belkrBm
+1W
+}
 
 !procedure Train($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Train', $name, $tech, $desc)

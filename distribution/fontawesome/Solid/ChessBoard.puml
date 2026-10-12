@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/ChessBoard
 
-sprite $ChessBoardXs [8x10/16z] Ou01VYZWOk07GNuUDauW10g0k71n11-XZXy4OVe1
+sprite $ChessBoardXs [8x10/16z] FKo50G0W35fWr__NsheEW5Hq1jNQfirAKJNIdDavdaqjOFNrVt-untiw0m
 
-sprite $ChessBoardSm [10x12/16z] TOi30W11549hpRh_QTSSl6-45xzCkslBXWLtnmqmQc-8XTWgSvrOJco-siat67NIhW
+sprite $ChessBoardSm [10x12/16z] HOs54KDH3CC2znYq_xJjv-WWQ5lqGJeFdMIuOmcI3hEX2TYobcpEtJ9RceWkhg48bt2Ej3y
 
-sprite $ChessBoardMd [14x16/16z] ROs50GCW40F3IusGx3zjtTk3TyCdhISBxKywbZDqjNQ01dIrzcAEoHe7-ig0F70B4bC0bVYTasfGEQP-vpeEp9ZyVyycRnP-1n-S
+sprite $ChessBoardMd [14x16/16z] LOw52G0130FB5wT9zf_stUwWhWLQjXxf45Sbb_YCf4jyLtr8JdH5UYgFX14xkOKNU9tWwwN01W
 
-sprite $ChessBoardLg [17x20/16z] hOw54S0W34K_xh3_jatTdNUvk66FMCA1iYR5iYErNRvLkbK7YQorSxPLHflI0uXMkTRV9Huj5OAMjie8MMsfrfHjbMy_9Lc3j8uLjZG
+sprite $ChessBoardLg [17x20/16z] {
+PL250GGn3E8SQkm_xRiURTmJnDj5IdmIxP3_d-nUgjrAislfTzkAoPwUPBqRjX_3PjzJD4-id6OzK-m1L5TWFDL6pZDr9snHD0oH4aMZRGwMHMEvMFzqe0tn
+hW
+}
 
 !procedure ChessBoard($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/ChessBoard', $name, $tech, $desc)

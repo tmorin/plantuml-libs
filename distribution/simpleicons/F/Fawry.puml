@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/F/Fawry
+
+sprite $FawryXs [10x10/16z] BOo54G0m20F_wix-s_Pm9mcaBR8JK4LjGHAp3CU62qlxMRrtKMjsEOfMq4uZGMfN4e1YAa0eVm
+
+sprite $FawrySm [12x12/16z] BOw55S0W30MlkBF_jitdvP2u06dTknB2D15S5KfmjK3ShWVYUShiPPHv7ma-4rllWwI-zsICekWdhLjy8h9rS3KTt-47
+
+sprite $FawryMd [16x16/16z] {
+HO_L0KCX40Htd-7GVxSv2ymNmpa4vh7Mo8IJLd2PjlNdFb53bKUp6FFM8T5SvlR-4YjqrlozlUnUKsTVzZgZFssIhPM6eSzCiKUDgE84BOPt3IbDS5YNqjpk
+PhQZLz5xanN-
+}
+
+sprite $FawryLg [20x20/16z] {
+JOy74iGm20FnuJGSMVz_RHeCnqvVgkH33UGqbKJ102tKpZzhLK7tGLQy3LLjRvFqgkRNrAswzvT6czK1kmocEe-jTxLHTvcykCb6pL-diJuxlX7rRP7pz0cG
+K3SgxoQ8D8sUt-JmjcIbiwVfoCJ1nW1bK0-Gi30t
+}
+
+!procedure Fawry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/F/Fawry', $name, $tech, $desc)
+!endprocedure

@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Letsencrypt
-include('simpleicons-14/L/Letsencrypt')
+include('simpleicons/L/Letsencrypt')
 
 ' renders the element
 Letsencrypt('Letsencrypt', 'Letsencrypt', 'an optional tech label', 'an optional description')

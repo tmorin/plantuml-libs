@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/F/Fluxer
+
+sprite $FluxerXs [10x10/16z] HSo54GCm5CKmt_k5iFUVjd0K3I38r1dWgNzFugwcoom9rJZBqxHegetIjbs7LWHNNDfgcxlS-Gi
+
+sprite $FluxerSm [12x12/16z] JOv50WD13CCqMFAE_l_QGaxL9HmRcD5CViJYLQcdYZ2z6ltuNCxOIMCpZ3xKnRIOBAiL1viMkfckfwVJBcUzhxS1NXQ1VmyV
+
+sprite $FluxerMd [16x16/16z] {
+NOy50aGX20KVk67F_K_xEnsJ1YrOxD2ZQUVFmLyhXOjoMcyF0uBqMwtBPN4LWyax4goPvV0_4dUWibx18mVHmwu3-kthWXP1ehjiIGlHu5TOBgqYDlOpzZlE
+Cyux0m
+}
+
+sprite $FluxerLg [20x20/16z] {
+TL054i0m3ABUg_x_jmkP6zD60IXS6NEEud30zRcXxz4yByXdw1vq-ZVEe0CuAmAcwhmaZvO5447-39eK5ka3AiVOuW59A2zujXa8Yiu-5-GGsxcgnK16rve2
+WI413yxY0C0NI_8LZ1L7GkP6o95pqj7L0944TcqNWUxBWxTNlvw-lLy
+}
+
+!procedure Fluxer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/F/Fluxer', $name, $tech, $desc)
+!endprocedure

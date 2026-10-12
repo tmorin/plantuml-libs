@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsResourceExplorer
+
+sprite $AwsResourceExplorerXs [10x10/16z] FSor0SC040F0Hhp_ledvyIfjtPwpsXSQ9SuXuu2GGn4jdQhJyPIZwD190iYJClSBNVy
+
+sprite $AwsResourceExplorerSm [12x12/16z] DKs50SH037e91DX_t_Oqhf34tZxaLAVX4A-665dWQ5ni4YWdwenEvAfDQrr63Di6roy5_0kPZHlLB5-kGxpIiXS
+
+sprite $AwsResourceExplorerMd [16x16/16z] {
+PK-5OSLG4AeW1zr_tdwBv-avqCzAUbXPdisBb3qIGOAMG4oz3D5DKt_hvIZyURgfR4337sjUllqdYHqjlihCDEJRbqjdzZmRQ89tlgtW0FWX5aOHyKiHRWvy
+HsdkUXQzY-O7
+}
+
+sprite $AwsResourceExplorerLg [20x20/16z] {
+VT054aGn20FGdHAQmFqFlFIxfmAySV8ZKRdA_kz2W0UTHQet3HDDKuM6o9Z8VnoLocfLK1SEg8-_NbzCoGO5Uyk-Mo3CekHWH4gPyeC9ILuiJIe3LtDJofo2
+mLWmGa09yuRUOhOeDNTCroShdDIOsUkBwwxgN7UwqpL_
+}
+
+!procedure AwsResourceExplorer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsResourceExplorer', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsResourceExplorerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsResourceExplorerLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsResourceExplorerGroup($id, $name='Aws Resource Explorer', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsResourceExplorerLg>', $name, $tech)
+!endprocedure

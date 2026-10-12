@@ -9,7 +9,7 @@ The module contains 17 items.
 | ![illustration of aws/Group/GroupAutoScaling](../../aws/Resource/GroupIcons/AutoScalingGroup.png) | [aws/Group/GroupAutoScaling](../../aws/Group/GroupAutoScaling.md) |
 | ![illustration of aws/Group/GroupAvailabilityZone](../../aws/Group/GroupAvailabilityZone.Local.png) | [aws/Group/GroupAvailabilityZone](../../aws/Group/GroupAvailabilityZone.md) |
 | ![illustration of aws/Group/GroupAwsCloud](../../aws/Resource/GroupIcons/AwsCloud.png) | [aws/Group/GroupAwsCloud](../../aws/Group/GroupAwsCloud.md) |
-| ![illustration of aws/Group/GroupAwsStepFunctionsWorkflow](../../aws/Architecture/AppIntegration/AwsStepFunctions.png) | [aws/Group/GroupAwsStepFunctionsWorkflow](../../aws/Group/GroupAwsStepFunctionsWorkflow.md) |
+| ![illustration of aws/Group/GroupAwsStepFunctionsWorkflow](../../aws/Architecture/ApplicationIntegration/AwsStepFunctions.png) | [aws/Group/GroupAwsStepFunctionsWorkflow](../../aws/Group/GroupAwsStepFunctionsWorkflow.md) |
 | ![illustration of aws/Group/GroupCloud](../../aws/Resource/GroupIcons/Cloud.png) | [aws/Group/GroupCloud](../../aws/Group/GroupCloud.md) |
 | ![illustration of aws/Group/GroupCorporateDataCenter](../../aws/Resource/GroupIcons/CorporateDataCenter.png) | [aws/Group/GroupCorporateDataCenter](../../aws/Group/GroupCorporateDataCenter.md) |
 | ![illustration of aws/Group/GroupDashed](../../aws/Group/GroupDashed.Local.png) | [aws/Group/GroupDashed](../../aws/Group/GroupDashed.md) |

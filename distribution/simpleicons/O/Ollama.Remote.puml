@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Ollama
-include('simpleicons-14/O/Ollama')
+include('simpleicons/O/Ollama')
 
 ' renders the element
 Ollama('Ollama', 'Ollama', 'an optional tech label', 'an optional description')

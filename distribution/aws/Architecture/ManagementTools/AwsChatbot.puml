@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsChatbot
+
+sprite $AwsChatbotXs [10x10/16z] BKmr0G1049hG_drVpmreEfPQqbyfqysRnFIw2CfdC9GGxfdufrG2f4U9dQyuPGC
+
+sprite $AwsChatbotSm [12x12/16z] LSVN0ODG34FH1B3Q_WFp6ktQ7qVvPBKy51LPQcXFskIq2YWrzMi4qU0qkE-qjUDm3koD8TW26nEnYihAVhJM2G
+
+sprite $AwsChatbotMd [16x16/16z] {
+LOo54GKn509dBY6mzD_lrzDzhctvqnsUaQ8lBdjj9R6kUiNskce1Lk6y7rEcPQyZBsccVElf04bKIhrvp5R3cmjbPBcrCYYbI_wXjJ-qDQViqXqIUWAxFm7s
+wWq
+}
+
+sprite $AwsChatbotLg [20x20/16z] {
+bSq53WGn34DHLN70ll-1jp2G4UyNfQ-a7LVgFQjEF7KgmyhOB7nVdyRNTeclYPG-bkPPxf0w1aP4iYW-_pgjV7rTuZ6azbmgY9jY52obDDG8SPcF15mA88SV
+ex52iwWvtfUH6RDCnFFn59XXwgAddAd79_tJ3m
+}
+
+!procedure AwsChatbot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsChatbot', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsChatbotCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsChatbotLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsChatbotGroup($id, $name='Aws Chatbot', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsChatbotLg>', $name, $tech)
+!endprocedure

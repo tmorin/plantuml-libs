@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Sidequest
-include('simpleicons-14/S/Sidequest')
+include('simpleicons/S/Sidequest')
 
 ' renders the element
 Sidequest('Sidequest', 'Sidequest', 'an optional tech label', 'an optional description')

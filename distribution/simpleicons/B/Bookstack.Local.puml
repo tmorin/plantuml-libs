@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Bookstack
-include('simpleicons-14/B/Bookstack')
+include('simpleicons/B/Bookstack')
 
 ' renders the element
 Bookstack('Bookstack', 'Bookstack', 'an optional tech label', 'an optional description')

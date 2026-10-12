@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/C/Cardmarket
+' definition of the Item simpleicons/C/Cardmarket
 
-sprite $CardmarketXs [10x10/16z] JOQ50O1008ImM_QVrlY-X4Q6KRQVBdLH0eWJQm040i3CZgGiOP4yq7NT2Yy
+sprite $CardmarketXs [10x10/16z] 5OQ70OHG2CL2Xoko_xJgVpKWG7zciElGxav-mVRLrOEVN_ycymBmTTD-mIdt4KX1NO4Gm5sm012jo887
 
-sprite $CardmarketSm [12x12/16z] LSR50K81040XxFRjFwtvanDMBa4LZ-ctTWrDek7RF7_ZSOyATDibHDkTeKvsXdBSuG6qVNp46m
+sprite $CardmarketSm [12x12/16z] BSQr0S0m402nCpm7zfysQ5NYf-vkS0vWd8_Mpmd4-V9ydd_B9lNjQ8SEjgS2bFNHukr4eaMs3jvfXQn2e80sWD6jmSQd3JVr0JS
 
-sprite $CardmarketMd [16x16/16z] PSV5OK81042n0D_jxJzjtPjR-6y5lK41VtwzVM-u-cwFZgNlfcvzLQx4Uq6ty5MjfnuAOhicdGyGT9FZgoBVDJtak-o2OmHSUeTd
+sprite $CardmarketMd [16x16/16z] {
+LSnN0WCG403HOOlE_M-R87M-FEpoBYPpTuCmR3ki4-XoTlauMBpszMhxoxoafV_NbD4B2uDPDSCyl7l44CQb4PQABA5lLeUHWgQwHJjVEch4Ds6W3b0kgSW-
+nSvDH9gew3HkaVJCNO07
+}
 
 sprite $CardmarketLg [20x20/16z] {
-TSZLOSGm00Km7P_Z9c__QOkcaZxbFsSW3Kh2chYDg_tAgT-UBpNHhgPvZDlJISvxi6Nmad8Bpn7YcaCm2XA1fUnns0vw1RaNzIDRdP3Zh7eUPYcXybYAhxEM
-dDlDSY_jpZ7iwkdJSsPngLysU0C
+HSi73iGW3031TKcZ-V-_FUiimIQqGS39pJs70d9xsOeAcD4uMFR5LsHHIREhhAXwfEnGYr5sA2n2PkFGCu8P-dQOKTtmSeTxccpA93vh66noc4iVOi8g6Wsk
+K6VqHFlJHnQNC7a7X-YDD8Hw-CyNQVkwslPre6f6cOzjzh9woxuugEZb_vJi1m
 }
 
 !procedure Cardmarket($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/C/Cardmarket', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/C/Cardmarket', $name, $tech, $desc)
 !endprocedure

@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/W/Webmin
+' definition of the Item simpleicons/W/Webmin
 
-sprite $WebminXs [10x10/16z] BScr0SG0000XtYLo-qyRfmLcWBu5TFi8xltyHzJCJOJPNQf65SMTFr8zuXeh
+sprite $WebminXs [10x10/16z] 9SR50SD040GmsJuCxFHVRL0lePxN0THPztzZdHCzPPwRbWwVZZXodEFgAfdqD39S3_DWFsPM2YedXpS
 
-sprite $WebminSm [12x12/16z] FOo50S0m409ftDb_snAzo2j0f8e71-bkZjhQoyt0sklaB3cRIYUjAzVx1Xny1cddAAyjPNuxpw_CXhR4t9hCtApu9Vm
+sprite $WebminSm [12x12/16z] BOx50SL020LdFG8x_LVxDLomPq0r2q-jwExsdqUGzVhFbqIT5JXqCMeBQ9uFwwHRQJQ2sT0mOHYT4Yve584ctEvw0vZRDhtuFVndU0C
 
-sprite $WebminMd [16x16/16z] JO-50S0W0CCwT_h_joDuDYJ51PCtZJZo7eC7eg-xTLfX7doEqPDjTtHPazjc6oulA9QPlUEaJv0G_DMKTx2sYpwKdHvfpGsy5fWc47OtlDb34itj2KapFm
+sprite $WebminMd [16x16/16z] {
+JOs5OGKm508lxc7_RKk_N_GPW3aQ_92qxhtZ9mvehKyYAdCQpZwfgip5IS_eod4LesEcT3EGIV8RNFpLSGmKDVA4wwsHjrHSlM57JvcRC4u7JnqT1od36czx
+chGe4vDqqf2yrNZEcK1S1rw94tZo1m
+}
 
 sprite $WebminLg [20x20/16z] {
-NSs54GCn30NHjNLisFwxpIYSl47Xvw7FoX_LLkElTvoglpsO7aq-jB0B1c-wKbsnyLJL4xpeyzFH5PHDKb6Tf08Aq7GKtgO5XfBc12fqeMd0fi9X0mlLfmwe
-Ym5DKv0sjG3xAxW2U97YCRlqW34XQO2cq5VFflPLTODql8ExWwTJlNYv0G
+LSx50GKn203H8UjXm_HVxNTzDnmUDclbNwWU-mvVpOf5bQ-mO1XzyAMG4WPlamQRuFpEfDgORTJ6mwdQ8Pn9kJlKRD-d0YYT-1e6w0cmkSE-GYOCdPXB1vmc
+8IpUlRgxbGAxToiFi-RZlz8PQBt1P7kzKyyM3tXziUh4wjt8LoxKKbiRAa-RQWMmx8sNjJpvk08
 }
 
 !procedure Webmin($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/W/Webmin', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/W/Webmin', $name, $tech, $desc)
 !endprocedure

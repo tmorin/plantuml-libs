@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Hackthebox
-include('simpleicons-14/H/Hackthebox')
+include('simpleicons/H/Hackthebox')
 
 ' renders the element
 Hackthebox('Hackthebox', 'Hackthebox', 'an optional tech label', 'an optional description')

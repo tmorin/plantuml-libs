@@ -1,6 +1,6 @@
 # S
 
-The module contains 311 items.
+The module contains 315 items.
 
 
 
@@ -111,6 +111,7 @@ The module contains 311 items.
 | ![illustration of simpleicons/S/Simkl](../../simpleicons/S/Simkl.png) | [simpleicons/S/Simkl](../../simpleicons/S/Simkl.md) |
 | ![illustration of simpleicons/S/Simpleanalytics](../../simpleicons/S/Simpleanalytics.png) | [simpleicons/S/Simpleanalytics](../../simpleicons/S/Simpleanalytics.md) |
 | ![illustration of simpleicons/S/Simpleicons](../../simpleicons/S/Simpleicons.png) | [simpleicons/S/Simpleicons](../../simpleicons/S/Simpleicons.md) |
+| ![illustration of simpleicons/S/Simpleiconscdn](../../simpleicons/S/Simpleiconscdn.png) | [simpleicons/S/Simpleiconscdn](../../simpleicons/S/Simpleiconscdn.md) |
 | ![illustration of simpleicons/S/Simplelocalize](../../simpleicons/S/Simplelocalize.png) | [simpleicons/S/Simplelocalize](../../simpleicons/S/Simplelocalize.md) |
 | ![illustration of simpleicons/S/Simplelogin](../../simpleicons/S/Simplelogin.png) | [simpleicons/S/Simplelogin](../../simpleicons/S/Simplelogin.md) |
 | ![illustration of simpleicons/S/Simplenote](../../simpleicons/S/Simplenote.png) | [simpleicons/S/Simplenote](../../simpleicons/S/Simplenote.md) |
@@ -162,6 +163,7 @@ The module contains 311 items.
 | ![illustration of simpleicons/S/Solidity](../../simpleicons/S/Solidity.png) | [simpleicons/S/Solidity](../../simpleicons/S/Solidity.md) |
 | ![illustration of simpleicons/S/Sololearn](../../simpleicons/S/Sololearn.png) | [simpleicons/S/Sololearn](../../simpleicons/S/Sololearn.md) |
 | ![illustration of simpleicons/S/Solus](../../simpleicons/S/Solus.png) | [simpleicons/S/Solus](../../simpleicons/S/Solus.md) |
+| ![illustration of simpleicons/S/Solveddotac](../../simpleicons/S/Solveddotac.png) | [simpleicons/S/Solveddotac](../../simpleicons/S/Solveddotac.md) |
 | ![illustration of simpleicons/S/Sonar](../../simpleicons/S/Sonar.png) | [simpleicons/S/Sonar](../../simpleicons/S/Sonar.md) |
 | ![illustration of simpleicons/S/Sonarqubecloud](../../simpleicons/S/Sonarqubecloud.png) | [simpleicons/S/Sonarqubecloud](../../simpleicons/S/Sonarqubecloud.md) |
 | ![illustration of simpleicons/S/Sonarqubeforide](../../simpleicons/S/Sonarqubeforide.png) | [simpleicons/S/Sonarqubeforide](../../simpleicons/S/Sonarqubeforide.md) |
@@ -195,6 +197,7 @@ The module contains 311 items.
 | ![illustration of simpleicons/S/Speedtest](../../simpleicons/S/Speedtest.png) | [simpleicons/S/Speedtest](../../simpleicons/S/Speedtest.md) |
 | ![illustration of simpleicons/S/Speedypage](../../simpleicons/S/Speedypage.png) | [simpleicons/S/Speedypage](../../simpleicons/S/Speedypage.md) |
 | ![illustration of simpleicons/S/Sphinx](../../simpleicons/S/Sphinx.png) | [simpleicons/S/Sphinx](../../simpleicons/S/Sphinx.md) |
+| ![illustration of simpleicons/S/Spidermonkey](../../simpleicons/S/Spidermonkey.png) | [simpleicons/S/Spidermonkey](../../simpleicons/S/Spidermonkey.md) |
 | ![illustration of simpleicons/S/Spigotmc](../../simpleicons/S/Spigotmc.png) | [simpleicons/S/Spigotmc](../../simpleicons/S/Spigotmc.md) |
 | ![illustration of simpleicons/S/Spine](../../simpleicons/S/Spine.png) | [simpleicons/S/Spine](../../simpleicons/S/Spine.md) |
 | ![illustration of simpleicons/S/Spinnaker](../../simpleicons/S/Spinnaker.png) | [simpleicons/S/Spinnaker](../../simpleicons/S/Spinnaker.md) |
@@ -283,6 +286,7 @@ The module contains 311 items.
 | ![illustration of simpleicons/S/Sui](../../simpleicons/S/Sui.png) | [simpleicons/S/Sui](../../simpleicons/S/Sui.md) |
 | ![illustration of simpleicons/S/Suitest](../../simpleicons/S/Suitest.png) | [simpleicons/S/Suitest](../../simpleicons/S/Suitest.md) |
 | ![illustration of simpleicons/S/Sumologic](../../simpleicons/S/Sumologic.png) | [simpleicons/S/Sumologic](../../simpleicons/S/Sumologic.md) |
+| ![illustration of simpleicons/S/Sumup](../../simpleicons/S/Sumup.png) | [simpleicons/S/Sumup](../../simpleicons/S/Sumup.md) |
 | ![illustration of simpleicons/S/Suno](../../simpleicons/S/Suno.png) | [simpleicons/S/Suno](../../simpleicons/S/Suno.md) |
 | ![illustration of simpleicons/S/Sunrise](../../simpleicons/S/Sunrise.png) | [simpleicons/S/Sunrise](../../simpleicons/S/Sunrise.md) |
 | ![illustration of simpleicons/S/Supabase](../../simpleicons/S/Supabase.png) | [simpleicons/S/Supabase](../../simpleicons/S/Supabase.md) |

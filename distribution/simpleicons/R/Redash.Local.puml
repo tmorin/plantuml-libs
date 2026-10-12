@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Redash
-include('simpleicons-14/R/Redash')
+include('simpleicons/R/Redash')
 
 ' renders the element
 Redash('Redash', 'Redash', 'an optional tech label', 'an optional description')

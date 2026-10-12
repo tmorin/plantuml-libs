@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Openvpn
-include('simpleicons-14/O/Openvpn')
+include('simpleicons/O/Openvpn')
 
 ' renders the element
 Openvpn('Openvpn', 'Openvpn', 'an optional tech label', 'an optional description')

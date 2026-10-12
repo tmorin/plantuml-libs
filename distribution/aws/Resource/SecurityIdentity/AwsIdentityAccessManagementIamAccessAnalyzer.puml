@@ -1,0 +1,21 @@
+' definition of the Item aws/Resource/SecurityIdentity/AwsIdentityAccessManagementIamAccessAnalyzer
+
+sprite $AwsIdentityAccessManagementIamAccessAnalyzerXs [10x10/16z] HOo30G114CGowB_bnp5hil2dWrgOWI1tFjDYZQmrPd4lxfSxUW4
+
+sprite $AwsIdentityAccessManagementIamAccessAnalyzerSm [12x12/16z] LOs50G10208vSV-LlzDEq9QWXovayzatiQLPxlwM8lRCnAYTYMOfmVVxOhvSxxu2
+
+sprite $AwsIdentityAccessManagementIamAccessAnalyzerMd [16x16/16z] RK-50S0m32A-_ozUtJqEO5syUMIYwNDjAnYUV4LVvhBvpo4kGTsHv7CwwL9ov2DG-ghFR0Z0nFeWKxlc0RPvEn---UvwBge_
+
+sprite $AwsIdentityAccessManagementIamAccessAnalyzerLg [20x20/16z] XT3L0GKn24JHYqtO_Wj-hcivKVXZc9FQ0E9BYHKGyeyg_D5pldACnnDi61kHcQoqcOAFnO023m_YiLDZrNCRH49NjVEYBYs06HlkR8IpiPrjFuDjLlkPRbq1
+
+!procedure AwsIdentityAccessManagementIamAccessAnalyzer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/SecurityIdentity/AwsIdentityAccessManagementIamAccessAnalyzer', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementIamAccessAnalyzerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementIamAccessAnalyzerLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementIamAccessAnalyzerGroup($id, $name='Aws Identity Access Management Iam Access Analyzer', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsIdentityAccessManagementIamAccessAnalyzerLg>', $name, $tech)
+!endprocedure

@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/S/Starship
+' definition of the Item simpleicons/S/Starship
 
-sprite $StarshipXs [10x10/16z] Om02Jdus1X3W1mDE80CAM24i4Ca9ON13922AsU1C40ygmmaI0Z4W0CG
+sprite $StarshipXs [10x10/16z] 7OF50S9G5C32ryEJx3yjq4PWXCO0jY-RuKdZwWX3vwSCrSKi7me83RN72cEejzJ1hl-wUUaSy0C
 
-sprite $StarshipSm [12x12/16z] LOk50G0n30BhBljl-mcyzIeHm2Xz5qCs-LeCykRUHVeflRGLSgSivuoLPu0AqdvwDxQGLOnmB4CojXS
+sprite $StarshipSm [12x12/16z] FOvL0W0W34APtTp_jBQ-d_K0W2baCLZCR55scbvXc0mPK4cpDveobZpB6k9v203qkZY5pBmOVinw7s7Pja0mcFbADt8y3
 
-sprite $StarshipMd [16x16/16z] HO-55S0m24IlSMV_RViE8Z-A0vGufNyuJ36oYN9P9Yuv33elLDe-AZvw9_w0pYUAWTdLOHuPI7A9J9pvwwAuK_YxXRpAUZtMpkB6JJljKJ4nJTVi9bxMdkO7
+sprite $StarshipMd [16x16/16z] {
+LS-54GCX443HnPtVVxS9FlT6q3NvKx53ZqgMm1PaA5nblhRC-w4WIGD40wW8ZACMgK3i9n8TW7CSjHf7bo5nF_JnhiOcCcLjqjX6nOTQtJfnj-D2jokO8eC-
+oODSchRc_G4
+}
 
 sprite $StarshipLg [20x20/16z] {
-NOu54iL024FfkfBxd_OBJQVClX6SH4XNh2AE3B8l8N3qesKCjXOSsNujALPTmy9z6PYBnMR1YD94RnqyICKrBLFt-hJWRT763gvPGEhR4n1jLrLJtB9n4kJY
-tx2SdEqhayV10De_AYyztFAyBhy
+JP05ii1024FJhclkVzelG1bUkuPF8AHvoJiJd7HedC_Q6UZH58s9l6RM4WauPCCW_uybdlymtgOcF1eulINQnFw_pKjZe2-rkQa2bkiK28SXy3InPJ5vZnTu
+aAH7uiSiLwTEMY9o00jyKAnqKWtqSg8mMvg-PeeirzGfhZr-0G
 }
 
 !procedure Starship($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/S/Starship', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/S/Starship', $name, $tech, $desc)
 !endprocedure

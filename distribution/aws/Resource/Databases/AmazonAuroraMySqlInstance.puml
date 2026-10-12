@@ -1,0 +1,24 @@
+' definition of the Item aws/Resource/Databases/AmazonAuroraMySqlInstance
+
+sprite $AmazonAuroraMySqlInstanceXs [10x10/16z] NOk54S0m30FrBr_ttxYK7CLiGSG_OdO8rtHgD86lT5FTrs3NLVIyXZQgl_a1
+
+sprite $AmazonAuroraMySqlInstanceSm [12x12/16z] FKg30G0m38ls_ybptGZgmfvVXpdd-H3Omzd2Y_0kAsun_7YGBZs46fTUcK-YZQ5J1FSk
+
+sprite $AmazonAuroraMySqlInstanceMd [16x16/16z] VSc5ZKG158LGk4z-_nMlZXlH4o2gYL61pKr3maqnScovgHh_lTsJwMo81aYGnd-Vic9TdHQNYtkI75ujKZSUlV_cuu_QCZdLIJNWVw30Dm
+
+sprite $AmazonAuroraMySqlInstanceLg [20x20/16z] {
+RP250GGn409P0VBzD_pdFl69BxuewmgTW75d5aHWpfdeYCbfpcKgQaHdCNOdjIee57DpKniTsI46DpVJc0bWTmSjgVlcnhmkVNNnouYetyqncvMwkwLvxBKe
+ZvlhfU7Z3W0rPhqJAfAbQwp2-nrfQi4Hdjl05ty
+}
+
+!procedure AmazonAuroraMySqlInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/Databases/AmazonAuroraMySqlInstance', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonAuroraMySqlInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraMySqlInstanceLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAuroraMySqlInstanceGroup($id, $name='Amazon Aurora My Sql Instance', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$AmazonAuroraMySqlInstanceLg>', $name, $tech)
+!endprocedure

@@ -7,10 +7,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Leaflet
-include('simpleicons-14/L/Leaflet')
+include('simpleicons/L/Leaflet')
 
 ' renders the element
 Leaflet('Leaflet', 'Leaflet', 'an optional tech label', 'an optional description')

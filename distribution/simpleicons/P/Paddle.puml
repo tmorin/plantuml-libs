@@ -1,13 +1,16 @@
-' definition of the Item simpleicons-14/P/Paddle
+' definition of the Item simpleicons/P/Paddle
 
-sprite $PaddleXs [10x10/16z] Os1WuEVdvsO00sPcPYv-LX2B2KJmWoLXB3Oe2mOWN110SB6p
+sprite $PaddleXs [10x10/16z] NSQt0S0W402nCna-xJ-jSuKgGOfRvfVUpWHaXnRnD81-0CNuv4X02ZDDF7D-oVPT
 
-sprite $PaddleSm [12x12/16z] TKgr0G0n42BIl73iF-qBiIgd680YYMYLIOPaN7sRfMHNBHsMbfwCIyiRv_CysI2A8fZHS9Fs-0K
+sprite $PaddleSm [12x12/16z] ROl55G1134AJSQV_RfT7hlj78e2P7P1kmbFoWgs-waVXD_JRf90lbhFlnqWubGuML0R8TVLdUs8NVJYZ7p_z1m
 
-sprite $PaddleMd [16x16/16z] dOx50GCn3C1yOTR-qvR2tofW1lcW-T2yJ3ITA1TjEi9mG9VJhqYVtm957maLt5M0xQQZpzHNlua7S--ZPDhH62qBtHF_ijy
+sprite $PaddleMd [16x16/16z] dOx50S0W34KJtF_-qzPmZdr8NEWXuYK9QkZWlG-0fOq0NPL4bO9Fs9veyRJW323pQokeLxWUDwWZybvFtFkRgaXhZ760hsRRBqfgUF2n6FssRm
 
-sprite $PaddleLg [20x20/16z] lO-54KGn44A9U-Y_sjED5l3V6BCA-6BuesXClZN1RCKlDfDqkFbKbSWq3pKsKIG4JSuF7KSxTtvexbpnwxAQPrg246TjEIK3JXpPxsohj6fDOw-9Ugps1W
+sprite $PaddleLg [20x20/16z] {
+lO-50SGW301nXzj_sjTW2_HQ82xgI-P7ZsgJ4OPLDzesS5DRGe8fegVKYRDSdRP0-pqT6EAsZ5-n0ZI_R3CXpzn84sci7eCWafccob0J_SDtM8iKX6wEVKTh
+hUPpspmRFsTx0m
+}
 
 !procedure Paddle($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/P/Paddle', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/P/Paddle', $name, $tech, $desc)
 !endprocedure

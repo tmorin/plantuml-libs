@@ -6,10 +6,10 @@
 !include $LIB_BASE_LOCATION/bootstrap.puml
 
 ' loads the package bootstrap
-include('simpleicons-14/bootstrap')
+include('simpleicons/bootstrap')
 
 ' loads the Item which embeds the element Fitbit
-include('simpleicons-14/F/Fitbit')
+include('simpleicons/F/Fitbit')
 
 ' renders the element
 Fitbit('Fitbit', 'Fitbit', 'an optional tech label', 'an optional description')

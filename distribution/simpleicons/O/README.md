@@ -1,6 +1,6 @@
 # O
 
-The module contains 108 items.
+The module contains 112 items.
 
 
 
@@ -39,15 +39,18 @@ The module contains 108 items.
 | ![illustration of simpleicons/O/Onlyoffice](../../simpleicons/O/Onlyoffice.png) | [simpleicons/O/Onlyoffice](../../simpleicons/O/Onlyoffice.md) |
 | ![illustration of simpleicons/O/Onnx](../../simpleicons/O/Onnx.png) | [simpleicons/O/Onnx](../../simpleicons/O/Onnx.md) |
 | ![illustration of simpleicons/O/Onstar](../../simpleicons/O/Onstar.png) | [simpleicons/O/Onstar](../../simpleicons/O/Onstar.md) |
+| ![illustration of simpleicons/O/Oomol](../../simpleicons/O/Oomol.png) | [simpleicons/O/Oomol](../../simpleicons/O/Oomol.md) |
 | ![illustration of simpleicons/O/Opel](../../simpleicons/O/Opel.png) | [simpleicons/O/Opel](../../simpleicons/O/Opel.md) |
 | ![illustration of simpleicons/O/Open3D](../../simpleicons/O/Open3D.png) | [simpleicons/O/Open3D](../../simpleicons/O/Open3D.md) |
 | ![illustration of simpleicons/O/Openaccess](../../simpleicons/O/Openaccess.png) | [simpleicons/O/Openaccess](../../simpleicons/O/Openaccess.md) |
 | ![illustration of simpleicons/O/Openaigym](../../simpleicons/O/Openaigym.png) | [simpleicons/O/Openaigym](../../simpleicons/O/Openaigym.md) |
 | ![illustration of simpleicons/O/Openapiinitiative](../../simpleicons/O/Openapiinitiative.png) | [simpleicons/O/Openapiinitiative](../../simpleicons/O/Openapiinitiative.md) |
 | ![illustration of simpleicons/O/Openbadges](../../simpleicons/O/Openbadges.png) | [simpleicons/O/Openbadges](../../simpleicons/O/Openbadges.md) |
+| ![illustration of simpleicons/O/Openbao](../../simpleicons/O/Openbao.png) | [simpleicons/O/Openbao](../../simpleicons/O/Openbao.md) |
 | ![illustration of simpleicons/O/Openbsd](../../simpleicons/O/Openbsd.png) | [simpleicons/O/Openbsd](../../simpleicons/O/Openbsd.md) |
 | ![illustration of simpleicons/O/Openbugbounty](../../simpleicons/O/Openbugbounty.png) | [simpleicons/O/Openbugbounty](../../simpleicons/O/Openbugbounty.md) |
 | ![illustration of simpleicons/O/Opencage](../../simpleicons/O/Opencage.png) | [simpleicons/O/Opencage](../../simpleicons/O/Opencage.md) |
+| ![illustration of simpleicons/O/Opencode](../../simpleicons/O/Opencode.png) | [simpleicons/O/Opencode](../../simpleicons/O/Opencode.md) |
 | ![illustration of simpleicons/O/Opencollective](../../simpleicons/O/Opencollective.png) | [simpleicons/O/Opencollective](../../simpleicons/O/Opencollective.md) |
 | ![illustration of simpleicons/O/Opencontainersinitiative](../../simpleicons/O/Opencontainersinitiative.png) | [simpleicons/O/Opencontainersinitiative](../../simpleicons/O/Opencontainersinitiative.md) |
 | ![illustration of simpleicons/O/Opencritic](../../simpleicons/O/Opencritic.png) | [simpleicons/O/Opencritic](../../simpleicons/O/Opencritic.md) |
@@ -76,6 +79,7 @@ The module contains 108 items.
 | ![illustration of simpleicons/O/Opentelemetry](../../simpleicons/O/Opentelemetry.png) | [simpleicons/O/Opentelemetry](../../simpleicons/O/Opentelemetry.md) |
 | ![illustration of simpleicons/O/Opentext](../../simpleicons/O/Opentext.png) | [simpleicons/O/Opentext](../../simpleicons/O/Opentext.md) |
 | ![illustration of simpleicons/O/Opentofu](../../simpleicons/O/Opentofu.png) | [simpleicons/O/Opentofu](../../simpleicons/O/Opentofu.md) |
+| ![illustration of simpleicons/O/Opentui](../../simpleicons/O/Opentui.png) | [simpleicons/O/Opentui](../../simpleicons/O/Opentui.md) |
 | ![illustration of simpleicons/O/Openverse](../../simpleicons/O/Openverse.png) | [simpleicons/O/Openverse](../../simpleicons/O/Openverse.md) |
 | ![illustration of simpleicons/O/Openvpn](../../simpleicons/O/Openvpn.png) | [simpleicons/O/Openvpn](../../simpleicons/O/Openvpn.md) |
 | ![illustration of simpleicons/O/Openwrt](../../simpleicons/O/Openwrt.png) | [simpleicons/O/Openwrt](../../simpleicons/O/Openwrt.md) |

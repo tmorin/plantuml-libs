@@ -13,7 +13,7 @@ include('aws/Group/GroupAwsStepFunctionsWorkflow')
 
 | Illustration | GroupAwsStepFunctionsWorkflow |
 | :---: | :---: |
-| ![illustration for Illustration](../../aws/Architecture/AppIntegration/AwsStepFunctions.png) | ![illustration for GroupAwsStepFunctionsWorkflow](../../aws/Group/GroupAwsStepFunctionsWorkflow.Local.png) |
+| ![illustration for Illustration](../../aws/Architecture/ApplicationIntegration/AwsStepFunctions.png) | ![illustration for GroupAwsStepFunctionsWorkflow](../../aws/Group/GroupAwsStepFunctionsWorkflow.Local.png) |
 
 
 

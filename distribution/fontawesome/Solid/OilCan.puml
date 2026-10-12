@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/OilCan
 
-sprite $OilCanXs [12x10/16z] Oy0DkFdv-I4iDY3WPsC1ibZuMVaHW071GcR2EOnWtPmWW6uu
+sprite $OilCanXs [12x10/16z] TSR50K0X30MmHt6ex3_jTvUSWhjIczyVZDsIAjoKUwLGEvFjdEIz1BIj4PEr2Vz6
 
-sprite $OilCanSm [15x12/16z] XSb50W0X509GfiFW_gUrbUL_Am8c5WwoSzSr05SWtvtoyzdK8aeH5BTQesR9
+sprite $OilCanSm [15x12/16z] XSp50G113090rZtqN-svwxoYuCuEi1DIiD1AwLgrcXiHpiIdnaf4RYheCbS2wCeDHeMB9IsdKTRurGC
 
-sprite $OilCanMd [20x16/16z] bSx50G0X40F0d5iW_LTxZhzsNh0EYuwt0mNgqQ7GIrCMElYG7BczwTKxvS8FL0bj35X3G_3EzCgDuRfancTHj27e0jXS
+sprite $OilCanMd [20x16/16z] fSx50SKm30DGXLdQVzgFvLFXXT765Ksa6dQgFYhs36MnI18_VdqriB6Agb47LWxKZeVoOI_y_jj9-CgQR1FIggtfS5Bns1i
 
-sprite $OilCanLg [25x20/16z] hSd50S0W04FHrBtPVrhSvSR3-HXjeeNIt0kOLBhd_6kto4VjSDPdO-wVv-kZiQbMcqY0jGtjS0AFgYpTK3vMFbWNSpyyvX3yvNzmNC61yIG
+sprite $OilCanLg [25x20/16z] {
+hS_50KGX30JGmINvcVwhNHVajF9m9_XMl4hO26_wVi2CD4lOUJ9WvBfqaKiXjNN9jxcGHOmpA-qsLNaWSDT0XUD60Tg-m0E0afqhN6NZokCkSpJ4upY9U54E
+4WPkWFyx0m
+}
 
 !procedure OilCan($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/OilCan', $name, $tech, $desc)
