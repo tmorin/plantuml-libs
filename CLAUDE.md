@@ -23,6 +23,7 @@ Check `package.json` for exact dependency versions rather than assuming.
 - Full build: `scripts/generate-library.sh` chains workdir → website → distribution/. Requires Podman/Docker and the `plantuml-generator` image (`docker.io/thibaultmorin/plantuml-generator:1`).
 - Single-package build: `scripts/generate-package.sh <package>` (invoked via `npm run generate:package -- <package>` — bare name, no `-p`; the script prepends `-p` itself when it calls `generate:workdir` internally) regenerates the workdir then builds just that one package through Podman.
 - Don't rebuild a large icon/shape package (`aws`, `azure`, `fontawesome`, `gcp`, `simpleicons`) just to sanity-check the pipeline — their full Podman render can run for tens of minutes to multiple hours and saturates the host's CPU, especially if more than one runs concurrently. `npm run generate:workdir -- -p <package>` (TypeScript-only, no Podman) is enough to verify discovery/counts for a content change. If you genuinely need to confirm the full Podman + `plantuml-generator` render still works end to end, build `eip` instead (`npm run generate:package -- eip`) — it's small and fast, and exercises the same pipeline.
+- Regenerating `distribution/` for a package is done on GitHub, never locally: dispatch the `package-builder.yaml` Action (`gh workflow run package-builder.yaml --ref <branch> -f pkgName=<package>`). Its last job commits and pushes `distribution/` to that ref, so dispatch once at a time per ref.
 
 ## Code Conventions
 
@@ -45,6 +46,7 @@ Check `package.json` for exact dependency versions rather than assuming.
 
 ```bash
 npm run generate:workdir            # library packages -> .workdir/library.yaml
+npm run generate:workdir -- -p <package> -w <scratch dir>   # pass -w: the default .workdir/library.yaml is shared and rewritten by every run
 npm run generate:website            # runs the website ETL stages
 npm run generate:package -- aws     # regenerate + build a single package (needs Podman)
 scripts/generate-library.sh         # full build: workdir -> website -> distribution/ (needs Podman/Docker)
@@ -57,6 +59,10 @@ npm run lint                        # eslint . (bin/**, test/**, .workdir/**, di
 - Semantic Versioning via `standard-version` (`npm run release`)
 - Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/): `type(scope): description` — common types `feat`, `fix`, `refactor`, `chore`, `docs`, `test`
 - Pre-releases: `npm run alpha` (`--prerelease alpha`)
+
+## Waves and runs
+
+Multi-run work lives in `docs/wav/wav-NNN-slug/` (business case, plan, progress log, `run/`), driven by the `run-management` plugin. `.claude/run-management.yaml` sets how runs commit.
 
 ## Package Upgrades
 
