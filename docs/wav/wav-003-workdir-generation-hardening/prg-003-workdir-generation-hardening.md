@@ -52,6 +52,12 @@ wave: 003
   commits in place, which keeps the wave unattended. Whether a refused squash
   should instead let the run finish is a plugin design question, raised with
   `claude-agents`, not decided.
+- 2026-11-09: `.claude/run-management.yaml` set to `squash:
+  run-unless-pushed` (plugin 3.5.0), on the human's "Oui". A run whose
+  commits are already on a remote (W-4 with the Action's commit, a P1 run
+  reopened after the push) finishes with its commits left in place instead of
+  stopping `awaiting-commit`; a never-pushed history is squashed to one commit
+  per run. Replaces the interim `squash: none`.
 
 ## Findings
 
