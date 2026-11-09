@@ -43,6 +43,15 @@ wave: 003
   `.claude/run-management.yaml` repos map and a `CLAUDE.md` update were
   committed and pushed there, within the recorded authorisation (branch
   `wave-003` only, nothing on `master`). `complete-wave` resumes that branch.
+- 2026-11-09: `.claude/run-management.yaml` set to `squash: none`. With
+  `squash: run`, commit-run refuses a commit already on a remote
+  (`start_point.py`, `on-remote`) and `segments` refuses a foreign author;
+  there is no fallback, so the wave would stop `awaiting-commit` at W-4 (its
+  interval holds the `package_builder` commit pushed by the Action) and at
+  any P1 run reopened after `wave-003` is pushed. `none` keeps each run's
+  commits in place, which keeps the wave unattended. Whether a refused squash
+  should instead let the run finish is a plugin design question, raised with
+  `claude-agents`, not decided.
 
 ## Findings
 
