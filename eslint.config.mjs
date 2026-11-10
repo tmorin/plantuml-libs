@@ -15,7 +15,7 @@ const compat = new FlatCompat({
 });
 
 export default [{
-    ignores: ["**/bin/**", "**/test/**", "**/.workdir/**", "**/distribution/**"],
+    ignores: ["**/bin/**", "**/test/**", "**/.workdir/**", "**/distribution/**", "**/docs/**"],
 }, ...compat.extends(
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",

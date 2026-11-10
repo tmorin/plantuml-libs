@@ -1,0 +1,27 @@
+---
+type: prg
+status: completed
+run: 0014
+wave: 003
+---
+
+# Progress Log: Run 0014
+
+## Start points
+
+- repo: .; ref: refs/heads/wave-003; sha: 7ced8b6e5f234dd55ddcb6b9b90a7f2175c8f379
+
+## Log
+
+- 2026-11-10: Stage 4 drafted tdd-0014-workdir-reference-validation.md (validatePackage in new source/generator/workdir/validation.ts, called from source/library/index.ts per package; per-package icon resolution; unit spec test/workdir-validation.spec.js); run status set to designing; no open blocker
+- 2026-11-10: Stage 5 KDML review of the TDD done in one fresh agent (independent of the drafter) and findings applied: ASM-1 corrected (9 of 12 factories declare examples, c4nord uses c4model/examples, so DEC-2 assumes no package prefix), ASM-2 wording, DEC-1 async try/finally call-site shape to respect CON-1, WR-2/WR-4 read-as notes, network needs and baseline wording in verification; no open blocker
+- 2026-11-10: Stage 6 TDD Open Questions resolved by one agent: Q-1 (cross-package Reference icons) decided as no, kept within-package per DEC-3, checked against discovery.ts (references only come from the icon_reference CSV column); section now lists none open; no open blocker
+- 2026-11-10: Stage 8 drafted pln-0014-workdir-reference-validation.md (3 tasks: validation.ts, spec, call site in create(); task-002 and task-003 parallel; no human gate, no open blocker); complete_wave.py run --stage implement exits 0; run status set to planned
+- 2026-11-10: Stage 9 consistency check of pln-0014 against the TDD (no PRD, WR-n from the wave manifest) and the repository, done inline by one agent: all task source_requirements trace to real TDD IDs (WR-1..6, DEC-1..5, CTR-1, IMP-1/2, CON-1..4, FLOW-1) with no invented scope; repository spot-check confirms Package/Example/Item/ReferenceIcon types in manifest.ts, tplDirPath on FactoryContext, the .finally chain in create() to replace, example templates present under source/templates (aws, azure, c4k8s, c4model, domainstorytelling, eip, eventstorming, gcp; eventstorming also renders all_elements.tera into tplDirPath during create(), before the check runs), 13 aws and 1 azure icon_reference rows, test/archive.spec.js pattern; validation.ts and the spec are new files; pln blocking_gaps empty, none carried to Stage 10; pln not edited, generator check complete_wave.py run --stage implement still exits 0; no open blocker
+- 2026-11-10: implement workflow generated with cost profile low-cost. Overrides of declared tiers (1): settings from .claude/run-management.yaml: repos=plantuml-libs:per-run. Human gate required for: no task. Autonomy override: none.
+- 2026-11-10: Full suite: command npm test; tree b09024c7744000a36600cc71c954cca2a1aaf22c; outcome pass; duration 9s
+- 2026-11-10: Stage 11 verification: npm test 16 passing; generate:workdir on all packages with a scratch workdir exits 0 (3m26s, WR-5); manual negative check on eip not run; pln execution_manifest.status set blocked, run stays in-progress. Unmet criterion: "npm run lint exits 0" - npm run lint exits 1 with 11 errors, all in generated workflow scripts (docs/wav/wav-003-workdir-generation-hardening/run/run-0014-workdir-reference-validation/workflows/001-design.js:177, 002-implement.js:322, workflows/001-wave.js:288 and others: undefined agent/parallel/workflow globals, unused vars); no source/ or test/ file flagged. tooling/docs/check-backlog.py and docs/bkg/parked do not exist in this repository, so the backlog sweep did not apply. check_run.py --as-completed exits 1 (missing Verification section, Review pass line, pln not done), expected while blocked; no canonical obligations (CI-arc/CI-dom) were discharged in this stage.
+- 2026-11-10: implement workflow stopped, state blocked: final check not clean {"run_status":"in-progress","pln_status":"blocked","check_run_exit":1,"named":"missing Verification: no Verification section (also: missing Review pass: no 'Review pass:' line; missing pln: execution_manifest.status is 'blocked', run is recorded completed)","unmet":[],"failure":{"command":"python3 /home/tibo/git-perso/claude-agents/plugins/run-management/skills/complete-run/scripts/check_run.py --as-completed docs/wav/wav-003-workdir-generation-hardening/run/run-0014-workdir-reference-validation","item":"missing Verification: no Verification section","file":"docs/wav/wav-003-workdir-generation-hardening/run/run-0014-workdir-reference-validation/run-0014-workdir-reference-validation.md","suggestion":"Add a Verification section and a 'Review pass:' line to the run document, set execution_manifest.status in the pln to a completed value, and mark the run completed."}}
+- 2026-11-10: implement workflow generated with cost profile low-cost. Overrides of declared tiers (1): settings from .claude/run-management.yaml: repos=plantuml-libs:per-run. Human gate required for: no task. Autonomy override: none.
+- 2026-11-10: Full suite: command npm test; tree 5852ceca57922430c3b0421c8afbbdcb4be10a2d; outcome pass; duration 26s
+- 2026-11-10: Stage 11 (second pass): npm test 16 passing; npm run lint exit 0 (docs now ignored by eslint); generate:workdir on all packages exits 0 (317s, WR-5); eip negative check exits 1 naming package eip and template eip/examples/simple.tera, template restored; every criterion of the pln holds, pln execution_manifest.status set done, run and prg set completed; tooling/docs/check-backlog.py and docs/bkg do not exist, backlog sweep not applicable; Canonical impact not applicable per the TDD, no CI-arc/CI-dom items; no CLAUDE.md edited

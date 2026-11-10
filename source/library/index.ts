@@ -15,6 +15,7 @@ import { GcpFactory } from "./packages/gcp"
 import { Library, Package } from "../generator/workdir/manifest"
 import { MaterialFactory } from "./packages/material"
 import { SimpleiconsFactory } from "./packages/simpleicons"
+import { validatePackage } from "../generator/workdir/validation"
 
 const PACKAGE_FACTORIES = [
   new AwsFactory(),
@@ -44,7 +45,7 @@ async function emptyModule(urn: string): Promise<Package> {
 const create: LibraryFactory = async (context): Promise<Library> => {
   console.time("library generated")
   const packages: Array<Package> = await Promise.all(
-    PACKAGE_FACTORIES.map((packageFactory) => {
+    PACKAGE_FACTORIES.map(async (packageFactory) => {
       if (context.packages.indexOf(packageFactory.getUrn()) >= 0) {
         const packageContext = new DefaultPackageContext(
           context,
@@ -56,9 +57,13 @@ const create: LibraryFactory = async (context): Promise<Library> => {
         if (context.cleanPkgTmpDir) {
           packageContext.doCleanPackageTmpDirectory()
         }
-        return packageFactory.create(packageContext).finally(() => {
+        try {
+          const pkg = await packageFactory.create(packageContext)
+          validatePackage(pkg, context.tplDirPath)
+          return pkg
+        } finally {
           packageContext.timeEnd(timerLabel)
-        })
+        }
       }
       return emptyModule(packageFactory.getUrn())
     }),

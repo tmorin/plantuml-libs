@@ -51,7 +51,7 @@ npm run generate:website            # runs the website ETL stages
 npm run generate:package -- aws     # regenerate + build a single package (needs Podman)
 scripts/generate-library.sh         # full build: workdir -> website -> distribution/ (needs Podman/Docker)
 npm test                            # mocha
-npm run lint                        # eslint . (bin/**, test/**, .workdir/**, distribution/** ignored)
+npm run lint                        # eslint . (bin/**, test/**, .workdir/**, distribution/**, docs/** ignored)
 ```
 
 ## Versioning & Commits
