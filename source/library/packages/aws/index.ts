@@ -26,6 +26,38 @@ type FamiliesCsvRow = {
   color: string
 }
 
+/**
+ * Names of the families of the items that have no row in `families.csv`, sorted and without
+ * duplicate. Such a family gets no `Rectangle<<...Family>>` style in the bootstrap.
+ */
+export function findFamiliesWithoutColor(
+  items: Array<Item>,
+  rows: Array<FamiliesCsvRow>,
+): Array<string> {
+  const known = new Set(rows.map((row) => row.name))
+  const missing = new Set<string>()
+  for (const item of items) {
+    if (item.family && !known.has(item.family)) {
+      missing.add(item.family)
+    }
+  }
+  return Array.from(missing).sort()
+}
+
+export function assertFamiliesHaveColor(
+  urn: string,
+  items: Array<Item>,
+  rows: Array<FamiliesCsvRow>,
+): void {
+  const missing = findFamiliesWithoutColor(items, rows)
+  if (missing.length > 0) {
+    throw new Error(
+      `package ${urn}: ${missing.length} family(ies) without a color row in families.csv: ${missing.join(", ")}. ` +
+        `Add one row (name,color) per family to source/library/packages/aws/families.csv.`,
+    )
+  }
+}
+
 export class AwsFactory implements PackageFactory {
   getUrn(): string {
     return "aws"
@@ -119,13 +151,19 @@ export class AwsFactory implements PackageFactory {
     return discoveredItems.sort((a, b) => a.urn.localeCompare(b.urn))
   }
 
-  private async renderBootstrap(context: PackageContext) {
-    const families: Array<FamiliesCsvRow> = parse(
+  private readFamilies(): Array<FamiliesCsvRow> {
+    return parse(
       F.readFileSync(P.join(__dirname, "families.csv"), { encoding: "utf-8" }),
       {
         columns: true,
       },
     )
+  }
+
+  private async renderBootstrap(
+    context: PackageContext,
+    families: Array<FamiliesCsvRow>,
+  ) {
     await render(
       P.join(__dirname, "templates", "bootstrap.tera"),
       P.join(context.tplDirPath, this.getUrn(), "bootstrap.tera"),
@@ -134,7 +172,8 @@ export class AwsFactory implements PackageFactory {
   }
 
   async create(context: PackageContext): Promise<Package> {
-    await this.renderBootstrap(context)
+    const families = this.readFamilies()
+    await this.renderBootstrap(context, families)
 
     const iconsZipPath = P.join(context.pkgTmpDirPath, "icons.zip")
     const iconsZipDst = P.join(context.pkgTmpDirPath, "temp_icons")
@@ -201,6 +240,12 @@ export class AwsFactory implements PackageFactory {
       "resource/**/*+(_48|_48_Light|_32).svg",
     )
     context.info("found (%s) icons for resource", resourcesItems.length)
+
+    assertFamiliesHaveColor(
+      this.getUrn(),
+      [...architectureItems, ...resourcesItems],
+      families,
+    )
 
     const groupItemsFromCsv: Array<Item> = await csvToCustomGroups(
       this,
