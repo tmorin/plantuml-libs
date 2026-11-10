@@ -1,7 +1,7 @@
 ---
 type: wave
 wave: 003
-status: proposed
+status: planned
 date: 2026-11-07
 related:
   - docs/wav/wav-003-workdir-generation-hardening/wbc-003-workdir-generation-hardening.md
@@ -104,7 +104,7 @@ below needs a decision at run time:
 wave_manifest:
   wave: 003
   slug: workdir-generation-hardening
-  status: proposed
+  status: planned
   sources: []
   phases:
     - id: P1
