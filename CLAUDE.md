@@ -59,10 +59,12 @@ npm run lint                        # eslint . (bin/**, test/**, .workdir/**, di
 - Semantic Versioning via `standard-version` (`npm run release`)
 - Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/): `type(scope): description` — common types `feat`, `fix`, `refactor`, `chore`, `docs`, `test`
 - Pre-releases: `npm run alpha` (`--prerelease alpha`)
+- Release: `npm run release` bumps the version, writes `CHANGELOG.md` and creates the tag; then `git push --follow-tags origin master` (or `npm run release:publish`). Pushing the tag makes CI create the GitHub release and run `npm publish`: it cannot be undone, so confirm first.
+- `CHANGELOG.md` only lists commits whose subject is `feat(...)` or `fix(...)`; a commit that is not a Conventional Commit is silently left out.
 
 ## Waves and runs
 
-Multi-run work lives in `docs/wav/wav-NNN-slug/` (business case, plan, progress log, `run/`), driven by the `run-management` plugin. `.claude/run-management.yaml` sets how runs commit.
+Multi-run work lives in `docs/wav/wav-NNN-slug/` (business case, plan, progress log, `run/`), driven by the `run-management` plugin. `.claude/run-management.yaml` sets how runs commit. A run's commit subject is the `Commit subject:` line of its run document: write it as a Conventional Commit (`feat(scope): ...`, `fix(scope): ...`) so the run shows in the changelog; the default `run NNNN slug (wave ...)` subject does not.
 
 ## Package Upgrades
 

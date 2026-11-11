@@ -102,7 +102,7 @@ The build of the library is based on two steps:
 ### Generate the work directory
 
 ```shell
-npm run generate-library
+npm run generate:library
 ```
 
 ### Generate the distribution directory
