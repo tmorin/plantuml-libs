@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [18.3.0](https://github.com/tmorin/plantuml-libs/compare/v18.2.0...v18.3.0) (2026-11-11)
+
+
+### Features
+
+* **aws:** re-pin architecture icons package to Q3 2026 release ([4b7b1a2](https://github.com/tmorin/plantuml-libs/commit/4b7b1a24517f08e7629a3f2c6e998b589eed4fb3))
+* **aws:** refresh the package ([4756804](https://github.com/tmorin/plantuml-libs/commit/4756804a88e4ff5433136bdd7bd84e3c09f9b13b))
+* **azure:** update icons to V24 ([d331706](https://github.com/tmorin/plantuml-libs/commit/d33170654e7e8fc32717962ca8d3d137825365a1))
+* **ci:** add a workflow_dispatch trigger to the continuous integration ([c75a930](https://github.com/tmorin/plantuml-libs/commit/c75a930b3218c4de6b6f469ac6d0fa4fe2ad4b95))
+* **distribution:** regenerate aws, fontawesome and simpleicons ([ddfbf0c](https://github.com/tmorin/plantuml-libs/commit/ddfbf0c99aa66a04b1f4f3fac18bea9d6659d5fa))
+* **fontawesome:** bump pinned release to 7.3.1 ([ad17b0e](https://github.com/tmorin/plantuml-libs/commit/ad17b0e077338879b1fd39ee4a8f283cbe12b887))
+* **simpleicons:** upgrade Simple Icons package to 16.34.0 ([93de449](https://github.com/tmorin/plantuml-libs/commit/93de449dfc97193fbbbf2db637daae9c4d89dbff))
+
+
+### Bug Fixes
+
+* **aws:** restore the example templates and the Step Functions group icon ([905cfcf](https://github.com/tmorin/plantuml-libs/commit/905cfcffa107a7c475778fa2f280a5c36d3de83f))
+* **claude:** declare the run-management repos map as a named block map ([f015231](https://github.com/tmorin/plantuml-libs/commit/f015231d173746bc9edafd5129886dd2dcb9f2f0))
+* **gcp:** repoint ICONS_URL to Google's current legacy-icons asset ([2196dde](https://github.com/tmorin/plantuml-libs/commit/2196dde07fe3528b3df5b4e709a967f702ed4efa))
+* **generator:** fail loudly on a bad archive fetch and abort the package script ([6094d3a](https://github.com/tmorin/plantuml-libs/commit/6094d3a878460337f82015abbff7fabfb24e0528))
+
 ## [18.2.0](https://github.com/tmorin/plantuml-libs/compare/v18.1.4...v18.2.0) (2026-08-01)
 
 
