@@ -1,12 +1,15 @@
 ' definition of the Item aws/Resource/GeneralIcons/Documents
 
-sprite $DocumentsXs [10x10/16z] Oq05l8nm5WCZDb5ML1OlBuOOBmX0n3YPW82D0G
+sprite $DocumentsXs [10x10/16z] 7Oo50G1020B1p_qNDiuEGDvhXSPMvsUSifwPejinKvz9RgIwS5jccBfMz83EJCig
 
-sprite $DocumentsSm [12x12/16z] POgr0G0W30HpDFZ-u-9Ez4skSa1auB8HjR1nhcCge3bTGTo5U-RMVqolhk5RESa
+sprite $DocumentsSm [12x12/16z] FSY75OG03CDGsSeLzX-O3gd_6KQdd1KXIoy7-FnzdNol5mDEJjTYJXF0NldaDV3uMwrUsJGfdgv73Mm
 
-sprite $DocumentsMd [16x16/16z] dSf50e10509GmFvn_-FQxSfvEm9VuRFacOLP3dfc3BhdtYpEJ1A0LThpnc25MTAFl-sE3F9yRE80J
+sprite $DocumentsMd [16x16/16z] TSk50SGm34DHMJ8STlzjomo_aBm000uPbZ8a-L-hft_guBSQxasg5ZDhs8lGvBb0pVkLcOFpj3-RaSJZVfnSGVKnShBHQNrShuOu5hDjDW5q
 
-sprite $DocumentsLg [20x20/16z] dOg55S102CNuLyNs7xTEtNDANkWSiP542pe-RZWwMih5qLGkhXOHtxXe4GxQCJh3iIjIkAedtxZWoS7TxQpxvtnXT5iM1qv1ENVPGZUr
+sprite $DocumentsLg [20x20/16z] {
+RT255SCW543HxsXFzvysZlFYDmxiI_xfHvtvTnCpB-OXq6nPx4-JaR1PiG0eB7ZjeIaN8nMzZGpoSEzhlbmdASOGyRQmNbSi01BHREJCtRZUkpUibh2ahfXT
+JtlpTDaNpODqPTcN4kmx0G
+}
 
 !procedure Documents($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'aws/Resource/GeneralIcons/Documents', $name, $tech, $desc)

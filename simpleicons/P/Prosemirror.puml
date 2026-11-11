@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/P/Prosemirror
+
+sprite $ProsemirrorXs [10x10/16z] DOQ50GCn3CHa22Vs_jksJuS26RKE0RJnlwx_qjSH1gOorUh_JIIzTlJ2_0jNkfu_xGQCdP4f_EMzUXO-LNu
+
+sprite $ProsemirrorSm [12x12/16z] FOg50S0W30GFYE7xRrllnVCFo6Xj21VXVrV7raouGiTQjhYMP0pHugUGij5dqPQmJANj4piNMj9hNnfmsjTQvyL9wdEVn-8cbOBkmazI3W
+
+sprite $ProsemirrorMd [16x16/16z] {
+LOu70WCW20E34woI__-sAftdl3XnKAUxuaMc2Y3A_D9Zs2s2hPNaEC7MPdj7JjOwO0sOWeT9HTtpD845Z9cqTSMMMurxGrtXCss_vBk_6JHytVj04GRcyPza
+N1udRk3JkIif2DfmRvrK_296_5CIdW
+}
+
+sprite $ProsemirrorLg [20x20/16z] {
+PSi7bWCX30JH8WmPzVrlksYTxJy1A9x0nQbZHbwcPaufduK7xG0kR3sIt-QIRnEuPX3bl5hZK2B8OhQo8oJva45H842gW6Ne7PfOGjNRwASrRpN47guEj6TJ
+YrTIkxUwlTrOW5qXwdJTTL04h9Fq4Afn94KaCxcjX2jAMLgtME0Unv3czdPn5vQEDNoObvHp8amfy2rQurU5Fm
+}
+
+!procedure Prosemirror($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/P/Prosemirror', $name, $tech, $desc)
+!endprocedure

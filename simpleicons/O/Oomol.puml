@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/O/Oomol
+
+sprite $OomolXs [10x10/16z] HOor0G113CDypD7-qpw3ce11yWE6bvIuIFAqSQr-clVPW07TIkMX5klN4qlEsVJNjpVyt_8txm
+
+sprite $OomolSm [12x12/16z] JKu53W0n29i2MHhw_zUUp76d8OG24YNy17R23djIgDcy9mMiAUVU_4sZ2ZU9iiq6aNEiHEaDbwGiwwPV3tfuONW1
+
+sprite $OomolMd [16x16/16z] NS_50SD034HHJGnZtDz_jU75TnGhthGbI9lYn_mvFax8pfpD789D9jC6ScZXPqjWhUIInCyoqvaNkW8_M6L8MovGMB29RDK66kyPxnt_6Vzz0G
+
+sprite $OomolLg [20x20/16z] {
+RT350SGm00D1EGgQjlzgZozaxtD-aZuvLgZHsdFXL_dh2aVhJZSqjomLsCB8KP6XQWt3b7TqVDiiMpl62iGmm-2_LVvvDtfMTnjW2UbDyMzPesK1qUneXQWA
+Lk5er0QbjwtpGU-h_gUzxvy
+}
+
+!procedure Oomol($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/O/Oomol', $name, $tech, $desc)
+!endprocedure

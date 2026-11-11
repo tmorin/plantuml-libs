@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Car
 
-sprite $CarXs [10x10/16z] Oq02VFmWm0HayGCncEI5i_Yn0OWegXmd6F3mim4rGJG3
+sprite $CarXs [10x10/16z] JS650G0X30F0L71ezj_sNUu0iPq0KCQE2eoCNHu0NNPEBDuMlN1NdCoDkvRvit1QLC59T0C
 
-sprite $CarSm [12x12/16z] TSQr0O100C30u4xsd_QrGQywxYoEsZrpoM_93c6MIl0FkrcB_tOgvMoefZC2
+sprite $CarSm [12x12/16z] LSd50G0X00Emuaxtd_O49zy040r-WKq086d4nr02lg8f7eBPD9cYSgaCYeqAf1DiXECjXIQrH2D820m2Bm
 
-sprite $CarMd [16x16/16z] ZSV50GCn0CJ0DRFLVxLXpj6y92s8OrvrenjUydKDs1iFrvzOtOrRWHxiDJEC9p21FLw3Etkh9XwgE2AOfm4JZ9uQwCSP
+sprite $CarMd [16x16/16z] PSY50GCn34DHNPYr_xGbG-a5l_4lRPKawLw39G-Gk01St52R5v3Ph1ip8daS6VcdjUyV86M_tYdaz-yuQJYIummuYIzt
 
-sprite $CarLg [20x20/16z] bS-55GGX34NHFuhp-gzsDPoioyMTw9rfCRE6ZhFPo2rTGDS0qLg_fe4tPW4xEZae4azYucUtdzwrsLoz2MFYh1PSuZ_fHkLADtPWXwvRWCoj8m
+sprite $CarLg [20x20/16z] {
+bSs34GLH44JHNZxMtFoZ_LWRfpXidIYS7xXYQ5KiLEeOfDX9OCCQjGRri1WmJOoW7t2QE93KGcpQGHEXLSjEox6GcUG0T0bCkXI8AfcKYlmP2yOhkLZ8T98M
+4b27K6gX3A7MWIy
+}
 
 !procedure Car($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Car', $name, $tech, $desc)

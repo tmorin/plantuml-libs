@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/T/Tidb
+
+sprite $TidbXs [10x10/16z] 9OO50G0W0CE6E--V5hqEe7MUekPG1ARYdOaLq9LbhPn5daiAo7todvZAg4j0r57agRMx6m
+
+sprite $TidbSm [12x12/16z] VOx50KH134B9kB_-kzrPzvzWDz3vUjVj4a0w9m_JRB2y38AqCvWH9K7CvvoIYQPupd2K_TdyOco2V-kwRR2pdG
+
+sprite $TidbMd [16x16/16z] {
+TS-53GCm34JH2xF__jjMLfbE-086oHFM2dgc0jIxii4vODaLzlMk03j81bEw6fCsnNdWJBOxkc4eNbtwa8oev3v0TwUhzpz75RTX30bA1xlF4mokyrpdTLh-
+iS_dlXS
+}
+
+sprite $TidbLg [20x20/16z] {
+dP350SGm30JDR6__tPwqnvnadYEMkM1xj-QP324_ch10LhmQDvZ4rE6eAeJkj2M4AgfeZJVcwb3OFT_7B20ppzAf2OvvT5gxiAJ-wa85tRmxuQ3BZuwRFUG1
+CqmmZxTXM76aFloWuVw3vrzz_Ucdtvy
+}
+
+!procedure Tidb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/T/Tidb', $name, $tech, $desc)
+!endprocedure

@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Inbox
 
-sprite $InboxXs [10x10/16z] Oq00VYZWPU27YM1ZSV4ZgMS1qTW1GXm
+sprite $InboxXs [10x10/16z] JSR50G0X00InmPtjlzfp8QzWtSNYDEPXoENAfUOMxyKcTyz9qN0mKGSBLglv1VjW1m
 
-sprite $InboxSm [12x12/16z] NSQr0S1000CnEyot_xJXHrLIhYUGEBOFY5QV_Rv-0uut2mfufC5icygMNSiH31S
+sprite $InboxSm [12x12/16z] NSR50GCn00InCREt_sgJOz9BO0x0r67YPSt6oaTnKAoTGwypSyXJzxMeBAfshPIcZ_eevi8V
 
-sprite $InboxMd [16x16/16z] ZSc54S0008F0r3tiFstT_KyvT95xrOHInPu4uIed4sWLuaCFWGyTKH-w9Dcr0RkQgp6JQ9whkjVmXyvzqW4
+sprite $InboxMd [16x16/16z] ZSor0GD134HHQPb__zMQVGlHlKWuSdAZNuOJOIDAaKj1BMds2HjmitU4X9sz9NLqzae7MV0oIF-qmPVzFa_ZXLjCtnWvF04
 
-sprite $InboxLg [20x20/16z] fS-r0GGX503HMLUO_giz5opRby5tsePC3s0Xm6e9JYCfxOaUnT-0hiNVXlQaWYVQaTfrL4ZDkfT_lQgVtJytpNwCdozJdomlMwnnMXffk0C
+sprite $InboxLg [20x20/16z] {
+fS_L0KKX30FGuDfc_scV2_Pt3-uKHw7aGGa04XS944eT20LGUWmy5OPq63ZIF0i6pptFlHEbpnHCXBcpObBPbGcJH2MbbF2FgGW_pFVHWLZpO8MNbSCKGba4
+dDm1
+}
 
 !procedure Inbox($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Inbox', $name, $tech, $desc)

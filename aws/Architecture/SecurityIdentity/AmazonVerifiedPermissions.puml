@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AmazonVerifiedPermissions
+
+sprite $AmazonVerifiedPermissionsXs [10x10/16z] HOl50S0m30DBlaltNpWSwoF-4o8CXPOlLjRipWYQ6iAmAQ395e9yHXaFfOb41G
+
+sprite $AmazonVerifiedPermissionsSm [12x12/16z] NOp70SC020CJ6-c0_VTrx_S2jNe1aCSfpEXBRe-vtIQhoTvlfoIssxLSnAuZHiHo4zZUTO53uMCqY_em0m
+
+sprite $AmazonVerifiedPermissionsMd [16x16/16z] TSy7ZWCm449HQO41vlxttVIUVDUdQlT7srkcJkLcJU80kTbLTlvmD-PytfnjMjzjCoQ9kPfUoZMktZK3HRgOcgFfuPuSQez8aEjx7443zPHrp1Np-QFF3W
+
+sprite $AmazonVerifiedPermissionsLg [20x20/16z] {
+bL1LWWPX2Dgr0Ez_t-dmVno-j1Lz00zemZtsPJcy_7npA1aKGYh_pw5pv_whw4UduYuqIw-k1Kdm6Oj8bNcvvQFpR5cXcuOdjWMNHpBoYGMzsZD9k_tyZ-Ko
+3vJVkWp8M5GRvcnfmJJdv02x1lpXQd_r3Ii
+}
+
+!procedure AmazonVerifiedPermissions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AmazonVerifiedPermissions', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonVerifiedPermissionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVerifiedPermissionsLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVerifiedPermissionsGroup($id, $name='Amazon Verified Permissions', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AmazonVerifiedPermissionsLg>', $name, $tech)
+!endprocedure

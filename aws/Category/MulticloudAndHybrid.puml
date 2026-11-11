@@ -1,0 +1,24 @@
+' definition of the Item aws/Category/MulticloudAndHybrid
+
+sprite $MulticloudAndHybridXs [10x10/16z] HOot0KHH3C8AzCspzj_tSY1N990d4py8kcsLFCTpWjqzdONjNDCQx3oeeEUgolybuKcIEm
+
+sprite $MulticloudAndHybridSm [12x12/16z] JKw53GC024iWrFu_U337dNRrcwhBHpbJxIIcr_J69WI-OaWGUR4G6SJ5q60qldX3RFAQ5mORNkmOgrklzwkb-iVm
+
+sprite $MulticloudAndHybridMd [16x16/16z] NOy54WKn349dkYNaSV_xVbsjnu5jFDOsvDlI6Cvj-Uj3GZbXzuEhI-pvj2pZoUwhavgWlsy5XzcxhvGy6x7xdghFyO7dGf4Fl4JIrzrzYDLXznU-YvvLxni
+
+sprite $MulticloudAndHybridLg [20x20/16z] {
+RT015a1040BGnzRCbFkV5m2G1H_Os7_2lYCUOJUhNvcVXBN6zhR7Qbv6CHQ_pAh8G5uc1mWD2Pxcf5qDCiA7eJnZDXdxVGukOWVgCCs39D91-JHsgTQRwUjP
+5binUFzdb690sQV92OASoOSj2r4B7ROtS7I1twx-ElthVW8
+}
+
+!procedure MulticloudAndHybrid($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Category/MulticloudAndHybrid', $name, $tech, $desc)
+!endprocedure
+
+!procedure MulticloudAndHybridCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$MulticloudAndHybridLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure MulticloudAndHybridGroup($id, $name='Multicloud And Hybrid', $tech='')
+  IconGroupElement($id, 'MulticloudAndHybrid', '<$MulticloudAndHybridLg>', $name, $tech)
+!endprocedure

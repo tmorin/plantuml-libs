@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/T/Tindie
+' definition of the Item simpleicons/T/Tindie
 
-sprite $TindieXs [10x10/16z] PS470O000C0W_D_rRsi0mKylc9zLiEzMRc8Ax3t65t0V9nXa0msDWE03
+sprite $TindieXs [10x10/16z] LKo30G1H54gV--zxvZCgNCPxSFhUQZ9Dsm7HWEuPkBS3qxgKOvAfWiE6wpcnDlvKLm
 
-sprite $TindieSm [12x12/16z] RS770S8m400mfRZxulsdfSCBoL-nyBPi8CeMenFN5YQJYxOXDIzH8y_DIpjjRNXRtTozzMMVtehY9u4x
+sprite $TindieSm [12x12/16z] NSYr0GH140F17j9I_l4-7fSZu61dhMp_AxDL28FiGHSeQZXEESoePUwZ5pzhM9Z-lPkvRvrbaVMlhW_stdXw0m
 
-sprite $TindieMd [16x16/16z] VSVLGKH1402mpEgpPVgl5dUuor_SDNmtJ-ip9PnQ0f4pQfwh4BrmER6ZTv4FXDeJQQoyKAzP0mMhMxFDA83Iij1dU9VibC_BiCRt9zlrsKMUlaHUrR-U
+sprite $TindieMd [16x16/16z] {
+VSsreKKn3C1GsOdnqlxJVdnCfrCbFf0glSr6TlwDIEynU_vdzq2tKj3Ce0M3EO0Lx31GoKnWoVIQOkBjoKdNegh4kSELgMEvEGyKvqmFDBGvSy_XBPnjn4s1
+BC5htm
+}
 
 sprite $TindieLg [20x20/16z] {
-ZSZ5OGH034MnPtkOVl_LXZbBEeg767z9P_7RSVXnQUyeZQpDXwvgrZLL-3GR3IWLW3Edcare1Xo0vK0LW8Uq07ORMqjOfasN3u00Q27RndGxVDbdLZeMwyS1
-B7ePV0bH3IlU-MO2YQXyIqV0MFmWJ9BpamBnrn6tF0C
+ZSZ5eMKX4431qy85MXxvHplptQsMnH_86domskU2jpp03i-kp5fbeqEUHZiDvga9ODUbo0qk80nWXtciKfYWOmCqu2S0rRLt0bHLpf7CYUyOqm04OCVQfgBS
+tnFB6J3KItdH84EGU7FUPaWmbLVZ865o4rvbbCXgvTNS-DdEMz8pBpwQpa_-0m
 }
 
 !procedure Tindie($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/T/Tindie', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/T/Tindie', $name, $tech, $desc)
 !endprocedure

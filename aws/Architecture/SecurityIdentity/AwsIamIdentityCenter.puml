@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsIamIdentityCenter
+
+sprite $AwsIamIdentityCenterXs [10x10/16z] JOl50S10409ZoAR_Vi-D5pPnod8teidcKDfcwP-GYXK5aAg0gvquFqqhnrO6
+
+sprite $AwsIamIdentityCenterSm [12x12/16z] NSl50G9104KnxCkR_li5rYNtSDEoYMmM5ICVCr5eQWFnG18EL8sbk40Toohxbzdf4tRbuWS
+
+sprite $AwsIamIdentityCenterMd [16x16/16z] ZSgr0GH130F0O8Nklzzdnfl487MBo7rWY4Xlq1alN3eZJZl9ogMTrkHvwJ1JmyA4qrPiwKL6wX51KQRO6n92-i3BhmzW-aZfNti
+
+sprite $AwsIamIdentityCenterLg [20x20/16z] {
+bOy53WGn30EbnedX__yzfkw9TieDskU8umDgjBp16avnSxq_emByGRXxXDDukwhwSIYkjoVciT-m6o-tnrTBtN5zAiJGMeHLxqxGXBfPAdxw6x4uH6_IJA24
+oIuvMC9u9xrc-OW0_n6Vu0e
+}
+
+!procedure AwsIamIdentityCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsIamIdentityCenter', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIamIdentityCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIamIdentityCenterLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsIamIdentityCenterGroup($id, $name='Aws Iam Identity Center', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsIamIdentityCenterLg>', $name, $tech)
+!endprocedure

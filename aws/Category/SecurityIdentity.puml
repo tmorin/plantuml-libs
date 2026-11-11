@@ -1,0 +1,24 @@
+' definition of the Item aws/Category/SecurityIdentity
+
+sprite $SecurityIdentityXs [10x10/16z] NSl50O1040D094R_1UEdyrdDtXo_fpFfjpCa-EsOSEf2YVaIm9VuxSq5
+
+sprite $SecurityIdentitySm [12x12/16z] LKw54G102BgpmFq7_awxHKKNYGgJsQWvqHu0tQeoOOsGxB474BvYaF1Rtt4uw35ZzbtskD-EO7FVhnT31G
+
+sprite $SecurityIdentityMd [16x16/16z] dOy52a0n3CMW_dR_-_wvuZ-J4BHbkc0IjuKBaQEIKfCJMNMOHRMr3XLcqPXjR0MsrG9toEyEDdTddmsLWc8rJBLxp9lgRVE--xpxPW
+
+sprite $SecurityIdentityLg [20x20/16z] {
+dP054WGn2C3cQ825__ztNMfZbthgg0oe_EZuYP3HaEmkEZxdgjuwuyGgPw1djjffcgKshjZXzkOFn-MedCDrXtykm7OWAkTG2dZjmXNKetOxon8NVB7AfqLc
+CPt5VWC
+}
+
+!procedure SecurityIdentity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Category/SecurityIdentity', $name, $tech, $desc)
+!endprocedure
+
+!procedure SecurityIdentityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SecurityIdentityLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SecurityIdentityGroup($id, $name='Security Identity', $tech='')
+  IconGroupElement($id, 'SecurityIdentity', '<$SecurityIdentityLg>', $name, $tech)
+!endprocedure

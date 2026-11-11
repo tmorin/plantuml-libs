@@ -1,0 +1,21 @@
+' definition of the Item aws/Resource/Databases/AmazonRdsProxyInstanceAlternate
+
+sprite $AmazonRdsProxyInstanceAlternateXs [10x10/16z] JSY53S0m00Emn9ts_yTZg0M1zEOkEQXr6NVBGmqyN_kqsznyBGgL7G
+
+sprite $AmazonRdsProxyInstanceAlternateSm [12x12/16z] LSl50G0m349HFfNzHwvBtYMAs4nljT7Ld9FK6JbXxVuorDHvxt6t-ots3bbjlSCRQW
+
+sprite $AmazonRdsProxyInstanceAlternateMd [16x16/16z] dOk52GC100ClHlUVkExu7nO5wmCmSUFXXtIJF48iaLCxVxpRQcylFjmyog_FsYxJgqTErB-__Zp7FFCN1QGFS04
+
+sprite $AmazonRdsProxyInstanceAlternateLg [20x20/16z] jSYt5G8n54N1--sZ_uRn87EKxeJ3IRJ7J0xDfi5HH5ivNmM1AZtJbhjbjfkM0pECvOPnQdl2belAoexiSKLOHhhdk9-mSSDL9pO2xrh8E7a
+
+!procedure AmazonRdsProxyInstanceAlternate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/Databases/AmazonRdsProxyInstanceAlternate', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRdsProxyInstanceAlternateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRdsProxyInstanceAlternateLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRdsProxyInstanceAlternateGroup($id, $name='Amazon Rds Proxy Instance Alternate', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$AmazonRdsProxyInstanceAlternateLg>', $name, $tech)
+!endprocedure

@@ -1,12 +1,15 @@
 ' definition of the Item azure/Item/Iot/ServiceIoTEdge
 
-sprite $ServiceIoTEdgeXs [10x10/16z] LSQ50S1024FHZxF_mlMUF2JXvhpYDihTCbFkHrGLp_Vw7ttn-u5c-hKyZCq9
+sprite $ServiceIoTEdgeXs [10x10/16z] DSp50G0W34FHZuRz5mPghteAPXAMYIU_lNUpnPA4xwbQd6_QWhxt_9qn9Adz_G
 
-sprite $ServiceIoTEdgeSm [12x12/16z] VSV70G0W20F0qDb_ORloywZ1H4euRAft1t5tux76x-lGsEen46GUZTh8ITS6tezDyTC1
+sprite $ServiceIoTEdgeSm [12x12/16z] HSt50G0W243Hh-J-2zlnw1DCHGk7JMyzXxYxrT40NwEChXv3GURG-9sST7LuEvlol5T3XC_H0G
 
-sprite $ServiceIoTEdgeMd [16x16/16z] dSh50SCm343HB-x-2pTWlkOPX3JgogBnC3g9HbVPyCY7QTp_BBqdWRRn66GrWhR4wupy6kyHEMe5SkqpETzS
+sprite $ServiceIoTEdgeMd [16x16/16z] LSu50W0X20J0fSxx_uUjnHex0QIkE3G6Gv8WFKl2y0scqVkzz9m4bCTSTuK4oecNTyHFdYFaMUluwDp7vdWmkKsOt3O-vQm1
 
-sprite $ServiceIoTEdgeLg [20x20/16z] hScr0S0W54NH2z-o_y9Hd3QdUaALLPYflHXOHIDMAPza0rxcBydgjt5Am9TAAB-Ks-B3hMJtA24XKMZiYQC8FIfQx05qsOn7Dh-fFvIHiXF-S04
+sprite $ServiceIoTEdgeLg [20x20/16z] {
+PS-73G0X30D0GnhxJ_nMdixHB4SD35K59xM4ZNLRAJPeRufjaCoJL7NQgyBegOS-bpws-85wTeyU2YGwZJUXTQ5jm8mh07fr1b0r9_MyiLFSZ73f_pi4tLqZ
+T1y
+}
 
 !procedure ServiceIoTEdge($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'azure/Item/Iot/ServiceIoTEdge', $name, $tech, $desc)

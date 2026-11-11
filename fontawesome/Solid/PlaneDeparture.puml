@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/PlaneDeparture
 
-sprite $PlaneDepartureXs [11x10/16z] Oq06lFoCS3O_Fp-Gv08HRFmGm04I1WCcACtD01LYm0Cu-U4
+sprite $PlaneDepartureXs [11x10/16z] PSR50S10008mE7VsdxRkpIi0SP423bQIDrbzUT2c36-hf169g4KsMDNcy4FISAVR3
 
-sprite $PlaneDepartureSm [13x12/16z] XSp50O000810x9RzfxKxxmzSj2KxDMKLEuWobK7jecsWSPA3YoKVH8VplyQ37W
+sprite $PlaneDepartureSm [13x12/16z] RSo50S0W3031uCxlFstTo-54v2sGb9mq49VJPhliZaNgm9fHs7HBDha3oodYMJKdcqOFZsuoPhoxM9vc
 
-sprite $PlaneDepartureMd [17x16/16z] bSs50O0m40F0F6uX-q-BkrGEwY_uaXXkD7dVS8rbEY-5PWsQ8xRJwKnQbNDefPtT7gjRD6zD-mnN6IBnhgCUHW
+sprite $PlaneDepartureMd [17x16/16z] fSr50e0W443HePj__zFQhJlV1gRbWwrERe1kvK8pQMRwkSfI2SnoP2QpnA64kTMpcTP32coYdlSSlVkXpgG7TJsQjVnIw5VKnbqR0G
 
-sprite $PlaneDepartureLg [22x20/16z] hSwr0SD044JHaNHCl_zgpNmG-MNBguLDlGhq-GPGkZmtJJS9dAvsxf9CuqetZc-wAtmgWQwvxGBIKJvIzqjyokesbhrx5gSl3eZwlwsdo4XYv0m
+sprite $PlaneDepartureLg [22x20/16z] {
+hSkr0O1050FGdFlF_jFY3jVnoWZwdCMB8Ydll77I33PQOQQug7Ekev3hqN9LVELCi0YyQLYLMwX53A1SExEa0P8vdr6nc3cU92XiwkLvqkVpohRg5Vwc_0V5
+JvaVoWW
+}
 
 !procedure PlaneDeparture($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/PlaneDeparture', $name, $tech, $desc)

@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/S/Servbay
+' definition of the Item simpleicons/S/Servbay
 
-sprite $ServbayXs [10x10/16z] Om03RWZ5pyyFP_336ImG5XiN0mCdI1Wa1oN1B4QOMapjl60Q
+sprite $ServbayXs [10x10/16z] 5SR70G8024MnHxNYttzR8QUmQZZsaTwSZO9bcZR89B_Zy9NCf1_OV9F8JO-C5P8-dFV6E5EiFm
 
-sprite $ServbaySm [12x12/16z] RKp50G0X33l1TVzfwtr1NP8yQlCnwtiNdJRRSyoTffVwD-ZyJvxaPmYgYoeN_amgDBnthSnZylFaXW
+sprite $ServbaySm [12x12/16z] BKk50G0W2BFRyV-rIXcm378AKj2J9n4vP4J3iAY8Xd4derXHGpxdiZAqmsCpEMUda54bCowi4y7k56HfoeP5TPXGT7y
 
-sprite $ServbayMd [16x16/16z] ROw50GGX40E3E-c_sjV36NGzQ0HCE9BTiFnIccdu0mtUx7yt1S2JwMU8J6gWoCBQyvv7DOVhVg14IGEefvaeyvJCBxMPaZzai-j5L9NTrCz8u0q
+sprite $ServbayMd [16x16/16z] {
+LOw54G0X30I3I-Jwh_Obp0kBxg6qYCpq4fi2zR5ak0cFBvL70vpqU0ECYqzhkpgLENmV0uWK9XlQSqw959uJPHYFu3dVJdsAtldwIM637tGoza-9g-sVilHu
+lQH5Uc5-v0G
+}
 
 sprite $ServbayLg [20x20/16z] {
-TO-50O0m4CIWxjb_MhI21chlDmrCdEx83EPcuE1YyPoaYusAk2PMFiBKmrRqUPyZOJii614kpVP9JGJctQOuQCvo16Ou_PSECyNgEDScilR8TIPjJuE804VZ
-oWo_gik77FkskOifr_9NmC_jlW8
+ROy50e0m24LP1yg__sajXltClOqYmnNnTCSb1d0tXm3QJGcKSAaubD053rTlwTNqCABsLmQ4XmWDo7ierpgfcx7ZY1gBjPOr2r773jj1wSNQ4wt7jJBlYO5c
+DRfe4V8cO3MC2eL_fewN2ZzJjyDCYMuSmj4TB-KIAm
 }
 
 !procedure Servbay($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/S/Servbay', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/S/Servbay', $name, $tech, $desc)
 !endprocedure

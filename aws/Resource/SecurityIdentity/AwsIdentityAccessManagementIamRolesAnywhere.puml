@@ -1,0 +1,27 @@
+' definition of the Item aws/Resource/SecurityIdentity/AwsIdentityAccessManagementIamRolesAnywhere
+
+sprite $AwsIdentityAccessManagementIamRolesAnywhereXs [10x10/16z] DSY50S102C104cJ_aTitd4F-Z3yC0lWlQ7jVxdmsr_w9-vASwbz-ob_x5qgg9v7qD_a
+
+sprite $AwsIdentityAccessManagementIamRolesAnywhereSm [12x12/16z] DOk50G0n308FI6N_XL_gJL2yZW3M55cOYZlUE5PTR963rIjJ2wyXjB4YpT5hTM60AdWpv8OLppYzTHF9MWOl
+
+sprite $AwsIdentityAccessManagementIamRolesAnywhereMd [16x16/16z] {
+NKw50G0X408ErDz_uEyshmXGqdwnBuQarXiUER45wwiz5zd2D9qvYHWEhrpF_B__uDk35tGCyynt3Ah5El8ciKz9d3qti4NhMtNcuy3Q8DUyiYOPIGTJzjH7
+YMxLUGkSvXO
+}
+
+sprite $AwsIdentityAccessManagementIamRolesAnywhereLg [20x20/16z] {
+ROnNOa813CEKE7PUwVtFsya6VNg8TsnkSCPtDMT2svHTv9QvKzBC_SuvK5RtEmgeuZuh2KOFcPKQMG_PRCaHU_STmGpqBRlG6bspR9R-F1sPdVCtW4xkdhHz
+zW6dvfUZKd-PGGjGa9vBjWtWdTsSlzd8cusb0zQ7-YD72kZOopk-0G
+}
+
+!procedure AwsIdentityAccessManagementIamRolesAnywhere($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/SecurityIdentity/AwsIdentityAccessManagementIamRolesAnywhere', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementIamRolesAnywhereCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementIamRolesAnywhereLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementIamRolesAnywhereGroup($id, $name='Aws Identity Access Management Iam Roles Anywhere', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsIdentityAccessManagementIamRolesAnywhereLg>', $name, $tech)
+!endprocedure

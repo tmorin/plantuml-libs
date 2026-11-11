@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsConsoleMobileApplication
+
+sprite $AwsConsoleMobileApplicationXs [10x10/16z] HKo50O104BB8_VUrzQy3Q9jUbYiiAVT2Rj1zfMsTGoHHQas8kh-9Sdql0mXsg0pb0m
+
+sprite $AwsConsoleMobileApplicationSm [12x12/16z] HOs50OD040GJOEtwBvZ5v__SfcHUCd6v8t83pY01oSDFcez7ddegLFq90VLTFOdYD7-2TZH_3WFWvkzMzHLSUWS
+
+sprite $AwsConsoleMobileApplicationMd [16x16/16z] NO-50GD120GZp2Bzz_jo6_qvnM5CcxdGxqSWKTCMYr8e-SXF4V2Lemzix_Deb5EdV4Xd9W6dtEDlL8CiPweIdDyPyUryheU-zVgPKYxP93feoyQUrtbt
+
+sprite $AwsConsoleMobileApplicationLg [20x20/16z] {
+XP053WD020IJihl8__zRWRGGxPpFEVKZcphajaTbSrKQFXZF3h5Sy4BkEZSHe2mhrxdalYvxRuDnVLceQAfizya44OumV5suIqgBAf3Z219CuKsWtH3gZ-mT
+zzxxlWSQkmxnmUtyBJ6eLlwBwRBBNW
+}
+
+!procedure AwsConsoleMobileApplication($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsConsoleMobileApplication', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsConsoleMobileApplicationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsConsoleMobileApplicationLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsConsoleMobileApplicationGroup($id, $name='Aws Console Mobile Application', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsConsoleMobileApplicationLg>', $name, $tech)
+!endprocedure

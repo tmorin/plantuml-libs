@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsUserNotifications
+
+sprite $AwsUserNotificationsXs [10x10/16z] 9Oo53G1H349FaRV_m3zDtG2WdPXXOeS4PyxvbU-VcwXJIWsk2p6Ltq3q_SeAhDZsJZa
+
+sprite $AwsUserNotificationsSm [12x12/16z] DKs70SCm36eJMO3_FpZQUy8TqQIGRYOeSmJ3TMFrXuwf4T4L8THLNdEFLvUzaMJkVa3aaMZE8LZ2fUtg0m
+
+sprite $AwsUserNotificationsMd [16x16/16z] TOw54SC030FlQeXV--yRKigjcItz9NWBBKvF7SILBhdRB73QcKbbb9UcT6ZLjLXp6E2U7q4lSi6j8yz4U5rQceZHqOckdKAC3ypahOSNW0xW1RsJrxvf0m
+
+sprite $AwsUserNotificationsLg [20x20/16z] {
+dL053iGm35CRTFx_u7DppDiyR4nIwWY0jnDuFqt0At0RyckntiElCv8wU8pXeZUba5U7YIOkChT52agohZFbBpeIjxmLqcf-RWrOd-3Cj72U2NdEj6pEZcQG
+LuEnAZXxHLLCrQONRiMPD4KcsdP3vFDYGFJxVNE_SG8
+}
+
+!procedure AwsUserNotifications($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsUserNotifications', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsUserNotificationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsUserNotificationsLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsUserNotificationsGroup($id, $name='Aws User Notifications', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsUserNotificationsLg>', $name, $tech)
+!endprocedure

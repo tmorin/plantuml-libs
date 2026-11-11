@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/Q/Qiwi
+' definition of the Item simpleicons/Q/Qiwi
 
-sprite $QiwiXs [10x10/16z] HSc50O0W503HizlRVrgbUV2Ru7b8J593oGxvmY294xK3NufRaOtWC9ZeZXy
+sprite $QiwiXs [10x10/16z] DS450GD040InENY6zQ-st0HIKWFecjbr89I0gR8sRrMeyzR4FBpvmLLvSwZQkuK1-3oxL-VF_Ga
 
-sprite $QiwiSm [12x12/16z] HSY10G0G40B0083sdnQ0W__2e6h19hYSrG9nXTr0picCXHnPOecpDwzVRo5GM349CVCaF1QxKW4-4Je
+sprite $QiwiSm [12x12/16z] HST50GH10C2mxZ3NlzfZo2z0KnjFbvvnD03712I5R85NCbFUd6nv2Iww5ozZ49syf0ZTUUL009vHU-NbAgtcr29_8Tu1
 
-sprite $QiwiMd [16x16/16z] LOo50G0n309vgGlxJrlNgoO1qB0CFnRic5xzzHzZlURqhQydRIynGzXgiNDqlNhH7NYFsjJ_KRFNUZSK4BVW-OQglAQKlVkoeH6cBlQE_p0HHWj0Kk3cCHa
+sprite $QiwiMd [16x16/16z] {
+LSm50WCm3090wXx-_zkDPdfr2NZAosWpucNH3JyQkKkgXrmwJZ93Ebc0gDbD6b0rkK16h1lZ3illEQkqyNp-JqOaZtUAsaf1qB4aJsKFlI5KN95NJv-wRfGr
+moSwQ1j7nR-K7m
+}
 
 sprite $QiwiLg [20x20/16z] {
-VP054e0m30GlTKt-_rkeuB98RpPr35oLwd2coA3iniY17OfQpbgft8BfhYKCUCPug5vFeo6SvVx7CRgla4ykYMYeYwFcsbZ6ptn3ZdFnMTPvZDZQRfIX_G9e
-hQtUFs-5ZbcYJ5ZZ8F9mB9NmX2EUABS
+PSu53i0W40J0nVts_xzjS99E5JX3fs8ZfLXSaKlJM1exOUSmL9990yhrxH7fILgSO-bVEGbdOSY6mv852AJ7DP8BQN0r4iZldlOaHzk0GrNAw25uI9uLqXCO
+3KRWs7Jel4MNIOhNkG3fbCwSgZ9t12kSMhoRCB6Kd9oBLIn-L8xui_O3
 }
 
 !procedure Qiwi($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/Q/Qiwi', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/Q/Qiwi', $name, $tech, $desc)
 !endprocedure

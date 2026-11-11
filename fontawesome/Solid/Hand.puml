@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Hand
 
-sprite $HandXs [10x10/16z] Om01FWO8u0T318iFncBZHsN108o5485BCiBLCG
+sprite $HandXs [10x10/16z] BSo53K0n30DHbvEuiF-q7woUw8aENsD0zJ2BzgkvcVSeG9VugOLxZ5airQFoFhp2nKb02AxDFiU05m
 
-sprite $HandSm [12x12/16z] VSUr0G0X0CNGd2ly_QV5hIBL2obBwT8YbFqdhwDbfyvPewiPjGnzDlf06_
+sprite $HandSm [12x12/16z] LSYr0G114090EDUb_shVTH84krfnKMWjwDVBqysBp-_EddfF2cBqC9qevNbtwa4yOs9ZPtVOPPC6WHK
 
-sprite $HandMd [16x16/16z] dSUt0OC040J1bV3mVzT_jNWVCjcm4pU1_2EE3buU_k-FzJc_VpxyyISQw_71rlsaxu3XTVgh0ulkF9lVjW0c
+sprite $HandMd [16x16/16z] LSY50S0m4CD0bTdUVzfIMC5xGkT9wTYmsOva2mavMTVdIsmxNuxkhDPgJR9wkzTxYsu2ENLXxustzwhDwb1oCrXf1_0r9VQ4kbMsDjuU
 
-sprite $HandLg [20x20/16z] hT2r0S0m40D0cTdQVzemVqhJmvN2UMp7-nY0Z53wfiowM0AfBgliX-bVOnVcI65-Z3qF32biBLzJQsrls_5Z4Y7mZEP91H28H_Axs7MP0G
+sprite $HandLg [20x20/16z] {
+bSZ50O1030J0ZU0ast-rkD-BUGvE4NZn3aegEhylQKAACukpzQIycdLnFRlYEhP_hpRIwkM7zMoxXmuZKxx7XSVxZ5yjeDzhKAPX8QyAR2GV9pZqvwJWecqi
+4pLMCm
+}
 
 !procedure Hand($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Hand', $name, $tech, $desc)

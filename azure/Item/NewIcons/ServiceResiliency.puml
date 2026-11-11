@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/NewIcons/ServiceResiliency
+
+sprite $ServiceResiliencyXs [10x10/16z] LOQ50S0W4CI0ztJ_UUl6QTeagUlhqa5Qeuo3l0QSLDo4_yZ8Q0S2IpirE7O3
+
+sprite $ServiceResiliencySm [12x12/16z] NOq50W0X20HjPVx_tmlYmZ5eDkra2Q_9JRbTCK3z8ONcVhly7Zw5eJuq8Z-OwkjE59Tmrq7_4m
+
+sprite $ServiceResiliencyMd [16x16/16z] TOw50SGW00DnIFOV-95xRwy24IJSe2_L96NcfKlGbzOB6rsbDFzVsgE_T9EJ6_s1hZvwZbzvy8ocLaFBSvQNovKC2l2MqAQa38dn0G
+
+sprite $ServiceResiliencyLg [20x20/16z] {
+VS_L0KCX50HHdDr9__N6dXlpUT0RXjMBPDj7AVAl7XVmiOi1YnLRoUvrR_eQLEsijRyLTgRAnRoP_mRizlLf7xIsMfh6WgA_jGvX2XfG0Kr79rpo17jyXLs2
+wSrz2GY3FW
+}
+
+!procedure ServiceResiliency($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceResiliency', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceResiliencyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceResiliencyLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceResiliencyGroup($id, $name='Service Resiliency', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceResiliencyLg>', $name, $tech)
+!endprocedure

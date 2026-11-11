@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/M/Meetup
+' definition of the Item simpleicons/M/Meetup
 
-sprite $MeetupXs [10x10/16z] Oy0A-C40XSK8vJAmCl0pS89OOCp73oIXwhWHMZWXvh0mCF0oC
+sprite $MeetupXs [10x10/16z] 9SQ50S1024FHZzRB_jEUFYHXKZQDtFMguHWborMy77jUG2h76QxdQ9Jv5pQRrl1-0bYz_-KiihO3
 
-sprite $MeetupSm [12x12/16z] POo50OD04C02l5lsdxRkpRdopu0h6rD7VlIyCW4q5NBp01I8wDLb5a658iJ1_S2ZAxW0lFF-kHsyYN06
+sprite $MeetupSm [12x12/16z] FSU50SC030F1DuUr_xJbvem239oRjV7XBPtNmjj8kgGAIAq0ssLqot1irMVX4Ia5N3ipQPA3QvEkF0HGUjkTJpZNeyhXm_Xu0W
 
-sprite $MeetupMd [16x16/16z] TSV50GCn0C0m7qF0-qzR29Ihd_X7tirqOX5febMYK8EhMOS4PANO3J3DvP69fB0isGqI6HL0OMTcLvdhHO8A4Cr9JSDUpsWtKbWDTDaOdJQXMsYk
+sprite $MeetupMd [16x16/16z] {
+PSw5aSGm44JHFsWgg_EFza3ouRxYmGO8Nct5ZzYt36EnsZHTBAL7XGEdL5cMgNFkI0VJhSP6N0eysKmQO271OUajjK7hW8C3IJiGEgbntSHO7rjZVcyfLrGj
+Tx7ClhOq7bMPmLby2nxl
+}
 
 sprite $MeetupLg [20x20/16z] {
-TSu5Zk1030J02iUQJFh_lpsHRxd4nlQNvO3Xf_YgtbdBkcXhfD6Uj0dOyuc090yh90jOag3RfxMcP69OIfA7OqWkQZFTIIv8Wb2IHAqaONrbaPwR2JCpkot9
-0TB6cGxZo8SRkAKLhGVt6cZdpiPyVLQqVm
+PSlL0Min30JHiSoNflzg7pYSd2_1BlzbVWL0E_aHbPS8-gMZZTUrrkxTgrvy6gmifrxZFCgndUwnearDB4aBa1YwiowW1jMUrtCKzbIzB93JLE0a9fTUP61L
+osHFuVsMjC5PyqLH3O33Cwqj4ohBz6xVT6D9mwUT-osywy5JqQjV3Xoyf5G0Ll2bylGN
 }
 
 !procedure Meetup($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/M/Meetup', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/M/Meetup', $name, $tech, $desc)
 !endprocedure

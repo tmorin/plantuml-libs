@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Hryvnia
 
-sprite $HryvniaXs [7x10/16z] DS650S0W0C2mpXNw_xKu2TEg0L1SgBoZ3TrXWnlLgRh2yW0P
+sprite $HryvniaXs [7x10/16z] BSl50GD100EnyJAx_sgJ8_q5I42sNK01cI0fETRUMwkNrdklqKbIm2B4Dmm-Vm
 
-sprite $HryvniaSm [9x12/16z] JS650O0m0C2muax_lnQP9xHs3pu6GCT7eb5k4xBJX56YNkYc0p2WU04
+sprite $HryvniaSm [9x12/16z] HOk50SD030DT43ng_sdBJSuCgXEEfB_gDGFtkBvu5KHA2MXBuWUzC96O8b6h_GMXPzvJo-wwrC4J
 
-sprite $HryvniaMd [12x16/16z] PSm50SD00C30h7sc-5Sxvfw0us1BF4nl9bT97KaJLoTkb3Tbcm_gB7xmPVd1fcrxE6ImnRu1pOV5LRdV6pyk
+sprite $HryvniaMd [12x16/16z] NSx50GCX40NGyLtqzrzjFDWxmJWT94gnp-l6Htg_4vAnDCYeS_XuPnXr35rjqFMzrf2XBCDYl0NDz4eLF6_ul4aZZ9bsJm
 
-sprite $HryvniaLg [15x20/16z] RS650O003C2m3lV-VotkaF0lWbFbecGrk2jOE6iYL5R1IXDkD8Kuj1eCFaHxr_3K-f3x08DoemCtlGAHv4tDB3onADorRAgc2FvC
+sprite $HryvniaLg [15x20/16z] {
+RSwt0O0m50DH2MV3j_QVbfpXTTST_j35G6nS7RI8QtLQD4b-RRFi2PeCDruYBb4DS74JacJHwOdT7L-f9nTDAY5k7D2KSE4wTp6PeqjvQ6MVE-3irjT4R4ZY
+rmG
+}
 
 !procedure Hryvnia($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Hryvnia', $name, $tech, $desc)

@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsSecurityAgent
+
+sprite $AwsSecurityAgentXs [10x10/16z] JKo50O104BAe_GTMl_ywWEncoNKGVcEPG9jeKy9san_L6wdV_Ky6oCTTHSfc7m
+
+sprite $AwsSecurityAgentSm [12x12/16z] NOs50O1030EnwuNz1yRrwvhChIHtPK5vbbjLu5cxXUcifso1N7L6yQoLMCSp87NM0Pnuk3pfNba1
+
+sprite $AwsSecurityAgentMd [16x16/16z] ZOpL0SG024DF8eJzzpsNUlk-89P3b5JvORxGvnNqUg7FJpWnzFbDTT83_tL8_ltjYuZwpJz-j_3xYouKFmK-C6L-2WKApkMQBthvoe3E8dS
+
+sprite $AwsSecurityAgentLg [20x20/16z] {
+bO-54SH024LlZYz0__t6FMDvgpZKHthPDv80yweH85k0JbNOcB1ZLpP5kCf1iJUTYBK6g8ikbq8WNpf9TTNfBmRoflClkeJQ4E4cfsDu7mAEGYQZpyBaCaca
+uDe1dE7ANpmcHYp5BcHzPWG
+}
+
+!procedure AwsSecurityAgent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsSecurityAgent', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSecurityAgentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSecurityAgentLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsSecurityAgentGroup($id, $name='Aws Security Agent', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsSecurityAgentLg>', $name, $tech)
+!endprocedure

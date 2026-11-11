@@ -1,0 +1,27 @@
+' definition of the Item aws/Resource/Databases/AmazonRdsMultiAzDbCluster
+
+sprite $AmazonRdsMultiAzDbClusterXs [10x10/16z] BOl70KDH3CAGoCl-6_zcSw5de2j-jfQIyaeqnohXC5DMJVktHPn7CarNHN83
+
+sprite $AmazonRdsMultiAzDbClusterSm [12x12/16z] JOp50GH13CCiUQ3_YW-Nz4fCEK3Eqyaqgeb5EvBXzsu59BCEREBsNm8uxqBD74uquTyzD__td-ST86y
+
+sprite $AmazonRdsMultiAzDbClusterMd [16x16/16z] {
+NK-50S0m30hMRlyVFDTw7AXt0VXu5O7jutU97SNOqPxVhe2-vngslAKED2VU_2DXW7kUL627XOa0-yGRL2M1Csx_W0oEUgjW9GeAyzuCUCyBLQ5eb9eTNHpo
+KT0eVdsBJ8rwLm
+}
+
+sprite $AmazonRdsMultiAzDbClusterLg [20x20/16z] {
+XP05WiL024C32NR_2s-PzQ-l7SC1xuYCIE8lR00ssFq2YrVKzUzb7NezUDmIQ2pdy4af1-WKgLoP2BEr2pZfUsCdpPNhVaZF05no09DoOquRVaXG8dB-oEgl
+xwhNju9KpSdXPggVl84LNZ9kVRyXA0zv0jwdDrzP_2Ommu6LPmP_eNxiVicCAE8H7m
+}
+
+!procedure AmazonRdsMultiAzDbCluster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/Databases/AmazonRdsMultiAzDbCluster', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRdsMultiAzDbClusterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRdsMultiAzDbClusterLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRdsMultiAzDbClusterGroup($id, $name='Amazon Rds Multi Az Db Cluster', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$AmazonRdsMultiAzDbClusterLg>', $name, $tech)
+!endprocedure

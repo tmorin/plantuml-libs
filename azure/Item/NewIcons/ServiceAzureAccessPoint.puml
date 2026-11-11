@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/NewIcons/ServiceAzureAccessPoint
+
+sprite $ServiceAzureAccessPointXs [10x10/16z] JKo50S0m2CCX_n-yrRqbIi_YY1X3zkNUfgfgGn-1waCVizbYULMLSaqoMzZDU5M6jUS7
+
+sprite $ServiceAzureAccessPointSm [12x12/16z] LSk50GDH20FGuB3_mWqzVrynV6McuH15eg1QGVmtnH9WPl8GGF11BYmp0uT0mhz0-UFjviPtHNeaBYcW7m
+
+sprite $ServiceAzureAccessPointMd [16x16/16z] RO-50GCn30CDijBilt0DXQTx58Ja0ITvbAluoJKWS9HHb7uL8xjnaDs8lJT_f04MmY6NwpNTXJbj2ilR2yj5Cz9yMlV_l007DAkDWa0-UZfHo96lUWC
+
+sprite $ServiceAzureAccessPointLg [20x20/16z] {
+TT250OH044FHqIpNVyCN22uVV_ZQPmtaLHnB5nigxiAQoN6Y3IT5KeUXbIuSFpRrAU9iE9V47jfhgA85bxJ8iDg_qsTFHYN1BfRcNhPP9OlYNig8MSMvT87G
+qSNQ_Jg0tMYxfW-xbRRr1m
+}
+
+!procedure ServiceAzureAccessPoint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureAccessPoint', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureAccessPointCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureAccessPointLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureAccessPointGroup($id, $name='Service Azure Access Point', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureAccessPointLg>', $name, $tech)
+!endprocedure

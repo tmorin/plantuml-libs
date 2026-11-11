@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsAuditManager
+
+sprite $AwsAuditManagerXs [10x10/16z] JKk50S0m29j4uF-3jtgB4yaTbgMebsphRPWPfGQ6TP5GPHKqNJ31KBtSp7d63m
+
+sprite $AwsAuditManagerSm [12x12/16z] LKs30G0147h4_GT-yypgJxpBLT8IvcjSjj1HImnrrN50d_Mc891hBbb7BGJslDVKffGVBgT_MG4
+
+sprite $AwsAuditManagerMd [16x16/16z] XOx50SCm54C3Gk-_RpdWKv_ni_eNyuCEcqfihphibuaMcm-xI5Ffo2VfRUTXkqb9-R0j1IIXhwsFZSFES6it-kLpbVSjhsTyzT2HPEMcbyZedSEQUG8
+
+sprite $AwsAuditManagerLg [20x20/16z] {
+bOzN0iOm289R8GAv_tt_qVtQBzEjUO5tyW0WGB8qBoziTuBIfMFiPi9Q_T01-KFTkiZ9e1ywWQIg-FJRwE7sfRD-cEC7USPoY-MVEcDdvenQKlkCzHYnc8Iw
+OciniRImrZLRT-8HPJWR0CZjAkV49td75m
+}
+
+!procedure AwsAuditManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsAuditManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsAuditManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAuditManagerLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsAuditManagerGroup($id, $name='Aws Audit Manager', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsAuditManagerLg>', $name, $tech)
+!endprocedure

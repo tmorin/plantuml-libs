@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Elevator
 
-sprite $ElevatorXs [10x10/16z] Os3WvmTY804bWGW16Fcn0WPUe2e82umXse6O0y82OswuSW
+sprite $ElevatorXs [10x10/16z] JS7N5SDG34CnyhmkVTpzfqtSRK0Lf8asjWwkfTHMQpCVlK8TR2oGsUI2bS2GQfK6BBjtUn5SuWy
 
-sprite $ElevatorSm [12x12/16z] TS750G91002nmKyMqd-tV719AcfYhZ3gDFLkMUzEmr_5L60Jci0ONCOPgbGJjfLgE7gw0W
+sprite $ElevatorSm [12x12/16z] LS675SCW5C10qU7v4-q_RNhp7Ka3gWj8lJOWSzQzlDazsRbhprjrWiBqOOJ6yA7cV1mvLpM0Ke1GHsiHhGsTViqR
 
-sprite $ElevatorMd [16x16/16z] XSwr0S0030F13tD-_sd3Z5TOKcSWLmOwPxQM-K8uu5LM7GMf_yfWl1Nh1fQxxc2zisQ_WshuHylXjeuOpVTnjqtJh5Sywm4
+sprite $ElevatorMd [16x16/16z] XSjL0aLH24BHVVAbCl_PtkvQ2dz0b1GXI0gq_dBzWU2HPyatafxzuJzshq2MCXJr36pgdllSBGk06H1ChKohLbfPhG-jxvVMvx3th3NF3G
 
-sprite $ElevatorLg [20x20/16z] bSY54S9G00JHZVlV_hjb3dV86pa1KEUaKH6hbtCpLsWGkNPebYSJbQ-AExGqYGqMBu1D4zn_vVaRwGqeVa7ed1WrEg8LGgCXQY6AKQfOxHArklYAuhFf
+sprite $ElevatorLg [20x20/16z] {
+bS_LWKKX30JGmIsNwR_R9MIV-_b1Om0YoOfbSB90UQgCHVHDkP9pBXuguYTZtXaGFX2-SWnRny6J0GHT0s2FjeUGWlrcAk1qTK3bIKjJbvaQJqIEOIL4Q0eM
+HpfT2pTihTdApK7r3kMuILugMNMLvyE9ayUhFm
+}
 
 !procedure Elevator($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Elevator', $name, $tech, $desc)

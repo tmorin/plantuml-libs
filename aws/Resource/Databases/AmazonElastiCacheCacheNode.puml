@@ -1,0 +1,21 @@
+' definition of the Item aws/Resource/Databases/AmazonElastiCacheCacheNode
+
+sprite $AmazonElastiCacheCacheNodeXs [10x10/16z] Os220WOc1WP64600iXcPc1YPmIm888U5C1a
+
+sprite $AmazonElastiCacheCacheNodeSm [12x12/16z] fSwt0G0n48H0sEk_vZVokOWc13Fo8w98Fa9zACXdewPvT6cpUJwy
+
+sprite $AmazonElastiCacheCacheNodeMd [16x16/16z] nS-v0S0038D0aEpzLqwJTu9SHmdu0cnpws91G12geNHaMeY6c4Qz-l57bvVw_Hd05pW
+
+sprite $AmazonElastiCacheCacheNodeLg [20x20/16z] rP350O003CHIx_uBumuBaBgyZY-aCoFYY1Revqz1WYgEYw8ca8iRf0hcQfmxCpTCxDmXx6dVxVnxr_BKQewyKNmo0W
+
+!procedure AmazonElastiCacheCacheNode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/Databases/AmazonElastiCacheCacheNode', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElastiCacheCacheNodeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElastiCacheCacheNodeLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElastiCacheCacheNodeGroup($id, $name='Amazon Elasti Cache Cache Node', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$AmazonElastiCacheCacheNodeLg>', $name, $tech)
+!endprocedure

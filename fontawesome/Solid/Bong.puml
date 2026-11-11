@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Bong
 
-sprite $BongXs [10x10/16z] RSQr0S104C0mXpdUVzhdybG9K7rXpBPD99mr3oeWmDtMnCi
+sprite $BongXs [10x10/16z] BSYr0S0m00F1Jyoe_QSrNoC0eyMmoJbnzE_hh_shXHy-VPzCQo07JWQyuY8FIKVQtxO_T7nC
 
-sprite $BongSm [12x12/16z] VSR50O100C2muaxtdnPtkRm2u8n5VZdssFxUQ7zFxrmJQftRoymSS1TulJLY1
+sprite $BongSm [12x12/16z] LSR50SD00C0m7qF1-qzR24Sl0I_LDujYQvRrGJ3S7ew32PY2lVg2OOIeG72cdDCqG7QJxm_x0p3M3lW2
 
-sprite $BongMd [16x16/16z] XSU53SD00CNG7pxs_jjMn-LOO3tbA2Mr7BL5hS2s9dRrF59alVLcNdtWYYbEIb2Ojv9NQTfztWAX527RCilsRxxUh7V7mKDw
+sprite $BongMd [16x16/16z] bShL0KCn049Hdai8T_zfw-uzVuXsp85ria82HMU95FHtzdJCd79XtiS24gmJhhjet4YDOTHEZtLW-kCxDJirno5Sv5Kkr-nzxg-vrrwvdRS
 
-sprite $BongLg [20x20/16z] dS-r0SGm44JHCODW-g_sS44K-OTlXVX5ASAwgKrcancyZGGMewUszhOmTmOAhXJZz27AAWRzJRIVJT2X_Sm-gLDMNGDB0ykzoRsvikrdHsL0j_a4y0O
+sprite $BongLg [20x20/16z] {
+TO-54KD120NvVWQl_swJSzzXR77oQ2GC5IGxgUvWyFiovA2AWIPIldLm6dPskxh7pFE-Ce2ZO-_0-JuJBcS5CQugF-5luuaAk2bmmS_m07BVJmW1KhBZykxk
+tRrokrxg7GM-LccAkAh2Npy
+}
 
 !procedure Bong($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Bong', $name, $tech, $desc)

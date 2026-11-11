@@ -1,0 +1,24 @@
+' definition of the Item aws/Resource/Databases/AmazonDynamoDbStandardInfrequentAccessTableClass
+
+sprite $AmazonDynamoDbStandardInfrequentAccessTableClassXs [10x10/16z] JSc50S0W40J1FKd_9SUHWNV0DnuUITKj0l6G-JcY1gpyLyqT5JTRETXS
+
+sprite $AmazonDynamoDbStandardInfrequentAccessTableClassSm [12x12/16z] HSg50GCm30F1bnpOV-D--G9685L04vIY3Np3wgY3mdVrgrb-5rJMwrUsnn-KgTyAcirBsrp-0Zm
+
+sprite $AmazonDynamoDbStandardInfrequentAccessTableClassMd [16x16/16z] ROx50GL1349ZCDD_mokHh_jEKK1kz4O6ezj5m6ePiu1cp-bPFG9n0O_ipMRVcZez0_81HEz-xxvsIMNtldR1Ugk8KZCAHyGiAqmVQowHSRRB9xhaWHC
+
+sprite $AmazonDynamoDbStandardInfrequentAccessTableClassLg [20x20/16z] {
+TSk54SD034JHBzQu_u9ZtocSlE45_l7SoXZInh0MbX0U92OhOKXDvfuLVieEdom0MO39KdWGuvEsTt4I7dfUTXJ370jEaivew5nXCAHBUMR3bUQa_Gn3KZZ9
+aSyidA5bgcgkNJofdKGFuPCx_zm
+}
+
+!procedure AmazonDynamoDbStandardInfrequentAccessTableClass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/Databases/AmazonDynamoDbStandardInfrequentAccessTableClass', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonDynamoDbStandardInfrequentAccessTableClassCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbStandardInfrequentAccessTableClassLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDynamoDbStandardInfrequentAccessTableClassGroup($id, $name='Amazon Dynamo Db Standard Infrequent Access Table Class', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$AmazonDynamoDbStandardInfrequentAccessTableClassLg>', $name, $tech)
+!endprocedure

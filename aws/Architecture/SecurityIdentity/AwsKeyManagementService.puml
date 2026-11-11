@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsKeyManagementService
+
+sprite $AwsKeyManagementServiceXs [10x10/16z] JOp50S002CHg9CV-0zSj7-IaVyHx4RWsA8pPHKJXV2wBVMn5xPo_KidRycS3
+
+sprite $AwsKeyManagementServiceSm [12x12/16z] NOt50S10408_m93qtszSRrrX-alxb4cufqbyrSGvvBWXAJNxmfOqSzQnJTxQEf3jb-B8ewm
+
+sprite $AwsKeyManagementServiceMd [16x16/16z] ZKo53GCn49DgJFVVzvd4uJEEYHNt2wamBxJhyiKgVrLVNRjkIlHfs636PeZEUfea_B-m5K5mFzZPdnFlewYdRmWPtrMFwRK2
+
+sprite $AwsKeyManagementServiceLg [20x20/16z] {
+hOq7ZaG124AJ3wXu__l-tjDsP-Pf6g7uF_HyBqfKlIH41PuYqdBogPcaiNRsgGcQtR6GswZOQIgrWDqecgoskyrpk1WGKAxTrwGfa9YzkFk6X9B5cozZllal
+dnbS0NqOHR-f8VqZ9W
+}
+
+!procedure AwsKeyManagementService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsKeyManagementService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsKeyManagementServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsKeyManagementServiceLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsKeyManagementServiceGroup($id, $name='Aws Key Management Service', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsKeyManagementServiceLg>', $name, $tech)
+!endprocedure

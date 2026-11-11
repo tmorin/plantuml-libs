@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/ContactCard
 
-sprite $ContactCardXs [11x10/16z] Oq02_3W00oCGGwHH58558IGdXC-7pHWa0G
+sprite $ContactCardXs [11x10/16z] JOs30G0n54DJks__QS_eDnFPLpHvPHvMe9So0Aj4jhO2sNHwIWEekHsjgU0aPIw9FhZA11QmXM87
 
-sprite $ContactCardSm [13x12/16z] Oq01_FW05nARWO45H32mGZWSA0h1Can0YXFPI1GBk8601yBaGT78pGS7x
+sprite $ContactCardSm [13x12/16z] RStL0S0m20JGYnjm-szRzxwV18UxeFFI-U83ERptDlyRvbv9AHbdOQvehPKp4p5smEdSZPbmap3BtDdivr27ks02
 
-sprite $ContactCardMd [17x16/16z] ZSx50O0034FHu1h-_jFYxkzMhoxIPizA-QNaI1AWmJw1Uum2YOlzYCCWg87-3GQL1ZahJLYv6fWduaHd7G
+sprite $ContactCardMd [17x16/16z] ZS-30G0n30NGNolOVzkp-MetE7DyvFINOBclKmYXwI01fc_G2zl4WH-Fn11yrSrsf9c-5_kEY2mhlMspO9IsipBIHvVWSDO1
 
-sprite $ContactCardLg [22x20/16z] bSl50O0m50FGu4xsdnQjUz_bQn3HULg00SVEMjj6NmSqVE13GVPZytAsZWrO_-Qnqu7FoS-vFDv-wnuJFoi-YvVxq7G6jzot7tCcXk2WRq3G3G
+sprite $ContactCardLg [22x20/16z] {
+bT230S0m00J0ZvtVVzhQxiK6hfbmOX1u8V2l9ErOXaxcA0FG90i67Dcvxesr9d1Knhb7KHhsZEeuxjNjlbLBALKaMKAdSY0m2Dnoc73BOYIuKqTyTVsJrxz-
+hGK
+}
 
 !procedure ContactCard($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/ContactCard', $name, $tech, $desc)

@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/GasPump
 
-sprite $GasPumpXs [10x10/16z] DOd50O0m0CI2Ezb_MgJj_IAW2bHG105bDZIPIsZWQ2IXRW-X8NW1
+sprite $GasPumpXs [10x10/16z] BOZ70KDH089ulUl-qoQ_UH50jWz0SWpH8HpIxGxeV8tbw7iHz98A-wMqMI-5KVKHAxM7Cl07
 
-sprite $GasPumpSm [12x12/16z] LSR50G0X00InELVO_gl5DQ-08X9bl7Vu3uIZOxZc9-6q_yED-fc-zAyoxO47
+sprite $GasPumpSm [12x12/16z] FKk50S0m369rv_zlLwMIe2YSPm3VV4pU1teCF_4Km0139_oHoc1Cl4-OpOVP0Eav2LjRXHtOkxh68HnSCCyF
 
-sprite $GasPumpMd [16x16/16z] NST50S1000InBNF7lzfZpY_IJg1a8v7cm_tdd1sOTR3xptByzR5sVw7x4_v_JlWK7eHBpJc6ytUV5_gBQVYvT7-WUq3sXre
+sprite $GasPumpMd [16x16/16z] LS-50S0W00F1r3s__xGrF1Ku7FM430gvm3RuhSwlJVV-Ev0MfiylOs66rb2F_rolf_xtdz-QYc5hlRBNjcOqLlrlP-kUrQxNNpYxZfHENqPeBlm
 
-sprite $GasPumpLg [20x20/16z] PSZL0OK03C30u4xsd_P9SNgV1ynkAawU6g04gBp0PByT8GvjqxLQai_tDMvNXEtOxXJNvOFfUMkLJwTqQBxI8LtXc0vNrdJg-Zh6POJXSHjlogs-
+sprite $GasPumpLg [20x20/16z] {
+PSw54S0W44JHZU7Szjzj1hS_oiCEiAmfj3xsRa1zoIn5fKm-AFcqeKEgB2_ocomcWoEVqoZRNNYIsnzuYxMI9JmDOJ56TPYGPhSFGY1kxrbU2ASTvpvQHLaD
+aUIp6TxtmZMFXz8zcLJx0G
+}
 
 !procedure GasPump($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/GasPump', $name, $tech, $desc)

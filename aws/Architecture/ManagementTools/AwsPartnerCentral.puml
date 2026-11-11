@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsPartnerCentral
+
+sprite $AwsPartnerCentralXs [10x10/16z] HKn50GG14FhW_VkUh8uBiArlrjtXKdHChdLDOft_w7zNzZib3BKrPjLJvrzs2VwNBm
+
+sprite $AwsPartnerCentralSm [12x12/16z] BOo50KDH20Dh1Eww_xoLppCafih-hGm7W4uMDmcryEITUh6ELxqa2gRfjXkT0ejvZ9Aakd9YUuHDvq9m3nVk5m
+
+sprite $AwsPartnerCentralMd [16x16/16z] {
+RSz50aDH34BHIaZWTl_hhTkNfpdCuBMIy5il_0XMysEYHn1UR5LVBF9Y2jId-LeWk_m9wdmki7XHiYNevC4HFC0SHO8qFQwcwsdFJ5Vwt9WG81Kml11iab-d
+lCvklni
+}
+
+sprite $AwsPartnerCentralLg [20x20/16z] {
+VP073iD03CFGo7SMrV-_jtit2M4icbZA7YJy66xttMHA7JuKTe7U9R5Aph4-GkHOZFhCAgIcv8-kVFNnMv9vgCCCwGeFDSfsZOHvC_VlbU4mfBihxgzEl2o4
+1DM5RgbHZviBjfaAMZgG9oqI73us6TmAmkz-_Ewtpna
+}
+
+!procedure AwsPartnerCentral($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsPartnerCentral', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsPartnerCentralCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsPartnerCentralLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsPartnerCentralGroup($id, $name='Aws Partner Central', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsPartnerCentralLg>', $name, $tech)
+!endprocedure

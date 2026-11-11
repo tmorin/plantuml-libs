@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsWellArchitectedTool
+
+sprite $AwsWellArchitectedToolXs [10x10/16z] BKo50G112FfGYVttlRGBiEoLfw1exPbPgND6Ae1rjkAFSvOhAX2yk6LgXhGfbMZ9PVlc2G
+
+sprite $AwsWellArchitectedToolSm [12x12/16z] DKs50OH03Fk7DhR_m9pMDOapP8GLBVbEq8tOdasHjOfXxwW1A1utxrir3cUjAXQnxj1Ba3acXz7hlgeFKxnd1_Q4V
+
+sprite $AwsWellArchitectedToolMd [16x16/16z] {
+HKu13e102DecgDB__vikPrJT0QXAge4EjV-ZIMVzWfhIjJMbG0kM5m_B9v0HKSj9e4kcQ0GtCw9f5zNq1v2WY8-JuFbTJ_QxzLDEggNhNo183MuXJ6MjiEzX
+sD4N
+}
+
+sprite $AwsWellArchitectedToolLg [20x20/16z] {
+NP254SH030FdtmBh-kytp4gETinZLPBnKOxjYNQxl92Ag3SAcXP77Wo4mEhrSNAYzsqbEUnACShOZBCn0bK4PHdZqCBmqv-heGx3052ms12-d4du3mgxNKP3
+HP4M6zaPXB4W5LbUqSNWTFTPdw62S8reDpogNNGFmNQ_1vXhVy95JpG3
+}
+
+!procedure AwsWellArchitectedTool($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsWellArchitectedTool', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsWellArchitectedToolCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsWellArchitectedToolLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsWellArchitectedToolGroup($id, $name='Aws Well Architected Tool', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsWellArchitectedToolLg>', $name, $tech)
+!endprocedure

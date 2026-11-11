@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/C/Cloudbees
+' definition of the Item simpleicons/C/Cloudbees
 
-sprite $CloudbeesXs [10x10/16z] DSR50OK0040XVgU-_QUrvGGUWAhjzoWOGw3lkL-f-eFuT4wWqJ_mgDup
+sprite $CloudbeesXs [10x10/16z] 7SR50S0m40In2HsOjlzgOz1BV1etcocYdigWbpE7SlQfML4fDppLYxBf0oW9eRtiO6UtIiZOdg6F2G
 
-sprite $CloudbeesSm [12x12/16z] JKs50S0m2CjMr_n_RTqDY06G7zRoR6lLhH1sDgb_OTJpizmSeoojLQt-ILhszGERGzvQpbfHl0OXFecjh
+sprite $CloudbeesSm [12x12/16z] FKe50a9H38BPA-v_MlM_Mb9WT12ZJAf-SU0MGVd0utKU7LKd_mnLEG7pVeKo9GE0aQ7gOBW6_iXWwe4frSw3ta7y
 
-sprite $CloudbeesMd [16x16/16z] NOo50GGX3C2AEzb_sjT3WwOc7woL3RwqKn4UrV2jPdYZ_wlyvN7Mg-5pNW_ydn68FCYNc1pK4Ee8Z7vtkKplzCCT9D5Cbp5_alxw1W
+sprite $CloudbeesMd [16x16/16z] {
+FOs50GGX30I3EzD_jt_X0uF6TaLycoFA8wE46qOOgQTPBLxqxqviY_TfTU1kdFK1grU8f-x5cG0GEJHDT23nPudYJh-wOBQcLyps-WLuzQ9I9g2Tz3JLs-We
+MHvnpFPv_
+}
 
 sprite $CloudbeesLg [20x20/16z] {
-RT255O1030JHnJMP_hlbvGGV_EEdg1_qh76YxaxaTBiMO9nCXcezU3arLpDeo_LxDOUcc5MRONsR27pPKZw5d7U1syFAgvh5tCFsVG_iLGEhZtgR_CUsX_7O
-HfP_V0TUO_OQoQ7G_1Zm3TWRwG
+NOy70eCm30FLO8VD_V-rRG4nnSp9KrBffx7geO5DTpJkA6jpeWgaIYJBoMQ8zRj0aONzt3mpLuyRcw2-MGFqJNmI-eZOctUi6X8hFSsTqUtvaIMt4Z40Uxvx
+kDJqPW9kBEM5RZFDc-UlVSQYn3iuq1gbDnpqK1sdlaZw0G
 }
 
 !procedure Cloudbees($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/C/Cloudbees', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/C/Cloudbees', $name, $tech, $desc)
 !endprocedure

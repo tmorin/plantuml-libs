@@ -1,0 +1,24 @@
+' definition of the Item aws/Resource/SecurityIdentity/AmazonInspectorAgent
+
+sprite $AmazonInspectorAgentXs [10x10/16z] DOl70GC10884pVuZvpelQnB83LjtwnNSAQnhogcK_2x5jDx3dgpUPyMO5_MJv
+
+sprite $AmazonInspectorAgentSm [12x12/16z] LSYt0G0n0C90GDZxR_mvgZhGBoZrHHoEuSE2pQbBbTlIF7vJGUZc0rl3noXqAj6U9Gt5kYk7xrO
+
+sprite $AmazonInspectorAgentMd [16x16/16z] PSd7OGDG3CDGi4W_-o-SvcxZzaW-KvlspenJUtMXgv4ysel78p3Z0YZnVkt1DnU7HCdLsi3fvQSUsb7khbdNFVotJXidkWwjxUx0TS0MU65voeUOfxJblHy
+
+sprite $AmazonInspectorAgentLg [20x20/16z] {
+TSg5ZGD04CLG_-6z_liz6eKJYv_Cfon_itlHf7whlgCZPLL8HnSx-0Wqhc4BjyB064MiDQKuqG5DhQMI6hSHnSKi846ZKbw-KWzmxFBHbE5jRPJMyD20ZJXK
+i8rqmiDRrcqNTCpTY2-OovdjPjvH3dt1_HOMxwg4vXdBNWnByQuV
+}
+
+!procedure AmazonInspectorAgent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/SecurityIdentity/AmazonInspectorAgent', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonInspectorAgentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonInspectorAgentLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AmazonInspectorAgentGroup($id, $name='Amazon Inspector Agent', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AmazonInspectorAgentLg>', $name, $tech)
+!endprocedure

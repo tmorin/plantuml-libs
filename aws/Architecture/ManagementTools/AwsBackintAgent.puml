@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsBackintAgent
+
+sprite $AwsBackintAgentXs [10x10/16z] BSor0SH040F01mlxxzU7YnEfRNfF6ccUrOov0T3s584ARgKQj9Q2MUeYy4oi2WzoGZi
+
+sprite $AwsBackintAgentSm [12x12/16z] BKt50S103Fe4xVxxzYokq2rvVgATrvGIThDCJCtkJaCYtAK1V2liERnRops70q3Q8EGiKou-PxZpjjhDutgJ7m
+
+sprite $AwsBackintAgentMd [16x16/16z] {
+HS-70SHG20BGAw32_WD7Omgfpz-zqSHFjE-N2aQ_7o8hiOLv8VjRj4wA353kM-CWGedni53Vj1D_MSE6Y71op6g2Ky2EbWB1UPfsa3oTxuu0_iDBIHQPrdk0
+VRrvZdi
+}
+
+sprite $AwsBackintAgentLg [20x20/16z] {
+VP055W8n34GVySdz3ypKSBRU7qzV3M3iTxJf6qhZg0KFqW9uy7aGT3vA6mULcqVmUwo9ID93qPw7URf4TnWCZQKcyDjukWfjLyZW1NSRxnL2GTAgRjIowN2b
+uPOMhYim-As4yRJWt0c6yUrZQQsuwoY9ICb75y3HfQhntYsyj-h0B_HAxW
+}
+
+!procedure AwsBackintAgent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsBackintAgent', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsBackintAgentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackintAgentLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackintAgentGroup($id, $name='Aws Backint Agent', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsBackintAgentLg>', $name, $tech)
+!endprocedure

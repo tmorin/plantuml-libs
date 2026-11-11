@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/C/Cockpit
+' definition of the Item simpleicons/C/Cockpit
 
-sprite $CockpitXs [10x10/16z] 9Oi54W0W40AnTOh__zPbRgy3mVDMi9CU8OMpgckrbVCm2D8aHsLCXrHOxrH3B0zTcWy
+sprite $CockpitXs [10x10/16z] HOo30G1H34FVjuhzfpsZHX98i_UPW5gvQwfmZMd2YD5XTWZk4Ng79DSqmL8OC7_6h_8hxm
 
-sprite $CockpitSm [12x12/16z] 1S694O1020Im-EiniFrtQm8gBo3DaK20FGJWRCrD5Ib8WWvq1kzxy4GmWWKYEw0USe8QwFGxUVW1
+sprite $CockpitSm [12x12/16z] JOu72W1120DdIpp0WF__xH7gshi1ojqkGbQid713Q9iIeVEXCcXqvu0xxPaBTCCwCqfiq9mzWBEhHMozDzzVBuOV
 
-sprite $CockpitMd [16x16/16z] LOh50KH15CBuRiDB_zMkCAkv1QAmc6lG6yDr5AmAM674qLrlgacslZ28ppbAAylJ9pnH2NpraDx1yU_NCpj1ZF4X-xPfkEBPFxJIobSJkxww96BjSJHxI7S7
+sprite $CockpitMd [16x16/16z] {
+POy50WD120EXnb9X_l_R8jMxLJo9v58F25UPjR0qrLZjtk_vVAqrxWIMA6_dV1P1tKIEjsDDITyyjEg8Uq_JO6fXnZ2-GOnVzGvsvjZrDK-Sd76hEXyyptlC
+YsxuRFZkzMprFW4
+}
 
 sprite $CockpitLg [20x20/16z] {
-LOy53WLH309PrzUv_sc_L5OcHYeGb6p6EUl119W1hLC2NBkjHhsAZJr6Uh0mILDU5GUliyubgs9aQwUHvfADjA7I1ypg3nH0pWPWpDb9X662dCraWquf5yJa
-Qk-aFSwQ6dhHqwjZUyt0Qo-lKLXnt8_LVW8R9As0BbQS5aTV
+RL050i0W2DJPmhZ_lzPW7MVGQHIEC43Ed7022iu5WXpQZ6pkhD9xY2hTNRMBaYz577AMeP-2j_DdnF734Ma0EDWLF2r429DQmS2g2GAE2WK2krSvT0mWx3fb
+IcPm0U-nMcFHN7imaOCQP_iMNbctzxoKyMdgB7-p_UpWRrV_E_tRVGS
 }
 
 !procedure Cockpit($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/C/Cockpit', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/C/Cockpit', $name, $tech, $desc)
 !endprocedure

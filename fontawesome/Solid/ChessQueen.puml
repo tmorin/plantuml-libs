@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/ChessQueen
 
-sprite $ChessQueenXs [10x10/16z] HOcr0G0m08F8KfV_hwqBKm9CAWVTLKMoKEg5l_8Ty1TlvBjUxG
+sprite $ChessQueenXs [10x10/16z] FOp50S1020JFiDVstss23gxh1rZ5EUxVVZW77eOxoR9Cp2-Tk5PFr5zaxrJBcny
 
-sprite $ChessQueenSm [12x12/16z] JSZ50O1G0CFGu4xsdnRvdjDh-JkaT3jcTXaxjpSwSvpMQDrNGkPA7VpT_iq_r-Otnmi
+sprite $ChessQueenSm [12x12/16z] HKor0G0W0C9k-VzQEvXeJ91u2E4oxG6l1od1aJ6IBfJCXom-5p2N6W1rqpfln6bChZPNtvx1j6_G0G
 
-sprite $ChessQueenMd [16x16/16z] NSo50KKX34FHYplPVzhlyahGWvHtfCaraeo7_4KjFQVule4jbUUKINtBXjFJ4gxSGBJNi7zCl7AvDW_oc_rtxvyCHxrkV0S
+sprite $ChessQueenMd [16x16/16z] NOx50G0X40E3dvB-gyLzVYiH53IfiQ18XMsnZfe6C5NnUcL9EaVIAl_oG1yZddLy0B7E0e2TeqN6zz6Z8FiiUzc6AgFOxV3F-S_piyL7
 
-sprite $ChessQueenLg [20x20/16z] RSx50SG03CH0XJdglzh3i3rFux9JUHYJMf7KA2hkj01cEtx63bQr-friOUnNeyw8P8mYZi4II-3D-AkrZx4ms12A2xlLNRkNbdYkqL3qPixplG4
+sprite $ChessQueenLg [20x20/16z] {
+PSy50e0W00F0APtx_slj6fv1my0banc3HZOCB6aX9YaEZZI08HrsiGS4RgpbPclqIFub_YHq3ZfWg8v8XQ8SeIZEZ84V0QSk1vncFkRt_WyhqtHYryGxH-6E
+V3floxS2
+}
 
 !procedure ChessQueen($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/ChessQueen', $name, $tech, $desc)

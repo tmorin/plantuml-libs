@@ -1,0 +1,13 @@
+' definition of the Item simpleicons/P/Pi
+
+sprite $PiXs [10x10/16z] NSQr0S0m402nAynF-qyRHgjId19yDrBsSmdiN0OvvoQGmcAtRzDJkfPWsWe
+
+sprite $PiSm [12x12/16z] uuS2FWO61ZGs7nyVX0qXUP7OG0aucuUF5wQU1wICZnVDG3v-a3WVJ10_6m
+
+sprite $PiMd [16x16/16z] uqS0FWOW88RF1mGmFepcG-Fp4f3duUFZXPl7oyS3rWCs5s4NX8F91whYXV0HSkJo0G
+
+sprite $PiLg [20x20/16z] hOqf4W0n3CDStYh__-sEeDbUGfduceB8vn_IFvON_SlNtmPEx-x8yHpfWddqm_h-iIBzot-_2m
+
+!procedure Pi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/P/Pi', $name, $tech, $desc)
+!endprocedure

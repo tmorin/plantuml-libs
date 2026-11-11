@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/ApplicationIntegration/AwsB2BDataInterchange
+
+sprite $AwsB2BDataInterchangeXs [10x10/16z] BKg30G0n47iqwlxxbkUeLsMF9Ef09lcr3VTOMmonUYFQXfPh954MsXviBerU6hroLPa
+
+sprite $AwsB2BDataInterchangeSm [12x12/16z] HKs50G112FeYTF-1tsix8PV4Y6uoUaFIowggLetyEbldDALU2ny9kfqmBB3DK-sSqMe3WfYdbk3E53LfiSjCFm
+
+sprite $AwsB2BDataInterchangeMd [16x16/16z] NOu54WCm20GhmCd_7zm0zOtSB54tMloFddFby2u4crjuKKxKBQsNYnJ7Uq28ZFPMv2rGo76PiUil1tmuqgup9wsFPsRnZk3Bgzf1OXoPSCVc_cXZPXswCEa7
+
+sprite $AwsB2BDataInterchangeLg [20x20/16z] {
+RT053WGX50FGpVVs_lVTCJIXepmSVi4N7j9rRuSE3BKt0gAR9vzM46tOxBbKPBDlM4FxOnO9TqjEOsdTTsWtCDL_NfxfhIzO2ZZBt8tT8jvlUHHMGvkzsTC7
+B5BhCn0MOJ09SqwhUYq9zBvgfcGodn_5EAVpiU9ykhtP1G
+}
+
+!procedure AwsB2BDataInterchange($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ApplicationIntegration/AwsB2BDataInterchange', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsB2BDataInterchangeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsB2BDataInterchangeLg>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AwsB2BDataInterchangeGroup($id, $name='Aws B2b Data Interchange', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AwsB2BDataInterchangeLg>', $name, $tech)
+!endprocedure

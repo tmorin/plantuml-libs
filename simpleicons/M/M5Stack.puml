@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/M/M5Stack
+
+sprite $M5StackXs [10x10/16z] JSj50GH100InQXZmR_XmAV_mf4O07hDgnHwkL6MPXCxY036WoM6GwjT_kpLFRm
+
+sprite $M5StackSm [12x12/16z] NSi74WC124BHBo2PtF_0wNNVL0KuSdYQDBCHUDr4jaohnokpPwEOT8toM7W0dVYeQXvSmMmWEpmb75q1
+
+sprite $M5StackMd [16x16/16z] ZSQr0GCm34N19_noOFznmzZvgcE7jqREIqWPq1C0EHKtLMuvS3Z3T2MeC1tDHcxW5Q4nBR1M4AKsg04WHmb03t_w6Fo88xMAbtmsbWnCAtXnpSZPSGK
+
+sprite $M5StackLg [20x20/16z] {
+bP3L0SGm34DbQApGtVxJbYcVVM4m2HzHKZ3WXMQbEcvI3TK9a6W96yAMnCBNaGIf1L3_3lmepWdOZCKeB0vCD01EsJpt1CHg32129JRJtB5YjHX4UGJE3JkQ
+QoaAF7SZX-r8PpKCMEMUyxkaBCUc7VMFprxBeS60a8AFB
+}
+
+!procedure M5Stack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/M/M5Stack', $name, $tech, $desc)
+!endprocedure

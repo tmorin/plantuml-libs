@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Codeberg
+
+sprite $CodebergXs [10x10/16z] HSc50G0X30J1nJtNVxNlCX07FwJXWQHBmX-vjIET9mEJZaOEeauHy5LQZKE8SpgkhbRFnHtDRmS
+
+sprite $CodebergSm [12x12/16z] LOg50S0W30GVTzX_syPgXoGl0E8yPqOmj37JLXEHX_VyHxOpa6dmsW4uhMuGFahWP0_vp9J0k98cRqAfpueKyUC2
+
+sprite $CodebergMd [16x16/16z] {
+PSe53WGn30D0byvPzFz_Ur5PsYa4uOAzqci13TMnbfUcQqxVjsy4LM54go43fIPMzmwuGwwM3ro8Zxe05sEfCocXpdCoBocYoJcTOhZG_KW-0LCsMi8Io8nT
+2VZw0m
+}
+
+sprite $CodebergLg [20x20/16z] {
+NSm75e0W30FGG2ZBaVkVrbrzyfNLXGlxAgsTU77HO_5ebJxLGsEGtkO32FWr14-2NpRvjTzdmI7VzxxgDEFWS-xGYbE8r2VUCSRy5Xfk9DiPwbA7nnBJB7Lg
+WOkMagqYvW0NQYcbBVWfXnhmOqUC-8lPY971ZNO
+}
+
+!procedure Codeberg($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Codeberg', $name, $tech, $desc)
+!endprocedure

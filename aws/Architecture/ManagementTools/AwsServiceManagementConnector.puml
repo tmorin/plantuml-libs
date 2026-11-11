@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsServiceManagementConnector
+
+sprite $AwsServiceManagementConnectorXs [10x10/16z] HKp50G1027efiV_0ntLBshBFOxRc80CWaI4FScX3wiYO4wiufwVEHBIPcEpq-pSF
+
+sprite $AwsServiceManagementConnectorSm [12x12/16z] DOt50G0m308_4RZzzwqthW2O7p2MRsEwKcfyIYJgD0bPK0OrlOJMhJDlxSHL9jyll5ywUnb-NF8d_c42
+
+sprite $AwsServiceManagementConnectorMd [16x16/16z] {
+RO-5aGH02C1UiAJ_Wc_MHY-hEBW041-yvxrKpdgksD7PHiiHKxirbm89MJ86WjKw4QDTIyxHXDJ9AnFTmPAlV_t_r_Cdb1aqa5jlaIsldvcEBRv-iv3lyoYB
+8tu
+}
+
+sprite $AwsServiceManagementConnectorLg [20x20/16z] {
+TT050iCm30F0WI7o_nyyERN6LKczObAd0R3txxGt74K4jtlMQXVbFU31GpOEiKMm3eAD6qsrpQEFPjt33pDKKsF127q0AesS-wHaOMlHqAPdSMSmp-eR6P7w
+XdwWC_Nrpnry32J0X4Xpm3X4cYjCKG3CxYmF
+}
+
+!procedure AwsServiceManagementConnector($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsServiceManagementConnector', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsServiceManagementConnectorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsServiceManagementConnectorLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsServiceManagementConnectorGroup($id, $name='Aws Service Management Connector', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsServiceManagementConnectorLg>', $name, $tech)
+!endprocedure

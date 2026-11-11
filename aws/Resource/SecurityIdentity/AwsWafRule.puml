@@ -1,0 +1,21 @@
+' definition of the Item aws/Resource/SecurityIdentity/AwsWafRule
+
+sprite $AwsWafRuleXs [10x10/16z] NOk50S1020DpeTr_v7V7YU0Mb5GFFAwGUu1ZOC3B6a_7hyb-CfCb0m
+
+sprite $AwsWafRuleSm [12x12/16z] LOl50S0m3CHqIhh_oEM0zR6FS8BXHvqV3b-YxIidRNO8y--XTEOscPsZKtoSS04
+
+sprite $AwsWafRuleMd [16x16/16z] PSs53S1034DHV-Te_uahACJg4mOjWbZ-iC1gQ3LpogqMac6FHusneTGKEAjMdvB_-_alyiZySxAk4Z3nPoA2BW
+
+sprite $AwsWafRuleLg [20x20/16z] ZOu54W8124NfkF-1xIBKVLCCy0CsmWfg0Q3Gk2oiB531waxDBukcfRlMgU6N7HU8_KYkMDz9sip5HsvDOFQjIzNYXP6RULdK7ReZsDuvrFJEOmZOE0C
+
+!procedure AwsWafRule($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/SecurityIdentity/AwsWafRule', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsWafRuleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsWafRuleLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsWafRuleGroup($id, $name='Aws Waf Rule', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsWafRuleLg>', $name, $tech)
+!endprocedure

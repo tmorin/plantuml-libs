@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/C/Chainguard
+' definition of the Item simpleicons/C/Chainguard
 
-sprite $ChainguardXs [10x10/16z] LOo30S104C1Ikzb_slAPCwdGauz5zSkCsHVRvXlskWADVj0R-Nw8yl656m
+sprite $ChainguardXs [10x10/16z] HSc50G0X30F0u53B_jE-oq4TXvHmQvNpQce4sN1mLuhWm3LyN6TZC1GOmOkF90mUNnBoW2f6ncy7
 
-sprite $ChainguardSm [12x12/16z] NSor0GCn0CNGRsPh_scJOrBrAkbR9vqSWdbm0FZDCA2pssRoBBk9u5dfsJFgt4ciJSZh4asyNRqLjVO7
+sprite $ChainguardSm [12x12/16z] LOg50G0n30AfanhxJ_kkLqaGx3Wyf2ZUgr6NS3euUbcapFA-KooJFFQWCJLd03o73WQz7UiX35xYSVtUTsWDBk372W
 
-sprite $ChainguardMd [16x16/16z] ROw50S0W30Hn9xV_j7KlXyPVZJ7XQMbH8BSTQ-3Xw8qDTzYSxAO3Ry3ueo1Hg52b7DqXDcYHJtrTZSmJNtYpf-V7m01D0TivaKlSXna
+sprite $ChainguardMd [16x16/16z] {
+RO-50KCn20M9FsAt_xHrxxye3dP8qIWVuam1vajijI_07s9WSoCyp6njq6gFQ9eohjBlya9USMyFkS3WSlQzP7GUU3Hx22zLzV6MXbUp3kjone9Rmh9a2P9f
+lMUGx9Wp
+}
 
 sprite $ChainguardLg [20x20/16z] {
-VSt5WSKm54DHcTct_se7FeIJitieFJAd1XscjW8IXsQnl6an1Xz-wR5OhYiqsm6NsQmv1C8si_O23aHhzfiAqqyWLCuPz7V3TBQo53cPdZD9TJa3C4j2c806
-KDyXEKW6a6n9sYWOFVW5
+VO-50GCn201ftChjF-sxsqLna0zi3EQi-LNle9vqhOW5_h9JR6OYRog3ih3bJ31h_wHLfwYt5PADkkeWrcQe7jD-cww65D6GlExvQ0NGl1SER8H9OGidYXNb
+XjeOzQI8qKvbeIXe1LWcWomDckHzkl5nu9RlZdFoHGy
 }
 
 !procedure Chainguard($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/C/Chainguard', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/C/Chainguard', $name, $tech, $desc)
 !endprocedure

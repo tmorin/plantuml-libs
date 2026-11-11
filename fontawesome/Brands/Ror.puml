@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Ror
+
+sprite $RorXs [12x10/16z] JOtL0KKX3CK2rD3kF-rpkKT-4q04jF6ALD374HDAEDMKR7CTyNqqTafFWPxgOwyP1ZD7aYm_FkOf7fLIKA501LhxCA-kEm
+
+sprite $RorSm [15x12/16z] ROw50GCn3CGkZBRsdxRCVGNCe0ifNRwSz62DosTLRy93kZDLWLXnYqHTTHLeMiQeS2tRx6ATILdzsehbMuHYcHm6NaJOGHOJc4fH7tfplCPZoNXLpm
+
+sprite $RorMd [20x16/16z] {
+TP250GGm2CIkhf3zftrtIRquEXD2k1vwKbddmubwiYyQUUYT5pi7Lb03F0YWYvqQUp9ZWKPFWyQG3ERP6aWI4_Q-tgK5leoC6osJTMB3ThBeOWQsf8IJ0bKi
+5Kh1syJF-fEugZIdqiRFqQB2Qlh3ixR_FVZLgoC
+}
+
+sprite $RorLg [25x20/16z] {
+VT45TW0X34NHdy0OWRpzxxO7waBl3EwW_vKSCLCVe-kRe6XwEFIDtTBow3TpVP496IvT2NHN0Dch82B1EyGpCus-Aa1IPsRNsZcmcTwh8k5jDm15Qjn0hc2Q
+6cyL1WEQ9wufMFN31Ag4WclM6u0xAO4qgBuMyK44hk0Hc2hOnPBMS1cKvv5qjwhIClifdM7IsIvjR2vnV-txXzfx0G
+}
+
+!procedure Ror($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Ror', $name, $tech, $desc)
+!endprocedure

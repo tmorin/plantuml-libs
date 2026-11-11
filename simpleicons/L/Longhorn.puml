@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/L/Longhorn
+
+sprite $LonghornXs [10x10/16z] HOo30G1130Jt7AV_Qj-OcFYmVB2WEw4mD7AdTWofug1UerNhp0i5D6_6EFt_1Hyx
+
+sprite $LonghornSm [12x12/16z] NSt50GCn44FHRsQh_sgJPNg3D_6GHZ-Cf2TJjQb60XDA2GQa4HqB6uTMrZchWmT__XswFhQiiQt4mny
+
+sprite $LonghornMd [16x16/16z] NS-50S0W40F0L76o_xIu7-uyJj-_-E2uIKC_HxdxOOxnaoy-xSkY_l2I6jbzbqRdUIFAu1B6zrln_x3BlNXVU4v8k120uChttUT_ptXE4G
+
+sprite $LonghornLg [20x20/16z] {
+VT2r5GGn5CLGcUdul_whNORXcoaLXzm69Eqa7R9zJg8M8bCQCFKpOKW6k92xMS_10IOfEnPSrekDmalffZzFRJYjH6ebQAKG8qKh0s1eBKBKbfck7BqwU7he
+3W
+}
+
+!procedure Longhorn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/L/Longhorn', $name, $tech, $desc)
+!endprocedure

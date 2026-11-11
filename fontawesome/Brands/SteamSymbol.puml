@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Brands/SteamSymbol
 
-sprite $SteamSymbolXs [8x10/16z] Oy06-84GHF7niu1fJdvcVY051QpyG0uJaC47KSs6h1K
+sprite $SteamSymbolXs [8x10/16z] JKg35G0n3ArYxJ_jeK_nr-X5U9-ww_UcPTXFKrpyO5N2g2hptypW6vuuHwiN
 
-sprite $SteamSymbolSm [10x12/16z] TSp50O1030H0t67whnPtk7oo7WLle5X1KHgiI4csW5Xg4q6Dofg7rB5mRDLzyrgV
+sprite $SteamSymbolSm [10x12/16z] NKs50S0m3AfROFn_xTpZ2kud8VkZo1nCUuMXWQs8C0tRgabje365BWd5hT6Wicwgn7Ry9RPoeSO_pm8
 
-sprite $SteamSymbolMd [14x16/16z] ZSor0GDH50Cm7yC7xJzj6Cf4tGCx_vZByHtOY_arh3Ochyc2-fasd5u3KJU6sr00GGVgc83IFTjFCCYBhktvwDDUyjiL
+sprite $SteamSymbolMd [14x16/16z] ZOr55WGX30M3VZHr_zlEQzrE5yJDFf3ttkaDa3fFw5hCvbSGl07rZYPri-vQXLMRoAvWcGFtR8VT4vZ1p3ZGejf1ElAjluVtLEds4BgEu2y_
 
-sprite $SteamSymbolLg [17x20/16z] fSj50iCm44DHcHBpl_zfouPbsxpLWAGh0e3Lv6bInscWH8YLiHi4OERXn01e7i021EOEDaL7mJ_tn20WvSvRjk_ifz_rj999BtOSh0RVd-cg1I-XNMf5FxW3
+sprite $SteamSymbolLg [17x20/16z] {
+bSx50GGn241HuWRy_gjT7JtEEoMuF95Aldw3uN09kPTI1d7_Puf1LTi3GnkWbJt0kWScv0NLzFylW9LQ5i5R48dieW3BrVdgtvryML7mptSFi0fhlxW3Q9bo
+63PdN55EEl9gSfLhaWVU
+}
 
 !procedure SteamSymbol($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Brands/SteamSymbol', $name, $tech, $desc)

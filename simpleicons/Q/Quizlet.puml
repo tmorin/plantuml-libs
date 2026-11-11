@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/Q/Quizlet
+' definition of the Item simpleicons/Q/Quizlet
 
-sprite $QuizletXs [10x10/16z] LOo30K0X500_Szt-qsRUCw-C3lzLe29heYuFJyxwvCNsJFFqBEkPwHmUElCX2G
+sprite $QuizletXs [10x10/16z] HSR50O1G5C2mViDvtNzQN78Av5dd35IDq4RM0aNpTERi6CB9-3TQprJ7fFMCcU9jX3H633Mc7G
 
-sprite $QuizletSm [12x12/16z] JSZ50O1G0CFGu4xsdnRvdjDh-JlkbPYnp3kEz0owenr_cyvAJBV6VMDqIvHJpyWEB05BzWi
+sprite $QuizletSm [12x12/16z] JOm55WGn348PRsFS_xRxQDP-9Ge0pY3ZX70klDDv75F5IMgiU3Wd5fDMQlUW_dEZTswqdRoLtkGEkLsNKxcAnW3ibcdxpV42
 
-sprite $QuizletMd [16x16/16z] JSo50O0m3031nvtVVrgqaaFQA9_-E3UAtT_0n-8euJfitm6hslFQL2WX77gYagcpRZ5UT8rnhqUCutoVuZEier5jKbLWCG9c0rw7htbKRm
+sprite $QuizletMd [16x16/16z] {
+NOw50S0m20HftE3sdxRk5yLVLgQYO6MIWyH9sit6JTkZXWOHhnX99g3AJW6sOfKJXJWWN7Q0OU0ksu7zxGxnbTyZs6KRnEqQXpb0joJ3adF9Je6P5tbhOszx
+8tRL5iLrqW8
+}
 
 sprite $QuizletLg [20x20/16z] {
-POu55i0W34CpDw3tl-rUWiEVKlaj4ay8xa33OGc_864D5qImbfkXyhju_Qt0nk_JMg3E5wrwqnk5dSFP-g4YjuehicjI7plJdcrChpdM2fsMVPh2SZ1f6LaS
-Vns0rGRUj7kB1vbYP7L67Ydz3m
+ROu53iKm34DTvkR-j_q_cJMDdgYDGOOH-XRPFU34Bo7ByvJbGhcU5irPWyVB0UvGFJ3L0wBUUTWSY3DZOI-nxwJjOfpQW0jSyBffrj-pGqiRJgfjbJy1XClQ
+vHZqNJbJcdVEDr4YnGlVnsG3cf2-UTDh7ckDv82w9Fu
 }
 
 !procedure Quizlet($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/Q/Quizlet', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/Q/Quizlet', $name, $tech, $desc)
 !endprocedure

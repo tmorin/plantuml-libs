@@ -1,0 +1,24 @@
+' definition of the Item aws/Resource/Databases/AmazonAuroraPostgreSqlInstance
+
+sprite $AmazonAuroraPostgreSqlInstanceXs [10x10/16z] NSYn0S0W449H-Dp-AoUgLBu6G9H0XmaaVQijJjkOq0_UDau4ODdw0G
+
+sprite $AmazonAuroraPostgreSqlInstanceSm [12x12/16z] FOw30G1030DpnVuhFsepigKRgicmm8ohTXNTID-QbYPs8-WumQSUo3QU-ivOrUt6XG5nzG
+
+sprite $AmazonAuroraPostgreSqlInstanceMd [16x16/16z] VO_50GHH5C98U7-s_uhNtNB1JYI20899ba-iC7b2sDfEJwZ216a1PC0yuNDkwIEx25lkUPQwuv49AKyxlExuTnSO7dz6EqcuS3993W
+
+sprite $AmazonAuroraPostgreSqlInstanceLg [20x20/16z] {
+TP250SCm30GV1Ed-2pVCEVEPXJVSMMTQGEFA94e4C1MG596Z3ZkM96iqaoCioQQeqRA00YQ4ZSFXoqslYhYuWG3KPyUVIFftSQb8gwuE4xUzNLazN5nW8czt
+0F0mwGsMCzDrZXLxkqDRJ9ligINU-0C
+}
+
+!procedure AmazonAuroraPostgreSqlInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/Databases/AmazonAuroraPostgreSqlInstance', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonAuroraPostgreSqlInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraPostgreSqlInstanceLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAuroraPostgreSqlInstanceGroup($id, $name='Amazon Aurora Postgre Sql Instance', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$AmazonAuroraPostgreSqlInstanceLg>', $name, $tech)
+!endprocedure

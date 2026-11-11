@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Wrench
 
-sprite $WrenchXs [11x10/16z] Ou00FdOeWvkV7yRav-S04b0c44EPO825nGrZ0IaK5WE21G
+sprite $WrenchXs [11x10/16z] HSP50G1140InNkOf_sgF8Q_e58oWYuEcMsL8qpzrZQkJqpz_Rpgdmu2bI_ecZ-cn0m
 
-sprite $WrenchSm [13x12/16z] TSt50O0m44JHmPtVVxLeNDubMPUn7x8cG5Ru7w6HsFHQtW0E6xoQzp_pCnElRwB7x-g2lwZTkm4
+sprite $WrenchSm [13x12/16z] JOs50G0X3CHmX-m_xGiUfDuJ7Lbfl-q-O5QGkkz6qFucZ-n10HiOWQAJBx-jLHYZj_zvdTitjvviMB5u0G
 
-sprite $WrenchMd [17x16/16z] PSZ50S0m5CDGbxdUVzfYyb6t9qWJDvWQFlLcl1w3Pm2R7Q_fnq8sPXp7TxzQViben0s-nAtnYGPmblYLBKLZ2xu1
+sprite $WrenchMd [17x16/16z] NOu50iGW4CGMT_B_rzxLkoLe1fMR0bCK0wZAAvEct01z6zqTEi29MAOAmkPFO64JUEwPNBZ5y_i76BFxq_lXHcxQucLnSxYLR-14KS5h_mC
 
-sprite $WrenchLg [22x20/16z] RSs54K0n20DGg7ltd_Qxq1mvVqX89eqH2PBd6RjYlH1shOPqORe_hJgkoebw8UfaZXFqZT0ca5yS0gksMLxixvPOf2fAe0XGtOmQKjUGgeR49pBW3W
+sprite $WrenchLg [22x20/16z] {
+bSw53GH120LGs1tN_giz8y7EV_oX8C6wzkfWS-nxfaLyXJ0OqRKIxiGQxXgfN5WZwHrtjH-CcDQcNjx0EHtQxywjWYzm-Cvufe3c_1s1ym_294nWmcXx6VtU
+xF4A
+}
 
 !procedure Wrench($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Wrench', $name, $tech, $desc)

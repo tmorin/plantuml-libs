@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Devpost
+
+sprite $DevpostXs [10x10/16z] JOor0G113CDqpF7-spw3ce01y3kmOzen82iuFvH1mWUM6FlMv9BwjR5lf-hts9K8K_dNyZLl
+
+sprite $DevpostSm [12x12/16z] JKx50G0W4C9ksNzREtXTK03410OK9zIOAsFCPEsZPHoyIWkmpp53aaXZBZGWqpylJXfkMpleTdkMwVbd_HqQ
+
+sprite $DevpostMd [16x16/16z] PO-54S0m3CG-pD7-s_RAfA3PrXyp-yOqskWSTArugAKs0B_A4xIIOKgAh7BmKeKe0x3UNHOmRPDrNkqhN_vD3Z2FV0FYNM_DDEz-1e3_zFkRvyy2
+
+sprite $DevpostLg [20x20/16z] {
+TP050i0W24NjLkv_sqcizIzzD6gd54NfGXakPK467ZBC6a1DEPU1h15obzKYTVWtxWWzVyVyHY0M00eV8fg8-VaEok91rmTBx57VJ15xnZg9lMhG30Lhl7jn
+rCkpPmvnpzaQeDfg1ujThNUwrW4
+}
+
+!procedure Devpost($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Devpost', $name, $tech, $desc)
+!endprocedure

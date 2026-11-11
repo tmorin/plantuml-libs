@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsCloudHsm
+
+sprite $AwsCloudHsmXs [10x10/16z] JSP10a0m54D1aEHzzxylGDjPJGtYnDmHLtFDikHxaTxj5bUfYnojgHlWko-dkXC
+
+sprite $AwsCloudHsmSm [12x12/16z] LSYr0S0000B12Bh_m77zwg2_uhqS5YsBnptLL7KO8g73vUjC4KbtJx8vyt3s0RXFdFEEWsyh
+
+sprite $AwsCloudHsmMd [16x16/16z] XSu53aLH30BHvBK3zEv_lzzT9tg8CVypvtpcGeaJiKxMbW4cp2cs0EZgGQ22Yrq-BRwujwXfbBFJMR6gTFPIWrJTSobsGZVFDxkUX-1vQirxUm
+
+sprite $AwsCloudHsmLg [20x20/16z] {
+fS-53SD030LGoHyC--zRPcxo18Uc_aUTz9L0x37S9yCyxQmvxHWrIQhdSbU1AjZ2zQuLHHDINU-6ANE2rFq_mUeN-JAhh_-cH978s_wgEmdoVWucO5JVCw6d
+opQ4VZ06Ufqj
+}
+
+!procedure AwsCloudHsm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsCloudHsm', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudHsmCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudHsmLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudHsmGroup($id, $name='Aws Cloud Hsm', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsCloudHsmLg>', $name, $tech)
+!endprocedure

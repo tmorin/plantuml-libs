@@ -1,0 +1,13 @@
+' definition of the Item simpleicons/D/Dlthub
+
+sprite $DlthubXs [10x10/16z] VKh30G1030kA_IS-_ki8Sr7_mTsP9ROpprQUeS4RaJ3M1W
+
+sprite $DlthubSm [12x12/16z] bSOt0G0n30GmNutv4_u28PeqjsW1-3FQdhGPhy9Jj0VBgA80rjLSUW4
+
+sprite $DlthubMd [16x16/16z] hOS50GCn54Fp-jc_uErOGSFHTW3VFBmwsnpYsBFaKv7bLHdA6XzLDAlFNwavNeO5b4Ttb1nqw420QpV-
+
+sprite $DlthubLg [20x20/16z] pKs50S0m2ClQuB3_lvryKLmJ72KKfIBmsT_n2ol5sKZyXekveDgqVL_XOKeaMtL0CHhImtKZX9Y6V3D70QxyPe9UDTj1-izXutjguI1v0G
+
+!procedure Dlthub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/D/Dlthub', $name, $tech, $desc)
+!endprocedure

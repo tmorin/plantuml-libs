@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/T/Trmnl
+
+sprite $TrmnlXs [10x10/16z] BKg30G104Agtst_Rrpa1te4Bjvg6KxY8BcFKyuUUC-TOl229u8zum5_NfKfaKSUSlFeKOJNksG
+
+sprite $TrmnlSm [12x12/16z] FSh50ODG00MmVCFXxJzjlUGSD1m3j5nJoUwZdx6am5mLxIXBxrUsNzssL51oeHOmLNoEKXibmwmdAMhQbBcCLdri6MvxWIS
+
+sprite $TrmnlMd [16x16/16z] {
+JSt50G1134BHdt6d_sxNvHqZmCxOXUcuEFK0KvbBriw29ZTN94nod8e31rFEDV1BuavT6brwWuhaeXetTsuSPbpgPEUr-8jtSIfjL22h4Zjeju2XP5BRzpaw
+m6L7bYf_HJB-gkUq0G
+}
+
+sprite $TrmnlLg [20x20/16z] {
+RT350SCm5C1G6GC6xJzjcPjtCtpaBPJEItHBmAwPfqsTAqatdbQl4YflkJkXQNhzYn0JPAsq3AJfvAu6YkvXLzyXGIrT7P6dfesWXPUY1iY1jx0_VgpEztry
+vNZTXNYF6yzUibSLG0UC3ich5OYwCxGJPjkt6e7GxZknyQEesy5bvTVokZe3
+}
+
+!procedure Trmnl($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/T/Trmnl', $name, $tech, $desc)
+!endprocedure

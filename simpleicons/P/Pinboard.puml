@@ -1,13 +1,16 @@
-' definition of the Item simpleicons-14/P/Pinboard
+' definition of the Item simpleicons/P/Pinboard
 
-sprite $PinboardXs [10x10/16z] JSQ50S0W34JHQt6z_QV5xKEI1y1WvUA28Us0IYGJHXzxWsa3U3J-wcMi
+sprite $PinboardXs [10x10/16z] JSQr0S103C10FTfLjF-qORhge7Ehtctg_BSS7QhdI6rSbXPNIeN9gtuj6m
 
-sprite $PinboardSm [12x12/16z] Oq05_4XCVdu44ud3muykmu_W8FIZi94CPWHYFcGhkP4v7
+sprite $PinboardSm [12x12/16z] JOh50G0X0CEAEzb_sdEXdrea1NqgyuiPsXF30CR7C9ascAkS3-bvbYX7gbzEKj6Yj1Qx5hC3
 
-sprite $PinboardMd [16x16/16z] NSk54S104090ykxqtstcNNRq3a3ruPBlEz7V9ndt6Lbb3598LWMBOIDysfExmWPRFJziWkKZDbEtt7T4LV18U0Gyp0y
+sprite $PinboardMd [16x16/16z] NSd50G0n0091EDVGVxLndzy2l1s3NKEkqZccTDVS57sbYRKEH7J4uNzCRZoAYE8V4pI-5pItk8YjVt_oRvsk1vC3anKJEW
 
-sprite $PinboardLg [20x20/16z] RS_50GGn30H1cTcJVxI7Iu9-bb7qgv2gJKrGbW4aJWNVwfCI_hKdhGCNFJlm-v0_pU7AgplPyyUTV9nzlyBUcOZICYKuRldt0MRbk9UCO66tS5eOtW
+sprite $PinboardLg [20x20/16z] {
+RSw54S0m30D01LtM_jlsmlY7PYCm6ZDDXOaY7IRaalmO-64mEr5Pepz65vRMa5HYQo-B1vNCgU1YS6FmJly4chmy3GPy04UDZdrZzwVw72BrA2pKXGt1XiM6
+-W4
+}
 
 !procedure Pinboard($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/P/Pinboard', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/P/Pinboard', $name, $tech, $desc)
 !endprocedure

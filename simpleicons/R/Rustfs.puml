@@ -1,0 +1,13 @@
+' definition of the Item simpleicons/R/Rustfs
+
+sprite $RustfsXs [10x10/16z] Oo0ISB8niREmidEmiBAniRAoCBAmCB4JgnS
+
+sprite $RustfsSm [12x12/16z] Ow00S7EoCFEmi79oiREnSR012JP65ZOc5avAp0G
+
+sprite $RustfsMd [16x16/16z] jOO50S1000AHlKl_kAF4euV7iZCK7GdYwRFmBEj-jzNvhTPR3M3ZM7KHeb8eHlwnVW
+
+sprite $RustfsLg [20x20/16z] pOb70S0m30DLRokBFzi6HkwZSNYShb25MscIrVtTjfrqh5KVPifncwwxEbE6zCHrnrLh5LAZnL8HYWOy3O_p0m
+
+!procedure Rustfs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/R/Rustfs', $name, $tech, $desc)
+!endprocedure

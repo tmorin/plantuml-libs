@@ -1,0 +1,24 @@
+' definition of the Item aws/Resource/SecurityIdentity/AwsIdentityAccessManagementRole
+
+sprite $AwsIdentityAccessManagementRoleXs [10x10/16z] TKZ50S1028ks-qzyzWVY6CxMS_wMpPC-d9FEn6DCYKIMMrF2V1i
+
+sprite $AwsIdentityAccessManagementRoleSm [12x12/16z] ZKi54S1030lV_1iUAVXo0pYCBZR_ymfe_K_q0UIt2aZYIh1GxAxcia-fptqG3m
+
+sprite $AwsIdentityAccessManagementRoleMd [16x16/16z] fOl55GG124D3FlQc_txNxRo34z6V4V7xT6Fw3N4qfFK2udXiIlturoyNolkQMnkiSTt--y1Xz-o4o8A4JDA9bXhh7WPqDgu
+
+sprite $AwsIdentityAccessManagementRoleLg [20x20/16z] {
+lSs5aGK120FGO0bi_mNVkXHm_urbKFmNyt1y12iyHJnwL9K67tjAiMQdW3bBjPp11zROBOxJMYd7AXeht_ygBB7AN2iCzsHBhRLaK_lO2a467QHbKxcMIXLX
+RH2BSXmyCns_y0S
+}
+
+!procedure AwsIdentityAccessManagementRole($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/SecurityIdentity/AwsIdentityAccessManagementRole', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementRoleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementRoleLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementRoleGroup($id, $name='Aws Identity Access Management Role', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsIdentityAccessManagementRoleLg>', $name, $tech)
+!endprocedure

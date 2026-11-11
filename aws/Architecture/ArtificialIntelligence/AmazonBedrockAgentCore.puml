@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/ArtificialIntelligence/AmazonBedrockAgentCore
+
+sprite $AmazonBedrockAgentCoreXs [10x10/16z] LKo30G0147h4_GT-yumgcpMNMMUl8DVxI6q-koKWYFjJFgS4thxT9u7kJ-LLNW4
+
+sprite $AmazonBedrockAgentCoreSm [12x12/16z] LOh50G1120CVHFil-5nd1IBvKxyxGJSzTbYASDWR6inU7i9ZQjzfQmoTdMsPD4SWAHS2t6k_vfyL
+
+sprite $AmazonBedrockAgentCoreMd [16x16/16z] TKy54W8127JOWly_sDPh9e7DFftPRb7Mkyhq_54Xsyyz-g3D9YFXvddkfc2BiDzlmjMk1FhiYJuxkzzuTah4LtyaIn6VwrS_iLOHNQHN-xIyxtCr3m
+
+sprite $AmazonBedrockAgentCoreLg [20x20/16z] {
+bSj5WiK030BGDWIx_u57l-_wLX78LVtSlL3UyMIWlgQDLSccOHzDUycivzZysp6Nyg4zbJzOpvOBmRvr1yAMemh8FyHYz7wJr0mXkBd1M1ZvqEDKoYYPpKE9
+s6BpYdCAUhyr1FEfQIxx1W
+}
+
+!procedure AmazonBedrockAgentCore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ArtificialIntelligence/AmazonBedrockAgentCore', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonBedrockAgentCoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonBedrockAgentCoreLg>', 'ArtificialIntelligence', $funcName, $content)
+!endprocedure
+
+!procedure AmazonBedrockAgentCoreGroup($id, $name='Amazon Bedrock Agent Core', $tech='')
+  IconGroupElement($id, 'ArtificialIntelligenceFamily', '<$AmazonBedrockAgentCoreLg>', $name, $tech)
+!endprocedure

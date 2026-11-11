@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/L/Lootcrate
+' definition of the Item simpleicons/L/Lootcrate
 
-sprite $LootcrateXs [10x10/16z] FSg53OLG0CNGanVx0dJ_QN5ev2hafYyZVXsE-UhwlwvS3XFg-UbWCMwF4SK6
+sprite $LootcrateXs [10x10/16z] 7SR50OK050Emz7qNwFxJOZa5d_jCaBLmar-lIKpfyagaFFuVvm8vr-_z6lDkrnZe4cJc_iKE
 
-sprite $LootcrateSm [12x12/16z] DSo54O0m40NH8-xNVxTi_amMUyJiTkoLdLTR6dHyg_2vSNrukxVdeTakKmZojbl3vdI2J9zJiWbrZcbm5mn-
+sprite $LootcrateSm [12x12/16z] 5SW74e1034BHpoPs3VU_hSERGW7qT2qHvSbH1QVz4PAwPc2l3BWDjY_I1zR-DUacbWIFdnQGhlsrvpma4MEVK2NIYz3gVdFy
 
-sprite $LootcrateMd [16x16/16z] LSp70G0X24JHsMHM-kzsSSp_zXG0ym5x8i1NVDSjQlPb056gPpQTTbpWaN21lhgrpOQSPcLwHcjc6RP8BJyqkqA__w2dAj1CDjr-7Iq6SaFx0G
+sprite $LootcrateMd [16x16/16z] {
+JSu5WeGm40NHQiNf-zzszuyN-f0ag3gwWa_RD5XMkMJtoCeRQkPZ0ZgsMuu07EshlCuSlK2ylEW__nghO-F7gb--72N4wzUzZ9VnslNetZR8pwBlcNzKeFJJ
+RG2UbIvlV8hkSq7z0G
+}
 
 sprite $LootcrateLg [20x20/16z] {
-RSe74eL028FXW5t1tF-qRcLV_QV1Dq6FExxQU41FMmKZPxQI6jTsaCKY0ZZvQGx87rC0IpFoac4IbhlvQyI7GKzIoX_MMssO8_9Xl7wjvBk4bLP6-nsMa-vb
-fuZQ3ZbRvCrYeSQjMuFmonQUxKu
+NT250SGW44JHmHtwx_QOPI_suoyEJgsLQF7CpcLWV4pXyhJMDcP2Ac1zYMasxeNoC0GWXZpKd1fdP1hlwCaY7ejgaZ-MnCmWEJols-fB-neBuRA82w_dhHxj
+o_oIPgEBCHFh51yzYMdX-ilWe1bA0qjPHyrkIjS5WRvjEZopiRHk8Fq
 }
 
 !procedure Lootcrate($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/L/Lootcrate', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/L/Lootcrate', $name, $tech, $desc)
 !endprocedure

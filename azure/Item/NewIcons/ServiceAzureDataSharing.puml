@@ -1,0 +1,21 @@
+' definition of the Item azure/Item/NewIcons/ServiceAzureDataSharing
+
+sprite $ServiceAzureDataSharingXs [10x10/16z] RSQr0S1040InCHri__sQwK6Hw31T_BT9qWBCpuuVap0xPiBT6Gw9yTa
+
+sprite $ServiceAzureDataSharingSm [12x12/16z] TSY30G0120NGdx7_lcVZvV33UWVuPHVRJNjCBmRms3MgAgU2GtFwPvT7XFe2AKau4Av6
+
+sprite $ServiceAzureDataSharingMd [16x16/16z] bSp50S0m30D09MRlls-PkVSo2ZzfRfHpBxO1W8Q1Kkt8q6V7qRlkTS5AO1tsaHcb2-ArhzRZvTYTtB5ImF6g1G
+
+sprite $ServiceAzureDataSharingLg [20x20/16z] fS-r0GGX54NHzrtwxtTb38XMvk0t0pUGhnY0zof-Q68htLfl39kl6xRc6zE30MgzsOxQlW3rtlWxKRpvt11dkvXcIAG3D9G0xhZb2G
+
+!procedure ServiceAzureDataSharing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAzureDataSharing', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureDataSharingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDataSharingLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDataSharingGroup($id, $name='Service Azure Data Sharing', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDataSharingLg>', $name, $tech)
+!endprocedure

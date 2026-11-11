@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/H/Hypit
+
+sprite $HypitXs [10x10/16z] 5Sc70G0X3090x1BKxB_jywVfGBC2YqTfkoclIA43hBsZStCYswrNtEVD4SCdr0IxcZike2NiJoKZ-0WhpO0F
+
+sprite $HypitSm [12x12/16z] HOw30K1134EJizhiF-qttg4601xW8ahkRfTkdRNMLeyG5QRMcci2TGKnjXCgjH4qU-_I38fzuY0BKLGuTQzWJZfLNl-wKlew_wIJA_7VOWS
+
+sprite $HypitMd [16x16/16z] {
+PS510iGG44N1tm16-jt_jXFOfKeVoTcA3XYjBzeoIRaiBUarqU2Aaj6CQI5kKiKomPmZySXTJY-rbWuK8njTcxkfeKBG4gYIJ-7QEYQb52ZQ-6bfc9P4qbAP
+VRn0HtUM9-hZ3m
+}
+
+sprite $HypitLg [20x20/16z] {
+RS_5WKCn34NHPsRV_giTY1N-PocMheLgoZF4GvEPx1ZYOI47NgcTxdxQCrFjetqI1IEQ9Cc34alAfaHLkYP9cuUoyGuKePxU2HiLXiRZjiGEMPiWy1RhrBCb
+irxFbQTgaH-jGt-gT-0Udzg3XMaX3xh7LWmtdVuO_EHaNAd6wzel
+}
+
+!procedure Hypit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/H/Hypit', $name, $tech, $desc)
+!endprocedure

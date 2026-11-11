@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/T/Tickettailor
+
+sprite $TickettailorXs [10x10/16z] 5SQ55S0m30FHS69wj_-shGpIR_zqbchbIanop40QjEurHVOPmwJOTYxIX7KO8XgNZ1Ynf4bNVG
+
+sprite $TickettailorSm [12x12/16z] BOo55K0n20DJTxB_j5zIheBT0p_H1aJ9M3IbZIB-UM0EqNYbiv5g6ox54R4bHORT4vi6jbYYR-haxAHBmYKkf88hMLHy0G
+
+sprite $TickettailorMd [16x16/16z] {
+JSk54KKX30NHYplRVxLVmnjs14cE_lcEqzM4RDVE3XcOziOwe95zy1FI_nqeKbWtgAxBgHaO5Asil0r4ibZQZ0Dw-DmNF02c5XX8m2wR0npM0HD8VjFqW6LN
+0ztRzGq
+}
+
+sprite $TickettailorLg [20x20/16z] {
+NOk74O0m3CIStlFxJqitUH2awInHR4QL7nE0q4GzDXmuLHL0hpWfwX8MwWnGV0X-S3pWvQ1n7C_8ZL9h7HH3VBncAOOu3B5pnVborvhgx7AmAYV6V5oc68_Z
+-A1rVEENyerpP-UUgkHZetZAZpoJ4MK7
+}
+
+!procedure Tickettailor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/T/Tickettailor', $name, $tech, $desc)
+!endprocedure

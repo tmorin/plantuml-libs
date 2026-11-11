@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Xrp
+
+sprite $XrpXs [10x10/16z] JKp50G102FBCd-m_xNNP0T0roTLJY57w0Ec5OGfUduXH_qcW2fd3M26_ohK6
+
+sprite $XrpSm [12x12/16z] LOtL0S1G308XTRtzfwttoVr40HMqkz_6UwiMFotzVI6ae7tVcEUxVUcwRD3toOffuhtq-BVfisULLN02
+
+sprite $XrpMd [16x16/16z] NO_L0GD150Bdrft-gutdLkRlAS21ZMOM9bYQtBzqwa2M-vSLFetmBGly6WcICd-INgHDnZ8vwtE_Aa9K-vK_HqvjbhFHfr-hZWr7deCd
+
+sprite $XrpLg [20x20/16z] {
+RT150WGX44FHLB5fJUv_sl49-fSF1uiYOeAajfOsiI0wtAG4Z0szeaul3A33uqj6xRj4jBtWnVD5CPKvog5NHxUEuhPHJ5F-jj-bD6dhdc4ocZeiqr-fhFuK
+Yvu
+}
+
+!procedure Xrp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Xrp', $name, $tech, $desc)
+!endprocedure

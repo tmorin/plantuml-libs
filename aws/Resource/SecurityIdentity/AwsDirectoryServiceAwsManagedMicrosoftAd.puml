@@ -1,0 +1,24 @@
+' definition of the Item aws/Resource/SecurityIdentity/AwsDirectoryServiceAwsManagedMicrosoftAd
+
+sprite $AwsDirectoryServiceAwsManagedMicrosoftAdXs [10x10/16z] DOc50G112CCIoluhlrwHAiyCdQt8ixIJgftu2MFYfyJvDlCCDED8kG4
+
+sprite $AwsDirectoryServiceAwsManagedMicrosoftAdSm [12x12/16z] JOm50O1040JNWFw9UPSvLpI83R-J6pafg9DZvkbE2iUOhnZ3-wlqK1LNvWrr_o95J5Yp0W
+
+sprite $AwsDirectoryServiceAwsManagedMicrosoftAdMd [16x16/16z] RKw54O1036i4stzX3jvTQf7OBZrZVb13YZYx5FvgBVzxHaapLY1QEoo0NwXKlKtgHcc74-RxMqxWbhyb-x0-REi3mcYYotbyY9ZN2m
+
+sprite $AwsDirectoryServiceAwsManagedMicrosoftAdLg [20x20/16z] {
+VO-50GCn24NXIsJ_XTjppulY40DSuaxMcdTTc_OLb0ZpuNPtbAQRlhbDb3WeM5xAHLpxM5KbCrApj7NcYWJKpwbDaCmfQuyLxu-uwv19JRfULcIuaBcwxtu1
+uAhRdmDvQWhNiU4_YbT-
+}
+
+!procedure AwsDirectoryServiceAwsManagedMicrosoftAd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/SecurityIdentity/AwsDirectoryServiceAwsManagedMicrosoftAd', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDirectoryServiceAwsManagedMicrosoftAdCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDirectoryServiceAwsManagedMicrosoftAdLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsDirectoryServiceAwsManagedMicrosoftAdGroup($id, $name='Aws Directory Service Aws Managed Microsoft Ad', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsDirectoryServiceAwsManagedMicrosoftAdLg>', $name, $tech)
+!endprocedure

@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/P/Processingfoundation
+' definition of the Item simpleicons/P/Processingfoundation
 
-sprite $ProcessingfoundationXs [10x10/16z] HSR50O0m0C30u4xsdnRglTS172v49aUDBgXueKUQc23ecgPAtw49i9Jy
+sprite $ProcessingfoundationXs [10x10/16z] HOp50S0m30FbCD_-svQR-nW4aklGdQJ8JPHZkL1iSab9EEDSA8PtN6IhrzAlZMkv4ig0sosI6q_p0G
 
-sprite $ProcessingfoundationSm [12x12/16z] NOp50O003CI2Ezb_Mkpw8dNbPNCc698M4FV6uyr5wNMpyjQ07UgSt1T-UJsUmE84EApk3G
+sprite $ProcessingfoundationSm [12x12/16z] LOx74SH040BPk_MkyyzMnRoaVeq59EKDEyjiWXtbR7irDncMqb42tv8JQE2IVwBfk7Azr86u-O7B76hJTTPcvD8y_dYzCpm
 
-sprite $ProcessingfoundationMd [16x16/16z] LO_50SLG3CDKvch_QJyy5tKAnwRGRIuL9vjXIEh5dlHcpJ0Wj6gLDkZ0f7PNBhMwFVB1Gl8-bvSpPofHTUO6tlbUZjoY4rpq0EixXUhXvWi
+sprite $ProcessingfoundationMd [16x16/16z] {
+PS_50GCm30J1CxEs_suJXM5U1g6kGZUm7dJNU6XoYvTr_rsbhbCM7X606PLCoa3eE2L8djdDh-RtgG76wp_8U58sQGAyuZlE-kEVknw0dQHgkA3c_LDCkFOp
+x_y-l_jU
+}
 
 sprite $ProcessingfoundationLg [20x20/16z] {
-PP250OKm30KVNi_-qtuXLZceNLA541kL2nqN2NLJHHrHLKzIrNF9Mczi0o8FEDZ-dGna8Wgzemlxkq_l4hlMknsSuYxg8Ogx3JSFRdS6LbTHkUtSZatlWKCS
-C6nlyJIelNzI1aQG7Jdf2m
+TT050iGW40F0K5pp_z_UBLkNL1aSpDWoo54izjXEQlgcYJoIdgHeIJRdNQ4BNT02ygq6y0GGPKnf9Wa8PDOMjgXvCIwpOHc7ZRzbaafgB82M3pD0fMGSPiDG
+AeTjAVjQucvshgWx0BOfTTrRDMOnfghPjpDudjNdcJxF_WS
 }
 
 !procedure Processingfoundation($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/P/Processingfoundation', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/P/Processingfoundation', $name, $tech, $desc)
 !endprocedure

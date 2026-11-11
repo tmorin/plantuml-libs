@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/P/Pangolin
+
+sprite $PangolinXs [10x10/16z] 7Sh50G0m48H0udxRVxMn-G9NdO4hZhca1gxeAv2aLUfgE4dMdDEF7GWXPYbovPUNW-bXlLC9yC6NxE
+
+sprite $PangolinSm [12x12/16z] 9Scr0G0W00F1nvtiForwLOIhTiVZScvI1-Zw9a3H5o58Qi7MaZ7l7u6eDwi299lIb2nN14aPe3XejnZR1s1rcnfNm0PlW0q
+
+sprite $PangolinMd [16x16/16z] {
+HOo53GCm40ETfv3wtd_RDg3qX4PiDAVYKQHqCgyJoKjTSl9fEexpMBBpH_QMx3K0sx9PWStHWEGX3SAASjG02j2YECVI1HjnK_rhL0TawOQ54hWFlQ04Oxdh
+uBqkw6sfZ-6WWY9IiFW2
+}
+
+sprite $PangolinLg [20x20/16z] {
+NSlL0GGm20FGK3V8_jjUQS_V3nfSCcr4_9ka5RpbiMmfDnKSXT_ESj2C7uejG9HV2jpaXtN3rk_G0gHmmG8GUAmnAe151c1ySXe0zPtncW34Oo44gj89hYGf
+CgmJn4jBKh3ey2IdQtGDbqricKVtFXe379_MDBBYgFJXAdZIYgeajGdUJk0zFm
+}
+
+!procedure Pangolin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/P/Pangolin', $name, $tech, $desc)
+!endprocedure

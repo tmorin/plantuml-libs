@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsManagementConsole
+
+sprite $AwsManagementConsoleXs [10x10/16z] BKo50S0m39eqsF__rkC2EDSSSPiIj9e3a52gceyv6TEy9cB7lTMwOU4i99eVPOQlR3m
+
+sprite $AwsManagementConsoleSm [12x12/16z] JSt50G1H20FHjI4a_VUxRlE5ToF_t7TEUW7jqOUhLBSLWQBJHiANw-ooEExbK4LE8q5CFxlYTlvj
+
+sprite $AwsManagementConsoleMd [16x16/16z] {
+POo5OGL024Ch4Dj_u9xsspi5aYH-8gFC4nwB3VI6iTEDfZKMUzKr5YQzQzggadJc2WieHhV-5Q3VMni3ZkDJip5e-bF_oFlbhIcfsp5MpHu0YfhnM0VVSyWy
+-GC
+}
+
+sprite $AwsManagementConsoleLg [20x20/16z] {
+ZP05aaKn3CDcdfsarltlk_kPIMMLmuxSm7kIfuMHhqY144ztSy8XEQth8wMJw-cPgfcTF3a3gwLUrxqEipdnDkJgtDYqhuwbUCRHuk9628JcvZpDQ5_8rPLM
+ibItBYLRbHkNlIqW1mUHlAFSiAJSnmf-2Yexmev_
+}
+
+!procedure AwsManagementConsole($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsManagementConsole', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsManagementConsoleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsManagementConsoleLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsManagementConsoleGroup($id, $name='Aws Management Console', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsManagementConsoleLg>', $name, $tech)
+!endprocedure

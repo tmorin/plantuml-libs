@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/ObsStudio
+
+sprite $ObsStudioXs [10x10/16z] 7Ko50S0m36AhHld_sbfS0E2N2Fa1r4YIMV5HatVyXNsGEYdEr35CBE9ynZZ5vPJmK-HFikbbeAR7KtdAVfKt
+
+sprite $ObsStudioSm [12x12/16z] BOu53WD12019oGew_tzjsoCtAxY8Y5gcgJnODT3sg0I3YLABeTNWun1gM4B7MX6UcG1h0Pt68sgAjO5zfrOCV8rxPXKpwq7ztU47
+
+sprite $ObsStudioMd [16x16/16z] {
+LS-7bGCn30DHvNTB2fh-kpt3sN-ZCbXkwehCMBKypDm7Zd8MkxG5fikZueydpL8J3LwoBa79nspGYWEp2zHhtqHYKMluevrWhM7AEDZUOB64xS2qQc9zObcT
+XxFwAu_pAkELrsOUlkhvhVSV
+}
+
+sprite $ObsStudioLg [20x20/16z] {
+TP05aWGn2039HE3G_xzsdEHikvGk76ugiGXJXKbbKNCt5KwBOXeF9lYgK8aNlsKLZ-6nv5dE5huj5yPGhpBGM4YbAopmX5l122MsAx-XdW4shFqibhVL01XF
+EvTqizvLhjgRBvg3AKTAxgrK9VDmxW9PN6gMFhUTrB9kktxWBeYfC7yLwrSVV_htzmS
+}
+
+!procedure ObsStudio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/ObsStudio', $name, $tech, $desc)
+!endprocedure

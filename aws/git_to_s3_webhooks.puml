@@ -13,7 +13,7 @@ include("aws/Resource/GeneralIcons/User")
 include("aws/Resource/GeneralIcons/Server")
 include("aws/Architecture/Compute/AwsLambda")
 include("aws/Resource/Storage/AmazonSimpleStorageServiceBucketWithObjects")
-include("aws/Resource/SecurityIdentityCompliance/AwsIdentityAccessManagementAddOn")
+include("aws/Architecture/SecurityIdentity/AwsKeyManagementService")
 include("aws/Group/GroupAwsCloud")
 
 left to right direction
@@ -24,7 +24,7 @@ GroupAwsCloud('aws') {
     AwsLambda("lambda0", "AWS Lambda")
     AwsLambda("lambda1", "AWS Lambda")
     AmazonSimpleStorageServiceBucketWithObjects("bucket_ssh", "Amazon S3 SSH key bucket")
-    AwsIdentityAccessManagementAddOn("kms", "AWS KMS key")
+    AwsKeyManagementService("kms", "AWS KMS key")
     AmazonSimpleStorageServiceBucketWithObjects("bucket_output", "Amazon S3 output bucket")
 }
 

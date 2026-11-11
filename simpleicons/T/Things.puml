@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/T/Things
+' definition of the Item simpleicons/T/Things
 
-sprite $ThingsXs [10x10/16z] DOh50S1048I8U-Y_slFbDGASLXPmS2ADrv6cOoJPMrBOucKjwMkU9LLAEChS8GC
+sprite $ThingsXs [10x10/16z] DOg50S1020F3ktBxJril6bFbgIfZzDxRm8BhAGzXtxzfXqiBrkpJTjAZ_JbZfnZJnWIhzmLI1dV8EW4
 
-sprite $ThingsSm [12x12/16z] DSlL0SKm5CDGFMZ3qVxJ5WBdwu8DT5yL-Bk17aFmm0Q3OSyD8wE4O1gp0kOn4m3Bc0TFclQKWWg76kCvPjou0G
+sprite $ThingsSm [12x12/16z] FSx50S0m34FHRvT3sd_RXetlABoeLt6Ob0hefDUfQcioR3iltmHljchNJKDphmQztkYl84jtIhUK8KZXUTe5MncC7m
 
-sprite $ThingsMd [16x16/16z] HSm55e0W00JHiINt_hTLOXzZVWgugaQPbhGAjeDR0TVywC0LmMk7IExUEm_H7PfV4CEnkLOTqwcvdzJ-8MYZPPyAvbO5w6yB8VGV-tzEBUVdUQga0fnQmGS
+sprite $ThingsMd [16x16/16z] {
+LO_50SLG3CEKyaFjF-t7ecv1sp1tT_eCZ7enGhRddMQ68WTXWUfHWVMgmsVjUDLJfgxywoPGh02slMQBlRx-x_lPl0H0BDaCYvfMNPEwm6otJkiwLRipX6h9
+kQW6C5vvHtW3
+}
 
 sprite $ThingsLg [20x20/16z] {
-RT250O0m34JH1A_U_jFM3__umokb8uBvMMgAHw4QNXtTOc3rAUrMkUL_x7XRLDbVvgDqcq0xwivscTz4eKzRSS1Asw5nypIsyBrl4o0i5DtHhJQRaaQKFEr0
-IL7RQLPBVLVxKnznA6vD8Xa
+NS-54S0W44JHnUUmxR_RS37aZ_9m0AdphoTeXLjbaEMH1I8f_Yru8QDQnL9zhFnWW79Ou6lfDqkdbjJoQpf2diQ0sh1ROACv39OUYmcMX6b_7zwtUBA9Vy1B
+evvXgBdQUtNKp6U-r5hyPw0cRYGSzUUNMm5QR5DQ7701
 }
 
 !procedure Things($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/T/Things', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/T/Things', $name, $tech, $desc)
 !endprocedure

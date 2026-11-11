@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/CloudFinancialManagement/AwsFinOpsAgent
+
+sprite $AwsFinOpsAgentXs [10x10/16z] LOo30G0m30IBn_uJrxoO_Y1NH6FaO0EZnQvisM2CWJLL1jU5rfTB1G
+
+sprite $AwsFinOpsAgentSm [12x12/16z] POs50S0m3CC6alF_nMDimsXNAybTAUXT7dRKcCXU1-CSoLLxrYNSDmNlBmZQSRso0W
+
+sprite $AwsFinOpsAgentMd [16x16/16z] RK-53SD039HwyDv_ufgAYPdXt4F4ZsVIyVP4IA0s8YQsc7JgocUy2mmYYqfvqahduLICjuyp_jRRP-eJIFpC8_dUD_K_zzW-S-_lF_Vm1
+
+sprite $AwsFinOpsAgentLg [20x20/16z] {
+fP253KH124HpOt3zD_pTupkhl0IjSRK0zHqOHXNcvyJcl9BrgLrmXxCoEvok3D9T20zdmQpMx4T3ksk59OhD56xCf7Ps-lwjpkNRfd_pUyyHpl1LY_IjEH3V
+lIdAFeDnJG
+}
+
+!procedure AwsFinOpsAgent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/CloudFinancialManagement/AwsFinOpsAgent', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsFinOpsAgentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsFinOpsAgentLg>', 'CloudFinancialManagement', $funcName, $content)
+!endprocedure
+
+!procedure AwsFinOpsAgentGroup($id, $name='Aws Fin Ops Agent', $tech='')
+  IconGroupElement($id, 'CloudFinancialManagementFamily', '<$AwsFinOpsAgentLg>', $name, $tech)
+!endprocedure

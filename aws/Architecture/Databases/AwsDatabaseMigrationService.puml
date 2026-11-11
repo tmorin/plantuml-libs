@@ -1,0 +1,21 @@
+' definition of the Item aws/Architecture/Databases/AwsDatabaseMigrationService
+
+sprite $AwsDatabaseMigrationServiceXs [10x10/16z] uqG67Epi710M2niR2qI8bPsTbGCNYvCD220wsDdOs676WEKG
+
+sprite $AwsDatabaseMigrationServiceSm [12x12/16z] TOo30S1040J3HVy5Xs_CcMwHKdO2PwXmuD6GGqBCtvsKap7dcpFymOD2pWTvpWq
+
+sprite $AwsDatabaseMigrationServiceMd [16x16/16z] ZSc53O1G5CLGvDhRVs3S8i1lzAJLb2K_2Dh4nGnQ6dAPaSBRenEFjs7I-FWYXOVNVxlC9L-Cj-vVMQgcPW
+
+sprite $AwsDatabaseMigrationServiceLg [20x20/16z] dOy53WD020GJPEN-_-2wRBoTKnpy8-Us4ymLX6g6LsQ-TVNGLVXXPnRXrpvNtA6h1RP2Dy8kbB7mDHGPEtrbKlUO8tJe1RPZ47Ala57NA-tr2I15vBzS
+
+!procedure AwsDatabaseMigrationService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/Databases/AwsDatabaseMigrationService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDatabaseMigrationServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDatabaseMigrationServiceLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure AwsDatabaseMigrationServiceGroup($id, $name='Aws Database Migration Service', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$AwsDatabaseMigrationServiceLg>', $name, $tech)
+!endprocedure

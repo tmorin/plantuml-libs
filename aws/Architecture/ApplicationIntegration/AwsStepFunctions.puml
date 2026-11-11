@@ -1,0 +1,21 @@
+' definition of the Item aws/Architecture/ApplicationIntegration/AwsStepFunctions
+
+sprite $AwsStepFunctionsXs [10x10/16z] JKo30G1H53gc_VSzV3-ZIk8IYHsfRRvl---uGFnNNfS5C6DQleEng4pb5m
+
+sprite $AwsStepFunctionsSm [12x12/16z] LKw34G0133iqt7_VDsittIY7z0opoHKMk9lMZ7mat2DnBtim4Gdt4_zcVhlFpV-lBuOL
+
+sprite $AwsStepFunctionsMd [16x16/16z] TKw30G1137iaAVRVzyr3xIPFYiWkxKtf7Tcya_xfky-pU-oTVHepIO5x7acGs8VaHovYQnaaRXDbNimNzyf_1PuIRvVUvWe
+
+sprite $AwsStepFunctionsLg [20x20/16z] VP053WH140AJQvlY__yzNnsfU2kW1KZqfNiHuSwb28hC49mgqCoQpfDbuMRkLbinmymBKEPs_P5L7gBoJUbBXBcNcdrgXXZL-jt-nq9BhxdtrcVGPzLdkk05
+
+!procedure AwsStepFunctions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ApplicationIntegration/AwsStepFunctions', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsStepFunctionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsStepFunctionsLg>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AwsStepFunctionsGroup($id, $name='Aws Step Functions', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AwsStepFunctionsLg>', $name, $tech)
+!endprocedure

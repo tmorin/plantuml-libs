@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Hotel
 
-sprite $HotelXs [10x10/16z] O-270JYBbG780K4mYmq4qSGGwlXv6M0i1WOW2P65Y_5p0J4F
+sprite $HotelXs [10x10/16z] LOo50G1H24Av_AM-_QUzJZk0cSjcuU5R8D6bOKZTFYMhrTB_1X5mJ4bAvvIbV4xq_VxTbTrtvHK
 
-sprite $HotelSm [12x12/16z] VOh50O0m5CM2Ezb_MgHwwzTdMEhcA7XXzlIRwv8FCzq80QTgwdgl1Qz0njVEKJCOiBLU
+sprite $HotelSm [12x12/16z] JOxL0KLH3CBIurhsd_RfjNnLWQABmZxB3RkZ64N_riEKacnywvLLg_BwrDvmCwSvB1siNztD-b4xW1zpmU_cvnN2p-kPuGq
 
-sprite $HotelMd [16x16/16z] TOg53O100CIAExV_jeHtRQGvuLNAZZ8Uye8_ZulsyPVB87W5Bj-FtlkNoqpQ-DN-Hxfv1PwORtvYrWNd5VFlH-sid0y
+sprite $HotelMd [16x16/16z] TS-30GGm40J0VSJglzhOriJtTqlwGyrKGDnW2sBt1uYZe0x87RdPcRZNvYwRj7Nos3zIiwNKJfQ8IGx_ad_JVWEOkZy7P05Rmgdn45BZsUCD
 
-sprite $HotelLg [20x20/16z] XSo50GGX34JHlwx9z5_jkIm--0F2eJWTIhAHu4JHu3bMBN0n5mmQBZRFqZQRRDv-vluO9icy-ZUr82qp629xRi02uvKkiFE0_h30fB1UQlF7zltKAoSeoNu7
+sprite $HotelLg [20x20/16z] {
+VT2reSL04CNGks1Oc57_rNvyPb1uGaKknM1dig1mjg1VyshG6bZrnP82LQe4fStqRzgCxc06tbcivOAFerDoMonA5AaWnSL6HPhKY1eNm_daBFQN6V-jrgCK
+-y5CVzdUfd-RzWQpDCFHYbJUR7tQ-_hqxlqt
+}
 
 !procedure Hotel($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Hotel', $name, $tech, $desc)

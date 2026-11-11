@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Copilot
+
+sprite $CopilotXs [10x10/16z] JKU50OH034lrlDr_sdySui47iZANxAF07MMRlfspfd5hR1FHoG2Z7bcWp8gIPOAmQHPGCLKhX1rqr1y
+
+sprite $CopilotSm [12x12/16z] LOor0GGn3C0KZdd_QH-hanbvCY8p1bz4LyHI0Vg1CU1qc9-uDum9vdsQpUw6LryBrkpbbR1_cfK5rfh1folI-D3a_rJkbS_B1sy
+
+sprite $CopilotMd [16x16/16z] {
+ROo54S0m2019W4CB-qzRRyxwkC8VWqLuh3Bw9jvXwSGgd5htYlFfH4x7VjK9TxtIcfUhqytBIMzCwPx4MmjOwpGb05ATsjQjr-Qjv_340B016kywh_civwrs
+daRmGlVjY78cOgyOtq1KXU2F0m
+}
+
+sprite $CopilotLg [20x20/16z] {
+VP255GH124F71HwJ_hizvDoo_ZTe-gDSIdubyq1rveCqtDLk9eoSbRUS1wvMLBiJsRt2KOd7tc4eJqpaYGra_-DV6KFl7S3i2tDYZGcWgmkjyjbDMoBXrW15
+MlP95QfWib9Qyif0sY6kZAAURErGeZvf4SvFws6CU4ZF3hhS3TbMTUoQ-VzENtK1
+}
+
+!procedure Copilot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Copilot', $name, $tech, $desc)
+!endprocedure

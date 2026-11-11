@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/P/Paypal
+' definition of the Item simpleicons/P/Paypal
 
-sprite $PaypalXs [10x10/16z] DOk50S002CCASyt_rqwGu589ODCFGNIHFRgWkxY06J3hOAfhNDOG-SAX1AAy
+sprite $PaypalXs [10x10/16z] BOQ50OGm5CM2qtx9_jEUyZIWsWkms1aLmEgunxnNE1pgBTnUEQzq8JuKRO8rrO3525V-Adba_UuD
 
-sprite $PaypalSm [12x12/16z] JSjL0e10549HxFRkVxSEZ7M-Ne0aYatH49td6Su2prJpaddrt92vSHnwpsgQ3Ufzm4wf37kwaavC3nX_i-82
+sprite $PaypalSm [12x12/16z] FSot0SCm4CNGhtI9v67_QPqjLA-2501zwDtWq_vs4-OMrzlWm7AJDbO0CP4Efitq0iaedxKWfIGdmFfk5d5z_X4NwDzEtxwONpm1
 
-sprite $PaypalMd [16x16/16z] NSn50WH124DHQ3Sczx_j4ChhhtWj4P4Tp5R9FSXberQzRzx-LIlOPVLzU84vLxy-qivOk9m_vtKWxFUfgXHTvzWw-ippd3HxXF7T4t-s3BWhyiHaoVq1
+sprite $PaypalMd [16x16/16z] {
+JStL0KCn243HkCFTVzi-GkryuOGG1ACpl2bEFOqMYehW4maaLzDkNc5EJ3cMT-ZBqjMeJxwXAR2BilrycMkqgjoBe7MjkK79zzrfE1ili8Qd8pmQZ0aZvHZC
+46a2AVm1_jC4-f_dUzcz
+}
 
 sprite $PaypalLg [20x20/16z] {
-VT150eH044FHIk6Q-z-Mbk3GVvLvWrk8kNMmCnvD7yRnmoZoC6VjpYtL1EkPw-SgsHYsoogTlOGDcUisF2tjP3ftxS6h6O2QgJPGdDDqVyBuiraFmd4grGgx
-MT-tfWwpCtT7f--aZbUfRwBpYxO1
+NP250SGW5CLmX-o_xVLTlQaIv8lPu604SsAvQATptAJ39M2sFtCThW311-63szsGOyTFRyI2wH7whZFiY2121ItKaf9tfN1nSm58eTKKlAAXA5akrLeg2BFH
+5Mwzivwm0YVL2A2VReQh0pNgPQqrEu55hYYlDufZFqvXFye2y-FStMBn0m
 }
 
 !procedure Paypal($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/P/Paypal', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/P/Paypal', $name, $tech, $desc)
 !endprocedure

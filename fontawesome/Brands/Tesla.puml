@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Tesla
+
+sprite $TeslaXs [10x10/16z] LOQ30S1040JFUFPVRSpbe7YQfGj6xuDez1xWm7FoThlcX4jZtDJQJH4tgTv413-j
+
+sprite $TeslaSm [12x12/16z] NSR50OH050Mm1yntwx_QTIMdu62r6-K37b49P4NuraaTqPIzuOPc22_xp8wt6NnqVv_vlTdtHD_lEywk
+
+sprite $TeslaMd [16x16/16z] VSa5aWCm40D1cRs6dV-_zYxCoHIfIrAijhRxNgD6gQzfhMKfjsPpzMBcW0IuZQA1nSBUb6WCIKcdazEyj63f8GDxT87ow0H9Zu5-Ugrdz_xiKfuTepxt3m
+
+sprite $TeslaLg [20x20/16z] {
+VSwr0SGm0CLGcMFy-szx68RNgHDWGkv3RwFdO00xZT5oYFOjXjp6c6nhCQPIXWCtIaanjiRKzMMCldg680LZgdfNCUPJWF50qbi2l67czURPCNepxEcDWoOr
+3efKEFXE73Z9SM0amz4OdBJ6ISwSnCY9jJnv0G
+}
+
+!procedure Tesla($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Tesla', $name, $tech, $desc)
+!endprocedure

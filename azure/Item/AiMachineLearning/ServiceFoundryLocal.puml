@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/AiMachineLearning/ServiceFoundryLocal
+
+sprite $ServiceFoundryLocalXs [10x10/16z] FSY53O0m54NHc_2Til-wr4_a2KydGbTLRsiVbyAyG1nHLVFH-WNc4dYaOz5Rvt5QXASaNUPeFm
+
+sprite $ServiceFoundryLocalSm [12x12/16z] HOg50SGW54E3Vzj_takkzbeWXY7cX8Y8p2BKSyubzW3SMNI6P-2Q3Eg3YpMb8ykqQ6PmcWNOfXPdVPeFjJ_Qjr-QZ_GF
+
+sprite $ServiceFoundryLocalMd [16x16/16z] NSq50WGn30B0h9LG-VztZt2-LASQXtCguNHbZ37dN7dpYbkWHhAExEK6d_VfoyR7wtnQ7_biu9HJ-zgriRLyESjvbPqJ4PdjOssMyN6-p1-pWM-JgdT3VW
+
+sprite $ServiceFoundryLocalLg [20x20/16z] {
+TSq50eGm34JHi4qp4w3tl-v6rkNZZugCMnfTfDkhupZEQ8qVTlwm1VbkMjmyoe5xRw08VCwqDemNMzfceggpCeEMGK0IKWM64Jat9cvjs9GF2ooRPSZ9lYFG
+I2kxXS1luvUH72XplfY2RkglvXF-Rkv_3MbN
+}
+
+!procedure ServiceFoundryLocal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceFoundryLocal', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFoundryLocalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFoundryLocalLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFoundryLocalGroup($id, $name='Service Foundry Local', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFoundryLocalLg>', $name, $tech)
+!endprocedure

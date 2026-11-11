@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/BitcoinSign
 
-sprite $BitcoinSignXs [6x10/16z] BOh50G0m20El-WAo_xHLF0O4fwP0jv13rxsXNnUJzsi_lm4
+sprite $BitcoinSignXs [6x10/16z] 9Ol50SKm08M8UzX_sY_j4svGSu6cHcov6GHESerb-B6VAH2qvRnFKnklzGK
 
-sprite $BitcoinSignSm [7x12/16z] DOp50K0X08NudSh-qzg-l04_Au371vzLwBgkNWeOTLasBwU0fH_gztswMJKf6G
+sprite $BitcoinSignSm [7x12/16z] BOo50G0n30AlhWdxJ_lQk03KD82ufXVGQmFbvwAW1E5fjfR4q_PIVuyKlH3Q2tUflFGME68t
 
-sprite $BitcoinSignMd [9x16/16z] 9SQ54S0m00CnbyE__xQrBpgIr7Hy2jwnP8C5fyJMdTF0aLtazYNBG5WKEEpA5LyItUaseR4T4jzS2fwH_
+sprite $BitcoinSignMd [9x16/16z] HOw54S0W40GlRd3RVxVvGHTv5ybAcuA5bJtaI-130cCuH2fXYq_1G_TaGU5H4OQzXBHYIh8IquC3ECe8yZw7bZNM43y
 
-sprite $BitcoinSignLg [12x20/16z] LOu50i0W30EBE_t_RvTCkyEEe2AoMMyqYnRZbPBrOZk4B_JjGS08NqAYwkl1-AQ_5EFgq1hfk8ZxdyElY_6aP925SDiFJHv7BV__qnEdu
+sprite $BitcoinSignLg [12x20/16z] {
+NS-50S0W40J12-xRVxLn7znvoIE73W75ep-vIbZprXySXfMsPWLiVQ-LWIXmsYJotIzxFvfL12TkvjLdWcWs7kfrLX7klcE0F_urQC3O0BPpyTUVe_t5yevn
+0G
+}
 
 !procedure BitcoinSign($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/BitcoinSign', $name, $tech, $desc)

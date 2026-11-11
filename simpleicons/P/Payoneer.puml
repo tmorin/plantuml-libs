@@ -1,13 +1,16 @@
-' definition of the Item simpleicons-14/P/Payoneer
+' definition of the Item simpleicons/P/Payoneer
 
-sprite $PayoneerXs [10x10/16z] PSQr0O1000ImuCxjloqD_gdYBubWoOoGWEuApHLbT5TsbmC
+sprite $PayoneerXs [10x10/16z] DSR50S0W542nzwrUs7zQd9p2vBUR0fBovVA2PwVvMXZCVoP9BAymUR3SRC9M0G
 
-sprite $PayoneerSm [12x12/16z] ROh50O0m0CI2Ezb_MbpRvdDAWbR5m-e4pErXZwQOo6mu6P2RdwqVcyt91sMwNW4
+sprite $PayoneerSm [12x12/16z] HSot0S0W0CH0aJFiFwsp-QjKYP-FnbXkOQrHp00OAm9C0slmQ8QLUJap8xzMz1fiIc9GLyGW9m
 
-sprite $PayoneerMd [16x16/16z] VOhL0SKm08IenHFsd_QvI-_l0FvlKZlUh-fen75vgxfSAu2esxsR8IiyVx8zBeDWuNNMzzlVRl7jyd57sjLv-VZlboC
+sprite $PayoneerMd [16x16/16z] NSV50KCn34J1NVcZwVLVRPYKkOr-k5ZoUz60fl5gXR6Nq3ZlywI7xdRkXLLF2rA0zM9akhvMCVIhaxhXT4fgFLCzbRGrlolptwy
 
-sprite $PayoneerLg [20x20/16z] XSg30SH0503HYRES_gizCtoBJqureLfQPhwA3xJoqgdceO76rsPI8q_ANTOCVprruAFu-2e_1a7bJo5QMEYK9MMfsB0mEB9aPccK5GUMkifARLbfMRi2
+sprite $PayoneerLg [20x20/16z] {
+ZSg54O1044FHdE7ixxzR1dUuDxAIwCAvwwCoiAXc3qf6rgcojTG3THZNHD0e09LcVjuYz5uhsh4zbdRMZIsI3ff60RoEejVukkW9kgWfT16eTMMcguZJ5QMk
+4hgng9jEUGO
+}
 
 !procedure Payoneer($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/P/Payoneer', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/P/Payoneer', $name, $tech, $desc)
 !endprocedure

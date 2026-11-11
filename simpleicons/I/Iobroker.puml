@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/I/Iobroker
+' definition of the Item simpleicons/I/Iobroker
 
-sprite $IobrokerXs [10x10/16z] FSR50S0W0C30rBtPVreSxdLapcIAfqS9CZaZUUnkRVYCJMFfPR_ixeW2YveJ0G
+sprite $IobrokerXs [10x10/16z] HOk52K0n50EFAdr2zf_sks3HWxBSLm6QPkzJZQAA6LKb5gTZXShjYdxthoUnradGjCPOQa19AGli
 
-sprite $IobrokerSm [12x12/16z] HSQ50GD14CD0_J6h_sh3i60Fpodo6MsYRwRG6VeaL24uCRtDzbblu_Jlz7CG-yVACV1qDuFkYw0ROFcS0dS
+sprite $IobrokerSm [12x12/16z] JOs53GGm30DF-eRKEjb_scSIcWrOI640x4dtdFs4YohMRDOTqiq3d0OaeC_41yVyurz6vwzxUMvciju7ojGJmjAC5d03
 
-sprite $IobrokerMd [16x16/16z] NSy53eHG0CJGujzx_zEkuD3eoyI6jRuuTnmLamQTDwenpBDQTtPeOD8CMM4rlO9sXudQsJYDHiF3sVdcvc9vxEZRu-bgPjH-TrIWQAAReQuBP8zMGgSURxu
+sprite $IobrokerMd [16x16/16z] {
+NO-50S0m3CFiubZ_Npjc5SE9LbmJf6eT5CZJbA7iOWUTK_Bs7jOaWPGs3qFKTbkAuB8x7R8wIazyv4W_eKSMqr_--0VwVxv_FPLT0RjOpdxZoj7lqV51qO7h
+2ECnxm8
+}
 
 sprite $IobrokerLg [20x20/16z] {
-NSw5eSCm50D0ESot_xGV-ifAJ6VC8wUjorj6mhauseDu67FHXJMjfHrOQfNhrfn9GvSCHMNfSDkPbsLY2klBgXrf7xQnaG_hsR-jO_csaKRtOGVX-33sxBGt
-ksY9sbssSjNBJRKdg2iNsFf-Eg2bdkcLFBCKdFMiNm
+RT050eGW04JHePj__zDksZecZqQ_-EZXyz8MEwW1GcMuXIBGNCwk0N6Z8XEZKLdG0axwzfKSOAN-8tdm-c6NXQpTbC4cC4Spa3fTHzC71lbicV5aJtsVvdXQ
+oyEQd_Uc26GZxsNowM1eAJKMMivqoR3Qukg4MPTJVWC
 }
 
 !procedure Iobroker($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/I/Iobroker', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/I/Iobroker', $name, $tech, $desc)
 !endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome/Brands/Xrpl
+
+sprite $XrplXs [12x10/16z] LKs54S1038e0r_qNxhl55Sp2geoK73Mokar1jwyRnebK0zDFxTVD-niS9SDkhW8
+
+sprite $XrplSm [15x12/16z] PSw50SDG20JGruFett_UkWTt3YSFUlYrFQXNPFAYAIHIg9AuELlhxL4PK8y38pReHxgIh-7dgI0bEJpwm9XM_a1U
+
+sprite $XrplMd [20x16/16z] {
+RKu50eGm34lcll-_5fZrjEuD_fEhF26hczuKl54smoQ-rvY6ZG3ipAUBiyPnSaJLdTfCJLEgcPsopmZqWJCmdV1nrK9SjJWEbBDRBKuQ83_yJFzX-SKyQxgy
+rufP6-MjPF6VRW
+}
+
+sprite $XrplLg [25x20/16z] {
+VL050WGX29JUKFd_QozOwzA0eIFzEt388ia13P4Rh6xcTA7Q-3XKcs5Lhfho-8W16oYBmJMm-ZH03UhseEOGgOAUMqjSfBJas_aWFcgJygZkAV7ebdTfY4B7
+lLJcN25muOlDuXh5lxKhJcy6w9jgS_nTIUKtFJS3-hwgONSSaDQbxv3-dJi
+}
+
+!procedure Xrpl($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Xrpl', $name, $tech, $desc)
+!endprocedure

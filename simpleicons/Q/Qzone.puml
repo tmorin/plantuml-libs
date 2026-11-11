@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/Q/Qzone
+' definition of the Item simpleicons/Q/Qzone
 
-sprite $QzoneXs [10x10/16z] LOU50G0X00BvJhtzfxMJHZDeWrS96n3gIAaRT07dd_wTdWhkj1w0j59ooGC
+sprite $QzoneXs [10x10/16z] BKc50G0m259P5_zVkpP8sMCcVrhz0gGxZKybnfoz1VOKHSaWZeoHnEwpYYB8KRdKrevwxL7nmm8
 
-sprite $QzoneSm [12x12/16z] PKi30G0m49oD_cbdld4WAF9pPlFSYz0fzuYoOvJIpRMH5L-oDjDsf34L6_WCicwvRZecRxC2
+sprite $QzoneSm [12x12/16z] FOo30G0W44KFMN__QNEzCsd1J9zIVYg0t9GnMLikjU94J4Lo2iGOYJAWQnd1tIrjJ6gzsLyyiMXmApVOx7v4P9vkvLRsfYKQ
 
-sprite $QzoneMd [16x16/16z] TOw50GCX40HnvxR_RdCIUnji1tSFuAIe_ne1_3ihvjVI4iU8d3KkpyaJ9tAoasWNMsfs5YWwzizbBdsKmU8kbFRv0YlZEu8vFfZwapTWy40VtzqPnDzw0G
+sprite $QzoneMd [16x16/16z] {
+LKw30G113ClPpVxJ7f-fNHmeXHzg_OM6DD-uaGql72VyjSd6nbRhLD5gL9B1g6k85OLIcj31ph2iKvo8Ag_gkRsEbQiweTjbxNdI9csqzKdooGTUk3vOcy9A
+NdLXE6roVGkypW
+}
 
 sprite $QzoneLg [20x20/16z] {
-VSt50O0m50FGrBtPVrkeuF9kNuC_YdYeTBWn9773LSI5PNCBw38weKBXggGGSkzxsNupOV9iO3Xb0RLzTHmiyjR2t1IeR8ulUTl7XXORXocZaRuUUue7JE6b
-nqOZt7fgEzWoYiJ6HW0B
+POw50SCm30JD_Fdzjwr9AbtG9pI2jUQFCVwK9_sl0uaV5JY9t-vPxZ6AzGdS8FarFRULqfDtpiM-abjEwnESipA9J2RmqetTAinOFAgkg0wF9zeeMOjCp7O-
+bL9rHTzrhPJlNnbXajiWXqGRbIeEV4XWEOXRQySvVrbfJDmD0cXbxltAxmi
 }
 
 !procedure Qzone($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/Q/Qzone', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/Q/Qzone', $name, $tech, $desc)
 !endprocedure

@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Thermometer
 
-sprite $ThermometerXs [10x10/16z] Ou02FXY3dvyVJ7Fp0vbW1f26iFYX34vU1XGH60jg02Sdb04p4W
+sprite $ThermometerXs [10x10/16z] FSR50S0W0C30rBtPVreSxdKKa_zSClFubttlgy1wBke2qsGDdbyDsZAF_3FL214
 
-sprite $ThermometerSm [12x12/16z] JSY53G0n5CFG74CX-qzR_c3Hao75eCmaXL3Vf9ZeJDDA8WatkTD2V9wGNYCg
+sprite $ThermometerSm [12x12/16z] DSV50G0X4CNGmPtqN-qgFwSNEqscgOfcbm3yZW3ZrLe1M2-TGwmaqHeVPJ7GMXM3gPVg1W
 
-sprite $ThermometerMd [16x16/16z] NSl50OG050FHP1UtwRzQN09pUryK3QEJ06su1BXGK2fT0O_BIitEOQUXdJQEzpSFJQMW1aXkJcvEwiE9l-tOMj7qfXO
+sprite $ThermometerMd [16x16/16z] LSp50GGn509G9gxGVxNhGhWzlk2NQqhvJoJ9YYkzYw-fbDqlIFEzp8pr97-lthnUquoiFx6KYn6KdA3pRMSLoMMiiBIJK3k8Em
 
-sprite $ThermometerLg [20x20/16z] RSq75iGW409GTbFjzxzjdbr8U4s-EWEEZvU8IJa_nc9n0VF3h-0abt-9dRcIkObkR8puLGhBiCHq0bx8v1DJhb4ecnA8o8Z-IkMPCyOS_Eg4v8F2c_
+sprite $ThermometerLg [20x20/16z] {
+PSn50W8m34JHgQ2HkVzfSOZmTtrDWjmGKWPAnaTUSVAP9F29_S8mallSx4Yox4u5pXyRRngapSkR9Zvzta7h2aWbE2-GIeDbCImeB2YiqkUyPrBAU8GofMWf
+1JrN_7K7
+}
 
 !procedure Thermometer($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Thermometer', $name, $tech, $desc)

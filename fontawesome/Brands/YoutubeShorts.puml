@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/YoutubeShorts
+
+sprite $YoutubeShortsXs [8x10/16z] 5OK50G0n08HucGlzqqvEW9FW0DwkHefU9sVJGdRosQ1vRA7Or1IzgLpt5nW6JZO
+
+sprite $YoutubeShortsSm [10x12/16z] 9Sa50G0W40J1nPthdnOTUEUoNVbMKtGuo7e2Kvz9Kakt8Ke5CrIX_auHywzAHjya_2Q3kxKOZgnkkJO
+
+sprite $YoutubeShortsMd [14x16/16z] FOo10G0G48G20Em_BO10XtykfhRyN9SsATlLyeKy_fDhdufSHzuX2SmwXQZpHNFU1DXv1F0dcTUpdfyJWqYdotchxUEGtujYfUUBibrpoQsQvmC
+
+sprite $YoutubeShortsLg [17x20/16z] {
+JSs54KCn30DGXJdQVzkU-aFlo6mSON9u76vGTiLsVYR4D1vA2n-0vQi3uysdMGCnKRBUKHoi9fk-hW8G_wD0k8NrrhUrScOp6ICN2pFv643dom9lMWtUGhEG
+kTAkL3nbE1n-S0OSFm
+}
+
+!procedure YoutubeShorts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/YoutubeShorts', $name, $tech, $desc)
+!endprocedure

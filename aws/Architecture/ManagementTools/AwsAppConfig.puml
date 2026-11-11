@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsAppConfig
+
+sprite $AwsAppConfigXs [10x10/16z] 9Ko53G0m38eL-__WGUP54pjz_XN_O837IQJWSqc8lQXQYYB7NOVB9X1mkhrtG-dV_W
+
+sprite $AwsAppConfigSm [12x12/16z] JKt50GD14FeCblJVxx5xEgxmgwHMlyHxK8a0g4sDT7mrw4B6-g7CFmDtOJMtpgh9jkAw4TfWZtilqo_Z9-Mi3W
+
+sprite $AwsAppConfigMd [16x16/16z] {
+HSy53iKm30FG3ubfzp_leAcqyhD5pGpRUSV2cpWHjEuXyRyduis23gCdS823pNl73_Ktomt_5QywxQJ2NYQU29tYSff4zTI96qqdmZQR3LLr7iKtnSQ3PSNl
+btQsCVdqCou
+}
+
+sprite $AwsAppConfigLg [20x20/16z] {
+XP054WGn20Ih3f__F_Y6TKy2Aus3hrCyLp2_3eZggdpLZbBzbwhcg1rPExdf2WkkV4LIPMEXI36n_gWPCHU4NXAGsR5WWMm7D_BQqsbI0ofhS0HSJ8_vKdYF
+TMSK4LD_jh0g2PVeEMmDRQImmxo5S0HmsalDqkUuFCBH-GC
+}
+
+!procedure AwsAppConfig($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsAppConfig', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsAppConfigCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAppConfigLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsAppConfigGroup($id, $name='Aws App Config', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsAppConfigLg>', $name, $tech)
+!endprocedure

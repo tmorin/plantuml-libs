@@ -1,0 +1,24 @@
+' definition of the Item aws/Resource/Databases/AmazonAuroraOracleInstance
+
+sprite $AmazonAuroraOracleInstanceXs [10x10/16z] NOd50KC158C2UVklt7utBX4YRaJ8XjXQ2oBAY9igTM-3FJ_zjg6DAe7y0G
+
+sprite $AmazonAuroraOracleInstanceSm [12x12/16z] HOY50G0m2CFQCFd_uha42nKFOIqiWzTd90mvKYMAGTPiOleYSBfUS5nF5jz_dfUpSuQBYMMi3W
+
+sprite $AmazonAuroraOracleInstanceMd [16x16/16z] NOy54W1138CIckxz_yNdpYh3M2NmZQJ6tBH0rWssgTZ8mM9JPJXJhGUsCjXEKT7k9wwY7gSj3zsU0Kn-VCsgbxVzxURV_Uwi7giv2LJMS8-wNmi
+
+sprite $AmazonAuroraOracleInstanceLg [20x20/16z] {
+RSi53WHH40BHQe7-S_yBRzR7Alu2t9NZNx8r2OjJ0o8KlAlW2OW9HqL7b28BFysqcvQfj15FQrN6ragrwsc60aW8YC1F-zUMkW-s4iZPMsmL4RKTJDdkzD5u
+TlgEvLa7Qvxfk4kW5kXlBabbcByDpmPov6TonDYUuAu7
+}
+
+!procedure AmazonAuroraOracleInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/Databases/AmazonAuroraOracleInstance', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonAuroraOracleInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraOracleInstanceLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAuroraOracleInstanceGroup($id, $name='Amazon Aurora Oracle Instance', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$AmazonAuroraOracleInstanceLg>', $name, $tech)
+!endprocedure

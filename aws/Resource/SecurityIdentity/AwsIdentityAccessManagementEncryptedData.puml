@@ -1,0 +1,24 @@
+' definition of the Item aws/Resource/SecurityIdentity/AwsIdentityAccessManagementEncryptedData
+
+sprite $AwsIdentityAccessManagementEncryptedDataXs [10x10/16z] DOg50G0W3CEQ0F-VZCzhmLFPTK_t8N3uqNscOmj7e0aNLO2NkaU-VW0RB
+
+sprite $AwsIdentityAccessManagementEncryptedDataSm [12x12/16z] BSW15W0W10JHWUt-HmvCbVz0U4VdHgMakes_SuPRsZZ0iBNCtpa8hp5sr3fNVgvYz_LNFS4l-
+
+sprite $AwsIdentityAccessManagementEncryptedDataMd [16x16/16z] JSV50S0030EnIsoNzj-tJFe9gkl4RUYJbxfkBdBzNsQkvnMNv3mV882VY_yhWpJbVGerwkU6CTJ_W-Z_2-fzrBlXFNNY-j1zlNMUUW4R
+
+sprite $AwsIdentityAccessManagementEncryptedDataLg [20x20/16z] {
+RSk73S1024DHms4W-m-SdbpzQjQJZ6MQz3jk_AmetfYSp54uMWYIZQaJ6iwjcZeax_zhxpJjZTUmrjGpo4nlZ0LGEK4Q4qWuOBtfPUmDeRC9Xg_9NJGcD2ED
+XcgrroJejS2w0m
+}
+
+!procedure AwsIdentityAccessManagementEncryptedData($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/SecurityIdentity/AwsIdentityAccessManagementEncryptedData', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementEncryptedDataCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementEncryptedDataLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementEncryptedDataGroup($id, $name='Aws Identity Access Management Encrypted Data', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsIdentityAccessManagementEncryptedDataLg>', $name, $tech)
+!endprocedure

@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/R/Rollbar
+' definition of the Item simpleicons/R/Rollbar
 
-sprite $RollbarXs [10x10/16z] PS750OC0002nr8lU_jDYNn8tdu2ymOiLw24eX8HWXZG6od-vpEm
+sprite $RollbarXs [10x10/16z] NKYr0SH031C-XFRVzg2DBSRhdEFPpW_Zx73dKwoKWv1MIhLcmQP_xP_uVhmcoDNpeyIUMCTzooS
 
-sprite $RollbarSm [12x12/16z] ROo50S0W40CFTtx_QUjUtYK9Oyj7LnBjCGiaSuoc2SSOmMzJ28bZjWhEkTBgOWsoHevxvnJmmijc
+sprite $RollbarSm [12x12/16z] RSA53KDH34Mn4xpvzFRVjYGgMUQFo7tnalBMyAGYcWBOpkmT6kmKqC_U3I0e4rj5rC28BdSFKRtBUPf9rXxrT3eVxW
 
-sprite $RollbarMd [16x16/16z] ZSsr0GCn0CLGcTb__sd3d2DrhnB7CrtIIqaPF-EJ2b0QuKbC78cdDPKG3qT5u6KbyM4PseUpnzHmxUg8CBAt16xQuERh6JkjD9xk6QJvJ9R_pW
+sprite $RollbarMd [16x16/16z] {
+VSc54SKm3C1GXHD3lV-qdndw3dLYJsxZ6SscHd3JhP4qBQwaGt7GQvgqPGu8PpD69SzRryq1qhhscAq-Mcb2B-VErs_W9ghY4zXcnYjdPP4yQz74HPh58QAI
+pYWXm1XzZgl63qS
+}
 
 sprite $RollbarLg [20x20/16z] {
-dSg5KKH10C3GV9ULz5yj3YkSP_nDUB4bQmjwx6PAmG2pX3-Pt85328M08IUA3MvHWrIcQG0g2mQWCJU7pXoGnZwfj-E0nTy0CaBCL9_R68Y1OgCZv-PEiKqW
-Uuv_pIQ0FTL5hlKE
+ZSjLOY0X44NHIz6DbUr_jJDHY2Vdymb_KWhlo33FXAExtrUeSvAO1U8cTkGBg7bnCc_KhY6SJ5FTRklih6Xs0ThOsOWK7lMTsQh6-ymcTG2SxstGLUe3MHqW
+2P1GUwJHWE5jScNbVCsmUcVXHU_403Tbk_tfdQbZpHUU0b14gcnywpy
 }
 
 !procedure Rollbar($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/R/Rollbar', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/R/Rollbar', $name, $tech, $desc)
 !endprocedure

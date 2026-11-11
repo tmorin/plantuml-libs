@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/NetworkingContentDelivery/AwsInterconnect
+
+sprite $AwsInterconnectXs [10x10/16z] BOa50GH0409VqFw1psSLIDBc8VdybK9cmzZcjk8_R3KI0SextPmKwmfgudXr5drh0W
+
+sprite $AwsInterconnectSm [12x12/16z] NOtL0SK030AVS85q_tthVZzH80kT4_jieTYcDjqMszgXKYphQlHdm1qJpHWl1o4XTn9asCGM9HNo6Vjc0W
+
+sprite $AwsInterconnectMd [16x16/16z] RKq5aaK129fPGE7-5rx_wx8J_2L9RcrHdRCLkz3ddd4Qh6nhhGKgwxCjGlPo4VOSIvZ4hESIIONhewI_nRIpqu0dRdXYE5POy4IXCQRjlzkkMl8g6SkItl8F
+
+sprite $AwsInterconnectLg [20x20/16z] {
+bOu5Za1H20CJXa9x_mEliXhzymGNFoBtVX41oZ-NRUJVy55Oi3bFXZY9lULZQvnv8nPxbPi86YL3hflJBRLYyvst38ZDS2EgbrOtstNziYFw3RG_wrKb41Uw
+D6QPGAPDNreB3OoGRkkLnWPxzDqnoO_oW5S
+}
+
+!procedure AwsInterconnect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/NetworkingContentDelivery/AwsInterconnect', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsInterconnectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsInterconnectLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsInterconnectGroup($id, $name='Aws Interconnect', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsInterconnectLg>', $name, $tech)
+!endprocedure

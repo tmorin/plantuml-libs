@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsArtifact
+
+sprite $AwsArtifactXs [10x10/16z] JSot0G1H2CFG1akm_y2NmoU-ohDMQr-WI3mWaE8WJOctqfUE2t9eC2L_obex
+
+sprite $AwsArtifactSm [12x12/16z] TKp50S0W4Aj5s7_X1hXFXRpYxGtRnNW1uAI0mXbgjB1JJ4qA5oM5CzmEdnqIepE2ovf70Yw6Bd43
+
+sprite $AwsArtifactMd [16x16/16z] ZKpN4KH129ev0T7-2xxDtu-DakeBB59-euAIe3kI5ACEOJGb_mRXCRRK941u_0R173FjkUlEKDzPQYZJS2w_KSc9rJUG6A6LgZe48p361rlb-e8_
+
+sprite $AwsArtifactLg [20x20/16z] {
+dOtNRK0n30C3YqNK_WF7UFqtENU21-TlJBep-TB4XlqfgI3RMdggAXU9vPHkSSNe7VpirQT9Zi6ogeOyxUgT2TWhNQUAnA3ck247PmRUsUsovUHqxpyMDwWH
+vYx65ksUSawyxIvY1fmy8RcuLCm7jYlovCFa7_m2
+}
+
+!procedure AwsArtifact($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsArtifact', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsArtifactCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsArtifactLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsArtifactGroup($id, $name='Aws Artifact', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsArtifactLg>', $name, $tech)
+!endprocedure

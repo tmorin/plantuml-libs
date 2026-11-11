@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsServiceCatalog
+
+sprite $AwsServiceCatalogXs [10x10/16z] DOR70O0m58KklxB_mA8chm8B_xWp-t-fbYScOwAbgeZgWHN4OQaii-Y-0DDurX5u
+
+sprite $AwsServiceCatalogSm [12x12/16z] HKs50S0m39eWRVu_UAIpk49LpPaGxzZTroWokflcI4dr3Xfd71bNPZXfTsq19wYx9Wbf8KcsUznT7jRr8lgvwgqk
+
+sprite $AwsServiceCatalogMd [16x16/16z] {
+HOu53i0m30EbnL3d_mzUITiLm-vD9lrn_fzdliCUytFDa3QHwp7TKWQKLMIYKNoQqB9JQf28CLP1ECrwbkFQVbZ5aZpjD4LmRZ5xt80XmrGVXnahuYTe22Zt
+PRcj-VoExFFpMoy
+}
+
+sprite $AwsServiceCatalogLg [20x20/16z] {
+VSs7TK0X20NG-7a5s7_WUCJqOlSgq7-tEkqhpNRr7fC0FNe_CPGfO1ylMkm-CrHz_Bml-CKTn1Y5h0127SAcRVcu5QQY4pd_p4PeBJBQ6alK0fy7N1R72Wd3
+52LwmnJH_eKz7HkELMIgsgwORuCgHEQbYoAzc4CNkn3PGv-rQ-W3D_K_xHK
+}
+
+!procedure AwsServiceCatalog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsServiceCatalog', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsServiceCatalogCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsServiceCatalogLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsServiceCatalogGroup($id, $name='Aws Service Catalog', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsServiceCatalogLg>', $name, $tech)
+!endprocedure

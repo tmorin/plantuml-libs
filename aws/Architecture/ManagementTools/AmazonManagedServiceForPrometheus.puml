@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/ManagementTools/AmazonManagedServiceForPrometheus
+
+sprite $AmazonManagedServiceForPrometheusXs [10x10/16z] BKi50W0n2BhSWF__rs2s4X8fLNbmdmF02r_xM_WW-YHfS5LOhhr-ZBkW2eC5pUaZ0G
+
+sprite $AmazonManagedServiceForPrometheusSm [12x12/16z] NKk30SG037pqkF--jUCS-ewaMVVS-gzF6jWOj8B1W83RNGtPVJL8xEw2OBCJuW5tT-x42k_FTau
+
+sprite $AmazonManagedServiceForPrometheusMd [16x16/16z] VK_50S1027j0u9BzzsrxpgkuYoQGL04kNXx5-FZc51QdWe3IVLLGT6iO5PprBSnv9r02wWO22CHTuCZquilW6EuAW9dLJw1LdsFQ3vntNm
+
+sprite $AmazonManagedServiceForPrometheusLg [20x20/16z] {
+XT05hWCm30DG_SOE-D__lEEjgAtYrx2-lLBzfAfIcAyiqDInv4Xv0wDJ6lcFJCEGxWQO2XRT902bp85A2KgQA1macQfkR17XVtCkGPyxbBAbsvEwGidPIaZ6
+Qc6sNwiEf8qckG8
+}
+
+!procedure AmazonManagedServiceForPrometheus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AmazonManagedServiceForPrometheus', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonManagedServiceForPrometheusCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonManagedServiceForPrometheusLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AmazonManagedServiceForPrometheusGroup($id, $name='Amazon Managed Service For Prometheus', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AmazonManagedServiceForPrometheusLg>', $name, $tech)
+!endprocedure

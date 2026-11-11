@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/G/Glass
+
+sprite $GlassXs [10x10/16z] FOm55e1044BPUM3hl_zfRPqEGAej6bYREd01wrLiDbW02nW08ha4u1OxzpS0FoFAFJ7gKhOlqW4
+
+sprite $GlassSm [12x12/16z] POs54S0030B_Gkh2_jFMlN4589reT0Fqjl0YpLAEbhnAiGR56iTXZKctH7cl2S5MYvIKsyt_jtvW7bnh7G3fq780Cm
+
+sprite $GlassMd [16x16/16z] LSy54W0X0090hbl-_zj3R2QOjOKoNPo1FV2R8qzIFaWttjWJw7oQjIUckDjyk8fVjmxjppd0OcK2YYVCapBFWUFvr-Xd6hsDx_a0l9qd_wVuC_rV-TcW_
+
+sprite $GlassLg [20x20/16z] {
+RT055WGX009Gjasu_sttsScatnOvRw_qCHI_HLwKaaMbk4HMocPKyarKJJN4Ixi9yJ2-rSsfnFXXjM449yijpJnmozseSot-jFW-pI0UzZptPd6S0O64i_6n
+d6dhYEdi5SqJANy
+}
+
+!procedure Glass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/G/Glass', $name, $tech, $desc)
+!endprocedure

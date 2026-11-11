@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsFirewallManager
+
+sprite $AwsFirewallManagerXs [10x10/16z] LSZ50OC000F05gBilo-kzudqBSbP8DDROLnhRM86J5YhBOvIjbCsrLK4kGUx7mi
+
+sprite $AwsFirewallManagerSm [12x12/16z] VSQt4S8044N1OUw-UVJVByZ4qaRBiwwSSB6Avke6WGrquizyCmN4UgO2i1FB0QWi76vPXHT_
+
+sprite $AwsFirewallManagerMd [16x16/16z] ZKu53WH12CiE5Sh__tkk6nkYrBDpzlyF49BUhw34LVrwEUw9-FnL6XtAkFpyVTCUFIpT_yPu2SkfLtfeSw7vpcFeKCuR4CVy7RI8FYtUkoi
+
+sprite $AwsFirewallManagerLg [20x20/16z] {
+bOz5WWHH24DxVWJ2_UyxtgMhUXjSacTCRXIh-rmP2WABFhR1IKZqkwlHltw1xwvUda2_sNSIOg8NakZToUKiu4CJyIytvlpa2IQhtbSJf8XNXUyZwEBGbip9
+kr4EUYnttjXe9gYJEAzbA6UQgboPoLE-
+}
+
+!procedure AwsFirewallManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsFirewallManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsFirewallManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsFirewallManagerLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsFirewallManagerGroup($id, $name='Aws Firewall Manager', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsFirewallManagerLg>', $name, $tech)
+!endprocedure

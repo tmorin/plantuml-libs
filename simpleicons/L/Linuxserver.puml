@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/L/Linuxserver
+' definition of the Item simpleicons/L/Linuxserver
 
-sprite $LinuxserverXs [10x10/16z] LSQr0OG0002nUnSa-szBWwPALqpAkvgG8epAKCmy_k1cqx7s54or
+sprite $LinuxserverXs [10x10/16z] BSM50KGn3CDGbRdQVzh3_nBRV9MMW0nSdPGBaQB53cQMsqC-FMq_rbc_dP_SgtPyGBX-dC176IC3Rm
 
-sprite $LinuxserverSm [12x12/16z] LOc50G0X30CFTxB_jk_2GTi82nbGcZ8GFH2q0nfWBKEIFJhf60q5Wgm_z3mggnD_-1JpeT47wPDGFmaSgW8R
+sprite $LinuxserverSm [12x12/16z] FSU50G0X40F1uCxsN-qhCAVHnqRtdMSSJ9vdlC5KG1aZCvmQf3abGto62Lvrb53v94hdrNYCFe5YEOmYYvVaUKsdZy_Pl_S6
 
-sprite $LinuxserverMd [16x16/16z] PSg55SCm4C1GXMFK_jls6ShVSCY_itr13saYZHsmtO7ci07TW7K5rS1OQl_Q6mfmjj_X8jnc2AfLNPF1wMvVibvNiS5l-6Nbgr60nPTAvnIObg9UD0y
+sprite $LinuxserverMd [16x16/16z] {
+LOw50G0X30EBUxF_jf--S-W5bOSGtJNnDcOekdhJV8OAWqk3gH4icHAnA6aaSI1XeD8Rfjq1te56hoFp3hgo9Pa3ipREBy9QTLrJdTQfjZhKV2Hi15b_dIBk
+x_Pr_vfIZNfPaPUGSxXc1m
+}
 
 sprite $LinuxserverLg [20x20/16z] {
-TSo5OSKm54DHcTbt_saBAiC_YUcH7YZUuuRQ9PlUEoyE1BqOKNR090Me-X6LpiBJOfIAOr6mzG9FScmN69-nZo1qn-hoyQ4fxSkjQM3NKnFpy6bwJp3Rl621
-lyGVHOtV95r-2dh13rLsC8jwbtbtz4teQuqesJC
+NOu73WGn20D9x_Z_lxsr4BTbqYV8GXx4S5yZzpmEJbscKnAoSN40oh3DILCG5P5vu24DP4ZaTj5xSnawa9W0iFpGLKjb18CotQON2Lb7kLo5KsIl1PrJtLZg
+d73qS3zRJobZczlDFpcD4l15sUU7udtUB96lt6AiMpLnebdjGPwadAFVVm
 }
 
 !procedure Linuxserver($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/L/Linuxserver', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/L/Linuxserver', $name, $tech, $desc)
 !endprocedure

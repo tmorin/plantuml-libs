@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/NewIcons/ServiceAiGateway
+
+sprite $ServiceAiGatewayXs [10x10/16z] LOk50O1024NVqUo_iDXw0J_vdR0RADqxI8CTxY3IgIAPsJ0eyHqKEpp13Yy0iZVP
+
+sprite $ServiceAiGatewaySm [12x12/16z] NOY50S0m3CCqZFt_mODo6vJCMlSreZsaMUA691dl44W4_pCW8a3EUH8oPicOnGL16Ly
+
+sprite $ServiceAiGatewayMd [16x16/16z] RSk53K0n549Hgl3s7_XhlILwRWAEYocbaJc3cWXlvWRMy904QgZCV2yIK4Y5Fp0zrhEtlwO7ilH--HyS45W9zmLK_g6o1bzP9vjebJS
+
+sprite $ServiceAiGatewayLg [20x20/16z] {
+VSu70W9120F0hIJv_uTbezYLwtEqzYVMtdkyqevOxOD6e_Ja4J7peSGdSgkdp03gTsKcdSAnUcLMLWIu3vAztR80aCs8DA_C37ajCYtohH_IzMMt2MTkcIRT
+OJhJKMJ46rNcCrLcKKKFz24zavVsu9Veu7tw1G
+}
+
+!procedure ServiceAiGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAiGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAiGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAiGatewayLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAiGatewayGroup($id, $name='Service Ai Gateway', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAiGatewayLg>', $name, $tech)
+!endprocedure

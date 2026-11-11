@@ -1,0 +1,24 @@
+' definition of the Item azure/Item/NewIcons/ServiceAgenticWebApps
+
+sprite $ServiceAgenticWebAppsXs [10x10/16z] JSQ50S103CD0FIhD_lkMwG8sF-fuoWuedWYq58iGDKv4vsaifzYFNNP0sDLCs
+
+sprite $ServiceAgenticWebAppsSm [12x12/16z] LSY50O1030J1ZTv3__tYEl7m9-dQGhkwlWSQKgrGRRsHKhw52lauLMLoxHZKT83Omh2qWC7ss8nCD7Cf0Ii
+
+sprite $ServiceAgenticWebAppsMd [16x16/16z] RSd50KGn54BH-uX0qd-_upx_h10EQFJwQBxvh9-3NpG_RvlfZkqQ9PKjCyk9uuj4GqHvOOnkFderUhthjK-l1-pO2q59D23qmOrMJKXVFEsTlGT_pW
+
+sprite $ServiceAgenticWebAppsLg [20x20/16z] {
+TSY50K0X203H0n7G_VVztV5CZbyYFCIYSYgnSNOQ9pPneUu2I5nHqy4ZNDqaIfdRL9tfOr95GcLk3YcULxXR3RstccR9DLKamM-DfOMr4slBQzg6H0L4Yp1j
+I6ZAfXSBeD62GyjkzEpEXVP9y6C4
+}
+
+!procedure ServiceAgenticWebApps($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/NewIcons/ServiceAgenticWebApps', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAgenticWebAppsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAgenticWebAppsLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAgenticWebAppsGroup($id, $name='Service Agentic Web Apps', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAgenticWebAppsLg>', $name, $tech)
+!endprocedure

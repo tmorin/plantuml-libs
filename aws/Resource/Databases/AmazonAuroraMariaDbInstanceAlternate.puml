@@ -1,0 +1,21 @@
+' definition of the Item aws/Resource/Databases/AmazonAuroraMariaDbInstanceAlternate
+
+sprite $AmazonAuroraMariaDbInstanceAlternateXs [10x10/16z] bSWr0S0000F13_cNN3RGMmBu8MFnaDqroIR3-zh0luO_d
+
+sprite $AmazonAuroraMariaDbInstanceAlternateSm [12x12/16z] fSwt0O0m00D1XMV_aSbWzxvAdLxEotBqYbFis2L9onOeTVJBofw_veO3
+
+sprite $AmazonAuroraMariaDbInstanceAlternateMd [16x16/16z] lOy50S0m30GVE_-AnsXWLmmd04-q7W2r7We6Bqowmr8aPrIadKnrwpIR7IzMktwM_UttCuyBW2-01G
+
+sprite $AmazonAuroraMariaDbInstanceAlternateLg [20x20/16z] rP2t0GGn3CC89Ml_YP_kFYrmi9LGKlzWvuD5MdrXqGWatIeejMVEYSmgCh9wiUlejhQTiZjn7L9aG2G9ARlH5_DCjtpd-JVJVxm
+
+!procedure AmazonAuroraMariaDbInstanceAlternate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/Databases/AmazonAuroraMariaDbInstanceAlternate', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonAuroraMariaDbInstanceAlternateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraMariaDbInstanceAlternateLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAuroraMariaDbInstanceAlternateGroup($id, $name='Amazon Aurora Maria Db Instance Alternate', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$AmazonAuroraMariaDbInstanceAlternateLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/L/Locust
+
+sprite $LocustXs [10x10/16z] RS6t0S0m40EnKyxa_jkwSlS0eSpF1oYhKTxUHHRCrQodIP9yhrJ8DMTe9H7v
+
+sprite $LocustSm [12x12/16z] ZKg50GD12Ckv0Cd-qxPl0nmQmr5L-tu6J7uZjmAeXrL92yZAGmno05EIAs83Ls1PJNJBEAa_
+
+sprite $LocustMd [16x16/16z] fOg50G0G44Lry_QVLfl0vI_nNxO-9FMwZIle5FmKOGdI0swg1cifbbLoyeHKXPff3JKvDL7occ1tlC3IQbvsI8IOWXA179FuhW4
+
+sprite $LocustLg [20x20/16z] {
+lSk54G0X00D1tCdrN-sxT43m7M8M9KtxF-9z1zcFMkh7uNdH5d6HoUX2rpXpVHya2pDnPLm5i2QBMI-RfmLc4lL29U9fbJv1bHE7FSJ5IRywySIhMekKIwr7
+nOcHMp9BiWC
+}
+
+!procedure Locust($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/L/Locust', $name, $tech, $desc)
+!endprocedure

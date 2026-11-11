@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/SecurityIdentity/AwsCertificateManager
+
+sprite $AwsCertificateManagerXs [10x10/16z] HSor0O100CLGx4ls7nY7UrMgC3ItWZVPsWnExUOg8eMhYaGDQImtuDXg_LxQCXm
+
+sprite $AwsCertificateManagerSm [12x12/16z] LSsb0G0140D14xp--tt6LHEL_ihLJeXRmZOC7S6RFI4ptgsXnD7f03djM59ys2BSmzIMIpzVJN-j
+
+sprite $AwsCertificateManagerMd [16x16/16z] XOv50W0n308FPHh8__-xRhUTQfpyuldWRC1jmc6B2vrs9Jrd9tNRHi8VUzZZiPrc33g-xTH67jkoG7viZDuuTOc3M-zfR_kN5G
+
+sprite $AwsCertificateManagerLg [20x20/16z] {
+fK_H5a0H33f7ixB__-0BmFCDK8MLVyXs8NTAe2euPgYJwVQbwTFnQVXaNGBwOeUpv9xivOW8yEKAAjvi57EtbwD4qdbnWZjGYz3bCx8o4Ti7JjJZgYrVzTVn
+3ny
+}
+
+!procedure AwsCertificateManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/SecurityIdentity/AwsCertificateManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCertificateManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCertificateManagerLg>', 'SecurityIdentity', $funcName, $content)
+!endprocedure
+
+!procedure AwsCertificateManagerGroup($id, $name='Aws Certificate Manager', $tech='')
+  IconGroupElement($id, 'SecurityIdentityFamily', '<$AwsCertificateManagerLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/T/Tangled
+
+sprite $TangledXs [10x10/16z] 9SV50SKm081GuXxsd_PB-qu0vD1k0OAFIF9rmty3yPU_80IMPeajKwmS4_HpG7UQwczzR20Lubdm1G
+
+sprite $TangledSm [12x12/16z] BOs55G0W44A_tRB_jZxrkW5mdhGQLxAUJA38958bxJMwf7mTeDkXSm4lAIXHKe6xR-f0I6emfNTnH-C26O6xezj4WEXnOoOu
+
+sprite $TangledMd [16x16/16z] {
+HOxL0G0X34DJEGUw_xON_7r4q6AWptVCc2A_GRvUO-6i7fiYkvQcsin5fT_BLGoDD8wzm8qFi5ef2acQ0B2ViBZCJ2v08gWs7ZWAxzDFzZodyZ4Fzne7W18R
+OHVkVV84kT4GeVZtEkq7
+}
+
+sprite $TangledLg [20x20/16z] {
+NP050W0X20JNRlZ_QozSByUM1W-XPljwjHwzw476GlGXODBrXU30YdueWDK_0urdzZaOKwcvH8H6T6RcnnskCwcSe03yjB9Kgz480CCK3v65oM7-WScWgKW6
+O91jLAqKhS1EJnfT7CGdU-gTTAQn4glwGLwjAaeY9cb8it0KuOE9DJaSx
+}
+
+!procedure Tangled($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/T/Tangled', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws/Category/Databases
+
+sprite $DatabasesXs [10x10/16z] OmO25XPc4E3avEJW01905WSREpiR1vZ5oixEoe4G8oIBC0LXCW
+
+sprite $DatabasesSm [12x12/16z] ROw34G0n44Ld5X_zDtncye8rCl8aCkGJHQu_0QuYKqPB3MlNGUBMfLldoZJdqjTcM5d5PzPxXmK
+
+sprite $DatabasesMd [16x16/16z] POy54W0W20Hdg1F__r-xNNDDOBfW4jW2GWHtZpuw45aTj50th3caxWkcczHziUNm41pR6GNURcXrUNzlkvgMkXnQznN3wu52ctpnllcy-MO
+
+sprite $DatabasesLg [20x20/16z] {
+dP075WCX24IVX664-nyuAYcsr_RlskW0EO0KtIWY6jw9HbwqoNnG6tdxogW3JhBwgfx791Em0Pba1D5enoJJ62WNNoFjeQ_23BhwkW7cu5fpn3ZklLrdS9tL
+RQQtsRy1
+}
+
+!procedure Databases($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Category/Databases', $name, $tech, $desc)
+!endprocedure
+
+!procedure DatabasesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DatabasesLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DatabasesGroup($id, $name='Databases', $tech='')
+  IconGroupElement($id, 'Databases', '<$DatabasesLg>', $name, $tech)
+!endprocedure

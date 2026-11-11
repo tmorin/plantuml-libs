@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/C/Codebuddy
+
+sprite $CodebuddyXs [10x10/16z] DKg50G0X45AlFc7_QMqlgRJgBXjauaZaDxwJR_mH-XBIEKZQJ0YHHw37uAbeIZPHvhJHzJn00m
+
+sprite $CodebuddySm [12x12/16z] FSZ50G0X00F1nPtqN-qfC9y8YsaSHVdScd9yNDU3XnrIywwMcf8qFO-fH-JZfMvuo4BNLqaDeY28Jtd_QNarHPOR
+
+sprite $CodebuddyMd [16x16/16z] {
+LOw55S0m44A9UzX_spwk_gFduCLD_6ZyEHp9YfTAalunCyL-QcNCJGXlLW0G5_VeCZECHQFX8ibQ7c97NUJ02QaEf0EWusqyjyqpYK-MOuUmVBMfzHwmry3B
+0G
+}
+
+sprite $CodebuddyLg [20x20/16z] {
+PL055a0H0DFDxdzQpHFxQIN83K_92ulqKXH0_6mLwkRGSLOotvWpBICMLdiO5i6O1c6iKdmOvD27tD-6JEoMOmToC8cFeH7jdSuO7QjJBNVin4qZQvQHHZhE
+8eBrDEsrWrFdYOIvwpICtRpcOFhmLTmdNW
+}
+
+!procedure Codebuddy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/C/Codebuddy', $name, $tech, $desc)
+!endprocedure

@@ -1,13 +1,16 @@
-' definition of the Item simpleicons-14/I/Intel
+' definition of the Item simpleicons/I/Intel
 
-sprite $IntelXs [10x10/16z] Oy0Bs60CBZZ1pyVEmC_5mCV02cPnCF03nV2R0W
+sprite $IntelXs [10x10/16z] VOCr0S103033w5zl-pJd04RapQZgN6Iis85jrfaO0ceImWmZFm
 
-sprite $IntelSm [12x12/16z] bOO70S0W40EFlOb_jS0xQ3EFdvBDiWbaV4EPzdYpa7WspcWZvmE3n7JBxUJveWi
+sprite $IntelSm [12x12/16z] ZKor0G0n4EA8d-m_xhka35w11SYqwbdZ34MjGnbioWvLILQojz5X2WxDfkmYSXyGQzW1
 
-sprite $IntelMd [16x16/16z] hKS50S104E9T3_gddKk03GS_OwQZulc878uXN6LPLHCIgB9zPeMjDZhe_3W_IVV-sLYtWdSUs1JWmZ4-OWK
+sprite $IntelMd [16x16/16z] hKg30S103BnNZFsdhMPeUCBFLTzT-tjRiPutSEAvu-MvsvjsB_RO3wzTcCc4Fb8agED0i8m-lC-J__ZeTIBdqe6VwmO
 
-sprite $IntelLg [20x20/16z] nSg53G0n049Hpklil-tLTO3-67a1ctgV2Ju5cZILowO9tsBEVFGTYdwJfXX0vN_XogUPyM3fqvq9GlfnepEGuMYzFTZK3m
+sprite $IntelLg [20x20/16z] {
+nSZ50KKn30CmXygDzv_smuCPggDmo3PSNDvG3CM5yHmLBgfM16iAhFXrZCcPb4aFjkpN-LW0VGNOjTBoVxDUv-1ilUjrg_nlKCRMLa33qkR0LDc1dbinpN38
+5m
+}
 
 !procedure Intel($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/I/Intel', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/I/Intel', $name, $tech, $desc)
 !endprocedure

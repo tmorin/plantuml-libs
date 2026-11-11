@@ -1,0 +1,16 @@
+' definition of the Item fontawesome/Brands/Dolibarr
+
+sprite $DolibarrXs [8x10/16z] BOY50G0n20Elhf3zftqjn8dF0K7lHT1t0Na8fleuPCtZu_MmttrFIJpzyGWnXWZS
+
+sprite $DolibarrSm [10x12/16z] FOo50S0m40BvkhF_jZqgkSWhg8B2PRX6ijCFSx9hFKYBR9L6UtepcV_FbZOTayrnKhATP4gsxQzp5Kzm0m
+
+sprite $DolibarrMd [14x16/16z] POw50G0W20GHk_UVrcxFf1zkMFGLovl5umGlAv9XXMRPRk5malAq593bPSl2yeh7-ZCHoD65zGaQJcjewNfmg6REEm4V6G
+
+sprite $DolibarrLg [17x20/16z] {
+XT254GH140B0TPVyi_sVWdEZZEcJ5NLDJlcV59t6hEUQV8OvpZ3x6QOd1Atzm2i08nytQHfW1PmqjmFz2GuDiFvK4RGBNKeZE9dmAg5WRkk_Au-oGiFnUK4f
+cv1JqEesFm
+}
+
+!procedure Dolibarr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome/Brands/Dolibarr', $name, $tech, $desc)
+!endprocedure

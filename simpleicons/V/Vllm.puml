@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/V/Vllm
+
+sprite $VllmXs [10x10/16z] BSgr0GGn0C0mXpdUVzh7KoqUgV4JfgMUlK4DGGNTq9IatwPqZK0t7ENBz6rVTMhbv_xQ6m
+
+sprite $VllmSm [12x12/16z] FOg50KCX5CI2ExV_jhtQ3pmF3wdn8qpbc7DEK2IHd2uSQSEK3dXZFRh_N2Emt3Vtc6ZJ-WApT_2wWead_tJJrqytLZI15m
+
+sprite $VllmMd [16x16/16z] {
+LSt50KGX54FHu0xzTplS-PvDEDZJ9pw-PTjoZqnRQycbc6AscrkhoIwI94y7ATDHAZJtJazQuW0RMB712jXZ5TomWLm8WXE94TxW0iI5y3mdDPNdEHVgsEow
+apZEh7u
+}
+
+sprite $VllmLg [20x20/16z] {
+PSe54e103CNGuBwz_scHuF36_gJbfwhuACOeVYKIJraVgvvow3V3riROL12x3BXMVQtSaVXVEy1f6nmbcxF5ENnq5gO9PAErjQ3QDjaA3hOGo4SAqyXb_Mji
+3O_7VBJbIAaAyL0DffwdoLQx5m
+}
+
+!procedure Vllm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/V/Vllm', $name, $tech, $desc)
+!endprocedure

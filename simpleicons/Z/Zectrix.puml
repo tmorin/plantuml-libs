@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/Z/Zectrix
+
+sprite $ZectrixXs [10x10/16z] 9Ko50K1H475uNVjF-_CwWEJ7Kk-qAKhb76Q5PQo92D3am6T6Vbk6yTaWpHUp5Yo7Ciyf4aMRlV_Qk04
+
+sprite $ZectrixSm [12x12/16z] BSr70aGX309G8eJfm_rF-ulwqdO1Sj-UhsVHOtBoatYH1XCykc0sAyAamhEn6FIyXB7q4oLCIb4ogXz8EBZ__fB7JcDTuUwBXHC
+
+sprite $ZectrixMd [16x16/16z] {
+HOw50KGn3499e7h2_jD-brUD0xH-Knk1JucJdBPhrcmgAjjMjvqZ6CmDHjX_z47YY1CsWTnjaSgmS5C4_0eU9CnwVklShJVp1-ZDb2D5IY1pDmtkOdPxTDYE
+MmzZv6RtMs_RnTkU6IVb0x3LVjE05G
+}
+
+sprite $ZectrixLg [20x20/16z] {
+HT1NGWGn30JHKZjCLj__jWZO7J_d-ZJ4NCOO7L3kOzOeyt39u16lK5PykF4zt7pijRNcGaO47O5eKEcXkqkmIPCjk6r1EyyBlCsKErcB9G1vmB8ROgMWQ42-
+QMGjKU9D3l1EMKb0mDATjPHp6gxpRD3iczYOqWPIToTjGqCWEX6HkBJs_ODncvkdMYfuwI7IvTp676FMs5D07_LQ0du
+}
+
+!procedure Zectrix($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/Z/Zectrix', $name, $tech, $desc)
+!endprocedure

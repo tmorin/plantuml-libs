@@ -1,12 +1,15 @@
 ' definition of the Item azure/Item/Intune/ServiceDeviceEnrollment
 
-sprite $ServiceDeviceEnrollmentXs [10x10/16z] FSor0G0m3C2mKl3_WnlsfCbhqbkfxgg4LeeiFGSNfj3alDooaOcj5J4__W
+sprite $ServiceDeviceEnrollmentXs [10x10/16z] HSOr0G1140ImMGR_VXyEKmL7oz9Dovh-lMDsk8tvD_yckGVW7pDZoDHy0G
 
-sprite $ServiceDeviceEnrollmentSm [12x12/16z] JSnH0W0H201HOAhkVzzT00EzhyAJQQlI_-Bnj0q5ZfbEEKhFKuBCSeO4tMOIs-hXFecWhUP2ut9FLLH_
+sprite $ServiceDeviceEnrollmentSm [12x12/16z] JSp50S0m3C30XcJOVz-6GG7Voz-JQQlG_-pXj0qPjllN7TDoZ91OReZJPXBQwkun2H1RpHdGvPwgg5O
 
-sprite $ServiceDeviceEnrollmentMd [16x16/16z] TSh50S0m40D19TQjeVz-mmpp4-Y1jYYrBTIwg_AV3GwuvCKhznD3xxoOyvI08mTqruojbAQyg1MdCqlo-YyBJI11d5bzX5nAtlDQBaO
+sprite $ServiceDeviceEnrollmentMd [16x16/16z] TOe50WKW24EdZYTm__l-xdW6BFG1VI7hEjNZbVol3GvuwkluqlE4ORxeam8UEc2yQcojXIzwL-7rr99yxSyBEW4Bugar8-JCdPbwSCsF
 
-sprite $ServiceDeviceEnrollmentLg [20x20/16z] XSe53W11349HQapJ-nzutML-b1VmaiGzHz6kHQ5ShbdNbAGxoPkDzQsjbUjOa7Ixs2WWUTXC0HvOyM8jWfYJpIoptNyOsosNCBLQdaqu5dBOqJZ3Lxit
+sprite $ServiceDeviceEnrollmentLg [20x20/16z] {
+XSg55K0X34FHq3P1zj_tk-l3xm4F9LuBDFavDhH8v_pNJ5B4i1rjkVg3nRFP42M5ysY3O5W76ucZQJK-M2Q5gRIQbvAl_p2qcKqHOq-MHc3Ad18EbL8OmuQ7
+UW
+}
 
 !procedure ServiceDeviceEnrollment($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'azure/Item/Intune/ServiceDeviceEnrollment', $name, $tech, $desc)

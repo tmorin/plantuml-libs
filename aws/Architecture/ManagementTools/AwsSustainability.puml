@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsSustainability
+
+sprite $AwsSustainabilityXs [10x10/16z] BOP50G11008_UF--fujETzJ5dx89Ua3Qd1YE7xAfz2NGCb-YvBxKL52wL_c_VU_f3G
+
+sprite $AwsSustainabilitySm [12x12/16z] JOg70OGm54Blz3VOVs09rgT9QFo2kG0vKTKYvzBwhLl_tkob5KKrh2DIcophr9hUexehjGH1uOKa5bpg0fO7
+
+sprite $AwsSustainabilityMd [16x16/16z] {
+JSo50S9044HHP6T7wBzVpY3vqNUM-5O6SylZ8Xednixuj2p9n781w1csALblI6VU7wDHYPR7kgvgsiU58MAyUnc59fJUNeV337gj5qdXBKAAnpMhTyDPi1qh
+IZouykszid_w0W
+}
+
+sprite $AwsSustainabilityLg [20x20/16z] {
+XP055a8n30GVPBEH-n-O_JJ5PUfJJujweBzJJonbk6DMCbs8YEm14ihcWWktSMi8K8p376ivUyVXE82QsOv69pnIe-rm26O05ji9opIFTlguG30HrniWqVE-
+W4I2v_bSYe958ohxJjc9m5DSEbYCezztF_KJ_u9y0G
+}
+
+!procedure AwsSustainability($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsSustainability', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSustainabilityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSustainabilityLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsSustainabilityGroup($id, $name='Aws Sustainability', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsSustainabilityLg>', $name, $tech)
+!endprocedure

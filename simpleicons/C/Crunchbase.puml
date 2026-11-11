@@ -1,13 +1,16 @@
-' definition of the Item simpleicons-14/C/Crunchbase
+' definition of the Item simpleicons/C/Crunchbase
 
-sprite $CrunchbaseXs [10x10/16z] O-0d2FYWD0C37mC3c04M0p6PsO1YZ8GC
+sprite $CrunchbaseXs [10x10/16z] ROp50S0W5CLmvsV_QUjUSdlQE6YyyOSTnSG6DEkZzhP3jYIDAu0tnPl0aFjv1W
 
-sprite $CrunchbaseSm [12x12/16z] O-270nv-l80F6vk1aO6FWG5i21iVK9oNdnaipm2144KSGCo9OHvsYm4
+sprite $CrunchbaseSm [12x12/16z] TOc55G0n349VhDwm_xJdBZyA51mKlAX-_hHTLmM9BWcRHLAJBI_auFcFH8c94sPQ1th7F-NoZW
 
-sprite $CrunchbaseMd [16x16/16z] fOxL0O1G30CFztJ_QN5tUFTNYL3QcgWTVo6kvvIWdK736A40aHSCCnh_WxoVlRITkddg1bG20dCdsiqD
+sprite $CrunchbaseMd [16x16/16z] fOo30GH154EJiTD_jMTZ-RuPzCQpd26tznglbqrY7FSg0HG1v4iva6GpgOXBNIw1KSBr9sn18egbBdJ386zfXlOJFieZ
 
-sprite $CrunchbaseLg [20x20/16z] lKtL0OKm44lgUjr_sYUuymM1siKGsXRyZHw2u7vMQZVBCe_mms_s0wUH_Yz1Q1Lv398fJu-XVpAwRaOpp3ISHXGWSEvsPFfHZahQI-1-95y
+sprite $CrunchbaseLg [20x20/16z] {
+jT350GKW30FG8CL9zf_skxk-8zG3TO7NJnBrjb9qnJdnnjkfx6tzbdtMdeS7v067eAsA8VhkGNNqxLk4kE-1NNP3qqJpu2PbAy31RUj5xTLOfDQhTVq3RppT
+klqI
+}
 
 !procedure Crunchbase($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/C/Crunchbase', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/C/Crunchbase', $name, $tech, $desc)
 !endprocedure

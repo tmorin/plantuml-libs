@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Brands/Gitlab
 
-sprite $GitlabXs [10x10/16z] Oq02_32I7yhY1BBO6K1yVXP-6E23inWGB0WJeW_AW30vW2G
+sprite $GitlabXs [10x10/16z] RS750S1030InFKPx-gys_8oa77G9MVAcItK5jYwRs66ECM7m8_792ZoYBXEcNgtfSW8
 
-sprite $GitlabSm [12x12/16z] LS650G81002XirlsdzRyX5RqirSRrxuezCKbFBzmDdkQPTRDQ5TRV_t0ey7TlkeD
+sprite $GitlabSm [12x12/16z] PSQr0GGn00InCREt_seVZa6HC955D134GX6wxBzM0olb_xDagmvxN-AbXBq1C7EfPL6boYub_hu
 
-sprite $GitlabMd [16x16/16z] POxL0S1G30AfUs__QQjFa_kA0d8qnAhzAkX2lpDy_H5wG9g1-0ZVaAb_EO1Tr6ocFqtVcLxcNIe_LZqiHDgO--DKueotaJNUtW
+sprite $GitlabMd [16x16/16z] VSsr0G0n049HuXxst_PS8w_YLm1QuQGqLgLSdIi0GOgpz-L8VQGcFL39T7GYAnHNAQxM97NcnvfpuPSexom0uXNNiRdIuY0gLrNY5iY8D-jmM
 
-sprite $GitlabLg [20x20/16z] RSk50O103C30u4xsdnRtSgyr_lLoISnPAPV6WKMjDIVrU4PEQWE9wZsgGgTQtMsQOj3bHeFHQ5GQOT2H-SN2bu7DuAtYK7jAk2HkUbvKQpvgKmup
+sprite $GitlabLg [20x20/16z] {
+RO-50GGW3CIAExV_j2-u1G_M4f5cD62w3d3JMPG31dcw35C7YAuuoW41m7PdK0uu07bU1JmH_XXPCFZ3D2vqkjr30HatuQ7uxJW9x9IasFPFvbHmorlKKLrf
+ch0yxqryIVv0ptjV
+}
 
 !procedure Gitlab($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Brands/Gitlab', $name, $tech, $desc)

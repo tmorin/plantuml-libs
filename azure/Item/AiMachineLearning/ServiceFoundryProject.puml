@@ -1,0 +1,21 @@
+' definition of the Item azure/Item/AiMachineLearning/ServiceFoundryProject
+
+sprite $ServiceFoundryProjectXs [10x10/16z] NSR50G0X40ImMPV--pqN8A_WOzqTrw8FTd8x_SEv0npmXnoB28q5-BK3
+
+sprite $ServiceFoundryProjectSm [12x12/16z] NSY30G1H203GhFttFNw_7ApeqLOFeYhzztoOVluXSwV_i9SOMVCyu9t-G7VpXfdy18iR
+
+sprite $ServiceFoundryProjectMd [16x16/16z] XSU30G0n343HMFllUpRQLoGVEhmY8iiUNRhnNEZETF5iOjXwnGPe9p43uRDnQblQbzQfYPQUqVJGJyXC_iqU3GyZ
+
+sprite $ServiceFoundryProjectLg [20x20/16z] bSZ50KDH30CmX-o-xBzlcJ_hAEnK_I1yg77JFUphdaxrfl7mLSNwc5owv_zvELxt54NFI7u3QI3u9Olq-3tZr-aX97cclYGbcNuW8hnq47mACou
+
+!procedure ServiceFoundryProject($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure/Item/AiMachineLearning/ServiceFoundryProject', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFoundryProjectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFoundryProjectLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFoundryProjectGroup($id, $name='Service Foundry Project', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFoundryProjectLg>', $name, $tech)
+!endprocedure

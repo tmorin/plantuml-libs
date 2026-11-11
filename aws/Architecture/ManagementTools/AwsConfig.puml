@@ -1,0 +1,27 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsConfig
+
+sprite $AwsConfigXs [10x10/16z] BOm70e0m308TIG3__s1Fs-l8X3mBeaTWKjtJKxEplhKoSfEvHBDHgCccX5nsqMCC7fC4VkSN
+
+sprite $AwsConfigSm [12x12/16z] JKs54G9149iXjhd--mNUVrsJzPRE8TrgqZGrgriz3BpNW6bSSt-YTAyLISnMoxLCTcsrGrdT6LfnlpbaUfVTxGS
+
+sprite $AwsConfigMd [16x16/16z] {
+NO-54GGn24LdmhVGVxztw_QYE7JFcrwOVJFN7OhQzknr6R0GYDvbLbGPq25NMV2eqpw6E0ATTfGnRERCnv00eJkVOQ0MSRRaJ8e1jSeXAHTeP0lO00XkmZ69
+cTSaNuvn_m
+}
+
+sprite $AwsConfigLg [20x20/16z] {
+TT054iGm34FHsKYo8z__lblczW-_S6hCH_NLwpoN8AwXbsTZC8kiX9MhYP01ynTnCR83FEQrQHAdUOUXCLlheHwxYJ5Qch9tamm99E9oHhNKE7sQE5aoAwK8
+DcenHiyq0zb7NYmfZTu4zlrnSmOpWSktb0E8wOWZJuDreLLS7mq
+}
+
+!procedure AwsConfig($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsConfig', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsConfigCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsConfigLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsConfigGroup($id, $name='Aws Config', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsConfigLg>', $name, $tech)
+!endprocedure

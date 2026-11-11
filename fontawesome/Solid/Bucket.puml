@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/Bucket
 
-sprite $BucketXs [8x10/16z] DOQ50S0W0CComQN_NujJ3I29UM0dt8PL5xVGrlbwFb3MluJrT
+sprite $BucketXs [8x10/16z] DOM50S0m48I8ozl-qzPx0Y1h2L0Mh08ZGnxy4LKpLSdn9AVNYTVWjnpsxSq9
 
-sprite $BucketSm [10x12/16z] DSR50SC050KWshY-_QUDVqxWbmG8VM1liFS8T1lAbg8osR_zpTz-sc_yQjHE
+sprite $BucketSm [10x12/16z] DOc30G0W44LVTkq_RJvzWXgb30NGFFZ6YG1k612GQUDFKw8K_OcEr0toKndIKmdiKvO5
 
-sprite $BucketMd [14x16/16z] dOv50i0W40F3rZN__ssRJVLAa65mA3opQ63fO-PksQa-s7YfCtQZ95Oc98Buoyvlq7y5yJFKsFApCNzqf-
+sprite $BucketMd [14x16/16z] NSY50KCX303HmntsdxRz3kJG5u0oZWftQLYm8t6cJfnKzyFLFVJzLlU8d5roRImroaI1E1N1JtbmKmxqb0OrfQJ8BpBy0G
 
-sprite $BucketLg [17x20/16z] VOp50SKm5CDS3dl_QJyqZBheeV72FmgHZNHIaIuEoEiloyVt1tLSU8jWM7gRE93SNZyIdiiN3OzgOGEsfWVM0ziEP3kusy46m3IPaEtWQWTWnW1V
+sprite $BucketLg [17x20/16z] {
+PS-50GCX44JHZyImwR_QsE4yt5b-eduYJL3srcS5Baw9doJNDXX-JDjICfTShbPzGbTh35Fda7P1gy13imTupJnOpImOpGpd19fT7nxo5VMGhkY7y9imHKqn
+y04
+}
 
 !procedure Bucket($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/Bucket', $name, $tech, $desc)

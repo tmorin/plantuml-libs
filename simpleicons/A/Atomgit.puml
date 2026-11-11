@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/A/Atomgit
+
+sprite $AtomgitXs [10x10/16z] 7Sm50GGW0C30uSxwfttX0Xp4UJq9o3w5w4Wf10lB38y2Oy-A6sXpkPSym-WARsWKFLid49VU0by
+
+sprite $AtomgitSm [12x12/16z] HSl50GGn3CNG7rmmgFzgX-5T0fObTOUOsXc7FAwMPZrewg1TtIB7TOD-XBbjGzdkFtVuE-qj21qQlgUZblOzOkDKjUaE-TqkAm
+
+sprite $AtomgitMd [16x16/16z] {
+LO-50SKm20M1Br6u_RSjzVRYGPyaMXoYc-pyEUZRitCnTcjpx_rdu1aBw14tyr80UU1GjelQvdQw1qdy1JZyDaeymisXmbTE6YY47iyljAtRelcoT8qy1pVs
+qkDxuA5tRdaN
+}
+
+sprite $AtomgitLg [20x20/16z] {
+HP074iGW203jNVR_lxruEBY9ZGxkJ-mRP6LdX0MNufG2ZsaYHJP2F8v0dR9whou1uPDjmBlBefwCcCmO5lSX6kB3fz9oEYa0KIsNv81b7agI5ox4b8h07kfh
+HE0iRTqQtMvRuaC2YXRTl9RJRih2GTPSWZLLCLwVOPjagCHcpswQx0S
+}
+
+!procedure Atomgit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/A/Atomgit', $name, $tech, $desc)
+!endprocedure

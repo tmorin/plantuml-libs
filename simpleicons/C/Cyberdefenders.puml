@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/C/Cyberdefenders
+' definition of the Item simpleicons/C/Cyberdefenders
 
-sprite $CyberdefendersXs [10x10/16z] HSR50O0000GWxFRsdzOENg1W1NA2vjcS39H2NloZE5DGry2xl0ix
+sprite $CyberdefendersXs [10x10/16z] 5Sd50O10000WzBhtdzRW2_SkO_lLywdSETzjpyO-froNE2xZktq-tFtyAe4xnWlBBsF0Y9Yzjfbu0G
 
-sprite $CyberdefendersSm [12x12/16z] HSY53GCn0CLGjqVXl_-qONWYom0N98QeXavT0aByaMeRC7Fngqy7NAURrFC5n7HQfwFfROnnYb
+sprite $CyberdefendersSm [12x12/16z] FSZ50S0W44JHZplRVxK9_YuZG6m-YcQHgJFPq6LmK4GCsdirUXvNDKgPDhuW3wXuQc8oFfUe0PTvxExDlJ-qzKkfjS_Z1m
 
-sprite $CyberdefendersMd [16x16/16z] NO-50G0W2C3iZl-ljGEOEKpOH8oMFRk4EaYrNgy7TJpTm9IG2sTsgHDdBTw3xt0sGhfvwms0AoBoYNtwFYLTojdSQo_4AtPp_Qe-VfXfTm
+sprite $CyberdefendersMd [16x16/16z] {
+LShNWGCW30DGqJlQVzi3R5-IzwU28wqM4YSCZqrsZO7AIovnI1utxDkxF5VtsG7x3KwEAyBnsRrr7XLkyXk0k3wnu_95J_Mcb5uNWiDJ2PLmbGqRVh9Zbant
+PNPeVdQwuGy
+}
 
 sprite $CyberdefendersLg [20x20/16z] {
-RT350SGm0CH0nSpRVxK7OT9pp6PkCa0PbgEiNwL9wJ3jJJojRkJ3WJEatZKnLSsb0ZJzom3600AijEYqtQ11qRq1yO40RpQVUfI06qy0kBODJ3FC9iUUVvhw
-mupImoHkLYKskttV5m
+PSm55eGm30JGgNld_hVTXCS6-r2BGONHa_DancLJJDcJXJoDnJADTNTN7eL9PtavfvmhPft8GyF9BN_Dwj59f4ZN10hV1X3v1b4_TIfDcWdb84BfQ-_L0WvZ
+uwFJsRt5Vyn2aV5JDsczi5ksMub9T4h8OgVceNu
 }
 
 !procedure Cyberdefenders($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/C/Cyberdefenders', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/C/Cyberdefenders', $name, $tech, $desc)
 !endprocedure

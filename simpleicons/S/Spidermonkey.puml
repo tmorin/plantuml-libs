@@ -1,0 +1,19 @@
+' definition of the Item simpleicons/S/Spidermonkey
+
+sprite $SpidermonkeyXs [10x10/16z] BOe50GGn4CHIviQ_siTR78B0KyD1dAC7hkuRo1ko6lyXzHOWXJErxSfNK91mrUzBTKnrhC2tVlSD
+
+sprite $SpidermonkeySm [12x12/16z] JOk50S0W40E3ExV_jlN2lKkquoPMyYMTkGAsLUjcL9gSd0-sd2anwQ_2SrBzsHavJaqhE44V3i9vrbbdkteHp3bmzQCgrHG7eusedGC
+
+sprite $SpidermonkeyMd [16x16/16z] {
+PSs54S0m30D0XJdQVzlA5n_sYp7Y9_OLOS9xK_GxAKrfoidtgYWp8_4faDkiOz9x4FNo5auuF_Eqw6jujixxSDdCcJcopac52uLI4-sCHc1HxZjNrg3N4rG_
+mkbLMRElpKCT4QcjKMi9-Fa
+}
+
+sprite $SpidermonkeyLg [20x20/16z] {
+TSq7OiGm24JH0QrAh8L__zl6sEdbkOggVxIk7qO2VkNMFhhLt-AKaYT4mbFIfZmxF7IQrSExhM8qoKOFBlsARLDftFI5SLlwWdUxssTiPuK269AEw0hwh9Yh
+9LqEP6BjZib9AIXjrjjKvy-bxx6azcpUIPgyj3palCd72ABwwtzzXAUAURszTpVJVru1
+}
+
+!procedure Spidermonkey($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/S/Spidermonkey', $name, $tech, $desc)
+!endprocedure

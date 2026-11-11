@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/ManagementTools/AwsHealthDashboard
+
+sprite $AwsHealthDashboardXs [10x10/16z] 9Kn50G1037eDwz_tXBa1SMh-BaSTG41G8iQmcPZ-nqupuEYJACEhWHsgyuUE7Iu
+
+sprite $AwsHealthDashboardSm [12x12/16z] BKo50SCm3DlQMlJ_lq47BKpiVUASssTlW0AqLIZuujeIaX3X4W8BIy3cLQZIT-PuAMIN4i8P3wZqt6eQt742
+
+sprite $AwsHealthDashboardMd [16x16/16z] JSU50GD13CJ0W4bA__M6diwueohiPzSEDkgW3A8YaLaJ6IMgCPeFD5jmKgHcIxlbZbqYrXZLqIQ2T7uhY8mHXGaxNbaWgbzff-x4Ae9TAkPpvsvceQ8hbPr-
+
+sprite $AwsHealthDashboardLg [20x20/16z] {
+VKy7ZiH025E2CMFV__zx6jZUKYXk4lxwI9fwHxfClK4gBjjJ1rgHZ5I0I6l0s3IEhjoWN6bjyQx2MCdU7Bj34uTTf1DsmGDcMKTLGiQQl5N98B08WdPZgu9_
+UTZ8AW_eZYmNdeubR8NyT37ewFm7p3XvWsv73_GC3lGCoh-UVm
+}
+
+!procedure AwsHealthDashboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/ManagementTools/AwsHealthDashboard', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsHealthDashboardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsHealthDashboardLg>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsHealthDashboardGroup($id, $name='Aws Health Dashboard', $tech='')
+  IconGroupElement($id, 'ManagementToolsFamily', '<$AwsHealthDashboardLg>', $name, $tech)
+!endprocedure

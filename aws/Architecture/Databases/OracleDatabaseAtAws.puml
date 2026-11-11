@@ -1,0 +1,24 @@
+' definition of the Item aws/Architecture/Databases/OracleDatabaseAtAws
+
+sprite $OracleDatabaseAtAwsXs [10x10/16z] JOl70OC04CCIm9BPVs1wq-VERVvGjSSpgTF-YIRkNsoELohYuKdejg3cAY9itiiA
+
+sprite $OracleDatabaseAtAwsSm [12x12/16z] LKt50G0W4FeSeVllQ-TrGlh5abP9jXeUTVGwbCVSDW3kEOAOyrPJM7EpIQ_HvWJeXGaWDbUtz4a5
+
+sprite $OracleDatabaseAtAwsMd [16x16/16z] ZOv7WWH13C8wM63t_n-ybQyxkW6gK3yW6Zenv4mhLindP3-vCgRJsfM_XY9uS_eWGJInPrEI4MBkKSr7wPLV0l2ZxN-LYLzfv0hSSeZ8yr-9HltF7m
+
+sprite $OracleDatabaseAtAwsLg [20x20/16z] {
+bP170WCn20CJ8mb1_l_VR6-t7VTnfzxGLNueOoQWKsMafyOc3gUnEOpJWO4PyRX0Mkv8Ye0tXwdgdWGDzNOUG8eYY-fjR-LY21wEFKDDWysLlagxA927Wu0W
+qvywz_vwQYWDQLlda5r5ogBwZ450CJKZxx7oHBtX3m
+}
+
+!procedure OracleDatabaseAtAws($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Architecture/Databases/OracleDatabaseAtAws', $name, $tech, $desc)
+!endprocedure
+
+!procedure OracleDatabaseAtAwsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$OracleDatabaseAtAwsLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure OracleDatabaseAtAwsGroup($id, $name='Oracle Database At Aws', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$OracleDatabaseAtAwsLg>', $name, $tech)
+!endprocedure

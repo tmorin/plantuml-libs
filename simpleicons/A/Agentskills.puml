@@ -1,0 +1,13 @@
+' definition of the Item simpleicons/A/Agentskills
+
+sprite $AgentskillsXs [10x10/16z] Om02Rcu6C63Z1m8s88EF7mpu69ZueO09FmkX0s4AmcG
+
+sprite $AgentskillsSm [12x12/16z] Om01Rcv61WXWumS2DX2BcOyV3FYO6HZvuO2H4ZQIcIXs8Ri1
+
+sprite $AgentskillsMd [16x16/16z] Om03HcvkHWO4OEC70ZOOZuMF7mpuMC1AUVZXW0Ue2Ie9LSB00996AA0s7zq-TFUWkHVJF-Z-1G
+
+sprite $AgentskillsLg [20x20/16z] hT2r0O0m40NGk9xiFotk_0vU5par6zkxDNTP9_bw4qGN4it6aHx8BLTLR-fqLVIXBDdlClhtzzsNNi1iO0TmLtYdQFSZ
+
+!procedure Agentskills($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/A/Agentskills', $name, $tech, $desc)
+!endprocedure

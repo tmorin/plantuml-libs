@@ -1,0 +1,21 @@
+' definition of the Item aws/Resource/Databases/AmazonDynamoDbStream
+
+sprite $AmazonDynamoDbStreamXs [10x10/16z] HOm50G113820NV_Axy9SxK4-p4CHXbb45eSgU6U7tjCrX7aoylD_tW4
+
+sprite $AmazonDynamoDbStreamSm [12x12/16z] TOk50S0038DecFn_yTo5kWIpmnyndMb84m8zY5JMFejjVGhtNd3NDcLnKDmn6p82
+
+sprite $AmazonDynamoDbStreamMd [16x16/16z] XO-50KCn20NlIUZ-4zVT_aLnm7h2u1VOGfCrqmvaAcJO1GeBHa_oUJza6zQJN53kSbI87dBExcXwhhSozk8PLNpY5tYVzm
+
+sprite $AmazonDynamoDbStreamLg [20x20/16z] fP254S0m200VP_-9UtNBQRwDuS28_C4KdLdRtm9HBa2kgm1NAD6eGxPkfaW0Jvdh-c_ofsmpjwTCA5ZNKoRnbwrrhF9dBKVKPyqQvLfyqGZ6pCnq0G
+
+!procedure AmazonDynamoDbStream($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Resource/Databases/AmazonDynamoDbStream', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonDynamoDbStreamCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbStreamLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDynamoDbStreamGroup($id, $name='Amazon Dynamo Db Stream', $tech='')
+  IconGroupElement($id, 'DatabasesFamily', '<$AmazonDynamoDbStreamLg>', $name, $tech)
+!endprocedure

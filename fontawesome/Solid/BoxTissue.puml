@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome/Solid/BoxTissue
 
-sprite $BoxTissueXs [10x10/16z] Oq02_420O772M51XFXYB7om89X4iJaOGu4S2370M
+sprite $BoxTissueXs [10x10/16z] JSR50K0n508mU7Lb_sc_ItCAuCmHfo1fNZCTakTHNTonVWqO5iza3YKOQKYIMgcrD2re3-u
 
-sprite $BoxTissueSm [12x12/16z] Oq01_220pEQ1iBd176vkHY2RaHy2s26AO5huuMnU8EQ3AW4Ih10ZWC8O0Aw33mPu
+sprite $BoxTissueSm [12x12/16z] LSd50G0X40F0u4xwhnRPK-OL0TI2Y-BISU5chzmeZroHbvtj5IDGdRgoCfKLncue9BqMdeVsYr0lJ
 
-sprite $BoxTissueMd [16x16/16z] XSt50G113090rZtqN-svw_oYuAx921jEv5BpMhEKCDN2pLI7hSnJhRPQZMa6MmqN6kjMv_aLb9ujKHQhob_XKkEY1m
+sprite $BoxTissueMd [16x16/16z] XSn50eD044JH1iQjxd_QI5iy_Dsh4VeeOjvpLt397CJJl45R23mijRrfxesTZEE63DhDaKO1TZBBruMy0XwYnZmfhVdKIlJM5G
 
-sprite $BoxTissueLg [20x20/16z] bSx50S0m34DHXJdQVzeoS__n1MpSfCQsL3criN9XVhQmckHSJYbEo6tomdQ3zsOsf7k8t3q6g29tbY6cIMKnXRXRTRT444kIFweNXZDbNDG2
+sprite $BoxTissueLg [20x20/16z] {
+bSu35aHH203GlbtxN-qmFECUvY1jFVRZoyqHEvqSSWwTt4biiTn60b4MJEH0zmYJwxUJcpXt1ACpRJ2xenDzmWS6PvG_0rYL75p0iV30TQYBEc0YDUn7O1yW
+uGq
+}
 
 !procedure BoxTissue($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome/Solid/BoxTissue', $name, $tech, $desc)

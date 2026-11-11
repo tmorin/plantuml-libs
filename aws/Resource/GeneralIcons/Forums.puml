@@ -1,12 +1,18 @@
 ' definition of the Item aws/Resource/GeneralIcons/Forums
 
-sprite $ForumsXs [10x10/16z] Oq05B430mC0B0qWi16240J0F8eaGWmE4NW
+sprite $ForumsXs [10x10/16z] 9Sp70S1020D1LaAu_ufzQJvaiEJUr53wPYQahyYJPAXgdQnjIm9diu7N9zlxCWT5Opqi
 
-sprite $ForumsSm [12x12/16z] LSf50G0n402nANV9lznZp3jybRGfEwMcc_ALJy14vir8BnARiHFYnNYHRQV0xwm
+sprite $ForumsSm [12x12/16z] DOe14W0n10E9XFx_nGTpsmBM6JzEc5cygfUwFHl1HKdT1i5KzlSsi_SKpm7HlhRdN96Dr8vssoqqHO5HAvk2cSjm1C8-
 
-sprite $ForumsMd [16x16/16z] NSlL0SLG34Enyw3eUFznov1S_OkMbHbnY4DdGbdGYazcD5tO6KScFWM8p8Z3__0rOp4m51twNSg_cM_12W
+sprite $ForumsMd [16x16/16z] {
+JSr1bWD1209GHD3g-rzuddPDahzK1V0LYs0pCrdFE4SK1ij3HdbfEM1T7c1hBqhxPXxNSaH0XlArzqAqTwjLmVpfayJcKDTe8JNoGXp_QDBosfnmF7L9LYSG
+l_07
+}
 
-sprite $ForumsLg [20x20/16z] RS-53G0n30D0bp7xZ_kCba_OXg7qoI8cBl62ylxv2mg6iGnb6jlxjTjLjF-nWboP1nm3Pc1lFsyN59Kd--N2lDXFtY7l5LO
+sprite $ForumsLg [20x20/16z] {
+RT3L0SKW30NG6qzAzr-tXZmzFpWH_DEoyb9JxeH09-4HuSacQDofTLA2ETS54Fra0koso8qtGR1RvtYeOFUb_ziO_28F1ZowzKC06q0No0oKGebkXFAdZknY
+yCO0VG5GuLFahGWbDZZXvlBQKyFQovXwOpV27oS
+}
 
 !procedure Forums($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'aws/Resource/GeneralIcons/Forums', $name, $tech, $desc)

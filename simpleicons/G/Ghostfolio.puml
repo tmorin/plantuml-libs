@@ -1,0 +1,16 @@
+' definition of the Item simpleicons/G/Ghostfolio
+
+sprite $GhostfolioXs [10x10/16z] LObH0W0G3483W7J_qm9V7jkg05IfuZ2q6LiaNHB0QaXJkSk0rX1stKNjtuyw_8fF4V26pj5uB
+
+sprite $GhostfolioSm [12x12/16z] VSR70G0W24FHs3lPVrgxLxy23u2kPD5O6UxCCc-JZh8aT40a808m7hVst1hd79z-JYBSFm4McafHJmm
+
+sprite $GhostfolioMd [16x16/16z] hOpL0GCm20MXHlpstxQ5s0AzBtWcpgT3Vykc4_Jr3XOZNkDWnxu11TCCMGtKVzy1tutVKmzuU3D-Hk576Ij_-S__pc06-Us_l4HQ4IajpYy
+
+sprite $GhostfolioLg [20x20/16z] {
+lP250S0W30IBUtx_QN5Te8SVdg_3N0AIOT_1OAAtyjZOgHGkr71uw4g-JixJI3jKd2R0DnU0-WRRpsT062xMcWEyDh6vjSu1xbu7iX6LQEcumwykjJvHgzDm
+aNeO6Ei1eDWSwo7axNjg30i
+}
+
+!procedure Ghostfolio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons/G/Ghostfolio', $name, $tech, $desc)
+!endprocedure

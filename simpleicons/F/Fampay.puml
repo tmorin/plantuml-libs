@@ -1,16 +1,19 @@
-' definition of the Item simpleicons-14/F/Fampay
+' definition of the Item simpleicons/F/Fampay
 
-sprite $FampayXs [10x10/16z] HKc30G0n4CkRRVQVjZWZH4wjWYIeps6vYHdg8n_Dl1ErGEUII2OLH7K
+sprite $FampayXs [10x10/16z] BSM70G0n24BHdrwL_QUzcgS0H-zH4-AG0aFzsP60lRIxLQ3gqNbaMU4JR70K1OvLuIWyRW
 
-sprite $FampaySm [12x12/16z] LSc50OGm5C3GdE9a_ssfosk_qtrW9RaLzSNB0D3Du21u6zmX4tprChUi1cIBqfoULD_vGBUy21u
+sprite $FampaySm [12x12/16z] HSe50WGX30F0v6u5Q_F_toxE85Ki384bisQ_916bVZ-Nx0T0ETNikLiUefIZYJLdKPLhMjNbG0pP0XPc4SkhFxQGSTn4zG4
 
-sprite $FampayMd [16x16/16z] LSw53G1120NHEVUT_hkz_2YyA0xTJJ7fODUBE5LXDLaUOu4qZCru87HH_RWbZbjr-LI8HMi_ft4HSQbx--DRRehtSL2fL8lIpCvqGlm
+sprite $FampayMd [16x16/16z] {
+LSj50iHG309Gyjsv_ssdZ3LzgmZ0ir5WDU0ZJTACPDUhybA1H7AWKJ8kbQTkRJKa2EjG9XSUI5TuwcOGcwHKVAbzCluMJuMJJru6fv81JY0plCY9Xq33WrL0
+NW
+}
 
 sprite $FampayLg [20x20/16z] {
-PSi73iGm449H4lVA_M-x7h5MsbT_0dnhRqYJ1PYSs4skWCPLCF0cj1be9NXQ8g7haWPrBXgq9auE8MSo6IwGzBBcZ8hk-BTCJOzTfZfmLGtwbkjxYAxOJxQN
-fKWIh_fbLx8F-Yzou5lnK3y
+PSn50aGX30FGu5fo_ziEXVd-TfK4RxO700QN8AI19xl1OWgd0WWdVNUTQc1gdAmHBXcB_YSknHW75TayLNEkQ8rYq2f9gMdTjfDD6yLWCvMR19o4gbdWkQiM
+3vaZH3oP4IejdgoG7Yz2PdpIxC1tQV3HAxwonVO3
 }
 
 !procedure Fampay($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'simpleicons-14/F/Fampay', $name, $tech, $desc)
+  IconElement($id, 'IconElement', 'simpleicons/F/Fampay', $name, $tech, $desc)
 !endprocedure

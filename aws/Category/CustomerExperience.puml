@@ -1,0 +1,27 @@
+' definition of the Item aws/Category/CustomerExperience
+
+sprite $CustomerExperienceXs [10x10/16z] HOe54i1020ChaAJy_y75PcvF8F8UlgKskhCtcVBc5h08GrGAsAlfaUYU8pTlJqccYIKvVW
+
+sprite $CustomerExperienceSm [12x12/16z] JOu54W0n309d8ZJq_my-EDzAN3BoGaeCXq8YqXAmdIb7TPU4zMgooxfYs1jvvQnU5Ntb4DrDwvoMwU_K8Qp7y6RYlyC1
+
+sprite $CustomerExperienceMd [16x16/16z] {
+NO-55GCm24HViRja_u6BLNyK1vKVL0oHO6uJmKbkxGGYaG_3FKgEaRrvow5rMRnaqvEehKopaisuTbXSruUVbUzHxS8hqq32-OxdIRZnDymRos-7VO3qF6Xw
+dlzvdm
+}
+
+sprite $CustomerExperienceLg [20x20/16z] {
+RP053i1G24FpeSNkVz_vcBv82GwK3vI15qC4bHjrAXPVxaGSHliS9FpXCnXfi9ilG4QGYFQL2MiHYbNdGNrhgiYRpseHKqRx79fbaC5gNvOhHHvpCmWIY9lF
+bnbLgxGl4BLrIFGCKsA3ogwDvgXTBsYsN_tzzE_tCm
+}
+
+!procedure CustomerExperience($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws/Category/CustomerExperience', $name, $tech, $desc)
+!endprocedure
+
+!procedure CustomerExperienceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CustomerExperienceLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CustomerExperienceGroup($id, $name='Customer Experience', $tech='')
+  IconGroupElement($id, 'CustomerExperience', '<$CustomerExperienceLg>', $name, $tech)
+!endprocedure
