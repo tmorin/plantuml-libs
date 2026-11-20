@@ -1,12 +1,18 @@
 ' definition of the Item gcp/Item/Catalog
 
-sprite $CatalogXs [10x10/16z] RSY53G0m20J06hR_m3ZHefTV_zfU08vxBq2AY4eYikAUaFkuAhgJNNBThcK
+sprite $CatalogXs [10x10/16z] LKZP0O1G2F8ss7_WwATwoct7HKG-xbMTumgxIgqKtPbLOGPUCqqeJKz6AR4i8vBQ0A81--u6
 
-sprite $CatalogSm [12x12/16z] VSY53G1120LHdFp-6xvrYDt4NeR-if7BaezeEKVN4SyEv3W0baTfspeIw79aW3YNRzJx
+sprite $CatalogSm [12x12/16z] NOh50K01249jaVq7_ftlGieVtJXTf6VjDbSNldiKulGQwyF3GzUQhCWY8TApqchJQxzcbRB2wfanKEVQ5u36IigR1G
 
-sprite $CatalogMd [16x16/16z] ZSp50G0n24JHkFHVS0J-khxJeEQVeDRQ3Y56Xb4iTPfsTPwe8JMv3lAIK7UeIOMQksofavjDPxBMYEN-7z01
+sprite $CatalogMd [16x16/16z] {
+ZSm54aD120DG80bhzxzlywVUiMRriH9_9KLIdNTLWM2nwswIK3zTitiOJsThJ1XGNYG9WmN01Uwz9m1k1n7OQpj7sUlkgPOGY75tNxz4dT3TY_JaohhCi--P
+_iHEuXwwP_pc1W
+}
 
-sprite $CatalogLg [20x20/16z] hSs50G8n44JHMOlqtp1CP77ddV-Bu0yibYmouQnvJ99DZFIYUQLurOHyDcBhPA3ALvqjtJP0JwqDy8h81kARIRO2FJu4XhfQOdgyhrt1NGS
+sprite $CatalogLg [20x20/16z] {
+bSv75WCn20HHGeFarltlQvWyE_klUAKeVr9hgYetHudCU0LtrmYS3IqYxePeYdoqCUSSqxfTzpaSHpCtQG70FDNXXj9jiS0AM5OtVXhBIDPmDBAPYF5imvhA
+d99dIobQ4oLuD3eKYrNrEdi2-h7hBxSbF_i2
+}
 
 !procedure Catalog($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'gcp/Item/Catalog', $name, $tech, $desc)

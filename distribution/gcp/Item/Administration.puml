@@ -1,12 +1,15 @@
 ' definition of the Item gcp/Item/Administration
 
-sprite $AdministrationXs [10x10/16z] Oq00LbPsTYYB1SvYWhCOsDWvMO40f0x8OWDAWCKOs1YGM0XP10i
+sprite $AdministrationXs [10x10/16z] BSP70G1130EnZDFCd_3LrKi142zclFyazR_C786-hMVDjo4Bwfsg8QLfL31ZRwy9ZhW1
 
-sprite $AdministrationSm [12x12/16z] ZKY30S1038on_y2r-qhEy3nLTIzb47ZjGkljUuYeohxdAhxloO3iG_kTRGO
+sprite $AdministrationSm [12x12/16z] VOh50S0m30CJWqxxBrocLusYyIq9S-6EJjruLdnrTsrrwWRCZRUZAyDsVdG9c_sCRwq
 
-sprite $AdministrationMd [16x16/16z] XOo55KH120C3bv2t_HTytzrcTJ2SeIJRg-lJGM3lLDKndt3Jo5hVFBBEw_Cr-9hldy3e7FFZCthebxs7cEVwyxohd-a
+sprite $AdministrationMd [16x16/16z] NO-50G0X30EnNBB_mk_AeVMsp0mDOHvPGE9NxfKsFd8jbFQH9MotUd3R4tQqoQFH5MCINhdNxV7hVwSL8ewboxzDzgEV-7XyznjhVxZcmOp1EzRB2W
 
-sprite $AdministrationLg [20x20/16z] hOo35G1150EJnKV_1Pzjx3m7WqCui8noWpRSPscV4KcmoM98cevzdWUcxoOBJC8cqu7DLuPi_W9276Mblo-o8se
+sprite $AdministrationLg [20x20/16z] {
+TP055i0m24EB9Tp_nClht3BjnnbVif1Ikh002jtD6vE4S6DcTEFTRmoT7wmIn8Ev8vtTDOKuOj6yiWoWv0T2xyuhgmZvYfsndVDdPKSD3qQih0haMbVV_zXr
+DlaDezdArXs8hGlASrUJSMN7JdFzbeylBG
+}
 
 !procedure Administration($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'gcp/Item/Administration', $name, $tech, $desc)

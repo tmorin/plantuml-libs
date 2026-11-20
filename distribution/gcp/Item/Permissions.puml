@@ -1,12 +1,15 @@
 ' definition of the Item gcp/Item/Permissions
 
-sprite $PermissionsXs [10x10/16z] Oq01x9oSK0QGnGHdSI1aCG0hL0wa3YJF3cLn8bW
+sprite $PermissionsXs [10x10/16z] LShL0K1H209GkA78_lk-plDZ03OaJbqUvwOiNvlkZQ66FuwPSt-6zfu5AYMxtC0BLW
 
-sprite $PermissionsSm [12x12/16z] VOl50O1G08LiPF-1xVZDwMMNWdmINGDjGSzetpK1l0ypjpulVDfkERdr3W
+sprite $PermissionsSm [12x12/16z] RSpL0KDH20FGYuVils_xtCyFpdXmT6ofe9gwvZRdVkdBjgG56n_Kt6JPJW0aCLMeIKyuvRCcprSJ6Ny
 
-sprite $PermissionsMd [16x16/16z] ZSw53S100CF05DFilt3rp63X2Or-rtVa92NbDBuhQ-ZN-aBCcDZkV2d58vfaOgIn2NWhitBL3m
+sprite $PermissionsMd [16x16/16z] ZSx50GCn40D06GNzznlc7CtBNiQYDjNnDYI7U2eYxPJdlzx_TIsFAJd2MwS6ZYfzKeb6UHv3qdR2svTNlhe6UFlBTy3WlD8DyUiC
 
-sprite $PermissionsLg [20x20/16z] dSxL0S0W34LHB7Bt7xZkNjuVXrXuJ3f2D0FsPeDneC7IXVb7IuyxvbiyL2P9thtBl9VPUvWDPA2zeSCLU-EpNQK5
+sprite $PermissionsLg [20x20/16z] {
+dSx50S102011tFelEEwUVSu9m4t4IZkoYAhOa8PxPjdQmbjhSKKu6Qxmp7omXEtZo2o23Qg58_m9ITILLu_58poogb87vXQcNLgNbgYLqGRbzk7UjBEn6hFs
+hOpfa36SrG
+}
 
 !procedure Permissions($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'gcp/Item/Permissions', $name, $tech, $desc)

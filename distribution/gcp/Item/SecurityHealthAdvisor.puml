@@ -1,12 +1,15 @@
 ' definition of the Item gcp/Item/SecurityHealthAdvisor
 
-sprite $SecurityHealthAdvisorXs [10x10/16z] PSk50S0m20J0YxF_mdKlpWluH-sbWEmUGK9441aqGm6Tut9wpvW1
+sprite $SecurityHealthAdvisorXs [10x10/16z] LOg50G102089tN_axpnRm8SufvDhZ_4Ucmps9mq4jVmzEaaO4miV5G
 
-sprite $SecurityHealthAdvisorSm [12x12/16z] VOp50G0n2C22i__2fvLVWoidqcncASYeylCpRtwgko56Fw1jv1QlMoynPH0ptTm
+sprite $SecurityHealthAdvisorSm [12x12/16z] NSV70K0n3C9G0R7tt_ZtcdUIcEcjhkHSDy0v5eziK2pGKRBP3IZCsG6PKms7cyHi1G
 
-sprite $SecurityHealthAdvisorMd [16x16/16z] ZKw30G1H2BtS_XEVlftTkmu9omHKYIYbglpOND7WvxbPFkOFlUSnz4FrgQNvv_oJ4AJt7w8yBleKosrMUgPFw0O
+sprite $SecurityHealthAdvisorMd [16x16/16z] ZKw30G0n3CoXs7_XjzdOkMWY91qovc9AM5ALgOcr82zZN795cGQMlarhF2bZgDf3PdYR3mrQ6TlBmh66BUTqJjW0kG3Y2U7U_QOU
 
-sprite $SecurityHealthAdvisorLg [20x20/16z] hSu50eGW58JXbxFS_yJBsDs__Qc0V92csrm2WDT6CGgl4pKCTpEp3Il2T6gf_3OOkR2KvBT6cFIhuACXQKLaiku4ppR_5H3cKtFaaeXmqhnmavlz0G
+sprite $SecurityHealthAdvisorLg [20x20/16z] {
+bS-73KGn309GR8BHxJ_mxyqwjQ0MFPE6sSI_o2CRPzaP95yTLfupvcF2bTSaW6Vns-CFFL8e1r0bgNOfrRumDYRRUtCVl8y99m0JyTQWEilCry8wdzm-P-qK
+wEYnKqy4PhC2
+}
 
 !procedure SecurityHealthAdvisor($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'gcp/Item/SecurityHealthAdvisor', $name, $tech, $desc)

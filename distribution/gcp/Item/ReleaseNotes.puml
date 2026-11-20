@@ -1,12 +1,15 @@
 ' definition of the Item gcp/Item/ReleaseNotes
 
-sprite $ReleaseNotesXs [10x10/16z] ROd70S0W3CHq2Mt_XMdw8h1zXIVvlazLap16jXeRCpQgVyF05jKULRl00W
+sprite $ReleaseNotesXs [10x10/16z] NOY74O103CFaDFRV68Shm2l5EdDGc9XkwF09kRGLMMrVYsp5OpMYjRP5sRBJN7ou0G
 
-sprite $ReleaseNotesSm [12x12/16z] Oy0FMDd150S8C32mCuBO804u6oB101U7iTc104Z1r42baPLoi8811wg5
+sprite $ReleaseNotesSm [12x12/16z] POY55G1H3CBImhVz1pxtIuKy-9D7BA28LRjjq4YGY0MyzgAu27QtdFZmHUch9wq23P1PYRMFLZVCYna
 
-sprite $ReleaseNotesMd [16x16/16z] ZSb50GGn00ImbElVyE4ovpNWiMAjXU0hzH-q0hKn7k7VurUG37__QenzilvxNl_VFlsi_zEkJ-oz0G
+sprite $ReleaseNotesMd [16x16/16z] ZSg54S0024FHuD3zzwsx_pCU5_oDY-PBHKG1WOwCZ8WS_cc3Szbnycpl2m9ZjWm1E5aNkva5eQ7PyxemEwCEdfljEcMJIPSOrpe
 
-sprite $ReleaseNotesLg [20x20/16z] dSo54OH004FHhAV_XkyWmHtUMEQlu8kyJvLp356wY01hDEtcnX84YEm4jyMN5HWQHLUcrcpL5lPloQabmxALdZRNRpTDRjjIWzLPmOa_
+sprite $ReleaseNotesLg [20x20/16z] {
+dSZ5OKD144J1rxCVUfn_lXOiYQcEnG-YS4ksQCfwie74LYlIpdGAMBn5FT5eyzwEQOT-MO7cHKLrSqNZd2T_ACiu7G5Nj-tRVd-xTND3FmUg2DV3EJX5fObd
+3W
+}
 
 !procedure ReleaseNotes($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'gcp/Item/ReleaseNotes', $name, $tech, $desc)

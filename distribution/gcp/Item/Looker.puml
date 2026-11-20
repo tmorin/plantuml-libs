@@ -1,12 +1,15 @@
 ' definition of the Item gcp/Item/Looker
 
-sprite $LookerXs [10x10/16z] JKg30G113ClL-o_yh1LXrJa935aw41O9ufalISa0-L5Urmm6V_y6
+sprite $LookerXs [10x10/16z] HKk50G0m2BA0_ozUXorXFzpFKN6lU9XbAjQ1iRXWJbFUgnRjoi9pxzq1
 
-sprite $LookerSm [12x12/16z] LKk30G102CpT_Wk_ZJhIV_YWq8FzaTdrpGC7UViyCpc4sTMBgUkyC9Bjb0MnK0K
+sprite $LookerSm [12x12/16z] LKs30G0m3Aln_y4pQoRm2-w2XSxGG4vDX7WQ8GjQfRKGSnKJuAlFJQvtyVNxyrO
 
-sprite $LookerMd [16x16/16z] TS_50G0X40F0iDv_mwUuvCK4noOfJKLlC-gf1Ei8aT5GdOupH0HLUhnTr3MHsqpnN6Vhv3omQd-Fqk629tpwpWq
+sprite $LookerMd [16x16/16z] TKx50G012BA5_GU-xl0dBH-djqTlRsJOzM-HkluPwhSm4ok__cNLj2EUC-dS_yerDhSVgz9xxukrPYzrB2bdOD7LMPV5OBlytGW
 
-sprite $LookerLg [20x20/16z] VOu50a0X2CN0WDt_mh_3VlQioImwGjeIxPYPIPES3pndvLr9qiSWDxTT04A14duAGU63FoCV2kyqV-oVwdyvlIpzJ7YCdL8ktQXK1Cp0Qcc0AEli
+sprite $LookerLg [20x20/16z] {
+XO-50G9H241fdliFREiFu-WE-GNw9RG7FNqlp7AthQzLjBTOXNZ8NXXVrfhaYLpYIcWcp8lWLgBDgFHdWP9ZHRyEOCJgTVo85QFX1OO_TKoFt1s7vH5eGDT7
+ejFa02u
+}
 
 !procedure Looker($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'gcp/Item/Looker', $name, $tech, $desc)

@@ -1,12 +1,15 @@
 ' definition of the Item gcp/Item/SecurityKeyEnforcement
 
-sprite $SecurityKeyEnforcementXs [10x10/16z] PKo50G0m2BBr_uVNFJi0ECs2XUeGnL3xLCF6ZHJhqKEOEwN_wlUVeFGgaW4
+sprite $SecurityKeyEnforcementXs [10x10/16z] JSR50G11408mOBp_WizbymeMwfPqRim6Very5jtEQyZ07OJVu_GpgDwzTW
 
-sprite $SecurityKeyEnforcementSm [12x12/16z] POh50K0n5CBWAVil_5tRd91W80h1Csg3h3sQ0XAExEALBoUkZ2toYkZDi2c7z6JpTtzP0G
+sprite $SecurityKeyEnforcementSm [12x12/16z] LOkr0G01308XIlOV-5slGl4dkaW_f4zByCDqWsEeNPSiXZmq9IKI9viitDhHf_9KtBcqwSP5-tDzM04
 
-sprite $SecurityKeyEnforcementMd [16x16/16z] ZOp50GD14CEyv57_3IV7JFePzO4AeEH99df2PJA2K0R9UT1G9KXo6RIXn90d3T1ZsPe0gjmqCRnbwqQtvfq6dlIwl-8F
+sprite $SecurityKeyEnforcementMd [16x16/16z] ROp50SC04CDyhEm_SBbX_Oow8yAb-2i36Ddyz305gUol1bFi2k0AM7L3x_gNFwafHMkbbb3dJXEgLK_FNji2UwtmMK9TMl4qkUkE9m
 
-sprite $SecurityKeyEnforcementLg [20x20/16z] bOw50GCm3CCKSlt_msFcgHWsVo7RHIklhkKzGwWvuHF1wCONZBr0klhEjtIVT-yxaOo2EwS8pRsOfbJSS1mw_Esp_P_l-mn9CCrRjW
+sprite $SecurityKeyEnforcementLg [20x20/16z] {
+VP050e1020INNFp_XyLkvtgkmJSYwEfih1g3qdRbnUhia4FsEBCh87ZiZ1ukktLtjjQoEIsMpXMCszsi6G8CRFIuFP29WvYleUE4rdBOmodrx6nnSeYXYdTN
+V3Xbyd2dxOF1g7ynVJ82
+}
 
 !procedure SecurityKeyEnforcement($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'gcp/Item/SecurityKeyEnforcement', $name, $tech, $desc)

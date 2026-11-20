@@ -1,12 +1,15 @@
 ' definition of the Item gcp/Item/DataCatalog
 
-sprite $DataCatalogXs [10x10/16z] RSE30GH100J1Ma_-2RznQhYcjjGAqL842mI22ItKEM1-HX9RxW
+sprite $DataCatalogXs [10x10/16z] LOd50G113087DjP_mwUl6CeU_LIESG5X91pWltdf97mjyQh-2qdy4y6Q6m
 
-sprite $DataCatalogSm [12x12/16z] VOg50G0n38Iei__2xoubdZjwHCEscP9DbtMjKBTzfYtkj3T8xWrIszkiPsH76mz6
+sprite $DataCatalogSm [12x12/16z] TOs50G0X201fVl-97xjFwO8t1FmXGS8v-UmfQwMggPAa6mk3IQKcJNvf9GoVe22gCYuGxFm
 
-sprite $DataCatalogMd [16x16/16z] ZOg50G0n20E3P_-5trrx5OYW4Rj84Yj1JdgrEEK9U8so4YkKwL-bB9iMHjmMQHmDSpvhQAxzbHfKOYT92bhe0G
+sprite $DataCatalogMd [16x16/16z] ZGy34W11Q7Fz_y67S1XkDjOU87zi0I1d42pVjNoDT4MoVgpbD8tajmGOVopH7AlKPHnmA_NPbmQP_ljIbXM8sJCWPhpts0a
 
-sprite $DataCatalogLg [20x20/16z] hSo53GDH30DG1-lz5oxaiwXqJs05SGMbdhN2Z5JHsIVPUavwQna5rNj6ilLuguXMnDvhc1NcMs_EbIqb3QNzhv4buyFU_2s9fcKN18I2dV059tyIVES1
+sprite $DataCatalogLg [20x20/16z] {
+hOk54GGn30Cbi_il-Eau6NZQe7Sa_05gAKvO65IpNfy5LlhYF4iMbm60zkf6lfGKiSCboDR3QNC97keOQCabbReNhFBrQZHdLviJArcxWGdYH3iGXGlI3sHi
+FS27t04
+}
 
 !procedure DataCatalog($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'gcp/Item/DataCatalog', $name, $tech, $desc)
