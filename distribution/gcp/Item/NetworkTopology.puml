@@ -1,12 +1,15 @@
 ' definition of the Item gcp/Item/NetworkTopology
 
-sprite $NetworkTopologyXs [10x10/16z] Oy0AE40OH32mWZaS435sE0iXne0a1WRCx10-0W
+sprite $NetworkTopologyXs [10x10/16z] NOY50S0m3CDasFydZwbDp4mdW1OMzweIkknBwPEuDaB10LI1pNSR
 
-sprite $NetworkTopologySm [12x12/16z] TOs30G0130ElxluBlusQ2RyISr1VwdOefPSHp8NCTNB8KlUbpe-vwD9dBGITBFLLHW
+sprite $NetworkTopologySm [12x12/16z] TKg34G0m38oltN_WsWXVy2jqwP1fmLhNCg644K0oraIfu7BKEhupb34BMNg-42oNOAi8
 
-sprite $NetworkTopologyMd [16x16/16z] bOo30S1G50FlCzb_uThkFPFVH8S-5FTnI3AW0cQbpsCPqyNLjOxxMiwxEWvBMlVpuNvzWYAKse_DW2KDqRpI0W
+sprite $NetworkTopologyMd [16x16/16z] ZKw30K1H2Cnr-m_yRRxiZfg95vyOhLRKNF4OcpMOsWVLnWvFgGz6-9nV-uNBlEovhRdDUOmjdO-Eb4eolKRE029pRZZzKWy
 
-sprite $NetworkTopologyLg [20x20/16z] fO-50G0n2CIWTjb_uNTtIHK7-udlFWQfUyNmctMIcHDwNSYzgRqIGvRItOoMMN8TwF9U1zhfHDxfMdRvEDMDTCshwxACqqMK6K8fDavI1dEGssDg
+sprite $NetworkTopologyLg [20x20/16z] {
+fKy30aC125sk-nzuw3Nh8nk7VI0CJQeq8SvgKygzPDAPhOelWYROMlqYJH5JkNjgYC4ZUe-PlyKeKpxKBPpN7WjYkCpR8_o93xZcftc4Ax8OwNuEqOvCxs8u
+0G
+}
 
 !procedure NetworkTopology($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'gcp/Item/NetworkTopology', $name, $tech, $desc)

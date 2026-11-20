@@ -1,12 +1,15 @@
 ' definition of the Item gcp/Item/Security
 
-sprite $SecurityXs [10x10/16z] Oq01hEpi49gLWPqTp6PYG6E1PLc192US1HS3OJ39p0upZmr80W
+sprite $SecurityXs [10x10/16z] DOg70O0m20IfJ_QVs4CDzPjHxXmgAaS1I8xEAH1ivY9f5dLpVLVTNzfA1GK0Epz08FO-
 
-sprite $SecuritySm [12x12/16z] VOs30G0W54GlNlildArNtyAE8Pjdm4Xsep3nyoE8kE6Bb5V59nBPDvmEeA8fama
+sprite $SecuritySm [12x12/16z] HKw50G0m2C92_tzu7GQn53D4S4BSazk50wpAuTI6PsRfqAEHjVLUvzH2dpVWSv_1cCSmmY9Y8FUZT6YTppp8hVuC7G
 
-sprite $SecurityMd [16x16/16z] bSo55S0W40JHHUUb_uA1Ytl2eXyvtISITqef0NcJn1XZR3euTZfPP1biSfiPvzNfPBp6p1xBBHLs75-mSNoog08
+sprite $SecurityMd [16x16/16z] TK-50S0m35e5mlyFp-fkSU3Qha2BrN6HqL62-zt8yBuqa_Zv_CEqRvrzqvmdauzl_MXU2HiWKkQ7V_raAH50zc6P87y_gX8cuIZNwn7sIXy
 
-sprite $SecurityLg [20x20/16z] hT254SD04CNGlqUQz5zmI67ma6L-vijMZSfxOqvWlCiCbsPiNYJ1bkOjO5hRsSoFEFmmt8uNAyhjYq7iQTDRHQqWzxhMaQoThNWbRtT8tglSEm4
+sprite $SecurityLg [20x20/16z] {
+fSxL0G8130FGQbBs7nWBxjpbyrNjGwAH3m8qP-eg1PGRkDVsepWq1Huo8JDRQvmRemm4SEdhG_IRRuvcHqFh-T5GAwfJ5hYOJvfoxQD6TKK6NRrEcrEJbquq
+HbtNPBFiGtO
+}
 
 !procedure Security($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'gcp/Item/Security', $name, $tech, $desc)

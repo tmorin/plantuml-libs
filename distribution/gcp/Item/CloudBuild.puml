@@ -1,12 +1,15 @@
 ' definition of the Item gcp/Item/CloudBuild
 
-sprite $CloudBuildXs [10x10/16z] LKg30G1020mNzb_upNYYltHzKLMPYhQPbdkIJaJ94o5zef4RmSQLwQaA
+sprite $CloudBuildXs [10x10/16z] LOk54G0W30F9X-l-6-DQRoHz0NFBOCOreXye44mo65UMh26adziz33Sg
 
-sprite $CloudBuildSm [12x12/16z] Oy00Z0WcCpCpZ0K1K0u32n23r055sDZOW1IKpS01PpDnmDWW3fY4S91D1K8q
+sprite $CloudBuildSm [12x12/16z] TSV50G113810M4dwh_ZSXTV0CsMlJhbJjn4ciBXPepGQKzLMUb0N5qnTFGsbBiQcJVuR0G
 
-sprite $CloudBuildMd [16x16/16z] ZOk50GCn30DFLcZ_XTjdfWjQm3V2iPda7isZP-RmyFDSwOTSvX_Ob1AkU3FJTZDrEmjQHijipyygh2DecDaGY4l-
+sprite $CloudBuildMd [16x16/16z] ZKx50G0W40Bi_GUsyoUl2mfVe35wjWRELMtkj_KNG8Zh3PZGDdK2ZHWSacYqTohnx11JnDpLacXwwawVgRi0tuPjnnSA
 
-sprite $CloudBuildLg [20x20/16z] bOz75WHH208BwV5v_mjF_ddLjJC2tCP79sp7qV7IbGSq_iNK2v1GWWJHjY0pAR17pvcAajRUWpfwN7kFYwfaxbaevp3Dh5gKqMNDWVuzCHF6mJrU
+sprite $CloudBuildLg [20x20/16z] {
+bOzL0iH024CJVEz_uBLQshzvepXW5NS-DEPVJ3Nq3T5kujyG6da-6zidImIu6xoQRD1FdIChKGDJNJGuVTTbeEVX1yGh0HUT4-JMkipbW4woQVdNGTXq11Jx
+xpK-
+}
 
 !procedure CloudBuild($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'gcp/Item/CloudBuild', $name, $tech, $desc)

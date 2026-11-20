@@ -1,12 +1,15 @@
 ' definition of the Item gcp/Item/Onboarding
 
-sprite $OnboardingXs [10x10/16z] LOc54OC05CNIGYx7_WFZ-kKft-baBNVMgX-_Kqt0Q46W_6XNUyi-Dl2U1G
+sprite $OnboardingXs [10x10/16z] LOZ50G1120C72-c_uTFNGfpZUdulQTqGqiokdTzcLmn4z0GCg0Wj3J6o-2-2usu
 
-sprite $OnboardingSm [12x12/16z] POhN0S105898uRd_nEdrpYyLw38yRJOvswXRFvOU_Lnt7mzlxyBUXMB8sPNTVfpYJcYp0W
+sprite $OnboardingSm [12x12/16z] VKp50SC043e5zb-uZNl22xShCbSMW1WJQtIJefkF51o4oYP5mQF7ccEi-y2hVI0An-YYMXh8T0-bVU0F
 
-sprite $OnboardingMd [16x16/16z] ZKx50S1020kIflilN3tzmOyuQaVb-f6Il7t9_vUiVVsN0D_-SzCZjEGP_fy9K06e_QG3E7vzy-VdjrZyiUqbIdS3
+sprite $OnboardingMd [16x16/16z] ZKu50W9026FKzlyNAzZj9RMmzmjuIBDLjoowYbBSicgIefkX9vryAp3ajQzS36hmLC5wygtCg6s-J_ZnhtFUywMKniczQ_M9cw4c_S5msd_h
 
-sprite $OnboardingLg [20x20/16z] bSy52WGn50JHM6-pzx_mKCG_ciB2YwVNcgCKoTP54eQUWb4TCcoKeM0Sa6_J_pSknSOQOpnk6EDkocW_VPbu5nFsOMYnWmd1ujzo-37_2kMMNli
+sprite $OnboardingLg [20x20/16z] {
+bSvN0eH020DGYYHu_mklRDZwPtJQcsetuu3_IG7i-gO3LI3PnxV8s5A9R9JnROjd_E_DwDXRdwQRPL8sVBgowGTurKcpDPHF6soOdx8gb3cQd7MQnsXpJzpa
+XNhkPhNJ_kDsEmy
+}
 
 !procedure Onboarding($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'gcp/Item/Onboarding', $name, $tech, $desc)

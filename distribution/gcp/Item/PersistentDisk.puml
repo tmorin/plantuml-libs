@@ -1,12 +1,15 @@
 ' definition of the Item gcp/Item/PersistentDisk
 
-sprite $PersistentDiskXs [10x10/16z] Oq02p120naB8Ch410PZD1A4Om08S750L41O7141amGe
+sprite $PersistentDiskXs [10x10/16z] JOk50G0n2CIIAkm_yBiqk1mBzQHTdJmqohE3Fdk_wj7Wev0yMvKIWXadyhC3
 
-sprite $PersistentDiskSm [12x12/16z] PShL0K1H209GRFTV-CNjE5yAOCDItVUwWVt-cnZc7rJkL0_r3sdMpGVBpLvkomgR5m
+sprite $PersistentDiskSm [12x12/16z] LSg30G0m30J0ZxF_mZMl2F5XcNekmiFCSGZ3EqpkgdDVzJOxHEA8wBzrdYFt61oV2W
 
-sprite $PersistentDiskMd [16x16/16z] XSU54G0n2011VEY_uPUuPoDmSCS5hJlCe3H6fIqGI5PTzmX4k6jtXKPfId9xCVVa1G
+sprite $PersistentDiskMd [16x16/16z] PSw35G0n303G6FiFVAZndzeORZZKlt0ZzSzCJVz3D_ugl_57ju_ZM66c8_yzr6paHgrxo_yK809Xcd-jpEiVC_8NaNZUVti1
 
-sprite $PersistentDiskLg [20x20/16z] bSg54S0W5C3GBosm_yAuE-yy5tZ0jVS6nRwHYEOjMJQeb0KHXwQKYksFKglLZHBE3LLjtK3KOCu
+sprite $PersistentDiskLg [20x20/16z] {
+ZSx50S0m34DHAJAa-mzSPdx77x3n7xN3zrOMMoCsMsFXSEjmptCGgUKY0Ok9iEcRoymAHiLayWZ3HZ4nq8npoyY1GxLEbxSrXYQSRAtu8jTcTPLhQxRO62RS
+mOCE
+}
 
 !procedure PersistentDisk($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'gcp/Item/PersistentDisk', $name, $tech, $desc)

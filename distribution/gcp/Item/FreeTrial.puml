@@ -1,12 +1,15 @@
 ' definition of the Item gcp/Item/FreeTrial
 
-sprite $FreeTrialXs [10x10/16z] ROY50G0G44MVPl-1TNFtc--vUXgKCSPbWkb9GWZ1PG9z-wPr2G
+sprite $FreeTrialXs [10x10/16z] JKc34G0m38mU-ozSdHeyuvkUpEchV4T70A0F74NAv55bwTGLaNnjFdNRew9xfZk-sG
 
-sprite $FreeTrialSm [12x12/16z] VOY55S105CAeGlSVkESk-K8UM4FIdqCIxLaxdkTvAVk1it9y5jfpdlfhutTqD1W
+sprite $FreeTrialSm [12x12/16z] POe93e0m20I18B3__x0JpA5sjErUzYNSp6DbQgf6kRggSKbx0PfxO_AcO3CpFM1GpwOEpLvTgzqzWii-t
 
-sprite $FreeTrialMd [16x16/16z] bShL0K0X20LGE_OVM6duUd5CuAOFUizmrzwad4hcQwqv5v0qc7FJ-w5E6wovKK83m1mVgaF-T_tg0W
+sprite $FreeTrialMd [16x16/16z] XSk50S0W30J06Fzq_uMBrkNGcFnp8ieDUe-P1xHGWm19CBI6I0KpomqJiKkig6eCe0xuKf3r3YbihrkFv_nxZ4CigI1PRfLVAm
 
-sprite $FreeTrialLg [20x20/16z] jSr50e0W40NGJqnu_mjBryRacKpY8n8HDh0Ie921Bp6dWOX69K99Y562W9QOVH037L68fIyIhtrlNppsxed1fnWB1HxtdG
+sprite $FreeTrialLg [20x20/16z] {
+bO-54G0X30GXGwp_XZ_sxeiSitZx0q3tw02B4eC0o7DnR4ZsfJfou19J8Q51vYB9dQboCRfrI4OvCftNgiCS4HVNmhYNZ7HZUoyU73qxlDfBZeXwZFd31XYU
+xGSJ
+}
 
 !procedure FreeTrial($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'gcp/Item/FreeTrial', $name, $tech, $desc)
